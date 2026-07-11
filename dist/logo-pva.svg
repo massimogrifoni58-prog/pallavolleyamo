@@ -1,0 +1,39 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Logo PallaVolleyAmo</title>
+  <desc>Logo circolare con PVA, V dorata, fascia nera con URL bianco</desc>
+
+  <defs>
+    <clipPath id="cc7">
+      <circle cx="340" cy="340" r="290"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="340" cy="340" r="290" fill="#0b0b0c"/>
+
+  <g clip-path="url(#cc7)" opacity="0.08">
+    <line x1="40" y1="40" x2="640" y2="640" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="160" y1="40" x2="640" y2="520" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="280" y1="40" x2="640" y2="400" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="400" y1="40" x2="640" y2="280" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="40" y1="160" x2="520" y2="640" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="40" y1="280" x2="400" y2="640" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="640" y1="160" x2="160" y2="640" stroke="#d4af37" stroke-width="1.5"/>
+    <line x1="640" y1="280" x2="280" y2="640" stroke="#d4af37" stroke-width="1.5"/>
+  </g>
+
+  <!-- PVA rimpicciolito per stare dentro il cerchio -->
+  <text x="165" y="450" font-family="'Bebas Neue', 'Arial Black', sans-serif" font-size="270" font-weight="700" fill="#ffffff" text-anchor="middle" clip-path="url(#cc7)">P</text>
+  <text x="340" y="450" font-family="'Bebas Neue', 'Arial Black', sans-serif" font-size="270" font-weight="700" fill="#d4af37" text-anchor="middle" clip-path="url(#cc7)">V</text>
+  <text x="515" y="450" font-family="'Bebas Neue', 'Arial Black', sans-serif" font-size="270" font-weight="700" fill="#ffffff" text-anchor="middle" clip-path="url(#cc7)">A</text>
+
+  <!-- Fascia nera al centro della scritta -->
+  <rect x="50" y="305" width="580" height="82" fill="#0b0b0c" clip-path="url(#cc7)"/>
+  <line x1="50" y1="305" x2="630" y2="305" stroke="#d4af37" stroke-width="2" clip-path="url(#cc7)"/>
+  <line x1="50" y1="387" x2="630" y2="387" stroke="#d4af37" stroke-width="2" clip-path="url(#cc7)"/>
+
+  <!-- URL bianco -->
+  <text x="340" y="358" font-family="'DM Sans', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="0.5" clip-path="url(#cc7)">www.pallavolleyamo.it</text>
+
+  <circle cx="340" cy="340" r="290" fill="none" stroke="#d4af37" stroke-width="5"/>
+  <circle cx="340" cy="340" r="279" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.3"/>
+</svg>

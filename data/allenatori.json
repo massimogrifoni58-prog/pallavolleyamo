@@ -1,0 +1,92 @@
+{
+  "coaches": [
+     {
+      "id": "1",
+      "name": "Marco Mencarelli",
+      "team": "Nazionale italiana",
+      "category": "nazionale",
+      "photo": "/coach-mencarelli.png",
+      "bio": "Nato a Orvieto, 23 febbraio 1963, La carriera di Marco Mencarelli inizia nel 1992, all'interno della struttura tecnica federale delle squadre nazionali come collaboratore, sia per quanto riguarda il settore maschile che femminile. Dal 2001 al 2004 è vice allenatore della nazionale femminile, con la quale ottiene la medaglia d'oro al campionato mondiale del 2002 e partecipa ai Giochi Olimpici di Atene 2004. Successivamente guida la nazionale sperimentale ai Giochi del Mediterraneo di Almeria 2005, dove conquista la medaglia di bronzo, iniziando al contempo una collaborazione con il Club Italia.Partecipa al campionato mondiale del 2006, sempre come secondo, diventando anche tecnico della nazionale femminile under 19 e under 20 e, dal 2007, assumendo l'incarico di direttore tecnico delle squadre nazionali giovanili femminili e del Club Italia. Alla guida delle nazionali italiane giovanili ottiene quattro medaglie d'oro, di cui una nel campionato mondiale 2011 e tre consecutive ai campionati europei del 2006, 2008 e 2010, oltre a una medaglia di bronzo nell'edizione del 2012. Alla fine del 2012 diventa commissario tecnico della nazionale maggiore, vincendo la medaglia d'oro ai Giochi del Mediterraneo 2013, fino all'esonero avvenuto nel 2014.Nella stagione 2014-15 allena la squadra femminile del Club Italia, che guida alle semifinali dei play-off per la promozione in Serie A1 e ai quarti di finale della Coppa Italia di categoria; contemporaneamente assume la guida della nazionale italiana under 18 femminile, che conduce al titolo mondiale 2015. A partire dall'annata successiva viene ingaggiato dal Busto Arsizio, per il suo primo incarico nel massimo campionato italiano. Nella stagione 2018-19, alla guida della formazione bustocca ridenominata UYBA conquista la Coppa CEV. Per il campionato 2019-20 viene ingaggiato dalla Savino Del Bene, per venire però esonerato già nel gennaio 2020.Nell'aprile del 2021, dopo aver guidato per alcuni mesi l'Azzurra Volley Firenze, torna a ricoprire il ruolo di direttore tecnico delle nazionali giovanili femminili dell'Italia."
+    },
+    {
+      "id": "2",
+      "name": "Daniele Santarelli",
+      "team": "Imoco Volley Conegliano",
+      "category": "Serie A1 Femminile",
+      "photo": "/coach-santarelli.png",
+      "bio": "Nato a Foligno (PG) nel 1981, e' tra gli allenatori piu' vincenti della pallavolo femminile mondiale: con l'Imoco Conegliano ha conquistato 6 scudetti, 5 Coppe Italia, 7 Supercoppe e 2 Champions League. E' stato anche selezionatore della nazionale femminile di Turchia e Croazia, vincendo un Europeo e una Volleyball Nations League."
+    },
+    {
+      "id": "3",
+      "name": "Fausto Polidori",
+      "team": "Nazionale Guinea",
+      "category": "Nazionale",
+      "photo": "/coach-polidori.png",
+      "bio": "Nato a Citta di Castello, 12 novembre 1949. Il 29 settembre 2012 e' nominato dirigente del San Giustino, dal 21 gennaio 2015 assume la guida del Citta di Castello, il 24 maggio 2024 e' nominato commissario tecnico della nazionale della Guinea."
+    },
+    {
+      "id": "4",
+      "name": "Giuseppe Cuccarini",
+      "team": "DT Roma Club",
+      "category": "Serie A2",
+      "photo": "/coach-cuccarini.png",
+      "bio": "Nato a Citta di Castello, 29 marzo 1958, nella stagione 2019-20 si trasferisce sulla panchina del VolAlto Caserta ma l'esperienza dura meno di un semestre. Chiusa l'avventura casertana si trasferisce nuovamente nel massimo campionato polacco a partire dalla seconda parte dell'annata, stavolta alla guida del LKS, mantenendo l'incarico fino al 1 dicembre 2020, quando viene sollevato dall'incarico. Dopo una stagione di inattivita', nell'annata 2022-23 torna in panchina, ingaggiato dal Roma Club, appena retrocesso in Serie A2, conducendolo alla conquista della prima Coppa Italia di categoria. Nel maggio del 2026 lascia la panchina della squadra romana per diventarne il direttore tecnico."
+    },
+    {
+      "id": "5",
+      "name": "Alessandro Chiappini",
+      "team": "Panathinaikos e Nazionale Ungherese",
+      "category": "Serie A",
+      "photo": "/coach-chiappini.png",
+      "bio": "Nato a Perugia, 31 gennaio 1969, nel dicembre 2018 torna nel massimo campionato polacco sostituendo Guillermo Hernandez, passato al Potsdam, alla guida del PTPS. Nell'annata seguente e' invece alla guida del Legionovia, anch'esso in massima serie polacca, che guida per un triennio prima di passare, per la stagione 2022-23, all'LKS, sempre in Liga Siatkowki Kobiet: con il club di Lodz, si aggiudica il campionato 2022-23. Nella stagione 2025-26 si trasferisce nella Volley League greca per guidare il Panathinaikos."
+    },
+    {
+      "id": "6",
+      "name": "Mauro Chiappafreddo",
+      "team": "Passione Valdarno Volley",
+      "category": "Serie B1 Femminile",
+      "photo": "/coach-chiappafreddo.png",
+      "bio": "Nato ad Amelia (TR) nel 1974, Vanta una solida esperienza nei campionati nazionali di massima serie, avendo guidato numerosi club prestigiosi sia in Serie A1 che in Serie A2. Principali tappe sulle panchine di Serie A Passione Valdarno Volley: Allenatore della formazione toscana.Tecnoteam Albese Volley Como: Ha guidato la squadra in Serie A2.Rizzotti Design Catania: Stagione 2021-2022 in Serie A2.Barricalla Cus Torino: Biennio dal 2019 al 2021 in Serie A2.Savino Del Bene Scandicci: Esperienza in Serie A1 tra il 2015 e il 2017.Liu Jo Modena e Villa Cortese: Importanti panchine nella massima serie nazionale (A1) nei primi anni 2010.Oltre alla carriera nei club, ha lavorato anche come assistente allenatore per la nazionale greca e per le nazionali giovanili italiane"
+    },
+    {
+      "id": "7",
+      "name": "Andrea Radici",
+      "team": " ",
+      "category": " ",
+      "photo": "/coach-radici.png",
+      "bio": "Nato ad Città di Castello il 3 Marzo 1966, Inizia l'attività di tecnico nel 1983, a soli 17 anni, allenando squadre del settore giovanile della Pallavolo Città di Castello,dove rimane fino al 1990.Nella stagione 1989-90 è inoltre vice allenatore della prima squadra nel campionato di Serie A2.Nel 1990-91 allena la Pallavolo San Giustino in Serie C1, mentre nella stagione 1992-93 ottiene con il CUS Perugia la promozione in Serie B2. Due anni dopo con la squadra umbra centra la promozione in Serie B1, categoria nella quale continua a guidare il CUS Perugia fino alla stagione 1998-99.Sempre in Serie B1,allena nel 1999-2000 il Volley Arezzo e nel stagione 2000-01 la Venturi Spoleto. Dal 2001 al 2003 è responsabile del settore giovanile della RPA Perugia. Nella stagione 2003-04 torna in Serie B2 sulla panchina della Nuova Pallavolo Foligno, mentre nell'annata 2004-05 vince il campionato di Serie B1 con la Monini Spoleto. Nel dicembre 2005 viene esonerato[1] e nel mese successivo viene ingaggiato dalla Sir Safety in Serie B1.Nella stagione 2007-08 ritorna alla Pallavolo Città di Castello, e con la squadra biancorossa ottiene la promozione in Serie A2 nello stesso anno e quella in Serie A1 nella stagione 2012-13. Come responsabile tecnico della rappresentativa regionale dell'Umbria conquista inoltre il secondo posto al Trofeo delle Regioni del 2012.Dopo sette stagioni a Città di Castello approda sulla panchina della Pallavolo Piacenza, fino all'esonero dovuto ai risultati negativi ottenuti dalla squadra, con l'eliminazione dalla Champions League e otto sconfitte consecutive in campionato.Nel maggio 2015 viene ingaggiato dal Narbonne Volley, nel campionato di Ligue A francese[5], ma a seguito di un solo successo nelle prime dodici giornate di campionato viene sollevato dall'incarico.Successivamente viene ingaggiato dalla Virtus Volley Fano dove guida la squadra nel Campionato di Serie B. Nella stagione 2018-19 vince il Campionato di Serie B conquistando la nuova Serie A3. Nel febbraio 2020 viene esonerato dalla società marchigiana.Il 1º luglio 2022 viene ingaggiato dalla Borgo Sansepolcro, militante in Serie B.Ma il 10 novembre, dopo quattro mesi di distanza dal suo ingaggio, lascia la squadra umbra per approdare alla OmiFer Palmi, militante in Serie A3.Chiude la stagione piazzandosi al terzo posto in regular season, uscendo agli ottavi di finale ai play-off promozione. Nella stagione successiva ottiene le vittorie sia nella Coppa Italia sia nella Supercoppa di categoria. In campionato si piazza al quarto posto in regular season, uscendo ai quarti di finale ai play-off promozione. Ma nonostante questo la società acquista il titolo sportivo dalla Lupi Santa Crocee viene ammessa in Serie A2, dove Radici viene confermato."
+    },
+    {
+      "id": "8",
+      "name": "Giampaolo Sperandio",
+      "team": "Pallavolo Media Umbria",
+      "category": "Serie B2 Femminile",
+      "photo": "/coach-sperandio.png",
+      "bio": ""
+    },
+    {
+      "id": "9",
+      "name": "Roberto Scaccia ",
+      "team": "Trevi Foligno",
+      "category": "Serie B2 Femminile",
+      "photo": "/coach-scaccia.png",
+      "bio": "Nato a Terni,Conversazione in AI Mode: roberto scaccia allenatoreHai detto: roberto scaccia allenatoreRoberto Scaccia è un noto allenatore e docente di pallavolo italiano, con una carriera di lungo corso sviluppata prevalentemente in Umbria e a livello nazionale.Carriera e successi principaliClub ed esperienze: Vanta un ricco curriculum nel settore seniores e giovanile, avendo conquistato ben quattro promozioni dalla Serie B2 alla B1 e una storica promozione in Serie A2. Nel corso degli anni ha guidato numerose formazioni tra cui Pallavolo Perugia, San Gemini Volley e, più recentemente, la Lucky Wind Trevi.Nazionali giovanili: Ha ricoperto ruoli di rilievo nello staff azzurro della FIPAV, tra cui quello di secondo allenatore della Nazionale Italiana Pre-Juniores femminile (dal 2003 al 2005). In questo periodo ha conquistato la medaglia d'oro alle Olimpiadi giovanili (E.Y.O.F.) e il bronzo agli Europei di categoria nel 2005. Ha inoltre partecipato a spedizioni mondiali come quella in Perù nel 2015.Incarichi regionali: È stato selezionatore e responsabile della Rappresentativa Umbra femminile per ben dieci edizioni, guidando la selezione giovanile anche nel Trofeo delle Regioni.Qualifiche e docenza: Possiede il tesseramento come allenatore di terzo grado (il massimo livello federale) ed è Docente Nazionale FIPAV dal 2000, oltre a svolgere attività di supporto didattico per l'insegnamento dei giochi sportivi presso la facoltà di Scienze Motorie dell'Università degli Studi di Perugia."
+    },
+    {
+      "id": "10",
+      "name": "Cristiano Camardese",
+      "team": "Arrone Pallavolo",
+      "category": "Direttore Tecnico giovanile",
+      "photo": "/coach-camardese.png",
+      "bio": "Nato a Terni il 15 novembre 1973. Vanta una lunga esperienza nel panorama del volley nazionale, avendo ricoperto sia il ruolo di primo tecnico sia quello di vice e assistente in importanti club di Serie A, sia maschili che femminili.Carriera e ruoli principaliNel corso degli anni ha accumulato esperienze rilevanti in diverse massime categorie della pallavolo italiana:Terni Volley Academy: Ha assunto la guida tecnica come primo allenatore della Conad Pala Terni Volley Academy in Serie A3 maschile, subentrando a stagione in corso.Gioiella Prisma Taranto: Ha lavorato in SuperLega (Serie A1 maschile) come secondo allenatore.Liu Jo Modena: Ha fatto parte dello staff tecnico come assistente allenatore in Serie A1 femminile.Asystel Volley Novara e Villa Cortese: Ha collaborato ad alto livello in Serie A1 femminile a fianco di tecnici di fama internazionale come Giovanni Caprara.Perugia Volley: Ha mosso passi cruciali nella massima serie maschile ricoprendo il ruolo di vice allenatore per diverse stagioni consecutive.Oltre all'alto livello, Camardese è profondamente legato al territorio umbro, dove ha operato anche a livello giovanile e di coordinamento tecnico per realtà locali come il CLT Terni e la Narni Sport Academy, contribuendo allo sviluppo dei settori maschili e femminili. Maggiori dettagli sulla sua carriera e la sua scheda biografica ufficiale sono consultabili sul portale della Lega Pallavolo Serie A e su quello della Lega Pallavolo Serie A Femminile."
+    },
+    {
+      "id": "11",
+      "name": "Roberto Farinelli",
+      "team": "Pallavolo Susegana",
+      "category": "Direttore Tecnico giovanile",
+      "photo": "/coach-farinelli.png",
+      "bio": "Nato a Foligno. Allenatore di pallavolo e docente federale FIPAV , noto per la sua versatilità tecnica sia nel volley giovanile che in importanti progetti internazionali.Carriera e ruoli principaliEsperienze internazionali: Dal 2021 ricopre il ruolo di head coach della nazionale femminile del Gambia, un progetto di sviluppo tecnico nel continente africano esteso successivamente anche alla federazione del Mali. Ha inoltre collaborato come direttore tecnico e allenatore all'estero con club in Repubblica Ceca (Olymp Praha) e Polonia (ŁKZ Łódź).Attività in Italia: In passato ha lavorato a lungo in Umbria, guidando il settore giovanile e formazioni di Serie B2 della School Volley Perugia e della Bartoccini Fortinfissi Perugia. Successivamente si è trasferito in Veneto, dove ha assunto la guida tecnica generale del settore giovanile e delle prime squadre della Pallavolo Susegana.Inizi: Nei primi anni duemila ha lavorato anche come scoutman, registrando esperienze in Serie A con la Monini Marconi Spoleto"
+    }
+  ]
+}
