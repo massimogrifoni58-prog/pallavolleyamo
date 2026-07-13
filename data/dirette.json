@@ -1,3 +1,12 @@
 {
-  "dirette": []
+  "dirette": [
+    {
+      "societa": "Narni Sport Academy",
+      "casa": "NSA Narni",
+      "ospite": "Volley Terni",
+      "categoria": "Serie D Femminile",
+      "ora": "18:30",
+      "url": "https://www.facebook.com/pallavolleyamo"
+    }
+  ]
 }
