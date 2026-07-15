@@ -4125,7 +4125,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
