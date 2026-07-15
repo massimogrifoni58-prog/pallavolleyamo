@@ -8,6 +8,7 @@ import risultatiData from "../data/risultati.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import diretteData from "../data/dirette.json";
+import pilloleData from "../data/pillole.json";
 
 const MAX_NEWS_PER_SECTION = 9;
 
@@ -344,6 +345,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/fondamentali", label: "Fondamentali" },
             { href: "#/schede", label: "Schede Allenamento" },
+            { href: "#/pillole", label: "💊 Pillola del Giorno" },
           ]}
         />
         <a className="nav-btn" href="#/mercato">Mercato</a>
