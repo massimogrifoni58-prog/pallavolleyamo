@@ -4043,6 +4043,16 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
 function SidebarLeft() {
   return (
     <aside className="sidebar sidebar--left">
+      <div className="sidebar__box sidebar__box--pillola">
+        <a href="#/pillole" className="pillola-sidebar-link">
+          <span className="pillola-sidebar-link__pulse" />
+          <span className="pillola-sidebar-link__content">
+            <span className="pillola-sidebar-link__label">💊 Pillola del Giorno</span>
+            <span className="pillola-sidebar-link__sub">Un consiglio ogni giorno per crescere</span>
+          </span>
+          <span className="pillola-sidebar-link__arrow">→</span>
+        </a>
+      </div>
       <div className="sidebar__box">
         <h4 className="sidebar__title">Link utili</h4>
         <ul className="sidebar__links">
