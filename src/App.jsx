@@ -4136,6 +4136,7 @@ export default function App() {
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
+          {route === "pillole" && <PillolePage />}
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "galleria" && <GalleriaPage />}
           {route === "foto-settimana" && <FotoSettimanaPage />}
