@@ -230,13 +230,32 @@ a {
   flex: 1;
   mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
 }
-
+.ticker__single {
+  flex: 1;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.4s ease;
+}
+.ticker__single:hover { color: var(--gold); }
 .ticker__track {
   display: flex;
   width: max-content;
   animation: ticker-scroll 35s linear infinite;
 }
-
+.ticker__single {
+  flex: 1;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ticker__single:hover { color: var(--gold); }
 .ticker__item {
   flex-shrink: 0;
   font-size: 0.85rem;
@@ -3957,3 +3976,308 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
   color: var(--text-dim);
   line-height: 1.5;
 }
+
+/* === DIRETTA CARD BOTTONE FACEBOOK === */
+.diretta-card__btn-fb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #1877f2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.diretta-card__btn-fb:hover { background: #1464d8; }
+.diretta-card__btn-fb__icon {
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: serif;
+}
+/* === PILLOLA DEL GIORNO === */
+.pillola-card {
+  background: var(--bg-card);
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+.pillola-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.pillola-card__badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+}
+.pillola-card__data {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+ .pillola-card__num {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.pillola-card__blocco {
+  margin-bottom: 1.25rem;
+}
+.pillola-card__blocco--domanda {
+  background: rgba(212,175,55,0.06);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(212,175,55,0.2);
+}
+.pillola-card__label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.pillola-card__testo--domanda {
+  font-style: italic;
+  color: var(--gold-bright);
+}
+/* === PILLOLA SIDEBAR === */
+.sidebar__box--pillola { 
+  padding: 0; 
+  overflow: hidden; 
+  border: 1px solid #d4af37;
+  margin-top: 1rem;
+}
+.pillola-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  background: rgba(212,175,55,0.06);
+  transition: background 0.2s;
+  position: relative;
+}
+.pillola-sidebar-link:hover { background: rgba(212,175,55,0.12); }
+.pillola-sidebar-link__pulse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d4af37;
+  flex-shrink: 0;
+  animation: pillola-pulse 1.5s ease infinite;
+}
+@keyframes pillola-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
+}
+.pillola-sidebar-link__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex: 1;
+}
+.pillola-sidebar-link__label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.pillola-sidebar-link__sub {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+.pillola-sidebar-link__arrow {
+  font-size: 0.9rem;
+  color: var(--gold);
+}
+.pillola-intro {
+  background: rgba(212,175,55,0.05);
+  border-left: 3px solid #d4af37;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+.pillola-intro p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text-dim);
+  margin: 0 0 0.5rem;
+}
+.pillola-intro p:last-child { margin: 0; }
+/* === PILLOLA DEL GIORNO === */
+.pillola-intro {
+  background: rgba(212,175,55,0.05);
+  border-left: 3px solid #d4af37;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+.pillola-intro p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--text-dim);
+  margin: 0 0 0.5rem;
+}
+.pillola-intro p:last-child { margin: 0; }
+.pillola-card {
+  background: var(--bg-card);
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+.pillola-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.pillola-card__num {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+.pillola-card__badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.pillola-card__blocco {
+  margin-bottom: 1.25rem;
+}
+.pillola-card__blocco--domanda {
+  background: rgba(212,175,55,0.06);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(212,175,55,0.2);
+}
+.pillola-card__label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.pillola-card__testo {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text);
+  margin: 0;
+}
+.pillola-card__testo--domanda {
+  font-style: italic;
+  color: var(--gold-bright);
+}
+.pillola-card__firma {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--gold);
+  opacity: 0.7;
+  border-top: 1px solid rgba(212,175,55,0.2);
+  padding-top: 1rem;
+  margin: 0;
+}
+
+/* === PILLOLA SIDEBAR === */
+.sidebar__box--pillola {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #d4af37;
+  margin-bottom: 1rem;
+}
+.pillola-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  background: rgba(212,175,55,0.06);
+  transition: background 0.2s;
+}
+.pillola-sidebar-link:hover { background: rgba(212,175,55,0.12); }
+.pillola-sidebar-link__pulse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d4af37;
+  flex-shrink: 0;
+  animation: pillola-pulse 1.5s ease infinite;
+}
+@keyframes pillola-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
+}
+.pillola-sidebar-link__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex: 1;
+}
+.pillola-sidebar-link__label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+.pillola-sidebar-link__sub {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+.pillola-sidebar-link__arrow {
+  font-size: 0.9rem;
+  color: var(--gold);
+}
+
+/* === DIRETTE BOTTONI === */
+.diretta-card__btn-fb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #1877f2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.diretta-card__btn-fb:hover { background: #1464d8; }
+.diretta-card__btn-yt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.diretta-card__btn-yt:hover { background: #cc0000; }
