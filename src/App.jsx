@@ -783,9 +783,15 @@ function DiretteLivePage() {
                   />
                 </div>
 
-                <a href={d.url} target="_blank" rel="noreferrer" className="diretta-card__fb-link">
-                  Apri su Facebook →
-                </a>
+                {d.url.includes("youtube") || d.url.includes("youtu.be") ? (
+  <a href={d.url} target="_blank" rel="noreferrer" className="diretta-card__btn-yt">
+    ▶ Guarda su YouTube
+  </a>
+) : (
+  <a href={d.url} target="_blank" rel="noreferrer" className="diretta-card__btn-fb">
+    f Guarda la diretta su Facebook
+  </a>
+)}
               </div>
             ))}
           </div>
