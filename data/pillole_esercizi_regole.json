@@ -1,0 +1,185 @@
+{
+  "pillole": [
+    {
+      "id": 31,
+      "sezione": "Esercizi",
+      "tema": "Riscaldamento",
+      "emoji": "🏐",
+      "consiglio": "Un riscaldamento inadeguato non prepara solo i muscoli — non prepara la testa. I primi 10 minuti in palestra determinano la qualità di tutto l'allenamento che segue.",
+      "in_palestra": "Protocollo: 5 minuti jogging leggero + mobilità caviglie e spalle (10 rotazioni per lato) + skip + corsa laterale + 5 minuti palleggio libero a coppie. Ogni giorno, senza eccezioni.",
+      "domanda": "Il tuo riscaldamento è sempre lo stesso o varia in base a come ti senti quel giorno?"
+    },
+    {
+      "id": 32,
+      "sezione": "Esercizi",
+      "tema": "Bagher",
+      "emoji": "🏐",
+      "consiglio": "Il bagher si allena in isolamento prima di inserirlo nel gioco. Solo quando il gesto è automatico puoi concentrarti sulla lettura del campo invece che sulla tecnica delle braccia.",
+      "in_palestra": "Triangolo a tre: A batte, B riceve in bagher verso C, C raccoglie e batte. 15 minuti continui. Chi sbaglia la ricezione fa 5 squat prima di riprendere. Crea pressione competitiva.",
+      "domanda": "Dedichi tempo specifico al bagher in isolamento o lo alleni solo nel contesto del gioco?"
+    },
+    {
+      "id": 33,
+      "sezione": "Esercizi",
+      "tema": "Ricezione",
+      "emoji": "🏐",
+      "consiglio": "La ricezione competitiva è l'esercizio più efficace perché replica la pressione reale della partita. Senza pressione non c'è adattamento. Senza adattamento non c'è miglioramento.",
+      "in_palestra": "A coppie: uno batte, uno riceve. Ricezione perfetta (zona 3, entro 1 metro dall'alzatore immaginario) = punto ricevitore. Errore = punto battitore. Si gioca a 21. Poi si cambia.",
+      "domanda": "Quanto spesso alleni la ricezione in condizioni competitive invece che in situazioni controllate?"
+    },
+    {
+      "id": 34,
+      "sezione": "Esercizi",
+      "tema": "Palleggio",
+      "emoji": "🏐",
+      "consiglio": "Il gioco dei numeri è l'esercizio più utile per allenare la velocità decisionale dell'alzatore. La decisione deve avvenire in meno di mezzo secondo — come in partita reale.",
+      "in_palestra": "Coach mostra 1, 2 o 3 dita un istante prima che l'alzatore tocchi la palla. 1 = posto 4, 2 = fast centrale, 3 = posto 2. L'alzatore deve alzare verso il posto corretto. 15 ripetizioni, 3 serie.",
+      "domanda": "Il tuo alzatore riesce a cambiare destinazione della palla all'ultimo momento o è prevedibile?"
+    },
+    {
+      "id": 35,
+      "sezione": "Esercizi",
+      "tema": "Attacco",
+      "emoji": "🏐",
+      "consiglio": "L'attacco variato è l'esercizio che più spaventa i difensori. Se ogni tuo attacco parte uguale ma finisce in modo diverso, il muro non riesce mai ad anticiparti.",
+      "in_palestra": "4 palle consecutive: diagonale, parallelo, pallonetto, scelta libera. Stessa preparazione per tutti e 4. Il muro non deve capire quale colpo arriva. 3 sequenze, poi si scambiano.",
+      "domanda": "Quanti tipi di colpi diversi riesci a eseguire mantenendo la stessa preparazione esteriore?"
+    },
+    {
+      "id": 36,
+      "sezione": "Esercizi",
+      "tema": "Muro",
+      "emoji": "🏐",
+      "consiglio": "Il muro vs attacco progressivo è l'esercizio più completo per sviluppare la lettura dell'attaccante. Si parte dal noto e si arriva all'imprevedibile — come in partita.",
+      "in_palestra": "Fase 1: attaccante mostra dove colpirà (5 palloni). Fase 2: scelta tra 2 zone (5 palloni). Fase 3: attaccante libero (5 palloni). Si contano i punti del muro. Record da battere ogni settimana.",
+      "domanda": "Il tuo muro è organizzato con la difesa o ogni giocatore agisce in modo indipendente?"
+    },
+    {
+      "id": 37,
+      "sezione": "Esercizi",
+      "tema": "Difesa",
+      "emoji": "🏐",
+      "consiglio": "La difesa vs attacco reale è l'esercizio più onesto: nessun lancio del coach, nessuna situazione controllata. Solo l'attacco vero e la tua capacità di leggere e reagire.",
+      "in_palestra": "Attaccante vs difensore + libero. 10 palloni a serie, poi si scambiano. Si contano le difese positive — palla alta e in zona utile. Non basta salvare la palla: deve essere utilizzabile.",
+      "domanda": "Le tue difese producono palle che l'alzatore può costruire o sono difese di sopravvivenza?"
+    },
+    {
+      "id": 38,
+      "sezione": "Esercizi",
+      "tema": "Side Out",
+      "emoji": "🏐",
+      "consiglio": "Il side-out si allena come sistema, non come somma di fondamentali. Ricezione, alzata e attacco devono essere un flusso unico — non tre esercizi separati messi in sequenza.",
+      "in_palestra": "3 vs 3 con vincoli: primo tocco obbligatorio in bagher, secondo in palleggio, terzo attacco libero. Punto solo se si rispettano i vincoli. Si gioca a 15 punti. Rotazioni ogni 5.",
+      "domanda": "La tua squadra allena il side-out come sistema oppure lavora i singoli fondamentali separati?"
+    },
+    {
+      "id": 39,
+      "sezione": "Esercizi",
+      "tema": "Break Point",
+      "emoji": "🏐",
+      "consiglio": "Il break point si costruisce dalla battuta. Una battuta efficace mette pressione al ricevitore e limita le opzioni d'attacco avversarie — creando le condizioni per il punto.",
+      "in_palestra": "Battuta a zona con pressione: ogni atleta fa 5 battute. Bersaglio = +2 punti. Errore = -1 punto. Sfida a squadre: prima a 20 vince. Replica la concentrazione dei momenti decisivi.",
+      "domanda": "La tua squadra usa la battuta come arma tattica o solo come mezzo per mettere la palla in gioco?"
+    },
+    {
+      "id": 40,
+      "sezione": "Esercizi",
+      "tema": "6 contro 6",
+      "emoji": "🏐",
+      "consiglio": "Il 6 vs 6 con punteggio reale è l'unico modo per allenare la gestione dei momenti decisivi. Tutto il resto è preparazione — questo è il momento della verità.",
+      "in_palestra": "Gioca gli ultimi 5 punti di ogni set come se fossero il 23-23. Stessa intensità, stessa pressione. Poi analizza: cosa è cambiato nel tuo gioco? Cosa hai gestito bene? Cosa devi migliorare?",
+      "domanda": "Il tuo livello di gioco migliora o peggiora nei momenti decisivi? Sai perché?"
+    },
+    {
+      "id": 41,
+      "sezione": "Regole",
+      "tema": "Posizione in campo",
+      "emoji": "📖",
+      "consiglio": "Al momento della battuta i giocatori devono rispettare le posizioni relative: ogni giocatore di prima linea deve essere più vicino alla rete del corrispondente di seconda linea. Dopo la battuta ci si può muovere liberamente.",
+      "in_palestra": "Prima dell'allenamento ripassate le rotazioni con tutta la squadra. Ogni posizione, ogni zona. Chi sbaglia posizione durante il gioco paga un forfait. Imparare le rotazioni è obbligatorio.",
+      "domanda": "Tutta la tua squadra conosce le 6 rotazioni e le posizioni corrette? O qualcuno improvvisa?"
+    },
+    {
+      "id": 42,
+      "sezione": "Regole",
+      "tema": "Il doppio tocco",
+      "emoji": "📖",
+      "consiglio": "Un giocatore non può toccare la palla due volte di seguito, tranne nel primo tocco dopo un'azione di muro. Nell'alzata le dita devono colpire la palla simultaneamente — un tocco deve sembrare uno.",
+      "in_palestra": "Esercizio di sensibilità: palleggio contro il muro con una mano sola alternata. Sviluppa la consapevolezza del contatto e aiuta a evitare i doppi tocchi inconsci nelle situazioni difficili.",
+      "domanda": "Sai riconoscere quando fai un doppio tocco? O ti accorgi solo quando l'arbitro fischia?"
+    },
+    {
+      "id": 43,
+      "sezione": "Regole",
+      "tema": "Il libero",
+      "emoji": "📖",
+      "consiglio": "Il libero indossa una maglia diversa e non può attaccare sopra la rete, battere o murare. Le sostituzioni del libero non contano nel limite massimo e avvengono senza fischio dell'arbitro tra un'azione e l'altra.",
+      "in_palestra": "Simula le sostituzioni del libero durante l'allenamento in modo sistematico. Il timing della sostituzione può cambiare l'equilibrio della squadra — va allenato come ogni altro fondamentale.",
+      "domanda": "Il libero della tua squadra conosce esattamente tutti i propri diritti e limiti secondo il regolamento?"
+    },
+    {
+      "id": 44,
+      "sezione": "Regole",
+      "tema": "Il tocco a rete",
+      "emoji": "📖",
+      "consiglio": "Un giocatore può toccare la rete durante un'azione purché non interferisca con il gioco avversario. Toccare le antenne o i pali è sempre fallo. Passare sotto la rete è permesso se non si ostacola l'avversario.",
+      "in_palestra": "Durante gli esercizi a rete, allenate la consapevolezza spaziale: muro senza toccare la rete, atterraggio senza passare sotto. Il controllo del corpo nello spazio riduce i falli evitabili.",
+      "domanda": "Quanti falli a rete commette la tua squadra in media per set? Li avete mai contati?"
+    },
+    {
+      "id": 45,
+      "sezione": "Regole",
+      "tema": "I 8 secondi per battere",
+      "emoji": "📖",
+      "consiglio": "Dal fischio dell'arbitro il battitore ha 8 secondi per eseguire la battuta. Il ritardo è fallo. Usare questi 8 secondi consapevolmente — per respirare, visualizzare, scegliere la zona — è parte della strategia.",
+      "in_palestra": "Allena il rituale pre-battuta: 3 respiri, visualizzazione della zona bersaglio, lancio. Sempre lo stesso. Un rituale stabile aiuta a gestire la pressione nei momenti decisivi della partita.",
+      "domanda": "Hai un rituale pre-battuta? O batti appena l'arbitro fischia senza una routine precisa?"
+    },
+    {
+      "id": 46,
+      "sezione": "Regole",
+      "tema": "La zona di attacco",
+      "emoji": "📖",
+      "consiglio": "I giocatori di seconda linea non possono attaccare davanti alla linea dei 3 metri se la palla è completamente sopra la rete al momento del colpo. Possono farlo da dietro la linea — è l'attacco di seconda linea.",
+      "in_palestra": "Allena deliberatamente l'attacco di seconda linea (pipe, bic) con i vostri giocatori di fondo. Spesso è una risorsa non sfruttata che sorprende il muro avversario. 10 ripetizioni per giocatore.",
+      "domanda": "La tua squadra usa regolarmente l'attacco di seconda linea o è un'opzione che ignorate?"
+    },
+    {
+      "id": 47,
+      "sezione": "Regole",
+      "tema": "Il set e il tie-break",
+      "emoji": "📖",
+      "consiglio": "Ogni set si gioca a 25 punti con vantaggio minimo di 2. Il quinto set si gioca a 15 con vantaggio di 2. Al tie-break si cambia campo quando una squadra raggiunge 8 punti — non a metà tempo.",
+      "in_palestra": "Simulate il cambio campo al tie-break durante l'allenamento. Cosa fate in quei 30 secondi? Avete un piano? Idratazione, parole del capitano, aggiustamenti tattici. Non improvvisate.",
+      "domanda": "La tua squadra ha un piano preciso per i 30 secondi di cambio campo al tie-break?"
+    },
+    {
+      "id": 48,
+      "sezione": "Regole",
+      "tema": "I time-out",
+      "emoji": "📖",
+      "consiglio": "Ogni squadra ha diritto a 2 time-out per set. Nel quinto set valgono le stesse regole. I time-out tecnici (a 8 e 16 punti nei primi 4 set) si aggiungono a quelli di squadra e durano 60 secondi.",
+      "in_palestra": "Allena l'uso del time-out: quando chiederlo, cosa dire in quei 60 secondi, come rientrare in campo. Un time-out mal gestito è peggio che non chiederlo. Preparate tre o quattro messaggi chiave.",
+      "domanda": "Il vostro allenatore chiede il time-out con un piano preciso o in modo reattivo all'emozione del momento?"
+    },
+    {
+      "id": 49,
+      "sezione": "Regole",
+      "tema": "Il muro e il conteggio dei tocchi",
+      "emoji": "📖",
+      "consiglio": "Il tocco di muro non conta come uno dei tre tocchi della squadra. Dopo un muro (anche se la palla rimane nel proprio campo) la squadra può ancora toccare la palla tre volte prima di mandarla in campo avversario.",
+      "in_palestra": "Simulate situazioni di rimbalzo dal muro: la squadra deve reagire e costruire comunque tre tocchi puliti. Il panico dopo il rimbalzo dal muro è uno degli errori più costosi e più evitabili.",
+      "domanda": "La tua squadra sa reagire correttamente quando la palla rimbalza dal proprio muro? O si perdono in confusione?"
+    },
+    {
+      "id": 50,
+      "sezione": "Regole",
+      "tema": "La palla sul nastro",
+      "emoji": "📖",
+      "consiglio": "Una palla che tocca il nastro superiore della rete e cade nel campo avversario è regolare e il gioco continua. Una palla che tocca le antenne o passa fuori da esse è fallo. Le antenne delimitano lo spazio di gioco.",
+      "in_palestra": "Allena i tuoi giocatori a non fermarsi mai quando la palla tocca la rete. Il nastro è amico — spesso la palla passa lo stesso. Chi si ferma per sorpresa regala punti inutili.",
+      "domanda": "Quante volte la tua squadra si è fermata pensando che la palla sul nastro fosse fallo, perdendo un punto regalato?"
+    }
+  ],
+  "firma": "Perché il volley non è solo uno sport, è un modo di crescere insieme."
+}
