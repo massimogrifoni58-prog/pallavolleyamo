@@ -2176,7 +2176,64 @@ Rispondi in italiano, in modo conciso (massimo 200 parole), con elenchi puntati 
     </main>
   );
 }
-
+function PillolePage() {
+  const pillole = pilloleData.pillole || [];
+  const firma = pilloleData.firma || "";
+  const oggi = new Date();
+  const idx = (oggi.getDate() - 1) % pillole.length;
+  const pillola = pillole[idx];
+  const sezioneBadge = {
+    "Tecnica": "#42a5f5",
+    "Mentalità": "#ab47bc",
+    "Esercizi": "#66bb6a",
+    "Regole": "#ef5350",
+    "Citazioni": "#d4af37",
+    "Statistiche": "#26c6da",
+    "Errori comuni": "#ff7043",
+    "Allenatori": "#8d6e63",
+  };
+  const colore = sezioneBadge[pillola?.sezione] || "#888";
+  return (
+    <main>
+      <div className="campionati-hero">
+        <div className="campionati-hero__overlay">
+          <h2 className="campionati-hero__titolo">Pillola del Giorno</h2>
+          <p className="campionati-hero__sub">Consigli tecnici, citazioni, esercizi e regole — un contenuto al giorno per allenatori e atlete</p>
+        </div>
+      </div>
+      <section className="section">
+        <div className="pillola-intro">
+          <p>Ogni giorno PallaVolleyAmo pubblica una pillola formativa dedicata al mondo della pallavolo. Consigli tecnici, citazioni dei grandi allenatori, esercizi pratici e regole spiegate in modo semplice.</p>
+          <p>Pensata per allenatori, giocatrici e appassionati che vogliono crescere ogni giorno, anche solo di un piccolo passo.</p>
+        </div>
+        {pillola && (
+          <div className="pillola-card">
+            <div className="pillola-card__header">
+              <span className="pillola-card__num">🟦 PALLAVOLLEYAMO – Pillola #{pillola.id}</span>
+              <span className="pillola-card__badge"
+                style={{ background: colore + "22", color: colore, border: `1px solid ${colore}55` }}>
+                {pillola.emoji} {pillola.sezione} · {pillola.tema}
+              </span>
+            </div>
+            <div className="pillola-card__blocco">
+              <span className="pillola-card__label">💡 Il consiglio</span>
+              <p className="pillola-card__testo">{pillola.consiglio}</p>
+            </div>
+            <div className="pillola-card__blocco">
+              <span className="pillola-card__label">🏐 In palestra</span>
+              <p className="pillola-card__testo">{pillola.in_palestra}</p>
+            </div>
+            <div className="pillola-card__blocco pillola-card__blocco--domanda">
+              <span className="pillola-card__label">❓ Domanda del giorno</span>
+              <p className="pillola-card__testo pillola-card__testo--domanda">{pillola.domanda}</p>
+            </div>
+            <p className="pillola-card__firma">"{firma}"</p>
+          </div>
+        )}
+      </section>
+    </main>
+  );
+}
 function SchedePage() {
   const sezioni = [
     "Allenamento Tecnico",
