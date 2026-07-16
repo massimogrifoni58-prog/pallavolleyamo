@@ -290,7 +290,6 @@ function MeteoWidget() {
 
 function LiveClock() {
   const [now, setNow] = useState(new Date());
-  const [online, setOnline] = useState(null);
   const [durata, setDurata] = useState(0);
   const startRef = useRef(Date.now());
 
@@ -302,12 +301,6 @@ function LiveClock() {
     return () => clearInterval(timer);
   }, []);
 
-  useEffect(() => {
-    fetch("https://api.counterapi.dev/v1/pallavolleyamo/visite/up")
-      .then((r) => r.json())
-      .then((data) => setOnline(data.count))
-      .catch(() => setOnline(null));
-  }, []);
 
   const data = now.toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
   const ora = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" });
@@ -319,12 +312,6 @@ function LiveClock() {
     <div className="live-clock">
       <span className="live-clock__data">{data} · {ora}</span>
       <span className="live-clock__data" title="Durata visita">⏱ {mm}:{ss}</span>
-      {online !== null && (
-        <span className="live-clock__online">
-          <span className="live-clock__dot" />
-          {online} visite
-        </span>
-      )}
     </div>
   );
 }
