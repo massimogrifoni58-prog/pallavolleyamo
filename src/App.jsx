@@ -1054,7 +1054,7 @@ function AllenatoriPage() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl2 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.name + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.allorigins.win/get?url=?url=?" + encodeURIComponent(rssUrl2))
+    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent(rssUrl2))
       .then((r) => r.json())
       .then((data) => {
         const parser2 = new DOMParser();
@@ -1185,7 +1185,7 @@ function Allenatori2Page() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl3 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.nome + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.allorigins.win/get?url=?url=?" + encodeURIComponent(rssUrl3))
+    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent(rssUrl3))
       .then((r) => r.json())
       .then((data) => {
         const parser3 = new DOMParser();
