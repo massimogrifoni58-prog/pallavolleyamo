@@ -414,7 +414,7 @@ function RicercaSocieta() {
       .then((r) => r.json())
       .then((data) => {
         const parser = new DOMParser();
-        const doc = parser.parseFromString(data, "text/xml");
+        const doc = parser.parseFromString(data.contents, "text/xml");
         const items = Array.from(doc.querySelectorAll("item")).slice(0, 3);
         setNews(items.map((item) => ({
           title: item.querySelector("title")?.textContent || "",
@@ -1054,11 +1054,11 @@ function AllenatoriPage() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl2 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.name + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.allorigins.win/raw?url=?" + encodeURIComponent(rssUrl2))
+    fetch("https://https://api.allorigins.win/get?url=?url=?" + encodeURIComponent(rssUrl2))
       .then((r) => r.json())
       .then((data) => {
         const parser2 = new DOMParser();
-        const doc2 = parser2.parseFromString(data, "text/xml");
+        const doc2 = parser2.parseFromString(data.contents, "text/xml");
         const items = Array.from(doc2.querySelectorAll("item")).slice(0, 4);
         const parsed = items.map((item) => ({
           title: item.querySelector("title")?.textContent || "",
@@ -1185,11 +1185,11 @@ function Allenatori2Page() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl3 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.nome + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.allorigins.win/raw?url=?" + encodeURIComponent(rssUrl3))
+    fetch("https://https://api.allorigins.win/get?url=?url=?" + encodeURIComponent(rssUrl3))
       .then((r) => r.json())
       .then((data) => {
         const parser3 = new DOMParser();
-        const doc3 = parser3.parseFromString(data, "text/xml");
+        const doc3 = parser3.parseFromString(data.contents, "text/xml");
         const items = Array.from(doc3.querySelectorAll("item")).slice(0, 5);
         setNews(items.map((item) => ({
           title: item.querySelector("title")?.textContent || "",
@@ -4102,9 +4102,6 @@ function SidebarLeft() {
           <li><a href="https://www.legavolleyfemminile.it" target="_blank" rel="noreferrer">Serie A1 Femminile</a></li>
           <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
         </ul>
-      </div>
-      <div className="sidebar__box">
-        <RicercaSocieta />
       </div>
     </aside>
   );
