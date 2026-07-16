@@ -124,28 +124,36 @@ function PostCard({ post, subscribed }) {
 }
 
 function Ticker({ posts }) {
-  if (posts.length === 0) return null;
+  const [idx, setIdx] = useState(0);
+  const [visible, setVisible] = useState(true);
 
-  const items = [...posts, ...posts];
+  useEffect(() => {
+    if (posts.length === 0) return;
+    const timer = setInterval(() => {
+      setVisible(false);
+      setTimeout(() => {
+        setIdx((i) => (i + 1) % posts.length);
+        setVisible(true);
+      }, 400);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [posts]);
+
+  if (posts.length === 0) return null;
+  const post = posts[idx];
 
   return (
     <div className="ticker">
-      <span className="ticker__label">Live</span>
-      <div className="ticker__track-wrap">
-        <div className="ticker__track">
-          {items.map((post, i) => (
-            <a
-              key={`${post.id}-${i}`}
-              className="ticker__item"
-              href={post.permalink || "#"}
-              target={post.permalink ? "_blank" : undefined}
-              rel="noreferrer"
-            >
-              📰 {post.title || post.message || post.excerpt}
-            </a>
-          ))}
-        </div>
-      </div>
+      <span className="ticker__label">🔴 Live</span>
+      <a
+        className="ticker__single"
+        href={post.permalink || "#"}
+        target={post.permalink ? "_blank" : undefined}
+        rel="noreferrer"
+        style={{ opacity: visible ? 1 : 0, transition: "opacity 0.4s ease" }}
+      >
+        📰 {post.title || post.excerpt}
+      </a>
     </div>
   );
 }
@@ -185,7 +193,45 @@ function NavDropdown({ label, items }) {
     </div>
   );
 }
-
+function PillolaToast({ pillola, onClose }) {
+  const [visible, setVisible] = useState(true);
+  useEffect(() => {
+    const t = setTimeout(() => {
+      setVisible(false);
+      setTimeout(onClose, 400);
+    }, 8000);
+    return () => clearTimeout(t);
+  }, []);
+  if (!pillola) return null;
+  const sezioneBadge = {
+    "Tecnica": "#42a5f5",
+    "Mentalità": "#ab47bc",
+    "Esercizi": "#66bb6a",
+    "Regole": "#ef5350",
+    "Citazioni": "#d4af37",
+  };
+  const colore = sezioneBadge[pillola.sezione] || "#d4af37";
+ return (
+    <>
+      <div 
+        className="pillola-overlay" 
+        style={{ opacity: visible ? 1 : 0 }} 
+        onClick={() => { setVisible(false); setTimeout(onClose, 400); }} 
+      />
+      <div className="pillola-toast"
+        style={{ opacity: visible ? 1 : 0, transform: visible ? "translateX(-50%) translateY(-50%)" : "translateX(-50%) translateY(-60%)"}}>
+        <div className="pillola-toast__header">
+          <span className="pillola-toast__badge" style={{ color: colore }}>
+            {pillola.emoji} {pillola.sezione} · {pillola.tema}
+          </span>
+          <button className="pillola-toast__close" onClick={() => { setVisible(false); setTimeout(onClose, 400); }}>✕</button>
+        </div>
+        <p className="pillola-toast__num">💊 Pillola #{pillola.id}</p>
+        <p className="pillola-toast__testo">{pillola.consiglio}</p>
+      </div>
+    </>
+  );
+}
 function SplashScreen({ onDone }) {
   useEffect(() => {
     const t = setTimeout(onDone, 2200);
@@ -345,7 +391,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/fondamentali", label: "Fondamentali" },
             { href: "#/schede", label: "Schede Allenamento" },
-            { href: "#/pillole", label: "💊 Pillola del Giorno" },
+            
           ]}
         />
         <a className="nav-btn" href="#/mercato">Mercato</a>
@@ -483,7 +529,7 @@ function HomePage() {
           {/* VOLLEY grande in alto */}
           <text x="450" y="160"
             fontFamily="'Bebas Neue', Impact, sans-serif"
-            fontSize="220"
+            fontSize="140"
             fontWeight="900"
             fill="url(#text-fade)"
             textAnchor="middle"
@@ -523,7 +569,7 @@ function HomePage() {
               </div>
             </div>
           ) : (
-            <p className="hero-risultati__placeholder">🏐 I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno</p>
+            <p className="hero-risultati__placeholder"> I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno</p>
           )}
         </div>
       </div>
@@ -1535,7 +1581,7 @@ function FotoSettimanaPage() {
         <div className="foto-sett-main" onClick={() => setLightbox(getImg(fotoGiorno))}>
           <img src={getImg(fotoGiorno)} alt={getTitolo(fotoGiorno)} className="foto-sett-main__img" />
           <div className="foto-sett-main__overlay">
-            <span className="foto-sett-main__badge">📸 Foto del giorno</span>
+            <span className="foto-sett-main__badge">Foto del giorno</span>
             <p className="foto-sett-main__didascalia">{getTitolo(fotoGiorno)}</p>
             <div className="foto-sett-main__meta">
               <span>{getData(fotoGiorno)}</span>
@@ -2136,13 +2182,13 @@ Rispondi in italiano, in modo conciso (massimo 200 parole), con elenchi puntati 
           <div className="coach-ai-storia">
             {storia.map((msg, i) => (
               <div key={i} className={`coach-ai-msg coach-ai-msg--${msg.role}`}>
-                <span className="coach-ai-msg__label">{msg.role === "user" ? "Tu" : "🏐 Coach"}</span>
+                <span className="coach-ai-msg__label">{msg.role === "user" ? "Tu" : " Coach"}</span>
                 <p className="coach-ai-msg__testo">{msg.content}</p>
               </div>
             ))}
             {loading && (
               <div className="coach-ai-msg coach-ai-msg--assistant">
-                <span className="coach-ai-msg__label">🏐 Coach</span>
+                <span className="coach-ai-msg__label">Coach</span>
                 <p className="coach-ai-msg__testo coach-ai-loading">Sto elaborando la risposta...</p>
               </div>
             )}
@@ -2222,15 +2268,15 @@ function PillolePage() {
               </span>
             </div>
             <div className="pillola-card__blocco">
-              <span className="pillola-card__label">💡 Il consiglio</span>
+              <span className="pillola-card__label"> Il consiglio</span>
               <p className="pillola-card__testo">{pillola.consiglio}</p>
             </div>
             <div className="pillola-card__blocco">
-              <span className="pillola-card__label">🏐 In palestra</span>
+              <span className="pillola-card__label"> In palestra</span>
               <p className="pillola-card__testo">{pillola.in_palestra}</p>
             </div>
             <div className="pillola-card__blocco pillola-card__blocco--domanda">
-              <span className="pillola-card__label">❓ Domanda del giorno</span>
+              <span className="pillola-card__label"> Domanda del giorno</span>
               <p className="pillola-card__testo pillola-card__testo--domanda">{pillola.domanda}</p>
             </div>
             <p className="pillola-card__firma">"{firma}"</p>
@@ -3840,7 +3886,7 @@ function NostriSponsorPage() {
         <div className="sponsor-vuoi-wrap">
           <p className="sponsor-vuoi__testo">Vuoi comparire qui?</p>
           <a href="#/sponsor" className="sponsor-cta">
-            ✉️ Diventa sponsor
+             Diventa sponsor
           </a>
         </div>
       </section>
@@ -3945,7 +3991,7 @@ function SponsorPage() {
           href="mailto:postmaster@pallavolleyamo.it?subject=Richiesta%20sponsorizzazione%20PallaVolleyAmo"
           className="sponsor-cta"
         >
-          ✉️ Scrivici a postmaster@pallavolleyamo.it
+          Scrivici a postmaster@pallavolleyamo.it
         </a>
       </section>
     </main>
@@ -4053,7 +4099,7 @@ function SidebarLeft() {
         <a href="#/pillole" className="pillola-sidebar-link">
           <span className="pillola-sidebar-link__pulse" />
           <span className="pillola-sidebar-link__content">
-            <span className="pillola-sidebar-link__label">💊 Pillola del Giorno</span>
+            <span className="pillola-sidebar-link__label"> Pillola del Giorno</span>
             <span className="pillola-sidebar-link__sub">Un consiglio ogni giorno per crescere</span>
           </span>
           <span className="pillola-sidebar-link__arrow">→</span>
@@ -4168,6 +4214,9 @@ export default function App() {
   const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
   const [showSplash, setShowSplash] = useState(true);
+  const [showPillola, setShowPillola] = useState(true);
+  const pilloleList = pilloleData.pillole || [];
+  const pillolaDiOggi = pilloleList[(new Date().getDate() - 1) % pilloleList.length];
   const [darkMode, setDarkMode] = useState(false);
 
   const allPosts = [
@@ -4188,6 +4237,7 @@ export default function App() {
 
   return (
     <>
+    {showPillola && <PillolaToast pillola={pillolaDiOggi} onClose={() => setShowPillola(false)} />}
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} />
 
       <div className="page-layout">
