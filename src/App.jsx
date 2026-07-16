@@ -410,7 +410,7 @@ function RicercaSocieta() {
     setLoading(true);
     setNews([]);
     const rssUrl = "https://news.google.com/rss/search?q=" + encodeURIComponent(query.trim()) + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl))
+    fetch("https://api.allorigins.win/get?url=" + encodeURIComponent(rssUrl))
       .then((r) => r.json())
       .then((data) => {
         const parser = new DOMParser();
@@ -4102,6 +4102,9 @@ function SidebarLeft() {
           <li><a href="https://www.legavolleyfemminile.it" target="_blank" rel="noreferrer">Serie A1 Femminile</a></li>
           <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
         </ul>
+      </div>
+      <div className="sidebar__box">
+        <RicercaSocieta />
       </div>
     </aside>
   );
