@@ -10,7 +10,7 @@ import articoliSocietaData from "../data/articoli-societa.json";
 import diretteData from "../data/dirette.json";
 import pilloleData from "../data/pillole.json";
 
-const MAX_NEWS_PER_SECTION = 9;
+const MAX_NEWS_PER_SECTION = 30;
 
 const SECTIONS = {
   nazionale: { title: "Nazionale", data: nazionaleData },
