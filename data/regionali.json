@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T05:00:40.271473+00:00",
+  "generatedAt": "2026-07-16T11:33:51.976018+00:00",
   "posts": [
     {
       "id": "news-6",
@@ -32,6 +32,14 @@
       "createdTime": "Wed, 17 Jul 2024 03:52:00 GMT",
       "image": null,
       "permalink": "https://www.perugiatoday.it/sport/volley/incassa-6mila-euro-attivita-gratuite-pena-ridotta.html"
+    },
+    {
+      "id": "news-7",
+      "title": "Coppa Italia Under 12 S3 3vs3 da domani in Umbria",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Wed, 15 Sep 2021 13:40:00 GMT",
+      "image": "http://cdn.tuttosport.com/images/2021/09/15/184029756-2c407ca7-98db-4460-a59d-e66c46ce7913.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/2021/09/15-85349584/coppa_italia_under_12_s3_3vs3_da_domani_in_umbria"
     },
     {
       "id": "volleyaltoteverecompletalaregi",
@@ -67,14 +75,6 @@
     },
     {
       "id": "news-0",
-      "title": "Volley, sorteggiati i gironi di Champions League: pirotecnico derby italiano, Perugia difende il trofeo",
-      "excerpt": "Fonte: oasport.it",
-      "createdTime": "Wed, 15 Jul 2026 09:25:00 GMT",
-      "image": "https://www.oasport.it/wp-content/uploads/2026/05/IPA84815993-e1784132692297.jpg",
-      "permalink": "https://www.oasport.it/2026/07/volley-sorteggiati-i-gironi-di-champions-league-pirotecnico-derby-italiano-perugia-difende-il-trofeo/"
-    },
-    {
-      "id": "news-0",
       "title": "Volley, Black Angels Perugia: svelate le avversarie in Serie A2",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 15 Jul 2026 03:15:00 GMT",
@@ -88,14 +88,6 @@
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/69/15/8296915_pckg_20240814_14941798.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo Mercato – Emanuela Agbortabi nuova centrale della PanBiscò Leonessa",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 08 Jul 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/09/pallavolo-mercato-emanuela-agbortabi-nuova-centrale-della-panbisco-leonessa/"
     },
     {
       "id": "news-1",
@@ -122,20 +114,20 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-6",
-      "title": "Nova Volley cade in casa: Sir Umbria Academy Assisi vince 3-1",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/volley/nova-volley-cade-in-casa-f142f098"
-    },
-    {
       "id": "news-7",
       "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/02/1e4e212c-7b64-2826-1735-59d8c28c687c.png",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
+    },
+    {
+      "id": "tdrperlumbriamaschilelesordion",
+      "title": "TdR: per l’Umbria maschile l’esordio non è proibitivo - Pianeta Volley",
+      "excerpt": "Fonte: Pianeta Volley",
+      "createdTime": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPczRja2RWTWpDV1Q4RUdTdXZPZGVNdkhLRmVqb3c5NTRYSVQxUHVLVzZmNFBOVXRlTGJDSGo5ejR6SjItdHpGYnh4d0U1WENyYzlmb2ZxWVM0cEN5TVlEVWp2VE5UbldkcTZ3WUgzVWZmSjR3Qmd5U2FPVzNvVm1PNFhDSlpnSEdudnI5OWFNdm9RaTA?oc=5"
     },
     {
       "id": "news-5",
@@ -160,6 +152,14 @@
       "createdTime": "Tue, 14 Jul 2026 23:21:00 GMT",
       "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/MTU0NDExMjItZjI2Yy00/0/sir-perugia-a-bologna-tra-incontri-e-calendari.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://www.lanazione.it/umbria/sport/il-tradizionale-appuntamento-del-volleymercato-e7d522a5"
+    },
+    {
+      "id": "news-0",
+      "title": "Pallavolo Coppe Europee – Sono 6 le square italiane che daranno l’assalto alle Coppe Continentali",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Tue, 14 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-coppe-europee-sono-6-le-square-italiane-che-daranno-lassalto-alle-coppe-continentali/"
     },
     {
       "id": "europeidipallavolounder18clafi",
@@ -226,6 +226,22 @@
       "permalink": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnNCQmU4LWJhS29YNUVkUEpkVzdrXzBNT0xOMUgxQTRUN0tOS2hfMWNxS2xBb3BvNW11YlM1UzBwdkEtRXM1OXAxN2tBM1lTT3g2YnhuU0RUTEZTZ28tWE5MSWNkclVYWHZ5WHE2dGVRVEdqTjVPalFST3RkUnQ3Ml9yOEVNNVZqY0tWa2NxckdWZkFLNFVlRnRB?oc=5"
     },
     {
+      "id": "titolisportiviinumbriacalailpe",
+      "title": "Titoli sportivi: in Umbria cala il peso specifico - Pianeta Volley",
+      "excerpt": "Fonte: Pianeta Volley",
+      "createdTime": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJBY1pCNjZFd2pHVjVNRFpKUnlRUUlnbEczcnpOY0Vhd0R1TGYxNFhwb05YcTNBdmRhdmN4R3lQWTRhQm5saGdpeXdCQmZxMVZhTDZNUExOeEZLZVNQUmZ3M0t1SjVlQUVaRTBpdk9aWDhLaWhiM1NFR3dickZVVUx1amVMSmpVNnRkcWM3dm8?oc=5"
+    },
+    {
+      "id": "news-7",
+      "title": "Volley Mercato: Francesca Michieletto schiaccerà a Perugia",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Thu, 14 May 2026 11:12:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/05/14/160729642-72be6521-908c-4c57-afc8-d4b01ae8dd77.jpeg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/05/14-148641932/volley_mercato_francesca_michieletto_schiaccer_a_perugia"
+    },
+    {
       "id": "sirsafetyelegacoopcooperatives",
       "title": "Sir Safety e Legacoop: \"Cooperative sportive: modello da promuovere\" - La Nazione",
       "excerpt": "Fonte: La Nazione",
@@ -243,14 +259,14 @@
     },
     {
       "id": "news-6",
-      "title": "Volley: L'Umbria ospiterà le 39esime Arbitriadi",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 07 Jun 2018 12:28:00 GMT",
+      "title": "Pallavolo A2F – Il Marsala Volley ha presentato la domanda di iscrizione nel torneo cadetto",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 02 Jul 2026 16:59:00 GMT",
       "image": null,
-      "permalink": "https://www.tuttosport.com/news/pallavolo/2018/06/07-43894532/volley_l_umbria_ospitera_le_39esime_arbitriadi"
+      "permalink": "https://www.ivolleymagazine.it/2026/07/03/pallavolo-a2f-il-marsala-volley-ha-presentato-la-domanda-di-iscrizione-nel-torneo-cadetto/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
@@ -274,7 +290,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Pallavolo: Zawiercie ko, Perugia vince la Champions League",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 18 May 2025 14:11:00 GMT",
@@ -322,7 +338,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo: i risultati della Superlega",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 03 Mar 2019 13:33:00 GMT",
@@ -362,7 +378,7 @@
       "permalink": "https://www.ilpost.it/2025/12/21/perugia-va-in-finale-mondiale-club-pallavolo/"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -376,14 +392,6 @@
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
       "image": "https://www.assisisport.it/wp-content/uploads/2020/03/FC516808-1FD9-4341-84B3-A774B17F2EB7.jpeg",
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
-    },
-    {
-      "id": "tdrlumbriafemminilesfidabasili",
-      "title": "TdR, l’Umbria femminile sfida Basilicata e Calabria - Pianeta Volley",
-      "excerpt": "Fonte: Pianeta Volley",
-      "createdTime": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRlpqa3BzWmFmaFdjbGlKYXYwdFBtUk9TdEJCam5zVVNpeVo0T0Rhc1B1MFVxeVU2TWxRb1djYUdNQ0hXbnJrdV8wVWQ4TlNXSnpsdlBKY1EzYnllUWhNcmo4cHp2S3Vrd3dPWEUxQ1QyY2VzQ3NOSGx4X0FVX1VHWEVpMnd6U0E3ejd0SGhaMEFQUQ?oc=5"
     },
     {
       "id": "news-2",
@@ -410,22 +418,6 @@
       "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-champions-m-perugia-goran-vujevic-commenta-il-sorteggio-dei-gironi-ci-e-andata-bene-ma-poteva-andare-meglio/"
     },
     {
-      "id": "valoriincampoadassisiilconfron",
-      "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive - Assisi News",
-      "excerpt": "Fonte: Assisi News",
-      "createdTime": "Mon, 13 Jul 2026 12:04:32 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX05nQ3lJbGZHVkJrYktDLVRzQ2FTUF84Q09OLUVhRkZibERIS2x4bGFGeTNHYXZ2UVVnZmR2Tk9SV0NJZXAtRDVOM0RrOWVURXlNazFoLTBIeV84Tkc3WG83S2dJLXNCeF9xYTNMTHVFSjg5QUtwSHEtUlRMeHdBRUVuekpiS2F4Y3VCODVuS09SQWJROURqaEUxN3ZsVDNqdUpiTWhud2RGMjBWTEE?oc=5"
-    },
-    {
-      "id": "news-3",
-      "title": "Volley A2: il Marsala Volley scalda i motori - Pubblicato il Girone Unico",
-      "excerpt": "Fonte: tp24.it",
-      "createdTime": "Mon, 13 Jul 2026 05:30:00 GMT",
-      "image": "https://www.tp24.it/immagini_articoli/12-07-2026/1783873311-0-volley-a2-il-marsala-volley-scalda-i-motori-pubblicato-il-girone-unico.jpg",
-      "permalink": "https://www.tp24.it/notizie-inchieste-eventi-a-trapani/volley-a2-il-marsala-volley-scalda-i-motori-pubblicato-il-girone-unico/236719"
-    },
-    {
       "id": "news-2",
       "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive",
       "excerpt": "Fonte: assisinews.it",
@@ -448,6 +440,14 @@
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
       "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
+    },
+    {
+      "id": "news-4",
+      "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
+      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/NGFiZTNjNjMtNmIwMC00/0/trofeo-delle-regioni-lumbria-migliora.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
     },
     {
       "id": "bigmatfngu16fdelineatoinumbria",
