@@ -9,7 +9,9 @@ import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import diretteData from "../data/dirette.json";
 import pilloleData from "../data/pillole.json";
-
+import coachNewsData from "../data/coach_news.json";
+import diretteData from "../data/dirette.json";
+import coachNewsData from "../data/coach_news.json";
 const MAX_NEWS_PER_SECTION = 30;
 
 const SECTIONS = {
@@ -1050,9 +1052,14 @@ function AllenatoriPage() {
   const coach = coaches.find((c) => c.id === selected);
 
   useEffect(() => {
-    if (!coach || !showNews) { setNews([]); return; }
-    setLoadingNews(true);
-    setNews([]);
+  if (!coach || !showNews) { setNews([]); return; }
+  const coachNews = (coachNewsData.news || {})[coach.id] || [];
+  setNews(coachNews.map(n => ({
+    title: n.title,
+    link: n.link,
+    pubDate: n.pubDate,
+  })));
+}, [selected, showNews]);
     const rssUrl2 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.name + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
     fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl2))
       .then((r) => r.json())
@@ -1180,10 +1187,15 @@ function Allenatori2Page() {
 
   const coach = elenco.find((c) => c.id === selectedId);
 
-  useEffect(() => {
-    if (!coach) { setNews([]); return; }
-    setLoadingNews(true);
-    setNews([]);
+ useEffect(() => {
+  if (!coach) { setNews([]); return; }
+  const coachNews = (coachNewsData.news || {})[coach.id] || [];
+  setNews(coachNews.map(n => ({
+    title: n.title,
+    link: n.link,
+    pubDate: n.pubDate,
+  })));
+}, [selectedId]);
     const rssUrl3 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.nome + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
     fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl3))
       .then((r) => r.json())
