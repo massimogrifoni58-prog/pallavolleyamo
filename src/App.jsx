@@ -410,7 +410,7 @@ function RicercaSocieta() {
     setLoading(true);
     setNews([]);
     const rssUrl = "https://news.google.com/rss/search?q=" + encodeURIComponent(query.trim()) + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.codetabs.com/v1/proxy?quest=?" + encodeURIComponent(rssUrl))
+    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl))
       .then((r) => r.json())
       .then((data) => {
         const parser = new DOMParser();
@@ -1054,7 +1054,7 @@ function AllenatoriPage() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl2 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.name + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.codetabs.com/v1/proxy?quest=?" + encodeURIComponent(rssUrl2))
+    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl2))
       .then((r) => r.json())
       .then((data) => {
         const parser2 = new DOMParser();
@@ -1185,7 +1185,7 @@ function Allenatori2Page() {
     setLoadingNews(true);
     setNews([]);
     const rssUrl3 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.nome + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://https://api.codetabs.com/v1/proxy?quest=?" + encodeURIComponent(rssUrl3))
+    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl3))
       .then((r) => r.json())
       .then((data) => {
         const parser3 = new DOMParser();
