@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T16:00:30.954181+00:00",
+  "generatedAt": "2026-07-18T16:25:27.879329+00:00",
   "posts": [
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -202,6 +202,14 @@
       "permalink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQblVsOE9NVjFZcG9WX3hJejJBQzFsaENkOXBQUm8yTTBsRDF6NVU4aFpfX01abUJTblhqZWg0VExfYzMybUh2d29KaEJhRjd1dVFyTG1rMDN0Q2xCWUNHNVlDcmRPdVVsVXF5OFp5M3JGaGpCMVFJem1yODJXUmdOelBEblNpN21oM2x4LUZsdl9QSVRqa0MzT0E4VQ?oc=5"
     },
     {
+      "id": "news-7",
+      "title": "Volley. Pgs Bosico Terni, c’è il progetto pilota",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Tue, 07 Jan 2025 23:20:00 GMT",
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/volley/volley-pgs-bosico-terni-53156cc5"
+    },
+    {
       "id": "news-5",
       "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
       "excerpt": "Fonte: ansa.it",
@@ -306,7 +314,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -386,7 +394,7 @@
       "permalink": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NYVdnME01SHpKc1B6XzFJamZKRFJoWlljTWl1NDhjYWVJUFdrQ3NMMVAtQkNLak0ydnhWRjFGTFR1U19IdFNSa3JNSXBJNV9OaGl4SmpvSk1acjd5SEdjdXU2a0p0YUlPamlwM2lvV3BjS1dzSVlCMFRTUlQ?oc=5"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -458,14 +466,6 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
-      "id": "bigmatfngu17meu16fdomanialvial",
-      "title": "BigMat FNG U17M e U16F: domani al via le gare in Veneto e in Umbria - federvolley.it",
-      "excerpt": "Fonte: federvolley.it",
-      "createdTime": "Mon, 18 May 2026 07:00:00 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ0NVTXMxOFNWNmUzOS02NDFGSTV5dW5mR3ozQk9SbDAydWM0c05IRzR2VHN5U044VlJRLTYxTmRHTmhRZlJjMmlXRFhnY1NtaWFlNnpSakRjV3JEdVItek5XRGVWSmhVWlRodldaUl9CVkhESXpRS1F6OG1Cb0tqVjFtZlZYTVBfeTRJ?oc=5"
-    },
-    {
       "id": "festadellapallavoloumbraallins",
       "title": "Festa della pallavolo umbra all’insegna di numeri record e segnali di crescita - - Umbria 24",
       "excerpt": "Fonte: - Umbria 24",
@@ -482,7 +482,7 @@
       "permalink": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX05nQ3lJbGZHVkJrYktDLVRzQ2FTUF84Q09OLUVhRkZibERIS2x4bGFGeTNHYXZ2UVVnZmR2Tk9SV0NJZXAtRDVOM0RrOWVURXlNazFoLTBIeV84Tkc3WG83S2dJLXNCeF9xYTNMTHVFSjg5QUtwSHEtUlRMeHdBRUVuekpiS2F4Y3VCODVuS09SQWJROURqaEUxN3ZsVDNqdUpiTWhud2RGMjBWTEE?oc=5"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
       "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive",
       "excerpt": "Fonte: assisinews.it",
       "createdTime": "Mon, 13 Jul 2026 05:00:00 GMT",
@@ -498,20 +498,20 @@
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
     },
     {
-      "id": "news-6",
-      "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
-      "excerpt": "Fonte: latinaquotidiano.it",
-      "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
-      "image": "https://www.latinaquotidiano.it/wp-content/uploads/2026/01/VIRIDEX-SABAUDIA-VITTORIA-A-TERNI--e1767606312290.jpg",
-      "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
-    },
-    {
       "id": "news-2",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/NGFiZTNjNjMtNmIwMC00/0/trofeo-delle-regioni-lumbria-migliora.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
+    },
+    {
+      "id": "tdrledonnedellumbriadinuovoabo",
+      "title": "TdR, le donne dell’Umbria di nuovo a bocca asciutta - Pianeta Volley",
+      "excerpt": "Fonte: Pianeta Volley",
+      "createdTime": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVJRVF95bVRGT3k4NFV6R0ZJMXZxSUtoSkdJVkdBOHJJN0M1QXg3MTRzWGhkSlh1ejNTb1ZlemNMbVFCYnN2R2QwSTdLRkFCNVBIdU90NWFsTnp0NkFHMUliUk5MVVVFWWFOZGktQi1NYkp4dnB1YjRjZGp1Qi1VRTdOeUpOYUFNRWRKWFBuRm9Ddw?oc=5"
     },
     {
       "id": "bigmatfngu16fdelineatoinumbria",
