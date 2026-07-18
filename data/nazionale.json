@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T20:23:14.807280+00:00",
+  "generatedAt": "2026-07-18T20:47:26.627651+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -64,6 +64,14 @@
       "createdTime": "Wed, 15 Jul 2026 10:05:04 GMT",
       "image": null,
       "permalink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUpHWXB5Rkt4X0dUR1pCbWRvTkFaaS0ybExCV1FVX0lBX3RtRjl5T3owb25uRktyU1YwVnNyWkdGNmpvR3hoTlY1VXRpWDhVNU1YR0t1MHNsUE80Nlg0Sm9DRnNWQllzZmk5NHdaWVgyWHZKSFpDSGJNcVRha2FYQWhZZVZybzlyY3c?oc=5"
+    },
+    {
+      "id": "8",
+      "title": "Volley femminile, giornata storica: Italia campione d'Europa Under 18 e Under 22",
+      "excerpt": "Fonte: sport.sky.it",
+      "createdTime": "Wed, 15 Jul 2026 04:20:00 GMT",
+      "image": null,
+      "permalink": "https://sport.sky.it/volley/2026/07/12/italia-volley-femminile-doppio-oro-europei-under-18-22"
     },
     {
       "id": "mondovolleylealtrenewsdel14lug",
@@ -224,14 +232,6 @@
       "createdTime": "Thu, 28 May 2026 18:39:18 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/05/eurovolley-2026-palloni-ufficiali.png",
       "permalink": "https://www.volleyball.it/2026/05/28/notizie/argomenti/europei-maschili/articolo/eurovolley-2026-cev-e-mikasa-svelano-i-palloni-ufficiali.html"
-    },
-    {
-      "id": "9",
-      "title": "Fipav e Csi firmano un'intesa per la pallavolo di base",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 28 May 2026 09:57:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/05/28/145141820-f3f9b992-54b1-43b5-981a-62a3089fe038.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/05/28-148917093/fipav_e_csi_firmano_un_intesa_per_la_pallavolo_di_base"
     },
     {
       "id": "fivbmondialiadicembresuperlega",
@@ -602,7 +602,7 @@
       "permalink": "https://www.volleyball.it/2026/07/11/notizie/argomenti/vnl-femminile/articolo/vnl-velasco-applaude-la-rimonta-dellitalia-grande-carattere-ora-vogliamo-chiudere-al-meglio-con.html"
     },
     {
-      "id": "8",
+      "id": "9",
       "title": "Volley, Fidone da Montalto allo stage con la Nazionale",
       "excerpt": "Fonte: quotidianodelsud.it",
       "createdTime": "Sat, 11 Jul 2026 12:46:00 GMT",
