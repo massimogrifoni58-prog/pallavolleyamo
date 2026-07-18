@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-16T11:33:51.976018+00:00",
+  "generatedAt": "2026-07-18T12:16:46.085421+00:00",
   "posts": [
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -24,6 +24,22 @@
       "createdTime": "Wed, 24 Jun 2026 07:00:00 GMT",
       "image": null,
       "permalink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnBJV2xITDNDb1ZsZW4wRERXRTM2OF93Y2s5VXdxd3VhX1ZtU05fZi00bWpoMDU4SXN4Skl0ZEdrb04ycm9DdGhmYkhiTWk5Y2E3bU5zczcyMFliVU5STVZyZC1vVXNQVFYzYUFZMTU2V3QyRS1Xc2hxbXpXYW1hZ3hBZG5Td01wVEJN?oc=5"
+    },
+    {
+      "id": "news-6",
+      "title": "Con l'approvazione del bilancio 2023 chiuso il Consiglio Federale",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Wed, 21 Dec 2022 09:29:00 GMT",
+      "image": "http://cdn.tuttosport.com/images/2022/12/21/162932253-a50830aa-bb1d-4072-8c47-c607aa1f9899.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/2022/12/21-101379151/con_l_approvazione_del_bilancio_2023_chiuso_il_consiglio_federale"
+    },
+    {
+      "id": "news-6",
+      "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
+      "excerpt": "Fonte: assisisport.it",
+      "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
+      "image": "http://www.assisisport.it/wp-content/uploads/2024/03/s.maria-e-assisi-insieme-1024x768.jpeg",
+      "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
     },
     {
       "id": "news-6",
@@ -74,7 +90,15 @@
       "permalink": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQmlxZTdrLXpKVVFHd3luOGxJMk5KeEdjclVLLWtMLU1Qd1Q1SVRrSXBvaFVOSmdqX2xrU0JaMTZ3UXMtZThRMXl3YkZkNnNpX2NmUThMZDBkVV9vd09sMGxaZmEzMzlvNUZyU04ydmNuOHYtYUhXaXdKQlAxemR2ZERtUlhIYnVlUkphY08yVi11c0pxbDFBWmF3?oc=5"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
+      "title": "Volley, sorteggiati i gironi di Champions League: pirotecnico derby italiano, Perugia difende il trofeo",
+      "excerpt": "Fonte: oasport.it",
+      "createdTime": "Wed, 15 Jul 2026 09:25:00 GMT",
+      "image": "https://www.oasport.it/wp-content/uploads/2026/05/IPA84815993-e1784132692297.jpg",
+      "permalink": "https://www.oasport.it/2026/07/volley-sorteggiati-i-gironi-di-champions-league-pirotecnico-derby-italiano-perugia-difende-il-trofeo/"
+    },
+    {
+      "id": "news-1",
       "title": "Volley, Black Angels Perugia: svelate le avversarie in Serie A2",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 15 Jul 2026 03:15:00 GMT",
@@ -90,6 +114,22 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
+      "id": "sirsafetyelegacoopcooperatives",
+      "title": "Sir Safety e Legacoop: \"Cooperative sportive: modello da promuovere\" - La Nazione",
+      "excerpt": "Fonte: La Nazione",
+      "createdTime": "Wed, 08 Jul 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQWVoYk5aRzRaSUJTRnYyT09NNHBpaDhiWkRmQjlMOTlnLVcxQlVQRFZOcjFkekFCS213bmpCSVhkb2JaSVpyLUhMT1FxSktuSFBEQms0OFNXYWk5alFQWWgta1dyQjVTQkJNSWI1UnBrUk5oT3dub0NBS2NwSVFKMmRmRGNxS0NKcnc?oc=5"
+    },
+    {
+      "id": "news-0",
+      "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
+      "excerpt": "Fonte: ilpost.it",
+      "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
+      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/05/07/1778127160-perugia.jpg",
+      "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
+    },
+    {
       "id": "news-1",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
@@ -98,7 +138,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-7",
+      "id": "news-4",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -122,14 +162,6 @@
       "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
     },
     {
-      "id": "tdrperlumbriamaschilelesordion",
-      "title": "TdR: per l’Umbria maschile l’esordio non è proibitivo - Pianeta Volley",
-      "excerpt": "Fonte: Pianeta Volley",
-      "createdTime": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPczRja2RWTWpDV1Q4RUdTdXZPZGVNdkhLRmVqb3c5NTRYSVQxUHVLVzZmNFBOVXRlTGJDSGo5ejR6SjItdHpGYnh4d0U1WENyYzlmb2ZxWVM0cEN5TVlEVWp2VE5UbldkcTZ3WUgzVWZmSjR3Qmd5U2FPVzNvVm1PNFhDSlpnSEdudnI5OWFNdm9RaTA?oc=5"
-    },
-    {
       "id": "news-5",
       "title": "Dalle Fere del calcio all'Italvolley, ecco la dottoressa di Terni che \"cura\" i trionfi della pallavolo femminile azzurra",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -138,28 +170,12 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-2",
-      "title": "Il tradizionale appuntamento del volleymercato apre la stagione. Sir Perugia a Bologna tra incontri e calendari",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Tue, 14 Jul 2026 23:21:29 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/sport/pallavolo/il-tradizionale-appuntamento-del-volleymercato-apre-la-stagione-sir-perugia-a-bologna-tra-incontri-e-calendari/ar-AA27VWw5"
-    },
-    {
-      "id": "news-1",
-      "title": "Il tradizionale appuntamento del volleymercato apre la stagione. Sir Perugia a Bologna tra incontri e calendari",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Tue, 14 Jul 2026 23:21:00 GMT",
-      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/MTU0NDExMjItZjI2Yy00/0/sir-perugia-a-bologna-tra-incontri-e-calendari.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.lanazione.it/umbria/sport/il-tradizionale-appuntamento-del-volleymercato-e7d522a5"
-    },
-    {
-      "id": "news-0",
-      "title": "Pallavolo Coppe Europee – Sono 6 le square italiane che daranno l’assalto alle Coppe Continentali",
+      "id": "news-3",
+      "title": "Pallavolo Champions M – Perugia, Goran Vujevic commenta il sorteggio dei gironi: “Ci è andata bene, ma poteva andare meglio”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 14 Jul 2026 17:00:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-coppe-europee-sono-6-le-square-italiane-che-daranno-lassalto-alle-coppe-continentali/"
+      "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-champions-m-perugia-goran-vujevic-commenta-il-sorteggio-dei-gironi-ci-e-andata-bene-ma-poteva-andare-meglio/"
     },
     {
       "id": "europeidipallavolounder18clafi",
@@ -170,12 +186,12 @@
       "permalink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQblVsOE9NVjFZcG9WX3hJejJBQzFsaENkOXBQUm8yTTBsRDF6NVU4aFpfX01abUJTblhqZWg0VExfYzMybUh2d29KaEJhRjd1dVFyTG1rMDN0Q2xCWUNHNVlDcmRPdVVsVXF5OFp5M3JGaGpCMVFJem1yODJXUmdOelBEblNpN21oM2x4LUZsdl9QSVRqa0MzT0E4VQ?oc=5"
     },
     {
-      "id": "news-7",
-      "title": "Volley. Pgs Bosico Terni, c’è il progetto pilota",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Tue, 07 Jan 2025 23:20:00 GMT",
-      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
-      "permalink": "https://sport.quotidiano.net/volley/volley-pgs-bosico-terni-53156cc5"
+      "id": "news-5",
+      "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
+      "excerpt": "Fonte: ansa.it",
+      "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
+      "image": "https://www.ansa.it/sito/img/ico/ansa-700x366-precomposed.png",
+      "permalink": "https://www.ansa.it/umbria/notizie/2023/05/02/ilaria-vagni-1/o-arbitro-alla-finale-scudetto-maschile-di-volley_9be60c73-6433-488b-a30a-bb0e0a096741.html"
     },
     {
       "id": "news-2",
@@ -226,39 +242,15 @@
       "permalink": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnNCQmU4LWJhS29YNUVkUEpkVzdrXzBNT0xOMUgxQTRUN0tOS2hfMWNxS2xBb3BvNW11YlM1UzBwdkEtRXM1OXAxN2tBM1lTT3g2YnhuU0RUTEZTZ28tWE5MSWNkclVYWHZ5WHE2dGVRVEdqTjVPalFST3RkUnQ3Ml9yOEVNNVZqY0tWa2NxckdWZkFLNFVlRnRB?oc=5"
     },
     {
-      "id": "titolisportiviinumbriacalailpe",
-      "title": "Titoli sportivi: in Umbria cala il peso specifico - Pianeta Volley",
-      "excerpt": "Fonte: Pianeta Volley",
-      "createdTime": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "id": "news-5",
+      "title": "La Sir Perugia debutta a Cuneo. Sirci carica: \"Ricominciamo\"",
+      "excerpt": "Fonte: msn.com",
+      "createdTime": "Thu, 16 Jul 2026 23:12:43 GMT",
       "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJBY1pCNjZFd2pHVjVNRFpKUnlRUUlnbEczcnpOY0Vhd0R1TGYxNFhwb05YcTNBdmRhdmN4R3lQWTRhQm5saGdpeXdCQmZxMVZhTDZNUExOeEZLZVNQUmZ3M0t1SjVlQUVaRTBpdk9aWDhLaWhiM1NFR3dickZVVUx1amVMSmpVNnRkcWM3dm8?oc=5"
+      "permalink": "https://www.msn.com/it-it/notizie/italia/la-sir-perugia-debutta-a-cuneo-sirci-carica-ricominciamo/ar-AA285FOF"
     },
     {
       "id": "news-7",
-      "title": "Volley Mercato: Francesca Michieletto schiaccerà a Perugia",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 14 May 2026 11:12:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/05/14/160729642-72be6521-908c-4c57-afc8-d4b01ae8dd77.jpeg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/05/14-148641932/volley_mercato_francesca_michieletto_schiaccer_a_perugia"
-    },
-    {
-      "id": "sirsafetyelegacoopcooperatives",
-      "title": "Sir Safety e Legacoop: \"Cooperative sportive: modello da promuovere\" - La Nazione",
-      "excerpt": "Fonte: La Nazione",
-      "createdTime": "Thu, 09 Jul 2026 04:44:05 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQWVoYk5aRzRaSUJTRnYyT09NNHBpaDhiWkRmQjlMOTlnLVcxQlVQRFZOcjFkekFCS213bmpCSVhkb2JaSVpyLUhMT1FxSktuSFBEQms0OFNXYWk5alFQWWgta1dyQjVTQkJNSWI1UnBrUk5oT3dub0NBS2NwSVFKMmRmRGNxS0NKcnc?oc=5"
-    },
-    {
-      "id": "news-2",
-      "title": "Volley, Europei U18: quattro punti di Gallinella nella vittoria dell’Italia sulla Finlandia",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Thu, 09 Jul 2026 00:01:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/07/I8A2623_0.jpg",
-      "permalink": "https://www.umbria24.it/perugia/volley-europei-u18-quattro-punti-di-gallinella-nella-vittoria-dellitalia-sulla-finlandia/"
-    },
-    {
-      "id": "news-6",
       "title": "Pallavolo A2F – Il Marsala Volley ha presentato la domanda di iscrizione nel torneo cadetto",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 02 Jul 2026 16:59:00 GMT",
@@ -274,7 +266,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -290,7 +282,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo: Zawiercie ko, Perugia vince la Champions League",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 18 May 2025 14:11:00 GMT",
@@ -338,15 +330,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-6",
-      "title": "Pallavolo: i risultati della Superlega",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Sun, 03 Mar 2019 13:33:00 GMT",
-      "image": "https://www.ansa.it/webimages/img_700/2018/12/2/b27701babdd6b429648cf598378f9116.jpg",
-      "permalink": "https://www.ansa.it/umbria/notizie/2019/03/03/pallavolo-i-risultati-della-superlega_d63f295c-c380-4844-ab1f-fdbce8e2e86d.html"
-    },
-    {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -362,7 +346,7 @@
       "permalink": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NYVdnME01SHpKc1B6XzFJamZKRFJoWlljTWl1NDhjYWVJUFdrQ3NMMVAtQkNLak0ydnhWRjFGTFR1U19IdFNSa3JNSXBJNV9OaGl4SmpvSk1acjd5SEdjdXU2a0p0YUlPamlwM2lvV3BjS1dzSVlCMFRTUlQ?oc=5"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -370,7 +354,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
@@ -378,7 +362,15 @@
       "permalink": "https://www.ilpost.it/2025/12/21/perugia-va-in-finale-mondiale-club-pallavolo/"
     },
     {
-      "id": "news-4",
+      "id": "volleycoachmonaldisulleprospet",
+      "title": "Volley, coach Monaldi sulle prospettive di Altotevere: «Vogliamo essere protagonisti» - - Umbria 24",
+      "excerpt": "Fonte: - Umbria 24",
+      "createdTime": "Sat, 11 Jul 2026 06:19:59 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeVdTSXpCNVN2RGh4S1FNNFZ1ZUZLZGx4YVB1bGIzbGwya3dZYlRRblZpaFloQlJ6aEhQTG9fazVleE5ha1kzTG1mZWwwZnZUU1BNeXdfeWgyT3A4bW5pY3Uzb3djc3lnaF9EdkhTc1VTSXM0eHVaQ0k5Vm1Yd0Vyc25oUTdwcUJhRjlrUlZoSUpyY2lNeG9ydzRReDVhZ0k0U2hNY1RqN2ZmWE51bmxZT0cxTXVyYXROSEtacms2NUhTZw?oc=5"
+    },
+    {
+      "id": "news-7",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -402,6 +394,14 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
+      "id": "bigmatfngu17meu16fdomanialvial",
+      "title": "BigMat FNG U17M e U16F: domani al via le gare in Veneto e in Umbria - federvolley.it",
+      "excerpt": "Fonte: federvolley.it",
+      "createdTime": "Mon, 18 May 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ0NVTXMxOFNWNmUzOS02NDFGSTV5dW5mR3ozQk9SbDAydWM0c05IRzR2VHN5U044VlJRLTYxTmRHTmhRZlJjMmlXRFhnY1NtaWFlNnpSakRjV3JEdVItek5XRGVWSmhVWlRodldaUl9CVkhESXpRS1F6OG1Cb0tqVjFtZlZYTVBfeTRJ?oc=5"
+    },
+    {
       "id": "festadellapallavoloumbraallins",
       "title": "Festa della pallavolo umbra all’insegna di numeri record e segnali di crescita - - Umbria 24",
       "excerpt": "Fonte: - Umbria 24",
@@ -410,15 +410,15 @@
       "permalink": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUZSSmxnSF91M0VIUXFtdVZ6WTZOLTlTYUZtOGJ2QVNQOTZTY0YydWY5X2xqZlh0MHVtSW4xMWc3MzVGcy16VGFmTTJvT1lWSndIM3ZNZlBrbllWNmkwOXBTT1c2RWt2WHhyQjctLTRnMGZfb0d6SC1yR2w5dG01emRhdzJ0bkJ4SGhFMzZjY29uM1JwQldsdEpxVlBPcVJYZUxCclI3UEdxRjFEdzg0?oc=5"
     },
     {
-      "id": "news-1",
-      "title": "Pallavolo Champions M – Perugia, Goran Vujevic commenta il sorteggio dei gironi: “Ci è andata bene, ma poteva andare meglio”",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Mon, 13 Jul 2026 17:00:00 GMT",
+      "id": "valoriincampoadassisiilconfron",
+      "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive - Assisi News",
+      "excerpt": "Fonte: Assisi News",
+      "createdTime": "Mon, 13 Jul 2026 12:04:32 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-champions-m-perugia-goran-vujevic-commenta-il-sorteggio-dei-gironi-ci-e-andata-bene-ma-poteva-andare-meglio/"
+      "permalink": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX05nQ3lJbGZHVkJrYktDLVRzQ2FTUF84Q09OLUVhRkZibERIS2x4bGFGeTNHYXZ2UVVnZmR2Tk9SV0NJZXAtRDVOM0RrOWVURXlNazFoLTBIeV84Tkc3WG83S2dJLXNCeF9xYTNMTHVFSjg5QUtwSHEtUlRMeHdBRUVuekpiS2F4Y3VCODVuS09SQWJROURqaEUxN3ZsVDNqdUpiTWhud2RGMjBWTEE?oc=5"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive",
       "excerpt": "Fonte: assisinews.it",
       "createdTime": "Mon, 13 Jul 2026 05:00:00 GMT",
@@ -426,12 +426,20 @@
       "permalink": "https://www.assisinews.it/sport/valori-in-campo-ad-assisi-il-confronto-sul-futuro-delle-cooperative-sportive/"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Selezioni Beach Volley Umbria: al via gli allenamenti per il Trofeo delle Regioni",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Mon, 12 May 2025 17:00:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/MTllOTY2MWUtZWI1Mi00/0/un-campo-da-pallavolo-con-il-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
+    },
+    {
+      "id": "news-6",
+      "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
+      "excerpt": "Fonte: latinaquotidiano.it",
+      "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
+      "image": "https://www.latinaquotidiano.it/wp-content/uploads/2026/01/VIRIDEX-SABAUDIA-VITTORIA-A-TERNI--e1767606312290.jpg",
+      "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
       "id": "news-0",
@@ -442,7 +450,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-4",
+      "id": "news-2",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
@@ -458,20 +466,12 @@
       "permalink": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWtwTHRaSnk4dVV4UHlibF9QYUxqUnd6R3FOSjNMd015UzBaZ2NubXNxZ1d1NGlVSlIwMnRieDlOa2xoQi04azJoZmJPRUZBRHM5eUxmNExnTlViUnQ3YkZhXzh0T0lXRmNTc1Y1b3lwTjh2bkxWVHlLSENRX1U1RURabmtRcmM5UEpJeFhEQVNwOG1J?oc=5"
     },
     {
-      "id": "umbriaprontaperlefinalinaziona",
-      "title": "Umbria pronta per le finali nazionali under 16 femminili - Pianeta Volley",
-      "excerpt": "Fonte: Pianeta Volley",
-      "createdTime": "Fri, 15 May 2026 07:00:00 GMT",
+      "id": "volleycalendarioseriea3altotev",
+      "title": "Volley, calendario Serie A3: Altotevere esordisce in casa contro Acqui Terme - - Umbria 24",
+      "excerpt": "Fonte: - Umbria 24",
+      "createdTime": "Fri, 17 Jul 2026 15:48:17 GMT",
       "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaWM1aVNYdHBWc01ja1EyZHhYdEs2SWRSNWhvLWlXSUxEcUFGa0stUVJPZjJENkFQWkFGZURGb2RDZkRvVldkbzdUXzZ5cmpVbWZTUXNSZGZJOHpwUGlXX1lFR1hNOGIxeWthdnptZFZiNzBqZ3RuRXhLSnhkcGxUcGtEcVVvRHluelA3OWE1bzRBalRSRUtMZHhzQQ?oc=5"
-    },
-    {
-      "id": "sirperugialeparoledeldsgoranvu",
-      "title": "Sir Perugia, le parole del DS Goran Vujevic - Umbria TV",
-      "excerpt": "Fonte: Umbria TV",
-      "createdTime": "Fri, 10 Jul 2026 15:08:22 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcVJ3Ukk2OFJXZHZxNTN3bmE0VTUzNHVPQTFFX2I1ZTByNi1EcjB4enh5Y2wtb2x6YndDeXpxMXRQV2tzX21Jd2RyUEpwOE1MemlJTVdTdGE0ck5nREo1b01rMzI0NDJIQUxwWl9SMDFVU3J3TVY4bWVEZTZjNjJsZWN4ZkhwZ3NHMUNoUGgtVFpQdDA?oc=5"
+      "permalink": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaktiV2c0VFp3T3R1a1h2UGZtTmdWUVlNV2NwMlVEZXVuaWZJb1R2ZndmZDBaM2kzTzVZLWU3V2VHcG9DNkhSNzdnSkcxNGNBYnR1SXRNeDNEbUJMZTZwNjNVNThFQnlSdGhGcEJwdjlPYjZVSnUxaXdYUzdxcW9pM25aYVEwT05ZQnZ1V3lOZUEwQkg0R2pwdU9nSDJKSUNoLXNfaEVOZjl6QzdRaVQyemZiU0VhWEFI?oc=5"
     },
     {
       "id": "sirperugialadedicadicoachloren",
