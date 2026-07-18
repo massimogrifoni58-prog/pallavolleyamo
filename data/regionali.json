@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T20:47:54.640369+00:00",
+  "generatedAt": "2026-07-18T20:57:30.491440+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -170,14 +170,6 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-7",
-      "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/13/9125028_13213449_foto_3_2_.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/perugia_mani_fuori_belle_dentro_pallavolo_vincere_detenute_capanne-9125028.html"
-    },
-    {
       "id": "news-6",
       "title": "Il tradizionale appuntamento del volleymercato apre la stagione. Sir Perugia a Bologna tra incontri e calendari",
       "excerpt": "Fonte: msn.com",
@@ -186,7 +178,7 @@
       "permalink": "https://www.msn.com/it-it/sport/pallavolo/il-tradizionale-appuntamento-del-volleymercato-apre-la-stagione-sir-perugia-a-bologna-tra-incontri-e-calendari/ar-AA27VWw5"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Pallavolo Champions M – Perugia, Goran Vujevic commenta il sorteggio dei gironi: “Ci è andata bene, ma poteva andare meglio”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 14 Jul 2026 17:00:00 GMT",
@@ -322,7 +314,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Pallavolo: Zawiercie ko, Perugia vince la Champions League",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 18 May 2025 14:11:00 GMT",
@@ -394,7 +386,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
@@ -426,7 +418,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/davide-candellaro-perugia-e-pronta-a-ripartire/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -496,6 +488,14 @@
       "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
       "image": "https://www.latinaquotidiano.it/wp-content/uploads/2026/01/VIRIDEX-SABAUDIA-VITTORIA-A-TERNI--e1767606312290.jpg",
       "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
+    },
+    {
+      "id": "news-0",
+      "title": "Volley serie B, c’è Foligno-Sansepolcro",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
       "id": "news-2",
