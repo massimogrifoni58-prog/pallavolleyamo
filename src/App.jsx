@@ -95,10 +95,29 @@ function PostCard({ post, subscribed }) {
         {subscribed && post.permalink && (
           <span className="card__link">Leggi tutto &rarr;</span>
         )}
-        {!subscribed && (
+    {!subscribed && (
           <span className="card__link card__link--locked">
             &#128274; Iscriviti per leggere tutto
           </span>
+        )}
+        {post.permalink && (
+          <div className="card__actions">
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.permalink)}`}
+              target="_blank"
+              rel="noreferrer"
+              className="card__action-btn card__action-btn--fb"
+              onClick={e => e.stopPropagation()}
+            >
+              f Condividi
+            </a>
+            <button
+              className="card__action-btn card__action-btn--copy"
+              onClick={e => { e.stopPropagation(); e.preventDefault(); navigator.clipboard.writeText(post.permalink); }}
+            >
+              📋 Copia link
+            </button>
+          </div>
         )}
       </div>
     </>
