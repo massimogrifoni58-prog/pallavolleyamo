@@ -3974,11 +3974,11 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
     e.preventDefault();
     setStatus("sending");
 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encodeFormData({ "form-name": "iscrizione", nome, email }),
-    })
+   fetch("https://formspree.io/f/xrenqkbd", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ nome, email }),
+})
       .then(() => {
         setStatus("done");
         subscribe();
