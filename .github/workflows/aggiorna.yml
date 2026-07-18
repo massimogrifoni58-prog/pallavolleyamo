@@ -1,0 +1,41 @@
+name: Aggiornamento giornaliero PallaVolleyAmo
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Ogni giorno alle 7:00 ora italiana (5 UTC)
+  workflow_dispatch:  # Permette lancio manuale da GitHub
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install requests
+
+      - name: Aggiorna notizie
+        run: |
+          cd scraper
+          python fetch_nazionale.py
+          python fetch_nazionali.py
+          python fetch_regionali.py
+          python fetch_terni.py
+          python fetch_perugia.py
+          python fetch_google_news.py
+          python fetch_volley_feeds.py
+          python fetch_coach_news.py
+
+      - name: Commit e push dati aggiornati
+        run: |
+          git config --global user.email "massimogrifoni58@gmail.com"
+          git config --global user.name "PallaVolleyAmo Bot"
+          git add data/
+          git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie"
+          git push
