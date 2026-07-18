@@ -1,0 +1,535 @@
+<!--
+CId=85188
+StId=2292
+-->
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="/js/jquery/jquery-ui.css" type="text/css" rel="stylesheet" /><link href="/css/base.min.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="/css/modal-menu.css" /><link rel="stylesheet" type="text/css" href="/js/lightslider/css/lightslider.css" /><link rel="stylesheet" type="text/css" href="/js/slicknav/slicknav.css" /><link rel="stylesheet" type="text/css" href="/js/slicknav/slicknav-style.css" /><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.ashx" />
+
+    <script src="/js/jquery/jquery-3.1.0.min.js"></script>
+    <script src="/js/jquery/jquery-ui.js"></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+    <script src="/js/mootools-core-1.5.1.js" type="text/javascript"></script>
+    <script src="/js/mootools-more-1.5.1.js" type="text/javascript"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="/js/selectivizr.js?nocache=20141120a"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/js/checkform.js?nocache=20160616a"></script>
+    <script type="text/javascript" src="/js/jsManager.js?nocache=20160708a"></script>
+    <script type="text/javascript" src="/js/slideshow.js?nocache=20141120a"></script>
+    <script type="text/javascript" src="/js/MenuMatic_0.68.4.js?nocache=20160616a"></script>
+    <script type="text/javascript" src="/js/cerabox/cerabox.min.js?nocache=20141120a"></script>
+    <script type="text/javascript" src="/js/mediabox/mediaboxAdvanced.js?nocaches=2023"></script>
+    <script type="text/javascript" src="/js/DatePicker/DatePickerFull.js?nocache=20141120a"></script>
+    <script type="text/javascript" src="/js/lightslider/js/lightslider.js"></script>
+    <script type="text/javascript" src="/js/slicknav/jquery.slicknav.min.js"></script>
+    
+    <script type="text/javascript">
+        Locale.use('it-IT');
+
+        window.addEvent('load', function () {
+            equalize('#layout-area2, #layout-area3, #layout-area4');
+            equalize('#layout-area3 .col');
+            $$('.popup-image').cerabox({ group: false, displayTitle: false });
+
+            jQuery('.cerabox-close').click(function () {
+                jQuery('body').css('overflow','')
+            })
+            //console.log('');
+
+
+          
+          getMyBingMaps();
+
+        });
+        window.addEvent('domready', function () {
+            paginazioneBoxAfter();
+
+        });
+        function paginazioneBoxAfter() {
+            $$('.box-file-multipli').cerabox({ group: false, displayTitle: true, mobileView: false });
+            $$('.box-page-ricerca-multipli').cerabox({ group: false, displayTitle: true, mobileView: false });
+            $$('.box-rassegna-multipli').cerabox({ group: false, displayTitle: true, mobileView: false });
+            $$('.aps-cer').cerabox({ group: false, displayTitle: true, mobileView: false });
+        }
+
+    </script>
+
+
+
+    
+    <script type="text/javascript">
+        function Stagione(SId) {
+            CaricaPaginaGet('/risultati-classifiche.aspx?act=settimana', 'SId=' + SId, 'lbSettimana');
+            CaricaPaginaGet('/risultati-classifiche.aspx?act=campionato', 'SId=' + SId, 'lbCampionato', 'Campionato(' + SId + ', \'\');');
+        }
+        function Campionato(SId, CId) {
+            CaricaPaginaGet('/risultati-classifiche.aspx?act=societa', 'SId=' + SId + '&CId=' + CId, 'lbSocieta');
+        }
+        function EsportaXls(ff) {
+            var pp = window.open('about:blank', 'popXls');
+            ff.target = 'popXls';
+            var xAction = ff.action;
+            ff.action = 'esporta-risultati.aspx';
+            ff.submit();
+            ff.target = '';
+            ff.action = xAction;
+            pp.focus();
+        }
+    </script>
+<link href="/files/2153/0/Css/1126/stile.css" type="text/css" rel="stylesheet" /><meta property="og:title" content="FIPAV Umbria - Pagine Pubbliche | Risultati e classifiche" /><meta property="og:type" content="article" /><meta property="og:url" content="https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&amp;StId=2292&amp;DataDa=26%2F01%2F2026&amp;StatoGara=1&amp;CId=85188&amp;SId=5290&amp;PId=7323&amp;btFiltro=CERCA" /><meta property="og:image" content="http://umbria.portalefipav.net/files/2153/Logo/" /><meta property="og:site_name" content="FIPAV Umbria - Pagine Pubbliche" /><meta property="og:description" content="" /><meta property="fb:app_id" content="576743645751508" /><title>
+	FIPAV Umbria - Pagine Pubbliche | Risultati e classifiche
+</title></head>
+<body>
+    
+	
+<div id="layout-container" class=" desktop clsP_7323">
+	<div id="layout-area1" style="width:100%">
+		<div class="col col-4">
+			
+<div id="BoxId_22862" name="BoxId_22862" class="box box-4">
+	<div class=""style="background: transparent;"><div class="box-menu-back"><div class="box-menu menu-horizontal" id="box_menu_hor_22862" style="height: 45px;"></div></div>
+
+<script type="text/javascript">
+//<![CDATA[
+if(document.getElementById('nav')){var myMenu = new MenuMatic({ matchWidthMode: true, hideDelay: 200, stretchMainMenu:true });$('box_menu_hor_22862').setStyle('height','');}
+// ]]>
+</script>
+	</div>
+</div>
+		</div>
+	</div>
+	<div id="layout-area-corpo">
+	<div id="layout-area3" style="width:100%">
+		<div class="col col-4">
+	<h1>Risultati e classifiche delle gare</h1>
+<div id="BoxId_22863" class="box box-4">
+	<div class="box-padding">
+	<form id="filtro" method="get" action="/risultati-classifiche.aspx">
+		<input type="hidden" name="ComitatoId" value="30">
+		<label>
+			Stagione sportiva:<br />
+			<select name="StId" tabindex="1" class="input-select" onchange="Stagione(this.options[this.selectedIndex].value)">
+				<option value="2292" selected="selected">Stagione Sportiva 2025 / 2026</option>
+				<option value="2173">Stagione Sportiva 2024 / 2025</option>
+				<option value="2055">Stagione Sportiva 2023 / 2024</option>
+				<option value="1937">Stagione Sportiva 2022 / 2023</option>
+				<option value="1818">Stagione Sportiva 2021 / 2022</option>
+				<option value="1699">Stagione Sportiva 2020 / 2021</option>
+				<option value="1580">Stagione Sportiva 2019 / 2020</option>
+				<option value="1461">Stagione Sportiva 2018 / 2019</option>
+				<option value="1342">Stagione Sportiva 2017 / 2018</option>
+				<option value="1223">Stagione Sportiva 2016 / 2017</option>
+				<option value="1104">Stagione Sportiva 2015 / 2016</option>
+				<option value="985">Stagione Sportiva 2014 / 2015</option>
+			</select>
+		</label>
+		<label id="lbSettimana">
+			Settimana: <br />
+			<select name="DataDa" class="input-select" tabindex="2">
+				<option value="">Tutte le date..</option>
+				<option value="01/07/2025">dal 01/07/2025 al 06/07/2025</option>
+				<option value="07/07/2025">dal 07/07/2025 al 13/07/2025</option>
+				<option value="14/07/2025">dal 14/07/2025 al 20/07/2025</option>
+				<option value="21/07/2025">dal 21/07/2025 al 27/07/2025</option>
+				<option value="28/07/2025">dal 28/07/2025 al 03/08/2025</option>
+				<option value="04/08/2025">dal 04/08/2025 al 10/08/2025</option>
+				<option value="11/08/2025">dal 11/08/2025 al 17/08/2025</option>
+				<option value="18/08/2025">dal 18/08/2025 al 24/08/2025</option>
+				<option value="25/08/2025">dal 25/08/2025 al 31/08/2025</option>
+				<option value="01/09/2025">dal 01/09/2025 al 07/09/2025</option>
+				<option value="08/09/2025">dal 08/09/2025 al 14/09/2025</option>
+				<option value="15/09/2025">dal 15/09/2025 al 21/09/2025</option>
+				<option value="22/09/2025">dal 22/09/2025 al 28/09/2025</option>
+				<option value="29/09/2025">dal 29/09/2025 al 05/10/2025</option>
+				<option value="06/10/2025">dal 06/10/2025 al 12/10/2025</option>
+				<option value="13/10/2025">dal 13/10/2025 al 19/10/2025</option>
+				<option value="20/10/2025">dal 20/10/2025 al 26/10/2025</option>
+				<option value="27/10/2025">dal 27/10/2025 al 02/11/2025</option>
+				<option value="03/11/2025">dal 03/11/2025 al 09/11/2025</option>
+				<option value="10/11/2025">dal 10/11/2025 al 16/11/2025</option>
+				<option value="17/11/2025">dal 17/11/2025 al 23/11/2025</option>
+				<option value="24/11/2025">dal 24/11/2025 al 30/11/2025</option>
+				<option value="01/12/2025">dal 01/12/2025 al 07/12/2025</option>
+				<option value="08/12/2025">dal 08/12/2025 al 14/12/2025</option>
+				<option value="15/12/2025">dal 15/12/2025 al 21/12/2025</option>
+				<option value="22/12/2025">dal 22/12/2025 al 28/12/2025</option>
+				<option value="29/12/2025">dal 29/12/2025 al 04/01/2026</option>
+				<option value="05/01/2026">dal 05/01/2026 al 11/01/2026</option>
+				<option value="12/01/2026">dal 12/01/2026 al 18/01/2026</option>
+				<option value="19/01/2026">dal 19/01/2026 al 25/01/2026</option>
+				<option value="26/01/2026" selected="selected" style=>dal 26/01/2026 al 01/02/2026</option>
+				<option value="02/02/2026">dal 02/02/2026 al 08/02/2026</option>
+				<option value="09/02/2026">dal 09/02/2026 al 15/02/2026</option>
+				<option value="16/02/2026">dal 16/02/2026 al 22/02/2026</option>
+				<option value="23/02/2026">dal 23/02/2026 al 01/03/2026</option>
+				<option value="02/03/2026">dal 02/03/2026 al 08/03/2026</option>
+				<option value="09/03/2026">dal 09/03/2026 al 15/03/2026</option>
+				<option value="16/03/2026">dal 16/03/2026 al 22/03/2026</option>
+				<option value="23/03/2026">dal 23/03/2026 al 29/03/2026</option>
+				<option value="30/03/2026">dal 30/03/2026 al 05/04/2026</option>
+				<option value="06/04/2026">dal 06/04/2026 al 12/04/2026</option>
+				<option value="13/04/2026">dal 13/04/2026 al 19/04/2026</option>
+				<option value="20/04/2026">dal 20/04/2026 al 26/04/2026</option>
+				<option value="27/04/2026">dal 27/04/2026 al 03/05/2026</option>
+				<option value="04/05/2026">dal 04/05/2026 al 10/05/2026</option>
+				<option value="11/05/2026">dal 11/05/2026 al 17/05/2026</option>
+				<option value="18/05/2026">dal 18/05/2026 al 24/05/2026</option>
+				<option value="25/05/2026">dal 25/05/2026 al 31/05/2026</option>
+				<option value="01/06/2026">dal 01/06/2026 al 07/06/2026</option>
+				<option value="08/06/2026">dal 08/06/2026 al 14/06/2026</option>
+				<option value="15/06/2026">dal 15/06/2026 al 21/06/2026</option>
+				<option value="22/06/2026">dal 22/06/2026 al 28/06/2026</option>
+				<option value="29/06/2026">dal 29/06/2026 al 30/06/2026</option>
+			</select>
+		</label>
+		<label class="size-0_5">
+			Stato gara:<br />
+			<select name="StatoGara" class="input-select-0_5" tabindex="3">
+				<option value="">Tutti..</option>
+				<option value="1" selected="selected">Disputate</option>
+				<option value="0">Da disputare</option>
+			</select>
+		</label>
+		<label id="lbCampionato" class="size-3">
+			Campionato:<br />
+			<select name="CId" class="input-select-3" tabindex="4" onchange="Campionato(2292, this.options[this.selectedIndex].value)">
+					<option value="">Tutti i campionati..</option>
+				</optgroup>
+				<optgroup label="CAMPIONATI NAZIONALI">
+					<option value="84764">CAMPIONATI NAZIONALI</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 18 Femminile">
+					<option value="90157">Coppa Umbria U18 Femminile Girone A</option>
+					<option value="90158">Coppa Umbria U18 Femminile Girone B</option>
+					<option value="90159">Coppa Umbria U18 Femminile Girone C</option>
+					<option value="91551">Coppa Umbria U18 Femminile Quarti di finale</option>
+					<option value="91694">Coppa Umbria U18 Femminile Semifinali</option>
+					<option value="91695">Coppa Umbria U18 Femminile FINALE</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 17 Maschile">
+					<option value="90160">Coppa Umbria U17 Maschile Girone A</option>
+					<option value="90161">Coppa Umbria U17 Maschile Girone B</option>
+					<option value="91552">Coppa Umbria U17 Maschile Quarti di Finale</option>
+					<option value="91696">Coppa Umbria U17 Maschile Semifinali</option>
+					<option value="91697">Coppa Umbria U17 Maschile FINALE</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 16 Femminile">
+					<option value="90177">Coppa Umbria U16 Femminile Girone A</option>
+					<option value="90178">Coppa Umbria U16 Femminile Girone B</option>
+					<option value="90179">Coppa Umbria U16 Femminile Girone C</option>
+					<option value="90180">Coppa Umbria U16 Femminile Girone D</option>
+					<option value="90181">Coppa Umbria U16 Femminile Girone E</option>
+					<option value="90182">Coppa Umbria U16 Femminile Girone F</option>
+					<option value="91690">Coppa Umbria U16 Femminile Quarti di Finale</option>
+					<option value="91691">Coppa Umbria U16 Femminile Semifinali</option>
+					<option value="91698">Coppa Umbria U16 Femminile FINALE</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 15 Maschile">
+					<option value="90192">Coppa Umbria U15 Maschile Girone Unico</option>
+					<option value="91699">Coppa Umbria U15 Maschile FINALE</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 14 Femminile">
+					<option value="90193">Coppa Umbria U14 Femminile Girone A</option>
+					<option value="90194">Coppa Umbria U14 Femminile Girone B</option>
+					<option value="90195">Coppa Umbria U14 Femminile Girone C</option>
+					<option value="90196">Coppa Umbria U14 Femminile Girone D</option>
+					<option value="91668">Coppa Umbria U14 Femminile Quarti di Finale</option>
+					<option value="91669">Coppa Umbria U14 Femminile Semifinali</option>
+					<option value="91700">Coppa Umbria U14 Femminile FINALE</option>
+				</optgroup>
+				<optgroup label="Coppa Umbria Under 13 Femminile">
+					<option value="90197">Coppa Umbria U13 Femminile Girone A</option>
+					<option value="90198">Coppa Umbria U13 Femminile Girone B</option>
+					<option value="90199">Coppa Umbria U13 Femminile Girone C</option>
+					<option value="90200">Coppa Umbria U13 Femminile Girone D</option>
+					<option value="91692">Coppa Umbria U13 Femminile Quarti di Finale</option>
+					<option value="91693">Coppa Umbria U13 Femminile Semifinali</option>
+					<option value="91701">Coppa Umbria U13 Femminile FINALE</option>
+				</optgroup>
+				<optgroup label="Serie C Maschile">
+					<option value="85189">Serie C Maschile Girone Unico</option>
+					<option value="90702">Serie C Maschile Play Out</option>
+					<option value="90632">Serie C Maschile Play Off Quarti 1</option>
+					<option value="90633">Serie C Maschile Play Off Quarti 2</option>
+					<option value="90634">Serie C Maschile Play Off Quarti 3</option>
+					<option value="90635">Serie C Maschile Play Off Quarti 4</option>
+					<option value="90636">Serie C Maschile Play Off Semifinale 1</option>
+					<option value="90637">Serie C Maschile Play Off semifinale 2</option>
+					<option value="90638">Serie C Maschile Play Off FINALE</option>
+				</optgroup>
+				<optgroup label="Serie C Femminile">
+					<option value="85190">Serie C Femminile Girone Unico</option>
+					<option value="90639">Serie C Femminile Play Off Quarti 1</option>
+					<option value="90641">Serie C Femminile Play Off Quarti 2</option>
+					<option value="90642">Serie C Femminile Play Off Quarti 3</option>
+					<option value="90643">Serie C Femminile Play Off Quarti 4</option>
+					<option value="90644">Serie C Femminile Play Off Semifinale 1</option>
+					<option value="90645">Serie C Femminile Play Off Semifinale 2</option>
+					<option value="90646">Serie C Femminile Play Off FINALE</option>
+				</optgroup>
+				<optgroup label="Serie D Maschile">
+					<option value="85191">Serie D Maschile Girone Unico</option>
+					<option value="90685">Serie D Maschile Play Off Semifinale 1A</option>
+					<option value="90687">Serie D Maschile Play Off Semifinale 1B</option>
+					<option value="90686">Serie D Maschile Play Off Semifinale 2A</option>
+					<option value="90688">Serie D Maschile Play Off Semifinale 2B</option>
+					<option value="90689">Serie D Maschile Play Off FINALE 1</option>
+					<option value="90690">Serie D Maschile Play Off FINALE 2</option>
+				</optgroup>
+				<optgroup label="Serie D Femminile">
+					<option value="85187">Serie D Femminile Girone A</option>
+					<option value="85188" selected="selected">Serie D Femminile Girone B</option>
+					<option value="90691">Serie D Femminile FINALE REGIONALE</option>
+					<option value="90703">Serie D Femminile Play out Semifinali</option>
+					<option value="90704">Serie D Femminile Play out Finale</option>
+					<option value="90692">Serie D Femminile Play off Quarti 1</option>
+					<option value="90693">Serie D Femminile Play off Quarti 2</option>
+					<option value="90694">Serie D Femminile Play off Quarti 3</option>
+					<option value="90695">Serie D Femminile Play off Quarti 4</option>
+					<option value="90696">Serie D Femminile Play off Semifinale 1</option>
+					<option value="90697">Serie D Femminile Play off Semifinale 2</option>
+					<option value="90698">Serie D Femminile Play off FINALE</option>
+				</optgroup>
+				<optgroup label="1 Divisione Femminile">
+					<option value="85370">1 Divisione Femminile Girone A</option>
+					<option value="85371">1 Divisione Femminile Girone B</option>
+					<option value="90706">1 Divisione Femminile Semifinali Regionali</option>
+					<option value="90707">1 Divisione Femminile FINALE REGIONALE</option>
+					<option value="90708">1 Divisione Femminile Play Off Quarti 1</option>
+					<option value="90709">1 Divisione Femminile Play Off Quarti 2</option>
+					<option value="90710">1 Divisione Femminile Play Off Quarti 3</option>
+					<option value="90711">1 Divisione Femminile Play Off Quarti 4</option>
+					<option value="90712">1 Divisione Femminile Play Off Semifinale 1</option>
+					<option value="90713">1 Divisione Femminile Play Off Semifinale 2</option>
+					<option value="90714">1 Divisione Femminile Play Off FINALE</option>
+				</optgroup>
+				<optgroup label="2 Divisione Femminile">
+					<option value="86092">2 Divisione Femminile Girone A</option>
+					<option value="86093">2 Divisione Femminile Girone B</option>
+					<option value="86094">2 Divisione Femminile Girone C</option>
+					<option value="86095">2 Divisione Femminile Girone D</option>
+					<option value="89997">2 Divisione Femminile GOLD 1</option>
+					<option value="89998">2 Divisione Femminile GOLD 2</option>
+					<option value="89999">2 Divisione Femminile GOLD 3</option>
+					<option value="90000">2 Divisione Femminile GOLD 4</option>
+					<option value="90001">2 Divisione Femminile SILVER 1</option>
+					<option value="90002">2 Divisione Femminile SILVER 2</option>
+					<option value="90003">2 Divisione Femminile SILVER 3</option>
+					<option value="90004">2 Divisione Femminile SILVER 4</option>
+					<option value="90005">2 Divisione Femminile SILVER 5</option>
+					<option value="90006">2 Divisione Femminile SILVER 6</option>
+					<option value="90936">2 Divisione Femminile Finali Silver</option>
+					<option value="91123">2 Divisione Femminile Play Off Quarti A</option>
+					<option value="91124">2 Divisione Femminile Play Off Quarti  B</option>
+					<option value="91125">2 Divisione Femminile Play Off Semifinale A</option>
+					<option value="91126">2 Divisione Femminile Play Off Semifinale B</option>
+					<option value="91127">2 Divisione Femminile Play Off Finale A</option>
+					<option value="91128">2 Divisione Femminile Play Off Finale B</option>
+					<option value="91159">2 Divisione Femminile Semifinali Regionali</option>
+					<option value="91160">2 Divisione Femminile Finale Regionale</option>
+				</optgroup>
+				<optgroup label="Under 19 Maschile">
+					<option value="85799">Under 19 Maschile Girone Unico</option>
+					<option value="89177">Under 19 Maschile PLAY OFF SEMIFINALE 1</option>
+					<option value="89178">Under 19 Maschile PLAY OFF SEMIFINALE 2</option>
+					<option value="89179">Under 19 Maschile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 18 Femminile">
+					<option value="85648">Under 18 Femminile ELITE</option>
+					<option value="85767">Under 18 Femminile Girone A</option>
+					<option value="85768">Under 18 Femminile Girone B</option>
+					<option value="85769">Under 18 Femminile Girone C</option>
+					<option value="87446">Under 18 Femminile GOLD</option>
+					<option value="87447">Under 18 Femminile SILVER 1</option>
+					<option value="87448">Under 18 Femminile SILVER 2</option>
+					<option value="87449">Under 18 Femminile SILVER 3</option>
+					<option value="88743">Under 18 Femminile FINALI SILVER</option>
+					<option value="88783">Under 18 Femminile PLAY OFF OTTAVI DI FINALE</option>
+					<option value="88784">Under 18 Femminile PLAY OFF QUARTI DI FINALE</option>
+					<option value="88785">Under 18 Femminile PLAY OFF SEMIFINALE 1</option>
+					<option value="88786">Under 18 Femminile PLAY OFF SEMIFINALE 2</option>
+					<option value="88787">Under 18 Femminile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 17 Maschile">
+					<option value="85800">Under 17 Maschile Girone A</option>
+					<option value="85801">Under 17 Maschile Girone B</option>
+					<option value="85802">Under 17 Maschile Girone C</option>
+					<option value="87423">Under 17 Maschile Girone GOLD</option>
+					<option value="87424">Under 17 Maschile Girone SILVER 1</option>
+					<option value="87425">Under 17 Maschile Girone SILVER 2</option>
+					<option value="87426">Under 17 Maschile Girone SILVER 3</option>
+					<option value="89142">Under 17 Maschile PLAY OFF QUARTI DI FINALE</option>
+					<option value="89143">Under 17 Maschile PLAY OFF SEMIFINALE 1</option>
+					<option value="89145">Under 17 Maschile PLAY OFF SEMIFINALE 2</option>
+					<option value="89144">Under 17 Maschile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 16 Femminile">
+					<option value="85669">Under 16 Femminile ELITE A</option>
+					<option value="85670">Under 16 Femminile ELITE B</option>
+					<option value="85770">Under 16 Femminile Girone A</option>
+					<option value="85771">Under 16 Femminile Girone B</option>
+					<option value="85772">Under 16 Femminile Girone C</option>
+					<option value="85773">Under 16 Femminile Girone D</option>
+					<option value="85774">Under 16 Femminile Girone E</option>
+					<option value="85775">Under 16 Femminile Girone F</option>
+					<option value="85776">Under 16 Femminile Girone G</option>
+					<option value="87583">Under 16 Femminile GOLD 1</option>
+					<option value="87584">Under 16 Femminile GOLD 2</option>
+					<option value="87585">Under 16 Femminile GOLD 3</option>
+					<option value="87586">Under 16 Femminile GOLD 4</option>
+					<option value="87587">Under 16 Femminile GOLD 5</option>
+					<option value="87588">Under 16 Femminile SILVER 1</option>
+					<option value="87589">Under 16 Femminile SILVER 2</option>
+					<option value="87590">Under 16 Femminile SILVER 3</option>
+					<option value="87591">Under 16 Femminile SILVER 4</option>
+					<option value="87592">Under 16 Femminile SILVER 5</option>
+					<option value="87593">Under 16 Femminile SILVER 6</option>
+					<option value="87594">Under 16 Femminile SILVER 7</option>
+					<option value="89140">Under 16 Femminile FINALI SILVER</option>
+					<option value="89141">Under 16 Femminile 16^ DI FINALE</option>
+					<option value="89180">Under 16 Femminile PLAY OFF OTTAVI DI FINALE</option>
+					<option value="89181">Under 16 Femminile PLAY OFF QUARTI DI FINALE</option>
+					<option value="89182">Under 16 Femminile PLAY OFF SEMIFINALE 1</option>
+					<option value="89183">Under 16 Femminile PLAY OFF SEMIFINALE 2</option>
+					<option value="89184">Under 16 Femminile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 15 Maschile">
+					<option value="86359">Under 15 Maschile Girone A</option>
+					<option value="86363">Under 15 Maschile Girone B</option>
+					<option value="87609">Under 15 Maschile GOLD</option>
+					<option value="87610">Under 15 Maschile SILVER 1</option>
+					<option value="87611">Under 15 Maschile SILVER 2</option>
+					<option value="89848">Under 15 Maschile PLAY OFF QUARTI DI FINALE</option>
+					<option value="89849">Under 15 Maschile PLAY OFF SEMIFINALI</option>
+					<option value="89850">Under 15 Maschile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 14 Femminile">
+					<option value="86174">Under 14 Femminile Girone A</option>
+					<option value="86175">Under 14 Femminile Girone B</option>
+					<option value="86176">Under 14 Femminile Girone C</option>
+					<option value="86177">Under 14 Femminile Girone D</option>
+					<option value="86178">Under 14 Femminile Girone E</option>
+					<option value="86226">Under 14 Femminile Girone F</option>
+					<option value="86227">Under 14 Femminile Girone G</option>
+					<option value="88090">Under 14 Femminile GOLD 1</option>
+					<option value="88091">Under 14 Femminile GOLD 2</option>
+					<option value="88092">Under 14 Femminile SILVER 1</option>
+					<option value="88093">Under 14 Femminile SILVER 2</option>
+					<option value="88094">Under 14 Femminile SILVER 3</option>
+					<option value="88095">Under 14 Femminile SILVER 4</option>
+					<option value="88096">Under 14 Femminile SILVER 5</option>
+					<option value="88097">Under 14 Femminile SILVER 6</option>
+					<option value="88098">Under 14 Femminile SILVER 7</option>
+					<option value="89561">Under 14 Femminile SEMIFINALI SILVER</option>
+					<option value="89566">Under 14 Femminile FINALI SILVER</option>
+					<option value="89567">Under 14 Femminile PLAY OFF OTTAVI DI FINALE</option>
+					<option value="89568">Under 14 Femminile PLAY OFF QUARTI DI FINALE</option>
+					<option value="89569">Under 14 Femminile PLAY OFF SEMIFINALI</option>
+					<option value="89570">Under 14 Femminile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 13 Maschile">
+					<option value="86570">Under 13 Maschile Girone Unico</option>
+					<option value="89991">Under 13 Maschile PLAY OFF SEMIFINALI</option>
+					<option value="89992">Under 13 Maschile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 13 Femminile">
+					<option value="86505">Under 13 Femminile Girone A</option>
+					<option value="86506">Under 13 Femminile Girone B</option>
+					<option value="86507">Under 13 Femminile Girone C</option>
+					<option value="86508">Under 13 Femminile Girone D</option>
+					<option value="86509">Under 13 Femminile Girone E</option>
+					<option value="88486">Under 13 Femminile GOLD</option>
+					<option value="88487">Under 13 Femminile SILVER 1</option>
+					<option value="88488">Under 13 Femminile SILVER 2</option>
+					<option value="88489">Under 13 Femminile SILVER 3</option>
+					<option value="88490">Under 13 Femminile SILVER 4</option>
+					<option value="88491">Under 13 Femminile SILVER 5</option>
+					<option value="89993">Under 13 Femminile FINALI SILVER</option>
+					<option value="89994">Under 13 Femminile PLAY OFF QUARTI DI FINALE</option>
+					<option value="89995">Under 13 Femminile PLAY OFF SEMIFINALI</option>
+					<option value="89996">Under 13 Femminile FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 13 3x3 Maschile">
+					<option value="87239">Under 13 Maschile 3x3 Girone A</option>
+					<option value="87240">Under 13 Maschile 3x3 Girone B</option>
+					<option value="90859">Under 13 Maschile 3x3 PLAY OFF Semifinali</option>
+					<option value="90860">Under 13 Maschile 3x3 FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 12 Maschile">
+					<option value="87105">Under 12 Maschile Girone Unico</option>
+					<option value="90857">Under 12 Maschile PLAY OFF Semifinali</option>
+					<option value="90858">Under 12 Maschile PLAY OFF FINALE REGIONALE</option>
+				</optgroup>
+				<optgroup label="Under 12 Femminile">
+					<option value="87081">Under 12 Femminile Girone A</option>
+					<option value="87082">Under 12 Femminile Girone B</option>
+					<option value="87083">Under 12 Femminile Girone C</option>
+					<option value="87084">Under 12 Femminile Girone D</option>
+					<option value="87085">Under 12 Femminile Girone E</option>
+					<option value="87086">Under 12 Femminile Girone F</option>
+					<option value="88561">Under 12 Femminile Gold 1</option>
+					<option value="88562">Under 12 Femminile Gold 2</option>
+					<option value="88563">Under 12 Femminile Gold 3</option>
+					<option value="88564">Under 12 Femminile Silver 1</option>
+					<option value="88565">Under 12 Femminile Silver 2</option>
+					<option value="88566">Under 12 Femminile Silver 3</option>
+					<option value="88589">Under 12 Femminile Silver 4</option>
+					<option value="90743">Under 12 Femminile Ottavi/Quarti 1</option>
+					<option value="90744">Under 12 Femminile Ottavi/Quarti 2</option>
+					<option value="90745">Under 12 Femminile Ottavi/Quarti 3</option>
+					<option value="90746">Under 12 Femminile Ottavi/Quarti 4</option>
+					<option value="90747">Under 12 Femminile Semifinali</option>
+					<option value="90748">Under 12 Femminile FINALE REGIONALE</option>
+			</select>
+		</label>
+		<label id="lbSocieta" class="size-2">
+			Società:<br />
+			<select name="SId" class="input-select-2" tabindex="5">
+					<option value="">Tutte le societ&agrave;..</option>
+					<option value="5427">A.S.D. VOLLEY ACADEMY BASTIA</option>
+					<option value="3557">AMERINA PALLAVOLO A.S.D.</option>
+					<option value="5290" selected="selected">ASD NARNI SPORT ACADEMY</option>
+					<option value="3563">ASD PALLAVOLO NARNI</option>
+					<option value="5103">ASD PGS BOSICO VOLLEY  TERNI</option>
+					<option value="4463">ASD PGS DON BOSCO CANNARA     </option>
+					<option value="4423">ORVIETO VOLLEY ACADEMY</option>
+					<option value="3524">POLISPORTIVA DELFINO</option>
+					<option value="3828">TUDER VOLLEY</option>
+					<option value="3533">WEALTH PLANET PERUGIA VOLLEY SSD A RL</option>
+			</select>
+		</label>
+		<label class="size-0_5">
+			&nbsp;<br />
+			<input type="hidden" name="PId" value="7323" />
+			<input type="submit" name="btFiltro" value="CERCA" class="button bt-search" style="width:100px;" />
+		</label>
+		<label class="size-0_5">
+			&nbsp;<br />
+			<input type="button" name="btXls" onclick="EsportaXls(this.form);" value="Esporta" class="button bt-excel" style="width:100px;" />
+		</label>
+	</form>
+<div class="messagebox mb-warning">
+	<p class="title">Nessuna gara trovata</p>
+	In base alla ricerca impostata non &egrave; stata trovata alcuna gara. Provare a cambiare i filtri ed eseguire nuovamente la ricerca
+</div>
+	</div>
+	</div>
+		</div>
+	</div>
+	</div>
+	<div id="layout-area5" style="width:100%">
+		<div class="col col-4">
+		</div>
+	</div>
+</div>
+
+    
+
+<!--Pagina generata in 00:00:00.0314158 secondi-->
+</body>
+</html>
+
