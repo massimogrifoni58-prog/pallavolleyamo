@@ -8,7 +8,7 @@ on:
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
-     permissions:
+    permissions:
       contents: write
     steps:
       - name: Checkout repo
