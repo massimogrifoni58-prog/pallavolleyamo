@@ -45,6 +45,7 @@ NEWS_QUERIES = [
     "volley Spoleto",
     "volley Narni",
     "volley Orvieto",
+    "Terni Volley Academy",
 ]
 NEWS_LIMIT_PER_QUERY = 8
 NEWS_TOTAL_LIMIT = 40

@@ -27,7 +27,6 @@ from datetime import datetime, timezone
 QUERIES = [
     "pallavolo Terni",
     "volley Terni femminile",
-    "Terni Volley Academy",
     "pallavolo serie D Terni",
     "pallavolo Narni",
     "pallavolo Orvieto",

@@ -10,7 +10,7 @@ import articoliSocietaData from "../data/articoli-societa.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
-const MAX_NEWS_PER_SECTION = 9;
+const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
   nazionale: { title: "Nazionale", data: nazionaleData },
@@ -245,7 +245,7 @@ function PillolaToast({ pillola, onClose }) {
           </span>
           <button className="pillola-toast__close" onClick={() => { setVisible(false); setTimeout(onClose, 400); }}>✕</button>
         </div>
-        <p className="pillola-toast__num">💊 Pillola #{pillola.id}</p>
+        <p className="pillola-toast__num"> Pillola #{pillola.id}</p>
         <p className="pillola-toast__testo">{pillola.consiglio}</p>
       </div>
     </>
@@ -1767,7 +1767,7 @@ Scrivi solo l'articolo, senza titolo e senza commenti aggiuntivi.`,
                   className="redazione-copy"
                   onClick={() => navigator.clipboard.writeText(output)}
                 >
-                  📋 Copia testo
+                  Copia testo
                 </button>
               </div>
             )}
