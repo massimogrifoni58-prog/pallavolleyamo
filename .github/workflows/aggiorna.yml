@@ -30,7 +30,6 @@ jobs:
           python fetch_regionali.py
           python fetch_terni.py
           python fetch_perugia.py
-          python fetch_google_news.py
           python fetch_volley_feeds.py
           python fetch_coach_news.py
 
