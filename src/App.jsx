@@ -7,11 +7,9 @@ import perugiaData from "../data/perugia.json";
 import risultatiData from "../data/risultati.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
-import diretteData from "../data/dirette.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
-import coachNewsData from "../data/coach_news.json";
 const MAX_NEWS_PER_SECTION = 9;
 
 const SECTIONS = {
@@ -1060,23 +1058,6 @@ function AllenatoriPage() {
     pubDate: n.pubDate,
   })));
 }, [selected, showNews]);
-    const rssUrl2 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.name + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl2))
-      .then((r) => r.json())
-      .then((data) => {
-        const parser2 = new DOMParser();
-        const doc2 = parser2.parseFromString(data, "text/xml");
-        const items = Array.from(doc2.querySelectorAll("item")).slice(0, 4);
-        const parsed = items.map((item) => ({
-          title: item.querySelector("title")?.textContent || "",
-          link: item.querySelector("link")?.textContent || "",
-          pubDate: item.querySelector("pubDate")?.textContent || "",
-        }));
-        setNews(parsed);
-      })
-      .catch(() => setNews([]))
-      .finally(() => setLoadingNews(false));
-  }, [selected, showNews]);
 
   return (
     <main>
@@ -1196,22 +1177,6 @@ function Allenatori2Page() {
     pubDate: n.pubDate,
   })));
 }, [selectedId]);
-    const rssUrl3 = "https://news.google.com/rss/search?q=" + encodeURIComponent(coach.nome + " pallavolo") + "&hl=it&gl=IT&ceid=IT:it";
-    fetch("https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(rssUrl3))
-      .then((r) => r.json())
-      .then((data) => {
-        const parser3 = new DOMParser();
-        const doc3 = parser3.parseFromString(data, "text/xml");
-        const items = Array.from(doc3.querySelectorAll("item")).slice(0, 5);
-        setNews(items.map((item) => ({
-          title: item.querySelector("title")?.textContent || "",
-          link: item.querySelector("link")?.textContent || "",
-          pubDate: item.querySelector("pubDate")?.textContent || "",
-        })));
-      })
-      .catch(() => setNews([]))
-      .finally(() => setLoadingNews(false));
-  }, [selectedId]);
 
   return (
     <main>
