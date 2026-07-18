@@ -1291,10 +1291,10 @@ function ArticoliSocietaPage({ subscribed }) {
   function handleSubmit(e) {
     e.preventDefault();
     setStatus("sending");
-    fetch("/", {
+  fetch("https://formspree.io/f/xqerqbbz", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({ "form-name": "articoli-societa", ...form }).toString(),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...form }),
     }).then(() => setStatus("done")).catch(() => setStatus("error"));
   }
 
@@ -3533,14 +3533,10 @@ function MercatoPage({ subscribed }) {
   function handleSubmit(e) {
     e.preventDefault();
     setStatus("sending");
-    fetch("/", {
+fetch("https://formspree.io/f/xjgnwrwd", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({
-        "form-name": "mercato",
-        tipo: tipoAnnuncio,
-        ...form,
-      }).toString(),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tipo: tipoAnnuncio, ...form }),
     })
       .then(() => setStatus("done"))
       .catch(() => setStatus("error"));
@@ -3715,10 +3711,10 @@ function CommentiPage({ subscribed }) {
     e.preventDefault();
     if (!nome.trim() || !testo.trim()) return;
     setStatus("sending");
-    fetch("/", {
+   fetch("https://formspree.io/f/xbdnoyow", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams({ "form-name": "commenti", nome, testo }).toString(),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ nome, testo }),
     })
       .then(() => setStatus("done"))
       .catch(() => setStatus("error"));
