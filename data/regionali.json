@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T21:13:47.420768+00:00",
+  "generatedAt": "2026-07-18T21:29:28.265775+00:00",
   "posts": [
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -24,6 +24,14 @@
       "createdTime": "Wed, 24 Jun 2026 07:00:00 GMT",
       "image": null,
       "permalink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnBJV2xITDNDb1ZsZW4wRERXRTM2OF93Y2s5VXdxd3VhX1ZtU05fZi00bWpoMDU4SXN4Skl0ZEdrb04ycm9DdGhmYkhiTWk5Y2E3bU5zczcyMFliVU5STVZyZC1vVXNQVFYzYUFZMTU2V3QyRS1Xc2hxbXpXYW1hZ3hBZG5Td01wVEJN?oc=5"
+    },
+    {
+      "id": "news-6",
+      "title": "Con l'approvazione del bilancio 2023 chiuso il Consiglio Federale",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Wed, 21 Dec 2022 09:29:00 GMT",
+      "image": "http://cdn.tuttosport.com/images/2022/12/21/162932253-a50830aa-bb1d-4072-8c47-c607aa1f9899.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/2022/12/21-101379151/con_l_approvazione_del_bilancio_2023_chiuso_il_consiglio_federale"
     },
     {
       "id": "news-5",
@@ -186,6 +194,14 @@
       "permalink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQblVsOE9NVjFZcG9WX3hJejJBQzFsaENkOXBQUm8yTTBsRDF6NVU4aFpfX01abUJTblhqZWg0VExfYzMybUh2d29KaEJhRjd1dVFyTG1rMDN0Q2xCWUNHNVlDcmRPdVVsVXF5OFp5M3JGaGpCMVFJem1yODJXUmdOelBEblNpN21oM2x4LUZsdl9QSVRqa0MzT0E4VQ?oc=5"
     },
     {
+      "id": "news-7",
+      "title": "Volley. Pgs Bosico Terni, c’è il progetto pilota",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Tue, 07 Jan 2025 23:20:00 GMT",
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/volley/volley-pgs-bosico-terni-53156cc5"
+    },
+    {
       "id": "news-5",
       "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
       "excerpt": "Fonte: ansa.it",
@@ -280,14 +296,6 @@
       "createdTime": "Thu, 16 Jul 2026 05:00:52 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Lensi-David.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/david-lensi-resta-a-citta-di-castello/"
-    },
-    {
-      "id": "news-6",
-      "title": "Volley: L'Umbria ospiterà le 39esime Arbitriadi",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 07 Jun 2018 12:28:00 GMT",
-      "image": null,
-      "permalink": "https://www.tuttosport.com/news/pallavolo/2018/06/07-43894532/volley_l_umbria_ospitera_le_39esime_arbitriadi"
     },
     {
       "id": "news-3",
@@ -488,14 +496,6 @@
       "createdTime": "Mon, 12 May 2025 17:00:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/MTllOTY2MWUtZWI1Mi00/0/un-campo-da-pallavolo-con-il-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
-    },
-    {
-      "id": "news-6",
-      "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
-      "excerpt": "Fonte: latinaquotidiano.it",
-      "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
-      "image": "https://www.latinaquotidiano.it/wp-content/uploads/2026/01/VIRIDEX-SABAUDIA-VITTORIA-A-TERNI--e1767606312290.jpg",
-      "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
       "id": "news-0",
