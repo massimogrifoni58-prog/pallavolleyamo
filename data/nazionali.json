@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:29:12.712395+00:00",
+  "generatedAt": "2026-07-18T21:44:39.022477+00:00",
   "posts": [
     {
       "title": "Serie A1 volley, a Firenze si gioca il big match tra Scandicci e Milano",
@@ -63,7 +63,7 @@
       "createdTime": "Wed, 15 Jul 2026 17:20:00 GMT",
       "image": "https://cdn.corrieredellosport.it/images/2026/07/15/221906296-435c0333-00a9-481f-8fee-b36022219eed.jpg",
       "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/15-149924924/le_rose_ufficiali_delle_protagoniste_della_superlega_2026_2027",
-      "id": "5"
+      "id": "6"
     },
     {
       "title": "Pallavolo Lega Maschile – I calendari della stagione 2026-27: SuperLega, Serie A2M, Serie A3M",
@@ -199,7 +199,7 @@
       "createdTime": "Tue, 14 Jul 2026 01:44:35 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/notizie/other/volley-femminile-rivoluzione-nella-distribuzione-dei-diritti-rai-dazn-e-social-insieme-per-la-copertura-pi%C3%B9-ampia-di-sempre/ar-AA27Ser7",
-      "id": "15"
+      "id": "16"
     },
     {
       "id": "domotekvolleyricevutainregione",
@@ -351,7 +351,7 @@
       "createdTime": "Thu, 16 Jul 2026 10:40:00 GMT",
       "image": "https://cdn.corrieredellosport.it/images/2026/07/16/153740398-cc4efde1-3949-435d-bf51-32b2b7399f67.jpg",
       "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/16-149936367/ecco_il_calendario_della_superlega_2026_2027",
-      "id": "6"
+      "id": "5"
     },
     {
       "title": "SUPERLEGA / Cuneo Volley, avvio da brividi: Perugia al debutto, poi subito a Milano",
@@ -514,6 +514,14 @@
       "permalink": "https://www.volleyball.it/2026/06/27/notizie/argomenti/superlega/articolo/rassegna-stampa-27-giugno-riscatto-italia-sul-brasile-nedeljkovic-a-trento-e-aleksic-a-scandicci.html"
     },
     {
+      "title": "Volley, Serie A1 femminile: vincono Scandicci e Conegliano",
+      "excerpt": "Fonte: sportmediaset.mediaset.it",
+      "createdTime": "Sat, 20 Dec 2025 15:00:00 GMT",
+      "image": "https://img-api.cloud.mediaset.net/api/images/kn/v1/image_main/1200/675/107243265?r=8",
+      "permalink": "https://www.sportmediaset.mediaset.it/volley/volley-serie-a1-femminile-vincono-scandicci-e-conegliano_107243264-202502k.shtml",
+      "id": "20"
+    },
+    {
       "id": "grottazzolinapalasavellicampop",
       "title": "Grottazzolina: PalaSavelli campo principale, alcune gare al PalaGrotta",
       "excerpt": "La Yuasa Battery Grottazzolina ha definito la gestione delle gare interne per la stagione 2026-2027...",
@@ -632,14 +640,6 @@
       "image": "https://www.corrierenazionale.it/wp-content/uploads/2026/03/elly-schlein.jpg",
       "permalink": "https://www.corrierenazionale.it/2026/07/18/a-schlein-non-va-giu-la-nomina-di-durigon-alla-guida-della-lega-pallavolo/",
       "id": "28"
-    },
-    {
-      "id": "serieacredembanca202627il16lug",
-      "title": "Serie A Credem Banca 2026/27: Il 16 Luglio la presentazione dei calendari di SuperLega, A2 e A3 in diretta da Bologna - Qui il live streaming",
-      "excerpt": "Giovedì prossimo, dalle 14.30 il Volley Mercato di Bologna ospita la presentazione ufficiale della...",
-      "createdTime": "Sat, 11 Jul 2026 21:30:52 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Live_Superlega.png",
-      "permalink": "https://www.volleyball.it/2026/07/11/notizie/argomenti/superlega/articolo/serie-a-credem-banca-202627-il-16-luglio-la-presentazione-dei-calendari-di-superlega-a2-e-a3-in-d.html"
     }
   ]
 }
