@@ -4333,3 +4333,33 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
   color: var(--text);
   margin: 0;
 }
+/* === BANNER ISCRIZIONE === */
+.iscriviti-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: linear-gradient(135deg, rgba(212,175,55,0.1), rgba(212,175,55,0.05));
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.iscriviti-banner__testo {
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: 500;
+}
+.iscriviti-banner__btn {
+  background: var(--gold);
+  color: #000;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.iscriviti-banner__btn:hover { background: var(--gold-bright); }

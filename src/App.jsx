@@ -392,7 +392,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         />
         <a className="nav-btn" href="#/chi-siamo">Chi Siamo</a>
         <a className="nav-btn nav-btn--accent" href="#/commenti">Commenti</a>
-        <a className="nav-btn nav-btn--accent" href="#/iscrizione">Iscrizione</a>
+        <a className="nav-btn nav-btn--accent" href="#/iscrizione"> Iscriviti Gratis</a>
       </nav>
     </header>
   );
@@ -583,8 +583,11 @@ function HomePage() {
           <span className="hero-stat__label">Palazzetti in Umbria</span>
         </div>
       </div>
-
-    </main>
+<div className="iscriviti-banner">
+          <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
+          <a href="#/iscrizione" className="iscriviti-banner__btn">Iscriviti ora →</a>
+        </div>
+       </main>
   );
 }
 
@@ -3996,7 +3999,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
         ) : (
           <>
             <p className="state home-intro__text">
-              Iscriviti per leggere le notizie senza limiti.
+              L'iscrizione è completamente gratuita! Accedi a tutte le notizie senza limiti, segui i campionati umbri e resta sempre aggiornato sul volley della tua regione.
             </p>
 
             <form
