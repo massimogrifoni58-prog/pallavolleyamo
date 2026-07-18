@@ -4083,9 +4083,6 @@ function SidebarLeft() {
           <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
         </ul>
       </div>
-      <div className="sidebar__box">
-        <RicercaSocieta />
-      </div>
     </aside>
   );
 }
