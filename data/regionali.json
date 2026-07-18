@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T19:46:13.854742+00:00",
+  "generatedAt": "2026-07-18T20:10:06.970260+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -24,14 +24,6 @@
       "createdTime": "Wed, 24 Jun 2026 07:00:00 GMT",
       "image": null,
       "permalink": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnBJV2xITDNDb1ZsZW4wRERXRTM2OF93Y2s5VXdxd3VhX1ZtU05fZi00bWpoMDU4SXN4Skl0ZEdrb04ycm9DdGhmYkhiTWk5Y2E3bU5zczcyMFliVU5STVZyZC1vVXNQVFYzYUFZMTU2V3QyRS1Xc2hxbXpXYW1hZ3hBZG5Td01wVEJN?oc=5"
-    },
-    {
-      "id": "news-6",
-      "title": "Con l'approvazione del bilancio 2023 chiuso il Consiglio Federale",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Wed, 21 Dec 2022 09:29:00 GMT",
-      "image": "http://cdn.tuttosport.com/images/2022/12/21/162932253-a50830aa-bb1d-4072-8c47-c607aa1f9899.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/2022/12/21-101379151/con_l_approvazione_del_bilancio_2023_chiuso_il_consiglio_federale"
     },
     {
       "id": "news-5",
@@ -298,6 +290,14 @@
       "permalink": "https://www.pianetavolley.net/2026/07/david-lensi-resta-a-citta-di-castello/"
     },
     {
+      "id": "news-6",
+      "title": "Volley: L'Umbria ospiterà le 39esime Arbitriadi",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Thu, 07 Jun 2018 12:28:00 GMT",
+      "image": null,
+      "permalink": "https://www.tuttosport.com/news/pallavolo/2018/06/07-43894532/volley_l_umbria_ospitera_le_39esime_arbitriadi"
+    },
+    {
       "id": "news-3",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -442,6 +442,14 @@
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
     },
     {
+      "id": "tdrlumbriafemminilesfidabasili",
+      "title": "TdR, l’Umbria femminile sfida Basilicata e Calabria - Pianeta Volley",
+      "excerpt": "Fonte: Pianeta Volley",
+      "createdTime": "Mon, 22 Jun 2026 07:00:00 GMT",
+      "image": null,
+      "permalink": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRlpqa3BzWmFmaFdjbGlKYXYwdFBtUk9TdEJCam5zVVNpeVo0T0Rhc1B1MFVxeVU2TWxRb1djYUdNQ0hXbnJrdV8wVWQ4TlNXSnpsdlBKY1EzYnllUWhNcmo4cHp2S3Vrd3dPWEUxQ1QyY2VzQ3NOSGx4X0FVX1VHWEVpMnd6U0E3ejd0SGhaMEFQUQ?oc=5"
+    },
+    {
       "id": "news-2",
       "title": "Volley, doppio Lomurno alla Fipav: il presidente è stato riconfermato",
       "excerpt": "Fonte: perugiatoday.it",
@@ -504,14 +512,6 @@
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/NGFiZTNjNjMtNmIwMC00/0/trofeo-delle-regioni-lumbria-migliora.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
-    },
-    {
-      "id": "tdrledonnedellumbriadinuovoabo",
-      "title": "TdR, le donne dell’Umbria di nuovo a bocca asciutta - Pianeta Volley",
-      "excerpt": "Fonte: Pianeta Volley",
-      "createdTime": "Fri, 26 Jun 2026 07:00:00 GMT",
-      "image": null,
-      "permalink": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVJRVF95bVRGT3k4NFV6R0ZJMXZxSUtoSkdJVkdBOHJJN0M1QXg3MTRzWGhkSlh1ejNTb1ZlemNMbVFCYnN2R2QwSTdLRkFCNVBIdU90NWFsTnp0NkFHMUliUk5MVVVFWWFOZGktQi1NYkp4dnB1YjRjZGp1Qi1VRTdOeUpOYUFNRWRKWFBuRm9Ddw?oc=5"
     },
     {
       "id": "bigmatfngu16fdelineatoinumbria",
