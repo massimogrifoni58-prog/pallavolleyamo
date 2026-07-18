@@ -12,7 +12,7 @@ import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
 import coachNewsData from "../data/coach_news.json";
-const MAX_NEWS_PER_SECTION = 30;
+const MAX_NEWS_PER_SECTION = 9;
 
 const SECTIONS = {
   nazionale: { title: "Nazionale", data: nazionaleData },
