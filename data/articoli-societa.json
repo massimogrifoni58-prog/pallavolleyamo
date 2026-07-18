@@ -1,3 +1,16 @@
 {
-  "articoli": []
+  "articoli": [
+    {
+      "id": "1",
+      "societa": "PallaVolleyAmo",
+      "autore": "Redazione",
+      "categoria": "Comunicato",
+      "titolo": "Benvenuti su PallaVolleyAmo — il portale del volley umbro!",
+      "testo": "PallaVolleyAmo è il nuovo punto di riferimento per la pallavolo in Umbria. Notizie quotidiane, risultati dei campionati regionali, classifica aggiornata, schede tecniche per allenatori e molto altro.\n\nLe società umbre possono pubblicare i propri comunicati, eventi e notizie direttamente su questo portale. È semplice e gratuito: basta inviare il testo a postmaster@pallavolleyamo.it oppure compilare il form nella sezione Articoli Società.\n\nSeguici anche sulla pagina Facebook PallaVolleyAmo per restare sempre aggiornato sul volley umbro.\n\nPerché il volley non è solo uno sport, è un modo di crescere insieme.",
+      "data": "18 luglio 2026",
+      "mese": "Luglio",
+      "foto": null,
+      "logo": null
+    }
+  ]
 }
