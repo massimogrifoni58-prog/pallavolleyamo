@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T17:45:15.256923+00:00",
+  "generatedAt": "2026-07-19T18:49:17.471015+00:00",
   "posts": [
     {
       "title": "Serie A1 volley, a Firenze si gioca il big match tra Scandicci e Milano",
@@ -63,7 +63,7 @@
       "createdTime": "Wed, 15 Jul 2026 17:20:00 GMT",
       "image": "https://cdn.corrieredellosport.it/images/2026/07/15/221906296-435c0333-00a9-481f-8fee-b36022219eed.jpg",
       "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/15-149924924/le_rose_ufficiali_delle_protagoniste_della_superlega_2026_2027",
-      "id": "5"
+      "id": "4"
     },
     {
       "title": "“Francesco Rizzo dalla Volley Life alla Superlega con la Gas Sales Bluenergy Piacenza”",
@@ -71,7 +71,7 @@
       "createdTime": "Wed, 15 Jul 2026 07:22:00 GMT",
       "image": "https://www.tusciaweb.eu/wp-content/uploads/2026/07/Francesco-Rizzo.jpg",
       "permalink": "https://www.tusciaweb.eu/2026/07/francesco-rizzo-dalla-volley-life-alla-superlega-la-gas-sales-bluenergy-piacenza/",
-      "id": "10"
+      "id": "8"
     },
     {
       "id": "mondovolleylealtrenewsdel14lug",
@@ -274,6 +274,14 @@
       "permalink": "https://www.volleyball.it/2026/07/16/notizie/argomenti/superlega/articolo/superlega-le-date-della-stagione-e-degli-eventi-supercoppa-coppa-italia-play-off-e-play-out.html"
     },
     {
+      "title": "Pallavolo Mercato – Luck Volley Palmi: al centro arriva il giovane talento Marco Valbusa",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 16 Jul 2026 17:01:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/17/pallavolo-mercato-luck-volley-palmi-al-centro-arriva-il-giovane-talento-marco-valbusa/",
+      "id": "10"
+    },
+    {
       "id": "superlegatuttele11giornatediri",
       "title": "Superlega: Tutte le 11 giornate di ritorno del campionato 2026/27",
       "excerpt": "BOLOGNA - Tutte le 11 giornate di ritorno del campionato asimmetrico.\nGiornata 12 – 26 Dicembre...",
@@ -287,7 +295,7 @@
       "createdTime": "Thu, 16 Jul 2026 14:58:00 GMT",
       "image": null,
       "permalink": "https://www.ilpiacenza.it/sport/piacenza-volley-calendario-superlega-2026-2027.html",
-      "id": "7"
+      "id": "6"
     },
     {
       "id": "superlegailcalendario202627tut",
@@ -311,7 +319,7 @@
       "createdTime": "Thu, 16 Jul 2026 11:33:00 GMT",
       "image": "https://cdn.tuttosport.com/images/2026/07/16/163227961-8b8c96e3-1986-487d-8045-69ceebc45c6a.jpg",
       "permalink": "https://www.tuttosport.com/news/pallavolo/2026/07/16-149936787/lega_pallavolo_serie_a_ha_un_nuovo_presidente_claudio_durigon",
-      "id": "22"
+      "id": "23"
     },
     {
       "title": "Presentato il calendario di SuperLega: per la Gas Sales Bluenergy debutto a Padova",
@@ -327,7 +335,7 @@
       "createdTime": "Thu, 16 Jul 2026 10:52:00 GMT",
       "image": "https://static.cuneodice.it/cuneo/foto/124226/153626.jpg",
       "permalink": "https://www.cuneodice.it/sport/cuneo-e-valli/volley-superlega-2026-2027-esordio-di-fuoco-per-cuneo-il-18-ottobre-arrivano-i-campioni-di-perugia_124226.html",
-      "id": "8"
+      "id": "7"
     },
     {
       "title": "La Lega ha ufficializzato il calendario 2026/2027 di Superlega",
@@ -335,15 +343,7 @@
       "createdTime": "Thu, 16 Jul 2026 10:48:00 GMT",
       "image": "https://cdn.tuttosport.com/images/2026/07/16/154754318-e754ab68-5759-41b7-afc0-7bc665a9ab77.jpg",
       "permalink": "https://www.tuttosport.com/news/pallavolo/superlega/2026/07/16-149936378/la_lega_ha_ufficializzato_il_calendario_2026_2027_di_superlega",
-      "id": "6"
-    },
-    {
-      "title": "Ecco il calendario della Superlega 2026/2027",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Thu, 16 Jul 2026 10:40:00 GMT",
-      "image": "https://cdn.corrieredellosport.it/images/2026/07/16/153740398-cc4efde1-3949-435d-bf51-32b2b7399f67.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/16-149936367/ecco_il_calendario_della_superlega_2026_2027",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "SUPERLEGA / Cuneo Volley, avvio da brividi: Perugia al debutto, poi subito a Milano",
@@ -474,6 +474,14 @@
       "permalink": "https://www.volleynews.it/grottazzolina-doppia-casa-per-la2-palasavelli-campo-principale-ma-il-palagrotta-torna-protagonista/?utm_source=rss&utm_medium=rss&utm_campaign=grottazzolina-doppia-casa-per-la2-palasavelli-campo-principale-ma-il-palagrotta-torna-protagonista"
     },
     {
+      "title": "Claudio Durigon eletto presidente della Lega Pallavolo Serie A: le congratulazioni di Tony Bruognolo, della Lega di Velletri e della provincia di Roma",
+      "excerpt": "Fonte: castellinotizie.it",
+      "createdTime": "Sun, 19 Jul 2026 10:31:00 GMT",
+      "image": "https://www.castellinotizie.it/photogallery_new/images/2026/07/generico-luglio-2026-485016.jpg",
+      "permalink": "https://www.castellinotizie.it/2026/07/19/claudio-durigon-eletto-presidente-della-lega-pallavolo-serie-a-le-congratulazioni-di-tony-bruognolo-della-lega-di-velletri-e-della-provincia-di-roma/",
+      "id": "22"
+    },
+    {
       "id": "fanizzadopoilquartopostoaglieu",
       "title": "Fanizza dopo il quarto posto agli Europei U18: “Non ci sono alibi” (VIDEO)",
       "excerpt": "Fanizza: \"Sono contento dei ragazzi, ma non posso esserlo del quarto posto. Lavorando nel tempo ci riprenderemo quello che abbiamo perso\".\nThe post Fanizza dopo il quarto posto agli Europei U18: “Non ",
@@ -520,14 +528,6 @@
       "createdTime": "Sun, 19 Jul 2026 07:40:02 GMT",
       "image": "https://www.volleynews.it/wp-content/uploads/2026/07/alex-moni-nikolov-bulgaria-vnl-2026.jpg",
       "permalink": "https://www.volleynews.it/vnl-maschile-risultati-day4-la-bulgaria-batte-gli-usa-e-vede-le-finals/?utm_source=rss&utm_medium=rss&utm_campaign=vnl-maschile-risultati-day4-la-bulgaria-batte-gli-usa-e-vede-le-finals"
-    },
-    {
-      "title": "PALLAVOLO FEMMINILE SERIE A3 / Mondovì Volley chiude con il botto: arriva la centrale Martina Veneriano",
-      "excerpt": "Fonte: targatocn.it",
-      "createdTime": "Sun, 19 Jul 2026 02:56:00 GMT",
-      "image": "https://www.targatocn.it/fileadmin/archivio/targatocn/2026/07/Martina_Veneriano_mondovi_volley.jpg",
-      "permalink": "https://www.targatocn.it/2026/07/19/sommario/sport/leggi-notizia/argomenti/volley/articolo/pallavolo-femminile-serie-a3-mondovi-volley-chiude-con-il-botto-arriva-la-centrale-martina-vene.html",
-      "id": "30"
     },
     {
       "id": "a3credembancareggiocalabriacon",
@@ -631,7 +631,7 @@
       "createdTime": "Sat, 18 Jul 2026 12:07:38 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/notizie/other/pallavolo-durigon-replica-a-schlein-fa-demagogia-e-ha-la-memoria-corta/ar-AA28cE5O",
-      "id": "25"
+      "id": "26"
     },
     {
       "title": "Durigon presidente Lega Pallavolo, Calabretta: “saprà rafforzare il ruolo della Serie A”",
@@ -639,7 +639,7 @@
       "createdTime": "Sat, 18 Jul 2026 03:22:00 GMT",
       "image": "https://www.strettoweb.com/wp-content/uploads/2026/07/Calabretta-e-Durigon-1200x1126.jpg",
       "permalink": "https://www.strettoweb.com/2026/07/durigon-presidente-lega-pallavolo-calabretta-sapra-rafforzare-il-ruolo-della-serie-a/2115109/",
-      "id": "26"
+      "id": "27"
     }
   ]
 }

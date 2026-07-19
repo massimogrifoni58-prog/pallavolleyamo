@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T17:45:07.960050+00:00",
+  "generatedAt": "2026-07-19T18:49:08.693960+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -154,20 +154,12 @@
       "permalink": "https://www.volleyball.it/2026/07/14/notizie/argomenti/vnl-femminile/articolo/brasile-gabi-salta-anche-le-finals-di-volleyball-nations-league.html"
     },
     {
-      "id": "9",
+      "id": "10",
       "title": "Pallavolo Chieti 1996, Graziano D’Agostino convocato per i processi selettivi nazionali under 16",
       "excerpt": "Fonte: chietitoday.it",
       "createdTime": "Tue, 14 Jul 2026 05:45:00 GMT",
       "image": null,
       "permalink": "https://www.chietitoday.it/sport/volley/pallavolo-chieti-graziano-d-agostino-convocato-nazionale.html"
-    },
-    {
-      "id": "5",
-      "title": "La nazionale brasiliana femminile del volley lascia l’Appennino",
-      "excerpt": "Fonte: redacon.it",
-      "createdTime": "Tue, 14 Jul 2026 03:45:00 GMT",
-      "image": "https://www.redacon.it/wp-content/uploads/2026/07/Brasile-alla-sommita-della-Pietra-Bismantova.jpeg",
-      "permalink": "https://www.redacon.it/2026/07/14/la-nazionale-brasiliana-femminile-del-volley-lascia-lappennino/"
     },
     {
       "id": "mondovolleylealtrenewsdel13lug",
@@ -290,7 +282,15 @@
       "permalink": "https://www.volleyball.it/2026/07/19/notizie/argomenti/vnl-maschile/articolo/vnl-italia-alle-finals-cuba-battuta-3-1-in-rimonta.html"
     },
     {
-      "id": "3",
+      "id": "2",
+      "title": "L'Italvolley di De Giorgi batte Cuba e si qualifica per le finals della Nations League",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Sun, 19 Jul 2026 06:12:00 GMT",
+      "image": "https://cdn.corrieredellosport.it/images/2026/07/19/085327668-5e12f413-c668-4617-b860-b7c3f947d4a7.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/volley/nazionali-volley/2026/07/19-149984372/l_italvolley_di_de_giorgi_batte_cuba_e_si_qualifica_per_le_finals_della_nations_league"
+    },
+    {
+      "id": "4",
       "title": "Pallavolo, l'Italia supera Cuba e si qualifica per le Final Eight",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Sun, 19 Jul 2026 04:03:00 GMT",
@@ -442,7 +442,7 @@
       "permalink": "https://www.volleyball.it/2025/12/20/notizie/argomenti/europei-maschili/articolo/europei-2026-il-rendering-di-piazza-plebiscito.html"
     },
     {
-      "id": "8",
+      "id": "5",
       "title": "Volley femminile e maschile nazionali. Grande successo toscano alle finali del \"Csi»",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Sat, 18 Jul 2026 23:22:25 GMT",
@@ -482,7 +482,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/07/19/pallavolo-vnl-m-la-turchia-nelle-final-8-per-la-prima-volta-kovac-uno-dei-piu-grandi-successi-della-mia-carriera/"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Pallavolo EuroVolleyU20M – Nuovo collegiale per gli Azzurrini: i convocati di coach Mario Di Pietro",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Sat, 18 Jul 2026 17:00:00 GMT",
@@ -546,7 +546,7 @@
       "permalink": "https://www.volleyball.it/2026/07/11/notizie/argomenti/vnl-femminile/articolo/vnl-velasco-applaude-la-rimonta-dellitalia-grande-carattere-ora-vogliamo-chiudere-al-meglio-con.html"
     },
     {
-      "id": "4",
+      "id": "7",
       "title": "Volley, Fidone da Montalto allo stage con la Nazionale",
       "excerpt": "Fonte: quotidianodelsud.it",
       "createdTime": "Sat, 11 Jul 2026 12:46:00 GMT",
