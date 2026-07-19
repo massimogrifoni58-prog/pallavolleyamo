@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T12:39:04.264453+00:00",
+  "generatedAt": "2026-07-19T17:41:31.579952+00:00",
   "posts": [
     {
       "title": "Serie A1 volley, a Firenze si gioca il big match tra Scandicci e Milano",
@@ -7,7 +7,7 @@
       "createdTime": "Wed, 22 Oct 2025 07:48:00 GMT",
       "image": "https://staticr1.blastingcdncf.com/media/photogallery/2025/10/22/660x290/b_1200x675x95/scandicci-volley-c-pagina-facebook-ufficiale-lega-pallavolo-serie-a-femminile_3153414.jpg",
       "permalink": "https://it.blastingnews.com/sport/2025/10/serie-a1-volley-a-firenze-si-gioca-il-big-match-tra-scandicci-e-milano-003947972.html",
-      "id": "21"
+      "id": "19"
     },
     {
       "id": "domotekreggiocalabriainnocenzi",
@@ -63,7 +63,23 @@
       "createdTime": "Wed, 15 Jul 2026 17:20:00 GMT",
       "image": "https://cdn.corrieredellosport.it/images/2026/07/15/221906296-435c0333-00a9-481f-8fee-b36022219eed.jpg",
       "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/15-149924924/le_rose_ufficiali_delle_protagoniste_della_superlega_2026_2027",
-      "id": "6"
+      "id": "4"
+    },
+    {
+      "title": "Albisola Pallavolo",
+      "excerpt": "Fonte: liguriasport.com",
+      "createdTime": "Wed, 15 Jul 2026 09:00:00 GMT",
+      "image": "https://www.liguriasport.com/wp-content/uploads/2025/07/zoom_pallavolo_Albisola_1.jpg",
+      "permalink": "https://www.liguriasport.com/2026/07/15/albisola-pallavolo-2/",
+      "id": "30"
+    },
+    {
+      "title": "“Francesco Rizzo dalla Volley Life alla Superlega con la Gas Sales Bluenergy Piacenza”",
+      "excerpt": "Fonte: tusciaweb.eu",
+      "createdTime": "Wed, 15 Jul 2026 07:22:00 GMT",
+      "image": "https://www.tusciaweb.eu/wp-content/uploads/2026/07/Francesco-Rizzo.jpg",
+      "permalink": "https://www.tusciaweb.eu/2026/07/francesco-rizzo-dalla-volley-life-alla-superlega-la-gas-sales-bluenergy-piacenza/",
+      "id": "9"
     },
     {
       "id": "mondovolleylealtrenewsdel14lug",
@@ -95,7 +111,7 @@
       "createdTime": "Wed, 08 Jul 2026 23:20:35 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/sport/other/volley-serie-a1-femminile-panetoni-san-giovanni-punta-alla-salvezza-non-ci-poniamo-limiti/ar-AA27x2ri",
-      "id": "20"
+      "id": "18"
     },
     {
       "id": "mondovolleyvnlalviamercatoseri",
@@ -207,7 +223,7 @@
       "createdTime": "Thu, 21 May 2026 23:14:00 GMT",
       "image": "https://www.ilrestodelcarlino.it/image-service/view/acePublic/alias/contentid/N2M3NTE2NWEtZmM2MS00/0/altro-rinforzo-per-san-giovanni-ecco-scialanca.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://www.ilrestodelcarlino.it/rimini/sport/volley-serie-a1-femminile-altro-fc52fed7",
-      "id": "23"
+      "id": "21"
     },
     {
       "id": "allianzmilanofusaroguardaalfut",
@@ -266,11 +282,11 @@
       "permalink": "https://www.volleyball.it/2026/07/16/notizie/argomenti/superlega/articolo/superlega-le-date-della-stagione-e-degli-eventi-supercoppa-coppa-italia-play-off-e-play-out.html"
     },
     {
-      "title": "Pallavolo A2M – Palmi sogna in grande, il calendario accende l’entusiasmo: esordio contro Porto Viro, nel mirino c’è la SuperLega",
+      "title": "Pallavolo Mercato – Luck Volley Palmi: al centro arriva il giovane talento Marco Valbusa",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 16 Jul 2026 17:01:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/17/pallavolo-a2m-palmi-sogna-in-grande-il-calendario-accende-lentusiasmo-esordio-contro-porto-viro-nel-mirino-ce-la-superlega/",
+      "permalink": "https://www.ivolleymagazine.it/2026/07/17/pallavolo-mercato-luck-volley-palmi-al-centro-arriva-il-giovane-talento-marco-valbusa/",
       "id": "10"
     },
     {
@@ -287,7 +303,7 @@
       "createdTime": "Thu, 16 Jul 2026 14:58:00 GMT",
       "image": null,
       "permalink": "https://www.ilpiacenza.it/sport/piacenza-volley-calendario-superlega-2026-2027.html",
-      "id": "5"
+      "id": "6"
     },
     {
       "id": "superlegailcalendario202627tut",
@@ -311,7 +327,7 @@
       "createdTime": "Thu, 16 Jul 2026 11:33:00 GMT",
       "image": "https://cdn.tuttosport.com/images/2026/07/16/163227961-8b8c96e3-1986-487d-8045-69ceebc45c6a.jpg",
       "permalink": "https://www.tuttosport.com/news/pallavolo/2026/07/16-149936787/lega_pallavolo_serie_a_ha_un_nuovo_presidente_claudio_durigon",
-      "id": "24"
+      "id": "22"
     },
     {
       "title": "Presentato il calendario di SuperLega: per la Gas Sales Bluenergy debutto a Padova",
@@ -335,15 +351,7 @@
       "createdTime": "Thu, 16 Jul 2026 10:48:00 GMT",
       "image": "https://cdn.tuttosport.com/images/2026/07/16/154754318-e754ab68-5759-41b7-afc0-7bc665a9ab77.jpg",
       "permalink": "https://www.tuttosport.com/news/pallavolo/superlega/2026/07/16-149936378/la_lega_ha_ufficializzato_il_calendario_2026_2027_di_superlega",
-      "id": "8"
-    },
-    {
-      "title": "Ecco il calendario della Superlega 2026/2027",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Thu, 16 Jul 2026 10:40:00 GMT",
-      "image": "https://cdn.corrieredellosport.it/images/2026/07/16/153740398-cc4efde1-3949-435d-bf51-32b2b7399f67.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/superlega/2026/07/16-149936367/ecco_il_calendario_della_superlega_2026_2027",
-      "id": "3"
+      "id": "5"
     },
     {
       "title": "SUPERLEGA / Cuneo Volley, avvio da brividi: Perugia al debutto, poi subito a Milano",
@@ -351,7 +359,7 @@
       "createdTime": "Thu, 16 Jul 2026 10:25:00 GMT",
       "image": "https://www.targatocn.it/fileadmin/archivio/lavocedialba/2026/07/Silvia_Canale_e_Paolo_Brugiafreddo.jpg",
       "permalink": "https://www.targatocn.it/2026/07/16/sommario/sport/leggi-notizia/argomenti/volley/articolo/superlega-cuneo-volley-avvio-da-brividi-perugia-al-debutto-poi-subito-a-milano.html",
-      "id": "9"
+      "id": "8"
     },
     {
       "title": "Claudio Durigon nuovo presidente della Lega Volley. Anche Garavaglia sale a rete?",
@@ -359,7 +367,7 @@
       "createdTime": "Thu, 16 Jul 2026 08:24:00 GMT",
       "image": "https://www.policymakermag.it/wp-content/uploads/durigon-lega-volley-scaled.jpg",
       "permalink": "https://www.policymakermag.it/insider/la-lega-sale-a-rete-claudio-durigon-guida-la-lega-volley/",
-      "id": "30"
+      "id": "27"
     },
     {
       "title": "Durigon eletto presidente Lega Volley Serie A: 'Insieme faremo crescere lo sport'",
@@ -367,7 +375,7 @@
       "createdTime": "Thu, 16 Jul 2026 06:22:00 GMT",
       "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/7/16/660x290/b_1200x675x95/ugl-claudio-durigon-nominato-sottosegretario-del-lavoro-c-creative-commons_3274807.jpg",
       "permalink": "https://it.blastingnews.com/sport/2026/07/durigon-eletto-presidente-lega-volley-serie-a-insieme-faremo-crescere-lo-sport-004072311.html",
-      "id": "26"
+      "id": "24"
     },
     {
       "id": "serieafemminilefinecodiventati",
@@ -376,14 +384,6 @@
       "createdTime": "Thu, 09 Jul 2026 17:06:16 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/lvf-fineco-title-sponsor-2026.jpg",
       "permalink": "https://www.volleyball.it/2026/07/09/notizie/argomenti/a1-femminile/articolo/serie-a-femminile-fineco-diventa-title-sponsor-nascono-lvf-a1-fineco-e-lvf-a2-fineco.html"
-    },
-    {
-      "title": "SUPERLEGA / Cuneo Volley, Costamagna racconta la svolta con Acqua Sant’Anna: \"Adesso dobbiamo meritarci il nostro sponsor\" [VIDEO]",
-      "excerpt": "Fonte: targatocn.it",
-      "createdTime": "Thu, 09 Jul 2026 11:32:00 GMT",
-      "image": "https://www.targatocn.it/fileadmin/archivio/lavocedialba/2026/07/Acqua_Sant_Anna_Cuneo_Volley.jpeg",
-      "permalink": "https://www.targatocn.it/2026/07/09/sommario/sport/leggi-notizia/argomenti/volley/articolo/superlega-cuneo-volley-costamagna-racconta-la-svolta-con-acqua-santanna-adesso-dobbiamo-meri.html",
-      "id": "11"
     },
     {
       "id": "mondovolleylealtrenewsdigiorna",
@@ -408,14 +408,6 @@
       "createdTime": "Thu, 02 Jul 2026 17:20:32 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Sileoni_-_Podrascanin_-_Giulianelli_e_Massaccesi.jpg",
       "permalink": "https://www.volleyball.it/2026/07/02/notizie/argomenti/superlega/articolo/lube-podrascanin-nuovo-ds-e-giulianelli-vicepresidente.html"
-    },
-    {
-      "id": "perugiacelebrailgrandeslaminpi",
-      "title": "Perugia celebra il Grande Slam in piazza IV Novembre",
-      "excerpt": "La Sir festeggia con istituzioni, squadra e staff una stagione chiusa con il Grande Slam, tra talk...",
-      "createdTime": "Thu, 02 Jul 2026 16:19:29 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/perugia-celebra-il-grande-slam-in-piazza-iv-novembre.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/02/notizie/argomenti/superlega/articolo/perugia-celebra-il-grande-slam-in-piazza-iv-novembre.html"
     },
     {
       "id": "consoliniiscrizionealcampionat",
@@ -448,6 +440,22 @@
       "createdTime": "Sun, 21 Jun 2026 18:39:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/06/offanengo-aime-analizza-il-nuovo-roster.jpg",
       "permalink": "https://www.volleyball.it/2026/06/21/notizie/argomenti/a2-femminile/articolo/offanengo-aime-analizza-il-nuovo-roster-salvarsi-il-prima-possibile.html"
+    },
+    {
+      "id": "bigcampbonittaeditommasopergli",
+      "title": "Big Camp: Bonitta e Di Tommaso per gli ultimi due turni",
+      "excerpt": "Marco Bonitta e Simone Di Tommaso guideranno le attività degli ultimi due turni del Trentino Volley...",
+      "createdTime": "Sun, 19 Jul 2026 19:17:01 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/bonitta-di-tommaso-big-camp-trentino-volley-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/19/notizie/argomenti/superlega/articolo/big-camp-bonitta-e-di-tommaso-per-gli-ultimi-due-turni.html"
+    },
+    {
+      "id": "azzurredargentoallacevnationsc",
+      "title": "Azzurre d’argento alla CEV Nations Cup 2026 femminile di Beach Volley",
+      "excerpt": "Sfuma di un soffio l'oro per Gottardi, Orsi Toth, Scampoli e Bianchi che nella finalissima si sono arrese alle ucraine Davidova/Khmil e Serdiuk/Romaniuk solo al Golden Set.\nThe post Azzurre d’argento ",
+      "createdTime": "Sun, 19 Jul 2026 14:50:34 GMT",
+      "image": "https://www.volleynews.it/wp-content/uploads/2026/07/orsi-toth-scampoli-bianchi-gottardi-cev-nations-cup-beach-volley-2026-budapest.jpg",
+      "permalink": "https://www.volleynews.it/azzurre-dargento-alla-cev-nations-cup-2026-femminile-di-beach-volley/?utm_source=rss&utm_medium=rss&utm_campaign=azzurre-dargento-alla-cev-nations-cup-2026-femminile-di-beach-volley"
     },
     {
       "id": "cevnationscupmaschile2026dibea",
@@ -522,6 +530,14 @@
       "permalink": "https://www.volleynews.it/vnl-maschile-risultati-day4-la-bulgaria-batte-gli-usa-e-vede-le-finals/?utm_source=rss&utm_medium=rss&utm_campaign=vnl-maschile-risultati-day4-la-bulgaria-batte-gli-usa-e-vede-le-finals"
     },
     {
+      "title": "PALLAVOLO FEMMINILE SERIE A3 / Mondovì Volley chiude con il botto: arriva la centrale Martina Veneriano",
+      "excerpt": "Fonte: targatocn.it",
+      "createdTime": "Sun, 19 Jul 2026 02:56:00 GMT",
+      "image": "https://www.targatocn.it/fileadmin/archivio/targatocn/2026/07/Martina_Veneriano_mondovi_volley.jpg",
+      "permalink": "https://www.targatocn.it/2026/07/19/sommario/sport/leggi-notizia/argomenti/volley/articolo/pallavolo-femminile-serie-a3-mondovi-volley-chiude-con-il-botto-arriva-la-centrale-martina-vene.html",
+      "id": "29"
+    },
+    {
       "id": "a3credembancareggiocalabriacon",
       "title": "A3 Credem Banca: Reggio Calabria conquista la promozione in A2, Belluno ko nella “bella”",
       "excerpt": "Finale Gara 3 - Domotek Reggio Calabria – Belluno Volley 3-0 (25-22, 25-19, 25-23)Domotek Reggio...",
@@ -559,7 +575,7 @@
       "createdTime": "Sun, 12 Jul 2026 17:00:00 GMT",
       "image": "https://media.engage.it/2026/7/cover-_thumb_1114679.png",
       "permalink": "https://www.engage.it/media-industry/volley-femminile-serie-a1-tutte-le-partite-su-dazn-rai-e-social-dal-2026-2027.aspx",
-      "id": "12"
+      "id": "11"
     },
     {
       "title": "Pallavolo Lega Femminile – A1 e A2 Femminile: partite anche sui canali social",
@@ -567,7 +583,7 @@
       "createdTime": "Sun, 12 Jul 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/07/13/pallavolo-lega-femminile-a1-e-a2-femminile-partite-anche-sui-canali-social/",
-      "id": "17"
+      "id": "15"
     },
     {
       "id": "lealtrenewsdelvolley4luglio202",
@@ -591,7 +607,7 @@
       "createdTime": "Sat, 18 Jul 2026 23:21:35 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/sport/calcio/serie-a1-femminile-la-numia-fra-novit%C3%A0-e-conferme-ecco-tutto-lo-staff-di-coach-lavarini/ar-AA28dqb5",
-      "id": "13"
+      "id": "12"
     },
     {
       "id": "grottazzolinapalasavellicampop",
@@ -610,20 +626,12 @@
       "permalink": "https://www.volleyball.it/2026/07/18/notizie/argomenti/a1-femminile/articolo/conegliano-imoco-next-gen-summer-camp-boom-estate-2026-wolosz-e-de-gennaro-maestre-a-brunico-gen.html"
     },
     {
-      "id": "nazionalebfemminilenuovocolleg",
-      "title": "Nazionale B femminile, nuovo collegiale al Pavesi: le convocate di Parisi",
-      "excerpt": "Da lunedì 20 luglio a venerdì 24 luglio la Nazionale B si ritroverà al Centro Pavesi di Milano per un ritiro in preparazione ai Giochi del Mediterraneo.\nThe post Nazionale B femminile, nuovo collegial",
-      "createdTime": "Sat, 18 Jul 2026 17:29:35 GMT",
-      "image": "https://www.volleynews.it/wp-content/uploads/2026/07/Nazionale-Italiana-pallone-generico.jpg",
-      "permalink": "https://www.volleynews.it/nazionale-b-femminile-nuovo-collegiale-al-pavesi-le-convocate-di-parisi/?utm_source=rss&utm_medium=rss&utm_campaign=nazionale-b-femminile-nuovo-collegiale-al-pavesi-le-convocate-di-parisi"
-    },
-    {
-      "title": "Serie A1, le date della stagione e la formula di campionato e Coppa Italia",
-      "excerpt": "Fonte: pianetabasket.com",
-      "createdTime": "Sat, 18 Jul 2026 13:30:00 GMT",
+      "title": "Pallavolo Mercato – L’Altino Volley ha ufficializzato l’arrivo di Claudia Provaroni",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sat, 18 Jul 2026 17:00:00 GMT",
       "image": null,
-      "permalink": "https://www.pianetabasket.com/femminile/serie-a1-le-date-della-stagione-e-la-formula-di-campionato-e-coppa-italia",
-      "id": "18"
+      "permalink": "https://www.ivolleymagazine.it/2026/07/19/pallavolo-mercato-laltino-volley-ha-ufficializzato-larrivo-di-claudia-provaroni/",
+      "id": "17"
     },
     {
       "title": "Pallavolo, Durigon replica a Schlein: “Fa demagogia e ha la memoria corta”",
@@ -631,15 +639,7 @@
       "createdTime": "Sat, 18 Jul 2026 12:07:38 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/notizie/other/pallavolo-durigon-replica-a-schlein-fa-demagogia-e-ha-la-memoria-corta/ar-AA28cE5O",
-      "id": "27"
-    },
-    {
-      "title": "Durigon presidente Lega Pallavolo, Calabretta: “saprà rafforzare il ruolo della Serie A”",
-      "excerpt": "Fonte: strettoweb.com",
-      "createdTime": "Sat, 18 Jul 2026 03:22:00 GMT",
-      "image": "https://www.strettoweb.com/wp-content/uploads/2026/07/Calabretta-e-Durigon-1200x1126.jpg",
-      "permalink": "https://www.strettoweb.com/2026/07/durigon-presidente-lega-pallavolo-calabretta-sapra-rafforzare-il-ruolo-della-serie-a/2115109/",
-      "id": "29"
+      "id": "25"
     }
   ]
 }
