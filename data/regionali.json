@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:58:07.348542+00:00",
+  "generatedAt": "2026-07-19T20:07:19.223854+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -58,7 +58,7 @@
       "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
@@ -80,14 +80,6 @@
       "createdTime": "Tue, 29 Apr 2025 23:30:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/MTllOTY2MWUtZWI1Mi00/0/un-campo-da-pallavolo-con-il-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/02/1e4e212c-7b64-2826-1735-59d8c28c687c.png",
-      "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
     },
     {
       "id": "news-5",
@@ -130,7 +122,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
       "title": "Pallavolo Fipav Umbria – Nessuna sanzione per chi si ritirerà dai campiona di categoria dopo l’inizio",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 28 Jan 2021 16:00:00 GMT",
@@ -234,10 +226,10 @@
       "permalink": "https://www.pianetavolley.net/2026/07/ravenna-ha-chiamato-massimiliano-urbani/"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Sun, 18 May 2025 17:00:00 GMT",
+      "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
@@ -330,7 +322,7 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/05/25/pallavolo-la-sir-perugia-ricevuta-a-palazzo-dei-priori_e007308e-13aa-4ab6-b0d2-c053b9548afc.html"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Fipav Umbria, ecco la lettera del presidente Lomurno a tutte le società di pallavolo della regione",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
@@ -338,7 +330,7 @@
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Volley, doppio Lomurno alla Fipav: il presidente è stato riconfermato",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Mon, 19 Nov 2012 10:09:00 GMT",
@@ -400,6 +392,14 @@
       "createdTime": "Fri, 17 Jul 2026 05:00:51 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/S.Giustino-Terni-loghi.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/esordio-di-campionato-non-male-per-san-giustino-e-terni/"
+    },
+    {
+      "id": "news-5",
+      "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
+      "excerpt": "Fonte: today.it",
+      "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
+      "image": null,
+      "permalink": "https://www.today.it/sport/volley/incassa-6mila-euro-attivita-gratuite-fipav.html"
     },
     {
       "id": "fipav-17964",
