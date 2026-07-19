@@ -1,37 +1,29 @@
 {
-  "generatedAt": "2026-07-19T18:49:40.449776+00:00",
+  "generatedAt": "2026-07-19T19:58:13.705827+00:00",
   "posts": [
-    {
-      "title": "Perugia, doppietta di Bolsius nel test in famiglia",
-      "excerpt": "Bolsius due volte. Nepi e Napolano. Sono loro i marcatori del test in famiglia che il Perugia A ha vinto 3-1 contro il Perugia B. Al centro sportivo Paolo Rossi la prima sgambata stagionale suddivisa ",
-      "createdTime": "Sun, 19 Jul 2026 18:47:25 +0000",
-      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-19-at-19.56.05.jpeg?fit=1024%2C768&amp;ssl=1",
-      "permalink": "https://www.umbria24.it/perugia/perugia-doppietta-di-bolsius-nel-test-in-famiglia/",
-      "id": "1"
-    },
-    {
-      "title": "Atletica, Europei Under 18: grande prova della perugina Baiocco che sfiora il podio negli 800",
-      "excerpt": "A meno di un secondo dal podio. Ma il sorriso a fine gara vale come una medaglia. Bianca Baiocco, stellina dell’Arcs Cus Perugia, archivia l’esordio in Nazionale con un quarto posto da ricordare nella",
-      "createdTime": "Sun, 19 Jul 2026 17:05:38 +0000",
-      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/07/Baiocco_europei-rieti.jpg-880x587-1.jpg?fit=880%2C587&amp;ssl=1",
-      "permalink": "https://www.umbria24.it/perugia/atletica-europei-under-18-grande-prova-della-perugina-baiocco-che-sfiora-il-podio-negli-800/",
-      "id": "2"
-    },
     {
       "title": "Volley, Altotevere guarda al futuro e “pesca” dalla Sir: preso il perugino Giovagnoli",
       "excerpt": "Altotevere guarda al futuro. Per rimpolpare il reparto degli schiacciatori prende dalla Sir Perugia il diciannovenne Filippo Giovagnoli, schiacciatore che può agire anche da opposto.&#160; Perugino do",
       "createdTime": "Sun, 19 Jul 2026 13:18:53 +0000",
       "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/07/giovagnoli-e-benedetti.jpeg?fit=1024%2C673&amp;ssl=1",
       "permalink": "https://www.umbria24.it/citta-di-castello/volley-altotevere-guarda-al-futuro-e-pesca-dalla-sir-preso-il-perugino-giovagnoli/",
-      "id": "3"
+      "id": "1"
     },
     {
-      "title": "Filippo Giovagnoli: «Sono pronto per San Giustino»",
-      "excerpt": "C’è un altro nome nuovo nella rosa degli schiacciatori della Altotevere San Giustino, esordiente nel campionato di serie A3 maschile. È quello dello schiacciatore Filippo Giovagnoli (classe 2007) alto",
-      "createdTime": "Sun, 19 Jul 2026 13:00:24 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Giovagnoli-Gustinelli.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/filippo-giovagnoli-sono-pronto-per-san-giustino/",
-      "id": "4"
+      "title": "Susegana ha convinto Ginevra Pizzicaroli",
+      "excerpt": "Arrivano ancora attestati di merito per i talenti umbri della pallavolo, è ancora la società veneta della Pallavolo Susegana a dimostrarsi attenta verso il Cuore Verde d’Italia. È in procinto di trasf",
+      "createdTime": "Sun, 19 Jul 2026 07:00:04 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pizzicaroli-Ginevra.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/susegana-ha-convinto-ginevra-pizzicaroli/",
+      "id": "2"
+    },
+    {
+      "title": "Ravenna ha chiamato Massimiliano Urbani",
+      "excerpt": "Si trasferisce oltre i confini regionali entrando a far parte del progetto Volley Academy Olimpia Teodora Ravenna il tecnico Massimiliano Urbani che seguirà personalmente una squadra under 13 femminil",
+      "createdTime": "Sun, 19 Jul 2026 05:00:15 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Urbani-Massimiliano-Ravenna.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/ravenna-ha-chiamato-massimiliano-urbani/",
+      "id": "3"
     },
     {
       "title": "Città di Castello prosegue con Rinaldo Conti",
@@ -39,15 +31,7 @@
       "createdTime": "Sat, 18 Jul 2026 15:00:43 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Conti-Rinaldo.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/citta-di-castello-prosegue-con-rinaldo-conti/",
-      "id": "5"
-    },
-    {
-      "title": "Remo Ambroglini: «Perugia si prepara per lunghe trasferte»",
-      "excerpt": "A pochi giorni dall’inizio della preparazione atletica che porterà al campionato di serie A2 femminile la Bartoccini Mc Restauri Perugia comincia a studiare le avversarie e le relative trasferte che d",
-      "createdTime": "Sat, 18 Jul 2026 11:00:29 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Ambroglini-Remo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/remo-ambroglini-perugia-si-prepara-per-lunghe-trasferte/",
-      "id": "6"
+      "id": "4"
     },
     {
       "title": "Valdemaro Gustinelli: «Avvio ostico per San Giustino»",
@@ -55,7 +39,7 @@
       "createdTime": "Fri, 17 Jul 2026 11:00:39 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Gustinelli-Valdemaro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/",
-      "id": "7"
+      "id": "5"
     },
     {
       "title": "Angelo Lorenzetti: «Perugia ricomincia dalle cose apprese»",
@@ -63,7 +47,7 @@
       "createdTime": "Fri, 17 Jul 2026 07:00:06 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Lorenzetti-Angelo-coppa.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/angelo-lorenzetti-perugia-ricomincia-dalle-cose-apprese/",
-      "id": "8"
+      "id": "6"
     },
     {
       "title": "Esordio di campionato non male per San Giustino e Terni",
@@ -71,7 +55,7 @@
       "createdTime": "Fri, 17 Jul 2026 05:00:51 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/S.Giustino-Terni-loghi.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/esordio-di-campionato-non-male-per-san-giustino-e-terni/",
-      "id": "9"
+      "id": "7"
     },
     {
       "title": "Perugia debutterà in superlega a Cuneo",
@@ -79,7 +63,39 @@
       "createdTime": "Thu, 16 Jul 2026 15:00:59 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Perugia-palasport.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/perugia-debuttera-in-superlega-a-cuneo/",
+      "id": "8"
+    },
+    {
+      "title": "Il ternano Sacchinelli nuovo allenatore della Volley Academy Rieti",
+      "excerpt": "La società annuncia l'arrivo dell'esperto tecnico alla guida della prima divisione maschile\nL'articolo Il ternano Sacchinelli nuovo allenatore della Volley Academy Rieti proviene da UmbriaON.",
+      "createdTime": "Wed, 15 Jul 2026 11:26:41 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/07/Francesco-Sacchinelli.jpg",
+      "permalink": "https://www.umbriaon.it/il-ternano-sacchinelli-nuovo-allenatore-della-volley-academy-rieti/",
+      "id": "9"
+    },
+    {
+      "title": "Pallavolo: il CLT porta tre atleti al Trofeo delle Regioni. Convocati Abbruzzese, Santini e Cavalletti",
+      "excerpt": "I giovani del Circolo Lavoratori Terni rappresentano l'Umbria alla manifestazione nazionale in programma a Catania dal 22 al 27 giugno\nL'articolo Pallavolo: il CLT porta tre atleti al Trofeo delle Reg",
+      "createdTime": "Mon, 22 Jun 2026 20:24:50 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2019/01/Ingresso-CLT-Terni-via-Muratori.jpg",
+      "permalink": "https://www.umbriaon.it/pallavolo-il-clt-porta-tre-atleti-al-trofeo-delle-regioni-convocati-abbruzzese-santini-e-cavalletti/",
       "id": "10"
+    },
+    {
+      "title": "Terni Volley Academy verso la seconda stagione in serie A3. Con più certezze e un nuovo coach",
+      "excerpt": "Presentato Giancarlo D'Amico, il tecnico lucano che guiderà i Dragons. Entusiasmo e obiettivi più ambiziosi dopo l'annata-no all'esordio in categoria\nL'articolo Terni Volley Academy verso la seconda s",
+      "createdTime": "Tue, 16 Jun 2026 11:12:05 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/06/Biribanti-DAmico-Bassetti-Terni-Volley-Academy-16-giugno-2026.jpg",
+      "permalink": "https://www.umbriaon.it/terni-volley-academy-verso-la-seconda-stagione-in-serie-a3-con-piu-certezze-e-un-nuovo-coach/",
+      "id": "11"
+    },
+    {
+      "title": "Minivolley in piazza: ad Amelia una mattinata di sport e partecipazione",
+      "excerpt": "Successo per il torneo Città di Amelia-Volley Up. Decine di giovani coinvolti nell’iniziativa inserita nel progetto PlayAmelia\nL'articolo Minivolley in piazza: ad Amelia una mattinata di sport e parte",
+      "createdTime": "Mon, 01 Jun 2026 14:37:30 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/06/Torneo-minivolley-Citta-di-Amelia-Volley-Up-30-maggio-2026.jpg",
+      "permalink": "https://www.umbriaon.it/minivolley-in-piazza-ad-amelia-una-mattinata-di-sport-e-partecipazione/",
+      "id": "12"
     },
     {
       "title": "Pallavolo: la Sir Perugia trionfa anche in Europa. Seconda Champions League consecutiva",
@@ -87,7 +103,39 @@
       "createdTime": "Sun, 17 May 2026 20:19:52 +0000",
       "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/05/Finale-Champions-League-pallavolo-maschile-a-Torino.-Perugia-Zawiercie-17-maggio-2026-foto-Michele-Benda.jpg",
       "permalink": "https://www.umbriaon.it/pallavolo-sir-perugia-trionfa-anche-in-europa-seconda-champions-league-consecutiva/",
-      "id": "11"
+      "id": "13"
+    },
+    {
+      "title": "L’Amerina Pallavolo promossa in serie C. L’ultima volta 12 anni fa",
+      "excerpt": "Amelia - La società torna nella massima serie regionale. Ai playoff la Genesi Solutions Narni Sport Academy\nL'articolo L&#8217;Amerina Pallavolo promossa in serie C. L&#8217;ultima volta 12 anni fa pr",
+      "createdTime": "Mon, 20 Apr 2026 06:44:39 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/04/Amerina_dopo_promozione.jpg",
+      "permalink": "https://www.umbriaon.it/lamerina-pallavolo-promossa-in-serie-c-lultima-volta-12-anni-fa/",
+      "id": "14"
+    },
+    {
+      "title": "Retrocessione amara: «Ma abbiamo riportato la pallavolo a Terni. E forse saremo ancora in serie A3»",
+      "excerpt": "Conad Pala Terni Volley Academy: sconfitta decisiva in gara 4 contro Savigliano. La dirigenza: «Gran peccato per i ragazzi. Ma chances concrete di ripescaggio»\nL'articolo Retrocessione amara: «Ma abbi",
+      "createdTime": "Sun, 19 Apr 2026 20:26:02 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/04/Conad-Pala-Terni-Volley-Academy-Monge-Gerbaudo-Savigliano-19-aprile-2026.jpg",
+      "permalink": "https://www.umbriaon.it/retrocessione-amara-ma-abbiamo-riportato-la-pallavolo-a-terni-e-forse-saremo-ancora-in-serie-a3/",
+      "id": "15"
+    },
+    {
+      "title": "Guardea: il minivolley del CSI riempie il palasport di entusiasmo e sportivi",
+      "excerpt": "Successo per l'evento organizzato dalla Academy Volley Guardea nella giornata di domenica 1° marzo\nL'articolo Guardea: il minivolley del CSI riempie il palasport di entusiasmo e sportivi proviene da U",
+      "createdTime": "Tue, 03 Mar 2026 09:09:16 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/03/Evento-minivolley-Guardea-CSI-1°-marzo-2026.jpg",
+      "permalink": "https://www.umbriaon.it/guardea-il-minivolley-del-csi-riempie-il-palasport-di-entusiasmo-e-sportivi/",
+      "id": "16"
+    },
+    {
+      "title": "Serie A3: Terni Volley Academy lotta ma cede sul campo dell’Energy Time Campobasso",
+      "excerpt": "Rossoverdi in partita per tre parziali, i molisani allungano nel finale\nL'articolo Serie A3: Terni Volley Academy lotta ma cede sul campo dell’Energy Time Campobasso proviene da UmbriaON.",
+      "createdTime": "Sun, 18 Jan 2026 09:25:20 +0000",
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2025/11/Terni-Volley-Academy-EnergyTime-Campobasso-pallavolo-serie-A3-maschile-1°-novembre-2025-foto-A.-Mirimao-4.jpg",
+      "permalink": "https://www.umbriaon.it/serie-a3-terni-volley-academy-lotta-ma-cede-sul-campo-dellenergy-time-campobasso-volley-pallavolo/",
+      "id": "17"
     }
   ]
 }
