@@ -55,7 +55,24 @@ KEYWORDS_TERNI = [
     "sangemini don bosco volley", "amerina", "bosico",
     "arrone", "acquasparta", "colleluna",
 ]   
+# Solo fonti locali ammesse
+ALLOWED_SOURCES = [
+    "terninrete.it",
+    "umbria24.it",
+    "sporterni.it",
+    "ilmessaggero.it",
+    "umbriaon.it",
+    "orvietosport.it",
+    "orvietonews.it",
+    "ivl24.it",
+    "umbria.corriere.it",
+]
 
+# Escludi TVA e fonti nazionali
+EXCLUDE_KEYWORDS = [
+    "terni volley academy", "dragons terni", "conad pala terni",
+    "superenalotto",
+]
 LIMIT = 20
 
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "terni.json"
@@ -193,7 +210,11 @@ def main():
         posts = parse_rss(xml_bytes, LIMIT)
         nuove = 0
         for p in posts:
-            if p["permalink"] not in seen_links and is_local(p["title"], p["excerpt"]):
+            source = source_from_url(p["permalink"])
+            if (p["permalink"] not in seen_links
+                    and is_local(p["title"], p["excerpt"])
+                    and any(s in p["permalink"] for s in ALLOWED_SOURCES)
+                    and not any(k in (p["title"] + " " + p["excerpt"]).lower() for k in EXCLUDE_KEYWORDS)):
                 seen_links.add(p["permalink"])
                 all_posts.append(p)
                 nuove += 1
