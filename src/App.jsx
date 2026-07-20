@@ -388,7 +388,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           ]}
         />
         <NavDropdown
-          <NavDropdown
           label="Foto e Video"
           items={[
             { href: "#/galleria", label: "Galleria Foto" },
