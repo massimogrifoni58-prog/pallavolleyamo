@@ -34,7 +34,7 @@ QUERIES = [
     "Volley Terni 2026",
     "pallavolo Foligno volley",
     "pallavolo Terni under",
-    "San Gemini Bosco Volley pallavolo",
+    "SanGemini Don Bosco Volley pallavolo",
     "Narni Sport Academy pallavolo",
     "Amerina Pallavolo",
     "Bosico Terni pallavolo",
@@ -42,15 +42,17 @@ QUERIES = [
     "Acquasparta pallavolo",
     "Narni Pallavolo",
     "Colleluna volley",
+    "pallavolo terni site:sporterni.it",
+    "pallavolo terni site:terninrete.it",
 ]
 
 # Parole chiave che indicano notizie locali della provincia di Terni
 KEYWORDS_TERNI = [
     "terni", "narni", "orvieto", "amelia", "acquasparta",
-    "san gemini", "ternana",
+    "sangemini", "ternana",
     "terni volley ", "narni sport narni", "tva terni",
     "umbria", "ternano", "ternana",
-    "san gemini", "bosco volley", "amerina", "bosico",
+    "sangemini don bosco volley", "amerina", "bosico",
     "arrone", "acquasparta", "colleluna",
 ]   
 
@@ -199,10 +201,7 @@ def main():
 
     print(f"\nTotale: {len(all_posts)} notizie locali trovate")
 
-    all_posts.sort(key=lambda p: (
-        category_score(p["title"]),
-        -parse_date_safe(p["createdTime"]).timestamp()
-    ))
+    all_posts.sort(key=lambda p: -parse_date_safe(p["createdTime"]).timestamp())
 
     # Limita a 30 notizie totali
     all_posts = all_posts[:50]

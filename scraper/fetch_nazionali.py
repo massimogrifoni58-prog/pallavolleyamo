@@ -31,9 +31,14 @@ QUERIES = [
     "serie a pallavolo",
 ]
 
-LIMIT_PER_QUERY = 10
-TOTAL_LIMIT = 20
-
+LIMIT_PER_QUERY = 15
+TOTAL_LIMIT = 30
+# Escludiamo notizie della Nazionale che vanno in nazionale.json
+EXCLUDE_KEYWORDS = [
+    "nazionale italiana", "azzurre", "azzurri", "vnl", 
+    "nations league", "mondiali", "olimpiadi", "europei",
+    "velasco", "de giorgi",
+]
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "nazionali.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -136,7 +141,8 @@ def main():
             continue
         posts = parse_rss(xml_bytes, LIMIT_PER_QUERY)
         for p in posts:
-            if p["permalink"] not in seen_links:
+            testo = (p["title"] + " " + p["excerpt"]).lower()
+            if p["permalink"] not in seen_links and not any(k in testo for k in EXCLUDE_KEYWORDS):
                 seen_links.add(p["permalink"])
                 all_posts.append(p)
 

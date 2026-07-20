@@ -74,6 +74,21 @@ FEEDS = [
         "output": "nazionali.json",
         "label": "VolleyNews.it",
     },
+    {
+        "url": "https://terninrete.it/notizie-di-terni-category/volley/feed/",
+        "output": "terni.json",
+        "label": "TerniInRete - Volley",
+    },
+  {
+        "url": "https://www.umbriaon.it/sport/pallavolo/feed/",
+        "output": "terni.json",
+        "label": "UmbriaON - Pallavolo",
+    },
+    {
+        "url": "https://www.pianetavolley.net/feed/",
+        "output": "regionali.json",
+        "label": "PianetaVolley - Umbria",
+    },
 ]
 
 
