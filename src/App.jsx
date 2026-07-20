@@ -408,8 +408,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/allenatori2", label: "Cerca Allenatore" },
             { href: "#/velasco", label: "Julio Velasco" },
             { href: "#/camp", label: "Camp Estivi 2026" },
-            { href: "#/velasco", label: "Julio Velasco" },
-            { href: "#/camp", label: "Camp Estivi 2026" },
             { href: "#/video", label: "Video" },
           ]}
         />
