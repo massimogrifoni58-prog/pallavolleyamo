@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:47:10.944788+00:00",
+  "generatedAt": "2026-07-20T12:20:42.068472+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -82,7 +82,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
@@ -218,7 +218,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Pallavolo: Zawiercie ko, Perugia vince la Champions League",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 18 May 2025 14:11:00 GMT",
@@ -258,7 +258,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
@@ -346,6 +346,14 @@
       "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
+      "id": "news-0",
+      "title": "Volley serie B, c’è Foligno-Sansepolcro",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
+    },
+    {
       "id": "news-1",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -360,14 +368,6 @@
       "createdTime": "Fri, 17 Jul 2026 11:00:39 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Gustinelli-Valdemaro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/"
-    },
-    {
-      "id": "news-7",
-      "title": "Cuneo Volley: svelato il calendario 26/27 della SuperLega",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Fri, 17 Jul 2026 08:54:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/07/17/135423062-edc8090b-55c3-4a6b-b0d5-dabb9181c14e.jpg",
-      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/07/17-149953160/cuneo_volley_svelato_il_calendario_26_27_della_superlega"
     },
     {
       "id": "news-1",
