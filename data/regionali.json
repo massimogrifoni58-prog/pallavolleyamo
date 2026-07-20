@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:43:52.054134+00:00",
+  "generatedAt": "2026-07-20T11:47:10.944788+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -346,14 +346,6 @@
       "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
-      "id": "news-0",
-      "title": "Volley serie B, c’è Foligno-Sansepolcro",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
-      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
-      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
-    },
-    {
       "id": "news-1",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -368,6 +360,14 @@
       "createdTime": "Fri, 17 Jul 2026 11:00:39 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Gustinelli-Valdemaro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/"
+    },
+    {
+      "id": "news-7",
+      "title": "Cuneo Volley: svelato il calendario 26/27 della SuperLega",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Fri, 17 Jul 2026 08:54:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/07/17/135423062-edc8090b-55c3-4a6b-b0d5-dabb9181c14e.jpg",
+      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/07/17-149953160/cuneo_volley_svelato_il_calendario_26_27_della_superlega"
     },
     {
       "id": "news-1",
