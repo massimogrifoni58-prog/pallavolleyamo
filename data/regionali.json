@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T12:30:18.882304+00:00",
+  "generatedAt": "2026-07-20T14:38:05.228389+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -26,7 +26,7 @@
       "permalink": "https://www.perugiatoday.it/sport/volley/incassa-6mila-euro-attivita-gratuite-pena-ridotta.html"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Volley, Black Angels Perugia: svelate le avversarie in Serie A2",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 15 Jul 2026 03:15:00 GMT",
@@ -42,7 +42,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -58,7 +58,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -178,7 +178,7 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "San Giustino, arriva la promessa Giovagnoli",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Sun, 19 Jul 2026 23:12:08 GMT",
@@ -346,6 +346,14 @@
       "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
+      "id": "news-0",
+      "title": "Volley serie B, c’è Foligno-Sansepolcro",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
+    },
+    {
       "id": "news-1",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -360,14 +368,6 @@
       "createdTime": "Fri, 17 Jul 2026 11:00:39 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Gustinelli-Valdemaro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/"
-    },
-    {
-      "id": "news-7",
-      "title": "Cuneo Volley: svelato il calendario 26/27 della SuperLega",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Fri, 17 Jul 2026 08:54:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/07/17/135423062-edc8090b-55c3-4a6b-b0d5-dabb9181c14e.jpg",
-      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/07/17-149953160/cuneo_volley_svelato_il_calendario_26_27_della_superlega"
     },
     {
       "id": "news-1",
