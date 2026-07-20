@@ -389,7 +389,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         />
         <NavDropdown
           <NavDropdown
-          label="📸 Foto & Video"
+          label="Foto & Video"
           items={[
             { href: "#/galleria", label: "Galleria Foto" },
             { href: "#/foto-settimana", label: "Foto del Giorno" },
