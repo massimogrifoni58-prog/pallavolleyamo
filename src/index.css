@@ -4363,3 +4363,11 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
   transition: background 0.2s;
 }
 .iscriviti-banner__btn:hover { background: var(--gold-bright); }
+/* === VIDEO === */
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
+.video-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; color: var(--text); transition: transform 0.2s; }
+.video-card:hover { transform: translateY(-3px); }
+.video-card__thumb { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.video-card__body { padding: 0.8rem; }
+.video-card__title { font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; }
+.video-card__canale { font-size: 0.75rem; color: var(--gold); }

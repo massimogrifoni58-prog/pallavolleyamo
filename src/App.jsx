@@ -408,6 +408,9 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/allenatori2", label: "Cerca Allenatore" },
             { href: "#/velasco", label: "Julio Velasco" },
             { href: "#/camp", label: "Camp Estivi 2026" },
+            { href: "#/velasco", label: "Julio Velasco" },
+            { href: "#/camp", label: "Camp Estivi 2026" },
+            { href: "#/video", label: "Video" },
           ]}
         />
         <a className="nav-btn" href="#/chi-siamo">Chi Siamo</a>
@@ -762,7 +765,25 @@ function isAllowedCategory(name) {
   if (lower.includes("under 13") || lower.includes("u13") || lower.includes("under13")) return false;
   return true;
 }
-
+function VideoPage() {
+  const videos = videoData.video || [];
+  return (
+    <main className="page-content">
+      <h1 className="page-title">🎬 Video</h1>
+      <div className="video-grid">
+        {videos.map(v => (
+          <a key={v.id} href={v.url} target="_blank" rel="noreferrer" className="video-card">
+            <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" />
+            <div className="video-card__body">
+              <p className="video-card__title">{v.titolo}</p>
+              <span className="video-card__canale">{v.canale}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </main>
+  );
+}
 function CampionatiHero({ titolo }) {
   return (
     <div className="campionati-hero">
@@ -4228,7 +4249,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4236,6 +4257,7 @@ export default function App() {
           )}
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
+          {route === "video" && <VideoPage />}
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
