@@ -32,6 +32,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from datetime import datetime, timezone, timedelta
 
 OUTPUT_TERNI = Path(__file__).resolve().parent.parent / "react-app" / "data" / "terni.json"
 OUTPUT_PERUGIA = Path(__file__).resolve().parent.parent / "react-app" / "data" / "perugia.json"
@@ -214,6 +215,11 @@ def fetch_all(feeds, keywords, exclude, label):
 
     # Ordina per data decrescente
     all_posts.sort(key=lambda p: -parse_date_safe(p["createdTime"]).timestamp())
+    
+    # Filtra notizie più vecchie di 12 mesi
+    cutoff = datetime.now(timezone.utc) - timedelta(days=365)
+    all_posts = [p for p in all_posts if parse_date_safe(p["createdTime"]) > cutoff]
+    
     all_posts = all_posts[:50]
 
     # Recupera immagini mancanti
