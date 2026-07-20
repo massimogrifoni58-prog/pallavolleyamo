@@ -388,10 +388,12 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           ]}
         />
         <NavDropdown
-          label="Foto"
+          <NavDropdown
+          label="📸 Foto & Video"
           items={[
             { href: "#/galleria", label: "Galleria Foto" },
             { href: "#/foto-settimana", label: "Foto del Giorno" },
+            { href: "#/video", label: "🎬 Video" },
           ]}
         />
         <NavDropdown
@@ -409,7 +411,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/allenatori2", label: "Cerca Allenatore" },
             { href: "#/velasco", label: "Julio Velasco" },
             { href: "#/camp", label: "Camp Estivi 2026" },
-            { href: "#/video", label: "Video" },
           ]}
         />
         <a className="nav-btn" href="#/chi-siamo">Chi Siamo</a>
