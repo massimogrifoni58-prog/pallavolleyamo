@@ -23,7 +23,7 @@
       "mese": "Luglio",
       "foto": "/articoli/allegrini.jpg",
       "logo": null
-    }
+    },
     {
       "id": "3",
       "societa": "San Gemini S. Giovanni Bosco",
@@ -35,6 +35,6 @@
       "mese": "Luglio",
       "foto": "/articoli/moroni.jpg",
       "logo": null
-     }
+    }
   ]
 }
