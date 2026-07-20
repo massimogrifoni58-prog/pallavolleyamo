@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T10:02:58.446578+00:00",
+  "generatedAt": "2026-07-20T10:36:57.454942+00:00",
   "news": {
     "1": [
       {
@@ -15,6 +15,12 @@
         "source": "Reggionline"
       },
       {
+        "title": "Centro Volley Reggiano, Giulia Boni convocata in nazionale Under 16 - Stampa Reggiana",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWFBNZWlnWG1TYklEVG9PT0FRSjZ3WUR6RTdubzZkNTJvcURaQzRZVnlwbjhESTdMMkVfUHN2R01Eb1RRQmd5TFcyeG1US1I2bWJkM1pRbW5fdzZIV0o2Y0VYYVlISWFQTUFDbHhqUkZ2aHZwRHVIZnI2a2pfYlhJbXhuUlB4UDJjeklvc2swa0dYVmhhUVpSNm0yOGppaXNZUGNaaXFIdlJYMkg2?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 10:00:52 GMT",
+        "source": "Stampa Reggiana"
+      },
+      {
         "title": "Il DT delle Nazionali Giovanili Femminili Marco Mencarelli in visita all’Opiquad Arena - Vero Volley",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZycGJyX3N1eTZMZ3lZeXJTSTVKdExrRTNRcWYwUnZnWGtBTldVNzJCc0ljVHRwMDMteGhpcEtGYk1oSHpsdFE0cnUzQ2ROb2R0VVJPT0Q2aHVmNVppMFpwaktMUVZuSEJGYUtnQWVzNTlSLTRUZUo5Rkp4RklqcTIzb2RrSDI0NFQzU1NRbjc5X2kzVGxjWEc0TXo1a3FYX0FxbG1YX2xXVVQtWUJHX21nYw?oc=5",
         "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT",
@@ -25,12 +31,6 @@
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQekRFVEZIcHAzR2ljVFdWbUNoZlM0QVNXS2E1bmt6c1RWYm1rcHBRcHBjQXFNU3dVMlQ3VWh1NUlOUF84TzRlVU5UX0ttRTN4TmtsZFROSnVBbi1VX05xeFBub3p1MDVMQnRjUHdPUlhOdnFReWhmMmRCb1V6YlFqVlhNU0xoT01LN3M1aE85WEQ5bWt4eWEzMlBLMFRvanZlc2R2YTQ3Rkh2dw?oc=5",
         "pubDate": "Tue, 12 May 2026 07:00:00 GMT",
         "source": "FIPAV Lazio"
-      },
-      {
-        "title": "Da Mondovì alla Nazionale: il sogno della giovane promessa diventa realtà - Unione Monregalese",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOGRma05JM0g4V1ZhQXQ3TG9qR08ybGlIbzNHWDRYOW5GTFZMTGtNZWFFRWdGMm95SFZFRkpicmdrOWtZc2x2aEFpUFRRUXRtYzVXS0MyVHlpUXRrZXpQb0o5UDRianlRWGdqMkFlYmVJNkR6TlZLbnRoUVVfb0pnbEI2dlQ3Vm9wa2xaU3k3SDJfUlV2ckdEYzFXbGVOT3BaUmFKcFk0S3g5QzIzdVNvN3JfMVVHWkVQVDVlRGIzR0p4aHlURTVV?oc=5",
-        "pubDate": "Thu, 16 Jul 2026 13:38:00 GMT",
-        "source": "Unione Monregalese"
       }
     ],
     "2": [
@@ -165,7 +165,7 @@
       {
         "title": "Pallavolo Mercato – Mauro Chiappafreddo confermato alla Passione Valdarno: sarà il timoniere della prima storica A3 - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSmtlSFVLNFJ3V1h6dTJjVTNXRlo0ZS13dDZFZzVaYWZIYlRmUkFGYUl6bHFGeGFiSGJWcU5hX2xYbjZ2RnFhdkpHNU01a0lLN3kwTWxVVkZ5TUNZd0l4ZHFYTHoybFVMX1VHeHlMNG5VTmJ1OUQyZW9FTGZ2MHRYaHpYQXBQcFIwbm9lRk03VEdXR2tUQW1YTEZNVVZTMzI3cEd3Q1JoSTNyWGcwR2p2cTI1NE4wQkRyenNhRHlKNmpZQUxDQlFLSXExazRzNWdYREFDU0k0bko5ZmYzbTMzS1M0WmNfeGJVeVHSAfIBQVVfeXFMUDV0RzdvcTV6NnpiT0pjUVJBQXl5ODUwbEtFV3ZZM2VRZzdtaG1UMzA5ZXNLRWRRUUJzTENkMFg3TW5UOFN2RlZvdWR4R21pVjc3dlJ6YmlEdmg0Nm9EdWxJd0wzMVhRSVFNMnNoOElEQU9wVEVDcV9sazVVX3J0ei1WbzdodjZyUGVFWnZ2NFBxR2NIcXRoYlBUaVJoNlBmU0xrRThMeGFpem5rR2owcFRNQkJYdkpsa2pnN3EyWGs1ZUxLb3A0ZTlnLXNvNkRnWkhDTUVGZDRXU3FHQk1UUUp6eUQzY1FKN0U0SThDRl85SEE?oc=5",
-        "pubDate": "Mon, 13 Jul 2026 06:45:44 GMT",
+        "pubDate": "Mon, 13 Jul 2026 21:29:12 GMT",
         "source": "iVolley Magazine"
       },
       {
