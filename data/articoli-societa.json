@@ -11,6 +11,18 @@
       "mese": "Luglio",
       "foto": null,
       "logo": null
-    }
+    },
+    {
+      "id": "2",
+      "societa": "San Gemini S. Giovanni Bosco",
+      "autore": "Luca-Angelelli",
+      "categoria": "Comunicato",
+      "titolo": "Primo passo importante della nuova stagione.",
+      "testo": "Si rafforza lo staff tecnico. Dopo una grande carriera da giocatore e altrattanta carriera importante da allenatore Luigi Allegrini entra in società nel ruolo di Direttore Tecnico.Luigi avrà il difficile compito di monitorare e gestire il settore giovanile, individuando le ragazze che hanno le migliori potenzialità di crescita.Un ruolo che solo un uomo nato e crescituo nella pallavolo può ricoprire.Benvenuto e buon lavoro.",
+      "data": "19 luglio 2026",
+      "mese": "Luglio",
+      "foto": "/articoli/allegrini.jpg"
+      "logo": null
+     }
   ]
 }
