@@ -163,9 +163,9 @@ def normalize_news(xml_bytes, limit):
     if xml_bytes is None:
         return []
     try:
-    root = ET.fromstring(xml_bytes)
-except ET.ParseError:
-    return []
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return []
     items = root.findall("./channel/item")[:limit]
 
     posts = []
