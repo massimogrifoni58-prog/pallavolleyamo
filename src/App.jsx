@@ -117,7 +117,7 @@ function PostCard({ post, subscribed }) {
               className="card__action-btn card__action-btn--copy"
               onClick={e => { e.stopPropagation(); e.preventDefault(); navigator.clipboard.writeText(post.permalink); }}
             >
-              📋 Copia link
+               Copia link
             </button>
           </div>
         )}
@@ -173,7 +173,7 @@ function Ticker({ posts }) {
         rel="noreferrer"
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.4s ease" }}
       >
-        📰 {post.title || post.excerpt}
+         {post.title || post.excerpt}
       </a>
     </div>
   );
@@ -392,7 +392,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/galleria", label: "Galleria Foto" },
             { href: "#/foto-settimana", label: "Foto del Giorno" },
-            { href: "#/video", label: "🎬 Video" },
+            { href: "#/video", label: " Video" },
           ]}
         />
         <NavDropdown
