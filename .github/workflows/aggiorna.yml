@@ -26,14 +26,13 @@ jobs:
         run: |
           cd scraper
           python fetch_nazionale.py
-          python fetch_nazionali.py
           python fetch_regionali.py
           python fetch_feeds_locali.py
           python fetch_risultati.py
           python fetch_volley_feeds.py
           python fetch_coach_news.py
-          cd ../react-app
-          echo "export const BUILD_DATE = '$(date)';" > src/buildDate.js
+          cd ..
+          echo "export const BUILD_DATE = '$(date)';" > react-app/src/buildDate.js
 
       - name: Commit e push dati aggiornati
         run: |
