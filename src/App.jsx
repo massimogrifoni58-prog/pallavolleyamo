@@ -11,6 +11,7 @@ import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
 import { Analytics } from '@vercel/analytics/react';
+import videoData from "../data/video.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
