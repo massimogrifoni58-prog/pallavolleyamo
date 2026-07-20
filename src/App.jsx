@@ -4312,7 +4312,7 @@ function VisitCounter() {
   return (
     <p className="visit-counter">
       <img
-        src="https://hits.sh/pallavolleyamo.netlify.app.svg?style=flat-square&label=visite&color=d4af37&labelColor=0b0b0c"
+        src="https://hits.sh/pallavolleyamo.it.svg?style=flat-square&label=visite&color=d4af37&labelColor=0b0b0c"
         alt="Contatore visite"
         className="visit-counter__badge"
       />
