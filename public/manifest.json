@@ -1,0 +1,22 @@
+{
+  "name": "PallaVolleyAmo",
+  "short_name": "PVA",
+  "description": "Il portale del volley umbro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "/logo-pva-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-pva.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
