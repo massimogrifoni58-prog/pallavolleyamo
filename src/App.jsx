@@ -709,7 +709,7 @@ function SectionPage({ slug, subscribed }) {
       excerpt: a.testo?.slice(0, 150) + "...",
       createdTime: a.data,
       image: a.foto || null,
-      permalink: `#/articoli-societa`,
+      permalink: `https://pallavolleyamo.it/#/articoli-societa`,
       source: a.societa,
     }));
 
