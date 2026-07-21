@@ -738,34 +738,6 @@ function SectionPage({ slug, subscribed }) {
   );
 }
 
-  const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
-    (a, b) => parseDate(b) - parseDate(a)
-  );
-
-  const featuredIndex = allPosts.findIndex((p) => p.image);
-  const featured = allPosts[featuredIndex !== -1 ? featuredIndex : 0];
-  const rest = allPosts.filter((_, i) => i !== (featuredIndex !== -1 ? featuredIndex : 0));
-  const posts = rest.slice(0, MAX_NEWS_PER_SECTION - 1);
-
-  return (
-    <main>
-      <section className="section">
-        <h2 className="feed-heading">{section.title}</h2>
-
-      {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
-        <div className="grid">
-          {posts.map((post) => (
-            <PostCard 
-              key={post.id} 
-              post={post} 
-              subscribed={subscribed}
-            />
-          ))}
-        </div>
-      </section>
-    </main>
-  );
-
 function giornataNumber(giornata) {
   const match = (giornata || "").match(/\d+/);
   return match ? parseInt(match[0], 10) : 9999;
