@@ -158,16 +158,24 @@ function PostCard({ post, subscribed, onClick }) {
     );
   }
 
+  if (onClick) {
+    return <div className="card" style={{cursor:"pointer"}} onClick={() => { console.log("click articolo"); onClick(); }}>{content}</div>;
+  }
+
+  if (subscribed && post.permalink) {
+    return (
+      <a className="card" href={post.permalink} target="_blank" rel="noreferrer">
+        {content}
+      </a>
+    );
+  }
+
   if (!subscribed && !onClick) {
     return (
       <a className="card card--locked" href="#/iscrizione">
         {content}
       </a>
     );
-  }
-
-  if (onClick) {
-    return <div className="card" style={{cursor:"pointer"}} onClick={() => { console.log("click articolo"); onClick(); }}>{content}</div>;
   }
 
   return post.permalink ? (
