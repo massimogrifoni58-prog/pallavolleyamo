@@ -762,7 +762,13 @@ function SectionPage({ slug, subscribed }) {
       <section className="section">
         <h2 className="feed-heading">{section.title}</h2>
         {!featured && <p className="state">Nessuna notizia disponibile al momento.</p>}
-        {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
+        {featured && (
+  <FeaturedPost 
+    post={featured} 
+    subscribed={subscribed}
+    onOpen={featured._isArticolo ? () => { console.log("featured:", featured); setModalArticolo(featured._articolo); } : undefined}
+  />
+)}
        <div className="grid">
           {posts.map((post) => (
             post._isArticolo 
