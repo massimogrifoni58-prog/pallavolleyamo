@@ -53,7 +53,7 @@ function parseDate(post) {
   }
   return 0;
 }
-
+const SUBSCRIBE_KEY = "pva_iscritto";
 function useSubscribed() {
   const [subscribed, setSubscribed] = useState(
     () => localStorage.getItem(SUBSCRIBE_KEY) === "1"
