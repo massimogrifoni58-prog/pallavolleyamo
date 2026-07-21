@@ -107,7 +107,7 @@ function truncate(text, max) {
   return text.length > max ? text.slice(0, max).trim() + "…" : text;
 }
 
-function PostCard({ post, subscribed }) {
+function PostCard({ post, subscribed, onClick }) {
   const excerpt = subscribed ? post.excerpt : truncate(post.excerpt, 70);
 
   const content = (
@@ -166,7 +166,15 @@ function PostCard({ post, subscribed }) {
     );
   }
 
-  return <div className="card">{content}</div>;
+  if (onClick) {
+    return <div className="card" style={{cursor:"pointer"}} onClick={onClick}>{content}</div>;
+  }
+
+  return post.permalink ? (
+    <a className="card" href={post.permalink} target="_blank" rel="noreferrer">{content}</a>
+  ) : (
+    <div className="card">{content}</div>
+  );
 }
 
 function Ticker({ posts }) {
@@ -684,6 +692,8 @@ function FeaturedPost({ post, subscribed }) {
 
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
+  const [modalArticolo, setModalArticolo] = useState(null);
+
   const articoliProv = (articoliSocietaData.articoli || [])
     .filter(a => a.provincia === slug)
     .map(a => ({
@@ -691,15 +701,15 @@ function SectionPage({ slug, subscribed }) {
       excerpt: a.testo?.slice(0, 150) + "...",
       createdTime: a.data,
       image: a.foto || null,
-      permalink: `#/articoli-societa`,
+      permalink: null,
       source: a.societa,
+      _articoloCompleto: a,
     }));
+
   const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
     (a, b) => parseDate(b) - parseDate(a)
   );
 
-  // La notizia in evidenza e' la piu' recente CON immagine, se c'e';
-  // altrimenti semplicemente la prima della lista.
   const featuredIndex = allPosts.findIndex((p) => p.image);
   const featured = allPosts[featuredIndex !== -1 ? featuredIndex : 0];
   const rest = allPosts.filter((_, i) => i !== (featuredIndex !== -1 ? featuredIndex : 0));
@@ -710,21 +720,28 @@ function SectionPage({ slug, subscribed }) {
       <section className="section">
         <h2 className="feed-heading">{section.title}</h2>
 
-        {!featured && (
-          <p className="state">Nessuna notizia disponibile al momento.</p>
+       {featured && (
+          <FeaturedPost 
+            post={featured} 
+            subscribed={subscribed} 
+            onClick={featured._articoloCompleto ? () => setModalArticolo(featured._articoloCompleto) : undefined}
+          />
         )}
-
-        {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
 
         <div className="grid">
           {posts.map((post) => (
-            <PostCard key={post.id} post={post} subscribed={subscribed} />
+            <PostCard 
+              key={post.id} 
+              post={post} 
+              subscribed={subscribed}
+              onClick={post._articoloCompleto ? () => setModalArticolo(post._articoloCompleto) : undefined}
+            />
           ))}
         </div>
       </section>
     </main>
   );
-}
+} 
 
 function giornataNumber(giornata) {
   const match = (giornata || "").match(/\d+/);
