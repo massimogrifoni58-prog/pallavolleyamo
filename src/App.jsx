@@ -659,7 +659,17 @@ function FeaturedPost({ post, subscribed }) {
 
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
-  const allPosts = [...(section.data.posts || [])].sort(
+  const articoliProv = (articoliSocietaData.articoli || [])
+    .filter(a => a.provincia === slug)
+    .map(a => ({
+      title: a.titolo,
+      excerpt: a.testo?.slice(0, 150) + "...",
+      createdTime: a.data,
+      image: a.foto || null,
+      permalink: `#/articoli-societa`,
+      source: a.societa,
+    }));
+  const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
     (a, b) => parseDate(b) - parseDate(a)
   );
 
