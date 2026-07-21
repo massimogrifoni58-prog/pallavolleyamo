@@ -654,7 +654,7 @@ function HomePage() {
   );
 }
 
-function FeaturedPost({ post, subscribed }) {
+function FeaturedPost({ post, subscribed, onOpen }) {
   const excerpt = subscribed ? post.excerpt : truncate(post.excerpt, 110);
 
   const content = (
@@ -678,6 +678,14 @@ function FeaturedPost({ post, subscribed }) {
       </div>
     </>
   );
+
+  if (onOpen) {
+    return (
+      <div className="featured" style={{cursor:"pointer"}} onClick={onOpen}>
+        {content}
+      </div>
+    );
+  }
 
   if (subscribed && post.permalink) {
     return (

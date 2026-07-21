@@ -4373,7 +4373,7 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .video-card__canale { font-size: 0.75rem; color: var(--gold); }
 /* === MODAL ARTICOLO === */
 .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 1rem; }
-.modal-box { background: var(--card-bg); border-radius: 12px; padding: 2rem; max-width: 700px; width: 100%; max-height: 85vh; overflow-y: auto; position: relative; }
+.modal-box { background: var(--bg) !important; border: 1px solid var(--border); } 
 .modal-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text); }
 .modal-foto { width: 100%; border-radius: 8px; margin-bottom: 1rem; }
 .modal-titolo { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
