@@ -697,10 +697,24 @@ function FeaturedPost({ post, subscribed }) {
 
   return <div className="featured">{content}</div>;
 }
-
+function ArticoloCard({ articolo, onOpen }) {
+  return (
+    <div className="card" style={{cursor:"pointer"}} onClick={() => onOpen(articolo)}>
+      {articolo.foto && (
+        <img className="card__image" src={articolo.foto} alt={articolo.titolo} loading="lazy" />
+      )}
+      <div className="card__body">
+        <span className="card__date">{articolo.data}</span>
+        <p className="card__title">{articolo.titolo}</p>
+        <p className="card__message">{articolo.testo?.slice(0, 150)}...</p>
+        <span className="card__link">Leggi tutto →</span>
+      </div>
+    </div>
+  );
+}
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
-
+  const [modalArticolo, setModalArticolo] = useState(null);
   const articoliProv = (articoliSocietaData.articoli || [])
     .filter(a => a.provincia === slug)
     .map(a => ({
@@ -709,8 +723,10 @@ function SectionPage({ slug, subscribed }) {
       excerpt: a.testo?.slice(0, 150) + "...",
       createdTime: a.data,
       image: a.foto || null,
-      permalink: `https://pallavolleyamo.it/#/articoli-societa`,
+      permalink: null,
       source: a.societa,
+      _isArticolo: true,
+      _articolo: a,
     }));
 
   const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
@@ -724,13 +740,26 @@ function SectionPage({ slug, subscribed }) {
 
   return (
     <main>
+      {modalArticolo && (
+        <div className="modal-overlay" onClick={() => setModalArticolo(null)}>
+          <div className="modal-box" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setModalArticolo(null)}>✕</button>
+            {modalArticolo.foto && <img src={modalArticolo.foto} alt={modalArticolo.titolo} className="modal-foto" />}
+            <h2 className="modal-titolo">{modalArticolo.titolo}</h2>
+            <p className="modal-societa">{modalArticolo.societa} — {modalArticolo.data}</p>
+            <p className="modal-testo">{modalArticolo.testo}</p>
+          </div>
+        </div>
+      )}
       <section className="section">
         <h2 className="feed-heading">{section.title}</h2>
         {!featured && <p className="state">Nessuna notizia disponibile al momento.</p>}
         {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
-        <div className="grid">
+       <div className="grid">
           {posts.map((post) => (
-            <PostCard key={post.id} post={post} subscribed={subscribed} />
+            post._isArticolo 
+              ? <ArticoloCard key={post.id} articolo={post._articolo} onOpen={setModalArticolo} />
+              : <PostCard key={post.id} post={post} subscribed={subscribed} />
           ))}
         </div>
       </section>
