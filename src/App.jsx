@@ -773,7 +773,6 @@ function SectionPage({ slug, subscribed }) {
       </section>
     </main>
   );
-} 
 
 function giornataNumber(giornata) {
   const match = (giornata || "").match(/\d+/);
