@@ -700,7 +700,6 @@ function FeaturedPost({ post, subscribed }) {
 
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
-  const [modalArticolo, setModalArticolo] = useState(null);
 
   const articoliProv = (articoliSocietaData.articoli || [])
     .filter(a => a.provincia === slug)
@@ -710,10 +709,34 @@ function SectionPage({ slug, subscribed }) {
       excerpt: a.testo?.slice(0, 150) + "...",
       createdTime: a.data,
       image: a.foto || null,
-      permalink: null,
+      permalink: `#/articoli-societa`,
       source: a.societa,
-      _articoloCompleto: a,
     }));
+
+  const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
+    (a, b) => parseDate(b) - parseDate(a)
+  );
+
+  const featuredIndex = allPosts.findIndex((p) => p.image);
+  const featured = allPosts[featuredIndex !== -1 ? featuredIndex : 0];
+  const rest = allPosts.filter((_, i) => i !== (featuredIndex !== -1 ? featuredIndex : 0));
+  const posts = rest.slice(0, MAX_NEWS_PER_SECTION - 1);
+
+  return (
+    <main>
+      <section className="section">
+        <h2 className="feed-heading">{section.title}</h2>
+        {!featured && <p className="state">Nessuna notizia disponibile al momento.</p>}
+        {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
+        <div className="grid">
+          {posts.map((post) => (
+            <PostCard key={post.id} post={post} subscribed={subscribed} />
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
 
   const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
     (a, b) => parseDate(b) - parseDate(a)
