@@ -697,6 +697,7 @@ function SectionPage({ slug, subscribed }) {
   const articoliProv = (articoliSocietaData.articoli || [])
     .filter(a => a.provincia === slug)
     .map(a => ({
+      id: `articolo-${a.id}`,
       title: a.titolo,
       excerpt: a.testo?.slice(0, 150) + "...",
       createdTime: a.data,
