@@ -4374,6 +4374,9 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 /* === MODAL ARTICOLO === */
 .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 1rem; }
 .modal-box { background: var(--bg) !important; border: 1px solid var(--border); } 
+.modal-titolo { color: var(--text); }
+.modal-societa { color: var(--gold); }
+.modal-testo { color: var(--text); }
 .modal-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text); }
 .modal-foto { width: 100%; border-radius: 8px; margin-bottom: 1rem; }
 .modal-titolo { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
