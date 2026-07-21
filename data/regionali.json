@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T14:38:05.228389+00:00",
+  "generatedAt": "2026-07-21T05:42:55.331893+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -82,15 +82,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-6",
-      "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/13/9125028_13213449_foto_3_2_.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/perugia_mani_fuori_belle_dentro_pallavolo_vincere_detenute_capanne-9125028.html"
-    },
-    {
-      "id": "news-2",
+      "id": "news-4",
       "title": "Pallavolo Champions M – Perugia, Goran Vujevic commenta il sorteggio dei gironi: “Ci è andata bene, ma poteva andare meglio”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 14 Jul 2026 17:00:00 GMT",
@@ -98,7 +90,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/07/15/pallavolo-champions-m-perugia-goran-vujevic-commenta-il-sorteggio-dei-gironi-ci-e-andata-bene-ma-poteva-andare-meglio/"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
@@ -146,22 +138,6 @@
       "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
     },
     {
-      "id": "news-7",
-      "title": "Volley, Europei U18: quattro punti di Gallinella nella vittoria dell’Italia sulla Finlandia",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Thu, 09 Jul 2026 00:01:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/07/I8A2623_0.jpg",
-      "permalink": "https://www.umbria24.it/perugia/volley-europei-u18-quattro-punti-di-gallinella-nella-vittoria-dellitalia-sulla-finlandia/"
-    },
-    {
-      "id": "news-7",
-      "title": "Volley: L'Umbria ospiterà le 39esime Arbitriadi",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 07 Jun 2018 12:28:00 GMT",
-      "image": null,
-      "permalink": "https://www.tuttosport.com/news/pallavolo/2018/06/07-43894532/volley_l_umbria_ospitera_le_39esime_arbitriadi"
-    },
-    {
       "id": "news-2",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -184,6 +160,14 @@
       "createdTime": "Sun, 19 Jul 2026 23:12:08 GMT",
       "image": null,
       "permalink": "https://www.msn.com/it-it/sport/pallavolo/san-giustino-arriva-la-promessa-giovagnoli/ar-AA28hbgu"
+    },
+    {
+      "id": "news-1",
+      "title": "Pallavolo Mercato – Anastasia Guerra verso l’Osasco: il rumor agita il volley brasiliano",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sun, 19 Jul 2026 16:59:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/20/pallavolo-mercato-anastasia-guerra-verso-losasco-il-rumor-agita-il-volley-brasiliano/"
     },
     {
       "id": "filippogiovagnolisonoprontoper",
@@ -218,7 +202,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-4",
+      "id": "news-6",
       "title": "Pallavolo: Zawiercie ko, Perugia vince la Champions League",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 18 May 2025 14:11:00 GMT",
@@ -242,12 +226,20 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
       "image": "https://www.ansa.it/webimages/img_1129x635/2026/3/1/efbbdc1b9a471aab0d8f9d1ca1fd7eb3.jpg",
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
+    },
+    {
+      "id": "news-7",
+      "title": "Beach volley, va in archivio una storica edizione della Sustenia Cup",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Sat, 30 May 2026 09:39:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/05/20260530_145026-scaled.jpg",
+      "permalink": "https://www.umbria24.it/sport24/beach-volley-va-in-archivio-una-storica-edizione-della-sustenia-cup/"
     },
     {
       "id": "news-4",
@@ -290,7 +282,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/davide-candellaro-perugia-e-pronta-a-ripartire/"
     },
     {
-      "id": "news-3",
+      "id": "news-7",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -304,6 +296,22 @@
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
       "image": "https://www.assisisport.it/wp-content/uploads/2020/03/FC516808-1FD9-4341-84B3-A774B17F2EB7.jpeg",
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
+    },
+    {
+      "id": "rachelemancinellivincelatappad",
+      "title": "Rachele Mancinelli vince la tappa di San Cataldo",
+      "excerpt": "Si è conclusa domenica sul litorale pugliese, la quinta tappa stagionale del campionato italiano assoluto di beach volley 2026. Prosegue dunque il circuito nazionale promosso Fipav, che anche quest&#8",
+      "createdTime": "Mon, 20 Jul 2026 15:00:48 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pelloia-Mancinelli.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/rachele-mancinelli-vince-la-tappa-di-san-cataldo/"
+    },
+    {
+      "id": "perugiariparteperunastagioneri",
+      "title": "Perugia riparte per una stagione ricca di impegni",
+      "excerpt": "Scatterà mercoledì 12 agosto la nuova stagione della Sir Susa Scai Perugia che comincerà la preparazione precampionato a ranghi ridotti. Sarà inaugurata una fase di lavoro che accompagnerà la squadra ",
+      "createdTime": "Mon, 20 Jul 2026 13:00:17 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Perugia-area-atleti.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/perugia-riparte-per-una-stagione-ricca-di-impegni/"
     },
     {
       "id": "contoallarovesciapartitoperilm",
@@ -322,7 +330,7 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
-      "id": "news-2",
+      "id": "news-5",
       "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive",
       "excerpt": "Fonte: assisinews.it",
       "createdTime": "Mon, 13 Jul 2026 05:00:00 GMT",
@@ -370,28 +378,20 @@
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
+      "title": "Cuneo Volley: svelato il calendario 26/27 della SuperLega",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Fri, 17 Jul 2026 08:54:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/07/17/135423062-edc8090b-55c3-4a6b-b0d5-dabb9181c14e.jpg",
+      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/07/17-149953160/cuneo_volley_svelato_il_calendario_26_27_della_superlega"
+    },
+    {
+      "id": "news-2",
       "title": "Volley, calendario Serie A3: Altotevere esordisce in casa contro Acqui Terme",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Fri, 17 Jul 2026 08:48:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/07/durigon-e-righi-scaled.jpeg",
       "permalink": "https://www.umbria24.it/citta-di-castello/volley-calendario-serie-a3-altotevere-esordisce-in-casa-contro-acqui-terme/"
-    },
-    {
-      "id": "angelolorenzettiperugiaricomin",
-      "title": "Angelo Lorenzetti: «Perugia ricomincia dalle cose apprese»",
-      "excerpt": "In occasione della tre giorni di volley mercato organizzata dalla Lega Pallavolo di serie A maschile si è colta l’occasione per assegnare i riconoscimenti della passata stagione sportiva. Il premio di",
-      "createdTime": "Fri, 17 Jul 2026 07:00:06 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Lorenzetti-Angelo-coppa.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/angelo-lorenzetti-perugia-ricomincia-dalle-cose-apprese/"
-    },
-    {
-      "id": "esordiodicampionatononmalepers",
-      "title": "Esordio di campionato non male per San Giustino e Terni",
-      "excerpt": "L&#8217;attesa è terminata anche per le protagoniste della pallavolo di serie A3 maschile. Con la pubblicazione dei calendari prende ufficialmente forma la nuova stagione, un momento sempre molto atte",
-      "createdTime": "Fri, 17 Jul 2026 05:00:51 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/S.Giustino-Terni-loghi.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/esordio-di-campionato-non-male-per-san-giustino-e-terni/"
     },
     {
       "id": "news-5",

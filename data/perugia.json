@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-07-20T14:38:11.625726+00:00",
+  "generatedAt": "2026-07-21T05:43:00.277016+00:00",
   "posts": [
+    {
+      "title": "Rachele Mancinelli vince la tappa di San Cataldo",
+      "excerpt": "Si è conclusa domenica sul litorale pugliese, la quinta tappa stagionale del campionato italiano assoluto di beach volley 2026. Prosegue dunque il circuito nazionale promosso Fipav, che anche quest&#8",
+      "createdTime": "Mon, 20 Jul 2026 15:00:48 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pelloia-Mancinelli.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/rachele-mancinelli-vince-la-tappa-di-san-cataldo/",
+      "id": "1"
+    },
     {
       "title": "Conto alla rovescia partito per il Memorial Giri-Fiscella",
       "excerpt": "Conto alla rovescia per In campo per Claudio e Franco – Memorial Giri-Fiscella, il torneo che da anni rappresenta l&#8217;ultimo grande appuntamento estivo del sand volley in Umbria. L&#8217;edizione ",
       "createdTime": "Mon, 20 Jul 2026 05:00:38 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Memorial-Giri-Fiscella-attacco.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/conto-alla-rovescia-partito-per-il-memorial-giri-fiscella/",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "Susegana ha convinto Ginevra Pizzicaroli",
@@ -15,7 +23,7 @@
       "createdTime": "Sun, 19 Jul 2026 07:00:04 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pizzicaroli-Ginevra.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/susegana-ha-convinto-ginevra-pizzicaroli/",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Ravenna ha chiamato Massimiliano Urbani",
@@ -23,7 +31,7 @@
       "createdTime": "Sun, 19 Jul 2026 05:00:15 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Urbani-Massimiliano-Ravenna.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/ravenna-ha-chiamato-massimiliano-urbani/",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Città di Castello prosegue con Rinaldo Conti",
@@ -31,7 +39,7 @@
       "createdTime": "Sat, 18 Jul 2026 15:00:43 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Conti-Rinaldo.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/citta-di-castello-prosegue-con-rinaldo-conti/",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "Valdemaro Gustinelli: «Avvio ostico per San Giustino»",
@@ -39,23 +47,7 @@
       "createdTime": "Fri, 17 Jul 2026 11:00:39 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Gustinelli-Valdemaro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/valdemaro-gustinelli-avvio-ostico-per-san-giustino/",
-      "id": "5"
-    },
-    {
-      "title": "Angelo Lorenzetti: «Perugia ricomincia dalle cose apprese»",
-      "excerpt": "In occasione della tre giorni di volley mercato organizzata dalla Lega Pallavolo di serie A maschile si è colta l’occasione per assegnare i riconoscimenti della passata stagione sportiva. Il premio di",
-      "createdTime": "Fri, 17 Jul 2026 07:00:06 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Lorenzetti-Angelo-coppa.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/angelo-lorenzetti-perugia-ricomincia-dalle-cose-apprese/",
       "id": "6"
-    },
-    {
-      "title": "Esordio di campionato non male per San Giustino e Terni",
-      "excerpt": "L&#8217;attesa è terminata anche per le protagoniste della pallavolo di serie A3 maschile. Con la pubblicazione dei calendari prende ufficialmente forma la nuova stagione, un momento sempre molto atte",
-      "createdTime": "Fri, 17 Jul 2026 05:00:51 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/S.Giustino-Terni-loghi.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/esordio-di-campionato-non-male-per-san-giustino-e-terni/",
-      "id": "7"
     }
   ]
 }
