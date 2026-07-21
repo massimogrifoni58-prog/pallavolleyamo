@@ -158,7 +158,7 @@ function PostCard({ post, subscribed, onClick }) {
     );
   }
 
-  if (!subscribed) {
+  if (!subscribed && !onClick) {
     return (
       <a className="card card--locked" href="#/iscrizione">
         {content}
