@@ -752,21 +752,13 @@ function SectionPage({ slug, subscribed }) {
       <section className="section">
         <h2 className="feed-heading">{section.title}</h2>
 
-       {featured && (
-          <FeaturedPost 
-            post={featured} 
-            subscribed={subscribed} 
-            onClick={featured._articoloCompleto ? () => setModalArticolo(featured._articoloCompleto) : undefined}
-          />
-        )}
-
+      {featured && <FeaturedPost post={featured} subscribed={subscribed} />}
         <div className="grid">
           {posts.map((post) => (
             <PostCard 
               key={post.id} 
               post={post} 
               subscribed={subscribed}
-              onClick={post._articoloCompleto ? () => setModalArticolo(post._articoloCompleto) : undefined}
             />
           ))}
         </div>
