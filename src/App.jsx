@@ -25,11 +25,21 @@ const SECTIONS = {
 function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
-  return d.toLocaleDateString("it-IT", {
+  if (!isNaN(d.getTime())) return d.toLocaleDateString("it-IT", {
     day: "numeric",
     month: "long",
     year: "numeric",
   });
+  // Prova formato italiano "19 luglio 2026"
+  const match = iso.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/);
+  if (match) {
+    const mese = MESI_IT[match[2].toLowerCase()];
+    if (mese !== undefined) {
+      const d2 = new Date(parseInt(match[3]), mese, parseInt(match[1]));
+      return d2.toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" });
+    }
+  }
+  return iso;
 }
 
 const MESI_IT = {
