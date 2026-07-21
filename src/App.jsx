@@ -32,12 +32,27 @@ function formatDate(iso) {
   });
 }
 
-function parseDate(post) {
-  const d = new Date(post.createdTime);
-  return isNaN(d.getTime()) ? 0 : d.getTime();
-}
+const MESI_IT = {
+  "gennaio": 0, "febbraio": 1, "marzo": 2, "aprile": 3,
+  "maggio": 4, "giugno": 5, "luglio": 6, "agosto": 7,
+  "settembre": 8, "ottobre": 9, "novembre": 10, "dicembre": 11
+};
 
-const SUBSCRIBE_KEY = "pva_iscritto";
+function parseDate(post) {
+  const str = post.createdTime || "";
+  // Prova formato standard
+  const d = new Date(str);
+  if (!isNaN(d.getTime())) return d.getTime();
+  // Prova formato italiano "19 luglio 2026"
+  const match = str.match(/(\d{1,2})\s+(\w+)\s+(\d{4})/);
+  if (match) {
+    const giorno = parseInt(match[1]);
+    const mese = MESI_IT[match[2].toLowerCase()];
+    const anno = parseInt(match[3]);
+    if (mese !== undefined) return new Date(anno, mese, giorno).getTime();
+  }
+  return 0;
+}
 
 function useSubscribed() {
   const [subscribed, setSubscribed] = useState(
