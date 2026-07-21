@@ -167,7 +167,7 @@ function PostCard({ post, subscribed, onClick }) {
   }
 
   if (onClick) {
-    return <div className="card" style={{cursor:"pointer"}} onClick={onClick}>{content}</div>;
+    return <div className="card" style={{cursor:"pointer"}} onClick={() => { console.log("click articolo"); onClick(); }}>{content}</div>;
   }
 
   return post.permalink ? (
