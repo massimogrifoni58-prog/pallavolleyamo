@@ -766,7 +766,7 @@ function SectionPage({ slug, subscribed }) {
   <FeaturedPost 
     post={featured} 
     subscribed={subscribed}
-    onOpen={featured._isArticolo ? () => { console.log("featured:", featured); setModalArticolo(featured._articolo); } : undefined}
+    onOpen={featured._isArticolo ? () => setModalArticolo(featured._articolo) : undefined}
   />
 )}
        <div className="grid">
