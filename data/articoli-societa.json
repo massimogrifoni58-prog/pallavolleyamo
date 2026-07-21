@@ -51,6 +51,19 @@
       "provincia": "perugia",
       "foto": "/articoli/fiorucci.jpg",
       "logo": null
+    },
+    {
+      "id": "5",
+      "societa": "Orvieto Volley Academy",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "Val di sole Summer Camp",
+      "testo": "Finalmente ci siamo!!! Con il patrocinio dell' Orvieto Volley Academy, domani 28 Giugno prende il via il Val di sole Summer Camp! Nello splendido scenario del lago di Bolsena le nostre atlete saranno protagoniste di una settimana di pallavolo altamente specializzata progettata e strutturata per affinare competenze tecniche specifiche,stimolare l' indipendenza e creare nuove amicizie. Un Camp sportivo con Coach altamente qualificati come il Coach Mauro Chiappafreddo, allenatore di pallavolo di fama nazionale e internazionale con una lunga carriera che vanta una esperienza al vertice di club di primissimo piano nel volley femminile , solo per citarne alcuni: Tecnoteam Albese volley Como serie A2, Savino del Bene Scandicci Serie A1, Liu Jo Modena Serie A1 ed un Palmares che vanta una Champions League e una Supercoppa italiana. Oltre tutto ciò ,oltre il palazzetto, l' esperienza si completerà con attività di relax, bagni in piscina e molto altro divertimento, il perfetto equilibrio per rigenerarsi senza perdere il focus sulla crescita sportiva e rendere il Summer Camp Indimenticabile!!! Grazie a tutti!!!!  See you soon ",
+      "data": "27 giugno 2026",
+      "mese": "Giugno",
+      "provincia": "terni",
+      "foto": "/articoli/chiappafreddo.jpg",
+      "logo": null
     }
   ]
 }
