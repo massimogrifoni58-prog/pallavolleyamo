@@ -130,7 +130,7 @@
       "altezza": "185 cm",
       "nascita": "25 luglio 1997",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/Guimaraes.jpg"],
       "palmares": "Oro VNL 2021/2023, Argento Olimpiadi Parigi 2024",
       "bio": "Opposta brasiliana di altissimo livello. Gioca in Italia con Imoco Conegliano ed è tra le migliori attaccanti al mondo."
     },
@@ -370,7 +370,7 @@
       "altezza": "191 cm",
       "nascita": "26 ottobre 1990",
       "club": "Allianz MTV Stuttgart",
-      "foto":"/atleti/sloetjes.jpg",
+      "foto": ["/atleti/Sloetjes.jpg"],
       "palmares": "Oro Europei 2015, MVP Europei, Champions League",
       "bio": "Una delle grandi protagoniste del volley europeo dell'ultimo decennio. Potente attaccante olandese con grande palmares internazionale."
     }
@@ -732,7 +732,7 @@
       "altezza": "206 cm",
       "nascita": "4 giugno 1994",
       "club": "Itas Trentino",
-      "foto":"/atleti/russell.jpg",
+      "foto": ["/atleti/russel.jpg"],
       "palmares": "Oro FIVB World League, Champions League",
       "bio": "Schiacciatrice americano di grande altezza e atletismo. Protagonista in Italia con Trentino e nella Nazionale USA."
     }
