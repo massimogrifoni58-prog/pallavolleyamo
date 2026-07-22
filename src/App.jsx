@@ -10,6 +10,7 @@ import articoliSocietaData from "../data/articoli-societa.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
+import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import videoData from "../data/video.json";
 const MAX_NEWS_PER_SECTION = 15;
