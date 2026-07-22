@@ -28,6 +28,7 @@ jobs:
           python fetch_nazionale.py
           python fetch_regionali.py
           python fetch_feeds_locali.py
+          python fetch_terni.py
           python fetch_risultati.py
           python fetch_volley_feeds.py
           python fetch_coach_news.py
@@ -39,6 +40,6 @@ jobs:
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
           git config --global user.name "PallaVolleyAmo Bot"
-          git add data/
+          git add data/ react-app/src/buildDate.js
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie"
           git push
