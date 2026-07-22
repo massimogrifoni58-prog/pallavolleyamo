@@ -13,6 +13,7 @@ import diretteData from "../data/dirette.json";
 import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import videoData from "../data/video.json";
+import atletiTopData from "../data/atleti-top.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -439,6 +440,13 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           ]}
         />
         <NavDropdown
+          label="Top"
+          items={[
+            { href: "#/atleta-settimana", label: "Atleta della Settimana" },
+            { href: "#/squadra-settimana", label: "Squadra della Settimana" },
+          ]}
+        />
+        <NavDropdown
           label="Campionati"
           items={[
             { href: "#/dirette", label: "🔴 Dirette Live" },
@@ -789,6 +797,46 @@ function GlossarioPage() {
           </div>
         ))}
         {filtrati.length === 0 && <p className="state">Nessun termine trovato.</p>}
+      </div>
+    </main>
+  );
+}
+function AtletaSettimanaPage() {
+  const oggi = new Date();
+  const settimana = Math.ceil((oggi - new Date(oggi.getFullYear(), 0, 1)) / 604800000);
+  
+  const femminili = atletiTopData.femminili || [];
+  const maschili = atletiTopData.maschili || [];
+  
+  const atletaF = femminili[settimana % femminili.length];
+  const atletaM = maschili[settimana % maschili.length];
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">⭐ Atleta della Settimana</h1>
+      <p className="page-subtitle">Settimana {settimana} — i migliori al mondo</p>
+      
+      <div className="atleta-grid">
+        {[atletaF, atletaM].map(atleta => atleta && (
+          <div key={atleta.id + atleta.nazionalita} className="atleta-card">
+            <div className="atleta-card__header">
+              <span className="atleta-card__ruolo">{atleta.ruolo}</span>
+              <span className="atleta-card__naz">{atleta.nazionalita}</span>
+            </div>
+            {atleta.foto && atleta.foto[0] && (
+              <img src={atleta.foto[0]} alt={atleta.nome} className="atleta-card__foto" />
+            )}
+            {(!atleta.foto || !atleta.foto[0]) && (
+              <div className="atleta-card__foto-placeholder">🏐</div>
+            )}
+            <h2 className="atleta-card__nome">{atleta.nome}</h2>
+            <p className="atleta-card__club">{atleta.club}</p>
+            <p className="atleta-card__bio">{atleta.bio}</p>
+            <div className="atleta-card__palmares">
+              <strong>🏆 Palmares:</strong> {atleta.palmares}
+            </div>
+          </div>
+        ))}
       </div>
     </main>
   );
@@ -4411,7 +4459,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4420,6 +4468,8 @@ export default function App() {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "atleta-settimana" && <AtletaSettimanaPage />}
+          {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "video" && <VideoPage />}
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}
