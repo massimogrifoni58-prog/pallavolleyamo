@@ -109,6 +109,7 @@ function truncate(text, max) {
 }
 
 function PostCard({ post, subscribed, onClick }) {
+  const [showPreview, setShowPreview] = useState(false);
   const excerpt = subscribed ? post.excerpt : truncate(post.excerpt, 70);
 
   const content = (
@@ -179,10 +180,29 @@ function PostCard({ post, subscribed, onClick }) {
     );
   }
 
-  return post.permalink ? (
-    <a className="card" href={post.permalink} target="_blank" rel="noreferrer">{content}</a>
-  ) : (
-    <div className="card">{content}</div>
+  return (
+    <>
+      {showPreview && (
+        <div className="modal-overlay" onClick={() => setShowPreview(false)}>
+          <div className="modal-box" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setShowPreview(false)}>✕</button>
+            {post.image && <img src={post.image} alt={post.title} className="modal-foto" />}
+            <h2 className="modal-titolo">{post.title}</h2>
+            <p className="modal-testo">{post.excerpt}</p>
+            {post.permalink && (
+              <a href={post.permalink} target="_blank" rel="noreferrer" className="modal-leggi-btn">
+                Leggi l'articolo completo →
+              </a>
+            )}
+          </div>
+        </div>
+      )}
+      {post.permalink ? (
+        <div className="card" style={{cursor:"pointer"}} onClick={() => setShowPreview(true)}>{content}</div>
+      ) : (
+        <div className="card">{content}</div>
+      )}
+    </>
   );
 }
 
@@ -737,12 +757,12 @@ function GlossarioPage() {
 
   return (
     <main className="page-content">
-      <h1 className="page-title">📖 Glossario della Pallavolo</h1>
+      <h1 className="page-title">Glossario della Pallavolo</h1>
       <div className="glossario-filtri">
         <input 
           className="glossario-search"
           type="text" 
-          placeholder="🔍 Cerca un termine..."
+          placeholder="Cerca un termine..."
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
