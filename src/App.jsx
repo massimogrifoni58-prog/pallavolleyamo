@@ -813,7 +813,7 @@ function AtletaSettimanaPage() {
 
   return (
     <main className="page-content">
-      <h1 className="page-title">⭐ Atleta della Settimana</h1>
+      <h1 className="page-title"> Atleta della Settimana</h1>
       <p className="page-subtitle">Settimana {settimana} — i migliori al mondo</p>
       
       <div className="atleta-grid">
@@ -833,11 +833,19 @@ function AtletaSettimanaPage() {
             <p className="atleta-card__club">{atleta.club}</p>
             <p className="atleta-card__bio">{atleta.bio}</p>
             <div className="atleta-card__palmares">
-              <strong>🏆 Palmares:</strong> {atleta.palmares}
+              <strong> Palmares:</strong> {atleta.palmares}
             </div>
           </div>
         ))}
       </div>
+    </main>
+  );
+}
+function SquadraSettimanaPage() {
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Squadra della Settimana</h1>
+      <p className="page-subtitle">Prossimamente — in costruzione!</p>
     </main>
   );
 }
