@@ -751,7 +751,7 @@ function GlossarioPage() {
             <button 
               key={c}
               className={`glossario-cat-btn ${categoria === c ? "active" : ""}`}
-              onClick={() => setCategoria(c)}
+              onClick={() => { console.log("set cat:", c); setCategoria(c); }}
             >
               {c}
             </button>
