@@ -441,6 +441,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/fondamentali", label: "Fondamentali" },
             { href: "#/schede", label: "Schede Allenamento" },
+            { href: "#/glossario", label: "Glossario" },
             
           ]}
         />
@@ -718,6 +719,57 @@ function ArticoloCard({ articolo, onOpen }) {
         <span className="card__link">Leggi tutto →</span>
       </div>
     </div>
+  );
+}
+function GlossarioPage() {
+  const [search, setSearch] = useState("");
+  const [categoria, setCategoria] = useState("Tutte");
+  const termini = glossarioData.glossario || [];
+  const categorie = ["Tutte", ...new Set(termini.map(t => t.categoria))];
+  
+  const filtrati = termini.filter(t => {
+    const matchSearch = t.termine.toLowerCase().includes(search.toLowerCase()) ||
+                       t.definizione.toLowerCase().includes(search.toLowerCase());
+    const matchCat = categoria === "Tutte" || t.categoria === categoria;
+    return matchSearch && matchCat;
+  }).sort((a, b) => a.termine.localeCompare(b.termine));
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">📖 Glossario della Pallavolo</h1>
+      <div className="glossario-filtri">
+        <input 
+          className="glossario-search"
+          type="text" 
+          placeholder="🔍 Cerca un termine..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+        <div className="glossario-categorie">
+          {categorie.map(c => (
+            <button 
+              key={c}
+              className={`glossario-cat-btn ${categoria === c ? "active" : ""}`}
+              onClick={() => setCategoria(c)}
+            >
+              {c}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="glossario-lista">
+        {filtrati.map(t => (
+          <div key={t.termine} className="glossario-item">
+            <div className="glossario-item__header">
+              <span className="glossario-item__termine">{t.termine}</span>
+              <span className="glossario-item__cat">{t.categoria}</span>
+            </div>
+            <p className="glossario-item__def">{t.definizione}</p>
+          </div>
+        ))}
+        {filtrati.length === 0 && <p className="state">Nessun termine trovato.</p>}
+      </div>
+    </main>
   );
 }
 function SectionPage({ slug, subscribed }) {
@@ -4338,7 +4390,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4346,6 +4398,7 @@ export default function App() {
           )}
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
+          {route === "glossario" && <GlossarioPage />}
           {route === "video" && <VideoPage />}
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}

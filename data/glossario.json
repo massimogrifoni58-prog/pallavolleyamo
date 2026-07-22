@@ -1,0 +1,789 @@
+{
+  "glossario": [
+    {
+      "termine": "Ace",
+      "categoria": "Statistiche",
+      "definizione": "Battuta diretta che non viene toccata dagli avversari e porta punto diretto."
+    },
+    {
+      "termine": "Alzata",
+      "categoria": "Fondamentali",
+      "definizione": "Gesto tecnico eseguito dalla palleggiatrice per servire il pallone alle attaccanti. Può essere alta, rapida, di primo tempo o retro."
+    },
+    {
+      "termine": "Attacco",
+      "categoria": "Fondamentali",
+      "definizione": "Gesto offensivo con cui si colpisce il pallone verso il campo avversario con forza e precisione."
+    },
+    {
+      "termine": "Bagher",
+      "categoria": "Fondamentali",
+      "definizione": "Tecnica di ricezione o difesa in cui il pallone viene colpito con gli avambracci uniti."
+    },
+    {
+      "termine": "Battuta",
+      "categoria": "Fondamentali",
+      "definizione": "Azione con cui si mette in gioco il pallone dall'area di battuta. Può essere float, jump serve o jump float."
+    },
+    {
+      "termine": "Battuta Float",
+      "categoria": "Fondamentali",
+      "definizione": "Tipo di battuta in cui il pallone viene colpito senza rotazione, creando un effetto imprevedibile in volo."
+    },
+    {
+      "termine": "Battuta Jump Serve",
+      "categoria": "Fondamentali",
+      "definizione": "Battuta in salto con rincorsa, molto potente e con forte top spin."
+    },
+    {
+      "termine": "BIC",
+      "categoria": "Tattiche",
+      "definizione": "Tipo di attacco rapido effettuato dalla banda con una palla tesa e veloce."
+    },
+    {
+      "termine": "Block",
+      "categoria": "Fondamentali",
+      "definizione": "Termine inglese per muro — l'azione difensiva a rete con cui si cerca di bloccare l'attacco avversario."
+    },
+    {
+      "termine": "Campione",
+      "categoria": "Regole",
+      "definizione": "La squadra che vince il campionato o il torneo al termine della stagione."
+    },
+    {
+      "termine": "Capitano",
+      "categoria": "Regole",
+      "definizione": "Giocatore designato come rappresentante della squadra durante la partita. Può dialogare con gli arbitri."
+    },
+    {
+      "termine": "Cartellino Giallo",
+      "categoria": "Arbitraggio",
+      "definizione": "Ammonizione formale data dall'arbitro per comportamento scorretto. Non comporta penalità immediate."
+    },
+    {
+      "termine": "Cartellino Rosso",
+      "categoria": "Arbitraggio",
+      "definizione": "Sanzione grave che comporta la perdita di un punto e del servizio per la squadra punita."
+    },
+    {
+      "termine": "Centrale",
+      "categoria": "Ruoli",
+      "definizione": "Giocatrice/e che attacca prevalentemente al centro della rete con alzate rapide. Ruolo chiave nel muro."
+    },
+    {
+      "termine": "Challenge",
+      "categoria": "Arbitraggio",
+      "definizione": "Sistema di revisione video che permette alle squadre di contestare alcune decisioni arbitrali."
+    },
+    {
+      "termine": "Copertura",
+      "categoria": "Tattiche",
+      "definizione": "Posizionamento dei giocatori attorno all'attaccante per recuperare il pallone in caso di muro."
+    },
+    {
+      "termine": "Diagonale",
+      "categoria": "Tattiche",
+      "definizione": "Traiettoria d'attacco che va da una banda all'angolo opposto del campo avversario."
+    },
+    {
+      "termine": "Difesa",
+      "categoria": "Fondamentali",
+      "definizione": "Azione con cui si recupera un pallone attaccato dagli avversari, evitando che tocchi il suolo."
+    },
+    {
+      "termine": "Dig",
+      "categoria": "Fondamentali",
+      "definizione": "Termine inglese per la difesa bassa, eseguita con i polsi o le dita vicino al suolo."
+    },
+    {
+      "termine": "Doppio Contatto",
+      "categoria": "Regole",
+      "definizione": "Fallo commesso quando un giocatore tocca il pallone due volte consecutivamente (esclusa la ricezione di battuta)."
+    },
+    {
+      "termine": "Effetto",
+      "categoria": "Fondamentali",
+      "definizione": "Rotazione impressa al pallone durante l'attacco o la battuta. Può essere top spin o back spin."
+    },
+    {
+      "termine": "Errore",
+      "categoria": "Statistiche",
+      "definizione": "Azione che porta direttamente al punto dell'avversario (fuori, rete, fallo)."
+    },
+    {
+      "termine": "Fast",
+      "categoria": "Tattiche",
+      "definizione": "Attacco rapido di primo tempo effettuato dalla centrale su alzata bassa e veloce."
+    },
+    {
+      "termine": "FIPAV",
+      "categoria": "Regole",
+      "definizione": "Federazione Italiana Pallavolo — ente che governa il volley in Italia."
+    },
+    {
+      "termine": "Fallo di Posizione",
+      "categoria": "Regole",
+      "definizione": "Errore commesso quando i giocatori non rispettano l'ordine di rotazione al momento della battuta."
+    },
+    {
+      "termine": "Fallo di Rete",
+      "categoria": "Regole",
+      "definizione": "Infrazione commessa quando un giocatore tocca la rete durante il gioco."
+    },
+    {
+      "termine": "Fallo di Piede",
+      "categoria": "Regole",
+      "definizione": "Infrazione del battitore che calpesta o supera la linea di fondo prima di colpire il pallone."
+    },
+    {
+      "termine": "Fondamentali",
+      "categoria": "Fondamentali",
+      "definizione": "Le 6 azioni di base della pallavolo: battuta, ricezione, alzata, attacco, muro, difesa."
+    },
+    {
+      "termine": "Fuori",
+      "categoria": "Regole",
+      "definizione": "Il pallone è fuori quando tocca il suolo fuori dal campo o le antenne laterali della rete."
+    },
+    {
+      "termine": "Giro di Battuta",
+      "categoria": "Regole",
+      "definizione": "Sequenza con cui i giocatori si alternano al servizio seguendo l'ordine di rotazione."
+    },
+    {
+      "termine": "Golden Set",
+      "categoria": "Regole",
+      "definizione": "Set supplementare da 15 punti giocato in caso di parità 1-1 in alcune competizioni."
+    },
+    {
+      "termine": "Kick",
+      "categoria": "Regole",
+      "definizione": "In alcune competizioni è permesso toccare il pallone con il piede o la gamba."
+    },
+    {
+      "termine": "Libero",
+      "categoria": "Ruoli",
+      "definizione": "Giocatrice/e specializzata in ricezione e difesa. Indossa una maglia diversa e non può attaccare sopra la rete."
+    },
+    {
+      "termine": "Linea di Attacco",
+      "categoria": "Regole",
+      "definizione": "Linea a 3 metri dalla rete che delimita la zona in cui il libero non può attaccare il pallone in alto."
+    },
+    {
+      "termine": "Lungolinea",
+      "categoria": "Tattiche",
+      "definizione": "Traiettoria d'attacco parallela alla linea laterale del campo."
+    },
+    {
+      "termine": "Match Point",
+      "categoria": "Regole",
+      "definizione": "Punto che, se conquistato, porta alla vittoria del match."
+    },
+    {
+      "termine": "Muro",
+      "categoria": "Fondamentali",
+      "definizione": "Azione difensiva a rete in cui uno o più giocatori saltano per bloccare o deviare l'attacco avversario."
+    },
+    {
+      "termine": "Muro a uno",
+      "categoria": "Tattiche",
+      "definizione": "Muro effettuato da un solo giocatore."
+    },
+    {
+      "termine": "Muro a due",
+      "categoria": "Tattiche",
+      "definizione": "Muro effettuato da due giocatori contemporaneamente."
+    },
+    {
+      "termine": "Muro a tre",
+      "categoria": "Tattiche",
+      "definizione": "Muro effettuato da tre giocatori contemporaneamente, molto raro."
+    },
+    {
+      "termine": "Opzione",
+      "categoria": "Tattiche",
+      "definizione": "Variante di gioco preparata in allenamento e applicata in partita."
+    },
+    {
+      "termine": "Opposto",
+      "categoria": "Ruoli",
+      "definizione": "Giocatrice/e che gioca in posizione opposta alla palleggiatrice. Solitamente è la principale attaccante."
+    },
+    {
+      "termine": "Palleggiatrice",
+      "categoria": "Ruoli",
+      "definizione": "Giocatrice/e che organizza il gioco offensivo distribuendo le alzate alle attaccanti."
+    },
+    {
+      "termine": "Panchinaro",
+      "categoria": "Regole",
+      "definizione": "Giocatore che non è titolare e parte dalla panchina."
+    },
+    {
+      "termine": "Panchina",
+      "categoria": "Regole",
+      "definizione": "Area riservata alle riserve e allo staff tecnico durante la partita."
+    },
+    {
+      "termine": "Penetrazione",
+      "categoria": "Tattiche",
+      "definizione": "Movimento della palleggiatrice verso la rete per effettuare l'alzata dalla zona 2-3."
+    },
+    {
+      "termine": "Pipe",
+      "categoria": "Tattiche",
+      "definizione": "Attacco rapido effettuato dalla zona centrale del campo da un giocatore di seconda linea."
+    },
+    {
+      "termine": "Posizione 1",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in seconda linea destra — posizione del battitore."
+    },
+    {
+      "termine": "Posizione 2",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in prima linea destra — area di attacco della banda destra."
+    },
+    {
+      "termine": "Posizione 3",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in prima linea centrale — posizione della centrale."
+    },
+    {
+      "termine": "Posizione 4",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in prima linea sinistra — area di attacco della banda sinistra."
+    },
+    {
+      "termine": "Posizione 5",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in seconda linea sinistra."
+    },
+    {
+      "termine": "Posizione 6",
+      "categoria": "Regole",
+      "definizione": "Zona del campo in seconda linea centrale — spesso occupata dal libero."
+    },
+    {
+      "termine": "Primo Arbitro",
+      "categoria": "Arbitraggio",
+      "definizione": "Arbitro principale che siede in cima all'apposito sostegno a lato della rete. Ha l'autorità definitiva."
+    },
+    {
+      "termine": "Primo Tempo",
+      "categoria": "Tattiche",
+      "definizione": "Attacco rapido su alzata bassa effettuato mentre la palleggiatrice riceve ancora il pallone."
+    },
+    {
+      "termine": "Punto",
+      "categoria": "Regole",
+      "definizione": "Unità di punteggio assegnata quando il pallone tocca terra nel campo avversario o gli avversari commettono un fallo."
+    },
+    {
+      "termine": "Quick",
+      "categoria": "Tattiche",
+      "definizione": "Sinonimo di attacco rapido o primo tempo."
+    },
+    {
+      "termine": "Ricezione",
+      "categoria": "Fondamentali",
+      "definizione": "Azione con cui si riceve la battuta avversaria per iniziare l'azione offensiva."
+    },
+    {
+      "termine": "Rete",
+      "categoria": "Regole",
+      "definizione": "Ostacolo al centro del campo. Altezza: 2,43m (maschile) e 2,24m (femminile)."
+    },
+    {
+      "termine": "Rotazione",
+      "categoria": "Regole",
+      "definizione": "Movimento in senso orario dei giocatori ogni volta che la propria squadra conquista il servizio."
+    },
+    {
+      "termine": "Schiacciata",
+      "categoria": "Fondamentali",
+      "definizione": "Colpo offensivo potente eseguito in salto con il palmo della mano aperta."
+    },
+    {
+      "termine": "Schiacciatrice",
+      "categoria": "Ruoli",
+      "definizione": "Giocatrice/e specializzata nell'attacco dalla banda. Può essere di banda destra o sinistra."
+    },
+    {
+      "termine": "Secondo Arbitro",
+      "categoria": "Arbitraggio",
+      "definizione": "Arbitro che si posiziona sul lato opposto al primo arbitro. Controlla la rete e le sostituzioni."
+    },
+    {
+      "termine": "Secondo Tempo",
+      "categoria": "Tattiche",
+      "definizione": "Attacco su alzata leggermente più alta e ritardata rispetto al primo tempo."
+    },
+    {
+      "termine": "Segnapunti",
+      "categoria": "Arbitraggio",
+      "definizione": "Persona responsabile della registrazione del punteggio e delle sostituzioni durante la partita."
+    },
+    {
+      "termine": "Servizio",
+      "categoria": "Fondamentali",
+      "definizione": "Sinonimo di battuta — l'azione con cui si mette in gioco il pallone."
+    },
+    {
+      "termine": "Set",
+      "categoria": "Regole",
+      "definizione": "Unità di gioco. Si vince a 25 punti (con vantaggio di 2). Il 5° set si vince a 15 punti."
+    },
+    {
+      "termine": "Set Point",
+      "categoria": "Regole",
+      "definizione": "Punto che, se conquistato, porta alla vittoria del set."
+    },
+    {
+      "termine": "Slash",
+      "categoria": "Tattiche",
+      "definizione": "Attacco in diagonale stretta, molto vicino all'antenna."
+    },
+    {
+      "termine": "Sostituzione",
+      "categoria": "Regole",
+      "definizione": "Cambio di un giocatore in campo con uno in panchina. Ogni squadra ha 6 sostituzioni per set."
+    },
+    {
+      "termine": "Spike",
+      "categoria": "Fondamentali",
+      "definizione": "Termine inglese per schiacciata — colpo offensivo potente in salto."
+    },
+    {
+      "termine": "Supporto",
+      "categoria": "Tattiche",
+      "definizione": "Copertura attorno all'attaccante per raccogliere il pallone deviato dal muro avversario."
+    },
+    {
+      "termine": "Tattica",
+      "categoria": "Tattiche",
+      "definizione": "Strategia di gioco pianificata dall'allenatore per sfruttare i punti di forza della propria squadra."
+    },
+    {
+      "termine": "Terzo Tempo",
+      "categoria": "Tattiche",
+      "definizione": "Attacco su alzata normale ad altezza standard, il più comune nel gioco."
+    },
+    {
+      "termine": "Time-Out",
+      "categoria": "Regole",
+      "definizione": "Interruzione del gioco richiesta dall'allenatore. Ogni squadra ha 2 time-out per set."
+    },
+    {
+      "termine": "Time-Out Tecnico",
+      "categoria": "Regole",
+      "definizione": "Pausa automatica di 60 secondi ai punti 8 e 16 di ogni set nei campionati di alto livello."
+    },
+    {
+      "termine": "Tocchi",
+      "categoria": "Regole",
+      "definizione": "Ogni squadra ha diritto a 3 tocchi per rimandare il pallone nel campo avversario."
+    },
+    {
+      "termine": "Top Spin",
+      "categoria": "Fondamentali",
+      "definizione": "Rotazione in avanti impressa al pallone durante l'attacco, che lo fa scendere bruscamente."
+    },
+    {
+      "termine": "Tuffo",
+      "categoria": "Fondamentali",
+      "definizione": "Tecnica difensiva in cui il giocatore si lancia in avanti scivolando sul pavimento per recuperare il pallone."
+    },
+    {
+      "termine": "Zona di Attacco",
+      "categoria": "Regole",
+      "definizione": "Area del campo compresa tra la rete e la linea dei 3 metri."
+    },
+    {
+      "termine": "Zona di Difesa",
+      "categoria": "Regole",
+      "definizione": "Area del campo oltre la linea dei 3 metri dalla rete."
+    },
+    {
+      "termine": "Zona Libera",
+      "categoria": "Regole",
+      "definizione": "Spazio oltre le linee del campo in cui i giocatori possono muoversi durante il gioco."
+    },
+    {
+      "termine": "Antenna",
+      "categoria": "Regole",
+      "definizione": "Asta verticale fissata alle estremità della rete che delimita la larghezza del campo di gioco."
+    },
+    {
+      "termine": "Assist",
+      "categoria": "Statistiche",
+      "definizione": "Alzata che porta direttamente a un punto. Statistica usata per valutare le palleggiatrici."
+    },
+    {
+      "termine": "Back Row Attack",
+      "categoria": "Tattiche",
+      "definizione": "Attacco effettuato da un giocatore di seconda linea che salta da dietro la linea dei 3 metri."
+    },
+    {
+      "termine": "Bandiera",
+      "categoria": "Arbitraggio",
+      "definizione": "Segnale usato dai giudici di linea per indicare se il pallone è dentro o fuori."
+    },
+    {
+      "termine": "Campo",
+      "categoria": "Regole",
+      "definizione": "Area di gioco rettangolare di 18x9 metri divisa a metà dalla rete."
+    },
+    {
+      "termine": "Coin Toss",
+      "categoria": "Regole",
+      "definizione": "Sorteggio iniziale per stabilire chi batte per primo e scegliere il campo."
+    },
+    {
+      "termine": "Croce",
+      "categoria": "Tattiche",
+      "definizione": "Schema d'attacco in cui due attaccanti si incrociano per confondere il muro avversario."
+    },
+    {
+      "termine": "Direttore di Gara",
+      "categoria": "Arbitraggio",
+      "definizione": "Responsabile organizzativo della partita, distinto dagli arbitri tecnici."
+    },
+    {
+      "termine": "Doppio Tocco",
+      "categoria": "Regole",
+      "definizione": "Infrazione in cui il pallone tocca due punti del corpo contemporaneamente in modo irregolare."
+    },
+    {
+      "termine": "Efficienza",
+      "categoria": "Statistiche",
+      "definizione": "Percentuale di successo in un fondamentale — si calcola come (Positivi - Negativi) / Totale x 100."
+    },
+    {
+      "termine": "Finta",
+      "categoria": "Tattiche",
+      "definizione": "Attacco morbido e preciso con le dita anziché una schiacciata potente, per sorprendere la difesa."
+    },
+    {
+      "termine": "Formazione",
+      "categoria": "Tattiche",
+      "definizione": "Disposizione dei giocatori in campo. Le più comuni sono 5-1 (una palleggiatrice) e 6-2 (due palleggiatrici)."
+    },
+    {
+      "termine": "Giudice di Linea",
+      "categoria": "Arbitraggio",
+      "definizione": "Ufficiale di gara che controlla se il pallone è dentro o fuori lungo le linee laterali e di fondo."
+    },
+    {
+      "termine": "Grip",
+      "categoria": "Fondamentali",
+      "definizione": "Il modo in cui le mani stringono il pallone durante la battuta o l'attacco."
+    },
+    {
+      "termine": "Hook",
+      "categoria": "Tattiche",
+      "definizione": "Tipo di battuta in cui il braccio descrive un arco semicircolare colpendo il pallone di lato."
+    },
+    {
+      "termine": "Invasione",
+      "categoria": "Regole",
+      "definizione": "Fallo commesso quando un giocatore attraversa il piano verticale della rete o calpesta il campo avversario."
+    },
+    {
+      "termine": "Joker",
+      "categoria": "Tattiche",
+      "definizione": "Giocatore usato come sostituto strategico in momenti chiave della partita."
+    },
+    {
+      "termine": "Kill",
+      "categoria": "Statistiche",
+      "definizione": "Attacco che porta direttamente al punto. Statistica fondamentale per le attaccanti."
+    },
+    {
+      "termine": "Kolpo",
+      "categoria": "Fondamentali",
+      "definizione": "Termine gergale per indicare un attacco particolarmente potente."
+    },
+    {
+      "termine": "Lob",
+      "categoria": "Tattiche",
+      "definizione": "Pallonetto morbido e alto che scende lontano dal muro avversario."
+    },
+    {
+      "termine": "Libero Designato",
+      "categoria": "Regole",
+      "definizione": "Il libero indicato nel referto prima della partita che può sostituire qualsiasi giocatore di seconda linea."
+    },
+    {
+      "termine": "Linea Centrale",
+      "categoria": "Regole",
+      "definizione": "Linea sul pavimento direttamente sotto la rete che divide i due campi."
+    },
+    {
+      "termine": "Linea di Fondo",
+      "categoria": "Regole",
+      "definizione": "Linea che delimita la parte posteriore del campo. Il battitore deve restare dietro questa linea."
+    },
+    {
+      "termine": "Linea Laterale",
+      "categoria": "Regole",
+      "definizione": "Linea che delimita i lati del campo."
+    },
+    {
+      "termine": "Match",
+      "categoria": "Regole",
+      "definizione": "La partita completa. Si vince al meglio dei 5 set (3 set vinti per vincere il match)."
+    },
+    {
+      "termine": "Mini Volley",
+      "categoria": "Regole",
+      "definizione": "Versione semplificata del volley per bambini dai 6 agli 11 anni, con campo ridotto e rete più bassa."
+    },
+    {
+      "termine": "Net Touch",
+      "categoria": "Regole",
+      "definizione": "Tocco della rete da parte di un giocatore durante il gioco — è fallo se avviene durante l'azione."
+    },
+    {
+      "termine": "Overpass",
+      "categoria": "Regole",
+      "definizione": "Pallone che supera la rete durante la ricezione o la difesa, inviando il pallone direttamente nel campo avversario."
+    },
+    {
+      "termine": "Palleggio",
+      "categoria": "Fondamentali",
+      "definizione": "Tecnica di tocco del pallone con le dita di entrambe le mani, usata principalmente per le alzate."
+    },
+    {
+      "termine": "Panchinaro",
+      "categoria": "Regole",
+      "definizione": "Giocatore non titolare che attende in panchina."
+    },
+    {
+      "termine": "Penetrazione",
+      "categoria": "Tattiche",
+      "definizione": "Movimento della palleggiatrice verso la rete partendo dalla seconda linea."
+    },
+    {
+      "termine": "Peso",
+      "categoria": "Statistiche",
+      "definizione": "Numero totale di azioni effettuate in un fondamentale durante una partita o un set."
+    },
+    {
+      "termine": "Piegatura",
+      "categoria": "Fondamentali",
+      "definizione": "Flessione delle gambe necessaria per abbassarsi nella posizione corretta di ricezione o difesa."
+    },
+    {
+      "termine": "Posizione Atletica",
+      "categoria": "Fondamentali",
+      "definizione": "Posizione di base con gambe flesse, peso in avanti, pronta per reagire in qualsiasi direzione."
+    },
+    {
+      "termine": "Primo Tocco",
+      "categoria": "Fondamentali",
+      "definizione": "Il primo contatto del pallone dopo la battuta avversaria. Fondamentale per costruire il gioco."
+    },
+    {
+      "termine": "Punto Diretto",
+      "categoria": "Regole",
+      "definizione": "Punto ottenuto con una singola azione senza che gli avversari tocchino il pallone (ace, muro vincente)."
+    },
+    {
+      "termine": "Rally",
+      "categoria": "Regole",
+      "definizione": "Scambio di pallone tra le due squadre dall'inizio alla fine di un'azione di gioco."
+    },
+    {
+      "termine": "Rally Point",
+      "categoria": "Regole",
+      "definizione": "Sistema di punteggio moderno in cui si assegna un punto ad ogni azione, indipendentemente da chi ha servito."
+    },
+    {
+      "termine": "Ricezione Negativa",
+      "categoria": "Statistiche",
+      "definizione": "Ricezione che non permette alla palleggiatrice di costruire un'azione offensiva efficace."
+    },
+    {
+      "termine": "Ricezione Perfetta",
+      "categoria": "Statistiche",
+      "definizione": "Ricezione che permette alla palleggiatrice di alzare in qualsiasi zona del campo."
+    },
+    {
+      "termine": "Rincorsa",
+      "categoria": "Fondamentali",
+      "definizione": "Sequenza di passi che precede il salto nell'attacco o nella battuta jump serve."
+    },
+    {
+      "termine": "Rotazione Offensiva",
+      "categoria": "Tattiche",
+      "definizione": "Rotazione in cui la palleggiatrice è in seconda linea e si hanno 3 attaccanti in prima linea."
+    },
+    {
+      "termine": "Rotazione Difensiva",
+      "categoria": "Tattiche",
+      "definizione": "Rotazione in cui la palleggiatrice è in prima linea e si hanno solo 2 attaccanti."
+    },
+    {
+      "termine": "Salto",
+      "categoria": "Fondamentali",
+      "definizione": "Elemento fondamentale nell'attacco, nel muro e nella battuta jump serve."
+    },
+    {
+      "termine": "Schiacciata in Diagonale",
+      "categoria": "Tattiche",
+      "definizione": "Attacco che attraversa diagonalmente il campo verso l'angolo opposto."
+    },
+    {
+      "termine": "Sezione Ritmo",
+      "categoria": "Tattiche",
+      "definizione": "Alternanza di attacchi veloci e lenti per disorientare la difesa avversaria."
+    },
+    {
+      "termine": "Side Out",
+      "categoria": "Regole",
+      "definizione": "Punto conquistato dalla squadra che riceve il servizio, con conseguente cambio del diritto di battuta."
+    },
+    {
+      "termine": "Sistema 5-1",
+      "categoria": "Tattiche",
+      "definizione": "Schema di gioco con una sola palleggiatrice e cinque attaccanti/difensori."
+    },
+    {
+      "termine": "Sistema 6-2",
+      "categoria": "Tattiche",
+      "definizione": "Schema con due palleggiatrici che si alternano: una alza, l'altra attacca."
+    },
+    {
+      "termine": "Slice",
+      "categoria": "Fondamentali",
+      "definizione": "Colpo laterale che devia il pallone di lato, usato per evitare il muro o attaccare l'antenna."
+    },
+    {
+      "termine": "Soft Block",
+      "categoria": "Tattiche",
+      "definizione": "Muro morbido che non cerca di bloccare l'attacco ma di deviarlo in zone difficili per la difesa avversaria."
+    },
+    {
+      "termine": "Staff Tecnico",
+      "categoria": "Regole",
+      "definizione": "Gruppo di persone che supportano la squadra: allenatore, assistente, preparatore atletico, medico."
+    },
+    {
+      "termine": "Stampa",
+      "categoria": "Tattiche",
+      "definizione": "Attacco che colpisce il muro avversario per far uscire il pallone fuori campo."
+    },
+    {
+      "termine": "Stacco",
+      "categoria": "Fondamentali",
+      "definizione": "Momento in cui i piedi lasciano il suolo durante il salto per attaccare o murare."
+    },
+    {
+      "termine": "Supercoppa",
+      "categoria": "Regole",
+      "definizione": "Trofeo assegnato prima dell'inizio della stagione tra la vincitrice del campionato e della coppa."
+    },
+    {
+      "termine": "Superlega",
+      "categoria": "Regole",
+      "definizione": "La massima serie del campionato italiano di pallavolo maschile."
+    },
+    {
+      "termine": "Terzo Arbitro",
+      "categoria": "Arbitraggio",
+      "definizione": "In alcune competizioni è presente un terzo arbitro che supporta il segnapunti."
+    },
+    {
+      "termine": "Tocco a Rete",
+      "categoria": "Regole",
+      "definizione": "Contatto accidentale o intenzionale con la rete — è fallo se avviene durante un'azione di gioco."
+    },
+    {
+      "termine": "Zona Rossa",
+      "categoria": "Regole",
+      "definizione": "L'area immediatamente davanti alla rete dove si svolge il gioco offensivo."
+    },
+    {
+      "termine": "Zona Verde",
+      "categoria": "Tattiche",
+      "definizione": "Area del campo avversario non coperta dal muro o dalla difesa — bersaglio ideale per l'attacco."
+    },
+    {
+      "termine": "Under 12",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 12 anni."
+    },
+    {
+      "termine": "Under 13",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 13 anni."
+    },
+    {
+      "termine": "Under 14",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 14 anni."
+    },
+    {
+      "termine": "Under 16",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 16 anni."
+    },
+    {
+      "termine": "Under 17",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 17 anni."
+    },
+    {
+      "termine": "Under 18",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 18 anni."
+    },
+    {
+      "termine": "Under 19",
+      "categoria": "Regole",
+      "definizione": "Categoria giovanile per atleti fino a 19 anni."
+    },
+    {
+      "termine": "Volley",
+      "categoria": "Fondamentali",
+      "definizione": "Il gioco stesso — ma anche l'azione di colpire il pallone prima che tocchi terra."
+    },
+    {
+      "termine": "Wipe",
+      "categoria": "Tattiche",
+      "definizione": "Tecnica in cui l'attaccante colpisce il muro di lato per far uscire il pallone fuori campo."
+    },
+    {
+      "termine": "Zona 1",
+      "categoria": "Regole",
+      "definizione": "Posizione in seconda linea destra — zona del battitore."
+    },
+    {
+      "termine": "Zona 2",
+      "categoria": "Regole",
+      "definizione": "Posizione in prima linea destra — area di attacco della banda destra."
+    },
+    {
+      "termine": "Zona 3",
+      "categoria": "Regole",
+      "definizione": "Posizione in prima linea centrale — area di attacco della centrale."
+    },
+    {
+      "termine": "Zona 4",
+      "categoria": "Regole",
+      "definizione": "Posizione in prima linea sinistra — area di attacco principale della banda sinistra."
+    },
+    {
+      "termine": "Zona 5",
+      "categoria": "Regole",
+      "definizione": "Posizione in seconda linea sinistra."
+    },
+    {
+      "termine": "Zona 6",
+      "categoria": "Regole",
+      "definizione": "Posizione in seconda linea centrale — zona del libero."
+    }
+  ]
+}
