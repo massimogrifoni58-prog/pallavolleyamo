@@ -662,11 +662,11 @@ function HomePage() {
           ) : (
             <p className="hero-risultati__placeholder"> I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno</p>
           )}
-        </div>
+      </div>
+      </div>
       </div>
 
-
-<div className="iscriviti-banner">
+      <div className="iscriviti-banner">
           <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
           <a href="#/iscrizione" className="iscriviti-banner__btn">Iscriviti ora →</a>
         </div>
