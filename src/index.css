@@ -537,8 +537,7 @@ main {
   opacity: 0.2;
   z-index: 1;
   top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 80%;
 }
 
 .hero-testi {
