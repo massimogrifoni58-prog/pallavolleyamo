@@ -665,28 +665,7 @@ function HomePage() {
         </div>
       </div>
 
-      {/* Riga statistiche */}
-      <div className="hero-stats">
-        <div className="hero-stat">
-          <span className="hero-stat__num">{nCampionati || "6+"}</span>
-          <span className="hero-stat__label">Campionati seguiti</span>
-        </div>
-        <div className="hero-stat__sep">·</div>
-        <div className="hero-stat">
-          <span className="hero-stat__num">{nSquadre || "50+"}</span>
-          <span className="hero-stat__label">Squadre umbre</span>
-        </div>
-        <div className="hero-stat__sep">·</div>
-        <div className="hero-stat">
-          <span className="hero-stat__num">365</span>
-          <span className="hero-stat__label">Giorni all'anno</span>
-        </div>
-        <div className="hero-stat__sep">·</div>
-        <div className="hero-stat">
-          <span className="hero-stat__num">19</span>
-          <span className="hero-stat__label">Palazzetti in Umbria</span>
-        </div>
-      </div>
+     
 <div className="iscriviti-banner">
           <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
           <a href="#/iscrizione" className="iscriviti-banner__btn">Iscriviti ora →</a>
