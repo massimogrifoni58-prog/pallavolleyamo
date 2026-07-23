@@ -588,18 +588,23 @@ function HomePage() {
   return (
     <main>
       <div className="hero-grafico">
-        {/* Layout interno: logo + titolo */}
-        <div className="hero-inner">
-          <img src="/logo-pva.svg" alt="Logo PallaVolleyAmo" className="hero-logo-laterale" />
-          <div className="hero-testi">
-            <div className="hero-titolo">
-              <span className="hero-titolo__bianco">PALLA</span>
-              <span className="hero-titolo__oro">VOLLEY</span>
-              <span className="hero-titolo__bianco">AMO</span>
-            </div>
-            <p className="hero-sub">RISULTATI NAZIONALI · CAMPIONATI UMBRI</p>
-          </div>
-        </div>
+  <div className="hero-inner">
+    <img src="/logo-pva.svg" alt="Logo PallaVolleyAmo" className="hero-logo-laterale" />
+    <div className="hero-testi">
+      <div className="hero-titolo">
+        <span className="hero-titolo__bianco">PALLA</span>
+        <span className="hero-titolo__oro">VOLLEY</span>
+        <span className="hero-titolo__bianco">AMO</span>
+      </div>
+      <p className="hero-sub">Il portale del volley umbro</p>
+      <div className="hero-badges">
+        <span className="hero-badge"> Notizie quotidiane</span>
+        <span className="hero-badge"> Risultati FIPAV</span>
+        <span className="hero-badge"> Terni & Perugia</span>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Testo VOLLEY enorme in trasparenza */}
         <svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" className="hero-svg-bg" preserveAspectRatio="xMidYMid slice">
