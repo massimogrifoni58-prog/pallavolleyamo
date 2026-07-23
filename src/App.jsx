@@ -401,6 +401,7 @@ function LiveClock() {
 }
 
 function Masthead({ latestFive, darkMode, toggleDark }) {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="masthead">
       <div className="masthead__topbar">
@@ -427,7 +428,14 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
 
       <Ticker posts={latestFive} />
 
-      <nav className="nav-bar">
+      <button 
+        className="hamburger-btn" 
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Menu"
+      >
+        {menuOpen ? "✕" : "☰"}
+      </button>
+      <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
         <NavDropdown
           label="Notizie"
           items={[
@@ -3768,16 +3776,8 @@ function MercatoPage({ subscribed }) {
   const [status, setStatus] = useState("idle");
 
   // Annunci approvati - aggiungi qui quelli che arrivano via email
-  const annunciGiocatori = [
-    { nome: "Giulia B.", ruolo: "Palleggiatrice", eta: "22 anni", categoria: "Serie D / Prima Div.", provincia: "Terni", note: "Disponibile per allenamenti serali, esperienza 8 anni.", data: "luglio 2026" },
-    { nome: "Marco V.", ruolo: "Schiacciatore", eta: "26 anni", categoria: "Serie C / D", provincia: "Perugia", note: "Cerco squadra zona Perugia nord. Disponibile weekend.", data: "luglio 2026" },
-    { nome: "Sara T.", ruolo: "Libero", eta: "19 anni", categoria: "Serie D / U20", provincia: "Terni", note: "Ex settore giovanile, cerco prima squadra.", data: "giugno 2026" },
-  ];
-
-  const annunciSocieta = [
-    { squadra: "ASD Volley (esempio)", categoria: "Serie D Femminile", ruolo: "Centrale", provincia: "Terni", note: "Cerchiamo centrale con esperienza per la stagione 2026/27. Allenamenti lun-mer-ven.", data: "luglio 2026" },
-    { squadra: "Pallavolo (esempio)", categoria: "Prima Divisione M", ruolo: "Palleggiatore", provincia: "Perugia", note: "Gruppo consolidato cerca palleggiatore. Ambiente serio e amichevole.", data: "luglio 2026" },
-  ];
+  const annunciGiocatori = mercatoData.giocatori || [];
+  const annunciSocieta = mercatoData.societa || [];
 
   const ruoli = ["Tutti", "Palleggiatore", "Schiacciatore", "Centrale", "Opposto", "Libero"];
 

@@ -4422,3 +4422,11 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .atleta-card__bio { font-size: 0.85rem; line-height: 1.5; margin-bottom: 1rem; }
 .atleta-card__palmares { font-size: 0.8rem; background: rgba(212,175,55,0.1); padding: 0.8rem; border-radius: 8px; text-align: left; }
 .page-subtitle { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 1.5rem; }
+/* === HAMBURGER MOBILE === */
+.hamburger-btn { display: none; background: none; border: 1px solid var(--gold); color: var(--gold); font-size: 1.4rem; padding: 0.3rem 0.7rem; border-radius: 6px; cursor: pointer; margin-top: 0.5rem; }
+
+@media (max-width: 480px) {
+  .hamburger-btn { display: block; }
+  .nav-bar { display: none; flex-direction: column; align-items: center; width: 100%; }
+  .nav-bar--open { display: flex; }
+}
