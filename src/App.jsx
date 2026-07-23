@@ -492,9 +492,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/camp", label: "Camp Estivi 2026" },
           ]}
         />
-        <a className="nav-btn" href="#/chi-siamo">Chi Siamo</a>
         <a className="nav-btn nav-btn--accent" href="#/commenti">Commenti</a>
-        <a className="nav-btn nav-btn--accent" href="#/iscrizione"> Iscriviti Gratis</a>
       </nav>
     </header>
   );
