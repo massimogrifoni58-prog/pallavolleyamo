@@ -31,7 +31,12 @@ from pathlib import Path
 # --- Fonte 1: FIPAV Umbria (WordPress REST API) ---
 FIPAV_URL = "https://fipavumbria.it/wp-json/wp/v2/posts"
 FIPAV_LIMIT = 15
-
+# --- Fonte 3: VolleyUmbria.it RSS ---
+VOLLEYUMBRIA_FEEDS = [
+    "https://www.volleyumbria.it/index.php/feed/",
+    "https://www.volleyumbria.it/index.php/category/settore-giovanile/feed/",
+    "https://www.volleyumbria.it/index.php/category/campionati-regionali-volley-in-umbria/feed/",
+]
 # --- Fonte 2: Bing News RSS (piu' ricerche per coprire tutta la regione) ---
 NEWS_QUERIES = [
     "pallavolo Umbria",
@@ -120,6 +125,68 @@ def normalize_fipav(raw_post):
         "image": get_fipav_image(raw_post),
         "permalink": raw_post.get("link"),
     }
+
+
+def fetch_volleyumbria():
+    posts = []
+    seen = set()
+    for feed_url in VOLLEYUMBRIA_FEEDS:
+        try:
+            req = urllib.request.Request(feed_url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30) as response:
+                xml_bytes = response.read()
+            try:
+                root = ET.fromstring(xml_bytes)
+            except ET.ParseError:
+                continue
+            items = root.findall("./channel/item")[:10]
+            print(f"  Feed: {feed_url}")
+            print(f"  Items trovati: {len(items)}")
+            for item in items[:2]:
+                print(f"  Titolo: {item.findtext('title')}")
+                print(f"  Link raw: {item.findtext('link')}")
+                print(f"  Guid: {item.findtext('guid')}")
+                items = root.findall("./channel/item")[:10]
+
+            for item in items:
+                title = (item.findtext("title") or "").strip()
+            # WordPress: il link è nel tag <guid> se <link> è vuoto
+            link = ""
+            for child in item:
+                if "link" in child.tag and child.text:
+                    link = child.text.strip()
+                    break
+            if not link:
+                link = (item.findtext("guid") or "").strip()
+                pub_date = (item.findtext("pubDate") or "").strip()
+                if link in seen:
+                    continue
+                seen.add(link)
+                posts.append({
+                    "id": f"vu-{len(posts)}",
+                    "title": title,
+                    "excerpt": "Fonte: volleyumbria.it",
+                    "createdTime": pub_date,
+                    "image": None,
+                    "permalink": link,
+                })
+        except Exception as e:
+            print(f"  ERRORE VolleyUmbria feed {feed_url}: {e}")
+    return posts
+
+
+def normalize_fipav(raw_post):
+    return {
+        "id": f"fipav-{raw_post.get('id')}",
+        "title": strip_html(raw_post.get("title", {}).get("rendered", "")),
+        "excerpt": strip_html(raw_post.get("excerpt", {}).get("rendered", ""))[:280],
+        "createdTime": raw_post.get("date"),
+        "image": get_fipav_image(raw_post),
+        "permalink": raw_post.get("link"),
+    }
+
+# --- Fonte 2: Bing News ---
+  
 
 
 # --- Fonte 2: Bing News (link diretti veri, a differenza di Google News) ---
@@ -215,6 +282,12 @@ def main():
     print("- Fonte 1: FIPAV Umbria")
     fipav_raw = fetch_fipav()
     fipav_posts = [normalize_fipav(p) for p in fipav_raw]
+    print("- Fonte 3: VolleyUmbria.it")
+    print("  Chiamata fetch_volleyumbria...")
+    vu_posts = fetch_volleyumbria()
+    print(f"  Trovate {len(vu_posts)} notizie.")
+    for p in vu_posts:
+        p["image"] = fetch_og_image(p["permalink"])
     print(f"  Trovate {len(fipav_posts)} notizie.")
 
     print(f"- Fonte 2: Bing News ({len(NEWS_QUERIES)} ricerche)")
@@ -234,7 +307,7 @@ def main():
     for p in news_posts:
         p["image"] = fetch_og_image(p["permalink"])
 
-    all_posts = fipav_posts + news_posts
+    all_posts = fipav_posts + vu_posts + news_posts
 
     # Eliminiamo eventuali link duplicati
     seen = set()
