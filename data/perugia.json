@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-07-22T06:00:07.170378+00:00",
+  "generatedAt": "2026-07-23T06:10:29.567970+00:00",
   "posts": [
+    {
+      "title": "Stefano Micoli: «Perugia è pronta alla ripresa»",
+      "excerpt": "Continua il conto alla rovescia in vista del primo raduno per le squadre di pallavolo, la nuova stagione sportiva è alle porte per la società sportiva Black Angels Perugia. La dirigenza ha fissato l’a",
+      "createdTime": "Thu, 23 Jul 2026 05:00:57 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Micoli-Stefano.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/stefano-micoli-perugia-e-pronta-alla-ripresa/",
+      "id": "1"
+    },
     {
       "title": "Immacolata Sirressi: «Per Scandicci ho tanti stimoli»",
       "excerpt": "Ancora tante le notizie di mercato nella pallavolo, una di quelle che era stata da noi anticipata nello scorso mese di marzo si è rivelata azzeccata. è stata presentata ufficialmente a Scandicci per i",
       "createdTime": "Tue, 21 Jul 2026 07:00:46 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Sirressi-Immacolata-Scandicci.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/immacolata-sirressi-per-scandicci-ho-tanti-stimoli/",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "Luciano Zornetta innesto di qualità a Terni",
@@ -15,7 +23,7 @@
       "createdTime": "Tue, 21 Jul 2026 05:00:45 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Zornetta-Luciano.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/luciano-zornetta-innesto-di-qualita-a-terni/",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Rachele Mancinelli vince la tappa di San Cataldo",
@@ -23,7 +31,7 @@
       "createdTime": "Mon, 20 Jul 2026 15:00:48 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pelloia-Mancinelli.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/rachele-mancinelli-vince-la-tappa-di-san-cataldo/",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Conto alla rovescia partito per il Memorial Giri-Fiscella",
@@ -31,23 +39,7 @@
       "createdTime": "Mon, 20 Jul 2026 05:00:38 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Memorial-Giri-Fiscella-attacco.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/conto-alla-rovescia-partito-per-il-memorial-giri-fiscella/",
-      "id": "4"
-    },
-    {
-      "title": "Susegana ha convinto Ginevra Pizzicaroli",
-      "excerpt": "Arrivano ancora attestati di merito per i talenti umbri della pallavolo, è ancora la società veneta della Pallavolo Susegana a dimostrarsi attenta verso il Cuore Verde d’Italia. È in procinto di trasf",
-      "createdTime": "Sun, 19 Jul 2026 07:00:04 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Pizzicaroli-Ginevra.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/susegana-ha-convinto-ginevra-pizzicaroli/",
       "id": "5"
-    },
-    {
-      "title": "Ravenna ha chiamato Massimiliano Urbani",
-      "excerpt": "Si trasferisce oltre i confini regionali entrando a far parte del progetto Volley Academy Olimpia Teodora Ravenna il tecnico Massimiliano Urbani che seguirà personalmente una squadra under 13 femminil",
-      "createdTime": "Sun, 19 Jul 2026 05:00:15 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Urbani-Massimiliano-Ravenna.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/ravenna-ha-chiamato-massimiliano-urbani/",
-      "id": "6"
     }
   ]
 }
