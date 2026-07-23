@@ -591,11 +591,6 @@ function HomePage() {
         <div className="hero-inner">
           <img src="/logo-pva.svg" alt="Logo PallaVolleyAmo" className="hero-logo-laterale" />
           <div className="hero-testi">
-            <div className="hero-titolo">
-              <span className="hero-titolo__bianco">PALLA</span>
-              <span className="hero-titolo__oro">VOLLEY</span>
-              <span className="hero-titolo__bianco">AMO</span>
-            </div>
             
           </div>
         </div>
@@ -615,13 +610,13 @@ function HomePage() {
           {/* VOLLEY UMBRIA sulla stessa riga */}
           <text x="450" y="180"
             fontFamily="'Bebas Neue', Impact, sans-serif"
-            fontSize="80"
+            fontSize="40"
             fontWeight="900"
             fill="url(#text-fade)"
             textAnchor="middle"
-            letterSpacing="20"
+            letterSpacing="10"
             opacity="0.2">
-            VOLLEY · UMBRIA
+            VOLLEYUMBRIA
           </text>
 
           {/* Linee decorative laterali */}
