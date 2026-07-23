@@ -610,12 +610,12 @@ function HomePage() {
           {/* VOLLEY UMBRIA sulla stessa riga */}
           <text x="450" y="180"
             fontFamily="'Bebas Neue', Impact, sans-serif"
-            fontSize="40"
+            fontSize="50"
             fontWeight="900"
             fill="url(#text-fade)"
             textAnchor="middle"
             letterSpacing="10"
-            opacity="0.2">
+            opacity="0.7">
             VOLLEYUMBRIA
           </text>
 
