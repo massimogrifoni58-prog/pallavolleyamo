@@ -527,22 +527,21 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  padding: 0 3rem;
   z-index: 2;
 }
 
 .hero-logo-laterale {
-  height: 110px;
-  width: auto;
-  flex-shrink: 0;
-  filter: drop-shadow(0 0 20px rgba(212,175,55,0.3));
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  opacity: 0.12;
+  z-index: 1;
 }
 
 .hero-testi {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  position: relative;
+  z-index: 3;
+  text-align: center;
 }
 
 .hero-titolo {
