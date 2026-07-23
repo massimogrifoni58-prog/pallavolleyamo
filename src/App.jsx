@@ -615,7 +615,7 @@ function HomePage() {
             fill="url(#text-fade)"
             textAnchor="middle"
             letterSpacing="10"
-            opacity="0.7">
+            opacity="0.9">
             VOLLEYUMBRIA
           </text>
 
