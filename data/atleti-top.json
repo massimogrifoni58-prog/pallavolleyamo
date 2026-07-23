@@ -8,9 +8,7 @@
       "altezza": "193 cm",
       "nascita": "18 dicembre 1998",
       "club": "Numia Vero Volley Milano",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Paola_Egonu_2022.jpg/800px-Paola_Egonu_2022.jpg"
-      ],
+      "foto": ["/atleti/egonu.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Oro VNL 2022/2024/2025, MVP FIVB 2024",
       "bio": "Considerata la migliore pallavolista al mondo. Opposto della Nazionale italiana e del Numia Vero Volley Milano. Ha battuto ogni record di punteggio ai Mondiali 2018 con 45 punti in una singola partita."
     },
@@ -22,9 +20,7 @@
       "altezza": "192 cm",
       "nascita": "8 marzo 1997",
       "club": "Eczacibasi Istanbul",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tijana_Bo%C5%A1kovi%C4%87.jpg/800px-Tijana_Bo%C5%A1kovi%C4%87.jpg"
-      ],
+      "foto": ["/atleti/Boskovic.jpg"],
       "palmares": "Oro Europei 2019/2021, MVP Mondiale 2022, MVP Europei 2019",
       "bio": "Una delle opposti più forti al mondo. Capitana della Serbia e protagonista in Champions League con Eczacibasi Istanbul."
     },
@@ -36,9 +32,7 @@
       "altezza": "175 cm",
       "nascita": "20 agosto 1998",
       "club": "Numia Vero Volley Milano",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Alessia_Orro_2022.jpg/800px-Alessia_Orro_2022.jpg"
-      ],
+      "foto": ["/atleti/Orro.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Oro VNL 2022/2024/2025",
       "bio": "Palleggiatrice della Nazionale italiana campione del mondo e olimpica. Riconosciuta tra le migliori al mondo nel suo ruolo."
     },
@@ -50,9 +44,7 @@
       "altezza": "185 cm",
       "nascita": "8 febbraio 1995",
       "club": "Numia Vero Volley Milano",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Myriam_Sylla_2022.jpg/800px-Myriam_Sylla_2022.jpg"
-      ],
+      "foto": ["/atleti/Sylla.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Oro VNL 2024/2025",
       "bio": "Capitana della Nazionale italiana. Schiacciatrice di banda di altissimo livello, leader carismatica della squadra azzurra."
     },
@@ -64,9 +56,7 @@
       "altezza": "194 cm",
       "nascita": "20 maggio 2000",
       "club": "Savino Del Bene Scandicci",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ekaterina_Antropova.jpg/800px-Ekaterina_Antropova.jpg"
-      ],
+      "foto": ["/atleti/Antropova.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Coppa Italia 2024",
       "bio": "Giovane talento della Nazionale italiana. Nata in Russia, ha scelto di giocare per l'Italia. Straordinaria potenza d'attacco e grande versatilità."
     },
@@ -78,9 +68,7 @@
       "altezza": "197 cm",
       "nascita": "14 luglio 1996",
       "club": "Numia Vero Volley Milano",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Anna_Danesi.jpg/800px-Anna_Danesi.jpg"
-      ],
+      "foto": ["/atleti/Danesi.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Oro VNL 2024/2025",
       "bio": "Centrale della Nazionale italiana. Tra le migliori al mondo nel suo ruolo grazie alla straordinaria capacità nel muro e nell'attacco di primo tempo."
     },
@@ -92,9 +80,7 @@
       "altezza": "172 cm",
       "nascita": "30 settembre 1992",
       "club": "Numia Vero Volley Milano",
-      "foto": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Eleonora_Fersino.jpg/800px-Eleonora_Fersino.jpg"
-      ],
+      "foto": ["/atleti/Fersino.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025, Miglior Libero Mondiali 2025",
       "bio": "Considerata la migliore libero al mondo. La sua capacità di ricezione e difesa è straordinaria. Colonna portante dell'Italia campione del mondo."
     },
@@ -142,7 +128,7 @@
       "altezza": "194 cm",
       "nascita": "1 febbraio 1993",
       "club": "Vakifbank Istanbul",
-      "foto": [],
+      "foto": ["/atleti/Montibeller.jpg"],
       "palmares": "Oro VNL 2021, Bronzo Mondiali",
       "bio": "Potente opposta brasiliana con grande esperienza internazionale nei migliori club europei."
     },
@@ -154,7 +140,7 @@
       "altezza": "170 cm",
       "nascita": "24 aprile 1992",
       "club": "Osasco São Cristóvão Saúde",
-      "foto": [],
+      "foto": ["/atleti/Lima.jpg"],
       "palmares": "Oro VNL 2021/2023, Bronzo Mondiali",
       "bio": "Libero della Nazionale brasiliana, considerata tra le migliori del mondo nel suo ruolo per riflessi e qualità di ricezione."
     },
@@ -166,7 +152,7 @@
       "altezza": "188 cm",
       "nascita": "21 febbraio 1996",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/Thompson.jpg"],
       "palmares": "Oro VNL 2023, Oro NORCECA, Bronzo Olimpiadi",
       "bio": "Schiacciatrice americana di grande potenza. Tra le migliori attaccanti di banda del panorama mondiale."
     },
@@ -178,7 +164,7 @@
       "altezza": "188 cm",
       "nascita": "11 marzo 1992",
       "club": "Vakifbank Istanbul",
-      "foto": [],
+      "foto": ["/atleti/Hackley.jpg"],
       "palmares": "Oro VNL 2023, Medaglia Olimpiadi",
       "bio": "Veterana della Nazionale USA. Schiacciatrice di grande esperienza internazionale con anni di successi nei top club europei."
     },
@@ -190,7 +176,7 @@
       "altezza": "190 cm",
       "nascita": "5 maggio 1996",
       "club": "Chemik Police",
-      "foto": [],
+      "foto": ["/atleti/Wenerska.jpg"],
       "palmares": "Bronzo Europei 2021, MVP Superliga polacca",
       "bio": "Miglior opposta polacca della sua generazione. Leader offensiva della Nazionale e dei migliori club polacchi."
     },
@@ -202,7 +188,7 @@
       "altezza": "198 cm",
       "nascita": "29 novembre 1994",
       "club": "Vakifbank Istanbul",
-      "foto": [],
+      "foto": ["/atleti/ting.jpg"],
       "palmares": "Oro Olimpiadi Rio 2016, Oro Mondiali 2015, MVP Olimpiadi",
       "bio": "Una delle più grandi giocatrici di tutti i tempi. MVP delle Olimpiadi di Rio 2016 con la Cina. Potenza e tecnica straordinarie."
     },
@@ -214,7 +200,7 @@
       "altezza": "196 cm",
       "nascita": "16 luglio 1991",
       "club": "Dinamo Mosca",
-      "foto": [],
+      "foto": ["/atleti/Goncharova.jpg"],
       "palmares": "Oro Europei, Oro Grand Prix, Argento Mondiali",
       "bio": "Potente opposta russa tra le più prolifiche nel panorama europeo per anni. Grande esperienza a livello di club e nazionale."
     },
@@ -226,7 +212,7 @@
       "altezza": "190 cm",
       "nascita": "18 agosto 1995",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/Ogbogu.jpg"],
       "palmares": "Oro VNL 2023, Bronzo Olimpiadi",
       "bio": "Centrale americana di grande atletismo. Tra le migliori nel muro a livello mondiale, gioca in Italia con Imoco Conegliano."
     },
@@ -238,7 +224,7 @@
       "altezza": "181 cm",
       "nascita": "19 agosto 1990",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/Wolosz.jpg"],
       "palmares": "Champions League 2021/2022/2024, Scudetto italiano, Oro Europei con Polonia",
       "bio": "Considerata tra le migliori palleggiatrici del mondo. Cervello del gioco di Imoco Conegliano, squadra dominante in Europa."
     },
@@ -250,7 +236,7 @@
       "altezza": "189 cm",
       "nascita": "24 ottobre 1992",
       "club": "Osasco São Cristóvão Saúde",
-      "foto": [],
+      "foto": ["/atleti/Souza.jpg"],
       "palmares": "Oro VNL 2021, Bronzo Olimpiadi",
       "bio": "Schiacciatrice brasiliana di grande qualità. Protagonista della Nazionale verdeoro nelle principali competizioni internazionali."
     },
@@ -262,7 +248,7 @@
       "altezza": "190 cm",
       "nascita": "28 dicembre 2000",
       "club": "Vakifbank Istanbul",
-      "foto": [],
+      "foto": ["/atleti/Vargas.jpg"],
       "palmares": "Argento VNL, Medaglia Olimpiadi Parigi 2024",
       "bio": "Schiacciatrice nata a Cuba che gioca per gli USA. Giovanissima e già al vertice del volley mondiale per potenza e tecnica."
     },
@@ -274,7 +260,7 @@
       "altezza": "195 cm",
       "nascita": "26 maggio 2000",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/haak.jpg"],
       "palmares": "Champions League 2024, Scudetto italiano 2024",
       "bio": "Giovanissima opposta svedese già considerata tra le migliori al mondo. Devastante in attacco con Imoco Conegliano."
     },
@@ -286,7 +272,7 @@
       "altezza": "180 cm",
       "nascita": "24 gennaio 1994",
       "club": "Igor Novara",
-      "foto": [],
+      "foto": ["/atleti/Bosetti.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025",
       "bio": "Schiacciatrice della Nazionale italiana campione del mondo e olimpica. Nota per la sua qualità in ricezione e la continuità in attacco."
     },
@@ -298,7 +284,7 @@
       "altezza": "201 cm",
       "nascita": "21 marzo 2003",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/Fahr.jpg"],
       "palmares": "Oro Olimpiadi Parigi 2024, Oro Mondiali 2025",
       "bio": "Centrale giovanissima della Nazionale italiana. Altezza straordinaria (201 cm) e grande talento nel muro e nel gioco a rete."
     },
@@ -310,7 +296,7 @@
       "altezza": "178 cm",
       "nascita": "15 giugno 1995",
       "club": "Eczacibasi Istanbul",
-      "foto": [],
+      "foto": ["/atleti/Malesevic.jpg"],
       "palmares": "Oro Europei 2019/2021, Argento Mondiali 2022",
       "bio": "Palleggiatrice serba di grande intelligenza tattica. Costruisce il gioco della Serbia e di Eczacibasi con precisione e varietà."
     },
@@ -322,7 +308,7 @@
       "altezza": "190 cm",
       "nascita": "15 ottobre 1992",
       "club": "Vakifbank Istanbul",
-      "foto": [],
+      "foto": ["/atleti/Hill.jpg"],
       "palmares": "Oro VNL 2023, Bronzo Olimpiadi",
       "bio": "Schiacciatrice americana di grande dinamismo. Tra le migliori attaccanti degli USA con lunga esperienza nei top club europei."
     },
@@ -334,7 +320,7 @@
       "altezza": "173 cm",
       "nascita": "8 gennaio 1987",
       "club": "Imoco Conegliano",
-      "foto": [],
+      "foto": ["/atleti/De Gennaro.jpg"],
       "palmares": "Oro Olimpiadi 2024, oro mondiale 2025, VNL 2022-24-25, oro europeo 2021",
       "bio": "Il piu grande libero della Nazionale italiana e mondiale"
     },
@@ -346,7 +332,7 @@
       "altezza": "175 cm",
       "nascita": "20 gennaio 1987",
       "club": "Crvena Zvezda",
-      "foto": [],
+      "foto": ["/atleti/Ognjenovic.jpg"],
       "palmares": "Oro Europei 2019/2021, Argento Mondiali, MVP Europei",
       "bio": "Storica palleggiatrice della Serbia. Leader carismatica e tecnica della squadra balcanica per oltre 15 anni."
     },
@@ -358,7 +344,7 @@
       "altezza": "185 cm",
       "nascita": "29 settembre 2000",
       "club": "Igor Novara",
-      "foto": [],
+      "foto": ["/atleti/Herbots.jpg"],
       "palmares": "Coppa Italia, vari titoli club",
       "bio": "Schiacciatrice belga di grande talento. Protagonista in Serie A1 italiana e nella Nazionale belga."
     },
@@ -384,7 +370,7 @@
       "altezza": "201 cm",
       "nascita": "5 luglio 1993",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Leon.jpg"],
       "palmares": "Oro VNL 2023, Oro Mondiali 2022, MVP VNL 2023, Champions League",
       "bio": "Considerato il miglior giocatore di pallavolo al mondo. Nato a Cuba, gioca per la Polonia. Il suo attacco è devastante e gioca in Italia con Sir Perugia."
     },
@@ -396,7 +382,7 @@
       "altezza": "200 cm",
       "nascita": "9 agosto 1996",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Giannelli.jpg"],
       "palmares": "Oro VNL 2021, Oro Europei 2021/2024, Champions League, MVP Europei",
       "bio": "Miglior palleggiatore del mondo. Capitano della Nazionale italiana e di Sir Perugia. La sua visione di gioco è straordinaria."
     },
@@ -408,7 +394,7 @@
       "altezza": "196 cm",
       "nascita": "23 ottobre 2001",
       "club": "Itas Trentino",
-      "foto": [],
+      "foto": ["/atleti/Michieletto.jpg"],
       "palmares": "Oro Europei 2021/2024, Oro VNL 2021, Oro Mondiali 2022",
       "bio": "Giovane fenomeno del volley italiano e mondiale. Schiacciatrice di grande talento e futuro del volley azzurro."
     },
@@ -420,7 +406,7 @@
       "altezza": "200 cm",
       "nascita": "15 settembre 1989",
       "club": "Itas Trentino",
-      "foto": [],
+      "foto": ["/atleti/Leal.jpg"],
       "palmares": "Oro Olimpiadi Rio 2016, Oro VNL, Champions League",
       "bio": "Potente opposta brasiliana con enorme esperienza internazionale. Protagonista in Italia con Trentino."
     },
@@ -432,7 +418,7 @@
       "altezza": "194 cm",
       "nascita": "11 ottobre 1992",
       "club": "Zenit San Pietroburgo",
-      "foto": [],
+      "foto": ["/atleti/Aziz.jpg"],
       "palmares": "MVP Liga A francese, MVP CEV Cup, MVP VNL",
       "bio": "Esplosivo opposta olandese noto per le battute al salto devastanti e per la potenza in attacco. Una delle personalità più forti del volley mondiale."
     },
@@ -444,7 +430,7 @@
       "altezza": "204 cm",
       "nascita": "10 giugno 2000",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Laviajpg"],
       "palmares": "Oro Europei 2024, Oro VNL 2021, Oro Mondiali 2022",
       "bio": "Uno dei più grandi talenti del volley mondiale. Giovanissimo e già titolare fisso nella Nazionale italiana e in Champions League."
     },
@@ -456,7 +442,7 @@
       "altezza": "207 cm",
       "nascita": "5 luglio 1997",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Galassi.jpg"],
       "palmares": "Oro Europei 2024, Oro Mondiali 2022, Champions League",
       "bio": "Centrale di altezza straordinaria (207 cm). Tra i migliori al muro nel panorama mondiale. Pilastro di Sir Perugia e della Nazionale."
     },
@@ -468,7 +454,7 @@
       "altezza": "181 cm",
       "nascita": "18 luglio 1995",
       "club": "Imoco Civitanova",
-      "foto": [],
+      "foto": ["/atleti/Balaso.jpg"],
       "palmares": "Oro Europei 2021/2024, Oro Mondiali 2022, Miglior Libero Mondiali",
       "bio": "Considerato il miglior libero del mondo. I suoi interventi difensivi sono spettacolari. Colonna della Nazionale italiana."
     },
@@ -480,7 +466,7 @@
       "altezza": "199 cm",
       "nascita": "3 ottobre 1984",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Juantorena.jpg"],
       "palmares": "Oro Olimpiadi Londra 2012 (Cuba), Argento Olimpiadi Rio 2016 (Italia), Champions League",
       "bio": "Leggenda del volley mondiale. Nato a Cuba, ha scelto l'Italia. Uno dei più forti schiacciatori della storia del volley."
     },
@@ -492,7 +478,7 @@
       "altezza": "193 cm",
       "nascita": "12 febbraio 1991",
       "club": "Zenit Kazan",
-      "foto": [],
+      "foto": ["/atleti/Ngapeth.jpg"],
       "palmares": "Oro Olimpiadi Tokyo 2020, Oro Europei 2015, Champions League",
       "bio": "Talento cristallino del volley francese. Campione olimpico a Tokyo 2020 con la Francia. Noto per le giocate spettacolari e la creatività."
     },
@@ -504,7 +490,7 @@
       "altezza": "204 cm",
       "nascita": "24 aprile 1988",
       "club": "Chaumont VB 52",
-      "foto": [],
+      "foto": ["/atleti/Le Roux.jpg"],
       "palmares": "Oro Olimpiadi Tokyo 2020, Oro Europei 2015, Champions League",
       "bio": "Centrale francese campione olimpico. Straordinario nel gioco a rete, ha contribuito ai più grandi successi della squadra transalpina."
     },
@@ -516,7 +502,7 @@
       "altezza": "201 cm",
       "nascita": "2 maggio 1994",
       "club": "Itas Trentino",
-      "foto": [],
+      "foto": ["/atleti/Saatkamp.jpg"],
       "palmares": "Oro Olimpiadi Rio 2016, VNL 2021",
       "bio": "Centrale brasiliano campione olimpico. Tra i migliori nel muro e nel gioco rapido a livello mondiale."
     },
@@ -528,7 +514,7 @@
       "altezza": "201 cm",
       "nascita": "2 ottobre 1988",
       "club": "Valsa Group Modena",
-      "foto": [],
+      "foto": ["/atleti/Zaytsev.jpg"],
       "palmares": "Argento Mondiali 2010, Argento Olimpiadi 2012 e 2016",
       "bio": "Il grande opposta italiano. Soprannominato lo 'Zar' per la potenza della sua battuta. Uno dei giocatori più amati dal pubblico italiano."
     },
@@ -540,7 +526,7 @@
       "altezza": "195 cm",
       "nascita": "1 giugno 1995",
       "club": "Itas Trentino",
-      "foto": [],
+      "foto": ["/atleti/Boyer.jpg"],
       "palmares": "Oro Olimpiadi Tokyo 2020, MVP Champions League",
       "bio": "Schiacciatrice francese campione olimpico. Protagonista con Trentino in Champions League e nella Nazionale transalpina."
     },
@@ -552,7 +538,7 @@
       "altezza": "189 cm",
       "nascita": "22 agosto 1989",
       "club": "Chaumont VB 52",
-      "foto": [],
+      "foto": ["/atleti/Benjamin.jpg"],
       "palmares": "Oro Olimpiadi Tokyo 2020, Oro Europei 2015",
       "bio": "Il palleggiatore della Francia campione olimpica. Grande intelligenza di gioco e visione tattica straordinaria."
     },
@@ -564,7 +550,7 @@
       "altezza": "203 cm",
       "nascita": "28 agosto 1988",
       "club": "Jastrzebski Wegiel",
-      "foto": [],
+      "foto": ["/atleti/Kurek.jpg"],
       "palmares": "Oro Mondiali 2014/2018, Oro VNL 2023, MVP Mondiali 2018",
       "bio": "Leggendario opposta polacco. MVP dei Mondiali 2018 vinti dalla Polonia. Tra i più grandi attaccanti della storia del volley."
     },
@@ -576,7 +562,7 @@
       "altezza": "198 cm",
       "nascita": "21 ottobre 1993",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/CHristensen.jpg"],
       "palmares": "Champions League con Perugia, vari titoli club",
       "bio": "Palleggiatore americano di classe internazionale. Gioca in Italia con Sir Perugia dove ha vinto titoli importanti."
     },
@@ -588,33 +574,33 @@
       "altezza": "203 cm",
       "nascita": "16 aprile 1987",
       "club": "Zenit Kazan",
-      "foto": [],
+      "foto": ["/atleti/Andersonjpg"],
       "palmares": "Oro FIVB World League, Bronzo Olimpiadi",
       "bio": "Opposta americano di grande fisicità. Tra i migliori al mondo nel suo ruolo per anni con la Nazionale USA e i top club russi."
     },
     {
       "id": 19,
-      "nome": "",
-      "nazionalita": "",
-      "ruolo": "",
-      "altezza": "",
-      "nascita": "",
-      "club": "",
-      "foto": [],
-      "palmares": "",
-      "bio": ""
+      "nome": "Tomohiro Yamamoto",
+      "nazionalita": "Giappone",
+      "ruolo": "Libero",
+      "altezza": "171 cm",
+      "nascita": "5 novembre 1994",
+      "club": "LKPS",
+      "foto": ["/atleti/yamamoto.jpg"],
+      "palmares": "2019 - Campionato asiatico e oceaniano: Miglior libero 2024 - V.League Division 1: Miglior libero 2024 - Volleyball Nations League: Miglior libero 2025 - AVC Champions League: Miglior libero 2025 - Campionato mondiale per club: Miglior libero[9]",
+      "bio": "Campionato giapponese: 2025-26, Coppa dell'Imperatore: 2023 "
     },
     {
       "id": 20,
-      "nome": "",
-      "nazionalita": "",
-      "ruolo": "",
-      "altezza": "",
-      "nascita": "",
-      "club": "",
-      "foto": [],
-      "palmares": "",
-      "bio": ""
+      "nome": "Yuri Romano",
+      "nazionalita": "Italia",
+      "ruolo": "opposto",
+      "altezza": "203 cm",
+      "nascita": "26 luglio 1996",
+      "club": "PGE Projekt Warszawa",
+      "foto": ["/atleti/Romano.jpg"],
+      "palmares": "Argento Europei 2023, Oro Mondiali 2025,Oro Europei 2021, Oro Mondiali 2022,",
+      "bio": "2019 - Serie A2: Miglior under 23,2020 - Serie A2: Miglior under 23, 2025 - Campionato mondiale: Miglior opposto"
     },
     {
       "id": 21,
@@ -624,7 +610,7 @@
       "altezza": "200 cm",
       "nascita": "18 ottobre 1984",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Kaziyski.jpg"],
       "palmares": "Champions League, vari titoli club europei",
       "bio": "Leggenda del volley bulgaro. Ha giocato nei top club europei per 20 anni. Ancora protagonista in Serie A1 italiana con Sir Perugia."
     },
@@ -636,7 +622,7 @@
       "altezza": "204 cm",
       "nascita": "20 febbraio 1991",
       "club": "Vojvodina",
-      "foto": [],
+      "foto": ["/atleti/Atanasijevic.jpg"],
       "palmares": "Oro Europei 2019, Argento Mondiali, Champions League",
       "bio": "Potente opposta serbo. Tra i migliori attaccanti d'Europa per anni. Ha militato nei top club italiani e turchi."
     },
@@ -648,7 +634,7 @@
       "altezza": "205 cm",
       "nascita": "19 marzo 1988",
       "club": "Zenit Kazan",
-      "foto": [],
+      "foto": ["/atleti/Mikhaylov.jpg"],
       "palmares": "Oro Olimpiadi Londra 2012, Champions League, MVP Olimpiadi 2012",
       "bio": "MVP delle Olimpiadi di Londra 2012. Uno dei più grandi opposti della storia del volley con la Russia e Zenit Kazan."
     },
@@ -660,7 +646,7 @@
       "altezza": "208 cm",
       "nascita": "3 agosto 1986",
       "club": "Allianz Milano",
-      "foto": [],
+      "foto": ["/atleti/Simon.jpg"],
       "palmares": "Champions League, vari titoli club europei",
       "bio": "Centrale cubano naturalizzato italiano. Straordinario nel muro grazie all'altezza eccezionale (208 cm). Ha giocato nei migliori club europei."
     },
@@ -672,7 +658,7 @@
       "altezza": "212 cm",
       "nascita": "28 agosto 1994",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Kozamernik.jpg"],
       "palmares": "Champions League con Perugia, vari titoli club",
       "bio": "Il giocatore più alto della Serie A1 (212 cm). Centrale sloveno di grande impatto nel muro. Gioca con Sir Perugia in Champions League."
     },
@@ -684,7 +670,7 @@
       "altezza": "207 cm",
       "nascita": "29 luglio 1992",
       "club": "Cucine Lube Civitanova",
-      "foto": [],
+      "foto": ["/atleti/Sole.jpg"],
       "palmares": "Champions League 2021, Supercoppa italiana",
       "bio": "Centrale argentino di grande qualità nel muro e nel gioco rapido. Protagonista in Italia con Civitanova e nella Nazionale argentina."
     },
@@ -696,7 +682,7 @@
       "altezza": "218 cm",
       "nascita": "29 ottobre 1988",
       "club": "Zenit Kazan",
-      "foto": [],
+      "foto": ["/atleti/Muserskiy.jpg"],
       "palmares": "Oro Olimpiadi Londra 2012, Champions League",
       "bio": "Il giocatore più alto della storia del volley (218 cm). Protagonista dell'oro olimpico russo a Londra 2012 con una prestazione memorabile in finale."
     },
@@ -708,7 +694,7 @@
       "altezza": "199 cm",
       "nascita": "27 settembre 1998",
       "club": "Sir Susa Vim Perugia",
-      "foto": [],
+      "foto": ["/atleti/Semeniuk.jpg"],
       "palmares": "Oro Mondiali 2022, Oro VNL 2023, Champions League",
       "bio": "Schiacciatrice polacco di grande talento. Protagonista con la Polonia campione del mondo e con Sir Perugia in Champions League."
     },
@@ -720,7 +706,7 @@
       "altezza": "188 cm",
       "nascita": "27 aprile 1991",
       "club": "Jastrzebski Wegiel",
-      "foto": [],
+      "foto": ["/atleti/Lomacz.jpg"],
       "palmares": "Oro Mondiali 2014/2018/2022, Oro VNL 2023",
       "bio": "Palleggiatore della Polonia tre volte campione del mondo. Grande tecnico e organizzatore del gioco offensivo polacco."
     },
