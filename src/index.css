@@ -3761,10 +3761,32 @@ body.light-mode .match-row { border-color: #ddd !important; }
 
 /* === METEO WIDGET === */
 .masthead__topbar {
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
-  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.3rem 0;
+}
+
+.masthead__topbar-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.masthead__topbar-link {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.masthead__topbar-link:hover { color: var(--gold); }
+
+.masthead__topbar-link--accent {
+  color: var(--gold);
+  font-weight: 700;
 }
 .meteo-widget {
   display: flex;
