@@ -664,11 +664,8 @@ function HomePage() {
           )}
         </div>
       </div>
-    </div>
 
-<div className="iscriviti-banner">
 
-     
 <div className="iscriviti-banner">
           <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
           <a href="#/iscrizione" className="iscriviti-banner__btn">Iscriviti ora →</a>
