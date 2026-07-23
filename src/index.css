@@ -4394,7 +4394,7 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .glossario-item__cat { font-size: 0.7rem; background: var(--border); padding: 2px 8px; border-radius: 10px; color: var(--text-dim); }
 .glossario-item__def { font-size: 0.85rem; line-height: 1.5; color: var(--text); }
 /* === MOBILE === */
- @media (max-width: 768px) {
+ @media (max-width: 1024px) {
   .masthead { padding: 0.4rem 0.5rem 0.6rem; text-align: center; }
   .masthead__title { font-size: 1.4rem; letter-spacing: 0.02em; text-align: center; }
   .masthead__tagline { font-size: 0.6rem; text-align: center; }
