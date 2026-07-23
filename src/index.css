@@ -521,8 +521,6 @@ main {
 }
 
 .hero-inner {
-  position: absolute;
-  top: 0; left: 0; right: 0;
   bottom: 46px;
   display: flex;
   align-items: center;
@@ -534,10 +532,9 @@ main {
   position: absolute;
   width: 150px;
   height: 150px;
-  opacity: 0.2;
+  opacity: 0.15;
   z-index: 1;
-  top: 55%;
-  left: 80%;
+  top: 60%;
 }
 
 .hero-testi {
