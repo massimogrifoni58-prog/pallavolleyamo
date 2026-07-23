@@ -4396,7 +4396,7 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 /* === MOBILE === */
  @media (max-width: 480px) {
   .masthead { padding: 0.4rem 0.5rem 0.6rem; text-align: center; }
-  .masthead__title { font-size: 1.4rem; letter-spacing: 0.02em; text-align: center; }
+  .masthead__title { font-size: 2rem; letter-spacing: 0.02em; text-align: center; }
   .masthead__tagline { font-size: 0.6rem; text-align: center; }
   .masthead__eyebrow { font-size: 0.55rem; letter-spacing: 0.12em; text-align: center; }
   .masthead__topbar { justify-content: center; }
