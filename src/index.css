@@ -4404,6 +4404,11 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
   .ticker__label { font-size: 0.55rem !important; }
   .ticker__single { font-size: 0.55rem !important; }
 }
+@media (max-width: 960px) {
+  .ticker { font-size: 0.6rem !important; }
+  .ticker__label { font-size: 0.55rem !important; }
+  .ticker__single { font-size: 0.55rem !important; }
+}
 /* === ATLETA SETTIMANA === */
 .atleta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
 .atleta-card { background: var(--card-bg); border: 1px solid var(--gold); border-radius: 12px; padding: 1.5rem; text-align: center; }
