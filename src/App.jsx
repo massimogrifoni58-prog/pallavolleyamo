@@ -606,18 +606,6 @@ function HomePage() {
             </linearGradient>
           </defs>
 
-          
-          {/* VOLLEY UMBRIA sulla stessa riga */}
-          <text x="450" y="180"
-            fontFamily="'Bebas Neue', Impact, sans-serif"
-            fontSize="50"
-            fontWeight="900"
-            fill="url(#text-fade)"
-            textAnchor="middle"
-            letterSpacing="10"
-            opacity="0.9">
-            VOLLEYUMBRIA
-          </text>
 
           {/* Linee decorative laterali */}
           <line x1="30" y1="60" x2="30" y2="240" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
