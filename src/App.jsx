@@ -596,12 +596,7 @@ function HomePage() {
               <span className="hero-titolo__oro">VOLLEY</span>
               <span className="hero-titolo__bianco">AMO</span>
             </div>
-            <p className="hero-sub">Il portale del volley umbro</p>
-            <div className="hero-badges">
-              <span className="hero-badge">📰 Notizie quotidiane</span>
-              <span className="hero-badge">🏆 Risultati FIPAV</span>
-              <span className="hero-badge">📍 Terni & Perugia</span>
-            </div>
+            
           </div>
         </div>
 
