@@ -4395,10 +4395,11 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .glossario-item__def { font-size: 0.85rem; line-height: 1.5; color: var(--text); }
 /* === MOBILE === */
  @media (max-width: 600px) {
-  .masthead { padding: 0.5rem 0.5rem 0.75rem; }
-  .masthead__title { font-size: 1.6rem; letter-spacing: 0.02em; }
-  .masthead__tagline { font-size: 0.65rem; }
-  .masthead__eyebrow { font-size: 0.6rem; letter-spacing: 0.15em; }
+  .masthead { padding: 0.4rem 0.5rem 0.6rem; text-align: center; }
+  .masthead__title { font-size: 1.4rem; letter-spacing: 0.02em; text-align: center; }
+  .masthead__tagline { font-size: 0.6rem; text-align: center; }
+  .masthead__eyebrow { font-size: 0.55rem; letter-spacing: 0.12em; text-align: center; }
+  .masthead__topbar { justify-content: center; }
 }
 /* === ATLETA SETTIMANA === */
 .atleta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
