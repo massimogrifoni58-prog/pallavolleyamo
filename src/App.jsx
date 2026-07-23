@@ -409,19 +409,18 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         <LiveClock />
         <div className="masthead__topbar-links">
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
-          <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent">🎁 Iscriviti Gratis</a>
+          <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
           <button onClick={toggleDark} className="dark-toggle" title={darkMode ? "Modalita scura" : "Modalita chiara"}>
             {darkMode ? "☀️" : "🌙"}
           </button>
         </div>
       </div>
-      <p className="masthead__eyebrow">Volley &middot; Umbria</p>
       <a href="#/" className="masthead__title-link">
         <h1 className="masthead__title">
           PALLA<span>VOLLEY</span>AMO
         </h1>
       </a>
-      <p className="masthead__tagline">Notizie e aggiornamenti sul volley umbro</p>
+      <p className="masthead__tagline">Il portale del volley umbro</p>
       <div className="net-divider">
         <span></span>
         <i></i>
