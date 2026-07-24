@@ -64,6 +64,19 @@
       "provincia": "terni",
       "foto": "/articoli/chiappafreddo.jpg",
       "logo": null
+    },
+    {
+      "id": "6",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": " Gianluca Ricci alla guida della serie C della Volleu Academy Bastia ",
+      "testo": "La Volley Academy Bastia è lieta di annunciare il ritorno di Gianluca Ricci, che nella stagione 2026/27 guiderà la nostra Serie C Femminile.Un gradito ritorno in casa VAB: esperienza, competenza e una profonda conoscenza del nostro ambiente saranno al servizio della squadra e del progetto tecnico della società.A Gianluca va il più caloroso bentornato e un grande in bocca al lupo per questa nuova avventura, con l'augurio di vivere insieme una stagione ricca di soddisfazioni.Bentornato, Coach!  ",
+      "data": "24 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "perugia",
+      "foto": "/articoli/ricci.jpg",
+      "logo": null
     }
   ]
 }
