@@ -460,7 +460,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/dirette", label: "🔴 Dirette Live" },
             { href: "#/risultati", label: "Risultati Camp. Regionali" },
-            { href: "#/giovanili", label: "Giovanili" }, 
+            { href: "#/giovanili", label: "Risultati Camp. Giovanili" }, 
             { href: "#/calendario", label: "Calendario" },
             { href: "#/classifica", label: "Classifica" },
             { href: "#/andamento", label: "Andamento Stagione" },
