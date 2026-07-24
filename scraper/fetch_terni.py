@@ -177,10 +177,7 @@ def is_local(title, excerpt):
 
 
 def parse_rss(xml_bytes, limit):
-    try:
-        root = ET.fromstring(xml_bytes)
-    except ET.ParseError:
-        return []
+    root = ET.fromstring(xml_bytes)
     items = root.findall("./channel/item")[:limit]
 
     posts = []
