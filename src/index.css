@@ -30,9 +30,11 @@ a {
 }
 
 .masthead {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 10;
+  left: 0;
+  right: 0;
+  z-index: 100;
   border-bottom: 2px solid var(--gold);
   padding: 1.5rem 1.5rem 1.25rem;
   text-align: center;
@@ -4479,3 +4481,6 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 /* === HERO BADGES === */
 .hero-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
 .hero-badge { background: rgba(212,175,55,0.15); border: 1px solid rgba(212,175,55,0.3); color: var(--gold); font-size: 0.7rem; padding: 0.25rem 0.7rem; border-radius: 20px; }
+body {
+  padding-top: 280px;
+}
