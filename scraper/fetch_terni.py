@@ -71,7 +71,7 @@ ALLOWED_SOURCES = [
 # Escludi TVA e fonti nazionali
 EXCLUDE_KEYWORDS = [
     "terni volley academy", "dragons terni", "conad pala terni",
-    "superenalotto",
+    "superenalotto","sir perugia", "perugia volley", "sirio perugia", "bartoccini", "black angels", "magione", "san feliciano",
 ]
 LIMIT = 20
 
