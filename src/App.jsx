@@ -14,6 +14,7 @@ import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import videoData from "../data/video.json";
 import atletiTopData from "../data/atleti-top.json";
+import mercatoData from "../data/mercato.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
