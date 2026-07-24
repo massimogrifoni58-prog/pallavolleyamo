@@ -42,4 +42,5 @@ jobs:
           git config --global user.name "PallaVolleyAmo Bot"
           git add react-app/data/ react-app/src/buildDate.js
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie"
+          git pull --rebase origin main || true
           git push
