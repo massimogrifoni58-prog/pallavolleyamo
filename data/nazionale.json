@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T16:08:38.914386+00:00",
+  "generatedAt": "2026-07-24T10:02:16.944108+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -19,19 +19,11 @@
     },
     {
       "id": "1",
-      "title": "Andrea Zorzi a Giffoni Sport: “I successi della pallavolo italiana mi riempiono di gioia”",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Wed, 22 Jul 2026 19:08:00 GMT",
-      "image": "https://cdn.corrieredellosport.it/images/2026/07/23/140811892-74f3680a-86e5-465d-9753-c4ba13310861.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/cinema/giffoni-film-festival/2026/07/23-150064932/andrea_zorzi_a_giffoni_sport_i_successi_della_pallavolo_italiana_mi_riempiono_di_gioia"
-    },
-    {
-      "id": "2",
-      "title": "Pallavolo B2F – Lo Stretto riparte da Luciano Azzarà: sarà lui a guidare la matricola Puliservice",
+      "title": "Pallavolo B1F – Sirio Perugia: un nome storico torna sua ribalta nazionale",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 22 Jul 2026 16:59:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/23/pallavolo-b2f-lo-stretto-riparte-da-luciano-azzara-sara-lui-a-guidare-la-matricola-puliservice/"
+      "permalink": "https://www.ivolleymagazine.it/2026/07/23/pallavolo-b1f-sirio-perugia-un-nome-storico-torna-sua-ribalta-nazionale/"
     },
     {
       "id": "vnlfinalsilbrasilesuperailgiap",
@@ -74,7 +66,7 @@
       "permalink": "https://www.volleyball.it/2026/07/22/notizie/argomenti/vnl-femminile/articolo/vnl-finals-graffio-azzurro-italia-in-semifinale-olanda-superata-3-0.html"
     },
     {
-      "id": "3",
+      "id": "5",
       "title": "Successo Nazionale femminile pallavolo Brasile alle VNL Finals",
       "excerpt": "Fonte: abruzzonews24.com",
       "createdTime": "Wed, 22 Jul 2026 11:46:00 GMT",
@@ -96,22 +88,6 @@
       "createdTime": "Wed, 17 Dec 2025 18:05:32 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2025/12/Mikhail_Melnik_Ucraina.jpg",
       "permalink": "https://www.volleyball.it/2025/12/17/notizie/argomenti/internazionale/articolo/ucraina-il-presidente-melnyk-contro-la-decisione-fivb-nuova-sfida-valuteremo-anche-gesti-dimos.html"
-    },
-    {
-      "id": "mondovolleylealtrenewsdel15lug",
-      "title": "Mondo Volley: Le altre news del 15 luglio 2026: Tifanny resta a Osasco, Frassanella sale a Prata, Polonia e Slovenia corrono",
-      "excerpt": "La notturna del volley racconta un mercato che continua tra Italia e Brasile, le azzurre già al...",
-      "createdTime": "Wed, 15 Jul 2026 23:04:46 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Azzurre_a_Macao.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/15/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-15-luglio-2026-tifanny-resta-a-osasco-frassanella-sale-a-prata-po.html"
-    },
-    {
-      "id": "mondovolleylealtrenewsdel14lug",
-      "title": "Mondo Volley: Le altre news del 14 luglio 2026: Italia U18 batte la Slovenia, Gioia chiude con Cannilla, Brescia resta al PalaGeorge",
-      "excerpt": "La serata del volley tiene insieme il balzo degli azzurrini agli Europei Under 18, gli ultimi...",
-      "createdTime": "Wed, 15 Jul 2026 01:59:12 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Clevenot.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/15/notizie/argomenti/vnl-maschile/articolo/mondo-volley-le-altre-news-del-14-luglio-2026-italia-u18-batte-la-slovenia-gioia-chiude-con-canni.html"
     },
     {
       "id": "fivbstrettasuicambidinazionale",
@@ -242,14 +218,6 @@
       "permalink": "https://www.volleyball.it/2025/12/16/notizie/argomenti/europei-maschili/articolo/europei-2026-manfredi-incontra-fontana-milano-prepara-larena-santa-giulia.html"
     },
     {
-      "id": "brasilegabisaltaanchelefinalsd",
-      "title": "Brasile, Gabi salta anche le Finals di Volleyball Nations League",
-      "excerpt": "RIO DE JANEIRO – Il Brasile dovrà fare a meno della sua capitana Gabriela &quot;Gabi&quot; Guimarães anche...",
-      "createdTime": "Tue, 14 Jul 2026 15:35:26 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/06/Gabi.jpeg",
-      "permalink": "https://www.volleyball.it/2026/07/14/notizie/argomenti/vnl-femminile/articolo/brasile-gabi-salta-anche-le-finals-di-volleyball-nations-league.html"
-    },
-    {
       "id": "8",
       "title": "Pallavolo Chieti 1996, Graziano D’Agostino convocato per i processi selettivi nazionali under 16",
       "excerpt": "Fonte: chietitoday.it",
@@ -258,20 +226,28 @@
       "permalink": "https://www.chietitoday.it/sport/volley/pallavolo-chieti-graziano-d-agostino-convocato-nazionale.html"
     },
     {
-      "id": "mondovolleylealtrenewsdel13lug",
-      "title": "Mondo Volley: Le altre news del 13 luglio 2026: Gergye a Palmi. VNL: Brasile con Larissa Besen",
-      "excerpt": "Il mercato muove Palmi, Gioia del Colle e Soverato, il femminile azzurro lavora già sui prossimi...",
-      "createdTime": "Tue, 14 Jul 2026 00:52:04 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Larissa_Besen.png",
-      "permalink": "https://www.volleyball.it/2026/07/14/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-13-luglio-2026-gergye-a-palmi-vnl-brasile-con-larissa-besen.html"
-    },
-    {
       "id": "eurovolley2026cevemikasasvelan",
       "title": "EuroVolley 2026: CEV e Mikasa svelano i palloni ufficiali",
       "excerpt": "Presentati i nuovi V200W-EV per EuroVolley 2026: design dedicato ai Paesi ospitanti e obiettivo di...",
       "createdTime": "Thu, 28 May 2026 18:39:18 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/05/eurovolley-2026-palloni-ufficiali.png",
       "permalink": "https://www.volleyball.it/2026/05/28/notizie/argomenti/europei-maschili/articolo/eurovolley-2026-cev-e-mikasa-svelano-i-palloni-ufficiali.html"
+    },
+    {
+      "id": "lealtrenewsdelvolley23luglio20",
+      "title": "Le altre news del volley, 23 luglio 2026: Mondello a Campobasso, Brasselle a Soverato, Botezat torna a Blaj",
+      "excerpt": "Mercato e nuovi progetti animano la giornata: Campobasso completa il reparto opposti, Soverato...",
+      "createdTime": "Thu, 23 Jul 2026 23:04:24 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Alexandra_Botezat.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/23/notizie/argomenti/mercato-italia/articolo/le-altre-news-del-volley-23-luglio-2026-mondello-a-campobasso-brasselle-a-soverato-botezat-torna.html"
+    },
+    {
+      "id": "vnlfinalsitaliabrasileaprelese",
+      "title": "VNL Finals: Italia-Brasile apre le semifinali, poi Turchia-Cina",
+      "excerpt": "Definito il quadro delle semifinali femminili di VNL a Macao: sabato 25 luglio alle 10...",
+      "createdTime": "Thu, 23 Jul 2026 18:11:03 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/braket_femminile_sf4.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/23/notizie/argomenti/vnl-femminile/articolo/vnl-finals-italia-brasile-apre-le-semifinali-poi-turchia-cina.html"
     },
     {
       "id": "vnlfinalscinadirimontastatiuni",
@@ -296,6 +272,14 @@
       "createdTime": "Thu, 23 Jul 2026 15:14:02 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/zoran-terzic-serbia-eurovolley-2026.jpg",
       "permalink": "https://www.volleyball.it/2026/07/23/notizie/argomenti/europei-femminili/articolo/serbia-terzic-verso-lundicesimo-eurovolley-italia-e-turchia-favorite.html"
+    },
+    {
+      "id": "3",
+      "title": "Andrea Zorzi a Giffoni Sport: “I successi della pallavolo italiana mi riempiono di gioia”",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Thu, 23 Jul 2026 09:07:00 GMT",
+      "image": "https://cdn.corrieredellosport.it/images/2026/07/23/140811892-74f3680a-86e5-465d-9753-c4ba13310861.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/cinema/giffoni-film-festival/2026/07/23-150064932/andrea_zorzi_a_giffoni_sport_i_successi_della_pallavolo_italiana_mi_riempiono_di_gioia"
     },
     {
       "id": "agendalegaredellagiornata",
@@ -402,22 +386,6 @@
       "permalink": "https://www.volleyball.it/2026/07/19/notizie/argomenti/vnl-maschile/articolo/vnl-italia-alle-finals-cuba-battuta-3-1-in-rimonta.html"
     },
     {
-      "id": "4",
-      "title": "L'Italvolley di De Giorgi batte Cuba e si qualifica per le finals della Nations League",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Sun, 19 Jul 2026 06:12:00 GMT",
-      "image": "https://cdn.corrieredellosport.it/images/2026/07/19/085327668-5e12f413-c668-4617-b860-b7c3f947d4a7.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/nazionali-volley/2026/07/19-149984372/l_italvolley_di_de_giorgi_batte_cuba_e_si_qualifica_per_le_finals_della_nations_league"
-    },
-    {
-      "id": "5",
-      "title": "Pallavolo, l'Italia supera Cuba e si qualifica per le Final Eight",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Sun, 19 Jul 2026 04:03:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/7/19/660x290/b_1200x675x95/ferdinando-de-giorgi-wikipedia-c-creative-commons_3277283.jpg",
-      "permalink": "https://it.blastingnews.com/sport/2026/07/pallavolo-litalia-supera-cuba-e-si-qualifica-per-le-final-eight-004074795.html"
-    },
-    {
       "id": "vnlilprogrammadellultimagiorna",
       "title": "VNL: Il programma dell'ultima giornata. Alle 8.30 Cuba - Italia",
       "excerpt": "MODENA - Il programma delle gare finali di VNL maschile  prima della Final Eight.  Azzurri in campo...",
@@ -480,14 +448,6 @@
       "createdTime": "Sat, 18 Jul 2026 18:28:42 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Lagumdzija_Ngaer_e_Drziyga.jpg",
       "permalink": "https://www.volleyball.it/2026/07/18/notizie/argomenti/vnl-maschile/articolo/vnl-lagumdzija-critica-ngapeth-e-drzyzga-al-fenerbahce-hanno-creato-un-disastro.html"
-    },
-    {
-      "id": "vnldanielelaviasiamocresciutip",
-      "title": "VNL:  Daniele Lavia, \"Siamo cresciuti partita dopo partita, contro Cuba servirà il nostro massimo livello\"",
-      "excerpt": "OSAKA (Giappone) - Soddisfatto anche Daniele Lavia, che ha evidenziato la solidità mostrata dagli...",
-      "createdTime": "Sat, 18 Jul 2026 17:56:08 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Lavia_.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/18/notizie/argomenti/vnl-maschile/articolo/vnl-daniele-lavia-siamo-cresciuti-partita-dopo-partita-contro-cuba-servira-il-nostro-massimo-l.html"
     },
     {
       "id": "mondovolleylealtrenewsdel17lug",
@@ -562,6 +522,14 @@
       "permalink": "https://www.volleyball.it/2026/07/20/notizie/argomenti/internazionale/articolo/brasile-maschile-e-allarme-risultati-in-calo-dal-2023.html"
     },
     {
+      "id": "4",
+      "title": "Pallavolo VNL F – Olanda senza Eline Timmerman (che ha rinunciato alla nazionale) contro le Azzurre",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Mon, 20 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/21/pallavolo-vnl-f-olanda-senza-eline-timmerman-che-ha-rinunciato-alla-nazionale-contro-le-azzurre/"
+    },
+    {
       "id": "vnlnikolovhoweebrizardguidanol",
       "title": "VNL: Nikolov, Howe e Brizard guidano le statistiche della fase preliminare",
       "excerpt": "A fine fase preliminare della VNL maschile sono stati definiti i migliori per fondamentali: doppio...",
@@ -578,7 +546,7 @@
       "permalink": "https://www.volleyball.it/2026/07/20/notizie/argomenti/vnl-maschile/articolo/vnl-gli-orari-dei-quarti-della-final-eight-azzurri-in-campo-il-30-luglio.html"
     },
     {
-      "id": "7",
+      "id": "9",
       "title": "La pallavolo di Hryhorii Khotsevych: un cerchio che si chiude e si apre in SuperLega",
       "excerpt": "Fonte: oasport.it",
       "createdTime": "Mon, 20 Jul 2026 10:26:00 GMT",
@@ -640,6 +608,38 @@
       "createdTime": "Mon, 11 Aug 2025 15:57:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/Momntenegro_deb.jpg",
       "permalink": "https://www.volleyball.it/2025/08/11/notizie/argomenti/europei-femminili/articolo/europei-2026-f-definite-le-24-qualificate-la-prima-volta-del-montenegro.html"
+    },
+    {
+      "id": "10",
+      "title": "Polverosi: \"Molto può prendere la Nazionale di calcio dalla Nazionale di pallavolo femminile\"",
+      "excerpt": "Fonte: tuttomercatoweb.com",
+      "createdTime": "Mon, 08 Sep 2025 03:07:00 GMT",
+      "image": "https://tmw-storage-auto.tcccdn.com/storage/tuttomercatoweb.com/img_notizie/thumb3/28/28d03ecb5d67e79c1489f1c1b95af0c7-23968-oooz0000.jpeg",
+      "permalink": "https://www.tuttomercatoweb.com/serie-a/polverosi-molto-puo-prendere-la-nazionale-di-calcio-dalla-nazionale-di-pallavolo-femminile-2143636"
+    },
+    {
+      "id": "fivbsospendelafederazionefilip",
+      "title": "FIVB sospende la federazione filippina: nominato un comitato ad hoc",
+      "excerpt": "La Board of Administration FIVB ha disposto la sospensione immediata della PNVF per criticità di...",
+      "createdTime": "Fri, 29 May 2026 19:17:31 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/05/fivb-statement-pnvf.png",
+      "permalink": "https://www.volleyball.it/2026/05/29/notizie/argomenti/internazionale/articolo/fivb-sospende-la-federazione-filippina-nominato-un-comitato-ad-hoc.html"
+    },
+    {
+      "id": "fivbufficialilenuoveregoleciso",
+      "title": "FIVB: Ufficiali le nuove regole... Ci sono tutte le anticipazioni, vietato il pallonetto. Manca solo il libero in battuta",
+      "excerpt": "Le anticipazioni arbitrali polacche confermate",
+      "createdTime": "Fri, 27 Feb 2026 22:47:36 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/02/Michieletto_pallometto.jpeg",
+      "permalink": "https://www.volleyball.it/2026/02/27/notizie/argomenti/europei-maschili/articolo/fivb-ufficiali-le-nuove-regole-ci-sono-tutte-le-anticipazioni-vietato-il-pallonetto-manca-solo.html"
+    },
+    {
+      "id": "vnlfinalsfahrpresentaitaliabra",
+      "title": "VNL Finals: Fahr presenta Italia-Brasile: \"Serviranno muro e difesa, ritrovata la nostra alchimia\"",
+      "excerpt": "MACAO – L’Italia si prepara alla semifinale delle Finals di Volleyball Nations League contro il...",
+      "createdTime": "Fri, 24 Jul 2026 10:58:58 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/fahr_video.png",
+      "permalink": "https://www.volleyball.it/2026/07/24/notizie/argomenti/vnl-femminile/articolo/vnl-finals-fahr-presenta-italia-brasile-serviranno-muro-e-difesa-ritrovata-la-nostra-alchimia.html"
     }
   ]
 }
