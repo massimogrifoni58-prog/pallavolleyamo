@@ -4482,8 +4482,8 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .hero-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
 .hero-badge { background: rgba(212,175,55,0.15); border: 1px solid rgba(212,175,55,0.3); color: var(--gold); font-size: 0.7rem; padding: 0.25rem 0.7rem; border-radius: 20px; }
 .campionati-hero {
-  width: 100%;
-  height: 160px;
+  width: 80%;
+  height: 250px;
   background-image: url('/herocamp.jpg');
   background-size: cover;
   background-position: center;
