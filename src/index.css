@@ -2657,7 +2657,7 @@ main {
 .campionati-hero {
   width: 100%;
   height: 160px;
-  background-image: url('https://plus.unsplash.com/premium_photo-1708696217074-93c0e783aee9?fm=jpg&q=80&w=1200&auto=format&fit=crop');
+  background-image: url('/herocamp.jpg');
   background-size: cover;
   background-position: center 40%;
   position: relative;
@@ -4481,3 +4481,14 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 /* === HERO BADGES === */
 .hero-badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
 .hero-badge { background: rgba(212,175,55,0.15); border: 1px solid rgba(212,175,55,0.3); color: var(--gold); font-size: 0.7rem; padding: 0.25rem 0.7rem; border-radius: 20px; }
+.campionati-hero {
+  width: 100%;
+  height: 160px;
+  background-image: url('/herocamp.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
