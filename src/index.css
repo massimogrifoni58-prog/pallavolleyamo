@@ -2670,7 +2670,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('/herocamp.jpg');
+  background-image: url('/herocamp2.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(2px);
@@ -4488,7 +4488,7 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .campionati-hero {
   width: 70%;
   height: 250px;
-  background-image: url('/herocamp.jpg');
+  background-image: url('/herocamp2.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
