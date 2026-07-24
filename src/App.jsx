@@ -608,10 +608,6 @@ function HomePage() {
 
 
           {/* Linee decorative laterali */}
-          <line x1="30" y1="60" x2="30" y2="240" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
-          <line x1="30" y1="60" x2="80" y2="60" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
-          <line x1="870" y1="60" x2="870" y2="240" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
-          <line x1="870" y1="240" x2="820" y2="240" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
         </svg>
 
         {/* Fascia risultati */}
