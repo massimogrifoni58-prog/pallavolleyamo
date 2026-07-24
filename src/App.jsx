@@ -459,7 +459,8 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           label="Campionati"
           items={[
             { href: "#/dirette", label: "🔴 Dirette Live" },
-            { href: "#/risultati", label: "Risultati" },
+            { href: "#/risultati", label: "Risultati Camp. Regionali" },
+            { href: "#/giovanili", label: "Giovanili" }, 
             { href: "#/calendario", label: "Calendario" },
             { href: "#/classifica", label: "Classifica" },
             { href: "#/andamento", label: "Andamento Stagione" },
@@ -804,6 +805,57 @@ function SquadraSettimanaPage() {
     </main>
   );
 }
+function GiovaniliPage() {
+  const GIOVANILI_KEYWORDS = ["u13", "u14", "u15", "u16", "u17", "u18", "u19", "under"];
+  
+  const matches = (risultatiData.matches || []).filter((m) => {
+    const comp = (m.competition || "").toLowerCase();
+    return GIOVANILI_KEYWORDS.some(k => comp.includes(k));
+  });
+
+  const byComp = {};
+  matches.forEach((m) => {
+    byComp[m.competition] = byComp[m.competition] || {};
+    byComp[m.competition][m.giornata] = byComp[m.competition][m.giornata] || [];
+    byComp[m.competition][m.giornata].push(m);
+  });
+
+  const [selComp, setSelComp] = useState("");
+  const [selGiornata, setSelGiornata] = useState("");
+
+  const compNames = Object.keys(byComp).sort();
+  const giornate = selComp ? Object.keys(byComp[selComp]).sort((a, b) => giornataNumber(a) - giornataNumber(b)) : [];
+  const matchesToShow = selComp && selGiornata ? byComp[selComp][selGiornata] : null;
+
+  return (
+    <main>
+      <CampionatiHero titolo="Giovanili" />
+      <section className="section">
+        {matches.length === 0 && <p className="state">Nessun risultato giovanile disponibile.</p>}
+        <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginBottom: "1.25rem" }}>
+          <select className="all2-select" style={{ flex: 1, minWidth: "200px" }}
+            value={selComp} onChange={(e) => { setSelComp(e.target.value); setSelGiornata(""); }}>
+            <option value="">-- Competizione --</option>
+            {compNames.map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
+          <select className="all2-select" style={{ flex: 1, minWidth: "130px" }}
+            value={selGiornata} onChange={(e) => setSelGiornata(e.target.value)}
+            disabled={!selComp}>
+            <option value="">-- Giornata --</option>
+            {giornate.map((g) => <option key={g} value={g}>{g}</option>)}
+          </select>
+        </div>
+        {matchesToShow && (
+          <div className="competition-block">
+            {matchesToShow.map((m) => (
+              <MatchRow key={m.id} match={m} />
+            ))}
+          </div>
+        )}
+      </section>
+    </main>
+  );
+}
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
   const [modalArticolo, setModalArticolo] = useState(null);
@@ -934,9 +986,8 @@ function getMacroCategory(name) {
 
 function isAllowedCategory(name) {
   const lower = (name || "").toLowerCase();
-  if (lower.includes("under 12") || lower.includes("u12") || lower.includes("under12")) return false;
-  if (lower.includes("under 13") || lower.includes("u13") || lower.includes("under13")) return false;
-  return true;
+  const allowed = ["serie c", "serie d", "1 divisione", "prima divisione", "2 divisione", "seconda divisione", "1° divisione", "2° divisione"];
+  return allowed.some(k => lower.includes(k));
 }
 function VideoPage() {
   const videos = videoData.video || [];
@@ -4414,7 +4465,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","giovanili","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4443,6 +4494,7 @@ export default function App() {
           {route === "risultati" && <RisultatiPage />}
           {route === "calendario" && <CalendarioPage />}
           {route === "allenatori" && <AllenatoriPage />}
+          {route === "giovanili" && <GiovaniliPage />}
           {SECTIONS[route] && <SectionPage slug={route} subscribed={subscribed} />}
         </div>
 
