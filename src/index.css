@@ -2656,24 +2656,25 @@ main {
 /* === CAMPIONATI HERO === */
 .campionati-hero {
   width: 70%;
-  height: 250px;
-  background-image: url('/herocamp.jpg');
-  background-size: cover;
-  background-position: center;
+  height: 280px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   border-radius: 12px;
-  filter: blur(2px);
+  overflow: hidden;
 }
 
 .campionati-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(11,11,12,0.72);
+  background-image: url('/herocamp.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: 0;
 }
 
 .campionati-hero__overlay {
