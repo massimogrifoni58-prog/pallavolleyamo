@@ -466,10 +466,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/andamento", label: "Andamento Stagione" },
             { href: "#/rosa", label: "Invia Rosa" },
             { href: "#/headtohead", label: "Head to Head" },
-            { href: "#/risultati-seriec", label: "Serie C" },
-{ href: "#/risultati-seried", label: "Serie D" },
-{ href: "#/risultati-1div", label: "1ª Divisione" },
-{ href: "#/risultati-2div", label: "2ª Divisione" },
           ]}
         />
         <NavDropdown
