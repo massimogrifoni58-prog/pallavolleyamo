@@ -4431,6 +4431,20 @@ function SidebarLeft({ localNews = [] }) {
           <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
         </ul>
       </div>
+    {localNews.length > 0 && (
+        <div className="sidebar__box">
+          <h4 className="sidebar__title">🔴 Ultime locali</h4>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            {localNews.map((n, i) => (
+              <a key={i} href={n.permalink} target="_blank" rel="noreferrer" 
+                style={{ fontSize: "0.78rem", color: "var(--text)", textDecoration: "none", lineHeight: "1.3", borderBottom: "1px solid var(--border)", paddingBottom: "0.4rem" }}>
+                <span style={{ fontSize: "0.65rem", color: "var(--gold)", display: "block" }}>{formatDate(n.createdTime)}</span>
+                {n.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </aside>
   );
 }
