@@ -591,19 +591,6 @@ function HomePage({ latestNews = [] }) {
   return (
     <main>
       <div className="hero-grafico">
-        {latestNews.length > 0 && (
-        <div className="breaking-news">
-          <span className="breaking-news__label">🔴 Ultime notizie</span>
-          <div className="breaking-news__lista">
-            {latestNews.map((n, i) => (
-              <a key={i} href={n.permalink} target="_blank" rel="noreferrer" className="breaking-news__item">
-                <span className="breaking-news__data">{formatDate(n.createdTime)}</span>
-                <span className="breaking-news__titolo">{n.title}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      )} 
         <div className="hero-inner">
           <img src="/logo-pva.svg" alt="Logo PallaVolleyAmo" className="hero-logo-laterale" />
           <div className="hero-testi">
@@ -4419,7 +4406,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
   );
 }
 
-function SidebarLeft() {
+function SidebarLeft({ localNews = [] }) {
   return (
     <aside className="sidebar sidebar--left">
       <div className="sidebar__box sidebar__box--pillola">
@@ -4565,7 +4552,7 @@ export default function App() {
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} />
 
       <div className="page-layout">
-        <SidebarLeft />
+        <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a,b) => parseDate(b) - parseDate(a)).slice(0, 3)} />
 
         <div className="page-content">
           {route === "home" && <HomePage latestNews={latestFive} />}
