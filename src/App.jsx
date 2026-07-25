@@ -466,6 +466,10 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/andamento", label: "Andamento Stagione" },
             { href: "#/rosa", label: "Invia Rosa" },
             { href: "#/headtohead", label: "Head to Head" },
+            { href: "#/risultati?cat=Serie+C", label: "Serie C" },
+            { href: "#/risultati?cat=Serie+D", label: "Serie D" },
+            { href: "#/risultati?cat=1+Divisione", label: "1ª Divisione" },
+            { href: "#/risultati?cat=2+Divisione", label: "2ª Divisione" },
           ]}
         />
         <NavDropdown
@@ -1208,6 +1212,7 @@ function DiretteLivePage() {
 }
 
 function RisultatiPage() {
+  const urlCat = new URLSearchParams(window.location.hash.split("?")[1] || "").get("cat") || "";
   const matches = (risultatiData.matches || []).filter((m) => isAllowedCategory(m.competition));
 
   const byMacro = {};
@@ -1223,7 +1228,7 @@ function RisultatiPage() {
     (a, b) => competitionScore(a) - competitionScore(b)
   );
 
-  const [selMacro, setSelMacro] = useState("");
+  const [selMacro, setSelMacro] = useState(urlCat);
   const [selComp, setSelComp] = useState("");
   const [selGiornata, setSelGiornata] = useState("");
 
