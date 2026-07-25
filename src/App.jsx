@@ -4407,7 +4407,6 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
 }
 
 function SidebarLeft({ localNews = [] }) {
-  console.log("localNews:", localNews);
   return (
     <aside className="sidebar sidebar--left">
       <div className="sidebar__box sidebar__box--pillola">
@@ -4420,28 +4419,7 @@ function SidebarLeft({ localNews = [] }) {
           <span className="pillola-sidebar-link__arrow">→</span>
         </a>
       </div>
-      <div className="sidebar__box">
-        <p style={{color:"red"}}>TEST: {localNews.length} notizie</p>
-      </div>
-      <div className="sidebar__box">
-        <h4 className="sidebar__title">Link utili</h4>
-      <div className="sidebar__box">
-        <h4 className="sidebar__title">Link utili</h4>
-        <ul className="sidebar__links">
-          <li><a href="https://www.fipavumbria.it" target="_blank" rel="noreferrer">FIPAV Umbria</a></li>
-          <li><a href="https://www.federvolley.it" target="_blank" rel="noreferrer">FIPAV Nazionale</a></li>
-          <li><a href="https://www.legavolley.it" target="_blank" rel="noreferrer">SuperLega</a></li>
-          <li><a href="https://www.legavolley.it/category/serie-a3/" target="_blank" rel="noreferrer">Serie A3 Maschile</a></li>
-          <li><a href="https://www.legavolleyfemminile.it" target="_blank" rel="noreferrer">Serie A1 Femminile</a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
-        </ul>
-      </div>
-      </a>
-      </div>
-      <div className="sidebar__box">
-        <p style={{color:"red"}}>TEST: {localNews.length} notizie</p>
-      </div>
-    {localNews.length > 0 && (
+      {localNews.length > 0 && (
         <div className="sidebar__box">
           <h4 className="sidebar__title">🔴 Ultime locali</h4>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
@@ -4455,6 +4433,17 @@ function SidebarLeft({ localNews = [] }) {
           </div>
         </div>
       )}
+      <div className="sidebar__box">
+        <h4 className="sidebar__title">Link utili</h4>
+        <ul className="sidebar__links">
+          <li><a href="https://www.fipavumbria.it" target="_blank" rel="noreferrer">FIPAV Umbria</a></li>
+          <li><a href="https://www.federvolley.it" target="_blank" rel="noreferrer">FIPAV Nazionale</a></li>
+          <li><a href="https://www.legavolley.it" target="_blank" rel="noreferrer">SuperLega</a></li>
+          <li><a href="https://www.legavolley.it/category/serie-a3/" target="_blank" rel="noreferrer">Serie A3 Maschile</a></li>
+          <li><a href="https://www.legavolleyfemminile.it" target="_blank" rel="noreferrer">Serie A1 Femminile</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer">PallaVolleyAmo su Facebook</a></li>
+        </ul>
+      </div>
     </aside>
   );
 }
