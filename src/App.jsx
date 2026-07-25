@@ -466,10 +466,10 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/andamento", label: "Andamento Stagione" },
             { href: "#/rosa", label: "Invia Rosa" },
             { href: "#/headtohead", label: "Head to Head" },
-            { href: "#/risultati?cat=Serie+C", label: "Serie C" },
-            { href: "#/risultati?cat=Serie+D", label: "Serie D" },
-            { href: "#/risultati?cat=1+Divisione", label: "1ª Divisione" },
-            { href: "#/risultati?cat=2+Divisione", label: "2ª Divisione" },
+            { href: "#/risultati-seriec", label: "Serie C" },
+{ href: "#/risultati-seried", label: "Serie D" },
+{ href: "#/risultati-1div", label: "1ª Divisione" },
+{ href: "#/risultati-2div", label: "2ª Divisione" },
           ]}
         />
         <NavDropdown
@@ -4578,7 +4578,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","giovanili","terni","perugia","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","perugia","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4605,6 +4605,10 @@ export default function App() {
           {route === "classifica" && <ClassificaPage />}
           {route === "dirette" && <DiretteLivePage />}
           {route === "risultati" && <RisultatiPage />}
+          {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
+          {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}
+          {route === "risultati-1div" && <RisultatiPage cat="1 Divisione" />}
+          {route === "risultati-2div" && <RisultatiPage cat="2 Divisione" />}
           {route === "calendario" && <CalendarioPage />}
           {route === "rosa" && <RosaPage />}
           {route === "allenatori" && <AllenatoriPage />}
