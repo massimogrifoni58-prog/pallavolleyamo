@@ -4407,6 +4407,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
 }
 
 function SidebarLeft({ localNews = [] }) {
+  console.log("localNews:", localNews);
   return (
     <aside className="sidebar sidebar--left">
       <div className="sidebar__box sidebar__box--pillola">
