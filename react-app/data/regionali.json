@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T06:51:01.155658+00:00",
+  "generatedAt": "2026-07-25T07:12:55.672183+00:00",
   "posts": [
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -74,7 +74,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -130,7 +130,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo Fipav Umbria – Nessuna sanzione per chi si ritirerà dai campiona di categoria dopo l’inizio",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 28 Jan 2021 16:00:00 GMT",
@@ -202,7 +202,15 @@
       "permalink": "https://www.umbria24.it/citta-di-castello/volley-altotevere-completa-il-roster-con-lo-schiacciatore-bianchini/"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
+      "title": "Volley Mercato: Francesca Michieletto schiaccerà a Perugia",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Thu, 14 May 2026 11:12:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/05/14/160729642-72be6521-908c-4c57-afc8-d4b01ae8dd77.jpeg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/05/14-148641932/volley_mercato_francesca_michieletto_schiaccer_a_perugia"
+    },
+    {
+      "id": "news-5",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
@@ -210,7 +218,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -266,7 +274,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/umbria-presente-nelle-tappe-di-beach-volley-giovanile/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -274,20 +282,12 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
       "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/12/21/1766312841-perugia-volley.jpeg",
       "permalink": "https://www.ilpost.it/2025/12/21/perugia-va-in-finale-mondiale-club-pallavolo/"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
-      "image": "https://www.ansa.it/webimages/img_1129x635/2026/5/25/1b6cf8ad1cc0babb8ff23df27735c1fe.jpg",
-      "permalink": "https://www.ansa.it/umbria/notizie/2026/05/25/pallavolo-la-sir-perugia-ricevuta-a-palazzo-dei-priori_e007308e-13aa-4ab6-b0d2-c053b9548afc.html"
     },
     {
       "id": "news-4",
@@ -322,7 +322,7 @@
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
       "excerpt": "Fonte: latinaquotidiano.it",
       "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
@@ -338,7 +338,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
@@ -346,7 +346,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Il mercato del volley. Città di Castello Pallavolo. Confermati i fratelli Giovanni e Lorenzo Panizzi",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Fri, 24 Jul 2026 23:11:53 GMT",
@@ -394,7 +394,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/la-fipav-organizza-la-formazione-per-i-club-di-serie-b/"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
       "excerpt": "Fonte: today.it",
       "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
