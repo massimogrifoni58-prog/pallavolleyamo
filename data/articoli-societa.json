@@ -77,6 +77,19 @@
       "provincia": "perugia",
       "foto": "/articoli/ricci.jpg",
       "logo": null
+    },
+    {
+      "id": "7",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "Strategia, passione e una promozione storica",
+      "testo": "Coach Carlo Iacone e Vice Luca Pasquini : gli architetti del nostro salto in Serie C. Questa è solo la prima pagina di una nuova grande storia! ",
+      "data": "20 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "terni",
+      "foto": "/articoli/iacone.jpg",
+      "logo": null
     }
   ]
 }
