@@ -565,7 +565,7 @@ function RicercaSocieta() {
   );
 }
 
-function HomePage() {
+function HomePage({ latestNews = [] }) {
   const risultati = (risultatiData.matches || []).filter((m) => {
     if (m.status !== "disputata" || !m.score) return false;
     const comp = (m.competition || "").toLowerCase();
