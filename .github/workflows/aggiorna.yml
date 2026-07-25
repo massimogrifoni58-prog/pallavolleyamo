@@ -33,6 +33,7 @@ jobs:
           python fetch_volley_feeds.py
           python fetch_coach_news.py
           cd ..
+          cp react-app/data/*.json data/
           mkdir -p react-app/src
           echo "export const BUILD_DATE = '$(date)';" > react-app/src/buildDate.js
 
@@ -41,6 +42,7 @@ jobs:
           git config --global user.email "massimogrifoni58@gmail.com"
           git config --global user.name "PallaVolleyAmo Bot"
           git add react-app/data/ react-app/src/buildDate.js
+          git add react-app/data/ data/ react-app/src/buildDate.js
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie"
           git pull --rebase origin main || true
           git push
