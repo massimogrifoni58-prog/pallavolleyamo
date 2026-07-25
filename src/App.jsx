@@ -464,6 +464,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/calendario", label: "Calendario" },
             { href: "#/classifica", label: "Classifica" },
             { href: "#/andamento", label: "Andamento Stagione" },
+            { href: "#/rosa", label: "Invia Rosa" },
             { href: "#/headtohead", label: "Head to Head" },
           ]}
         />
@@ -853,6 +854,99 @@ function GiovaniliPage() {
           </div>
         )}
       </section>
+    </main>
+  );
+}
+function RosaPage() {
+  const [form, setForm] = useState({
+    societa: "", categoria: "", provincia: "", nome: "", ruolo: "", anno: "", contatto: ""
+  });
+  const [status, setStatus] = useState("idle");
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setStatus("sending");
+    fetch("https://formspree.io/f/xdaqpeaj", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    })
+      .then(() => setStatus("done"))
+      .catch(() => setStatus("error"));
+  }
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">📋 Rosa Squadre</h1>
+      <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem" }}>
+        Inserisci i nominativi delle tue atlete/atleti. I dati saranno utilizzati per la Formazione della Settimana e altre iniziative del portale.
+      </p>
+
+      {status === "done" ? (
+        <div className="form-success">✅ Dati inviati! Grazie per la collaborazione.</div>
+      ) : (
+        <div className="form-card">
+          <div className="form-group">
+            <label>Società *</label>
+            <input className="form-input" type="text" placeholder="Nome della società"
+              value={form.societa} onChange={e => setForm({...form, societa: e.target.value})} />
+          </div>
+          <div className="form-row">
+            <div className="form-group">
+              <label>Categoria *</label>
+              <select className="form-input" value={form.categoria} onChange={e => setForm({...form, categoria: e.target.value})}>
+                <option value="">-- Seleziona --</option>
+                <option>Serie C</option>
+                <option>Serie D</option>
+                <option>1ª Divisione</option>
+                <option>2ª Divisione</option>
+              </select>
+            </div>
+            <div className="form-group">
+              <label>Provincia *</label>
+              <select className="form-input" value={form.provincia} onChange={e => setForm({...form, provincia: e.target.value})}>
+                <option value="">-- Seleziona --</option>
+                <option>Terni</option>
+                <option>Perugia</option>
+              </select>
+            </div>
+          </div>
+          <div className="form-row">
+            <div className="form-group">
+              <label>Nome e Cognome *</label>
+              <input className="form-input" type="text" placeholder="Nome atleta"
+                value={form.nome} onChange={e => setForm({...form, nome: e.target.value})} />
+            </div>
+            <div className="form-group">
+              <label>Ruolo *</label>
+              <select className="form-input" value={form.ruolo} onChange={e => setForm({...form, ruolo: e.target.value})}>
+                <option value="">-- Seleziona --</option>
+                <option>Palleggiatrice</option>
+                <option>Schiacciatrice</option>
+                <option>Centrale</option>
+                <option>Opposto</option>
+                <option>Libero</option>
+              </select>
+            </div>
+          </div>
+          <div className="form-row">
+            <div className="form-group">
+              <label>Anno di nascita</label>
+              <input className="form-input" type="number" placeholder="es. 2005"
+                value={form.anno} onChange={e => setForm({...form, anno: e.target.value})} />
+            </div>
+            <div className="form-group">
+              <label>Contatto (email/tel)</label>
+              <input className="form-input" type="text" placeholder="Per eventuali conferme"
+                value={form.contatto} onChange={e => setForm({...form, contatto: e.target.value})} />
+            </div>
+          </div>
+          <button className="form-btn" onClick={handleSubmit} disabled={status === "sending"}>
+            {status === "sending" ? "Invio in corso..." : "Invia Atleta →"}
+          </button>
+          {status === "error" && <p style={{color:"red", marginTop:"0.5rem"}}>Errore nell'invio. Riprova.</p>}
+        </div>
+      )}
     </main>
   );
 }
@@ -4465,7 +4559,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","giovanili","terni","perugia","galleria","risultati","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","giovanili","terni","perugia","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4493,6 +4587,7 @@ export default function App() {
           {route === "dirette" && <DiretteLivePage />}
           {route === "risultati" && <RisultatiPage />}
           {route === "calendario" && <CalendarioPage />}
+          {route === "rosa" && <RosaPage />}
           {route === "allenatori" && <AllenatoriPage />}
           {route === "giovanili" && <GiovaniliPage />}
           {SECTIONS[route] && <SectionPage slug={route} subscribed={subscribed} />}
