@@ -814,6 +814,10 @@ function GiovaniliPage() {
   const GIOVANILI_KEYWORDS = ["u13", "u14", "u15", "u16", "u17", "u18", "u19", "under"];
   
   const matches = (risultatiData.matches || []).filter((m) => {
+    if (!isAllowedCategory(m.competition)) return false;
+    if (cat && !getMacroCategory(m.competition).toLowerCase().includes(cat.toLowerCase())) return false;
+    return true;
+  });
     const comp = (m.competition || "").toLowerCase();
     return GIOVANILI_KEYWORDS.some(k => comp.includes(k));
   });
