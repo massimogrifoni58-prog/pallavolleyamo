@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T07:12:55.672183+00:00",
+  "generatedAt": "2026-07-25T07:20:19.696204+00:00",
   "posts": [
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -54,7 +54,7 @@
       "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
-      "image": "http://www.assisisport.it/wp-content/uploads/2024/03/s.maria-e-assisi-insieme-1024x768.jpeg",
+      "image": null,
       "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
     },
     {
@@ -74,7 +74,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -130,7 +130,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Pallavolo Fipav Umbria – Nessuna sanzione per chi si ritirerà dai campiona di categoria dopo l’inizio",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 28 Jan 2021 16:00:00 GMT",
@@ -218,7 +218,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -230,7 +230,7 @@
       "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
-      "image": "https://www.assisisport.it/wp-content/uploads/2023/05/AC019701-71F2-4229-959A-BF99AD943676.jpeg",
+      "image": null,
       "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
     },
     {
@@ -274,7 +274,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/umbria-presente-nelle-tappe-di-beach-volley-giovanile/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -282,7 +282,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
@@ -294,7 +294,7 @@
       "title": "Fipav Umbria, ecco la lettera del presidente Lomurno a tutte le società di pallavolo della regione",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
-      "image": "https://www.assisisport.it/wp-content/uploads/2020/03/FC516808-1FD9-4341-84B3-A774B17F2EB7.jpeg",
+      "image": null,
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
     },
     {
@@ -322,7 +322,7 @@
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
       "excerpt": "Fonte: latinaquotidiano.it",
       "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
@@ -354,7 +354,7 @@
       "permalink": "https://www.msn.com/it-it/sport/calcio/il-mercato-del-volley-citt%C3%A0-di-castello-pallavolo-confermati-i-fratelli-giovanni-e-lorenzo-panizzi/ar-AA28E52a"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Pallavolo Torneo – Il 19 e il 20 settembre a Roma la seconda edizione del Memorial Simonetta Avalle",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Fri, 24 Jul 2026 17:00:00 GMT",
@@ -394,132 +394,12 @@
       "permalink": "https://www.pianetavolley.net/2026/07/la-fipav-organizza-la-formazione-per-i-club-di-serie-b/"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
       "excerpt": "Fonte: today.it",
       "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
       "image": null,
       "permalink": "https://www.today.it/sport/volley/incassa-6mila-euro-attivita-gratuite-fipav.html"
-    },
-    {
-      "id": "fipav-17968",
-      "title": "Sezione documentazione e comunicati 2026-27",
-      "excerpt": "Come ogni anno viene aggiornata con tutte le novità della stagione agonistica la sezione della…",
-      "createdTime": "2026-07-25T07:32:58",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/03/Fipav-Umbria-Post.jpeg",
-      "permalink": "https://www.fipavumbria.it/campionati-regionali/sezione-documentazione-e-comunicati-2026-27/"
-    },
-    {
-      "id": "fipav-17979",
-      "title": "CQR Beach Volley: Convocazione atlete e atleti del 27 e 29 luglio 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-07-24T17:36:00",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atlete-e-atleti-del-27-e-29-luglio-2026/"
-    },
-    {
-      "id": "fipav-17964",
-      "title": "CQR Beach Volley: Convocazione atlete del 20 e 22 luglio 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-07-17T08:04:23",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atlete-del-20-e-22-luglio-2026/"
-    },
-    {
-      "id": "fipav-17960",
-      "title": "CQR Beach Volley: Convocazione atleti il 14 e 16 luglio 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-07-13T08:50:14",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-il-14-e-16-luglio-2026/"
-    },
-    {
-      "id": "fipav-17951",
-      "title": "CQR Beach Volley: Convocazione atleti e atlete del 7 e 9 luglio 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-07-05T18:44:59",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-e-atlete-del-7-e-9-luglio-2026/"
-    },
-    {
-      "id": "fipav-17947",
-      "title": "CQR Beach Volley: Convocazione atleti del 1 e 2 luglio 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-06-30T17:42:27",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-1-e-2-luglio-2026/"
-    },
-    {
-      "id": "fipav-17940",
-      "title": "News sportello fiscale – scadenza 30 giugno 2026",
-      "excerpt": "SCATTA L’OBBLIGO DI PUBBLICAZIONE DEI CONTRIBUTI PUBBLICI RICEVUTI NELL’ANNO 2025 (Legge 124 del 4 agosto…",
-      "createdTime": "2026-06-30T08:19:47",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/Sportello-fiscale-Fipav-Umbria.png",
-      "permalink": "https://www.fipavumbria.it/campionati-regionali/news-sportello-fiscale-scadenza-30-giugno-2026/"
-    },
-    {
-      "id": "fipav-17936",
-      "title": "CQR Beach Volley: Convocazione atleti del 30 giugno 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-06-30T08:06:33",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-30-giugno-2026/"
-    },
-    {
-      "id": "fipav-17769",
-      "title": "Al via il campionato giovanile Fipav Umbria di Beach Volley targato Sustenia Cup",
-      "excerpt": "Ai nastri di partenza il primo campionato giovanile di Beach Volley targato Fipav Umbria. La…",
-      "createdTime": "2026-06-29T08:17:42",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/Campionato-Giovanile-Beach-Volley-Fipav-Umbria.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/al-via-il-campionato-giovanile-fipav-umbria-di-beach-volley-targato-sustenia-cup/"
-    },
-    {
-      "id": "fipav-17930",
-      "title": "CQR Beach Volley: Convocazione atleti del 25 giugno 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-06-24T14:27:18",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-25-giugno-2026/"
-    },
-    {
-      "id": "fipav-17845",
-      "title": "CQR Femminile: Convocazione AEQUILIBRIUM CUP Trofeo delle Regioni 2026",
-      "excerpt": "Il Comitato Fipav Umbria, su segnalazione del Tecnico della Selezione Regionale Femminile Fabio Berrettoni, CONVOCA…",
-      "createdTime": "2026-06-20T12:42:06",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/CQR-Fipav-Umbria-TDR-2026-AEQUILIBRIUM-CUP-squadra-Femminile.jpg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/cqr/cqr-femminile-convocazione-aequilibrium-cup-trofeo-delle-regioni-2026/"
-    },
-    {
-      "id": "fipav-17844",
-      "title": "CQR Maschile: Convocazione AEQUILIBRIUM CUP Trofeo delle Regioni 2026",
-      "excerpt": "Il Comitato Fipav Umbria, su segnalazione del Tecnico della Selezione Regionale Maschile Andrea Piacentini, CONVOCA…",
-      "createdTime": "2026-06-20T12:41:56",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/CQR-Fipav-Umbria-TDR-2026-AEQUILIBRIUM-CUP-squadra-Maschile.jpg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/cqr/cqr-maschile-convocazione-aequilibrium-cup-trofeo-delle-regioni-2026/"
-    },
-    {
-      "id": "fipav-17840",
-      "title": "CQR Beach Volley: Convocazione atleti del 23 giugno 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-06-20T12:34:44",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-23-giugno-2026/"
-    },
-    {
-      "id": "fipav-17826",
-      "title": "CQR Beach Volley: Convocazione atleti del 18 giugno 2026",
-      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
-      "createdTime": "2026-06-16T21:49:31",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-18-giugno-2026/"
-    },
-    {
-      "id": "fipav-17912",
-      "title": "Accademia Fipav – Corso per dirigenti società sportive umbre",
-      "excerpt": "Si è svolto ieri a Perugia il Corso Dirigenti FIPAV Umbria, una giornata di approfondimento…",
-      "createdTime": "2026-06-16T08:43:23",
-      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/Fipav-Umbria-Festa-della-Pallavolo-2025-26-2026-06-14-at-10.07.38.jpeg",
-      "permalink": "https://www.fipavumbria.it/fipav-nazionale/accademia-fipav-corso-per-dirigenti-societa-sportive-umbre/"
     }
   ]
 }
