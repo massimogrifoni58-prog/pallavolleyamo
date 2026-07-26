@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:36:10.554762+00:00",
+  "generatedAt": "2026-07-26T07:04:45.701201+00:00",
   "posts": [
     {
       "title": "Boom volley dopo le olimpiadi, ma a Terni mancano le strutture",
@@ -7,15 +7,7 @@
       "createdTime": "Wed, 21 Aug 2024 18:01:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/94/44/8309444_pckg_20240822_15046658.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/volley_terni_mancano_le_strutture-8309444.html",
-      "id": "7"
-    },
-    {
-      "title": "Terni Volley, Giancarlo D’Amico è il nuovo allenatore",
-      "excerpt": "Fonte: ivl24.it",
-      "createdTime": "Wed, 17 Jun 2026 02:58:00 GMT",
-      "image": "https://ivl24.it/wp-content/uploads/2026/06/724407993_17894469804532922_5592723038272750347_n.jpg",
-      "permalink": "https://ivl24.it/terni-volley-giancarlo-damico-e-il-nuovo-allenatore/",
-      "id": "3"
+      "id": "6"
     },
     {
       "id": "seriecvolleyilcltvinceilderbya",
@@ -39,7 +31,7 @@
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/69/15/8296915_pckg_20240814_14941798.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html",
-      "id": "8"
+      "id": "7"
     },
     {
       "id": "pallavolotrionfosirperugiaeter",
@@ -103,7 +95,7 @@
       "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=27304",
-      "id": "4"
+      "id": "3"
     },
     {
       "title": "Dalle Fere del calcio all'Italvolley, ecco la dottoressa di Terni che \"cura\" i trionfi della pallavolo femminile azzurra",
@@ -135,7 +127,7 @@
       "createdTime": "Tue, 09 Jul 2024 08:47:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/09/21/8230921_09145314_volley_narni_biribanti_1.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/narni_pallavolo_under16_allenatori_un_giorno_francesco_biribanti_alessia_quondam-8230921.html",
-      "id": "9"
+      "id": "8"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -210,6 +202,14 @@
       "permalink": "https://www.umbriaon.it/pallavolo-sir-perugia-trionfa-anche-in-europa-seconda-champions-league-consecutiva/"
     },
     {
+      "title": "Narni, le ragazze del volley volano in serie D. L'amuleto portafortuna sono gli auguri di Paola Egonu",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 14 Apr 2024 16:12:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/61/84/8056184_14114710_volley.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/narni_le_ragazze_volley_volano_serie_d_amuleto_portafortuna_auguri_di_paola_egonu-8056184.html",
+      "id": "9"
+    },
+    {
       "title": "Volley Team U16, vittoria sulla Amerina Pallavolo",
       "excerpt": "Fonte: orvietosport.it",
       "createdTime": "Sun, 13 Mar 2011 17:00:00 GMT",
@@ -223,7 +223,7 @@
       "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/08/9177140_08210447_.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
-      "id": "6"
+      "id": "5"
     },
     {
       "title": "La Libertas Orvieto Pallavolo perde contro il Colleluna Volley ma convince",
@@ -367,7 +367,7 @@
       "createdTime": "Fri, 23 Jan 2026 08:47:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/volley-team-orvieto/volley-team-u18/",
-      "id": "5"
+      "id": "4"
     },
     {
       "title": "Pallavolo femminile, Arrone agguanta la finale",

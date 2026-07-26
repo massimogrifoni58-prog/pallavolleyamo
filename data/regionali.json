@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:35:17.411434+00:00",
+  "generatedAt": "2026-07-26T07:04:14.006550+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -10,7 +10,7 @@
       "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
     },
     {
-      "id": "news-2",
+      "id": "news-0",
       "title": "Pallavolo B1F – Sirio Perugia: un nome storico torna sua ribalta nazionale",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 22 Jul 2026 16:59:00 GMT",
@@ -40,14 +40,6 @@
       "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
       "image": "http://www.assisisport.it/wp-content/uploads/2024/03/s.maria-e-assisi-insieme-1024x768.jpeg",
       "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
-    },
-    {
-      "id": "news-6",
-      "title": "Incassa 6mila euro per attività gratuite, pena ridotta per consigliere FIPAV Umbria",
-      "excerpt": "Fonte: perugiatoday.it",
-      "createdTime": "Wed, 17 Jul 2024 03:52:00 GMT",
-      "image": null,
-      "permalink": "https://www.perugiatoday.it/sport/volley/incassa-6mila-euro-attivita-gratuite-pena-ridotta.html"
     },
     {
       "id": "news-0",
@@ -98,6 +90,14 @@
       "permalink": "https://www.volleyumbria.it/?p=34526"
     },
     {
+      "id": "news-7",
+      "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/02/1e4e212c-7b64-2826-1735-59d8c28c687c.png",
+      "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
+    },
+    {
       "id": "vu-15",
       "title": "Serie C: le Black Angels fanno festa, sono in finale playoff",
       "excerpt": "Fonte: volleyumbria.it",
@@ -138,7 +138,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
@@ -146,7 +146,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo Fipav Umbria – Nessuna sanzione per chi si ritirerà dai campiona di categoria dopo l’inizio",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 28 Jan 2021 16:00:00 GMT",
@@ -186,7 +186,7 @@
       "permalink": "https://www.volleyumbria.it/?p=34927"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Sir Perugia, il patron: «Il cambiamento per una nuova stagione vincente»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 23 Jul 2026 09:20:00 GMT",
@@ -258,7 +258,7 @@
       "permalink": "https://www.volleyumbria.it/?p=34726"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -322,7 +322,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -370,7 +370,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/a-citta-di-castello-la-pallavolo-e-una-storia-di-famiglia/"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Volley, le sensazioni di Bigi sulle prospettive di Altotevere: «Puntiamo alla Serie A2»",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sat, 25 Jul 2026 05:55:00 GMT",
@@ -394,7 +394,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/umbria-presente-nelle-tappe-di-beach-volley-giovanile/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -506,7 +506,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/stefano-santi-sono-pronto-per-tornare-in-campo/"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Rinasce la Sirio: dalla suggestione alla realtà",
       "excerpt": "Fonte: rainews.it",
       "createdTime": "Fri, 24 Jul 2026 07:03:00 GMT",
