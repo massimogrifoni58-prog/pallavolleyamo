@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T07:04:14.006550+00:00",
+  "generatedAt": "2026-07-27T06:15:38.616162+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -10,12 +10,20 @@
       "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
     },
     {
-      "id": "news-0",
+      "id": "news-2",
       "title": "Pallavolo B1F – Sirio Perugia: un nome storico torna sua ribalta nazionale",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 22 Jul 2026 16:59:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/07/23/pallavolo-b1f-sirio-perugia-un-nome-storico-torna-sua-ribalta-nazionale/"
+    },
+    {
+      "id": "news-1",
+      "title": "Pallavolo A2F – Ancora due settimane, poi Perugia torna a lavorare. Micoli: “Non vedo l’ora”",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Wed, 22 Jul 2026 16:59:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/23/pallavolo-a2f-ancora-due-settimane-poi-perugia-torna-a-lavorare-micoli-non-vedo-lora/"
     },
     {
       "id": "news-3",
@@ -24,14 +32,6 @@
       "createdTime": "Wed, 22 Jul 2026 04:47:00 GMT",
       "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/07/22/1784721207988_sir.jpg",
       "permalink": "https://www.rainews.it/tgr/umbria/video/2026/07/tgr-umbria-web-ginetto-libro-sir-1200-logomp4-c49f49c4-1629-41a7-bda2-e5762243afdc.html"
-    },
-    {
-      "id": "vu-11",
-      "title": "Titolo regionale per la School Volley in Under 13 femminile",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Wed, 22 Apr 2026 13:48:45 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/04/Under-13-School-Volley-Perugia-2025-2026-premiazione.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34481"
     },
     {
       "id": "news-6",
@@ -50,7 +50,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -75,35 +75,11 @@
     },
     {
       "id": "news-7",
-      "title": "Nova Volley cade in casa: Sir Umbria Academy Assisi vince 3-1",
-      "excerpt": "Fonte: ilrestodelcarlino.it",
-      "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
-      "image": "https://www.ilrestodelcarlino.it/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.ilrestodelcarlino.it/ancona/sport/nova-volley-cade-in-casa-f142f098"
-    },
-    {
-      "id": "vu-10",
-      "title": "School Volley cede al  tie-break nella finale regionale di Under 14 femminile",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Tue, 28 Apr 2026 19:25:22 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/04/Under-14-School-Volley-Perugia-2025-2026-premiazione.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34526"
-    },
-    {
-      "id": "news-7",
       "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/02/1e4e212c-7b64-2826-1735-59d8c28c687c.png",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
-    },
-    {
-      "id": "vu-15",
-      "title": "Serie C: le Black Angels fanno festa, sono in finale playoff",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Tue, 19 May 2026 08:31:40 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/05/Bartoccini-School-Volley-conquista-la-finale.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34665"
     },
     {
       "id": "news-5",
@@ -114,20 +90,12 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/13/9125028_13213449_foto_3_2_.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/perugia_mani_fuori_belle_dentro_pallavolo_vincere_detenute_capanne-9125028.html"
-    },
-    {
-      "id": "news-7",
-      "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
-      "image": "https://www.ansa.it/sito/img/ico/ansa-700x366-precomposed.png",
-      "permalink": "https://www.ansa.it/umbria/notizie/2023/05/02/ilaria-vagni-1/o-arbitro-alla-finale-scudetto-maschile-di-volley_9be60c73-6433-488b-a30a-bb0e0a096741.html"
     },
     {
       "id": "news-2",
@@ -138,7 +106,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
     },
     {
-      "id": "news-2",
+      "id": "news-0",
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
@@ -178,15 +146,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/monteluce-annuncia-lingaggio-di-francesco-brighigna/"
     },
     {
-      "id": "vu-5",
-      "title": "“La storia siamo noi”: il trionfo e la leggenda della Sir Safety Perugia",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Thu, 23 Jul 2026 12:19:01 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/07/presentazione-La-storia-siamo-noi.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34927"
-    },
-    {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Sir Perugia, il patron: «Il cambiamento per una nuova stagione vincente»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 23 Jul 2026 09:20:00 GMT",
@@ -194,68 +154,12 @@
       "permalink": "https://www.ilmessaggero.it/umbria/sir_perugia_patron_cambiamento_nuova_stagione_vincente-9668424.html"
     },
     {
-      "id": "lastellasirioperugiatornaabril",
-      "title": "La stella Sirio Perugia torna a brillare nella pallavolo",
-      "excerpt": "Negli anni ‘80 e ’90 ha rappresentato un punto di riferimento per la pallavolo umbra e adesso è pronta a scrivere un nuovo capitolo della propria lunga e gloriosa storia sportiva. La Sirio Perugia Vol",
-      "createdTime": "Thu, 23 Jul 2026 09:00:17 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Sirio-Perugia-logo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/la-stella-sirio-perugia-torna-a-brillare-nella-pallavolo/"
-    },
-    {
-      "id": "stefanomicoliperugiaprontaalla",
-      "title": "Stefano Micoli: «Perugia è pronta alla ripresa»",
-      "excerpt": "Continua il conto alla rovescia in vista del primo raduno per le squadre di pallavolo, la nuova stagione sportiva è alle porte per la società sportiva Black Angels Perugia. La dirigenza ha fissato l’a",
-      "createdTime": "Thu, 23 Jul 2026 05:00:57 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Micoli-Stefano.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/07/stefano-micoli-perugia-e-pronta-alla-ripresa/"
-    },
-    {
-      "id": "news-2",
+      "id": "news-4",
       "title": "La rinascita della Sirio Perugia Volley: acquisto il titolo di San Feliciano-Magione",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 23 Jul 2026 02:04:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/07/Sirio-Perugia-logo.jpg",
       "permalink": "https://www.umbria24.it/perugia/la-rinascita-della-sirio-perugia-volley-acquisto-il-titolo-di-san-feliciano-magione/"
-    },
-    {
-      "id": "vu-8",
-      "title": "L’Italia del volley giovanile arriva ad Assisi",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Thu, 14 May 2026 12:52:23 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/05/203e418d-ab4f-447d-bdd2-583d23712037.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34626"
-    },
-    {
-      "id": "vu-9",
-      "title": "School Volley d’argento nella finale regionale di Under 12 femminile",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Thu, 14 May 2026 12:50:17 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/05/Under-12-School-Volley-Perugia-2025-2026-finale-a-Deruta-persa-.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34624"
-    },
-    {
-      "id": "news-7",
-      "title": "Volley Mercato: Francesca Michieletto schiaccerà a Perugia",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 14 May 2026 11:12:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/05/14/160729642-72be6521-908c-4c57-afc8-d4b01ae8dd77.jpeg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/05/14-148641932/volley_mercato_francesca_michieletto_schiaccer_a_perugia"
-    },
-    {
-      "id": "vu-12",
-      "title": "Nuovo progetto di volley a Trevi, Bellavita coach",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Thu, 02 Jul 2026 19:12:48 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/07/trevivolley.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34865"
-    },
-    {
-      "id": "vu-13",
-      "title": "Serie C: le Black Angels non reggono l’urto di Città di Castello che conquista la B2",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sun, 31 May 2026 13:38:02 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/04/bartoccini-serie-C-.png",
-      "permalink": "https://www.volleyumbria.it/?p=34726"
     },
     {
       "id": "news-4",
@@ -266,6 +170,30 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
+      "id": "news-0",
+      "title": "SandVolley – Mantignana si prepara al Memorial Giri-Fiscella",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sun, 26 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/27/sandvolley-mantignana-si-prepara-al-memorial-giri-fiscella/"
+    },
+    {
+      "id": "almemorialgirifiscellaancorapo",
+      "title": "Al Memorial Giri-Fiscella ancora posti disponibili",
+      "excerpt": "È ormai questione di pochi giorni e si potrà festeggiare una nuova edizione del torneo In campo per Claudio e Franco – Memorial Giri-Fiscella, manifestazione di sand volley 3&#215;3 misto che rapprese",
+      "createdTime": "Sun, 26 Jul 2026 11:09:11 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Memorial-Giri-Fiscella-piazzata.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/al-memorial-giri-fiscella-ancora-posti-disponibili/"
+    },
+    {
+      "id": "claudiobigisangiustinoseriaeso",
+      "title": "Claudio Bigi: «San Giustino è seria e solida»",
+      "excerpt": "Ultimata la campagna acquisti e svelati tutti i nomi della squadra che affronterà la serie A3 maschile, alla Altotevere San Giustino si può tirare il fiato. A commentare le operazioni portate avanti è",
+      "createdTime": "Sun, 26 Jul 2026 07:00:22 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2020/04/Bigi-Claudio.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/07/claudio-bigi-san-giustino-e-seria-e-solida/"
+    },
+    {
       "id": "seriebeccoigironieleavversarie",
       "title": "Serie B, ecco i gironi e le avversarie delle umbre",
       "excerpt": "Pubblicati i gironi delle categorie nazionali di pallavolo, le formazioni umbre si concentrano sulle avversarie. In serie B1 femminile la rappresentante del Cuore Verde d’Italia è nel girone C, la Sir",
@@ -274,12 +202,12 @@
       "permalink": "https://www.pianetavolley.net/2026/07/serie-b-ecco-i-gironi-e-le-avversarie-delle-umbre/"
     },
     {
-      "id": "vu-14",
-      "title": "Serie C: le Black Angels steccano gara 1 della finale playoff",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sun, 24 May 2026 14:01:04 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/04/bartoccini-serie-C-.png",
-      "permalink": "https://www.volleyumbria.it/?p=34692"
+      "id": "news-1",
+      "title": "Sand Volley, iniziato il conto alla rovescia per il Memorial Giri-Fiscella",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Sun, 26 Jul 2026 04:37:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/07/Memorial-Giri-Fiscella-alzata-e1785070845420.jpg",
+      "permalink": "https://www.umbria24.it/sport24/sand-volley-iniziato-il-conto-alla-rovescia-per-il-memorial-giri-fiscella/"
     },
     {
       "id": "news-1",
@@ -298,14 +226,6 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "vu-16",
-      "title": "Città di Castello c’è già, Deruta e Bartoccini ancora in battaglia: le semifinali infiammano la Serie C femminile",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sun, 17 May 2026 17:46:44 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34655"
-    },
-    {
       "id": "news-5",
       "title": "Volley serie B, la Sir Its Umbria Academy Perugia chiude il campionato con l'ottava vittoria consecutiva",
       "excerpt": "Fonte: today.it",
@@ -322,20 +242,12 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
       "image": "https://www.ansa.it/webimages/img_1129x635/2026/3/1/efbbdc1b9a471aab0d8f9d1ca1fd7eb3.jpg",
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
-    },
-    {
-      "id": "vu-7",
-      "title": "La Sir primeggia anche con l’Under 20",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sat, 30 May 2026 06:12:18 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/05/DSC_2437.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34716"
     },
     {
       "id": "ciroiaconeperugiavuolevincerel",
@@ -346,22 +258,6 @@
       "permalink": "https://www.pianetavolley.net/2026/07/ciro-iacone-perugia-vuole-vincere-la-serie-a2-femminile/"
     },
     {
-      "id": "vu-0",
-      "title": "Altotevere, parla Bigi: “Con questo roster possiamo centrare l’obiettivo della A2”",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sat, 25 Jul 2026 12:21:02 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/07/bigi-claudio-ad.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34938"
-    },
-    {
-      "id": "vu-1",
-      "title": "Iacone lancia le Black Angels: “C’è tutto per puntare alla serie A1”",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Sat, 25 Jul 2026 09:13:34 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2025/07/Iacone.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34934"
-    },
-    {
       "id": "acittdicastellolapallavolounas",
       "title": "A Città di Castello la pallavolo è una storia di famiglia",
       "excerpt": "Le trattative imperversano nel volley e le società sportive si danno un gran da fare per cercare di ultimare gli organici prima delle vacanze. La Città di Castello Pallavolo sarà protagonista nel camp",
@@ -370,20 +266,12 @@
       "permalink": "https://www.pianetavolley.net/2026/07/a-citta-di-castello-la-pallavolo-e-una-storia-di-famiglia/"
     },
     {
-      "id": "news-0",
+      "id": "news-3",
       "title": "Volley, le sensazioni di Bigi sulle prospettive di Altotevere: «Puntiamo alla Serie A2»",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sat, 25 Jul 2026 05:55:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/07/bigi-al-palasport-scaled.jpg",
       "permalink": "https://www.umbria24.it/citta-di-castello/volley-le-sensazioni-di-bigi-sulle-prospettive-di-altotevere-puntiamo-alla-serie-a2/"
-    },
-    {
-      "id": "news-2",
-      "title": "Volley, Iacone lancia le ragazze di Perugia: «Puntiamo a vincere il campionato»",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Sat, 25 Jul 2026 05:55:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/07/Iacone-2.jpeg",
-      "permalink": "https://www.umbria24.it/sport24/volley-iacone-lancia-le-ragazze-di-perugia-puntiamo-a-vincere-il-campionato/"
     },
     {
       "id": "umbriapresentenelletappedibeac",
@@ -394,7 +282,7 @@
       "permalink": "https://www.pianetavolley.net/2026/07/umbria-presente-nelle-tappe-di-beach-volley-giovanile/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -402,7 +290,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
@@ -410,7 +298,7 @@
       "permalink": "https://www.ilpost.it/2025/12/21/perugia-va-in-finale-mondiale-club-pallavolo/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -434,15 +322,15 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
-      "id": "vu-6",
-      "title": "Da Perugia a Senigallia per il Memorial Marco Fratini",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Mon, 15 Jun 2026 04:44:46 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/06/School-Volley-Memorial-Carlo-Fratini.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34779"
+      "id": "news-7",
+      "title": "Valori in Campo: ad Assisi il confronto sul futuro delle cooperative sportive",
+      "excerpt": "Fonte: assisinews.it",
+      "createdTime": "Mon, 13 Jul 2026 05:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.assisinews.it/sport/valori-in-campo-ad-assisi-il-confronto-sul-futuro-delle-cooperative-sportive/"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Selezioni Beach Volley Umbria: al via gli allenamenti per il Trofeo delle Regioni",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Mon, 12 May 2025 17:00:00 GMT",
@@ -454,7 +342,7 @@
       "title": "Pallavolo Serie A3 maschile, il Viridex Sabaudia vince 3 a 1 contro il Terni Volley Academy",
       "excerpt": "Fonte: latinaquotidiano.it",
       "createdTime": "Mon, 05 Jan 2026 01:45:00 GMT",
-      "image": "https://www.latinaquotidiano.it/wp-content/uploads/2026/01/VIRIDEX-SABAUDIA-VITTORIA-A-TERNI--e1767606312290.jpg",
+      "image": null,
       "permalink": "https://www.latinaquotidiano.it/pallavolo-serie-a3-maschile-il-viridex-sabaudia-vince-3-a-1-contro-il-terni-volley-academy/"
     },
     {
@@ -466,36 +354,12 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/NGFiZTNjNjMtNmIwMC00/0/trofeo-delle-regioni-lumbria-migliora.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
-    },
-    {
-      "id": "vu-2",
-      "title": "Torna la Sirio Perugia",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Fri, 24 Jul 2026 17:33:29 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2022/02/falini.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34932"
-    },
-    {
-      "id": "vu-3",
-      "title": "Città di Castello: i fratelli Panizzi ancora in biancorosso",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Fri, 24 Jul 2026 17:32:06 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/07/panizzi_castello.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=34930"
-    },
-    {
-      "id": "vu-4",
-      "title": "Pallavolo Monteluce piazza il colpo per la panchina:  Francesco Brighigna",
-      "excerpt": "Fonte: volleyumbria.it",
-      "createdTime": "Fri, 24 Jul 2026 17:29:45 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2020/09/Francesco-Brighigna.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34929"
     },
     {
       "id": "stefanosantisonoprontopertorna",
@@ -640,6 +504,22 @@
       "createdTime": "2026-06-20T12:34:44",
       "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
       "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-23-giugno-2026/"
+    },
+    {
+      "id": "fipav-17826",
+      "title": "CQR Beach Volley: Convocazione atleti del 18 giugno 2026",
+      "excerpt": "Il Presidente del Comitato Regionale FIPAV UMBRIA Agostino BENEDETTI, su indicazione dei tecnici della Selezione…",
+      "createdTime": "2026-06-16T21:49:31",
+      "image": "https://www.fipavumbria.it/wp-content/uploads/2024/05/FIPAV-Umbria-Beach-Volley.jpeg",
+      "permalink": "https://www.fipavumbria.it/fipav-regionale/beach-volley/cqr-beach-volley-convocazione-atleti-del-18-giugno-2026/"
+    },
+    {
+      "id": "fipav-17912",
+      "title": "Accademia Fipav – Corso per dirigenti società sportive umbre",
+      "excerpt": "Si è svolto ieri a Perugia il Corso Dirigenti FIPAV Umbria, una giornata di approfondimento…",
+      "createdTime": "2026-06-16T08:43:23",
+      "image": "https://www.fipavumbria.it/wp-content/uploads/2026/06/Fipav-Umbria-Festa-della-Pallavolo-2025-26-2026-06-14-at-10.07.38.jpeg",
+      "permalink": "https://www.fipavumbria.it/fipav-nazionale/accademia-fipav-corso-per-dirigenti-societa-sportive-umbre/"
     }
   ]
 }
