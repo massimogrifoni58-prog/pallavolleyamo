@@ -1,1 +1,119 @@
-
+{
+  "sezioni": [
+    {
+      "id": "prevenzione",
+      "titolo": "Prevenzione degli infortuni",
+      "intro": "La prevenzione rappresenta il fondamento di ogni programma di allenamento serio. Nel volley gli infortuni più frequenti riguardano caviglie, ginocchia, spalle e schiena. Un lavoro preventivo costante riduce drasticamente il rischio di lesioni e prolunga la carriera sportiva.",
+      "sottosezioni": [
+        {
+          "titolo": "Distorsione alla caviglia",
+          "testo": "La distorsione alla caviglia è l'infortunio più comune nel volley, causata spesso da atterraggi sul piede di un compagno o avversario. La prevenzione si basa su esercizi di propriocezione (equilibrio su superfici instabili), rinforzo dei peronieri e utilizzo di cavigliere durante le partite nei soggetti a rischio. Esercizi consigliati: salti su una gamba con atterraggio controllato, esercizi su tavoletta propriocettiva, rinforzo dei muscoli peroneali con elastico."
+        },
+        {
+          "titolo": "Tendinite rotulea (ginocchio del saltatore)",
+          "testo": "La tendinite rotulea è tipica dei pallavolisti per il numero elevato di salti eseguiti durante gli allenamenti e le partite. Si manifesta con dolore sotto la rotula che aumenta durante l'attività. La prevenzione prevede rinforzo eccentrico del quadricipite, stretching del quadricipite e degli ischiocrurali, riduzione dei volumi di salto nei periodi di alto carico. Esercizio chiave: squat eccentrico su piano inclinato (declinato a 25 gradi)."
+        },
+        {
+          "titolo": "Lesioni alla spalla",
+          "testo": "La spalla del pallavolista è sottoposta a stress ripetitivi durante battute, schiacciate e muri. Le lesioni più comuni riguardano la cuffia dei rotatori e il tendine del sopraspinoso. La prevenzione si concentra sul rinforzo dei muscoli stabilizzatori della scapola e dei rotatori esterni. Esercizi fondamentali: rotazioni esterne con elastico, esercizi di stabilizzazione scapolare, rinforzo del grande dentato."
+        },
+        {
+          "titolo": "Lombalgia",
+          "testo": "Il mal di schiena nel pallavolista è spesso causato da iperlordosi lombare accentuata durante le azioni di gioco, squilibrio tra muscolatura addominale e paravertebrale, movimenti ripetuti di iperestensione durante l'attacco. La prevenzione prevede rinforzo del core (muscolatura profonda del tronco), stretching degli hip flexor e degli erettori spinali, correzione della postura in allenamento."
+        }
+      ]
+    },
+    {
+      "id": "riscaldamento",
+      "titolo": "Riscaldamento e stretching",
+      "intro": "Un riscaldamento adeguato prepara il sistema muscolare, articolare e neurologico allo sforzo fisico, riducendo il rischio di infortuni e migliorando la performance. Lo stretching, se eseguito correttamente e nel momento giusto, contribuisce al recupero e alla mobilità articolare.",
+      "sottosezioni": [
+        {
+          "titolo": "Riscaldamento generale (10-15 minuti)",
+          "testo": "Il riscaldamento deve iniziare con attivazione cardiovascolare progressiva: corsa leggera, skip, calciata, corsetta laterale. Seguono esercizi di mobilizzazione articolare: circoli delle braccia, rotazioni del tronco, mobilizzazione delle caviglie e delle ginocchia. L'obiettivo è portare la temperatura muscolare a circa 38-39 gradi, aumentare la frequenza cardiaca e attivare il sistema nervoso periferico."
+        },
+        {
+          "titolo": "Riscaldamento specifico (5-10 minuti)",
+          "testo": "Il riscaldamento specifico replica i movimenti del volley a intensità ridotta: spostamenti laterali, rimbalzi sul posto, simulazione dei movimenti di attacco e ricezione, esercizi di coordinazione. In questa fase si attivano i pattern motori specifici dello sport e si affina la propriocezione necessaria per i gesti tecnici."
+        },
+        {
+          "titolo": "Stretching pre-allenamento (dinamico)",
+          "testo": "Prima dell'allenamento si privilegia lo stretching dinamico, che mantiene l'attivazione muscolare: affondi con rotazione del tronco, swing delle gambe avanti e laterale, rotazioni delle braccia con progressione di ampiezza, mobilizzazione dinamica della colonna vertebrale. Lo stretching statico prolungato prima dell'attività riduce la forza e la potenza muscolare ed è quindi sconsigliato."
+        },
+        {
+          "titolo": "Stretching post-allenamento (statico)",
+          "testo": "Al termine dell'allenamento lo stretching statico favorisce il recupero e mantiene la mobilità articolare. Ogni posizione si mantiene per 20-30 secondi senza rimbalzi. Muscoli prioritari nel volley: quadricipite e ischiocrurali, adduttori, flessori dell'anca, polpaccio e tendine di Achille, pettorali e rotatori interni della spalla, trapezio e muscoli del collo."
+        }
+      ]
+    },
+    {
+      "id": "muscoli",
+      "titolo": "Distretti muscolari del pallavolista",
+      "intro": "Conoscere i principali distretti muscolari coinvolti nel gioco della pallavolo è fondamentale per pianificare un allenamento completo ed equilibrato. Ogni gesto tecnico sollecita in modo specifico determinati gruppi muscolari che devono essere allenati e curati con attenzione.",
+      "sottosezioni": [
+        {
+          "titolo": "Arti inferiori",
+          "testo": "Gli arti inferiori sono il motore principale del pallavolista. Quadricipite (davanti della coscia): fondamentale nel salto, nei cambi di direzione e nella posizione di ricezione. Ischiocrurali (parte posteriore della coscia): stabilizzatori del ginocchio, attivi nella fase di atterraggio e nei movimenti di difesa. Polpaccio e soleo: decisivi nella spinta verticale del salto e nell'ammortizzazione dell'atterraggio. Glutei: potenza nella spinta verticale e stabilizzazione del bacino nei movimenti laterali. Adduttori e abduttori: controllo degli spostamenti laterali e stabilizzazione dell'anca."
+        },
+        {
+          "titolo": "Core e tronco",
+          "testo": "Il core rappresenta il centro di trasmissione della forza tra la parte inferiore e superiore del corpo. Muscoli addominali profondi (trasverso): stabilizzatori primari della colonna vertebrale. Obliqui interni ed esterni: trasmissione della rotazione durante l'attacco e la battuta. Quadrato dei lombi e erettori spinali: controllo della postura e stabilizzazione lombare. Multifidi: stabilizzatori profondi della colonna, fondamentali per la prevenzione della lombalgia. Un core forte e reattivo migliora la potenza del colpo e riduce il rischio di infortuni alla schiena."
+        },
+        {
+          "titolo": "Arti superiori e cingolo scapolare",
+          "testo": "La spalla del pallavolista deve combinare mobilità estrema e stabilità dinamica. Cuffia dei rotatori (sopraspinoso, infraspinoso, piccolo rotondo, sottoscapolare): stabilizzatori attivi della testa omerale, fondamentali in ogni gesto di attacco. Grande dentato: stabilizzatore scapolare, cruciale per la corretta cinematica della spalla. Deltoide: forza nella fase di spinta dell'attacco. Trapezio superiore, medio e inferiore: controllo della scapola e trasmissione delle forze. Tricipite e bicipite: stabilizzazione del gomito durante i colpi."
+        },
+        {
+          "titolo": "Avambracci e polso",
+          "testo": "Spesso sottovalutati, gli avambracci del pallavolista sopportano stress considerevoli durante la ricezione con il bagher, la battuta float e le alzate. I muscoli estensori e flessori del polso devono essere sufficientemente forti e resistenti per ammortizzare i colpi ripetuti. Esercizi di rinforzo con elastico e con pesi leggeri ad alto numero di ripetizioni contribuiscono a prevenire tendiniti e sovraccarichi."
+        }
+      ]
+    },
+    {
+      "id": "forza",
+      "titolo": "Forza e condizionamento",
+      "intro": "L'allenamento della forza nel volley deve essere funzionale al gesto sportivo. L'obiettivo non è la massa muscolare fine a se stessa, ma la capacità di esprimere forza velocemente (forza esplosiva), mantenerla nel tempo (forza resistente) e trasferirla in maniera efficiente nel gesto tecnico.",
+      "sottosezioni": [
+        {
+          "titolo": "Forza esplosiva per il salto",
+          "testo": "La potenza nel salto si sviluppa con esercizi pliometrici e con i movimenti olimpici. Esercizi fondamentali: squat jump (squat seguito da salto esplosivo), drop jump (caduta da una piattaforma e rimbalzo immediato), step-up esplosivo su panca, affondi con salto alternato. Il lavoro pliometrico deve essere preceduto da una solida base di forza generale e introdotto progressivamente per evitare sovraccarichi tendinei."
+        },
+        {
+          "titolo": "Rinforzo della catena posteriore",
+          "testo": "La catena posteriore (glutei, ischiocrurali, erettori spinali) è fondamentale per la potenza del salto e la prevenzione degli infortuni. Esercizi chiave: stacchi da terra (deadlift) con tecnica corretta, hip thrust, nordic hamstring curl (rinforzo eccentrico degli ischiocrurali), good morning, Romanian deadlift. La catena posteriore è spesso carente rispetto al quadricipite nei giovani atleti, creando uno squilibrio che aumenta il rischio di lesioni."
+        },
+        {
+          "titolo": "Stabilizzazione e rinforzo del core",
+          "testo": "Il core training nel volley va oltre i semplici crunch. Esercizi progressivi: plank e varianti (laterale, con sollevamento alternato degli arti), dead bug, pallofpress con elastico, rotazioni con kettlebell o palla medica, esercizi su superfici instabili. L'obiettivo è sviluppare stabilità dinamica, cioè la capacità di mantenere la colonna neutra mentre gli arti si muovono rapidamente."
+        },
+        {
+          "titolo": "Condizionamento aerobico e anaerobico",
+          "testo": "Il volley richiede potenza anaerobica alattacida per le azioni esplosive (2-6 secondi) e capacità aerobica per il recupero tra le azioni. Il condizionamento si sviluppa con: shuttle run (corse a navetta di 5-10-15 metri), interval training ad alta intensità (HIIT), esercizi a circuito che replicano la struttura metabolica del gioco, lavoro in campo con pallone che combina tecnica e condizionamento."
+        }
+      ]
+    },
+    {
+      "id": "recupero",
+      "titolo": "Recupero",
+      "intro": "Il recupero è parte integrante dell'allenamento, non una pausa da esso. Il miglioramento fisico avviene durante il recupero, quando l'organismo si adatta agli stimoli ricevuti. Un atleta che non recupera adeguatamente accumula fatica, peggiora le prestazioni e aumenta esponenzialmente il rischio di infortuni.",
+      "sottosezioni": [
+        {
+          "titolo": "Recupero attivo",
+          "testo": "Nelle ore successive a una partita o a un allenamento intenso, il recupero attivo accelera l'eliminazione dei metaboliti e riduce l'indolenzimento muscolare. Attività consigliate: corsa leggera o ciclismo a bassa intensità per 15-20 minuti, nuoto o acquagym, stretching dolce, mobilità articolare. Il recupero attivo mantiene la circolazione sanguigna senza aggiungere stress meccanico ai muscoli affaticati."
+        },
+        {
+          "titolo": "Sonno e riposo",
+          "testo": "Il sonno è lo strumento di recupero più potente a disposizione dell'atleta. Durante il sonno profondo vengono rilasciati gli ormoni anabolici (GH) responsabili del recupero muscolare e dell'adattamento. Gli atleti dovrebbero dormire 8-9 ore per notte durante i periodi di allenamento intenso. Fondamentale mantenere orari regolari, evitare schermi nelle ore prima del sonno e creare un ambiente favorevole al riposo."
+        },
+        {
+          "titolo": "Nutrizione per il recupero",
+          "testo": "Nei 30-60 minuti successivi all'allenamento (finestra anabolica) l'organismo è particolarmente ricettivo ai nutrienti. Priorità: reintegro dei carboidrati per ripristinare il glicogeno muscolare, apporto proteico per la sintesi muscolare (20-30 grammi di proteine di alta qualità), reidratazione con acqua ed elettroliti. Alimenti consigliati nel post-allenamento: yogurt greco con frutta, uova con pane integrale, pollo con riso, frullato proteico con latte e banana."
+        },
+        {
+          "titolo": "Tecniche di recupero avanzate",
+          "testo": "Le squadre professionistiche utilizzano tecniche di recupero specifiche che possono essere adattate anche al volley amatoriale e giovanile. Crioterapia localizzata: applicazione di ghiaccio su zone affaticate o doloranti per 15-20 minuti. Foam rolling (automassaggio con rullo): lavoro sui principali gruppi muscolari per ridurre le tensioni miofasciali. Bagni di contrasto: alternanza di acqua calda e fredda per stimolare la circolazione. Compressione: calze o gambali compressivi nelle ore post-gara."
+        }
+      ]
+    }
+  ]
+}
