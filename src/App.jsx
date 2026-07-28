@@ -3041,20 +3041,7 @@ const risultatiRicerca = ricerca.length > 1
   };
 
   const sez = contenuti[sezione];
-const [ricerca, setRicerca] = useState("");
 
-const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sez]) =>
-  sez.schede.flatMap(scheda =>
-    scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
-  )
-);
-
-const risultatiRicerca = ricerca.length > 1
-  ? tuttiEsercizi.filter(e =>
-      e.nome.toLowerCase().includes(ricerca.toLowerCase()) ||
-      e.desc.toLowerCase().includes(ricerca.toLowerCase())
-    )
-  : [];
   return (
     <main>
       <section className="section">
