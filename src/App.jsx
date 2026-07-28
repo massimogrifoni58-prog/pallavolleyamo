@@ -13,6 +13,7 @@ import diretteData from "../data/dirette.json";
 import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import videoData from "../data/video.json";
+import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
 const MAX_NEWS_PER_SECTION = 15;
@@ -482,7 +483,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/fondamentali", label: "Fondamentali" },
             { href: "#/schede", label: "Schede Allenamento" },
             { href: "#/glossario", label: "Glossario" },
-            
+            { href: "#/preparazione-fisica", label: "Preparazione Fisica" },
           ]}
         />
         <a className="nav-btn" href="#/mercato">Mercato</a>
@@ -947,6 +948,43 @@ function RosaPage() {
           {status === "error" && <p style={{color:"red", marginTop:"0.5rem"}}>Errore nell'invio. Riprova.</p>}
         </div>
       )}
+    </main>
+  );
+}
+function PreparazioneFisicaPage() {
+  const [sezioneAperta, setSezioneAperta] = useState(null);
+  const sezioni = preparazioneFisicaData.sezioni || [];
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Preparazione Fisica</h1>
+      <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem" }}>
+        Guida alla preparazione fisica specifica per il pallavolista — prevenzione, riscaldamento, muscoli, forza e recupero.
+      </p>
+      <div className="prep-lista">
+        {sezioni.map(s => (
+          <div key={s.id} className="prep-sezione">
+            <button
+              className={`prep-sezione__header ${sezioneAperta === s.id ? "active" : ""}`}
+              onClick={() => setSezioneAperta(sezioneAperta === s.id ? null : s.id)}
+            >
+              <span>{s.titolo}</span>
+              <span>{sezioneAperta === s.id ? "▲" : "▼"}</span>
+            </button>
+            {sezioneAperta === s.id && (
+              <div className="prep-sezione__body">
+                <p className="prep-intro">{s.intro}</p>
+                {s.sottosezioni.map((sub, i) => (
+                  <div key={i} className="prep-sub">
+                    <h3 className="prep-sub__titolo">{sub.titolo}</h3>
+                    <p className="prep-sub__testo">{sub.testo}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
     </main>
   );
 }
@@ -4574,7 +4612,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","perugia","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4591,6 +4629,7 @@ export default function App() {
           {route === "schede" && <SchedePage />}
           {route === "pillole" && <PillolePage />}
           {route === "fondamentali" && <FondamentaliPage />}
+          {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
           {route === "galleria" && <GalleriaPage />}
           {route === "foto-settimana" && <FotoSettimanaPage />}
           {route === "articoli-societa" && <ArticoliSocietaPage subscribed={subscribed} />}
