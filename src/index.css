@@ -4561,3 +4561,19 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .prep-sub:last-child { border-bottom: none; margin-bottom: 0; }
 .prep-sub__titolo { font-size: 0.95rem; font-weight: 700; color: var(--gold); margin-bottom: 0.4rem; }
 .prep-sub__testo { font-size: 0.85rem; line-height: 1.6; color: var(--text); }
+/* === PREPARAZIONE FISICA AGGIORNATA === */
+.prep-search { margin-bottom: 1.5rem; }
+.prep-grid { display: flex; flex-direction: column; gap: 0.75rem; }
+.prep-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: border-color 0.2s; }
+.prep-card--open { border-color: var(--gold); }
+.prep-card__header { width: 100%; display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.2rem; background: none; border: none; color: var(--text); cursor: pointer; text-align: left; }
+.prep-card__icon { font-size: 1.3rem; }
+.prep-card__titolo { font-weight: 700; font-size: 1rem; flex: 1; }
+.prep-card__arrow { color: var(--gold); font-size: 0.8rem; }
+.prep-card__body { padding: 0 1.2rem 1.2rem; }
+.prep-subs { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem; }
+.prep-sub-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.prep-sub-card__header { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 0.7rem 1rem; background: none; border: none; color: var(--gold); font-weight: 600; font-size: 0.88rem; cursor: pointer; text-align: left; }
+.prep-sub__testo { padding: 0.75rem 1rem 1rem; font-size: 0.85rem; line-height: 1.6; color: var(--text); }
+.prep-result-card { background: var(--card-bg); border: 1px solid var(--border); border-left: 3px solid var(--gold); border-radius: 8px; padding: 1rem; }
+.prep-result-card__sezione { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); display: block; margin-bottom: 0.4rem; }

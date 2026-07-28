@@ -953,41 +953,95 @@ function RosaPage() {
 }
 function PreparazioneFisicaPage() {
   const [sezioneAperta, setSezioneAperta] = useState(null);
+  const [subAperta, setSubAperta] = useState(null);
+  const [ricerca, setRicerca] = useState("");
   const sezioni = preparazioneFisicaData.sezioni || [];
+
+  const sezioniIcons = {
+    prevenzione: "🛡",
+    riscaldamento: "🔥",
+    muscoli: "💪",
+    forza: "⚡",
+    recupero: "🌿",
+  };
+
+  const risultatiRicerca = ricerca.length > 1
+    ? sezioni.flatMap(s => s.sottosezioni.map(sub => ({ ...sub, sezione: s.titolo, sezioneId: s.id })))
+        .filter(sub => 
+          sub.titolo.toLowerCase().includes(ricerca.toLowerCase()) ||
+          sub.testo.toLowerCase().includes(ricerca.toLowerCase())
+        )
+    : [];
 
   return (
     <main className="page-content">
       <h1 className="page-title">Preparazione Fisica</h1>
-      <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem" }}>
-        Guida alla preparazione fisica specifica per il pallavolista — prevenzione, riscaldamento, muscoli, forza e recupero.
+      <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem", fontSize: "0.9rem" }}>
+        Guida alla preparazione fisica per il pallavolista. Cerca un argomento o sfoglia le sezioni.
       </p>
-      <div className="prep-lista">
-        {sezioni.map(s => (
-          <div key={s.id} className="prep-sezione">
-            <button
-              className={`prep-sezione__header ${sezioneAperta === s.id ? "active" : ""}`}
-              onClick={() => setSezioneAperta(sezioneAperta === s.id ? null : s.id)}
-            >
-              <span>{s.titolo}</span>
-              <span>{sezioneAperta === s.id ? "▲" : "▼"}</span>
-            </button>
-            {sezioneAperta === s.id && (
-              <div className="prep-sezione__body">
-                <p className="prep-intro">{s.intro}</p>
-                {s.sottosezioni.map((sub, i) => (
-                  <div key={i} className="prep-sub">
-                    <h3 className="prep-sub__titolo">{sub.titolo}</h3>
-                    <p className="prep-sub__testo">{sub.testo}</p>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
+
+      <div className="prep-search">
+        <input
+          className="form-input"
+          type="text"
+          placeholder="Cerca es. caviglia, spalla, stretching..."
+          value={ricerca}
+          onChange={e => { setRicerca(e.target.value); setSezioneAperta(null); }}
+        />
       </div>
+
+      {ricerca.length > 1 ? (
+        <div className="prep-lista">
+          {risultatiRicerca.length === 0 && <p className="state">Nessun risultato per "{ricerca}"</p>}
+          {risultatiRicerca.map((sub, i) => (
+            <div key={i} className="prep-result-card">
+              <span className="prep-result-card__sezione">{sub.sezione}</span>
+              <h3 className="prep-sub__titolo">{sub.titolo}</h3>
+              <p className="prep-sub__testo">{sub.testo}</p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="prep-grid">
+          {sezioni.map(s => (
+            <div key={s.id} className={`prep-card ${sezioneAperta === s.id ? "prep-card--open" : ""}`}>
+              <button
+                className="prep-card__header"
+                onClick={() => { setSezioneAperta(sezioneAperta === s.id ? null : s.id); setSubAperta(null); }}
+              >
+                <span className="prep-card__icon">{sezioniIcons[s.id] || "📋"}</span>
+                <span className="prep-card__titolo">{s.titolo}</span>
+                <span className="prep-card__arrow">{sezioneAperta === s.id ? "▲" : "▼"}</span>
+              </button>
+              {sezioneAperta === s.id && (
+                <div className="prep-card__body">
+                  <p className="prep-intro">{s.intro}</p>
+                  <div className="prep-subs">
+                    {s.sottosezioni.map((sub, i) => (
+                      <div key={i} className="prep-sub-card">
+                        <button
+                          className="prep-sub-card__header"
+                          onClick={() => setSubAperta(subAperta === `${s.id}-${i}` ? null : `${s.id}-${i}`)}
+                        >
+                          <span>{sub.titolo}</span>
+                          <span>{subAperta === `${s.id}-${i}` ? "−" : "+"}</span>
+                        </button>
+                        {subAperta === `${s.id}-${i}` && (
+                          <p className="prep-sub__testo">{sub.testo}</p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </main>
   );
 }
+       
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
   const [modalArticolo, setModalArticolo] = useState(null);
