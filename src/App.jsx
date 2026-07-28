@@ -958,11 +958,11 @@ function PreparazioneFisicaPage() {
   const sezioni = preparazioneFisicaData.sezioni || [];
 
   const sezioniIcons = {
-    prevenzione: "🛡",
-    riscaldamento: "🔥",
-    muscoli: "💪",
-    forza: "⚡",
-    recupero: "🌿",
+    prevenzione: "",
+    riscaldamento: "",
+    muscoli: "",
+    forza: "",
+    recupero: "",
   };
 
   const risultatiRicerca = ricerca.length > 1
