@@ -1009,7 +1009,7 @@ function PreparazioneFisicaPage() {
                 className="prep-card__header"
                 onClick={() => { setSezioneAperta(sezioneAperta === s.id ? null : s.id); setSubAperta(null); }}
               >
-                <span className="prep-card__icon">{sezioniIcons[s.id] || "📋"}</span>
+                <span className="prep-card__icon">{sezioniIcons[s.id] || ""}</span>
                 <span className="prep-card__titolo">{s.titolo}</span>
                 <span className="prep-card__arrow">{sezioneAperta === s.id ? "▲" : "▼"}</span>
               </button>
@@ -2716,6 +2716,20 @@ function SchedePage() {
 
   const [sezione, setSezione] = useState("Esercizi Fisici");
   const [sotto, setSotto] = useState(0);
+  const [ricerca, setRicerca] = useState("");
+
+const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sez]) =>
+  sez.schede.flatMap(scheda =>
+    scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
+  )
+);
+
+const risultatiRicerca = ricerca.length > 1
+  ? tuttiEsercizi.filter(e =>
+      e.nome.toLowerCase().includes(ricerca.toLowerCase()) ||
+      e.desc.toLowerCase().includes(ricerca.toLowerCase())
+    )
+  : [];
 
   const contenuti = {
     "Esercizi Fisici": {
@@ -3027,11 +3041,45 @@ function SchedePage() {
   };
 
   const sez = contenuti[sezione];
+const [ricerca, setRicerca] = useState("");
 
+const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sez]) =>
+  sez.schede.flatMap(scheda =>
+    scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
+  )
+);
+
+const risultatiRicerca = ricerca.length > 1
+  ? tuttiEsercizi.filter(e =>
+      e.nome.toLowerCase().includes(ricerca.toLowerCase()) ||
+      e.desc.toLowerCase().includes(ricerca.toLowerCase())
+    )
+  : [];
   return (
     <main>
       <section className="section">
         <h2 className="feed-heading">Schede Allenamento</h2>
+        <input
+  className="form-input"
+  type="text"
+  placeholder="Cerca esercizio es. plank, ricezione, squat..."
+  value={ricerca}
+  onChange={e => setRicerca(e.target.value)}
+  style={{ marginBottom: "1rem" }}
+/>
+{ricerca.length > 1 && (
+  <div className="prep-lista" style={{ marginBottom: "1.5rem" }}>
+    {risultatiRicerca.length === 0 && <p className="state">Nessun risultato per "{ricerca}"</p>}
+    {risultatiRicerca.map((e, i) => (
+      <div key={i} className="prep-result-card">
+        <span className="prep-result-card__sezione">{e.sezione} — {e.scheda}</span>
+        <h3 className="prep-sub__titolo">{e.nome}</h3>
+        <p className="prep-sub__testo">{e.desc}</p>
+        <span style={{ fontSize: "0.7rem", color: "var(--gold)" }}>{e.serie}</span>
+      </div>
+    ))}
+  </div>
+)}
         <p className="state" style={{ marginBottom: "1.25rem", fontSize: "0.82rem" }}>
           Schede tecniche e fisiche. Scegli la sezione e la sottosezione.
         </p>
