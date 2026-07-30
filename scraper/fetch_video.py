@@ -19,16 +19,16 @@ CANALI = [
     {
         "id": "UCaTF1soVKjGtdhizgLJVydg",
         "nome": "Volleyball World Italia",
-        "max": 3,
+        "max": 5,
     },
 ]
 
-# Ricerche per parola chiave (per integrare i canali con pochi video)
 RICERCHE = [
-    {
-        "query": "pallavolo italia highlights 2026",
-        "max": 3,
-    },
+    {"query": "pallavolo italia highlights 2026", "max": 5},
+    {"query": "volley umbria 2026", "max": 5},
+    {"query": "FIPAV pallavolo 2026", "max": 5},
+    {"query": "pallavolo serie A1 femminile 2026", "max": 5},
+    {"query": "Terni Volley Academy 2026", "max": 5},
 ]
 
 
