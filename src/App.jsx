@@ -1529,7 +1529,7 @@ function AllenatoriPage() {
   useEffect(() => {
   if (!coach || !showNews) { setNews([]); return; }
   const coachNews = (coachNewsData.news || {})[coach.id] || [];
-  setNews(coachNews.map(n => ({
+  setNews([...coachNews].sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate)).map(n => ({
     title: n.title,
     link: n.link,
     pubDate: n.pubDate,
