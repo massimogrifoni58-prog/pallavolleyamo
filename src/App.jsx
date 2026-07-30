@@ -2740,8 +2740,8 @@ function SchedePage() {
   const [sotto, setSotto] = useState(0);
   const [ricerca, setRicerca] = useState("");
 
-const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sez]) =>
-  sez.schede.flatMap(scheda =>
+const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sezioneObj]) =>
+  sezioneObj.schede.flatMap(scheda =>
     scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
   )
 );
