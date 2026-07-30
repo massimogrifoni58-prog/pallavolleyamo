@@ -2740,18 +2740,7 @@ function SchedePage() {
   const [sotto, setSotto] = useState(0);
   const [ricerca, setRicerca] = useState("");
 
-const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sezioneObj]) =>
-  sezioneObj.schede.flatMap(scheda =>
-    scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
-  )
-);
 
-const risultatiRicerca = ricerca.length > 1
-  ? tuttiEsercizi.filter(e =>
-      e.nome.toLowerCase().includes(ricerca.toLowerCase()) ||
-      e.desc.toLowerCase().includes(ricerca.toLowerCase())
-    )
-  : [];
 
   const contenuti = {
     "Esercizi Fisici": {
@@ -3061,8 +3050,20 @@ const risultatiRicerca = ricerca.length > 1
       ],
     },
   };
+  const tuttiEsercizi = Object.entries(contenuti).flatMap(([sezioneNome, sezioneObj]) =>
+  sezioneObj.schede.flatMap(scheda =>
+    scheda.esercizi.map(e => ({ ...e, sezione: sezioneNome, scheda: scheda.titolo }))
+  )
+);
 
-  const sez = contenuti[sezione];
+const risultatiRicerca = ricerca.length > 1
+  ? tuttiEsercizi.filter(e =>
+      e.nome.toLowerCase().includes(ricerca.toLowerCase()) ||
+      e.desc.toLowerCase().includes(ricerca.toLowerCase())
+    )
+  : [];
+
+const sez = contenuti[sezione];
 
   return (
     <main>
