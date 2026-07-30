@@ -2271,7 +2271,7 @@ main {
 
 .card__image {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
   background: #1c1c1e;
