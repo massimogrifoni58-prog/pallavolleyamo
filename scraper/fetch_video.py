@@ -19,16 +19,16 @@ CANALI = [
     {
         "id": "UCaTF1soVKjGtdhizgLJVydg",
         "nome": "Volleyball World Italia",
-        "max": 5,
+        "max": 1,
     },
 ]
 
 RICERCHE = [
-    {"query": "pallavolo italia highlights 2026", "max": 5},
-    {"query": "volley umbria 2026", "max": 5},
-    {"query": "FIPAV pallavolo 2026", "max": 5},
-    {"query": "pallavolo serie A1 femminile 2026", "max": 5},
-    {"query": "Terni Volley Academy 2026", "max": 5},
+    {"query": "pallavolo italia highlights 2026", "max": 1},
+    {"query": "volley umbria 2026", "max": 1},
+    {"query": "FIPAV pallavolo 2026", "max": 1},
+    {"query": "pallavolo serie A1 femminile 2026", "max": 1},
+    {"query": "Terni Volley Academy 2026", "max": 1},
 ]
 
 
