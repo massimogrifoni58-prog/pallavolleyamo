@@ -1,29 +1,18 @@
 """
 Scraper notizie PROVINCIA DI TERNI - Bing News RSS
-======================================================
-Scarica da Bing News le notizie di pallavolo della provincia di
-Terni con query multiple e filtro per notizie locali.
-
-Uso:
-    python fetch_terni.py
-
-Output:
-    ../react-app/data/terni.json
 """
 
 import gzip
 import json
 import re
-import sys
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from email.utils import parsedate_to_datetime
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
-# Query multiple per coprire meglio il volley ternano
 QUERIES = [
     "pallavolo Terni",
     "volley Terni femminile",
@@ -44,21 +33,21 @@ QUERIES = [
     "Colleluna volley",
     "pallavolo terni site:sporterni.it",
     "pallavolo terni site:terninrete.it",
+    "Terni Volley Academy serie A3",
+    "Dragons Terni volley 2026",
+    "TVA Terni pallavolo",
 ]
 
-# Parole chiave che indicano notizie locali della provincia di Terni
 KEYWORDS_TERNI = [
     "terni", "narni", "orvieto", "amelia", "acquasparta",
-    "sangemini", "ternana",
-    "terni volley ", "narni sport narni", "tva terni",
-    "umbria", "ternano", "ternana",
-    "sangemini don bosco volley", "amerina", "bosico",
-    "arrone", "acquasparta", "colleluna",
-]   
-# Solo fonti locali ammesse
+    "sangemini", "ternana", "ternano",
+    "terni volley", "narni sport", "tva terni",
+    "umbria", "sangemini don bosco volley", "amerina", "bosico",
+    "arrone", "colleluna", "terni volley academy", "dragons terni",
+]
+
 ALLOWED_SOURCES = [
     "terninrete.it",
-    "umbria24.it",
     "sporterni.it",
     "ilmessaggero.it",
     "umbriaon.it",
@@ -66,29 +55,18 @@ ALLOWED_SOURCES = [
     "orvietonews.it",
     "ivl24.it",
     "umbria.corriere.it",
+    "umbria24.it",
 ]
 
-# Escludi TVA e fonti nazionali
 EXCLUDE_KEYWORDS = [
-    "terni volley academy", "dragons terni", "conad pala terni",
     "superenalotto",
+    "sir perugia", "perugia volley", "sirio perugia",
+    "bartoccini", "black angels", "magione", "san feliciano",
 ]
-LIMIT = 20
 
+LIMIT = 20
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "terni.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-
-CATEGORY_PRIORITY = [
-    "serie a",
-    "superlega",
-    "serie b",
-    "serie c",
-    "serie d",
-    "1 divisione",
-    "prima divisione",
-    "2 divisione",
-    "seconda divisione",
-]
 
 
 def fetch_og_image(url, timeout=8):
@@ -97,22 +75,14 @@ def fetch_og_image(url, timeout=8):
         with urllib.request.urlopen(req, timeout=timeout) as response:
             raw = response.read(60000)
             if response.headers.get("Content-Encoding") == "gzip":
-                raw = gzip.decompress(raw)
+                import gzip as gz
+                raw = gz.decompress(raw)
             html = raw.decode("utf-8", errors="ignore")
     except Exception:
         return None
-
-    match = re.search(
-        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
-        html,
-        re.IGNORECASE,
-    )
+    match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
     if not match:
-        match = re.search(
-            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-            html,
-            re.IGNORECASE,
-        )
+        match = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE)
     return match.group(1) if match else None
 
 
@@ -127,7 +97,7 @@ def fetch_rss(query):
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=30) as response:
             return response.read()
-    except (urllib.error.HTTPError, urllib.error.URLError) as e:
+    except Exception as e:
         print(f"  ERRORE per '{query}': {e}")
         return None
 
@@ -150,14 +120,6 @@ def source_from_url(url):
         return ""
 
 
-def category_score(title):
-    title_lower = title.lower()
-    for i, keyword in enumerate(CATEGORY_PRIORITY):
-        if keyword in title_lower:
-            return i
-    return len(CATEGORY_PRIORITY)
-
-
 def parse_date_safe(date_str):
     if not date_str:
         return datetime.min.replace(tzinfo=timezone.utc)
@@ -171,15 +133,16 @@ def parse_date_safe(date_str):
 
 
 def is_local(title, excerpt):
-    """Verifica se la notizia riguarda davvero la provincia di Terni."""
     text = (title + " " + excerpt).lower()
     return any(k in text for k in KEYWORDS_TERNI)
 
 
 def parse_rss(xml_bytes, limit):
-    root = ET.fromstring(xml_bytes)
+    try:
+        root = ET.fromstring(xml_bytes)
+    except ET.ParseError:
+        return []
     items = root.findall("./channel/item")[:limit]
-
     posts = []
     for item in items:
         title = (item.findtext("title") or "").strip()
@@ -187,7 +150,6 @@ def parse_rss(xml_bytes, limit):
         link = extract_real_url(link)
         pub_date = (item.findtext("pubDate") or "").strip()
         source = source_from_url(link)
-
         posts.append({
             "title": title,
             "excerpt": f"Fonte: {source}" if source else "",
@@ -210,7 +172,6 @@ def main():
         posts = parse_rss(xml_bytes, LIMIT)
         nuove = 0
         for p in posts:
-            source = source_from_url(p["permalink"])
             if (p["permalink"] not in seen_links
                     and is_local(p["title"], p["excerpt"])
                     and any(s in p["permalink"] for s in ALLOWED_SOURCES)
@@ -222,9 +183,13 @@ def main():
 
     print(f"\nTotale: {len(all_posts)} notizie locali trovate")
 
+    # Ordina per data decrescente
     all_posts.sort(key=lambda p: -parse_date_safe(p["createdTime"]).timestamp())
 
-    # Limita a 30 notizie totali
+    # Filtra notizie più vecchie di 365 giorni
+    cutoff = datetime.now(timezone.utc) - timedelta(days=365)
+    all_posts = [p for p in all_posts if parse_date_safe(p["createdTime"]) > cutoff]
+
     all_posts = all_posts[:50]
 
     for i, p in enumerate(all_posts):
@@ -236,10 +201,7 @@ def main():
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
-        json.dumps({
-            "generatedAt": datetime.now(timezone.utc).isoformat(),
-            "posts": all_posts
-        }, ensure_ascii=False, indent=2),
+        json.dumps({"generatedAt": datetime.now(timezone.utc).isoformat(), "posts": all_posts}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     print(f"Salvate {len(all_posts)} notizie in: {OUTPUT_PATH}")
