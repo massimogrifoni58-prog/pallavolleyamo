@@ -1177,13 +1177,35 @@ function isAllowedCategory(name) {
 }
 function VideoPage() {
   const videos = videoData.video || [];
+  const [filtro, setFiltro] = useState("Tutti");
+
+  const categorie = ["Tutti", "Nazionale", "Umbria", "TVA"];
+
+  const videoFiltrati = filtro === "Tutti" ? videos : videos.filter(v => {
+    const testo = (v.titolo + " " + v.canale).toLowerCase();
+    if (filtro === "Umbria") return testo.includes("umbria");
+    if (filtro === "TVA") return testo.includes("terni") || testo.includes("tva") || testo.includes("dragons");
+    if (filtro === "Nazionale") return !testo.includes("umbria") && !testo.includes("terni");
+    return true;
+  });
+
   return (
     <main className="page-content">
-      <h1 className="page-title">🎬 Video</h1>
+      <h1 className="page-title">Video</h1>
+      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+        {categorie.map(c => (
+          <button key={c}
+            onClick={() => setFiltro(c)}
+            className={`filter-btn ${filtro === c ? "filter-btn--active" : ""}`}>
+            {c}
+          </button>
+        ))}
+      </div>
       <div className="video-grid">
-        {videos.map(v => (
+        {videoFiltrati.length === 0 && <p className="state">Nessun video per questa categoria.</p>}
+        {videoFiltrati.map(v => (
           <a key={v.id} href={v.url} target="_blank" rel="noreferrer" className="video-card">
-            <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" />
+            <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" loading="lazy" />
             <div className="video-card__body">
               <p className="video-card__title">{v.titolo}</p>
               <span className="video-card__canale">{v.canale}</span>
