@@ -67,6 +67,16 @@ def parse_rss(xml_bytes):
                 "pubDate": pub_date,
                 "source": source,
             })
+        from email.utils import parsedate_to_datetime
+        from datetime import datetime, timezone, timedelta
+        def safe_date(p):
+            try:
+                return parsedate_to_datetime(p.get("pubDate", ""))
+            except:
+                return datetime.min.replace(tzinfo=timezone.utc)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=730)
+        posts = [p for p in posts if safe_date(p) > cutoff]
+        posts.sort(key=safe_date, reverse=True)
         return posts
     except Exception as e:
         print(f"  Parse error: {e}")
