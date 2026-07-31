@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  padding-top: 320px;
+  padding-top: 240px;
   background: var(--bg);
   color: var(--text);
   font-family: "DM Sans", sans-serif;
