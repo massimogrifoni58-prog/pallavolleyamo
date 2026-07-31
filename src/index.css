@@ -18,7 +18,6 @@ html {
 
 body {
   margin: 0;
-  padding-top: 240px;
   background: var(--bg);
   color: var(--text);
   font-family: "DM Sans", sans-serif;
@@ -31,7 +30,7 @@ a {
 }
 
 .masthead {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
