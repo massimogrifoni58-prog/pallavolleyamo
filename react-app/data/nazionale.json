@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:25:03.597481+00:00",
+  "generatedAt": "2026-08-01T15:33:07.835952+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -130,7 +130,7 @@
       "permalink": "https://www.volleyball.it/2026/03/04/notizie/argomenti/mondiali/articolo/mondiali-2027-cinque-citta-polacche-ospiteranno-il-torneo-maschile.html"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Pallavolo, orgoglio Cbf Balducci: Laura Lelli in Nazionale under 16",
       "excerpt": "Fonte: centropagina.it",
       "createdTime": "Tue, 28 Jul 2026 23:16:00 GMT",
@@ -146,7 +146,7 @@
       "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-28-luglio-2026-kaczmarek-a-resovia-karakurt-in-dubbio-lasia-gu.html"
     },
     {
-      "id": "6",
+      "id": "9",
       "title": "Volley Serie B, le messinesi si preparano ai campionati nazionali",
       "excerpt": "Fonte: tempostretto.it",
       "createdTime": "Tue, 28 Jul 2026 11:30:00 GMT",
@@ -218,12 +218,12 @@
       "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/superlega/articolo/mondo-volley-le-altre-news-del-30-luglio-2026-le-leghe-sfidano-il-calendario-plak-saluta.html"
     },
     {
-      "id": "2",
-      "title": "Pallavolo Bulgaria – Kalina Veneva non si è presentata al raduno della sua nazionale in vista degli Europei, la posizione della BVF",
-      "excerpt": "Fonte: ivolleymagazine.it",
+      "id": "8",
+      "title": "Volley, cresciuta nella Pallavicini, vinse tanto sia con Modena sia con la Nazionale. Portò San Lazzaro in azzurro: ci ha lasciato Michela Monari",
+      "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Thu, 30 Jul 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/31/pallavolo-bulgaria-kalina-veneva-non-si-e-presentata-al-raduno-della-sua-nazionale-in-vista-degli-europei-la-posizione-della-bvf/"
+      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
+      "permalink": "https://sport.quotidiano.net/locale/volley/volley-cresciuta-nella-pallavicini-vinse-95bf03ba"
     },
     {
       "id": "vnlfinalslapoloniaconquistailp",
@@ -522,6 +522,14 @@
       "permalink": "https://www.volleyball.it/2026/07/25/notizie/argomenti/vnl-femminile/articolo/vnl-finals-il-brasile-ferma-litalia-al-tie-break-azzurre-in-campo-per-il-bronzo.html"
     },
     {
+      "id": "6",
+      "title": "L’Italia femminile di pallavolo è stata eliminata in semifinale di Nations League dal Brasile",
+      "excerpt": "Fonte: ilpost.it",
+      "createdTime": "Sat, 25 Jul 2026 05:26:00 GMT",
+      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/07/25/1784982231-ilpost_20260725142235931_a2caea7270290125a2cef9f9791d3890.jpg",
+      "permalink": "https://www.ilpost.it/2026/07/25/italia-brasile-nations-league-volley/"
+    },
+    {
       "id": "europei2026ilrenderingdipiazza",
       "title": "Europei 2026: Il rendering di Piazza del Plebiscito",
       "excerpt": "Qui si giocherà la gara inaugurale dell'Europeo 2026 tra Italia e Svezia",
@@ -544,6 +552,30 @@
       "createdTime": "Sat, 04 Oct 2025 16:00:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/cop_femminile_grafica.jpg",
       "permalink": "https://www.volleyball.it/2025/10/04/notizie/argomenti/europei-femminili/articolo/europei-f-2026-le-teste-di-serie-le-possibili-fasce-di-sorteggio.html"
+    },
+    {
+      "id": "vnlglistatiunitirimontanoilgia",
+      "title": "VNL: Gli Stati Uniti rimontano il Giappone e sfidano la Polonia per l'oro",
+      "excerpt": "La squadra di Karch Kiraly vince 3-2 dopo essere stata sotto 2-1 e infligge ai nipponici la prima...",
+      "createdTime": "Sat, 01 Aug 2026 16:23:34 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/usa-giappone-vnl-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-gli-stati-uniti-rimontano-il-giappone-e-sfidano-la-polonia-per-loro.html"
+    },
+    {
+      "id": "vnlpoloniatravolgelasloveniaev",
+      "title": "VNL: Polonia travolge la Slovenia e vola in finale",
+      "excerpt": "Netto 3-0 a Ningbo con Leon protagonista: 16 punti, sei ace e una squadra dominante anche a muro. I...",
+      "createdTime": "Sat, 01 Aug 2026 11:35:44 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_win_semifinale.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-polonia-travolge-la-slovenia-e-vola-in-finale.html"
+    },
+    {
+      "id": "3",
+      "title": "Nazionale femminile, nuovo collegiale a Cavalese: confermate le azzurre di Nations League",
+      "excerpt": "Fonte: it.blastingnews.com",
+      "createdTime": "Sat, 01 Aug 2026 07:47:00 GMT",
+      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/8/1/660x290/b_1200x675x95/nazionale-italiana-di-pallavolo-c-pagina-facebook-ufficiale-della-federazione-italiana-pallavolo_3288663.jpg",
+      "permalink": "https://it.blastingnews.com/sport/2026/08/nazionale-femminile-nuovo-collegiale-a-cavalese-confermate-le-azzurre-di-nations-league-004086251.html"
     },
     {
       "id": "vnlfinalsi14azzurriperningbogi",
@@ -586,14 +618,6 @@
       "permalink": "https://www.volleyball.it/2026/04/13/notizie/argomenti/internazionale/articolo/nazionale-manfredi-mai-piu-un-caso-lavia-apertura-su-keita-diventera-italiano-azz.html"
     },
     {
-      "id": "10",
-      "title": "Il lutto. La pallavolo piange la scomparsa di Michela Monari",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Fri, 31 Jul 2026 23:50:00 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/sport/generale/il-lutto-la-pallavolo-piange-la-scomparsa-di-michela-monari/ar-AA29bCe3"
-    },
-    {
       "id": "mondovolleylealtrenewsdel31lug",
       "title": "Mondo Volley: Le altre news del 31 luglio 2026: Amaranto trascina la Colombia, Kochanowski salta gli Europei, Duda si ferma",
       "excerpt": "Il nuovo opposto di Cisterna protagonista ai Giochi Centroamericani, la Polonia perde il suo...",
@@ -603,43 +627,19 @@
     },
     {
       "id": "1",
+      "title": "Pallavolo Azzurre – Collegiale a Urbino per la Nazionale Seniores B",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Fri, 31 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/08/01/pallavolo-azzurre-collegiale-a-urbino-per-la-nazionale-seniores-b/"
+    },
+    {
+      "id": "2",
       "title": "Pallavolo Coni – Le due nazionali per i Giochi del Mediteranneo",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Fri, 31 Jul 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/08/01/pallavolo-coni-le-due-nazionali-per-i-giochi-del-mediteranneo/"
-    },
-    {
-      "id": "versoleuropeolanazionalefemmin",
-      "title": "Verso l'Europeo: La nazionale femminile a Cavalese dal 1° al 7 agosto.  Velasco conferma le 14 della VNL",
-      "excerpt": "Le azzurre si ritroveranno in Val di Fiemme per un raduno in vista del Campionato Europeo.",
-      "createdTime": "Fri, 31 Jul 2026 14:00:59 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Italia_Europei.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/31/notizie/argomenti/internazionale/articolo/verso-leuropeo-la-nazionale-femminile-a-cavalese-dal-1-al-7-agosto-velasco-conferma-le-14-dell.html"
-    },
-    {
-      "id": "8",
-      "title": "Michela Monari morta a 53 anni, aveva giocato anche in Nazionale: lascia la figlia Lisa, pallavolista come lei",
-      "excerpt": "Fonte: virgilio.it",
-      "createdTime": "Fri, 31 Jul 2026 13:47:00 GMT",
-      "image": "https://wips.plug.it/cips/notizie.virgilio.it/cms/2026/07/michela-monari-morta-pallavolista.jpeg",
-      "permalink": "https://www.virgilio.it/notizie/michela-monari-morta-a-53-anni-aveva-giocato-anche-in-nazionale-lascia-la-figlia-lisa-pallavolista-come-lei-1772923"
-    },
-    {
-      "id": "11",
-      "title": "È morta Michela Monari, aveva 53 anni: il mondo della pallavolo italiana è in lutto",
-      "excerpt": "Fonte: fanpage.it",
-      "createdTime": "Fri, 31 Jul 2026 10:17:00 GMT",
-      "image": null,
-      "permalink": "https://www.fanpage.it/sport/altri-sport/e-morta-michela-monari-aveva-53-anni-il-mondo-della-pallavolo-e-in-lutto/"
-    },
-    {
-      "id": "3",
-      "title": "Volley, il messinese Valerio Vermiglio guida il progetto Unical: l'Università della Calabria sbarca in Serie B",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Fri, 31 Jul 2026 08:13:31 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/notizie/italia/volley-il-messinese-valerio-vermiglio-guida-il-progetto-unical-luniversit%C3%A0-della-calabria-sbarca-in-serie-b/ar-AA298q9s"
     }
   ]
 }
