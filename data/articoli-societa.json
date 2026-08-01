@@ -90,6 +90,32 @@
       "provincia": "terni",
       "foto": "/articoli/iacone.jpg",
       "logo": null
+    },
+     {
+      "id": "8",
+      "societa":  "Orvieto Volley Academy",
+      "autore": "PianetaVolley",
+      "categoria": "Comunicato",
+      "titolo": "Fabrizio Lisei torna ad allenare Orvieto",
+      "testo": "Si cominciano a muovere anche le società sportive di serie C maschile, c’è da registrare l’ingaggio di un nuovo tecnico alla Volley Academy Orvieto dopo la separazione d Buttarini. A guidare la prima squadra del club dovrebbe essere il coach Fabrizio Lisei che proviene da Todi (giovanile), per lui si tratta di un ritorno sotto la Rupe e non è escluso che possa interessarsi anche del settore femminile. Nel mirino della dirigenza ci sono alcune pedine della vicina Orte che potrebbe ridurre l’impegno e potrebbe consentire agli orvietani di rafforzare…",
+      "data": "11 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "terni",
+      "foto": "/articoli/Lisei.jpg",
+      "logo": null
+    },
+    {
+      "id": "9",
+      "societa":  "Pallavolo Media Umbria",
+      "autore": "societa",
+      "categoria": "Rinnovo",
+      "titolo": "Aurora Gaggia rinnova",
+      "testo": "Seconda stagione in maglia marscianese, dove sarà ancora protagonista per il prossimo campionato di Serie B2!…",
+      "data": "31 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "terni",
+      "foto": "/articoli/gaggia.jpg",
+      "logo": null
     }
   ]
 }
