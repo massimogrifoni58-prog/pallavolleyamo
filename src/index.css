@@ -4581,3 +4581,14 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 /* === FILTER BUTTONS === */
 .filter-btn { background: var(--card-bg); border: 1px solid var(--border); color: var(--text-dim); padding: 0.3rem 0.9rem; border-radius: 20px; cursor: pointer; font-size: 0.78rem; }
 .filter-btn--active { background: var(--gold); border-color: var(--gold); color: #000; font-weight: 700; }
+/* === IN EVIDENZA === */
+.evidenza-box { margin: 1.5rem 0; }
+.evidenza-titolo { font-size: 1rem; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem; }
+.evidenza-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.evidenza-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column; transition: transform 0.2s, box-shadow 0.2s; }
+.evidenza-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(212,175,55,0.15); border-color: var(--gold); }
+.evidenza-card__img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.evidenza-card__body { padding: 0.8rem; }
+.evidenza-card__date { font-size: 0.65rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
+.evidenza-card__title { font-size: 0.88rem; font-weight: 700; color: var(--text); line-height: 1.35; margin: 0; }
+@media (max-width: 600px) { .evidenza-grid { grid-template-columns: 1fr; } }

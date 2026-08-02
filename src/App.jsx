@@ -597,7 +597,24 @@ function HomePage({ latestNews = [] }) {
           <div className="hero-testi">
             
           </div>
-        </div>
+          {/* Box In Evidenza */}
+<div className="evidenza-box">
+  <h2 className="evidenza-titolo">In evidenza oggi</h2>
+  <div className="evidenza-grid">
+    {[...(nazionaleData.posts || []), ...(regionaliData.posts || [])]
+      .sort((a, b) => parseDate(b) - parseDate(a))
+      .slice(0, 3)
+      .map((post, i) => (
+        <a key={i} href={post.permalink} target="_blank" rel="noreferrer" className="evidenza-card">
+          {post.image && <img src={post.image} alt="" className="evidenza-card__img" loading="lazy" />}
+          <div className="evidenza-card__body">
+            <p className="evidenza-card__date">{formatDate(post.createdTime)}</p>
+            <h3 className="evidenza-card__title">{post.title}</h3>
+          </div>
+        </a>
+      ))}
+  </div>
+</div>
 
         {/* Testo VOLLEY enorme in trasparenza */}
         <svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" className="hero-svg-bg" preserveAspectRatio="xMidYMid slice">
