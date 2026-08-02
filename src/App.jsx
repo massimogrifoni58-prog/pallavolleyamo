@@ -16,6 +16,7 @@ import videoData from "../data/video.json";
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
+import newsGeneraliData from "../data/news_generali.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -4719,7 +4720,7 @@ export default function App() {
     ...(regionaliData.posts || []),
   ];
 
-  const latestFive = [...allPosts]
+  const latestFive = [...allPosts, ...(newsGeneraliData.posts || [])]
     .sort((a, b) => parseDate(b) - parseDate(a))
     .slice(0, 5);
 
