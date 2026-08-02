@@ -231,7 +231,7 @@ function Ticker({ posts }) {
 
   return (
     <div className="ticker">
-      <span className="ticker__label">🔴 Live</span>
+      <span className="ticker__label">UMBRIA OGGI</span>
       <a
         className="ticker__single"
         href={post.permalink || "#"}
@@ -4720,7 +4720,7 @@ export default function App() {
     ...(regionaliData.posts || []),
   ];
 
-  const latestFive = [...allPosts, ...(newsGeneraliData.posts || [])]
+  const latestFive = [...(newsGeneraliData.posts || [])]
     .sort((a, b) => parseDate(b) - parseDate(a))
     .slice(0, 5);
 
