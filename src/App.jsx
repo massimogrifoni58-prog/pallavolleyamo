@@ -4634,6 +4634,7 @@ function SponsorBanner() {
 const SPONSORS = [
   { nome: "Fisiolab Terni", logo: "/sponsor-fisiolab.png", url: "https://fisiolabterni.it/" },
   { nome: "Enertoscana", logo: "/sponsor-enertoscana.png", url: "https://enertoscana.it/" },
+  { nome: "Narnionline", logo: "/sponsor-narninews.png", url: "https://www.narnionline.com/" },
 ];
 
 function SidebarRight() {
