@@ -4717,7 +4717,7 @@ export default function App() {
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} />
 
       <div className="page-layout">
-        <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 3)} />
+        <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />
 
         <div className="page-content">
           {route === "home" && <HomePage latestNews={latestFive} />}
