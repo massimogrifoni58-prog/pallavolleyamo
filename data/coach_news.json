@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-02T07:34:13.147971+00:00",
+  "generatedAt": "2026-08-02T19:28:35.005213+00:00",
   "news": {
     "1": [
-      {
-        "title": "Nel segno dei Simeonov: Kaila raccoglie l'eredità di una dinastia e sogna il titolo mondiale Under 17 con l'Italia - Giornale La Voce",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNV3hHT1VtbDlyeHZKUHhsRjA2b01vZEtLQ21yTFJQT2lNWi13eDI3VGprcG1XekdYd29YdkpEUENHajdyMnJiNWc0WXZhNjZYRGdhd291b1c1SzFYbVBVaUVNYkFJa3djRTh4WklQNTlOY0ZSdmRPejhiNUVvR2Q3MGVSUXpBbXo0UjJKRjhnZl9yUmNFblNaZUFQTURnbk05ckRqNEF5S1NjRU4tXy15bXZNa3JSV1d0T2tublBodjJrT2M4NFlVUEdZZlg4MjJxYjlwMVdoWE5uc1pJY2M1TG4yUGlMODhvVUh6cWpCcFlQZGhDdXpqYXdR?oc=5",
-        "pubDate": "Sat, 01 Aug 2026 08:04:00 GMT",
-        "source": "Giornale La Voce"
-      },
       {
         "title": "Uyba, lo spauracchio si chiama Paola - La Prealpina",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOGtreC12QWtvMmlxdlJNdy0wU1RHV0FBS2FINWtqbVctRTJDUjU2T3FPRHhGOGEzcm1LbUVPa1dPVzRjc01OYUkyRjhBUWV5LU8tUmtfNFJZOGFRTTNKbDJGWGlyVVVGMUQ2V3lLTEl0LXdpYjBnYWhVQnZUVFRWMWlqWDZ6YjhETWNvQ25qX2Y?oc=5",
@@ -19,6 +13,12 @@
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaENORWhidmxiSGo4bnM1X2lIME4wWXloWGN5cGtiOEdrOFFSNnRQRHVMQzh3X25EWmxUdUVSLW14ajE3QlV4RG9IQUR5Y2JGT1B0Q2VTelZRWG9nd3BDWklDejd1SkZrVEtIRzdrSUFvRWdHaVowcUpUb1Y4TXE4VmdHT3hOdV9QQ1pKUF9meFl0MUU?oc=5",
         "pubDate": "Mon, 27 Jul 2026 11:12:01 GMT",
         "source": "PordenoneToday"
+      },
+      {
+        "title": "Pallavolo FIVBGirlsU17 – Scelta la squadra italiana per il Mondiale U17 femminile - iVolley Magazine",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVG4zQk15ZkdoMS1KaWJ1ODJsNllzMXhXM3dicUZSQ0JKeFoxc0RMWjVHRXFmVmhRZ2wwT1BYclRfMWNlbklIUkNpZ0NadTZuemlNSUxpd3pDeS1JLUZfTURyRVBoaGg3NWtEZGJJaS1lT0xYZ1FWT3cwVElsSkVOaUFNT1gwU3VaakNrYXpUYVB1cV9MSTlzUmlyZGlvNTJGa1BlMWJaelpmWU05UE1NdmZ3S1Z0d01WeE1faUowdw?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 13:06:13 GMT",
+        "source": "iVolley Magazine"
       },
       {
         "title": "Le convocate di Mencarelli per lo stage di Castelnovo nè Monti - federvolley.it",
@@ -34,6 +34,12 @@
       }
     ],
     "2": [
+      {
+        "title": "La fame delle Pantere non finisce mai: ecco la nuova Prosecco DOC Imoco Conegliano - La Piazza Web",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORnpHakZ0RXRfNmwzUzFGVWUydDAyX0E4OHFYSUJvOEtnQWhUd0lFMVR5dURZQjZoQ1pyU2pQT1RsS1Rjd2ljYmw2OHlkaGhKNU8ta2NZSXhJZU9TVEVkaWJMRnAwbzB3SVBQelNDWXJ2eHVpWFlhTFNrUW55bFZCWUdJSnZmdjBtQXp6b0dDb3lLRzVCVmJBOHNrNDVJaTJSY2l2RGJsWmJ2OXlWb1ByQVQwQlRDdkpBeTZua1JXZmRXcGVPNVhMZFphdw?oc=5",
+        "pubDate": "Sun, 02 Aug 2026 12:33:00 GMT",
+        "source": "La Piazza Web"
+      },
       {
         "title": "Volley, al tecnico folignate Daniele Santarelli l'Oscar del Mediterraneo 2026 - Tag24 Umbria",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMHNRemNfdjBsQzVfS196bm82YXVGWkZpZktvcjVhWUJVdlBtc0tkamZ4WlJKbE9NQmxsaHNULVZzM3RWY3BBOXFMZno2aG9sUGRiUl9Md2JrZHlzMjBsaEJWeG9VMWtoMDVYSGx5elFIaDh0Y3doRWRtR3FBblFuZGp5UEpSeDJMUGYtUkdNTlJhczV3a0JUOHBsRFRuem9jOF95UQ?oc=5",
@@ -57,15 +63,15 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzlMSERIUlRyUEc3T2dSNy1YNksweFNhVHcxU2syMHpveGFuMlVrbVZHMEh2WFJDMU9SMzZjX2NTQV9UeW1CZDJUYUxWLTAtdFhtNTRLYXNjYjFkSzhYZEFfTlBjcHpPNm1xYV9aS0Y3c183ZVlhMU4xMG1VSUY1OFBadXQ0ZXNWcUdqek5YVTdoNVJ6TmJ1QzRYWEE?oc=5",
         "pubDate": "Mon, 27 Jul 2026 07:00:29 GMT",
         "source": "Pianeta Volley"
-      },
-      {
-        "title": "Brasile sconfitto 3-1, la Turchia di Santarelli vince la Nations League femminile - ANSA",
-        "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPeUFkVUlvRW5pVlYzSnU2NHNNc1I3R2FWejhrTGx5UjVNbExiZEcxN040YjB0X2czQ1U4ekxxQnVkUzFRZ3ptQkg5VlhXbVFtYzNyQjFVQkhYMkFVQUJDbDBtNEVnd1FHbUdwZjc2dVhkSHVCMkFzM1ZlbHh5eDZNVzdwbkFEcDdmc1Vmb1Vub2dqM3k4VC1YMmI0My13amNDbnhxWnEyTFhTMXBubnpRTVVZRkN0LUQ4eWo0ZmZXZmlRNzhzMTJJZk53YW1oUldXVElWZ2ppdWNab1M1eTFsdkhnWkg2VlJqd3Nfc0hWOW5ZZHNjWkJia29EN25NaE1Zd3NVenNnenJOek9sU0hN0gGUAkFVX3lxTFBPMF9oZEJZa2F4UHIyOTF2bkR2b3RGV0xCZURic25kdGdVQ3ZlbzFsRjJwcUZkRHM2SVR0bzJVaW5jaFUxbDkwYTNoMHN3QTZlRWozVlU4eUd3bGcxaFRHbDNZMl9RZTM0Nll2a0lESmJaWnJCOFVZNldyb0hnUnJrQjhYZkhQRzZHYWFlWlBiTEhLZUFHWjQwY1Ytd1JmRkZWZEluRDFIeUxvTXJCTmJBMDBtc0xWSXY0cHRGeU5nQ2x0UHFTeTZxUlFmWlptWGk1WDdTVGlsMjhWYjZfSmRiY2FzR2p2NWJQUG0tQzdwUW9CU1VUWHJ4R1JMYnNoTDM5WWNWTWR1YTUwWDNBaUNEX2tPcg?oc=5",
-        "pubDate": "Sun, 26 Jul 2026 17:21:00 GMT",
-        "source": "ANSA"
       }
     ],
     "3": [
+      {
+        "title": "Antonello Cardellini nuovo general manager del Volley Altotevere - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN1dMTHZodk01MHAtOHlpd3E0cjJHU3FjX1VkY3JfWWN3cTNPcl9nelE2WGZrckpWQ1hiZEJQdGRQX3Q5T202SUg1a0tRRXEyS2RRQThJRkVoOGNQZzQ2amRRbnFrMTJNaUVFODNGcXZqWEtMR2ZTOU1OTEdwWERWT1Vrb0RETms3elJmeWRUSjR0RmFmRUpvb2o2Nlk?oc=5",
+        "pubDate": "Fri, 22 Aug 2025 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      },
       {
         "title": "Volley, Giuseppe Cuccarini premiato a Città di Castello - TTV.it",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY2VxSmo1MHFPYnI0TGtNV3o4RTNiOVh0dzl4SE5lYm11S1Rjc29OTlctSlhrSFAxZDQ5eWNlNW5sWXNNd25ENGQ4SlJsT01YcEt1UENabGFMSjdzZGNlRVdSdFh6M2VQZ2w5MENDbUptR1p5LUc1Ti1HZnZwMERlRTloYlE?oc=5",
@@ -87,10 +93,10 @@
         "source": "iVolley Magazine"
       },
       {
-        "title": "Cuccarini: “Livello difensivo femminile? Ha ragione Velasco… Stelle? Le ho allenate, e ho vinto” - volleynews.it",
+        "title": "Cuccarini: “Livello difensivo femminile? Ha ragione Velasco… Stelle? Le ho allenate, e ho vinto” - Volley News",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLU84Y25ROWNuam9ROUhmX3ZCNEFmUUR2dXEzdXphYUxYclRBMFJ4bXFwMU83dGNPZFA1U0c4dUIxUUVPeU5YQng0Z3JTcVJZdWdQRTVickJEYXpYb2RuckstVmlUTFlydlNiRE9qejNfODVQTEt2dTVpRzJtREtVWEZBM3JJMjFfTVAtRlFlaVoyT081ZDFSMFFKRWNJNlpNZUdORHFuRjlZem00VXNSWDJHZllYT2M?oc=5",
         "pubDate": "Sun, 22 Mar 2026 07:00:00 GMT",
-        "source": "volleynews.it"
+        "source": "Volley News"
       },
       {
         "title": "CDA Volley Talmassons Fvg perfetta: piegata Roma 3-0 - Lega Volley Femminile",
@@ -113,10 +119,10 @@
         "source": "iVolley Magazine"
       },
       {
-        "title": "Challenge Cup: verso la finale Vallefoglia- Panathinaikos. Pistola: “Non vogliamo smettere di sognare” - volleynews.it",
+        "title": "Challenge Cup: verso la finale Vallefoglia- Panathinaikos. Pistola: “Non vogliamo smettere di sognare” - Volley News",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMm1WRVNpaGk2X25zcHhLbWs2enBjTGtWQV83d3BhTjRCLURESFZwWm1obXp1VDN0a3NxSUtwaFlpZjYxZ1FBMkt1aXo1Y2FnRENqOHJnY2tDUUpBVzNHOGtCdmdyQ1ZtOGs0b3Rqa0ZHQVVKU3lKQ3FsTVhDbEtZamxoaS1OSDRjdUdaWHlaSGNKV2hjaTJGX2RpSWhRcTJQUUU1Y3luNTQ0Tmd5blBpc0Q4dHEzYmJQbFBIX29XZC0?oc=5",
         "pubDate": "Tue, 10 Mar 2026 07:00:00 GMT",
-        "source": "volleynews.it"
+        "source": "Volley News"
       },
       {
         "title": "Pallavolo Grecia – Olga Strantzali alla corte di Alessandro Chiappini? - iVolley Magazine",
@@ -129,20 +135,20 @@
       {
         "title": "Colombini e Turini nel ruolo di opposto per la Passione Valdarno Volley - ValdarnoPost",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY0ZRMUZqR0czaE1DVHJtV3htQjZ5RVRaQ083UUxLZC1nWE81VmlZelp5VGhsdHQyUTdFUHNUdmgwMGNYTHNOS2dIamRraGctTFdPbjRkVjNPeDNKeXNLTGpmZ0FpNkItNlgyekRCNlVfTktfZ3FuSWdSTzVvamRheFNudm0yQVVYc2ZTRkxfLTZyRzAzVzFnYTNHbUVGV1VienQwZGFib250eUJIeTJScmhEWHpnVmVSODF4Mm9BSkczcXJ2a2hKM3B6dmYxbVg1RGFycg?oc=5",
-        "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "pubDate": "Wed, 22 Jul 2026 16:29:53 GMT",
         "source": "ValdarnoPost"
       },
       {
-        "title": "Capergnanica. Cremonesi nuovo allenatore - Crema on line",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkpadUtxMnE0bVhfSFkxcE1fWm15OWlrdk5WSlp4aWtaZHRuZDZGZUNzTTZZeVVpV0xXU2t3eUl2Wk5CMWZmQnBUUkdkQ0RrdE11bU00MjFDdXloSTlWNlZQclBSSUMxRVFIYVROTnVvYXFNZVpJNEhwdVVTQzJIa3dkXzcxQ01Vd2cwanl6aw?oc=5",
-        "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
-        "source": "Crema on line"
-      },
-      {
-        "title": "Valdarno si affida a Mauro Chiappafreddo per la panchina: “C’è l’ambizione di fare bene” - volleynews.it",
+        "title": "Valdarno si affida a Mauro Chiappafreddo per la panchina: “C’è l’ambizione di fare bene” - Volley News",
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMU9DM2lYdzg5ZWM5LXhrWXd2dDJCWHZQcjJYTXhRWDBGVDJZT08wWm1iY3plY0dBQUxzYkFiOFZObHc5MmlZaDItbkRqOXZrZE1qZFFiSlRIckFpLU01SGhqTjBhTXpDWmh5dEV2RndwMDFxNlpMR2tCQnBGdGc4Q0lST3gyT1Zsa19NYjkxSlVhb2dIUXRac0FTTm51MmJqRmVXV3ZwQmszd3pQcXIw?oc=5",
         "pubDate": "Sun, 20 Jul 2025 07:00:00 GMT",
-        "source": "volleynews.it"
+        "source": "Volley News"
+      },
+      {
+        "title": "Chiappafreddo soddisfatto: «La Tecnoteam è sul pezzo» - La Provincia di Como",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLUROUTZRNURuMWpyc0tHQk9jSFV0aDZ0UzFPYTEtMGJKNDFubFBWNVkwUE9uR2J4NWdKSVNYNU8yeHBXcjFhVHlDaThYdi0ySC1BUkl4Z0xIQnBCcWJYVW85OWx5bDkzald0V3JROG1mRTdVWG5RaGFTRnRfU0s2ZUJNc29IdVlYaG1ncC1yTDFqY0FTY1BWSEFORV9ER2RxcnEzdF9BdlhZc080anZMc3Rlei1vSXJ4MUVBU0J2ZVZjTnpDbWZrSg?oc=5",
+        "pubDate": "Sat, 31 Aug 2024 07:00:00 GMT",
+        "source": "La Provincia di Como"
       }
     ],
     "7": [
@@ -165,10 +171,10 @@
         "source": "Pianeta Volley"
       },
       {
-        "title": "La Gabbiano Farmamed riparte da coach Andrea Radici - legavolley.it",
+        "title": "La Gabbiano Farmamed riparte da coach Andrea Radici - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRksxY0Y1c1lMdVhDTlhOVmx4RWgzTjRMbDBxbGctaERDR1ZEZDNCYWlVRWNTVDJpalhoQ1VPbGY4NDhuSUhSdmd4c1lCUllfbzVIT1VGMXRYdDYzdkllOWpLWjZ2LVFZZTJ6aWJYOGFMalVDb0hVNXJpV0VndnpuTDRQWk9JTmQ4eDZ3?oc=5",
         "pubDate": "Fri, 24 Apr 2026 07:00:00 GMT",
-        "source": "legavolley.it"
+        "source": "Lega Pallavolo Serie A"
       },
       {
         "title": "Andrea Radici é il nuovo allenatore della Pallavolo Città di Castello - saturnonotizie.it",
@@ -188,16 +194,16 @@
     ],
     "10": [
       {
-        "title": "Per Terni Academy sconfitta e retrocessione - La Nazione",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlhzQ1h3YVRicVNyblFxdUpfYlNQSjduclVPY3ZTQWVzTjlyUXdXMy04azEtR0liVHNVWXU1NUpYTnNpQTY0akFXZldDcHo5XzZHRnJhaXhjcUNtWTlEd1dybF9GQ2N0WTZsYXFPd3RsRFhrODBFRVVYMGhxS1lZSHpnYkQ?oc=5",
-        "pubDate": "Sun, 19 Apr 2026 07:00:00 GMT",
-        "source": "La Nazione"
-      },
-      {
-        "title": "Terni Volley, Camardese punta sul gruppo - legavolley.it",
+        "title": "Terni Volley, Camardese punta sul gruppo - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbzRhTnVmMVRINjFIZU9FN29iSzQ4RURHdlJEdTlHbjBfb1J6VW5faXYxQ2hqMWdtRnhONHVGS3lkeXZHQzc2UV80dUlqcF9qTXk5MTVuQW13YUV0TUpKd3EtNFdBQ2xIcFQzalNRaFV2eHIxcFp4YzRJaw?oc=5",
         "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT",
-        "source": "legavolley.it"
+        "source": "Lega Pallavolo Serie A"
+      },
+      {
+        "title": "Un cambio in panchina a Terni: Camardese sostituisce Giombini - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXY0SXdON1dVSW0weGhXMVdiNldyTW1wSnloeGNIcEF0dWp3VzVoTXhJakpPelVNeTVqdzNXUzNlQmx2Q2swYXhCYXFYMk5oM3JZd3BlaXRJSFZwX0VOZUR2RklDWUtaR1FRcTdqZkpHNWF5VE9EWnJHQlpjVXh0RXFMNXNkYkpKZl8yemtSc2I?oc=5",
+        "pubDate": "Fri, 06 Feb 2026 08:00:00 GMT",
+        "source": "Volley News"
       },
       {
         "title": "Pallavolo A3M – Leondino Giombini non è più l’allenatore di Terni, la squadra affidata a Cristiano Camardese - iVolley Magazine",
@@ -206,10 +212,10 @@
         "source": "iVolley Magazine"
       },
       {
-        "title": "Esonerato Giombini, i Dragons a Camardese - legavolley.it",
+        "title": "Esonerato Giombini, i Dragons a Camardese - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TbTVhOGFUcHoydFY3Z2ExM2xRRXVKVVRnMGRBOTFlaDhsZ25wUWxkYk5DdmVLemdPM2dVcjl1bHAzZkd4U0JVZ2VMSjRfdU5ndjdCaTRIcDhIN09lTWtMTnVuaUVMelNFcjJaVnExVTdUMjVFUGhZQ3ZKaTM?oc=5",
         "pubDate": "Thu, 05 Feb 2026 08:00:00 GMT",
-        "source": "legavolley.it"
+        "source": "Lega Pallavolo Serie A"
       },
       {
         "title": "Conad Pala Terni Volley Academy, esonerato mister Leondino Giombini: il nuovo allenatore - TerniToday",

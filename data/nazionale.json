@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:29:14.683856+00:00",
+  "generatedAt": "2026-08-02T19:25:43.997717+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -130,7 +130,7 @@
       "permalink": "https://www.volleyball.it/2026/03/04/notizie/argomenti/mondiali/articolo/mondiali-2027-cinque-citta-polacche-ospiteranno-il-torneo-maschile.html"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "Pallavolo, orgoglio Cbf Balducci: Laura Lelli in Nazionale under 16",
       "excerpt": "Fonte: centropagina.it",
       "createdTime": "Tue, 28 Jul 2026 23:16:00 GMT",
@@ -146,7 +146,7 @@
       "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-28-luglio-2026-kaczmarek-a-resovia-karakurt-in-dubbio-lasia-gu.html"
     },
     {
-      "id": "5",
+      "id": "7",
       "title": "Volley Serie B, le messinesi si preparano ai campionati nazionali",
       "excerpt": "Fonte: tempostretto.it",
       "createdTime": "Tue, 28 Jul 2026 11:30:00 GMT",
@@ -218,20 +218,12 @@
       "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/superlega/articolo/mondo-volley-le-altre-news-del-30-luglio-2026-le-leghe-sfidano-il-calendario-plak-saluta.html"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Pallavolo Azzurri – Nazionale B: nuovo collegiale in vista dei Giochi del Mediterraneo",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 30 Jul 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/07/31/pallavolo-azzurri-nazionale-b-nuovo-collegiale-in-vista-dei-giochi-del-mediterraneo/"
-    },
-    {
-      "id": "9",
-      "title": "Volley, cresciuta nella Pallavicini, vinse tanto sia con Modena sia con la Nazionale. Portò San Lazzaro in azzurro: ci ha lasciato Michela Monari",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Thu, 30 Jul 2026 17:00:00 GMT",
-      "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
-      "permalink": "https://sport.quotidiano.net/locale/volley/volley-cresciuta-nella-pallavicini-vinse-95bf03ba"
     },
     {
       "id": "vnlfinalslapoloniaconquistailp",
@@ -410,20 +402,20 @@
       "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-bella-risposta-azzurra-litalia-chiude-con-il-bronzo-cina-battuta-3-1-nella-finale-p.html"
     },
     {
+      "id": "5",
+      "title": "Pallavolo, bronzo per l'Italia femminile nella Volleyball Nations League",
+      "excerpt": "Fonte: tg24.sky.it",
+      "createdTime": "Sun, 26 Jul 2026 08:13:00 GMT",
+      "image": null,
+      "permalink": "https://tg24.sky.it/sport/2026/07/26/pallavolo-femminile-volley-nations-league"
+    },
+    {
       "id": "agendalegaredellagiornata",
       "title": "Agenda: Le gare della giornata",
       "excerpt": "Sette gare in programma oggi in quattro manifestazioni.",
       "createdTime": "Sun, 26 Jul 2026 08:10:48 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/GRAFICA_-_Le_gare_di_Oggi.png",
       "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/internazionale/articolo/agenda-le-gare-della-giornata-4.html"
-    },
-    {
-      "id": "6",
-      "title": "La Nazionale femminile di pallavolo ha vinto la medaglia di bronzo alla Nations League",
-      "excerpt": "Fonte: ilpost.it",
-      "createdTime": "Sun, 26 Jul 2026 03:54:00 GMT",
-      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/07/26/1785074024-nations-league-italia.jpg",
-      "permalink": "https://www.ilpost.it/2026/07/26/italia-pallavolo-nations-league-terza/"
     },
     {
       "id": "casokeitacorsacontroiltempotra",
@@ -448,6 +440,38 @@
       "createdTime": "Sun, 05 Oct 2025 00:30:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/SIKIRIC.jpg",
       "permalink": "https://www.volleyball.it/2025/10/05/notizie/argomenti/europei-maschili/articolo/europei-2026-la-serata-dei-sorteggi-le-parole-di-sikiric-manfredi-abodi-de-giorgi-e-velasco.html"
+    },
+    {
+      "id": "vnlfinalsvinceancoralapolonia3",
+      "title": "VNL Finals: Vince ancora la Polonia. 3-2 agli USA. Slovenia di bronzo",
+      "excerpt": "2 AgostoFinale 1 ° postoUSA - Polonia 2-3 (21-25, 25-23, 27-25, 23-25, 10-15)Durata 2h08'Pubblico:...",
+      "createdTime": "Sun, 02 Aug 2026 16:14:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_campione.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/02/notizie/argomenti/vnl-maschile/articolo/vnl-finals-vince-ancora-la-polonia-3-2-agli-usa-slovenia-di-bronzo.html"
+    },
+    {
+      "id": "internazionaleipotesidinuovoca",
+      "title": "Internazionale: Ipotesi di nuovo calendario internazionale FIVB dal 2028... 9 mesi per i campionati",
+      "excerpt": "A dicembre e gennaio mondiali e continentali. Più tempo per i campionati?",
+      "createdTime": "Sun, 02 Aug 2026 11:45:36 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/grafica_-_planning_fivb.png",
+      "permalink": "https://www.volleyball.it/2026/08/02/notizie/argomenti/superlega/articolo/internazionale-ipotesi-di-nuovo-calendario-internazionale-fivb-dal-2028-9-mesi-per-i-campionati.html"
+    },
+    {
+      "id": "12",
+      "title": "È morto Alexeis Argilagos, l’ex nazionale cubano aveva 51 anni: lutto nel mondo della pallavolo",
+      "excerpt": "Fonte: fanpage.it",
+      "createdTime": "Sun, 02 Aug 2026 07:11:00 GMT",
+      "image": null,
+      "permalink": "https://www.fanpage.it/sport/altri-sport/e-morto-alexeis-argilagos-lex-nazionale-cubano-aveva-51-anni-lutto-nel-mondo-della-pallavolo/"
+    },
+    {
+      "id": "2",
+      "title": "Lo staff tecnico di Pallavolo Padova vive un’estate di alto livello",
+      "excerpt": "Fonte: emmepress.com",
+      "createdTime": "Sun, 02 Aug 2026 01:54:00 GMT",
+      "image": "https://emmepress.com/wp-content/uploads/2026/08/magellano-94896-1785660815.jpg",
+      "permalink": "https://emmepress.com/2026/08/02/staff-tecnico-pallavolo-padova-vive-estate-alto-livello/"
     },
     {
       "id": "fivbfugadinotiziesullenuovereg",
@@ -522,15 +546,7 @@
       "permalink": "https://www.volleyball.it/2026/07/25/notizie/argomenti/europei-femminili/articolo/eurovolley-2026-chi-parte-favorito-e-quali-chance-ha-davvero-litalia.html"
     },
     {
-      "id": "vnlfinalsilbrasilefermalitalia",
-      "title": "VNL Finals: Il Brasile ferma l'Italia al tie-break, azzurre in campo per il bronzo",
-      "excerpt": "A Macao la squadra di Velasco cede 3-2 al Brasile dopo una semifinale combattuta. Domani la finale...",
-      "createdTime": "Sat, 25 Jul 2026 12:49:52 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Brasile_-_italia.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/25/notizie/argomenti/vnl-femminile/articolo/vnl-finals-il-brasile-ferma-litalia-al-tie-break-azzurre-in-campo-per-il-bronzo.html"
-    },
-    {
-      "id": "7",
+      "id": "9",
       "title": "L’Italia femminile di pallavolo è stata eliminata in semifinale di Nations League dal Brasile",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sat, 25 Jul 2026 05:26:00 GMT",
@@ -570,6 +586,22 @@
       "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/mondo-volley-le-altre-news-del-1-agosto-2026-usa-polonia-vale-loro-narbonne-ritira-il-19-di.html"
     },
     {
+      "id": "1",
+      "title": "Pallavolo VNL M – Slovenia: Jan Kozamernik, Rok Možič, Uroš Planinšič e Fabio Soli commentano la vittoria con il Giappone",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sat, 01 Aug 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/08/02/pallavolo-vnl-m-slovenia-jan-kozamernik-rok-mozic-uros-planinsic-e-fabio-soli-commentano-la-vittoria-con-il-giappone/"
+    },
+    {
+      "id": "8",
+      "title": "Un’estate di alto livello per lo staff tecnico di Pallavolo Padova",
+      "excerpt": "Fonte: padovanews.it",
+      "createdTime": "Sat, 01 Aug 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.padovanews.it/2026/08/02/unestate-di-alto-livello-per-lo-staff-tecnico-di-pallavolo-padova/"
+    },
+    {
       "id": "vnlglistatiunitirimontanoilgia",
       "title": "VNL: Gli Stati Uniti rimontano il Giappone e sfidano la Polonia per l'oro",
       "excerpt": "La squadra di Karch Kiraly vince 3-2 dopo essere stata sotto 2-1 e infligge ai nipponici la prima...",
@@ -584,14 +616,6 @@
       "createdTime": "Sat, 01 Aug 2026 11:35:44 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_win_semifinale.jpg",
       "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-polonia-travolge-la-slovenia-e-vola-in-finale.html"
-    },
-    {
-      "id": "vnlfinalsi14azzurriperningbogi",
-      "title": "VNL Finals: I 14 azzurri per Ningbo, giovedì il quarto con gli USA. Michieletto resta in Italia",
-      "excerpt": "L'Italia affronterà gli Stati Uniti il 30 luglio alle 9. Definito il gruppo scelto da Ferdinando De...",
-      "createdTime": "Mon, 27 Jul 2026 10:03:55 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/vnl-finals-ningbo-14-azzurri-2026.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/27/notizie/argomenti/vnl-maschile/articolo/vnl-finals-i-14-azzurri-per-ningbo-giovedi-il-quarto-con-gli-usa-michieletto-resta-in-italia.html"
     },
     {
       "id": "eurovolley2026riapertalavendit",
@@ -616,30 +640,6 @@
       "createdTime": "Mon, 23 Feb 2026 11:51:52 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/CEV_Europei.jpeg",
       "permalink": "https://www.volleyball.it/2026/02/23/notizie/argomenti/champions-league/articolo/europei-2026-sky-acquisisce-i-diritti-degli-europei-2026-e-conferma-le-coppe-europee-per-club-fino.html"
-    },
-    {
-      "id": "nazionalemanfredimaipiuncasola",
-      "title": "Nazionale: Manfredi: “Mai più un caso Lavia”. Apertura su Keita: “Diventerà italiano”. Azzurro per i Mondiali 2027",
-      "excerpt": "Il presidente federale interviene su assicurazioni, rapporto club-nazionale e integrazione:...",
-      "createdTime": "Mon, 13 Apr 2026 20:01:38 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/04/x_Giuseppe_Manfredi_con_la_torcia_olimpica.png",
-      "permalink": "https://www.volleyball.it/2026/04/13/notizie/argomenti/internazionale/articolo/nazionale-manfredi-mai-piu-un-caso-lavia-apertura-su-keita-diventera-italiano-azz.html"
-    },
-    {
-      "id": "mondovolleylealtrenewsdel31lug",
-      "title": "Mondo Volley: Le altre news del 31 luglio 2026: Amaranto trascina la Colombia, Kochanowski salta gli Europei, Duda si ferma",
-      "excerpt": "Il nuovo opposto di Cisterna protagonista ai Giochi Centroamericani, la Polonia perde il suo...",
-      "createdTime": "Fri, 31 Jul 2026 23:28:45 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Miguel_Ángel_Martínez_Amaranto.jpg",
-      "permalink": "https://www.volleyball.it/2026/07/31/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-31-luglio-2026-amaranto-trascina-la-colombia-kochanowski-salta-gli.html"
-    },
-    {
-      "id": "1",
-      "title": "Pallavolo Azzurre – Collegiale a Urbino per la Nazionale Seniores B",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Fri, 31 Jul 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/01/pallavolo-azzurre-collegiale-a-urbino-per-la-nazionale-seniores-b/"
     }
   ]
 }
