@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T15:33:53.955306+00:00",
+  "generatedAt": "2026-08-02T05:01:59.384679+00:00",
   "posts": [
     {
       "id": "francescocesarieleonardocesari",
@@ -8,14 +8,6 @@
       "createdTime": "Wed, 29 Jul 2026 11:00:59 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Cesari-Cesari.jpg",
       "permalink": "https://www.pianetavolley.net/2026/07/francesco-cesari-e-leonardo-cesari-ancora-a-citta-di-castello/"
-    },
-    {
-      "id": "news-2",
-      "title": "Pallavolo B1F – Sirio Perugia: un nome storico torna sua ribalta nazionale",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 22 Jul 2026 16:59:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/23/pallavolo-b1f-sirio-perugia-un-nome-storico-torna-sua-ribalta-nazionale/"
     },
     {
       "id": "news-0",
@@ -58,7 +50,15 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-7",
+      "id": "news-2",
+      "title": "Volley femminile: è nata la Bartoccini +energia Perugia",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 28 Jul 2026 09:40:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/07/Marinangeli-e-Bartoccini-1-e1785259552903.jpg",
+      "permalink": "https://www.umbria24.it/perugia/volley-femminile-e-nata-la-bartoccini-energia-perugia/"
+    },
+    {
+      "id": "news-6",
       "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
@@ -90,7 +90,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-pgs-bosico-terni-53156cc5"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
@@ -154,14 +154,6 @@
       "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
     },
     {
-      "id": "news-5",
-      "title": "Sir Perugia, il patron: «Il cambiamento per una nuova stagione vincente»",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Thu, 23 Jul 2026 09:20:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/07/23/9668424_23161251_20260722_121446_resized.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/sir_perugia_patron_cambiamento_nuova_stagione_vincente-9668424.html"
-    },
-    {
       "id": "news-6",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -186,12 +178,12 @@
       "permalink": "https://www.lanazione.it/umbria/sport/pallavolo-perugia-in-serie-a2-ma-dove-giochera-idea-pellini-8a3df47c"
     },
     {
-      "id": "news-1",
-      "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
-      "excerpt": "Fonte: assisisport.it",
-      "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
-      "image": "https://www.assisisport.it/wp-content/uploads/2023/05/AC019701-71F2-4229-959A-BF99AD943676.jpeg",
-      "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
+      "id": "news-4",
+      "title": "SandVolley – Mantignana si prepara al Memorial Giri-Fiscella",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sun, 26 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/07/27/sandvolley-mantignana-si-prepara-al-memorial-giri-fiscella/"
     },
     {
       "id": "news-3",
@@ -200,6 +192,14 @@
       "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
+    },
+    {
+      "id": "news-7",
+      "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
+      "excerpt": "Fonte: lanazione.it",
+      "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
+      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
       "id": "news-7",
@@ -242,7 +242,7 @@
       "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/pallavolo-femminile-a1/2019/06/29-58445024/giada_cecchetto_resta_in_umbria_giochera_a_perugia"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -274,7 +274,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/sirio-perugia-e-galex-un-binomio-di-successi/"
     },
     {
-      "id": "news-3",
+      "id": "news-0",
       "title": "Perugia e Galex di nuovo insieme nel nome della Sirio Volley",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sat, 01 Aug 2026 05:32:00 GMT",
@@ -314,7 +314,7 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Selezioni Beach Volley Umbria: al via gli allenamenti per il Trofeo delle Regioni",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Mon, 12 May 2025 17:00:00 GMT",
@@ -322,20 +322,12 @@
       "permalink": "https://sport.quotidiano.net/volley/selezioni-beach-volley-umbria-al-e483609d"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
       "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 06 May 2024 06:05:00 GMT",
       "image": "http://www.assisisport.it/wp-content/uploads/2024/05/IMG_0606.jpeg",
       "permalink": "http://www.assisisport.it/volley/umbria-academy-sir-volley-il-settore-giovanile-cala-il-pokerissimo-foto/"
-    },
-    {
-      "id": "news-6",
-      "title": "La Fipav Umbria dice “stop”, la FIP Umbria concede il “libero arbitrio”",
-      "excerpt": "Fonte: orvietosport.it",
-      "createdTime": "Mon, 03 Jan 2022 16:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.orvietosport.it/2022/01/04/la-fipav-umbria-dice-stop-la-fip-umbria-concede-il-libero-arbitrio/"
     },
     {
       "id": "news-0",
@@ -344,6 +336,14 @@
       "createdTime": "Fri, 31 Jul 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/08/01/pallavolo-sl-gino-sirci-contro-la-fivb-il-progetto-del-nuovo-calendario-e-la-rovina-della-pallavolo/"
+    },
+    {
+      "id": "news-1",
+      "title": "Pallavolo A2F – Black Angels: “Avvio in salita ma ci faremo trovare pronti”",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Fri, 31 Jul 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/08/01/pallavolo-a2f-black-angels-avvio-in-salita-ma-ci-faremo-trovare-pronti/"
     },
     {
       "id": "diegobenegiamocittdicastellopr",
@@ -386,7 +386,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",

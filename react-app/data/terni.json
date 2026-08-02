@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-01T15:34:51.891874+00:00",
+  "generatedAt": "2026-08-02T05:02:58.095981+00:00",
   "posts": [
+    {
+      "title": "Terni Volley, Giancarlo D’Amico è il nuovo allenatore",
+      "excerpt": "Fonte: ivl24.it",
+      "createdTime": "Wed, 17 Jun 2026 02:58:00 GMT",
+      "image": "https://ivl24.it/wp-content/uploads/2026/06/724407993_17894469804532922_5592723038272750347_n.jpg",
+      "permalink": "https://ivl24.it/terni-volley-giancarlo-damico-e-il-nuovo-allenatore/",
+      "id": "5"
+    },
     {
       "id": "seriecvolleyilcltvinceilderbya",
       "title": "Serie C Volley, il CLT vince il derby a Perugia 2-3",
@@ -31,7 +39,7 @@
       "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=27304",
-      "id": "5"
+      "id": "6"
     },
     {
       "id": "superenalottocentratoarivadelg",
@@ -47,7 +55,7 @@
       "createdTime": "Tue, 11 Nov 2025 02:28:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/10/9180399_10153740_tva_napoli_2_47_scaled.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_spazza_via_le_sue_paure_ed_acciuffa_la_prima_vittoria_3_0_napoli-9180399.html",
-      "id": "9"
+      "id": "10"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -71,7 +79,7 @@
       "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/08/9177140_08210447_.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
-      "id": "10"
+      "id": "11"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -106,14 +114,6 @@
       "id": "3"
     },
     {
-      "title": "Terni Volley: i Dragons cedono al tie break a Sabaudia, primo punto in A3",
-      "excerpt": "Fonte: sporterni.it",
-      "createdTime": "Mon, 27 Oct 2025 04:23:00 GMT",
-      "image": "https://www.sporterni.it/immagini/articoli/26530.jpg",
-      "permalink": "https://www.sporterni.it/articolo.php?id=26530",
-      "id": "11"
-    },
-    {
       "title": "Volley femminile, il folignate Santarelli non si ferma più: vince la Vnl con la Turchia",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Mon, 27 Jul 2026 00:49:00 GMT",
@@ -127,7 +127,7 @@
       "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
       "image": "/upload/immagini/2026/01/orvietovolleyacademy27-.jpg",
       "permalink": "https://www.orvietonews.it/sport/2026/02/17/orvieto-volley-academy-sconfitta-a-domicilio-aspettando-la-pallavolo-arrone-120248.html",
-      "id": "6"
+      "id": "7"
     },
     {
       "id": "bosicovolleyunder13altorneonaz",
@@ -151,7 +151,7 @@
       "createdTime": "Fri, 28 Nov 2025 16:01:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/pallavolo-narni/",
-      "id": "8"
+      "id": "9"
     },
     {
       "title": "Volley Team U18",
@@ -159,7 +159,7 @@
       "createdTime": "Fri, 23 Jan 2026 08:47:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/volley-team-orvieto/volley-team-u18/",
-      "id": "7"
+      "id": "8"
     },
     {
       "title": "Terni Volley, ufficiale il ripescaggio in Serie A3: i Dragons giocheranno nel Girone Blu",
