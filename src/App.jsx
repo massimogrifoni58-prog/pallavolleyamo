@@ -4615,7 +4615,7 @@ function SponsorBanner() {
 
   return (
     <div className="sponsor-banner">
-      <span className="sponsor-banner__label">Sponsor</span>
+      <span className="sponsor-banner__label"></span>
       {sponsors.map((s, i) => (
         <a key={i} href={s.url} target="_blank" rel="noreferrer" className="sponsor-banner__item">
           <img src={s.logo} alt={s.nome} className="sponsor-banner__logo" />
@@ -4663,7 +4663,6 @@ function SidebarRight() {
         </a>
       </div>
       <div className="sidebar__box sidebar__box--sponsor-pro">
-        <p className="sponsor__label">Sponsor</p>
         <a href={current.url} target="_blank" rel="noreferrer">
           <img
             src={current.logo}
