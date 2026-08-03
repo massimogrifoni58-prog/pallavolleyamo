@@ -4716,15 +4716,15 @@ function MappaPage() {
   const societa = societaData.societa || [];
 
   const colori = {
-    "Superlega": "#7F77DD",
-    "Serie A1 F": "#D85A30",
-    "Serie A3": "#EF9F27",
-    "Serie C M": "#1D9E75",
-    "Serie C F": "#378ADD",
-    "Serie D": "#888780",
-    "1 Divisione F": "#D4537E",
-    
-  };
+  "Superlega": "#7F77DD",
+  "Serie A1 F": "#D85A30",
+  "Serie A3": "#EF9F27",
+  "Serie C M": "#1D9E75",
+  "Serie C F": "#378ADD",
+  "Serie D M": "#888780",
+  "Serie D F": "#aaa",
+  "1 Divisione F": "#D4537E",
+};
 
   const categorie = ["Tutti", "Superlega/A", "Serie C", "Serie D","1ª Div"];
 
