@@ -4791,10 +4791,31 @@ function MappaPage() {
             </button>
           ))}
         </div>
-        <div className="mappa-container">
-          <div className="mappa-svg-wrap" style={{ maxWidth: "350px" }}>
-            <svg ref={svgRef} style={{ width: "100%", borderRadius: "12px", border: "1px solid var(--border)" }} />
-          </div>
+      <div className="mappa-container">
+  <div className="mappa-svg-wrap" style={{ maxWidth: "350px" }}>
+    <svg ref={svgRef} style={{ width: "100%", borderRadius: "12px", border: "1px solid var(--border)" }} />
+  </div>
+
+  {/* Elenco verticale per categoria */}
+  <div style={{ flex: 1, overflowY: "auto", maxHeight: "500px", fontSize: "0.78rem" }}>
+    {Object.entries(colori).map(([cat, col]) => {
+      const lista = societaFiltrate.filter(s => s.categoria === cat);
+      if (lista.length === 0) return null;
+      return (
+        <div key={cat} style={{ marginBottom: "10px" }}>
+          <div style={{ fontSize: "0.68rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>{cat}</div>
+          {lista.map(s => (
+            <div key={s.id} onClick={() => setSelected(s)}
+              style={{ padding: "3px 6px", borderRadius: "6px", cursor: "pointer",
+                background: selected?.id === s.id ? col + "22" : "transparent",
+                color: selected?.id === s.id ? col : "var(--text-dim)" }}>
+              {s.nome}
+            </div>
+          ))}
+        </div>
+      );
+    })}
+  </div>
           <div className="mappa-sidebar">
             <div className="mappa-card">
       {selected ? (
