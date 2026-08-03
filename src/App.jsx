@@ -4721,18 +4721,20 @@ function MappaPage() {
     "Serie A3": "#EF9F27",
     "Serie C M": "#1D9E75",
     "Serie C F": "#378ADD",
-    "1 Divisione F": "#D4537E",
     "Serie D": "#888780",
+    "1 Divisione F": "#D4537E",
+    
   };
 
-  const categorie = ["Tutti", "Superlega/A", "Serie C", "1ª Div", "Serie D"];
+  const categorie = ["Tutti", "Superlega/A", "Serie C", "Serie D","1ª Div"];
 
   const catFiltri = {
     "Tutti": () => true,
     "Superlega/A": s => ["Superlega","Serie A1 F","Serie A3"].includes(s.categoria),
     "Serie C": s => s.categoria.includes("Serie C"),
-    "1ª Div": s => s.categoria.includes("Divisione"),
     "Serie D": s => s.categoria === "Serie D",
+    "1ª Div": s => s.categoria.includes("Divisione"),
+    
   };
 
   const societaFiltrate = societa.filter(catFiltri[filtro]);
@@ -4794,29 +4796,34 @@ function MappaPage() {
           ))}
         </div>
         <div className="mappa-container">
-          <div className="mappa-svg-wrap">
+          <div className="mappa-svg-wrap" style={{ maxWidth: "350px" }}>
             <svg ref={svgRef} style={{ width: "100%", borderRadius: "12px", border: "1px solid var(--border)" }} />
           </div>
           <div className="mappa-sidebar">
             <div className="mappa-card">
-              {selected ? (
-                <>
-                  <div className="mappa-card__nome">{selected.nome}</div>
-                  <span className="mappa-card__cat" style={{
-                    background: (colori[selected.categoria] || "#888") + "22",
-                    color: colori[selected.categoria] || "#888",
-                  }}>{selected.categoria}</span>
-                  <div style={{ lineHeight: 1.7 }}>
-                    <div>📍 {selected.citta} ({selected.provincia})</div>
-                    <div>🏟 {selected.palazzetto}</div>
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div className="mappa-card__nome">— seleziona —</div>
-                  <div style={{ marginTop: 6 }}>Clicca un pallino sulla mappa.</div>
-                </>
-              )}
+      {selected ? (
+        <>
+          <div className="mappa-card__nome">{selected.nome}</div>
+          <span className="mappa-card__cat" style={{
+            background: (colori[selected.categoria] || "#888") + "22",
+            color: colori[selected.categoria] || "#888",
+          }}>{selected.categoria}</span>
+          <div style={{ lineHeight: 1.8, fontSize: "0.8rem" }}>
+            <div>📍 {selected.citta} ({selected.provincia})</div>
+            <div>🏟 {selected.palazzetto}</div>
+            <div style={{ color: "var(--text-dim)" }}>{selected.indirizzo}</div>
+           <a href={selected.gmaps} target="_blank" rel="noreferrer"
+             style={{ color: "var(--gold)", fontSize: "0.75rem", marginTop: 6, display: "inline-block" }}>
+             Apri in Google Maps →
+           </a>
+         </div>
+       </>
+     ) : (
+       <>
+        <div className="mappa-card__nome">— seleziona —</div>
+        <div style={{ marginTop: 6 }}>Clicca un pallino sulla mappa.</div>
+      </>
+     )}
             </div>
             <div style={{ marginTop: 14 }}>
               <div style={{ fontSize: "0.75rem", color: "var(--text-dim)", marginBottom: 8 }}>Legenda</div>
