@@ -1,0 +1,24 @@
+{
+  "societa": [
+    { "id": "1", "nome": "Narni Sport Academy", "citta": "Narni", "provincia": "TR", "categoria": "Serie D", "lat": 42.5178, "lng": 12.5194, "palazzetto": "Palestra Comunale Narni" },
+    { "id": "2", "nome": "CLT Terni", "citta": "Terni", "provincia": "TR", "categoria": "Serie C", "lat": 42.5636, "lng": 12.6430, "palazzetto": "Pala Itis Terni" },
+    { "id": "3", "nome": "Terni Volley Academy", "citta": "Terni", "provincia": "TR", "categoria": "Serie A3", "lat": 42.5640, "lng": 12.6450, "palazzetto": "Conad Pala Terni" },
+    { "id": "4", "nome": "Bosico Volley", "citta": "Terni", "provincia": "TR", "categoria": "Serie D", "lat": 42.5620, "lng": 12.6410, "palazzetto": "Palestra Don Bosco Terni" },
+    { "id": "5", "nome": "Amerina Pallavolo", "citta": "Amelia", "provincia": "TR", "categoria": "Serie C", "lat": 42.5574, "lng": 12.4139, "palazzetto": "Palestra Amerina" },
+    { "id": "6", "nome": "Pallavolo Arrone", "citta": "Arrone", "provincia": "TR", "categoria": "Serie D", "lat": 42.5797, "lng": 12.7644, "palazzetto": "Palestra Comunale Arrone" },
+    { "id": "7", "nome": "Colleluna Volley", "citta": "Terni", "provincia": "TR", "categoria": "1 Divisione", "lat": 42.5500, "lng": 12.6300, "palazzetto": "Palestra Colleluna" },
+    { "id": "8", "nome": "San Gemini Don Bosco Volley", "citta": "San Gemini", "provincia": "TR", "categoria": "Serie D", "lat": 42.6097, "lng": 12.5414, "palazzetto": "Palestra San Gemini" },
+    { "id": "9", "nome": "Volley Team Orvieto", "citta": "Orvieto", "provincia": "TR", "categoria": "Serie D", "lat": 42.7186, "lng": 12.1108, "palazzetto": "Palestra Orvieto" },
+    { "id": "10", "nome": "Pallavolo Orvieto", "citta": "Orvieto", "provincia": "TR", "categoria": "1 Divisione", "lat": 42.7160, "lng": 12.1090, "palazzetto": "Palestra Orvieto" },
+    { "id": "11", "nome": "Acquasparta Pallavolo", "citta": "Acquasparta", "provincia": "TR", "categoria": "2 Divisione", "lat": 42.6878, "lng": 12.5439, "palazzetto": "Palestra Acquasparta" },
+    { "id": "12", "nome": "Bartoccini Fortinfissi Perugia", "citta": "Perugia", "provincia": "PG", "categoria": "Serie A1", "lat": 43.1107, "lng": 12.3908, "palazzetto": "PalaBarton Perugia" },
+    { "id": "13", "nome": "Sir Susa Vim Perugia", "citta": "Perugia", "provincia": "PG", "categoria": "Superlega", "lat": 43.1100, "lng": 12.3900, "palazzetto": "PalaBarton Perugia" },
+    { "id": "14", "nome": "Volley Perugia", "citta": "Perugia", "provincia": "PG", "categoria": "Serie D", "lat": 43.1070, "lng": 12.3880, "palazzetto": "Palestra Perugia" },
+    { "id": "15", "nome": "Pallavolo Spoleto", "citta": "Spoleto", "provincia": "PG", "categoria": "Serie D", "lat": 42.7342, "lng": 12.7378, "palazzetto": "Palestra Spoleto" },
+    { "id": "16", "nome": "Volley Foligno", "citta": "Foligno", "provincia": "PG", "categoria": "Serie C", "lat": 42.9546, "lng": 12.7026, "palazzetto": "Palestra Foligno" },
+    { "id": "17", "nome": "Pallavolo Città di Castello", "citta": "Città di Castello", "provincia": "PG", "categoria": "Serie B", "lat": 43.4567, "lng": 12.2393, "palazzetto": "Palestra Città di Castello" },
+    { "id": "18", "nome": "Altotevere Volley", "citta": "Sansepolcro", "provincia": "PG", "categoria": "Serie C", "lat": 43.5701, "lng": 12.1416, "palazzetto": "Palestra Sansepolcro" },
+    { "id": "19", "nome": "Pallavolo Gubbio", "citta": "Gubbio", "provincia": "PG", "categoria": "Serie D", "lat": 43.3561, "lng": 12.5776, "palazzetto": "Palestra Gubbio" },
+    { "id": "20", "nome": "Volley Assisi", "citta": "Assisi", "provincia": "PG", "categoria": "1 Divisione", "lat": 43.0703, "lng": 12.6196, "palazzetto": "Palestra Assisi" }
+  ]
+}
