@@ -4746,14 +4746,10 @@ function MappaPage() {
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
     svg.attr("viewBox", `0 0 ${width} ${height}`);
-    fetch("https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_regions.geojson")
+    fetch("/umbria.geojson")
       .then(r => r.json())
       .then(data => {
-        const umbria = data.features.find(f =>
-          f.properties.reg_name === "Umbria" ||
-          f.properties.DEN_REG === "Umbria" ||
-          f.properties.NAME_1 === "Umbria"
-        );
+        const umbria = data.features[0];
         if (!umbria) return;
         const projection = d3.geoMercator().fitSize([width, height], umbria);
         const path = d3.geoPath().projection(projection);
