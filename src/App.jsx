@@ -4635,7 +4635,7 @@ const SPONSORS = [
   { nome: "Fisiolab Terni", logo: "/sponsor-fisiolab.png", url: "https://fisiolabterni.it/" },
   { nome: "Enertoscana", logo: "/sponsor-enertoscana.png", url: "https://enertoscana.it/" },
   { nome: "Narnionline", logo: "/sponsor-narninews.png", url: "https://www.narnionline.com/" },
-  { nome: "Pianeta Volley", logo: "/sponsor-PianetaVolley.png", url: "https://www.pianetavolley.net/" },
+  { nome: "Pianeta Volley", logo: "/sponsor-PianetaVolley2.png", url: "https://www.pianetavolley.net/" },
 ];
 
 function SidebarRight() {
