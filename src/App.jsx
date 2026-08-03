@@ -17,6 +17,8 @@ import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
 import newsGeneraliData from "../data/news_generali.json";
+import * as d3 from "d3";
+import societaData from "../data/societa.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -476,6 +478,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/galleria", label: "Galleria Foto" },
             { href: "#/foto-settimana", label: "Foto del Giorno" },
             { href: "#/video", label: " Video" },
+            { href: "#/mappa", label: "🗺 Mappa" },
           ]}
         />
         <NavDropdown
@@ -4705,7 +4708,133 @@ function SidebarRight() {
     </aside>
   );
 }
+function MappaPage() {
+  const svgRef = React.useRef(null);
+  const [selected, setSelected] = React.useState(null);
+  const [filtro, setFiltro] = React.useState("Tutti");
 
+  const societa = societaData.societa || [];
+
+  const colori = {
+    "Superlega": "#7F77DD",
+    "Serie A1 F": "#D85A30",
+    "Serie A3": "#EF9F27",
+    "Serie C M": "#1D9E75",
+    "Serie C F": "#378ADD",
+    "1 Divisione F": "#D4537E",
+    "Serie D": "#888780",
+  };
+
+  const categorie = ["Tutti", "Superlega/A", "Serie C", "1ª Div", "Serie D"];
+
+  const catFiltri = {
+    "Tutti": () => true,
+    "Superlega/A": s => ["Superlega","Serie A1 F","Serie A3"].includes(s.categoria),
+    "Serie C": s => s.categoria.includes("Serie C"),
+    "1ª Div": s => s.categoria.includes("Divisione"),
+    "Serie D": s => s.categoria === "Serie D",
+  };
+
+  const societaFiltrate = societa.filter(catFiltri[filtro]);
+
+  React.useEffect(() => {
+    if (!svgRef.current) return;
+    const width = svgRef.current.clientWidth || 400;
+    const height = Math.round(width * 1.15);
+    const svg = d3.select(svgRef.current);
+    svg.selectAll("*").remove();
+    svg.attr("viewBox", `0 0 ${width} ${height}`);
+    fetch("https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_regions.geojson")
+      .then(r => r.json())
+      .then(data => {
+        const umbria = data.features.find(f =>
+          f.properties.reg_name === "Umbria" ||
+          f.properties.DEN_REG === "Umbria" ||
+          f.properties.NAME_1 === "Umbria"
+        );
+        if (!umbria) return;
+        const projection = d3.geoMercator().fitSize([width, height], umbria);
+        const path = d3.geoPath().projection(projection);
+        svg.append("path")
+          .datum(umbria)
+          .attr("d", path)
+          .attr("fill", "var(--card-bg)")
+          .attr("stroke", "var(--gold)")
+          .attr("stroke-width", 1.5);
+        societaFiltrate.forEach(s => {
+          const [x, y] = projection([s.lng, s.lat]);
+          const col = colori[s.categoria] || "#888";
+          const isSelected = selected && selected.id === s.id;
+          svg.append("circle")
+            .attr("cx", x).attr("cy", y)
+            .attr("r", isSelected ? 10 : 7)
+            .attr("fill", col)
+            .attr("stroke", "var(--bg)")
+            .attr("stroke-width", isSelected ? 2.5 : 1.5)
+            .attr("cursor", "pointer")
+            .attr("opacity", 0.9)
+            .on("click", () => setSelected(s))
+            .on("mouseover", function() { d3.select(this).attr("r", 10); })
+            .on("mouseout", function() { d3.select(this).attr("r", isSelected ? 10 : 7); });
+        });
+      });
+  }, [filtro, selected]);
+
+  return (
+    <main>
+      <section className="section">
+        <h2 className="feed-heading">Mappa del Volley Umbro</h2>
+        <div className="mappa-filters">
+          {categorie.map(c => (
+            <button key={c}
+              className={`filter-btn ${filtro === c ? "filter-btn--active" : ""}`}
+              onClick={() => { setFiltro(c); setSelected(null); }}>
+              {c}
+            </button>
+          ))}
+        </div>
+        <div className="mappa-container">
+          <div className="mappa-svg-wrap">
+            <svg ref={svgRef} style={{ width: "100%", borderRadius: "12px", border: "1px solid var(--border)" }} />
+          </div>
+          <div className="mappa-sidebar">
+            <div className="mappa-card">
+              {selected ? (
+                <>
+                  <div className="mappa-card__nome">{selected.nome}</div>
+                  <span className="mappa-card__cat" style={{
+                    background: (colori[selected.categoria] || "#888") + "22",
+                    color: colori[selected.categoria] || "#888",
+                  }}>{selected.categoria}</span>
+                  <div style={{ lineHeight: 1.7 }}>
+                    <div>📍 {selected.citta} ({selected.provincia})</div>
+                    <div>🏟 {selected.palazzetto}</div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="mappa-card__nome">— seleziona —</div>
+                  <div style={{ marginTop: 6 }}>Clicca un pallino sulla mappa.</div>
+                </>
+              )}
+            </div>
+            <div style={{ marginTop: 14 }}>
+              <div style={{ fontSize: "0.75rem", color: "var(--text-dim)", marginBottom: 8 }}>Legenda</div>
+              <div className="mappa-legenda">
+                {Object.entries(colori).map(([cat, col]) => (
+                  <div key={cat} className="mappa-legenda__item">
+                    <span className="mappa-dot-legend" style={{ background: col }} />
+                    <span style={{ color: "var(--text-dim)" }}>{cat}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
 export default function App() {
   const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
@@ -4744,7 +4873,7 @@ export default function App() {
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "commenti" && <CommentiPage subscribed={subscribed} />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -4756,6 +4885,7 @@ export default function App() {
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "video" && <VideoPage />}
+          {route === "mappa" && <MappaPage />}
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
