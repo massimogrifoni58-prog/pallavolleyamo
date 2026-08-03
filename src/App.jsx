@@ -4833,6 +4833,39 @@ function MappaPage() {
               </div>
             </div>
           </div>
+       </div>
+
+        {/* Elenco società per categoria */}
+        <div style={{ marginTop: "1.5rem" }}>
+          <h3 className="feed-heading" style={{ fontSize: "0.85rem" }}>Elenco società per categoria</h3>
+          {Object.entries(colori).map(([cat, col]) => {
+            const lista = societaFiltrate.filter(s => s.categoria === cat);
+            if (lista.length === 0) return null;
+            return (
+              <div key={cat} style={{ marginBottom: "1rem" }}>
+                <div style={{ fontSize: "0.75rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "0.4rem" }}>
+                  {cat}
+                </div>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+                  {lista.map(s => (
+                    <button key={s.id}
+                      onClick={() => setSelected(s)}
+                      style={{
+                        background: selected?.id === s.id ? col + "33" : "var(--card-bg)",
+                        border: `1px solid ${col}44`,
+                        borderRadius: "8px",
+                        padding: "4px 10px",
+                        fontSize: "0.75rem",
+                        color: "var(--text)",
+                        cursor: "pointer",
+                      }}>
+                      {s.nome}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
     </main>
