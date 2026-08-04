@@ -2644,14 +2644,13 @@ main {
 
 /* === CAMPIONATI HERO === */
 .campionati-hero {
-  width: 70%;
-  height: 280px;
+  width: 100%;
+  height: 250px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  border-radius: 12px;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -2659,7 +2658,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('/herocamp2.jpg');
+  background-image: url('/palla.jpg');
   background-size: cover;
   background-position: center;
   filter: blur(2px);
@@ -2667,9 +2666,13 @@ main {
 }
 
 .campionati-hero__overlay {
-  position: relative;
-  z-index: 1;
-  text-align: center;
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .campionati-hero__titolo {
