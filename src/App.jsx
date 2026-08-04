@@ -4760,31 +4760,19 @@ function MappaPage() {
           .attr("stroke", "var(--gold)")
           .attr("stroke-width", 1.5);
         societaFiltrate.forEach(s => {
-          const [x, y] = projection([s.lng, s.lat]);
-          const col = colori[s.categoria] || "#888";
-          const isSelected = selected && selected.id === s.id;
-          svg.append("circle")
-            .attr("cx", x).attr("cy", y)
-            .attr("r", isSelected ? 10 : 7)
-            .attr("fill", col)
-            .attr("class", `dot dot-${s.id}`)
-            .attr("stroke", "var(--bg)")
-            .attr("stroke-width", isSelected ? 2.5 : 1.5)
-            .attr("cursor", "pointer")
-            .attr("opacity", 0.9)
-            .on("click", () => setSelected(s))
-            .on("mouseover", function() { d3.select(this).attr("r", 10); })
-            .on("mouseout", function() { d3.select(this).attr("r", isSelected ? 10 : 7); });
-        });
+           const [x, y] = projection([s.lng, s.lat]);
+           const col = colori[s.categoria] || "#888";
+           const isSelected = selected && selected.id === s.id;
+           svg.append("circle")
+             .attr("cx", x).attr("cy", y)
+             .attr("r", isSelected ? 12 : 7)
+             .attr("fill", isSelected ? "#d4af37" : col)
+             .attr("stroke", isSelected ? "#fff" : "var(--bg)")
+             .attr("stroke-width", isSelected ? 3 : 1.5)
+             .attr("cursor", "pointer")
+             .attr("opacity", 1)
+             .on("click", () => setSelected(s));
       });
-       // colora il selezionato in dorato
-        if (selected) {
-          svg.select(`.dot-${selected.id}`)
-            .attr("fill", "#d4af37")
-            .attr("stroke", "#fff")
-            .attr("stroke-width", 3)
-            .attr("r", 10);
-        }
   }, [filtro, selected]);
 
   return (
