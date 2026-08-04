@@ -1,11 +1,14 @@
 :root {
-  --bg: #0b0b0c;
-  --bg-card: #141416;
+  --bg: #222226;
+  --bg-card: #111114;
+  --card-bg: #111114;
   --gold: #d4af37;
-  --gold-bright: #f2cd5c;
-  --text: #f1efe6;
-  --text-dim: #9a978c;
-  --border: #2a2a2c;
+  --gold-bright: #e8c547;
+  --text: #edeae0;
+  --text-dim: #8a8794;
+  --border: #222228;
+  --border-strong: #2e2e36;
+  --surface-hover: #1a1a20;
 }
 
 html {
@@ -39,24 +42,10 @@ a {
   border-bottom: 2px solid var(--gold);
   padding: 1.5rem 1.5rem 1.25rem;
   text-align: center;
-  background-color: #0b0b0c;
+  background-color: #0a0a0c;
   background-image:
-    radial-gradient(circle at 15% 20%, rgba(212,175,55,0.10) 0%, transparent 45%),
-    radial-gradient(circle at 85% 80%, rgba(212,175,55,0.08) 0%, transparent 45%),
-    repeating-linear-gradient(
-      45deg,
-      rgba(212,175,55,0.05) 0px,
-      rgba(212,175,55,0.05) 1px,
-      transparent 1px,
-      transparent 26px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      rgba(212,175,55,0.05) 0px,
-      rgba(212,175,55,0.05) 1px,
-      transparent 1px,
-      transparent 26px
-    );
+    radial-gradient(circle at 15% 50%, rgba(212,175,55,0.08) 0%, transparent 50%),
+    radial-gradient(circle at 85% 50%, rgba(212,175,55,0.06) 0%, transparent 50%);
 }
 
 .masthead > * {
@@ -214,38 +203,29 @@ a {
   align-items: center;
   gap: 0.75rem;
   margin-top: 0.75rem;
-  background: rgba(212,175,55,0.06);
-  border: 1px solid rgba(212,175,55,0.2);
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
+  background: rgba(212,175,55,0.04);
+  border-top: 1px solid rgba(212,175,55,0.15);
+  border-bottom: 1px solid rgba(212,175,55,0.15);
+  border-radius: 0;
+  padding: 0.4rem 1rem;
   text-align: left;
   justify-content: center;
 }
 
 .ticker__label {
-  font-size: 0.65rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
+  font-size: 0.6rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ef5350;
   flex-shrink: 0;
   animation: pulse-label 1.5s ease-in-out infinite;
 }
 
-@keyframes pulse-label {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.4; }
-}
-
-.ticker__track-wrap {
-  overflow: hidden;
-  flex: 1;
-  mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
-}
 .ticker__single {
   flex: 1;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 0.82rem;
+  font-weight: 500;
   color: var(--text-dim);
   text-decoration: none;
   white-space: nowrap;
@@ -620,8 +600,8 @@ main {
   position: relative;
   width: 100%;
   height: 300px;
-  background: #0b0b0c;
-  border-bottom: 2px solid rgba(212,175,55,0.5);
+  background: #0a0a0c;
+  border-bottom: 1px solid rgba(212,175,55,0.3);
   overflow: hidden;
 }
 
@@ -629,7 +609,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(11,11,12,0.65);
+  background: rgba(10,10,12,0.65);
   z-index: 0;
 }
 
