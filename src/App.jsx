@@ -4771,7 +4771,8 @@ function MappaPage() {
              .attr("stroke-width", isSelected ? 3 : 1.5)
              .attr("cursor", "pointer")
              .attr("opacity", 1)
-             .on("click", () => setSelected(s));
+            .on("click", () => setSelected(s));
+        });
       });
   }, [filtro, selected]);
 
@@ -4847,7 +4848,7 @@ function MappaPage() {
                     <span className="mappa-dot-legend" style={{ background: col }} />
                     <span style={{ color: "var(--text-dim)" }}>{cat}</span>
                   </div>
-                ))}
+))}
               </div>
             </div>
           </div>
@@ -4857,7 +4858,7 @@ function MappaPage() {
   );
 }
 export default function App() {
-  const route = useRoute();
+const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
   const [showSplash, setShowSplash] = useState(true);
   const [showPillola, setShowPillola] = useState(true);
