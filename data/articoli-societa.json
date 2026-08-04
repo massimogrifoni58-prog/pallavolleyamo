@@ -113,8 +113,21 @@
       "testo": "Seconda stagione in maglia marscianese, dove sarà ancora protagonista per il prossimo campionato di Serie B2!…",
       "data": "31 Luglio 2026",
       "mese": "Luglio",
-      "provincia": "terni",
+      "provincia": "perugia",
       "foto": "/articoli/gaggia.jpg",
+      "logo": null
+    },
+      {
+      "id": "10",
+      "societa":  "Pallavolo Media Umbria",
+      "autore": "societa",
+      "categoria": "Rinnovo",
+      "titolo": "Bianca Tedeschi confermata in Serie B2",
+      "testo": "Il giovane prospetto 2009 ancora a disposizione di coach Sperandio e di coach, pronta a mettere i suoi centimetri al servizio della squadra!",
+      "data": "4 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/tedesco.jpg",
       "logo": null
     }
   ]
