@@ -4732,7 +4732,7 @@ function MappaPage() {
     "Tutti": () => true,
     "Superlega/A": s => ["Superlega","Serie A1 F","Serie A3"].includes(s.categoria),
     "Serie C": s => s.categoria.includes("Serie C"),
-    "Serie D": s => s.categoria === "Serie D",
+    "Serie D": s => s.categoria.includes("Serie D"),
     "1ª Div": s => s.categoria.includes("Divisione"),
     
   };
