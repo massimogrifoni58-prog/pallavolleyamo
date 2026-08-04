@@ -4767,6 +4767,7 @@ function MappaPage() {
             .attr("cx", x).attr("cy", y)
             .attr("r", isSelected ? 10 : 7)
             .attr("fill", col)
+            .attr("id", `dot-${s.id}`)
             .attr("stroke", "var(--bg)")
             .attr("stroke-width", isSelected ? 2.5 : 1.5)
             .attr("cursor", "pointer")
@@ -4776,6 +4777,14 @@ function MappaPage() {
             .on("mouseout", function() { d3.select(this).attr("r", isSelected ? 10 : 7); });
         });
       });
+       // colora il selezionato in dorato
+        if (selected) {
+          svg.select(`#dot-${selected.id}`)
+            .attr("fill", "#d4af37")
+            .attr("stroke", "#fff")
+            .attr("stroke-width", 3)
+            .attr("r", 10);
+        }
   }, [filtro, selected]);
 
   return (
