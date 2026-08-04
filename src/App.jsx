@@ -596,10 +596,8 @@ function HomePage({ latestNews = [] }) {
   return (
     <main>
       <div className="hero-grafico">
-  <video autoPlay muted loop playsInline
-  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.08, filter: "blur(3px)" }}>
-  <source src="/hero-video.mp4" type="video/mp4" />
-</video>
+  
+<img src="/sfondo.png" alt="" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", opacity: 0.08 }} />
   <div className="hero-inner">
           <img src="/logo-pva.svg" alt="Logo PallaVolleyAmo" className="hero-logo-laterale" />
           <div className="hero-testi">
