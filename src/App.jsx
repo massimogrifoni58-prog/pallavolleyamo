@@ -499,7 +499,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
             { href: "#/camp", label: "Camp Estivi 2026" },
           ]}
         />
-        <a className="nav-btn nav-btn--accent" href="#/commenti">Commenti</a>
       </nav>
     </header>
   );
@@ -4896,7 +4895,6 @@ const route = useRoute();
           {route === "home" && <HomePage latestNews={latestFive} />}
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
-          {route === "commenti" && <CommentiPage subscribed={subscribed} />}
           {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","articoli-societa","dirette","video","iscrizione"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
