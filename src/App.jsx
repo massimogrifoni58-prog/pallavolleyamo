@@ -4910,6 +4910,7 @@ function Footer() {
   );
 }
 function Breadcrumb({ route }) {
+  console.log("BREADCRUMB ROUTE:", route);
   const breadcrumbs = {
     "nazionale": ["Notizie", "News Nazionali"],
     "nazionali": ["Notizie", "News Campionati Naz."],
@@ -4953,7 +4954,7 @@ function Breadcrumb({ route }) {
       fontSize: "0.68rem",
       color: "var(--text-dim)",
       borderBottom: "1px solid var(--border)",
-      background: "var(--bg)",
+      background: "rgba(212,175,55,0.05)",
     }}>
       <a href="#/" style={{ color: "var(--text-dim)", textDecoration: "none" }}
         onMouseOver={e => e.target.style.color = "var(--gold)"}
