@@ -4594,4 +4594,35 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .mappa-legenda { font-size: 0.78rem; line-height: 2; }
 .mappa-legenda__item { display: flex; align-items: center; gap: 8px; }
 .mappa-dot-legend { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-@media (max-width: 600px) { .mappa-sidebar { width: 100%; } }
+@med/* === ANIMAZIONI CARD === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.4s ease both;
+}
+
+.card:nth-child(1) { animation-delay: 0.05s; }
+.card:nth-child(2) { animation-delay: 0.10s; }
+.card:nth-child(3) { animation-delay: 0.15s; }
+.card:nth-child(4) { animation-delay: 0.20s; }
+.card:nth-child(5) { animation-delay: 0.25s; }
+.card:nth-child(6) { animation-delay: 0.30s; }ia (max-width: 600px) { .mappa-sidebar { width: 100%; } }
+/* === HOVER EFFECTS CARD === */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(212,175,55,0.12);
+  border-color: rgba(212,175,55,0.4);
+}
