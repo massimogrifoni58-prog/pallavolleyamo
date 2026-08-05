@@ -4626,3 +4626,38 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
   box-shadow: 0 8px 24px rgba(212,175,55,0.12);
   border-color: rgba(212,175,55,0.4);
 }
+/* === TIPOGRAFIA COERENTE === */
+.page-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  color: var(--gold-bright);
+  margin: 0 0 1.5rem;
+}
+
+.section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.card__title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+.card__meta {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 0.88rem;
+}
