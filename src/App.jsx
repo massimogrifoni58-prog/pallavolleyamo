@@ -123,13 +123,18 @@ function PostCard({ post, subscribed, onClick }) {
       {post.image && (
         <img className="card__image" src={post.image} alt="" loading="lazy" />
       )}
-      <div className="card__body">
-        <span className="card__date">{formatDate(post.createdTime)}</span>
-        {post.title && <p className="card__title">{post.title}</p>}
-        {excerpt && <p className="card__message">{excerpt}</p>}
-        {subscribed && post.permalink && (
-          <span className="card__link">Leggi tutto &rarr;</span>
-        )}
+<div className="card__body">
+       <span className="card__date">{formatDate(post.createdTime)}</span>
+      {post.permalink && (() => { 
+  try { 
+    const host = new URL(post.permalink).hostname.replace("www.", "");
+    return host ? <span className="card__source">{host}</span> : null;
+  } catch(e) { 
+    return post.societa ? <span className="card__source">{post.societa}</span> : null; 
+  } 
+})()}
+       {post.title && <p className="card__title">{post.title}</p>}
+       {excerpt && !excerpt.startsWith("Fonte:") && <p className="card__message">{excerpt}</p>}
     {!subscribed && (
           <span className="card__link card__link--locked">
             &#128274; Iscriviti per leggere tutto
