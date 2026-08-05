@@ -4909,6 +4909,66 @@ function Footer() {
     </footer>
   );
 }
+function Breadcrumb({ route }) {
+  const breadcrumbs = {
+    "nazionale": ["Notizie", "News Nazionali"],
+    "nazionali": ["Notizie", "News Campionati Naz."],
+    "regionali": ["Notizie", "News Regionali"],
+    "terni": ["Notizie", "News Prov. TR"],
+    "perugia": ["Notizie", "News Prov. PG"],
+    "articoli-societa": ["Notizie", "Articoli Società"],
+    "risultati": ["Campionati", "Risultati"],
+    "risultati-seriec": ["Campionati", "Serie C"],
+    "risultati-seried": ["Campionati", "Serie D"],
+    "risultati-1div": ["Campionati", "1ª Divisione"],
+    "risultati-2div": ["Campionati", "2ª Divisione"],
+    "classifica": ["Campionati", "Classifica"],
+    "calendario": ["Campionati", "Calendario"],
+    "andamento": ["Campionati", "Andamento"],
+    "headtohead": ["Campionati", "Head to Head"],
+    "giovanili": ["Campionati", "Giovanili"],
+    "dirette": ["Campionati", "Dirette Live"],
+    "video": ["Foto e Video", "Video"],
+    "galleria": ["Foto e Video", "Galleria"],
+    "glossario": ["Tecnica", "Glossario"],
+    "schede": ["Tecnica", "Schede Allenamento"],
+    "preparazione-fisica": ["Tecnica", "Preparazione Fisica"],
+    "fondamentali": ["Tecnica", "Fondamentali"],
+    "velasco": ["Tecnica", "Julio Velasco"],
+    "camp": ["Tecnica", "Camp Estivi"],
+    "allenatori": ["Allenatori", "Notizie Allenatori"],
+    "mercato": ["Mercato", "Mercato"],
+    "atleta-settimana": ["Top", "Atleta della Settimana"],
+    "mappa": ["Mappa", "Mappa Volley Umbro"],
+    "chi-siamo": ["Chi Siamo"],
+    "iscrizione": ["Iscriviti"],
+  };
+
+  const crumbs = breadcrumbs[route];
+  if (!crumbs || route === "home") return null;
+
+  return (
+    <div style={{
+      padding: "0.4rem 1.5rem",
+      fontSize: "0.68rem",
+      color: "var(--text-dim)",
+      borderBottom: "1px solid var(--border)",
+      background: "var(--bg)",
+    }}>
+      <a href="#/" style={{ color: "var(--text-dim)", textDecoration: "none" }}
+        onMouseOver={e => e.target.style.color = "var(--gold)"}
+        onMouseOut={e => e.target.style.color = "var(--text-dim)"}>
+        Home
+      </a>
+      {crumbs.map((c, i) => (
+        <span key={i}>
+          <span style={{ margin: "0 0.4rem", opacity: 0.4 }}>›</span>
+          <span style={{ color: i === crumbs.length - 1 ? "var(--gold)" : "var(--text-dim)" }}>{c}</span>
+        </span>
+      ))}
+    </div>
+  );
+}
 export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
@@ -4938,7 +4998,7 @@ const route = useRoute();
     <>
     {showPillola && <PillolaToast pillola={pillolaDiOggi} onClose={() => setShowPillola(false)} />}
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} />
-
+      <Breadcrumb route={route} />
       <div className="page-layout">
         <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />
 
