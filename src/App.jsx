@@ -467,7 +467,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         <NavDropdown
           label="Campionati"
           items={[
-            { href: "#/dirette", label: "🔴 Dirette Live" },
+            { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
             { href: "#/risultati", label: "Risultati Camp. Regionali" },
             { href: "#/giovanili", label: "Risultati Camp. Giovanili" }, 
             { href: "#/calendario", label: "Calendario" },
