@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T08:42:01.240646+00:00",
+  "generatedAt": "2026-08-07T09:47:09.243758+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -23,39 +23,25 @@
       "query": "Terni Volley Academy Dragons pallavolo 2026"
     },
     {
+      "id": "altotevere",
+      "nome": "Ermgroup Altotevere San Giustino",
+      "tipo": "squadra",
+      "categoria": "Serie A3",
+      "query": "Altotevere San Giustino pallavolo A3 2026"
+    },
+    {
       "id": "citta-castello",
       "nome": "Pallavolo Città di Castello",
       "tipo": "squadra",
-      "categoria": "Serie B",
+      "categoria": "Serie B M",
       "query": "Pallavolo Città di Castello volley 2026"
     },
     {
-      "id": "trevi",
-      "nome": "Pallavolo Trevi",
-      "tipo": "squadra",
-      "categoria": "Serie C F",
-      "query": "Pallavolo Trevi volley Umbria 2026"
-    },
-    {
       "id": "marsciano",
-      "nome": "Avis Marsciano",
+      "nome": "Pallavolo Media Umbria Marsciano",
       "tipo": "squadra",
-      "categoria": "Serie C F",
-      "query": "Avis Marsciano pallavolo 2026"
-    },
-    {
-      "id": "deruta",
-      "nome": "Deruta Invest",
-      "tipo": "squadra",
-      "categoria": "Serie C F",
-      "query": "Deruta Invest pallavolo 2026"
-    },
-    {
-      "id": "altotevere",
-      "nome": "Altotevere Pallavolo",
-      "tipo": "squadra",
-      "categoria": "Serie C M",
-      "query": "Altotevere pallavolo Sansepolcro 2026"
+      "categoria": "Serie B F",
+      "query": "Pallavolo Media Umbria Marsciano volley 2026"
     }
   ],
   "news": {
@@ -119,6 +105,26 @@
         "source": "TerniToday"
       }
     ],
+    "altotevere": [
+      {
+        "title": "Playoff A3, impresa Belluno: supera Altotevere al golden set. In finale incontrerà la Domotek - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR19fbVI0MGlDdERuTUp1aGNwZEJhRjhXdDNUUGVkSVJxaklkVFl2RnlmbUZ5OWtkR1ZWc3BFTU9LeFB6S1BqM0Z4TGFVM3BSRFBlVk9aNDh0bXJERHR2Z2pma2xZTXliR21tb0I3bDdwR3lhV1FQczRENmQ1S2Y2XzNIMHhsejVBZUpDd2FnclVfVkt1aUxuTTBLSVUzbkx0bVYwSHZEVVZXN1ZNRWZteVBRcXE0Z29E?oc=5",
+        "pubDate": "Fri, 01 May 2026 07:00:00 GMT",
+        "source": "Volley News"
+      },
+      {
+        "title": "Play Off Serie A3: Reggio Calabria e Belluno approdano in Finale - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFFRcThPaVl1VElpOEdZZHA2NFBCdVhhVTlTWDZBS3FoZlNLRGZuQ2pPR252cmJrSDVJT2liRWtmb2VmNGh4XzFRYkFKdzJMc1I0UlczUVNaU203SDc4eE9kenUyb293QVBpODMxVGI0VlkzNVp2TnRyRTNJRHdmZF9rQVBPUExsQV9RNFIyYVlJNzRxZE9sRUdZTQ?oc=5",
+        "pubDate": "Fri, 01 May 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      },
+      {
+        "title": "Play Off A3, vittorie per San Giustino e Reggio Calabria - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTFdQZTFGYk1BbHp6Tmw5TG5JSnUtcktHY09LV09reTdScjNGcnJ3azVERF9hcEFMc2RrS3ppSzRnaUpkLVZYYkxuMlFfUDFMMHRhN3VmZl9OSmFTS2NsZnRXVmdPU0NVVnJiQmtxRjdjbC1Gd25Lel9tZk00TkUzd0tyWndXajdmSGtpN2dLX2g?oc=5",
+        "pubDate": "Sat, 25 Apr 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      }
+    ],
     "citta-castello": [
       {
         "title": "Serie B maschile, Città di Castello Pallavolo inserita nel girone E - TTV.it",
@@ -139,46 +145,24 @@
         "source": "La Nazione"
       }
     ],
-    "trevi": [
+    "marsciano": [
       {
-        "title": "Sirio Perugia, l’esperta Lillacci in seconda linea - La Nazione",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWEVqbFFxYzltQjNaVFl6VHFHTzF3dXpKNHpKZVlvN3h5Zk5veXpFZWZxLUwzVGlGM1RvVDhBSjdzd1V6Ul9JZkJMMlYxSWZ0SGl0Zmlhd01xX0cza01RUEF3aFM0dmlycTBYOFg4OUF1UWZ6eTlHcHhXM1lBeEZRdDF2bzVxWmlram5N?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 06:22:09 GMT",
-        "source": "La Nazione"
-      },
-      {
-        "title": "Titoli sportivi: in Umbria cala il peso specifico - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJBY1pCNjZFd2pHVjVNRFpKUnlRUUlnbEczcnpOY0Vhd0R1TGYxNFhwb05YcTNBdmRhdmN4R3lQWTRhQm5saGdpeXdCQmZxMVZhTDZNUExOeEZLZVNQUmZ3M0t1SjVlQUVaRTBpdk9aWDhLaWhiM1NFR3dickZVVUx1amVMSmpVNnRkcWM3dm8?oc=5",
-        "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "title": "Agnese Carboni punto fermo a Marsciano - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTl5WGRFVXNNTHdpVTM3OS1qSWdrc2ctTWFXYXB0NldxTnc0V1lFTVZwNVRmdVVDWWxLRncxYjhpVk92bWo5cUxIMzVlMU1JUjIyZGVGTDl5NVAzZVllbXhPak9GZmJYZWY1eVdQZXlvbGU0NjVZOUxkdU56WVZFS1pjMA?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 07:00:52 GMT",
         "source": "Pianeta Volley"
       },
       {
-        "title": "Convocazione rappresentativa femminile umbra - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnJMdlo2bUtiaFlFOE9uV094TXNRSHUwRUp0UHJIbC14T084LVp1aTRtNjNERnJCWi1QUnN5cGVzZWpqeVFGVkdYd3RGWlJJdWh6NkJFQkZxaHBMVWpvSU1ob3lGaHNoOXp0T2NfakNweC1XbXVBNjJBcjF0ZE9uSGEwTXlYbWdrR1RSMGRVVQ?oc=5",
-        "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
+        "title": "Festa della pallavolo umbra all’insegna di numeri record e segnali di crescita - - Umbria 24",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUZSSmxnSF91M0VIUXFtdVZ6WTZOLTlTYUZtOGJ2QVNQOTZTY0YydWY5X2xqZlh0MHVtSW4xMWc3MzVGcy16VGFmTTJvT1lWSndIM3ZNZlBrbllWNmkwOXBTT1c2RWt2WHhyQjctLTRnMGZfb0d6SC1yR2w5dG01emRhdzJ0bkJ4SGhFMzZjY29uM1JwQldsdEpxVlBPcVJYZUxCclI3UEdxRjFEdzg0?oc=5",
+        "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "- Umbria 24"
+      },
+      {
+        "title": "Il Club Italia del Centro fa tappa a Selci - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNHZRVlFCcktKQmVoM1RDOFplRjI2aGFRV1pLVEo0UnR3aDZveXY5TWREenB6MVhSY2VwNnNycFBDTmJtRHQ3NXNyZEE0NE1NVlI2anByVUpsQVJnbWtnYXZJdVpXVjA2VWNPNVFDWkQyLWFFZDlraWIzbjZBcndSRF90dHpKT3Bl?oc=5",
+        "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
         "source": "Pianeta Volley"
-      }
-    ],
-    "marsciano": [],
-    "deruta": [],
-    "altotevere": [
-      {
-        "title": "Altotevere, il giovane schiacciatore Bianchini completa il roster - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZlFZX3BRek9vNUNjOHV4MVB6VjJuVnF1N1U1YlBQYVNMM2tVVUU1U2o0VENLYXJvRDVhZXlWOFVjWVhsbGpySkgxdm5DQm9YZHkwZUt4UWtqLUNHWGJPWldpX2tjc1ZpX1QyWExHODd1MVpjVHlwS0l4d3RWbkJZcklidkFhYThwWGdScmpGOVNlVzQ5ZkJCTzZzSlM?oc=5",
-        "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A"
-      },
-      {
-        "title": "ErmGroup Altotevere, il nuovo cammino in A3 comincia il 18 ottobre - TTV.it",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcm8wLWtrUHVzNUJROEZ2ZDhKQzRPVzFBb1IxNjlWQ2s1dDh2dVd3TzdydlozbUMzS2N6NWFVWnlfUE5fREFUNWN0VVVka1o3Y2s1a19mTnZmSDQ3NlRhbkhpZGlBY2hmMWlpOGZxMFRQb2xpamlHclJrUHNYZGVNSzVMeVhsQ2JuMThKZ2c5UkZpal9nanc?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
-        "source": "TTV.it"
-      },
-      {
-        "title": "La programmazione delle Semifinali Play Off A3 - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNektQeUNpZUF2N2VuOUxMOEZhUUxGaERVVTVXanpBTmtLTDRGbDI3cDVqUVNTMjZpTjJpNUtScXpVdHc3dUxZcXkzdkxJaFNjNmV0X2IweVF2SDBoY3djZ1BNY3NKdW50Q1JfWWdDYjNWUTFKVFlUUjNwZms2ZVZIb3ludm4?oc=5",
-        "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A"
       }
     ]
   }
