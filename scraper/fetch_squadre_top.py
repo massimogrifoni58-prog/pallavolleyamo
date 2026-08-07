@@ -22,11 +22,9 @@ SOGGETTI = [
     {"id": "sir-perugia", "nome": "Sir Susa Vim Perugia", "tipo": "squadra", "categoria": "Superlega", "query": "Sir Susa Vim Perugia pallavolo 2026"},
     {"id": "bartoccini", "nome": "Bartoccini Fortinfissi Perugia", "tipo": "squadra", "categoria": "Serie A1 F", "query": "Bartoccini Perugia pallavolo 2026"},
     {"id": "tva", "nome": "Terni Volley Academy", "tipo": "squadra", "categoria": "Serie A3", "query": "Terni Volley Academy Dragons pallavolo 2026"},
-    {"id": "citta-castello", "nome": "Pallavolo Città di Castello", "tipo": "squadra", "categoria": "Serie B", "query": "Pallavolo Città di Castello volley 2026"},
-    {"id": "trevi", "nome": "Pallavolo Trevi", "tipo": "squadra", "categoria": "Serie C F", "query": "Pallavolo Trevi volley Umbria 2026"},
-    {"id": "marsciano", "nome": "Avis Marsciano", "tipo": "squadra", "categoria": "Serie C F", "query": "Avis Marsciano pallavolo 2026"},
-    {"id": "deruta", "nome": "Deruta Invest", "tipo": "squadra", "categoria": "Serie C F", "query": "Deruta Invest pallavolo 2026"},
-    {"id": "altotevere", "nome": "Altotevere Pallavolo", "tipo": "squadra", "categoria": "Serie C M", "query": "Altotevere pallavolo Sansepolcro 2026"},
+    {"id": "altotevere", "nome": "Ermgroup Altotevere San Giustino", "tipo": "squadra", "categoria": "Serie A3", "query": "Altotevere San Giustino pallavolo A3 2026"},
+    {"id": "citta-castello", "nome": "Pallavolo Città di Castello", "tipo": "squadra", "categoria": "Serie B M", "query": "Pallavolo Città di Castello volley 2026"},
+    {"id": "marsciano", "nome": "Pallavolo Media Umbria Marsciano", "tipo": "squadra", "categoria": "Serie B F", "query": "Pallavolo Media Umbria Marsciano volley 2026"},
 ]
 
 
