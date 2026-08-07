@@ -5015,18 +5015,27 @@ function SquadreTopPage() {
           <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
             {notizie.map((n, i) => (
               <li key={i} style={{
-                borderBottom: "1px solid var(--border)",
-                padding: "0.85rem 0",
-              }}>
-                <a href={n.link} target="_blank" rel="noreferrer"
-                  style={{ color: "var(--text)", textDecoration: "none", fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.4, display: "block", marginBottom: "0.25rem" }}>
-                  {n.title}
-                </a>
-                <div style={{ fontSize: "0.68rem", color: "var(--text-dim)" }}>
-                  {n.source && <span style={{ marginRight: "0.75rem", color: "var(--gold)" }}>{n.source}</span>}
-                  {n.pubDate && <span>{formatDate(n.pubDate)}</span>}
-                </div>
-              </li>
+  borderBottom: "1px solid var(--border)",
+  padding: "0.85rem 0",
+  display: "flex",
+  gap: "0.75rem",
+  alignItems: "flex-start",
+}}>
+  {n.image && (
+    <img src={n.image} alt="" loading="lazy"
+      style={{ width: "80px", height: "60px", objectFit: "cover", borderRadius: "6px", flexShrink: 0 }} />
+  )}
+  <div style={{ flex: 1 }}>
+    <a href={n.link} target="_blank" rel="noreferrer"
+      style={{ color: "var(--text)", textDecoration: "none", fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.4, display: "block", marginBottom: "0.25rem" }}>
+      {n.title}
+    </a>
+    <div style={{ fontSize: "0.68rem", color: "var(--text-dim)" }}>
+      {n.source && <span style={{ marginRight: "0.75rem", color: "var(--gold)" }}>{n.source}</span>}
+      {n.pubDate && <span>{formatDate(n.pubDate)}</span>}
+    </div>
+  </div>
+</li>
             ))}
           </ul>
         )}
