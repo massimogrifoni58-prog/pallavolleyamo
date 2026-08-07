@@ -4866,7 +4866,7 @@ function MappaPage() {
 function Footer() {
   return (
     <footer style={{
-      background: "#0a0a0c",
+      background: "var(--bg)",
       borderTop: "1px solid rgba(212,175,55,0.2)",
       padding: "2rem 1.5rem 1.5rem",
       marginTop: "2rem",
