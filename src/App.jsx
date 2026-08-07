@@ -354,7 +354,7 @@ function MeteoWidget() {
 
   useEffect(() => {
     // Open-Meteo - gratuito, no API key - coordinate Perugia
-    fetch("https://api.open-meteo.com/v1/forecast?latitude=43.11&longitude=12.39&current=temperature_2m,weather_code,wind_speed_10m&timezone=Europe/Rome&forecast_days=1")
+    fetch("https://api.open-meteo.com/v1/forecast?latitude=42.56&longitude=12.64&current=temperature_2m,weather_code,wind_speed_10m&timezone=Europe/Rome&forecast_days=1")
       .then(r => r.json())
       .then(data => {
         const cur = data.current;
@@ -378,7 +378,7 @@ function MeteoWidget() {
     <div className="meteo-widget" title={`Vento: ${meteo.vento} km/h`}>
       <span className="meteo-widget__icona">{meteo.icona}</span>
       <span className="meteo-widget__temp">{meteo.temp}°C</span>
-      <span className="meteo-widget__luogo">Perugia</span>
+      <span className="meteo-widget__luogo">Terni</span>
     </div>
   );
 }
