@@ -4677,3 +4677,17 @@ p {
   border: 1px solid rgba(212,175,55,0.25);
   margin-bottom: 0.4rem;
 }
+/* === HERO ANIMAZIONE TITOLO === */
+.hero-pva-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0;
+}
+
+.hero-pva-white {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
