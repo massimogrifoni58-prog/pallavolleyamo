@@ -19,6 +19,7 @@ import mercatoData from "../data/mercato.json";
 import newsGeneraliData from "../data/news_generali.json";
 import * as d3 from "d3";
 import societaData from "../data/societa.json";
+import squadreTopData from "../data/squadre_top.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -446,16 +447,17 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         {menuOpen ? "✕" : "☰"}
       </button>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
-        <NavDropdown
-          label="Notizie"
-          items={[
-            { href: "#/nazionale", label: "News Nazionali" },
-            { href: "#/nazionali", label: "News Campionati Naz." },
-            { href: "#/regionali", label: "News Regionali" },
-            { href: "#/terni", label: "News Prov. TR" },
-            { href: "#/perugia", label: "News Prov. PG" },
-            { href: "#/articoli-societa", label: "Articoli Societa" },
-          ]}
+     <NavDropdown
+        label="Notizie"
+        items={[
+          { href: "#/nazionale", label: "News Nazionali" },
+          { href: "#/nazionali", label: "News Campionati Naz." },
+          { href: "#/regionali", label: "News Regionali" },
+          { href: "#/terni", label: "News Prov. TR" },
+          { href: "#/perugia", label: "News Prov. PG" },
+          { href: "#/articoli-societa", label: "Articoli Societa" },
+          { href: "#/squadre-top", label: "Notizie Squadre" },
+         ]}
         />
         <NavDropdown
           label="Top"
@@ -4975,6 +4977,60 @@ function Breadcrumb({ route }) {
     </div>
   );
 }
+function SquadreTopPage() {
+  const soggetti = squadreTopData.soggetti || [];
+  const news = squadreTopData.news || {};
+  const [selected, setSelected] = useState(soggetti[0]?.id || "");
+
+  const squadraSelezionata = soggetti.find(s => s.id === selected);
+  const notizie = news[selected] || [];
+
+  return (
+    <main>
+      <section className="section">
+        <h2 className="feed-heading">Notizie Squadre Umbre</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
+          {soggetti.map(s => (
+            <button key={s.id}
+              className={`filter-btn ${selected === s.id ? "filter-btn--active" : ""}`}
+              onClick={() => setSelected(s.id)}>
+              {s.nome}
+              <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({s.categoria})</span>
+            </button>
+          ))}
+        </div>
+
+        {squadraSelezionata && (
+          <div style={{ marginBottom: "1rem", fontSize: "0.75rem", color: "var(--text-dim)" }}>
+            Ultime 3 notizie su <strong style={{ color: "var(--gold)" }}>{squadraSelezionata.nome}</strong>
+          </div>
+        )}
+
+        {notizie.length === 0 ? (
+          <p className="state">Nessuna notizia recente trovata.</p>
+        ) : (
+          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {notizie.map((n, i) => (
+              <li key={i} style={{
+                borderBottom: "1px solid var(--border)",
+                padding: "0.85rem 0",
+              }}>
+                <a href={n.link} target="_blank" rel="noreferrer"
+                  style={{ color: "var(--text)", textDecoration: "none", fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.4, display: "block", marginBottom: "0.25rem" }}>
+                  {n.title}
+                </a>
+                <div style={{ fontSize: "0.68rem", color: "var(--text-dim)" }}>
+                  {n.source && <span style={{ marginRight: "0.75rem", color: "var(--gold)" }}>{n.source}</span>}
+                  {n.pubDate && <span>{formatDate(n.pubDate)}</span>}
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    </main>
+  );
+}
 export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
@@ -5028,6 +5084,7 @@ const route = useRoute();
           {route === "camp" && <CampEstiviPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
+          {route === "squadre-top" && <SquadreTopPage />}
           {route === "pillole" && <PillolePage />}
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}

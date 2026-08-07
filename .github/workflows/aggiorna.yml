@@ -33,6 +33,7 @@ jobs:
           python fetch_volley_feeds.py
           python fetch_coach_news.py
           python fetch_news_generali.py
+          python fetch_squadre_top.py
           cd ..
           cp react-app/data/*.json data/
           mkdir -p react-app/src

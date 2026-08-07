@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-08-07T08:42:01.240646+00:00",
+  "soggetti": [
+    {
+      "id": "sir-perugia",
+      "nome": "Sir Susa Vim Perugia",
+      "tipo": "squadra",
+      "categoria": "Superlega",
+      "query": "Sir Susa Vim Perugia pallavolo 2026"
+    },
+    {
+      "id": "bartoccini",
+      "nome": "Bartoccini Fortinfissi Perugia",
+      "tipo": "squadra",
+      "categoria": "Serie A1 F",
+      "query": "Bartoccini Perugia pallavolo 2026"
+    },
+    {
+      "id": "tva",
+      "nome": "Terni Volley Academy",
+      "tipo": "squadra",
+      "categoria": "Serie A3",
+      "query": "Terni Volley Academy Dragons pallavolo 2026"
+    },
+    {
+      "id": "citta-castello",
+      "nome": "Pallavolo Città di Castello",
+      "tipo": "squadra",
+      "categoria": "Serie B",
+      "query": "Pallavolo Città di Castello volley 2026"
+    },
+    {
+      "id": "trevi",
+      "nome": "Pallavolo Trevi",
+      "tipo": "squadra",
+      "categoria": "Serie C F",
+      "query": "Pallavolo Trevi volley Umbria 2026"
+    },
+    {
+      "id": "marsciano",
+      "nome": "Avis Marsciano",
+      "tipo": "squadra",
+      "categoria": "Serie C F",
+      "query": "Avis Marsciano pallavolo 2026"
+    },
+    {
+      "id": "deruta",
+      "nome": "Deruta Invest",
+      "tipo": "squadra",
+      "categoria": "Serie C F",
+      "query": "Deruta Invest pallavolo 2026"
+    },
+    {
+      "id": "altotevere",
+      "nome": "Altotevere Pallavolo",
+      "tipo": "squadra",
+      "categoria": "Serie C M",
+      "query": "Altotevere pallavolo Sansepolcro 2026"
+    }
+  ],
+  "news": {
+    "sir-perugia": [
+      {
+        "title": "Volley mercato 2026/27: il tabellone dei movimenti in Superlega - eurosport.it",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZ3M4THIwdUU5U1c2QTlFTjQwcGk4cy1MNzAybXpXMUtIWXBKa0VZTGpzMTdpMkRXUC1YWEJFcHo5SWtDTkY3bEVrV3l1NXpHWHdWZUVPMnNrNVFPU3hPNkVaa1J2Q0dLOXczV1J3RlBtRWRyTi0ycmkzVG1wbXlabWhiV3pWdmd5N21aSndHYlZxSkJFOVRIM1N3VTRJN3dXaVJVc0ZtbEZmbHcydm1PV3RoVWlJNGlrRm43NEt4d1ZZT2hUMnY5WWY5bEgtWXV4YTF2Z1FITFY2anlWZkFsNUNydUE1dEFWU0lPR3p6YThIcl9GdU5XdEl6SFg1Tmg5VEQ0OHhLSmkzenhWNk9XbA?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT",
+        "source": "eurosport.it"
+      },
+      {
+        "title": "Su che canale Perugia-Zawiercie oggi in tv, Finale Champions League volley 2026: orario, programma, streaming - OA Sport",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSm5NN3VVLXh2cTI3Z3NVUDZNZVFSamJWZjlnTngxY1lwWkR0MS1uRHVHR3ZjRjEyLVQyVzFSbzhOazBQd0MzTGd3c1Q0eU9tU0ZuT2tZaXFnaW9hQVNhQzhRMm1CR21VdzN5eVIwUHJEQmtHb21jeHRrbEZMNVE0QkE5Z2NfMWlwYU90SURaTVgwZE80bkpDaFlFd1dxUDNQT0RSQV8yZTVuMzIyQWtBclZQX18zU0NOeU1wTdIBwgFBVV95cUxNRmNmV213RjBURjJ6WmxPRVdfVmN5Z2lkYi1GbW9OMGpjRVlfc2pDUkR0aEtzRllyNHRub1BUdTZ1S2YxQjAxV0wyZjVjcXFHdGtuMHNKb1ZtTkVOLUNTWXJGbkVreDNKMFNpTDJfeGNfVk0tNmZQcXE4RlJFQ2ZWN1ZfbmFDT1FweHZKclpXZGNNRG9SdWZtLWtjWmFIbnNma3p0NDNVTTF5cFpnZTJ2NzQ5QXFOSGdwVTZXOXFlSUNMdw?oc=5",
+        "pubDate": "Sun, 17 May 2026 07:00:00 GMT",
+        "source": "OA Sport"
+      },
+      {
+        "title": "Pallavolo maschile: Perugia Campione d'Italia 2026, vince lo Scudetto della Superlega contro Civitanova · Volley - olympics.com",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ2JZaW5Qb0FNaWxXN3hMRjVNSmRVbjNjY0dGUnZkMXFFbW8tTU84Zkw3R3d1a2tyV3c4cTNCMW41ZC1CaURpbTdMWEQyMExUN0F4Q2ZFTjZWU3kxdnV6UV93MHhqdVg0d3JQQmR2ZWhPdHFLYW9VVjM4NmhRc2RTaDhfX25mdTdaVVc5b1hCV3lqUnVySWxwb3VURGV6ZldtOVRFSg?oc=5",
+        "pubDate": "Thu, 07 May 2026 07:00:00 GMT",
+        "source": "olympics.com"
+      }
+    ],
+    "bartoccini": [
+      {
+        "title": "Volley A2 femminile, la Bartoccini MC Restauri Perugia ammessa al campionato - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2kyMmRjNGotQVVRUEZOd2tvdkZyU3Z6YnRiUGIyREROYVpoOUZqTFgtczhPSlZveFZBTVU3TGx1OGctcE1CSUhrbzVuSERtdDZfWmh4NzhjQkZXdFNQU0lrcnNLMGtweUpfcHpkOERXLUlZRGJJZ29LT0ROeml2ZE5pb0RvLXFDcHNENw?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 10:03:01 GMT",
+        "source": "PerugiaToday"
+      },
+      {
+        "title": "Bartoccini +energia Perugia - Lega Volley Femminile",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0ZISGdFV3FILTl3T0M3Um5LSnVVTUJmdnl3bnR4eWdwSFJIX1U2VWdJY3BiZDJXRy1vT3VXRW92ay1LTXZOVV9sV1ZDQURCYWMzbUJKZk0wNmZiS3hLbl9YQ0ZaQ04tTFZDLXhYVk10d1V4aGJndURmT2M3TVRfQQ?oc=5",
+        "pubDate": "Mon, 13 Jul 2026 19:40:01 GMT",
+        "source": "Lega Volley Femminile"
+      },
+      {
+        "title": "Bartoccini: “Spero che il pubblico ci segua ancora più numeroso” - Lega Volley Femminile",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWFhGZHc4aHBHUUFraE9GWmxuUGh5WUhmcE5oN1FiTmpoYzRLYzRlalNHTWFhX0QyaE9zUE0wU3Y4MTNjNHpDN2tha3BQbDI0eHFhVjhpdTNQZUV3MEdUVkh4UWRqUzZmb1p0MnV6MURKM0hTektLTXFQMTRqbjRQZEdMUUlIMFBxRUpsVUtTdzNFdE11aV9kYjJjVk5mdw?oc=5",
+        "pubDate": "Fri, 19 Jun 2026 13:59:44 GMT",
+        "source": "Lega Volley Femminile"
+      }
+    ],
+    "tva": [
+      {
+        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      },
+      {
+        "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZWNPeFJ6c2FMNlFPN1RGZngyOGVJZUFiTHlRM3IzQ1NBTFgyWHZ6VXVNaFQ5LXpEaFU4YWpRamVGenliLXZIbFRkVGFJM09fU0hKNjR2S0UxdmtrTXFneHlnblN4c3g0N3pzNWY5NEs2RDRuWmwzcHhtenl6dk9IZkFVY1h2RzRScDZRTjIwdm1DbkJTdGh6aWpjemw2bkJIQ2R3SmNtX1dGMTNPX0Y3cWpYbXlkb1owdlJlNmRrUG9Zc1hJSkRlNTQ0T0hfQXozNmpiS2J2dXhjNDRxajhRaGFTalVoZEp1ZlV0RGNVRQ?oc=5",
+        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      },
+      {
+        "title": "Terni Volley Academy, Javier Martinez: “Lascio un pezzo di cuore”. I Dragons sperano ancora nella Serie A - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTzU1UEJ3TWE0dXNtMFdWSnpWNmtQdHZtM2dwNXFNZi1IbmJfR2lYVzAxRVFmNHFhOHhYOGZ4RjJsaU5yQ2I1WTllRDRieEpOMjViLTlZc09oREZqZHpKT2h2WlNBc0NJMDhsb0RvVlU5RHBPbnBUS0JUQ3hQRnVKdlRVQWh0UEJ1cDdSeXBZOGJJYmFM?oc=5",
+        "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      }
+    ],
+    "citta-castello": [
+      {
+        "title": "Serie B maschile, Città di Castello Pallavolo inserita nel girone E - TTV.it",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek8tWUUyZFNTbE1MbjZVRVBTZ25HX2RzVkJYRnJ6Mi1aLXZBN0RsMlZXczlZWHc4eVNWeThRZGQ5NVE4SDVHSWV1UkJBVmd4eEJFUXRpVDgtdmVuMXVIdFdSTEN2MVJ6aXJzbHM2MXFHUFp4MWVXcTQyYndDUjRqQnY5b1VZNlBQOWhQREN1cHZGUEEycS0w?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
+        "source": "TTV.it"
+      },
+      {
+        "title": "Città di Castello Pallavolo ha conquistato una duplice storica promozione nei campionati nazionali nel settore maschile serie B in quello femminile B2 durante la stessa stagione 2026 (foto) - Umbria Social",
+        "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbVZwSDJRd1E3UDg1TktEUFd0QWZWaDFFM21BV3Z2VXAxcWtrWHlTUWpqVnp6cFNISFF2OW5BenRuR21qYmQ3WXB3MWtJeWxSY2EzMWQ1bGRib3VzSUxVSUVwbkZwMnA3SzJwYTE2ZGdTdnl4aXRiR1d0TXN2YzJlZ09MdkdvQ3Q2dUdQM0xHOFVIYmJ5SExuN3c5NFdxcWpEbV8zOXg2M19yQkw1cXZHMFVwMDBvYnFPUWJNUTFPTmVpMm5mZnk5RFo2VS1tR3F5Yk5UTHRKQkpHU0pfTXc2cTdsVUNBZmR0WW5wRmJkZjhudHNwWFdCemtaYWNIRUtLb0FrbFJIRm9zNk9tSFU1ZUpoeGxVc3FHN0JhUGlqOVN4YVM1bUVhMDUzbVRTREZsQ3RSRlM2c0xRNnNlSXBIMg?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "Umbria Social"
+      },
+      {
+        "title": "Doppia promozione. Il volley è in festa - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWNFMWFYQ1VlcXhTQi1KWFZkRUFtMjh6S2dZTFpEQUVxVXlLVWd0dnBmY20xc0FkVlZadGF4UWdKNHQ1cXNhNVJzMVZXSGZaLTRIVk9YOHRyd056X2E4YmY0cUl0ZTRua3ZSc0hPTk1rWjQwX3d4bkREWnFqTVZLT0YzblY?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "La Nazione"
+      }
+    ],
+    "trevi": [
+      {
+        "title": "Sirio Perugia, l’esperta Lillacci in seconda linea - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWEVqbFFxYzltQjNaVFl6VHFHTzF3dXpKNHpKZVlvN3h5Zk5veXpFZWZxLUwzVGlGM1RvVDhBSjdzd1V6Ul9JZkJMMlYxSWZ0SGl0Zmlhd01xX0cza01RUEF3aFM0dmlycTBYOFg4OUF1UWZ6eTlHcHhXM1lBeEZRdDF2bzVxWmlram5N?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 06:22:09 GMT",
+        "source": "La Nazione"
+      },
+      {
+        "title": "Titoli sportivi: in Umbria cala il peso specifico - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVHJBY1pCNjZFd2pHVjVNRFpKUnlRUUlnbEczcnpOY0Vhd0R1TGYxNFhwb05YcTNBdmRhdmN4R3lQWTRhQm5saGdpeXdCQmZxMVZhTDZNUExOeEZLZVNQUmZ3M0t1SjVlQUVaRTBpdk9aWDhLaWhiM1NFR3dickZVVUx1amVMSmpVNnRkcWM3dm8?oc=5",
+        "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+        "source": "Pianeta Volley"
+      },
+      {
+        "title": "Convocazione rappresentativa femminile umbra - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnJMdlo2bUtiaFlFOE9uV094TXNRSHUwRUp0UHJIbC14T084LVp1aTRtNjNERnJCWi1QUnN5cGVzZWpqeVFGVkdYd3RGWlJJdWh6NkJFQkZxaHBMVWpvSU1ob3lGaHNoOXp0T2NfakNweC1XbXVBNjJBcjF0ZE9uSGEwTXlYbWdrR1RSMGRVVQ?oc=5",
+        "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
+        "source": "Pianeta Volley"
+      }
+    ],
+    "marsciano": [],
+    "deruta": [],
+    "altotevere": [
+      {
+        "title": "Altotevere, il giovane schiacciatore Bianchini completa il roster - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZlFZX3BRek9vNUNjOHV4MVB6VjJuVnF1N1U1YlBQYVNMM2tVVUU1U2o0VENLYXJvRDVhZXlWOFVjWVhsbGpySkgxdm5DQm9YZHkwZUt4UWtqLUNHWGJPWldpX2tjc1ZpX1QyWExHODd1MVpjVHlwS0l4d3RWbkJZcklidkFhYThwWGdScmpGOVNlVzQ5ZkJCTzZzSlM?oc=5",
+        "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      },
+      {
+        "title": "ErmGroup Altotevere, il nuovo cammino in A3 comincia il 18 ottobre - TTV.it",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcm8wLWtrUHVzNUJROEZ2ZDhKQzRPVzFBb1IxNjlWQ2s1dDh2dVd3TzdydlozbUMzS2N6NWFVWnlfUE5fREFUNWN0VVVka1o3Y2s1a19mTnZmSDQ3NlRhbkhpZGlBY2hmMWlpOGZxMFRQb2xpamlHclJrUHNYZGVNSzVMeVhsQ2JuMThKZ2c5UkZpal9nanc?oc=5",
+        "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
+        "source": "TTV.it"
+      },
+      {
+        "title": "La programmazione delle Semifinali Play Off A3 - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNektQeUNpZUF2N2VuOUxMOEZhUUxGaERVVTVXanpBTmtLTDRGbDI3cDVqUVNTMjZpTjJpNUtScXpVdHc3dUxZcXkzdkxJaFNjNmV0X2IweVF2SDBoY3djZ1BNY3NKdW50Q1JfWWdDYjNWUTFKVFlUUjNwZms2ZVZIb3ludm4?oc=5",
+        "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      }
+    ]
+  }
+}
