@@ -455,8 +455,8 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           { href: "#/regionali", label: "News Regionali" },
           { href: "#/terni", label: "News Prov. TR" },
           { href: "#/perugia", label: "News Prov. PG" },
+           { href: "#/squadre-top", label: "News Squadre" },
           { href: "#/articoli-societa", label: "Articoli Societa" },
-          { href: "#/squadre-top", label: "Notizie Squadre" },
          ]}
         />
         <NavDropdown
