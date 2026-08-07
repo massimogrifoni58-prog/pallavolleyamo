@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-07T11:58:38.036300+00:00",
+  "generatedAt": "2026-08-07T12:33:44.761680+00:00",
   "posts": [
+    {
+      "title": "Incendio in un appartamento, ingenti i danni",
+      "excerpt": "Un incendio è divampato dopo la mezzanotte in un appartamento di via Cavour ad Amelia. Sul posto è intervenuta la squadra dei vigili del fuoco del dis",
+      "createdTime": "Fri, 07 Aug 2026 12:11:42 +0000",
+      "image": "https://img.terninrete.it/2026/08/IMG_3608.jpeg",
+      "permalink": "https://terninrete.it/notizie-di-terni-incendio-in-un-appartamento-ingenti-i-danni/",
+      "source": "TerniInRete"
+    },
     {
       "title": "Neurochirurgia, ecco come funzionerà la nuova struttura unica Perugia-Terni",
       "excerpt": "Dalla governance alla gestione delle risorse umane fino agli aspetti economici e non solo. Sono questi alcuni dei punti al centro della convenzione, a",
@@ -13,7 +21,7 @@
       "title": "Perugia ricorda Guccini: «Troviamoci alle scalette del Duomo»",
       "excerpt": "«Portate uno strumento, la voce ed il core». La chiamata per il flash mob per ricordare il maestro Francesco Guccini, scomparso giovedì all&#8217;età ",
       "createdTime": "Fri, 07 Aug 2026 11:34:50 +0000",
-      "image": "https://www.umbria24.it/wp-content/uploads/2012/05/francescoguccini-468x284.jpg",
+      "image": "https://www.umbria24.it/wp-content/uploads/2017/05/guccini.jpg",
       "permalink": "https://www.umbria24.it/attualita/perugia-ricorda-guccini-troviamoci-alle-scalette-del-duomo/",
       "source": "Umbria24"
     },
@@ -72,14 +80,6 @@
       "image": "https://www.umbria24.it/wp-content/uploads/2023/10/pexels-adrienn-1458283-scaled-e1786092337987.jpg",
       "permalink": "https://www.umbria24.it/cronaca/sullo-smartphone-vede-il-vicino-che-entra-in-casa-per-rubare-arrestato-31enne/",
       "source": "Umbria24"
-    },
-    {
-      "title": "Lugnano in Teverina, successo per il Palio dell’Assunta che tornerà il 14 agosto",
-      "excerpt": "“Il Palio dell&#8217;Assunta è un volano di qualità per la promozione del nostro borgo”. A dirlo è l’amministrazione comunale di Lugnano in Teverina i",
-      "createdTime": "Fri, 07 Aug 2026 08:06:11 +0000",
-      "image": "https://img.terninrete.it/2026/08/IMG_3604.jpeg",
-      "permalink": "https://terninrete.it/notizie-di-terni-lugnano-in-teverina-successo-per-il-palio-dellassunta-che-tornera-il-14-agosto/",
-      "source": "TerniInRete"
     }
   ]
 }
