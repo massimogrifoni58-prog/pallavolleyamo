@@ -155,6 +155,19 @@
       "provincia": "terni",
       "foto": "/articoli/barcherini.jpg",
       "logo": null
+    },
+     {
+      "id": "12",
+      "societa":  "Narni Sport Academy",
+      "autore": "societa",
+      "categoria": "Evento",
+      "titolo": "2x2 torneo di beach Volley Miriano ",
+      "testo": "Si è concluso con grande successo,anche il secondo Torneo di Beach Volley 2x2 Misto disputato presso il Campo di Beach Volley di Miriano! Una giornata all'insegna dello sport, del divertimento e della sana competizione, con tantissime sfide emozionanti e un'atmosfera fantastica dentro e fuori dal campo. Dai primi scambi fino alle finali, ogni partita ha regalato spettacolo, grinta e tanto fair play, confermando ancora una volta la passione che unisce tutti gli amanti del beach volley.",
+      "data": "6 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/beach.jpg",
+      "logo": null
     }
   ]
 }
