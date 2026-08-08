@@ -129,7 +129,7 @@
       "provincia": "perugia",
       "foto": "/articoli/tedesco.jpg",
       "logo": null
-    }
+    },
     {
       "id": "11",
       "societa":  "Trevi Volley",
@@ -141,6 +141,19 @@
       "mese": "Agosto",
       "provincia": "perugia",
       "foto": "/articoli/innocentis.jpg",
+      "logo": null
+     },
+    {
+      "id": "12",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "Una nuova conferma, con un nuovo ruolo Giulia Barcherini ",
+      "testo": "Sono davvero emozionata di giocare la Serie C oltretutto in un ruolo diverso dall’anno precedente. Ho scelto di proseguire facendo il libero perché credo di poter offrire qualcosa in più alla mia squadra ma soprattutto per una sfida personale",
+      "data": "4 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/barcherini.jpg",
       "logo": null
     }
   ]
