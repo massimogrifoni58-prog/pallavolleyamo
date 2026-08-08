@@ -130,5 +130,18 @@
       "foto": "/articoli/tedesco.jpg",
       "logo": null
     }
+    {
+      "id": "11",
+      "societa":  "Trevi Volley",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "MARIO DE INNOCENTIS CONFERMATO NELLO STAFF DELLA TREVI VOLLEY",
+      "testo": "A completare lo staff della Trevi Volley ci sarà ancora Mario De Innocentis, preparatore fisico con una lunga esperienza nel mondo dello sport e ormai da 10 anni al fianco della Pallavolo Trevi. Laureato in Scienze Motorie, Mario vanta un’esperienza ventennale come preparatore fisico nei mondi della pallavolo, del basket e del calcio, mettendo competenza e professionalità al servizio degli atleti.Da anni è inoltre personal trainer presso il Flex Village, dove si occupa anche del recupero post-trauma, seguendo sia gli sportivi sia chi si avvicina all’attività fisica per esigenze personali.Un’esperienza preziosa e una presenza ormai parte integrante della famiglia Trevi, che anche in questa stagione accompagnerà le nostre atlete nel loro percorso, curando preparazione, condizione fisica e prevenzione.",
+      "data": "7 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/innocentis.jpg",
+      "logo": null
+    }
   ]
 }
