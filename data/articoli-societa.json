@@ -207,6 +207,32 @@
       "provincia": "terni",
       "foto": "/articoli/aurora.jpg",
       "logo": null
+    },
+    {
+      "id": "16",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "La conferma DEL CAPITANO... Natalia Bernarino  ",
+      "testo": "Queste sono le parole del nostro capitano: Sono impaziente che inizi la nuova stagione e non vedo l’ora di tornare in palestra, conoscere le nuove ragazze che entreranno a far parte del gruppo e iniziare a lavorare insieme. Sono certa che ognuna di loro saprà dare un contributo importante alla squadra.Ci aspetta un percorso impegnativo, ma con sacrificio e spirito di gruppo sono convinta che potremo toglierci tante soddisfazioni.",
+      "data": "26 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "terni",
+      "foto": "/articoli/natalia.jpg",
+      "logo": null
+    },
+    {
+      "id": "17",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "oggi c'e la conferma Francesca Binnella ancora con noi #4 ",
+      "testo": "Ecco le sue parole:Dopo una stagione impegnativa, che ci ha regalato grandi soddisfazioni, sono davvero carica per quella che sta per iniziare. So che ci saranno momenti difficili e sfide da affrontare, ma sono convinta che, con il giusto spirito di gruppo, riusciremo a superarle insieme.Ho grandi aspettative per questo gruppo: credo che la cosa più importante sia divertirci, sostenerci a vicenda e vivere ogni allenamento e ogni partita con entusiasmo. Se riusciremo a fare questo, tutto il resto verrà da sé",
+      "data": "3 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/binnella.jpg",
+      "logo": null
     }
   ]
 }
