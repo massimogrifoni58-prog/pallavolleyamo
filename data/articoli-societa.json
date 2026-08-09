@@ -168,6 +168,45 @@
       "provincia": "terni",
       "foto": "/articoli/beach.jpg",
       "logo": null
+    },
+    {
+      "id": "13",
+      "societa":  "Città di Castello",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "𝐍𝐈𝐂𝐎𝐋𝐄 𝐂𝐎𝐍𝐅𝐈𝐑𝐌𝐄𝐃 🤍❤️ #𝟏𝟐 ",
+      "testo": "La nostra diva torna in campo! Siamo felicissimi di annunciare la riconferma di Nicole Sasso, schiacciatrice classe ’97 e vera anima della nostra squadra.Personalità da vendere, una difesa che fa la differenza e un bagaglio di esperienza costruito tra B1 e B2: Nicole è molto più di una giocatrice. È la nostra “dottoressa” , un punto di riferimento dentro e fuori dal campo.In questa nuova stagione di B2 sappiamo di poter contare su di lei per portare classe, carattere e quella esperienza che vale oro nei momenti decisivi. ",
+      "data": "9 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/nicol.jpg",
+      "logo": null
+    },
+    {
+      "id": "14",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "Isabella Zefi confermata al centro del progetto #9 ",
+      "testo": "Le sue parole: Un nuovo capitolo sta per iniziare. Dopo un’annata che ci ha regalato emozioni incredibili, si riparte con entusiasmo e tanta fame.Pronta a dare il massimo, sempre ",
+      "data": "8 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/zefi.jpg",
+      "logo": null
+    },
+    {
+      "id": "15",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "Si continua con le conferme... Aurora Sicilia #17 ",
+      "testo": "Ecco una sua dichiarazione sulla nuova stagione che sta per partire:Sta per iniziare un altra stagione, e la voglia di ricominciare è sempre la stessa del primo giorno. Sicuramente la scia positiva data dalla storica vittoria del campionato, darà una marcia in più in questa annata. Ho fiducia nelle mie compagne, in chi ci guida, e nelle nuove ragazze che entreranno a far parte della rosa.Non vediamo l’ora di riaccendere i motori, e di far divertire il pubblico amerino!"
+      "data": "28 Luglio 2026",
+      "mese": "Luglio",
+      "provincia": "terni",
+      "foto": "/articoli/aurora.jpg",
+      "logo": null
     }
   ]
 }
