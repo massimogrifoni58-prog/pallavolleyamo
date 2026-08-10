@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T14:49:05.742318+00:00",
+  "generatedAt": "2026-08-10T17:40:07.412412+00:00",
   "posts": [
     {
       "id": "seriecvolleyilcltvinceilderbya",
@@ -29,9 +29,9 @@
       "title": "La Terni Volley spazza via le sue paure ed acciuffa la prima vittoria per 3 - 0 sul Napoli",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 11 Nov 2025 02:28:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/10/9180399_10153740_tva_napoli_2_47_scaled.jpg",
+      "image": null,
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_spazza_via_le_sue_paure_ed_acciuffa_la_prima_vittoria_3_0_napoli-9180399.html",
-      "id": "3"
+      "id": "1"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -48,6 +48,14 @@
       "createdTime": "Sun, 28 Apr 2019 00:20:46 GMT",
       "image": "https://img.terninrete.it/2019/04/CLT-PROMO-1.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-volley-e-serie-b-per-il-clt/"
+    },
+    {
+      "title": "La Terni Volley cerca la prima vittoria in serie A 3 contro la Gaia Energy Napoli",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
+      "image": null,
+      "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
+      "id": "2"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -74,14 +82,6 @@
       "permalink": "https://terninrete.it/notizie-di-terni-la-bosico-volley-seconda-al-torneo-nazionale-di-spoleto-497628/"
     },
     {
-      "title": "Volley femminile, il folignate Santarelli non si ferma più: vince la Vnl con la Turchia",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Mon, 27 Jul 2026 00:19:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-18-at-19.15.34.jpeg",
-      "permalink": "https://www.umbria24.it/foligno/volley-femminile-il-folignate-santarelli-non-si-ferma-piu-vince-la-vnl-con-la-turchia/",
-      "id": "1"
-    },
-    {
       "id": "bosicovolleyunder13altorneonaz",
       "title": "Bosico Volley under 13 al torneo nazionale “Opes Volley” di Riccione",
       "excerpt": "Quattro giornate intense quelle che hanno visto impegnate le ragazze della Bosico Volley under 13 dall&#8217;8 all&#8217;11 giugno, nel torneo &#8220;Opes Volley&#8221; di Riccione. Dodici in totale l",
@@ -96,14 +96,6 @@
       "createdTime": "Mon, 09 Jul 2018 06:00:00 GMT",
       "image": "https://img.terninrete.it/2019/03/MG_6237.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-volley-la-bosico-under-14-vince-il-4176-torneo-nazionale-summer-volley-cup-475244/"
-    },
-    {
-      "title": "Volley Team U18",
-      "excerpt": "Fonte: orvietosport.it",
-      "createdTime": "Fri, 23 Jan 2026 08:47:00 GMT",
-      "image": null,
-      "permalink": "https://www.orvietosport.it/category/volley/volley-team-orvieto/volley-team-u18/",
-      "id": "2"
     }
   ]
 }

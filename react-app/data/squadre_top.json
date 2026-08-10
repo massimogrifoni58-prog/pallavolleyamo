@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:41:25.609283+00:00",
+  "generatedAt": "2026-08-10T17:43:31.772734+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -115,76 +115,20 @@
         "source": "PerugiaToday"
       }
     ],
-    "tva": [
-      {
-        "title": "Massimo Sarandrea presidente Terni Volley Academy: dal progetto Ternana al volley",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f124181c4c8d95815cf787b3f222&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fmassimo-sarandrea-presidente-terni-volley-academy-progetto-ternana-volley-120527&c=11699396415313458958&mkt=it-it",
-        "pubDate": "Sun, 09 Aug 2026 05:00:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Javier Martinez, rimandato l'addio alla pallavolo: play-out nonostante i suoi 30 punti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f124181c4c8d95815cf787b3f222&url=https%3a%2f%2fit.blastingnews.com%2fsport%2f2026%2f03%2fjavier-martinez-rimandato-laddio-alla-pallavolo-play-out-nonostante-i-suoi-30-punti-004001967.html&c=13068465514393267375&mkt=it-it",
-        "pubDate": "Mon, 16 Mar 2026 05:03:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Javier Martinez saluta Terni: ultima partita in casa davanti a Helena e 1.000 tifosi",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f124181c4c8d95815cf787b3f222&url=https%3a%2f%2fit.blastingnews.com%2ftv-gossip%2f2026%2f03%2fjavier-martinez-saluta-terni-ultima-partita-in-casa-davanti-a-helena-e-1000-tifosi-003994891.html&c=17400756821098641177&mkt=it-it",
-        "pubDate": "Sun, 01 Mar 2026 09:15:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Volley a3 maschile. Terni Volley Academy ribaltata da Gioia del Colle",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f124181c4c8d95815cf787b3f222&url=https%3a%2f%2fwww.lanazione.it%2fumbria%2fsport%2fvolley-a3-maschile-terni-volley-d43c8f32&c=5928384591465777809&mkt=it-it",
-        "pubDate": "Sun, 15 Feb 2026 23:21:00 GMT",
-        "source": ""
-      }
-    ],
+    "tva": [],
     "altotevere": [
       {
         "title": "Volley Mercato: terzo centrale per Pineto, Mirco Compagnoni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f12452434df5b2c94d551eb6e5a8&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a7a0dc343154236bd24e36155603740&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
         "pubDate": "Fri, 19 Jun 2026 11:03:00 GMT",
         "source": ""
       }
     ],
-    "citta-castello": [
-      {
-        "title": "Timenet e I’Giglio, le gare. Subito derby all’esordio",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f1244eee4e0381bd13453589f801&url=https%3a%2f%2fsport.quotidiano.net%2flocale%2fvolley%2ftimenet-e-igiglio-le-gare-07a5d773&c=12781472127975118411&mkt=it-it",
-        "pubDate": "Fri, 07 Aug 2026 17:00:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Volley B2 Femminile. Girone di Castello e Empoli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f1244eee4e0381bd13453589f801&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fitalia%2fvolley-b2-femminile-girone-di-castello-e-empoli%2far-AA29vm1P&c=4886324989930428359&mkt=it-it",
-        "pubDate": "Wed, 05 Aug 2026 23:22:22 GMT",
-        "source": ""
-      },
-      {
-        "title": "Pallavolo Trofeo McDonald’s – Il Bisonte Firenze e CDA Volley Talmassons FVG completano il quartetto di partecipanti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f1244eee4e0381bd13453589f801&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f03%2fpallavolo-trofeo-mcdonalds-il-bisonte-firenze-e-cda-volley-talmassons-fvg-completano-il-quartetto-di-partecipanti%2f&c=4291529264292754047&mkt=it-it",
-        "pubDate": "Sun, 02 Aug 2026 17:01:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Presentati a Roma gli Europei 2026",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f1244eee4e0381bd13453589f801&url=https%3a%2f%2fwww.corrieredellosport.it%2fnews%2fvolley%2fnazionali-volley%2f2026%2f07%2f08-149770686%2fpresentati_a_roma_gli_europei_2026&c=2753774846654406973&mkt=it-it",
-        "pubDate": "Wed, 08 Jul 2026 12:04:00 GMT",
-        "source": ""
-      },
-      {
-        "title": "Vernissage a Roma degli Europei di Volley",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f1244eee4e0381bd13453589f801&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fnazionali%2f2026%2f07%2f08-149771043%2fvernissage_a_roma_degli_europei_di_volley&c=17585733727358171710&mkt=it-it",
-        "pubDate": "Tue, 07 Jul 2026 23:27:00 GMT",
-        "source": ""
-      }
-    ],
+    "citta-castello": [],
     "marsciano": [
       {
         "title": "Pallavolo, svolta in Serie A2: nasce la Ferraro SMI Roma Volley",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a79f12509e24c0c9e507507fff76032&url=https%3a%2f%2fwww.ilmessaggero.it%2fsport%2faltrisport%2fpallavolo_svolta_serie_a2_nasce_la_ferraro_smi_roma_volley-9550190.html&c=11803557332091265079&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a7a0dc3f34b4ba688280655b4b3cffa&url=https%3a%2f%2fwww.ilmessaggero.it%2fsport%2faltrisport%2fpallavolo_svolta_serie_a2_nasce_la_ferraro_smi_roma_volley-9550190.html&c=11803557332091265079&mkt=it-it",
         "pubDate": "Sat, 23 May 2026 07:38:00 GMT",
         "source": ""
       }
