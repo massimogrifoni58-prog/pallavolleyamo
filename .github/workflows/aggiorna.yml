@@ -36,6 +36,7 @@ jobs:
           python fetch_squadre_top.py
           cd ..
           cp react-app/data/*.json data/
+          cp data/*.json react-app/data/
           mkdir -p react-app/src
           echo "export const BUILD_DATE = '$(date)';" > react-app/src/buildDate.js
 
