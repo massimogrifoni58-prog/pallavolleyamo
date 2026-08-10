@@ -141,30 +141,6 @@ function PostCard({ post, subscribed, onClick }) {
             &#128274; Iscriviti per leggere tutto
           </span>
         )}
-       {post.permalink && (
-  <div className="card__actions">
-    <button
-      className="card__action-btn card__action-btn--fb"
-      onClick={e => {
-        e.stopPropagation();
-        e.preventDefault();
-        window.open(
-          `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.permalink)}`,
-          'fb-share',
-          'width=600,height=400'
-        );
-      }}
-    >
-      f Condividi
-    </button>
-    <button
-      className="card__action-btn card__action-btn--copy"
-      onClick={e => { e.stopPropagation(); e.preventDefault(); navigator.clipboard.writeText(post.permalink); }}
-    >
-       Copia link
-    </button>
-  </div>
-)}
       </div>
     </>
   );
