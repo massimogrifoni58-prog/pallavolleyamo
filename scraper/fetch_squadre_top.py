@@ -15,22 +15,24 @@ from email.utils import parsedate_to_datetime
 
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "squadre_top.json"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
-MAX_NEWS = 3
+MAX_NEWS = 5
 
 SOGGETTI = [
-    # SQUADRE UMBRE IN CATEGORIE SUPERIORI
-    {"id": "sir-perugia", "nome": "Sir Susa Vim Perugia", "tipo": "squadra", "categoria": "Superlega", "query": "Sir Susa Vim Perugia pallavolo 2026"},
-    {"id": "bartoccini", "nome": "Bartoccini Fortinfissi Perugia", "tipo": "squadra", "categoria": "Serie A1 F", "query": "Bartoccini Perugia pallavolo 2026"},
-    {"id": "tva", "nome": "Terni Volley Academy", "tipo": "squadra", "categoria": "Serie A3", "query": "Terni Volley Academy Dragons pallavolo 2026"},
-    {"id": "altotevere", "nome": "Ermgroup Altotevere San Giustino", "tipo": "squadra", "categoria": "Serie A3", "query": "Altotevere San Giustino pallavolo A3 2026"},
-    {"id": "citta-castello", "nome": "Pallavolo Città di Castello", "tipo": "squadra", "categoria": "Serie B M", "query": "Pallavolo Città di Castello volley 2026"},
-    {"id": "marsciano", "nome": "Pallavolo Media Umbria Marsciano", "tipo": "squadra", "categoria": "Serie B F", "query": "Pallavolo Media Umbria Marsciano volley 2026"},
+    {"id": "sir-perugia", "nome": "Sir Susa Vim Perugia", "tipo": "squadra", "categoria": "Superlega", "query": "Sir Susa Vim Perugia pallavolo 2026", "fonte": "google"},
+    {"id": "bartoccini", "nome": "Bartoccini Fortinfissi Perugia", "tipo": "squadra", "categoria": "Serie A1 F", "query": "Bartoccini Perugia pallavolo 2026", "fonte": "google"},
+    {"id": "tva", "nome": "Terni Volley Academy", "tipo": "squadra", "categoria": "Serie A3", "query": "Terni Volley Academy Dragons pallavolo 2026", "fonte": "bing"},
+    {"id": "altotevere", "nome": "Ermgroup Altotevere San Giustino", "tipo": "squadra", "categoria": "Serie A3", "query": "Altotevere San Giustino pallavolo 2026", "fonte": "bing"},
+    {"id": "citta-castello", "nome": "Pallavolo Città di Castello", "tipo": "squadra", "categoria": "Serie B M", "query": "Pallavolo Città di Castello volley 2026", "fonte": "bing"},
+    {"id": "marsciano", "nome": "Pallavolo Media Umbria Marsciano", "tipo": "squadra", "categoria": "Serie B F", "query": "Pallavolo Media Umbria Marsciano volley 2026", "fonte": "bing"},
 ]
 
 
-def fetch_news(query):
+def fetch_news(query, fonte="bing"):
     encoded = urllib.parse.quote(query)
-    url = f"https://news.google.com/rss/search?q={encoded}&hl=it&gl=IT&ceid=IT:it"
+    if fonte == "google":
+        url = f"https://news.google.com/rss/search?q={encoded}&hl=it&gl=IT&ceid=IT:it"
+    else:
+        url = f"https://www.bing.com/news/search?q={encoded}&format=RSS&setlang=it-IT&cc=IT"
     try:
         req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=10) as resp:
@@ -67,17 +69,11 @@ def parse_rss(xml_bytes):
             dt = parse_date_safe(pub_date)
             if dt < cutoff:
                 continue
-           # Prova immagine da enclosure
-            image = None
-            enc = item.find("enclosure")
-            if enc is not None:
-                image = enc.get("url")
             posts.append({
                 "title": title,
                 "link": link,
                 "pubDate": pub_date,
                 "source": source,
-                "image": image,
             })
         posts.sort(key=lambda p: parse_date_safe(p["pubDate"]), reverse=True)
         return posts[:MAX_NEWS]
@@ -91,7 +87,7 @@ def main():
 
     for s in SOGGETTI:
         print(f"Scarico notizie per {s['nome']}...", end=" ", flush=True)
-        xml_bytes = fetch_news(s["query"])
+        xml_bytes = fetch_news(s["query"], s.get("fonte", "bing"))
         if not xml_bytes:
             result[s["id"]] = []
             continue
