@@ -19,7 +19,6 @@ import mercatoData from "../data/mercato.json";
 import newsGeneraliData from "../data/news_generali.json";
 import * as d3 from "d3";
 import societaData from "../data/societa.json";
-import squadreTopData from "../data/squadre_top.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -4962,9 +4961,23 @@ function Breadcrumb({ route }) {
   );
 }
 function SquadreTopPage() {
-  const soggetti = squadreTopData.soggetti || [];
-  const news = squadreTopData.news || {};
-  const [selected, setSelected] = useState(soggetti[0]?.id || "");
+  const [data, setData] = useState({ soggetti: [], news: {} });
+  const [loading, setLoading] = useState(true);
+  const [selected, setSelected] = useState("");
+
+  useEffect(() => {
+    fetch("/data/squadre_top.json?t=" + Date.now())
+      .then(r => r.json())
+      .then(d => {
+        setData(d);
+        setSelected(d.soggetti?.[0]?.id || "");
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  const soggetti = data.soggetti || [];
+  const news = data.news || {};
 
   const squadraSelezionata = soggetti.find(s => s.id === selected);
   const notizie = news[selected] || [];
