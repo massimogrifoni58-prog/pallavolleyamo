@@ -67,11 +67,17 @@ def parse_rss(xml_bytes):
             dt = parse_date_safe(pub_date)
             if dt < cutoff:
                 continue
+           # Prova immagine da enclosure
+            image = None
+            enc = item.find("enclosure")
+            if enc is not None:
+                image = enc.get("url")
             posts.append({
                 "title": title,
                 "link": link,
                 "pubDate": pub_date,
                 "source": source,
+                "image": image,
             })
         posts.sort(key=lambda p: parse_date_safe(p["pubDate"]), reverse=True)
         return posts[:MAX_NEWS]
