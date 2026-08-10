@@ -1,0 +1,455 @@
+{
+  "pillole": [
+    {
+      "id": 1,
+      "sezione": "Tecnica",
+      "tema": "Ricezione",
+      "emoji": "",
+      "consiglio": "Una ricezione perfetta non è quella spettacolare, ma quella che permette al palleggiatore di scegliere qualsiasi attaccante. L'obiettivo non è salvare la palla — è costruire l'attacco.",
+      "in_palestra": "Ricevi 10 palloni consecutivi da battute reali. Conta solo quante volte la palla arriva in zona 3 entro un metro dall'alzatore. Tieni le statistiche ogni allenamento.",
+      "domanda": "Qual è, secondo te, l'errore più frequente in ricezione?"
+    },
+    {
+      "id": 2,
+      "sezione": "Tecnica",
+      "tema": "Bagher",
+      "emoji": "",
+      "consiglio": "Il bagher non si fa con le braccia — si fa con i piedi. Posizionati dietro la palla, poi offri la piattaforma. Chi arriva in equilibrio controlla sempre la direzione del rimbalzo.",
+      "in_palestra": "A coppie, 4 metri di distanza. Bagher continuo per 2 minuti senza far cadere. Progressione: aumenta la distanza ogni 30 secondi. Conta le serie riuscite.",
+      "domanda": "Riesci a mantenere la piattaforma ferma anche quando ti muovi lateralmente?"
+    },
+    {
+      "id": 3,
+      "sezione": "Tecnica",
+      "tema": "Palleggio",
+      "emoji": "",
+      "consiglio": "Le mani del palleggiatore devono essere morbide al contatto e rigide subito dopo. Il tocco dura meno di un decimo di secondo — ma in quel momento si decide la qualità di tutto ciò che viene dopo.",
+      "in_palestra": "Palleggio al muro a 50 cm di distanza. Obiettivo: 50 ripetizioni consecutive senza interrompere. Poi aumenta la distanza a 1 metro, poi 2. Allena la costanza prima della potenza.",
+      "domanda": "Il tuo palleggio cambia quando sei sotto pressione? Come lo gestisci?"
+    },
+    {
+      "id": 4,
+      "sezione": "Tecnica",
+      "tema": "Attacco",
+      "emoji": "",
+      "consiglio": "Nella schiacciata conta più il ritmo della rincorsa che la potenza del braccio. Lento-lento-veloce: impara a sentire questo ritmo prima ancora di toccare la palla.",
+      "in_palestra": "30 rincorse complete senza palla. Concentrati solo sul ritmo e sul salto verticale. Poi aggiungi il colpo. Prima il ritmo, poi la forza.",
+      "domanda": "Quanto tempo dedichi specificamente alla rincorsa nel tuo allenamento settimanale?"
+    },
+    {
+      "id": 5,
+      "sezione": "Tecnica",
+      "tema": "Muro",
+      "emoji": "",
+      "consiglio": "Il muro inizia molto prima del salto. Inizia dalla lettura dell'alzatore — capire dove manderà la palla. Chi legge bene l'attaccante salta sempre al momento giusto.",
+      "in_palestra": "Un compagno simula la rincorsa e il salto senza palla, variando la posizione delle spalle. Leggi la direzione e alza le mani nel lato corretto prima ancora che colpisca. Prima lento, poi veloce.",
+      "domanda": "Guardi la palla o le spalle dell'attaccante quando salti a muro?"
+    },
+    {
+      "id": 6,
+      "sezione": "Tecnica",
+      "tema": "Difesa",
+      "emoji": "",
+      "consiglio": "I grandi difensori non reagiscono — anticipano. La posizione di attesa è il 70% della difesa: piedi larghi, ginocchia flesse, peso sui metatarsi. Da questa posizione puoi raggiungere qualsiasi palla.",
+      "in_palestra": "Mantieni la posizione di attesa corretta per 45 secondi consecutivi, poi 15 secondi di riposo. 5 serie. Aggiungi piccoli spostamenti laterali di 1 metro per aumentare la difficoltà.",
+      "domanda": "Quanto riesci a mantenere la posizione bassa per tutta la durata di un set?"
+    },
+    {
+      "id": 7,
+      "sezione": "Tecnica",
+      "tema": "Servizio",
+      "emoji": "",
+      "consiglio": "La battuta è l'unico momento della partita in cui hai il controllo assoluto. Non usarla solo per mettere la palla in gioco — usala per creare pressione, spostare il libero, limitare le opzioni avversarie.",
+      "in_palestra": "10 battute verso zona 1, 10 verso zona 5, 10 verso zona 6. Tieni le statistiche: quante volte centri il bersaglio su 10. Confronta i risultati ogni settimana.",
+      "domanda": "Studi la posizione della difesa avversaria prima di battere o batti sempre nello stesso modo?"
+    },
+    {
+      "id": 8,
+      "sezione": "Tecnica",
+      "tema": "Copertura",
+      "emoji": "",
+      "consiglio": "Quando un compagno attacca, i cinque giocatori rimasti devono coprire il campo in caso di rimbalzo dal muro. La copertura non è automatica — è una scelta tattica che si allena.",
+      "in_palestra": "Simula 10 attacchi con muro. I giocatori in copertura devono reagire al rimbalzo e costruire un secondo attacco. Conta quante volte riuscite a continuare l'azione dopo il muro avversario.",
+      "domanda": "Nella tua squadra la copertura dell'attaccante viene allenata in modo specifico o si improvvisa?"
+    },
+    {
+      "id": 9,
+      "sezione": "Tecnica",
+      "tema": "Transizione",
+      "emoji": "",
+      "consiglio": "La transizione è il momento più difficile: dopo aver difeso, riorganizzarsi velocemente per attaccare. Richiede comunicazione, velocità di spostamento e lucidità. Chi vince le transizioni, vince i set.",
+      "in_palestra": "Ciclo completo ripetuto 15 volte: muratore salta, atterra, si riposiziona in difesa. Il difensore salva la palla. Il palleggiatore costruisce l'attacco. Nessuna pausa tra i cicli.",
+      "domanda": "Quanto tempo impiega la tua squadra a riorganizzarsi dopo una difesa?"
+    },
+    {
+      "id": 10,
+      "sezione": "Tecnica",
+      "tema": "Comunicazione",
+      "emoji": "",
+      "consiglio": "Chiama la palla sempre, anche quando sei sicuro di prenderla. Una parola in più non ha mai fatto perdere un punto. Il silenzio sì. La comunicazione è un fondamentale tecnico, non un optional.",
+      "in_palestra": "Durante l'allenamento, ogni palla deve essere chiamata ad alta voce. Chi non chiama paga un forfait (10 flessioni, 5 squat jump). Dopo due settimane diventa automatico.",
+      "domanda": "Nella tua squadra chi chiama la palla? Tutti o solo il libero?"
+    },
+ {
+      "id": 11,
+      "sezione": "Mentalità",
+      "tema": "Gestione dell'errore",
+      "emoji": "",
+      "consiglio": "Dopo un errore hai tre secondi per rattristarti. Poi devi essere già pronto per il punto successivo. Non portare il peso del passato in campo: ogni pallone è una nuova storia.",
+      "in_palestra": "Durante l'allenamento, ogni volta che sbagli batti le mani una volta e dì ad alta voce 'Avanti'. Trasforma il gesto in un rituale automatico che resetta la mente.",
+      "domanda": "Come reagisci dopo un errore grave in partita? Riesci a resettare prima del pallone successivo?"
+    },
+    {
+      "id": 12,
+      "sezione": "Mentalità",
+      "tema": "Leadership",
+      "emoji": "",
+      "consiglio": "Il leader in campo non è chi urla di più — è chi rimane calmo quando tutti perdono la testa. La tua squadra ti guarda nei momenti difficili. Cosa vede?",
+      "in_palestra": "Nel prossimo allenamento, ogni volta che una compagna sbaglia incoraggiala con una parola concreta: non 'dai' generico, ma 'ottimo spostamento' o 'bella lettura'. Sii specifica.",
+      "domanda": "Chi è il leader silenzioso nella tua squadra? Hai mai pensato di esserlo tu?"
+    },
+    {
+      "id": 13,
+      "sezione": "Mentalità",
+      "tema": "Fiducia",
+      "emoji": "",
+      "consiglio": "La fiducia in sé stessi non arriva prima dell'allenamento — arriva dopo. Non aspettare di sentirti pronta per provare il colpo difficile. Prova il colpo difficile e poi ti sentirai pronta.",
+      "in_palestra": "Scegli oggi un elemento tecnico che eviti perché ti fa paura sbagliare. Dedicagli 10 minuti specifici. L'unico modo per costruire fiducia è esporsi all'errore.",
+      "domanda": "C'è un colpo o una situazione di gioco che eviti inconsciamente perché hai paura di sbagliare?"
+    },
+    {
+      "id": 14,
+      "sezione": "Mentalità",
+      "tema": "Concentrazione",
+      "emoji": "",
+      "consiglio": "Il punto più importante non è il primo, né l'ultimo — è quello che stai giocando adesso. La concentrazione non è uno stato mentale: è una scelta che fai pallone dopo pallone.",
+      "in_palestra": "Allena la concentrazione con questo esercizio: 10 minuti di ricezione in silenzio totale. Nessuna comunicazione verbale. Solo occhi sulla palla e piedi che si muovono.",
+      "domanda": "Quanti punti perdi a causa della distrazione? Hai un rituale per ritrovare la concentrazione?"
+    },
+    {
+      "id": 15,
+      "sezione": "Mentalità",
+      "tema": "Resilienza",
+      "emoji": "",
+      "consiglio": "Perdere un set non significa perdere la partita. Perdere una partita non significa perdere la stagione. Le squadre resilienti non evitano le difficoltà — le usano come carburante.",
+      "in_palestra": "Gioca un set partendo da 0-10 sotto. L'obiettivo non è vincerlo — è rimanere competitivi fino alla fine. Impara cosa significa non mollare mai.",
+      "domanda": "Nella tua squadra cosa succede quando perdete il primo set? Come cambia l'energia in campo?"
+    },
+    {
+      "id": 16,
+      "sezione": "Mentalità",
+      "tema": "Spirito di squadra",
+      "emoji": "",
+      "consiglio": "Una squadra di campioni perde contro una squadra campione. Cinque punti tuoi e cinque sconfitte di squadra valgono meno di zero punti tuoi e cinque vittorie insieme.",
+      "in_palestra": "Dopo ogni punto vinto, tutta la squadra deve toccarsi — una mano, un pugno, qualcosa. Il contatto fisico crea coesione. Fallo sistematicamente per un mese e osserva il cambiamento.",
+      "domanda": "La tua squadra celebra i punti insieme o ognuno resta nel proprio spazio emotivo?"
+    },
+    {
+      "id": 17,
+      "sezione": "Mentalità",
+      "tema": "Motivazione",
+      "emoji": "",
+      "consiglio": "La motivazione ti porta al primo allenamento. La disciplina ti porta al centesimo. Non aspettare di avere voglia — allenati anche quando non ne hai. Specialmente quando non ne hai.",
+      "in_palestra": "Tieni un diario di allenamento per un mese. Scrivi una riga dopo ogni sessione: cosa hai migliorato, cosa devi rivedere. La consapevolezza alimenta la motivazione.",
+      "domanda": "Cosa ti spinge ad andare ad allenarsi nei giorni in cui non avresti voglia?"
+    },
+    {
+      "id": 18,
+      "sezione": "Mentalità",
+      "tema": "Gestione della pressione",
+      "emoji": "",
+      "consiglio": "La pressione è un privilegio. Significa che sei in una situazione che conta. Le grandi giocatrici non eliminano la pressione — imparano a usarla come energia invece che come freno.",
+      "in_palestra": "Gioca gli ultimi 5 punti di ogni set allenamento come se fossero il 23-23 del quinto. Stessa intensità, stessa concentrazione. Abituati a performare quando conta.",
+      "domanda": "Come cambia il tuo gioco nei momenti decisivi? Migliori o peggiori sotto pressione?"
+    },
+    {
+      "id": 19,
+      "sezione": "Mentalità",
+      "tema": "Obiettivi",
+      "emoji": "",
+      "consiglio": "Un obiettivo senza un piano è solo un desiderio. Definisci cosa vuoi migliorare, come lo allenerai, come misurerai i progressi. La chiarezza trasforma le aspirazioni in risultati.",
+      "in_palestra": "Scrivi oggi stesso un obiettivo tecnico per le prossime 4 settimane. Deve essere specifico, misurabile, raggiungibile. Esempio: 'Portare la ricezione perfetta dal 40% al 55%'.",
+      "domanda": "Hai un obiettivo tecnico specifico per questa stagione o ti alleni senza una direzione precisa?"
+    },
+    {
+      "id": 20,
+      "sezione": "Mentalità",
+      "tema": "Mentalità vincente",
+      "emoji": "",
+      "consiglio": "La mentalità vincente non significa vincere sempre. Significa allenarsi come se ogni ripetizione contasse, giocare come se ogni punto fosse decisivo, migliorare come se non ci fosse un limite.",
+      "in_palestra": "Nel prossimo allenamento libero, quando sei stanco e vorresti fermarti, fai ancora 5 ripetizioni. Sempre. Quella soglia che spingi ogni giorno è dove cresci davvero.",
+      "domanda": "Cosa significa per te avere una mentalità vincente? La senti come una qualità che possiedi o che stai costruendo?"
+    },
+    {
+      "id": 21,
+      "sezione": "Citazioni",
+      "tema": "Julio Velasco",
+      "emoji": "",
+      "consiglio": "\"Non esistono giocatori forti o deboli. Esistono giocatori che lavorano e giocatori che credono di lavorare.\" — Julio Velasco, CT Nazionale Italiana Femminile, oro olimpico Parigi 2024.",
+      "in_palestra": "Rifletti onestamente: nel tuo ultimo allenamento hai davvero lavorato o hai solo eseguito i movimenti? C'è differenza. Allenati con intenzione, non con abitudine.",
+      "domanda": "Riesci a distinguere quando stai davvero lavorando da quando stai solo passando il tempo in palestra?"
+    },
+    {
+      "id": 22,
+      "sezione": "Citazioni",
+      "tema": "Bernardinho",
+      "emoji": "",
+      "consiglio": "\"Il campione non è quello che non cade mai. È quello che si rialza ogni volta.\" — Bernardo Rezende, detto Bernardinho, l'allenatore più titolato della storia del volley mondiale.",
+      "in_palestra": "Pensa all'ultima sconfitta importante. Cosa hai imparato? Se non riesci a rispondere, non hai ancora sfruttato quella sconfitta. Le cadute valgono solo se insegni qualcosa.",
+      "domanda": "Qual è stata la sconfitta più preziosa della tua carriera sportiva? Cosa ti ha insegnato?"
+    },
+    {
+      "id": 23,
+      "sezione": "Citazioni",
+      "tema": "Giovanni Guidetti",
+      "emoji": "",
+      "consiglio": "\"Le squadre che vincono non sono quelle con i migliori giocatori. Sono quelle in cui ogni giocatore vuole vincere per il compagno, non per sé.\" — Giovanni Guidetti, allenatore Vakifbank Istanbul.",
+      "in_palestra": "Nel prossimo match di allenamento, prima di ogni tuo attacco pensa: 'Lo faccio per chi è in ricezione, per chi ha alzato, per chi mi sta coprendo'. Cambia la prospettiva.",
+      "domanda": "Giochi per la tua squadra o giochi con la tua squadra? C'è una differenza enorme."
+    },
+    {
+      "id": 24,
+      "sezione": "Citazioni",
+      "tema": "Karch Kiraly",
+      "emoji": "",
+      "consiglio": "\"Ogni giorno mi sveglio chiedendomi cosa posso fare meglio di ieri. Non cosa posso fare meglio degli altri.\" — Karch Kiraly, CT Nazionale USA Femminile, l'unico ad aver vinto oro olimpico sia indoor che beach.",
+      "in_palestra": "Prima dell'allenamento di oggi scrivi una cosa sola che vuoi migliorare rispetto all'ultima sessione. Una sola. Poi misura se ci sei riuscita a fine allenamento.",
+      "domanda": "Ti confronti con i tuoi compagni o con la versione di te stesso del giorno prima?"
+    },
+    {
+      "id": 25,
+      "sezione": "Citazioni",
+      "tema": "Mauro Berruto",
+      "emoji": "",
+      "consiglio": "\"Una squadra che sa perdere impara a vincere. Una squadra che non sa perdere impara solo ad aver paura.\" — Mauro Berruto, ex CT Nazionale Italiana Maschile, oggi parlamentare.",
+      "in_palestra": "Dopo la prossima sconfitta in allenamento o partita, riunisci la squadra e fate questa domanda: 'Cosa abbiamo imparato stasera?' Non 'cosa è andato storto', ma 'cosa abbiamo imparato'.",
+      "domanda": "La tua squadra analizza le sconfitte in modo costruttivo o le dimentica il prima possibile?"
+    },
+    {
+      "id": 26,
+      "sezione": "Citazioni",
+      "tema": "Davide Mazzanti",
+      "emoji": "",
+      "consiglio": "\"Il talento senza disciplina è come un'orchestra senza direttore: fa rumore, non musica.\" — Davide Mazzanti, ex CT Nazionale Italiana Femminile, argento olimpico Tokyo 2020.",
+      "in_palestra": "Scegli tre regole personali da rispettare in ogni allenamento: puntualità, intensità nei momenti liberi, comunicazione continua. Rispettale per 30 giorni di fila e osserva il cambiamento.",
+      "domanda": "Hai una routine pre-allenamento? O arrivi in palestra e improvvisi?"
+    },
+    {
+      "id": 27,
+      "sezione": "Citazioni",
+      "tema": "Lang Ping",
+      "emoji": "",
+      "consiglio": "\"Non chiedo alle mie giocatrici di essere perfette. Chiedo loro di essere coraggiose.\" — Lang Ping, soprannominata 'Il Martello di Ferro', oro olimpico come giocatrice e come allenatrice con Cina e USA.",
+      "in_palestra": "Identifica la situazione di gioco che ti mette più ansia. Affrontala deliberatamente nel prossimo allenamento. Il coraggio non è l'assenza di paura — è agire nonostante la paura.",
+      "domanda": "Quando in partita senti la paura di sbagliare, cosa fa il tuo corpo? Come la gestisci?"
+    },
+    {
+      "id": 28,
+      "sezione": "Citazioni",
+      "tema": "Daniele Santarelli",
+      "emoji": "",
+      "consiglio": "\"In allenamento devi essere più esigente con te stesso di quanto lo sia il tuo avversario in partita. Solo così la partita diventa più facile dell'allenamento.\" — Daniele Santarelli, allenatore Conegliano.",
+      "in_palestra": "Alza il livello di esigenza in un aspetto specifico oggi: se di solito accetti una ricezione che 'quasi' va bene, oggi accetta solo quella perfetta. Sii il tuo allenatore più severo.",
+      "domanda": "Sei più esigente con te stesso in allenamento o in partita? Dovrebbe essere il contrario."
+    },
+    {
+      "id": 29,
+      "sezione": "Citazioni",
+      "tema": "Fefé De Giorgi",
+      "emoji": "",
+      "consiglio": "\"Il talento ti porta in palestra. La squadra ti porta in finale.\" — Ferdinando De Giorgi, CT Nazionale Italiana Maschile, campione del mondo 2022.",
+      "in_palestra": "Nel prossimo allenamento, scegli deliberatamente di servire il compagno invece di cercare il tuo momento di gloria. Passa la palla quando un altro è meglio posizionato. Sempre.",
+      "domanda": "Riesci a gioire sinceramente quando un compagno fa qualcosa di eccezionale, anche se tu hai sbagliato?"
+    },
+    {
+      "id": 30,
+      "sezione": "Citazioni",
+      "tema": "Marco Bonitta",
+      "emoji": "",
+      "consiglio": "\"Il volley è lo sport più democratico che esista: ogni punto riparte da zero. Non importa chi sei — importa cosa fai adesso.\" — Marco Bonitta, ex CT Nazionale Italiana Femminile, argento olimpico Atene 2004.",
+      "in_palestra": "Prima del prossimo set di allenamento, dimentica il punteggio precedente. Gioca come se fosse 0-0. Ogni set è una nuova partita — la storia non conta, conta solo il presente.",
+      "domanda": "Riesci a resettare completamente tra un set e l'altro, o porti ancora il peso di quello precedente?"
+    },
+    {
+      "id": 31,
+      "sezione": "Esercizi",
+      "tema": "Riscaldamento",
+      "emoji": "",
+      "consiglio": "Un riscaldamento inadeguato non prepara solo i muscoli — non prepara la testa. I primi 10 minuti in palestra determinano la qualità di tutto l'allenamento che segue.",
+      "in_palestra": "Protocollo: 5 minuti jogging leggero + mobilità caviglie e spalle (10 rotazioni per lato) + skip + corsa laterale + 5 minuti palleggio libero a coppie. Ogni giorno, senza eccezioni.",
+      "domanda": "Il tuo riscaldamento è sempre lo stesso o varia in base a come ti senti quel giorno?"
+    },
+    {
+      "id": 32,
+      "sezione": "Esercizi",
+      "tema": "Bagher",
+      "emoji": "",
+      "consiglio": "Il bagher si allena in isolamento prima di inserirlo nel gioco. Solo quando il gesto è automatico puoi concentrarti sulla lettura del campo invece che sulla tecnica delle braccia.",
+      "in_palestra": "Triangolo a tre: A batte, B riceve in bagher verso C, C raccoglie e batte. 15 minuti continui. Chi sbaglia la ricezione fa 5 squat prima di riprendere. Crea pressione competitiva.",
+      "domanda": "Dedichi tempo specifico al bagher in isolamento o lo alleni solo nel contesto del gioco?"
+    },
+    {
+      "id": 33,
+      "sezione": "Esercizi",
+      "tema": "Ricezione",
+      "emoji": "",
+      "consiglio": "La ricezione competitiva è l'esercizio più efficace perché replica la pressione reale della partita. Senza pressione non c'è adattamento. Senza adattamento non c'è miglioramento.",
+      "in_palestra": "A coppie: uno batte, uno riceve. Ricezione perfetta (zona 3, entro 1 metro dall'alzatore immaginario) = punto ricevitore. Errore = punto battitore. Si gioca a 21. Poi si cambia.",
+      "domanda": "Quanto spesso alleni la ricezione in condizioni competitive invece che in situazioni controllate?"
+    },
+    {
+      "id": 34,
+      "sezione": "Esercizi",
+      "tema": "Palleggio",
+      "emoji": "",
+      "consiglio": "Il gioco dei numeri è l'esercizio più utile per allenare la velocità decisionale dell'alzatore. La decisione deve avvenire in meno di mezzo secondo — come in partita reale.",
+      "in_palestra": "Coach mostra 1, 2 o 3 dita un istante prima che l'alzatore tocchi la palla. 1 = posto 4, 2 = fast centrale, 3 = posto 2. L'alzatore deve alzare verso il posto corretto. 15 ripetizioni, 3 serie.",
+      "domanda": "Il tuo alzatore riesce a cambiare destinazione della palla all'ultimo momento o è prevedibile?"
+    },
+    {
+      "id": 35,
+      "sezione": "Esercizi",
+      "tema": "Attacco",
+      "emoji": "",
+      "consiglio": "L'attacco variato è l'esercizio che più spaventa i difensori. Se ogni tuo attacco parte uguale ma finisce in modo diverso, il muro non riesce mai ad anticiparti.",
+      "in_palestra": "4 palle consecutive: diagonale, parallelo, pallonetto, scelta libera. Stessa preparazione per tutti e 4. Il muro non deve capire quale colpo arriva. 3 sequenze, poi si scambiano.",
+      "domanda": "Quanti tipi di colpi diversi riesci a eseguire mantenendo la stessa preparazione esteriore?"
+    },
+    {
+      "id": 36,
+      "sezione": "Esercizi",
+      "tema": "Muro",
+      "emoji": "",
+      "consiglio": "Il muro vs attacco progressivo è l'esercizio più completo per sviluppare la lettura dell'attaccante. Si parte dal noto e si arriva all'imprevedibile — come in partita.",
+      "in_palestra": "Fase 1: attaccante mostra dove colpirà (5 palloni). Fase 2: scelta tra 2 zone (5 palloni). Fase 3: attaccante libero (5 palloni). Si contano i punti del muro. Record da battere ogni settimana.",
+      "domanda": "Il tuo muro è organizzato con la difesa o ogni giocatore agisce in modo indipendente?"
+    },
+    {
+      "id": 37,
+      "sezione": "Esercizi",
+      "tema": "Difesa",
+      "emoji": "",
+      "consiglio": "La difesa vs attacco reale è l'esercizio più onesto: nessun lancio del coach, nessuna situazione controllata. Solo l'attacco vero e la tua capacità di leggere e reagire.",
+      "in_palestra": "Attaccante vs difensore + libero. 10 palloni a serie, poi si scambiano. Si contano le difese positive — palla alta e in zona utile. Non basta salvare la palla: deve essere utilizzabile.",
+      "domanda": "Le tue difese producono palle che l'alzatore può costruire o sono difese di sopravvivenza?"
+    },
+    {
+      "id": 38,
+      "sezione": "Esercizi",
+      "tema": "Side Out",
+      "emoji": "",
+      "consiglio": "Il side-out si allena come sistema, non come somma di fondamentali. Ricezione, alzata e attacco devono essere un flusso unico — non tre esercizi separati messi in sequenza.",
+      "in_palestra": "3 vs 3 con vincoli: primo tocco obbligatorio in bagher, secondo in palleggio, terzo attacco libero. Punto solo se si rispettano i vincoli. Si gioca a 15 punti. Rotazioni ogni 5.",
+      "domanda": "La tua squadra allena il side-out come sistema oppure lavora i singoli fondamentali separati?"
+    },
+    {
+      "id": 39,
+      "sezione": "Esercizi",
+      "tema": "Break Point",
+      "emoji": "",
+      "consiglio": "Il break point si costruisce dalla battuta. Una battuta efficace mette pressione al ricevitore e limita le opzioni d'attacco avversarie — creando le condizioni per il punto.",
+      "in_palestra": "Battuta a zona con pressione: ogni atleta fa 5 battute. Bersaglio = +2 punti. Errore = -1 punto. Sfida a squadre: prima a 20 vince. Replica la concentrazione dei momenti decisivi.",
+      "domanda": "La tua squadra usa la battuta come arma tattica o solo come mezzo per mettere la palla in gioco?"
+    },
+    {
+      "id": 40,
+      "sezione": "Esercizi",
+      "tema": "6 contro 6",
+      "emoji": "",
+      "consiglio": "Il 6 vs 6 con punteggio reale è l'unico modo per allenare la gestione dei momenti decisivi. Tutto il resto è preparazione — questo è il momento della verità.",
+      "in_palestra": "Gioca gli ultimi 5 punti di ogni set come se fossero il 23-23. Stessa intensità, stessa pressione. Poi analizza: cosa è cambiato nel tuo gioco? Cosa hai gestito bene? Cosa devi migliorare?",
+      "domanda": "Il tuo livello di gioco migliora o peggiora nei momenti decisivi? Sai perché?"
+    },
+    {
+      "id": 41,
+      "sezione": "Regole",
+      "tema": "Posizione in campo",
+      "emoji": "",
+      "consiglio": "Al momento della battuta i giocatori devono rispettare le posizioni relative: ogni giocatore di prima linea deve essere più vicino alla rete del corrispondente di seconda linea. Dopo la battuta ci si può muovere liberamente.",
+      "in_palestra": "Prima dell'allenamento ripassate le rotazioni con tutta la squadra. Ogni posizione, ogni zona. Chi sbaglia posizione durante il gioco paga un forfait. Imparare le rotazioni è obbligatorio.",
+      "domanda": "Tutta la tua squadra conosce le 6 rotazioni e le posizioni corrette? O qualcuno improvvisa?"
+    },
+    {
+      "id": 42,
+      "sezione": "Regole",
+      "tema": "Il doppio tocco",
+      "emoji": "",
+      "consiglio": "Un giocatore non può toccare la palla due volte di seguito, tranne nel primo tocco dopo un'azione di muro. Nell'alzata le dita devono colpire la palla simultaneamente — un tocco deve sembrare uno.",
+      "in_palestra": "Esercizio di sensibilità: palleggio contro il muro con una mano sola alternata. Sviluppa la consapevolezza del contatto e aiuta a evitare i doppi tocchi inconsci nelle situazioni difficili.",
+      "domanda": "Sai riconoscere quando fai un doppio tocco? O ti accorgi solo quando l'arbitro fischia?"
+    },
+    {
+      "id": 43,
+      "sezione": "Regole",
+      "tema": "Il libero",
+      "emoji": "",
+      "consiglio": "Il libero indossa una maglia diversa e non può attaccare sopra la rete, battere o murare. Le sostituzioni del libero non contano nel limite massimo e avvengono senza fischio dell'arbitro tra un'azione e l'altra.",
+      "in_palestra": "Simula le sostituzioni del libero durante l'allenamento in modo sistematico. Il timing della sostituzione può cambiare l'equilibrio della squadra — va allenato come ogni altro fondamentale.",
+      "domanda": "Il libero della tua squadra conosce esattamente tutti i propri diritti e limiti secondo il regolamento?"
+    },
+    {
+      "id": 44,
+      "sezione": "Regole",
+      "tema": "Il tocco a rete",
+      "emoji": "",
+      "consiglio": "Un giocatore può toccare la rete durante un'azione purché non interferisca con il gioco avversario. Toccare le antenne o i pali è sempre fallo. Passare sotto la rete è permesso se non si ostacola l'avversario.",
+      "in_palestra": "Durante gli esercizi a rete, allenate la consapevolezza spaziale: muro senza toccare la rete, atterraggio senza passare sotto. Il controllo del corpo nello spazio riduce i falli evitabili.",
+      "domanda": "Quanti falli a rete commette la tua squadra in media per set? Li avete mai contati?"
+    },
+    {
+      "id": 45,
+      "sezione": "Regole",
+      "tema": "I 8 secondi per battere",
+      "emoji": "",
+      "consiglio": "Dal fischio dell'arbitro il battitore ha 8 secondi per eseguire la battuta. Il ritardo è fallo. Usare questi 8 secondi consapevolmente — per respirare, visualizzare, scegliere la zona — è parte della strategia.",
+      "in_palestra": "Allena il rituale pre-battuta: 3 respiri, visualizzazione della zona bersaglio, lancio. Sempre lo stesso. Un rituale stabile aiuta a gestire la pressione nei momenti decisivi della partita.",
+      "domanda": "Hai un rituale pre-battuta? O batti appena l'arbitro fischia senza una routine precisa?"
+    },
+    {
+      "id": 46,
+      "sezione": "Regole",
+      "tema": "La zona di attacco",
+      "emoji": "",
+      "consiglio": "I giocatori di seconda linea non possono attaccare davanti alla linea dei 3 metri se la palla è completamente sopra la rete al momento del colpo. Possono farlo da dietro la linea — è l'attacco di seconda linea.",
+      "in_palestra": "Allena deliberatamente l'attacco di seconda linea (pipe, bic) con i vostri giocatori di fondo. Spesso è una risorsa non sfruttata che sorprende il muro avversario. 10 ripetizioni per giocatore.",
+      "domanda": "La tua squadra usa regolarmente l'attacco di seconda linea o è un'opzione che ignorate?"
+    },
+    {
+      "id": 47,
+      "sezione": "Regole",
+      "tema": "Il set e il tie-break",
+      "emoji": "",
+      "consiglio": "Ogni set si gioca a 25 punti con vantaggio minimo di 2. Il quinto set si gioca a 15 con vantaggio di 2. Al tie-break si cambia campo quando una squadra raggiunge 8 punti — non a metà tempo.",
+      "in_palestra": "Simulate il cambio campo al tie-break durante l'allenamento. Cosa fate in quei 30 secondi? Avete un piano? Idratazione, parole del capitano, aggiustamenti tattici. Non improvvisate.",
+      "domanda": "La tua squadra ha un piano preciso per i 30 secondi di cambio campo al tie-break?"
+    },
+    {
+      "id": 48,
+      "sezione": "Regole",
+      "tema": "I time-out",
+      "emoji": "",
+      "consiglio": "Ogni squadra ha diritto a 2 time-out per set. Nel quinto set valgono le stesse regole. I time-out tecnici (a 8 e 16 punti nei primi 4 set) si aggiungono a quelli di squadra e durano 60 secondi.",
+      "in_palestra": "Allena l'uso del time-out: quando chiederlo, cosa dire in quei 60 secondi, come rientrare in campo. Un time-out mal gestito è peggio che non chiederlo. Preparate tre o quattro messaggi chiave.",
+      "domanda": "Il vostro allenatore chiede il time-out con un piano preciso o in modo reattivo all'emozione del momento?"
+    },
+    {
+      "id": 49,
+      "sezione": "Regole",
+      "tema": "Il muro e il conteggio dei tocchi",
+      "emoji": "",
+      "consiglio": "Il tocco di muro non conta come uno dei tre tocchi della squadra. Dopo un muro (anche se la palla rimane nel proprio campo) la squadra può ancora toccare la palla tre volte prima di mandarla in campo avversario.",
+      "in_palestra": "Simulate situazioni di rimbalzo dal muro: la squadra deve reagire e costruire comunque tre tocchi puliti. Il panico dopo il rimbalzo dal muro è uno degli errori più costosi e più evitabili.",
+      "domanda": "La tua squadra sa reagire correttamente quando la palla rimbalza dal proprio muro? O si perdono in confusione?"
+    },
+    {
+      "id": 50,
+      "sezione": "Regole",
+      "tema": "La palla sul nastro",
+      "emoji": "",
+      "consiglio": "Una palla che tocca il nastro superiore della rete e cade nel campo avversario è regolare e il gioco continua. Una palla che tocca le antenne o passa fuori da esse è fallo. Le antenne delimitano lo spazio di gioco.",
+      "in_palestra": "Allena i tuoi giocatori a non fermarsi mai quando la palla tocca la rete. Il nastro è amico — spesso la palla passa lo stesso. Chi si ferma per sorpresa regala punti inutili.",
+      "domanda": "Quante volte la tua squadra si è fermata pensando che la palla sul nastro fosse fallo, perdendo un punto regalato?"
+    }
+  ],
+  "firma":"Perché il volley non è solo uno sport, è un modo di crescere insieme."
+}

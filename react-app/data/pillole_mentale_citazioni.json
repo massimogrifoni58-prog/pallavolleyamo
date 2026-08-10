@@ -1,0 +1,185 @@
+{
+  "pillole": [
+    {
+      "id": 11,
+      "sezione": "Mentalità",
+      "tema": "Gestione dell'errore",
+      "emoji": "🧠",
+      "consiglio": "Dopo un errore hai tre secondi per rattristarti. Poi devi essere già pronto per il punto successivo. Non portare il peso del passato in campo: ogni pallone è una nuova storia.",
+      "in_palestra": "Durante l'allenamento, ogni volta che sbagli batti le mani una volta e dì ad alta voce 'Avanti'. Trasforma il gesto in un rituale automatico che resetta la mente.",
+      "domanda": "Come reagisci dopo un errore grave in partita? Riesci a resettare prima del pallone successivo?"
+    },
+    {
+      "id": 12,
+      "sezione": "Mentalità",
+      "tema": "Leadership",
+      "emoji": "🧠",
+      "consiglio": "Il leader in campo non è chi urla di più — è chi rimane calmo quando tutti perdono la testa. La tua squadra ti guarda nei momenti difficili. Cosa vede?",
+      "in_palestra": "Nel prossimo allenamento, ogni volta che una compagna sbaglia incoraggiala con una parola concreta: non 'dai' generico, ma 'ottimo spostamento' o 'bella lettura'. Sii specifica.",
+      "domanda": "Chi è il leader silenzioso nella tua squadra? Hai mai pensato di esserlo tu?"
+    },
+    {
+      "id": 13,
+      "sezione": "Mentalità",
+      "tema": "Fiducia",
+      "emoji": "🧠",
+      "consiglio": "La fiducia in sé stessi non arriva prima dell'allenamento — arriva dopo. Non aspettare di sentirti pronta per provare il colpo difficile. Prova il colpo difficile e poi ti sentirai pronta.",
+      "in_palestra": "Scegli oggi un elemento tecnico che eviti perché ti fa paura sbagliare. Dedicagli 10 minuti specifici. L'unico modo per costruire fiducia è esporsi all'errore.",
+      "domanda": "C'è un colpo o una situazione di gioco che eviti inconsciamente perché hai paura di sbagliare?"
+    },
+    {
+      "id": 14,
+      "sezione": "Mentalità",
+      "tema": "Concentrazione",
+      "emoji": "🧠",
+      "consiglio": "Il punto più importante non è il primo, né l'ultimo — è quello che stai giocando adesso. La concentrazione non è uno stato mentale: è una scelta che fai pallone dopo pallone.",
+      "in_palestra": "Allena la concentrazione con questo esercizio: 10 minuti di ricezione in silenzio totale. Nessuna comunicazione verbale. Solo occhi sulla palla e piedi che si muovono.",
+      "domanda": "Quanti punti perdi a causa della distrazione? Hai un rituale per ritrovare la concentrazione?"
+    },
+    {
+      "id": 15,
+      "sezione": "Mentalità",
+      "tema": "Resilienza",
+      "emoji": "🧠",
+      "consiglio": "Perdere un set non significa perdere la partita. Perdere una partita non significa perdere la stagione. Le squadre resilienti non evitano le difficoltà — le usano come carburante.",
+      "in_palestra": "Gioca un set partendo da 0-10 sotto. L'obiettivo non è vincerlo — è rimanere competitivi fino alla fine. Impara cosa significa non mollare mai.",
+      "domanda": "Nella tua squadra cosa succede quando perdete il primo set? Come cambia l'energia in campo?"
+    },
+    {
+      "id": 16,
+      "sezione": "Mentalità",
+      "tema": "Spirito di squadra",
+      "emoji": "🧠",
+      "consiglio": "Una squadra di campioni perde contro una squadra campione. Cinque punti tuoi e cinque sconfitte di squadra valgono meno di zero punti tuoi e cinque vittorie insieme.",
+      "in_palestra": "Dopo ogni punto vinto, tutta la squadra deve toccarsi — una mano, un pugno, qualcosa. Il contatto fisico crea coesione. Fallo sistematicamente per un mese e osserva il cambiamento.",
+      "domanda": "La tua squadra celebra i punti insieme o ognuno resta nel proprio spazio emotivo?"
+    },
+    {
+      "id": 17,
+      "sezione": "Mentalità",
+      "tema": "Motivazione",
+      "emoji": "🧠",
+      "consiglio": "La motivazione ti porta al primo allenamento. La disciplina ti porta al centesimo. Non aspettare di avere voglia — allenati anche quando non ne hai. Specialmente quando non ne hai.",
+      "in_palestra": "Tieni un diario di allenamento per un mese. Scrivi una riga dopo ogni sessione: cosa hai migliorato, cosa devi rivedere. La consapevolezza alimenta la motivazione.",
+      "domanda": "Cosa ti spinge ad andare ad allenarsi nei giorni in cui non avresti voglia?"
+    },
+    {
+      "id": 18,
+      "sezione": "Mentalità",
+      "tema": "Gestione della pressione",
+      "emoji": "🧠",
+      "consiglio": "La pressione è un privilegio. Significa che sei in una situazione che conta. Le grandi giocatrici non eliminano la pressione — imparano a usarla come energia invece che come freno.",
+      "in_palestra": "Gioca gli ultimi 5 punti di ogni set allenamento come se fossero il 23-23 del quinto. Stessa intensità, stessa concentrazione. Abituati a performare quando conta.",
+      "domanda": "Come cambia il tuo gioco nei momenti decisivi? Migliori o peggiori sotto pressione?"
+    },
+    {
+      "id": 19,
+      "sezione": "Mentalità",
+      "tema": "Obiettivi",
+      "emoji": "🧠",
+      "consiglio": "Un obiettivo senza un piano è solo un desiderio. Definisci cosa vuoi migliorare, come lo allenerai, come misurerai i progressi. La chiarezza trasforma le aspirazioni in risultati.",
+      "in_palestra": "Scrivi oggi stesso un obiettivo tecnico per le prossime 4 settimane. Deve essere specifico, misurabile, raggiungibile. Esempio: 'Portare la ricezione perfetta dal 40% al 55%'.",
+      "domanda": "Hai un obiettivo tecnico specifico per questa stagione o ti alleni senza una direzione precisa?"
+    },
+    {
+      "id": 20,
+      "sezione": "Mentalità",
+      "tema": "Mentalità vincente",
+      "emoji": "🧠",
+      "consiglio": "La mentalità vincente non significa vincere sempre. Significa allenarsi come se ogni ripetizione contasse, giocare come se ogni punto fosse decisivo, migliorare come se non ci fosse un limite.",
+      "in_palestra": "Nel prossimo allenamento libero, quando sei stanco e vorresti fermarti, fai ancora 5 ripetizioni. Sempre. Quella soglia che spingi ogni giorno è dove cresci davvero.",
+      "domanda": "Cosa significa per te avere una mentalità vincente? La senti come una qualità che possiedi o che stai costruendo?"
+    },
+    {
+      "id": 21,
+      "sezione": "Citazioni",
+      "tema": "Julio Velasco",
+      "emoji": "💬",
+      "consiglio": "\"Non esistono giocatori forti o deboli. Esistono giocatori che lavorano e giocatori che credono di lavorare.\" — Julio Velasco, CT Nazionale Italiana Femminile, oro olimpico Parigi 2024.",
+      "in_palestra": "Rifletti onestamente: nel tuo ultimo allenamento hai davvero lavorato o hai solo eseguito i movimenti? C'è differenza. Allenati con intenzione, non con abitudine.",
+      "domanda": "Riesci a distinguere quando stai davvero lavorando da quando stai solo passando il tempo in palestra?"
+    },
+    {
+      "id": 22,
+      "sezione": "Citazioni",
+      "tema": "Bernardinho",
+      "emoji": "💬",
+      "consiglio": "\"Il campione non è quello che non cade mai. È quello che si rialza ogni volta.\" — Bernardo Rezende, detto Bernardinho, l'allenatore più titolato della storia del volley mondiale.",
+      "in_palestra": "Pensa all'ultima sconfitta importante. Cosa hai imparato? Se non riesci a rispondere, non hai ancora sfruttato quella sconfitta. Le cadute valgono solo se insegni qualcosa.",
+      "domanda": "Qual è stata la sconfitta più preziosa della tua carriera sportiva? Cosa ti ha insegnato?"
+    },
+    {
+      "id": 23,
+      "sezione": "Citazioni",
+      "tema": "Giovanni Guidetti",
+      "emoji": "💬",
+      "consiglio": "\"Le squadre che vincono non sono quelle con i migliori giocatori. Sono quelle in cui ogni giocatore vuole vincere per il compagno, non per sé.\" — Giovanni Guidetti, allenatore Vakifbank Istanbul.",
+      "in_palestra": "Nel prossimo match di allenamento, prima di ogni tuo attacco pensa: 'Lo faccio per chi è in ricezione, per chi ha alzato, per chi mi sta coprendo'. Cambia la prospettiva.",
+      "domanda": "Giochi per la tua squadra o giochi con la tua squadra? C'è una differenza enorme."
+    },
+    {
+      "id": 24,
+      "sezione": "Citazioni",
+      "tema": "Karch Kiraly",
+      "emoji": "💬",
+      "consiglio": "\"Ogni giorno mi sveglio chiedendomi cosa posso fare meglio di ieri. Non cosa posso fare meglio degli altri.\" — Karch Kiraly, CT Nazionale USA Femminile, l'unico ad aver vinto oro olimpico sia indoor che beach.",
+      "in_palestra": "Prima dell'allenamento di oggi scrivi una cosa sola che vuoi migliorare rispetto all'ultima sessione. Una sola. Poi misura se ci sei riuscita a fine allenamento.",
+      "domanda": "Ti confronti con i tuoi compagni o con la versione di te stesso del giorno prima?"
+    },
+    {
+      "id": 25,
+      "sezione": "Citazioni",
+      "tema": "Mauro Berruto",
+      "emoji": "💬",
+      "consiglio": "\"Una squadra che sa perdere impara a vincere. Una squadra che non sa perdere impara solo ad aver paura.\" — Mauro Berruto, ex CT Nazionale Italiana Maschile, oggi parlamentare.",
+      "in_palestra": "Dopo la prossima sconfitta in allenamento o partita, riunisci la squadra e fate questa domanda: 'Cosa abbiamo imparato stasera?' Non 'cosa è andato storto', ma 'cosa abbiamo imparato'.",
+      "domanda": "La tua squadra analizza le sconfitte in modo costruttivo o le dimentica il prima possibile?"
+    },
+    {
+      "id": 26,
+      "sezione": "Citazioni",
+      "tema": "Davide Mazzanti",
+      "emoji": "💬",
+      "consiglio": "\"Il talento senza disciplina è come un'orchestra senza direttore: fa rumore, non musica.\" — Davide Mazzanti, ex CT Nazionale Italiana Femminile, argento olimpico Tokyo 2020.",
+      "in_palestra": "Scegli tre regole personali da rispettare in ogni allenamento: puntualità, intensità nei momenti liberi, comunicazione continua. Rispettale per 30 giorni di fila e osserva il cambiamento.",
+      "domanda": "Hai una routine pre-allenamento? O arrivi in palestra e improvvisi?"
+    },
+    {
+      "id": 27,
+      "sezione": "Citazioni",
+      "tema": "Lang Ping",
+      "emoji": "💬",
+      "consiglio": "\"Non chiedo alle mie giocatrici di essere perfette. Chiedo loro di essere coraggiose.\" — Lang Ping, soprannominata 'Il Martello di Ferro', oro olimpico come giocatrice e come allenatrice con Cina e USA.",
+      "in_palestra": "Identifica la situazione di gioco che ti mette più ansia. Affrontala deliberatamente nel prossimo allenamento. Il coraggio non è l'assenza di paura — è agire nonostante la paura.",
+      "domanda": "Quando in partita senti la paura di sbagliare, cosa fa il tuo corpo? Come la gestisci?"
+    },
+    {
+      "id": 28,
+      "sezione": "Citazioni",
+      "tema": "Daniele Santarelli",
+      "emoji": "💬",
+      "consiglio": "\"In allenamento devi essere più esigente con te stesso di quanto lo sia il tuo avversario in partita. Solo così la partita diventa più facile dell'allenamento.\" — Daniele Santarelli, allenatore Conegliano.",
+      "in_palestra": "Alza il livello di esigenza in un aspetto specifico oggi: se di solito accetti una ricezione che 'quasi' va bene, oggi accetta solo quella perfetta. Sii il tuo allenatore più severo.",
+      "domanda": "Sei più esigente con te stesso in allenamento o in partita? Dovrebbe essere il contrario."
+    },
+    {
+      "id": 29,
+      "sezione": "Citazioni",
+      "tema": "Fefé De Giorgi",
+      "emoji": "💬",
+      "consiglio": "\"Il talento ti porta in palestra. La squadra ti porta in finale.\" — Ferdinando De Giorgi, CT Nazionale Italiana Maschile, campione del mondo 2022.",
+      "in_palestra": "Nel prossimo allenamento, scegli deliberatamente di servire il compagno invece di cercare il tuo momento di gloria. Passa la palla quando un altro è meglio posizionato. Sempre.",
+      "domanda": "Riesci a gioire sinceramente quando un compagno fa qualcosa di eccezionale, anche se tu hai sbagliato?"
+    },
+    {
+      "id": 30,
+      "sezione": "Citazioni",
+      "tema": "Marco Bonitta",
+      "emoji": "💬",
+      "consiglio": "\"Il volley è lo sport più democratico che esista: ogni punto riparte da zero. Non importa chi sei — importa cosa fai adesso.\" — Marco Bonitta, ex CT Nazionale Italiana Femminile, argento olimpico Atene 2004.",
+      "in_palestra": "Prima del prossimo set di allenamento, dimentica il punteggio precedente. Gioca come se fosse 0-0. Ogni set è una nuova partita — la storia non conta, conta solo il presente.",
+      "domanda": "Riesci a resettare completamente tra un set e l'altro, o porti ancora il peso di quello precedente?"
+    }
+  ],
+  "firma": "Perché il volley non è solo uno sport, è un modo di crescere insieme."
+}
