@@ -1,0 +1,169 @@
+{
+  "generatedAt": "2026-08-07T11:26:27.497807+00:00",
+  "soggetti": [
+    {
+      "id": "sir-perugia",
+      "nome": "Sir Susa Vim Perugia",
+      "tipo": "squadra",
+      "categoria": "Superlega",
+      "query": "Sir Susa Vim Perugia pallavolo 2026"
+    },
+    {
+      "id": "bartoccini",
+      "nome": "Bartoccini Fortinfissi Perugia",
+      "tipo": "squadra",
+      "categoria": "Serie A1 F",
+      "query": "Bartoccini Perugia pallavolo 2026"
+    },
+    {
+      "id": "tva",
+      "nome": "Terni Volley Academy",
+      "tipo": "squadra",
+      "categoria": "Serie A3",
+      "query": "Terni Volley Academy Dragons pallavolo 2026"
+    },
+    {
+      "id": "altotevere",
+      "nome": "Ermgroup Altotevere San Giustino",
+      "tipo": "squadra",
+      "categoria": "Serie A3",
+      "query": "Altotevere San Giustino pallavolo A3 2026"
+    },
+    {
+      "id": "citta-castello",
+      "nome": "Pallavolo Città di Castello",
+      "tipo": "squadra",
+      "categoria": "Serie B M",
+      "query": "Pallavolo Città di Castello volley 2026"
+    },
+    {
+      "id": "marsciano",
+      "nome": "Pallavolo Media Umbria Marsciano",
+      "tipo": "squadra",
+      "categoria": "Serie B F",
+      "query": "Pallavolo Media Umbria Marsciano volley 2026"
+    }
+  ],
+  "news": {
+    "sir-perugia": [
+      {
+        "title": "Volley mercato 2026/27: il tabellone dei movimenti in Superlega - eurosport.it",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZ3M4THIwdUU5U1c2QTlFTjQwcGk4cy1MNzAybXpXMUtIWXBKa0VZTGpzMTdpMkRXUC1YWEJFcHo5SWtDTkY3bEVrV3l1NXpHWHdWZUVPMnNrNVFPU3hPNkVaa1J2Q0dLOXczV1J3RlBtRWRyTi0ycmkzVG1wbXlabWhiV3pWdmd5N21aSndHYlZxSkJFOVRIM1N3VTRJN3dXaVJVc0ZtbEZmbHcydm1PV3RoVWlJNGlrRm43NEt4d1ZZT2hUMnY5WWY5bEgtWXV4YTF2Z1FITFY2anlWZkFsNUNydUE1dEFWU0lPR3p6YThIcl9GdU5XdEl6SFg1Tmg5VEQ0OHhLSmkzenhWNk9XbA?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 07:00:00 GMT",
+        "source": "eurosport.it"
+      },
+      {
+        "title": "Su che canale Perugia-Zawiercie oggi in tv, Finale Champions League volley 2026: orario, programma, streaming - OA Sport",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSm5NN3VVLXh2cTI3Z3NVUDZNZVFSamJWZjlnTngxY1lwWkR0MS1uRHVHR3ZjRjEyLVQyVzFSbzhOazBQd0MzTGd3c1Q0eU9tU0ZuT2tZaXFnaW9hQVNhQzhRMm1CR21VdzN5eVIwUHJEQmtHb21jeHRrbEZMNVE0QkE5Z2NfMWlwYU90SURaTVgwZE80bkpDaFlFd1dxUDNQT0RSQV8yZTVuMzIyQWtBclZQX18zU0NOeU1wTdIBwgFBVV95cUxNRmNmV213RjBURjJ6WmxPRVdfVmN5Z2lkYi1GbW9OMGpjRVlfc2pDUkR0aEtzRllyNHRub1BUdTZ1S2YxQjAxV0wyZjVjcXFHdGtuMHNKb1ZtTkVOLUNTWXJGbkVreDNKMFNpTDJfeGNfVk0tNmZQcXE4RlJFQ2ZWN1ZfbmFDT1FweHZKclpXZGNNRG9SdWZtLWtjWmFIbnNma3p0NDNVTTF5cFpnZTJ2NzQ5QXFOSGdwVTZXOXFlSUNMdw?oc=5",
+        "pubDate": "Sun, 17 May 2026 07:00:00 GMT",
+        "source": "OA Sport"
+      },
+      {
+        "title": "Pallavolo maschile: Perugia Campione d'Italia 2026, vince lo Scudetto della Superlega contro Civitanova · Volley - olympics.com",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ2JZaW5Qb0FNaWxXN3hMRjVNSmRVbjNjY0dGUnZkMXFFbW8tTU84Zkw3R3d1a2tyV3c4cTNCMW41ZC1CaURpbTdMWEQyMExUN0F4Q2ZFTjZWU3kxdnV6UV93MHhqdVg0d3JQQmR2ZWhPdHFLYW9VVjM4NmhRc2RTaDhfX25mdTdaVVc5b1hCV3lqUnVySWxwb3VURGV6ZldtOVRFSg?oc=5",
+        "pubDate": "Thu, 07 May 2026 07:00:00 GMT",
+        "source": "olympics.com"
+      }
+    ],
+    "bartoccini": [
+      {
+        "title": "Volley A2 femminile, la Bartoccini MC Restauri Perugia ammessa al campionato - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2kyMmRjNGotQVVRUEZOd2tvdkZyU3Z6YnRiUGIyREROYVpoOUZqTFgtczhPSlZveFZBTVU3TGx1OGctcE1CSUhrbzVuSERtdDZfWmh4NzhjQkZXdFNQU0lrcnNLMGtweUpfcHpkOERXLUlZRGJJZ29LT0ROeml2ZE5pb0RvLXFDcHNENw?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 10:03:01 GMT",
+        "source": "PerugiaToday"
+      },
+      {
+        "title": "Bartoccini +energia Perugia - Lega Volley Femminile",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0ZISGdFV3FILTl3T0M3Um5LSnVVTUJmdnl3bnR4eWdwSFJIX1U2VWdJY3BiZDJXRy1vT3VXRW92ay1LTXZOVV9sV1ZDQURCYWMzbUJKZk0wNmZiS3hLbl9YQ0ZaQ04tTFZDLXhYVk10d1V4aGJndURmT2M3TVRfQQ?oc=5",
+        "pubDate": "Mon, 13 Jul 2026 19:40:01 GMT",
+        "source": "Lega Volley Femminile"
+      },
+      {
+        "title": "Bartoccini: “Spero che il pubblico ci segua ancora più numeroso” - Lega Volley Femminile",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWFhGZHc4aHBHUUFraE9GWmxuUGh5WUhmcE5oN1FiTmpoYzRLYzRlalNHTWFhX0QyaE9zUE0wU3Y4MTNjNHpDN2tha3BQbDI0eHFhVjhpdTNQZUV3MEdUVkh4UWRqUzZmb1p0MnV6MURKM0hTektLTXFQMTRqbjRQZEdMUUlIMFBxRUpsVUtTdzNFdE11aV9kYjJjVk5mdw?oc=5",
+        "pubDate": "Fri, 19 Jun 2026 13:59:44 GMT",
+        "source": "Lega Volley Femminile"
+      }
+    ],
+    "tva": [
+      {
+        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      },
+      {
+        "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZWNPeFJ6c2FMNlFPN1RGZngyOGVJZUFiTHlRM3IzQ1NBTFgyWHZ6VXVNaFQ5LXpEaFU4YWpRamVGenliLXZIbFRkVGFJM09fU0hKNjR2S0UxdmtrTXFneHlnblN4c3g0N3pzNWY5NEs2RDRuWmwzcHhtenl6dk9IZkFVY1h2RzRScDZRTjIwdm1DbkJTdGh6aWpjemw2bkJIQ2R3SmNtX1dGMTNPX0Y3cWpYbXlkb1owdlJlNmRrUG9Zc1hJSkRlNTQ0T0hfQXozNmpiS2J2dXhjNDRxajhRaGFTalVoZEp1ZlV0RGNVRQ?oc=5",
+        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      },
+      {
+        "title": "Terni Volley Academy, Javier Martinez: “Lascio un pezzo di cuore”. I Dragons sperano ancora nella Serie A - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTzU1UEJ3TWE0dXNtMFdWSnpWNmtQdHZtM2dwNXFNZi1IbmJfR2lYVzAxRVFmNHFhOHhYOGZ4RjJsaU5yQ2I1WTllRDRieEpOMjViLTlZc09oREZqZHpKT2h2WlNBc0NJMDhsb0RvVlU5RHBPbnBUS0JUQ3hQRnVKdlRVQWh0UEJ1cDdSeXBZOGJJYmFM?oc=5",
+        "pubDate": "Mon, 20 Apr 2026 07:00:00 GMT",
+        "source": "TerniToday"
+      }
+    ],
+    "altotevere": [
+      {
+        "title": "Playoff A3, impresa Belluno: supera Altotevere al golden set. In finale incontrerà la Domotek - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR19fbVI0MGlDdERuTUp1aGNwZEJhRjhXdDNUUGVkSVJxaklkVFl2RnlmbUZ5OWtkR1ZWc3BFTU9LeFB6S1BqM0Z4TGFVM3BSRFBlVk9aNDh0bXJERHR2Z2pma2xZTXliR21tb0I3bDdwR3lhV1FQczRENmQ1S2Y2XzNIMHhsejVBZUpDd2FnclVfVkt1aUxuTTBLSVUzbkx0bVYwSHZEVVZXN1ZNRWZteVBRcXE0Z29E?oc=5",
+        "pubDate": "Fri, 01 May 2026 07:00:00 GMT",
+        "source": "Volley News"
+      },
+      {
+        "title": "Play Off Serie A3: Reggio Calabria e Belluno approdano in Finale - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOFFRcThPaVl1VElpOEdZZHA2NFBCdVhhVTlTWDZBS3FoZlNLRGZuQ2pPR252cmJrSDVJT2liRWtmb2VmNGh4XzFRYkFKdzJMc1I0UlczUVNaU203SDc4eE9kenUyb293QVBpODMxVGI0VlkzNVp2TnRyRTNJRHdmZF9rQVBPUExsQV9RNFIyYVlJNzRxZE9sRUdZTQ?oc=5",
+        "pubDate": "Fri, 01 May 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      },
+      {
+        "title": "Play Off A3, vittorie per San Giustino e Reggio Calabria - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTFdQZTFGYk1BbHp6Tmw5TG5JSnUtcktHY09LV09reTdScjNGcnJ3azVERF9hcEFMc2RrS3ppSzRnaUpkLVZYYkxuMlFfUDFMMHRhN3VmZl9OSmFTS2NsZnRXVmdPU0NVVnJiQmtxRjdjbC1Gd25Lel9tZk00TkUzd0tyWndXajdmSGtpN2dLX2g?oc=5",
+        "pubDate": "Sat, 25 Apr 2026 07:00:00 GMT",
+        "source": "Lega Pallavolo Serie A"
+      }
+    ],
+    "citta-castello": [
+      {
+        "title": "Serie B maschile, Città di Castello Pallavolo inserita nel girone E - TTV.it",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek8tWUUyZFNTbE1MbjZVRVBTZ25HX2RzVkJYRnJ6Mi1aLXZBN0RsMlZXczlZWHc4eVNWeThRZGQ5NVE4SDVHSWV1UkJBVmd4eEJFUXRpVDgtdmVuMXVIdFdSTEN2MVJ6aXJzbHM2MXFHUFp4MWVXcTQyYndDUjRqQnY5b1VZNlBQOWhQREN1cHZGUEEycS0w?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
+        "source": "TTV.it"
+      },
+      {
+        "title": "Città di Castello Pallavolo ha conquistato una duplice storica promozione nei campionati nazionali nel settore maschile serie B in quello femminile B2 durante la stessa stagione 2026 (foto) - Umbria Social",
+        "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbVZwSDJRd1E3UDg1TktEUFd0QWZWaDFFM21BV3Z2VXAxcWtrWHlTUWpqVnp6cFNISFF2OW5BenRuR21qYmQ3WXB3MWtJeWxSY2EzMWQ1bGRib3VzSUxVSUVwbkZwMnA3SzJwYTE2ZGdTdnl4aXRiR1d0TXN2YzJlZ09MdkdvQ3Q2dUdQM0xHOFVIYmJ5SExuN3c5NFdxcWpEbV8zOXg2M19yQkw1cXZHMFVwMDBvYnFPUWJNUTFPTmVpMm5mZnk5RFo2VS1tR3F5Yk5UTHRKQkpHU0pfTXc2cTdsVUNBZmR0WW5wRmJkZjhudHNwWFdCemtaYWNIRUtLb0FrbFJIRm9zNk9tSFU1ZUpoeGxVc3FHN0JhUGlqOVN4YVM1bUVhMDUzbVRTREZsQ3RSRlM2c0xRNnNlSXBIMg?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "Umbria Social"
+      },
+      {
+        "title": "Doppia promozione. Il volley è in festa - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWNFMWFYQ1VlcXhTQi1KWFZkRUFtMjh6S2dZTFpEQUVxVXlLVWd0dnBmY20xc0FkVlZadGF4UWdKNHQ1cXNhNVJzMVZXSGZaLTRIVk9YOHRyd056X2E4YmY0cUl0ZTRua3ZSc0hPTk1rWjQwX3d4bkREWnFqTVZLT0YzblY?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+        "source": "La Nazione"
+      }
+    ],
+    "marsciano": [
+      {
+        "title": "Agnese Carboni punto fermo a Marsciano - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTl5WGRFVXNNTHdpVTM3OS1qSWdrc2ctTWFXYXB0NldxTnc0V1lFTVZwNVRmdVVDWWxLRncxYjhpVk92bWo5cUxIMzVlMU1JUjIyZGVGTDl5NVAzZVllbXhPak9GZmJYZWY1eVdQZXlvbGU0NjVZOUxkdU56WVZFS1pjMA?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 07:00:52 GMT",
+        "source": "Pianeta Volley"
+      },
+      {
+        "title": "Festa della pallavolo umbra all’insegna di numeri record e segnali di crescita - - Umbria 24",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSUZSSmxnSF91M0VIUXFtdVZ6WTZOLTlTYUZtOGJ2QVNQOTZTY0YydWY5X2xqZlh0MHVtSW4xMWc3MzVGcy16VGFmTTJvT1lWSndIM3ZNZlBrbllWNmkwOXBTT1c2RWt2WHhyQjctLTRnMGZfb0d6SC1yR2w5dG01emRhdzJ0bkJ4SGhFMzZjY29uM1JwQldsdEpxVlBPcVJYZUxCclI3UEdxRjFEdzg0?oc=5",
+        "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
+        "source": "- Umbria 24"
+      },
+      {
+        "title": "Il Club Italia del Centro fa tappa a Selci - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNHZRVlFCcktKQmVoM1RDOFplRjI2aGFRV1pLVEo0UnR3aDZveXY5TWREenB6MVhSY2VwNnNycFBDTmJtRHQ3NXNyZEE0NE1NVlI2anByVUpsQVJnbWtnYXZJdVpXVjA2VWNPNVFDWkQyLWFFZDlraWIzbjZBcndSRF90dHpKT3Bl?oc=5",
+        "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
+        "source": "Pianeta Volley"
+      }
+    ]
+  }
+}
