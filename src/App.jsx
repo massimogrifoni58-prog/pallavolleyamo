@@ -4986,7 +4986,7 @@ function SquadreTopPage() {
 
         {squadraSelezionata && (
           <div style={{ marginBottom: "1rem", fontSize: "0.75rem", color: "var(--text-dim)" }}>
-            Ultime 3 notizie su <strong style={{ color: "var(--gold)" }}>{squadraSelezionata.nome}</strong>
+            Ultime 5 notizie su <strong style={{ color: "var(--gold)" }}>{squadraSelezionata.nome}</strong>
           </div>
         )}
 
