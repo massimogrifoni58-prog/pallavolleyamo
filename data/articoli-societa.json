@@ -233,6 +233,48 @@
       "provincia": "terni",
       "foto": "/articoli/binnella.jpg",
       "logo": null
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": "19",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "E vai con le conferme!!! Giorgia Zelli  ",
+      "testo": "Manca sempre meno all’inizio di una nuova stagione, ed io sono sempre più entusiasta all’idea di condividere ancora tante emozioni con le compagne dello scorso anno, le nuove che accoglieremo quest’anno e i nostri allenatori.Dopo il grande traguardo raggiunto nell’ultimo campionato, sono pronta a dare tutto anche durante questa nuova esperienza.",
+      "data": "11 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/zelligiorgia.jpg",
+      "logo": null
+    },
+    {
+      "id": "20",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "𝗩irginia Mazzasette schiacciaancora con noi",
+      "testo": "𝗖𝗹𝗮𝘀𝘀𝗲 𝟮𝟬𝟬𝟮, 𝗼𝗽𝗽𝗼𝘀𝘁𝗮, Virginia è una conferma di valore per la Volley Academy Bastia e per una squadra che vuole affrontare la nuova stagione con ancora più ambizione.Potenza, determinazione e voglia di incidere: Virginia è pronta a mettere il suo braccio al servizio della squadra, continuando a essere un punto di riferimento importante per il nostro attacco.",
+      "data": "10 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/mazzasette.jpg",
+      "logo": null
+    },
+    {
+      "id": "21",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "𝗖𝗹𝗮𝘀𝘀𝗲 𝟮𝟬𝟭𝟭, Veronica sarà la più giovane della nostra Serie C Femminile",
+      "testo": "Cresciuta nel settore giovanile della Volley Academy Bastia, rappresenta perfettamente la nostra idea: territorialità, valorizzazione dei giovani e un percorso di crescita costruito in casa. Una scelta che guarda al futuro, senza rinunciare ad obiettivi ambiziosi. Veronica avrà l'opportunità di misurarsi con una categoria importante, continuando il suo percorso al fianco delle compagne più esperte e mettendo in campo entusiasmo, talento e voglia di imparare.",
+      "data": "10 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/natalini.jpg",
+      "logo": null
+>>>>>>> 3e350da
     }
   ]
 }
