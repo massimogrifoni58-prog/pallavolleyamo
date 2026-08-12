@@ -1,13 +1,45 @@
 {
-  "generatedAt": "2026-08-11T09:19:56.403715+00:00",
+  "generatedAt": "2026-08-12T08:07:34.669577+00:00",
   "posts": [
+    {
+      "title": "Sirio Perugia Volley: Aurora Zorzetto il primo colpo della nuova era",
+      "excerpt": "Primo colpo in entrata della Sirio Perugia Volley. La società impegnata nel girone C di Serie B1 ha messo sotto contratto la schiacciatrice veneta ex, tra le altre, di Sant’Elia Fiumerapido, Aurora Zo",
+      "createdTime": "Wed, 12 Aug 2026 08:02:31 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/08/Zorzetto-Aurora-Sirio-Perugia.jpg?fit=1024%2C683&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/sirio-perugia-volley-aurora-zorzetto-il-primo-colpo-della-nuova-era/",
+      "id": "1"
+    },
+    {
+      "title": "Volley, il programma delle amichevoli di Altotevere: si parte contro Città di Castello",
+      "excerpt": "Un precampionato fitto di impegni. È quello che attende la ErmGroup Altotevere prima del via del campionato in cui ambisce a ritagliarsi un ruolo da grande protagonista.&#160; Il programma Il primo te",
+      "createdTime": "Wed, 12 Aug 2026 05:18:12 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/08/palasport-san-giustino-ultima-partita.jpg?fit=1024%2C683&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/citta-di-castello/volley-il-programma-delle-amichevoli-di-altotevere-si-parte-contro-citta-di-castello/",
+      "id": "2"
+    },
+    {
+      "title": "Michieletto è ottimista: “Black Angels, dimostriamo chi siamo”",
+      "excerpt": "Ecco le prime sensazioni della schiacciatrice della Bartoccini +energia Perugia: “Non vedevo l’ora di tornare al lavoro. Campionato infinito, ma noi centreremo l’obiettivo” Francesca Michieletto è uno",
+      "createdTime": "Tue, 11 Aug 2026 14:04:04 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Michieletto-2.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35019",
+      "id": "3"
+    },
+    {
+      "title": "Altotevere, contro il Città di Castello dei tanti ex il primo allenamento congiunto",
+      "excerpt": "È stato fissato per il 15 settembre, poi ci sono il memorial “Andrea Mecucci” a Civita Castellana, due sfide contro il Terni e il ritorno a San Giustino dei Lupi di Santa Croce sull’Arno Pronto il cal",
+      "createdTime": "Tue, 11 Aug 2026 12:58:46 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/palasport-san-giustino-ultima-partita.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35015",
+      "id": "4"
+    },
     {
       "title": "Rachele Mancinelli è quinta a Cordenons",
       "excerpt": "È andata in archivio la settima tappa stagionale del campionato italiano assoluto di beach volley. Nella terza e conclusiva giornata le migliori otto coppie si sono date battaglia nel tabellone princi",
       "createdTime": "Tue, 11 Aug 2026 07:00:21 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Mancinelli-Rachele-piazzata.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/rachele-mancinelli-e-quinta-a-cordenons-2/",
-      "id": "1"
+      "id": "5"
     },
     {
       "title": "Michela Artini: «Perugia curiosa di scoprire il girone»",
@@ -15,7 +47,7 @@
       "createdTime": "Tue, 11 Aug 2026 05:00:44 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Artini-Michela-Sirio-Perugia.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/michela-artini-perugia-curiosa-di-scoprire-il-girone/",
-      "id": "2"
+      "id": "6"
     },
     {
       "title": "Michela Artini, la terza conferma è al centro per la Sirio Perugia",
@@ -23,7 +55,7 @@
       "createdTime": "Mon, 10 Aug 2026 15:19:18 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Artini-Mihela-Sirio-Perugia.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35012",
-      "id": "3"
+      "id": "7"
     },
     {
       "title": "Giannelli e Sanguinetti al ritiro azzurro per gli Europei",
@@ -31,7 +63,7 @@
       "createdTime": "Mon, 10 Aug 2026 05:00:42 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Giannelli-Sanguinetti-Italia.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/giannelli-e-sanguinetti-al-ritiro-azzurro-per-gli-europei/",
-      "id": "4"
+      "id": "8"
     },
     {
       "title": "La regia della Sirio Perugia è affidata a Giada Guarino",
@@ -39,7 +71,7 @@
       "createdTime": "Sun, 09 Aug 2026 14:49:33 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Guarino-Giada-Sirio-Perugia.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35008",
-      "id": "5"
+      "id": "9"
     },
     {
       "title": "Black Angels, l’entusiasmo di Recchia: “Siamo una squadra forte”",
@@ -47,38 +79,6 @@
       "createdTime": "Sun, 09 Aug 2026 14:35:35 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/recchia-3.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35006",
-      "id": "6"
-    },
-    {
-      "title": "Altotevere, il consiglio di Alpini: “La tranquillità sarà il requisito per ottenere i risultati”",
-      "excerpt": "Il 25enne schiacciatore di Prato, Mvp della squadra nella scorsa stagione, rivela: “Davanti all’interesse mostrato per me da una società con ambizioni, non ho potuto dire di no” Premiato in Comune a S",
-      "createdTime": "Sun, 09 Aug 2026 11:38:40 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/alpini-primo-piano.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35002",
-      "id": "7"
-    },
-    {
-      "title": "Rachele Mancinelli in piena corsa a Cordenons",
-      "excerpt": "Dopo le prime due giornate di gara sta per giungere a conclusione la settima tappa stagionale del campionato italiano assoluto di beach volley. Tra le atlete in gara nelle qualificazioni anche la deru",
-      "createdTime": "Sun, 09 Aug 2026 05:00:46 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Mancinelli-Rachele.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/rachele-mancinelli-in-piena-corsa-a-cordenons/",
-      "id": "8"
-    },
-    {
-      "title": "Giada Guarino: «Aspettative alte a Perugia»",
-      "excerpt": "La seconda notizia di mercato è ancora una conferma in casa della Sirio Perugia Volley che sta mettendo a punto nei dettagli l&#8217;organico per la futura stagione agonistica di serie B1 femminile. A",
-      "createdTime": "Sat, 08 Aug 2026 09:00:21 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Guarino-Giada-Sirio-Perugia.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/giada-guarino-aspettative-alte-a-perugia/",
-      "id": "9"
-    },
-    {
-      "title": "Block Devils pronti a ripartire",
-      "excerpt": "Sebastian Solè: «Un nuovo percorso, con giocatori che dovranno inserirsi e trovare il giusto ritmo» Palasport di Perugia pronto a riaprire le porte: mercoledì prossimo, 12 agosto, riprende infatti la ",
-      "createdTime": "Fri, 07 Aug 2026 16:35:45 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/SIR-BENDA-251230_203134_MB690112_uxga.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35000",
       "id": "10"
     },
     {
