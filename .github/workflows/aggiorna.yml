@@ -37,6 +37,7 @@ jobs:
           cd ..
           cp react-app/data/*.json data/
           cp data/*.json react-app/data/
+          git checkout -- data/articoli-societa.json react-app/data/articoli-societa.json
           mkdir -p react-app/src
           echo "export const BUILD_DATE = '$(date)';" > react-app/src/buildDate.js
 
