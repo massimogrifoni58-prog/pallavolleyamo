@@ -1188,18 +1188,19 @@ function isAllowedCategory(name) {
 }
 function VideoPage() {
   const videos = videoData.video || [];
-  const [filtro, setFiltro] = useState("Tutti");
+  const [filtro, setFiltro] = useState("Nazionale M");
   const [selected, setSelected] = useState(null);
 
-  const categorie = ["Tutti", "Nazionale M", "Nazionale F", "TVA", "Umbria", "Redazione"];
+  const categorie = ["Nazionale M", "Nazionale F", "TVA", "Umbria", "Redazione"];
 
-  const videoFiltrati = filtro === "Tutti" ? videos : videos.filter(v => {
-    const testo = (v.titolo + " " + v.canale).toLowerCase();
-    if (filtro === "Umbria") return testo.includes("umbria");
-    if (filtro === "TVA") return testo.includes("terni") || testo.includes("tva") || testo.includes("dragons");
-    if (filtro === "Nazionale") return !testo.includes("umbria") && !testo.includes("terni");
-    return true;
-  });
+  const videoFiltrati = videos.filter(v => {
+  if (filtro === "Nazionale M") return v.categoria === "Nazionale M";
+  if (filtro === "Nazionale F") return v.categoria === "Nazionale F";
+  if (filtro === "TVA") return v.categoria === "TVA";
+  if (filtro === "Umbria") return v.categoria === "Umbria";
+  if (filtro === "Redazione") return v.categoria === "Redazione";
+  return true;
+}).slice(0, 3);
 
   return (
     <main className="page-content">

@@ -71,15 +71,26 @@
       "url": "https://www.youtube.com/watch?v=q10g4dOFoao",
       "embed": "https://www.youtube.com/embed/q10g4dOFoao",
       "data": "2026-06-16T11:07:51Z"
-    },
+},
     {
       "id": "NvypYrQz388",
       "titolo": "Itas Trentino vs. Brescia | LVF Serie A2 TIgotà | 2025/26 - 2a Giornata - Andata | Full Match",
       "canale": "Volleyball World Italia",
       "thumbnail": "https://i.ytimg.com/vi/NvypYrQz388/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=NvypYrQz388",
-      "embed": "https://www.youtube.com/embed/NvypYrQz388",
+      "embed    ": "https://www.youtube.com/embed/NvypYrQz388",
       "data": "2026-02-09T06:28:08Z"
-    }
+    },
+    {
+  "id": "PtfiqHHX0Ho",
+  "titolo": "Selezioni aperte per la nuova edizione - chi sarà il prossimo vincitore?",
+  "canale": "Redazione PallaVolleyAmo",
+  "thumbnail": "https://i.ytimg.com/vi/PtfiqHHX0Ho/hqdefault.jpg",
+  "url": "https://www.youtube.com/watch?v=PtfiqHHX0Ho",
+  "embed": "https://www.youtube.com/embed/PtfiqHHX0Ho",
+  "data": "2026-08-12T00:00:00Z",
+  "categoria": "Redazione"
+}
+
   ]
 }
