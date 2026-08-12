@@ -15,22 +15,22 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "react-app", "data")
 API_KEY = "AIzaSyCwgBEqKTB_Xz0v-YLfvBU5OFs6byjSekI"
 
 # 2 video per canale = 6 video totali
-CANALI = [
+ CANALI = [
     {
         "id": "UCaTF1soVKjGtdhizgLJVydg",
         "nome": "Volleyball World Italia",
         "max": 1,
+        "categoria": "Nazionale M",
     },
 ]
-
 RICERCHE = [
-    {"query": "pallavolo italia highlights 2026", "max": 2},
-    {"query": "volley umbria 2026", "max": 2},
-    {"query": "FIPAV pallavolo 2026", "max": 1},
-    {"query": "pallavolo serie A1 femminile 2026", "max": 1},
-    {"query": "Terni Volley Academy 2026", "max": 2},
+    {"query": "superlega volley maschile highlights 2026", "max": 3, "categoria": "Nazionale M"},
+    {"query": "Sir Perugia pallavolo 2026", "max": 1, "categoria": "Nazionale M"},
+    {"query": "serie A1 femminile pallavolo highlights 2026", "max": 2, "categoria": "Nazionale F"},
+    {"query": "Conegliano Bartoccini volley femminile 2026", "max": 1, "categoria": "Nazionale F"},
+    {"query": "Terni Volley Academy Dragons 2026", "max": 3, "categoria": "TVA"},
+    {"query": "volley umbria pallavolo 2026", "max": 3, "categoria": "Umbria"},
 ]
-
 
 def fetch_videos(channel_id, max_results, api_key):
     """Scarica gli ultimi video di un canale YouTube."""
@@ -90,6 +90,7 @@ def main():
                     "titolo": snippet.get("title", ""),
                     "canale": canale["nome"],
                     "thumbnail": thumbnail,
+                    "categoria": canale.get("categoria", "Altro"),
                     "url": f"https://www.youtube.com/watch?v={video_id}",
                     "embed": f"https://www.youtube.com/embed/{video_id}",
                     "data": snippet.get("publishedAt", ""),
@@ -123,6 +124,7 @@ def main():
                     "url": f"https://www.youtube.com/watch?v={video_id}",
                     "embed": f"https://www.youtube.com/embed/{video_id}",
                     "data": snippet.get("publishedAt", ""),
+                    "categoria": ricerca.get("categoria", "Altro"),
                 })
                 aggiunti += 1
             print(f"OK (+{aggiunti} video)")
