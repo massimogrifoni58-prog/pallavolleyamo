@@ -15,7 +15,7 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "react-app", "data")
 API_KEY = "AIzaSyCwgBEqKTB_Xz0v-YLfvBU5OFs6byjSekI"
 
 # 2 video per canale = 6 video totali
- CANALI = [
+CANALI = [
     {
         "id": "UCaTF1soVKjGtdhizgLJVydg",
         "nome": "Volleyball World Italia",
@@ -133,12 +133,20 @@ def main():
 
     tutti_video.sort(key=lambda x: x.get("data", ""), reverse=True)
 
+    # Video manuali Redazione
+    tutti_video.append({
+        "id": "PtfiqHHX0Ho",
+        "titolo": "Selezioni aperte per la nuova edizione - chi sarà il prossimo vincitore?",
+        "canale": "Redazione PallaVolleyAmo",
+        "thumbnail": "https://i.ytimg.com/vi/PtfiqHHX0Ho/hqdefault.jpg",
+        "url": "https://www.youtube.com/watch?v=PtfiqHHX0Ho",
+        "embed": "https://www.youtube.com/embed/PtfiqHHX0Ho",
+        "data": "2026-08-12T00:00:00Z",
+        "categoria": "Redazione"
+    })
     out_path = os.path.join(DATA_DIR, "video.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"video": tutti_video}, f, ensure_ascii=False, indent=2)
-
-    print(f"\nTotale: {len(tutti_video)} video salvati in video.json")
-
 
 if __name__ == "__main__":
     main()
