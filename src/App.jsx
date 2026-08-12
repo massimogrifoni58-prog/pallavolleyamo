@@ -1191,7 +1191,7 @@ function VideoPage() {
   const [filtro, setFiltro] = useState("Tutti");
   const [selected, setSelected] = useState(null);
 
-  const categorie = ["Tutti", "Nazionale", "Umbria", "TVA"];
+  const categorie = ["Tutti", "Nazionale M", "Nazionale F", "TVA", "Umbria", "Redazione"];
 
   const videoFiltrati = filtro === "Tutti" ? videos : videos.filter(v => {
     const testo = (v.titolo + " " + v.canale).toLowerCase();
