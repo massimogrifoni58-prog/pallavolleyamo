@@ -26,8 +26,8 @@ CANALI = [
 RICERCHE = [
     {"query": "superlega volley maschile highlights 2026", "max": 3, "categoria": "Nazionale M"},
     {"query": "Sir Perugia pallavolo 2026", "max": 1, "categoria": "Nazionale M"},
-    {"query": "serie A1 femminile pallavolo highlights 2026", "max": 2, "categoria": "Nazionale F"},
-    {"query": "Conegliano Bartoccini volley femminile 2026", "max": 1, "categoria": "Nazionale F"},
+    {"query": "pallavolo femminile italiana highlights 2026", "max": 2, "categoria": "Nazionale F"},
+{"query": "nazionale italiana volley femminile 2026", "max": 2, "categoria": "Nazionale F"},
     {"query": "Terni Volley Academy Dragons 2026", "max": 3, "categoria": "TVA"},
     {"query": "volley umbria pallavolo 2026", "max": 3, "categoria": "Umbria"},
 ]
