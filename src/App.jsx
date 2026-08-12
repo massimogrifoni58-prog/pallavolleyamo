@@ -1189,6 +1189,7 @@ function isAllowedCategory(name) {
 function VideoPage() {
   const videos = videoData.video || [];
   const [filtro, setFiltro] = useState("Tutti");
+  const [selected, setSelected] = useState(null);
 
   const categorie = ["Tutti", "Nazionale", "Umbria", "TVA"];
 
@@ -1206,22 +1207,45 @@ function VideoPage() {
       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
         {categorie.map(c => (
           <button key={c}
-            onClick={() => setFiltro(c)}
+            onClick={() => { setFiltro(c); setSelected(null); }}
             className={`filter-btn ${filtro === c ? "filter-btn--active" : ""}`}>
             {c}
           </button>
         ))}
       </div>
+
+      {selected && (
+        <div style={{ marginBottom: "1.5rem", borderRadius: "12px", overflow: "hidden", background: "#000" }}>
+          <iframe
+            src={`https://www.youtube.com/embed/${selected}?autoplay=1`}
+            width="100%"
+            height="400"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Video player"
+          />
+        </div>
+      )}
+
       <div className="video-grid">
         {videoFiltrati.length === 0 && <p className="state">Nessun video per questa categoria.</p>}
         {videoFiltrati.map(v => (
-          <a key={v.id} href={v.url} target="_blank" rel="noreferrer" className="video-card">
-            <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" loading="lazy" />
+          <div key={v.id} className="video-card" onClick={() => setSelected(v.id)}
+            style={{ cursor: "pointer", outline: selected === v.id ? "2px solid var(--gold)" : "none" }}>
+            <div style={{ position: "relative" }}>
+              <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" loading="lazy" />
+              <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",
+                background: "rgba(0,0,0,0.7)", borderRadius: "50%", width: "40px", height: "40px",
+                display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontSize: "1.2rem" }}>
+                ▶
+              </div>
+            </div>
             <div className="video-card__body">
               <p className="video-card__title">{v.titolo}</p>
               <span className="video-card__canale">{v.canale}</span>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </main>
