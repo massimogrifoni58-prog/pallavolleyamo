@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T08:06:21.732535+00:00",
+  "generatedAt": "2026-08-12T07:37:26.107263+00:00",
   "posts": [
     {
       "id": "ciao2025annodorodellapallavolo",
@@ -106,7 +106,7 @@
       "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/08/05-150360102/la_nazionale_di_velasco_prepara_gli_europei"
     },
     {
-      "id": "8",
+      "id": "9",
       "title": "Riccione. Yuri Romanò si sposa con la morcianese Marta alla Mater Admirabilis. Presente mezza nazionale di pallavolo",
       "excerpt": "Fonte: lapiazzarimini.it",
       "createdTime": "Wed, 05 Aug 2026 02:09:00 GMT",
@@ -130,7 +130,7 @@
       "permalink": "https://www.volleyball.it/2026/03/04/notizie/argomenti/mondiali/articolo/mondiali-2027-cinque-citta-polacche-ospiteranno-il-torneo-maschile.html"
     },
     {
-      "id": "5",
+      "id": "7",
       "title": "Pallavolo, orgoglio Cbf Balducci: Laura Lelli in Nazionale under 16",
       "excerpt": "Fonte: centropagina.it",
       "createdTime": "Tue, 28 Jul 2026 23:16:00 GMT",
@@ -402,14 +402,6 @@
       "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/internazionale/articolo/agenda-le-gare-della-giornata-4.html"
     },
     {
-      "id": "9",
-      "title": "La Nazionale femminile di pallavolo ha vinto la medaglia di bronzo alla Nations League",
-      "excerpt": "Fonte: ilpost.it",
-      "createdTime": "Sun, 26 Jul 2026 03:54:00 GMT",
-      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/07/26/1785074024-nations-league-italia.jpg",
-      "permalink": "https://www.ilpost.it/2026/07/26/italia-pallavolo-nations-league-terza/"
-    },
-    {
       "id": "casokeitacorsacontroiltempotra",
       "title": "Caso Keita: Corsa contro il tempo tra cittadinanza e nuove regole FIVB",
       "excerpt": "La Fipav monitora la vicenda",
@@ -434,7 +426,7 @@
       "permalink": "https://www.volleyball.it/2026/08/09/notizie/argomenti/internazionale/articolo/verso-gli-europei-le-azzurre-volano-in-polonia-per-lultimo-test.html"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Pallavolo – Amaranto: “Con la nazionale ho iniziato a vivere il mi sogno da bambino, continuerò in SuperLega”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Sun, 09 Aug 2026 17:00:00 GMT",
@@ -442,11 +434,19 @@
       "permalink": "https://www.ivolleymagazine.it/2026/08/10/pallavolo-amaranto-con-la-nazionale-ho-iniziato-a-vivere-il-mi-sogno-da-bambino-continuero-in-superlega/"
     },
     {
-      "id": "3",
+      "id": "2",
+      "title": "Pallavolo, Azzurre in Polonia per l'ultimo test pre-Europei",
+      "excerpt": "Fonte: it.blastingnews.com",
+      "createdTime": "Sun, 09 Aug 2026 06:02:00 GMT",
+      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/8/9/660x290/b_1200x675x95/nazionale-italiana-di-pallavolo-femminile-e-trionfo-in-finale-c-creative-commons_3294393.jpg",
+      "permalink": "https://it.blastingnews.com/sport/2026/08/pallavolo-azzurre-in-polonia-per-lultimo-test-pre-europei-004092049.html"
+    },
+    {
+      "id": "4",
       "title": "La Nazionale Italiana di pallavolo femminile va in Polonia per preparare i Campionati Europei 2026.",
       "excerpt": "Fonte: varesepress.info",
       "createdTime": "Sun, 09 Aug 2026 02:42:00 GMT",
-      "image": "https://varesepress.info/wp-content/uploads/2026/08/260809-i-libri-di-Velasco.jpg",
+      "image": null,
       "permalink": "https://varesepress.info/europa-mondo/nazionale-italiana-di-pallavolo-femminile/"
     },
     {
@@ -602,7 +602,7 @@
       "permalink": "https://www.volleyball.it/2026/07/31/notizie/argomenti/internazionale/articolo/verso-leuropeo-la-nazionale-femminile-a-cavalese-dal-1-al-7-agosto-velasco-conferma-le-14-dell.html"
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "Volley, il messinese Valerio Vermiglio guida il progetto Unical: l'Università della Calabria sbarca in Serie B",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Fri, 31 Jul 2026 08:13:31 GMT",
