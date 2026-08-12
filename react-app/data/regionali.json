@@ -1,29 +1,37 @@
 {
-  "generatedAt": "2026-08-11T09:19:23.834031+00:00",
+  "generatedAt": "2026-08-12T07:38:31.771692+00:00",
   "posts": [
     {
-      "id": "news-7",
-      "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2025/9/24/660x290/b_1200x675x95/javier-martinez-e-helena-prestes-c-x_3146374.jpg",
-      "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
+      "id": "news-6",
+      "title": "La Fipav approva il bilancio preventivo 2023",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Wed, 21 Dec 2022 09:21:00 GMT",
+      "image": "http://cdn.corrieredellosport.it/images/2022/12/21/162141229-d8db2edc-f9df-491d-b5c9-e3e186ff0aec.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/volley/2022/12/21-101377702/la_fipav_approva_il_bilancio_preventivo_2023"
     },
     {
-      "id": "news-7",
-      "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
-      "excerpt": "Fonte: assisisport.it",
-      "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
-      "image": null,
-      "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
-    },
-    {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Volley. L'ex azzurro Biribanti: «In quattro anni Terni può tornare in serie A»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/69/15/8296915_pckg_20240814_14941798.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
+    },
+    {
+      "id": "lalistadelleamichevolidisangiu",
+      "title": "La lista delle amichevoli di San Giustino",
+      "excerpt": "È stato diramato il calendario degli appuntamenti precampionato della Altotevere San Giustino, che, per la quinta volta consecutiva, sarà protagonista in serie A3 maschile. La preparazione avrà inizio",
+      "createdTime": "Wed, 12 Aug 2026 07:00:03 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/San-Giustino-partita.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/08/la-lista-delle-amichevoli-di-san-giustino/"
+    },
+    {
+      "id": "francescamichielettolavviodell",
+      "title": "Francesca Michieletto: «L’avvio della stagione a Perugia è ok»",
+      "excerpt": "Stanno cominciando a ritrovarsi in palestra le squadre iscritte al campionato di serie A2 femminile, i primi allenamenti servono per la riattivazione muscolare ma anche per fare la reciproca conoscenz",
+      "createdTime": "Wed, 12 Aug 2026 05:00:49 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Michieletto-Francesca.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/08/francesca-michieletto-lavvio-della-stagione-a-perugia-e-ok/"
     },
     {
       "id": "news-5",
@@ -35,14 +43,6 @@
     },
     {
       "id": "news-1",
-      "title": "Pallavolo B1F – Alessia Lillacci confermata dalla Sirio Perugia",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 05 Aug 2026 17:01:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/06/pallavolo-b1f-alessia-lillacci-confermata-dalla-sirio-perugia/"
-    },
-    {
-      "id": "news-1",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
@@ -50,7 +50,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -66,12 +66,36 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
       "title": "Pallavolo: nasce il progetto “80 anni sotto rete” organizzato dalla Fipav Umbria",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 24 Feb 2026 03:21:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/02/1e4e212c-7b64-2826-1735-59d8c28c687c.png",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
+    },
+    {
+      "id": "news-7",
+      "title": "Dalle Fere del calcio all'Italvolley, ecco la dottoressa di Terni che \"cura\" i trionfi della pallavolo femminile azzurra",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Tue, 19 Jul 2022 07:38:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/23/52/6822352_19141822_alessandra_favoriti_paolo_tagliavento.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
+    },
+    {
+      "id": "news-2",
+      "title": "Volley, il programma delle amichevoli di Altotevere: si parte contro Città di Castello",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 11 Aug 2026 21:42:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/08/palasport-san-giustino-ultima-partita.jpg",
+      "permalink": "https://www.umbria24.it/citta-di-castello/volley-il-programma-delle-amichevoli-di-altotevere-si-parte-contro-citta-di-castello/"
+    },
+    {
+      "id": "giorgiotamagniniaimondialiunde",
+      "title": "Giorgio Tamagnini ai mondiali under 17 maschili",
+      "excerpt": "Nell’ottica di un consolidamento e di una fortificazione dell’organico si arricchisce di altri due professionisti lo staff sanitario della Sir Susa Scai Perugia. il radiologo Alessandro Nuti e il tera",
+      "createdTime": "Tue, 11 Aug 2026 15:00:59 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Tamagnini-Giorgio-Italia.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/08/giorgio-tamagnini-ai-mondiali-under-17-maschili/"
     },
     {
       "id": "lesquadreiscritteallaseriecfem",
@@ -98,7 +122,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/michela-artini-perugia-curiosa-di-scoprire-il-girone/"
     },
     {
-      "id": "news-3",
+      "id": "news-0",
       "title": "Pallavolo Mercato – Sirio Perugia, il primo colpo è Giada Sangoi: esperienza e talento in attacco",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 04 Aug 2026 17:00:00 GMT",
@@ -107,6 +131,14 @@
     },
     {
       "id": "news-1",
+      "title": "Pallavolo SL – Perugia tra 7 giorni torna in palestra, intanto il suo Semeniuk festeggia il bis in VNL",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Tue, 04 Aug 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/08/05/pallavolo-sl-perugia-tra-7-giorni-torna-in-palestra-intanto-il-suo-semeniuk-festeggia-il-bis-in-vnl/"
+    },
+    {
+      "id": "news-3",
       "title": "Volley, Serie B1 femminile: svelato il calendario della Sirio Perugia",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 04 Aug 2026 06:14:00 GMT",
@@ -114,7 +146,7 @@
       "permalink": "https://www.umbria24.it/perugia/volley-serie-b1-femminile-svelato-il-calendario-della-sirio-perugia/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo – Terni ufficializza due novità: da Lecce arrivano Luciano Zornetta e Andrea Santangelo",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 02 Jun 2026 17:00:00 GMT",
@@ -130,7 +162,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
@@ -138,7 +170,7 @@
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
     },
     {
-      "id": "news-4",
+      "id": "news-2",
       "title": "Pallavolo A3M – Terni, Coach Giombini analizza la prima parte della stagione: “Potevamo fare di più”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 25 Dec 2025 16:00:00 GMT",
@@ -154,7 +186,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-4",
+      "id": "news-2",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -162,7 +194,7 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo Perugia in serie A2 Ma dove giocherà? Idea Pellini",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 26 Jun 2022 23:09:00 GMT",
@@ -170,15 +202,7 @@
       "permalink": "https://www.lanazione.it/umbria/sport/pallavolo-perugia-in-serie-a2-ma-dove-giochera-idea-pellini-8a3df47c"
     },
     {
-      "id": "news-6",
-      "title": "SandVolley – Mantignana si prepara al Memorial Giri-Fiscella",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sun, 26 Jul 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/07/27/sandvolley-mantignana-si-prepara-al-memorial-giri-fiscella/"
-    },
-    {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
@@ -186,20 +210,12 @@
       "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
-    },
-    {
-      "id": "news-6",
-      "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
-      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
       "id": "news-4",
@@ -210,6 +226,14 @@
       "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
     },
     {
+      "id": "news-7",
+      "title": "Volley serie B, la Sir Its Umbria Academy Perugia chiude il campionato con l'ottava vittoria consecutiva",
+      "excerpt": "Fonte: today.it",
+      "createdTime": "Sun, 11 May 2025 11:26:00 GMT",
+      "image": null,
+      "permalink": "https://www.today.it/sport/volley/volley-serie-b-la-sir-its-umbria-academy-perugia-chiude-il-campionato-con-l-ottava-vittoria-consecutiva.html"
+    },
+    {
       "id": "federicocrosatonellalistaperig",
       "title": "Federico Crosato nella lista per i Giochi del Mediterraneo",
       "excerpt": "Prosegue anche il lavoro della nazionale seniores B maschile. Su indicazione del direttore tecnico e primo allenatore Vincenzo Fanizza, gli azzurri si allenano sino al 12 agosto a Camigliatello Silano",
@@ -218,23 +242,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/federico-crosato-nella-lista-per-i-giochi-del-mediterraneo/"
     },
     {
-      "id": "sarinpoloniailmodialeperclub",
-      "title": "Sarà in Polonia il modiale per club",
-      "excerpt": "Sono state diramate dalla Fivb, massimo organismo mondiale, le sedi del campionato iridato per club. I detentori in carica della Sir Sicoma Monini Perugia giocheranno la massima rassegna in Polonia da",
-      "createdTime": "Sun, 09 Aug 2026 07:00:22 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/palasport.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/sara-in-polonia-il-modiale-per-club/"
-    },
-    {
-      "id": "rachelemancinelliinpienacorsaa",
-      "title": "Rachele Mancinelli in piena corsa a Cordenons",
-      "excerpt": "Dopo le prime due giornate di gara sta per giungere a conclusione la settima tappa stagionale del campionato italiano assoluto di beach volley. Tra le atlete in gara nelle qualificazioni anche la deru",
-      "createdTime": "Sun, 09 Aug 2026 05:00:46 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Mancinelli-Rachele.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/rachele-mancinelli-in-piena-corsa-a-cordenons/"
-    },
-    {
-      "id": "news-2",
+      "id": "news-4",
       "title": "Massimo Sarandrea presidente Terni Volley Academy: dal progetto Ternana al volley",
       "excerpt": "Fonte: ternananews.it",
       "createdTime": "Sun, 09 Aug 2026 05:00:00 GMT",
@@ -242,7 +250,7 @@
       "permalink": "https://www.ternananews.it/non-solo-calcio/massimo-sarandrea-presidente-terni-volley-academy-progetto-ternana-volley-120527"
     },
     {
-      "id": "news-0",
+      "id": "news-3",
       "title": "Terni Volley Academy, nuova dirigenza e ambizioni: al PalaTerni c'è la Sir Perugia",
       "excerpt": "Fonte: sporterni.it",
       "createdTime": "Sun, 09 Aug 2026 04:55:00 GMT",
@@ -250,12 +258,20 @@
       "permalink": "https://www.sporterni.it/articolo.php?id=27736"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 07 Sep 2025 23:30:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
+    },
+    {
+      "id": "news-7",
+      "title": "Pallavolo: i risultati della Superlega",
+      "excerpt": "Fonte: ansa.it",
+      "createdTime": "Sun, 03 Mar 2019 13:33:00 GMT",
+      "image": "https://www.ansa.it/webimages/img_700/2018/12/2/b27701babdd6b429648cf598378f9116.jpg",
+      "permalink": "https://www.ansa.it/umbria/notizie/2019/03/03/pallavolo-i-risultati-della-superlega_d63f295c-c380-4844-ab1f-fdbce8e2e86d.html"
     },
     {
       "id": "news-2",
@@ -266,7 +282,7 @@
       "permalink": "https://sport.quotidiano.net/volley/pallavolo-caso-calendari-il-presidente-sirci-cfe002a9"
     },
     {
-      "id": "news-0",
+      "id": "news-3",
       "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
@@ -274,7 +290,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -282,7 +298,7 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Volley serie b2 femminile. La Lucky Wind Trevi-Foligno lotta ma retrocede",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sat, 09 May 2026 16:59:00 GMT",
@@ -290,15 +306,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-ef9506a0"
     },
     {
-      "id": "giadaguarinoaspettativealteape",
-      "title": "Giada Guarino: «Aspettative alte a Perugia»",
-      "excerpt": "La seconda notizia di mercato è ancora una conferma in casa della Sirio Perugia Volley che sta mettendo a punto nei dettagli l&#8217;organico per la futura stagione agonistica di serie B1 femminile. A",
-      "createdTime": "Sat, 08 Aug 2026 09:00:21 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Guarino-Giada-Sirio-Perugia.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/giada-guarino-aspettative-alte-a-perugia/"
-    },
-    {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -306,20 +314,12 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/05/25/pallavolo-la-sir-perugia-ricevuta-a-palazzo-dei-priori_e007308e-13aa-4ab6-b0d2-c053b9548afc.html"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Fipav Umbria, ecco la lettera del presidente Lomurno a tutte le società di pallavolo della regione",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
       "image": null,
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo: Rpa lascia Umbria volley",
-      "excerpt": "Fonte: lagazzettadelmezzogiorno.it",
-      "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
-      "image": "https://www.lagazzettadelmezzogiorno.it/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
-      "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
     },
     {
       "id": "news-0",
@@ -354,7 +354,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/giannelli-e-sanguinetti-al-ritiro-azzurro-per-gli-europei/"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 06 May 2024 06:05:00 GMT",
@@ -362,15 +362,15 @@
       "permalink": "http://www.assisisport.it/volley/umbria-academy-sir-volley-il-settore-giovanile-cala-il-pokerissimo-foto/"
     },
     {
-      "id": "news-7",
-      "title": "La Fipav istituisce la Coppa Umbria intitolata a Guiducci",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Mon, 03 Aug 2020 22:45:00 GMT",
-      "image": "https://www.lanazione.it/og/lanazione.jpg",
-      "permalink": "https://www.lanazione.it/umbria/sport/la-fipav-istituisce-la-coppa-umbria-intitolata-a-guiducci-c8fq2zx3"
+      "id": "news-5",
+      "title": "La Fipav Umbria dice “stop”, la FIP Umbria concede il “libero arbitrio”",
+      "excerpt": "Fonte: orvietosport.it",
+      "createdTime": "Mon, 03 Jan 2022 16:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.orvietosport.it/2022/01/04/la-fipav-umbria-dice-stop-la-fip-umbria-concede-il-libero-arbitrio/"
     },
     {
-      "id": "news-2",
+      "id": "news-5",
       "title": "No delle leghe pallavolo maschile e femminile alle competizioni internazionali delle nazionali in inverno",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Fri, 31 Jul 2026 01:47:00 GMT",
@@ -386,7 +386,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
@@ -394,7 +394,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
     },
     {
-      "id": "news-5",
+      "id": "news-2",
       "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
       "excerpt": "Fonte: today.it",
       "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
