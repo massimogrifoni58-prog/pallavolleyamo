@@ -4454,13 +4454,13 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 }
 .iscriviti-banner__btn:hover { background: var(--gold-bright); }
 /* === VIDEO === */
-.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; margin-top: 1rem; }
+.video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
 .video-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; text-decoration: none; color: var(--text); transition: transform 0.2s; }
 .video-card:hover { transform: translateY(-3px); }
-.video-card__thumb { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
-.video-card__body { padding: 0.8rem; }
-.video-card__title { font-size: 0.85rem; font-weight: 600; margin-bottom: 0.3rem; }
-.video-card__canale { font-size: 0.75rem; color: var(--gold); }
+.video-card__thumb { width: 100%; aspect-ratio: 16/9; object-fit: cover; max-height: 140px; }
+.video-card__body { padding: 0.6rem; }
+.video-card__title { font-size: 0.78rem; font-weight: 600; margin-bottom: 0.3rem; line-height: 1.3; }
+.video-card__canale { font-size: 0.68rem; color: var(--gold); }
 /* === MODAL ARTICOLO === */
 /* === MODAL === */
 .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 1rem; }
@@ -4618,7 +4618,8 @@ body.light-mode .meteo-widget { background: rgba(0,0,0,0.04); border-color: rgba
 .card:nth-child(3) { animation-delay: 0.15s; }
 .card:nth-child(4) { animation-delay: 0.20s; }
 .card:nth-child(5) { animation-delay: 0.25s; }
-.card:nth-child(6) { animation-delay: 0.30s; }ia (max-width: 600px) { .mappa-sidebar { width: 100%; } }
+.card:nth-child(6) { animation-delay: 0.30s; }
+@media (max-width: 600px) { .mappa-sidebar { width: 100%; } }
 /* === HOVER EFFECTS CARD === */
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
