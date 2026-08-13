@@ -111,8 +111,23 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://pallavolleyamo.it/#/commenti</loc>
+    <loc>https://pallavolleyamo.it/#/mappa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pallavolleyamo.it/#/squadre-top</loc>
     <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pallavolleyamo.it/#/preparazione-fisica</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pallavolleyamo.it/#/camp</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
