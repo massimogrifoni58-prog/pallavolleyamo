@@ -477,7 +477,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           items={[
             { href: "#/fondamentali", label: "Fondamentali" },
             { href: "#/schede", label: "Schede Allenamento" },
-            { href: "#/glossario", label: "Glossario" },
             { href: "#/preparazione-fisica", label: "Preparazione Fisica" },
           ]}
         />
