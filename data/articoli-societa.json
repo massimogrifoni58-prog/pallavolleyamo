@@ -272,6 +272,32 @@
       "provincia": "perugia",
       "foto": "/articoli/natalini.jpg",
       "logo": null
+    },
+    {
+      "id": "22",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "Si prosegue con le conferme!!! Maria Buzzicotti, classe 2010, cresciuta  nella nostra under 16.  ",
+      "testo": "La scorsa stagione è stata un'esperienza unica, che mi ha permesso di crescere sia dentro che fuori dal campo. Sono felice di far parte di questo gruppo anche per la stagione che verrà, con la consapevolezza di avere ancora molto da imparare",
+      "data": "14 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/buzzicotti.jpg",
+      "logo": null
+   },
+    {
+      "id": "23",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "𝗨n'altra giovanissima bastiola in prima squadra",
+      "testo": "𝗔urora Degli Esposti Fragola, 𝗰𝗹𝗮𝘀𝘀𝗲 𝟮𝟬𝟭𝟬, 𝗰𝗲𝗻𝘁𝗿𝗮𝗹𝗲  di ruolo, compie il salto dal settore giovanile e si prepara ad affrontare la Serie C Femminile.La programmazione della nostra associazione continua a dare i suoi frutti: un’altra giovane atleta del vivaio approda in prima squadra, confermando la qualità e la solidità di un progetto sportivo costruito per far crescere le nostre ragazze.Soddisfazione, passione e professionalità: sono questi i valori che distinguono il percorso della Volley Academy Bastia.Buona stagione, Aurora! Siamo felici di vederti ancora crescere insieme a noi!",
+      "data": "14 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/degliespositi.jpg",
+      "logo": null
     }
   ]
 }
