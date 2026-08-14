@@ -564,7 +564,8 @@ function HomePage({ latestNews = [] }) {
   const risultati = (risultatiData.matches || []).filter((m) => {
     if (m.status !== "disputata" || !m.score) return false;
     const comp = (m.competition || "").toLowerCase();
-    const isRegionale = comp.includes("serie c") || comp.includes("serie d");
+    const isRegionale = comp.includes("serie c") || comp.includes("serie d") ||
+      comp.includes("1 divisione") || comp.includes("prima divisione");
     const isNazionale = comp.includes("serie a") || comp.includes("serie b") ||
       comp.includes("superlega") || comp.includes("a1") || comp.includes("a2") || comp.includes("a3");
     if (isRegionale) return true;
@@ -576,7 +577,10 @@ function HomePage({ latestNews = [] }) {
     return false;
   });
 
-  const hasRisultati = risultati.length > 0;
+  const meseCorrente = new Date().getMonth() + 1; // 1-12
+  const inPausaEstiva = meseCorrente >= 6 && meseCorrente <= 8; // giugno, luglio, agosto
+
+  const hasRisultati = !inPausaEstiva && risultati.length > 0;
   const risultatiTesto = risultati.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("   ·   ");
 
   // Statistiche rapide
@@ -613,6 +617,17 @@ function HomePage({ latestNews = [] }) {
 
         {/* Fascia risultati */}
         <div className="hero-risultati">
+          {hasRisultati && (
+            <div className="hero-risultati__label">
+              <span className="hero-risultati__dot"></span>
+              ULTIMI RISULTATI
+              {risultatiData.generatedAt && (
+                <span className="hero-risultati__orario">
+                  · aggiornato alle {new Date(risultatiData.generatedAt).toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" })}
+                </span>
+              )}
+            </div>
+          )}
           {hasRisultati ? (
             <div className="hero-risultati__track-wrap">
               <div
@@ -625,7 +640,11 @@ function HomePage({ latestNews = [] }) {
               </div>
             </div>
           ) : (
-            <p className="hero-risultati__placeholder"> I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno</p>
+            <p className="hero-risultati__placeholder">
+              {inPausaEstiva
+                ? "⚡ Ci si allena per la nuova stagione — i risultati tornano a settembre"
+                : "I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno"}
+            </p>
           )}
         </div>
       </div>
