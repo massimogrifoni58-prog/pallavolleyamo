@@ -426,7 +426,8 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Menu"
       >
-        {menuOpen ? "✕" : "☰"}
+        <span className="hamburger-btn__icon">{menuOpen ? "✕" : "☰"}</span>
+        <span>{menuOpen ? "CHIUDI" : "MENU"}</span>
       </button>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
      <NavDropdown
