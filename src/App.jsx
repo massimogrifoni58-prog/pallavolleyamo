@@ -4989,6 +4989,31 @@ function Breadcrumb({ route }) {
     </div>
   );
 }
+function SquadraLogoPlaceholder({ nome }) {
+  const iniziale = (nome || "?").trim().charAt(0).toUpperCase();
+  // Colore stabile derivato dal nome, cosi' ogni squadra ha sempre lo stesso colore
+  let hash = 0;
+  for (let i = 0; i < nome.length; i++) hash = nome.charCodeAt(i) + ((hash << 5) - hash);
+  const hue = Math.abs(hash) % 360;
+  return (
+    <div style={{
+      width: "48px",
+      height: "48px",
+      borderRadius: "50%",
+      flexShrink: 0,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      fontWeight: 700,
+      fontSize: "1.1rem",
+      color: "#fff",
+      background: `hsl(${hue}, 45%, 38%)`,
+    }}>
+      {iniziale}
+    </div>
+  );
+}
+
 function SquadreIscrittePage() {
   const stagione = squadreIscritteData.stagione || "";
   const maschile = squadreIscritteData.maschile || [];
@@ -5022,20 +5047,44 @@ function SquadreIscrittePage() {
         {squadre.length === 0 ? (
           <p className="state">Elenco squadre non ancora disponibile.</p>
         ) : (
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "0.75rem" }}>
-            {squadre.map((nome, i) => (
-              <li key={i} style={{
-                border: "1px solid var(--border)",
-                borderRadius: "8px",
-                padding: "0.85rem 1rem",
-                display: "flex",
-                alignItems: "center",
-                gap: "0.6rem",
-              }}>
-                <span style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.8rem", flexShrink: 0 }}>{i + 1}.</span>
-                <span style={{ fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.3 }}>{nome}</span>
-              </li>
-            ))}
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+            {squadre.map((sq, i) => {
+              const nome = typeof sq === "string" ? sq : sq.nome;
+              const palazzetto = typeof sq === "string" ? null : sq.palazzetto;
+              const indirizzo = typeof sq === "string" ? null : sq.indirizzo;
+              const logo = typeof sq === "string" ? null : sq.logo;
+              return (
+                <li key={i} style={{
+                  border: "1px solid var(--border)",
+                  borderRadius: "10px",
+                  padding: "0.75rem 1rem",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.85rem",
+                }}>
+                  <span style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.75rem", width: "1.3rem", flexShrink: 0 }}>{i + 1}.</span>
+                  {logo ? (
+                    <img src={logo} alt="" style={{ width: "48px", height: "48px", borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
+                  ) : (
+                    <SquadraLogoPlaceholder nome={nome} />
+                  )}
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontWeight: 600, fontSize: "0.9rem", lineHeight: 1.3 }}>{nome}</div>
+                    {(palazzetto || indirizzo) ? (
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.15rem" }}>
+                        {palazzetto && <span>{palazzetto}</span>}
+                        {palazzetto && indirizzo && <span> — </span>}
+                        {indirizzo && <span>{indirizzo}</span>}
+                      </div>
+                    ) : (
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.15rem", fontStyle: "italic" }}>
+                        Indirizzo palestra da confermare
+                      </div>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
