@@ -20,6 +20,7 @@ import newsGeneraliData from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import * as d3 from "d3";
 import societaData from "../data/societa.json";
+import squadreIscritteData from "../data/squadre-iscritte.json";
 const MAX_NEWS_PER_SECTION = 15;
 
 const SECTIONS = {
@@ -451,6 +452,7 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
           label="Campionati"
           items={[
             { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
+            { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
             { href: "#/risultati", label: "Risultati Camp. Regionali" },
             { href: "#/giovanili", label: "Risultati Camp. Giovanili" }, 
             { href: "#/calendario", label: "Calendario" },
@@ -4934,6 +4936,7 @@ function Breadcrumb({ route }) {
     "terni": ["Notizie", "News Prov. TR"],
     "perugia": ["Notizie", "News Prov. PG"],
     "articoli-societa": ["Notizie", "Articoli Società"],
+    "squadre-iscritte": ["Campionati", "Squadre Iscritte"],
     "risultati": ["Campionati", "Risultati"],
     "risultati-seriec": ["Campionati", "Serie C"],
     "risultati-seried": ["Campionati", "Serie D"],
@@ -4984,6 +4987,59 @@ function Breadcrumb({ route }) {
         </span>
       ))}
     </div>
+  );
+}
+function SquadreIscrittePage() {
+  const stagione = squadreIscritteData.stagione || "";
+  const maschile = squadreIscritteData.maschile || [];
+  const femminile = squadreIscritteData.femminile || [];
+  const [selCat, setSelCat] = useState("maschile");
+
+  const squadre = selCat === "maschile" ? maschile : femminile;
+
+  return (
+    <main>
+      <CampionatiHero titolo="Squadre Iscritte" />
+      <section className="section">
+        <h2 className="feed-heading">Serie C {stagione ? `— Stagione ${stagione}` : ""}</h2>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
+          <button
+            className={`filter-btn ${selCat === "maschile" ? "filter-btn--active" : ""}`}
+            onClick={() => setSelCat("maschile")}
+          >
+            Serie C Maschile
+            <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({maschile.length})</span>
+          </button>
+          <button
+            className={`filter-btn ${selCat === "femminile" ? "filter-btn--active" : ""}`}
+            onClick={() => setSelCat("femminile")}
+          >
+            Serie C Femminile
+            <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({femminile.length})</span>
+          </button>
+        </div>
+
+        {squadre.length === 0 ? (
+          <p className="state">Elenco squadre non ancora disponibile.</p>
+        ) : (
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "0.75rem" }}>
+            {squadre.map((nome, i) => (
+              <li key={i} style={{
+                border: "1px solid var(--border)",
+                borderRadius: "8px",
+                padding: "0.85rem 1rem",
+                display: "flex",
+                alignItems: "center",
+                gap: "0.6rem",
+              }}>
+                <span style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.8rem", flexShrink: 0 }}>{i + 1}.</span>
+                <span style={{ fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.3 }}>{nome}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    </main>
   );
 }
 function SquadreTopPage() {
@@ -5115,6 +5171,7 @@ const route = useRoute();
           {route === "headtohead" && <HeadToHeadPage />}
           {route === "classifica" && <ClassificaPage />}
           {route === "dirette" && <DiretteLivePage />}
+          {route === "squadre-iscritte" && <SquadreIscrittePage />}
           {route === "risultati" && <RisultatiPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}

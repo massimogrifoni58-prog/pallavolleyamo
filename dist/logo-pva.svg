@@ -8,9 +8,9 @@
     </clipPath>
   </defs>
 
-  <circle cx="340" cy="340" r="290" fill="#0b0b0c"/>
+  <circle cx="340" cy="340" r="290" fill="transparent"/>
 
-  <g clip-path="url(#cc7)" opacity="0.08">
+  <g clip-path="url(#cc7)" opacity="0.00">
     <line x1="40" y1="40" x2="640" y2="640" stroke="#d4af37" stroke-width="1.5"/>
     <line x1="160" y1="40" x2="640" y2="520" stroke="#d4af37" stroke-width="1.5"/>
     <line x1="280" y1="40" x2="640" y2="400" stroke="#d4af37" stroke-width="1.5"/>
