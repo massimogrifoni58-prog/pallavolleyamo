@@ -1538,21 +1538,21 @@ function CalendarioPage() {
           </div>
         )}
 
-        {selectedMacro && selectedComp && (
-          <div className="competition-block">
-            {Object.keys(byMacro[selectedMacro][selectedComp])
-              .sort((a, b) => giornataNumber(a) - giornataNumber(b))
-              .map((g) => (
-                <div key={g}>
-                  <p className="giornata-heading">{g}</p>
-                  {byMacro[selectedMacro][selectedComp][g].map((m) => (
-                    <MatchRow key={m.id} match={m} />
-                  ))}
-                </div>
-              ))}
-          </div>
-        )}
-      </section>
+       {selectedMacro && selectedComp && (
+  <div className="competition-block">
+    {Object.keys(byMacro[selectedMacro][selectedComp])
+      .sort((a, b) => giornataNumber(a) - giornataNumber(b))
+      .map((g) => (
+        <div key={g}>
+          <p className="giornata-heading">{g}</p>
+          {byMacro[selectedMacro][selectedComp][g].map((m) => (
+            <MatchRow key={m.id} match={m} />
+          ))}
+        </div>
+      ))}
+  </div>
+)}
+</section>
     </main>
   );
 }
