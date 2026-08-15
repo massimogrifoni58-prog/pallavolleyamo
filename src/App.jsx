@@ -19,6 +19,7 @@ import mercatoData from "../data/mercato.json";
 import newsGeneraliData from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import * as d3 from "d3";
+import L from "leaflet";
 import societaData from "../data/societa.json";
 import squadreIscritteData from "../data/squadre-iscritte.json";
 const MAX_NEWS_PER_SECTION = 15;
@@ -4743,24 +4744,26 @@ function SidebarRight() {
   );
 }
 function MappaPage() {
-  const svgRef = React.useRef(null);
+  const mapRef = React.useRef(null);
+  const mapInstanceRef = React.useRef(null);
+  const markersRef = React.useRef([]);
   const [selected, setSelected] = React.useState(null);
   const [filtro, setFiltro] = React.useState("Tutti");
 
   const societa = societaData.societa || [];
 
   const colori = {
-  "Superlega": "#7F77DD",
-  "Serie A1 F": "#D85A30",
-  "Serie A3": "#EF9F27",
-  "Serie B M": "#2DBB8A",
-  "Serie B F": "#20a870",
-  "Serie C M": "#1D9E75",
-  "Serie C F": "#378ADD",
-  "Serie D M": "#888780",
-  "Serie D F": "#aaa",
-  "1 Divisione F": "#D4537E",
-};
+    "Superlega": "#7F77DD",
+    "Serie A1 F": "#D85A30",
+    "Serie A3": "#EF9F27",
+    "Serie B M": "#2DBB8A",
+    "Serie B F": "#20a870",
+    "Serie C M": "#1D9E75",
+    "Serie C F": "#378ADD",
+    "Serie D M": "#888780",
+    "Serie D F": "#aaa",
+    "1 Divisione F": "#D4537E",
+  };
 
   const categorie = ["Tutti", "Superlega/A", "Serie B", "Serie C", "Serie D", "1ª Div"];
 
@@ -4771,47 +4774,66 @@ function MappaPage() {
     "Serie C": s => s.categoria.includes("Serie C"),
     "Serie D": s => s.categoria.includes("Serie D"),
     "1ª Div": s => s.categoria.includes("Divisione"),
-    
   };
 
   const societaFiltrate = societa.filter(catFiltri[filtro]);
 
+  // Inizializza la mappa una sola volta
   React.useEffect(() => {
-    if (!svgRef.current) return;
-    const width = svgRef.current.clientWidth || 400;
-    const height = Math.round(width * 1.15);
-    const svg = d3.select(svgRef.current);
-    svg.selectAll("*").remove();
-    svg.attr("viewBox", `0 0 ${width} ${height}`);
-    fetch("/umbria.geojson")
-      .then(r => r.json())
-      .then(data => {
-        const umbria = data.features[0];
-        if (!umbria) return;
-        const projection = d3.geoMercator().fitSize([width, height], umbria);
-        const path = d3.geoPath().projection(projection);
-        svg.append("path")
-          .datum(umbria)
-          .attr("d", path)
-          .attr("fill", "var(--card-bg)")
-          .attr("stroke", "var(--gold)")
-          .attr("stroke-width", 1.5);
-        societaFiltrate.forEach(s => {
-           const [x, y] = projection([s.lng, s.lat]);
-           const col = colori[s.categoria] || "#888";
-           const isSelected = selected && selected.id === s.id;
-           svg.append("circle")
-             .attr("cx", x).attr("cy", y)
-             .attr("r", isSelected ? 12 : 7)
-             .attr("fill", isSelected ? "#d4af37" : col)
-             .attr("stroke", isSelected ? "#fff" : "var(--bg)")
-             .attr("stroke-width", isSelected ? 3 : 1.5)
-             .attr("cursor", "pointer")
-             .attr("opacity", 1)
-            .on("click", () => setSelected(s));
-        });
+    if (!mapRef.current || mapInstanceRef.current) return;
+
+    const map = L.map(mapRef.current, {
+      zoomControl: true,
+      attributionControl: true,
+    }).setView([42.95, 12.65], 10);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    mapInstanceRef.current = map;
+    setTimeout(() => map.invalidateSize(), 100);
+    return () => {
+      map.remove();
+      mapInstanceRef.current = null;
+    };
+  }, []);
+
+  // Aggiorna i marker quando cambia filtro o selezione
+  React.useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map) return;
+
+    // Rimuovi marker esistenti
+    markersRef.current.forEach(m => map.removeLayer(m));
+    markersRef.current = [];
+
+    societaFiltrate.forEach(s => {
+      const col = colori[s.categoria] || "#888";
+      const isSelected = selected && selected.id === s.id;
+
+      const icon = L.divIcon({
+        className: "",
+        html: `<div style="
+          width: ${isSelected ? 22 : 14}px;
+          height: ${isSelected ? 22 : 14}px;
+          border-radius: 50%;
+          background: ${isSelected ? "#d4af37" : col};
+          border: ${isSelected ? 3 : 2}px solid ${isSelected ? "#fff" : "#0a0a0c"};
+          box-shadow: 0 0 6px rgba(0,0,0,0.5);
+          cursor: pointer;
+        "></div>`,
+        iconSize: [isSelected ? 22 : 14, isSelected ? 22 : 14],
+        iconAnchor: [isSelected ? 11 : 7, isSelected ? 11 : 7],
       });
-  }, [filtro, selected]);
+
+      const marker = L.marker([s.lat, s.lng], { icon }).addTo(map);
+      marker.on("click", () => setSelected(s));
+      marker.bindTooltip(s.nome, { direction: "top", offset: [0, -10] });
+      markersRef.current.push(marker);
+    });
+  }, [filtro, selected, societaFiltrate.length]);
 
   return (
     <main>
@@ -4826,56 +4848,56 @@ function MappaPage() {
             </button>
           ))}
         </div>
-      <div className="mappa-container">
-  <div className="mappa-svg-wrap" style={{ maxWidth: "350px" }}>
-    <svg ref={svgRef} style={{ width: "100%", borderRadius: "12px", border: "1px solid var(--border)" }} />
-  </div>
+        <div className="mappa-container">
+          <div className="mappa-svg-wrap" style={{ maxWidth: "500px" }}>
+            <div ref={mapRef} style={{ width: "100%", height: "450px", borderRadius: "12px", border: "1px solid var(--border)" }} />
+          </div>
 
-  {/* Elenco verticale per categoria */}
-  <div style={{ flex: 1, overflowY: "auto", maxHeight: "500px", fontSize: "0.78rem" }}>
-    {Object.entries(colori).map(([cat, col]) => {
-      const lista = societaFiltrate.filter(s => s.categoria === cat);
-      if (lista.length === 0) return null;
-      return (
-        <div key={cat} style={{ marginBottom: "10px" }}>
-          <div style={{ fontSize: "0.68rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>{cat}</div>
-          {lista.map(s => (
-            <div key={s.id} onClick={() => setSelected(s)}
-              style={{ padding: "3px 6px", borderRadius: "6px", cursor: "pointer",
-                background: selected?.id === s.id ? col + "22" : "transparent",
-                color: selected?.id === s.id ? col : "var(--text-dim)" }}>
-              {s.nome}
-            </div>
-          ))}
-        </div>
-      );
-    })}
-  </div>
+          <div style={{ flex: 1, overflowY: "auto", maxHeight: "500px", fontSize: "0.78rem" }}>
+            {Object.entries(colori).map(([cat, col]) => {
+              const lista = societaFiltrate.filter(s => s.categoria === cat);
+              if (lista.length === 0) return null;
+              return (
+                <div key={cat} style={{ marginBottom: "10px" }}>
+                  <div style={{ fontSize: "0.68rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>{cat}</div>
+                  {lista.map(s => (
+                    <div key={s.id} onClick={() => setSelected(s)}
+                      style={{ padding: "3px 6px", borderRadius: "6px", cursor: "pointer",
+                        background: selected?.id === s.id ? col + "22" : "transparent",
+                        color: selected?.id === s.id ? col : "var(--text-dim)" }}>
+                      {s.nome}
+                    </div>
+                  ))}
+                </div>
+              );
+            })}
+          </div>
+
           <div className="mappa-sidebar">
             <div className="mappa-card">
-      {selected ? (
-        <>
-          <div className="mappa-card__nome">{selected.nome}</div>
-          <span className="mappa-card__cat" style={{
-            background: (colori[selected.categoria] || "#888") + "22",
-            color: colori[selected.categoria] || "#888",
-          }}>{selected.categoria}</span>
-          <div style={{ lineHeight: 1.8, fontSize: "0.8rem" }}>
-            <div>📍 {selected.citta} ({selected.provincia})</div>
-            <div>🏟 {selected.palazzetto}</div>
-            <div style={{ color: "var(--text-dim)" }}>{selected.indirizzo}</div>
-           <a href={selected.gmaps} target="_blank" rel="noreferrer"
-             style={{ color: "var(--gold)", fontSize: "0.75rem", marginTop: 6, display: "inline-block" }}>
-             Apri in Google Maps →
-           </a>
-         </div>
-       </>
-     ) : (
-       <>
-        <div className="mappa-card__nome">— seleziona —</div>
-        <div style={{ marginTop: 6 }}>Clicca un pallino sulla mappa.</div>
-      </>
-     )}
+              {selected ? (
+                <>
+                  <div className="mappa-card__nome">{selected.nome}</div>
+                  <span className="mappa-card__cat" style={{
+                    background: (colori[selected.categoria] || "#888") + "22",
+                    color: colori[selected.categoria] || "#888",
+                  }}>{selected.categoria}</span>
+                  <div style={{ lineHeight: 1.8, fontSize: "0.8rem" }}>
+                    <div>📍 {selected.citta} ({selected.provincia})</div>
+                    <div>🏟 {selected.palazzetto}</div>
+                    <div style={{ color: "var(--text-dim)" }}>{selected.indirizzo}</div>
+                    <a href={selected.gmaps} target="_blank" rel="noreferrer"
+                      style={{ color: "var(--gold)", fontSize: "0.75rem", marginTop: 6, display: "inline-block" }}>
+                      Apri in Google Maps →
+                    </a>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="mappa-card__nome">— seleziona —</div>
+                  <div style={{ marginTop: 6 }}>Clicca un pallino sulla mappa.</div>
+                </>
+              )}
             </div>
             <div style={{ marginTop: 14 }}>
               <div style={{ fontSize: "0.75rem", color: "var(--text-dim)", marginBottom: 8 }}>Legenda</div>
@@ -4885,11 +4907,11 @@ function MappaPage() {
                     <span className="mappa-dot-legend" style={{ background: col }} />
                     <span style={{ color: "var(--text-dim)" }}>{cat}</span>
                   </div>
-))}
+                ))}
               </div>
             </div>
           </div>
-       </div>
+        </div>
       </section>
     </main>
   );

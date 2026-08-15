@@ -4694,3 +4694,9 @@ p {
   letter-spacing: 0.08em;
   color: #ffffff;
 }
+.leaflet-container {
+  background: #1a1a1e !important;
+}
+.leaflet-tile-pane {
+  opacity: 1 !important;
+}
