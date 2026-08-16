@@ -5103,10 +5103,8 @@ function SquadreIscrittePage() {
                   gap: "0.85rem",
                 }}>
                   <span style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.75rem", width: "1.3rem", flexShrink: 0 }}>{i + 1}.</span>
-                  {logo ? (
-                    <img src={logo} alt="" style={{ width: "48px", height: "48px", borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
-                  ) : (
-                    <SquadraLogoPlaceholder nome={nome} />
+                  {logo && (
+                  <img src={logo} alt="" style={{ width: "48px", height: "48px", borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
                   )}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontWeight: 600, fontSize: "0.9rem", lineHeight: 1.3 }}>{nome}</div>
