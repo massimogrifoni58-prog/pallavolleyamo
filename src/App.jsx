@@ -5087,21 +5087,21 @@ function SquadreIscrittePage() {
         {squadre.length === 0 ? (
           <p className="state">Elenco squadre non ancora disponibile.</p>
         ) : (
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "0.1rem" }}>
             {squadre.map((sq, i) => {
               const nome = typeof sq === "string" ? sq : sq.nome;
               const palazzetto = typeof sq === "string" ? null : sq.palazzetto;
               const indirizzo = typeof sq === "string" ? null : sq.indirizzo;
               const logo = typeof sq === "string" ? null : sq.logo;
               return (
-                <li key={i} style={{
-                  border: "1px solid var(--border)",
-                  borderRadius: "10px",
-                  padding: "0.75rem 1rem",
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "0.85rem",
-                }}>
+               <li key={i} style={{
+                 border: "1px solid var(--border)",
+                 borderRadius: "10px",
+                 padding: "0.5rem 1rem",
+                 display: "flex",
+                 alignItems: "center",
+                gap: "0.85rem",
+             }}>
                   <span style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.75rem", width: "1.3rem", flexShrink: 0 }}>{i + 1}.</span>
                   {logo && (
                   <img src={logo} alt="" style={{ width: "48px", height: "48px", borderRadius: "50%", objectFit: "cover", flexShrink: 0 }} />
