@@ -5192,11 +5192,72 @@ function SquadreTopPage() {
     </main>
   );
 }
+function BannerIscrizione({ onClose }) {
+  return (
+    <div style={{
+      position: "fixed",
+      bottom: 0,
+      left: 0,
+      right: 0,
+      background: "#0a0a0c",
+      borderTop: "2px solid var(--gold)",
+      padding: "1rem 1.5rem",
+      zIndex: 200,
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-between",
+      gap: "1rem",
+      flexWrap: "wrap",
+      boxShadow: "0 -4px 20px rgba(0,0,0,0.5)",
+    }}>
+      <div style={{ flex: 1, minWidth: "200px" }}>
+        <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "var(--gold)" }}>
+          Ti piace PallaVolleyAmo?
+        </div>
+        <div style={{ fontSize: "0.78rem", color: "var(--text-dim)" }}>
+          Iscriviti gratis per leggere tutte le notizie senza limiti.
+        </div>
+      </div>
+      <div style={{ display: "flex", gap: "0.6rem" }}>
+        <a href="#/iscrizione" onClick={onClose} style={{
+          background: "var(--gold)",
+          color: "#000",
+          padding: "0.5rem 1.2rem",
+          borderRadius: "8px",
+          fontWeight: 700,
+          fontSize: "0.8rem",
+          textDecoration: "none",
+        }}>
+          Iscriviti Gratis
+        </a>
+        <button onClick={onClose} style={{
+          background: "transparent",
+          border: "1px solid var(--border)",
+          color: "var(--text-dim)",
+          padding: "0.5rem 0.9rem",
+          borderRadius: "8px",
+          fontSize: "0.8rem",
+          cursor: "pointer",
+        }}>
+          ✕
+        </button>
+      </div>
+    </div>
+  );
+}
 export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
+useEffect(() => {
+  if (subscribed) return;
+  const timer = setTimeout(() => {
+    setShowBannerIscrizione(true);
+}, 10000);
+    return () => clearTimeout(timer);
+  }, [subscribed]);
   const [showSplash, setShowSplash] = useState(true);
   const [showPillola, setShowPillola] = useState(true);
+  const [showBannerIscrizione, setShowBannerIscrizione] = useState(false);
   const pilloleList = pilloleData.pillole || [];
   const pillolaDiOggi = pilloleList[(new Date().getDate() - 1) % pilloleList.length];
   const [darkMode, setDarkMode] = useState(false);
@@ -5274,6 +5335,9 @@ const route = useRoute();
       </div>
 
       <Footer />
+      {showBannerIscrizione && !subscribed && (
+        <BannerIscrizione onClose={() => setShowBannerIscrizione(false)} />
+      )}
       <Analytics />
     </>
   );
