@@ -4700,3 +4700,6 @@ p {
 .leaflet-tile-pane {
   opacity: 1 !important;
 }
+body {
+  padding-bottom: 70px;
+}
