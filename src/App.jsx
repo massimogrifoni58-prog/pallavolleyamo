@@ -235,7 +235,7 @@ function Ticker({ posts }) {
     </div>
   );
 }
-function NavDropdown({ label, items }) {
+function NavDropdown({ label, items, subscribed }) {
   const [open, setOpen] = useState(false);
   const ref = useRef(null);
 
