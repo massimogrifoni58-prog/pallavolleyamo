@@ -5249,12 +5249,8 @@ export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
 useEffect(() => {
-  if (subscribed) return;
-  const timer = setTimeout(() => {
-    setShowBannerIscrizione(true);
-}, 10000);
-    return () => clearTimeout(timer);
-  }, [subscribed]);
+  if (!subscribed) setShowBannerIscrizione(true);
+}, [subscribed]);
   const [showSplash, setShowSplash] = useState(true);
   const [showPillola, setShowPillola] = useState(true);
   const [showBannerIscrizione, setShowBannerIscrizione] = useState(false);
