@@ -248,7 +248,6 @@ function NavDropdown({ label, items }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
   return (
     <div className="nav-dropdown" ref={ref}>
       <button className="nav-btn nav-btn--drop" onClick={() => setOpen(!open)}>
@@ -256,16 +255,20 @@ function NavDropdown({ label, items }) {
       </button>
       {open && (
         <div className="nav-dropdown__menu">
-          {items.map((item) => (
-            <a
-              key={item.href}
-              className="nav-dropdown__item"
-              href={item.href}
-              onClick={() => setOpen(false)}
-            >
-              {item.label}
-            </a>
-          ))}
+          {items.map((item) => {
+            const locked = item.locked && !subscribed;
+            return (
+              <a
+                key={item.href}
+                className="nav-dropdown__item"
+                href={locked ? "#/iscrizione" : item.href}
+                onClick={() => setOpen(false)}
+                style={locked ? { opacity: 0.6 } : {}}
+              >
+                {item.label} {locked && "🔒"}
+              </a>
+            );
+          })}
         </div>
       )}
     </div>
@@ -432,64 +435,70 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
       </button>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
      <NavDropdown
-        label="Notizie"
-        items={[
-          { href: "#/nazionale", label: "News Nazionali" },
-          { href: "#/nazionali", label: "News Campionati Naz." },
-          { href: "#/regionali", label: "News Regionali" },
-          { href: "#/terni", label: "News Prov. TR" },
-          { href: "#/perugia", label: "News Prov. PG" },
-           { href: "#/squadre-top", label: "News Squadre" },
-          { href: "#/articoli-societa", label: "Articoli Societa" },
-         ]}
-        />
+       label="Notizie"
+       subscribed={subscribed}
+       items={[
+         { href: "#/nazionale", label: "News Nazionali", locked: true },
+         { href: "#/nazionali", label: "News Campionati Naz.", locked: true },
+         { href: "#/regionali", label: "News Regionali", locked: true },
+         { href: "#/terni", label: "News Prov. TR", locked: true },
+         { href: "#/perugia", label: "News Prov. PG", locked: true },
+         { href: "#/squadre-top", label: "News Squadre", locked: true },
+         { href: "#/articoli-societa", label: "Articoli Societa", locked: true },
+      ]}
+    />
         <NavDropdown
           label="Top"
+          subscribed={subscribed}
           items={[
-            { href: "#/atleta-settimana", label: "Atleta della Settimana" },
-            { href: "#/squadra-settimana", label: "Squadra della Settimana" },
-          ]}
-        />
+            { href: "#/atleta-settimana", label: "Atleta della Settimana", locked: true },
+            { href: "#/squadra-settimana", label: "Squadra della Settimana", locked: true },
+     ]}
+    />
         <NavDropdown
-          label="Campionati"
-          items={[
-            { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
-            { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
-            { href: "#/risultati", label: "Risultati Camp. Regionali" },
-            { href: "#/giovanili", label: "Risultati Camp. Giovanili" }, 
-            { href: "#/calendario", label: "Calendario" },
-            { href: "#/classifica", label: "Classifica" },
-            { href: "#/andamento", label: "Andamento Stagione" },
-            { href: "#/rosa", label: "Invia Rosa" },
-            { href: "#/headtohead", label: "Head to Head" },
-          ]}
-        />
+           label="Campionati"
+           subscribed={subscribed}
+           items={[
+             { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
+             { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
+             { href: "#/risultati", label: "Risultati Camp. Regionali" },
+             { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
+             { href: "#/calendario", label: "Calendario" },
+             { href: "#/classifica", label: "Classifica" },
+             { href: "#/andamento", label: "Andamento Stagione" },
+             { href: "#/rosa", label: "Invia Rosa" },
+             { href: "#/headtohead", label: "Head to Head" },
+      ]}
+     />
         <NavDropdown
-          label="Foto e Video"
-          items={[
-            { href: "#/galleria", label: "Galleria Foto" },
-            { href: "#/foto-settimana", label: "Foto del Giorno" },
-            { href: "#/video", label: " Video" },
-            { href: "#/mappa", label: "🗺 Mappa" },
-          ]}
-        />
+            label="Foto e Video"
+            subscribed={subscribed}
+            items={[
+              { href: "#/galleria", label: "Galleria Foto", locked: true },
+              { href: "#/foto-settimana", label: "Foto del Giorno", locked: true },
+              { href: "#/video", label: " Video", locked: true },
+              { href: "#/mappa", label: "🗺 Mappa", locked: true },
+       ]}
+      />
         <NavDropdown
-          label="Tecnica"
-          items={[
-            { href: "#/fondamentali", label: "Fondamentali" },
-            { href: "#/schede", label: "Schede Allenamento" },
-            { href: "#/preparazione-fisica", label: "Preparazione Fisica" },
-          ]}
-        />
-        <a className="nav-btn" href="#/mercato">Mercato</a>
+            label="Tecnica"
+            subscribed={subscribed}
+            items={[
+              { href: "#/fondamentali", label: "Fondamentali", locked: true },
+              { href: "#/schede", label: "Schede Allenamento", locked: true },
+              { href: "#/preparazione-fisica", label: "Preparazione Fisica", locked: true },
+       ]}
+      />
+      <a className="nav-btn" href="#/mercato">Mercato</a>
         <NavDropdown
-          label="Allenatori"
-          items={[
-            { href: "#/allenatori2", label: "Cerca Allenatore" },
-            { href: "#/velasco", label: "Julio Velasco" },
-            { href: "#/camp", label: "Camp Estivi 2026" },
-          ]}
-        />
+            label="Allenatori"
+            subscribed={subscribed}
+             items={[
+               { href: "#/allenatori2", label: "Cerca Allenatore", locked: true },
+               { href: "#/velasco", label: "Julio Velasco", locked: true },
+               { href: "#/camp", label: "Camp Estivi 2026", locked: true },
+       ]}
+      />
       </nav>
     </header>
   );
@@ -497,7 +506,6 @@ function Masthead({ latestFive, darkMode, toggleDark }) {
 
 function RicercaSocieta() {
   const [query, setQuery] = useState("");
-  const [cercato, setCercato] = useState("");
   const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -5277,7 +5285,7 @@ useEffect(() => {
   return (
     <>
     {showPillola && <PillolaToast pillola={pillolaDiOggi} onClose={() => setShowPillola(false)} />}
-      <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} />
+      <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} subscribed={subscribed} />
       <Breadcrumb route={route} />
       <div className="page-layout">
         <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />
