@@ -397,7 +397,7 @@ function LiveClock() {
   );
 }
 
-function Masthead({ latestFive, darkMode, toggleDark }) {
+function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className="masthead">
