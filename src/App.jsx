@@ -150,7 +150,7 @@ function PostCard({ post, subscribed, onClick }) {
               e.stopPropagation();
               e.preventDefault();
               window.open(
-                `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.permalink)}`,
+               `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.permalink)}&quote=${encodeURIComponent("Leggi su PallaVolleyAmo")}`,
                 'fb-share',
                 'width=600,height=400'
               );
