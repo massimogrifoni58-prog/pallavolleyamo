@@ -298,6 +298,19 @@
       "provincia": "perugia",
       "foto": "/articoli/degliespositi.jpg",
       "logo": null
+    },
+    {
+      "id": "24",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "𝗔rianna 𝗖icogna è una nuona giocatrice della Volley Academy Bastia",
+      "testo": "Un nuovo arrivo di qualità, esperienza e sostanza va a rafforzare il reparto schiacciatrici della nostra Serie C Femminile.𝗖𝗹𝗮𝘀𝘀𝗲 𝟭𝟵𝟵𝟴, 𝗔𝗿𝗶𝗮𝗻𝗻𝗮 𝗖𝗶𝗰𝗼𝗴𝗻𝗮 arriva a Bastia dopo l’esperienza dell’ultima stagione con il Deruta (C), portando con sé qualità tecniche, personalità e tanta voglia di mettersi a disposizione del gruppo.Una giocatrice importante per rendere ancora più competitivo l’organico a disposizione di mister Ricci, pronta a dare il proprio contributo in una stagione che si preannuncia ricca di sfide ed emozioni.",
+      "data": "18 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/cicogna.jpg",
+      "logo": null
     }
   ]
 }
