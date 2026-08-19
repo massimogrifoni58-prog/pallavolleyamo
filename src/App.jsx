@@ -143,6 +143,22 @@ function PostCard({ post, subscribed, onClick }) {
             &#128274; Iscriviti per leggere tutto
           </span>
         )}
+                {post.permalink && (
+          <button
+            className="card__action-btn card__action-btn--fb"
+            onClick={e => {
+              e.stopPropagation();
+              e.preventDefault();
+              window.open(
+                `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.permalink)}`,
+                'fb-share',
+                'width=600,height=400'
+              );
+            }}
+          >
+            f Condividi
+          </button>
+        )}
       </div>
     </>
   );
