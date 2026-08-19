@@ -655,25 +655,28 @@ function HomePage({ latestNews = [] }) {
             </p>
           )}
         </div>
-      </div>
-
-      <div className="evidenza-box">
-        <h2 className="evidenza-titolo">In evidenza oggi</h2>
-        <div className="evidenza-grid">
-          {[...(nazionaleData.posts || []), ...(regionaliData.posts || [])]
-            .sort((a, b) => parseDate(b) - parseDate(a))
-            .slice(0, 3)
-            .map((post, i) => (
-              <a key={i} href={post.permalink} target="_blank" rel="noreferrer" className="evidenza-card">
-                {post.image && <img src={post.image} alt="" className="evidenza-card__img" loading="lazy" />}
-                <div className="evidenza-card__body">
-                  <p className="evidenza-card__date">{formatDate(post.createdTime)}</p>
-                  <h3 className="evidenza-card__title">{post.title}</h3>
-                </div>
-              </a>
-            ))}
+      </div>     
+       {squadreTopData.news && (
+        <div className="evidenza-box">
+          <h2 className="evidenza-titolo">Squadre Umbre Top</h2>
+          <div className="evidenza-grid">
+            {["sir-perugia", "bartoccini", "tva"].map(id => {
+              const notizie = squadreTopData.news[id] || [];
+              const ultima = notizie[0];
+              const soggetto = (squadreTopData.soggetti || []).find(s => s.id === id);
+              if (!ultima) return null;
+              return (
+                <a key={id} href={ultima.link} target="_blank" rel="noreferrer" className="evidenza-card">
+                  <div className="evidenza-card__body">
+                    <p className="evidenza-card__date">{soggetto?.nome} · {soggetto?.categoria}</p>
+                    <h3 className="evidenza-card__title">{ultima.title}</h3>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="iscriviti-banner">
           <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
@@ -682,6 +685,7 @@ function HomePage({ latestNews = [] }) {
        </main>
   );
 }
+
 
 function FeaturedPost({ post, subscribed, onOpen }) {
   const excerpt = subscribed ? post.excerpt : truncate(post.excerpt, 110);
