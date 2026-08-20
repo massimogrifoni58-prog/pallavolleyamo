@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T05:06:43.647125+00:00",
+  "generatedAt": "2026-08-20T05:30:40.463467+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,6 +35,20 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Sir Susa Scai, senti Carotti: «Un privilegio continuare a lavorare in questa società»",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fda5674f9b8a0685be4723de3e&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-senti-carotti-un-privilegio-continuare-a-lavorare-in-questa-societa%2f&c=7143735109700554169&mkt=it-it",
+        "pubDate": "Wed, 19 Aug 2026 06:07:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Sir Perugia, coach Lorenzetti: «Taraflex tricolore un orgoglio, lavoriamo per mantenerlo»",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fda5674f9b8a0685be4723de3e&url=https%3a%2f%2fwww.ilmessaggero.it%2fumbria%2fsir_perugia_coach_lorenzetti_taraflex_tricolore_un_orgoglio_lavoriamo_mantenerlo-9710191.html&c=5142456757335913698&mkt=it-it",
+        "pubDate": "Mon, 17 Aug 2026 03:47:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Pallavolo SL – Sir Susa Scai Perugia: Stefano Cappadona e la stagione delle “prime volte” - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkIxT2xheUlvRjU4YXp6d203VWJ2WklBdnpmNUlhWGxFY3lxXzhIbEkxNnl1bnk4ZGN3QkRWOEZ2WlFTWW84c19kZTRMR2JwbHdzUWttM2tiRFl2LUVkMHhzR3FvbUIwSFlrdHdNNkVKQUZyU2NuZHlTUGhjbkgzOGhEU3NnXzZtZHE2cF9GZlg4UzFCNUEwLW9fd0NWUVgxSE5ueFl3cDdxaDRGNGJBcEd3VVpORVRNcTRJVFhxaWtaZFhZLWc?oc=5",
         "pubDate": "Sun, 16 Aug 2026 16:46:42 GMT",
@@ -54,28 +68,28 @@
         "pubDate": "Sat, 15 Aug 2026 06:47:38 GMT",
         "source": "Umbria TV",
         "image": null
-      },
-      {
-        "title": "Visita istituzionale al palazzetto: “Perugia con la Sir è grande” - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1o5SUJFcVptOWZKdUNRNFNLc2pKSEJFRHc3Y2ItS0p4MWlyVXVmUjZ1MUZ1ck5laTZPTExEZ3NjZTUzZWVDN213MWEwaVhsbjVwbThqaWVzc1hKZ0dkY20zcEVDSmRJSGtQNC1URWxnYTdPU1BQRHpsZE5xc3BJUzRUdFJPQUNOMEVNcExBMHBLbGdXQ2FHeGZ3?oc=5",
-        "pubDate": "Thu, 13 Aug 2026 19:10:18 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null
-      },
-      {
-        "title": "Superlega, la Sir Susa Scai Perugia torna a correre - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ibWlTZHlEbUdmMEFSTExZQjlXUGxzaUNmOEZubVRmXzQ4ZjBiVmkyOXVJR0pNSFExOV80QXc3MVRIMEFiNlZJT3VGZlExVFdheFhrQ1dha1lDZHNjbDJielBOUFk0eWV4V0FnTjFEdnVObFotM1AxdDgwRDNrZw?oc=5",
-        "pubDate": "Thu, 13 Aug 2026 09:24:20 GMT",
-        "source": "PerugiaToday",
-        "image": null
       }
     ],
     "bartoccini": [
+      {
+        "title": "Pallavolo A1F – Francesca Michieletto è ottimista: “Black Angels, dimostriamo chi siamo”",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fd06064dd4adff5ca35309ce19&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a1f-francesca-michieletto-e-ottimista-black-angels-dimostriamo-chi-siamo%2f&c=9146656662398497587&mkt=it-it",
+        "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
+        "source": "",
+        "image": null
+      },
       {
         "title": "Volley A2 femminile, vacanze finite per la Bartoccini + energia Perugia: \"Sensazioni positive\" - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2NUWTVsWUE1OTEwWm5LNHNlVlMwRW5TVW5ncXNzalVjcEREbVpEdW9CWU5sWWlJVXRybk1Eb2pwLXRWQ3lxQnFLUW1rZmFUcGRoZG1kV1pUWjJId3hvSDg0cmNDbTM2NkpoSmZpQnBwSUlSTmpHelB2eWRhX1Y0MWpfM2Y3RDBKc3NaTjc5TDdFeEdtcFpBT3hzaHJsQmFQbUE?oc=5",
         "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
         "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "Pallavolo A2F – Due mesi all’inizio del campionato: ha preso il via a stagione delle Black Angels",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fd06064dd4adff5ca35309ce19&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f05%2fpallavolo-a2f-due-mesi-allinizio-del-campionato-ha-preso-il-via-a-stagione-delle-black-angels%2f&c=14855918711148197604&mkt=it-it",
+        "pubDate": "Tue, 04 Aug 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -90,20 +104,6 @@
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORV9iWXl1NTV3dUJRRU1XOUlQZ0FDTlZ5UlR6WDJRR2tBeGtWMnl2cDJVdW5hTlpkZm1GOEVtUnNUOTRxa2VuRksyUzdTa2tyWXl2QnBlM09LOF9tMmplaWJkNFFHMzBqbXdFMVczYUhNVUFtZVc1OXlxTlF3Z2tNTEphX2x6UkJFOEN5T3lMUmQ?oc=5",
         "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
         "source": "Lega Pallavolo Serie A Femminile",
-        "image": null
-      },
-      {
-        "title": "Volley A2 femminile, la Bartoccini MC Restauri Perugia ammessa al campionato - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2kyMmRjNGotQVVRUEZOd2tvdkZyU3Z6YnRiUGIyREROYVpoOUZqTFgtczhPSlZveFZBTVU3TGx1OGctcE1CSUhrbzVuSERtdDZfWmh4NzhjQkZXdFNQU0lrcnNLMGtweUpfcHpkOERXLUlZRGJJZ29LT0ROeml2ZE5pb0RvLXFDcHNENw?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
-        "source": "PerugiaToday",
-        "image": null
-      },
-      {
-        "title": "Volley A2 femminile, colpo grosso della Bartoccini MC Restauri Perugia: arriva Francesca Michieletto - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRUF6R3ZTX2VOUEVCOWRnTGhrODZYR0pGbmZJOVcxcTYtYXBGdjk5ODBycUs0UkRiNklkckxKZ01LMV9mMWEwS0FZOW10XzdDM3dTU3Z3elZNUGlYQ2Z5Ym9EWUlKd1Q5MXUtaVVPZm4tbUdtZGJTZ2VTOU4yTTJrRzlNV0c0RkdLZkdIQlJ4QUpadWhtSXdfaVBialMyOHg5NzVJYWMtMzFYdUk?oc=5",
-        "pubDate": "Thu, 14 May 2026 07:00:00 GMT",
-        "source": "PerugiaToday",
         "image": null
       }
     ],
@@ -138,7 +138,7 @@
       },
       {
         "title": "Terni Volley Academy, oltre mille cuori rossoverdi per spingere i Dragons: le combinazioni per la salvezza",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a868b61dc2045bd87154baab58ea06e&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fe5fc04231b821aa1a2abeaa78&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
         "pubDate": "Sun, 01 Mar 2026 00:31:00 GMT",
         "source": "",
         "image": null
@@ -150,6 +150,13 @@
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQzNDVDhIS0UzcUg2Z3BQM2VlTFhMVkFRdWlFYUtEU2dOZlpzTDZwRFM0U0lHOUZheHBhVTctSnBnWm5EaVZPQllZQ2FLOXVEWHEtZGt4OGxVT3hhLUFwcnhGMW5XM3laTHZsOXpZNGNMZTBOMmlKa0RVaDJpNE5OblpNbmhjQzFVaDNBVzhHN2w0Mmwyc2p4aFdnbmJqMWFVZE5NOHhuNEV6VmJEZ2tJT1JqSFFoWlJua1NFZC14OC1kUW1CRlRjdXBPWTlGU0kwZ0E?oc=5",
         "pubDate": "Wed, 12 Aug 2026 14:06:24 GMT",
         "source": "iVolley Magazine",
+        "image": null
+      },
+      {
+        "title": "Pallavolo A3M – ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fed42540e5a4c81b89c4dde3f1&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
+        "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -167,54 +174,47 @@
         "image": null
       },
       {
-        "title": "Conviviale di fine stagione per la ErmGroup Altotevere - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbDJiX25ESGxFTUQ5bnZBMjlsRDRDbThZZ21TSVZiMkx5b0lBODFpVS1ILXJsa1FUOVVQQ01BLXB4VmxBOHVXSUdSQzNzRnJZQW9KaUI3bDhsd1NPWmNDalduektQblRRWUFvMWVaeEI3bENrWmFpZlpyS212MWJ4cnNoWVJzZlhGU0pUWFZidw?oc=5",
-        "pubDate": "Fri, 08 May 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null
-      },
-      {
-        "title": "Playoff A3, impresa Belluno: supera Altotevere al golden set. In finale incontrerà la Domotek - volleynews.it",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR19fbVI0MGlDdERuTUp1aGNwZEJhRjhXdDNUUGVkSVJxaklkVFl2RnlmbUZ5OWtkR1ZWc3BFTU9LeFB6S1BqM0Z4TGFVM3BSRFBlVk9aNDh0bXJERHR2Z2pma2xZTXliR21tb0I3bDdwR3lhV1FQczRENmQ1S2Y2XzNIMHhsejVBZUpDd2FnclVfVkt1aUxuTTBLSVUzbkx0bVYwSHZEVVZXN1ZNRWZteVBRcXE0Z29E?oc=5",
-        "pubDate": "Fri, 01 May 2026 07:00:00 GMT",
-        "source": "volleynews.it",
+        "title": "Volley Mercato: terzo centrale per Pineto, Mirco Compagnoni",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fed42540e5a4c81b89c4dde3f1&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
+        "pubDate": "Fri, 19 Jun 2026 11:03:00 GMT",
+        "source": "",
         "image": null
       }
     ],
     "citta-castello": [
       {
-        "title": "Città di Castello Pallavolo ha conquistato una duplice storica promozione nei campionati nazionali nel settore maschile serie B in quello femminile B2 durante la stessa stagione 2026 (foto) - Umbria Social",
-        "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbVZwSDJRd1E3UDg1TktEUFd0QWZWaDFFM21BV3Z2VXAxcWtrWHlTUWpqVnp6cFNISFF2OW5BenRuR21qYmQ3WXB3MWtJeWxSY2EzMWQ1bGRib3VzSUxVSUVwbkZwMnA3SzJwYTE2ZGdTdnl4aXRiR1d0TXN2YzJlZ09MdkdvQ3Q2dUdQM0xHOFVIYmJ5SExuN3c5NFdxcWpEbV8zOXg2M19yQkw1cXZHMFVwMDBvYnFPUWJNUTFPTmVpMm5mZnk5RFo2VS1tR3F5Yk5UTHRKQkpHU0pfTXc2cTdsVUNBZmR0WW5wRmJkZjhudHNwWFdCemtaYWNIRUtLb0FrbFJIRm9zNk9tSFU1ZUpoeGxVc3FHN0JhUGlqOVN4YVM1bUVhMDUzbVRTREZsQ3RSRlM2c0xRNnNlSXBIMg?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
-        "source": "Umbria Social",
+        "title": "Tris Città di Castello. E Monteluce sogna",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fitalia%2ftris-citt%25C3%25A0-di-castello-e-monteluce-sogna%2far-AA2alQqi&c=3921296064042817829&mkt=it-it",
+        "pubDate": "Mon, 17 Aug 2026 23:13:52 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Doppia promozione. Il volley è in festa - La Nazione",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcWNFMWFYQ1VlcXhTQi1KWFZkRUFtMjh6S2dZTFpEQUVxVXlLVWd0dnBmY20xc0FkVlZadGF4UWdKNHQ1cXNhNVJzMVZXSGZaLTRIVk9YOHRyd056X2E4YmY0cUl0ZTRua3ZSc0hPTk1rWjQwX3d4bkREWnFqTVZLT0YzblY?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
-        "source": "La Nazione",
+        "title": "Volley B2 femminile. Martello per la Virtus. Castellucci ha firmato",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fvolley-b2-femminile-martello-per-la-virtus-castellucci-ha-firmato%2far-AA2a5iXU&c=18318611849264653108&mkt=it-it",
+        "pubDate": "Thu, 13 Aug 2026 23:32:01 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Città di Castello in B, espugnata Foligno in gara 3 - Umbria TV",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSTQwc0tobnNoc18tejBMRjBRcTdidEo3RDJ5SlE3Wk11QVFBYUl0VGdOazFScFgwY2I3NTRDTlM1c3I2TktYSkNmdjdNTDBTaEY1eFRwOUFKeUZ0clZhTE5RY0hEeWF5VHdRcjVyLU1YdWQ4aEJUT1RTYzk1UmwxVjZlR2lJQTZoYTdMZEotLW5sc1I2VXZwdGdXSzFTZw?oc=5",
-        "pubDate": "Sun, 07 Jun 2026 10:59:35 GMT",
-        "source": "Umbria TV",
+        "title": "Volley, il programma delle amichevoli di Altotevere: si parte contro Città di Castello",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fvolley-il-programma-delle-amichevoli-di-altotevere-si-parte-contro-citta-di-castello%2f&c=16037203838789990375&mkt=it-it",
+        "pubDate": "Tue, 11 Aug 2026 21:42:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Sport, la pallavolo Città di Castello conquista la serie B - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMzFHaks1NWtxYllDQVZ5UF9wVHJRdVM3d0dPVlRkeXE3QkgtX3dFLTNILWtGWVp6M1ZnX0JLYVZ3UWsxUnFCcU5faWVUUDhoVGdxWGc3S3daZGlxQ251S1N4WERwTzBWY3hyRmFSZU55OEx3VkRwODY2TE1wZFY5aDRLbkcyVno4UnRlaA?oc=5",
-        "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-        "source": "PerugiaToday",
+        "title": "Pallavolo A3M – ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
+        "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Città di Castello esulta a Foligno ed è promozione - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONDhmcGtJV29iWFRudkQtZGxfcjZHZk5Kc0FUZERqMkZxdURTVjgxdWtpcmhKZmZwZEZvNHZNbVBiVldUZThmMlA4eGlwcVhJRnpWUnhXd3Utd0x3S2VaNnNuZlAyN3VxRm5IUFE1eXhTb09vczNXeWI0dnlEeHBfem51c0ZUdnptV0JNSS05TWFtajA?oc=5",
-        "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-        "source": "Pianeta Volley",
+        "title": "Pallavolo Mercato – Vittoria Belotti, il primo colpo della FLV Cerignola: esperienza e qualità al centro",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f05%2fpallavolo-mercato-vittoria-belotti-il-primo-colpo-della-flv-cerignola-esperienza-e-qualita-al-centro%2f&c=7383005343612344070&mkt=it-it",
+        "pubDate": "Tue, 04 Aug 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       }
     ],
