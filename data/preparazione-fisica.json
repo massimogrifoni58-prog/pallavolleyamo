@@ -89,10 +89,6 @@
         {
           "titolo": "Condizionamento aerobico e anaerobico",
           "testo": "Il volley richiede potenza anaerobica alattacida per le azioni esplosive (2-6 secondi) e capacità aerobica per il recupero tra le azioni. Il condizionamento si sviluppa con: shuttle run (corse a navetta di 5-10-15 metri), interval training ad alta intensità (HIIT), esercizi a circuito che replicano la struttura metabolica del gioco, lavoro in campo con pallone che combina tecnica e condizionamento."
-        },
-        {
-          "titolo": "Reattività e velocità di spostamento",
-          "testo": "Nel volley si percorrono pochi metri per volta ma bisogna farlo velocissimamente e in qualsiasi direzione. La reattività si allena con esercizi di cambi di direzione: scala agilità, coni a T, esercizi di risposta a segnali visivi o acustici. È fondamentale includere anche spostamenti laterali (shuffle) e in avanti/indietro che replicano i movimenti reali di gioco. Un esercizio efficace: usa una scala agilità (o disegna i riquadri per terra con nastro adesivo) ed esegui passi laterali avanti e indietro, corsa con ginocchia alte, passi incrociati, uscita laterale con rientro — 5 passaggi per ogni schema, 3 serie totali, finalizzando ogni serie con uno sprint di 3 metri e un salto che simula un muro o un attacco."
         }
       ]
     },
@@ -116,29 +112,6 @@
         {
           "titolo": "Tecniche di recupero avanzate",
           "testo": "Le squadre professionistiche utilizzano tecniche di recupero specifiche che possono essere adattate anche al volley amatoriale e giovanile. Crioterapia localizzata: applicazione di ghiaccio su zone affaticate o doloranti per 15-20 minuti. Foam rolling (automassaggio con rullo): lavoro sui principali gruppi muscolari per ridurre le tensioni miofasciali. Bagni di contrasto: alternanza di acqua calda e fredda per stimolare la circolazione. Compressione: calze o gambali compressivi nelle ore post-gara."
-        }
-      ]
-    },
-    {
-      "id": "esercizi-pratici",
-      "titolo": "Esercizi pratici settimanali",
-      "intro": "Una raccolta di circuiti ed esercizi concreti da inserire nella routine settimanale, pensati per essere svolti in autonomia o guidati dal preparatore atletico. Ogni esercizio indica volume, progressione e frequenza consigliata.",
-      "sottosezioni": [
-        {
-          "titolo": "Circuito esplosività (3 giri)",
-          "testo": "Esegui in sequenza senza riposo: 10 squat jump (salta il più in alto possibile a ogni ripetizione), 10 balzi laterali su una gamba per lato, 10 salti su cassetta (o gradino), 10 sprint di 5 metri (avanti e indietro). Riposo 90 secondi tra i giri. Progressione: aumenta l'altezza della cassetta, aggiungi un quarto giro, riduci il riposo a 60 secondi. Effettua questo circuito 2 volte a settimana, non consecutive."
-        },
-        {
-          "titolo": "Programma core settimanale",
-          "testo": "Lunedì/Giovedì: Plank frontale 3x45 secondi, Plank laterale 3x30 secondi per lato, Hollow body 3x20 secondi. Martedì/Venerdì: Bird dog 3x12 per lato, Russian twist con pallone medicinale 3x20, Superman 3x15. Questo programma richiede 15-20 minuti ed è compatibile con qualsiasi allenamento tecnico. Dopo 4 settimane, aumenta i tempi del 20%."
-        },
-        {
-          "titolo": "Riscaldamento specifico pre-allenamento",
-          "testo": "Un riscaldamento adeguato riduce del 60% il rischio di infortuni. Protocollo: 5 minuti di jogging leggero, 2 minuti di skip e calcio al sedere, mobilità articolare delle caviglie (10 rotazioni per lato), mobilità delle anche (10 lunges con rotazione), rotazioni delle spalle (10 avanti + 10 indietro), stretching dinamico delle cosce (leg swing frontale e laterale). Poi 5 minuti di palleggio leggero prima di iniziare l'allenamento vero."
-        },
-        {
-          "titolo": "Scala agilità per il volley",
-          "testo": "Usa una scala agilità (o disegna i riquadri per terra con nastro adesivo). Esegui: passi laterali (shuffle) avanti e indietro, corsa con ginocchia alte, passi incrociati (crossover), uscita laterale + rientro. 5 passaggi per ogni schema, 3 serie totali. Finalizza ogni serie con uno sprint di 3 metri e un salto simulando un muro o un attacco. Sviluppa coordinazione, velocità di piedi e reattività specifica per il gioco."
         }
       ]
     }
