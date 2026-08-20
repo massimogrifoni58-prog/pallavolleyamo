@@ -311,6 +311,32 @@
       "provincia": "perugia",
       "foto": "/articoli/cicogna.jpg",
       "logo": null
+      },
+    {
+      "id": "25",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Nuovo Acquisto",
+      "titolo": "Si comincia con le new entry!!! ",
+      "testo": "Lei è Alice Manni, classe 2007 proveniente dalla serie D, Free Luce&Gas Narni.Sono felicissima di entrare a far parte di questa società e di affrontare un campionato stimolante come la Serie C.Non vedo l'ora di scendere in campo, conoscere le mie nuove compagne e dare il massimo per questa maglia. Ci vediamo presto in palestra!",
+      "data": "19 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/manni.jpg",
+      "logo": null
+      },
+    {
+      "id": "26",
+      "societa":  "Volley Academy Bastia",
+      "autore": "societa",
+      "categoria": "Comunicato",
+      "titolo": "La giovane Sofia Emanuelli entra a far parte della formazione di Serie C Femminile della Volley Academy Bastia",
+      "testo": "𝗦𝗰𝗵𝗶𝗮𝗰𝗰𝗶𝗮𝘁𝗿𝗶𝗰𝗲, 𝗰𝗹𝗮𝘀𝘀𝗲 𝟮𝟬𝟬𝟳, Sofia è cresciuta nei settori giovanili di School Volley e Pallavolo Perugia. Nelle ultime due stagioni ha vestito la maglia del San Feliciano, in Serie D, maturando esperienza e continuando il proprio percorso di crescita.Ora per Sofia si apre una nuova importante avventura: il salto in Serie C, dove potrà mettersi alla prova in un campionato più competitivo e proseguire il suo percorso di crescita tecnica e personale con entusiasmo e tanta voglia di lavorare.",
+      "data": "20 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "perugia",
+      "foto": "/articoli/emanuelli.jpg",
+      "logo": null
     }
   ]
 }
