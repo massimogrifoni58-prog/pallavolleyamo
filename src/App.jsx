@@ -506,14 +506,20 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
        ]}
       />
       <a className="nav-btn" href="#/mercato">Mercato</a>
+      <NavDropdown
+  label="Agenda"
+  subscribed={subscribed}
+  items={[
+    { href: "#/camp", label: "Camp Estivi 2026", locked: true },
+  ]}
+/>
         <NavDropdown
-            label="Allenatori"
-            subscribed={subscribed}
-             items={[
-               { href: "#/allenatori2", label: "Cerca Allenatore", locked: true },
-               { href: "#/velasco", label: "Julio Velasco", locked: true },
-               { href: "#/camp", label: "Camp Estivi 2026", locked: true },
-       ]}
+           label="Allenatori"
+subscribed={subscribed}
+items={[
+  { href: "#/allenatori2", label: "Cerca Allenatore", locked: true },
+  { href: "#/velasco", label: "Julio Velasco", locked: true },
+]}
       />
       </nav>
     </header>
