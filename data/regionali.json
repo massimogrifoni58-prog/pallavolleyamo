@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-21T05:02:10.089617+00:00",
+  "generatedAt": "2026-08-21T05:28:04.392070+00:00",
   "posts": [
+    {
+      "id": "news-6",
+      "title": "La Fipav approva il bilancio preventivo 2023",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Wed, 21 Dec 2022 09:21:00 GMT",
+      "image": "http://cdn.corrieredellosport.it/images/2022/12/21/162141229-d8db2edc-f9df-491d-b5c9-e3e186ff0aec.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/volley/2022/12/21-101377702/la_fipav_approva_il_bilancio_preventivo_2023"
+    },
     {
       "id": "news-6",
       "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
@@ -10,7 +18,7 @@
       "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Pallavolo A2F – Claudia Consoli racconta il “primo impatto” con la realtà Bartoccini +energia Perugia",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 19 Aug 2026 17:01:00 GMT",
@@ -50,6 +58,14 @@
       "permalink": "https://www.ivolleymagazine.it/2025/06/19/pallavolo-news-il-26-giugno-la-presentazione-della-neonata-terni-volley-academy-giochera-in-a3-maschile/"
     },
     {
+      "id": "news-6",
+      "title": "Coppa Italia Under 12 S3 3vs3 da domani in Umbria",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Wed, 15 Sep 2021 13:40:00 GMT",
+      "image": "http://cdn.tuttosport.com/images/2021/09/15/184029756-2c407ca7-98db-4460-a59d-e66c46ce7913.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/2021/09/15-85349584/coppa_italia_under_12_s3_3vs3_da_domani_in_umbria"
+    },
+    {
       "id": "news-1",
       "title": "Volley. L'ex azzurro Biribanti: «In quattro anni Terni può tornare in serie A»",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -58,7 +74,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -82,7 +98,7 @@
       "permalink": "https://www.sporterni.it/articolo.php?id=27748"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Pallavolo C1/M: ottimo esordio per la Terni Volley",
       "excerpt": "Fonte: sporterni.it",
       "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
@@ -112,14 +128,6 @@
       "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/nova-volley-cade-in-casa-f142f098"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo: primi allenamenti per la Sir Perugia campione d'Europa",
-      "excerpt": "Fonte: sportmediaset.mediaset.it",
-      "createdTime": "Tue, 19 Aug 2025 01:03:00 GMT",
-      "image": "https://img-api.cloud.mediaset.net/api/images/cu/v2/-/1200/675/aHR0cHM6Ly93d3cuc3BvcnRtZWRpYXNldC5tZWRpYXNldC5pdC9hc3NldHMvbWlzYy9zcG9ydG1lZGlhc2V0LWJhY2tncm91bmQucG5n?r=-1",
-      "permalink": "https://www.sportmediaset.mediaset.it/sport/pallavolo-primi-allenamenti-per-la-sir-perugia-campione-d-europa_102351261-202502k.shtml"
     },
     {
       "id": "news-0",
@@ -162,12 +170,20 @@
       "permalink": "https://www.pianetavolley.net/2026/08/selezione-di-beach-volley-per-la-rappresentativa-umbra-20/"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Volley. Pgs Bosico Terni, c’è il progetto pilota",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Tue, 07 Jan 2025 23:20:00 GMT",
       "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
       "permalink": "https://sport.quotidiano.net/volley/volley-pgs-bosico-terni-53156cc5"
+    },
+    {
+      "id": "news-3",
+      "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
+      "excerpt": "Fonte: ansa.it",
+      "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
+      "image": "https://www.ansa.it/sito/img/ico/ansa-700x366-precomposed.png",
+      "permalink": "https://www.ansa.it/umbria/notizie/2023/05/02/ilaria-vagni-1/o-arbitro-alla-finale-scudetto-maschile-di-volley_9be60c73-6433-488b-a30a-bb0e0a096741.html"
     },
     {
       "id": "news-0",
@@ -178,7 +194,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
@@ -186,12 +202,20 @@
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Pallavolo A3M – Terni, Coach Giombini analizza la prima parte della stagione: “Potevamo fare di più”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 25 Dec 2025 16:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
+    },
+    {
+      "id": "news-1",
+      "title": "Luca Loreti: «Da Tor Sapienza a Perugia sulle orme del mito Colaci»",
+      "excerpt": "Fonte: roma.corriere.it",
+      "createdTime": "Thu, 20 Aug 2026 17:00:00 GMT",
+      "image": "https://dimages2.corriereobjects.it/files/image_1200_900/files/fp/uploads/2026/08/20/6a8744717ffb5.r_d.775-838-9787.jpeg",
+      "permalink": "https://roma.corriere.it/notizie/sport/26_agosto_21/luca-loreti-da-tor-sapienza-a-perugia-sulle-orme-del-mito-colaci-5e88cb96-f1ed-4a9c-9f76-031eabaffxlk.shtml"
     },
     {
       "id": "claudiaconsoliaperugiailclimas",
@@ -218,14 +242,6 @@
       "permalink": "https://www.pianetavolley.net/2026/08/federico-crosato-ai-giochi-del-mediterraneo/"
     },
     {
-      "id": "news-5",
-      "title": "A Bastia la prestigiosa ribalta per la pallavolo giovanile femminile",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Sun, 31 Dec 2023 02:08:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2023/12/31/1704017324428_pallavolo.bmp",
-      "permalink": "https://www.rainews.it/tgr/umbria/articoli/2023/12/a-bastia-la-prestigiosa-ribalta-per-la-pallavolo-giovanile-femminile-0e8b206e-7488-4e09-87c9-1fc9a155df1f.html"
-    },
-    {
       "id": "news-2",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -234,7 +250,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -250,7 +266,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
@@ -258,7 +274,7 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "La prima Champions League maschile di Perugia nella pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
@@ -266,7 +282,7 @@
       "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
       "title": "Pallavolo: Perugia da sogno, a Torino arriva il bis in Champions",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 17 May 2026 15:36:00 GMT",
@@ -282,23 +298,7 @@
       "permalink": "https://www.today.it/sport/volley/volley-serie-b-la-sir-its-umbria-academy-perugia-chiude-il-campionato-con-l-ottava-vittoria-consecutiva.html"
     },
     {
-      "id": "news-7",
-      "title": "Pallavolo, in Umbria la due giorni degli arbitri di serie A",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Sun, 09 Sep 2012 02:24:00 GMT",
-      "image": "https://umbria24-ams.newspackstaging.com/notizie/wp-content/uploads/2012/09/volley-italia-wild-card-300x234.jpg?resize=300%2C234",
-      "permalink": "https://www.umbria24.it/attualita/pallavolo-umbria-giorni-arbitri-serie/"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo Mercato – Jasmin Nicol Danaila è una nuova Tigre arancio-blu",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sun, 09 Aug 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/10/pallavolo-mercato-jasmin-nicol-danaila-e-una-nuova-tigre-arancio-blu/"
-    },
-    {
-      "id": "news-5",
+      "id": "news-3",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 07 Sep 2025 23:30:00 GMT",
@@ -306,7 +306,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-2",
+      "id": "news-5",
       "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
@@ -322,7 +322,15 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
     },
     {
-      "id": "news-2",
+      "id": "news-7",
+      "title": "Giada Cecchetto resta in Umbria: giocherà a Perugia",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Sat, 29 Jun 2019 09:51:00 GMT",
+      "image": null,
+      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/pallavolo-femminile-a1/2019/06/29-58445024/giada_cecchetto_resta_in_umbria_giochera_a_perugia"
+    },
+    {
+      "id": "news-4",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -352,14 +360,6 @@
       "createdTime": "Mon, 19 Nov 2012 10:09:00 GMT",
       "image": null,
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
-    },
-    {
-      "id": "news-6",
-      "title": "Pallavolo: Rpa lascia Umbria volley",
-      "excerpt": "Fonte: lagazzettadelmezzogiorno.it",
-      "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
-      "image": "https://www.lagazzettadelmezzogiorno.it/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
-      "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
     },
     {
       "id": "news-1",
