@@ -5283,15 +5283,41 @@ function BannerIscrizione({ onClose }) {
 }
 function AgendaPage() {
   const partite = calendarioSquadreData.partite || [];
+  const oggi = new Date();
+  const [meseCorrente, setMeseCorrente] = useState(new Date(oggi.getFullYear(), oggi.getMonth(), 1));
+  const [selectedDay, setSelectedDay] = useState(null);
 
-  const oggi = new Date().toISOString().split("T")[0];
-  const partiteFuture = partite.filter(p => p.data >= oggi);
-  const partitePassate = partite.filter(p => p.data < oggi).reverse();
+  const anno = meseCorrente.getFullYear();
+  const mese = meseCorrente.getMonth();
 
-  function formatDataItaliana(dataISO) {
-    const d = new Date(dataISO + "T00:00:00");
-    return d.toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+  const partiteMap = {};
+  partite.forEach(p => {
+    if (!partiteMap[p.data]) partiteMap[p.data] = [];
+    partiteMap[p.data].push(p);
+  });
+
+  const primoDelMese = new Date(anno, mese, 1);
+  const ultimoDelMese = new Date(anno, mese + 1, 0);
+  const giorniNelMese = ultimoDelMese.getDate();
+  let primoGiornoSettimana = primoDelMese.getDay();
+  primoGiornoSettimana = primoGiornoSettimana === 0 ? 6 : primoGiornoSettimana - 1;
+
+  const celle = [];
+  for (let i = 0; i < primoGiornoSettimana; i++) celle.push(null);
+  for (let d = 1; d <= giorniNelMese; d++) celle.push(d);
+
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function dataISO(d) { return `${anno}-${pad(mese + 1)}-${pad(d)}`; }
+
+  const meseNome = meseCorrente.toLocaleDateString("it-IT", { month: "long", year: "numeric" });
+  const oggiISO = `${oggi.getFullYear()}-${pad(oggi.getMonth() + 1)}-${pad(oggi.getDate())}`;
+
+  function cambiaMese(delta) {
+    setMeseCorrente(new Date(anno, mese + delta, 1));
+    setSelectedDay(null);
   }
+
+  const partiteSelezionate = selectedDay ? (partiteMap[selectedDay] || []) : [];
 
   return (
     <main>
@@ -5299,84 +5325,117 @@ function AgendaPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
 
-        {partiteFuture.length === 0 && partitePassate.length === 0 && (
-          <p className="state">Nessuna partita in calendario al momento.</p>
-        )}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1rem" }}>
+          <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
+          <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)" }}>
+            {meseNome}
+          </div>
+          <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
+        </div>
 
-        {partiteFuture.length > 0 && (
-          <>
-            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "1rem" }}>Prossime partite</h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "2rem" }}>
-              {partiteFuture.map(p => (
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "4px", marginBottom: "0.5rem" }}>
+          {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
+            <div key={g} style={{ textAlign: "center", fontSize: "0.65rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+              {g}
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "4px", marginBottom: "1.5rem" }}>
+          {celle.map((d, i) => {
+            if (d === null) return <div key={`empty-${i}`} />;
+            const iso = dataISO(d);
+            const haPartite = partiteMap[iso] && partiteMap[iso].length > 0;
+            const isOggi = iso === oggiISO;
+            const isSelected = iso === selectedDay;
+            return (
+              <button
+                key={iso}
+                onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
+                style={{
+                  aspectRatio: "1",
+                  border: isOggi ? "2px solid var(--gold)" : "1px solid var(--border)",
+                  borderRadius: "8px",
+                  background: isSelected ? "rgba(212,175,55,0.2)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
+                  color: haPartite ? "var(--text)" : "var(--text-dim)",
+                  cursor: haPartite ? "pointer" : "default",
+                  fontSize: "0.78rem",
+                  fontWeight: haPartite ? 700 : 400,
+                  position: "relative",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {d}
+                {haPartite && (
+                  <span style={{
+                    position: "absolute",
+                    bottom: "3px",
+                    width: "5px",
+                    height: "5px",
+                    borderRadius: "50%",
+                    background: "var(--gold)",
+                  }} />
+                )}
+              </button>
+            );
+          })}
+        </div>
+
+        {selectedDay && partiteSelezionate.length > 0 && (
+          <div style={{ marginBottom: "2rem" }}>
+            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
+              {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {partiteSelezionate.map(p => (
                 <div key={p.id} style={{
                   border: "1px solid var(--border)",
                   borderRadius: "10px",
                   padding: "0.85rem 1rem",
-                  display: "flex",
-                  gap: "1rem",
-                  alignItems: "center",
                 }}>
-                  <div style={{
-                    background: "rgba(212,175,55,0.1)",
-                    borderRadius: "8px",
-                    padding: "0.4rem 0.7rem",
-                    textAlign: "center",
-                    minWidth: "60px",
-                    flexShrink: 0,
-                  }}>
-                    <div style={{ fontSize: "0.65rem", color: "var(--text-dim)", textTransform: "uppercase" }}>
-                      {new Date(p.data + "T00:00:00").toLocaleDateString("it-IT", { month: "short" })}
-                    </div>
-                    <div style={{ fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)" }}>
-                      {new Date(p.data + "T00:00:00").getDate()}
-                    </div>
+                  <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                    {p.categoria} {p.ora && `· ${p.ora}`}
                   </div>
-                  <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.2rem" }}>
-                      {p.categoria} {p.ora && `· ${p.ora}`}
-                    </div>
-                    <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
-                      {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
-                    </div>
-                    {p.impianto && (
-                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>
-                        📍 {p.impianto}
-                      </div>
-                    )}
+                  <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                    {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
                   </div>
+                  {p.risultato && (
+                    <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
+                  )}
+                  {p.impianto && (
+                    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
+                      📍 {p.impianto}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
-          </>
+          </div>
         )}
 
-        {partitePassate.length > 0 && (
-          <>
-            <h3 style={{ fontSize: "0.85rem", color: "var(--text-dim)", marginBottom: "1rem" }}>Risultati recenti</h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              {partitePassate.slice(0, 10).map(p => (
-                <div key={p.id} style={{
-                  border: "1px solid var(--border)",
-                  borderRadius: "8px",
-                  padding: "0.6rem 0.9rem",
-                  fontSize: "0.82rem",
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                }}>
-                  <div>
-                    <span style={{ color: "var(--text-dim)", fontSize: "0.7rem" }}>{formatDataItaliana(p.data)}</span>
-                    <div>{p.casa} <strong style={{ color: "var(--gold)" }}>{p.risultato}</strong> {p.ospite}</div>
-                  </div>
-                </div>
-              ))}
+        <h3 style={{ fontSize: "0.85rem", color: "var(--text-dim)", marginBottom: "1rem" }}>Tutte le partite</h3>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+          {partite.slice().sort((a, b) => b.data.localeCompare(a.data)).map(p => (
+            <div key={p.id} style={{
+              border: "1px solid var(--border)",
+              borderRadius: "8px",
+              padding: "0.6rem 0.9rem",
+              fontSize: "0.82rem",
+            }}>
+              <span style={{ color: "var(--text-dim)", fontSize: "0.7rem" }}>
+                {new Date(p.data + "T00:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "short" })}
+              </span>
+              <div>{p.casa} <strong style={{ color: "var(--gold)" }}>{p.risultato || "vs"}</strong> {p.ospite}</div>
             </div>
-          </>
-        )}
+          ))}
+        </div>
       </section>
     </main>
   );
 }
+
 export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
