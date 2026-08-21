@@ -21,7 +21,7 @@ Output:
 import html as html_module
 import json
 import re
-import sys
+import sysF
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,6 +37,8 @@ VOLLEYUMBRIA_FEEDS = [
     "https://www.volleyumbria.it/index.php/category/settore-giovanile/feed/",
     "https://www.volleyumbria.it/index.php/category/campionati-regionali-volley-in-umbria/feed/",
 ]
+PALLAVOLO_IT_FEED = "https://www.pallavolo.it/feed/"
+UMBRIA_KEYWORDS = ["umbria", "perugia", "terni", "trestina", "foligno", "assisi", "gubbio", "spoleto", "narni", "orvieto", "gualdo", "todi", "spello", "bastia", "marsciano", "castiglione del lago", "città di castello", "san giustino"]
 # --- Fonte 2: Bing News RSS (piu' ricerche per coprire tutta la regione) ---
 NEWS_QUERIES = [
     "pallavolo Umbria",
@@ -173,7 +175,37 @@ def fetch_volleyumbria():
         except Exception as e:
             print(f"  ERRORE VolleyUmbria feed {feed_url}: {e}")
     return posts
+PALLAVOLO_IT_FEED = "https://www.pallavolo.it/feed/"
+UMBRIA_KEYWORDS = ["umbria", "perugia", "terni", "trestina", "foligno", "assisi", "gubbio", "spoleto", "narni", "orvieto", "gualdo", "todi", "spello", "bastia", "marsciano", "castiglione del lago", "città di castello", "san giustino"]
 
+def fetch_pallavolo_it():
+    posts = []
+    try:
+        req = urllib.request.Request(PALLAVOLO_IT_FEED, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as response:
+            xml_bytes = response.read()
+        root = ET.fromstring(xml_bytes)
+        items = root.findall("./channel/item")
+        for item in items:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            pub_date = (item.findtext("pubDate") or "").strip()
+            desc = (item.findtext("description") or "").strip()
+            testo_completo = (title + " " + desc).lower()
+            if not any(kw in testo_completo for kw in UMBRIA_KEYWORDS):
+                continue
+            posts.append({
+                "id": f"pvit-{len(posts)}",
+                "title": title,
+                "excerpt": "Fonte: pallavolo.it",
+                "createdTime": pub_date,
+                "image": None,
+                "permalink": link,
+            })
+        print(f"  Pallavolo.it: {len(posts)} notizie umbre trovate")
+    except Exception as e:
+        print(f"  ERRORE Pallavolo.it: {e}")
+    return posts
 
 def normalize_fipav(raw_post):
     return {
@@ -289,7 +321,11 @@ def main():
     for p in vu_posts:
         p["image"] = fetch_og_image(p["permalink"])
     print(f"  Trovate {len(fipav_posts)} notizie.")
-
+    
+    reaprint("- Fonte 4: Pallavolo.it")
+    pvit_posts = fetch_pallavolo_it()
+    for p in pvit_posts:
+        p["image"] = fetch_og_image(p["permalink"])
     print(f"- Fonte 2: Bing News ({len(NEWS_QUERIES)} ricerche)")
     news_posts = []
     seen_links_news = set()
@@ -307,7 +343,7 @@ def main():
     for p in news_posts:
         p["image"] = fetch_og_image(p["permalink"])
 
-    all_posts = fipav_posts + vu_posts + news_posts
+    all_posts = fipav_posts + vu_posts + pvit_posts + news_posts
 
     # Eliminiamo eventuali link duplicati
     seen = set()
