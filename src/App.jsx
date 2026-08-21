@@ -5341,7 +5341,15 @@ function AgendaPage() {
           ))}
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "4px", marginBottom: "1.5rem" }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
+          {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
+            <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+              {g}
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "1.5rem", maxWidth: "420px", margin: "0 auto 1.5rem" }}>
           {celle.map((d, i) => {
             if (d === null) return <div key={`empty-${i}`} />;
             const iso = dataISO(d);
@@ -5354,26 +5362,29 @@ function AgendaPage() {
                 onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
                 style={{
                   aspectRatio: "1",
-                  border: isOggi ? "2px solid var(--gold)" : "1px solid var(--border)",
-                  borderRadius: "8px",
-                  background: isSelected ? "rgba(212,175,55,0.2)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
+                  maxWidth: "48px",
+                  maxHeight: "48px",
+                  border: isOggi ? "2px solid var(--gold)" : "1.5px solid var(--border-strong, var(--border))",
+                  borderRadius: "6px",
+                  background: isSelected ? "rgba(212,175,55,0.25)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
                   color: haPartite ? "var(--text)" : "var(--text-dim)",
                   cursor: haPartite ? "pointer" : "default",
-                  fontSize: "0.78rem",
+                  fontSize: "0.72rem",
                   fontWeight: haPartite ? 700 : 400,
                   position: "relative",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  margin: "0 auto",
                 }}
               >
                 {d}
                 {haPartite && (
                   <span style={{
                     position: "absolute",
-                    bottom: "3px",
-                    width: "5px",
-                    height: "5px",
+                    bottom: "2px",
+                    width: "4px",
+                    height: "4px",
                     borderRadius: "50%",
                     background: "var(--gold)",
                   }} />
@@ -5384,7 +5395,7 @@ function AgendaPage() {
         </div>
 
         {selectedDay && partiteSelezionate.length > 0 && (
-          <div style={{ marginBottom: "2rem" }}>
+          <div style={{ marginBottom: "1rem" }}>
             <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
               {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
             </h3>
@@ -5415,22 +5426,11 @@ function AgendaPage() {
           </div>
         )}
 
-        <h3 style={{ fontSize: "0.85rem", color: "var(--text-dim)", marginBottom: "1rem" }}>Tutte le partite</h3>
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-          {partite.slice().sort((a, b) => b.data.localeCompare(a.data)).map(p => (
-            <div key={p.id} style={{
-              border: "1px solid var(--border)",
-              borderRadius: "8px",
-              padding: "0.6rem 0.9rem",
-              fontSize: "0.82rem",
-            }}>
-              <span style={{ color: "var(--text-dim)", fontSize: "0.7rem" }}>
-                {new Date(p.data + "T00:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "short" })}
-              </span>
-              <div>{p.casa} <strong style={{ color: "var(--gold)" }}>{p.risultato || "vs"}</strong> {p.ospite}</div>
-            </div>
-          ))}
-        </div>
+        {!selectedDay && (
+          <p className="state" style={{ textAlign: "center", fontSize: "0.8rem" }}>
+            Clicca su un giorno evidenziato per vedere le partite.
+          </p>
+        )}
       </section>
     </main>
   );
