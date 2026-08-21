@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-08-21T13:48:55.573443+00:00",
+  "generatedAt": "2026-08-21T16:22:53.009010+00:00",
   "partite": [
+    {
+      "id": "excel-34",
+      "categoria": "Serie A2 f",
+      "data": "2026-10-05",
+      "ora": "20:30:00",
+      "casa": "Futura Giovani Busto Arsizio",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Soevis Arena - Castellanza"
+    },
+    {
+      "id": "excel-35",
+      "categoria": "Serie A2 f",
+      "data": "2026-10-11",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Panbiscò Leonessa Altamura",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-36",
+      "categoria": "Serie A2 f",
+      "data": "2026-10-14",
+      "ora": "20:30:00",
+      "casa": "Tenaglia Altino Avastese Volley",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palazzetto Dello Sport - Vasto"
+    },
     {
       "id": "excel-2",
       "categoria": "Superlega",
@@ -30,6 +60,16 @@
       "ospite": "Negrini CTE Acqui Terme",
       "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
+    },
+    {
+      "id": "excel-37",
+      "categoria": "Serie A2 f",
+      "data": "2026-10-18",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Nuvolì Altafratte Padova",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
     },
     {
       "id": "excel-3",
@@ -92,6 +132,16 @@
       "impianto": "Palazzetto dello Sport Sarroch (CA)"
     },
     {
+      "id": "excel-38",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-01",
+      "ora": "17:00:00",
+      "casa": "Dragons Offanengo",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Pala Coim - Offanengo"
+    },
+    {
       "id": "excel-5",
       "categoria": "Superlega",
       "data": "2026-11-04",
@@ -132,6 +182,16 @@
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
+      "id": "excel-39",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-08",
+      "ora": "17:00:00",
+      "casa": "Clai Imola Volley",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palasport A. Ruggi - Imola"
+    },
+    {
       "id": "excel-17",
       "categoria": "Serie A3",
       "data": "2026-11-15",
@@ -150,6 +210,26 @@
       "ospite": "ErmGroup Altotevere",
       "risultato": "0-0",
       "impianto": "Centro Sportivo Paolo VI  Brugherio (MB)"
+    },
+    {
+      "id": "excel-40",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-15",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Club Italia",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-41",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-18",
+      "ora": "20:30:00",
+      "casa": "Itas Trentino",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Sanbapolis - Trento"
     },
     {
       "id": "excel-7",
@@ -182,6 +262,16 @@
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
+      "id": "excel-42",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-22",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Olio Pantaleo Volley Fasano",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
       "id": "excel-8",
       "categoria": "Superlega",
       "data": "2026-11-29",
@@ -210,6 +300,16 @@
       "ospite": "ErmGroup Altotevere",
       "risultato": "0-0",
       "impianto": "Pala Barbazza San Donà di Piave (VE)"
+    },
+    {
+      "id": "excel-43",
+      "categoria": "Serie A2 f",
+      "data": "2026-11-29",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Narconon Volley Melendugno",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
     },
     {
       "id": "excel-9",
@@ -252,6 +352,16 @@
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
+      "id": "excel-44",
+      "categoria": "Serie A2 f",
+      "data": "2026-12-06",
+      "ora": "17:00:00",
+      "casa": "Wash4Green Monviso Volley",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Pala Bus Company - Villafranca Piemonte"
+    },
+    {
       "id": "excel-11",
       "categoria": "Superlega",
       "data": "2026-12-13",
@@ -282,6 +392,26 @@
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
+      "id": "excel-45",
+      "categoria": "Serie A2 f",
+      "data": "2026-12-13",
+      "ora": "17:00:00",
+      "casa": "VBC Cremonese",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Pala Radi - Cremona"
+    },
+    {
+      "id": "excel-46",
+      "categoria": "Serie A2 f",
+      "data": "2026-12-16",
+      "ora": "20:30:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Akademia Sant'Anna Messina",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
       "id": "excel-12",
       "categoria": "Superlega",
       "data": "2026-12-20",
@@ -302,6 +432,16 @@
       "impianto": "Pala200 Settimo Torinese (TO)"
     },
     {
+      "id": "excel-47",
+      "categoria": "Serie A2 f",
+      "data": "2026-12-20",
+      "ora": "17:00:00",
+      "casa": "Sigel Seap Marsala Volley",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palazzetto Dello Sport \"San Carlo\" - Marsala"
+    },
+    {
       "id": "excel-22",
       "categoria": "Serie A3",
       "data": "2026-12-27",
@@ -320,6 +460,186 @@
       "ospite": "Kerakoll Sassuolo",
       "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
+    },
+    {
+      "id": "excel-48",
+      "categoria": "Serie A2 f",
+      "data": "2026-12-27",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Ferraro SMI Roma Volley",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-49",
+      "categoria": "Serie A2 f",
+      "data": "2027-01-06",
+      "ora": "17:00:00",
+      "casa": "C.B.L. Costa Volpino",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Pala Cbl - Costa Volpino"
+    },
+    {
+      "id": "excel-50",
+      "categoria": "Serie A2 f",
+      "data": "2027-01-10",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Futura Giovani Busto Arsizio",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-51",
+      "categoria": "Serie A2 f",
+      "data": "2027-01-17",
+      "ora": "17:00:00",
+      "casa": "Panbiscò Leonessa Altamura",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palazzetto \"Luca Baldassarra\" - Altamura"
+    },
+    {
+      "id": "excel-52",
+      "categoria": "Serie A2 f",
+      "data": "2027-01-20",
+      "ora": "20:30:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Tenaglia Altino Avastese Volley",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-53",
+      "categoria": "Serie A2 f",
+      "data": "2027-01-24",
+      "ora": "17:00:00",
+      "casa": "Nuvolì Altafratte Padova",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palazzetto Dello Sport - Trebaseleghe"
+    },
+    {
+      "id": "excel-54",
+      "categoria": "Serie A2 f",
+      "data": "2027-02-03",
+      "ora": "20:30:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Dragons Offanengo",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-55",
+      "categoria": "Serie A2 f",
+      "data": "2027-02-07",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Clai Imola Volley",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-56",
+      "categoria": "Serie A2 f",
+      "data": "2027-02-13",
+      "ora": "16:00:00",
+      "casa": "Club Italia",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Pala Raschi - Parma"
+    },
+    {
+      "id": "excel-57",
+      "categoria": "Serie A2 f",
+      "data": "2027-02-21",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Itas Trentino",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-58",
+      "categoria": "Serie A2 f",
+      "data": "2027-02-28",
+      "ora": "17:00:00",
+      "casa": "Olio Pantaleo Volley Fasano",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palasport Vigna Marina - Fasano"
+    },
+    {
+      "id": "excel-59",
+      "categoria": "Serie A2 f",
+      "data": "2027-03-03",
+      "ora": "20:30:00",
+      "casa": "Narconon Volley Melendugno",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palestra Polivalente San Giuseppe Da Copertino - Lecce"
+    },
+    {
+      "id": "excel-60",
+      "categoria": "Serie A2 f",
+      "data": "2027-03-07",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Wash4Green Monviso Volley",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-61",
+      "categoria": "Serie A2 f",
+      "data": "2027-03-14",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "VBC Cremonese",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-62",
+      "categoria": "Serie A2 f",
+      "data": "2027-03-21",
+      "ora": "17:00:00",
+      "casa": "Akademia Sant'Anna Messina",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palarescifina - Messina"
+    },
+    {
+      "id": "excel-63",
+      "categoria": "Serie A2 f",
+      "data": "2027-03-28",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "Sigel Seap Marsala Volley",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
+    },
+    {
+      "id": "excel-64",
+      "categoria": "Serie A2 f",
+      "data": "2027-04-04",
+      "ora": "17:00:00",
+      "casa": "Ferraro SMI Roma Volley",
+      "ospite": "Bartoccini +energia Perugia",
+      "risultato": null,
+      "impianto": "Palazzetto Dello Sport - Roma"
+    },
+    {
+      "id": "excel-65",
+      "categoria": "Serie A2 f",
+      "data": "2027-04-11",
+      "ora": "17:00:00",
+      "casa": "Bartoccini +energia Perugia",
+      "ospite": "C.B.L. Costa Volpino",
+      "risultato": null,
+      "impianto": "Pala Barton Energy - Perugia"
     }
   ]
 }
