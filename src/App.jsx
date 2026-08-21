@@ -5333,14 +5333,6 @@ function AgendaPage() {
           <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "4px", marginBottom: "0.5rem" }}>
-          {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
-            <div key={g} style={{ textAlign: "center", fontSize: "0.65rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
-              {g}
-            </div>
-          ))}
-        </div>
-
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
           {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
             <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
