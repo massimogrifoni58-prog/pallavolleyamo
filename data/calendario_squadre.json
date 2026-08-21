@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-08-21T11:03:11.628783+00:00",
+  "partite": [
+    {
+      "id": "sir-perugia-0",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2025-11-26",
+      "ora": "20:30",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Vero Volley Monza",
+      "risultato": "3-1",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    },
+    {
+      "id": "sir-perugia-1",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2025-12-26",
+      "ora": "18:00",
+      "casa": "Cisterna Volley",
+      "ospite": "Sir Susa Scai Perugia",
+      "risultato": "0-3",
+      "impianto": "Palasport di Cisterna di Latina Cisterna di Latina (LT)"
+    },
+    {
+      "id": "sir-perugia-2",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-01-04",
+      "ora": "16:00",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Allianz Milano",
+      "risultato": "3-1",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    },
+    {
+      "id": "sir-perugia-3",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-01-11",
+      "ora": "18:00",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Valsa Group Modena",
+      "risultato": "3-1",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    },
+    {
+      "id": "sir-perugia-4",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-01-14",
+      "ora": "20:30",
+      "casa": "MA Acqua S.Bernardo Cuneo",
+      "ospite": "Sir Susa Scai Perugia",
+      "risultato": "0-3",
+      "impianto": "Palasport di Cuneo Cuneo (CN)"
+    },
+    {
+      "id": "sir-perugia-5",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-01-18",
+      "ora": "18:00",
+      "casa": "Cucine Lube Civitanova",
+      "ospite": "Sir Susa Scai Perugia",
+      "risultato": "1-3",
+      "impianto": "Eurosuole Forum Civitanova Marche (MC)"
+    },
+    {
+      "id": "sir-perugia-6",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-01-25",
+      "ora": "18:00",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Itas Trentino",
+      "risultato": "3-1",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    },
+    {
+      "id": "sir-perugia-7",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-02-01",
+      "ora": "17:00",
+      "casa": "Sonepar Padova",
+      "ospite": "Sir Susa Scai Perugia",
+      "risultato": "1-3",
+      "impianto": "Kioene Arena Padova (PD)"
+    },
+    {
+      "id": "sir-perugia-8",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-02-15",
+      "ora": "18:00",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Gas Sales Bluenergy Piacenza",
+      "risultato": "3-2",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    },
+    {
+      "id": "sir-perugia-9",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-02-21",
+      "ora": "20:30",
+      "casa": "Rana Verona",
+      "ospite": "Sir Susa Scai Perugia",
+      "risultato": "0-3",
+      "impianto": "Pala Agsm AIM Verona (VR)"
+    },
+    {
+      "id": "sir-perugia-10",
+      "squadra": "Sir Susa Vim Perugia",
+      "categoria": "Superlega",
+      "data": "2026-02-25",
+      "ora": "20:30",
+      "casa": "Sir Susa Scai Perugia",
+      "ospite": "Yuasa Battery Grottazzolina",
+      "risultato": "3-0",
+      "impianto": "Pala Barton Energy Perugia (PG)"
+    }
+  ]
+}

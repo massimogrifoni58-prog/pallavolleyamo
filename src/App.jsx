@@ -18,6 +18,7 @@ import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
 import newsGeneraliData from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
+import calendarioSquadreData from "../data/calendario_squadre.json";
 import * as d3 from "d3";
 import L from "leaflet";
 import societaData from "../data/societa.json";
@@ -510,6 +511,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
   label="Agenda"
   subscribed={subscribed}
   items={[
+    { href: "#/agenda", label: "Calendario Squadre", locked: true },
     { href: "#/camp", label: "Camp Estivi 2026", locked: true },
   ]}
 />
@@ -5279,6 +5281,102 @@ function BannerIscrizione({ onClose }) {
     </div>
   );
 }
+function AgendaPage() {
+  const partite = calendarioSquadreData.partite || [];
+
+  const oggi = new Date().toISOString().split("T")[0];
+  const partiteFuture = partite.filter(p => p.data >= oggi);
+  const partitePassate = partite.filter(p => p.data < oggi).reverse();
+
+  function formatDataItaliana(dataISO) {
+    const d = new Date(dataISO + "T00:00:00");
+    return d.toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+  }
+
+  return (
+    <main>
+      <CampionatiHero titolo="Agenda" />
+      <section className="section">
+        <h2 className="feed-heading">Calendario Squadre Umbre</h2>
+
+        {partiteFuture.length === 0 && partitePassate.length === 0 && (
+          <p className="state">Nessuna partita in calendario al momento.</p>
+        )}
+
+        {partiteFuture.length > 0 && (
+          <>
+            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "1rem" }}>Prossime partite</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "2rem" }}>
+              {partiteFuture.map(p => (
+                <div key={p.id} style={{
+                  border: "1px solid var(--border)",
+                  borderRadius: "10px",
+                  padding: "0.85rem 1rem",
+                  display: "flex",
+                  gap: "1rem",
+                  alignItems: "center",
+                }}>
+                  <div style={{
+                    background: "rgba(212,175,55,0.1)",
+                    borderRadius: "8px",
+                    padding: "0.4rem 0.7rem",
+                    textAlign: "center",
+                    minWidth: "60px",
+                    flexShrink: 0,
+                  }}>
+                    <div style={{ fontSize: "0.65rem", color: "var(--text-dim)", textTransform: "uppercase" }}>
+                      {new Date(p.data + "T00:00:00").toLocaleDateString("it-IT", { month: "short" })}
+                    </div>
+                    <div style={{ fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)" }}>
+                      {new Date(p.data + "T00:00:00").getDate()}
+                    </div>
+                  </div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.2rem" }}>
+                      {p.categoria} {p.ora && `· ${p.ora}`}
+                    </div>
+                    <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                      {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
+                    </div>
+                    {p.impianto && (
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>
+                        📍 {p.impianto}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
+        {partitePassate.length > 0 && (
+          <>
+            <h3 style={{ fontSize: "0.85rem", color: "var(--text-dim)", marginBottom: "1rem" }}>Risultati recenti</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {partitePassate.slice(0, 10).map(p => (
+                <div key={p.id} style={{
+                  border: "1px solid var(--border)",
+                  borderRadius: "8px",
+                  padding: "0.6rem 0.9rem",
+                  fontSize: "0.82rem",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}>
+                  <div>
+                    <span style={{ color: "var(--text-dim)", fontSize: "0.7rem" }}>{formatDataItaliana(p.data)}</span>
+                    <div>{p.casa} <strong style={{ color: "var(--gold)" }}>{p.risultato}</strong> {p.ospite}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+      </section>
+    </main>
+  );
+}
 export default function App() {
 const route = useRoute();
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
@@ -5334,6 +5432,7 @@ useEffect(() => {
           {route === "video" && <VideoPage />}
           {route === "mappa" && <MappaPage />}
           {route === "camp" && <CampEstiviPage />}
+          {route === "agenda" && <AgendaPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
           {route === "squadre-top" && <SquadreTopPage />}
