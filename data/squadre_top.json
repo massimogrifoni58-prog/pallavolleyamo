@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T05:30:40.463467+00:00",
+  "generatedAt": "2026-08-21T05:07:45.404372+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,17 +35,24 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Carotti forgia la Sir: \"I ragazzi sono carichi\"",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1d6e214851a257087763785f2f&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fother%2fcarotti-forgia-la-sir-i-ragazzi-sono-carichi%2far-AA2awOcU&c=9957868258320406777&mkt=it-it",
+        "pubDate": "Wed, 19 Aug 2026 23:12:28 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Sir Susa Scai, senti Carotti: «Un privilegio continuare a lavorare in questa società»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fda5674f9b8a0685be4723de3e&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-senti-carotti-un-privilegio-continuare-a-lavorare-in-questa-societa%2f&c=7143735109700554169&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1d6e214851a257087763785f2f&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-senti-carotti-un-privilegio-continuare-a-lavorare-in-questa-societa%2f&c=7143735109700554169&mkt=it-it",
         "pubDate": "Wed, 19 Aug 2026 06:07:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Sir Perugia, coach Lorenzetti: «Taraflex tricolore un orgoglio, lavoriamo per mantenerlo»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fda5674f9b8a0685be4723de3e&url=https%3a%2f%2fwww.ilmessaggero.it%2fumbria%2fsir_perugia_coach_lorenzetti_taraflex_tricolore_un_orgoglio_lavoriamo_mantenerlo-9710191.html&c=5142456757335913698&mkt=it-it",
-        "pubDate": "Mon, 17 Aug 2026 03:47:00 GMT",
-        "source": "",
+        "title": "Sir Perugia, Cappadona: \"Arrivo con molto entusiasmo\" - Umbria TV",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZjJGUk5pTHFVM3J3cUQzN1pBcllYQnhkNWU2RHlUMmgyZ183LUE3eHo0bkNuWmFLOUZFdk1ScVpUd1k2NEZXSHNyN1RIQW1rTEdRRk5HU1FPdklNc01Uem1iRGdPMlpuNkdFeVZBLUk3NDgweVRiaXhvY2xuSGtDcFROME9LVnJSaURMSmlzeWJ1LUJwWnZZTnVwamk?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 05:08:01 GMT",
+        "source": "Umbria TV",
         "image": null
       },
       {
@@ -61,19 +68,19 @@
         "pubDate": "Sat, 15 Aug 2026 11:15:06 GMT",
         "source": "Umbria TV",
         "image": null
-      },
-      {
-        "title": "Sir Perugia, Solè: \"Il livello del campionato sta crescendo\" - Umbria TV",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV3VteE1BMHlkZ05EbVNaU2d0SFd6RVdpd1ZIa2xyaTRfVHRvSFVoczJ2SVl0czFvR3RlcVNKVVd3RmgzX0xRamlvd3Z5dE13ZU5WM3QzOUxSNHBSM2lRaW1WVkotTzl0ZUZyeGloUWx2Z1h6OXRlSm9WZXRaOENEbmZUNThZSFFvNW4wZVk2TC1vcjI0ZjRETldCR2M1dXFmZWxDaTNn?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 06:47:38 GMT",
-        "source": "Umbria TV",
-        "image": null
       }
     ],
     "bartoccini": [
       {
+        "title": "Pallavolo A2F – Claudia Consoli racconta il “primo impatto” con la realtà Bartoccini +energia Perugia",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1e9bdb4b71b0436dc661d0422c&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f20%2fpallavolo-a2f-claudia-consoli-racconta-il-primo-impatto-con-la-realta-bartoccini-energia-perugia%2f&c=7002899494313510505&mkt=it-it",
+        "pubDate": "Wed, 19 Aug 2026 17:01:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Pallavolo A1F – Francesca Michieletto è ottimista: “Black Angels, dimostriamo chi siamo”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fd06064dd4adff5ca35309ce19&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a1f-francesca-michieletto-e-ottimista-black-angels-dimostriamo-chi-siamo%2f&c=9146656662398497587&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1e9bdb4b71b0436dc661d0422c&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a1f-francesca-michieletto-e-ottimista-black-angels-dimostriamo-chi-siamo%2f&c=9146656662398497587&mkt=it-it",
         "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
         "source": "",
         "image": null
@@ -83,13 +90,6 @@
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2NUWTVsWUE1OTEwWm5LNHNlVlMwRW5TVW5ncXNzalVjcEREbVpEdW9CWU5sWWlJVXRybk1Eb2pwLXRWQ3lxQnFLUW1rZmFUcGRoZG1kV1pUWjJId3hvSDg0cmNDbTM2NkpoSmZpQnBwSUlSTmpHelB2eWRhX1Y0MWpfM2Y3RDBKc3NaTjc5TDdFeEdtcFpBT3hzaHJsQmFQbUE?oc=5",
         "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT",
         "source": "PerugiaToday",
-        "image": null
-      },
-      {
-        "title": "Pallavolo A2F – Due mesi all’inizio del campionato: ha preso il via a stagione delle Black Angels",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fd06064dd4adff5ca35309ce19&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f05%2fpallavolo-a2f-due-mesi-allinizio-del-campionato-ha-preso-il-via-a-stagione-delle-black-angels%2f&c=14855918711148197604&mkt=it-it",
-        "pubDate": "Tue, 04 Aug 2026 17:00:00 GMT",
-        "source": "",
         "image": null
       },
       {
@@ -138,7 +138,7 @@
       },
       {
         "title": "Terni Volley Academy, oltre mille cuori rossoverdi per spingere i Dragons: le combinazioni per la salvezza",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fe5fc04231b821aa1a2abeaa78&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1eb08e4874bf8b8e43dd03d196&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
         "pubDate": "Sun, 01 Mar 2026 00:31:00 GMT",
         "source": "",
         "image": null
@@ -148,22 +148,22 @@
       {
         "title": "Pallavolo A3M - ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQzNDVDhIS0UzcUg2Z3BQM2VlTFhMVkFRdWlFYUtEU2dOZlpzTDZwRFM0U0lHOUZheHBhVTctSnBnWm5EaVZPQllZQ2FLOXVEWHEtZGt4OGxVT3hhLUFwcnhGMW5XM3laTHZsOXpZNGNMZTBOMmlKa0RVaDJpNE5OblpNbmhjQzFVaDNBVzhHN2w0Mmwyc2p4aFdnbmJqMWFVZE5NOHhuNEV6VmJEZ2tJT1JqSFFoWlJua1NFZC14OC1kUW1CRlRjdXBPWTlGU0kwZ0E?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 14:06:24 GMT",
+        "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
         "source": "iVolley Magazine",
         "image": null
       },
       {
         "title": "Pallavolo A3M – ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fed42540e5a4c81b89c4dde3f1&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1ffaf94e06b4a940f1cdd2f191&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
         "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Pallavolo Mercato – L’esperto Bellucci è il nuovo palleggiatore dell’ErmGroup Altotevere - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdnExZ3BPOUxpa25UZS02NWY3RjhEWUZCa2lTc0xLZUZMalhwMzNmMU12R1FaT3hhdm5tN0FqUzhJaDZWeTlwakRZMURSUElfTFMxVGVRTldHVkJ5WlNOSjNYQjZZd3ZJQW9ER2k3MmxPa3JzWTdrLWIxVks0YzlGUnc2cE95YndMNmI0RjVBS3Bkb3ZfQmZhMTRYYlFUazRpYUtlb0ExeWhZc1J0bnhnYVpLRUkwdWwxdVQwSm1tYUplQjlwa3c?oc=5",
-        "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
-        "source": "iVolley Magazine",
+        "title": "ErmGroup Altotevere, Bigi rilancia il sogno A2 - Teletruria",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVhKdU54R1JtOVZBN2JXckdBOFVmUlJfaDlibi16QzFhUmdDeUE2Mk9HcnFZNWJublVxNi1CeEtLb05CbndvMVNKdl94NWFJUXN2c3BrRUxOUVpIcXdtNjNsRG9ONk1oLWplRTljWDNBYjZvQXdHdm9ZdW5ER1ZqYlppeFBidV81M21aTGp2b3hrMXRZQUV3Mg?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
+        "source": "Teletruria",
         "image": null
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "title": "Volley Mercato: terzo centrale per Pineto, Mirco Compagnoni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690fed42540e5a4c81b89c4dde3f1&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd1ffaf94e06b4a940f1cdd2f191&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
         "pubDate": "Fri, 19 Jun 2026 11:03:00 GMT",
         "source": "",
         "image": null
@@ -183,37 +183,37 @@
     ],
     "citta-castello": [
       {
-        "title": "Tris Città di Castello. E Monteluce sogna",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fitalia%2ftris-citt%25C3%25A0-di-castello-e-monteluce-sogna%2far-AA2alQqi&c=3921296064042817829&mkt=it-it",
-        "pubDate": "Mon, 17 Aug 2026 23:13:52 GMT",
-        "source": "",
+        "title": "Quarta stagione con la maglia di Città di Castello Pallavolo per Patrik Valenti - saturnonotizie.it",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR053b1E4M013cEU4bU5ULTNpT3dIX3Nzb0RfSEpvcWxvZzBiY0FoeHJGQTRJRDgzd09WZnowbkxsblRLVmJOZXlDZFNpU094VF8tNGpTemROUTFxclpmQXBOU3NwYmNIM3ljVFBJSDQ5c1VGQlA3Q0p0ZlEzQTBsVUFNcGttZ2c?oc=5",
+        "pubDate": "Thu, 20 Aug 2026 09:47:27 GMT",
+        "source": "saturnonotizie.it",
         "image": null
       },
       {
-        "title": "Volley B2 femminile. Martello per la Virtus. Castellucci ha firmato",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fvolley-b2-femminile-martello-per-la-virtus-castellucci-ha-firmato%2far-AA2a5iXU&c=18318611849264653108&mkt=it-it",
-        "pubDate": "Thu, 13 Aug 2026 23:32:01 GMT",
-        "source": "",
+        "title": "Tris Città di Castello. E Monteluce sogna - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00eW9PZ2RXRDJhREktdjdBZGtPOEVveWhCbGNqQ2pzbF8wS2ozRWJLejJ3SHZYUFgtSWxaUzBzbE9TQ1FXeHUybzF3dWNFa1pjQllaR1YycTV3aGEwT1BURHZBYzBmRkJyUHlzUlE5TXpPTUt5QVRpSU1TSUVjZw?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 06:16:39 GMT",
+        "source": "La Nazione",
         "image": null
       },
       {
         "title": "Volley, il programma delle amichevoli di Altotevere: si parte contro Città di Castello",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fvolley-il-programma-delle-amichevoli-di-altotevere-si-parte-contro-citta-di-castello%2f&c=16037203838789990375&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd201f6f4b48920f960b1a5d1a4d&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fvolley-il-programma-delle-amichevoli-di-altotevere-si-parte-contro-citta-di-castello%2f&c=16037203838789990375&mkt=it-it",
         "pubDate": "Tue, 11 Aug 2026 21:42:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Pallavolo A3M – ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd201f6f4b48920f960b1a5d1a4d&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f12%2fpallavolo-a3m-ermgroup-altotevere-il-primo-test-sul-campo-sara-il-derby-con-citta-di-castello%2f&c=3171924037173254611&mkt=it-it",
         "pubDate": "Tue, 11 Aug 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Pallavolo Mercato – Vittoria Belotti, il primo colpo della FLV Cerignola: esperienza e qualità al centro",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8690ffd249495f98b1d8bc8265aa83&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f05%2fpallavolo-mercato-vittoria-belotti-il-primo-colpo-della-flv-cerignola-esperienza-e-qualita-al-centro%2f&c=7383005343612344070&mkt=it-it",
-        "pubDate": "Tue, 04 Aug 2026 17:00:00 GMT",
+        "title": "Doppia promozione. Il volley è in festa",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a87dd201f6f4b48920f960b1a5d1a4d&url=https%3a%2f%2fwww.lanazione.it%2fumbria%2fcronaca%2fdoppia-promozione-il-volley-e-408bd256&c=5837465429517754719&mkt=it-it",
+        "pubDate": "Sat, 20 Jun 2026 21:33:00 GMT",
         "source": "",
         "image": null
       }
@@ -248,10 +248,10 @@
         "image": null
       },
       {
-        "title": "Per Marsciano rimonta da urlo ad Urbania - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOVZXWks1STVrcEFHT3l4UHV6ZU42aHowVFUzMTV2MG0tOFAtbnZoTDUwVWZKazk0TXlzVDNvMUduSVN1bkdMWjhTNmFaS1BXczNJaW1Xb3VQWlpEdHdyam5qOU93R3poUXpUU1QzaVdRQ1M0Mi1yUXBjTTlHOFpBTXpjdHZkdw?oc=5",
-        "pubDate": "Sun, 08 Feb 2026 08:00:00 GMT",
-        "source": "Pianeta Volley",
+        "title": "VOLLEY ACADEMY BASTIA VINCE A MARSCIANO - terrenostre.info",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAtakJ1djhmQnpqY2lqUDZtaElvdGdJWm5QWUU4cHFZWm55Z0llclBKaEhkdnFfbGUyU0NNV0RVTVc2dmVFUnZhUWxreGxWc082TXdaaVdmWkQydklOVEJrdGZHR2tIMkFrbzYwbjBjeFdXNlc2QXJVVGlCN3N5QQ?oc=5",
+        "pubDate": "Mon, 12 Jan 2026 08:00:00 GMT",
+        "source": "terrenostre.info",
         "image": null
       }
     ]
