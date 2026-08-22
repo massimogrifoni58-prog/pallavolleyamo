@@ -1,14 +1,6 @@
 {
-  "generatedAt": "2026-08-21T05:27:24.532004+00:00",
+  "generatedAt": "2026-08-22T09:19:59.116493+00:00",
   "posts": [
-    {
-      "id": "ciao2025annodorodellapallavolo",
-      "title": "Ciao 2025, anno d'oro della pallavolo italiana",
-      "excerpt": "Tutte le date dell'anno che se ne va...",
-      "createdTime": "Wed, 31 Dec 2025 16:59:36 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2025/12/ORO_2025.jpg",
-      "permalink": "https://www.volleyball.it/2025/12/31/notizie/argomenti/superlega/articolo/ciao-2025-anno-doro-della-pallavolo-italiana.html"
-    },
     {
       "id": "vnlfinalsitaliastatiunitivalel",
       "title": "VNL Finals, Italia-Stati Uniti vale la semifinale: De Giorgi e Sanguinetti parlano alla vigilia",
@@ -18,12 +10,28 @@
       "permalink": "https://www.volleyball.it/2026/07/29/notizie/argomenti/vnl-maschile/articolo/vnl-finals-italia-stati-uniti-vale-la-semifinale-de-giorgi-e-sanguinetti-parlano-alla-vigilia.html"
     },
     {
+      "id": "franciabrizardilcasorussiaeiln",
+      "title": "Francia: Brizard, il caso Russia e il no al ritorno delle nazionali. Decisione \"abbastanza scandalosa\"",
+      "excerpt": "Il nuovo capitano della Francia, intervistato da L'Équipe, critica la possibile riammissione della...",
+      "createdTime": "Wed, 22 Jul 2026 14:33:08 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/antoine-brizard-francia-lequipe.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/22/notizie/argomenti/vnl-maschile/articolo/francia-brizard-il-caso-russia-e-il-no-al-ritorno-delle-nazionali-decisione-abbastanza-scandalos.html"
+    },
+    {
       "id": "esclusivoeccoilplanningdeldolo",
       "title": "Esclusivo - Ecco il planning del dolore. Dal 2028 la FIVB spezza in due la stagione dei club",
       "excerpt": "Volleyball.it è in grado di mostrare il planning 2027-2033 che la FIVB sta presentando in queste...",
       "createdTime": "Wed, 19 Aug 2026 20:06:47 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/esclusiva_VB_planning.png",
       "permalink": "https://www.volleyball.it/2026/08/19/notizie/argomenti/olimpiadi-1/articolo/esclusivo-ecco-il-planning-del-dolore-dal-2028-la-fivb-spezza-in-due-la-stagione-dei-club.html"
+    },
+    {
+      "id": "versoleuropeochiusoilcollegial",
+      "title": "Verso l'Europeo:  Chiuso il collegiale di Verona, Romanò guarda alla rassegna continentale",
+      "excerpt": "Gli azzurri terminano il lavoro al Pala Magis davanti a oltre 2.000 tifosi. Dal 26 agosto la FIPAV...",
+      "createdTime": "Wed, 19 Aug 2026 18:34:04 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/italia-yuri-romano-verona-preparazione-europei-2026.jpeg",
+      "permalink": "https://www.volleyball.it/2026/08/19/notizie/argomenti/internazionale/articolo/verso-leuropeo-chiuso-il-collegiale-di-verona-romano-guarda-alla-rassegna-continentale.html"
     },
     {
       "id": "europeifemminiliitaliaallavoro",
@@ -42,12 +50,20 @@
       "permalink": "https://www.volleyball.it/2026/08/19/notizie/argomenti/europei-maschili/articolo/eurovolley-2026-oltre-40-emittenti-per-la-copertura-internazionale.html"
     },
     {
-      "id": "memorialagatamrzolszewskalital",
-      "title": "Memorial Agata Mróz-Olszewska: L'Italia concede il bis, Ucraina battuta 3-1, ma si infortuna Omoruyi",
-      "excerpt": "Seconda vittoria consecutiva per le azzurre al Memorial Agata Mróz-Olszewska. Dopo un primo set...",
-      "createdTime": "Wed, 12 Aug 2026 19:41:24 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Cambi.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/12/notizie/argomenti/internazionale/articolo/memorial-agata-mroz-olszewska-litalia-concede-il-bis-ucraina-battuta-3-1-ma-si-infortuna-omoruy.html"
+      "id": "giochidelmediterraneoilconicon",
+      "title": "Giochi del Mediterraneo: Il CONI conferma, Bovolenta lascia la Nazionale di De Giorgi per il torneo di Taranto",
+      "excerpt": "Il sito del Comitato Olimpico, nella  pagina dedicata alla manifestazione pugliese ufficializza le...",
+      "createdTime": "Wed, 12 Aug 2026 19:21:29 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Bovolenta_a_braccia_larghe.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/12/notizie/argomenti/europei-maschili/articolo/giochi-del-mediterraneo-il-coni-conferma-bovolenta-lascia-la-nazionale-di-de-giorgi-per-il-torneo.html"
+    },
+    {
+      "id": "italiaperbovolentaeuropeiogioc",
+      "title": "Italia: Per Bovolenta Europei o Giochi del Mediterraneo?  De Giorgi sfoglia la margherita",
+      "excerpt": "Ultimi incastri tra le due nazionali maschili: Roberti si è aggregato al gruppo azzurro per il...",
+      "createdTime": "Wed, 12 Aug 2026 10:00:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/De_Giorgi_Bovolenta_e_Fanizza.png",
+      "permalink": "https://www.volleyball.it/2026/08/12/notizie/argomenti/internazionale/articolo/italia-per-bovolenta-europei-o-giochi-del-mediterraneo-de-giorgi-sfoglia-la-margherita.html"
     },
     {
       "id": "russiaaimondiali2027ilritornod",
@@ -82,12 +98,12 @@
       "permalink": "https://www.volleyball.it/2026/01/07/notizie/argomenti/superlega/articolo/pallavolista-dellanno-2025-ultimi-due-giorni-per-votare.html"
     },
     {
-      "id": "12",
-      "title": "La nazionale di Velasco prepara gli Europei",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Wed, 05 Aug 2026 11:26:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/08/05/162010979-583b6e23-cf94-47a3-a560-e170c0b9f2bb.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/08/05-150360102/la_nazionale_di_velasco_prepara_gli_europei"
+      "id": "mondovolleylealtrenewsdel5agos",
+      "title": "Mondo Volley: Le altre news del 5 agosto 2026: Maicon raggiunge Zaytsev, l’Italia prepara gli Europei, Osasco-Praia a São Luís",
+      "excerpt": "L’Ordu arricchisce il suo roster internazionale, le Azzurre lavorano a Cavalese e la Supercoppa...",
+      "createdTime": "Wed, 05 Aug 2026 23:02:50 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/azzurre_a_cavalese.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/05/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-5-agosto-2026-maicon-raggiunge-zaytsev-litalia-prepara-gli-euro.html"
     },
     {
       "id": "vnllesquadrealvianelledizione2",
@@ -106,6 +122,38 @@
       "permalink": "https://www.volleyball.it/2026/03/04/notizie/argomenti/mondiali/articolo/mondiali-2027-cinque-citta-polacche-ospiteranno-il-torneo-maschile.html"
     },
     {
+      "id": "mondovolleylealtrenewsdel28lug",
+      "title": "Mondo Volley: Le altre news del 28 luglio 2026: Kaczmarek a Resovia, Karakurt in dubbio, l’Asia guarda a Los Angeles",
+      "excerpt": "Mercato internazionale, nuovi roster e appuntamenti continentali: Kaczmarek cambia maglia, Karakurt...",
+      "createdTime": "Tue, 28 Jul 2026 23:03:50 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Anderson.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-28-luglio-2026-kaczmarek-a-resovia-karakurt-in-dubbio-lasia-gu.html"
+    },
+    {
+      "id": "vnlfemminilepremieconomiciturc",
+      "title": "VNL femminile, premi economici: Turchia oltre il milione, Italia a quota 403.500 dollari",
+      "excerpt": "Chiusa la Volleyball Nations League femminile 2026, è stato definito anche il quadro dei premi...",
+      "createdTime": "Tue, 28 Jul 2026 10:52:55 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Italia_podio.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/vnl-femminile/articolo/vnl-femminile-premi-economici-turchia-oltre-il-milione-italia-a-quota-403500-dollari.html"
+    },
+    {
+      "id": "mondovolleylealtrenewsdel27lug",
+      "title": "Mondo Volley: Le altre news del 27 luglio 2026: Italia-USA ai quarti, Bussolari a Brugherio, le Azzurre ripartono da Cavalese",
+      "excerpt": "Dalle Finals VNL maschili al mercato italiano, passando per la ripresa della Nazionale femminile e...",
+      "createdTime": "Tue, 28 Jul 2026 01:20:55 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Allenamento_Italia.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-27-luglio-2026-italia-usa-ai-quarti-bussolari-a-brugherio-le-azzu.html"
+    },
+    {
+      "id": "franciagianifailbilanciodellav",
+      "title": "Francia: Giani fa il bilancio della VNL, \"Abbiamo fatto progressi\"",
+      "excerpt": "Il CT della nazionale maschile francese analizza la Volleyball Nations League chiusa al decimo...",
+      "createdTime": "Tue, 21 Jul 2026 20:39:33 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/andrea-giani-francia-vnl-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/21/notizie/argomenti/internazionale/articolo/francia-giani-fa-il-bilancio-della-vnl-abbiamo-fatto-progressi.html"
+    },
+    {
       "id": "mondovolleylealtrenewsdel18ago",
       "title": "Mondo Volley: Le altre news del 18 agosto 2026: Drzyzga torna in Polonia, Melendugno riparte, la Croazia recupera Fabris",
       "excerpt": "Mercato, raduni e nazionali: le principali notizie della giornata tra campionati italiani, Europei...",
@@ -114,44 +162,20 @@
       "permalink": "https://www.volleyball.it/2026/08/18/notizie/argomenti/mercato-estero/articolo/mondo-volley-le-altre-news-del-18-agosto-2026-drzyzga-torna-in-polonia-melendugno-riparte-la-cro.html"
     },
     {
-      "id": "europeifemminiliazzurreprimoal",
-      "title": "Europei Femminili: Azzurre, primo allenamento a Göteborg, venerdì Italia-Croazia",
-      "excerpt": "Le azzurre hanno svolto la prima seduta sul campo secondario dello Scandinavium. L'esordio europeo...",
-      "createdTime": "Tue, 18 Aug 2026 21:16:15 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Nervini.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/18/notizie/argomenti/europei-femminili/articolo/europei-femminili-azzurre-primo-allenamento-a-goeteborg-venerdi-italia-croazia.html"
+      "id": "slovenialimpresadioreficedalla",
+      "title": "Slovenia: L'impresa di Orefice, dalla 30ª posizione alla VNL. \"Trust in the process, abbiamo costruito qualcosa di storico\"",
+      "excerpt": "Che corsa: in appena 26 mesi. Il tecnico italiano racconta la crescita della piccola nazionale...",
+      "createdTime": "Tue, 11 Aug 2026 17:26:13 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Orefice_e_ipad.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/11/notizie/argomenti/a1-femminile/articolo/slovenia-limpresa-di-orefice-dalla-30a-posizione-alla-vnl-trust-in-the-process-abbiamo-costru.html"
     },
     {
-      "id": "3",
-      "title": "Pallavolo EuroVolleyW2026 – Montenegro, il CT Jovo Caković: “Dimostreremo di non essere una preda facile per nessuno”",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Tue, 18 Aug 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/19/pallavolo-eurovolleyw2026-croazia-il-ct-jovo-cakovic-dimostreremo-di-non-essere-una-preda-facile-per-nessuno/"
-    },
-    {
-      "id": "europei2026serbiacon15giocatri",
-      "title": "Europei 2026: Serbia con 15 giocatrici, ultimo taglio alla vigilia",
-      "excerpt": "Terzic partirà per Brno con un'atleta in più e definirà le 14 prima dell'esordio. Ognjenović verso...",
-      "createdTime": "Tue, 18 Aug 2026 15:31:41 GMT",
-      "image": "https://www.volleyball.it/typo3temp/pics/d3f259f25d.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/18/notizie/argomenti/europei-femminili/articolo/europei-2026-serbia-con-15-giocatrici-ultimo-taglio-alla-vigilia.html"
-    },
-    {
-      "id": "europei2026lucrainascegliele14",
-      "title": "Europei 2026: L'Ucraina sceglie le 14, Pavlyk unica novità",
-      "excerpt": "Jakub Gluszak conferma quasi interamente il gruppo dell'ultima settimana di VNL. Esordio il 21...",
-      "createdTime": "Tue, 18 Aug 2026 15:01:54 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/ucraina-europei-femminili-2026.png",
-      "permalink": "https://www.volleyball.it/2026/08/18/notizie/argomenti/europei-femminili/articolo/europei-2026-lucraina-sceglie-le-14-pavlyk-unica-novita.html"
-    },
-    {
-      "id": "8",
-      "title": "La Nazionale di Pallavolo a Cervia: Palazzetto gremito per l’allenamento a porte aperte degli Azzurri",
-      "excerpt": "Fonte: ravenna24ore.it",
-      "createdTime": "Tue, 11 Aug 2026 03:31:00 GMT",
-      "image": "https://www.ravenna24ore.it/wp-content/uploads/sites/6/2026/08/nazionale-palalvolo.jpg",
-      "permalink": "https://www.ravenna24ore.it/notizie/sport/2026/08/11/la-nazionale-di-pallavolo-a-cervia-palazzetto-gremito-per-lallenamento-a-porte-aperte-degli-azzurri/"
+      "id": "mondovolleylealtrenewsdel4agos",
+      "title": "Mondo Volley: Le altre news del 4 agosto 2026, Balaso rinnova, San Paolo ospita il Mondiale",
+      "excerpt": "La Lube blinda il suo capitano e il Mondiale per Club femminile torna in Brasile dall’8 al 13...",
+      "createdTime": "Tue, 04 Aug 2026 23:02:44 GMT",
+      "image": "https://www.volleyball.it/typo3temp/pics/22e7121f7f.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/04/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-4-agosto-2026-balaso-rinnova-san-paolo-ospita-il-mondiale.html"
     },
     {
       "id": "russiafuoridaimondiali2027inpo",
@@ -168,6 +192,14 @@
       "createdTime": "Tue, 04 Aug 2026 13:06:19 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Russia_femminile.jpg",
       "permalink": "https://www.volleyball.it/2026/08/04/notizie/argomenti/vnl-maschile/articolo/russia-in-vnl-2027-la-fivb-allarga-pero-il-torneo-a-19-squadre.html"
+    },
+    {
+      "id": "eurovolley2026aperteleprenotaz",
+      "title": "EuroVolley 2026: Aperte le prenotazioni per le persone con disabilità",
+      "excerpt": "Il modulo è disponibile per le gare di Napoli, Modena e Torino e potrà essere compilato fino alle...",
+      "createdTime": "Tue, 04 Aug 2026 10:38:09 GMT",
+      "image": "https://www.volleyball.it/typo3temp/pics/cdf0d19aef.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/04/notizie/argomenti/europei-maschili/articolo/eurovolley-2026-aperte-le-prenotazioni-per-le-persone-con-disabilita.html"
     },
     {
       "id": "mondovolleylealtrenewsdel30lug",
@@ -218,6 +250,14 @@
       "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-29-luglio-2026-zaytsev-trova-squadra-in-azerbaigian-la2-torna-a.html"
     },
     {
+      "id": "3",
+      "title": "L’unico titolo che manca a questa Nazionale",
+      "excerpt": "Fonte: ilpost.it",
+      "createdTime": "Thu, 20 Aug 2026 23:44:00 GMT",
+      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/08/20/1787213093-VNL_ITA-NED_123.jpeg",
+      "permalink": "https://www.ilpost.it/2026/08/21/europei-pallavolo-femminile-nazionale-goteborg/"
+    },
+    {
       "id": "europeifemminilivelascoallavig",
       "title": "Europei Femminili, Velasco alla vigilia: \"Dalla Croazia dobbiamo giocare al massimo. Partita dopo partita\"",
       "excerpt": "Il CT presenta il debutto dell'Italia e invita le azzurre a non guardare troppo avanti: &quot;La prima...",
@@ -242,12 +282,12 @@
       "permalink": "https://www.volleyball.it/2026/08/20/notizie/argomenti/europei-femminili/articolo/europei-femminili-dal-domani-la-corsa-al-titolo-italia-campione-olimpica-e-mondiale-allassalto-de.html"
     },
     {
-      "id": "1",
-      "title": "È pallavolo mania. Tesserati su del 25%: \"Ma impianti vecchi\"",
-      "excerpt": "Fonte: lanazione.it",
+      "id": "5",
+      "title": "Pallavolo EuroVolleyW2026 – La Francia ha esordito superando con un secco 3-0 la Slovacchia",
+      "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 20 Aug 2026 17:00:00 GMT",
-      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/Zjk3ZWU4YjYtMDU3ZS00/0/e-pallavolo-mania-tesserati-su-del-25-ma-impianti-vecchi.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.lanazione.it/firenze/cronaca/e-pallavolo-mania-tesserati-su-921e1d11"
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/08/21/pallavolo-eurovolleyw2026-la-francia-ha-esordito-superando-con-un-secco-3-0-la-slovacchia/"
     },
     {
       "id": "rassegnastampa20agostolubeecis",
@@ -258,26 +298,10 @@
       "permalink": "https://www.volleyball.it/2026/08/20/notizie/argomenti/superlega/articolo/rassegna-stampa-20-agosto-lube-e-cisterna-ripartono-italvolley-femminile-verso-leuropeo.html"
     },
     {
-      "id": "5",
-      "title": "Europei di pallavolo 2026: Italvolley femminile e maschile outsider per la vittoria",
-      "excerpt": "Fonte: lostrillone.tv",
-      "createdTime": "Thu, 20 Aug 2026 05:13:00 GMT",
-      "image": null,
-      "permalink": "https://lostrillone.tv/europei-di-pallavolo-2026-italvolley-femminile-e-maschile-outsider-per-la-vittoria/56853.html"
-    },
-    {
-      "id": "4",
-      "title": "Giochi al via con la pallavolo. Arrivati gli atleti nel villaggio Mediterraneo sulla nave Aroya",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Thu, 20 Aug 2026 04:39:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/08/20/1787231239992_villaggio_mediterraneo.JPG",
-      "permalink": "https://www.rainews.it/tgr/puglia/video/2026/08/giochi-al-via-con-la-pallavolo--dd3cad61-425c-4b9f-a4a6-874a9f390c86.html"
-    },
-    {
-      "id": "2",
+      "id": "7",
       "title": "Pallavolo, Danesi: «Siamo la nuova generazione di fenomeni. Dopo l'oro olimpico in molti si sono accorti che non siamo solo bei corpi. Nazionale? Lascio dopo Los Angeles»",
       "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Thu, 20 Aug 2026 00:24:00 GMT",
+      "createdTime": "Thu, 20 Aug 2026 02:45:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/19/9715165_20072117_erede_cast_2026_08_20t072056.105.jpg",
       "permalink": "https://www.ilmessaggero.it/sport/altrisport/anna_danesi_generazione_fenomeni_bei_corpi_velasco_europei_pallavolo_turchia_lascio_a_los_angeles-9715165.html"
     },
@@ -290,44 +314,20 @@
       "permalink": "https://www.volleyball.it/2026/02/19/notizie/argomenti/superlega/articolo/fivb-mondiali-a-dicembre-superlega-a-14-no.html"
     },
     {
-      "id": "memorialagatamrzolszewskavelas",
-      "title": "Memorial Agata Mróz-Olszewska: Velasco dopo il 3-0 alla Polonia: \"Kate bene in 4. Adesso dovremo riflettere sulle scelte per il futuro\"",
-      "excerpt": "&quot;L'infortunio di Lolly, che ci ha toccato tutti anche dal punto di vista emotivo.",
-      "createdTime": "Thu, 13 Aug 2026 21:35:24 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Velasco_e_staff.JPG",
-      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/internazionale/articolo/memorial-agata-mroz-olszewska-velasco-dopo-il-3-0-alla-polonia-kate-bene-in-4-adesso-dovremo-ri.html"
+      "id": "europeii14dellasveziaprimaavve",
+      "title": "Europei: I 14 della Svezia, prima avversaria dell'Italia a Napoli",
+      "excerpt": "La nazionale scandinava torna nella rassegna continentale dopo 33 anni e il 10 settembre affronterà...",
+      "createdTime": "Thu, 13 Aug 2026 16:22:11 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/svezia-lista-europei-2026.png",
+      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/europei-maschili/articolo/europei-i-14-della-svezia-prima-avversaria-dellitalia-a-napoli.html"
     },
     {
-      "id": "memorialagatamrzolszewskaantro",
-      "title": "Memorial Agata Mróz-Olszewska: Antropova dopo il 3-0 alla Polonia: \"Una bellissima reazione dopo tutto quello che ci è successo\"",
-      "excerpt": "KOSZALIN (Polonia) – L'Italia chiude nel migliore dei modi il Memorial Agata Mróz-Olszewska...",
-      "createdTime": "Thu, 13 Aug 2026 21:09:29 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Antropova_urlo.JPG",
-      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/internazionale/articolo/memorial-agata-mroz-olszewska-antropova-dopo-il-3-0-alla-polonia-una-bellissima-reazione-dopo-tu.html"
-    },
-    {
-      "id": "memorialagatamrzolszewskaitali",
-      "title": "Memorial Agata Mróz-Olszewska: Italia regina del Memorial, Polonia battuta 3-0. Ultimo test pre Europeo",
-      "excerpt": "Le azzurre di Velasco chiudono il torneo con tre vittorie e un solo set perso. Nella finale contro...",
-      "createdTime": "Thu, 13 Aug 2026 19:27:17 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Italia_vince.png",
-      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/europei-femminili/articolo/memorial-agata-mroz-olszewska-italia-regina-del-memorial-polonia-battuta-3-0-ultimo-test-pre-eur.html"
-    },
-    {
-      "id": "memorialagatamrzolszewskaitali",
-      "title": "Memorial Agata Mróz-Olszewska: Italia-Polonia, Velasco rischiera Antropova in posto 4 (con Egonu opposta)",
-      "excerpt": "KOSZALIN (Polonia) -  Nella terza e ultima partita del torneo internazionale di Koszalin, contro la...",
-      "createdTime": "Thu, 13 Aug 2026 18:13:30 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/06/Antropova_rice_.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/europei-femminili/articolo/memorial-agata-mroz-olszewska-italia-polonia-velasco-rischiera-antropova-in-posto-4-con-egonu-op.html"
-    },
-    {
-      "id": "italiaomoruyidiagnosipesantero",
-      "title": "Italia: Omoruyi, diagnosi pesante. Rottura totale del crociato, dovrà essere operata",
-      "excerpt": "Gli esami chiariscono l'entità dell'infortunio subito dalla schiacciatrice azzurra durante...",
-      "createdTime": "Thu, 13 Aug 2026 15:30:17 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/omoruyi.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/a1-femminile/articolo/italia-omoruyi-diagnosi-pesante-rottura-totale-del-crociato-dovra-essere-operata.html"
+      "id": "europeidegiorgismentiscelalist",
+      "title": "Europei: De Giorgi smentisce la lista ufficializzata dal CONI, scelte ancora aperte",
+      "excerpt": "Il CT chiarisce che nessuna decisione tecnica è stata presa e che tutti i 17 azzurri convocati a...",
+      "createdTime": "Thu, 13 Aug 2026 12:09:07 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/ferdinando-de-giorgi-nazionale-europei-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/13/notizie/argomenti/internazionale/articolo/europei-de-giorgi-smentisce-la-lista-ufficializzata-dal-coni-scelte-ancora-aperte-bovo-furioso.html"
     },
     {
       "id": "fipavdaquestaseraonlineildocuf",
@@ -354,12 +354,76 @@
       "permalink": "https://www.volleyball.it/2026/07/09/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-8-luglio-2026-acquarone-a-cannes-gioia-prende-capelli-svezia-avan.html"
     },
     {
-      "id": "9",
-      "title": "Pallavolo, bronzo per l'Italia femminile nella Volleyball Nations League",
-      "excerpt": "Fonte: tg24.sky.it",
-      "createdTime": "Sun, 26 Jul 2026 08:13:00 GMT",
-      "image": null,
-      "permalink": "https://tg24.sky.it/sport/2026/07/26/pallavolo-femminile-volley-nations-league"
+      "id": "vnlflaturchiadisantarellivince",
+      "title": "VNL F.: La Turchia di Santarelli vince l'edizione 2026. Vargas MVP. Tutti i risultati, le statistiche, le classifiche",
+      "excerpt": "Tutte le gare delle azzurre e del torneo, Italia chiude al 3° posto",
+      "createdTime": "Sun, 26 Jul 2026 22:53:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Turchia_Vince_vnl.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-f-il-calendario-completo-della-prima-fase.html"
+    },
+    {
+      "id": "vnlfemminilevargasmvpantropova",
+      "title": "VNL femminile: Vargas MVP, Antropova miglior battitrice",
+      "excerpt": "Assegnati i riconoscimenti individuali della VNL 2026: Melissa Vargas è la MVP, premio al servizio...",
+      "createdTime": "Sun, 26 Jul 2026 16:54:24 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Turchia_vittoria_podio.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-femminile-vargas-mvp-antropova-miglior-battitrice.html"
+    },
+    {
+      "id": "vnlfemminilelaturchiarimontail",
+      "title": "VNL femminile: La Turchia rimonta il Brasile e conquista il suo secondo titolo",
+      "excerpt": "A Macao la squadra di Daniele Santarelli (secondo oro dopo quella del 2023) vince 3-1 trascinata...",
+      "createdTime": "Sun, 26 Jul 2026 16:09:10 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/turchia-campione-vnl-brasile-finale-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-femminile-la-turchia-rimonta-il-brasile-e-conquista-il-suo-secondo-titolo.html"
+    },
+    {
+      "id": "vnlfinalsilpresidentefipavmanf",
+      "title": "VNL Finals: Il presidente Fipav Manfredi celebra il bronzo dell'Italia",
+      "excerpt": "Il presidente federale commenta il terzo posto conquistato dalle azzurre a Macao: «Un altro grande...",
+      "createdTime": "Sun, 26 Jul 2026 15:56:03 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/manfredi-bronzo-italia-vnl-2026.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-il-presidente-fipav-manfredi-celebra-il-bronzo-dellitalia.html"
+    },
+    {
+      "id": "vnlfinalsvelascodopoilbronzoor",
+      "title": "VNL Finals: Velasco dopo il bronzo: \"Orgoglioso della squadra, ora pensiamo a crescere per l'Europeo\"",
+      "excerpt": "MACAO – L'Italia chiude le Finals di Volleyball Nations League con la medaglia di bronzo,...",
+      "createdTime": "Sun, 26 Jul 2026 15:01:17 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Screenshot_2026-07-26_alle_15.44.16.png",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-velasco-dopo-il-bronzo-orgoglioso-della-squadra-ora-pensiamo-a-crescere-per-leuropeo.html"
+    },
+    {
+      "id": "vnlfinalsorrodopoilbronzolanos",
+      "title": "VNL Finals: Orro dopo il bronzo: \"La nostra forza è stata reagire subito alla sconfitta\"",
+      "excerpt": "MACAO – L'Italia chiude le Finals di Volleyball Nations League con la medaglia di bronzo,...",
+      "createdTime": "Sun, 26 Jul 2026 14:52:27 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Orro_video_01.png",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-orro-dopo-il-bronzo-la-nostra-forza-e-stata-reagire-subito-alla-sconfitta.html"
+    },
+    {
+      "id": "vnlfinalsmelifesteggiailbronzo",
+      "title": "VNL Finals: Meli festeggia il bronzo: \"La mia prima medaglia con questa nazionale è qualcosa di incredibile\"",
+      "excerpt": "MACAO – La medaglia di bronzo conquistata dall'Italia nelle Finals di Volleyball Nations League ha...",
+      "createdTime": "Sun, 26 Jul 2026 13:59:01 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Meli_video.png",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-meli-festeggia-il-bronzo-la-mia-prima-medaglia-con-questa-nazionale-e-qualcosa-di-inc.html"
+    },
+    {
+      "id": "vnlfinalsbellarispostaazzurral",
+      "title": "VNL Finals: Bella risposta azzurra! L’Italia chiude con il bronzo, Cina battuta 3-1 nella finale per il terzo posto",
+      "excerpt": "Le azzurre di Julio Velasco conquistano la quarta medaglia della loro storia in Volleyball Nations...",
+      "createdTime": "Sun, 26 Jul 2026 11:30:42 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Italia_Bronzo.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-bella-risposta-azzurra-litalia-chiude-con-il-bronzo-cina-battuta-3-1-nella-finale-p.html"
+    },
+    {
+      "id": "agendalegaredellagiornata",
+      "title": "Agenda: Le gare della giornata",
+      "excerpt": "Sette gare in programma oggi in quattro manifestazioni.",
+      "createdTime": "Sun, 26 Jul 2026 08:10:48 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/GRAFICA_-_Le_gare_di_Oggi.png",
+      "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/internazionale/articolo/agenda-le-gare-della-giornata-4.html"
     },
     {
       "id": "mondovolleylealtrenewsdel9agos",
@@ -368,14 +432,6 @@
       "createdTime": "Sun, 09 Aug 2026 23:11:16 GMT",
       "image": "https://www.volleyball.it/typo3temp/pics/bd5c104bd9.jpg",
       "permalink": "https://www.volleyball.it/2026/08/09/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-9-agosto-2026-wen-fa-la-storia-le-azzurre-volano-in-polonia-gotta.html"
-    },
-    {
-      "id": "6",
-      "title": "Pallavolo, Azzurre in Polonia per l'ultimo test pre-Europei",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Sun, 09 Aug 2026 06:02:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/8/9/660x290/b_1200x675x95/nazionale-italiana-di-pallavolo-femminile-e-trionfo-in-finale-c-creative-commons_3294393.jpg",
-      "permalink": "https://it.blastingnews.com/sport/2026/08/pallavolo-azzurre-in-polonia-per-lultimo-test-pre-europei-004092049.html"
     },
     {
       "id": "vnlfinalsvinceancoralapolonia3",
@@ -410,6 +466,46 @@
       "permalink": "https://www.volleyball.it/2026/02/28/notizie/argomenti/internazionale/articolo/fivb-fuga-di-notizie-sulle-nuove-regole-sanzionato-un-membro-della-commissione-regole-di-gioco-e-a.html"
     },
     {
+      "id": "mondovolleylealtrenewsdel25lug",
+      "title": "Mondo Volley: Le altre news del 25 luglio. Trento fissa il raduno, Pylinska completa Valdarno",
+      "excerpt": "Preparazione e mercato dei club italiani, le azzurre di Parisi al lavoro e il quadro internazionale...",
+      "createdTime": "Sat, 25 Jul 2026 23:03:17 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Mendez.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/25/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-25-luglio-trento-fissa-il-raduno-pylinska-completa-valdarno.html"
+    },
+    {
+      "id": "eurovolley2026chipartefavorito",
+      "title": "Eurovolley 2026: Chi parte favorito e quali chance ha davvero l'Italia?",
+      "excerpt": "MODENA - Il Campionato Europeo di pallavolo maschile 2026 si giocherà tra il 9 e il 26 settembre e,...",
+      "createdTime": "Sat, 25 Jul 2026 13:04:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Grafina_Europei_Italia_-_promo.png",
+      "permalink": "https://www.volleyball.it/2026/07/25/notizie/argomenti/europei-femminili/articolo/eurovolley-2026-chi-parte-favorito-e-quali-chance-ha-davvero-litalia.html"
+    },
+    {
+      "id": "succedevaoggi22agostolavviodel",
+      "title": "Succedeva oggi, 22 agosto: L’avvio del trionfo mondiale, gli Ingrosso campioni e la semifinale olimpica di Pechino",
+      "excerpt": "Il 22 agosto attraversa diverse generazioni della pallavolo italiana. È la data dalla quale prese...",
+      "createdTime": "Sat, 22 Aug 2026 10:00:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Italia_festa_vs_Slovacchia_Mondiale_2025.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
+    },
+    {
+      "id": "agendalegaredellagiornata",
+      "title": "Agenda: Le gare della giornata",
+      "excerpt": "25 gare in programma in 7 manifestazioni.",
+      "createdTime": "Sat, 22 Aug 2026 01:05:58 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/GRAFICA_-_Le_gare_di_Oggi.png",
+      "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/agenda-le-gare-della-giornata-22.html"
+    },
+    {
+      "id": "mondovolleylealtrenewsdel15ago",
+      "title": "Mondo Volley: Le altre news del 15 agosto 2026: Lavarini torna al Fenerbahçe, Lucarelli capitano, l’Italia U20 sfida l’Europa",
+      "excerpt": "Mercato, nazionali e scenari internazionali: Lavarini riparte da Istanbul, Lucarelli guida il Minas...",
+      "createdTime": "Sat, 15 Aug 2026 23:11:12 GMT",
+      "image": "https://www.volleyball.it/typo3temp/pics/a2819c3414.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/15/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-15-agosto-2026-lavarini-torna-al-fenerbahce-lucarelli-capitano-l.html"
+    },
+    {
       "id": "rassegnastampadel15agostotutti",
       "title": "Rassegna stampa del 15 agosto: Tutti i  giorni in esclusiva su Volleyball.it+",
       "excerpt": "La rassegna stampa volley del 15 agosto mette al centro l'arrivo ufficiale di Blengini alla Numia...",
@@ -424,6 +520,14 @@
       "createdTime": "Sat, 08 Aug 2026 23:02:48 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Michieletto_italia.jpg",
       "permalink": "https://www.volleyball.it/2026/08/08/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-dell8-agosto-2026-michieletto-torna-in-azzurro-vallefoglia-riparte-i.html"
+    },
+    {
+      "id": "italiaversoglieuropeidegiorgic",
+      "title": "Italia verso gli Europei: De Giorgi convoca 17 azzurri per il raduno di Cervia",
+      "excerpt": "Archiviata la Volleyball Nations League, la Nazionale maschile riparte da Cervia in vista degli...",
+      "createdTime": "Sat, 08 Aug 2026 10:41:17 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/De_Giorgi.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/08/notizie/argomenti/europei-maschili/articolo/italia-verso-gli-europei-de-giorgi-convoca-17-azzurri-per-il-raduno-di-cervia.html"
     },
     {
       "id": "mondovolleylealtrenewsdel1agos",
@@ -450,20 +554,12 @@
       "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-polonia-travolge-la-slovenia-e-vola-in-finale.html"
     },
     {
-      "id": "europei2026velascoscegliele14a",
-      "title": "Europei 2026: Velasco sceglie le 14 azzurre, debutto con la Croazia. C'è anche Adigwe",
-      "excerpt": "Definito il gruppo dell'Italia per la rassegna continentale: Antropova tra le schiacciatrici, Egonu...",
-      "createdTime": "Mon, 17 Aug 2026 16:20:46 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/julio-velasco-europei-2026.jpeg",
-      "permalink": "https://www.volleyball.it/2026/08/17/notizie/argomenti/europei-femminili/articolo/europei-2026-velasco-sceglie-le-14-azzurre-debutto-con-la-croazia.html"
-    },
-    {
-      "id": "10",
-      "title": "Julio Velasco ha scelto le 14 Azzurre per gli Europei femminili di pallavolo",
-      "excerpt": "Fonte: sportal.it",
-      "createdTime": "Mon, 17 Aug 2026 08:01:00 GMT",
-      "image": "https://www.sportal.it/wp-content/uploads/2025/06/julio_velasco.webp",
-      "permalink": "https://www.sportal.it/altro/volley/julio-velasco-ha-scelto-le-14-azzurre-per-gli-europei-femminili-di-pallavolo.html"
+      "id": "mondovolleylealtrenewsdel17ago",
+      "title": "Mondo Volley: Le altre news del 17 agosto 2026. Boninfante sbarca a San Pietroburgo,  Perugia scopre le rivali iridate",
+      "excerpt": "Dai primi raduni italiani ai movimenti internazionali: mercato, preparazione, Europei e grandi...",
+      "createdTime": "Mon, 17 Aug 2026 23:18:19 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Boninfante_a_San_Pietroburgo.png",
+      "permalink": "https://www.volleyball.it/2026/08/17/notizie/argomenti/estero/articolo/mondo-volley-le-altre-news-del-17-agosto-2026-boninfante-sbarca-a-san-pietroburgo-perugia-scopre.html"
     },
     {
       "id": "nazionalemanfredimaipiuncasola",
@@ -506,52 +602,44 @@
       "permalink": "https://www.volleyball.it/2026/01/23/notizie/argomenti/a1-femminile/articolo/monica-de-gennaro-e-la-pallavolista-dellanno-2025-primo-posto-per-giuria-e-pubblico-di-volleyba.html"
     },
     {
-      "id": "agendalegaredellagiornata",
-      "title": "Agenda: Le gare della giornata",
-      "excerpt": "Oggi 23 gare di volley in programma, distribuite in 7 manifestazioni.",
-      "createdTime": "Fri, 21 Aug 2026 01:06:44 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/GRAFICA_-_Le_gare_di_Oggi.png",
-      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/internazionale/articolo/agenda-le-gare-della-giornata-21.html"
+      "id": "europeifemminilisveziavincente",
+      "title": "Europei Femminili: Svezia vincente davanti a un pubblico record",
+      "excerpt": "A Göteborg le padrone di casa superano il Montenegro 3-0 (25-13, 25-18, 25-23). Sugli spalti dello...",
+      "createdTime": "Fri, 21 Aug 2026 22:36:43 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/svezia-montenegro-eurovolley-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/europei-femminili/articolo/europei-femminili-svezia-vincente-davanti-a-un-pubblico-record.html"
     },
     {
-      "id": "mondovolleylealtrenewsdel14ago",
-      "title": "Mondo Volley: Le altre news del 14 agosto 2026: Modena riparte, Colombo sceglie Vibo, Bergmann torna",
-      "excerpt": "Club e nazionali verso la nuova stagione: Modena fissa il raduno, Vibo punta su Colombo e il...",
-      "createdTime": "Fri, 14 Aug 2026 23:06:34 GMT",
-      "image": "https://www.volleyball.it/typo3temp/pics/ee7568111b.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/14/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-14-agosto-2026-modena-riparte-colombo-sceglie-vibo-bergmann-torna.html"
+      "id": "europeifemminilirubanerahimova",
+      "title": "Europei Femminili: Ruban e Rahimova trascinano l'Azerbaigian",
+      "excerpt": "A Baku le padrone di casa superano il Portogallo 3-1 (25-22, 23-25, 27-25, 25-20). Ruban chiude con...",
+      "createdTime": "Fri, 21 Aug 2026 22:21:12 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/azerbaigian-portogallo-eurovolley-2026.jpeg",
+      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/europei-femminili/articolo/europei-femminili-ruban-e-rahimova-trascinano-lazerbaigian.html"
     },
     {
-      "id": "eurovolley2026invenditaibiglie",
-      "title": "EuroVolley 2026: In vendita i biglietti per semifinali e finali di Milano",
-      "excerpt": "Il 25 e 26 settembre l'Unipol Forum ospiterà le quattro gare decisive. Disponibili anche...",
-      "createdTime": "Fri, 14 Aug 2026 12:02:44 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/eurovolley-2026-milano-semifinali-finali.jpg",
-      "permalink": "https://www.volleyball.it/2026/08/14/notizie/argomenti/vnl-maschile/articolo/eurovolley-2026-in-vendita-i-biglietti-per-semifinali-e-finali-di-milano.html"
+      "id": "europeifemminiliturchiatravolg",
+      "title": "Europei Femminili: Turchia travolgente davanti a 9.112 tifosi",
+      "excerpt": "A Istanbul le campionesse d'Europa iniziano la Pool A con un netto 3-0 (25-17, 25-16, 25-16) sulla...",
+      "createdTime": "Fri, 21 Aug 2026 21:55:23 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/turchia-lettonia-eurovolley-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/europei-femminili/articolo/europei-femminili-turchia-travolgente-davanti-a-9112-tifosi.html"
     },
     {
-      "id": "7",
-      "title": "Pallavolo Azzurri – La Nazionale al lavoro in vista degli Europei, le convocazioni di Ferdinando De Giorgi",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Fri, 07 Aug 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/08/pallavolo-azzurri-la-nazionale-al-lavoro-in-vista-degli-europei-le-convocazioni-di-ferdinando-de-giorgi/"
+      "id": "europeifemminilibulgariarimont",
+      "title": "Europei Femminili: Bulgaria, rimonta e 3-0 sull'Ucraina",
+      "excerpt": "A Brno la squadra di Marcello Abbondanza debutta con un successo per 3-0 (25-23, 25-23, 25-20)....",
+      "createdTime": "Fri, 21 Aug 2026 21:30:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/bulgaria-ucraina-eurovolley-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/europei-femminili/articolo/europei-femminili-bulgaria-rimonta-e-3-0-sullucraina.html"
     },
     {
-      "id": "11",
-      "title": "Reggio, Panuccio (FIPAV): ‘Pronti per la Nazionale di pallavolo al PalaCalafiore. Tra 20 giorni l’evento con Italia, Germania e Cuba",
-      "excerpt": "Fonte: citynow.it",
-      "createdTime": "Fri, 07 Aug 2026 11:48:00 GMT",
-      "image": "https://www.citynow.it/wp-content/uploads/sites/5/2026/08/Domenico-Panuccio-FIPAV-RC.jpg?quality=75&resize=1120%2C630",
-      "permalink": "https://www.citynow.it/reggio-calabria-nazionale-pallavolo-palacalafiore-panuccio/"
-    },
-    {
-      "id": "fivbrenamingdelmondialechedive",
-      "title": "FIVB: Renaming del Mondiale che diventa Coppa del Mondo...",
-      "excerpt": "LOSANNA - In un’ulteriore iniziativa che mira a “ridisegnare” il volto della pallavolo a livello...",
-      "createdTime": "Fri, 06 Mar 2026 00:12:08 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/03/World_Cup_logo_2_mondi.png",
-      "permalink": "https://www.volleyball.it/2026/03/06/notizie/argomenti/mondiali/articolo/fivb-renaming-del-mondale-che-diventa-coppa-del-mondo.html"
+      "id": "europeifemminilivelascodopoil3",
+      "title": "Europei Femminili: Velasco dopo il 3-0 alla Croazia, \"Non dobbiamo pensare all'errore, ma alla palla successiva\"",
+      "excerpt": "Il Ct azzurro promuove l'esordio dell'Italia e considera utile anche il momento di difficoltà...",
+      "createdTime": "Fri, 21 Aug 2026 19:53:35 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/VELASCO_GUARDA_SU.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/21/notizie/argomenti/europei-femminili/articolo/europei-femminili-velasco-dopo-il-3-0-alla-croazia-non-dobbiamo-pensare-allerrore-ma-alla-palla.html"
     }
   ]
 }
