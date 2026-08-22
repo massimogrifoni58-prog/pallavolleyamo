@@ -21,7 +21,7 @@ Output:
 import html as html_module
 import json
 import re
-import sysF
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -322,7 +322,7 @@ def main():
         p["image"] = fetch_og_image(p["permalink"])
     print(f"  Trovate {len(fipav_posts)} notizie.")
     
-    reaprint("- Fonte 4: Pallavolo.it")
+    print("- Fonte 4: Pallavolo.it")
     pvit_posts = fetch_pallavolo_it()
     for p in pvit_posts:
         p["image"] = fetch_og_image(p["permalink"])
