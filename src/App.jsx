@@ -1856,14 +1856,17 @@ function ArticoliSocietaPage({ subscribed }) {
 
   const articoloAperto = articoli.find(a => a.id === aperto);
 
-  function handleSubmit(e) {
+function handleSubmit(e) {
     e.preventDefault();
     setStatus("sending");
   fetch("https://formspree.io/f/xqerqbbz", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...form }),
-    }).then(() => setStatus("done")).catch(() => setStatus("error"));
+    method: "POST",
+    headers: { 
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    body: JSON.stringify({ ...form }),
+  }).then(() => setStatus("done")).catch(() => setStatus("error"));
   }
 
   const categorieBadge = {
