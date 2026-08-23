@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:04:51.025201+00:00",
+  "generatedAt": "2026-08-23T05:27:15.058051+00:00",
   "news": {
     "1": [
       {
@@ -7,6 +7,12 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXk1MFk4Y0pObkdOVjVoaVpDRW5WVnhYQ1B3dXlLdFNWeXZ3SmRrLVRjT0JZS3M0elczUXdJcEgySHZLalJWd1pGSlIxczItNUlBYlRNeFprYklNYkMtdm5kRmpSeG45LVhYMWJNWEoweFZxMDF0VTIyQzlaZkZVYWs5amFvY1MyVHIwZzV3?oc=5",
         "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
         "source": "federvolley.it"
+      },
+      {
+        "title": "Stagione Nazionali 2026, Mencarelli e Fanizza raccontano lo scouting sul territorio - volleynews.it",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRENQb21tNHRwbF9RU09sZWlSSjVMQVRrVDJ4dHRILVdZbVBZaFk2UXlpOE5lWkdTbE1YN29XZFpIQ3Z2eEdFSWxZenNKT0ZieXpSQUlyWDJORFVUWmtvMUlVZjRzQ3VIOVN3VEM4MGdFTzhZY1kyeHJITHlhWERzRDMxMUZIODJDVTZwN3hyUTdESTRkUWdoWHZsWUQ2aHZ6Wm02dGtsaVpmT3R0U3c?oc=5",
+        "pubDate": "Tue, 28 Apr 2026 07:00:00 GMT",
+        "source": "volleynews.it"
       },
       {
         "title": "Il DT delle Nazionali Giovanili Femminili Marco Mencarelli in visita all’Opiquad Arena - Vero Volley",
@@ -25,12 +31,6 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkI2ZEVTa0pEUnJ0SVJERW5veXRYX005WUQ1VUotbzFxX2JSck9IYXM4TFF4QmtPdGIyQjBCSUlDeklYSjJHM0JXcVlPdUNzeS1WMnhsQ0dmek9YMnlzSGlKVjUweklSREJtWnB4bC1sd09hT2hmT3VmTVlsUmZZV0FTanNxclRWZ2NEYXRLLW5Rdw?oc=5",
         "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT",
         "source": "federvolley.it"
-      },
-      {
-        "title": "Pallavolo U18F – Nuovo collegiale per le Azzurrine: le convocate di Marco Mencarelli - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS3JqZEdHMEo0NXhHUWdBdHVkN2NrS0lseFZNVGRULWVfQUIzVXJ0c2RTRUpHNV9uTXdhcURvMl9ieFBXUGMzRjlpRldneV9DOEcxczVQSHdndE9pM3ExYkxJTUh5aGNVNkNnSmJ0cFBzbDA4U2w3VWw2RWhGaGpvZ0U3QnF6NDdVZE9hSmg3NU9QRmVBYm15U0ROc2ljVXZid05fb2tKelRiR2VOOE4xRkh4SFlNN0Z4Rmt3UG9FVENjQQ?oc=5",
-        "pubDate": "Fri, 21 Nov 2025 08:00:00 GMT",
-        "source": "iVolley Magazine"
       }
     ],
     "2": [
@@ -187,6 +187,12 @@
     ],
     "10": [
       {
+        "title": "Per Terni Academy sconfitta e retrocessione - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQlhzQ1h3YVRicVNyblFxdUpfYlNQSjduclVPY3ZTQWVzTjlyUXdXMy04azEtR0liVHNVWXU1NUpYTnNpQTY0akFXZldDcHo5XzZHRnJhaXhjcUNtWTlEd1dybF9GQ2N0WTZsYXFPd3RsRFhrODBFRVVYMGhxS1lZSHpnYkQ?oc=5",
+        "pubDate": "Sun, 19 Apr 2026 07:00:00 GMT",
+        "source": "La Nazione"
+      },
+      {
         "title": "Terni Volley, Camardese punta sul gruppo - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbzRhTnVmMVRINjFIZU9FN29iSzQ4RURHdlJEdTlHbjBfb1J6VW5faXYxQ2hqMWdtRnhONHVGS3lkeXZHQzc2UV80dUlqcF9qTXk5MTVuQW13YUV0TUpKd3EtNFdBQ2xIcFQzalNRaFV2eHIxcFp4YzRJaw?oc=5",
         "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT",
@@ -197,12 +203,6 @@
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOGczRTRCb0h0R0ZKcU9pTjBWYmdWbFM2RWtfdm9TbjR6SGx2OGtKWGxqRkhZTENHTnlBSmQ3QWR5eTFpUGhPQXItT1htU2t4Q2pBdGF2ZThRNVJJbXVQSzJJVUtaajBDbjZaMTRGMlQ5WEJYRjQ3MUxRYnVWZlVTU3cxYm1QZGFpTVHSAYoBQVVfeXFMTTFhdkIzanIxUjNuOGt0Tzl6NmJ1Y0d1NFZteEp3YU8zTkVFZkdKdkdUUzhDXzY4TlBOTDdMdy1yV0ZROW90Q0Y1Qk5NWkstd2x2SHNtbUt1UzExVVRQVmMwbjQ4WlVHMFFic2MxZHdEWFZTcE9MbWlXMC1RbFBfa2pMaTFvZjR5eTln?oc=5",
         "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT",
         "source": "today.it"
-      },
-      {
-        "title": "Camardese “Prova maiuscola contro Gioia Del Colle” - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdGkyZnUyZFFadFlFT3FrUzU1bFhhV0pBcEROQVdDdS1NQXpoSl9nRzhhbjJhRjFSdlZQNms2R0ZCWUk0Zi1aVE9xRHI2Tld2dU9HUGVxUnh3a2t5b0NudVE2TFoxU05CdkE0cGZ0VlI3SDNVUGxIQzBpRm1uUnZ2Y2xvOTN4NWc?oc=5",
-        "pubDate": "Wed, 18 Feb 2026 08:00:00 GMT",
-        "source": "Lega Pallavolo Serie A"
       },
       {
         "title": "Pallavolo A3M - Leondino Giombini non è più l'allenatore di Terni, la squadra affidata a Cristiano Camardese - iVolley Magazine",

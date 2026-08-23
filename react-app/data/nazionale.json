@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:01:09.975778+00:00",
+  "generatedAt": "2026-08-23T05:23:58.950855+00:00",
   "posts": [
     {
       "id": "vnlfinalsitaliastatiunitivalel",
@@ -234,7 +234,7 @@
       "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-29-luglio-2026-zaytsev-trova-squadra-in-azerbaigian-la2-torna-a.html"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "L’unico titolo che manca a questa Nazionale",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Thu, 20 Aug 2026 23:44:00 GMT",
@@ -242,15 +242,15 @@
       "permalink": "https://www.ilpost.it/2026/08/21/europei-pallavolo-femminile-nazionale-goteborg/"
     },
     {
-      "id": "8",
-      "title": "Pallavolo EuroVolleyW2026 – La Francia ha esordito superando con un secco 3-0 la Slovacchia",
+      "id": "12",
+      "title": "Pallavolo EuroVolleyW2026 – Merit Adigwe: “Vestire la maglia azzurra è un sogno”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 20 Aug 2026 17:00:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/21/pallavolo-eurovolleyw2026-la-francia-ha-esordito-superando-con-un-secco-3-0-la-slovacchia/"
+      "permalink": "https://www.ivolleymagazine.it/2026/08/21/pallavolo-eurovolleyw2026-merit-adigwe-vestire-la-maglia-azzurra-e-un-sogno/"
     },
     {
-      "id": "6",
+      "id": "8",
       "title": "Pallavolo, Danesi: «Siamo la nuova generazione di fenomeni. Dopo l'oro olimpico in molti si sono accorti che non siamo solo bei corpi. Nazionale? Lascio dopo Los Angeles»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 20 Aug 2026 02:45:00 GMT",
@@ -530,7 +530,15 @@
       "permalink": "https://www.notizie.it/europei-pallavolo-femminile-2026-litalia-batte-il-montenegro-3-0/"
     },
     {
-      "id": "5",
+      "id": "4",
+      "title": "La nazionale maschile di sitting volley agli Europei B",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Sat, 22 Aug 2026 04:47:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/08/22/094226849-bc9b507f-4df1-4bef-83c1-d9d654e9cba6.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/08/22-150705606/la_nazionale_maschile_di_sitting_volley_agli_europei_b"
+    },
+    {
+      "id": "6",
       "title": "Europei pallavolo 2026, oggi Italia-Montenegro: orario e dove vederla in tv anche in chiaro",
       "excerpt": "Fonte: lapresse.it",
       "createdTime": "Sat, 22 Aug 2026 03:53:00 GMT",
@@ -632,14 +640,6 @@
       "createdTime": "Fri, 29 May 2026 19:17:31 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/05/fivb-statement-pnvf.png",
       "permalink": "https://www.volleyball.it/2026/05/29/notizie/argomenti/internazionale/articolo/fivb-sospende-la-federazione-filippina-nominato-un-comitato-ad-hoc.html"
-    },
-    {
-      "id": "pallavollistadellanno20925ivot",
-      "title": "Pallavollista dell'anno 20925: i voti della giuria e il sondaggio su Volleyball.it+",
-      "excerpt": "MODENA - Il sondaggio per la Pallavolista Italiana dell’Anno 2025 è stato aperto a 14 giocatrici...",
-      "createdTime": "Fri, 23 Jan 2026 15:13:01 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2025/11/COPERTINA_Pallavolista_femminile.jpg",
-      "permalink": "https://www.volleyball.it/2026/01/23/notizie/argomenti/a1-femminile/articolo/pallavollista-dellanno-20925-i-voti-della-giuria-e-il-sondaggio-su-volleyballit.html"
     }
   ]
 }
