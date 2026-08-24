@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-08-24T05:02:58.775597+00:00",
+  "generatedAt": "2026-08-24T05:34:58.207273+00:00",
   "posts": [
+    {
+      "title": "Sand volley 3×3 misto, Obeya Team si aggiudica il Memorial Giri-Fiscella",
+      "excerpt": "È andato in archivio il tredicesimo appuntamento di sand volley 3&#215;3 misto denominato In campo per Claudio e Franco &#8211; Memorial Giri-Fiscella organizzato da Pianeta Volley al centro sportivo ",
+      "createdTime": "Mon, 24 Aug 2026 05:13:25 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/08/ObeyaTeam-prima-classificata.jpeg?fit=1024%2C768&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/sand-volley-3x3-misto-obeya-team-si-aggiudica-il-memorial-giri-fiscella/",
+      "id": "1"
+    },
     {
       "title": "Al Memorial Giri-Fiscella successo della Obeya Team",
       "excerpt": "È andato in archivio il tredicesimo appuntamento di sand volley 3&#215;3 misto denominato In campo per Claudio e Franco &#8211; Memorial Giri-Fiscella organizzato da Pianeta Volley al centro sportivo ",
       "createdTime": "Sun, 23 Aug 2026 21:16:07 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/ObeyaTeam-prima-classificata.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35116",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "Obeya Team regna al Memorial Giri-Fiscella",
@@ -15,7 +23,7 @@
       "createdTime": "Sun, 23 Aug 2026 18:30:10 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/ObeyaTeam-prima-classificata.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/obeya-team-regna-al-memorial-giri-fiscella/",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Black Angels, il primo bilancio di Micoli: “C’è l’entusiasmo giusto”",
@@ -23,7 +31,7 @@
       "createdTime": "Sun, 23 Aug 2026 14:59:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Stefano-Micoli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35114",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Altotevere, Gustinelli alla vigilia del ritiro: “Vogliamo lottare per arrivare primi”",
@@ -31,7 +39,7 @@
       "createdTime": "Sun, 23 Aug 2026 12:42:38 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/gustinelli-e-alpini.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35110",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "Roberto Alimenti è il direttore sportivo di Monteluce",
@@ -39,7 +47,7 @@
       "createdTime": "Sun, 23 Aug 2026 09:00:32 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Alimenti-Roberto.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/roberto-alimenti-e-il-direttore-sportivo-di-monteluce/",
-      "id": "5"
+      "id": "6"
     },
     {
       "title": "In Altotevere si cercano sinergie nel volley giovanile",
@@ -47,7 +55,7 @@
       "createdTime": "Sun, 23 Aug 2026 07:00:07 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2025/06/Altotevere-Volley-logo.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/in-altotevere-ci-sono-sinergie-nel-volley-giovanile/",
-      "id": "6"
+      "id": "7"
     },
     {
       "title": "Staff tecnico di qualità a Città di Castello",
@@ -55,7 +63,7 @@
       "createdTime": "Sun, 23 Aug 2026 05:00:17 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Citta-di-Castello-Pallavolo-staff-tecnico.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/staff-tecnico-di-qualita-a-citta-di-castello/",
-      "id": "7"
+      "id": "8"
     },
     {
       "title": "Agrifoglio nuova palleggiatrice della Sirio Perugia",
@@ -63,7 +71,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:35:42 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Agrifoglio-Matilde-Sirio-Perugia.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35108",
-      "id": "8"
+      "id": "9"
     },
     {
       "title": "Città di Castello: ecco lo staff della B maschile",
@@ -71,7 +79,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:32:09 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/castello_staff_tecnico_b.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35106",
-      "id": "9"
+      "id": "10"
     },
     {
       "title": "Alimenti nuovo DS della Pallavolo Monteluce",
@@ -79,7 +87,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:29:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Roberto-Alimenti.png",
       "permalink": "https://www.volleyumbria.it/?p=35104",
-      "id": "10"
+      "id": "11"
     },
     {
       "title": "Matilde Agrifoglio: «Confido in Perugia e nel suo staff»",
@@ -87,7 +95,7 @@
       "createdTime": "Sat, 22 Aug 2026 09:00:41 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Agrifoglio-Matilde-Sirio-Perugia.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/matilde-agrifoglio-confido-in-perugia-e-nel-suo-staff/",
-      "id": "11"
+      "id": "12"
     },
     {
       "title": "Monteluce Volley: Michele Antonelli è il nuovo allenatore della Seconda Divisione Femminile",
@@ -95,14 +103,6 @@
       "createdTime": "Fri, 21 Aug 2026 08:58:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/antonelli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35094",
-      "id": "12"
-    },
-    {
-      "title": "Patrik Valenti confermato a Città di Castello",
-      "excerpt": "C’è ancora qualche notizia di mercato per il campionato di serie B maschile, a renderla ufficiale è la neopromossa Città di Castello Pallavolo. Si tratta di una conferma fortemente voluta dallo staff ",
-      "createdTime": "Fri, 21 Aug 2026 07:00:22 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Valenti-Patrick.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/patrik-valenti-confermato-a-citta-di-castello/",
       "id": "13"
     },
     {
