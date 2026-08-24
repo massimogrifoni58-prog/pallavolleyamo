@@ -1463,7 +1463,7 @@ function RisultatiPage() {
 
   return (
     <main>
-      <CampionatiHero titolo="Risultati" sfondo="/risultati.jpg" />
+      <CampionatiHero titolo="Risultati" sfondo="/sfondo.jpg" />
       <section className="section">
 
         <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginBottom: "1.25rem" }}>

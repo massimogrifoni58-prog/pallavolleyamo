@@ -2659,7 +2659,7 @@ main {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: var(--hero-bg, url('/agenda.jpg'));
+  background-image: var(--hero-bg, url('/sfondo.jpg'));
   background-size: cover;
   background-position: center;
   filter: blur(2px);
