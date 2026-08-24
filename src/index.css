@@ -2662,7 +2662,7 @@ main {
   background-image: var(--hero-bg, url('/sfondo.jpg'));
   background-size: cover;
   background-position: center;
-  filter: blur(2px);
+  filter: none;
   z-index: 0;
 }
 
