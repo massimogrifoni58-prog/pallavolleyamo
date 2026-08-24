@@ -1310,9 +1310,9 @@ function VideoPage() {
     </main>
   );
 }
-function CampionatiHero({ titolo }) {
+function CampionatiHero({ titolo, sfondo }) {
   return (
-    <div className="campionati-hero">
+    <div className="campionati-hero" style={sfondo ? { "--hero-bg": `url('${sfondo}')` } : {}}>
       <div className="campionati-hero__overlay">
         <h2 className="campionati-hero__titolo">{titolo}</h2>
         <p className="campionati-hero__sub">Campionati FIPAV Umbria · Aggiornamento automatico</p>
@@ -1463,7 +1463,7 @@ function RisultatiPage() {
 
   return (
     <main>
-      <CampionatiHero titolo="Risultati" />
+      <CampionatiHero titolo="Risultati" sfondo="/risultati.jpg" />
       <section className="section">
 
         <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginBottom: "1.25rem" }}>
