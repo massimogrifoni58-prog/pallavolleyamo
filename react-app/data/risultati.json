@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:25:52.409759+00:00",
+  "generatedAt": "2026-08-24T05:03:25.809319+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2806,6 +2806,2382 @@
       "giornata": "Giornata 26",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627101",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627105",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627104",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627102",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627100",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PERUGIA",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627103",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627108",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627106",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TIBER VOLLEY",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627109",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627111",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627107",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627110",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627113",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627116",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627117",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627112",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627114",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SIRIO PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627115",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627122",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627118",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627119",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627120",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627121",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627123",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627125",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627129",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627126",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627127",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TIBER VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627124",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627128",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIRIO PERUGIA",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627130",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627135",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627131",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627132",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627134",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627133",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627136",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627139",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627140",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627141",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "TIBER VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627137",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627138",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "SIRIO PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627146",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627142",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627144",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627147",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627145",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627143",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627153",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627150",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627151",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TIBER VOLLEY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627149",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627152",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627148",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SIRIO PERUGIA",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627156",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627159",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627154",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627157",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627158",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627155",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627164",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627165",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "TIBER VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627162",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627163",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627160",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "SIRIO PERUGIA",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627161",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627166",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627171",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "TIBER VOLLEY",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627170",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627168",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627167",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627169",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627176",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627175",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627177",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627173",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627172",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "SIRIO PERUGIA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627174",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627178",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627179",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "TIBER VOLLEY",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627180",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627182",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627181",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627183",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627189",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627188",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627185",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "TIBER VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627187",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627184",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627186",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "SIRIO PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627190",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627191",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627192",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627193",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627195",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627194",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627197",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627198",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627196",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627201",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "TIBER VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627199",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627200",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "SIRIO PERUGIA",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627204",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627206",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627203",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627202",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627205",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627207",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627212",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627208",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627211",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "TIBER VOLLEY",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627213",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627209",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627210",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "SIRIO PERUGIA",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627218",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627217",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627219",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627214",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627215",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627216",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 20",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627225",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "POLISPORTIVA DELFINO",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627224",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "TIBER VOLLEY",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627222",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627221",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627220",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "SIRIO PERUGIA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627223",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627231",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627226",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627230",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627228",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627229",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627227",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "NVBS BLUE PANTHERS",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627236",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627233",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627234",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627232",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627235",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627237",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627239",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627238",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627240",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627241",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627243",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627242",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627249",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627245",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "REBELS ASSISI",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627244",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627246",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627247",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627248",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627253",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627251",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627252",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627254",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627250",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627255",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627258",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627257",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "REBELS ASSISI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627259",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627256",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627260",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627261",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627266",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627262",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627263",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627265",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627267",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627264",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627268",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627269",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627271",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "REBELS ASSISI",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627273",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627270",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627272",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627277",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627274",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627278",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627275",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627276",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627279",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627281",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627283",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627284",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627285",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "REBELS ASSISI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627280",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627282",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627287",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627286",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627288",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627289",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627290",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627291",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627294",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627295",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627296",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "REBELS ASSISI",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627297",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627293",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627292",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627299",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627298",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "REBELS ASSISI",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627302",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627303",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627300",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627301",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627309",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627308",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627305",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627304",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627306",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627307",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627313",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627310",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627311",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627312",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627314",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627315",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627319",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627317",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627321",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "REBELS ASSISI",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627316",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627318",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627320",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627327",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627322",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627323",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627324",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627325",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627326",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627328",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627329",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "REBELS ASSISI",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627331",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627333",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627330",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627332",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627337",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627336",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627335",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627338",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627339",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627334",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627343",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627344",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "REBELS ASSISI",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627345",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627341",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627340",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627342",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627347",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627349",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627350",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627348",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627351",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627346",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 20",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627354",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627356",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627357",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "REBELS ASSISI",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627353",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627355",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "VOLLEY ACADEMY BASTIA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627352",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627359",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627362",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627363",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627360",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627358",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627361",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 22",
+      "home": "ASD CASCIA PALLAVOLO",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     }
