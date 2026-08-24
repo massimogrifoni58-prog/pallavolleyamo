@@ -337,6 +337,32 @@
       "provincia": "perugia",
       "foto": "/articoli/emanuelli.jpg",
       "logo": null
-    }
+    },
+    {
+      "id": "27",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Nuovo Acquisto",
+      "titolo": "Un' altra New entry: Sofia Belloni, classe 2008 proveniente dalla serie D Free luce e gas di Narni. ",
+      "testo": "L’emozione è tanta, la responsabilità anche, ma inizia il mio primo anno in Serie C con l’Amerina.Grazie per l’accoglienza da parte delle nuove compagne e soprattutto prometto impegno, passione e tanto lavoro per l’anno che verrà.",
+      "data": "23 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/belloni.jpg",
+      "logo": null
+       },
+    {
+      "id": "28",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Conferma",
+      "titolo": "Si prosegue con le conferme: Anna Borioli  ",
+      "testo": "Anna è stata fondamentale nella scorsa stagione, dimostrando grande disponibilità e versatilità. Si è messa a disposizione della squadra ricoprendo ogni ruolo che le è stato richiesto: palleggiatrice, opposto, schiacciatrice e centrale. Una giocatrice preziosa, sempre pronta a dare il proprio contributo in qualsiasi situazione.Ecco le sue parole:Sono contenta di iniziare questo percorso con le vecchie compagne e di conoscere le nuove. Sarà sicuramente più impegnativo, ma tutto ciò è stimolante.",
+      "data": "24 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/borioli.jpg",
+      "logo": null
+      }
   ]
 }
