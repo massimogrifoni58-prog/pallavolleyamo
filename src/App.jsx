@@ -5328,13 +5328,13 @@ function AgendaPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
 
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1rem" }}>
-          <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
-          <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)" }}>
-            {meseNome}
-          </div>
-          <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "1rem" }}>
+        <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
+        <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)", minWidth: "140px", textAlign: "center" }}>
+    {meseNome}
         </div>
+          <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
+           </div>
 
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
           {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
