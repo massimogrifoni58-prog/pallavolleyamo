@@ -363,6 +363,19 @@
       "provincia": "terni",
       "foto": "/articoli/borioli.jpg",
       "logo": null
+      },
+    {
+      "id": "29",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Nuovo Acquisto",
+      "titolo": "New Entry: Ilary Storti",
+      "testo": "Ecco una New Entry: Ilary Storti, schiacciatrice!! Classe 2007 proveniente della serie D, Salumificio Battisti Tuder Volley.Sono molto emozionata per l’inizio di questa nuova esperienza in serie C, non vedo l’ora di mettermi in gioco e conoscere tutte le ragazze. Sarà un’occasione di crescita e sono pronta a dare il meglio per questa stagion",
+      "data": "25 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/storti.jpg",
+      "logo": null
       }
   ]
 }
