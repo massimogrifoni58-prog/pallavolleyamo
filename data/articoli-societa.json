@@ -376,6 +376,19 @@
       "provincia": "terni",
       "foto": "/articoli/storti.jpg",
       "logo": null
+      },
+    {
+      "id": "30",
+      "societa":  "Amerina Pallavolo",
+      "autore": "societa",
+      "categoria": "Nuovo Acquisto",
+      "titolo": "New Entry: Ludovica Bighi! Classe 2001 proveniente dalla prima divisione Arrone pallavolo.",
+      "testo": "So di arrivare in una società che la scorsa stagione è stata protagonista ed ha ottenuto la promozione in serie C. Sicuramente ci sarà da lavorare tanto per affrontare la nuova categoria, però mi sento pronta a buttarmi in questa sfida e sono davvero entusiasta di far parte di questo progetto. Ho sentito da subito la fiducia da parte dell’allenatore che per me è una cosa fondamentale e spero di esserne all’altezza, mi auguro di poter contribuire il più possibile per scrivere altre belle pagine di storia dell’Amerina… non vedo l’ora di conoscere la squadra e di iniziare a lavorare insieme in palestra",
+      "data": "25 Agosto 2026",
+      "mese": "Agosto",
+      "provincia": "terni",
+      "foto": "/articoli/bighi.jpg",
+      "logo": null
       }
   ]
 }
