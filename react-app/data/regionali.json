@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:02:02.934074+00:00",
+  "generatedAt": "2026-08-25T05:27:51.707859+00:00",
   "posts": [
     {
       "id": "news-6",
@@ -8,14 +8,6 @@
       "createdTime": "Wed, 29 Oct 2025 09:00:00 GMT",
       "image": "https://www.latinanews.eu/wp-content/uploads/2025/10/XSAi63qPngB6-e1761552969179.jpg",
       "permalink": "https://www.latinanews.eu/volley-tre-ore-di-battaglia-per-il-viridex-sabaudia-che-supera-il-terni-3-2/"
-    },
-    {
-      "id": "news-7",
-      "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2025/9/24/660x290/b_1200x675x95/javier-martinez-e-helena-prestes-c-x_3146374.jpg",
-      "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
     },
     {
       "id": "news-7",
@@ -43,11 +35,27 @@
     },
     {
       "id": "news-3",
+      "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
+      "excerpt": "Fonte: ilpost.it",
+      "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
+      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2026/05/07/1778127160-perugia.jpg",
+      "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
+    },
+    {
+      "id": "news-3",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2024/10/arbitro-pallavolo-fipav.png",
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
+    },
+    {
+      "id": "news-7",
+      "title": "Pallavolo C1/M: ottimo esordio per la Terni Volley",
+      "excerpt": "Fonte: sporterni.it",
+      "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
+      "image": "https://www.sporterni.it/immagini/articoli/4638.jpg",
+      "permalink": "https://www.sporterni.it/articolo.php?id=4638"
     },
     {
       "id": "news-4",
@@ -80,14 +88,6 @@
       "createdTime": "Tue, 18 Aug 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/08/19/pallavolo-mercato-giada-sangoi-nuovo-opposto-della-sirio-perugia/"
-    },
-    {
-      "id": "news-7",
-      "title": "Ilaria Vagni 1/o arbitro alla finale scudetto maschile di Volley",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Tue, 02 May 2023 05:42:00 GMT",
-      "image": "https://www.ansa.it/sito/img/ico/ansa-700x366-precomposed.png",
-      "permalink": "https://www.ansa.it/umbria/notizie/2023/05/02/ilaria-vagni-1/o-arbitro-alla-finale-scudetto-maschile-di-volley_9be60c73-6433-488b-a30a-bb0e0a096741.html"
     },
     {
       "id": "news-1",
@@ -130,7 +130,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -194,7 +194,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
@@ -202,20 +202,12 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "La prima Champions League maschile di Perugia nella pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
       "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/05/19/1747633306-Perugia-Volley.jpeg",
       "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
-    },
-    {
-      "id": "news-4",
-      "title": "Pallavolo: Perugia da sogno, a Torino arriva il bis in Champions",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Sun, 17 May 2026 15:36:00 GMT",
-      "image": "https://www.ansa.it/webimages/img_1129x635/2023/8/31/6d34bd7bbc69d97f5a642c6363f5e40b.jpg",
-      "permalink": "https://www.ansa.it/sito/notizie/sport/pallavolo/2026/05/17/pallavolo-perugia-da-sogno-a-torino-arriva-il-bis-in-champions_a889ca36-6b49-44e9-99db-f750778435ff.html"
     },
     {
       "id": "news-5",
@@ -242,7 +234,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -258,7 +250,7 @@
       "permalink": "https://www.umbria24.it/sport24/beach-volley-va-in-archivio-una-storica-edizione-della-sustenia-cup/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -274,7 +266,7 @@
       "permalink": "https://www.umbria24.it/perugia/un-agrifoglio-per-la-sirio-volley-perugia-si-copre-in-regia-con-la-giovane-matilde/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
       "title": "Volley, Sir Perugia al lavoro in vista della nuova stagione 2026/2027",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sat, 22 Aug 2026 10:36:00 GMT",
@@ -307,14 +299,14 @@
     },
     {
       "id": "news-2",
-      "title": "Volley serie b2 femminile. La Lucky Wind Trevi-Foligno lotta ma retrocede",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Sat, 09 May 2026 16:59:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-ef9506a0"
+      "title": "Clitunno Volley travolgente a Foligno: 3-0 e 6 piazza",
+      "excerpt": "Fonte: spoletonline.com",
+      "createdTime": "Sat, 20 Feb 2010 16:00:00 GMT",
+      "image": "https://www.spoletonline.com/immagini/1493_volleyBall.jpg",
+      "permalink": "https://www.spoletonline.com/130509/Clitunno-Volley-travolgente-a-Foligno:-3-0-e-6-piazza"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Pallavolo, la Sir Perugia ricevuta a palazzo dei Priori",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Mon, 25 May 2026 10:56:00 GMT",
@@ -346,7 +338,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/stefano-micoli-a-perugia-si-respira-entusiasmo/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Fipav Umbria, ecco la lettera del presidente Lomurno a tutte le società di pallavolo della regione",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
@@ -362,7 +354,15 @@
       "permalink": "https://www.perugiatoday.it/sport/elezione-presidente-fipav-umbria-lomurno.html"
     },
     {
-      "id": "news-3",
+      "id": "news-7",
+      "title": "Pallavolo: Rpa lascia Umbria volley",
+      "excerpt": "Fonte: lagazzettadelmezzogiorno.it",
+      "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
+      "image": "https://www.lagazzettadelmezzogiorno.it/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
+      "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
+    },
+    {
+      "id": "news-4",
       "title": "Tris Città di Castello. E Monteluce sogna",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Mon, 17 Aug 2026 23:13:52 GMT",
@@ -370,7 +370,7 @@
       "permalink": "https://www.msn.com/it-it/notizie/italia/tris-citt%C3%A0-di-castello-e-monteluce-sogna/ar-AA2alQqi"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Selezioni Beach Volley Umbria: al via gli allenamenti per il Trofeo delle Regioni",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Mon, 12 May 2025 17:00:00 GMT",
