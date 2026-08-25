@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T05:35:18.943358+00:00",
+  "generatedAt": "2026-08-25T05:02:54.778349+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -7,6 +7,15 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "ROSSI ASCENSORI FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626792",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -25,15 +34,6 @@
       "giornata": "Giornata 1",
       "home": "ITALCHIMICI",
       "away": "POLISPORTIVA DELFINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626792",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -119,20 +119,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626803",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 3",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "ROSSI ASCENSORI FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626802",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 3",
       "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
       "away": "ENERGY PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626803",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "ROSSI ASCENSORI FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -218,20 +218,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626817",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 5",
-      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626813",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 5",
       "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
       "away": "CITTA' DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626817",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -380,6 +380,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626830",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626833",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 8",
@@ -403,15 +412,6 @@
       "giornata": "Giornata 8",
       "home": "ROSSI ASCENSORI FOLIGNO",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626830",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 8",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -488,6 +488,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626843",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "UNIKO VOLLEY ORTE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626845",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 10",
@@ -511,15 +520,6 @@
       "giornata": "Giornata 10",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "ITALCHIMICI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626843",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 10",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "UNIKO VOLLEY ORTE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -605,6 +605,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626857",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626858",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 12",
@@ -619,15 +628,6 @@
       "giornata": "Giornata 12",
       "home": "ITALCHIMICI",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626857",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 12",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -758,20 +758,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626873",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 15",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626876",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 15",
       "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
       "away": "ROSSI ASCENSORI FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626873",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -866,6 +866,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626885",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626888",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 17",
@@ -880,15 +889,6 @@
       "giornata": "Giornata 17",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "ENERGY PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626885",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 17",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -974,20 +974,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626897",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 19",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "CITTA' DI CASTELLO PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626896",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 19",
       "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
       "away": "VOLLEY CASCIA SPOLETO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626897",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "CITTA' DI CASTELLO PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1145,6 +1145,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626915",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "ITALCHIMICI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626918",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 22",
@@ -1159,15 +1168,6 @@
       "giornata": "Giornata 22",
       "home": "ENERGY PMU MARSCIANO",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626915",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 22",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "ITALCHIMICI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1244,6 +1244,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626927",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626929",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 24",
@@ -1267,15 +1276,6 @@
       "giornata": "Giornata 24",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626927",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 24",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1352,6 +1352,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626940",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+      "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626941",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 26",
@@ -1375,15 +1384,6 @@
       "giornata": "Giornata 26",
       "home": "ITALCHIMICI",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626940",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 26",
-      "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "away": "POLISPORTIVA DELFINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3089,20 +3089,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627135",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 6",
-      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
-      "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627131",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 6",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627135",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "TIBER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3422,20 +3422,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627170",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 12",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "away": "OMG VOLLEY PONTE VALLECEPPI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627168",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 12",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627170",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3737,20 +3737,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627206",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 18",
-      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
-      "away": "EMMEPI  GROUP  PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627203",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 18",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627206",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3809,20 +3809,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627213",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 19",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "away": "NUOVA PALLAVOLO GUALDO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627209",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 19",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627213",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 19",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "NUOVA PALLAVOLO GUALDO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3908,20 +3908,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627222",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 21",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627221",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 21",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "NVBS BLUE PANTHERS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627222",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 21",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4277,20 +4277,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627262",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 6",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "ASD PGS BOSICO VOLLEY GREEN2",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627263",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627262",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4709,15 +4709,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627310",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 14",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627311",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 14",
@@ -4732,6 +4723,15 @@
       "giornata": "Giornata 14",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627310",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4817,20 +4817,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627322",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 16",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "ASD CASCIA PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627323",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 16",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627322",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "ASD CASCIA PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
