@@ -101,16 +101,24 @@ function useSubscribed() {
 }
 
 function useRoute() {
-  const getRoute = () => window.location.hash.replace(/^#\/?/, "") || "home";
+  const getRoute = () => {
+    const path = window.location.pathname.replace(/^\//, "");
+    return path || "home";
+  };
   const [route, setRoute] = useState(getRoute());
 
   useEffect(() => {
-    const onHashChange = () => setRoute(getRoute());
-    window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
+    const onPopState = () => setRoute(getRoute());
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
   }, []);
 
   return route;
+}
+
+function navigateTo(path) {
+  window.history.pushState({}, "", "/" + path);
+  window.dispatchEvent(new PopStateEvent("popstate"));
 }
 
 function truncate(text, max) {
@@ -5433,6 +5441,17 @@ function AgendaPage() {
 
 export default function App() {
 const route = useRoute();
+useEffect(() => {
+  function handleClick(e) {
+    const link = e.target.closest('a[href^="#/"]');
+    if (!link) return;
+    e.preventDefault();
+    const path = link.getAttribute("href").replace(/^#\/?/, "");
+    navigateTo(path || "home");
+  }
+  document.addEventListener("click", handleClick);
+  return () => document.removeEventListener("click", handleClick);
+}, []);
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
 useEffect(() => {
   if (!subscribed) setShowBannerIscrizione(true);
