@@ -30,6 +30,16 @@ CAMPIONATI = [
         "nome": "Serie C Femminile Girone Unico",
         "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92698&SId=&PId=7323&btFiltro=CERCA",
     },
+    {
+        "id": "serie-d-femminile-a",
+        "nome": "Serie D Femminile Girone A",
+        "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92699&SId=&PId=7323&btFiltro=CERCA",
+    },
+    {
+        "id": "serie-d-femminile-b",
+        "nome": "Serie D Femminile Girone B",
+        "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92700&SId=&PId=7323&btFiltro=CERCA",
+    },
 ]
 
 

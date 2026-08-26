@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T12:17:41.308575+00:00",
+  "generatedAt": "2026-08-26T13:08:56.010980+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -10,6 +10,16 @@
       "id": "serie-c-femminile",
       "nome": "Serie C Femminile Girone Unico",
       "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92698&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "serie-d-femminile-a",
+      "nome": "Serie D Femminile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92699&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "serie-d-femminile-b",
+      "nome": "Serie D Femminile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92700&SId=&PId=7323&btFiltro=CERCA"
     }
   ],
   "partite": {
@@ -3134,6 +3144,2650 @@
         "ora": "18:00",
         "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
         "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      }
+    ],
+    "serie-d-femminile-a": [
+      {
+        "id": "serie-d-femminile-a-0",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-25",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-1",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-2",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-3",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-25",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-4",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-5",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-6",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-7",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-01",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-8",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-9",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-10",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-01",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-11",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-12",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-13",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-14",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-08",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-15",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-08",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-16",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-17",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-18",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-19",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-20",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-21",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-15",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-22",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-23",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-15",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-24",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-22",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-25",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-26",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-27",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-28",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-22",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-29",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-30",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-31",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-32",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-29",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-33",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-29",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-34",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-29",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-35",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-36",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "00:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-37",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-38",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-06",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-39",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-40",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-41",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-42",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-43",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-13",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-44",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-45",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-13",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-46",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-47",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "8",
+        "data": "2026-12-13",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-48",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-20",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-49",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-50",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-51",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-52",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-53",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-54",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-55",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-56",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-57",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-58",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-10",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-59",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-60",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-61",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-17",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-62",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-63",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-64",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-65",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-66",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-67",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-24",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-68",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-69",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-24",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-70",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-71",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-72",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-14",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-73",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-74",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-14",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-75",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-76",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-77",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-78",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-79",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-80",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-81",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-82",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-83",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-02-21",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-84",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-28",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-85",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-86",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-28",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-87",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-88",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-89",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-90",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-91",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-92",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-93",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-94",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-07",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-95",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-03-07",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-96",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-97",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-98",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-99",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-100",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-14",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-101",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-102",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-21",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-103",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-104",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-105",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-21",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-106",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-107",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-03-21",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-108",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-109",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-110",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-04",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-111",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-112",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-113",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-114",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-11",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-115",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-116",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-11",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-117",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-118",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-119",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-120",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-18",
+        "ora": "17:00",
+        "casa": "SIRIO PERUGIA",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-121",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "20:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "NVBS BLUE PANTHERS",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-122",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "20:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-123",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-18",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-124",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-125",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "EMMEPI  GROUP  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-126",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "18:00",
+        "casa": "EMMEPI  GROUP  PONTE FELCINO",
+        "ospite": "SIRIO PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-127",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-25",
+        "ora": "18:00",
+        "casa": "NVBS BLUE PANTHERS",
+        "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-128",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-129",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-25",
+        "ora": "17:00",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-130",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "18:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-a-131",
+        "campionato": "Serie D Femminile Girone A",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      }
+    ],
+    "serie-d-femminile-b": [
+      {
+        "id": "serie-d-femminile-b-0",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-25",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-1",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-2",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-3",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-25",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-4",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-24",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-5",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-10-25",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-6",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-7",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-8",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-9",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-10",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-11",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-12",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-13",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-14",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-08",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-15",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-08",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-16",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-08",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-17",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-07",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-18",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-19",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-20",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "18:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-21",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-22",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-23",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-24",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-22",
+        "ora": "00:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-25",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-26",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-27",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-28",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-22",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-29",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-11-22",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-30",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-31",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "18:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-32",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-29",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-33",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-34",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-35",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-36",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-37",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-38",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-06",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-39",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-40",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-06",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-41",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-42",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-43",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-44",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-45",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-46",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-12",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-47",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "8",
+        "data": "2026-12-13",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-48",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-20",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-49",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-50",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-20",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-51",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-52",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-53",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "9",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-54",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-55",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-56",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-57",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-58",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-59",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-60",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-61",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-62",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-63",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-64",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-65",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-66",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-67",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-68",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-69",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-70",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-71",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-72",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-73",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-74",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-75",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-76",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-77",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-02-13",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-78",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-79",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-80",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-81",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-82",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-83",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-84",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-85",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-86",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-87",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-88",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-89",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-90",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-91",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-92",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-93",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-94",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-95",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-96",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-97",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-98",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-99",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-100",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-101",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-102",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-21",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-103",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-104",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-105",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-106",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-107",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-108",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-04",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-109",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-110",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-04",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-111",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-112",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-113",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "19",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-114",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-115",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-116",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-117",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-118",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-119",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "20",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-120",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-18",
+        "ora": "18:00",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-121",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-122",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-123",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-124",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-125",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "21",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "REBELS ASSISI",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-126",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-25",
+        "ora": "18:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-127",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-128",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-129",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-25",
+        "ora": "18:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-130",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "REBELS ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-femminile-b-131",
+        "campionato": "Serie D Femminile Girone B",
+        "giornata": "22",
+        "data": "2027-04-24",
+        "ora": "20:00",
+        "casa": "MARCONI MONINI PALLAVOLO GREEN1",
+        "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
         "risultato": null
       }
     ]
