@@ -1430,7 +1430,7 @@ function DiretteLivePage() {
 }
 
 function RisultatiPage() {
-  const urlCat = new URLSearchParams(window.location.hash.split("?")[1] || "").get("cat") || "";
+  const urlCat = "";
   const matches = (risultatiData.matches || []).filter((m) => isAllowedCategory(m.competition));
 
   const byMacro = {};
@@ -1451,12 +1451,12 @@ function RisultatiPage() {
   const [selGiornata, setSelGiornata] = useState("");
 
   const compNames = selMacro ? Object.keys(byMacro[selMacro]) : [];
-  const giornate = selMacro && selComp
-    ? Object.keys(byMacro[selMacro][selComp]).sort((a, b) => giornataNumber(a) - giornataNumber(b))
-    : [];
-  const matchesToShow = selMacro && selComp && selGiornata
-    ? byMacro[selMacro][selComp][selGiornata]
-    : null;
+  const giornate = selMacro && selComp && byMacro[selMacro] && byMacro[selMacro][selComp]
+  ? Object.keys(byMacro[selMacro][selComp]).sort((a, b) => giornataNumber(a) - giornataNumber(b))
+  : [];
+  const matchesToShow = selMacro && selComp && selGiornata && byMacro[selMacro] && byMacro[selMacro][selComp]
+  ? byMacro[selMacro][selComp][selGiornata]
+  : null;
 
   useEffect(() => {
     setSelComp("");
