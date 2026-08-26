@@ -5332,7 +5332,7 @@ function AgendaPage() {
 
   return (
     <main>
-      <CampionatiHero titolo="Agenda" />
+      <CampionatiHero titolo="Calendario Nazionale" />
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
 
