@@ -461,18 +461,25 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
       </button>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
      <NavDropdown
-       label="Notizie"
-       subscribed={subscribed}
-       items={[
-         { href: "#/nazionale", label: "News Nazionali", locked: true },
-         { href: "#/nazionali", label: "News Campionati Naz.", locked: true },
-         { href: "#/regionali", label: "News Regionali", locked: true },
-         { href: "#/terni", label: "News Prov. TR", locked: true },
-         { href: "#/perugia", label: "News Prov. PG", locked: true },
-         { href: "#/squadre-top", label: "News Squadre", locked: true },
-         { href: "#/articoli-societa", label: "Articoli Societa", locked: true },
-      ]}
-    />
+  label="Notizie"
+  subscribed={subscribed}
+  items={[
+    { href: "#/nazionale", label: "News Nazionali", locked: true },
+    { href: "#/nazionali", label: "News Campionati Naz.", locked: true },
+    { href: "#/regionali", label: "News Regionali", locked: true },
+    { href: "#/terni", label: "News Prov. TR", locked: true },
+    { href: "#/perugia", label: "News Prov. PG", locked: true },
+    { href: "#/squadre-top", label: "News Squadre", locked: true },
+  ]}
+/>
+<NavDropdown
+  label="Per le Società"
+  subscribed={subscribed}
+  items={[
+    { href: "#/articoli-societa", label: "Articoli Società", locked: true },
+    { href: "#/rosa", label: "Invia Rosa" },
+  ]}
+/>
         <NavDropdown
           label="Top"
           subscribed={subscribed}
@@ -490,13 +497,10 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
      { href: "#/risultati", label: "Risultati Camp. Regionali" },
      { href: "#/calendario-regionale", label: "Calendario C-D" },
      { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
-     { href: "#/calendario", label: "Calendario" },
      { href: "#/classifica", label: "Classifica" },
-     { href: "#/andamento", label: "Andamento Stagione" },
-     { href: "#/rosa", label: "Invia Rosa" },
      { href: "#/headtohead", label: "Head to Head" },
-      ]}
-     />
+  ]}
+ />
         <NavDropdown
             label="Foto e Video"
             subscribed={subscribed}
