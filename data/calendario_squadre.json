@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:20:03.612181+00:00",
+  "generatedAt": "2026-08-26T10:40:21.992046+00:00",
   "partite": [
     {
       "id": "excel-34",
@@ -60,6 +60,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "San Mauro Pascoli"
+    },
+    {
+      "id": "excel-143",
+      "categoria": "Serie B1 F",
+      "data": "2026-10-17",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Omac Active Cnc",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-2",
@@ -132,6 +142,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-144",
+      "categoria": "Serie B1 F",
+      "data": "2026-10-24",
+      "ora": "20:30",
+      "casa": "Pallavolo Scandicci-Sdb",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Scandicci"
+    },
+    {
       "id": "excel-3",
       "categoria": "Superlega",
       "data": "2026-10-25",
@@ -190,6 +210,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Osimo"
+    },
+    {
+      "id": "excel-145",
+      "categoria": "Serie B1 F",
+      "data": "2026-10-31",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Thema Studio U.S. Torri",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-4",
@@ -272,6 +302,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-146",
+      "categoria": "Serie B1 F",
+      "data": "2026-11-07",
+      "ora": "18:00",
+      "casa": "Pallavolo S.Giorgio",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "San Giorgio Piacentino"
+    },
+    {
       "id": "excel-6",
       "categoria": "Superlega",
       "data": "2026-11-08",
@@ -340,6 +380,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Rimini"
+    },
+    {
+      "id": "excel-147",
+      "categoria": "Serie B1 F",
+      "data": "2026-11-14",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Giotti Victoria Greve",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-17",
@@ -412,6 +462,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-148",
+      "categoria": "Serie B1 F",
+      "data": "2026-11-21",
+      "ora": "17:30",
+      "casa": "Calacatta Sponda Vp Volley",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Seravezza"
+    },
+    {
       "id": "excel-7",
       "categoria": "Superlega",
       "data": "2026-11-22",
@@ -480,6 +540,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Plesso Le Fontanelle - Riccione"
+    },
+    {
+      "id": "excel-149",
+      "categoria": "Serie B1 F",
+      "data": "2026-11-28",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Volley Academy Piacenza",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-8",
@@ -562,6 +632,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-150",
+      "categoria": "Serie B1 F",
+      "data": "2026-12-05",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Moma Anderlini",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
+    },
+    {
       "id": "excel-10",
       "categoria": "Superlega",
       "data": "2026-12-06",
@@ -630,6 +710,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Eurosuole Forum - Civitanova Marche"
+    },
+    {
+      "id": "excel-151",
+      "categoria": "Serie B1 F",
+      "data": "2026-12-12",
+      "ora": "20:30",
+      "casa": "Modena Volley",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "PalaMadiba - Modena"
     },
     {
       "id": "excel-11",
@@ -710,6 +800,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Palasport Triccoli - Jesi"
+    },
+    {
+      "id": "excel-152",
+      "categoria": "Serie B1 F",
+      "data": "2026-12-19",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Fos Cvr",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-12",
@@ -802,6 +902,16 @@
       "impianto": "Eurosuole Forum - Civitanova Marche"
     },
     {
+      "id": "excel-155",
+      "categoria": "Serie B1 F",
+      "data": "2027-01-09",
+      "ora": "21:00",
+      "casa": "Florenzo Srl",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "PalaCoverciano - Firenze"
+    },
+    {
       "id": "excel-50",
       "categoria": "Serie A2 f",
       "data": "2027-01-10",
@@ -840,6 +950,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Palazzetto Andrea Joan - Città di Castello"
+    },
+    {
+      "id": "excel-154",
+      "categoria": "Serie B1 F",
+      "data": "2027-01-16",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Mgs Area Sport Peschiera",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-51",
@@ -890,6 +1010,16 @@
       "ospite": "T-Trade Group",
       "risultato": null,
       "impianto": "PalaSir - Assisi"
+    },
+    {
+      "id": "excel-153",
+      "categoria": "Serie B1 F",
+      "data": "2027-01-23",
+      "ora": "19:00",
+      "casa": "Hydroplants",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Palestra Comunale Loschi - Soliera"
     },
     {
       "id": "excel-53",
@@ -952,6 +1082,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-156",
+      "categoria": "Serie B1 F",
+      "data": "2027-02-13",
+      "ora": "21:00",
+      "casa": "Omac Active Cnc",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "P.tto Alto Casentino - Stia"
+    },
+    {
       "id": "excel-105",
       "categoria": "Serie B M",
       "data": "2027-02-14",
@@ -992,6 +1132,16 @@
       "impianto": "Montorio al Vomano"
     },
     {
+      "id": "excel-157",
+      "categoria": "Serie B1 F",
+      "data": "2027-02-20",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Pallavolo Scandicci-Sdb",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
+    },
+    {
       "id": "excel-57",
       "categoria": "Serie A2 f",
       "data": "2027-02-21",
@@ -1030,6 +1180,16 @@
       "ospite": "La Nef Re Salmone Osimo",
       "risultato": null,
       "impianto": "PalaSir - Assisi"
+    },
+    {
+      "id": "excel-158",
+      "categoria": "Serie B1 F",
+      "data": "2027-02-27",
+      "ora": "17:00",
+      "casa": "Thema Studio U.S. Torri",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "PalaSport Ceroni - Torri di Quartesolo"
     },
     {
       "id": "excel-58",
@@ -1082,6 +1242,16 @@
       "impianto": "San Severino Marche"
     },
     {
+      "id": "excel-159",
+      "categoria": "Serie B1 F",
+      "data": "2027-03-06",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Pallavolo S.Giorgio",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
+    },
+    {
       "id": "excel-60",
       "categoria": "Serie A2 f",
       "data": "2027-03-07",
@@ -1122,6 +1292,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-160",
+      "categoria": "Serie B1 F",
+      "data": "2027-03-13",
+      "ora": "18:00",
+      "casa": "Giotti Victoria Greve",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Greve"
+    },
+    {
       "id": "excel-61",
       "categoria": "Serie A2 f",
       "data": "2027-03-14",
@@ -1160,6 +1340,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Villa Romiti - Forlì"
+    },
+    {
+      "id": "excel-161",
+      "categoria": "Serie B1 F",
+      "data": "2027-03-20",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Calacatta Sponda Vp Volley",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-62",
@@ -1212,6 +1402,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-162",
+      "categoria": "Serie B1 F",
+      "data": "2027-04-03",
+      "ora": "20:30",
+      "casa": "Volley Academy Piacenza",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Rottofreno"
+    },
+    {
       "id": "excel-64",
       "categoria": "Serie A2 f",
       "data": "2027-04-04",
@@ -1240,6 +1440,16 @@
       "ospite": "Città di Castello Pallavolo",
       "risultato": null,
       "impianto": "San Severino Marche"
+    },
+    {
+      "id": "excel-163",
+      "categoria": "Serie B1 F",
+      "data": "2027-04-10",
+      "ora": "18:00",
+      "casa": "Moma Anderlini",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Modena"
     },
     {
       "id": "excel-65",
@@ -1292,6 +1502,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-164",
+      "categoria": "Serie B1 F",
+      "data": "2027-04-17",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Modena Volley",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
+    },
+    {
       "id": "excel-139",
       "categoria": "Serie B M",
       "data": "2027-04-23",
@@ -1310,6 +1530,16 @@
       "ospite": "New System Torresi",
       "risultato": "0-0",
       "impianto": "Palazzetto Trestina - Città di Castello"
+    },
+    {
+      "id": "excel-165",
+      "categoria": "Serie B1 F",
+      "data": "2027-04-24",
+      "ora": "21:00",
+      "casa": "Fos Cvr",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Palestra Nuova Rivalta - Reggio Emilia"
     },
     {
       "id": "excel-114",
@@ -1340,6 +1570,16 @@
       "ospite": "Cucine Lube Civitanova",
       "risultato": null,
       "impianto": "Palazzetto Andrea Joan - Città di Castello"
+    },
+    {
+      "id": "excel-166",
+      "categoria": "Serie B1 F",
+      "data": "2027-05-01",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Florenzo Srl",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-140",
@@ -1382,6 +1622,16 @@
       "impianto": "PalaSir - Assisi"
     },
     {
+      "id": "excel-167",
+      "categoria": "Serie B1 F",
+      "data": "2027-05-08",
+      "ora": "20:30",
+      "casa": "Mgs Area Sport Peschiera",
+      "ospite": "Sirio Perugia Volley",
+      "risultato": null,
+      "impianto": "Peschiera del Garda"
+    },
+    {
       "id": "excel-91",
       "categoria": "Serie B2 F",
       "data": "2027-05-15",
@@ -1410,6 +1660,16 @@
       "ospite": "Sir Its Umbria Academy",
       "risultato": null,
       "impianto": "Impianto da definire"
+    },
+    {
+      "id": "excel-168",
+      "categoria": "Serie B1 F",
+      "data": "2027-05-15",
+      "ora": "18:00",
+      "casa": "Sirio Perugia Volley",
+      "ospite": "Hydroplants",
+      "risultato": null,
+      "impianto": "Palazzetto Magione - Magione"
     }
   ]
 }
