@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-26T05:02:30.661114+00:00",
+  "generatedAt": "2026-08-26T05:30:07.323570+00:00",
   "posts": [
+    {
+      "id": "news-6",
+      "title": "Volley – Tre ore di battaglia per il Viridex Sabaudia che supera il Terni 3-2",
+      "excerpt": "Fonte: latinanews.eu",
+      "createdTime": "Wed, 29 Oct 2025 09:00:00 GMT",
+      "image": "https://www.latinanews.eu/wp-content/uploads/2025/10/XSAi63qPngB6-e1761552969179.jpg",
+      "permalink": "https://www.latinanews.eu/volley-tre-ore-di-battaglia-per-il-viridex-sabaudia-che-supera-il-terni-3-2/"
+    },
+    {
+      "id": "news-7",
+      "title": "La Fipav approva il bilancio preventivo 2023",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Wed, 21 Dec 2022 09:21:00 GMT",
+      "image": "http://cdn.corrieredellosport.it/images/2022/12/21/162141229-d8db2edc-f9df-491d-b5c9-e3e186ff0aec.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/volley/2022/12/21-101377702/la_fipav_approva_il_bilancio_preventivo_2023"
+    },
     {
       "id": "news-0",
       "title": "Pallavolo News – Il 26 giugno la presentazione della neonata Terni Volley Academy : giocherà in A3 maschile",
@@ -26,20 +42,12 @@
       "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2024/10/arbitro-pallavolo-fipav.png",
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo C1/M: ottimo esordio per la Terni Volley",
-      "excerpt": "Fonte: sporterni.it",
-      "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
-      "image": "https://www.sporterni.it/immagini/articoli/4638.jpg",
-      "permalink": "https://www.sporterni.it/articolo.php?id=4638"
     },
     {
       "id": "news-4",
@@ -122,7 +130,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/08/19/pallavolo-mercato-giada-sangoi-nuovo-opposto-della-sirio-perugia/"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Volley. Pgs Bosico Terni, c’è il progetto pilota",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Tue, 07 Jan 2025 23:20:00 GMT",
@@ -226,7 +234,7 @@
       "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
@@ -250,7 +258,7 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2025/05/18/pallavolo-zawiercie-ko-perugia-vince-la-champions-league_7c3af4db-e3d6-4a8b-b169-797f11016379.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo: Perugia da sogno, a Torino arriva il bis in Champions",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 17 May 2026 15:36:00 GMT",
@@ -266,14 +274,6 @@
       "permalink": "https://www.today.it/sport/volley/volley-serie-b-la-sir-its-umbria-academy-perugia-chiude-il-campionato-con-l-ottava-vittoria-consecutiva.html"
     },
     {
-      "id": "news-7",
-      "title": "Pallavolo, in Umbria la due giorni degli arbitri di serie A",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Sun, 09 Sep 2012 02:24:00 GMT",
-      "image": "https://umbria24-ams.newspackstaging.com/notizie/wp-content/uploads/2012/09/volley-italia-wild-card-300x234.jpg?resize=300%2C234",
-      "permalink": "https://www.umbria24.it/attualita/pallavolo-umbria-giorni-arbitri-serie/"
-    },
-    {
       "id": "news-3",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -282,7 +282,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Fipav Umbria: Raffaello Agea presenta la sua candidatura",
       "excerpt": "Fonte: volleynews.it",
       "createdTime": "Sun, 07 Feb 2021 10:00:00 GMT",
@@ -362,7 +362,7 @@
       "permalink": "https://www.assisisport.it/volley/fipav-umbria-ecco-la-lettera-del-presidente-lomurno-a-tutte-le-societa-di-pallavolo-dellumbria/"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
       "title": "Volley, doppio Lomurno alla Fipav: il presidente è stato riconfermato",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Mon, 19 Nov 2012 10:09:00 GMT",
@@ -402,7 +402,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-4",
+      "id": "news-6",
       "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
       "excerpt": "Fonte: today.it",
       "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
