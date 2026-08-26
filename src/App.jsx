@@ -494,6 +494,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
    items={[
      { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
      { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
+     { href: "#/agenda", label: "Calendario Squadre Naz.", locked: true },
      { href: "#/risultati", label: "Risultati Camp. Regionali" },
      { href: "#/calendario-regionale", label: "Calendario C-D" },
      { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
@@ -521,19 +522,12 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
        ]}
       />
       <a className="nav-btn" href="#/mercato">Mercato</a>
-      <NavDropdown
-  label="Agenda"
-  subscribed={subscribed}
-  items={[
-    { href: "#/agenda", label: "Calendario Squadre", locked: true },
-    { href: "#/camp", label: "Camp Estivi 2026", locked: true },
-  ]}
-/>
         <NavDropdown
            label="Allenatori"
 subscribed={subscribed}
 items={[
   { href: "#/allenatori2", label: "Cerca Allenatore", locked: true },
+  { href: "#/camp", label: "Camp Estivi 2026", locked: true },
   { href: "#/velasco", label: "Julio Velasco", locked: true },
 ]}
       />
