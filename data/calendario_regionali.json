@@ -1,0 +1,3141 @@
+{
+  "generatedAt": "2026-08-26T12:17:41.308575+00:00",
+  "campionati": [
+    {
+      "id": "serie-c-maschile",
+      "nome": "Serie C Maschile Girone Unico",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92680&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "serie-c-femminile",
+      "nome": "Serie C Femminile Girone Unico",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92698&SId=&PId=7323&btFiltro=CERCA"
+    }
+  ],
+  "partite": {
+    "serie-c-maschile": [
+      {
+        "id": "serie-c-maschile-0",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-1",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-2",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-18",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-3",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-4",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-5",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-6",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-25",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-7",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-8",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-9",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-10",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-11",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-12",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-13",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-11-01",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-14",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-15",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-16",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-17",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-18",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-08",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-19",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-20",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-21",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-22",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-23",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-24",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-25",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-26",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-27",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-28",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-29",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-30",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-31",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-32",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-33",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-34",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-35",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-36",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-37",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-38",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-39",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-40",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-29",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-41",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-42",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-43",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-06",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-44",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-06",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-45",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-46",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-47",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-48",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-49",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-50",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-51",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-13",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-52",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-53",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-54",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-55",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-56",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-57",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-58",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-59",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-60",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-61",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-62",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-10",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-63",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-64",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-65",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-66",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-67",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-68",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-69",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-70",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-71",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-72",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-73",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-74",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-24",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-75",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-76",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-77",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-78",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-79",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-14",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-80",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-81",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-82",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-83",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-84",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-85",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-86",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-87",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-88",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-89",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-90",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-28",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-91",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-92",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-93",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-94",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-95",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-96",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-07",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-97",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-98",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-99",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-100",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-101",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-07",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-102",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-103",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-14",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-104",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-105",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-106",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-107",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-108",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-109",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-110",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-111",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-112",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-113",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-21",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-114",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-115",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-116",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-117",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-118",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-119",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-120",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-121",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-122",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-123",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-124",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-125",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-126",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-127",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-128",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-18",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-129",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-18",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-130",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-131",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-132",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-133",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "18:00",
+        "casa": "UNIKO VOLLEY ORTE",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-134",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-135",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-25",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-136",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "ENERGY PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-137",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-138",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-139",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-140",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-141",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-142",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-143",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-144",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "ITALCHIMICI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-145",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "VOLLEY CASCIA SPOLETO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-146",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "17:00",
+        "casa": "ENERGY PMU MARSCIANO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-147",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "21:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-148",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-09",
+        "ora": "17:30",
+        "casa": "POLISPORTIVA DELFINO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-149",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "17:00",
+        "casa": "ROSSI ASCENSORI FOLIGNO",
+        "ospite": "CITTA' DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-150",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "18:00",
+        "casa": "ITALCHIMICI",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-151",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-16",
+        "ora": "17:00",
+        "casa": "CITTA' DI CASTELLO PALLAVOLO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-152",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "17:00",
+        "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
+        "ospite": "POLISPORTIVA DELFINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-153",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "UNIKO VOLLEY ORTE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-154",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-16",
+        "ora": "19:00",
+        "casa": "VOLLEY CASCIA SPOLETO",
+        "ospite": "ROSSI ASCENSORI FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-maschile-155",
+        "campionato": "Serie C Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "17:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      }
+    ],
+    "serie-c-femminile": [
+      {
+        "id": "serie-c-femminile-0",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-1",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-2",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-3",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-4",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-5",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-6",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-7",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-8",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-9",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-10",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-11",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-12",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-13",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-14",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-15",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-16",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-17",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-18",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-19",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-20",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-21",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-22",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-23",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-24",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-25",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-26",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-27",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-28",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-29",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-30",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-31",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-32",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-33",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-34",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-35",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-36",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-37",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-38",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-39",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-40",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-41",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-42",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-43",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-44",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-45",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-46",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-47",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-48",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-49",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-50",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-51",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-52",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-53",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-54",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-55",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-56",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-57",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-58",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-59",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-60",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-61",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-62",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-63",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-64",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-65",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-66",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-67",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-68",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-69",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-70",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-71",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-72",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-73",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-74",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-75",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-76",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-77",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-78",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-79",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-80",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-81",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-82",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-83",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-84",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-85",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-86",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-87",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-88",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-89",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-90",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-91",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-92",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-93",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-94",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-95",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-96",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-97",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-98",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-99",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-100",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-101",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-102",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-103",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-104",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-105",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-106",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-107",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-108",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-109",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-110",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-111",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-112",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-113",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-114",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-115",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-116",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-117",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-118",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-119",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-120",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-121",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-122",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-123",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-124",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-125",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-126",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-127",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-128",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-129",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-130",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-131",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-132",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-133",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-134",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-135",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-136",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "VOLLEY ACADEMY BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-137",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-138",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-139",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-140",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-141",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-142",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-143",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-144",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "17:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "THE GALLEON PUB MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-145",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "21:00",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-146",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "18:00",
+        "casa": "VOLLEY ACADEMY BASTIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-147",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "A.S.D. TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-148",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "20:30",
+        "casa": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-149",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "25",
+        "data": "2027-05-08",
+        "ora": "21:00",
+        "casa": "ELLERA VOLLEY",
+        "ospite": "FOSSATO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-150",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "17:00",
+        "casa": "THE GALLEON PUB MARSCIANO",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-151",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "21:00",
+        "casa": "FOSSATO VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-152",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "18:00",
+        "casa": "A.S.D. TREVI VOLLEY",
+        "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-153",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-154",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "21:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ELLERA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-c-femminile-155",
+        "campionato": "Serie C Femminile Girone Unico",
+        "giornata": "26",
+        "data": "2027-05-15",
+        "ora": "18:00",
+        "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      }
+    ]
+  }
+}
