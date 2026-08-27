@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T13:02:51.656772+00:00",
+  "generatedAt": "2026-08-27T16:06:10.516588+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,8 +35,22 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Perugia, le date del precampionato: cinque allenamenti congiunti prima dell’esordio",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90606f372145ba8bba5639bbfcecf0&url=https%3a%2f%2fwww.volleynews.it%2fperugia-le-date-del-precampionato-cinque-allenamenti-congiunti-prima-dellesordio%2f&c=5671560956099332327&mkt=it-it",
+        "pubDate": "Thu, 27 Aug 2026 06:54:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "La Sir Susa Scai si avvicina al campionato con cinque allenamenti congiunti",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90606f372145ba8bba5639bbfcecf0&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sir-susa-scai-si-avvicina-al-campionato-con-cinque-allenamenti-congiunti%2f&c=10091334465329869625&mkt=it-it",
+        "pubDate": "Thu, 27 Aug 2026 06:02:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Pallavolo SL – Perugia si prepara ad affrontare il campionato: programmati 5 allenamenti congiunti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9035789b104e89b73eed322bcb6615&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f27%2fpallavolo-sl-perugia-si-prepara-ad-affrontare-il-campionato-programmati-5-allenamenti-congiunti%2f&c=14437778548223734532&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90606f372145ba8bba5639bbfcecf0&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f27%2fpallavolo-sl-perugia-si-prepara-ad-affrontare-il-campionato-programmati-5-allenamenti-congiunti%2f&c=14437778548223734532&mkt=it-it",
         "pubDate": "Wed, 26 Aug 2026 17:00:00 GMT",
         "source": "",
         "image": null
@@ -50,22 +64,8 @@
       },
       {
         "title": "Perugia, Kollátor e le prime settimane da Block Devils: “Ho trovato un’atmosfera incredibile”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9035789b104e89b73eed322bcb6615&url=https%3a%2f%2fwww.volleynews.it%2fperugia-kollator-e-le-prime-settimane-da-block-devils-ho-trovato-unatmosfera-incredibile%2f&c=15111257659532473938&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90606f372145ba8bba5639bbfcecf0&url=https%3a%2f%2fwww.volleynews.it%2fperugia-kollator-e-le-prime-settimane-da-block-devils-ho-trovato-unatmosfera-incredibile%2f&c=15111257659532473938&mkt=it-it",
         "pubDate": "Wed, 26 Aug 2026 00:56:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
-        "title": "LA SIR INVESTE SU GIOVANI E TERRITORIO: AL VIA LA COLLABORAZIONE CON MARSCIANO - SIR Safety Perugia Volley",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdU9GcklnX1hBeTloMVNuR3JZRjZHUXJ3WklyVzh0cVR0ZktINlB2c1Fuam9tTUdjZlJsd0w0ekpHb0pFcFd6UFh0N05wZG9HWlZydWhyV190R1luZWxxUGZscG44N3loLWdZYS1YMDhmRkFORVNKeERlNmRGZmVFZ2JJbU9HYW5QSlJDTldvUUY3b3p6Z3N5QUdqU1FEQ25XUEZHWWFSM1AteWxocmttSUw2WQ?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 12:18:36 GMT",
-        "source": "SIR Safety Perugia Volley",
-        "image": null
-      },
-      {
-        "title": "Volley, Sir Perugia al lavoro in vista della nuova stagione 2026/2027",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9035789b104e89b73eed322bcb6615&url=https%3a%2f%2fwww.assisisport.it%2fvolley%2fvolley-sir-perugia-al-lavoro-in-vista-della-nuova-stagione-2026-2027%2f&c=3123489877219571921&mkt=it-it",
-        "pubDate": "Sat, 22 Aug 2026 10:36:00 GMT",
         "source": "",
         "image": null
       }
@@ -73,14 +73,14 @@
     "bartoccini": [
       {
         "title": "Pallavolo A2F – Black Angels: buone sensazioni dall’allenamento congiunto contro le francesi del Tremblay",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a903579e2234bd6970c31579c0a537f&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f26%2fpallavolo-a2f-black-angels-buone-sensazioni-dallallenamento-congiunto-contro-le-francesi-del-tremblay%2f&c=10421819660729607297&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9060700c9c4c0b91d48719c4cf7319&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f26%2fpallavolo-a2f-black-angels-buone-sensazioni-dallallenamento-congiunto-contro-le-francesi-del-tremblay%2f&c=10421819660729607297&mkt=it-it",
         "pubDate": "Tue, 25 Aug 2026 16:59:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Pallavolo A2F – Claudia Consoli racconta il “primo impatto” con la realtà Bartoccini +energia Perugia",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a903579e2234bd6970c31579c0a537f&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f20%2fpallavolo-a2f-claudia-consoli-racconta-il-primo-impatto-con-la-realta-bartoccini-energia-perugia%2f&c=7002899494313510505&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9060700c9c4c0b91d48719c4cf7319&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f20%2fpallavolo-a2f-claudia-consoli-racconta-il-primo-impatto-con-la-realta-bartoccini-energia-perugia%2f&c=7002899494313510505&mkt=it-it",
         "pubDate": "Wed, 19 Aug 2026 17:01:00 GMT",
         "source": "",
         "image": null
@@ -109,13 +109,6 @@
     ],
     "tva": [
       {
-        "title": "Terni Volley Academy-Avimecc Modica 2-3: Dida ospite d'onore",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a903579bbb54cef87db093f73e74ea9&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-avimecc-modica-2-3-dida-ospite-d-onore-118757&c=7012942267572519152&mkt=it-it",
-        "pubDate": "Fri, 07 Aug 2026 12:30:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
         "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
         "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
@@ -130,17 +123,24 @@
         "image": null
       },
       {
-        "title": "Terni Volley Academy verso la seconda stagione in serie A3. Con più certezze e un nuovo coach - UmbriaON",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON1RYQ1F5T1hueENnUURlVWV2ZDRnMElqOVFYbFExVms4RmxhdE0zc1Y1WFZ6T0hBeWZ6TzdZMXJ2MTBIN1pGSE95dmtXTlIxTy1ZRXdZckZ1VGV3OGc0czYxdWpjRFRac2FuS3ZTMXExcVplaDFOWTU2dnc5Q2lsMk9ycWF6VG9uSDFlYVcxNTdqQlpaTzFxemNQLUdfRXFDU3I0Z014VGJ4emFRWWhfYUF3UWVVY2Iz?oc=5",
-        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "UmbriaON",
-        "image": null
-      },
-      {
         "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - TerniToday",
         "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZWNPeFJ6c2FMNlFPN1RGZngyOGVJZUFiTHlRM3IzQ1NBTFgyWHZ6VXVNaFQ5LXpEaFU4YWpRamVGenliLXZIbFRkVGFJM09fU0hKNjR2S0UxdmtrTXFneHlnblN4c3g0N3pzNWY5NEs2RDRuWmwzcHhtenl6dk9IZkFVY1h2RzRScDZRTjIwdm1DbkJTdGh6aWpjemw2bkJIQ2R3SmNtX1dGMTNPX0Y3cWpYbXlkb1owdlJlNmRrUG9Zc1hJSkRlNTQ0T0hfQXozNmpiS2J2dXhjNDRxajhRaGFTalVoZEp1ZlV0RGNVRQ?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "TerniToday",
+        "image": null
+      },
+      {
+        "title": "Pallavolo, play out, gara 2: Ternana Volley Academy-Savigliano 3-2 - Terni in Rete",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUh6eUVtM21rRm9yVXA4MWNKS3lMSFVod1ItQkFZRUhPRlFUNENDVWRFNjVBRmdKNVhjR2VEYkZNSHlxVk1iMGNLVnVhSWUwd1YwU2hnNW5PejdHNTZuNHMwT3VZNlNzQzZpaVVkT0Q0X1VLUHRVNTQwM2VrWGZBSlRqbVdvTHA5NUtmTzdFV1RTbUREbk1uR3ZoMUFYdVduZkJEWUdR?oc=5",
+        "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
+        "source": "Terni in Rete",
+        "image": null
+      },
+      {
+        "title": "Terni Volley Academy, oltre mille cuori rossoverdi per spingere i Dragons: le combinazioni per la salvezza",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a906070b1c748ebbfbe14715bda84ee&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
+        "pubDate": "Sun, 01 Mar 2026 00:31:00 GMT",
+        "source": "",
         "image": null
       }
     ],
@@ -174,10 +174,10 @@
         "image": null
       },
       {
-        "title": "Conviviale di fine stagione per la ErmGroup Altotevere - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbDJiX25ESGxFTUQ5bnZBMjlsRDRDbThZZ21TSVZiMkx5b0lBODFpVS1ILXJsa1FUOVVQQ01BLXB4VmxBOHVXSUdSQzNzRnJZQW9KaUI3bDhsd1NPWmNDalduektQblRRWUFvMWVaeEI3bENrWmFpZlpyS212MWJ4cnNoWVJzZlhGU0pUWFZidw?oc=5",
-        "pubDate": "Fri, 08 May 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A",
+        "title": "Volley Mercato: terzo centrale per Pineto, Mirco Compagnoni",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a906070fa9a4629b672021d8f904e74&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2fa2-maschile%2f2026%2f06%2f19-149310378%2fvolley_mercato_terzo_centrale_per_pineto_mirco_compagnoni&c=10486739841278714597&mkt=it-it",
+        "pubDate": "Fri, 19 Jun 2026 11:03:00 GMT",
+        "source": "",
         "image": null
       }
     ],
@@ -212,7 +212,7 @@
       },
       {
         "title": "Il Volley Altotevere si muove in uscita: ceduti cinque giovani giocatori a Città di Castello",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90357add324075b2c594bb11021afa&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fil-volley-altotevere-si-muove-in-uscita-ceduti-cinque-giovani-giocatori-a-citta-di-castello%2f&c=7261585383111077449&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a906071c3364cb0b157a86d039cde01&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fil-volley-altotevere-si-muove-in-uscita-ceduti-cinque-giovani-giocatori-a-citta-di-castello%2f&c=7261585383111077449&mkt=it-it",
         "pubDate": "Sat, 22 Aug 2026 07:05:00 GMT",
         "source": "",
         "image": null
@@ -221,8 +221,15 @@
     "marsciano": [
       {
         "title": "Continua il progetto giovanile di Perugia: rinnovata la collaborazione con la Volley Academy Rieti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a90357bd91c46159006e98382b05047&url=https%3a%2f%2fwww.volleynews.it%2fcontinua-il-progetto-giovanile-di-perugia-rinnovata-la-collaborazione-con-la-volley-academy-rieti%2f&c=18081653956752693921&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a906071d06644cd930e9f9f643d1240&url=https%3a%2f%2fwww.volleynews.it%2fcontinua-il-progetto-giovanile-di-perugia-rinnovata-la-collaborazione-con-la-volley-academy-rieti%2f&c=18081653956752693921&mkt=it-it",
         "pubDate": "Wed, 26 Aug 2026 05:59:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Pallavolo A2F – Black Angels: buone sensazioni dall’allenamento congiunto contro le francesi del Tremblay",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a906071d06644cd930e9f9f643d1240&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f26%2fpallavolo-a2f-black-angels-buone-sensazioni-dallallenamento-congiunto-contro-le-francesi-del-tremblay%2f&c=10421819660729607297&mkt=it-it",
+        "pubDate": "Tue, 25 Aug 2026 16:59:00 GMT",
         "source": "",
         "image": null
       },
@@ -245,13 +252,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLWRQNi1weUJsRzhMSVlzQWxLby1aSVFmZnZYTnZKNGk2cGpiTnY5LXRXbVUzZDRlVVBVdXNtODJ2cFgxbHhoNHBYemphNVJsaHZKRXl0V2VKdTJ5c2F2X2V0d2dqQmpQRGN4ajNqLTZTUVp5b1lTZXEwQmMxVnRQcDNyWkh1MlAwaDFNVEtZVHpueFBmR2hDZEJ5UHFXUmVpcUVSaURtZkV4c29ZbnhTSFpDSnllcnIyX0kzWHBndHBDSTdXeDNHaTRCdDdkQU81R1VhTlVYMEFfSndrd1VJV1R0N3otYUJLaWlR?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
         "source": "FIPAV Lazio",
-        "image": null
-      },
-      {
-        "title": "Svelati i gironi di B maschile e B2 femminile: le tre squadre della Tuscia conoscono i propri avversari - Il Messaggero",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbDlwaElLUHNWNWJONmoxM2dWSDVlanJyMXpSQW4xdXZEOFZkZXNUTGlfN01uU2J5M2NKM1IwX1o0ZFFvU1pFTmpyNU0yVmM4LVktaFNHa2M2d2ZLdklmdkFEdGdPUG9VRVZjbklMOXQ5YURMNFJvaEhHY1JudmZQMERzdTdEWmRDdFc3bVdHcmZaVE8xVWF3SDllUDBQY0ZjZmlnTkJiWVNJaVk4cUhsdmZoZllHbFRzaTNrVTZqT3l1b0ZEUHlLNC05SnZhLVZDSHF3QzUwTlJoZDBVeGp2akhlNFlPUmlENVJySk5talBhZ9IB9wFBVV95cUxQei1SVmROVmdhdXB3bVRuU0pfUlVTdjlkenhCVlRDcmhzYjZpYUpxTVNaUWVORXAyQW9faDFnb2F6VFpPMWloNWdqb0NZcDNDVzBSem1Xa2I4cWM3TGJjUVo5TXlkM1doOVJxZXh2R3A4SHpHY1E3eUlWT0xleEhuX2FxZm1JY1YwT1p5QmpoQ2E5Z3dzOGdIZ1VzMEtxNDZTZE5jUVlyWElZdUthbjJucG9iVENpVnJRMWRQUTZPelNILXdseWxrTVBYbXFsYnJCbFFfeWw4cVc5Rzg3R1BtUWh1WjdrdWQ4cGg5MzlkRHh5am9GMDdj?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "source": "Il Messaggero",
         "image": null
       }
     ]

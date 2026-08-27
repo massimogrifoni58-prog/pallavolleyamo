@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-27T13:00:34.070775+00:00",
+  "generatedAt": "2026-08-27T16:04:00.237486+00:00",
   "posts": [
+    {
+      "id": "news-7",
+      "title": "Volley – Tre ore di battaglia per il Viridex Sabaudia che supera il Terni 3-2",
+      "excerpt": "Fonte: latinanews.eu",
+      "createdTime": "Wed, 29 Oct 2025 09:00:00 GMT",
+      "image": "https://www.latinanews.eu/wp-content/uploads/2025/10/XSAi63qPngB6-e1761552969179.jpg",
+      "permalink": "https://www.latinanews.eu/volley-tre-ore-di-battaglia-per-il-viridex-sabaudia-che-supera-il-terni-3-2/"
+    },
     {
       "id": "news-0",
       "title": "Pallavolo SL – Perugia si prepara ad affrontare il campionato: programmati 5 allenamenti congiunti",
@@ -50,15 +58,7 @@
       "permalink": "https://www.umbria24.it/perugia/la-sir-fa-rete-anche-fuori-dallumbria-si-rinnova-la-collaborazione-con-rieti/"
     },
     {
-      "id": "news-2",
-      "title": "Perugia, Kollátor e le prime settimane da Block Devils: “Ho trovato un’atmosfera incredibile”",
-      "excerpt": "Fonte: volleynews.it",
-      "createdTime": "Wed, 26 Aug 2026 00:56:00 GMT",
-      "image": "https://www.volleynews.it/wp-content/uploads/2026/08/Immagini-Volley-NEWS-1260x800-2026-08-26T093831.125.jpg",
-      "permalink": "https://www.volleynews.it/perugia-kollator-e-le-prime-settimane-da-block-devils-ho-trovato-unatmosfera-incredibile/"
-    },
-    {
-      "id": "news-7",
+      "id": "news-5",
       "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
@@ -75,14 +75,6 @@
     },
     {
       "id": "news-1",
-      "title": "Pallavolo News – Il 26 giugno la presentazione della neonata Terni Volley Academy : giocherà in A3 maschile",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 18 Jun 2025 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2025/06/19/pallavolo-news-il-26-giugno-la-presentazione-della-neonata-terni-volley-academy-giochera-in-a3-maschile/"
-    },
-    {
-      "id": "news-2",
       "title": "Volley. L'ex azzurro Biribanti: «In quattro anni Terni può tornare in serie A»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
@@ -90,7 +82,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-7",
+      "id": "news-5",
       "title": "Perugia ha vinto lo Scudetto maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Wed, 06 May 2026 14:02:00 GMT",
@@ -98,20 +90,12 @@
       "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2024/10/arbitro-pallavolo-fipav.png",
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
-    },
-    {
-      "id": "news-6",
-      "title": "Pallavolo C1/M: ottimo esordio per la Terni Volley",
-      "excerpt": "Fonte: sporterni.it",
-      "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
-      "image": "https://www.sporterni.it/immagini/articoli/4638.jpg",
-      "permalink": "https://www.sporterni.it/articolo.php?id=4638"
     },
     {
       "id": "news-6",
@@ -186,14 +170,6 @@
       "permalink": "https://www.pianetavolley.net/2026/08/perugia-e-marsciano-puntano-insieme-sul-vivaio-maschile/"
     },
     {
-      "id": "news-3",
-      "title": "Pallavolo Mercato – Sirio Perugia: dall’Argentina arriva il posto 4 Daniela Nielson Ramella",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Tue, 18 Aug 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/08/19/pallavolo-mercato-sirio-perugia-dallargentina-arriva-il-posto-4-daniela-nielson-ramella/"
-    },
-    {
       "id": "news-1",
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
@@ -218,6 +194,14 @@
       "permalink": "https://www.pianetavolley.net/2026/08/ad-assisi-ce-attenzione-per-la-crescita/"
     },
     {
+      "id": "news-1",
+      "title": "Perugia, le date del precampionato: cinque allenamenti congiunti prima dell’esordio",
+      "excerpt": "Fonte: volleynews.it",
+      "createdTime": "Thu, 27 Aug 2026 06:54:00 GMT",
+      "image": "https://www.volleynews.it/wp-content/uploads/2026/08/Immagini-Volley-NEWS-1260x800-2026-08-27T153922.265.jpg",
+      "permalink": "https://www.volleynews.it/perugia-le-date-del-precampionato-cinque-allenamenti-congiunti-prima-dellesordio/"
+    },
+    {
       "id": "davidemarraprimerilevazioniasa",
       "title": "Davide Marra: «Prime rilevazioni a San Giustino»",
       "excerpt": "È suonata la prima campanella per gli atleti della Altotevere San Giustino, i giocatori della formazione iscritta alla serie A3 maschile si sono radunati al palazzetto dello sport ieri. Serietà nel la",
@@ -234,12 +218,20 @@
       "permalink": "https://www.umbria24.it/perugia/fipav-cup-il-primo-set-di-italia-germania-entra-nella-storia-e-il-piu-lungo-di-sempre/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-26-at-20.13.44.jpeg",
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
+    },
+    {
+      "id": "news-3",
+      "title": "Pallavolo A3M – Terni, Coach Giombini analizza la prima parte della stagione: “Potevamo fare di più”",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 25 Dec 2025 16:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
     },
     {
       "id": "news-2",
@@ -266,7 +258,7 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
@@ -298,6 +290,22 @@
       "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
     },
     {
+      "id": "news-6",
+      "title": "Pallavolo, Città di Castello ritrova la vittoria: 3-0 netto al CLT Terni",
+      "excerpt": "Fonte: umbriacronaca.it",
+      "createdTime": "Sun, 16 Nov 2025 00:05:00 GMT",
+      "image": "https://www.umbriacronaca.it/wp-content/uploads/2025/11/1-57-240x300.jpeg",
+      "permalink": "https://www.umbriacronaca.it/2025/11/16/pallavolo-citta-di-castello-ritrova-la-vittoria-3-0-netto-al-clt-terni/"
+    },
+    {
+      "id": "news-3",
+      "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Sun, 11 Jan 2026 23:21:00 GMT",
+      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/YjFjYmYxMmYtYmZmOC00/0/pallavolo-e-tifoseria-un-campo-vivo-con-il-calore-del-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-01c05839"
+    },
+    {
       "id": "news-4",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -306,7 +314,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Fipav Umbria: Raffaello Agea presenta la sua candidatura",
       "excerpt": "Fonte: volleynews.it",
       "createdTime": "Sun, 07 Feb 2021 10:00:00 GMT",
@@ -330,15 +338,7 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
     },
     {
-      "id": "news-5",
-      "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/56/72/7005672_22095945_03_paolo_cipiccia.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
-    },
-    {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Un Agrifoglio per la Sirio Volley: Perugia si copre in regia con la giovane Matilde",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sat, 22 Aug 2026 12:34:00 GMT",
@@ -346,7 +346,7 @@
       "permalink": "https://www.umbria24.it/perugia/un-agrifoglio-per-la-sirio-volley-perugia-si-copre-in-regia-con-la-giovane-matilde/"
     },
     {
-      "id": "news-5",
+      "id": "news-3",
       "title": "Volley, Sir Perugia al lavoro in vista della nuova stagione 2026/2027",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sat, 22 Aug 2026 10:36:00 GMT",
@@ -354,7 +354,7 @@
       "permalink": "https://www.assisisport.it/volley/volley-sir-perugia-al-lavoro-in-vista-della-nuova-stagione-2026-2027/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Clitunno Volley travolgente a Foligno: 3-0 e 6 piazza",
       "excerpt": "Fonte: spoletonline.com",
       "createdTime": "Sat, 20 Feb 2010 16:00:00 GMT",
