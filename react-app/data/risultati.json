@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T05:02:55.630250+00:00",
+  "generatedAt": "2026-08-27T13:01:16.522811+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -4358,20 +4358,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627270",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "LYNX ACQUASPARTA VOLLEY",
-      "away": "MARCONI MONINI PALLAVOLO GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627272",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 7",
       "home": "ASD PGS DON BOSCO CANNARA",
       "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627270",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4673,6 +4673,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627307",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627304",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 13",
@@ -4687,15 +4696,6 @@
       "giornata": "Giornata 13",
       "home": "ASD CASCIA PALLAVOLO",
       "away": "REBELS ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627307",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 13",
-      "home": "ASD PGS DON BOSCO CANNARA",
-      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4997,20 +4997,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627341",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 19",
-      "home": "FOLIGNO VOLLEY ASD",
-      "away": "VOLLEY ACADEMY BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627340",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 19",
       "home": "ASD PGS DON BOSCO CANNARA",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627341",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "VOLLEY ACADEMY BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
