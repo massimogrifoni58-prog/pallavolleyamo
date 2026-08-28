@@ -3352,24 +3352,6 @@ function FondamentaliPage() {
       ],
       consigli: "I difensori migliori non sono quelli con i riflessi più veloci — sono quelli che si muovono prima che la palla parta. La lettura del gioco (capire dove andrà la palla osservando l'attaccante, il muro, la difesa avversaria) vale più di qualsiasi tecnica. Allena la testa, non solo il corpo.",
     },
-    {
-      id: "mentalita", nome: "Mentalità", tagline: "L'allenamento che non si vede",
-      descrizione: "Nel volley, più che in altri sport, l'aspetto mentale decide le partite punto su punto. È uno sport fatto di piccoli errori consecutivi (ogni scambio è un'azione a sé) e di continue interruzioni tra un punto e l'altro — questo dà alla mente tantissimo tempo per interferire: pensare all'errore appena fatto, temere il prossimo, giudicare la propria prestazione. Gli allenatori più esperti concordano su un punto: la tecnica porta un giocatore fino a un certo livello, ma da lì in su a fare la differenza è la testa. Non si tratta di 'avere carattere' in astratto — è un insieme di abilità mentali allenabili esattamente come un fondamentale tecnico: la capacità di resettare dopo un errore, di restare concentrati punto per punto senza pensare al risultato finale, di comunicare con i compagni nei momenti di difficoltà, di gestire la pressione dei momenti decisivi (i cosiddetti 'punti caldi'). Le considerazioni raccolte dal mondo dell'allenamento convergono tutte su un'idea: la mentalità si costruisce in allenamento, non si scopre in partita.",
-      tipi: [
-        { nome: "Il reset dopo l'errore (regola dei 3 secondi)", desc: "Uno dei principi più diffusi tra gli allenatori: dare a se stessi un tempo massimo per 'processare' l'errore appena commesso, poi lasciarlo andare fisicamente e mentalmente. In pratica: dopo uno sbaglio ci si concede pochi secondi (un respiro profondo, un gesto fisico come toccare la maglia o battere il pugno sulla coscia), poi si torna in posizione pronti per il punto successivo con la mente già libera. Il giocatore che si porta dietro l'errore precedente sbaglia quasi sempre anche quello dopo — è la reazione a catena più comune e più evitabile nel volley amatoriale e giovanile." },
-        { nome: "Concentrazione sul processo, non sul risultato", desc: "Pensare al punteggio finale, al set point, o a 'non voglio perdere' aumenta la tensione e peggiora la prestazione. I preparatori mentali insegnano a spostare l'attenzione sul compito immediato e concreto: la prossima battuta, il prossimo movimento, il prossimo tocco di palla. Un'alzatrice che pensa 'devo vincere questo set' gioca peggio di una che pensa 'ora alzo alta e precisa per la mia centrale'. Il risultato finale è la somma naturale di tanti piccoli compiti eseguiti bene uno alla volta." },
-        { nome: "Routine pre-punto", desc: "Le routine (una sequenza fissa di gesti prima di ogni azione, come palleggiare la palla un numero preciso di volte prima di battere) servono a creare un 'rituale di controllo': danno al cervello un segnale stabile che aiuta a entrare nello stato mentale giusto indipendentemente da cosa è successo nel punto precedente. Non è superstizione — è un meccanismo di regolazione dell'attivazione psicologica usato sistematicamente dagli atleti di alto livello in tutti gli sport a intervalli, non solo nel volley." },
-        { nome: "Comunicazione positiva in campo", desc: "Il modo in cui una squadra si parla durante la partita influenza direttamente la prestazione collettiva. Gli allenatori insistono su una regola semplice: parlare sempre in positivo e in modo costruttivo ('dai, prossima!', 'bene, riproviamo così'), mai criticare un compagno dopo un errore. Le squadre che si incoraggiano a vicenda nei momenti difficili recuperano più velocemente dagli svantaggi rispetto a quelle silenziose o critiche — è un pattern osservato costantemente a tutti i livelli, dal minivolley alla serie A." },
-        { nome: "Gestione dei momenti decisivi", desc: "Nei punti importanti (finale di set, palle break, tie-break) la tensione aumenta per tutti — è normale e non va negato. La differenza tra chi gestisce bene questi momenti e chi si blocca sta nella preparazione: allenarsi deliberatamente in situazioni di pressione simulata (punteggi already-decisivi, obiettivi da raggiungere sotto tempo) abitua il corpo e la mente a funzionare anche con l'adrenalina alta. Chi non ha mai provato la pressione in allenamento la scopre per la prima volta nel momento peggiore possibile — in partita." },
-      ],
-      esercizi: [
-        { titolo: "Diario dell'errore (per il singolo giocatore)", desc: "Dopo ogni allenamento o partita, scrivi in 2 righe: qual è stato l'errore che ti ha dato più fastidio, e cosa hai pensato subito dopo averlo commesso. Dopo 3-4 settimane rileggi tutto: emergeranno pattern (es. 'mi blocco sempre dopo un errore in battuta'). Riconoscere il pattern è il primo passo per allenarlo specificamente con la routine di reset." },
-        { titolo: "Simulazione punti caldi", desc: "In allenamento, il coach ferma il gioco e annuncia un punteggio fittizio di alta pressione (es. '24-23 per noi, palla match'). La squadra deve giocare il punto successivo come se fosse reale. Ripeti 8-10 volte a sessione, variando chi serve e chi riceve. Alla fine chiedi ai giocatori come si sono sentiti — nominare l'emozione ('ero teso', 'avevo paura di sbagliare') è già un esercizio mentale utile." },
-        { titolo: "Parola-chiave di reset", desc: "Ogni giocatore sceglie una singola parola o breve frase personale da ripetersi mentalmente subito dopo un errore, prima di tornare in posizione (es. 'prossima', 'reset', 'libero'). L'obiettivo è automatizzare l'associazione tra quella parola e il ritorno immediato alla concentrazione, così che diventi un gesto naturale anche nei momenti di partita più tesi." },
-        { titolo: "Cerchio di squadra nei momenti difficili", desc: "Quando la squadra è in difficoltà (es. sotto di 3-4 punti), si ferma il gioco per un timeout tecnico o si stringe un cerchio veloce a rete. Regola: ognuno deve dire una cosa positiva o un'indicazione concreta e costruttiva, mai un rimprovero. Questo esercizio va provato in allenamento prima di poterlo usare efficacemente in partita — la comunicazione sotto pressione è un'abilità che si allena." },
-      ],
-      consigli: "La mentalità non è un dono che si ha o non si ha — è il fondamentale più allenabile di tutti, perché si lavora in ogni singolo allenamento, non solo con esercizi dedicati. Il modo in cui una squadra reagisce collettivamente a un errore o a un momento difficile racconta più della sua qualità di quanto non facciano le statistiche di attacco o di ricezione.",
-    },
   ];
 
   const [selected, setSelected] = useState("battuta");
@@ -3435,6 +3417,74 @@ function FondamentaliPage() {
             </div>
           </div>
         )}
+      </section>
+    </main>
+  );
+}
+function MentalCoachPage() {
+  const argomenti = [
+    {
+      id: "mentalita", nome: "Mentalità", tagline: "L'allenamento che non si vede",
+      descrizione: "Nel volley, più che in altri sport, l'aspetto mentale decide le partite punto su punto. È uno sport fatto di piccoli errori consecutivi (ogni scambio è un'azione a sé) e di continue interruzioni tra un punto e l'altro — questo dà alla mente tantissimo tempo per interferire: pensare all'errore appena fatto, temere il prossimo, giudicare la propria prestazione. Gli allenatori più esperti concordano su un punto: la tecnica porta un giocatore fino a un certo livello, ma da lì in su a fare la differenza è la testa. Non si tratta di 'avere carattere' in astratto — è un insieme di abilità mentali allenabili esattamente come un fondamentale tecnico: la capacità di resettare dopo un errore, di restare concentrati punto per punto senza pensare al risultato finale, di comunicare con i compagni nei momenti di difficoltà, di gestire la pressione dei momenti decisivi (i cosiddetti 'punti caldi'). Le considerazioni raccolte dal mondo dell'allenamento convergono tutte su un'idea: la mentalità si costruisce in allenamento, non si scopre in partita.",
+      tipi: [
+        { nome: "Il reset dopo l'errore (regola dei 3 secondi)", desc: "Uno dei principi più diffusi tra gli allenatori: dare a se stessi un tempo massimo per 'processare' l'errore appena commesso, poi lasciarlo andare fisicamente e mentalmente. In pratica: dopo uno sbaglio ci si concede pochi secondi (un respiro profondo, un gesto fisico come toccare la maglia o battere il pugno sulla coscia), poi si torna in posizione pronti per il punto successivo con la mente già libera. Il giocatore che si porta dietro l'errore precedente sbaglia quasi sempre anche quello dopo — è la reazione a catena più comune e più evitabile nel volley amatoriale e giovanile." },
+        { nome: "Concentrazione sul processo, non sul risultato", desc: "Pensare al punteggio finale, al set point, o a 'non voglio perdere' aumenta la tensione e peggiora la prestazione. I preparatori mentali insegnano a spostare l'attenzione sul compito immediato e concreto: la prossima battuta, il prossimo movimento, il prossimo tocco di palla. Un'alzatrice che pensa 'devo vincere questo set' gioca peggio di una che pensa 'ora alzo alta e precisa per la mia centrale'. Il risultato finale è la somma naturale di tanti piccoli compiti eseguiti bene uno alla volta." },
+        { nome: "Routine pre-punto", desc: "Le routine (una sequenza fissa di gesti prima di ogni azione, come palleggiare la palla un numero preciso di volte prima di battere) servono a creare un 'rituale di controllo': danno al cervello un segnale stabile che aiuta a entrare nello stato mentale giusto indipendentemente da cosa è successo nel punto precedente. Non è superstizione — è un meccanismo di regolazione dell'attivazione psicologica usato sistematicamente dagli atleti di alto livello in tutti gli sport a intervalli, non solo nel volley." },
+        { nome: "Comunicazione positiva in campo", desc: "Il modo in cui una squadra si parla durante la partita influenza direttamente la prestazione collettiva. Gli allenatori insistono su una regola semplice: parlare sempre in positivo e in modo costruttivo ('dai, prossima!', 'bene, riproviamo così'), mai criticare un compagno dopo un errore. Le squadre che si incoraggiano a vicenda nei momenti difficili recuperano più velocemente dagli svantaggi rispetto a quelle silenziose o critiche — è un pattern osservato costantemente a tutti i livelli, dal minivolley alla serie A." },
+        { nome: "Gestione dei momenti decisivi", desc: "Nei punti importanti (finale di set, palle break, tie-break) la tensione aumenta per tutti — è normale e non va negato. La differenza tra chi gestisce bene questi momenti e chi si blocca sta nella preparazione: allenarsi deliberatamente in situazioni di pressione simulata (punteggi already-decisivi, obiettivi da raggiungere sotto tempo) abitua il corpo e la mente a funzionare anche con l'adrenalina alta. Chi non ha mai provato la pressione in allenamento la scopre per la prima volta nel momento peggiore possibile — in partita." },
+      ],
+      esercizi: [
+        { titolo: "Diario dell'errore (per il singolo giocatore)", desc: "Dopo ogni allenamento o partita, scrivi in 2 righe: qual è stato l'errore che ti ha dato più fastidio, e cosa hai pensato subito dopo averlo commesso. Dopo 3-4 settimane rileggi tutto: emergeranno pattern (es. 'mi blocco sempre dopo un errore in battuta'). Riconoscere il pattern è il primo passo per allenarlo specificamente con la routine di reset." },
+        { titolo: "Simulazione punti caldi", desc: "In allenamento, il coach ferma il gioco e annuncia un punteggio fittizio di alta pressione (es. '24-23 per noi, palla match'). La squadra deve giocare il punto successivo come se fosse reale. Ripeti 8-10 volte a sessione, variando chi serve e chi riceve. Alla fine chiedi ai giocatori come si sono sentiti — nominare l'emozione ('ero teso', 'avevo paura di sbagliare') è già un esercizio mentale utile." },
+        { titolo: "Parola-chiave di reset", desc: "Ogni giocatore sceglie una singola parola o breve frase personale da ripetersi mentalmente subito dopo un errore, prima di tornare in posizione (es. 'prossima', 'reset', 'libero'). L'obiettivo è automatizzare l'associazione tra quella parola e il ritorno immediato alla concentrazione, così che diventi un gesto naturale anche nei momenti di partita più tesi." },
+        { titolo: "Cerchio di squadra nei momenti difficili", desc: "Quando la squadra è in difficoltà (es. sotto di 3-4 punti), si ferma il gioco per un timeout tecnico o si stringe un cerchio veloce a rete. Regola: ognuno deve dire una cosa positiva o un'indicazione concreta e costruttiva, mai un rimprovero. Questo esercizio va provato in allenamento prima di poterlo usare efficacemente in partita — la comunicazione sotto pressione è un'abilità che si allena." },
+      ],
+      consigli: "La mentalità non è un dono che si ha o non si ha — è il fondamentale più allenabile di tutti, perché si lavora in ogni singolo allenamento, non solo con esercizi dedicati. Il modo in cui una squadra reagisce collettivamente a un errore o a un momento difficile racconta più della sua qualità di quanto non facciano le statistiche di attacco o di ricezione.",
+    },
+  ];
+
+  return (
+    <main>
+      <CampionatiHero titolo="Mental Coach" />
+      <section className="section">
+        <p className="state" style={{ marginBottom: "1.5rem", fontSize: "0.85rem" }}>
+          L'allenamento mentale del volley: gestione dell'errore, concentrazione, pressione e comunicazione di squadra.
+        </p>
+        {argomenti.map(arg => (
+          <div key={arg.id} style={{ marginBottom: "2.5rem" }}>
+            <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.6rem", color: "var(--gold)", marginBottom: "0.2rem" }}>
+              {arg.nome}
+            </h2>
+            <p style={{ color: "var(--gold-bright)", fontSize: "0.85rem", fontStyle: "italic", marginBottom: "1rem" }}>
+              {arg.tagline}
+            </p>
+            <p style={{ marginBottom: "1.5rem", lineHeight: 1.6 }}>{arg.descrizione}</p>
+
+            <h3 style={{ fontSize: "1rem", color: "var(--gold-bright)", marginBottom: "0.75rem" }}>Principi</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem", marginBottom: "1.5rem" }}>
+              {arg.tipi.map((t, i) => (
+                <div key={i} style={{ border: "1px solid var(--border)", borderRadius: "10px", padding: "0.85rem 1rem" }}>
+                  <div style={{ fontWeight: 600, marginBottom: "0.3rem" }}>{t.nome}</div>
+                  <div style={{ fontSize: "0.85rem", color: "var(--text-dim)", lineHeight: 1.5 }}>{t.desc}</div>
+                </div>
+              ))}
+            </div>
+
+            <h3 style={{ fontSize: "1rem", color: "var(--gold-bright)", marginBottom: "0.75rem" }}>Esercizi pratici</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.85rem", marginBottom: "1.5rem" }}>
+              {arg.esercizi.map((e, i) => (
+                <div key={i} style={{ border: "1px solid var(--border)", borderRadius: "10px", padding: "0.85rem 1rem", background: "rgba(212,175,55,0.05)" }}>
+                  <div style={{ fontWeight: 600, marginBottom: "0.3rem" }}>{e.titolo}</div>
+                  <div style={{ fontSize: "0.85rem", color: "var(--text-dim)", lineHeight: 1.5 }}>{e.desc}</div>
+                </div>
+              ))}
+            </div>
+
+            <p style={{ fontSize: "0.85rem", color: "var(--text-dim)", fontStyle: "italic", borderLeft: "3px solid var(--gold)", paddingLeft: "1rem" }}>
+              {arg.consigli}
+            </p>
+          </div>
+        ))}
       </section>
     </main>
   );
@@ -5846,6 +5896,7 @@ useEffect(() => {
           {route === "squadre-top" && <SquadreTopPage />}
           {route === "pillole" && <PillolePage />}
           {route === "fondamentali" && <FondamentaliPage />}
+          {route === "mental-coach" && <MentalCoachPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
           {route === "galleria" && <GalleriaPage />}
           {route === "foto-settimana" && <FotoSettimanaPage />}
