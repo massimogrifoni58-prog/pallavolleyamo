@@ -464,7 +464,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
   label="Notizie"
   subscribed={subscribed}
   items={[
-    { href: "#/nazionale", label: "News Nazionali", locked: true },
+    { href: "#/nazionale", label: "News delle Nazionali", locked: true },
     { href: "#/nazionali", label: "News Campionati Naz.", locked: true },
     { href: "#/regionali", label: "News Regionali", locked: true },
     { href: "#/terni", label: "News Prov. TR", locked: true },
@@ -473,15 +473,16 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
   ]}
 />
 <NavDropdown
-  label="Per le Società"
+  label="Bacheca"
   subscribed={subscribed}
   items={[
+    { href: "#/mercato", label: "Mercato" },
     { href: "#/articoli-societa", label: "Articoli Società", locked: true },
     { href: "#/rosa", label: "Invia Rosa" },
   ]}
 />
         <NavDropdown
-          label="Top"
+          label="Top Atleti"
           subscribed={subscribed}
           items={[
             { href: "#/atleta-settimana", label: "Atleta della Settimana", locked: true },
@@ -499,6 +500,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
      { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
      { href: "#/classifica", label: "Classifica" },
      { href: "#/headtohead", label: "Head to Head" },
+     { href: "#/mappa", label: "🗺 Mappa", locked: true },
   ]}
  />
         <NavDropdown
@@ -508,19 +510,18 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
               { href: "#/galleria", label: "Galleria Foto", locked: true },
               { href: "#/foto-settimana", label: "Foto del Giorno", locked: true },
               { href: "#/video", label: " Video", locked: true },
-              { href: "#/mappa", label: "🗺 Mappa", locked: true },
        ]}
       />
         <NavDropdown
-            label="Tecnica"
-            subscribed={subscribed}
-            items={[
-              { href: "#/fondamentali", label: "Fondamentali", locked: true },
-              { href: "#/schede", label: "Schede Allenamento", locked: true },
-              { href: "#/preparazione-fisica", label: "Preparazione Fisica", locked: true },
-       ]}
-      />
-      <a className="nav-btn" href="#/mercato">Mercato</a>
+  label="Formazione"
+  subscribed={subscribed}
+  items={[
+    { href: "#/fondamentali", label: "Tecnica", locked: true },
+    { href: "#/preparazione-fisica", label: "Fisica", locked: true },
+    { href: "#/mental-coach", label: "Mente", locked: true },
+    { href: "#/schede", label: "Schede Allenamento", locked: true },
+  ]}
+/>
         <NavDropdown
            label="Allenatori"
 subscribed={subscribed}
