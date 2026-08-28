@@ -494,9 +494,8 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
    items={[
      { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
      { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
-     { href: "#/agenda", label: "Calendario Squadre Naz.", locked: true },
+     { href: "#/agenda", label: "Calendario Squadre", locked: true },
      { href: "#/risultati", label: "Risultati Camp. Regionali" },
-     { href: "#/calendario-regionale", label: "Calendario C-D" },
      { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
      { href: "#/classifica", label: "Classifica" },
      { href: "#/headtohead", label: "Head to Head" },
@@ -5292,6 +5291,183 @@ function BannerIscrizione({ onClose }) {
     </div>
   );
 }
+function CalendarioCompletoPage() {
+  const campionatiRegionali = calendarioRegionaliData.campionati || [];
+  const partiteRegionaliData = calendarioRegionaliData.partite || {};
+  const partiteNazionali = calendarioSquadreData.partite || [];
+
+  // Costruisce la lista di "categorie" selezionabili: Nazionale + ogni campionato regionale
+  const categorie = [
+    { id: "nazionale", nome: "Squadre Nazionali" },
+    ...campionatiRegionali.map(c => ({ id: c.id, nome: c.nome })),
+  ];
+
+  const [selCategoria, setSelCategoria] = useState("nazionale");
+
+  const oggi = new Date();
+  const [meseCorrente, setMeseCorrente] = useState(new Date(oggi.getFullYear(), oggi.getMonth(), 1));
+  const [selectedDay, setSelectedDay] = useState(null);
+
+  const partite = selCategoria === "nazionale"
+    ? partiteNazionali
+    : (partiteRegionaliData[selCategoria] || []);
+
+  const anno = meseCorrente.getFullYear();
+  const mese = meseCorrente.getMonth();
+
+  const partiteMap = {};
+  partite.forEach(p => {
+    if (!partiteMap[p.data]) partiteMap[p.data] = [];
+    partiteMap[p.data].push(p);
+  });
+
+  const primoDelMese = new Date(anno, mese, 1);
+  const ultimoDelMese = new Date(anno, mese + 1, 0);
+  const giorniNelMese = ultimoDelMese.getDate();
+  let primoGiornoSettimana = primoDelMese.getDay();
+  primoGiornoSettimana = primoGiornoSettimana === 0 ? 6 : primoGiornoSettimana - 1;
+
+  const celle = [];
+  for (let i = 0; i < primoGiornoSettimana; i++) celle.push(null);
+  for (let d = 1; d <= giorniNelMese; d++) celle.push(d);
+
+  function pad(n) { return String(n).padStart(2, "0"); }
+  function dataISO(d) { return `${anno}-${pad(mese + 1)}-${pad(d)}`; }
+
+  const meseNome = meseCorrente.toLocaleDateString("it-IT", { month: "long", year: "numeric" });
+  const oggiISO = `${oggi.getFullYear()}-${pad(oggi.getMonth() + 1)}-${pad(oggi.getDate())}`;
+
+  function cambiaMese(delta) {
+    setMeseCorrente(new Date(anno, mese + delta, 1));
+    setSelectedDay(null);
+  }
+
+  function cambiaCategoria(id) {
+    setSelCategoria(id);
+    setSelectedDay(null);
+  }
+
+  const partiteSelezionate = selectedDay ? (partiteMap[selectedDay] || []) : [];
+
+  return (
+    <main>
+      <CampionatiHero titolo="Calendario" />
+      <section className="section">
+        <h2 className="feed-heading">Calendario Squadre Umbre</h2>
+
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
+          {categorie.map(c => (
+            <button key={c.id}
+              className={`filter-btn ${selCategoria === c.id ? "filter-btn--active" : ""}`}
+              onClick={() => cambiaCategoria(c.id)}>
+              {c.nome}
+            </button>
+          ))}
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "1rem" }}>
+          <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
+          <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)", minWidth: "140px", textAlign: "center" }}>
+            {meseNome}
+          </div>
+          <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
+          {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
+            <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+              {g}
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "1.5rem", maxWidth: "420px", margin: "0 auto 1.5rem" }}>
+          {celle.map((d, i) => {
+            if (d === null) return <div key={`empty-${i}`} />;
+            const iso = dataISO(d);
+            const haPartite = partiteMap[iso] && partiteMap[iso].length > 0;
+            const isOggi = iso === oggiISO;
+            const isSelected = iso === selectedDay;
+            return (
+              <button
+                key={iso}
+                onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
+                style={{
+                  aspectRatio: "1",
+                  maxWidth: "48px",
+                  maxHeight: "48px",
+                  border: isOggi ? "2px solid var(--gold)" : "1.5px solid var(--border-strong, var(--border))",
+                  borderRadius: "6px",
+                  background: isSelected ? "rgba(212,175,55,0.25)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
+                  color: haPartite ? "var(--text)" : "var(--text-dim)",
+                  cursor: haPartite ? "pointer" : "default",
+                  fontSize: "0.72rem",
+                  fontWeight: haPartite ? 700 : 400,
+                  position: "relative",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  margin: "0 auto",
+                }}
+              >
+                {d}
+                {haPartite && (
+                  <span style={{
+                    position: "absolute",
+                    bottom: "2px",
+                    width: "4px",
+                    height: "4px",
+                    borderRadius: "50%",
+                    background: "var(--gold)",
+                  }} />
+                )}
+              </button>
+            );
+          })}
+        </div>
+
+        {selectedDay && partiteSelezionate.length > 0 && (
+          <div style={{ marginBottom: "1rem" }}>
+            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
+              {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {partiteSelezionate.map(p => (
+                <div key={p.id} style={{
+                  border: "1px solid var(--border)",
+                  borderRadius: "10px",
+                  padding: "0.85rem 1rem",
+                }}>
+                  <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                    {p.categoria || (p.giornata && `Giornata ${p.giornata}`)} {p.ora && `· ${p.ora}`}
+                  </div>
+                  <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                    {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
+                  </div>
+                  {p.risultato && (
+                    <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
+                  )}
+                  {p.impianto && (
+                    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
+                      📍 {p.impianto}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {!selectedDay && (
+          <p className="state" style={{ textAlign: "center", fontSize: "0.8rem" }}>
+            Clicca su un giorno evidenziato per vedere le partite.
+          </p>
+        )}
+      </section>
+    </main>
+  );
+}
+
 function AgendaPage() {
   const partite = calendarioSquadreData.partite || [];
   const oggi = new Date();
@@ -5663,7 +5839,7 @@ useEffect(() => {
           {route === "video" && <VideoPage />}
           {route === "mappa" && <MappaPage />}
           {route === "camp" && <CampEstiviPage />}
-          {route === "agenda" && <AgendaPage />}
+          {route === "agenda" && <CalendarioCompletoPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
           {route === "squadre-top" && <SquadreTopPage />}
@@ -5682,7 +5858,6 @@ useEffect(() => {
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
           {route === "risultati" && <RisultatiPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
-          {route === "calendario-regionale" && <CalendarioRegionaliPage />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}
           {route === "risultati-1div" && <RisultatiPage cat="1 Divisione" />}
           {route === "risultati-2div" && <RisultatiPage cat="2 Divisione" />}
