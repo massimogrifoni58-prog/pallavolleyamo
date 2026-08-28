@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-28T05:04:53.821075+00:00",
+  "generatedAt": "2026-08-28T17:09:34.433178+00:00",
   "news": {
     "1": [
-      {
-        "title": "Intermoia, nuova sfida a Viterbo: la giovane civitavecchiese approda in B2 - Civonline",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWZYamlmMGpsTWVRTGZ2QkJDZjBhc0RzVjVHYXhTRUdQRWFYRjZ3WjlSVmpCYldPYmpQVzIzQUhWT0ZmRFM2M0gtSmtJdmFqejBEZE9NbTFfX25HSnpJTnZpVm9lc043OGlwT0U4TWhRcG5ZM0pYQ0ZDS3NiaWtDTUpvTDdXNjJCdEV4TTkwQjRUSGY0UTR2TS1vdGJqY0F6Q0t1OFpEdVl2M3ZMbndjQkpIWlZIUmJOZFFuYjZR?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 11:00:00 GMT",
-        "source": "Civonline"
-      },
       {
         "title": "Le convocate di Mencarelli per lo stage di Castelnovo nè Monti - federvolley.it",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXk1MFk4Y0pObkdOVjVoaVpDRW5WVnhYQ1B3dXlLdFNWeXZ3SmRrLVRjT0JZS3M0elczUXdJcEgySHZLalJWd1pGSlIxczItNUlBYlRNeFprYklNYkMtdm5kRmpSeG45LVhYMWJNWEoweFZxMDF0VTIyQzlaZkZVYWs5amFvY1MyVHIwZzV3?oc=5",
@@ -27,6 +21,12 @@
         "source": "Cosenza Post"
       },
       {
+        "title": "Pallavolo – Il giudizio di Marco Mencarelli sulle nuove regole di gioco - iVolley Magazine",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1NkcERkd19COVJwbG12bVF3WlZVcVVPV3JFczd4MzRFTTlKeThSR3pZU3BGLW1iblh5VGtzRTlMYVVfQlBsR2hPaGZxNFljaXA3UUtQUF81NGJab21oNl9iZTdDVFo1Y0NobXhNTF9UZVJXaFk1b0pfZnJJNlU4aHVpa0ZzOE1BN0RlRVlkX0xjLXd6M3hZXy1tZmpqc2dfdGdvNkJWSE9qc1RhR0pCSmFn?oc=5",
+        "pubDate": "Fri, 13 Feb 2026 08:00:00 GMT",
+        "source": "iVolley Magazine"
+      },
+      {
         "title": "Torneo WEVZA: il DT Marco Mencarelli traccia un primo bilancio - federvolley.it",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkI2ZEVTa0pEUnJ0SVJERW5veXRYX005WUQ1VUotbzFxX2JSck9IYXM4TFF4QmtPdGIyQjBCSUlDeklYSjJHM0JXcVlPdUNzeS1WMnhsQ0dmek9YMnlzSGlKVjUweklSREJtWnB4bC1sd09hT2hmT3VmTVlsUmZZV0FTanNxclRWZ2NEYXRLLW5Rdw?oc=5",
         "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT",
@@ -34,6 +34,12 @@
       }
     ],
     "2": [
+      {
+        "title": "Turchia perde Karakurt agli Europei volley 2026 - ischitellagargano.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmVmY3NzOEppRWhDZk9FcEd1V2tJYk1MY185V2NQTUM5MzVrZ1NhVGFWS0JWUmYzRTVmWTBYVTFfQ09aZW9ZQTVxa1EzTkFsVVVGUy1Gc2Jubjh6OUlVSzhPc0FFVXJWNjhfRlpEWl9GSzEtbFpwRS1ITUxJZmVsX3NjYXVHcDBRVldJajRKWWlNbU5JaElPbjJNOWVjcV90VHhUOFNhQlNjcDZfRllJUEFZaG4?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 16:37:43 GMT",
+        "source": "ischitellagargano.com"
+      },
       {
         "title": "Pallavolo EuroVolleyW2026 - Le 14 iscritte della Turchia di Daniele Santarelli: tornano Erdem e Cebecioglu, Vargas senza riserva di ruolo - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVk1WZ2pPekJESnZVSi0tS3hPVzFDdkdwWHN1bEZ5Q0pmbzRid0hhLUxGQkpJTVozNDZLVzR4T09DMUNrNTAzbU56Z09EVktYSVQwZENETDZaM0NUZGlFNjVqNjdMMDlEeHpMN094WjU5V3ZZaHdyYWF5VlFLdFBpTnNuSjJDc2tQLUxKZFRFYlRhVmRFaGVhY1d3N25OMVpGN0tQblU5M210MGsyVTREeEZscHlYU01mUVBvbTI1bGVNTE5KTmdZS1hjWFpWdFhqX0FRWGJ5Ty0yVFlHNUpwTk5hVDRtcVZfTDBJNFIxeGU5YkNiQjhROGIxWksxdjRxU285RmJmRQ?oc=5",
@@ -57,12 +63,6 @@
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXVwcnJCMjdHZU1OVWZ4OVh5RE5PWnJpaS02amNGZlJTeHVteVBjLWVrb0g1QUtEZkZQRWZkV3YxTU5zMkhLUmZyYnY1YzhpWFZiVkVGWDMzNjBWNHZtdnRSSWV3UjlwVEVjaXlBMGZBZDBaOHh2QWZ4eDV2eGJLc01kZV8tMmVTRzhJMGFuVHdITnFEdlVhM0o3NA?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "TrevisoToday"
-      },
-      {
-        "title": "Santarelli: 'Abbiamo smesso di giocare a pallavolo'. VIDEO - Sky Sport",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1ZkRURpZ25kS0NCLXlyVnRrWWdUOVN2NnlNRGVNWU9xbi1JUnhHUmF6ZXZ3b00zelpOWnZOUG1kU3BzaDVWY1hUemxYMFBYVnF5REdHX2FHeVlVNHVSVFdITHZBNmdHWV9WaERDcFQ4Qms0a1BmYzRJNXFTd240RElHaHpYa1pmUERidXprbkdCT2VhMXhSWk9mU2NYOUZmTnVpOFlMYm1rbU9Zd0hpc0Vn?oc=5",
-        "pubDate": "Sat, 02 May 2026 07:00:00 GMT",
-        "source": "Sky Sport"
       }
     ],
     "3": [
@@ -71,6 +71,12 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDFIMzBpOEtRb05yRFNaZ0puQ1V0aHlsVVlyV3h1a3dBdEsydnl0dTBSaERnbUgyU0trZ0dUekVFdFNIQm5McjhjZU5zTFBJZDdWQXBJZXVlc2VlY3E1ZUdDYkNrQ2x1NW42SHdBVXlyMWhpOHJBV0tYOWNFSFdUZ0Q2Zm9ZZHlOU1dEWG53?oc=5",
         "pubDate": "Thu, 13 Aug 2026 07:35:05 GMT",
         "source": "Alto Tevere Oggi"
+      },
+      {
+        "title": "Volley, Giuseppe Cuccarini premiato a Città di Castello - TTV.it",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY2VxSmo1MHFPYnI0TGtNV3o4RTNiOVh0dzl4SE5lYm11S1Rjc29OTlctSlhrSFAxZDQ5eWNlNW5sWXNNd25ENGQ4SlJsT01YcEt1UENabGFMSjdzZGNlRVdSdFh6M2VQZ2w5MENDbUptR1p5LUc1Ti1HZnZwMERlRTloYlE?oc=5",
+        "pubDate": "Wed, 20 Nov 2024 05:05:55 GMT",
+        "source": "TTV.it"
       }
     ],
     "4": [
@@ -107,10 +113,22 @@
     ],
     "5": [
       {
+        "title": "La grande pallavolo torna a Oristano per il Sardegna Volleyball Challenge - Comune di Oristano",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaFNBV3YzY04xMGg1ZUdSdGNTOHhMb3IyclFwZjZNeU5QNEFlQWpzZmZCTDhPakw3MzA3b1JUZnVtRWZCdkdkR0VhejNDNWNDdmdsMWZ6bS1vbmFPQ2tuRGVHSXRhYnZadk9Ca3dLU042Qk9reTdsbXE4ajY2cklPS2FyMUFnamRBVFFwS1R0RzY5OE9HaGFxVW5obnJYbnNlU2hEeXZYUlJDZU9iN1NXUXNuMTRFT3E5aTg0?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 09:53:00 GMT",
+        "source": "Comune di Oristano"
+      },
+      {
         "title": "Pallavolo Grecia – Alessandro Chiappini confermato alla guida del Panathinaikos - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPekd3cVBNVC10WTBheXhaSHVuV2VGc3M4U2dxUjNpbzZwRVlUXzZwM0RaUE45SnZuX0tRYmM4amN1UTUxTlhueDBabXI3UG9HeTV5T3pyUEVkcmNza2ZBbkFjaGxlYkFZd0lmOU5ZM0FUYm1CaFJZYW5WTDI1T3gxenptZldURVBrSE1EYWc4SEFCYWxQVXFRY3o5Tzc3RXRCY20yMU1ZSUhNVGFZZ1BPbFRnc3B2djZpeXExZQ?oc=5",
         "pubDate": "Fri, 03 Apr 2026 07:00:00 GMT",
         "source": "iVolley Magazine"
+      },
+      {
+        "title": "Vallefoglia-Panathinaikos oggi, Finale Challenge Cup volley femminile 2026: orario andata, programma, streaming - OA Sport",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLU9pZXZaOUgtRjBjWTlJZG9sZkY1b2FjOGczcE1ZcDdvTE9reXA1RnFEaHZPeHRIS3hPUTNiaWZhYUdGa0FMMVQzRHJvamdnS0s4SGYyQW1WVDJtczJyLVZXMVlmNDZ4SmdabnZEUHFqdWpicnkyUmZrQnF0UDU0YjVTYW5VeURydW9wTC0tdjJwQUtfdHVYeWlWd3dpYTM5RzUtbnU1eW1sbG5IaXp5c0xUUFNkQlUyeFBmckRNVmZPYnQ5LVc1ekF1b2tkaU5NN2pvNVJB0gHbAUFVX3lxTE5zNWJ6dlAyNUhmMnZRckEtUE5sRlVWcFlEQTF5U0xUWm03dHdvVlo5RnhMelE2TkNGZHcybUZ5YlpISU9uSmt2STViMTg3UTY5MG93ckotTVQwd0tOakVHT2ItMTFQQU1CWFRoWFBhVktrWkY1dF9SZkNKYXZYSWRaa3B1RHp6YWpHV0d0cnFBLWc3ekEzY0hzTEdPWnhFNXhTOGVYZVVzbFpTNWxRYjRYcEdVU1FicDR4NlJoRVV5QllCM3JQajk5VkFMdWZaSExmZ3ZDWm9xNTJsYw?oc=5",
+        "pubDate": "Wed, 11 Mar 2026 07:00:00 GMT",
+        "source": "OA Sport"
       },
       {
         "title": "MEGABOX, ECCO LA PRIMA FINALE DI CHALLENGE CUP - Lega Pallavolo Serie A Femminile",
@@ -123,12 +141,6 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlpFdUpSZVZ0djUzNXp5VjJwSHJuZFBqYVR3cnBjZUlMVjF6LWtxQ0Z1YzNVSzBlRVhTQjNIdnhrc2tMb0E4RUZZbk1VaGx2Y0daTEpjX3VWZEpYYjR5aUdQN0o2LWFaRGdyZjhjZ015Nzc1bklfdE5mRkt4Z2ZUa1NsOEtIeU9ST2Iwa1MzaXFFdGRTc1hTZlB1ZnN5NWEtVlFRNWJOWWFnTTdHWWN3?oc=5",
         "pubDate": "Thu, 22 Jan 2026 08:00:00 GMT",
         "source": "iVolley Magazine"
-      },
-      {
-        "title": "Il Commercecon Lodz, primo in classifica, esonera l’allenatore Alessandro Chiappini alla vigilia dei play-off - Volley News",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPclBRa3ItVllFSGFGNDMtSlJIZjZyVFduV3dOb1QyaGZQZVd5dGVUb0wyWno5dm01eHNkYmJSWV9oRmU4cDNkOEI1dWhpX29VMV9faUZQRjQ2MG5jNzY4OGN1T0JFSkM2Q2MwVFZxVEVzZDg1Sk1wenFxRERuODR0eGdBMVJ4Q2tPTHh1Nk1uWGc0U1pJWEl5NDRyTFQtcTUyTTktOWJtTGVTNWtkcXN4SmlRWE1GY2cxOGt3ekcxUmxab0JXQ0VrR2U1cE5MUQ?oc=5",
-        "pubDate": "Tue, 11 Mar 2025 07:00:00 GMT",
-        "source": "Volley News"
       }
     ],
     "6": [
@@ -192,10 +204,16 @@
         "source": "Umbria Domani"
       },
       {
-        "title": "San Gemini Volley al lavoro per il nuovo coach e un roster all'altezza. «Obiettivo è migliorarsi - UmbriaON",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmlPUUpuZV9VbTFTd09ZUGd1REwtWGliWXhGc09JdDMyX3dCaVZOZ1psUm9rNzRqS28zZDlsYUphN011V25pN2xyODZSRC1BdGd1RDRwSE1ycktsLVRxOVZRampnMW5lODJLQnRzRDZiTy1OaWlub2liSmNwcHZodmNkQTdvU1hMb2I2eWJJQjhKYlREalQ2Y2M3OE1kUjN5SVE3b3hNYzZkdUxwYXpvYzFmVXdlWkpoZGc?oc=5",
-        "pubDate": "Sat, 02 Aug 2025 07:00:00 GMT",
-        "source": "UmbriaON"
+        "title": "Roberto Scaccia - Umbria Domani",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSk5GQWNxSGVtVDRmTkhkSXZtdDg3bDkycEZENHlHZzQ3WV9WalZZSFdrWVBZeFJoa3ZSVDZ6QTc3VEZXN21mcG9jOW1mOTFOQjdBbHFBaExvTzN2alBFN0xmbE1uSFZ0cDB6Mno0NVhjNlhXY0t4S01uNVJqek83VzNDaGhUcDMyYmh3MWtab0dNdGpfbm9IdElIRWhtbkwxTzhXNTZ3UXhRY2lac3JiVVgzZHdEbFpqd2hlSg?oc=5",
+        "pubDate": "Fri, 22 Aug 2025 06:20:47 GMT",
+        "source": "Umbria Domani"
+      },
+      {
+        "title": "Roberto Scaccia vicino alla guida di Trevi - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSVZiWF93ZUIweEtYa1NrUC16U0Q2ODl0UHJyTnJCeTFCZkZiQjg3V29pQ3VYSC1YbzhPMFBVaTdtOHI2a293ZF8wQUpVQ1FZdzg3clUwQTAyRlBYMW9KMTVHTkJYSlNnTjlTbXpJNDN3ajhmWk95T1Fnblh1VWZxVmQ3bGJSZVR5?oc=5",
+        "pubDate": "Thu, 19 Jun 2025 07:00:00 GMT",
+        "source": "Pianeta Volley"
       }
     ],
     "10": [
