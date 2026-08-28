@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T16:05:53.875256+00:00",
+  "generatedAt": "2026-08-28T05:04:53.821075+00:00",
   "news": {
     "1": [
       {
@@ -41,12 +41,6 @@
         "source": "iVolley Magazine"
       },
       {
-        "title": "Imoco Volley di nuovo in campo: mercoledì il primo allenamento al PalaVerde - TrevisoToday",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUmhxLXN2b2tFWmFDbXc3Z2pkSml2WUlBY0ZzZDZVMVI5dTVIWFU5NDlzOUtsdk9RQTduVGZaaGNTOEI5ZlNhSmpvYTJhY25TUmw2UU83OXZ3STc3MkcwTGk0bTJ2ZlVYanZtVjktRDZ4RlR4RXJrVDZPVVpmMnBKY0t4UG12SXlUNlRQdFJtTElsaExFaDZhT0QyRXNTSG5jcU9KNlFHNUM?oc=5",
-        "pubDate": "Tue, 18 Aug 2026 04:02:00 GMT",
-        "source": "TrevisoToday"
-      },
-      {
         "title": "Daniele Santarelli: “Allenare la Nazionale italiana sarebbe un sogno. Il vivaio della Turchia non dovrà finire con me” - OA Sport",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0k4VUtvUUVobF8zeDRoQnFuQkd3VXhKLTNoQ3k5WTlRLWFZVFZ5TEd5b25kd3VIMk00N3VuMmxDc3BRWmdWWmo1UTR2eURDclRvNmpnWllfZTBWVGdiMXplVDRMWXhRWm94dlBEdnRMT28wSy1BV3RMQm92dHdYamlhMDhkWHJ5RTVNQWZQWm1GQTN6Y1ZnT05ybUJHczdfN2RHenhrSzVBYXpXQjE1VC04QjRxalhfeGFMWjU5czU3Yjc5VXJ4WU1hSDJnTmt2TlY0VWpLWGZnWnYtRU5F0gHkAUFVX3lxTE9lb0RiRFNFNzMzUno2RUNMT2NRTC1lb3p0THhoMm92VXdRWjFkSXhXYTdkVS1rb1pXYkVYRThadi1HZ24wS0xqdmRaT0VjX0oxZ3FPOEFBRFo5SjhueTYxNnk1dUtJNWVYN1k3X2pTX0drLThfSHRSRkFFQjZieDhMM3JqeFBUN0JJYjZXWk55SEI4cTdLSzB0cDBKa0NTWVRmM3VxcFNPaDN5eXdrU0FRSk9CUW1xMDNSY3RYZkFVbjJIVWVOclhzbEZrbjBqV1hxODZQVEtjMlpjR1pHZ09EbVlucg?oc=5",
         "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
@@ -57,6 +51,12 @@
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWFRzZi0xQ2FVYlR0RFlaMW16dmR5bUx6dFdZNlg2N0t5MFJ5MHZycXNOMXJVd0R2X1NWa0RiU0FmUHItNkhtRUx6ME1QOTlLd1lQbndYWWE0aV92b2RLUWtFZmhwTE8zNDFtMkNxZ3BvaHhaNG4tZ29YYlZsWHFvSjNzekd0RlQ3QkhBMmtWcEg2dXN5aURHUW9kZnk3UXhJTHdjUFBfYk5vUnVMbDVaMkdpRXdaRUtOeVlVSE5KeHVSMl96Zi1zcUR2RTRXS2NRcjlVSlNUcnhDS3lpTTMzcWwtOA?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "Qdpnews"
+      },
+      {
+        "title": "Imoco volley, coach Santarelli confermato per il decimo anno: «Un legame che va oltre la pallavolo» - TrevisoToday",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXVwcnJCMjdHZU1OVWZ4OVh5RE5PWnJpaS02amNGZlJTeHVteVBjLWVrb0g1QUtEZkZQRWZkV3YxTU5zMkhLUmZyYnY1YzhpWFZiVkVGWDMzNjBWNHZtdnRSSWV3UjlwVEVjaXlBMGZBZDBaOHh2QWZ4eDV2eGJLc01kZV8tMmVTRzhJMGFuVHdITnFEdlVhM0o3NA?oc=5",
+        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+        "source": "TrevisoToday"
       },
       {
         "title": "Santarelli: 'Abbiamo smesso di giocare a pallavolo'. VIDEO - Sky Sport",
@@ -87,16 +87,16 @@
         "source": "Roma Volley Club"
       },
       {
-        "title": "Pallavolo A2F - Prima novità a Roma: Giuseppe Cuccarini lascia la panchina e diventa Direttore Tecnico - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcEJHZFlOeXByOUI4TndFcDJxeTBRMmhocWZnOTdCYkk0bVF0TjJJdnQ1RkRyY18tOVg3d1Zhb3RMa0dMbmtuWUwyNGxsem9OVklsaFZ1dGhGTGIwX2dHZ3dsanlyR3k5bXdwRm5VbDlONkdIT0VnSnBCX3RqdEFpVWJTXzJpM1VmYndyaXZvVmVvajhMSm5HdnV5WFk4akoxYy1NUEE4NmtXTUdFelZidGczRVU0OXFPdVhjM2VpTDFOZmFsQlBJeFpRdHM0NlBGSlkwWUlVamVEdw?oc=5",
-        "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
-        "source": "iVolley Magazine"
-      },
-      {
         "title": "Ferraro SMI Roma Volley: Giuseppe Cuccarini è il nuovo Direttore Tecnico - Lega Pallavolo Serie A Femminile",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYV9tU0hlR0R3d19ENWRYa0VQalk5QXV5M2VSMXlUVG9idFQwMjM5SHhkN003QXQ0ZWRDM3Izdk5WS1NmVF9zSzJhZERBd2Zxd2wxRE1ISnMtZDNpRnEteWRxcHQtRDVoc3hsV0dPM3dVOUZBdkdpeG5sVzI5QVRtRllwTUxLSzEyQXVUR280TkJjZmRRd3pTTGttNGhFSzJrLU9uZGFpWU54Wjg?oc=5",
         "pubDate": "Tue, 26 May 2026 06:28:52 GMT",
         "source": "Lega Pallavolo Serie A Femminile"
+      },
+      {
+        "title": "Nasce la Ferraro SMI Roma Volley - Roma Volley Club",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KZE52TE53RTBaWWNNVm9CU2Y2U0NxUm1RSDNrd1dMdWNOekhLcGZtVElzbDZjbG9lNjJfMGJJSTN1NXQwUTNLSktBemJsR1pGTGJxTXl5YTMxQld6QUdCWXgwQXhpMW50N0t2QjdMcVg?oc=5",
+        "pubDate": "Sat, 23 May 2026 07:00:00 GMT",
+        "source": "Roma Volley Club"
       },
       {
         "title": "CDA Volley Talmassons Fvg perfetta: piegata Roma 3-0 - Lega Pallavolo Serie A Femminile",
@@ -113,12 +113,6 @@
         "source": "iVolley Magazine"
       },
       {
-        "title": "Vallefoglia-Panathinaikos oggi, Finale Challenge Cup volley femminile 2026: orario andata, programma, streaming - OA Sport",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLU9pZXZaOUgtRjBjWTlJZG9sZkY1b2FjOGczcE1ZcDdvTE9reXA1RnFEaHZPeHRIS3hPUTNiaWZhYUdGa0FMMVQzRHJvamdnS0s4SGYyQW1WVDJtczJyLVZXMVlmNDZ4SmdabnZEUHFqdWpicnkyUmZrQnF0UDU0YjVTYW5VeURydW9wTC0tdjJwQUtfdHVYeWlWd3dpYTM5RzUtbnU1eW1sbG5IaXp5c0xUUFNkQlUyeFBmckRNVmZPYnQ5LVc1ekF1b2tkaU5NN2pvNVJB0gHbAUFVX3lxTE5zNWJ6dlAyNUhmMnZRckEtUE5sRlVWcFlEQTF5U0xUWm03dHdvVlo5RnhMelE2TkNGZHcybUZ5YlpISU9uSmt2STViMTg3UTY5MG93ckotTVQwd0tOakVHT2ItMTFQQU1CWFRoWFBhVktrWkY1dF9SZkNKYXZYSWRaa3B1RHp6YWpHV0d0cnFBLWc3ekEzY0hzTEdPWnhFNXhTOGVYZVVzbFpTNWxRYjRYcEdVU1FicDR4NlJoRVV5QllCM3JQajk5VkFMdWZaSExmZ3ZDWm9xNTJsYw?oc=5",
-        "pubDate": "Wed, 11 Mar 2026 07:00:00 GMT",
-        "source": "OA Sport"
-      },
-      {
         "title": "MEGABOX, ECCO LA PRIMA FINALE DI CHALLENGE CUP - Lega Pallavolo Serie A Femminile",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjh0aFdQOFFwN1hyWlR5Q19KWk1pRUt0RXBQV0NwRVZnbmYzaHd2aDEzSlpvWk16V2VjUHlqWjlKM1htOF9mQXpia203NjIzNHpONjlfZmxVX2xCWkVIWS13NFVOSUZkWGF3M3M1elh2S3lObkRqZ2M4N1BlQWtUWjNpODRUY2NV?oc=5",
         "pubDate": "Tue, 10 Mar 2026 14:08:39 GMT",
@@ -129,6 +123,12 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWlpFdUpSZVZ0djUzNXp5VjJwSHJuZFBqYVR3cnBjZUlMVjF6LWtxQ0Z1YzNVSzBlRVhTQjNIdnhrc2tMb0E4RUZZbk1VaGx2Y0daTEpjX3VWZEpYYjR5aUdQN0o2LWFaRGdyZjhjZ015Nzc1bklfdE5mRkt4Z2ZUa1NsOEtIeU9ST2Iwa1MzaXFFdGRTc1hTZlB1ZnN5NWEtVlFRNWJOWWFnTTdHWWN3?oc=5",
         "pubDate": "Thu, 22 Jan 2026 08:00:00 GMT",
         "source": "iVolley Magazine"
+      },
+      {
+        "title": "Il Commercecon Lodz, primo in classifica, esonera l’allenatore Alessandro Chiappini alla vigilia dei play-off - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPclBRa3ItVllFSGFGNDMtSlJIZjZyVFduV3dOb1QyaGZQZVd5dGVUb0wyWno5dm01eHNkYmJSWV9oRmU4cDNkOEI1dWhpX29VMV9faUZQRjQ2MG5jNzY4OGN1T0JFSkM2Q2MwVFZxVEVzZDg1Sk1wenFxRERuODR0eGdBMVJ4Q2tPTHh1Nk1uWGc0U1pJWEl5NDRyTFQtcTUyTTktOWJtTGVTNWtkcXN4SmlRWE1GY2cxOGt3ekcxUmxab0JXQ0VrR2U1cE5MUQ?oc=5",
+        "pubDate": "Tue, 11 Mar 2025 07:00:00 GMT",
+        "source": "Volley News"
       }
     ],
     "6": [
@@ -192,16 +192,10 @@
         "source": "Umbria Domani"
       },
       {
-        "title": "Roberto Scaccia - Umbria Domani",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSk5GQWNxSGVtVDRmTkhkSXZtdDg3bDkycEZENHlHZzQ3WV9WalZZSFdrWVBZeFJoa3ZSVDZ6QTc3VEZXN21mcG9jOW1mOTFOQjdBbHFBaExvTzN2alBFN0xmbE1uSFZ0cDB6Mno0NVhjNlhXY0t4S01uNVJqek83VzNDaGhUcDMyYmh3MWtab0dNdGpfbm9IdElIRWhtbkwxTzhXNTZ3UXhRY2lac3JiVVgzZHdEbFpqd2hlSg?oc=5",
-        "pubDate": "Fri, 22 Aug 2025 06:20:47 GMT",
-        "source": "Umbria Domani"
-      },
-      {
-        "title": "Roberto Scaccia vicino alla guida di Trevi - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSVZiWF93ZUIweEtYa1NrUC16U0Q2ODl0UHJyTnJCeTFCZkZiQjg3V29pQ3VYSC1YbzhPMFBVaTdtOHI2a293ZF8wQUpVQ1FZdzg3clUwQTAyRlBYMW9KMTVHTkJYSlNnTjlTbXpJNDN3ajhmWk95T1Fnblh1VWZxVmQ3bGJSZVR5?oc=5",
-        "pubDate": "Thu, 19 Jun 2025 07:00:00 GMT",
-        "source": "Pianeta Volley"
+        "title": "San Gemini Volley al lavoro per il nuovo coach e un roster all'altezza. «Obiettivo è migliorarsi - UmbriaON",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWmlPUUpuZV9VbTFTd09ZUGd1REwtWGliWXhGc09JdDMyX3dCaVZOZ1psUm9rNzRqS28zZDlsYUphN011V25pN2xyODZSRC1BdGd1RDRwSE1ycktsLVRxOVZRampnMW5lODJLQnRzRDZiTy1OaWlub2liSmNwcHZodmNkQTdvU1hMb2I2eWJJQjhKYlREalQ2Y2M3OE1kUjN5SVE3b3hNYzZkdUxwYXpvYzFmVXdlWkpoZGc?oc=5",
+        "pubDate": "Sat, 02 Aug 2025 07:00:00 GMT",
+        "source": "UmbriaON"
       }
     ],
     "10": [
