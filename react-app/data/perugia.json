@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-08-29T11:28:40.219769+00:00",
+  "generatedAt": "2026-08-30T05:02:42.574130+00:00",
   "posts": [
+    {
+      "title": "Pallavolo San Sisto: è pronta la carica delle 200",
+      "excerpt": "Tante le atlete che andranno a comporre gli 11 gruppi squadra più il minivolley. Spazio anche ad una giovane serie D. Il Presidente Sargenti: “Puntiamo a creare aggregazione, divertimento e a sviluppa",
+      "createdTime": "Sat, 29 Aug 2026 12:02:26 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/pallavolo-San-Sisto.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35167",
+      "id": "1"
+    },
     {
       "title": "La Sirio Perugia vuol rinverdire il proprio blasone",
       "excerpt": "È l’unica umbra della B1 femminile, con Bovari in panca. In B2, niente derby fra Città di Castello e Trestina, divise in due gironi. Per Chiusi e Marsciano un’altra stagione di mantenimento della cate",
       "createdTime": "Sat, 29 Aug 2026 06:37:35 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2020/06/bovari.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35161",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "Altotevere, le ottime impressioni di Bellucci: “Ambiente top per lavorare”",
@@ -15,7 +23,7 @@
       "createdTime": "Fri, 28 Aug 2026 12:57:58 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/bellucci-primo-piano.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35157",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Alessandra Cucina: «Ho preso il treno che passa a Perugia»",
@@ -23,7 +31,7 @@
       "createdTime": "Fri, 28 Aug 2026 09:00:36 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Cucina-Alessandra-Sirio-Perugia.jpg",
       "permalink": "https://www.pianetavolley.net/2026/08/alessandra-cucina-ho-preso-il-treno-che-passa-a-perugia/",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Black Angels, Colombo subito protagonista: “Siamo sulla strada giusta”",
@@ -31,14 +39,6 @@
       "createdTime": "Fri, 28 Aug 2026 06:47:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/colombo-3.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35155",
-      "id": "4"
-    },
-    {
-      "title": "La Sirio Perugia annuncia Matilde Ferrini",
-      "excerpt": "L’ultimo movimento di mercato in casa Sirio Perugia, è quello della centrale perugina Matilde Ferrini che mostra di avere una certa sicurezza in sé stessa: &#8220;Pratico questo sport da appena cinque",
-      "createdTime": "Thu, 27 Aug 2026 11:52:41 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Ferrini-Matilde-Sirio-Perugia.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35147",
       "id": "5"
     },
     {
@@ -104,14 +104,6 @@
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/07/Sargenti-e-Di-Nardo.jpg",
       "permalink": "https://www.volleyumbria.it/?p=34943",
       "id": "13"
-    },
-    {
-      "title": "Pallavolo Monteluce piazza il colpo per la panchina:  Francesco Brighigna",
-      "excerpt": "Un innesto di assoluto spessore e di grande profilo professionale per la Pallavolo Monteluce. La società è lieta di annunciare l&#8217;arrivo nello staff tecnico del coach tifernate Francesco Brighign",
-      "createdTime": "Fri, 24 Jul 2026 17:29:45 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2020/09/Francesco-Brighigna.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=34929",
-      "id": "14"
     }
   ]
 }
