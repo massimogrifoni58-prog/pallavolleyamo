@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T05:04:07.134084+00:00",
+  "generatedAt": "2026-08-30T10:19:03.251270+00:00",
   "news": {
     "1": [
       {
@@ -41,6 +41,12 @@
         "source": "iVolley Magazine"
       },
       {
+        "title": "Imoco Volley di nuovo in campo: mercoledì il primo allenamento al PalaVerde - TrevisoToday",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUmhxLXN2b2tFWmFDbXc3Z2pkSml2WUlBY0ZzZDZVMVI5dTVIWFU5NDlzOUtsdk9RQTduVGZaaGNTOEI5ZlNhSmpvYTJhY25TUmw2UU83OXZ3STc3MkcwTGk0bTJ2ZlVYanZtVjktRDZ4RlR4RXJrVDZPVVpmMnBKY0t4UG12SXlUNlRQdFJtTElsaExFaDZhT0QyRXNTSG5jcU9KNlFHNUM?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 07:00:00 GMT",
+        "source": "TrevisoToday"
+      },
+      {
         "title": "Daniele Santarelli: “Allenare la Nazionale italiana sarebbe un sogno. Il vivaio della Turchia non dovrà finire con me” - OA Sport",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0k4VUtvUUVobF8zeDRoQnFuQkd3VXhKLTNoQ3k5WTlRLWFZVFZ5TEd5b25kd3VIMk00N3VuMmxDc3BRWmdWWmo1UTR2eURDclRvNmpnWllfZTBWVGdiMXplVDRMWXhRWm94dlBEdnRMT28wSy1BV3RMQm92dHdYamlhMDhkWHJ5RTVNQWZQWm1GQTN6Y1ZnT05ybUJHczdfN2RHenhrSzVBYXpXQjE1VC04QjRxalhfeGFMWjU5czU3Yjc5VXJ4WU1hSDJnTmt2TlY0VWpLWGZnWnYtRU5F0gHkAUFVX3lxTE9lb0RiRFNFNzMzUno2RUNMT2NRTC1lb3p0THhoMm92VXdRWjFkSXhXYTdkVS1rb1pXYkVYRThadi1HZ24wS0xqdmRaT0VjX0oxZ3FPOEFBRFo5SjhueTYxNnk1dUtJNWVYN1k3X2pTX0drLThfSHRSRkFFQjZieDhMM3JqeFBUN0JJYjZXWk55SEI4cTdLSzB0cDBKa0NTWVRmM3VxcFNPaDN5eXdrU0FRSk9CUW1xMDNSY3RYZkFVbjJIVWVOclhzbEZrbjBqV1hxODZQVEtjMlpjR1pHZ09EbVlucg?oc=5",
         "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
@@ -51,12 +57,6 @@
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWFRzZi0xQ2FVYlR0RFlaMW16dmR5bUx6dFdZNlg2N0t5MFJ5MHZycXNOMXJVd0R2X1NWa0RiU0FmUHItNkhtRUx6ME1QOTlLd1lQbndYWWE0aV92b2RLUWtFZmhwTE8zNDFtMkNxZ3BvaHhaNG4tZ29YYlZsWHFvSjNzekd0RlQ3QkhBMmtWcEg2dXN5aURHUW9kZnk3UXhJTHdjUFBfYk5vUnVMbDVaMkdpRXdaRUtOeVlVSE5KeHVSMl96Zi1zcUR2RTRXS2NRcjlVSlNUcnhDS3lpTTMzcWwtOA?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "Qdpnews"
-      },
-      {
-        "title": "Imoco volley, coach Santarelli confermato per il decimo anno: «Un legame che va oltre la pallavolo» - TrevisoToday",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXVwcnJCMjdHZU1OVWZ4OVh5RE5PWnJpaS02amNGZlJTeHVteVBjLWVrb0g1QUtEZkZQRWZkV3YxTU5zMkhLUmZyYnY1YzhpWFZiVkVGWDMzNjBWNHZtdnRSSWV3UjlwVEVjaXlBMGZBZDBaOHh2QWZ4eDV2eGJLc01kZV8tMmVTRzhJMGFuVHdITnFEdlVhM0o3NA?oc=5",
-        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "TrevisoToday"
       },
       {
         "title": "Santarelli: 'Abbiamo smesso di giocare a pallavolo'. VIDEO - Sky Sport",
@@ -173,7 +173,7 @@
       {
         "title": "Pallavolo, impresa Città di Castello: anche il maschile in Serie B - TTV.it",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2RXcDlvTmRQczN1elVzVFJiM19HamswZU56WndzN3JEdDdTQXR1cVFEdUgyQmVBMjhwTC1GX2JkbGVhN0pXbFJyV3FzR1UxaXlheFdFdUZxMFk2aF9tSnlrYlBheldndFQ4cUZMc2pGUldGb3pBblp6Tmduamhvbjl3cTExdlhOZjM2VElaTlY0Y0l6?oc=5",
-        "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
+        "pubDate": "Sat, 06 Jun 2026 19:05:07 GMT",
         "source": "TTV.it"
       },
       {
