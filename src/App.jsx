@@ -4862,6 +4862,7 @@ function MappaPage() {
     "Serie D M": "#888780",
     "Serie D F": "#aaa",
     "1 Divisione F": "#D4537E",
+  };
 
   const categorie = ["Tutti", "Superlega/A", "Serie B", "Serie C", "Serie D", "1ª Div"];
 
