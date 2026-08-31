@@ -4855,12 +4855,13 @@ function MappaPage() {
     "Serie A3": "#EF9F27",
     "Serie B M": "#2DBB8A",
     "Serie B F": "#20a870",
+    "Serie B1 F": "#2DBB8A",
+    "Serie B2 F": "#20a870",
     "Serie C M": "#1D9E75",
     "Serie C F": "#378ADD",
     "Serie D M": "#888780",
     "Serie D F": "#aaa",
     "1 Divisione F": "#D4537E",
-  };
 
   const categorie = ["Tutti", "Superlega/A", "Serie B", "Serie C", "Serie D", "1ª Div"];
 
@@ -5876,7 +5877,7 @@ useEffect(() => {
           {route === "home" && <HomePage latestNews={latestFive} />}
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","calendario-regionale","mental-coach"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","calendario-regionale","mental-coach"].includes(route) && <NotFoundPage />}#000
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
