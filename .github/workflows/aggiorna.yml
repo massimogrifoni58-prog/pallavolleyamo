@@ -1,10 +1,8 @@
 name: Aggiornamento giornaliero PallaVolleyAmo
-
 on:
   schedule:
     - cron: '0 5 * * *'  # Ogni giorno alle 7:00 ora italiana (5 UTC)
   workflow_dispatch:  # Permette lancio manuale da GitHub
-
 jobs:
   aggiorna:
     runs-on: ubuntu-latest
@@ -13,22 +11,18 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Installa dipendenze
         run: pip install requests beautifulsoup4
-
       - name: Aggiorna notizie
         run: |
           # Backup articoli e societa
           cp data/articoli-societa.json /tmp/articoli-backup.json
           cp react-app/data/articoli-societa.json /tmp/articoli-react-backup.json
           cp data/societa.json /tmp/societa-backup.json
-          cp react-app/data/societa.json /tmp/societa-react-backup.json
           cd scraper
           python fetch_nazionale.py
           python fetch_regionali.py
@@ -45,10 +39,9 @@ jobs:
           cp /tmp/articoli-backup.json data/articoli-societa.json
           cp /tmp/articoli-react-backup.json react-app/data/articoli-societa.json
           cp /tmp/societa-backup.json data/societa.json
-          cp /tmp/societa-react-backup.json react-app/data/societa.json
+          rm -f react-app/data/societa.json
           mkdir -p react-app/src
           echo "export const BUILD_DATE = '$(date)';" > react-app/src/buildDate.js
-
       - name: Commit e push dati aggiornati
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
@@ -56,13 +49,13 @@ jobs:
           cp /tmp/articoli-backup.json data/articoli-societa.json
           cp /tmp/articoli-react-backup.json react-app/data/articoli-societa.json
           cp /tmp/societa-backup.json data/societa.json
-          cp /tmp/societa-react-backup.json react-app/data/societa.json
+          rm -f react-app/data/societa.json
           git add react-app/data/ data/ react-app/src/buildDate.js
           git restore --staged data/articoli-societa.json react-app/data/articoli-societa.json || true
-          git restore --staged data/societa.json react-app/data/societa.json || true
+          git restore --staged data/societa.json || true
           git diff --staged --quiet || git commit -m "Aggiornamento automatico notizie"
           git push --force
-
       - name: Trigger Vercel deploy
         run: |
           curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_AlirBjIprA7fpYqlQpwFXWksVFpy/NF6htE5x4p"
+          
