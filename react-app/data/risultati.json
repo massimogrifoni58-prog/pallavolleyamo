@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:03:35.707172+00:00",
+  "generatedAt": "2026-09-02T09:17:33.591744+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1415,15 +1415,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626947",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626948",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 1",
@@ -1456,6 +1447,15 @@
       "giornata": "Giornata 1",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "VOLLEY ACADEMY BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626947",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ELLERA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1577,15 +1577,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626963",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 4",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "A.S.D. TREVI VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626964",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 4",
@@ -1600,6 +1591,15 @@
       "giornata": "Giornata 4",
       "home": "FOSSATO VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626963",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "A.S.D. TREVI VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2333,20 +2333,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627046",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 18",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627048",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 18",
       "home": "VOLLEY ACADEMY BASTIA",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627046",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2441,15 +2441,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627060",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 20",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627062",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 20",
@@ -2473,6 +2464,15 @@
       "giornata": "Giornata 20",
       "home": "FOSSATO VOLLEY",
       "away": "THE GALLEON PUB MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627060",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2540,15 +2540,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627070",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 22",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627071",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 22",
@@ -2563,6 +2554,15 @@
       "giornata": "Giornata 22",
       "home": "VOLLEY ACADEMY BASTIA",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627070",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "score": "da disputare",
       "status": "in programma"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T05:02:36.333896+00:00",
+  "generatedAt": "2026-09-02T09:16:29.621752+00:00",
   "posts": [
     {
       "id": "news-1",
@@ -8,14 +8,6 @@
       "createdTime": "Wed, 26 Aug 2026 17:00:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/08/27/pallavolo-sl-perugia-si-prepara-ad-affrontare-il-campionato-programmati-5-allenamenti-congiunti/"
-    },
-    {
-      "id": "news-2",
-      "title": "Perugia, Kollátor e le prime settimane da Block Devils: “Ho trovato un’atmosfera incredibile”",
-      "excerpt": "Fonte: volleynews.it",
-      "createdTime": "Wed, 26 Aug 2026 00:56:00 GMT",
-      "image": "https://www.volleynews.it/wp-content/uploads/2026/08/Immagini-Volley-NEWS-1260x800-2026-08-26T093831.125.jpg",
-      "permalink": "https://www.volleynews.it/perugia-kollator-e-le-prime-settimane-da-block-devils-ho-trovato-unatmosfera-incredibile/"
     },
     {
       "id": "news-0",
@@ -42,6 +34,14 @@
       "permalink": "https://www.ilpost.it/2026/05/06/perugia-vinto-scudetto-pallavolo-maschile/"
     },
     {
+      "id": "lasirioperugiatornatainpista",
+      "title": "La Sirio Perugia è tornata in pista",
+      "excerpt": "Le ferie sono terminate per la Sirio Perugia Volley. Nel pomeriggio di lunedì 31 agosto, il club umbro ha dato ufficialmente il via alla nuova stagione sportiva. Il ritorno in palestra della società p",
+      "createdTime": "Wed, 02 Sep 2026 05:00:33 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Sirio-Perugia-team.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/la-sirio-perugia-e-tornata-in-pista/"
+    },
+    {
       "id": "news-3",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
@@ -50,15 +50,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-7",
-      "title": "Terni Volley sfida i campioni del mondo: al PalaTerni arriva la Sir Susa Scai Perugia",
-      "excerpt": "Fonte: sporterni.it",
-      "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
-      "image": "https://www.sporterni.it/immagini/articoli/27809.jpg",
-      "permalink": "https://www.sporterni.it/articolo.php?id=27809"
-    },
-    {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -74,20 +66,12 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Pallavolo A2F – Black Angels: buone sensazioni dall’allenamento congiunto contro le francesi del Tremblay",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 25 Aug 2026 16:59:00 GMT",
       "image": null,
       "permalink": "https://www.ivolleymagazine.it/2026/08/26/pallavolo-a2f-black-angels-buone-sensazioni-dallallenamento-congiunto-contro-le-francesi-del-tremblay/"
-    },
-    {
-      "id": "news-7",
-      "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/13/9125028_13213449_foto_3_2_.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/perugia_mani_fuori_belle_dentro_pallavolo_vincere_detenute_capanne-9125028.html"
     },
     {
       "id": "news-7",
@@ -128,6 +112,14 @@
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/05/28/9559552_pckg_20260528_23931417.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
+    },
+    {
+      "id": "news-2",
+      "title": "Perugia, le date del precampionato: cinque allenamenti congiunti prima dell’esordio",
+      "excerpt": "Fonte: volleynews.it",
+      "createdTime": "Thu, 27 Aug 2026 06:54:00 GMT",
+      "image": "https://www.volleynews.it/wp-content/uploads/2026/08/Immagini-Volley-NEWS-1260x800-2026-08-27T153922.265.jpg",
+      "permalink": "https://www.volleynews.it/perugia-le-date-del-precampionato-cinque-allenamenti-congiunti-prima-dellesordio/"
     },
     {
       "id": "news-6",
@@ -178,7 +170,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/maurizio-sargenti-a-san-sisto-priorita-divertimento/"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
@@ -186,7 +178,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -258,7 +250,7 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2019/03/03/pallavolo-i-risultati-della-superlega_d63f295c-c380-4844-ab1f-fdbce8e2e86d.html"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
@@ -266,7 +258,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -282,7 +274,7 @@
       "permalink": "https://www2.saturnonotizie.it/news/read/205680/pallavolo-citta-di-castello.html"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Volley, la Sirio Perugia guarda al futuro: in banda arriva Anita Prece",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sat, 29 Aug 2026 17:00:00 GMT",
@@ -298,12 +290,12 @@
       "permalink": "https://www.pianetavolley.net/2026/08/alessandro-bellucci-a-san-giustino-lambiente-e-ideale/"
     },
     {
-      "id": "valentinacolombolaffiatamentos",
-      "title": "Valentina Colombo: «L’affiatamento sarà decisivo a Perugia»",
-      "excerpt": "La preparazione atletica è un periodo particolare per le squadre di pallavolo, dove si scoprono gradualmente le qualità delle singole giocatrici. La Bartoccini +energia Perugia nella prima uscita cont",
-      "createdTime": "Sat, 29 Aug 2026 05:00:27 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/08/Colombo-Valentina-testina.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/08/valentina-colombo-laffiatamento-sara-decisivo-a-perugia/"
+      "id": "news-5",
+      "title": "Black Angels, i primi feedback di Fratangelo: “Perugia sei al top”",
+      "excerpt": "Fonte: legavolleyfemminile.it",
+      "createdTime": "Mon, 31 Aug 2026 17:00:00 GMT",
+      "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/09/fratangelo-1-1536x1024.jpg",
+      "permalink": "https://www.legavolleyfemminile.it/black-angels-i-primi-feedback-di-fratangelo-perugia-sei-al-top/"
     },
     {
       "id": "emmagiannetticonperugiaperimpa",
@@ -322,7 +314,7 @@
       "permalink": "https://www.pianetavolley.net/2026/08/matteo-maiocchi-san-giustino-vuole-un-anno-da-ricordare/"
     },
     {
-      "id": "news-3",
+      "id": "news-7",
       "title": "Pallavolo San Sisto: è pronta la carica delle 200",
       "excerpt": "Fonte: umbriadomani.it",
       "createdTime": "Mon, 31 Aug 2026 03:12:00 GMT",
@@ -378,7 +370,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/08/29/pallavolo-mercato-il-nuovo-ingaggio-della-sirio-alessandra-cucina-viene-dalle-categorie-regionali/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "La Terni Volley Academy riceve la Sir per un evento speciale: in campo anche la solidarietà",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Fri, 28 Aug 2026 00:48:00 GMT",
@@ -392,6 +384,14 @@
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
       "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
+    },
+    {
+      "id": "news-7",
+      "title": "Volley. Upc Camaiore in Umbria coi favori del pronostico. Versilia-Pietrasanta e Oasi cercano il riscatto",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Fri, 16 Jan 2026 23:59:00 GMT",
+      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZTQzZTRiN2QtNjI1MS00/0/pallavolo-velocita-tecnica-e-passione-in-ogni-scambio.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://sport.quotidiano.net/locale/volley/volley-upc-camaiore-in-umbria-d4b8b78f"
     },
     {
       "id": "news-1",
