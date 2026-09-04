@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:26:43.365865+00:00",
+  "generatedAt": "2026-09-04T05:05:27.154036+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -140,8 +140,8 @@
       "id": "131626805",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 3",
-      "home": "ITALCHIMICI",
-      "away": "UNIKO VOLLEY ORTE",
+      "home": "UNIKO VOLLEY ORTE",
+      "away": "ITALCHIMICI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -839,6 +839,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626883",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "ITALCHIMICI",
+      "away": "UNIKO VOLLEY ORTE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626882",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 16",
@@ -853,15 +862,6 @@
       "giornata": "Giornata 16",
       "home": "CITTA' DI CASTELLO PALLAVOLO",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626883",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 16",
-      "home": "UNIKO VOLLEY ORTE",
-      "away": "ITALCHIMICI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1478,20 +1478,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626952",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 2",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626950",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 2",
       "home": "UMBRA SERVIZI-U.V.A. DERUTA",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626952",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "FOSSATO VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2180,6 +2180,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627030",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627032",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 15",
@@ -2194,15 +2203,6 @@
       "giornata": "Giornata 15",
       "home": "SAN MARIANO VOLLEY",
       "away": "UMBRA SERVIZI-U.V.A. DERUTA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627030",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 15",
-      "home": "FOSSATO VOLLEY",
-      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2756,6 +2756,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627095",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "FOSSATO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627094",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 26",
@@ -2792,20 +2801,1415 @@
       "status": "in programma"
     },
     {
-      "id": "131627095",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 26",
-      "home": "FOSSATO VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627098",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 26",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627451",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627447",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627448",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627452",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627449",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627450",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627455",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "CLT TERNI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627458",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627456",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627454",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627457",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627453",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627461",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627463",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627464",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627462",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627460",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627459",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627467",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "CLT TERNI",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627470",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627469",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627465",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627468",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627466",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627472",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627473",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627474",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627476",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627475",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627471",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627479",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "CLT TERNI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627480",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627478",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627482",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627477",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627481",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627484",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627485",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627486",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627488",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627483",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627487",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627489",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627493",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "CLT TERNI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627491",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627494",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627490",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627492",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627496",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627497",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627499",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627500",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627495",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627498",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627502",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627505",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "CLT TERNI",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627506",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627501",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627503",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627504",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627507",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627510",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627512",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627511",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627508",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627509",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627516",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627513",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627518",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627517",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627514",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627515",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627519",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627524",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627522",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627520",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627523",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627521",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627527",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "CLT TERNI",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627529",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627530",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627525",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627528",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627526",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627535",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627531",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627536",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627533",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627532",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627534",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627539",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "CLT TERNI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627541",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627542",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627537",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627538",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627540",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627544",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627546",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627547",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627545",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627548",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627543",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627551",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "CLT TERNI",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627554",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627553",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627550",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627552",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627549",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627555",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627557",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627558",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627559",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627556",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627560",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627565",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "CLT TERNI",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627564",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627562",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627566",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627561",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627563",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627568",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627569",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627572",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627571",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627570",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627567",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627574",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627578",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "CLT TERNI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627576",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627577",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627573",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627575",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627579",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627584",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627580",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627581",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627583",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627582",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627586",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627590",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "CLT TERNI",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627589",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627585",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627587",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627588",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627592",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627593",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "CLT TERNI",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627594",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627591",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627596",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627595",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627599",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627597",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627598",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627602",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627600",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627601",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
       "score": "da disputare",
       "status": "in programma"
     },
