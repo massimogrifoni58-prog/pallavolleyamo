@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T09:19:11.224151+00:00",
+  "generatedAt": "2026-09-05T05:03:35.121472+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2864,6 +2864,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628261",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627455",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 2",
@@ -2914,6 +2923,15 @@
       "giornata": "Giornata 2",
       "home": "MARCHETTI PRO VITT CHIUSI",
       "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628262",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2972,6 +2990,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628263",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627467",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 4",
@@ -3026,6 +3053,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628288",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627472",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 5",
@@ -3058,6 +3094,15 @@
       "giornata": "Giornata 5",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628289",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3130,6 +3175,24 @@
       "giornata": "Giornata 6",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628290",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 6",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628293",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3242,6 +3305,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628295",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627496",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 9",
@@ -3256,6 +3328,15 @@
       "giornata": "Giornata 9",
       "home": "UNILAB  PONTE FELCINO",
       "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628297",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3350,6 +3431,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628298",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627507",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 11",
@@ -3391,6 +3481,15 @@
       "giornata": "Giornata 11",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628300",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3454,6 +3553,24 @@
       "giornata": "Giornata 12",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "CLT TERNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628301",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628302",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "CLT TERNI",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3566,6 +3683,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628303",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 14",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627535",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 15",
@@ -3616,6 +3742,15 @@
       "giornata": "Giornata 15",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628304",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3674,6 +3809,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628305",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 16",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627544",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 17",
@@ -3688,6 +3832,15 @@
       "giornata": "Giornata 17",
       "home": "UNILAB  PONTE FELCINO",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628306",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3782,6 +3935,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628307",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 18",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627555",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 19",
@@ -3814,6 +3976,15 @@
       "giornata": "Giornata 19",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628308",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3890,6 +4061,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628309",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627568",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 21",
@@ -3944,6 +4124,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628310",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627574",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 22",
@@ -3994,6 +4183,24 @@
       "giornata": "Giornata 22",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628311",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628312",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4106,6 +4313,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628313",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627592",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 25",
@@ -4129,6 +4345,15 @@
       "giornata": "Giornata 25",
       "home": "UNILAB  PONTE FELCINO",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628314",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4210,6 +4435,15 @@
       "giornata": "Giornata 26",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628315",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "CLT TERNI",
       "score": "da disputare",
       "status": "in programma"
     },
