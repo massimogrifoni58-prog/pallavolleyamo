@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T09:55:45.410539+00:00",
+  "generatedAt": "2026-09-08T05:03:22.230910+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -5738,8 +5738,8 @@
       "id": "131627242",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 2",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6293,15 +6293,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627308",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 13",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627305",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 13",
@@ -6316,6 +6307,15 @@
       "giornata": "Giornata 13",
       "home": "ASD PGS DON BOSCO CANNARA",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627308",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
       "score": "da disputare",
       "status": "in programma"
     },
