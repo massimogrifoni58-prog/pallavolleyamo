@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:21:11.239075+00:00",
+  "generatedAt": "2026-09-09T05:03:12.211265+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -344,15 +344,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626825",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 7",
-      "home": "ITALCHIMICI",
-      "away": "CITTA' DI CASTELLO PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626826",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 7",
@@ -376,6 +367,15 @@
       "giornata": "Giornata 7",
       "home": "POLISPORTIVA DELFINO",
       "away": "ENERGY PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626825",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "ITALCHIMICI",
+      "away": "CITTA' DI CASTELLO PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1433,15 +1433,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626944",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626946",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 1",
@@ -1456,6 +1447,15 @@
       "giornata": "Giornata 1",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626944",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1550,20 +1550,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626960",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 3",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "AMERINA PALLAVOLO A S D",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626957",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 3",
       "home": "UMBRA SERVIZI-U.V.A. DERUTA",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626960",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "AMERINA PALLAVOLO A S D",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1649,15 +1649,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626970",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 5",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626972",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 5",
@@ -1672,6 +1663,15 @@
       "giornata": "Giornata 5",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626970",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1757,15 +1757,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626982",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 7",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626984",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 7",
@@ -1780,6 +1771,15 @@
       "giornata": "Giornata 7",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626982",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1874,20 +1874,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626994",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 9",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626995",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 9",
       "home": "UMBRA SERVIZI-U.V.A. DERUTA",
       "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626994",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -1973,15 +1973,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627004",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 11",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627006",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 11",
@@ -1996,6 +1987,15 @@
       "giornata": "Giornata 11",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627004",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2072,15 +2072,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627016",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 13",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "THE GALLEON PUB MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627018",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 13",
@@ -2104,6 +2095,15 @@
       "giornata": "Giornata 13",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627016",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "THE GALLEON PUB MARSCIANO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2198,20 +2198,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627028",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 15",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "UMBRA SERVIZI-U.V.A. DERUTA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627031",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 15",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627028",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "UMBRA SERVIZI-U.V.A. DERUTA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2297,15 +2297,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627043",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 17",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627045",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 17",
@@ -2320,6 +2311,15 @@
       "giornata": "Giornata 17",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627043",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ELLERA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2405,15 +2405,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627055",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 19",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627057",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 19",
@@ -2428,6 +2419,15 @@
       "giornata": "Giornata 19",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627055",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2522,20 +2522,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627066",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 21",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627069",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 21",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627066",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 21",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2720,15 +2720,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627091",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "A.S.D. TREVI VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627092",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 25",
@@ -2752,6 +2743,15 @@
       "giornata": "Giornata 25",
       "home": "ELLERA VOLLEY",
       "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627091",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "A.S.D. TREVI VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4268,20 +4268,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627590",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 24",
-      "home": "CLT TERNI",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627589",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 24",
       "home": "PALLAVOLO GUBBIO",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627590",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 24",
+      "home": "CLT TERNI",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },

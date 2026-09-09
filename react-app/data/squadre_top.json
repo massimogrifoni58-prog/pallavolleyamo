@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:23:02.369029+00:00",
+  "generatedAt": "2026-09-09T05:04:41.079405+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,17 +35,24 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Superlega, la Sir ritrova Crosato: \"Sarà un'altra stagione scoppiettante\" - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT2RJZWZHOHJqdWF3TUcybXpCLWVHaWxqM2wxYnB4cDFsQjhyUlc4blNQZWFlRnJXOW02NUFfUXV4RDJYd1lQSHJybHlVcGtUdVZRZUkxQjY3VWo2WGo0UURqZS0xTGtfYzFfQWdWd1lHN1hXNk5OWXd5Q0g4QzZ5Tmp0X2w2cFNYZThTSVUwcDZJeVBsbkJDU1F6SG1UT1B2WmhlQ3BkOWxVX1JxMlE?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 18:36:57 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "Volley, l'Italia all'assalto del trono europeo: ci sono Giannelli e Sanguinetti - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSlUzNGZ6T1d4SVczeElLamJqMFJBbjFfV09MQUVxendhdmR0b21JdnJYaTR2Z1J6dlFmdm9aYllQaHBpYkFOZ2dHRWhGcFNIZFc5RWhYZnZxUEc0VE1NckZvUXZXbXhIWVRQcTZNaGQzMmdsdkhGekJDNlZMOWdRamtUQVYwT182d0M0T2t6d0M2Zk0yQXg0dldaZ18?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 09:25:47 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
         "title": "Sir Safety Perugia and Fenice Volley Roma together - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0lPUzFOTmFNQTUyOERjdTlnNldaeGFWbW9nNktqRDRRdk81RmZiSHJTWnpCSG1ZSVBKWkxIUUhuYmtVNm51eTNGcFRHTl9XNUZWU0FtcHZVU1lZbkpqV2I5R1lFcnZieEF0ay1tdzdmZmdkN3RnWXBYenp6X0kzbjJiY1I1d2NaVHFzOFdHU09KMW1o?oc=5",
         "pubDate": "Sun, 06 Sep 2026 21:30:37 GMT",
         "source": "Lega Pallavolo Serie A",
-        "image": null
-      },
-      {
-        "title": "Crosato torna alla Sir Susa Scai con il bronzo sul collo: un’arma in più per Lorenzetti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f38707472b8350e2dc43d42c5c&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fcrosato-torna-alla-sir-susa-scai-con-il-bronzo-sul-collo-unarma-in-piu-per-lorenzetti%2f&c=454583118762329640&mkt=it-it",
-        "pubDate": "Sat, 05 Sep 2026 05:12:00 GMT",
-        "source": "",
         "image": null
       },
       {
@@ -61,48 +68,41 @@
         "pubDate": "Fri, 04 Sep 2026 11:38:06 GMT",
         "source": "- Umbria 24",
         "image": null
-      },
-      {
-        "title": "La Terni Volley in allenamento congiunto con la Sir Susa Scai Perugia - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53S3JXRm4zM25sbTBwb0dBaDBqTHNNQjZkY01EcEp2V0k3eWp3WlQyRFF0S1EyejBEZnhDQ2NHUXB3R1UxVmZMMUs3X3lxS2s?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 10:06:26 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null
       }
     ],
     "bartoccini": [
       {
-        "title": "Black Angels: buone notizie anche da San Giovanni in Marignano",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f43c084cb48e59bda53c9f4c9b&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fblack-angels-buone-notizie-anche-da-san-giovanni-in-marignano%2f&c=9843677544814697612&mkt=it-it",
-        "pubDate": "Fri, 04 Sep 2026 17:00:00 GMT",
+        "title": "Volley A2 femminile, la Bartoccini + energia Perugia sceglie Alessia Fiesoli come nuovo capitano - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXljYWNrM1NKbld4eEJyN2FKemtFQ3NMVjJWMG1wbmRHUWd5VVJYY1k0WVMya3Mtcjc3aENTeDBLUlZLWUx4d2R0QkF5aVV6Z212RkFpeUk1UU1oVTh3YzN3US1LRmt3TW5Dak9Pc2k0ZldPQlRfMkFNSTl0LVE2X3A5RFJ6bEdDUXVjeWFUWTNyM0FwaXFBMHhxN091R09lTFVNNWMxOA?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 13:17:43 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "Perugia, Fiesoli nuovo capitano delle Black Angels: “Sono onorata del ruolo assegnatomi”",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e65cbb45d18b96ee702ecc28dc&url=https%3a%2f%2fwww.volleynews.it%2fperugia-fiesoli-nuovo-capitano-delle-black-angels-sono-onorata-del-ruolo-assegnatomi%2f&c=14140939318596575927&mkt=it-it",
+        "pubDate": "Tue, 08 Sep 2026 06:29:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Black Angels, senti Micoli: “Dobbiamo migliorare ancora”",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e65cbb45d18b96ee702ecc28dc&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fblack-angels-senti-micoli-dobbiamo-migliorare-ancora%2f&c=11528914643543733186&mkt=it-it",
+        "pubDate": "Sat, 05 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Pallavolo Precampionato – La Bartoccini +energia continua ad inviare segnali positivi superata l’Omag 3-1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f43c084cb48e59bda53c9f4c9b&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f05%2fpallavolo-precampionato-la-bartoccini-energia-continua-ad-inviare-segnali-positivi-superata-lomag-3-1%2f&c=5887949514988473135&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e65cbb45d18b96ee702ecc28dc&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f05%2fpallavolo-precampionato-la-bartoccini-energia-continua-ad-inviare-segnali-positivi-superata-lomag-3-1%2f&c=5887949514988473135&mkt=it-it",
         "pubDate": "Fri, 04 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Volley serie A2 femminile. Black Angels, l’analisi del prof. Patoia: \"Stiamo lavorando duro, ma ci ripagherà»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f43c084cb48e59bda53c9f4c9b&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnews%2fother%2fvolley-serie-a2-femminile-black-angels-l-analisi-del-prof-patoia-stiamo-lavorando-duro-ma-ci-ripagher%c3%a0%2far-AA2bxT8L&c=15601206561668236727&mkt=it-it",
-        "pubDate": "Thu, 03 Sep 2026 23:12:14 GMT",
-        "source": "",
-        "image": null
-      },
-      {
         "title": "“LEALI. A PERUGIA.”: al via la campagna abbonamenti delle Black Angels",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f43c084cb48e59bda53c9f4c9b&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fleali-a-perugia-al-via-la-campagna-abbonamenti-delle-black-angels%2f&c=13114382736899896369&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e65cbb45d18b96ee702ecc28dc&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fleali-a-perugia-al-via-la-campagna-abbonamenti-delle-black-angels%2f&c=13114382736899896369&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 17:00:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
-        "title": "Pallavolo A2F – Black Angels: buone sensazioni dall’allenamento congiunto contro le francesi del Tremblay",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f43c084cb48e59bda53c9f4c9b&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f08%2f26%2fpallavolo-a2f-black-angels-buone-sensazioni-dallallenamento-congiunto-contro-le-francesi-del-tremblay%2f&c=10421819660729607297&mkt=it-it",
-        "pubDate": "Tue, 25 Aug 2026 16:59:00 GMT",
         "source": "",
         "image": null
       }
@@ -110,16 +110,16 @@
     "tva": [
       {
         "title": "Terni Volley Academy: si parte. Raduno e prima ‘sudata’. Le interviste",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f4138c408faf6bf7db98c0d4c8&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e6da99435fba7490257d65e386&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 09:40:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
+        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - ternitoday.it",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
         "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "source": "TerniToday",
+        "source": "ternitoday.it",
         "image": null
       },
       {
@@ -130,26 +130,26 @@
         "image": null
       },
       {
-        "title": "Terni Volley Academy verso la seconda stagione in serie A3. Con più certezze e un nuovo coach - umbriaon.it",
+        "title": "Terni Volley Academy verso la seconda stagione in serie A3. Con più certezze e un nuovo coach - UmbriaON",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON1RYQ1F5T1hueENnUURlVWV2ZDRnMElqOVFYbFExVms4RmxhdE0zc1Y1WFZ6T0hBeWZ6TzdZMXJ2MTBIN1pGSE95dmtXTlIxTy1ZRXdZckZ1VGV3OGc0czYxdWpjRFRac2FuS3ZTMXExcVplaDFOWTU2dnc5Q2lsMk9ycWF6VG9uSDFlYVcxNTdqQlpaTzFxemNQLUdfRXFDU3I0Z014VGJ4emFRWWhfYUF3UWVVY2Iz?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "umbriaon.it",
+        "source": "UmbriaON",
         "image": null
       },
       {
-        "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - TerniToday",
+        "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - ternitoday.it",
         "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZWNPeFJ6c2FMNlFPN1RGZngyOGVJZUFiTHlRM3IzQ1NBTFgyWHZ6VXVNaFQ5LXpEaFU4YWpRamVGenliLXZIbFRkVGFJM09fU0hKNjR2S0UxdmtrTXFneHlnblN4c3g0N3pzNWY5NEs2RDRuWmwzcHhtenl6dk9IZkFVY1h2RzRScDZRTjIwdm1DbkJTdGh6aWpjemw2bkJIQ2R3SmNtX1dGMTNPX0Y3cWpYbXlkb1owdlJlNmRrUG9Zc1hJSkRlNTQ0T0hfQXozNmpiS2J2dXhjNDRxajhRaGFTalVoZEp1ZlV0RGNVRQ?oc=5",
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "TerniToday",
+        "source": "ternitoday.it",
         "image": null
       }
     ],
     "altotevere": [
       {
-        "title": "ErmGroup Volley Altotevere, si alza il sipario - Teletruria",
+        "title": "ErmGroup Volley Altotevere, si alza il sipario - teletruria.it",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGZ4dFUteGt5SGlzbTdsWkRuLXFjRXRrd3NWNjhRWF9VeTRES05GcDJtWEwxa1FEdGNvdWJsdGNSV3VYV29MOFNFa0o2V3c5M3M0eHlOUkc3ZDFMRzlMaVJTZzVRZTd1NXJ2MTM0ZUtMWnNFSHNnWVN0aWpHLVlObDJMVVg2NEZGZHA0TVgzdVpteE1mRnZVdg?oc=5",
         "pubDate": "Mon, 07 Sep 2026 10:28:40 GMT",
-        "source": "Teletruria",
+        "source": "teletruria.it",
         "image": null
       },
       {
@@ -183,17 +183,24 @@
     ],
     "citta-castello": [
       {
-        "title": "Città di Castello, il capitano David Lensi: \"Orgoglioso di questi colori\" - Tuttoggi.info",
+        "title": "Città di Castello, il capitano David Lensi: \"Orgoglioso di questi colori\" - TuttOggi",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQakoyQjhXMGRhT0xZaldTVWpFZGh2SVhtanpMXzAxMXBmaU05SXdSeTdPaGpnalNJMEk2NjVaY2VIU092NE1fcmx3NncybHh3TGRLVi1nbHViam9TTFdYM2hIOFBxZ3V5a0N5dFJ3eGZudl80Qml4UFJERGMzZHBjdDZEa2pnWWNiSmhPd1UweU9XeUVxczdfLWstYlBBQ2FmRmc?oc=5",
         "pubDate": "Tue, 08 Sep 2026 06:25:00 GMT",
-        "source": "Tuttoggi.info",
+        "source": "TuttOggi",
         "image": null
       },
       {
-        "title": "Inizio preparazione serie B maschile Città di Castello pallavolo - Tuttoggi.info",
+        "title": "Pallavolo A2M – Palmi alza l’asticella: una Luck Volley costruita per sognare",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e7e7744f5db5da64503e3ad0d9&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f08%2fpallavolo-a2m-palmi-alza-lasticella-una-luck-volley-costruita-per-sognare%2f&c=5509938178621754163&mkt=it-it",
+        "pubDate": "Mon, 07 Sep 2026 17:00:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Inizio preparazione serie B maschile Città di Castello pallavolo - TuttOggi",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUGlTM2gyRW01TDFqQzgyRGgxUEsxUmk2M0JVTmlVN0tsRGpoTWswTE92N2M0ekJwRXVDZ2twbGtyN0hGZEs0SWp0QjdIRkJWY2dPSV9ON1IwWkZlSURnZXpab1V2cEdXYjBoTWFzYTduci13NHFnMjA5Q0FnblpqTlFoall2SmdOWDBrUGYxYzBXTmdJbmN0YkRsWQ?oc=5",
         "pubDate": "Sun, 06 Sep 2026 06:11:00 GMT",
-        "source": "Tuttoggi.info",
+        "source": "TuttOggi",
         "image": null
       },
       {
@@ -204,31 +211,24 @@
         "image": null
       },
       {
-        "title": "Tre giorni di grande volley a Trasacco: otto squadre in campo per il Memorial Elia Bianchi",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f52ff443ad92db23922ae89cbf&url=https%3a%2f%2fwww.terremarsicane.it%2ftre-giorni-di-grande-volley-a-trasacco-otto-squadre-in-campo-per-il-memorial-elia-bianchi%2f&c=8713516794639544908&mkt=it-it",
-        "pubDate": "Fri, 04 Sep 2026 07:09:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
-        "title": "Trasacco si prepara al 4° Trofeo di Pallavolo “Città di Trasacco – Memorial Elia Bianchi”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f52ff443ad92db23922ae89cbf&url=https%3a%2f%2fmarsicalive.it%2ftrasacco-si-prepara-al-4-trofeo-di-pallavolo-citta-di-trasacco-memorial-elia-bianchi%2f&c=3055227923998799796&mkt=it-it",
-        "pubDate": "Fri, 04 Sep 2026 06:42:00 GMT",
-        "source": "",
+        "title": "Città di Castello Pallavolo: si chiude la seconda settimana di preparazione - saturnonotizie.it",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMVNBMmhZVWtXUHdwRW8tcE1TSGZ0WTUtTEJURmxJSV9SbUEyRWhMR3hIZmk3SXEweVd5RVZ6Njh2R2VYYXVsdUxUam5zNFdiQmhPT2pyWDlsbXE5RlRSOG9rQm56WnBiM1NFbFUxM2NxMkhLakdYSGMxaXNQRGJoTmZJbEdXSUE?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 04:59:02 GMT",
+        "source": "saturnonotizie.it",
         "image": null
       }
     ],
     "marsciano": [
       {
         "title": "Beach Volley, Trofeo delle Regioni 2026: Umbria protagonista con Cianella, Mele, Bertola e Covarelli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f57633472cac86e948e73be17c&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e86496412fb6818de3ca2c4e90&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Continua il progetto giovanile di Perugia: rinnovata la collaborazione con la Volley Academy Rieti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a9fd3f57633472cac86e948e73be17c&url=https%3a%2f%2fwww.volleynews.it%2fcontinua-il-progetto-giovanile-di-perugia-rinnovata-la-collaborazione-con-la-volley-academy-rieti%2f&c=18081653956752693921&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa0e8e86496412fb6818de3ca2c4e90&url=https%3a%2f%2fwww.volleynews.it%2fcontinua-il-progetto-giovanile-di-perugia-rinnovata-la-collaborazione-con-la-volley-academy-rieti%2f&c=18081653956752693921&mkt=it-it",
         "pubDate": "Wed, 26 Aug 2026 05:59:00 GMT",
         "source": "",
         "image": null
