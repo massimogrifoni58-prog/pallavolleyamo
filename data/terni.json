@@ -1,14 +1,6 @@
 {
-  "generatedAt": "2026-09-09T09:23:48.985554+00:00",
+  "generatedAt": "2026-09-10T05:03:08.498574+00:00",
   "posts": [
-    {
-      "title": "Terni Volley, Giancarlo D’Amico è il nuovo allenatore",
-      "excerpt": "Fonte: ivl24.it",
-      "createdTime": "Wed, 17 Jun 2026 02:58:00 GMT",
-      "image": null,
-      "permalink": "https://ivl24.it/terni-volley-giancarlo-damico-e-il-nuovo-allenatore/",
-      "id": "5"
-    },
     {
       "id": "seriecvolleyilcltvinceilderbya",
       "title": "Serie C Volley, il CLT vince il derby a Perugia 2-3",
@@ -26,12 +18,20 @@
       "permalink": "https://terninrete.it/notizie-di-terni-volley-femminile-perugia-terni-e-gubbio-insieme-alla-moma-winter-cup-a-un-soffio-dalla-finale/"
     },
     {
+      "title": "Pallavolo Clt Terni, tre atleti convocati al Trofeo delle Regioni 2026",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 23 Jun 2026 01:56:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-23-at-10.54.10.jpeg",
+      "permalink": "https://www.umbria24.it/sport24/pallavolo-clt-terni-tre-atleti-convocati-al-trofeo-delle-regioni-2026/",
+      "id": "4"
+    },
+    {
       "title": "La Terni Volley risorge sotto l'albero di Natale: battuta la Green Volley Galatone per 3-2",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 23 Dec 2025 03:14:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/12/23/9262291_23201902_unnamed_2_.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/terni_volley_vittoria_green_volley_galatone_cosa_e_successo-9262291.html",
-      "id": "9"
+      "id": "8"
     },
     {
       "title": "L'Amerina Pallavolo in Serie C dopo una stagione condotta sempre in testa",
@@ -39,7 +39,7 @@
       "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=27304",
-      "id": "6"
+      "id": "5"
     },
     {
       "id": "superenalottocentratoarivadelg",
@@ -55,7 +55,7 @@
       "createdTime": "Tue, 11 Nov 2025 02:28:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/10/9180399_10153740_tva_napoli_2_47_scaled.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_spazza_via_le_sue_paure_ed_acciuffa_la_prima_vittoria_3_0_napoli-9180399.html",
-      "id": "11"
+      "id": "10"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -71,7 +71,7 @@
       "createdTime": "Thu, 03 Sep 2026 09:40:00 GMT",
       "image": null,
       "permalink": "https://www.umbriaon.it/terni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste/",
-      "id": "2"
+      "id": "1"
     },
     {
       "id": "volleyeseriebperilclt",
@@ -87,7 +87,7 @@
       "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/08/9177140_08210447_.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
-      "id": "12"
+      "id": "11"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -119,7 +119,7 @@
       "createdTime": "Mon, 29 Jun 2026 08:28:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/pallavolo-az-zambelli/",
-      "id": "4"
+      "id": "3"
     },
     {
       "title": "Terni Volley: i Dragons cedono al tie break a Sabaudia, primo punto in A3",
@@ -127,7 +127,7 @@
       "createdTime": "Mon, 27 Oct 2025 04:23:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/26530.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=26530",
-      "id": "13"
+      "id": "12"
     },
     {
       "title": "Orvieto Volley Academy, sconfitta a domicilio aspettando la Pallavolo Arrone",
@@ -135,7 +135,7 @@
       "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
       "image": "/upload/immagini/2026/01/orvietovolleyacademy27-.jpg",
       "permalink": "https://www.orvietonews.it/sport/2026/02/17/orvieto-volley-academy-sconfitta-a-domicilio-aspettando-la-pallavolo-arrone-120248.html",
-      "id": "7"
+      "id": "6"
     },
     {
       "id": "bosicovolleyunder13altorneonaz",
@@ -154,20 +154,12 @@
       "permalink": "https://terninrete.it/notizie-di-terni-volley-la-bosico-under-14-vince-il-4176-torneo-nazionale-summer-volley-cup-475244/"
     },
     {
-      "title": "Volley, altro titolo per il folignate Santarelli: è campione d’Europa con la Turchia",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Mon, 07 Sep 2026 00:22:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/09/013531_cev01_2.jpeg",
-      "permalink": "https://www.umbria24.it/foligno/volley-altro-titolo-per-il-folignate-santarelli-e-campione-deuropa-con-la-turchia/",
-      "id": "1"
-    },
-    {
       "title": "Pallavolo Narni",
       "excerpt": "Fonte: orvietosport.it",
       "createdTime": "Fri, 28 Nov 2025 16:01:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/pallavolo-narni/",
-      "id": "10"
+      "id": "9"
     },
     {
       "title": "La Terni Volley Academy riceve la Sir per un evento speciale: in campo anche la solidarietà",
@@ -175,7 +167,7 @@
       "createdTime": "Fri, 28 Aug 2026 01:04:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/08/505120934_4103919666518434_5204898827848320480_n.jpg",
       "permalink": "https://www.umbria24.it/sport24/la-terni-volley-academy-riceve-la-sir-per-un-evento-speciale-in-campo-anche-la-solidarieta/",
-      "id": "3"
+      "id": "2"
     },
     {
       "title": "Volley Team U18",
@@ -183,7 +175,7 @@
       "createdTime": "Fri, 23 Jan 2026 08:47:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/volley-team-orvieto/volley-team-u18/",
-      "id": "8"
+      "id": "7"
     },
     {
       "title": "Narni: \"Adrenalina Pura\", gli studenti del liceo Gandhi al Festival dello Sport di Trento",
@@ -191,7 +183,7 @@
       "createdTime": "Fri, 17 Oct 2025 08:21:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/17/9133109_17145115_whatsapp_image_2025_10_16_at_10.00.25.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/narni_adrenalina_pura_studenti_liceo_gandhi_al_festival_dello_sport_di_trento-9133109.html",
-      "id": "14"
+      "id": "13"
     }
   ]
 }
