@@ -1,13 +1,37 @@
 {
-  "generatedAt": "2026-09-10T05:02:49.892013+00:00",
+  "generatedAt": "2026-09-10T09:22:13.217380+00:00",
   "posts": [
+    {
+      "title": "Black Angels: anche Cecilia Nicolini conquista i gradi",
+      "excerpt": "L’esperta palleggiatrice sarà il vice capitano della Bartoccini +energia Perugia: “Onorata di questa responsabilità, felice di condividere il ruolo con Alessia Fiesoli. Tifosi, sabato tutti al PalaBar",
+      "createdTime": "Thu, 10 Sep 2026 08:12:34 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/nicolini-6.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35239",
+      "id": "1"
+    },
+    {
+      "title": "Dal minivolley alla B1: per la Sirio Perugia un progetto senza confini",
+      "excerpt": "La Sirio Perugia Volley punta in alto. In B1 ma non solo. Coinvolgendo diversi territori della regione. Il cuore pulsante dell&#8217;attività giovanile e delle categorie maggiori batterà a Perugia.&#1",
+      "createdTime": "Thu, 10 Sep 2026 07:42:32 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/09/Sirio-Perugia-staff-allenatori.jpeg?fit=1024%2C603&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/dal-minivolley-alla-b1-per-la-sirio-perugia-un-progetto-senza-confini/",
+      "id": "2"
+    },
+    {
+      "title": "La Sirio Perugia riparte con un network territoriale",
+      "excerpt": "Forza, passione e capillarità territoriale: sono questi i tre pilastri su cui la Sirio Perugia Volley edifica la propria ripartenza per la nuova stagione agonistica. Lo storico club biancorosso si pre",
+      "createdTime": "Thu, 10 Sep 2026 05:00:53 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Sirio-Perugia-staff-allenatori.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/la-sirio-perugia-riparte-con-un-network-territoriale/",
+      "id": "3"
+    },
     {
       "title": "Beach Volley: l’Umbria conquista il settimo posto al trofeo delle Regioni",
       "excerpt": "Settimo posto per l’Umbria che chiude con un giorno di anticipo la 19ᵃ edizione dell’AeQuilibrium Cup – Trofeo delle Regioni Beach Volley, in programma dal 6 al 9 settembre 2026 al Lido Albatros di Ma",
       "createdTime": "Wed, 09 Sep 2026 17:01:53 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/TDR-26-rapp-femminile-settimo-posto.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35234",
-      "id": "1"
+      "id": "4"
     },
     {
       "title": "San Giustino modifica l’assetto dirigenziale",
@@ -15,7 +39,7 @@
       "createdTime": "Wed, 09 Sep 2026 11:00:55 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Cardellini-Antonello-giacca.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/san-giustino-modifica-lassetto-dirigenziale/",
-      "id": "2"
+      "id": "5"
     },
     {
       "title": "TdR beach volley, Bertoia-Covarelli al settimo posto",
@@ -23,7 +47,7 @@
       "createdTime": "Wed, 09 Sep 2026 07:00:07 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Umbria-Trofeo-delle-Regioni-maschile.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/tdr-beach-volley-bertoia-covarelli-al-settimo-posto/",
-      "id": "3"
+      "id": "6"
     },
     {
       "title": "Campionati europei: scendono in campo Simone Giannelli e Giovanni Sanguinetti",
@@ -31,7 +55,7 @@
       "createdTime": "Wed, 09 Sep 2026 06:12:34 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/Azzurri_foto-Legavolley.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35232",
-      "id": "4"
+      "id": "7"
     },
     {
       "title": "Dopo i Giochi del Mediterraneo per Federico Crosato c’è il rientro a Perugia",
@@ -39,7 +63,7 @@
       "createdTime": "Wed, 09 Sep 2026 05:52:22 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/MB6_7751_wqxga.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35230",
-      "id": "5"
+      "id": "8"
     },
     {
       "title": "TdR beach volley, Cianella-Mele sono settime",
@@ -47,7 +71,7 @@
       "createdTime": "Wed, 09 Sep 2026 05:00:47 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Umbria-Trofeo-delle-Regioni-femminile.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/tdr-beach-volley-cianella-mele-sono-settime/",
-      "id": "6"
+      "id": "9"
     },
     {
       "title": "Alessia Fiesoli è il nuovo capitano delle Black Angels",
@@ -55,7 +79,7 @@
       "createdTime": "Tue, 08 Sep 2026 13:13:00 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/Fiesoli_primo-piano.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35228",
-      "id": "7"
+      "id": "10"
     },
     {
       "title": "Daniele Santarelli: «È stato difficile affrontare l’Italia ma sono felice»",
@@ -63,15 +87,7 @@
       "createdTime": "Tue, 08 Sep 2026 13:00:28 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Santarelli-Daniele.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/daniele-santarelli-e-stato-difficile-affrontare-litalia-ma-sono-felice/",
-      "id": "8"
-    },
-    {
-      "title": "Altotevere, ruoli chiave assegnati ad Antonello Cardellini e a Maurizio Tizzi",
-      "excerpt": "Il primo è ora team manager, ereditando le consegne dal secondo, che si occuperà dei rapporti fra società e prima squadra. Capacità ed esperienza le loro prerogative Due figure di provata esperienza i",
-      "createdTime": "Tue, 08 Sep 2026 12:07:48 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/cardellini-antonello-due.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35225",
-      "id": "9"
+      "id": "11"
     },
     {
       "title": "Pallavolo in lutto, ci ha lasciato Annibale Andreoli",
@@ -79,7 +95,7 @@
       "createdTime": "Tue, 08 Sep 2026 09:00:29 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Andreoli-Annibale-2001.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/pallavolo-in-lutto-ci-ha-lasciato-annibale-andreoli/",
-      "id": "10"
+      "id": "12"
     },
     {
       "title": "TdR beach volley, Umbria femminile in evidenza",
@@ -87,15 +103,7 @@
       "createdTime": "Tue, 08 Sep 2026 07:00:19 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Umbria-rappresentativa-beach-volley-femminile.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/tdr-beach-volley-umbria-femminile-in-evidenza/",
-      "id": "11"
-    },
-    {
-      "title": "TdR beach volley, Umbria maschile a bocca asciutta",
-      "excerpt": "Si è aperto con risultati in salita il Trofeo delle Regioni di beach volley che si sta disputando sulla costa pugliese. L’edizione 2026 della manifestazione giovanile sulla sabbia che si svolge a Marg",
-      "createdTime": "Tue, 08 Sep 2026 05:00:04 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Umbria-rappresentativa-beach-volley-maschile.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/09/tdr-beach-volley-umbria-maschile-a-bocca-asciutta/",
-      "id": "12"
+      "id": "13"
     },
     {
       "title": "Serie C maschile: Foligno in pole, ma attenzione alla School Volley Perugia",
@@ -103,7 +111,7 @@
       "createdTime": "Fri, 04 Sep 2026 14:38:33 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/brighigna-francesco.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35204",
-      "id": "13"
+      "id": "14"
     },
     {
       "title": "Pallavolo San Sisto: è pronta la carica delle 200",
@@ -111,7 +119,7 @@
       "createdTime": "Sat, 29 Aug 2026 12:02:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/pallavolo-San-Sisto.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35167",
-      "id": "14"
+      "id": "15"
     },
     {
       "title": "Alimenti nuovo DS della Pallavolo Monteluce",
@@ -119,7 +127,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:29:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Roberto-Alimenti.png",
       "permalink": "https://www.volleyumbria.it/?p=35104",
-      "id": "15"
+      "id": "16"
     },
     {
       "title": "Monteluce Volley: Michele Antonelli è il nuovo allenatore della Seconda Divisione Femminile",
@@ -127,7 +135,7 @@
       "createdTime": "Fri, 21 Aug 2026 08:58:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/antonelli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35094",
-      "id": "16"
+      "id": "17"
     },
     {
       "title": "E’ quasi pronta la ‘casa’ dell’Inter Volley Foligno",
@@ -135,7 +143,7 @@
       "createdTime": "Fri, 14 Aug 2026 11:26:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Screenshot_2026-08-14-11-44-05-575_com.mi_.globalbrowser-edit.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35036",
-      "id": "17"
+      "id": "18"
     },
     {
       "title": "Monteluce Volley fa festa: dopo 12 anni il ritorno in Serie D",
@@ -143,7 +151,7 @@
       "createdTime": "Wed, 05 Aug 2026 15:17:28 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Monteluce-pallavol-torna-in-D-Femminile.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=34984",
-      "id": "18"
+      "id": "19"
     }
   ]
 }
