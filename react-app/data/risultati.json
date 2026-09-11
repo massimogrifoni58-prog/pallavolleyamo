@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T09:22:41.572395+00:00",
+  "generatedAt": "2026-09-11T05:05:29.195644+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2837,6 +2837,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628261",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627452",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 1",
@@ -2860,15 +2869,6 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131628261",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3440,15 +3440,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627507",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 11",
-      "home": "UNILAB  PONTE FELCINO",
-      "away": "A.S.D. SIGILLO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627510",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 11",
@@ -3472,6 +3463,15 @@
       "giornata": "Giornata 11",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627507",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 11",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "A.S.D. SIGILLO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4196,15 +4196,6 @@
       "status": "in programma"
     },
     {
-      "id": "131628312",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 23",
-      "home": "UNILAB  PONTE FELCINO",
-      "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627579",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 23",
@@ -4237,6 +4228,15 @@
       "giornata": "Giornata 23",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628312",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4322,6 +4322,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627594",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627592",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 25",
@@ -4336,15 +4345,6 @@
       "giornata": "Giornata 25",
       "home": "CLT TERNI",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627594",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "UNILAB  PONTE FELCINO",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6820,6 +6820,1626 @@
       "giornata": "Giornata 22",
       "home": "ASD CASCIA PALLAVOLO",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629317",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629318",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629319",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629321",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "ELLERA VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629320",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "TIBER VOLLEY",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629322",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TRESTINA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629325",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629323",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629324",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629326",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "SIRIO PALLAVOLO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629330",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629327",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629329",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629331",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "ELLERA VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629328",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629334",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "TRESTINA VOLLEY",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629332",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629336",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "TIBER VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629333",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629335",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "SIRIO PALLAVOLO",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629339",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TRESTINA VOLLEY",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629337",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629340",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629341",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "ELLERA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629338",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629344",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629346",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629345",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "ELLERA VOLLEY",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629342",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "TIBER VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629343",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SIRIO PALLAVOLO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629349",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "TRESTINA VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629347",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629351",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629348",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629350",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629352",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629353",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629356",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "ELLERA VOLLEY",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629354",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "TIBER VOLLEY",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629355",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "SIRIO PALLAVOLO",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629359",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629357",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629361",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629358",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629360",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629363",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "TRESTINA VOLLEY",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629365",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629362",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629364",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629366",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "SIRIO PALLAVOLO",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629367",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629369",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629370",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629368",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "ELLERA VOLLEY",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629371",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "TIBER VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629373",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "TRESTINA VOLLEY",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629374",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629376",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "TIBER VOLLEY",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629372",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629375",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "SIRIO PALLAVOLO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629377",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629380",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629381",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629379",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "ELLERA VOLLEY",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629378",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629386",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629383",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629385",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "TIBER VOLLEY",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629382",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "SIRIO PALLAVOLO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629384",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629389",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "TRESTINA VOLLEY",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629387",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629391",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629388",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629390",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629395",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629392",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629396",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "ELLERA VOLLEY",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629393",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "TIBER VOLLEY",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629394",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "SIRIO PALLAVOLO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629399",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "TRESTINA VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629397",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629401",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629398",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629400",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "ELETTRA  2  PONTE FELCINO",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629403",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629404",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629402",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "ELLERA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629405",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "TIBER VOLLEY",
+      "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629406",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "SIRIO PALLAVOLO",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629409",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629408",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629411",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629407",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "REBELS ASSISI",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629410",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SPELLO VOLLEY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629412",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629416",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629413",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ARRONEPALLAVOLO",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629414",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629415",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629420",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629419",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629421",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629418",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "ARRONEPALLAVOLO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629417",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "REBELS ASSISI",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629424",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629425",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629423",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629422",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629426",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SPELLO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629429",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629430",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629431",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629428",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "ARRONEPALLAVOLO",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629427",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "REBELS ASSISI",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629436",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629433",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629435",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629434",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629432",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SPELLO VOLLEY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629439",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629441",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629438",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ARRONEPALLAVOLO",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629440",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629437",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "REBELS ASSISI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629443",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629442",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629445",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629446",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629444",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SPELLO VOLLEY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629447",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "REBELS ASSISI",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629451",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629449",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629448",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ARRONEPALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629450",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629453",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629456",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629452",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ARRONEPALLAVOLO",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629454",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629455",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629460",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629458",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629459",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629457",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "REBELS ASSISI",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629461",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "SPELLO VOLLEY",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629463",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629465",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629462",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629464",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629466",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SPELLO VOLLEY",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629471",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629469",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629470",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629468",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "ARRONEPALLAVOLO",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629467",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "REBELS ASSISI",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629476",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629472",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629474",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629473",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629475",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SPELLO VOLLEY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629479",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629481",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629478",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "ARRONEPALLAVOLO",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629480",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629477",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "REBELS ASSISI",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629482",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629485",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629484",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629486",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629483",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "SPELLO VOLLEY",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629489",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629488",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ARRONEPALLAVOLO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629490",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629487",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "REBELS ASSISI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629491",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "DIFDIF VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629494",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629492",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629493",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "ARRONEPALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629496",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629495",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "SPELLO VOLLEY",
+      "away": "SCAI VOLLEY 86 PETRIGNANO",
       "score": "da disputare",
       "status": "in programma"
     }
