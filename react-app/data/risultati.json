@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T09:00:29.858826+00:00",
+  "generatedAt": "2026-09-13T05:03:37.195056+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -5717,15 +5717,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627241",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 2",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "ASD PGS DON BOSCO CANNARA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627243",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 2",
@@ -5740,6 +5731,15 @@
       "giornata": "Giornata 2",
       "home": "MARCONI MONINI PALLAVOLO GREEN1",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627241",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD PGS DON BOSCO CANNARA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5807,15 +5807,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627251",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 4",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627252",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 4",
@@ -5848,6 +5839,15 @@
       "giornata": "Giornata 4",
       "home": "VIANDER ACTON BASTIA",
       "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627251",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5969,15 +5969,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627269",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627271",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 7",
@@ -6001,6 +5992,15 @@
       "giornata": "Giornata 7",
       "home": "ASD PGS DON BOSCO CANNARA",
       "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627269",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6068,15 +6068,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627281",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 9",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627283",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 9",
@@ -6109,6 +6100,15 @@
       "giornata": "Giornata 9",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627281",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6176,15 +6176,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627294",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 11",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627295",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 11",
@@ -6230,6 +6221,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627294",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627299",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 12",
@@ -6244,15 +6244,6 @@
       "giornata": "Giornata 12",
       "home": "REBELS ASSISI",
       "away": "LYNX ACQUASPARTA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627302",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 12",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "ASD PGS BOSICO VOLLEY GREEN2",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6280,6 +6271,15 @@
       "giornata": "Giornata 12",
       "home": "VIANDER ACTON BASTIA",
       "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627302",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6356,15 +6356,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627312",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 14",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "LYNX ACQUASPARTA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627310",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 14",
@@ -6388,6 +6379,15 @@
       "giornata": "Giornata 14",
       "home": "VIANDER ACTON BASTIA",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627312",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6455,15 +6455,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627323",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 16",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "REBELS ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627322",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 16",
@@ -6500,6 +6491,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627323",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627328",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 17",
@@ -6518,15 +6518,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627331",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 17",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627333",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 17",
@@ -6541,6 +6532,15 @@
       "giornata": "Giornata 17",
       "home": "ASD PGS DON BOSCO CANNARA",
       "away": "ASD CASCIA PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627331",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6626,15 +6626,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627345",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 19",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "ASD CASCIA PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627340",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 19",
@@ -6658,6 +6649,15 @@
       "giornata": "Giornata 19",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627345",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 19",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "ASD CASCIA PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6716,15 +6716,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627354",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 21",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "MARCONI MONINI PALLAVOLO GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627356",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 21",
@@ -6766,6 +6757,15 @@
       "giornata": "Giornata 21",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627354",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
       "score": "da disputare",
       "status": "in programma"
     },
