@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-14T05:02:33.165303+00:00",
+  "generatedAt": "2026-09-14T10:17:20.229604+00:00",
   "posts": [
     {
-      "id": "news-5",
-      "title": "Volley – Tre ore di battaglia per il Viridex Sabaudia che supera il Terni 3-2",
-      "excerpt": "Fonte: latinanews.eu",
-      "createdTime": "Wed, 29 Oct 2025 09:00:00 GMT",
-      "image": "https://www.latinanews.eu/wp-content/uploads/2025/10/XSAi63qPngB6-e1761552969179.jpg",
-      "permalink": "https://www.latinanews.eu/volley-tre-ore-di-battaglia-per-il-viridex-sabaudia-che-supera-il-terni-3-2/"
+      "id": "news-0",
+      "title": "Pallavolo News – Il 26 giugno la presentazione della neonata Terni Volley Academy : giocherà in A3 maschile",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Wed, 18 Jun 2025 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2025/06/19/pallavolo-news-il-26-giugno-la-presentazione-della-neonata-terni-volley-academy-giochera-in-a3-maschile/"
     },
     {
       "id": "news-7",
-      "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2025/9/24/660x290/b_1200x675x95/javier-martinez-e-helena-prestes-c-x_3146374.jpg",
-      "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
+      "title": "Volley, dalla Maremma all’Umbria: Clara Balestri approda al Trestina Volley in B1",
+      "excerpt": "Fonte: maremmanews.it",
+      "createdTime": "Wed, 13 Aug 2025 11:01:00 GMT",
+      "image": null,
+      "permalink": "https://maremmanews.it/sport/2025-08-13/volley-dalla-maremma-all-umbria-clara-balestri-approda-al-trestina-volley-in-b1"
     },
     {
       "id": "news-2",
@@ -34,7 +34,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Terni Volley sfida i campioni del mondo: al PalaTerni arriva la Sir Susa Scai Perugia",
       "excerpt": "Fonte: sporterni.it",
       "createdTime": "Wed, 01 Feb 2006 16:00:00 GMT",
@@ -50,7 +50,15 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-6",
+      "id": "news-2",
+      "title": "B maschile: Foligno si raduna. L’ultima novità è il regista Scrollavezza",
+      "excerpt": "Fonte: volleynews.it",
+      "createdTime": "Tue, 23 Aug 2022 00:03:00 GMT",
+      "image": "https://www.volleynews.it/wp-content/uploads/2022/08/Luca-Scrollavezza-Med-Store-Tunit-Macerata.jpg",
+      "permalink": "https://www.volleynews.it/b-maschile-foligno-si-raduna-lultima-novita-e-il-regista-scrollavezza/"
+    },
+    {
+      "id": "news-7",
       "title": "Dalle Fere del calcio all'Italvolley, ecco la dottoressa di Terni che \"cura\" i trionfi della pallavolo femminile azzurra",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 19 Jul 2022 07:38:00 GMT",
@@ -58,7 +66,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/dalle_fere_calcio_italvolley_ecco_la_dottoressa_di_terni_cura_trionfi_pallavolo_femminile_azzurra-6822352.html"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Pallavolo A1F – Doppia trasferta per Conegliano, che si allenerà a Foligno. Santarelli: “Saranno vent’anni che non rientro nel palazzetto della mia città, vivrò ...",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 15 Oct 2024 16:59:00 GMT",
@@ -66,7 +74,7 @@
       "permalink": "https://www.ivolleymagazine.it/2024/10/16/pallavolo-a1f-doppia-trasferta-per-conegliano-che-si-allenera-a-foligno-santarelli-saranno-ventanni-che-non-rientro-nel-palazzetto-della-mia-citta-vivro-emozioni-forti/"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Tue, 08 Sep 2026 17:01:00 GMT",
@@ -74,15 +82,15 @@
       "permalink": "https://www.umbria24.it/sport24/beach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni/"
     },
     {
-      "id": "news-1",
-      "title": "Pallavolo – Terni ufficializza due novità: da Lecce arrivano Luciano Zornetta e Andrea Santangelo",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Tue, 02 Jun 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
+      "id": "news-3",
+      "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/05/28/9559552_pckg_20260528_23931417.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-0",
+      "id": "news-3",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
@@ -90,7 +98,7 @@
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Pallavolo A3M – Terni, Coach Giombini analizza la prima parte della stagione: “Potevamo fare di più”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 25 Dec 2025 16:00:00 GMT",
@@ -98,7 +106,7 @@
       "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
     },
     {
-      "id": "news-2",
+      "id": "news-6",
       "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 10 Sep 2026 17:00:00 GMT",
@@ -106,7 +114,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/09/11/pallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Roma ospita il II Memorial Simonetta Avalle",
       "excerpt": "Fonte: tuttosport.com",
       "createdTime": "Thu, 10 Sep 2026 08:28:00 GMT",
@@ -114,12 +122,20 @@
       "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/09/10-151150883/roma_ospita_il_ii_memorial_simonetta_avalle"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Beach Volley, Trofeo delle Regioni 2026: Umbria protagonista con Cianella, Mele, Bertola e Covarelli",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 03 Sep 2026 17:00:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/09/rappresentativa-umbra-e1788517073809.jpeg",
       "permalink": "https://www.umbria24.it/sport24/beach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli/"
+    },
+    {
+      "id": "news-7",
+      "title": "“LEALI. A PERUGIA.”: al via la campagna abbonamenti delle Black Angels",
+      "excerpt": "Fonte: legavolleyfemminile.it",
+      "createdTime": "Thu, 03 Sep 2026 17:00:00 GMT",
+      "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/09/campagna-abbonamenti-perugia_4-loghi-maglia-1536x864.jpg",
+      "permalink": "https://www.legavolleyfemminile.it/leali-a-perugia-al-via-la-campagna-abbonamenti-delle-black-angels/"
     },
     {
       "id": "news-6",
@@ -138,7 +154,7 @@
       "permalink": "https://www.livornotoday.it/sport/volley/livorno-batte-foligno-al-tie-break.html"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -170,7 +186,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "La prima Champions League maschile di Perugia nella pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
@@ -184,14 +200,6 @@
       "createdTime": "Sun, 13 Sep 2026 15:07:35 +0000",
       "image": null,
       "permalink": "https://www.pallavolo.it/sirio-perugia-santa-lucia-roma-3-1-primo-test/"
-    },
-    {
-      "id": "news-1",
-      "title": "Eurovolley, il neo Sir Susa Scai Henno guida la Francia al 3-1 sulla Lettonia",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Sun, 13 Sep 2026 14:24:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/09/164224_MFD-06-FRANCE-TURKIYE-23.jpg",
-      "permalink": "https://www.umbria24.it/perugia/eurovolley-il-neo-sir-susa-scai-henno-guida-la-francia-al-3-1-sulla-lettonia/"
     },
     {
       "id": "perugiaimpattanellaverificacon",
@@ -218,14 +226,6 @@
       "permalink": "https://www.pianetavolley.net/2026/09/san-giustino-e-terni-al-memorial-andrea-mecucci/"
     },
     {
-      "id": "news-6",
-      "title": "Volley B maschile, la Rossi Ascensori Foligno sbanca il PalaPanini e continua la risalita",
-      "excerpt": "Fonte: perugiatoday.it",
-      "createdTime": "Sun, 12 Feb 2023 07:19:00 GMT",
-      "image": null,
-      "permalink": "https://www.perugiatoday.it/sport/volley/la-rossi-ascensori-vince-3-0-a-modena.html"
-    },
-    {
       "id": "news-1",
       "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -234,7 +234,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-01c05839"
     },
     {
-      "id": "news-2",
+      "id": "news-4",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 07 Sep 2025 23:30:00 GMT",
@@ -242,20 +242,28 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-4",
-      "title": "La Turchia di Daniele Santarelli sconfigge l'Italia ed è campione d’Europa",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Sun, 06 Sep 2026 12:29:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/9/06/1788722296635_santarelli.jpg",
-      "permalink": "https://www.rainews.it/tgr/umbria/articoli/2026/09/la-turchia-di-daniele-santarelli-sconfigge-litalia-ed-e-campione-deuropa-bf23c1b2-3010-4074-82b8-4bc4f9044c11.html"
-    },
-    {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/02/9685329_02003505_sir_10.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
+    },
+    {
+      "id": "news-6",
+      "title": "Il Città di Castello Pallavolo conquista tre punti importanti a Terni",
+      "excerpt": "Fonte: www2.saturnonotizie.it",
+      "createdTime": "Sun, 01 Mar 2026 01:42:00 GMT",
+      "image": "https://www2.saturnonotizie.it/uploads/news/posts/2026/03/205680/439ab1b1875b1cf9b5d17c450a6da765146c712a_full.jpeg",
+      "permalink": "https://www2.saturnonotizie.it/news/read/205680/pallavolo-citta-di-castello.html"
+    },
+    {
+      "id": "news-1",
+      "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/56/72/7005672_22095945_03_paolo_cipiccia.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
       "id": "news-4",
@@ -282,12 +290,12 @@
       "permalink": "https://www.pianetavolley.net/2026/09/le-rivali-di-perugia-al-mondiale-per-club/"
     },
     {
-      "id": "news-0",
-      "title": "Volley: Volley Scuola, il Francesco d'Assisi ricorda Federica Stiffi",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Mon, 25 Feb 2019 07:48:00 GMT",
-      "image": "http://cdn.corrieredellosport.it/images/2019/02/25/144811896-40d30d4e-4d6e-4dcc-a2e9-b87bee3cc46e.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/volley-scuola/2019/02/25-53845226/volley_volley_scuola_il_francesco_d_assisi_ricorda_federica_stiffi"
+      "id": "news-7",
+      "title": "Pallavolo, nel 2026 Assisi sede di una finale nazionale giovanile",
+      "excerpt": "Fonte: umbriacronaca.it",
+      "createdTime": "Mon, 24 Nov 2025 11:24:00 GMT",
+      "image": "https://www.umbriacronaca.it/wp-content/uploads/2025/11/Stoppini_Cavallucci-282x300.jpg",
+      "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
       "id": "news-5",
@@ -314,7 +322,39 @@
       "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
     },
     {
-      "id": "news-7",
+      "id": "sirioperugiaallaverificaconcit",
+      "title": "Sirio Perugia alla verifica con Città di Castello",
+      "excerpt": "Nella terza settimana di preparazione atletica si cominciano ad intensificare i ritmi sotto tutti i punti di vista per la Sirio Perugia Volley che dopo aver esordito con il primo allenamento congiunto",
+      "createdTime": "Mon, 14 Sep 2026 09:00:34 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Sirio-Perugia-staff.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/sirio-perugia-alla-verifica-con-citta-di-castello/"
+    },
+    {
+      "id": "stefanomicoliaperugiamancanode",
+      "title": "Stefano Micoli: «A Perugia mancano degli automatismi»",
+      "excerpt": "Anche la terza amichevole stagionale è andata in archivio, con la Bartoccini +energia Perugia che si guadagna gli applausi del proprio pubblico mostrandosi convincente, in occasione dell’allenamento c",
+      "createdTime": "Mon, 14 Sep 2026 07:00:57 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/02/Micoli-Stefano-e1770929077591.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/stefano-micoli-a-perugia-mancano-degli-automatismi/"
+    },
+    {
+      "id": "giacomocherubiniasangiustinocl",
+      "title": "Giacomo Cherubini: «A San Giustino c’è la giusta serenità»",
+      "excerpt": "Reduce da un infortunio, si è aggregato al gruppo con un ritardo di pochissimi giorni, ma ora sta recuperando a grandi passi. Alla Ermgroup San Giustino rivestirà il ruolo di opposto ma sarà anche un ",
+      "createdTime": "Mon, 14 Sep 2026 05:00:24 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Cherubini-Giacomo.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/giacomo-cherubini-a-san-giustino-ce-la-giusta-serenita/"
+    },
+    {
+      "id": "news-3",
+      "title": "Pallavolo SL – Federico Crosato al rientro a Perugia: “Ritrovare il palazzetto con il taraflex tricolore è veramente una emozione forte”",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Mon, 07 Sep 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/09/08/pallavolo-sl-federico-crosato-al-rientro-a-perugia-ritrovare-il-palazzetto-con-il-taraflex-tricolore-e-veramente-una-emozione-forte/"
+    },
+    {
+      "id": "news-5",
       "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 06 May 2024 06:05:00 GMT",
@@ -331,14 +371,6 @@
     },
     {
       "id": "news-3",
-      "title": "B maschile: volto (quasi) nuovo per Foligno, ecco Filippo Fuganti Pedoni",
-      "excerpt": "Fonte: volleynews.it",
-      "createdTime": "Fri, 25 Nov 2022 07:27:00 GMT",
-      "image": "https://www.volleynews.it/wp-content/uploads/2022/11/Filippo-Fuganti-Pedoni-Edotto-Rossi-Ascensori-Foligno.jpg",
-      "permalink": "https://www.volleynews.it/b-maschile-volto-quasi-nuovo-per-foligno-ecco-filippo-fuganti-pedoni/"
-    },
-    {
-      "id": "news-2",
       "title": "B maschile, Fabio Piumi torna a palleggiare per Foligno",
       "excerpt": "Fonte: volleynews.it",
       "createdTime": "Fri, 13 Jan 2023 03:21:00 GMT",
@@ -362,30 +394,6 @@
       "permalink": "https://www.pianetavolley.net/2026/09/a-perugia-le-donne-si-testano-con-macerata/"
     },
     {
-      "id": "angelolorenzettitantaperugiaag",
-      "title": "Angelo Lorenzetti: «Tanta Perugia agli Europei»",
-      "excerpt": "È cominciato il campionato europeo maschile di pallavolo, un torneo nel quale sono impegnati ben sei atleti della Sir Susa Scai Perugia. Una discreta rappresentanza bianconera, con la maglia della naz",
-      "createdTime": "Fri, 11 Sep 2026 09:00:15 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Lorenzetti-Angelo-gesto.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/09/angelo-lorenzetti-tanta-perugia-agli-europei/"
-    },
-    {
-      "id": "agostinobenedettiumbriaaumenta",
-      "title": "Agostino Benedetti: «Umbria aumenta l’impegno nel beach volley»",
-      "excerpt": "Si è archiviata con un doppio settimo posto la manifestazione del Trofeo delle Regioni di beach volley per le selezioni femminile e maschile della regione Umbria. Un risultato che ha soddisfatto la sp",
-      "createdTime": "Fri, 11 Sep 2026 07:00:14 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Umbria-squadre-Trofeo-delle-Regioni-2026.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/09/agostino-benedetti-umbria-aumenta-limpegno-nel-beach-volley/"
-    },
-    {
-      "id": "tommasobaldiniasangiustinoconc",
-      "title": "Tommaso Baldini: «A San Giustino concorrenza stimolante»",
-      "excerpt": "I giovani stanno approcciando la preparazione atletica con dedizione assoluta alla Ermgroup San Giustino, impegnandosi al massimo fin dal primo giorno. Tra loro c’è chi ha alle spalle esperienze che h",
-      "createdTime": "Fri, 11 Sep 2026 05:00:44 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Baldini-Tommaso.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/09/tommaso-baldini-a-san-giustino-concorrenza-stimolante/"
-    },
-    {
       "id": "news-0",
       "title": "Mondiale per club maschile 2026, ecco le otto partecipanti: Perugia difende il titolo",
       "excerpt": "Fonte: volleynews.it",
@@ -394,15 +402,7 @@
       "permalink": "https://www.volleynews.it/mondiale-per-club-maschile-2026-ecco-le-otto-partecipanti-perugia-difende-il-titolo/"
     },
     {
-      "id": "news-6",
-      "title": "Incassa 6mila euro per attività gratuite, sospeso consigliere FIPAV Umbria",
-      "excerpt": "Fonte: today.it",
-      "createdTime": "Fri, 07 Jun 2024 02:20:00 GMT",
-      "image": null,
-      "permalink": "https://www.today.it/sport/volley/incassa-6mila-euro-attivita-gratuite-fipav.html"
-    },
-    {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Terni Volley, comincia la nuova sfida in A3: D'Amico \"Voglio coraggio e difesa\"",
       "excerpt": "Fonte: sporterni.it",
       "createdTime": "Fri, 04 Sep 2026 09:19:00 GMT",
