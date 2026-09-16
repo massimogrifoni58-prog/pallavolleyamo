@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T09:46:26.739321+00:00",
+  "generatedAt": "2026-09-16T05:03:01.550081+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -3269,6 +3269,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628295",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627491",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 8",
@@ -3301,15 +3310,6 @@
       "giornata": "Giornata 8",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131628295",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 8",
-      "home": "VOLLEY BORGO ALTOTEVERE",
-      "away": "MARCHETTI PRO VITT CHIUSI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4151,6 +4151,15 @@
       "status": "in programma"
     },
     {
+      "id": "131628311",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 22",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627576",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 22",
@@ -4183,15 +4192,6 @@
       "giornata": "Giornata 22",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "UNILAB  PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131628311",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 22",
-      "home": "VOLLEY BORGO ALTOTEVERE",
-      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4772,15 +4772,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627136",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 7",
-      "home": "OMG VOLLEY PONTE VALLECEPPI",
-      "away": "NUOVA PALLAVOLO GUALDO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627139",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 7",
@@ -4804,6 +4795,15 @@
       "giornata": "Giornata 7",
       "home": "TIBER VOLLEY",
       "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627136",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "NUOVA PALLAVOLO GUALDO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7769,15 +7769,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629424",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 4",
-      "home": "OMG VOLLEY PONTE VALLECEPPI",
-      "away": "DIFDIF VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629425",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 4",
@@ -7801,6 +7792,15 @@
       "giornata": "Giornata 4",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "REBELS ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629424",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "DIFDIF VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8264,15 +8264,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629479",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 15",
-      "home": "OMG VOLLEY PONTE VALLECEPPI",
-      "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629481",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 15",
@@ -8305,6 +8296,15 @@
       "giornata": "Giornata 15",
       "home": "REBELS ASSISI",
       "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629479",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "OMG VOLLEY PONTE VALLECEPPI",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T09:47:56.341723+00:00",
+  "generatedAt": "2026-09-16T05:04:35.059279+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,10 +35,31 @@
   "news": {
     "sir-perugia": [
       {
-        "title": "Cuneo Volley vs Sir Susa Scai Perugia - Comune di Cuneo",
+        "title": "Euro2026, l'Italia abbatte la Repubblica Ceca e conquista gli ottavi. Gli uomini Sir rispondono ancora presente - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMzJkaXdTYmtjd3gwQjFFZEZYRml3WDhUa25Ed1dLSTI1TzlBZUlfTjBtNVZGY0dMWjdMWDFOdVFZZUtNa0puMzE5THd3ZlBuOEhIVXZqRTVrWTBVdW9iNlR1Ul9Jejdxb1k5UWxmQXFwMVN4dS1QRGdCd1dONUxMSDRKQXRkQXY5NjlvLTBKVFZnV0hlR2pULVRaNkprbjV0alBQeGpVRmFPc1Y2OXJqWGxRMmMxVURWYlN2T0JySWMyVERrTWozUjNsb0lOc0pNb21aQi1tUQ?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 21:30:00 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "ASD Volley Academy Rieti, l’Open Day con Sir Safety Perugia conquista famiglie e giovani atleti - Format Rieti",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbTljOUZKNWNaLTA2cUp4VEl3YW94SDVCOUVwajI5MVJHeTlaRTZPTWw5WFlhZE53cTFLQ2ZqR3JJbDF1X0xOaEFySW9EM2N5bGs3cmwtVUhtS3JjR1lnTGlVM25OVEdFcFZTVkw2SjhQdmFtby1fZ3BDMEg5QS1HOVJ3Rjlkamx2SWRBank1enk2N3ZDTzhzdzFrUXd0VFRYc3ROVm9LZHZFdHZVd1lsMmtRVnlxaVZPTzRWMmFEMEYyRHQ1eGxOa0E1N04?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 11:16:47 GMT",
+        "source": "Format Rieti",
+        "image": null
+      },
+      {
+        "title": "Sir Susa Scai, al via il ritiro degli abbonamenti. E la squadra si prepara al primo test contro Fano",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa23609b0143089ddb31ded794be80&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-al-via-il-ritiro-degli-abbonamenti-e-la-squadra-si-prepara-al-primo-test-contro-fano%2f&c=6139792882478160741&mkt=it-it",
+        "pubDate": "Tue, 15 Sep 2026 09:54:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Cuneo Volley vs Sir Susa Scai Perugia - comune.cuneo.it",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWExPRElzRVRWU1lGOHZja3FRRlczanRnRUhCNzNhWElSV2YtYXI3UnZINnFfZVhQRVhtNzdKa2Ywd3NybWdjbFR4TzVmejhGRUlNZmhHaGkxdERmNC1kekpGR19pNC1nSjFaS0xoOExnSEZVaGgxZVJ4djFnT2c5ZllaSkFjNXpmWDRlcDQxZmxyUE9C?oc=5",
         "pubDate": "Mon, 14 Sep 2026 08:47:00 GMT",
-        "source": "Comune di Cuneo",
+        "source": "comune.cuneo.it",
         "image": null
       },
       {
@@ -47,70 +68,49 @@
         "pubDate": "Sun, 13 Sep 2026 21:30:00 GMT",
         "source": "PerugiaToday",
         "image": null
-      },
-      {
-        "title": "Pallavolo SL – Agustin Loser: “Come tutti gli anni, Perugia è molto forte. Sanguinetti porterà tanta aggressività in attacco”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa91449227b405e87dd6211476741e4&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f14%2fpallavolo-sl-agustin-loser-come-tutti-gli-anni-perugia-e-molto-forte-sanguinetti-portera-tanta-aggressivita-in-attacco%2f&c=4897422459498971443&mkt=it-it",
-        "pubDate": "Sun, 13 Sep 2026 17:00:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
-        "title": "Volley, Euro2026 procede al meglio per gli azzurri: 3-0 alla Grecia - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQenVQbU8zVi1NZktPR2EtQVNGYkRiMUlsc2k3RDJSbml3VXNyeURhMlV6RWtLRHhEWDJmQ2d1dFdWbVlSZVpHQTgwY2N3OFJhSHNCVlhGc1JqdC1uMW1tS3RTanYxT2o3UTZ5MC15NUU2SFEtdC1GQTJCYlR2RV9iX2RnUVRxclVkMGhNU3IweWpTaVE?oc=5",
-        "pubDate": "Sat, 12 Sep 2026 21:30:00 GMT",
-        "source": "PerugiaToday",
-        "image": null
-      },
-      {
-        "title": "Pallavolo A3M - Altotevere, parla Broccatelli, libero scuola Sir Perugia: \"Sono pronto per qualsiasi sfida\" - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSURtNEhKSHprU19aV3g0by1URkRHM3hRVEJBTThBcEFHZVhQRXlIUG1VcjZSUmlpZnlHb2h4ZHR2UlFORXpIZ2ZZSXVWMEF4YXBwLXF2WHlkNVFFYWtFUnI2cUI1NHF4MTZTQmh6ZjRoRmtSYjBHamFsQWpNRGtNVnl1dlAzMXJ1TWx6czcyZ0RDcVBMdTh0UG42bDVtMnE5RHVXVU5abzM0Qkc1ZnRtTTZ1bWtXZ2RwdERnUUJIS3Nib0REMmdaMjVtRHdwV0RCQU9ISGdIU09rX1U?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 15:59:49 GMT",
-        "source": "iVolley Magazine",
-        "image": null
       }
     ],
     "bartoccini": [
       {
         "title": "Black Angels, Mancini e Scharmann sono convinte: “Siamo sulla strada giusta”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144a8a154c73b5e18c2df4b2d06e&url=https%3a%2f%2fwww.umbriadomani.it%2fperugia%2fblack-angels-mancini-e-scharmann-sono-convinte-siamo-sulla-strada-giusta-348723%2f&c=2647439414642227109&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2360b67a495e9e47bb88b9d047ba&url=https%3a%2f%2fwww.umbriadomani.it%2fperugia%2fblack-angels-mancini-e-scharmann-sono-convinte-siamo-sulla-strada-giusta-348723%2f&c=2647439414642227109&mkt=it-it",
         "pubDate": "Mon, 14 Sep 2026 10:06:00 GMT",
         "source": "",
         "image": null
       },
       {
+        "title": "Voley femminile. Black Angels, ottima prova al PalaBarton. Coach Micoli: : \"Buone indicazioni»",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2360b67a495e9e47bb88b9d047ba&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fvoley-femminile-black-angels-ottima-prova-al-palabarton-coach-micoli-buone-indicazioni%2far-AA2c9SFx&c=13437334851585217573&mkt=it-it",
+        "pubDate": "Sun, 13 Sep 2026 23:12:03 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Bartoccini +energia Perugia, buone indicazioni nel test contro Macerata",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144a8a154c73b5e18c2df4b2d06e&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fbartoccini-energia-perugia-buone-indicazioni-nel-test-contro-macerata%2f&c=8942689203106311383&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2360b67a495e9e47bb88b9d047ba&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fbartoccini-energia-perugia-buone-indicazioni-nel-test-contro-macerata%2f&c=8942689203106311383&mkt=it-it",
         "pubDate": "Sun, 13 Sep 2026 00:12:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Le Black Angels conquistano il pubblico del PalaBarton",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144a8a154c73b5e18c2df4b2d06e&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-il-pubblico-del-palabarton%2f&c=13052656509169250499&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2360b67a495e9e47bb88b9d047ba&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-il-pubblico-del-palabarton%2f&c=13052656509169250499&mkt=it-it",
         "pubDate": "Sat, 12 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Black Angels, Cecilia Nicolini vicecapitano: «Una bella responsabilità»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144a8a154c73b5e18c2df4b2d06e&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fblack-angels-cecilia-nicolini-vicecapitano-una-bella-responsabilit%25C3%25A0%2far-AA2bZyJr&c=11019841730268103603&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2360b67a495e9e47bb88b9d047ba&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fblack-angels-cecilia-nicolini-vicecapitano-una-bella-responsabilit%25C3%25A0%2far-AA2bZyJr&c=11019841730268103603&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 10:35:59 GMT",
         "source": "",
-        "image": null
-      },
-      {
-        "title": "Volley A2 femminile, Cecilia Nicolini è il nuovo vicecapitano della Bartoccini + energia Perugia - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXy0tTll0S05sanY1YUhBRFpHRVdwYkMxREVGSi1GaXB2ajNMM21JU20xVWJLQmxlZUZ5R19yYV9yVWd6aEhHOHZKWm9NNTVTMmV5V2VNZmtMTWxIYXlJdW5rSTdqdnZGRjlQanVZU1VlNFozZ0hwdFlVamFkbTloOVZEVDFTRG5sMkpyN0RPbEVIR3djUU1DeFpHTk9HWHdIM1Rj?oc=5",
-        "pubDate": "Thu, 10 Sep 2026 09:24:18 GMT",
-        "source": "PerugiaToday",
         "image": null
       }
     ],
     "tva": [
       {
         "title": "Terni Volley Academy: si parte. Raduno e prima ‘sudata’. Le interviste",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144ad9d34bcb8fd4b04a06a3b08e&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa236047b041bab0031e2286617296&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 09:40:00 GMT",
         "source": "",
         "image": null
@@ -147,7 +147,7 @@
     "altotevere": [
       {
         "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144a276d43cfb6b50c0e00958062&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2361a56d4a6b9a160b0bad9f502e&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
@@ -160,10 +160,10 @@
         "image": null
       },
       {
-        "title": "ErmGroup Volley Altotevere, si alza il sipario - teletruria.it",
+        "title": "ErmGroup Volley Altotevere, si alza il sipario - Teletruria",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGZ4dFUteGt5SGlzbTdsWkRuLXFjRXRrd3NWNjhRWF9VeTRES05GcDJtWEwxa1FEdGNvdWJsdGNSV3VYV29MOFNFa0o2V3c5M3M0eHlOUkc3ZDFMRzlMaVJTZzVRZTd1NXJ2MTM0ZUtMWnNFSHNnWVN0aWpHLVlObDJMVVg2NEZGZHA0TVgzdVpteE1mRnZVdg?oc=5",
         "pubDate": "Mon, 07 Sep 2026 10:28:40 GMT",
-        "source": "teletruria.it",
+        "source": "Teletruria",
         "image": null
       },
       {
@@ -174,10 +174,10 @@
         "image": null
       },
       {
-        "title": "Pallavolo A3M - ErmGroup Altotevere, Roberto Pinali: \"Pronto a essere il valore aggiunto della squadra\" - iVolley Magazine",
+        "title": "Pallavolo A3M - ErmGroup Altotevere, Roberto Pinali: \"Pronto a essere il valore aggiunto della squadra\" - ivolleymagazine.it",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNXE3Z0VhUFdxTUt0R1NqTDgwMFoxVWdMRDhtOU9ib0xNLUlWdVZoZWw2NU1La3hEQ2VVdmwtT2g4SmZmRlVIbmJRZTg0ZWNCVWN6VkF5RTkyYnAySW84UkE0UFRPY2NjVmhJcFliY2xGZUVpLWR3NGxIM3NWYmdIZl9MOTRxNjVNbmRWV25jYlVhTk4tRXZjRnc4RWM5OTZQSWM5TnF0bEE4eG9jMTZVOXFqUzhxTDdNeklTcTNsaE44LWJMTzVhZlh6MzdTWXZSbkIwTkdqUQ?oc=5",
         "pubDate": "Thu, 03 Sep 2026 13:28:14 GMT",
-        "source": "iVolley Magazine",
+        "source": "ivolleymagazine.it",
         "image": null
       }
     ],
@@ -205,7 +205,7 @@
       },
       {
         "title": "Doppia promozione. Il volley è in festa",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144bd6b14178a870dc30aacac27c&url=https%3a%2f%2fwww.lanazione.it%2fumbria%2fcronaca%2fdoppia-promozione-il-volley-e-408bd256&c=5837465429517754719&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2361e62547e3b5df2f790330e1d9&url=https%3a%2f%2fwww.lanazione.it%2fumbria%2fcronaca%2fdoppia-promozione-il-volley-e-408bd256&c=5837465429517754719&mkt=it-it",
         "pubDate": "Sat, 20 Jun 2026 21:33:00 GMT",
         "source": "",
         "image": null
@@ -221,16 +221,23 @@
     "marsciano": [
       {
         "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144b3c7442918080a5fa0e74c4de&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni%2f&c=14798107103279752141&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2362407048c59cdac44ae4de70b4&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni%2f&c=14798107103279752141&mkt=it-it",
         "pubDate": "Tue, 08 Sep 2026 17:01:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Beach Volley, Trofeo delle Regioni 2026: Umbria protagonista con Cianella, Mele, Bertola e Covarelli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aa9144b3c7442918080a5fa0e74c4de&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaa2362407048c59cdac44ae4de70b4&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 17:00:00 GMT",
         "source": "",
+        "image": null
+      },
+      {
+        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyTmhCWWlMaHBXMkNaOUxzcC1xMmlHLUNtemN4R1RNV21VaklJTGJ4dUdTQWN6d0lvQmg2LUdmS1laREVZNzhSaTA2al93WGE1NzV4M3JMWEJ5NHZWZk5kX2hJTmVVd0pKdHkwYktma0x5TWxNLW1NZQ?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
+        "source": "La Nazione",
         "image": null
       },
       {
@@ -245,13 +252,6 @@
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbDlwaElLUHNWNWJONmoxM2dWSDVlanJyMXpSQW4xdXZEOFZkZXNUTGlfN01uU2J5M2NKM1IwX1o0ZFFvU1pFTmpyNU0yVmM4LVktaFNHa2M2d2ZLdklmdkFEdGdPUG9VRVZjbklMOXQ5YURMNFJvaEhHY1JudmZQMERzdTdEWmRDdFc3bVdHcmZaVE8xVWF3SDllUDBQY0ZjZmlnTkJiWVNJaVk4cUhsdmZoZllHbFRzaTNrVTZqT3l1b0ZEUHlLNC05SnZhLVZDSHF3QzUwTlJoZDBVeGp2akhlNFlPUmlENVJySk5talBhZ9IB9wFBVV95cUxQei1SVmROVmdhdXB3bVRuU0pfUlVTdjlkenhCVlRDcmhzYjZpYUpxTVNaUWVORXAyQW9faDFnb2F6VFpPMWloNWdqb0NZcDNDVzBSem1Xa2I4cWM3TGJjUVo5TXlkM1doOVJxZXh2R3A4SHpHY1E3eUlWT0xleEhuX2FxZm1JY1YwT1p5QmpoQ2E5Z3dzOGdIZ1VzMEtxNDZTZE5jUVlyWElZdUthbjJucG9iVENpVnJRMWRQUTZPelNILXdseWxrTVBYbXFsYnJCbFFfeWw4cVc5Rzg3R1BtUWh1WjdrdWQ4cGg5MzlkRHh5am9GMDdj?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
         "source": "Il Messaggero",
-        "image": null
-      },
-      {
-        "title": "Noemi Fiorucci passa a Marsciano - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56RGZ5VkZPbXNDRUNkd0VrSmJYNGFmUHVmNFF5TEszYl81YU1SanlRT1pvRVh6S2Fnc0VvYmhuQU5hVmVtb05BWmtyWW15QzZIZld6WTNJeS1Mdm1zdXhmam4xVlNQYVpLQ09YUVFSVjlGdVRaUHlPV0Jhcw?oc=5",
-        "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
-        "source": "Pianeta Volley",
         "image": null
       }
     ]
