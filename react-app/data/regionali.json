@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T05:02:11.016498+00:00",
+  "generatedAt": "2026-09-16T09:39:23.276525+00:00",
   "posts": [
     {
       "id": "news-5",
@@ -18,7 +18,7 @@
       "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
@@ -26,7 +26,23 @@
       "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
     },
     {
-      "id": "news-3",
+      "id": "iscrizioniancoraapertealcittdi",
+      "title": "Iscrizioni ancora aperte al Città di Bastia Umbra e Assisi",
+      "excerpt": "Torna anche nel 2026 uno degli appuntamenti più attesi del panorama pallavolistico giovanile italiano, la quindicesima edizione del torneo nazionale Città di Bastia Umbra e Assisi – Memorial Tomasso S",
+      "createdTime": "Wed, 16 Sep 2026 05:00:03 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Citta-di-Bastia-Umbra-e-Assisi-2026-locandina.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/iscrizioni-ancora-aperte-al-citta-di-bastia-umbra-e-assisi/"
+    },
+    {
+      "id": "news-7",
+      "title": "Volley, dalla Maremma all’Umbria: Clara Balestri approda al Trestina Volley in B1",
+      "excerpt": "Fonte: maremmanews.it",
+      "createdTime": "Wed, 13 Aug 2025 11:01:00 GMT",
+      "image": null,
+      "permalink": "https://maremmanews.it/sport/2025-08-13/volley-dalla-maremma-all-umbria-clara-balestri-approda-al-trestina-volley-in-b1"
+    },
+    {
+      "id": "news-2",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
@@ -34,7 +50,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Convocata la rappresentativa femminile Fipav Umbria per il 5 maggio",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Tue, 29 Apr 2025 23:30:00 GMT",
@@ -58,7 +74,7 @@
       "permalink": "https://www.pianetavolley.net/2026/09/gli-uomini-di-perugia-valutano-il-lavoro-mercoledi-con-fano/"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
       "title": "A tutto volley tra grandi e piccoli",
       "excerpt": "Fonte: rietinvetrina.it",
       "createdTime": "Tue, 15 Sep 2026 07:43:00 GMT",
@@ -122,7 +138,7 @@
       "permalink": "https://www.ivolleymagazine.it/2025/12/26/pallavolo-a3m-terni-coach-giombini-analizza-la-prima-parte-della-stagione-potevamo-fare-di-piu/"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 10 Sep 2026 17:00:00 GMT",
@@ -146,20 +162,12 @@
       "permalink": "https://www.umbria24.it/sport24/beach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli/"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED/73/25/477325_0140629_umbria_femminile_tdr_volley_2014.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
-    },
-    {
-      "id": "news-5",
-      "title": "Volley B maschile, lo IES MVTomei compie l'impresa: Foligno giù al tie break",
-      "excerpt": "Fonte: livornotoday.it",
-      "createdTime": "Sun, 27 Nov 2022 02:01:00 GMT",
-      "image": null,
-      "permalink": "https://www.livornotoday.it/sport/volley/livorno-batte-foligno-al-tie-break.html"
     },
     {
       "id": "news-4",
@@ -170,7 +178,7 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
       "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
@@ -194,7 +202,7 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "La prima Champions League maschile di Perugia nella pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
@@ -242,15 +250,15 @@
       "permalink": "https://www.pianetavolley.net/2026/09/sirio-perugia-subito-bene-nel-test-contro-roma/"
     },
     {
-      "id": "sangiustinoeternialmemorialand",
-      "title": "San Giustino e Terni al memorial Andrea Mecucci",
-      "excerpt": "Il grande volley e il valore del ricordo si uniscono sabato 19 settembre nella decima edizione del Memorial Andrea Mecucci, torneo di pallavolo interamente dedicato al ricordo di un ragazzo venuto a m",
-      "createdTime": "Sun, 13 Sep 2026 05:00:46 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Memorial-Andrea-Mecucci-2026.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/09/san-giustino-e-terni-al-memorial-andrea-mecucci/"
+      "id": "news-4",
+      "title": "Volley B maschile, la Rossi Ascensori Foligno sbanca il PalaPanini e continua la risalita",
+      "excerpt": "Fonte: perugiatoday.it",
+      "createdTime": "Sun, 12 Feb 2023 07:19:00 GMT",
+      "image": null,
+      "permalink": "https://www.perugiatoday.it/sport/volley/la-rossi-ascensori-vince-3-0-a-modena.html"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 11 Jan 2026 23:21:00 GMT",
@@ -282,14 +290,6 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
     },
     {
-      "id": "news-7",
-      "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Sat, 27 Jun 2026 23:21:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/NGFiZTNjNjMtNmIwMC00/0/trofeo-delle-regioni-lumbria-migliora.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
-    },
-    {
       "id": "news-5",
       "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
       "excerpt": "Fonte: ilpost.it",
@@ -314,7 +314,7 @@
       "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Fipav Umbria, ecco la lettera del presidente Lomurno a tutte le società di pallavolo della regione",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 23 Mar 2020 06:34:00 GMT",
@@ -370,6 +370,14 @@
       "permalink": "https://www.pianetavolley.net/2026/09/giacomo-cherubini-a-san-giustino-ce-la-giusta-serenita/"
     },
     {
+      "id": "news-5",
+      "title": "PERUGIA, FIPAV UMBRIA, INTERVIENE IL PRESIDENTE GIUSEPPE LOMURNO",
+      "excerpt": "Fonte: umbriajournal.com",
+      "createdTime": "Mon, 11 Nov 2013 07:58:00 GMT",
+      "image": null,
+      "permalink": "https://www.umbriajournal.com/sport/perugia-fipav-umbria-interviene-il-presidente-giuseppe-lomurno-75362/"
+    },
+    {
       "id": "news-4",
       "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
       "excerpt": "Fonte: assisisport.it",
@@ -386,15 +394,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-2",
-      "title": "B maschile: volto (quasi) nuovo per Foligno, ecco Filippo Fuganti Pedoni",
-      "excerpt": "Fonte: volleynews.it",
-      "createdTime": "Fri, 25 Nov 2022 07:27:00 GMT",
-      "image": "https://www.volleynews.it/wp-content/uploads/2022/11/Filippo-Fuganti-Pedoni-Edotto-Rossi-Ascensori-Foligno.jpg",
-      "permalink": "https://www.volleynews.it/b-maschile-volto-quasi-nuovo-per-foligno-ecco-filippo-fuganti-pedoni/"
-    },
-    {
-      "id": "news-4",
+      "id": "news-3",
       "title": "B maschile, Fabio Piumi torna a palleggiare per Foligno",
       "excerpt": "Fonte: volleynews.it",
       "createdTime": "Fri, 13 Jan 2023 03:21:00 GMT",
