@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:40:23.664957+00:00",
+  "generatedAt": "2026-09-17T05:05:50.795167+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -776,20 +776,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626877",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 15",
-      "home": "ITALCHIMICI",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626872",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 15",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626877",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 15",
+      "home": "ITALCHIMICI",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7184,20 +7184,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629359",
-      "competition": "1 Divisione Femminile Girone A",
-      "giornata": "Giornata 9",
-      "home": "TRESTINA VOLLEY",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629357",
       "competition": "1 Divisione Femminile Girone A",
       "giornata": "Giornata 9",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629359",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
