@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:07:50.594278+00:00",
+  "generatedAt": "2026-09-17T09:50:46.869115+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,17 +35,24 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Il grande volley. Buon test interno per Sir Susa Scai Perugia. Pereggio nell’allenamento congiunto con Fano - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uZWpxeHJCUndFQ3NNUnhYbkJaakNaLTlDM29TbG8yR2ptbGpGcDIwMzl5SjYtZWNlVEJad3R0cHJ1UHhscnVrRWFUVE1UcWIzam5hdlBmVFNRVlJGc3ZvcGlLR2dOUFlrRmkyajIxb29UVEZXSDNGcVZlQTRxUQ?oc=5",
+        "pubDate": "Thu, 17 Sep 2026 06:24:27 GMT",
+        "source": "La Nazione",
+        "image": null
+      },
+      {
         "title": "Sir Susa Scai Perugia, c’è Fano: \"Questi test sono sempre utili\"",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a29c2e422eb8964f9787807c3d&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fother%2fsir-susa-scai-perugia-c-%25C3%25A8-fano-questi-test-sono-sempre-utili%2far-AA2ckvVE&c=13606875558980789725&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f2440e46eba024eb0aa1aa4ac0&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fother%2fsir-susa-scai-perugia-c-%25C3%25A8-fano-questi-test-sono-sempre-utili%2far-AA2ckvVE&c=13606875558980789725&mkt=it-it",
         "pubDate": "Tue, 15 Sep 2026 23:21:17 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Euro2026, l'Italia abbatte la Repubblica Ceca e conquista gli ottavi. Gli uomini Sir rispondono ancora presente - perugiatoday.it",
+        "title": "Euro2026, l'Italia abbatte la Repubblica Ceca e conquista gli ottavi. Gli uomini Sir rispondono ancora presente - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMzJkaXdTYmtjd3gwQjFFZEZYRml3WDhUa25Ed1dLSTI1TzlBZUlfTjBtNVZGY0dMWjdMWDFOdVFZZUtNa0puMzE5THd3ZlBuOEhIVXZqRTVrWTBVdW9iNlR1Ul9Jejdxb1k5UWxmQXFwMVN4dS1QRGdCd1dONUxMSDRKQXRkQXY5NjlvLTBKVFZnV0hlR2pULVRaNkprbjV0alBQeGpVRmFPc1Y2OXJqWGxRMmMxVURWYlN2T0JySWMyVERrTWozUjNsb0lOc0pNb21aQi1tUQ?oc=5",
         "pubDate": "Tue, 15 Sep 2026 21:30:00 GMT",
-        "source": "perugiatoday.it",
+        "source": "PerugiaToday",
         "image": null
       },
       {
@@ -61,56 +68,49 @@
         "pubDate": "Mon, 14 Sep 2026 08:47:00 GMT",
         "source": "Comune di Cuneo",
         "image": null
-      },
-      {
-        "title": "Mondiale per Club, la Sir Sicoma Monini Perugia conosce il suo cammino - perugiatoday.it",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdG9oZkVpVFZnWl85WlRZRlJuY2VLT3VpU1BTaUlrWVNucmxacWN3QlB5TFVxb05GQ2RkT3Q2dHpuT0dCeDhwMnZUMDN4aHhCTVdTWjFhdmVkNWI4ZE5KSW9TRXBVeEtkdmdFMmtBbDFTWHZUcTJLSkdSNDhtUk85Z3d4d2VyVUNuby00?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 20:06:47 GMT",
-        "source": "perugiatoday.it",
-        "image": null
       }
     ],
     "bartoccini": [
       {
         "title": "Le Black Angels in campo contro la violenza sulle donne",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a3229840a69f7f8ed69ea9f632&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-in-campo-contro-la-violenza-sulle-donne%2f&c=2879555171106801113&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f3297e4afe84e2756bfd86083c&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-in-campo-contro-la-violenza-sulle-donne%2f&c=2879555171106801113&mkt=it-it",
         "pubDate": "Tue, 15 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Le Black Angels conquistano il pubblico del PalaBarton",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a3229840a69f7f8ed69ea9f632&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-il-pubblico-del-palabarton%2f&c=13052656509169250499&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f3297e4afe84e2756bfd86083c&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-il-pubblico-del-palabarton%2f&c=13052656509169250499&mkt=it-it",
         "pubDate": "Sat, 12 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Black Angels, Cecilia Nicolini vicecapitano: «Una bella responsabilità»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a3229840a69f7f8ed69ea9f632&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fblack-angels-cecilia-nicolini-vicecapitano-una-bella-responsabilit%25C3%25A0%2far-AA2bZyJr&c=11019841730268103603&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f3297e4afe84e2756bfd86083c&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fblack-angels-cecilia-nicolini-vicecapitano-una-bella-responsabilit%25C3%25A0%2far-AA2bZyJr&c=11019841730268103603&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 10:35:59 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Volley A2 femminile, Cecilia Nicolini è il nuovo vicecapitano della Bartoccini + energia Perugia - perugiatoday.it",
+        "title": "Volley A2 femminile, Cecilia Nicolini è il nuovo vicecapitano della Bartoccini + energia Perugia - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXy0tTll0S05sanY1YUhBRFpHRVdwYkMxREVGSi1GaXB2ajNMM21JU20xVWJLQmxlZUZ5R19yYV9yVWd6aEhHOHZKWm9NNTVTMmV5V2VNZmtMTWxIYXlJdW5rSTdqdnZGRjlQanVZU1VlNFozZ0hwdFlVamFkbTloOVZEVDFTRG5sMkpyN0RPbEVIR3djUU1DeFpHTk9HWHdIM1Rj?oc=5",
         "pubDate": "Thu, 10 Sep 2026 09:24:18 GMT",
-        "source": "perugiatoday.it",
+        "source": "PerugiaToday",
         "image": null
       },
       {
-        "title": "Volley A2 femminile, la Bartoccini + energia Perugia sceglie Alessia Fiesoli come nuovo capitano - perugiatoday.it",
+        "title": "Volley A2 femminile, la Bartoccini + energia Perugia sceglie Alessia Fiesoli come nuovo capitano - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXljYWNrM1NKbld4eEJyN2FKemtFQ3NMVjJWMG1wbmRHUWd5VVJYY1k0WVMya3Mtcjc3aENTeDBLUlZLWUx4d2R0QkF5aVV6Z212RkFpeUk1UU1oVTh3YzN3US1LRmt3TW5Dak9Pc2k0ZldPQlRfMkFNSTl0LVE2X3A5RFJ6bEdDUXVjeWFUWTNyM0FwaXFBMHhxN091R09lTFVNNWMxOA?oc=5",
         "pubDate": "Tue, 08 Sep 2026 13:17:43 GMT",
-        "source": "perugiatoday.it",
+        "source": "PerugiaToday",
         "image": null
       }
     ],
     "tva": [
       {
         "title": "Terni Volley Academy: si parte. Raduno e prima ‘sudata’. Le interviste",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a36a7a40078b5067f5770eb019&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f416ea47a2971b356e24f5d9ce&url=https%3a%2f%2fwww.umbriaon.it%2fterni-volley-academy-si-parte-raduno-e-prima-sudata-le-interviste%2f&c=16765377896466415284&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 09:40:00 GMT",
         "source": "",
         "image": null
@@ -147,16 +147,16 @@
     "altotevere": [
       {
         "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a42d7b43cc80c0687a792b2392&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f461254486ac66899c5c28e5aa&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Volley, il futuro dell'Altotevere passa per l'esperienza: ruoli chiave a Cardellini e Tizzi - Tag24 Umbria",
+        "title": "Volley, il futuro dell'Altotevere passa per l'esperienza: ruoli chiave a Cardellini e Tizzi - umbria.tag24.it",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQUNrWEh0S1N0WFNsR2NhUTBmTlplYkFrX1pkM0dYcmt6OGlWQkMyc3g5dUlYUTRQb082Zmt3Zml3NEppZVdvM053ODlBYUdGRGoxampyMDFyUmc3UW91M3l4bmdmbU96Vnp5dVYzYXFLMTJRbGdoVzhITl9PRjhJZTNUdjVCUUJqZ2hYM3BnMnZRRTFiYXdQcm9wWjVFaExDNUNrRE1TUTVSS1Fzb2ZMbA?oc=5",
         "pubDate": "Wed, 09 Sep 2026 18:00:00 GMT",
-        "source": "Tag24 Umbria",
+        "source": "umbria.tag24.it",
         "image": null
       },
       {
@@ -174,24 +174,31 @@
         "image": null
       },
       {
-        "title": "Pallavolo A3M - ErmGroup Altotevere, Roberto Pinali: \"Pronto a essere il valore aggiunto della squadra\" - iVolley Magazine",
+        "title": "Pallavolo A3M - ErmGroup Altotevere, Roberto Pinali: \"Pronto a essere il valore aggiunto della squadra\" - ivolleymagazine.it",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNXE3Z0VhUFdxTUt0R1NqTDgwMFoxVWdMRDhtOU9ib0xNLUlWdVZoZWw2NU1La3hEQ2VVdmwtT2g4SmZmRlVIbmJRZTg0ZWNCVWN6VkF5RTkyYnAySW84UkE0UFRPY2NjVmhJcFliY2xGZUVpLWR3NGxIM3NWYmdIZl9MOTRxNjVNbmRWV25jYlVhTk4tRXZjRnc4RWM5OTZQSWM5TnF0bEE4eG9jMTZVOXFqUzhxTDdNeklTcTNsaE44LWJMTzVhZlh6MzdTWXZSbkIwTkdqUQ?oc=5",
         "pubDate": "Thu, 03 Sep 2026 13:28:14 GMT",
-        "source": "iVolley Magazine",
+        "source": "ivolleymagazine.it",
         "image": null
       }
     ],
     "citta-castello": [
       {
+        "title": "Dream Volley Nardò, la nuova stagione comincia in piazza",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f5364c4dbda16b539088154f98&url=https%3a%2f%2fwww.ilgallo.it%2fsport%2fdream-volley-nardo-la-nuova-stagione-comincia-in-piazza%2f&c=713804204587616508&mkt=it-it",
+        "pubDate": "Wed, 16 Sep 2026 09:38:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "A Città di Castello torna il torneo “Volley Francesca Fabbri”: tre giorni che vanno oltre lo sport",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a5c7c8485188f6518fa844cac6&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fa-citta-di-castello-torna-il-torneo-volley-francesca-fabbri-tre-giorni-che-vanno-oltre-lo-sport%2f&c=1008758518774138324&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f5364c4dbda16b539088154f98&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fa-citta-di-castello-torna-il-torneo-volley-francesca-fabbri-tre-giorni-che-vanno-oltre-lo-sport%2f&c=1008758518774138324&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "La Sirio Perugia Volley supera Città di Castello in amichevole. E il club “chiede” di giocare al PalaBarton",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a5c7c8485188f6518fa844cac6&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sirio-perugia-volley-supera-citta-di-castello-in-amichevole-e-il-club-chiede-di-giocare-al-palabarton%2f&c=2019114665973811529&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f5364c4dbda16b539088154f98&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sirio-perugia-volley-supera-citta-di-castello-in-amichevole-e-il-club-chiede-di-giocare-al-palabarton%2f&c=2019114665973811529&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
         "source": "",
         "image": null
@@ -204,47 +211,40 @@
         "image": null
       },
       {
-        "title": "Tris Città di Castello. E Monteluce sogna - lanazione.it",
+        "title": "Tris Città di Castello. E Monteluce sogna - La Nazione",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00eW9PZ2RXRDJhREktdjdBZGtPOEVveWhCbGNqQ2pzbF8wS2ozRWJLejJ3SHZYUFgtSWxaUzBzbE9TQ1FXeHUybzF3dWNFa1pjQllaR1YycTV3aGEwT1BURHZBYzBmRkJyUHlzUlE5TXpPTUt5QVRpSU1TSUVjZw?oc=5",
         "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "source": "lanazione.it",
-        "image": null
-      },
-      {
-        "title": "Città di Castello Pallavolo: la Serie B Maschile inserita nel girone E - saturnonotizie.it",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRkMtVU1XZ3NzdXNkNm9lYjIyLWJfaUVzOVQ5NVZDSkpSS0gzUi1lLUN4SW9aVExnQnY2MllQUzZManlVUDVuSzlHZ1FmWXRHYW4wSkZWTzFmTG91dlBsdGZ1Wm9zZEhrcUVvR0ZTY2FFd1Z4VWVZR3ljU3Z4NWdBRTBianlidw?oc=5",
-        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
-        "source": "saturnonotizie.it",
+        "source": "La Nazione",
         "image": null
       }
     ],
     "marsciano": [
       {
         "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a6ecbf4d8d8be4e25b9c982d99&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni%2f&c=14798107103279752141&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f634cd4108aee0ba4efbf9989e&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni%2f&c=14798107103279752141&mkt=it-it",
         "pubDate": "Tue, 08 Sep 2026 17:01:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Beach Volley, Trofeo delle Regioni 2026: Umbria protagonista con Cianella, Mele, Bertola e Covarelli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aab75a6ecbf4d8d8be4e25b9c982d99&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aabb7f634cd4108aee0ba4efbf9989e&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-trofeo-delle-regioni-2026-umbria-protagonista-con-cianella-mele-bertola-e-covarelli%2f&c=2997250390918169034&mkt=it-it",
         "pubDate": "Thu, 03 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - lanazione.it",
+        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - La Nazione",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyTmhCWWlMaHBXMkNaOUxzcC1xMmlHLUNtemN4R1RNV21VaklJTGJ4dUdTQWN6d0lvQmg2LUdmS1laREVZNzhSaTA2al93WGE1NzV4M3JMWEJ5NHZWZk5kX2hJTmVVd0pKdHkwYktma0x5TWxNLW1NZQ?oc=5",
         "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
-        "source": "lanazione.it",
+        "source": "La Nazione",
         "image": null
       },
       {
-        "title": "B-Connect: svelati i gironi di Serie B Maschile, B1 e B2 femminile: le squadre laziali pronte a scendere in campo - fipavlazio.net",
+        "title": "B-Connect: svelati i gironi di Serie B Maschile, B1 e B2 femminile: le squadre laziali pronte a scendere in campo - FIPAV Lazio",
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLWRQNi1weUJsRzhMSVlzQWxLby1aSVFmZnZYTnZKNGk2cGpiTnY5LXRXbVUzZDRlVVBVdXNtODJ2cFgxbHhoNHBYemphNVJsaHZKRXl0V2VKdTJ5c2F2X2V0d2dqQmpQRGN4ajNqLTZTUVp5b1lTZXEwQmMxVnRQcDNyWkh1MlAwaDFNVEtZVHpueFBmR2hDZEJ5UHFXUmVpcUVSaURtZkV4c29ZbnhTSFpDSnllcnIyX0kzWHBndHBDSTdXeDNHaTRCdDdkQU81R1VhTlVYMEFfSndrd1VJV1R0N3otYUJLaWlR?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "source": "fipavlazio.net",
+        "source": "FIPAV Lazio",
         "image": null
       },
       {

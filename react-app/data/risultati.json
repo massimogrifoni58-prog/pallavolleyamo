@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T05:05:50.795167+00:00",
+  "generatedAt": "2026-09-17T09:49:03.310799+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -4934,20 +4934,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627156",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 10",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627159",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 10",
       "home": "EMMEPI  GROUP  PONTE FELCINO",
       "away": "POLISPORTIVA DELFINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627156",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5096,20 +5096,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627176",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 13",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627175",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 13",
       "home": "EMMEPI  GROUP  PONTE FELCINO",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627176",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5582,20 +5582,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627231",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 22",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627226",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 22",
       "home": "EMMEPI  GROUP  PONTE FELCINO",
       "away": "SIRIO PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627231",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 22",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "TIBER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7562,20 +7562,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629401",
-      "competition": "1 Divisione Femminile Girone A",
-      "giornata": "Giornata 17",
-      "home": "POLISP DON BOSCO GUBBIO BIANCA",
-      "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629398",
       "competition": "1 Divisione Femminile Girone A",
       "giornata": "Giornata 17",
       "home": "A.S. FOSSATO VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629401",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "ELLERA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
