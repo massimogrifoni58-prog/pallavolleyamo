@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T05:03:38.871634+00:00",
+  "generatedAt": "2026-09-18T09:22:47.575838+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -7589,15 +7589,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629403",
-      "competition": "1 Divisione Femminile Girone A",
-      "giornata": "Giornata 18",
-      "home": "VOLLEY PIETRALUNGA",
-      "away": "A.S. FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629404",
       "competition": "1 Divisione Femminile Girone A",
       "giornata": "Giornata 18",
@@ -7621,6 +7612,15 @@
       "giornata": "Giornata 18",
       "home": "TIBER VOLLEY",
       "away": "ELETTRA  2  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629403",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "VOLLEY PIETRALUNGA",
+      "away": "A.S. FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
