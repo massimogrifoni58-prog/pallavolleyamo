@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T09:20:38.469358+00:00",
+  "generatedAt": "2026-09-19T05:01:16.006049+00:00",
   "posts": [
     {
       "id": "vnlfinalsitaliastatiunitivalel",
@@ -64,6 +64,14 @@
       "createdTime": "Wed, 16 Sep 2026 12:21:59 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Luca_Porro.jpg",
       "permalink": "https://www.volleyball.it/2026/09/16/notizie/argomenti/europei-maschili/articolo/eurovolley-porro-verso-la-slovenia-al-palapanini-in-azzurro-e-ancora-piu-magico.html"
+    },
+    {
+      "id": "11",
+      "title": "Cuneo Volley e Scuola di Pallavolo Cuneo insieme per portare lo sport nelle scuole",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Wed, 16 Sep 2026 09:49:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/09/16/144913525-aeda0d65-fdf9-40ba-9223-df198d822db3.jpeg",
+      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/09/16-151282918/cuneo_volley_e_scuola_di_pallavolo_cuneo_insieme_per_portare_lo_sport_nelle_scuole"
     },
     {
       "id": "eurovolleyromandopolacechiamis",
@@ -162,31 +170,7 @@
       "permalink": "https://www.volleyball.it/2026/09/15/notizie/argomenti/europei-maschili/articolo/eurovolley-pool-a-italia-a-quattro-vittorie-ma-il-primo-posto-non-e-ancora-matematico.html"
     },
     {
-      "id": "eurovolleylitalialottacomeunle",
-      "title": "Eurovolley: L'Italia lotta come un leone. Bella gara di Romanò-Bottolo ben ispirati da Giannelli",
-      "excerpt": "15/09/2026, ore 21:05 - ModenaREPUBBLICA CECA-ITALIA 1-3 (25-23, 16-25, 20-25, 20-25).REPUBBLICA...",
-      "createdTime": "Tue, 15 Sep 2026 23:12:02 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Italia_abbraccio.jpg",
-      "permalink": "https://www.volleyball.it/2026/09/15/notizie/argomenti/europei-maschili/articolo/eurovolley-litalia-lotta-come-un-leone-bella-gara-di-romano-bottolo-ben-ispirati-da-giannelli.html"
-    },
-    {
-      "id": "eurovolleyitaliarepubblicaceca",
-      "title": "Eurovolley: Italia-Repubblica Ceca, sei precedenti, sei vittorie azzurre",
-      "excerpt": "Bilancio perfetto per l’Italia nei confronti con la Repubblica Ceca ai Campionati Europei maschili....",
-      "createdTime": "Tue, 15 Sep 2026 17:26:03 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Michieletto_vs_Rep-.Ceca_Ostrava.jpg",
-      "permalink": "https://www.volleyball.it/2026/09/15/notizie/argomenti/europei-maschili/articolo/eurovolley-italia-repubblica-ceca-sei-precedenti-sei-vittorie-azzurre.html"
-    },
-    {
-      "id": "eurovolleyitaliarepubblicaceca",
-      "title": "Eurovolley: Italia-Repubblica Ceca: Indra favorito su Sotola, il sestetto ceco verso la sfida di stasera",
-      "excerpt": "La Repubblica Ceca dovrebbe confermare quasi in blocco la formazione utilizzata nelle prime tre...",
-      "createdTime": "Tue, 15 Sep 2026 16:54:11 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Rep_Ceca.jpg",
-      "permalink": "https://www.volleyball.it/2026/09/15/notizie/argomenti/europei-maschili/articolo/eurovolley-italia-repubblica-ceca-indra-favorito-su-sotola-il-sestetto-ceco-verso-la-sfida-di-sta.html"
-    },
-    {
-      "id": "11",
+      "id": "9",
       "title": "La Fipav Messina celebra il successo delle Nazionali del volley in città",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Tue, 15 Sep 2026 11:00:00 GMT",
@@ -290,14 +274,6 @@
       "permalink": "https://www.volleyball.it/2026/09/17/notizie/argomenti/risultati/articolo/europei-maschili-2026-calendario-risultati-classifiche-e-fase-finale.html"
     },
     {
-      "id": "8",
-      "title": "Europei pallavolo 2026, Italia-Slovenia 3-2",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Thu, 17 Sep 2026 22:19:08 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/notizie/other/europei-pallavolo-2026-italia-slovenia-3-2/ar-AA2cu021"
-    },
-    {
       "id": "eurovolleyitaliaprimopostomate",
       "title": "Eurovolley: Italia, primo posto matematico nella Pool A: definiti tutti gli ottavi di finale",
       "excerpt": "MODENA - L’Italia conquista matematicamente il primo posto nella Pool A degli Europei maschili....",
@@ -312,6 +288,22 @@
       "createdTime": "Thu, 17 Sep 2026 18:25:34 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/bracket_maschile_-_5_GG.jpg",
       "permalink": "https://www.volleyball.it/2026/09/17/notizie/argomenti/europei-maschili/articolo/eurovolley-vittorie-per-grecia-e-belgio-ellenici-al-3-posto-della-pool-a-zanini-alla-finestra.html"
+    },
+    {
+      "id": "1",
+      "title": "Pallavolo MemorialSimonettaAvalle – Due giorni di pallavolo di serie A per ricordare la “Signora del Volley”",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 17 Sep 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/09/18/pallavolo-memorialsimonettaavalle-due-giorni-di-pallavolo-di-serie-a-per-ricordare-la-signora-del-volley/"
+    },
+    {
+      "id": "2",
+      "title": "Pallavolo EuroVolleyM2026 – Auditel: continuano i grandi ascolti per le partite degli Azzurri",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 17 Sep 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/09/18/pallavolo-eurovolleym2026-auditel-continuano-i-grandi-ascolti-per-le-partite-degli-azzurri/"
     },
     {
       "id": "eurovolleyitaliasloveniavaleil",
@@ -346,11 +338,11 @@
       "permalink": "https://www.volleyball.it/2026/09/17/notizie/argomenti/europei-maschili/articolo/eurovolley-lavia-prima-e-dopo-linfortunio-sono-due-giocatori-diversi.html"
     },
     {
-      "id": "3",
+      "id": "7",
       "title": "Pallavolo, dai primi passi a Bagno a Ripoli al sogno azzurro: la favola di Denise Meli",
       "excerpt": "Fonte: intoscana.it",
       "createdTime": "Thu, 17 Sep 2026 06:36:00 GMT",
-      "image": "https://www.intoscana.it/wp-content/uploads/denise-meli-3-e1789649932880.jpeg",
+      "image": null,
       "permalink": "https://www.intoscana.it/it/pallavolo-intervista-denise-meli/"
     },
     {
@@ -368,14 +360,6 @@
       "createdTime": "Thu, 10 Sep 2026 10:53:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Praga.jpg",
       "permalink": "https://www.volleyball.it/2026/09/10/notizie/argomenti/internazionale/articolo/succedeva-oggi-10-settembre-i-primi-mondiali-i-50-anni-di-nummerdor-e-due-tie-break-azzurri.html"
-    },
-    {
-      "id": "5",
-      "title": "Italia-Svezia oggi, Europei di pallavolo maschile: a che ora e dove vederla in diretta in chiaro",
-      "excerpt": "Fonte: today.it",
-      "createdTime": "Thu, 10 Sep 2026 02:49:00 GMT",
-      "image": null,
-      "permalink": "https://www.today.it/sport/volley/italia-svezia-oggi-europei-pallavolo-maschile-orario-diretta.html"
     },
     {
       "id": "plotnytskyicriticomentregliucr",
@@ -474,18 +458,10 @@
       "permalink": "https://www.quotidianodipuglia.it/brindisi/brindisi_festa_calcio_presentazione_e_nazionale_pallavolo_in_contemporanea_istituzioni_scelgono_calcio_locale-9720279.html"
     },
     {
-      "id": "2",
-      "title": "Pallavolo Brasile – Zé Roberto annuncia che chiuderà il ciclo in Nazionale nel 2028",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sun, 13 Sep 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/09/14/pallavolo-brasile-ze-roberto-annuncia-che-chiudera-il-ciclo-in-nazionale-nel-2028/"
-    },
-    {
-      "id": "7",
+      "id": "5",
       "title": "Italia-Slovacchia oggi, Europei di pallavolo maschile: a che ora e dove vederla in diretta",
       "excerpt": "Fonte: today.it",
-      "createdTime": "Sun, 13 Sep 2026 01:06:00 GMT",
+      "createdTime": "Sun, 13 Sep 2026 03:07:00 GMT",
       "image": null,
       "permalink": "https://www.today.it/sport/volley/italia-slovacchia-europei-pallavolo-maschile-orario-diretta.html"
     },
@@ -626,20 +602,44 @@
       "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
     },
     {
-      "id": "6",
-      "title": "Italia-Slovacchia pallavolo stasera su Rai 2: Europei in diretta",
-      "excerpt": "Fonte: napolike.it",
-      "createdTime": "Sat, 12 Sep 2026 23:33:00 GMT",
-      "image": "https://www.napolike.it/wp-content/uploads/2026/09/italia-slovacchia-pallavolo-stasera-su-rai-2-europei-in-diretta-1789281195.jpg",
-      "permalink": "https://www.napolike.it/televisione/2026/09/italia-slovacchia-pallavolo-stasera-rai-2-europei-339245"
+      "id": "mondovolleylealtrenewsdell8ago",
+      "title": "Mondo Volley: Le altre news dell'8 agosto 2026: Michieletto torna in azzurro, Vallefoglia riparte, il Brasile vola in semifinale",
+      "excerpt": "Convocazioni, mercato, raduni e risultati internazionali: tutte le notizie della pallavolo italiana...",
+      "createdTime": "Sat, 08 Aug 2026 23:02:48 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Michieletto_italia.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/08/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-dell8-agosto-2026-michieletto-torna-in-azzurro-vallefoglia-riparte-i.html"
     },
     {
-      "id": "1",
-      "title": "Pallavolo EuroVolleyM2026 – Ucraina: Raúl Lozano e Oleh Plotnytskyi e la significativa vittoria con la Bulgaria",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sat, 12 Sep 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/09/13/pallavolo-eurovolleym2026-ucraina-raul-lozano-e-oleh-plotnytskyi-e-la-significativa-vittoria-con-la-bulgaria/"
+      "id": "europeifemminiliserbiapoloniae",
+      "title": "Europei femminili: Serbia-Polonia e Italia-Turchia, la programmazione tv delle finali",
+      "excerpt": "Domenica 6 settembre a Istanbul si assegnano le medaglie. Alle 15 Serbia-Polonia per il bronzo,...",
+      "createdTime": "Sat, 05 Sep 2026 21:50:17 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/televisione_finale.png",
+      "permalink": "https://www.volleyball.it/2026/09/05/notizie/argomenti/europei-femminili/articolo/europei-femminili-serbia-polonia-e-italia-turchia-la-programmazione-tv-delle-finali.html"
+    },
+    {
+      "id": "europeifemminilivelascodopolap",
+      "title": "Europei Femminili: Velasco dopo la Polonia, \"Domani dovremo isolarci dall'ambiente\"",
+      "excerpt": "Julio Velasco analizza la semifinale vinta dall'Italia contro la Polonia e individua i punti da...",
+      "createdTime": "Sat, 05 Sep 2026 21:21:55 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Velsco_1.jpg",
+      "permalink": "https://www.volleyball.it/2026/09/05/notizie/argomenti/europei-femminili/articolo/europei-femminili-velasco-dopo-la-polonia-domani-dovremo-isolarci-dallambiente.html"
+    },
+    {
+      "id": "europeifemminilidanesidopolapo",
+      "title": "Europei Femminili: Danesi dopo la Polonia, \"Domani spero che qualcuno mi faccia arrabbiare\"",
+      "excerpt": "Anna Danesi commenta la semifinale vinta dall'Italia sulla Polonia e sottolinea il peso del muro e...",
+      "createdTime": "Sat, 05 Sep 2026 21:16:22 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Urlo_Danesi.jpg",
+      "permalink": "https://www.volleyball.it/2026/09/05/notizie/argomenti/europei-femminili/articolo/europei-femminili-danesi-dopo-la-polonia-domani-spero-che-qualcuno-mi-faccia-arrabbiare.html"
+    },
+    {
+      "id": "europeifemminilisylladopolapol",
+      "title": "Europei Femminili: Sylla dopo la Polonia, \"Sono orgogliosa: siamo rimaste lì anche nelle difficoltà\"",
+      "excerpt": "Myriam Sylla racconta la semifinale vinta dall'Italia contro la Polonia e il lavoro fatto per...",
+      "createdTime": "Sat, 05 Sep 2026 21:04:49 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Sylla_urtlo.jpg",
+      "permalink": "https://www.volleyball.it/2026/09/05/notizie/argomenti/europei-femminili/articolo/europei-femminili-sylla-dopo-la-polonia-sono-orgogliosa-siamo-rimaste-li-anche-nelle-difficolt.html"
     }
   ]
 }
