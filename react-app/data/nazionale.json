@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T05:01:16.006049+00:00",
+  "generatedAt": "2026-09-19T09:07:59.730139+00:00",
   "posts": [
     {
       "id": "vnlfinalsitaliastatiunitivalel",
@@ -66,7 +66,7 @@
       "permalink": "https://www.volleyball.it/2026/09/16/notizie/argomenti/europei-maschili/articolo/eurovolley-porro-verso-la-slovenia-al-palapanini-in-azzurro-e-ancora-piu-magico.html"
     },
     {
-      "id": "11",
+      "id": "12",
       "title": "Cuneo Volley e Scuola di Pallavolo Cuneo insieme per portare lo sport nelle scuole",
       "excerpt": "Fonte: tuttosport.com",
       "createdTime": "Wed, 16 Sep 2026 09:49:00 GMT",
@@ -168,14 +168,6 @@
       "createdTime": "Tue, 15 Sep 2026 23:55:29 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/inno.jpg",
       "permalink": "https://www.volleyball.it/2026/09/15/notizie/argomenti/europei-maschili/articolo/eurovolley-pool-a-italia-a-quattro-vittorie-ma-il-primo-posto-non-e-ancora-matematico.html"
-    },
-    {
-      "id": "9",
-      "title": "La Fipav Messina celebra il successo delle Nazionali del volley in città",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Tue, 15 Sep 2026 11:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/sport/generale/la-fipav-messina-celebra-il-successo-delle-nazionali-del-volley-in-citt%C3%A0/ar-AA2chd28"
     },
     {
       "id": "succedevaoggi15settembreberlin",
@@ -298,7 +290,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/09/18/pallavolo-memorialsimonettaavalle-due-giorni-di-pallavolo-di-serie-a-per-ricordare-la-signora-del-volley/"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Pallavolo EuroVolleyM2026 – Auditel: continuano i grandi ascolti per le partite degli Azzurri",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 17 Sep 2026 17:00:00 GMT",
@@ -342,7 +334,7 @@
       "title": "Pallavolo, dai primi passi a Bagno a Ripoli al sogno azzurro: la favola di Denise Meli",
       "excerpt": "Fonte: intoscana.it",
       "createdTime": "Thu, 17 Sep 2026 06:36:00 GMT",
-      "image": null,
+      "image": "https://www.intoscana.it/wp-content/uploads/denise-meli-3-e1789649932880.jpeg",
       "permalink": "https://www.intoscana.it/it/pallavolo-intervista-denise-meli/"
     },
     {
@@ -352,6 +344,14 @@
       "createdTime": "Thu, 17 Sep 2026 02:24:19 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/sanguinetti_video.jpg",
       "permalink": "https://www.volleyball.it/2026/09/17/notizie/argomenti/europei-maschili/articolo/eurovolley-sanguinetti-devo-tanto-a-modena-ma-ora-e-il-momento-dei-saluti.html"
+    },
+    {
+      "id": "10",
+      "title": "Pallavolo: Italia Svezia 3-0, esordio vincente a Napoli",
+      "excerpt": "Fonte: tg24.sky.it",
+      "createdTime": "Thu, 10 Sep 2026 16:32:00 GMT",
+      "image": null,
+      "permalink": "https://tg24.sky.it/sport/2026/09/10/pallavolo-italia-svezia-napoli-risultato"
     },
     {
       "id": "succedevaoggi10settembreiprimi",
@@ -448,22 +448,6 @@
       "createdTime": "Sun, 26 Jul 2026 11:30:42 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Italia_Bronzo.jpg",
       "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-bella-risposta-azzurra-litalia-chiude-con-il-bronzo-cina-battuta-3-1-nella-finale-p.html"
-    },
-    {
-      "id": "10",
-      "title": "Presentazione del Brindisi Fc e nazionale di pallavolo in contemporanea: le istituzioni scelgono il calcio locale",
-      "excerpt": "Fonte: quotidianodipuglia.it",
-      "createdTime": "Sun, 23 Aug 2026 14:24:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/22/9720279_22202007_giochi_del_mediterraneo.jpg",
-      "permalink": "https://www.quotidianodipuglia.it/brindisi/brindisi_festa_calcio_presentazione_e_nazionale_pallavolo_in_contemporanea_istituzioni_scelgono_calcio_locale-9720279.html"
-    },
-    {
-      "id": "5",
-      "title": "Italia-Slovacchia oggi, Europei di pallavolo maschile: a che ora e dove vederla in diretta",
-      "excerpt": "Fonte: today.it",
-      "createdTime": "Sun, 13 Sep 2026 03:07:00 GMT",
-      "image": null,
-      "permalink": "https://www.today.it/sport/volley/italia-slovacchia-europei-pallavolo-maschile-orario-diretta.html"
     },
     {
       "id": "mondovolleylealtrenewsdel9agos",
@@ -600,6 +584,22 @@
       "createdTime": "Sat, 22 Aug 2026 10:00:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Italia_festa_vs_Slovacchia_Mondiale_2025.jpg",
       "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
+    },
+    {
+      "id": "6",
+      "title": "Sarah Fahr si sposa, il pilastro della Nazionale di pallavolo a nozze con Nicolò Gatti: “Una cosa folle”",
+      "excerpt": "Fonte: dilei.it",
+      "createdTime": "Sat, 19 Sep 2026 00:35:00 GMT",
+      "image": "https://dilei.it/wp-content/uploads/sites/3/2026/09/sarah-fahr.jpg",
+      "permalink": "https://dilei.it/vip/sarah-fahr-matrimonio-nicolo-gatti/2726214/"
+    },
+    {
+      "id": "9",
+      "title": "Italia-Slovacchia pallavolo stasera su Rai 2: Europei in diretta",
+      "excerpt": "Fonte: napolike.it",
+      "createdTime": "Sat, 12 Sep 2026 23:33:00 GMT",
+      "image": "https://www.napolike.it/wp-content/uploads/2026/09/italia-slovacchia-pallavolo-stasera-su-rai-2-europei-in-diretta-1789281195.jpg",
+      "permalink": "https://www.napolike.it/televisione/2026/09/italia-slovacchia-pallavolo-stasera-rai-2-europei-339245"
     },
     {
       "id": "mondovolleylealtrenewsdell8ago",
