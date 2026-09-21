@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T05:03:34.948743+00:00",
+  "generatedAt": "2026-09-21T10:23:53.462469+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1847,6 +1847,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626995",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "UMBRA SERVIZI-U.V.A. DERUTA",
+      "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626997",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 9",
@@ -1870,15 +1879,6 @@
       "giornata": "Giornata 9",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626995",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 9",
-      "home": "UMBRA SERVIZI-U.V.A. DERUTA",
-      "away": "FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2063,20 +2063,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627019",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 13",
-      "home": "BARTOCCINI SCHOOL VOLLEY",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627018",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 13",
       "home": "UMBRA SERVIZI-U.V.A. DERUTA",
       "away": "A.S.D. TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627019",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 13",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2387,6 +2387,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627057",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 19",
+      "home": "UMBRA SERVIZI-U.V.A. DERUTA",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627052",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 19",
@@ -2401,15 +2410,6 @@
       "giornata": "Giornata 19",
       "home": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "away": "FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627057",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 19",
-      "home": "UMBRA SERVIZI-U.V.A. DERUTA",
-      "away": "ELLERA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2612,20 +2612,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627077",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 23",
-      "home": "BARTOCCINI SCHOOL VOLLEY",
-      "away": "A.S.D. TREVI VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627079",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 23",
       "home": "UMBRA SERVIZI-U.V.A. DERUTA",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627077",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 23",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "A.S.D. TREVI VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5636,20 +5636,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627236",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "ASD PGS BOSICO VOLLEY GREEN2",
-      "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627233",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 1",
       "home": "MARCONI MONINI PALLAVOLO GREEN1",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627236",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5960,6 +5960,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627273",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627268",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 7",
@@ -5974,15 +5983,6 @@
       "giornata": "Giornata 7",
       "home": "REBELS ASSISI",
       "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627273",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
-      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6248,15 +6248,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627303",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 12",
-      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
-      "away": "ASD PGS DON BOSCO CANNARA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627300",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 12",
@@ -6280,6 +6271,15 @@
       "giornata": "Giornata 12",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627303",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+      "away": "ASD PGS DON BOSCO CANNARA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7148,15 +7148,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629353",
-      "competition": "1 Divisione Femminile Girone A",
-      "giornata": "Giornata 8",
-      "home": "UISP VOLLEY UMBERTIDE",
-      "away": "A.S. FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629356",
       "competition": "1 Divisione Femminile Girone A",
       "giornata": "Giornata 8",
@@ -7171,6 +7162,15 @@
       "giornata": "Giornata 8",
       "home": "TIBER VOLLEY",
       "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629353",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "A.S. FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
