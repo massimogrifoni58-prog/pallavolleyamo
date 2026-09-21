@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:39:28.859429+00:00",
+  "generatedAt": "2026-09-21T05:05:29.963429+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,10 +35,17 @@
   "news": {
     "sir-perugia": [
       {
-        "title": "Euro2026, partiti gli ottavi: avanza la Polonia di Semeniuk - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXNyLWxUTm1WYVNVQzZ6V2hHZE4wYzdWUDcwY3Q5RWxCWUVOWHRLY2t0MGFuaE5Fa05TX05rRnN1MFFoOXh2cHFTUTVreUN4Y0hYSUVIdnN3cnp4R1BfajNMb0NDWEwzYzY3RFY2SUl3UkpvQ2JROXF3ZERGSjdsMTFJYlZncFVEdmg5QXU1aGEwOE5ibi1qWA?oc=5",
-        "pubDate": "Sat, 19 Sep 2026 16:16:02 GMT",
+        "title": "Euro2026, l'Italia sprinta verso i quarti con il 3-0 alla Danimarca - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaVV0VWxhb0NPa3M2QWxGSkNZRHF6RFJyelFJd0N2aERoRTNLbGxOWld2WlJveGFwcnF0VTNyUU9hUFoweUZmZm9NcklnTk1uX2ktZFYzQ2ZRNUwwNUtNZXYzU3B6YVEyTWJaNjBsbzZqRC1xcmpuVERPUE1tTXdCXzduQkF3Q0pqZWdxWUhOc1JiaVBq?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 21:30:00 GMT",
         "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "La Sir. Supercoppa, si giocherà a Parma. Semifinale tra i Block Devils campioni in carica e Trento",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb16afee40fc88d71f6b0ad7b628&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-supercoppa-si-giochera-a-parma-semifinale-tra-i-block-devils-campioni-in-carica-e-trento%2f254109%2f&c=573716652462240937&mkt=it-it",
+        "pubDate": "Sat, 19 Sep 2026 10:26:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -49,13 +56,6 @@
         "image": null
       },
       {
-        "title": "BEN TARA TORNA A PERUGIA! - Sir Safety Perugia",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJZmdBaEJHeXNLZ05YNUZRV3AxYzZOSjBsdV92UEYxRDVLaHpSV3d0QlZSU3BJbTA4bFc0VjhuVDBoVzg1TDBOQ3NQWXJPUjRXYXE4X3ZxODFKcjIwZWRNSy02ZXhpcHpiUEZweg?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 09:29:41 GMT",
-        "source": "Sir Safety Perugia",
-        "image": null
-      },
-      {
         "title": "Sir Perugia, il test match con Fano finisce 2-2 - Umbria TV",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWQ4ZXFIQy1PZWNBYS1WNmkwZjhfX2NhSjBGZWNZcHZCNWdtWTVWZlU3LXNLeFFWU1ZrckZiaTdmcWVQVWNqaElDYzAxVV90QmdNTDBBT0RPS3h0ajRMMXlJSDlOeFU4SnJVOTRlRWhWSEVGeHJhN0pOODk5MURPZ1Z1WS04MWFFX21aRGtRUUY2bFlsMVNCUw?oc=5",
         "pubDate": "Fri, 18 Sep 2026 07:50:16 GMT",
@@ -63,56 +63,70 @@
         "image": null
       },
       {
-        "title": "Sir Perugia, Cappadona: \"Soddisfatti della prima uscita\" - Umbria TV",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ2M5MHh6Nm9OWFNpaEwwREsyeXhtVDBSSGNKc3ZzbnhuR2VpSWxyb2ZaRzVXYi1zQUc1b0p0NldCa1hTY0g0dWZNOUU0MldQSFQ1UnNVX29zcWRYUWx4MFpad1g1RFVUUHFpRGxfWmpVSVlyb1Jyb0VjWGR5czRSaWFMOFp6RHZFOVBJdUpGT3JZRDdCRW4xYXZ3YXpUclp0?oc=5",
-        "pubDate": "Thu, 17 Sep 2026 10:41:02 GMT",
-        "source": "Umbria TV",
+        "title": "Sir Susa Scai, a ottobre la Oji Cup contro il Suntory Sunbirds di Ben Tara",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb16afee40fc88d71f6b0ad7b628&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-a-ottobre-la-oji-cup-contro-il-suntory-sunbirds-di-ben-tara%2f&c=16784435159545307910&mkt=it-it",
+        "pubDate": "Fri, 18 Sep 2026 02:47:00 GMT",
+        "source": "",
         "image": null
       }
     ],
     "bartoccini": [
       {
-        "title": "Volley A2 femminile, Cecilia Nicolini è il nuovo vicecapitano della Bartoccini + energia Perugia - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXy0tTll0S05sanY1YUhBRFpHRVdwYkMxREVGSi1GaXB2ajNMM21JU20xVWJLQmxlZUZ5R19yYV9yVWd6aEhHOHZKWm9NNTVTMmV5V2VNZmtMTWxIYXlJdW5rSTdqdnZGRjlQanVZU1VlNFozZ0hwdFlVamFkbTloOVZEVDFTRG5sMkpyN0RPbEVIR3djUU1DeFpHTk9HWHdIM1Rj?oc=5",
-        "pubDate": "Thu, 10 Sep 2026 09:24:18 GMT",
-        "source": "PerugiaToday",
+        "title": "Memorial Avalle: bis per Perugia",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17f2d6443da02e93d07cc8bda0&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2ffemminile%2f2026%2f09%2f20-151384825%2fmemorial_avalle_bis_per_perugia&c=7006920652893912003&mkt=it-it",
+        "pubDate": "Sun, 20 Sep 2026 15:34:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Volley A2 femminile, la Bartoccini + energia Perugia sceglie Alessia Fiesoli come nuovo capitano - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXljYWNrM1NKbld4eEJyN2FKemtFQ3NMVjJWMG1wbmRHUWd5VVJYY1k0WVMya3Mtcjc3aENTeDBLUlZLWUx4d2R0QkF5aVV6Z212RkFpeUk1UU1oVTh3YzN3US1LRmt3TW5Dak9Pc2k0ZldPQlRfMkFNSTl0LVE2X3A5RFJ6bEdDUXVjeWFUWTNyM0FwaXFBMHhxN091R09lTFVNNWMxOA?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 13:17:43 GMT",
-        "source": "PerugiaToday",
+        "title": "Le Black Angels fanno bis: Perugia vince il ‘Memorial Simonetta Avalle’",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17f2d6443da02e93d07cc8bda0&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-fanno-bis-perugia-vince-il-memorial-simonetta-avalle%2f&c=4600178737183075499&mkt=it-it",
+        "pubDate": "Sat, 19 Sep 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Black Angels e la forza del gruppo: tutti a cena allo Junior Tennis Perugia - Lega Pallavolo Serie A Femminile",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmEzdFk2a2YzSzROQ3VpbUJmOUZkUnYzejlFSnZGdjMwQ0pENHJTZ1JpN29OWFJfRjFMQVhIZlkzME9XbS0zT0tGV2xnektvYmw0ZkR5Nlg5UE9hWENFalhoWnkyeGFrb29EV25TeThGeWs0VTVPZEl3X1RGNXlEZWZsWFV5WW9tS3JaZVFGT2pUYnN4WWNyRzNiX3FOdWFfSEY5aGFHWU5iVmtMRmQ4?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A Femminile",
+        "title": "Le Black Angels conquistano la finale del ‘Memorial Simonetta Avalle’",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17f2d6443da02e93d07cc8bda0&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-la-finale-del-memorial-simonetta-avalle%2f&c=17071823620687194088&mkt=it-it",
+        "pubDate": "Sat, 19 Sep 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Black Angels, ecco il calendario: si parte con la trasferta di Busto - Lega Pallavolo Serie A Femminile",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGk5RGpHNzZhWmNXX21TaWpNUXR6QTNLZVkwZEJocnJXZU9ldDBvZGhLdVlTQ005MnNtQmhOa3BLRVhxbTJndU9tVjJlal85Tms5WWNqQ0IzbGlnNkg4VzFZUjV2RWxCS1lpNmhENEtJaWJTYklXWnlaNnY4Q3NMM2dFZ3pJWS1EQVNhSUxUMFNZUDBVanJMQ3Fvdk1IWVR0d21jQw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 14:52:00 GMT",
-        "source": "Lega Pallavolo Serie A Femminile",
+        "title": "Le Black Angels al lavoro per incrementare il ‘tifo da Curva’",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17f2d6443da02e93d07cc8bda0&url=https%3a%2f%2flnx.tifogrifo.com%2fle-black-angels-al-lavoro-per-incrementare-il-tifo-da-curva%2f253993%2f&c=15625119983848507880&mkt=it-it",
+        "pubDate": "Thu, 17 Sep 2026 05:54:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Volley femminile: è nata la Bartoccini +energia Perugia - - Umbria 24",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdU91YjhCeTRQSWFRc1ozOEtfVjVEYTZ6V0xGQjNVSVFZUHZoa2Z2TWNKdGdRNEphekhCdkJZWHJ6T09uZHBhMEw0eU5UczRPRmVtU2RMNmpiaklPYVZMMkZCQ0t1bFppTDVJMnV5Y0RuRDRFa1RQZE5RYUNMaGdoYlJwVngwWUNOOEdDdVY0bw?oc=5",
-        "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
-        "source": "- Umbria 24",
+        "title": "Black Angels, Mancini e Scharmann sono convinte: “Siamo sulla strada giusta”",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17f2d6443da02e93d07cc8bda0&url=https%3a%2f%2fwww.umbriadomani.it%2fperugia%2fblack-angels-mancini-e-scharmann-sono-convinte-siamo-sulla-strada-giusta-348723%2f&c=2647439414642227109&mkt=it-it",
+        "pubDate": "Mon, 14 Sep 2026 10:06:00 GMT",
+        "source": "",
         "image": null
       }
     ],
     "tva": [
       {
-        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - ternitoday.it",
+        "title": "Volley, Altotevere vince il Memorial Andrea Mecucci",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17d0b445c5a0600d31ea83a543&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fvolley-altotevere-vince-il-memorial-andrea-mecucci%2f&c=16381930042497529072&mkt=it-it",
+        "pubDate": "Sun, 20 Sep 2026 01:00:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Terni Volley Academy-Avimecc Modica 2-3: Dida ospite d'onore",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb17d0b445c5a0600d31ea83a543&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-avimecc-modica-2-3-dida-ospite-d-onore-118757&c=7012942267572519152&mkt=it-it",
+        "pubDate": "Wed, 16 Sep 2026 08:00:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
         "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
-        "source": "ternitoday.it",
+        "source": "TerniToday",
         "image": null
       },
       {
@@ -128,23 +142,30 @@
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "UmbriaON",
         "image": null
-      },
-      {
-        "title": "La Terni Volley Academy riparte da Giancarlo D’Amico: presentato il nuovo coach dei Dragons per la stagione 2026/27 - ternitoday.it",
-        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZWNPeFJ6c2FMNlFPN1RGZngyOGVJZUFiTHlRM3IzQ1NBTFgyWHZ6VXVNaFQ5LXpEaFU4YWpRamVGenliLXZIbFRkVGFJM09fU0hKNjR2S0UxdmtrTXFneHlnblN4c3g0N3pzNWY5NEs2RDRuWmwzcHhtenl6dk9IZkFVY1h2RzRScDZRTjIwdm1DbkJTdGh6aWpjemw2bkJIQ2R3SmNtX1dGMTNPX0Y3cWpYbXlkb1owdlJlNmRrUG9Zc1hJSkRlNTQ0T0hfQXozNmpiS2J2dXhjNDRxajhRaGFTalVoZEp1ZlV0RGNVRQ?oc=5",
-        "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-        "source": "ternitoday.it",
-        "image": null
-      },
-      {
-        "title": "Pallavolo, play out, gara 2: Ternana Volley Academy-Savigliano 3-2 - Terni in Rete",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUh6eUVtM21rRm9yVXA4MWNKS3lMSFVod1ItQkFZRUhPRlFUNENDVWRFNjVBRmdKNVhjR2VEYkZNSHlxVk1iMGNLVnVhSWUwd1YwU2hnNW5PejdHNTZuNHMwT3VZNlNzQzZpaVVkT0Q0X1VLUHRVNTQwM2VrWGZBSlRqbVdvTHA5NUtmTzdFV1RTbUREbk1uR3ZoMUFYdVduZkJEWUdR?oc=5",
-        "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
-        "source": "Terni in Rete",
-        "image": null
       }
     ],
     "altotevere": [
+      {
+        "title": "L’Altotevere vince il Memorial Andrea Mecucci a Civita Castellana - legavolley.it",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkg3aUZ5SnZUVnZ6dC14bkY2OUhfdmFkRWd5a1VxQ2NOWnZybVFod2ctUkhFWTJxNG9pTkxMdFhfMTFXM2daOEVJa1ZVTU1EOGVwQlB2WWJDQkNDckZZWVRoWkktcG9iWU5jWHZETUI2QU1FZVIxUlFGcjhrN0hsVVEzbXFidWFfWTJiTzZqZ2VkYVRibE9oRVF4d2s?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 09:17:51 GMT",
+        "source": "legavolley.it",
+        "image": null
+      },
+      {
+        "title": "Altotevere, test di esperimenti contro il Club Arezzo - legavolley.it",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVlHTlhEb3VicFF2RTdpM2dRYzh5VlJNTFBnTW5SX0J5a3d3d3AwcU00S0p6eFJFUy11UU9hLVRjNUZjemUwUnhiYWVTZHlXMFFMak1PWGdfUjFaTkNReGE3czA1SjVTRDdFcmNCSHQ1V2RjRzdjSEdCbEYyZVdUTHBOMDFUQkxZVFN3Ng?oc=5",
+        "pubDate": "Thu, 17 Sep 2026 14:18:57 GMT",
+        "source": "legavolley.it",
+        "image": null
+      },
+      {
+        "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb1889f441b9a78d4e3e1f85ab0f&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
+        "pubDate": "Thu, 10 Sep 2026 17:00:00 GMT",
+        "source": "",
+        "image": null
+      },
       {
         "title": "Volley, il futuro dell'Altotevere passa per l'esperienza: ruoli chiave a Cardellini e Tizzi - Tag24 Umbria",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQUNrWEh0S1N0WFNsR2NhUTBmTlplYkFrX1pkM0dYcmt6OGlWQkMyc3g5dUlYUTRQb082Zmt3Zml3NEppZVdvM053ODlBYUdGRGoxampyMDFyUmc3UW91M3l4bmdmbU96Vnp5dVYzYXFLMTJRbGdoVzhITl9PRjhJZTNUdjVCUUJqZ2hYM3BnMnZRRTFiYXdQcm9wWjVFaExDNUNrRE1TUTVSS1Fzb2ZMbA?oc=5",
@@ -158,27 +179,6 @@
         "pubDate": "Mon, 07 Sep 2026 10:28:40 GMT",
         "source": "Teletruria",
         "image": null
-      },
-      {
-        "title": "Volley Altotevere si presenta: quinta stagione consecutiva in Serie A3 - TTV.it",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHY2Q09Fc0ZoTFNtRlBPc1dvSjBUSW9GcDUxb0d1MHBqcmlnWHkxSVRYOHhraG8xcGJ5elowVUpNQnpXNXlsYVJ5YkQ3Z3RNNnExTXo3U0JYM1d0RkRYajYzY0NuM3NtSGs1eFBVSW1POVdTV2gyMVVCLUVOTzl5WTc4OFpWQVBhbkxfa0JLSVBhNEx2WDYtN1BSaw?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 15:32:33 GMT",
-        "source": "TTV.it",
-        "image": null
-      },
-      {
-        "title": "Pallavolo A3M - ErmGroup Altotevere, Roberto Pinali: \"Pronto a essere il valore aggiunto della squadra\" - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNXE3Z0VhUFdxTUt0R1NqTDgwMFoxVWdMRDhtOU9ib0xNLUlWdVZoZWw2NU1La3hEQ2VVdmwtT2g4SmZmRlVIbmJRZTg0ZWNCVWN6VkF5RTkyYnAySW84UkE0UFRPY2NjVmhJcFliY2xGZUVpLWR3NGxIM3NWYmdIZl9MOTRxNjVNbmRWV25jYlVhTk4tRXZjRnc4RWM5OTZQSWM5TnF0bEE4eG9jMTZVOXFqUzhxTDdNeklTcTNsaE44LWJMTzVhZlh6MzdTWXZSbkIwTkdqUQ?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 13:28:14 GMT",
-        "source": "iVolley Magazine",
-        "image": null
-      },
-      {
-        "title": "ErmGroup Altotevere - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfYi1PTUVjTlJnVWtXX0o3eXBtMjJ2eklGRUdOX0Rmd1RKUXFKMjVpQ1RVVUhjY0V0Zjk4by1wakRvVWRlQnhwSHlvaw?oc=5",
-        "pubDate": "Thu, 16 Jul 2026 15:32:57 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null
       }
     ],
     "citta-castello": [
@@ -187,6 +187,20 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ3gwTi1FWDN0WnB4dm1WOGVXT2dueDBlWmNTdjQtUTNrSjczNHFoUndTSElIcU5jdUF6bzBhVzJ1Y1BhR1VWVVMyNko4NW1KblQ5XzBmLUVGUGstNi12eWJzV0FSNWtHWmRBUXY0R0g0YzJQQ0UtTHlpUXJIWDcwcS13emhTNUhfYlBwS2l6amtBdw?oc=5",
         "pubDate": "Thu, 17 Sep 2026 11:00:50 GMT",
         "source": "Pianeta Volley",
+        "image": null
+      },
+      {
+        "title": "A Città di Castello torna il torneo “Volley Francesca Fabbri”: tre giorni che vanno oltre lo sport",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb18b1344f7eab8fbc4bd55179b4&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fa-citta-di-castello-torna-il-torneo-volley-francesca-fabbri-tre-giorni-che-vanno-oltre-lo-sport%2f&c=1008758518774138324&mkt=it-it",
+        "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "La Sirio Perugia Volley supera Città di Castello in amichevole. E il club “chiede” di giocare al PalaBarton",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb18b1344f7eab8fbc4bd55179b4&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sirio-perugia-volley-supera-citta-di-castello-in-amichevole-e-il-club-chiede-di-giocare-al-palabarton%2f&c=2019114665973811529&mkt=it-it",
+        "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -202,20 +216,6 @@
         "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
         "source": "saturnonotizie.it",
         "image": null
-      },
-      {
-        "title": "Volley, Serie B: Marco Bartolini riparte da Città di Castello - - Umbria 24",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMXBXNDFCVV81SGhaZlRTN3ZMOWdzOFNnNXNtRS1kVk1HY2FlTHRFdUNpUlVDOEktS0VjOGQtQ3EzM0hLY2ZQYndfdk4xTEZlMGhtZmo2WTNNU2M4VjBlZmpPNENjSTVPNDZfNHgwMmlKeHFyWGtfOUh5a0p0OU5RRWRyQzF5QWo3em1EQzR1bmxhck5JVzBhVVgwcFF1NFVfdWZaVQ?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
-        "source": "- Umbria 24",
-        "image": null
-      },
-      {
-        "title": "Città di Castello in B, espugnata Foligno in gara 3 - Umbria TV",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSTQwc0tobnNoc18tejBMRjBRcTdidEo3RDJ5SlE3Wk11QVFBYUl0VGdOazFScFgwY2I3NTRDTlM1c3I2TktYSkNmdjdNTDBTaEY1eFRwOUFKeUZ0clZhTE5RY0hEeWF5VHdRcjVyLU1YdWQ4aEJUT1RTYzk1UmwxVjZlR2lJQTZoYTdMZEotLW5sc1I2VXZwdGdXSzFTZw?oc=5",
-        "pubDate": "Sun, 07 Jun 2026 10:59:35 GMT",
-        "source": "Umbria TV",
-        "image": null
       }
     ],
     "marsciano": [
@@ -224,6 +224,20 @@
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdko3SDR0emptUXRfN1lOZGhuc3lBRUFUbXB5ODlKaDlRd3hLbktBYkxRdVhZcFQ2dkZCRk5GbzktUElxODd5QnAwTXdVenR4NTROZVM1T1FadmRLWVVWVlIzcXZicjZvQUJMdjMxN1g4Mjk5MS1LaFozMl9WdWI0QzlTbFJKTm9CUmJ0LWFLLWI0VnBM?oc=5",
         "pubDate": "Fri, 18 Sep 2026 15:11:03 GMT",
         "source": "iltamtam.it",
+        "image": null
+      },
+      {
+        "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0bb190c91484faa82b8772b0b6b8f&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fbeach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni%2f&c=14798107103279752141&mkt=it-it",
+        "pubDate": "Tue, 08 Sep 2026 22:35:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - La Nazione",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyTmhCWWlMaHBXMkNaOUxzcC1xMmlHLUNtemN4R1RNV21VaklJTGJ4dUdTQWN6d0lvQmg2LUdmS1laREVZNzhSaTA2al93WGE1NzV4M3JMWEJ5NHZWZk5kX2hJTmVVd0pKdHkwYktma0x5TWxNLW1NZQ?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
+        "source": "La Nazione",
         "image": null
       },
       {
@@ -238,20 +252,6 @@
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbDlwaElLUHNWNWJONmoxM2dWSDVlanJyMXpSQW4xdXZEOFZkZXNUTGlfN01uU2J5M2NKM1IwX1o0ZFFvU1pFTmpyNU0yVmM4LVktaFNHa2M2d2ZLdklmdkFEdGdPUG9VRVZjbklMOXQ5YURMNFJvaEhHY1JudmZQMERzdTdEWmRDdFc3bVdHcmZaVE8xVWF3SDllUDBQY0ZjZmlnTkJiWVNJaVk4cUhsdmZoZllHbFRzaTNrVTZqT3l1b0ZEUHlLNC05SnZhLVZDSHF3QzUwTlJoZDBVeGp2akhlNFlPUmlENVJySk5talBhZ9IB9wFBVV95cUxQei1SVmROVmdhdXB3bVRuU0pfUlVTdjlkenhCVlRDcmhzYjZpYUpxTVNaUWVORXAyQW9faDFnb2F6VFpPMWloNWdqb0NZcDNDVzBSem1Xa2I4cWM3TGJjUVo5TXlkM1doOVJxZXh2R3A4SHpHY1E3eUlWT0xleEhuX2FxZm1JY1YwT1p5QmpoQ2E5Z3dzOGdIZ1VzMEtxNDZTZE5jUVlyWElZdUthbjJucG9iVENpVnJRMWRQUTZPelNILXdseWxrTVBYbXFsYnJCbFFfeWw4cVc5Rzg3R1BtUWh1WjdrdWQ4cGg5MzlkRHh5am9GMDdj?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
         "source": "Il Messaggero",
-        "image": null
-      },
-      {
-        "title": "Marsciano promossa e torna a farsi spazio nel maschile - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTNhQnkxYnVla2QyMGJKUHg3LURPYVc4ejlBWUlSdVhDZTduYkw2bDYtLWpRSXA1bnFoNV91RzBsVHo0TVhUdFZ2THoxVExKZHc3dDBFMWRmM1RJSDJLclQ5TmJjb09jUFNyM0V0SDR6Ny1ISDhIcEUyMEN4R2hITXh2cWdJNTE1Zmxvak1HY3V0azlpTHlnZQ?oc=5",
-        "pubDate": "Sun, 17 May 2026 07:00:00 GMT",
-        "source": "Pianeta Volley",
-        "image": null
-      },
-      {
-        "title": "Una Marsciano solida sbanca Cervia - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OMk1QajRLbjNIdXExaDhTREhCZ3ljSEJnaV9helVmZjNXWDczeVhNRUVPcEFqSHB3aWVKZ1J2S2Nkbm91MHZBb214eWZYUTQxc1JhV3lyV1k3VXZIbTZfV1V2VWY5MTdUTXNMOGpOY3RQWXdobTVZTzloeXh0dw?oc=5",
-        "pubDate": "Sun, 15 Mar 2026 07:00:00 GMT",
-        "source": "Pianeta Volley",
         "image": null
       }
     ]
