@@ -941,9 +941,11 @@ function RosaPage() {
     societa: "", categoria: "", provincia: "", nome: "", ruolo: "", anno: "", contatto: ""
   });
   const [status, setStatus] = useState("idle");
+  const [consensoRosa, setConsensoRosa] = useState(false);
 
   function handleSubmit(e) {
     e.preventDefault();
+    if (!consensoRosa) return;
     setStatus("sending");
     fetch("https://formspree.io/f/xdaqpeaj", {
       method: "POST",
@@ -1020,7 +1022,19 @@ function RosaPage() {
                 value={form.contatto} onChange={e => setForm({...form, contatto: e.target.value})} />
             </div>
           </div>
-          <button className="form-btn" onClick={handleSubmit} disabled={status === "sending"}>
+          <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.82rem", margin: "1rem 0", cursor: "pointer" }}>
+            <input
+              type="checkbox"
+              checked={consensoRosa}
+              onChange={(e) => setConsensoRosa(e.target.checked)}
+              style={{ marginTop: "0.2rem" }}
+            />
+            <span>
+              Accetto il trattamento dei dati secondo la{" "}
+              <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
+            </span>
+          </label>
+          <button className="form-btn" onClick={handleSubmit} disabled={status === "sending" || !consensoRosa}>
             {status === "sending" ? "Invio in corso..." : "Invia Atleta →"}
           </button>
           {status === "error" && <p style={{color:"red", marginTop:"0.5rem"}}>Errore nell'invio. Riprova.</p>}
@@ -1029,6 +1043,7 @@ function RosaPage() {
     </main>
   );
 }
+     
 function PreparazioneFisicaPage() {
   const [sezioneAperta, setSezioneAperta] = useState(null);
   const [subAperta, setSubAperta] = useState(null);
