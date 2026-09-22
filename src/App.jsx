@@ -432,6 +432,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <LiveClock />
         <div className="masthead__topbar-links">
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
+          <a href="#/privacy" className="masthead__topbar-link">Privacy Policy</a>
           <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
           <button onClick={toggleDark} className="dark-toggle" title={darkMode ? "Modalita scura" : "Modalita chiara"}>
             {darkMode ? "☀️" : "🌙"}
@@ -5878,7 +5879,8 @@ useEffect(() => {
           {route === "home" && <HomePage latestNews={latestFive} />}
           {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","calendario-regionale","mental-coach"].includes(route) && <NotFoundPage />}#000
+          {route === "privacy" && <PrivacyPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach"].includes(route) && <NotFoundPage />}#000
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -5981,5 +5983,93 @@ function VisitCounter() {
         className="visit-counter__badge"
       />
     </p>
+  );
+}
+function PrivacyPage() {
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Privacy Policy</h1>
+      <p style={{ color: "var(--text-dim)", fontSize: "0.85rem", marginBottom: "2rem" }}>
+        Ultimo aggiornamento: Settembre 2026
+      </p>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Titolare del trattamento</h2>
+        <p>
+          Il titolare del trattamento dei dati raccolti tramite il sito PallaVolleyAmo (pallavolleyamo.it) è
+          il gestore del sito. Per qualsiasi richiesta relativa alla privacy è possibile contattarci tramite
+          il modulo presente nella sezione "Chi Siamo" del sito.
+        </p>
+      </section>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Quali dati raccogliamo</h2>
+        <p style={{ marginBottom: "0.75rem" }}>
+          PallaVolleyAmo raccoglie un numero limitato di dati, esclusivamente per il funzionamento del sito:
+        </p>
+        <ul style={{ paddingLeft: "1.2rem", lineHeight: 1.8 }}>
+          <li><strong>Indirizzo email</strong>, quando ti iscrivi al sito o invii un articolo/una rosa tramite i moduli dedicati (gestiti dal servizio esterno Formspree).</li>
+          <li><strong>Dati di navigazione anonimi</strong>, tramite il contatore di visite (servizio esterno hits.sh), che può registrare l'indirizzo IP in forma aggregata per conteggiare gli accessi al sito.</li>
+          <li><strong>Preferenza di iscrizione</strong>, salvata localmente nel tuo browser (localStorage) per ricordare se hai sbloccato i contenuti riservati. Questo dato resta sul tuo dispositivo e non viene trasmesso ai nostri server.</li>
+          <li><strong>Cookie pubblicitari e di profilazione</strong>, gestiti da Google AdSense per mostrare annunci pubblicitari, anche personalizzati in base ai tuoi interessi (vedi sezione dedicata sotto).</li>
+        </ul>
+      </section>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Come usiamo i tuoi dati</h2>
+        <ul style={{ paddingLeft: "1.2rem", lineHeight: 1.8 }}>
+          <li>L'email raccolta tramite iscrizione viene usata unicamente per riconoscerti come utente iscritto e, se hai acconsentito, per comunicazioni relative al sito.</li>
+          <li>I dati inviati tramite i moduli "Articoli Società" e "Invia Rosa" vengono usati esclusivamente per pubblicare i contenuti richiesti sul sito.</li>
+          <li>Non vendiamo, condividiamo o cediamo i tuoi dati a terzi per scopi diversi da quelli sopra indicati, salvo quanto necessario al funzionamento dei servizi terzi utilizzati (Formspree, Google AdSense, hits.sh).</li>
+        </ul>
+      </section>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Google AdSense e cookie pubblicitari</h2>
+        <p style={{ marginBottom: "0.75rem" }}>
+          Questo sito utilizza Google AdSense per mostrare pubblicità. Google, in qualità di fornitore terzo,
+          utilizza cookie per pubblicare annunci basati sulle precedenti visite dell'utente a questo o ad altri siti web.
+          L'utilizzo di cookie di profilazione da parte di Google consente a Google e ai suoi partner di pubblicare
+          annunci basati sulla visita dell'utente al presente sito e/o ad altri siti Internet.
+        </p>
+        <p>
+          Puoi disattivare la pubblicità personalizzata visitando le
+          {" "}<a href="https://adssettings.google.com/" target="_blank" rel="noreferrer" style={{ color: "var(--gold)" }}>
+            Impostazioni annunci di Google
+          </a>. In alternativa, puoi visitare
+          {" "}<a href="https://www.aboutads.info/choices/" target="_blank" rel="noreferrer" style={{ color: "var(--gold)" }}>
+            www.aboutads.info
+          </a> per disattivare l'uso dei cookie per la pubblicità comportamentale da parte di terzi fornitori.
+        </p>
+      </section>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Servizi terzi utilizzati</h2>
+        <ul style={{ paddingLeft: "1.2rem", lineHeight: 1.8 }}>
+          <li><strong>Formspree</strong> — gestisce l'invio dei moduli del sito (iscrizione, articoli società, rosa squadre, mercato). Consulta la <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noreferrer" style={{ color: "var(--gold)" }}>privacy policy di Formspree</a>.</li>
+          <li><strong>Google AdSense</strong> — gestisce la pubblicità sul sito. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" style={{ color: "var(--gold)" }}>privacy policy di Google</a>.</li>
+          <li><strong>hits.sh</strong> — fornisce il contatore di visite visibile nel footer del sito.</li>
+          <li><strong>Vercel</strong> — fornisce l'hosting del sito.</li>
+        </ul>
+      </section>
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>I tuoi diritti</h2>
+        <p>
+          In qualsiasi momento hai il diritto di chiedere l'accesso, la rettifica o la cancellazione dei tuoi dati
+          personali, nonché di opporti al loro trattamento, contattandoci tramite il modulo nella sezione
+          "Chi Siamo". Puoi inoltre cancellare in autonomia la tua iscrizione al sito eliminando i dati
+          salvati localmente dal tuo browser.
+        </p>
+      </section>
+
+      <section>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Modifiche a questa policy</h2>
+        <p>
+          Questa informativa può essere aggiornata periodicamente per riflettere cambiamenti nei servizi utilizzati
+          dal sito. Ti invitiamo a consultarla periodicamente.
+        </p>
+      </section>
+    </main>
   );
 }
