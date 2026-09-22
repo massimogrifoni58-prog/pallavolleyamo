@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:25:53.360744+00:00",
+  "generatedAt": "2026-09-22T05:05:32.878307+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,6 +35,13 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "La Sir. Nuova settimana di lavoto, con doppio allenamento congiunto in trasferta",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c99a7224335bc88af73e2372429&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-nuova-settimana-di-lavoto-con-doppio-allenamento-congiunto-in-trasferta%2f254235%2f&c=13414746337870311960&mkt=it-it",
+        "pubDate": "Mon, 21 Sep 2026 10:39:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Euro2026, l'Italia sprinta verso i quarti con il 3-0 alla Danimarca - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaVV0VWxhb0NPa3M2QWxGSkNZRHF6RFJyelFJd0N2aERoRTNLbGxOWld2WlJveGFwcnF0VTNyUU9hUFoweUZmZm9NcklnTk1uX2ktZFYzQ2ZRNUwwNUtNZXYzU3B6YVEyTWJaNjBsbzZqRC1xcmpuVERPUE1tTXdCXzduQkF3Q0pqZWdxWUhOc1JiaVBq?oc=5",
         "pubDate": "Sun, 20 Sep 2026 21:30:00 GMT",
@@ -42,15 +49,8 @@
         "image": null
       },
       {
-        "title": "Supercoppa italiana: si sfidano le quattro big. Sir Perugia, in semifinale ci sarà Itas Trentino",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062cd727473c86510e8bef0a8af5&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fsupercoppa-italiana-si-sfidano-le-quattro-big-sir-perugia-in-semifinale-ci-sar%25C3%25A0-itas-trentino%2far-AA2cAzEO&c=15738332198426813701&mkt=it-it",
-        "pubDate": "Sat, 19 Sep 2026 23:12:09 GMT",
-        "source": "",
-        "image": null
-      },
-      {
         "title": "La Sir. Supercoppa, si giocherà a Parma. Semifinale tra i Block Devils campioni in carica e Trento",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062cd727473c86510e8bef0a8af5&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-supercoppa-si-giochera-a-parma-semifinale-tra-i-block-devils-campioni-in-carica-e-trento%2f254109%2f&c=573716652462240937&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c99a7224335bc88af73e2372429&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-supercoppa-si-giochera-a-parma-semifinale-tra-i-block-devils-campioni-in-carica-e-trento%2f254109%2f&c=573716652462240937&mkt=it-it",
         "pubDate": "Sat, 19 Sep 2026 10:26:00 GMT",
         "source": "",
         "image": null
@@ -72,49 +72,42 @@
     ],
     "bartoccini": [
       {
-        "title": "Volley A2 femminile, Cecilia Nicolini è il nuovo vicecapitano della Bartoccini + energia Perugia - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXy0tTll0S05sanY1YUhBRFpHRVdwYkMxREVGSi1GaXB2ajNMM21JU20xVWJLQmxlZUZ5R19yYV9yVWd6aEhHOHZKWm9NNTVTMmV5V2VNZmtMTWxIYXlJdW5rSTdqdnZGRjlQanVZU1VlNFozZ0hwdFlVamFkbTloOVZEVDFTRG5sMkpyN0RPbEVIR3djUU1DeFpHTk9HWHdIM1Rj?oc=5",
-        "pubDate": "Thu, 10 Sep 2026 07:00:00 GMT",
-        "source": "PerugiaToday",
+        "title": "Bartoccini +energia Perugia batte 3-1 Roma e vince il Memorial Avalle - Umbria TV",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNzlmcmhFRWxfV3J0ZHNLblIzeVlla3hBWXJ4VWlGX0ZOSzlYS2VZY0MtT2xlR2wyc0dScXZMU1lhd3BZZjFqbHRxX2JYSk5PSWhqdzNHZlVtdXJ1X2YyNi1qaG5ZT0hIaXRNRlFqZlpQdFRMMTZYV1pBOXlneDRJbE1iaDBUOWZpWFNPVXhvSERmRURnN3JiaTVpQ1RZaGhjNkhBM29VSEF2cHBwUEctNFNXaXJPdw?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 04:51:58 GMT",
+        "source": "Umbria TV",
         "image": null
       },
       {
-        "title": "Volley A2 femminile, la Bartoccini + energia Perugia sceglie Alessia Fiesoli come nuovo capitano - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQXljYWNrM1NKbld4eEJyN2FKemtFQ3NMVjJWMG1wbmRHUWd5VVJYY1k0WVMya3Mtcjc3aENTeDBLUlZLWUx4d2R0QkF5aVV6Z212RkFpeUk1UU1oVTh3YzN3US1LRmt3TW5Dak9Pc2k0ZldPQlRfMkFNSTl0LVE2X3A5RFJ6bEdDUXVjeWFUWTNyM0FwaXFBMHhxN091R09lTFVNNWMxOA?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 13:17:43 GMT",
-        "source": "PerugiaToday",
+        "title": "Memorial Avalle: bis per Perugia",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9a37394b618dba39dce2e2d89f&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2ffemminile%2f2026%2f09%2f20-151384825%2fmemorial_avalle_bis_per_perugia&c=7006920652893912003&mkt=it-it",
+        "pubDate": "Sun, 20 Sep 2026 15:34:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Black Angels, ecco il calendario: si parte con la trasferta di Busto - Lega Pallavolo Serie A Femminile",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTGk5RGpHNzZhWmNXX21TaWpNUXR6QTNLZVkwZEJocnJXZU9ldDBvZGhLdVlTQ005MnNtQmhOa3BLRVhxbTJndU9tVjJlal85Tms5WWNqQ0IzbGlnNkg4VzFZUjV2RWxCS1lpNmhENEtJaWJTYklXWnlaNnY4Q3NMM2dFZ3pJWS1EQVNhSUxUMFNZUDBVanJMQ3Fvdk1IWVR0d21jQw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 14:52:00 GMT",
-        "source": "Lega Pallavolo Serie A Femminile",
+        "title": "Le Black Angels fanno bis: Perugia vince il ‘Memorial Simonetta Avalle’",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9a37394b618dba39dce2e2d89f&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-fanno-bis-perugia-vince-il-memorial-simonetta-avalle%2f&c=4600178737183075499&mkt=it-it",
+        "pubDate": "Sat, 19 Sep 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Volley femminile: è nata la Bartoccini +energia Perugia - - Umbria 24",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdU91YjhCeTRQSWFRc1ozOEtfVjVEYTZ6V0xGQjNVSVFZUHZoa2Z2TWNKdGdRNEphekhCdkJZWHJ6T09uZHBhMEw0eU5UczRPRmVtU2RMNmpiaklPYVZMMkZCQ0t1bFppTDVJMnV5Y0RuRDRFa1RQZE5RYUNMaGdoYlJwVngwWUNOOEdDdVY0bw?oc=5",
-        "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
-        "source": "- Umbria 24",
+        "title": "Le Black Angels conquistano la finale del ‘Memorial Simonetta Avalle’",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9a37394b618dba39dce2e2d89f&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-conquistano-la-finale-del-memorial-simonetta-avalle%2f&c=17071823620687194088&mkt=it-it",
+        "pubDate": "Sat, 19 Sep 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       },
       {
-        "title": "Volley A2 femminile, la Bartoccini MC Restauri Perugia ammessa al campionato - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT2kyMmRjNGotQVVRUEZOd2tvdkZyU3Z6YnRiUGIyREROYVpoOUZqTFgtczhPSlZveFZBTVU3TGx1OGctcE1CSUhrbzVuSERtdDZfWmh4NzhjQkZXdFNQU0lrcnNLMGtweUpfcHpkOERXLUlZRGJJZ29LT0ROeml2ZE5pb0RvLXFDcHNENw?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
-        "source": "PerugiaToday",
+        "title": "Bartoccini +energia Perugia, buone indicazioni nel test contro Macerata",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9a37394b618dba39dce2e2d89f&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fbartoccini-energia-perugia-buone-indicazioni-nel-test-contro-macerata%2f&c=8942689203106311383&mkt=it-it",
+        "pubDate": "Sun, 13 Sep 2026 00:12:00 GMT",
+        "source": "",
         "image": null
       }
     ],
     "tva": [
-      {
-        "title": "Volley, Altotevere vince il Memorial Andrea Mecucci",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062d1b364469b389305636f1e98b&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fvolley-altotevere-vince-il-memorial-andrea-mecucci%2f&c=16381930042497529072&mkt=it-it",
-        "pubDate": "Sun, 20 Sep 2026 01:00:00 GMT",
-        "source": "",
-        "image": null
-      },
       {
         "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
@@ -142,9 +135,23 @@
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "TerniToday",
         "image": null
+      },
+      {
+        "title": "Pallavolo, play out, gara 2: Ternana Volley Academy-Savigliano 3-2 - Terni in Rete",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUh6eUVtM21rRm9yVXA4MWNKS3lMSFVod1ItQkFZRUhPRlFUNENDVWRFNjVBRmdKNVhjR2VEYkZNSHlxVk1iMGNLVnVhSWUwd1YwU2hnNW5PejdHNTZuNHMwT3VZNlNzQzZpaVVkT0Q0X1VLUHRVNTQwM2VrWGZBSlRqbVdvTHA5NUtmTzdFV1RTbUREbk1uR3ZoMUFYdVduZkJEWUdR?oc=5",
+        "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
+        "source": "Terni in Rete",
+        "image": null
       }
     ],
     "altotevere": [
+      {
+        "title": "L’Altotevere vince il Memorial Andrea Mecucci a Civita Castellana - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkg3aUZ5SnZUVnZ6dC14bkY2OUhfdmFkRWd5a1VxQ2NOWnZybVFod2ctUkhFWTJxNG9pTkxMdFhfMTFXM2daOEVJa1ZVTU1EOGVwQlB2WWJDQkNDckZZWVRoWkktcG9iWU5jWHZETUI2QU1FZVIxUlFGcjhrN0hsVVEzbXFidWFfWTJiTzZqZ2VkYVRibE9oRVF4d2s?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 09:17:51 GMT",
+        "source": "Lega Pallavolo Serie A",
+        "image": null
+      },
       {
         "title": "Altotevere, test di esperimenti contro il Club Arezzo - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVlHTlhEb3VicFF2RTdpM2dRYzh5VlJNTFBnTW5SX0J5a3d3d3AwcU00S0p6eFJFUy11UU9hLVRjNUZjemUwUnhiYWVTZHlXMFFMak1PWGdfUjFaTkNReGE3czA1SjVTRDdFcmNCSHQ1V2RjRzdjSEdCbEYyZVdUTHBOMDFUQkxZVFN3Ng?oc=5",
@@ -154,7 +161,7 @@
       },
       {
         "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062e4d544cb682e2ac2a1bb3756b&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9ae44b42848d73b8d859ca8863&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
@@ -172,13 +179,6 @@
         "pubDate": "Mon, 07 Sep 2026 10:28:40 GMT",
         "source": "Teletruria",
         "image": null
-      },
-      {
-        "title": "Volley Altotevere si presenta: quinta stagione consecutiva in Serie A3 - TTV.it",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHY2Q09Fc0ZoTFNtRlBPc1dvSjBUSW9GcDUxb0d1MHBqcmlnWHkxSVRYOHhraG8xcGJ5elowVUpNQnpXNXlsYVJ5YkQ3Z3RNNnExTXo3U0JYM1d0RkRYajYzY0NuM3NtSGs1eFBVSW1POVdTV2gyMVVCLUVOTzl5WTc4OFpWQVBhbkxfa0JLSVBhNEx2WDYtN1BSaw?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 15:32:33 GMT",
-        "source": "TTV.it",
-        "image": null
       }
     ],
     "citta-castello": [
@@ -191,30 +191,30 @@
       },
       {
         "title": "Dream Volley Nardò, la nuova stagione comincia in piazza",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062fade54d5ca652772dc331fcf0&url=https%3a%2f%2fwww.ilgallo.it%2fsport%2fdream-volley-nardo-la-nuova-stagione-comincia-in-piazza%2f&c=713804204587616508&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9b52924336b125f86f0762666f&url=https%3a%2f%2fwww.ilgallo.it%2fsport%2fdream-volley-nardo-la-nuova-stagione-comincia-in-piazza%2f&c=713804204587616508&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 09:38:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "A Città di Castello torna il torneo “Volley Francesca Fabbri”: tre giorni che vanno oltre lo sport",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062fade54d5ca652772dc331fcf0&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fa-citta-di-castello-torna-il-torneo-volley-francesca-fabbri-tre-giorni-che-vanno-oltre-lo-sport%2f&c=1008758518774138324&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9b52924336b125f86f0762666f&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2fa-citta-di-castello-torna-il-torneo-volley-francesca-fabbri-tre-giorni-che-vanno-oltre-lo-sport%2f&c=1008758518774138324&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "La Sirio Perugia Volley supera Città di Castello in amichevole. E il club “chiede” di giocare al PalaBarton",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1062fade54d5ca652772dc331fcf0&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sirio-perugia-volley-supera-citta-di-castello-in-amichevole-e-il-club-chiede-di-giocare-al-palabarton%2f&c=2019114665973811529&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab20c9b52924336b125f86f0762666f&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fla-sirio-perugia-volley-supera-citta-di-castello-in-amichevole-e-il-club-chiede-di-giocare-al-palabarton%2f&c=2019114665973811529&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 08:26:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Tris Città di Castello. E Monteluce sogna - lanazione.it",
+        "title": "Tris Città di Castello. E Monteluce sogna - La Nazione",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00eW9PZ2RXRDJhREktdjdBZGtPOEVveWhCbGNqQ2pzbF8wS2ozRWJLejJ3SHZYUFgtSWxaUzBzbE9TQ1FXeHUybzF3dWNFa1pjQllaR1YycTV3aGEwT1BURHZBYzBmRkJyUHlzUlE5TXpPTUt5QVRpSU1TSUVjZw?oc=5",
         "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "source": "lanazione.it",
+        "source": "La Nazione",
         "image": null
       }
     ],
@@ -227,10 +227,10 @@
         "image": null
       },
       {
-        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - lanazione.it",
+        "title": "La Kabel nel girone D: le sfidanti. La ragazze dell’Ariete vanno nel ‘G’ - La Nazione",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAyTmhCWWlMaHBXMkNaOUxzcC1xMmlHLUNtemN4R1RNV21VaklJTGJ4dUdTQWN6d0lvQmg2LUdmS1laREVZNzhSaTA2al93WGE1NzV4M3JMWEJ5NHZWZk5kX2hJTmVVd0pKdHkwYktma0x5TWxNLW1NZQ?oc=5",
         "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
-        "source": "lanazione.it",
+        "source": "La Nazione",
         "image": null
       },
       {
