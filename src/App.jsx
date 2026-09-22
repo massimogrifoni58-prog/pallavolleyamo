@@ -4200,6 +4200,7 @@ function MercatoPage({ subscribed }) {
   const [tab, setTab] = useState("giocatori");
   const [filtroRuolo, setFiltroRuolo] = useState("Tutti");
   const [tipoAnnuncio, setTipoAnnuncio] = useState("giocatore");
+  const [consensoMercato, setConsensoMercato] = useState(false);
   const [form, setForm] = useState({ nome: "", ruolo: "", categoria: "", provincia: "", contatto: "", note: "" });
   const [status, setStatus] = useState("idle");
 
@@ -4217,8 +4218,9 @@ function MercatoPage({ subscribed }) {
   const giocatoriFiltrati = annunciGiocatori.filter((a) => matchRuolo(a.ruolo));
   const societaFiltrate = annunciSocieta.filter((a) => matchRuolo(a.ruolo));
 
-  function handleSubmit(e) {
+ function handleSubmit(e) {
     e.preventDefault();
+    if (!consensoMercato) return;
     setStatus("sending");
 fetch("https://formspree.io/f/xjgnwrwd", {
       method: "POST",
@@ -4228,7 +4230,6 @@ fetch("https://formspree.io/f/xjgnwrwd", {
       .then(() => setStatus("done"))
       .catch(() => setStatus("error"));
   }
-
   return (
     <main>
       <section className="section">
@@ -4359,8 +4360,21 @@ fetch("https://formspree.io/f/xjgnwrwd", {
                     value={form.contatto} onChange={(e) => setForm({ ...form, contatto: e.target.value })} required />
                   <textarea className="redazione-textarea" rows={3} placeholder="Note (disponibilita, esperienza...)"
                     value={form.note} onChange={(e) => setForm({ ...form, note: e.target.value })} />
+                  <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.78rem", cursor: "pointer" }}>
+                    <input
+                      type="checkbox"
+                      checked={consensoMercato}
+                      onChange={(e) => setConsensoMercato(e.target.checked)}
+                      required
+                      style={{ marginTop: "0.2rem" }}
+                    />
+                    <span>
+                      Accetto il trattamento dei miei dati secondo la{" "}
+                      <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
+                    </span>
+                  </label>
                   <button type="submit" className="coach-ai-btn" style={{ alignSelf: "flex-start" }}
-                    disabled={status === "sending"}>
+                    disabled={status === "sending" || !consensoMercato}>
                     {status === "sending" ? "Invio..." : "Invia annuncio"}
                   </button>
                   <p style={{ fontSize: "0.7rem", color: "var(--text-dim)" }}>
