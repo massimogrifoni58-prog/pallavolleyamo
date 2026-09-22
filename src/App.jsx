@@ -1849,6 +1849,7 @@ function ArticoliSocietaPage({ subscribed }) {
   const [tab, setTab] = useState("archivio");
   const [form, setForm] = useState({ societa: "", autore: "", titolo: "", testo: "", categoria: "" });
   const [status, setStatus] = useState("idle");
+  const [consensoArt, setConsensoArt] = useState(false);
   const [aperto, setAperto] = useState(null);
 
   // Articoli caricati da data/articoli-societa.json
@@ -1867,6 +1868,7 @@ function ArticoliSocietaPage({ subscribed }) {
 
 function handleSubmit(e) {
     e.preventDefault();
+    if (!consensoArt) return;
     setStatus("sending");
   fetch("https://formspree.io/f/xqerqbbz", {
     method: "POST",
@@ -2056,10 +2058,23 @@ function handleSubmit(e) {
                     placeholder="Testo dell articolo (minimo 100 caratteri)..."
                     value={form.testo}
                     onChange={e => setForm({...form, testo: e.target.value})} required />
-                  <button type="submit" className="coach-ai-btn" style={{ alignSelf: "flex-start" }}
-                    disabled={status === "sending"}>
-                    {status === "sending" ? "Invio..." : "Invia articolo"}
-                  </button>
+                  <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.78rem", cursor: "pointer" }}>
+    <input
+      type="checkbox"
+      checked={consensoArt}
+      onChange={(e) => setConsensoArt(e.target.checked)}
+      required
+      style={{ marginTop: "0.2rem" }}
+    />
+    <span>
+      Accetto il trattamento dei miei dati secondo la{" "}
+      <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
+    </span>
+  </label>
+  <button type="submit" className="coach-ai-btn" style={{ alignSelf: "flex-start" }}
+    disabled={status === "sending" || !consensoArt}>
+    {status === "sending" ? "Invio..." : "Invia articolo"}
+  </button>
                   <p style={{ fontSize: "0.7rem", color: "var(--text-dim)" }}>
                     La redazione si riserva il diritto di modificare o non pubblicare i contenuti
                     non conformi alle linee editoriali del sito.
