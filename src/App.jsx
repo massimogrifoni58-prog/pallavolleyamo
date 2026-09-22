@@ -5826,6 +5826,87 @@ function CalendarioRegionaliPage() {
     </main>
   );
 }
+function CookieBanner() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const consenso = localStorage.getItem("pva_cookie_consenso");
+    if (!consenso) setVisible(true);
+  }, []);
+
+  function accetta() {
+    localStorage.setItem("pva_cookie_consenso", "accettato");
+    setVisible(false);
+  }
+
+  function rifiuta() {
+    localStorage.setItem("pva_cookie_consenso", "rifiutato");
+    setVisible(false);
+  }
+
+  if (!visible) return null;
+
+  return (
+    <div style={{
+      position: "fixed",
+      bottom: 0,
+      left: 0,
+      right: 0,
+      background: "#0b0b0c",
+      borderTop: "2px solid var(--gold)",
+      padding: "1rem 1.2rem",
+      zIndex: 9999,
+      boxShadow: "0 -4px 20px rgba(0,0,0,0.4)",
+    }}>
+      <div style={{
+        maxWidth: "1100px",
+        margin: "0 auto",
+        display: "flex",
+        flexWrap: "wrap",
+        alignItems: "center",
+        gap: "1rem",
+        justifyContent: "space-between",
+      }}>
+        <p style={{ margin: 0, fontSize: "0.82rem", color: "var(--text)", flex: "1 1 300px" }}>
+          Questo sito utilizza cookie tecnici e, previo consenso, cookie di profilazione di Google AdSense
+          per mostrare pubblicità personalizzata. Consulta la{" "}
+          <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a> per saperne di più.
+        </p>
+        <div style={{ display: "flex", gap: "0.6rem", flexShrink: 0 }}>
+          <button
+            onClick={rifiuta}
+            style={{
+              background: "transparent",
+              border: "1px solid var(--border)",
+              color: "var(--text-dim)",
+              padding: "0.55rem 1.1rem",
+              borderRadius: "8px",
+              fontSize: "0.82rem",
+              cursor: "pointer",
+            }}
+          >
+            Rifiuta
+          </button>
+          <button
+            onClick={accetta}
+            style={{
+              background: "var(--gold)",
+              border: "none",
+              color: "#0b0b0c",
+              fontWeight: 700,
+              padding: "0.55rem 1.1rem",
+              borderRadius: "8px",
+              fontSize: "0.82rem",
+              cursor: "pointer",
+            }}
+          >
+            Accetta
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function App() {
 const route = useRoute();
@@ -5870,6 +5951,7 @@ useEffect(() => {
   return (
     <>
     {showPillola && <PillolaToast pillola={pillolaDiOggi} onClose={() => setShowPillola(false)} />}
+      <CookieBanner />
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} subscribed={subscribed} />
       <Breadcrumb route={route} />
       <div className="page-layout">
