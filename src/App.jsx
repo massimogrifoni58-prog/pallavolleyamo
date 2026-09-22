@@ -4621,10 +4621,12 @@ function SponsorPage() {
 function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
+  const [consenso, setConsenso] = useState(false);
   const [status, setStatus] = useState("idle"); // idle | sending | done | error
 
   function handleSubmit(e) {
     e.preventDefault();
+    if (!consenso) return;
     setStatus("sending");
 
    fetch("https://formspree.io/f/xrenqkbd", {
@@ -4681,10 +4683,23 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </label>
+              <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.82rem", margin: "0.75rem 0", cursor: "pointer" }}>
+                <input
+                  type="checkbox"
+                  checked={consenso}
+                  onChange={(e) => setConsenso(e.target.checked)}
+                  required
+                  style={{ marginTop: "0.2rem" }}
+                />
+                <span>
+                  Accetto il trattamento dei miei dati secondo la{" "}
+                  <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
+                </span>
+              </label>
               <button
                 type="submit"
                 className="nav-btn nav-btn--accent"
-                disabled={status === "sending"}
+                disabled={status === "sending" || !consenso}
               >
                 {status === "sending" ? "Invio in corso..." : "Iscriviti"}
               </button>
@@ -4711,6 +4726,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
     </main>
   );
 }
+
 
 function SidebarLeft({ localNews = [] }) {
   return (
