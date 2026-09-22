@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T05:03:26.728290+00:00",
+  "generatedAt": "2026-09-22T09:38:04.353668+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8440,6 +8440,1050 @@
       "giornata": "Giornata 18",
       "home": "SPELLO VOLLEY",
       "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639364",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639363",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639361",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PALLAVOLO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639362",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639366",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 2",
+      "home": "TIBER VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639368",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 2",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639365",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 2",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639367",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 2",
+      "home": "PMU MARSCIANO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639371",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639372",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639369",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639370",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639375",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 4",
+      "home": "TIBER VOLLEY",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639373",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639374",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 4",
+      "home": "SIRIO PALLAVOLO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639376",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639378",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639380",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 5",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639377",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 5",
+      "home": "PMU MARSCIANO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639379",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 5",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639381",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 6",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639384",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639382",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 6",
+      "home": "SIRIO PALLAVOLO",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639383",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639385",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 7",
+      "home": "TIBER VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639387",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639388",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 7",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639386",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 7",
+      "home": "PMU MARSCIANO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639390",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 8",
+      "home": "TIBER VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639392",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 8",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639389",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 8",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639391",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 8",
+      "home": "PMU MARSCIANO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639395",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639394",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 9",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639396",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 9",
+      "home": "SIRIO PALLAVOLO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639393",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 9",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639399",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 10",
+      "home": "TIBER VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639397",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 10",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639400",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 10",
+      "home": "PMU MARSCIANO",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639398",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 10",
+      "home": "SIRIO PALLAVOLO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639401",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 11",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639404",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 11",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639402",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 11",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639403",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 11",
+      "home": "PMU MARSCIANO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639408",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 12",
+      "home": "TIBER VOLLEY",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639405",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 12",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639406",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 12",
+      "home": "SIRIO PALLAVOLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639407",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 12",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639409",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 13",
+      "home": "TIBER VOLLEY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639411",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 13",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639412",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 13",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639410",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 13",
+      "home": "PMU MARSCIANO",
+      "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639416",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 14",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639415",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 14",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639413",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 14",
+      "home": "SIRIO PALLAVOLO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639414",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639418",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639420",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639419",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639423",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639421",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639422",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TRESTINA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639426",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639424",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639425",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639429",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639427",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639428",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639432",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639430",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639431",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639434",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639435",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639433",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "TRESTINA VOLLEY",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639438",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639437",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639436",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639440",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639439",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639441",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639442",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639444",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639443",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639447",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639446",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639445",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639453",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "FOLIGNO - SPELLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639452",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ELLERA VOLLEY",
+      "away": "REBELS ASSISI U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639451",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639454",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639455",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "FOLIGNO - SPELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639456",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI U19",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639458",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "ELLERA VOLLEY",
+      "away": "FOLIGNO - SPELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639459",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "REBELS ASSISI U19",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639457",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639462",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "FOLIGNO - SPELLO",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639461",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "ELLERA VOLLEY",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639460",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "REBELS ASSISI U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639464",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639465",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "REBELS ASSISI U19",
+      "away": "FOLIGNO - SPELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639463",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639468",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "FOLIGNO - SPELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639466",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639467",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "REBELS ASSISI U19",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639470",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "FOLIGNO - SPELLO",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639469",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ELLERA VOLLEY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639471",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "REBELS ASSISI U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639473",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "FOLIGNO - SPELLO",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639472",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639474",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "REBELS ASSISI U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639476",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639475",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "REBELS ASSISI U19",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639477",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "FOLIGNO - SPELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639480",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "FOLIGNO - SPELLO",
+      "away": "REBELS ASSISI U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639478",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ELLERA VOLLEY",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639479",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
       "score": "da disputare",
       "status": "in programma"
     }
