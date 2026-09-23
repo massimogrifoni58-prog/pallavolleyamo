@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T05:02:05.833611+00:00",
+  "generatedAt": "2026-09-23T09:42:17.579605+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -8,6 +8,14 @@
       "createdTime": "Wed, 29 Oct 2025 09:00:00 GMT",
       "image": "https://www.latinanews.eu/wp-content/uploads/2025/10/XSAi63qPngB6-e1761552969179.jpg",
       "permalink": "https://www.latinanews.eu/volley-tre-ore-di-battaglia-per-il-viridex-sabaudia-che-supera-il-terni-3-2/"
+    },
+    {
+      "id": "news-0",
+      "title": "Pallavolo, Acqua Sant'Anna Cuneo: ecco date e orari delle prime cinque giornate",
+      "excerpt": "Fonte: cuneodice.it",
+      "createdTime": "Wed, 23 Sep 2026 01:38:00 GMT",
+      "image": "https://static.cuneodice.it/cuneo/foto/127410/158759.jpg",
+      "permalink": "https://www.cuneodice.it/sport/cuneo-e-valli/pallavolo-acqua-sant-anna-cuneo-ecco-date-e-orari-delle-prime-cinque-giornate_127410.html"
     },
     {
       "id": "news-5",
@@ -50,12 +58,12 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-0",
-      "title": "Acqua Sant’Anna Cuneo, ufficiali date e orari delle prime cinque giornate",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Tue, 22 Sep 2026 14:58:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/09/22/195825193-2a109cac-e686-4d0f-bac1-20dc19d8a47e.jpg",
-      "permalink": "https://www.tuttosport.com/news/piemonte-news/2026/09/22-151416010/acqua_santanna_cuneo_ufficiali_date_e_orari_delle_prime_cinque_giornate"
+      "id": "news-2",
+      "title": "Acqua Sant'Anna Cuneo, definite le prime 5 giornate: debutto in casa contro Perugia",
+      "excerpt": "Fonte: cuneocronaca.it",
+      "createdTime": "Tue, 22 Sep 2026 23:46:00 GMT",
+      "image": "https://www.cuneocronaca.it/img/articoli/1790145660Immagine7.jpeg",
+      "permalink": "https://www.cuneocronaca.it/acqua-sant-039-anna-cuneo-definite-le-prime-5-giornate-debutto-in-casa-contro-perugia"
     },
     {
       "id": "news-1",
@@ -102,7 +110,7 @@
       "title": "Diventare arbitri di pallavolo: Fipav Umbria apre le iscrizioni ai corsi",
       "excerpt": "Fonte: umbriaon.it",
       "createdTime": "Tue, 08 Sep 2026 07:57:00 GMT",
-      "image": null,
+      "image": "https://www.umbriaon.it/2015/wp-content/uploads/2026/09/Arbitri-pallavolo-Umbria-2026.jpg",
       "permalink": "https://www.umbriaon.it/diventare-arbitri-di-pallavolo-fipav-umbria-apre-le-iscrizioni-ai-corsi/"
     },
     {
@@ -162,6 +170,14 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
+      "id": "news-6",
+      "title": "Memorial Avalle: bis per Perugia",
+      "excerpt": "Fonte: tuttosport.com",
+      "createdTime": "Sun, 20 Sep 2026 15:34:00 GMT",
+      "image": "https://cdn.tuttosport.com/images/2026/09/20/202318846-ce8103e8-c479-430b-9b7b-fda231b2c0e2.jpg",
+      "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/09/20-151384825/memorial_avalle_bis_per_perugia"
+    },
+    {
       "id": "sirioperugiapariepattacontrote",
       "title": "Sirio Perugia: pari e patta contro Teramo",
       "excerpt": "Un buon test ed un risultato di parità finale, per quello che può valere in questa fase della stagione, che consente di guardare verso il futuro con ottimismo alle ragazze del tecnico Bovari. L&#8217;",
@@ -210,28 +226,12 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-6",
-      "title": "La prima Champions League maschile di Perugia nella pallavolo",
-      "excerpt": "Fonte: ilpost.it",
-      "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
-      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/05/19/1747633306-Perugia-Volley.jpeg",
-      "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
-    },
-    {
       "id": "news-5",
       "title": "Pallavolo, Città di Castello ritrova la vittoria: 3-0 netto al CLT Terni",
       "excerpt": "Fonte: umbriacronaca.it",
       "createdTime": "Sun, 16 Nov 2025 00:05:00 GMT",
       "image": "https://www.umbriacronaca.it/wp-content/uploads/2025/11/1-57-240x300.jpeg",
       "permalink": "https://www.umbriacronaca.it/2025/11/16/pallavolo-citta-di-castello-ritrova-la-vittoria-3-0-netto-al-clt-terni/"
-    },
-    {
-      "id": "news-2",
-      "title": "Pallavolo SL – Agustin Loser: “Come tutti gli anni, Perugia è molto forte. Sanguinetti porterà tanta aggressività in attacco”",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sun, 13 Sep 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/09/14/pallavolo-sl-agustin-loser-come-tutti-gli-anni-perugia-e-molto-forte-sanguinetti-portera-tanta-aggressivita-in-attacco/"
     },
     {
       "id": "news-1",
@@ -250,14 +250,6 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-7",
-      "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/02/9685329_02003505_sir_10.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
-    },
-    {
       "id": "news-4",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
@@ -274,12 +266,20 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Memorial Avalle: Roma e Perugia giocheranno domani per alzare il trofeo",
       "excerpt": "Fonte: tuttosport.com",
       "createdTime": "Sat, 19 Sep 2026 17:08:00 GMT",
       "image": "https://cdn.tuttosport.com/images/2026/09/19/215959656-152e7982-cd47-47d0-b48d-93073128f8ff.jpg",
       "permalink": "https://www.tuttosport.com/news/pallavolo/femminile/2026/09/19-151354448/memorial_avalle_roma_e_perugia_giocheranno_domani_per_alzare_il_trofeo"
+    },
+    {
+      "id": "news-5",
+      "title": "Pallavolo MemorialSimonettaAvalle – Roma e Perugia sono le due finaliste della seconda edizione",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sat, 19 Sep 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/09/20/pallavolo-memorialsimonettaavalle-roma-e-perugia-sono-le-due-finaliste-della-seconda-edizione/"
     },
     {
       "id": "aperugialaojicupconospiteosaka",
@@ -298,7 +298,7 @@
       "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
       "title": "Pallavolo SL – Nathan Feral al secondo anno a Cuneo: “Più consapevole e pronto a vincere contro le grandi”",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Mon, 21 Sep 2026 17:00:00 GMT",
