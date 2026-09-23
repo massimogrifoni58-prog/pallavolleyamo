@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:38:04.353668+00:00",
+  "generatedAt": "2026-09-23T05:03:00.734370+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -4502,6 +4502,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627109",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627108",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 2",
@@ -4525,15 +4534,6 @@
       "giornata": "Giornata 2",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "OMG VOLLEY PONTE VALLECEPPI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627109",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 2",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "away": "EMMEPI  GROUP  PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5096,15 +5096,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627175",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 13",
-      "home": "EMMEPI  GROUP  PONTE FELCINO",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627176",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 13",
@@ -5119,6 +5110,15 @@
       "giornata": "Giornata 13",
       "home": "OMG VOLLEY PONTE VALLECEPPI",
       "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627175",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
+      "away": "EMMEPI  GROUP  PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5321,15 +5321,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627198",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 17",
-      "home": "EMMEPI  GROUP  PONTE FELCINO",
-      "away": "NUOVA PALLAVOLO GUALDO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627196",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 17",
@@ -5353,6 +5344,15 @@
       "giornata": "Giornata 17",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
       "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627198",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "NUOVA PALLAVOLO GUALDO",
       "score": "da disputare",
       "status": "in programma"
     },
