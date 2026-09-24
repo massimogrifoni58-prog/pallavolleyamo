@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T05:03:27.774332+00:00",
+  "generatedAt": "2026-09-24T09:42:05.055811+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -9239,8 +9239,8 @@
       "id": "131639451",
       "competition": "Under 19 Femminile Girone B",
       "giornata": "Giornata 1",
-      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
+      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9362,20 +9362,20 @@
       "status": "in programma"
     },
     {
-      "id": "131639466",
-      "competition": "Under 19 Femminile Girone B",
-      "giornata": "Giornata 6",
-      "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
-      "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639467",
       "competition": "Under 19 Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "REBELS ASSISI U19",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639466",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "away": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9524,20 +9524,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641220",
-      "competition": "Under 17 Femminile ELITE",
-      "giornata": "Giornata 3",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
-      "away": "POLISP DON BOSCO GUBBIO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641219",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 3",
       "home": "TIBER VOLLEY",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641220",
+      "competition": "Under 17 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "POLISP DON BOSCO GUBBIO BIANCA",
       "score": "da disputare",
       "status": "in programma"
     },
