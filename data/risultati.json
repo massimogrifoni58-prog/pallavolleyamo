@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:42:05.055811+00:00",
+  "generatedAt": "2026-09-25T05:05:35.416550+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -4448,6 +4448,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627103",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627101",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 1",
@@ -4480,15 +4489,6 @@
       "giornata": "Giornata 1",
       "home": "SIRIO PERUGIA",
       "away": "POLISPORTIVA DELFINO - IDROSFERA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627103",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "NUOVA PALLAVOLO GUALDO",
-      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4664,6 +4664,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627124",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627125",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 5",
@@ -4696,15 +4705,6 @@
       "giornata": "Giornata 5",
       "home": "TIBER VOLLEY",
       "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627124",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 5",
-      "home": "NUOVA PALLAVOLO GUALDO",
-      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8444,15 +8444,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639364",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "A.S. FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639363",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 1",
@@ -8467,6 +8458,15 @@
       "giornata": "Giornata 1",
       "home": "SIRIO PALLAVOLO",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639364",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "A.S. FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8516,15 +8516,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639371",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 3",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639372",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 3",
@@ -8539,6 +8530,15 @@
       "giornata": "Giornata 3",
       "home": "PALLAVOLO CITTA' DI CASTELLO",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639371",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "TIBER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8588,15 +8588,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639378",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 5",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "SIRIO PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639380",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 5",
@@ -8620,6 +8611,15 @@
       "giornata": "Giornata 5",
       "home": "PALLAVOLO CITTA' DI CASTELLO",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639378",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIRIO PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8669,15 +8669,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639387",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 7",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "PALLAVOLO CITTA' DI CASTELLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639388",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 7",
@@ -8692,6 +8683,15 @@
       "giornata": "Giornata 7",
       "home": "PMU MARSCIANO",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639387",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8732,15 +8732,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639395",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 9",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639394",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 9",
@@ -8755,6 +8746,15 @@
       "giornata": "Giornata 9",
       "home": "SIRIO PALLAVOLO",
       "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639395",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PMU MARSCIANO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8804,15 +8804,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639401",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 11",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639404",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 11",
@@ -8836,6 +8827,15 @@
       "giornata": "Giornata 11",
       "home": "PMU MARSCIANO",
       "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639401",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 11",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8885,15 +8885,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639411",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 13",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639412",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 13",
@@ -8908,6 +8899,15 @@
       "giornata": "Giornata 13",
       "home": "PMU MARSCIANO",
       "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639411",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 13",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
