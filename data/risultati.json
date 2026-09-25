@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:05:35.416550+00:00",
+  "generatedAt": "2026-09-25T09:59:58.752370+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8480,15 +8480,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639366",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 2",
-      "home": "TIBER VOLLEY",
-      "away": "PALLAVOLO CITTA' DI CASTELLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639368",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 2",
@@ -8512,6 +8503,15 @@
       "giornata": "Giornata 2",
       "home": "PMU MARSCIANO",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639366",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 2",
+      "home": "TIBER VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9227,20 +9227,20 @@
       "status": "in programma"
     },
     {
-      "id": "131639452",
-      "competition": "Under 19 Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "ELLERA VOLLEY",
-      "away": "REBELS ASSISI U19",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639451",
       "competition": "Under 19 Femminile Girone B",
       "giornata": "Giornata 1",
       "home": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
       "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639452",
+      "competition": "Under 19 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "ELLERA VOLLEY",
+      "away": "REBELS ASSISI U19",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9803,6 +9803,15 @@
       "status": "in programma"
     },
     {
+      "id": "131641437",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131641438",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 6",
@@ -9817,15 +9826,6 @@
       "giornata": "Giornata 6",
       "home": "TRESTINA VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131641437",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 6",
-      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
-      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
       "score": "da disputare",
       "status": "in programma"
     },

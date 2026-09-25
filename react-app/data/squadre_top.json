@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:07:33.522336+00:00",
+  "generatedAt": "2026-09-25T10:01:40.571526+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,17 +35,24 @@
   "news": {
     "sir-perugia": [
       {
-        "title": "Sir Perugia, le parole di Solè dopo il test con Grottazzolina - Umbria TV",
+        "title": "Sir Perugia, le parole di Solè dopo il test con Grottazzolina - umbriatv.com",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ0VUQ1lCNFFjUC1pVHBqXzd2Wll3MXdWOENmUllxY2l4VFJJUU9yTy1HR29rVkdGSFFTQWs5VTFqWV96NkRSeTE5QnI4MGJGREZ4MnpDWkV4NDlxb3FPNnQtZ1ZhSTQwU0NjZlc5UEctbXE1c2wzMDN2Y3FJbTc3elI4YzVVNzR4alNvY3dFU2cxekJCWkRNQ0MwYjZPSXpHZ1g1UkhPdk1nbWM?oc=5",
         "pubDate": "Thu, 24 Sep 2026 10:35:50 GMT",
-        "source": "Umbria TV",
+        "source": "umbriatv.com",
         "image": null
       },
       {
         "title": "La Sir. Solé dopo l’allenamento congiunto in trasferta: “Siamo in crescita, saremo pronti”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab601918ce642aa81bcc59bc34b6ad8&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-sole-dopo-lallenamento-congiunto-in-trasferta-siamo-in-crescita-saremo-pronti%2f254297%2f&c=10317847547164971335&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64681c8e04e39bbe6f7f66edb21da&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-sole-dopo-lallenamento-congiunto-in-trasferta-siamo-in-crescita-saremo-pronti%2f254297%2f&c=10317847547164971335&mkt=it-it",
         "pubDate": "Thu, 24 Sep 2026 10:08:00 GMT",
         "source": "",
+        "image": null
+      },
+      {
+        "title": "Volley, Euro2026 finisce male per l'Italia: la Finlandia passa a sorpresa al tie break - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVZrX2ROXzd2SjdSRnVrdklVTXpkN25YNVZhTjBsX09FaVFMVlFWY2RXMk1xUHV1MDllMFB3UXdFaFBIakcwb3hYWHFsN1RwSWdlLVlQS0NxVkRoS1Y1Y1F2R1lQRDJzcWZMS0VNNjFtQ0xlNmJEcWRYNW9aazFqN0pQS1JvdnlUMG4xNHl2UThlcUcwZTUxVnhJajdoRDRLS2pkbUljaTd1X21FY2c?oc=5",
+        "pubDate": "Wed, 23 Sep 2026 22:34:43 GMT",
+        "source": "PerugiaToday",
         "image": null
       },
       {
@@ -57,64 +64,50 @@
       },
       {
         "title": "Superlega, definite date e orari delle prime cinque giornate: il calendario della Sir Susa Scai",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab601918ce642aa81bcc59bc34b6ad8&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsuperlega-definite-date-e-orari-delle-prime-cinque-giornate-il-calendario-della-sir-susa-scai%2f&c=5056671960777210928&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64681c8e04e39bbe6f7f66edb21da&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsuperlega-definite-date-e-orari-delle-prime-cinque-giornate-il-calendario-della-sir-susa-scai%2f&c=5056671960777210928&mkt=it-it",
         "pubDate": "Tue, 22 Sep 2026 11:48:00 GMT",
         "source": "",
-        "image": null
-      },
-      {
-        "title": "Grottazzolina e Terni Volley per i prossimi allenamenti congiunti della Sir Perugia - SportPerugia.it",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbGZiT2xDUmxFSEFvVlR2LUxqVmhZcW5LaUo1NjBoNGxQV0NXOGhDWVVfc1FUU1A1elZHU0Q0WnEwbHpDWTE1Ul84WW5MdG1YNXpQVUh0MTNKTWhwNy1aWHZpU2JLcFVRZ1M0S1pkT3VkOFlFNUxhWGkwNlRHRGRNWVRDT2hwS3d3aGkyYi1odFRZNlJIbFlUWDM3Mlo4dmhtNFpNY05RLUdXcXZVdDAyb1d3?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 07:15:38 GMT",
-        "source": "SportPerugia.it",
         "image": null
       }
     ],
     "bartoccini": [
       {
         "title": "Le Black Angels puntano in alto. Bartoccini: \"Adesso si fa sul serio\"",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60192ad9342d6925b086e62161630&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fle-black-angels-puntano-in-alto-bartoccini-adesso-si-fa-sul-serio%2far-AA2cRtOg&c=13441631817009510037&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682f92d412aac395246a40cfaf9&url=https%3a%2f%2fwww.msn.com%2fit-it%2fsport%2fpallavolo%2fle-black-angels-puntano-in-alto-bartoccini-adesso-si-fa-sul-serio%2far-AA2cRtOg&c=13441631817009510037&mkt=it-it",
         "pubDate": "Wed, 23 Sep 2026 20:31:54 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Le Black Angels a Palazzo dei Priori, la Sindaca Ferdinandi: “La città è con voi”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60192ad9342d6925b086e62161630&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-a-palazzo-dei-priori-la-sindaca-ferdinandi-la-citta-e-con-voi%2f&c=4843961825602590132&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682f92d412aac395246a40cfaf9&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-a-palazzo-dei-priori-la-sindaca-ferdinandi-la-citta-e-con-voi%2f&c=4843961825602590132&mkt=it-it",
         "pubDate": "Tue, 22 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Bartoccini +energia Perugia batte 3-1 Roma e vince il Memorial Avalle - Umbria TV",
+        "title": "Bartoccini +energia Perugia batte 3-1 Roma e vince il Memorial Avalle - umbriatv.com",
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNzlmcmhFRWxfV3J0ZHNLblIzeVlla3hBWXJ4VWlGX0ZOSzlYS2VZY0MtT2xlR2wyc0dScXZMU1lhd3BZZjFqbHRxX2JYSk5PSWhqdzNHZlVtdXJ1X2YyNi1qaG5ZT0hIaXRNRlFqZlpQdFRMMTZYV1pBOXlneDRJbE1iaDBUOWZpWFNPVXhvSERmRURnN3JiaTVpQ1RZaGhjNkhBM29VSEF2cHBwUEctNFNXaXJPdw?oc=5",
         "pubDate": "Tue, 22 Sep 2026 04:51:58 GMT",
-        "source": "Umbria TV",
+        "source": "umbriatv.com",
         "image": null
       },
       {
         "title": "Memorial Avalle: bis per Perugia",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60192ad9342d6925b086e62161630&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2ffemminile%2f2026%2f09%2f20-151384825%2fmemorial_avalle_bis_per_perugia&c=7006920652893912003&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682f92d412aac395246a40cfaf9&url=https%3a%2f%2fwww.tuttosport.com%2fnews%2fpallavolo%2ffemminile%2f2026%2f09%2f20-151384825%2fmemorial_avalle_bis_per_perugia&c=7006920652893912003&mkt=it-it",
         "pubDate": "Sun, 20 Sep 2026 15:34:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Le Black Angels fanno bis: Perugia vince il ‘Memorial Simonetta Avalle’",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60192ad9342d6925b086e62161630&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-fanno-bis-perugia-vince-il-memorial-simonetta-avalle%2f&c=4600178737183075499&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682f92d412aac395246a40cfaf9&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fle-black-angels-fanno-bis-perugia-vince-il-memorial-simonetta-avalle%2f&c=4600178737183075499&mkt=it-it",
         "pubDate": "Sat, 19 Sep 2026 17:00:00 GMT",
         "source": "",
         "image": null
       }
     ],
     "tva": [
-      {
-        "title": "Terni Volley Academy, si interrompe il percorso con Sarandrea: il presidente Santini prosegue il progetto",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab6019381664cbe87f78a7edf7934c7&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-interrompe-percorso-sarandrea-presidente-santini-prosegue-progetto-120976&c=12887540474182974506&mkt=it-it",
-        "pubDate": "Wed, 23 Sep 2026 12:30:00 GMT",
-        "source": "",
-        "image": null
-      },
       {
         "title": "Terni Volley Academy, arriva il ripescaggio: i Dragoni giocheranno ancora in Serie A3 - Ternana News",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTV0YXFtd1BYOUx5eUdmaW5EQmJLZ09FVnFQNzV4ckNGNnl5OFZwcW94ekFHclRoQjB6akFPVDBtcGRTcEM1U2Nic3dKajlEWEYxUVkxUnh2dFpQTmwzTHhPMnR5bDVGRHctNEgwYjJfZ0ZMOE1rd2JpS09LWXhJRnZMdjdVc2V4MUdOUHVnMkx0T1h0dUJSYTN2VHRsQmFBMUdFbWppemtFSjJvNVNsU1FvSndRUzVLR0E?oc=5",
@@ -142,6 +135,13 @@
         "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
         "source": "Terni in Rete",
         "image": null
+      },
+      {
+        "title": "Terni Volley Academy, oltre mille cuori rossoverdi per spingere i Dragons: le combinazioni per la salvezza",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682200841069ea2205fd073da1b&url=https%3a%2f%2fwww.today.it%2fsport%2fmodica-oltre-mille-cuori-rossoverdi-spingere-terni-2026.html&c=5720056208531746489&mkt=it-it",
+        "pubDate": "Sun, 01 Mar 2026 00:31:00 GMT",
+        "source": "",
+        "image": null
       }
     ],
     "altotevere": [
@@ -161,9 +161,16 @@
       },
       {
         "title": "Pallavolo A3M – Altotevere, parla Broccatelli, libero scuola Sir Perugia: “Sono pronto per qualsiasi sfida”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60193345c4af4b2eccbc1d320b9bb&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab64682f22049e0a632a4c8bcb612e6&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f09%2f11%2fpallavolo-a3m-altotevere-parla-broccatelli-libero-scuola-sir-perugia-sono-pronto-per-qualsiasi-sfida%2f&c=2814516582007452535&mkt=it-it",
         "pubDate": "Thu, 10 Sep 2026 17:00:00 GMT",
         "source": "",
+        "image": null
+      },
+      {
+        "title": "Volley, il futuro dell'Altotevere passa per l'esperienza: ruoli chiave a Cardellini e Tizzi - Tag24 Umbria",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQUNrWEh0S1N0WFNsR2NhUTBmTlplYkFrX1pkM0dYcmt6OGlWQkMyc3g5dUlYUTRQb082Zmt3Zml3NEppZVdvM053ODlBYUdGRGoxampyMDFyUmc3UW91M3l4bmdmbU96Vnp5dVYzYXFLMTJRbGdoVzhITl9PRjhJZTNUdjVCUUJqZ2hYM3BnMnZRRTFiYXdQcm9wWjVFaExDNUNrRE1TUTVSS1Fzb2ZMbA?oc=5",
+        "pubDate": "Wed, 09 Sep 2026 18:00:00 GMT",
+        "source": "Tag24 Umbria",
         "image": null
       },
       {
@@ -172,19 +179,19 @@
         "pubDate": "Mon, 07 Sep 2026 10:28:40 GMT",
         "source": "Teletruria",
         "image": null
-      },
-      {
-        "title": "Pallavolo A3M - ErmGroup Altotevere il primo test sul campo sarà il derby con Città di Castello - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQzNDVDhIS0UzcUg2Z3BQM2VlTFhMVkFRdWlFYUtEU2dOZlpzTDZwRFM0U0lHOUZheHBhVTctSnBnWm5EaVZPQllZQ2FLOXVEWHEtZGt4OGxVT3hhLUFwcnhGMW5XM3laTHZsOXpZNGNMZTBOMmlKa0RVaDJpNE5OblpNbmhjQzFVaDNBVzhHN2w0Mmwyc2p4aFdnbmJqMWFVZE5NOHhuNEV6VmJEZ2tJT1JqSFFoWlJua1NFZC14OC1kUW1CRlRjdXBPWTlGU0kwZ0E?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 07:00:00 GMT",
-        "source": "iVolley Magazine",
-        "image": null
       }
     ],
     "citta-castello": [
       {
+        "title": "Dream Volley Nardò si presenta alla città e si prepara allo storico esordio in B1",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab646838f97486bb07341b12686af59&url=https%3a%2f%2fwww.corrieresalentino.it%2f2026%2f09%2fdream-volley-nardo-si-presenta-alla-citta-e-si-prepara-allo-storico-esordio-in-b1%2f&c=4497171639714869083&mkt=it-it",
+        "pubDate": "Fri, 25 Sep 2026 01:12:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Volley B1/F, Dream Nardò: squadra presentata al Castello Acquaviva",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60194881e459f8ca5368ec493d397&url=https%3a%2f%2fwww.antennasud.com%2fvolley-b1-f-dream-nardo-squadra-presentata-al-castello-acquaviva%2f&c=7199679579105688425&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab646838f97486bb07341b12686af59&url=https%3a%2f%2fwww.antennasud.com%2fvolley-b1-f-dream-nardo-squadra-presentata-al-castello-acquaviva%2f&c=7199679579105688425&mkt=it-it",
         "pubDate": "Thu, 24 Sep 2026 13:45:00 GMT",
         "source": "",
         "image": null
@@ -197,22 +204,15 @@
         "image": null
       },
       {
-        "title": "La Dream si presenta alla città e si prepara allo storico esordio in B1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60194881e459f8ca5368ec493d397&url=https%3a%2f%2fwww.lecceprima.it%2fsport%2fvolley%2fla-dream-si-presenta-alla-citta-e-si-prepara-allo-storico-esordio-in-b1-15273005.html&c=18120396509119375386&mkt=it-it",
-        "pubDate": "Thu, 24 Sep 2026 07:19:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
         "title": "Trofeo Codex del Castello, quattro squadre di serie A per due giorni di grande volley",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60194881e459f8ca5368ec493d397&url=https%3a%2f%2fwww.tenonline.tv%2fnews%2fsport%2ftrofeo-codex-del-castello-quattro-squadre-di-serie-a-per-due-giorni-di-grande-volley%2f&c=12303539671873832567&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab646838f97486bb07341b12686af59&url=https%3a%2f%2fwww.tenonline.tv%2fnews%2fsport%2ftrofeo-codex-del-castello-quattro-squadre-di-serie-a-per-due-giorni-di-grande-volley%2f&c=12303539671873832567&mkt=it-it",
         "pubDate": "Wed, 23 Sep 2026 10:01:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Trofeo del Codex e del Castello, quattro squadre di Serie A per due giorni di grande volley a Corigliano-Rossano",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab60194881e459f8ca5368ec493d397&url=https%3a%2f%2fecodellojonio.it%2farticoli%2fsport%2f2026%2f09%2ftrofeo-del-codex-e-del-castello-quattro-squadre-di-serie-a-per-due-giorni-di-grande-volley-a-corigliano-rossano&c=750693690747305769&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab646838f97486bb07341b12686af59&url=https%3a%2f%2fecodellojonio.it%2farticoli%2fsport%2f2026%2f09%2ftrofeo-del-codex-e-del-castello-quattro-squadre-di-serie-a-per-due-giorni-di-grande-volley-a-corigliano-rossano&c=750693690747305769&mkt=it-it",
         "pubDate": "Wed, 23 Sep 2026 03:10:00 GMT",
         "source": "",
         "image": null
