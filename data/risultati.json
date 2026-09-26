@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T09:59:58.752370+00:00",
+  "generatedAt": "2026-09-26T05:03:01.442203+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -9965,6 +9965,15 @@
       "status": "in programma"
     },
     {
+      "id": "131641454",
+      "competition": "Under 17 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131641456",
       "competition": "Under 17 Femminile Girone B",
       "giornata": "Giornata 2",
@@ -9979,15 +9988,6 @@
       "giornata": "Giornata 2",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "away": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131641454",
-      "competition": "Under 17 Femminile Girone B",
-      "giornata": "Giornata 2",
-      "home": "VOLLEY PONTE FELCINO",
-      "away": "BARTOCCINI SCHOOL VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
