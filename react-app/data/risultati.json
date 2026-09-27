@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T10:22:12.518706+00:00",
+  "generatedAt": "2026-09-27T18:39:44.568317+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -7742,20 +7742,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629421",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 3",
-      "home": "DIFDIF VOLLEY ACADEMY",
-      "away": "SPELLO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629418",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 3",
       "home": "ARRONEPALLAVOLO",
       "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629421",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "SPELLO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7832,20 +7832,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629431",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 5",
-      "home": "DIFDIF VOLLEY ACADEMY",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629428",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 5",
       "home": "ARRONEPALLAVOLO",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629431",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8093,20 +8093,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629458",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 11",
-      "home": "DIFDIF VOLLEY ACADEMY",
-      "away": "ARRONEPALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629459",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 11",
       "home": "COLLELUNA VOLLEY SAN GEMINI",
       "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629458",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "ARRONEPALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8183,15 +8183,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629469",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 13",
-      "home": "DIFDIF VOLLEY ACADEMY",
-      "away": "OMG VOLLEY PONTE VALLECEPPI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629470",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 13",
@@ -8206,6 +8197,15 @@
       "giornata": "Giornata 13",
       "home": "ARRONEPALLAVOLO",
       "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629469",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8408,15 +8408,6 @@
       "status": "in programma"
     },
     {
-      "id": "131629492",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 18",
-      "home": "DIFDIF VOLLEY ACADEMY",
-      "away": "REBELS ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629493",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 18",
@@ -8431,6 +8422,15 @@
       "giornata": "Giornata 18",
       "home": "UMBRIA VOLLEY ACADEMY DERUTA",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629492",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "DIFDIF VOLLEY ACADEMY",
+      "away": "REBELS ASSISI",
       "score": "da disputare",
       "status": "in programma"
     },
