@@ -5410,21 +5410,35 @@ function CalendarioCompletoPage() {
   const partiteRegionaliData = calendarioRegionaliData.partite || {};
   const partiteNazionali = calendarioSquadreData.partite || [];
 
-  // Costruisce la lista di "categorie" selezionabili: Nazionale + ogni campionato regionale
   const categorie = [
     { id: "nazionale", nome: "Squadre Nazionali" },
     ...campionatiRegionali.map(c => ({ id: c.id, nome: c.nome })),
   ];
 
   const [selCategoria, setSelCategoria] = useState("nazionale");
+  const [selSquadra, setSelSquadra] = useState("");
 
   const oggi = new Date();
   const [meseCorrente, setMeseCorrente] = useState(new Date(oggi.getFullYear(), oggi.getMonth(), 1));
   const [selectedDay, setSelectedDay] = useState(null);
 
-  const partite = selCategoria === "nazionale"
+  const partiteCategoria = selCategoria === "nazionale"
     ? partiteNazionali
     : (partiteRegionaliData[selCategoria] || []);
+
+  // Elenco squadre uniche della categoria selezionata
+  const squadreUniche = [...new Set(
+    partiteCategoria.flatMap(p => [p.casa, p.ospite]).filter(Boolean)
+  )].sort();
+
+  // Se è selezionata una squadra, filtra tutte le sue partite (ordinate per data)
+  const partiteSquadra = selSquadra
+    ? partiteCategoria.filter(p => p.casa === selSquadra || p.ospite === selSquadra)
+        .slice().sort((a, b) => a.data.localeCompare(b.data))
+    : [];
+
+  // Se non c'è squadra selezionata, usa tutte le partite della categoria per il calendario
+  const partite = partiteCategoria;
 
   const anno = meseCorrente.getFullYear();
   const mese = meseCorrente.getMonth();
@@ -5459,6 +5473,11 @@ function CalendarioCompletoPage() {
   function cambiaCategoria(id) {
     setSelCategoria(id);
     setSelectedDay(null);
+    setSelSquadra("");
+  }
+
+  function formatDataBreve(dataISO) {
+    return new Date(dataISO + "T00:00:00").toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
   }
 
   const partiteSelezionate = selectedDay ? (partiteMap[selectedDay] || []) : [];
@@ -5469,7 +5488,7 @@ function CalendarioCompletoPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1rem" }}>
           {categorie.map(c => (
             <button key={c.id}
               className={`filter-btn ${selCategoria === c.id ? "filter-btn--active" : ""}`}
@@ -5479,81 +5498,32 @@ function CalendarioCompletoPage() {
           ))}
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "1rem" }}>
-          <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
-          <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)", minWidth: "140px", textAlign: "center" }}>
-            {meseNome}
+        {squadreUniche.length > 0 && (
+          <div className="all2-select-wrap" style={{ marginBottom: "1.5rem", maxWidth: "320px" }}>
+            <select className="all2-select" value={selSquadra} onChange={(e) => { setSelSquadra(e.target.value); setSelectedDay(null); }}>
+              <option value="">-- Vedi tutte le partite di una squadra --</option>
+              {squadreUniche.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
           </div>
-          <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
-        </div>
+        )}
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
-          {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
-            <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
-              {g}
-            </div>
-          ))}
-        </div>
-
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "1.5rem", maxWidth: "420px", margin: "0 auto 1.5rem" }}>
-          {celle.map((d, i) => {
-            if (d === null) return <div key={`empty-${i}`} />;
-            const iso = dataISO(d);
-            const haPartite = partiteMap[iso] && partiteMap[iso].length > 0;
-            const isOggi = iso === oggiISO;
-            const isSelected = iso === selectedDay;
-            return (
-              <button
-                key={iso}
-                onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
-                style={{
-                  aspectRatio: "1",
-                  maxWidth: "48px",
-                  maxHeight: "48px",
-                  border: isOggi ? "2px solid var(--gold)" : "1.5px solid var(--border-strong, var(--border))",
-                  borderRadius: "6px",
-                  background: isSelected ? "rgba(212,175,55,0.25)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
-                  color: haPartite ? "var(--text)" : "var(--text-dim)",
-                  cursor: haPartite ? "pointer" : "default",
-                  fontSize: "0.72rem",
-                  fontWeight: haPartite ? 700 : 400,
-                  position: "relative",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "0 auto",
-                }}
-              >
-                {d}
-                {haPartite && (
-                  <span style={{
-                    position: "absolute",
-                    bottom: "2px",
-                    width: "4px",
-                    height: "4px",
-                    borderRadius: "50%",
-                    background: "var(--gold)",
-                  }} />
-                )}
-              </button>
-            );
-          })}
-        </div>
-
-        {selectedDay && partiteSelezionate.length > 0 && (
-          <div style={{ marginBottom: "1rem" }}>
-            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
-              {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
+        {selSquadra ? (
+          <>
+            <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", marginBottom: "1rem" }}>
+              Tutte le partite di {selSquadra}
             </h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-              {partiteSelezionate.map(p => (
+              {partiteSquadra.length === 0 && (
+                <p className="state">Nessuna partita trovata per questa squadra.</p>
+              )}
+              {partiteSquadra.map(p => (
                 <div key={p.id} style={{
                   border: "1px solid var(--border)",
                   borderRadius: "10px",
                   padding: "0.85rem 1rem",
                 }}>
                   <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
-                    {p.categoria || (p.giornata && `Giornata ${p.giornata}`)} {p.ora && `· ${p.ora}`}
+                    {formatDataBreve(p.data)} {p.ora && `· ${p.ora}`} {p.giornata && `· Giornata ${p.giornata}`}
                   </div>
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
                     {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
@@ -5569,18 +5539,114 @@ function CalendarioCompletoPage() {
                 </div>
               ))}
             </div>
-          </div>
-        )}
+          </>
+        ) : (
+          <>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem", marginBottom: "1rem" }}>
+              <button onClick={() => cambiaMese(-1)} className="filter-btn">← Prec</button>
+              <div style={{ fontWeight: 700, textTransform: "capitalize", fontSize: "1rem", color: "var(--gold)", minWidth: "140px", textAlign: "center" }}>
+                {meseNome}
+              </div>
+              <button onClick={() => cambiaMese(1)} className="filter-btn">Succ →</button>
+            </div>
 
-        {!selectedDay && (
-          <p className="state" style={{ textAlign: "center", fontSize: "0.8rem" }}>
-            Clicca su un giorno evidenziato per vedere le partite.
-          </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
+              {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
+                <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+                  {g}
+                </div>
+              ))}
+            </div>
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "1.5rem", maxWidth: "420px", margin: "0 auto 1.5rem" }}>
+              {celle.map((d, i) => {
+                if (d === null) return <div key={`empty-${i}`} />;
+                const iso = dataISO(d);
+                const haPartite = partiteMap[iso] && partiteMap[iso].length > 0;
+                const isOggi = iso === oggiISO;
+                const isSelected = iso === selectedDay;
+                return (
+                  <button
+                    key={iso}
+                    onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
+                    style={{
+                      aspectRatio: "1",
+                      maxWidth: "48px",
+                      maxHeight: "48px",
+                      border: isOggi ? "2px solid var(--gold)" : "1.5px solid var(--border-strong, var(--border))",
+                      borderRadius: "6px",
+                      background: isSelected ? "rgba(212,175,55,0.25)" : haPartite ? "rgba(212,175,55,0.08)" : "transparent",
+                      color: haPartite ? "var(--text)" : "var(--text-dim)",
+                      cursor: haPartite ? "pointer" : "default",
+                      fontSize: "0.72rem",
+                      fontWeight: haPartite ? 700 : 400,
+                      position: "relative",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      margin: "0 auto",
+                    }}
+                  >
+                    {d}
+                    {haPartite && (
+                      <span style={{
+                        position: "absolute",
+                        bottom: "2px",
+                        width: "4px",
+                        height: "4px",
+                        borderRadius: "50%",
+                        background: "var(--gold)",
+                      }} />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            {selectedDay && partiteSelezionate.length > 0 && (
+              <div style={{ marginBottom: "1rem" }}>
+                <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
+                  {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
+                </h3>
+                <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+                  {partiteSelezionate.map(p => (
+                    <div key={p.id} style={{
+                      border: "1px solid var(--border)",
+                      borderRadius: "10px",
+                      padding: "0.85rem 1rem",
+                    }}>
+                      <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                        {p.categoria || (p.giornata && `Giornata ${p.giornata}`)} {p.ora && `· ${p.ora}`}
+                      </div>
+                      <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
+                        {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
+                      </div>
+                      {p.risultato && (
+                        <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
+                      )}
+                      {p.impianto && (
+                        <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
+                          📍 {p.impianto}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {!selectedDay && (
+              <p className="state" style={{ textAlign: "center", fontSize: "0.8rem" }}>
+                Clicca su un giorno evidenziato per vedere le partite, o seleziona una squadra sopra per vederle tutte insieme.
+              </p>
+            )}
+          </>
         )}
       </section>
     </main>
   );
 }
+
 
 function AgendaPage() {
   const partite = calendarioSquadreData.partite || [];
