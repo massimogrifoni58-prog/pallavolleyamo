@@ -33,6 +33,8 @@ jobs:
           python fetch_coach_news.py
           python fetch_news_generali.py
           python fetch_squadre_top.py
+          python fetch_calendario_fipav.py
+          python fetch_merge_regionali_giovanili.py
           cd ..
           cp react-app/data/*.json data/
           cp data/*.json react-app/data/
@@ -58,4 +60,3 @@ jobs:
       - name: Trigger Vercel deploy
         run: |
           curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_AlirBjIprA7fpYqlQpwFXWksVFpy/NF6htE5x4p"
-          
