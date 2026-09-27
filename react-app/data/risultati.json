@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T09:42:18.179768+00:00",
+  "generatedAt": "2026-09-27T05:03:52.706794+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8444,6 +8444,654 @@
       "status": "in programma"
     },
     {
+      "id": "131644056",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 1",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644054",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 1",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644055",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SIR MERICAT ASSISI",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644059",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644058",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644057",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644060",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644062",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644061",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SIR MERICAT ASSISI",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644065",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644064",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644063",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644066",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644068",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644067",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644070",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644069",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644071",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SIR MERICAT ASSISI",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644073",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644074",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644072",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644077",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644076",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644075",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644079",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644080",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644078",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SIR MERICAT ASSISI",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644083",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644082",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644081",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644086",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644085",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644084",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644088",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644087",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644089",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "SIR MERICAT ASSISI",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644091",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644092",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644090",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644095",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644093",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644094",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "SIR MERICAT ASSISI",
+      "away": "STRIKE TEAM MONTELUCE U19",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644098",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644097",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644096",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644100",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644099",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644101",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644103",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644104",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644102",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644107",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644106",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644105",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644109",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644110",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644108",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644111",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644112",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644113",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644115",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644114",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644116",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644118",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644119",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644117",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644121",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644120",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644122",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644125",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "POLISPORTIVA CLT",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644123",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644124",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131639363",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 1",
@@ -10235,20 +10883,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641494",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 2",
-      "home": "REBELS ASSISI U17",
-      "away": "FOLIGNO VOLLEY GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641495",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 2",
       "home": "SCHOOL VOLLEY PERUGIA INDACO",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641494",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI U17",
+      "away": "FOLIGNO VOLLEY GIALLA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10316,20 +10964,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641503",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 5",
-      "home": "VOLLEY 86 PETRIGNANO",
-      "away": "FOLIGNO VOLLEY GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641504",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 5",
       "home": "SCHOOL VOLLEY PERUGIA INDACO",
       "away": "REBELS ASSISI U17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641503",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "VOLLEY 86 PETRIGNANO",
+      "away": "FOLIGNO VOLLEY GIALLA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10343,20 +10991,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641508",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 6",
-      "home": "REBELS ASSISI U17",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641506",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 6",
       "home": "SCHOOL VOLLEY PERUGIA INDACO",
       "away": "VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641508",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "REBELS ASSISI U17",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10406,15 +11054,6 @@
       "status": "in programma"
     },
     {
-      "id": "131641512",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 8",
-      "home": "REBELS ASSISI U17",
-      "away": "VOLLEY 86 PETRIGNANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641514",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 8",
@@ -10424,11 +11063,11 @@
       "status": "in programma"
     },
     {
-      "id": "131641517",
+      "id": "131641512",
       "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 9",
-      "home": "VOLLEY 86 PETRIGNANO",
-      "away": "VIANDER ACTON BASTIA",
+      "giornata": "Giornata 8",
+      "home": "REBELS ASSISI U17",
+      "away": "VOLLEY 86 PETRIGNANO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10438,6 +11077,15 @@
       "giornata": "Giornata 9",
       "home": "SCHOOL VOLLEY PERUGIA INDACO",
       "away": "FOLIGNO VOLLEY GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641517",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "VOLLEY 86 PETRIGNANO",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
