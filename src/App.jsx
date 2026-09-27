@@ -497,8 +497,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
      { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
      { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
      { href: "#/agenda", label: "Calendario Squadre", locked: true },
-     { href: "#/risultati", label: "Risultati Camp. Regionali" },
-     { href: "#/giovanili", label: "Risultati Camp. Giovanili" },
      { href: "#/classifica", label: "Classifica" },
      { href: "#/headtohead", label: "Head to Head" },
      { href: "#/mappa", label: "🗺 Mappa", locked: true },
@@ -3732,7 +3730,51 @@ function AndamentoPage() {
 }
 
 function ClassificaPage() {
-  const matches = (risultatiData.matches || []).filter((m) => m.status === "disputata" && isAllowedCategory(m.competition));
+  // Normalizza le partite dal nuovo sistema (calendario_regionali + calendario_squadre)
+  // nello stesso formato usato da risultatiData.matches
+  function normalizzaPartiteNuove() {
+    const risultato = [];
+
+    // Da calendario_regionali.json (Serie C/D + giovanili)
+    const campionatiReg = calendarioRegionaliData.campionati || [];
+    const partiteReg = calendarioRegionaliData.partite || {};
+    campionatiReg.forEach(camp => {
+      const lista = partiteReg[camp.id] || [];
+      lista.forEach(p => {
+        if (!p.risultato) return;
+        risultato.push({
+          id: p.id,
+          competition: camp.nome,
+          home: p.casa,
+          away: p.ospite,
+          score: p.risultato,
+          status: "disputata",
+          data: p.data,
+        });
+      });
+    });
+
+    // Da calendario_squadre.json (Squadre Nazionali)
+    const partiteNaz = calendarioSquadreData.partite || [];
+    partiteNaz.forEach(p => {
+      if (!p.risultato) return;
+      risultato.push({
+        id: p.id,
+        competition: p.categoria || "Squadre Nazionali",
+        home: p.casa,
+        away: p.ospite,
+        score: p.risultato,
+        status: "disputata",
+        data: p.data,
+      });
+    });
+
+    return risultato;
+  }
+
+  const matchesVecchi = (risultatiData.matches || []).filter((m) => m.status === "disputata" && isAllowedCategory(m.competition));
+  const matchesNuovi = normalizzaPartiteNuove();
+  const matches = [...matchesVecchi, ...matchesNuovi];
 
   const byMacro = {};
   matches.forEach((m) => {
@@ -3794,7 +3836,6 @@ function ClassificaPage() {
     });
   }
 
-  // Gironi da mostrare
   const gironiDaMostrare = selMacro && selComp
     ? { [selComp]: byMacro[selMacro][selComp] }
     : selMacro && !selComp
@@ -6120,7 +6161,7 @@ useEffect(() => {
           {route === "classifica" && <ClassificaPage />}
           {route === "dirette" && <DiretteLivePage />}
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
-          {route === "risultati" && <RisultatiPage />}
+          {route === "risultati" && <CalendarioCompletoPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}
           {route === "risultati-1div" && <RisultatiPage cat="1 Divisione" />}
