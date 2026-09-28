@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T07:01:29.396346+00:00",
+  "generatedAt": "2026-08-21T16:22:53.009010+00:00",
   "partite": [
     {
       "id": "excel-34",
@@ -32,53 +32,13 @@
       "impianto": "Palazzetto Dello Sport - Vasto"
     },
     {
-      "id": "excel-66",
-      "categoria": "Serie B2 F",
-      "data": "2026-10-17",
-      "ora": "18:00",
-      "casa": "Virtus Fano",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Palasport S. Allende - Fano"
-    },
-    {
-      "id": "excel-92",
-      "categoria": "Serie B M",
-      "data": "2026-10-17",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Sirdeco Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-118",
-      "categoria": "Serie B M",
-      "data": "2026-10-17",
-      "ora": "17:30",
-      "casa": "Asd Rubicone In Volley",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "San Mauro Pascoli"
-    },
-    {
-      "id": "excel-143",
-      "categoria": "Serie B1 F",
-      "data": "2026-10-17",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Omac Active Cnc",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-2",
       "categoria": "Superlega",
       "data": "2026-10-18",
       "ora": "18:00",
       "casa": "Cuneo Volley",
       "ospite": "Sir Susa Scai Perugia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport di Cuneo Cuneo (CN)"
     },
     {
@@ -88,7 +48,7 @@
       "ora": "18:00:00",
       "casa": "Romeo Sorrento",
       "ospite": "Terni Volley Academy",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalAtigliana Sorrento (NA)"
     },
     {
@@ -98,7 +58,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "Negrini CTE Acqui Terme",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -112,53 +72,13 @@
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
-      "id": "excel-67",
-      "categoria": "Serie B2 F",
-      "data": "2026-10-24",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "A.S.D. Idea Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-93",
-      "categoria": "Serie B M",
-      "data": "2026-10-24",
-      "ora": "18:00",
-      "casa": "JV & Sport",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Palasport Triccoli - Jesi"
-    },
-    {
-      "id": "excel-119",
-      "categoria": "Serie B M",
-      "data": "2026-10-24",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Asd Montorio Volley",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-144",
-      "categoria": "Serie B1 F",
-      "data": "2026-10-24",
-      "ora": "20:30",
-      "casa": "Pallavolo Scandicci-Sdb",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Scandicci"
-    },
-    {
       "id": "excel-3",
       "categoria": "Superlega",
       "data": "2026-10-25",
       "ora": "18:00:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Tinet Prata di Pordenone",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
@@ -168,7 +88,7 @@
       "ora": "18:00:00",
       "casa": "Terni Volley Academy",
       "ospite": "EnergyTime Campobasso",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaTerni Terni (TR)"
     },
     {
@@ -178,48 +98,8 @@
       "ora": "18:00:00",
       "casa": "Campi Reali Cantù",
       "ospite": "ErmGroup Altotevere",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palafrancescucci Casnate con Bernate (CO)"
-    },
-    {
-      "id": "excel-68",
-      "categoria": "Serie B2 F",
-      "data": "2026-10-31",
-      "ora": "17:30",
-      "casa": "Lardini Filottrano",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Palasport Galizia - Filottrano"
-    },
-    {
-      "id": "excel-94",
-      "categoria": "Serie B M",
-      "data": "2026-10-31",
-      "ora": "17:30",
-      "casa": "Asd Rubicone In Volley",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "San Mauro Pascoli"
-    },
-    {
-      "id": "excel-120",
-      "categoria": "Serie B M",
-      "data": "2026-10-31",
-      "ora": "17:30",
-      "casa": "La Nef Re Salmone Osimo",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Osimo"
-    },
-    {
-      "id": "excel-145",
-      "categoria": "Serie B1 F",
-      "data": "2026-10-31",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Thema Studio U.S. Torri",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-4",
@@ -228,7 +108,7 @@
       "ora": "18:00:00",
       "casa": "Vero Volley Monza",
       "ospite": "Sir Susa Scai Perugia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "OpiquadArena Monza (MB)"
     },
     {
@@ -238,7 +118,7 @@
       "ora": "18:00:00",
       "casa": "Green Volley Galatone",
       "ospite": "Terni Volley Academy",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport di Galatone Galatone (LE)"
     },
     {
@@ -248,7 +128,7 @@
       "ora": "18:00:00",
       "casa": "Sarlux Sarroch",
       "ospite": "ErmGroup Altotevere",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palazzetto dello Sport Sarroch (CA)"
     },
     {
@@ -268,48 +148,8 @@
       "ora": "20:30:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Cisterna Volley",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-69",
-      "categoria": "Serie B2 F",
-      "data": "2026-11-07",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Cimas Volley Urbania",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-95",
-      "categoria": "Serie B M",
-      "data": "2026-11-07",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "T-Trade Group",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-121",
-      "categoria": "Serie B M",
-      "data": "2026-11-07",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Sios Novavetro",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-146",
-      "categoria": "Serie B1 F",
-      "data": "2026-11-07",
-      "ora": "18:00",
-      "casa": "Pallavolo S.Giorgio",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "San Giorgio Piacentino"
     },
     {
       "id": "excel-6",
@@ -318,7 +158,7 @@
       "ora": "18:00:00",
       "casa": "Itas Trentino",
       "ospite": "Sir Susa Scai Perugia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "BTS Arena Trento (TN)"
     },
     {
@@ -328,7 +168,7 @@
       "ora": "18:00:00",
       "casa": "Terni Volley Academy",
       "ospite": "Tonno Callipo Vibo Valentia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaTerni Terni (TR)"
     },
     {
@@ -338,7 +178,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "Monge Gerbaudo Savigliano",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -352,53 +192,13 @@
       "impianto": "Palasport A. Ruggi - Imola"
     },
     {
-      "id": "excel-70",
-      "categoria": "Serie B2 F",
-      "data": "2026-11-14",
-      "ora": "18:00",
-      "casa": "G.S. Team 80",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "BCC Palas - Gradara"
-    },
-    {
-      "id": "excel-96",
-      "categoria": "Serie B M",
-      "data": "2026-11-14",
-      "ora": "17:30",
-      "casa": "Asd Montorio Volley",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Montorio al Vomano"
-    },
-    {
-      "id": "excel-122",
-      "categoria": "Serie B M",
-      "data": "2026-11-14",
-      "ora": "17:30",
-      "casa": "Gemini Med Rsm",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Rimini"
-    },
-    {
-      "id": "excel-147",
-      "categoria": "Serie B1 F",
-      "data": "2026-11-14",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Giotti Victoria Greve",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-17",
       "categoria": "Serie A3",
       "data": "2026-11-15",
       "ora": "18:00:00",
       "casa": "Terni Volley Academy",
       "ospite": "Avimec Modica",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaTerni Terni (TR)"
     },
     {
@@ -408,7 +208,7 @@
       "ora": "18:00:00",
       "casa": "Allianz Brugherio",
       "ospite": "ErmGroup Altotevere",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Centro Sportivo Paolo VI  Brugherio (MB)"
     },
     {
@@ -432,53 +232,13 @@
       "impianto": "Sanbapolis - Trento"
     },
     {
-      "id": "excel-71",
-      "categoria": "Serie B2 F",
-      "data": "2026-11-21",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "A.S.D. Pol.Va Francavilla",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-97",
-      "categoria": "Serie B M",
-      "data": "2026-11-21",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "La Nef Re Salmone Osimo",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-123",
-      "categoria": "Serie B M",
-      "data": "2026-11-21",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Querzoli Volley Forlì",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-148",
-      "categoria": "Serie B1 F",
-      "data": "2026-11-21",
-      "ora": "17:30",
-      "casa": "Calacatta Sponda Vp Volley",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Seravezza"
-    },
-    {
       "id": "excel-7",
       "categoria": "Superlega",
       "data": "2026-11-22",
       "ora": "18:00:00",
       "casa": "Gas Sales Bluenergy Piacenza",
       "ospite": "Sir Susa Scai Perugia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaBancaSport Piacenza (PC)"
     },
     {
@@ -488,7 +248,7 @@
       "ora": "18:00:00",
       "casa": "BCC Tecbus Castellana Grotte",
       "ospite": "Terni Volley Academy",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaGrotte Castellana Grotte (BA)"
     },
     {
@@ -498,7 +258,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "CUS Cagliari",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -512,53 +272,13 @@
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
-      "id": "excel-72",
-      "categoria": "Serie B2 F",
-      "data": "2026-11-28",
-      "ora": "17:00",
-      "casa": "Fenix Energia",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Palasport Bubani - Faenza"
-    },
-    {
-      "id": "excel-98",
-      "categoria": "Serie B M",
-      "data": "2026-11-28",
-      "ora": "17:30",
-      "casa": "Gemini Med Rsm",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Rimini"
-    },
-    {
-      "id": "excel-124",
-      "categoria": "Serie B M",
-      "data": "2026-11-28",
-      "ora": "18:00",
-      "casa": "Prime Cleaning Riccione",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Plesso Le Fontanelle - Riccione"
-    },
-    {
-      "id": "excel-149",
-      "categoria": "Serie B1 F",
-      "data": "2026-11-28",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Volley Academy Piacenza",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-8",
       "categoria": "Superlega",
       "data": "2026-11-29",
       "ora": "18:00:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Valsa Group Modena",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
@@ -568,7 +288,7 @@
       "ora": "18:00:00",
       "casa": "Terni Volley Academy",
       "ospite": "Aurispa DFV Capo Di Leuca",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaTerni Terni (TR)"
     },
     {
@@ -578,7 +298,7 @@
       "ora": "18:00:00",
       "casa": "Personal Time San Donà di Piave",
       "ospite": "ErmGroup Altotevere",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barbazza San Donà di Piave (VE)"
     },
     {
@@ -598,48 +318,8 @@
       "ora": "20:30:00",
       "casa": "Allianz Milano",
       "ospite": "Sir Susa Scai Perugia",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Allianz Cloud (Palalido) Milano (MI)"
-    },
-    {
-      "id": "excel-73",
-      "categoria": "Serie B2 F",
-      "data": "2026-12-05",
-      "ora": "18:00",
-      "casa": "Clementina 2020",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Maiolati Spontini"
-    },
-    {
-      "id": "excel-99",
-      "categoria": "Serie B M",
-      "data": "2026-12-05",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Sios Novavetro",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-125",
-      "categoria": "Serie B M",
-      "data": "2026-12-05",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Novavolley Loreto 2014",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-150",
-      "categoria": "Serie B1 F",
-      "data": "2026-12-05",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Moma Anderlini",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-10",
@@ -648,7 +328,7 @@
       "ora": "18:00:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Rana Verona",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
@@ -658,7 +338,7 @@
       "ora": "18:00:00",
       "casa": "Corigliano Volley",
       "ospite": "Terni Volley Academy",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Brillia Corigliano Calabro (CS)"
     },
     {
@@ -668,7 +348,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "Sav Trebaseleghe",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -682,53 +362,13 @@
       "impianto": "Pala Bus Company - Villafranca Piemonte"
     },
     {
-      "id": "excel-74",
-      "categoria": "Serie B2 F",
-      "data": "2026-12-12",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Viva Volley Tortoreto",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-100",
-      "categoria": "Serie B M",
-      "data": "2026-12-12",
-      "ora": "16:30",
-      "casa": "Querzoli Volley Forlì",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Villa Romiti - Forlì"
-    },
-    {
-      "id": "excel-126",
-      "categoria": "Serie B M",
-      "data": "2026-12-12",
-      "ora": "18:00",
-      "casa": "Cucine Lube Civitanova",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Eurosuole Forum - Civitanova Marche"
-    },
-    {
-      "id": "excel-151",
-      "categoria": "Serie B1 F",
-      "data": "2026-12-12",
-      "ora": "20:30",
-      "casa": "Modena Volley",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "PalaMadiba - Modena"
-    },
-    {
       "id": "excel-11",
       "categoria": "Superlega",
       "data": "2026-12-13",
       "ora": "18:00:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Cucine Lube Civitanova",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
@@ -738,7 +378,7 @@
       "ora": "18:00:00",
       "casa": "Terni Volley Academy",
       "ospite": "PAG Volley Taviano",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaTerni Terni (TR)"
     },
     {
@@ -748,7 +388,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "Gabbiano FarmaMed Mantova",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -772,53 +412,13 @@
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
-      "id": "excel-75",
-      "categoria": "Serie B2 F",
-      "data": "2026-12-19",
-      "ora": "18:30",
-      "casa": "New System Torresi",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Potenza Picena"
-    },
-    {
-      "id": "excel-101",
-      "categoria": "Serie B M",
-      "data": "2026-12-19",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Novavolley Loreto 2014",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-127",
-      "categoria": "Serie B M",
-      "data": "2026-12-19",
-      "ora": "18:00",
-      "casa": "JV & Sport",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Palasport Triccoli - Jesi"
-    },
-    {
-      "id": "excel-152",
-      "categoria": "Serie B1 F",
-      "data": "2026-12-19",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Fos Cvr",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-12",
       "categoria": "Superlega",
       "data": "2026-12-20",
       "ora": "18:00:00",
       "casa": "Sir Susa Scai Perugia",
       "ospite": "Pallavolo Padova",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
@@ -828,7 +428,7 @@
       "ora": "18:00:00",
       "casa": "BP Termosanitari Ciriè",
       "ospite": "ErmGroup Altotevere",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Pala200 Settimo Torinese (TO)"
     },
     {
@@ -848,7 +448,7 @@
       "ora": "18:00:00",
       "casa": "Plus Volleyball Sabaudia",
       "ospite": "Terni Volley Academy",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "PalaVitaletti Sabaudia (LT)"
     },
     {
@@ -858,7 +458,7 @@
       "ora": "18:00:00",
       "casa": "ErmGroup Altotevere",
       "ospite": "Kerakoll Sassuolo",
-      "risultato": null,
+      "risultato": "0-0",
       "impianto": "Palasport San Giustino San Giustino (PG)"
     },
     {
@@ -882,36 +482,6 @@
       "impianto": "Pala Cbl - Costa Volpino"
     },
     {
-      "id": "excel-76",
-      "categoria": "Serie B2 F",
-      "data": "2027-01-09",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "My Mech Cervia",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-102",
-      "categoria": "Serie B M",
-      "data": "2027-01-09",
-      "ora": "18:00",
-      "casa": "Cucine Lube Civitanova",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Eurosuole Forum - Civitanova Marche"
-    },
-    {
-      "id": "excel-155",
-      "categoria": "Serie B1 F",
-      "data": "2027-01-09",
-      "ora": "21:00",
-      "casa": "Florenzo Srl",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "PalaCoverciano - Firenze"
-    },
-    {
       "id": "excel-50",
       "categoria": "Serie A2 f",
       "data": "2027-01-10",
@@ -920,46 +490,6 @@
       "ospite": "Futura Giovani Busto Arsizio",
       "risultato": null,
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-77",
-      "categoria": "Serie B2 F",
-      "data": "2027-01-16",
-      "ora": "17:30",
-      "casa": "Nuova Pall. Collemarino",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Ancona"
-    },
-    {
-      "id": "excel-103",
-      "categoria": "Serie B M",
-      "data": "2027-01-16",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-128",
-      "categoria": "Serie B M",
-      "data": "2027-01-16",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-154",
-      "categoria": "Serie B1 F",
-      "data": "2027-01-16",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Mgs Area Sport Peschiera",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-51",
@@ -980,46 +510,6 @@
       "ospite": "Tenaglia Altino Avastese Volley",
       "risultato": null,
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-78",
-      "categoria": "Serie B2 F",
-      "data": "2027-01-23",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Tekno Progetti Arabona",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-104",
-      "categoria": "Serie B M",
-      "data": "2027-01-23",
-      "ora": "18:00",
-      "casa": "Prime Cleaning Riccione",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Plesso Le Fontanelle - Riccione"
-    },
-    {
-      "id": "excel-129",
-      "categoria": "Serie B M",
-      "data": "2027-01-23",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "T-Trade Group",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-153",
-      "categoria": "Serie B1 F",
-      "data": "2027-01-23",
-      "ora": "19:00",
-      "casa": "Hydroplants",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Palestra Comunale Loschi - Soliera"
     },
     {
       "id": "excel-53",
@@ -1062,86 +552,6 @@
       "impianto": "Pala Raschi - Parma"
     },
     {
-      "id": "excel-79",
-      "categoria": "Serie B2 F",
-      "data": "2027-02-13",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Virtus Fano",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-130",
-      "categoria": "Serie B M",
-      "data": "2027-02-13",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Asd Rubicone In Volley",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-156",
-      "categoria": "Serie B1 F",
-      "data": "2027-02-13",
-      "ora": "21:00",
-      "casa": "Omac Active Cnc",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "P.tto Alto Casentino - Stia"
-    },
-    {
-      "id": "excel-105",
-      "categoria": "Serie B M",
-      "data": "2027-02-14",
-      "ora": "18:00",
-      "casa": "Sirdeco Volley",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Palasport C. Roma - Montesilvano"
-    },
-    {
-      "id": "excel-80",
-      "categoria": "Serie B2 F",
-      "data": "2027-02-20",
-      "ora": "21:00",
-      "casa": "A.S.D. Idea Volley",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Bellaria-Igea Marina"
-    },
-    {
-      "id": "excel-106",
-      "categoria": "Serie B M",
-      "data": "2027-02-20",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "JV & Sport",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-131",
-      "categoria": "Serie B M",
-      "data": "2027-02-20",
-      "ora": "17:30",
-      "casa": "Asd Montorio Volley",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Montorio al Vomano"
-    },
-    {
-      "id": "excel-157",
-      "categoria": "Serie B1 F",
-      "data": "2027-02-20",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Pallavolo Scandicci-Sdb",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-57",
       "categoria": "Serie A2 f",
       "data": "2027-02-21",
@@ -1150,46 +560,6 @@
       "ospite": "Itas Trentino",
       "risultato": null,
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-81",
-      "categoria": "Serie B2 F",
-      "data": "2027-02-27",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Lardini Filottrano",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-107",
-      "categoria": "Serie B M",
-      "data": "2027-02-27",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Asd Rubicone In Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-132",
-      "categoria": "Serie B M",
-      "data": "2027-02-27",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "La Nef Re Salmone Osimo",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-158",
-      "categoria": "Serie B1 F",
-      "data": "2027-02-27",
-      "ora": "17:00",
-      "casa": "Thema Studio U.S. Torri",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "PalaSport Ceroni - Torri di Quartesolo"
     },
     {
       "id": "excel-58",
@@ -1212,46 +582,6 @@
       "impianto": "Palestra Polivalente San Giuseppe Da Copertino - Lecce"
     },
     {
-      "id": "excel-82",
-      "categoria": "Serie B2 F",
-      "data": "2027-03-06",
-      "ora": "18:00",
-      "casa": "Cimas Volley Urbania",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Urbania"
-    },
-    {
-      "id": "excel-108",
-      "categoria": "Serie B M",
-      "data": "2027-03-06",
-      "ora": "18:00",
-      "casa": "T-Trade Group",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Impianto da definire"
-    },
-    {
-      "id": "excel-133",
-      "categoria": "Serie B M",
-      "data": "2027-03-06",
-      "ora": "17:00",
-      "casa": "Sios Novavetro",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "San Severino Marche"
-    },
-    {
-      "id": "excel-159",
-      "categoria": "Serie B1 F",
-      "data": "2027-03-06",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Pallavolo S.Giorgio",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
       "id": "excel-60",
       "categoria": "Serie A2 f",
       "data": "2027-03-07",
@@ -1262,46 +592,6 @@
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
-      "id": "excel-83",
-      "categoria": "Serie B2 F",
-      "data": "2027-03-13",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "G.S. Team 80",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-109",
-      "categoria": "Serie B M",
-      "data": "2027-03-13",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Asd Montorio Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-134",
-      "categoria": "Serie B M",
-      "data": "2027-03-13",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Gemini Med Rsm",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-160",
-      "categoria": "Serie B1 F",
-      "data": "2027-03-13",
-      "ora": "18:00",
-      "casa": "Giotti Victoria Greve",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Greve"
-    },
-    {
       "id": "excel-61",
       "categoria": "Serie A2 f",
       "data": "2027-03-14",
@@ -1310,46 +600,6 @@
       "ospite": "VBC Cremonese",
       "risultato": null,
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-84",
-      "categoria": "Serie B2 F",
-      "data": "2027-03-20",
-      "ora": "17:00",
-      "casa": "A.S.D. Pol.Va Francavilla",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Francavilla al Mare"
-    },
-    {
-      "id": "excel-110",
-      "categoria": "Serie B M",
-      "data": "2027-03-20",
-      "ora": "17:30",
-      "casa": "La Nef Re Salmone Osimo",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Osimo"
-    },
-    {
-      "id": "excel-135",
-      "categoria": "Serie B M",
-      "data": "2027-03-20",
-      "ora": "16:30",
-      "casa": "Querzoli Volley Forlì",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Villa Romiti - Forlì"
-    },
-    {
-      "id": "excel-161",
-      "categoria": "Serie B1 F",
-      "data": "2027-03-20",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Calacatta Sponda Vp Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
     },
     {
       "id": "excel-62",
@@ -1372,46 +622,6 @@
       "impianto": "Pala Barton Energy - Perugia"
     },
     {
-      "id": "excel-85",
-      "categoria": "Serie B2 F",
-      "data": "2027-04-03",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Fenix Energia",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-111",
-      "categoria": "Serie B M",
-      "data": "2027-04-03",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Gemini Med Rsm",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-136",
-      "categoria": "Serie B M",
-      "data": "2027-04-03",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Prime Cleaning Riccione",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-162",
-      "categoria": "Serie B1 F",
-      "data": "2027-04-03",
-      "ora": "20:30",
-      "casa": "Volley Academy Piacenza",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Rottofreno"
-    },
-    {
       "id": "excel-64",
       "categoria": "Serie A2 f",
       "data": "2027-04-04",
@@ -1422,36 +632,6 @@
       "impianto": "Palazzetto Dello Sport - Roma"
     },
     {
-      "id": "excel-86",
-      "categoria": "Serie B2 F",
-      "data": "2027-04-10",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Clementina 2020",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-112",
-      "categoria": "Serie B M",
-      "data": "2027-04-10",
-      "ora": "17:00",
-      "casa": "Sios Novavetro",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "San Severino Marche"
-    },
-    {
-      "id": "excel-163",
-      "categoria": "Serie B1 F",
-      "data": "2027-04-10",
-      "ora": "18:00",
-      "casa": "Moma Anderlini",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Modena"
-    },
-    {
       "id": "excel-65",
       "categoria": "Serie A2 f",
       "data": "2027-04-11",
@@ -1460,216 +640,6 @@
       "ospite": "C.B.L. Costa Volpino",
       "risultato": null,
       "impianto": "Pala Barton Energy - Perugia"
-    },
-    {
-      "id": "excel-137",
-      "categoria": "Serie B M",
-      "data": "2027-04-11",
-      "ora": "17:00",
-      "casa": "Novavolley Loreto 2014",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Loreto"
-    },
-    {
-      "id": "excel-87",
-      "categoria": "Serie B2 F",
-      "data": "2027-04-17",
-      "ora": "18:00",
-      "casa": "Viva Volley Tortoreto",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Tortoreto"
-    },
-    {
-      "id": "excel-113",
-      "categoria": "Serie B M",
-      "data": "2027-04-17",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Querzoli Volley Forlì",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-138",
-      "categoria": "Serie B M",
-      "data": "2027-04-17",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Cucine Lube Civitanova",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-164",
-      "categoria": "Serie B1 F",
-      "data": "2027-04-17",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Modena Volley",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
-      "id": "excel-139",
-      "categoria": "Serie B M",
-      "data": "2027-04-23",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "JV & Sport",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-88",
-      "categoria": "Serie B2 F",
-      "data": "2027-04-24",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "New System Torresi",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-165",
-      "categoria": "Serie B1 F",
-      "data": "2027-04-24",
-      "ora": "21:00",
-      "casa": "Fos Cvr",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Palestra Nuova Rivalta - Reggio Emilia"
-    },
-    {
-      "id": "excel-114",
-      "categoria": "Serie B M",
-      "data": "2027-04-25",
-      "ora": "17:00",
-      "casa": "Novavolley Loreto 2014",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Loreto"
-    },
-    {
-      "id": "excel-89",
-      "categoria": "Serie B2 F",
-      "data": "2027-05-01",
-      "ora": "17:30",
-      "casa": "My Mech Cervia",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Cervia"
-    },
-    {
-      "id": "excel-115",
-      "categoria": "Serie B M",
-      "data": "2027-05-01",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Cucine Lube Civitanova",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-166",
-      "categoria": "Serie B1 F",
-      "data": "2027-05-01",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Florenzo Srl",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
-    },
-    {
-      "id": "excel-140",
-      "categoria": "Serie B M",
-      "data": "2027-05-02",
-      "ora": "18:00",
-      "casa": "Sirdeco Volley",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Palasport C. Roma - Montesilvano"
-    },
-    {
-      "id": "excel-90",
-      "categoria": "Serie B2 F",
-      "data": "2027-05-08",
-      "ora": "21:00",
-      "casa": "Starvolley Città di Castello",
-      "ospite": "Nuova Pall. Collemarino",
-      "risultato": null,
-      "impianto": "Palazzetto Trestina - Città di Castello"
-    },
-    {
-      "id": "excel-116",
-      "categoria": "Serie B M",
-      "data": "2027-05-08",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "Assisi"
-    },
-    {
-      "id": "excel-141",
-      "categoria": "Serie B M",
-      "data": "2027-05-08",
-      "ora": "17:30",
-      "casa": "Sir Its Umbria Academy",
-      "ospite": "Città di Castello Pallavolo",
-      "risultato": null,
-      "impianto": "PalaSir - Assisi"
-    },
-    {
-      "id": "excel-167",
-      "categoria": "Serie B1 F",
-      "data": "2027-05-08",
-      "ora": "20:30",
-      "casa": "Mgs Area Sport Peschiera",
-      "ospite": "Sirio Perugia Volley",
-      "risultato": null,
-      "impianto": "Peschiera del Garda"
-    },
-    {
-      "id": "excel-91",
-      "categoria": "Serie B2 F",
-      "data": "2027-05-15",
-      "ora": "17:30",
-      "casa": "Tekno Progetti Arabona",
-      "ospite": "Starvolley Città di Castello",
-      "risultato": null,
-      "impianto": "Manoppello"
-    },
-    {
-      "id": "excel-117",
-      "categoria": "Serie B M",
-      "data": "2027-05-15",
-      "ora": "18:30",
-      "casa": "Città di Castello Pallavolo",
-      "ospite": "Prime Cleaning Riccione",
-      "risultato": null,
-      "impianto": "Palazzetto Andrea Joan - Città di Castello"
-    },
-    {
-      "id": "excel-142",
-      "categoria": "Serie B M",
-      "data": "2027-05-15",
-      "ora": "18:00",
-      "casa": "T-Trade Group",
-      "ospite": "Sir Its Umbria Academy",
-      "risultato": null,
-      "impianto": "Impianto da definire"
-    },
-    {
-      "id": "excel-168",
-      "categoria": "Serie B1 F",
-      "data": "2027-05-15",
-      "ora": "18:00",
-      "casa": "Sirio Perugia Volley",
-      "ospite": "Hydroplants",
-      "risultato": null,
-      "impianto": "Palazzetto Magione - Magione"
     }
   ]
 }
