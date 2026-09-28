@@ -5522,15 +5522,22 @@ function CalendarioCompletoPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1rem" }}>
-          {categorie.map(c => (
-            <button key={c.id}
-              className={`filter-btn ${selCategoria === c.id ? "filter-btn--active" : ""}`}
-              onClick={() => cambiaCategoria(c.id)}>
-              {c.nome}
-            </button>
-          ))}
-        </div>
+        <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
+  <select className="all2-select" value={selCategoria}
+    onChange={(e) => cambiaCategoria(e.target.value)}>
+    <option value="nazionale">Squadre Nazionali</option>
+    <optgroup label="Serie C e D">
+      {categorie
+        .filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-"))
+        .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
+    </optgroup>
+    <optgroup label="Giovanili">
+      {categorie
+        .filter(c => c.id.startsWith("giov-"))
+        .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
+    </optgroup>
+  </select>
+</div>
 
         {squadreUniche.length > 0 && (
           <div className="all2-select-wrap" style={{ marginBottom: "1.5rem", maxWidth: "320px" }}>
