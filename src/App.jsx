@@ -3761,20 +3761,6 @@ function ClassificaPage() {
       });
     });
 
-    // Da calendario_squadre.json (Squadre Nazionali)
-    const partiteNaz = calendarioSquadreData.partite || [];
-    partiteNaz.forEach(p => {
-      if (!risultatoValido(p.risultato)) return;
-      risultato.push({
-        id: p.id,
-        competition: p.categoria || "Squadre Nazionali",
-        home: p.casa,
-        away: p.ospite,
-        score: p.risultato,
-        status: "disputata",
-        data: p.data,
-      });
-    });
 
     return risultato;
   }
