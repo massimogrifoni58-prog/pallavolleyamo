@@ -5449,7 +5449,7 @@ function CalendarioCompletoPage() {
     ...campionatiRegionali.map(c => ({ id: c.id, nome: c.nome })),
   ];
 
-  const [selCategoria, setSelCategoria] = useState("nazionale");
+  const [selCategoria, setSelCategoria] = useState(campionatiRegionali[0]?.id || "")
   const [selSquadra, setSelSquadra] = useState("");
 
   const oggi = new Date();
@@ -5525,7 +5525,6 @@ function CalendarioCompletoPage() {
         <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
   <select className="all2-select" value={selCategoria}
     onChange={(e) => cambiaCategoria(e.target.value)}>
-    <option value="nazionale">Squadre Nazionali</option>
     <optgroup label="Serie C e D">
       {categorie
         .filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-"))
