@@ -1458,7 +1458,7 @@ function RisultatiPage() {
   const [selComp, setSelComp] = useState("");
   const [selGiornata, setSelGiornata] = useState("");
 
-  const compNames = selMacro ? Object.keys(byMacro[selMacro]) : [];
+ const compNames = selMacro && byMacro[selMacro] ? Object.keys(byMacro[selMacro]) : [];
   const giornate = selMacro && selComp && byMacro[selMacro] && byMacro[selMacro][selComp]
   ? Object.keys(byMacro[selMacro][selComp]).sort((a, b) => giornataNumber(a) - giornataNumber(b))
   : [];
@@ -1469,7 +1469,7 @@ function RisultatiPage() {
   useEffect(() => {
     setSelComp("");
     setSelGiornata("");
-    if (selMacro) {
+    if (selMacro && byMacro[selMacro]) {
       const comps = Object.keys(byMacro[selMacro]);
       if (comps.length === 1) setSelComp(comps[0]);
     }
@@ -3728,7 +3728,14 @@ function AndamentoPage() {
     </main>
   );
 }
-
+function risultatoValido(r) {
+  if (!r) return false;
+  const parts = String(r).split("-");
+  if (parts.length !== 2) return false;
+  const a = parseInt(parts[0], 10), b = parseInt(parts[1], 10);
+  if (isNaN(a) || isNaN(b)) return false;
+  return !(a === 0 && b === 0);
+}
 function ClassificaPage() {
   // Normalizza le partite dal nuovo sistema (calendario_regionali + calendario_squadre)
   // nello stesso formato usato da risultatiData.matches
@@ -3741,7 +3748,7 @@ function ClassificaPage() {
     campionatiReg.forEach(camp => {
       const lista = partiteReg[camp.id] || [];
       lista.forEach(p => {
-        if (!p.risultato) return;
+        if (!risultatoValido(p.risultato)) return;
         risultato.push({
           id: p.id,
           competition: camp.nome,
@@ -3757,7 +3764,7 @@ function ClassificaPage() {
     // Da calendario_squadre.json (Squadre Nazionali)
     const partiteNaz = calendarioSquadreData.partite || [];
     partiteNaz.forEach(p => {
-      if (!p.risultato) return;
+      if (!risultatoValido(p.risultato)) return;
       risultato.push({
         id: p.id,
         competition: p.categoria || "Squadre Nazionali",
@@ -3836,9 +3843,9 @@ function ClassificaPage() {
     });
   }
 
-  const gironiDaMostrare = selMacro && selComp
+  const gironiDaMostrare = selMacro && selComp && byMacro[selMacro] && byMacro[selMacro][selComp]
     ? { [selComp]: byMacro[selMacro][selComp] }
-    : selMacro && !selComp
+    : selMacro && !selComp && byMacro[selMacro]
     ? byMacro[selMacro]
     : {};
 
@@ -3872,7 +3879,7 @@ function ClassificaPage() {
         )}
 
         {gironeNames.map((girone) => {
-          const classifica = calcClassifica(gironiDaMostrare[girone]);
+          const classifica = calcClassifica(gironiDaMostrare[girone] || []);
           return (
             <div key={girone} style={{ marginBottom: "2rem" }}>
               {gironeNames.length > 1 && (
@@ -5569,7 +5576,7 @@ function CalendarioCompletoPage() {
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
                     {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
                   </div>
-                  {p.risultato && (
+                  {p.risultato && p.risultato !== "0-0" && (
                     <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
                   )}
                   {p.impianto && (
@@ -5662,7 +5669,7 @@ function CalendarioCompletoPage() {
                       <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
                         {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
                       </div>
-                      {p.risultato && (
+                      {p.risultato && p.risultato !== "0-0" && (
                         <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
                       )}
                       {p.impianto && (
