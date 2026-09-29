@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:24:55.893074+00:00",
+  "generatedAt": "2026-09-29T05:03:03.291564+00:00",
   "posts": [
     {
       "title": "Le Black Angels verso l’esordio, Martinelli: “Siamo pronte”",
@@ -10,12 +10,20 @@
       "id": "1"
     },
     {
+      "title": "Città di Castello, gli uomini si misurano con Arezzo",
+      "excerpt": "L’amichevole di martedì contro Arezzo segna l’inizio della fase più intensa della preparazione che porterà poi all’esordio in campionato di sabato 17 ottobre per la Città di Castello Pallavolo di seri",
+      "createdTime": "Mon, 28 Sep 2026 11:00:46 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Bartolini-Marco-1.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/citta-di-castello-gli-uomini-si-misurano-con-arezzo/",
+      "id": "2"
+    },
+    {
       "title": "La Sirio Perugia torna in campo con Marsciano",
       "excerpt": "Dopo una settimana abbastanza complicata per quanto concerne la programmazione del lavoro, in particolare delle amichevoli del periodo preparatorio che sono state annullate, la Sirio Perugia Volley sc",
       "createdTime": "Mon, 28 Sep 2026 05:00:59 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Sirio-Perugia-Volley-allenamento.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/la-sirio-perugia-torna-in-campo-con-marsciano/",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Una buona Altotevere fa suo l’allenamento congiunto con i Lupi di Santa Croce sull’Arno",
@@ -23,7 +31,7 @@
       "createdTime": "Sun, 27 Sep 2026 11:50:56 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/test-con-santa-croce-bellucci-in-palleggio.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35345",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Black Angels: si inizia a fare sul serio",
@@ -31,7 +39,7 @@
       "createdTime": "Sun, 27 Sep 2026 09:25:37 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/Black-Angels-e-la-Nazionale-Volley-Sorde.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35343",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "Gli uomini di Perugia si impongono a Terni",
@@ -39,7 +47,7 @@
       "createdTime": "Sat, 26 Sep 2026 05:00:50 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/IMG_9548-Ph-A.Mirimao.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/gli-uomini-di-perugia-si-impongono-a-terni/",
-      "id": "5"
+      "id": "6"
     },
     {
       "title": "Altotevere, confermata la squadra dell’area Marketing e Comunicazione",
@@ -47,23 +55,7 @@
       "createdTime": "Fri, 25 Sep 2026 12:19:34 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/staff-comunicazione-2026.27.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35332",
-      "id": "6"
-    },
-    {
-      "title": "Le Black Angels rendono la vita dura alla più quotata Macerata",
-      "excerpt": "Nell’ultimo allenamento congiunto della pre-season la Bartoccini +energia Perugia esce sconfitta 3-1 dal campo delle marchigiane. Set combattuti, Ornoch e Sharmann sugli scudi. Il secondo allenatore M",
-      "createdTime": "Fri, 25 Sep 2026 08:49:25 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/Scharmann.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35330",
       "id": "7"
-    },
-    {
-      "title": "Fermento crescente per la Oji Cup",
-      "excerpt": "A Perugia cresce l’attesa per l&#8217;evento che per due giorni accenderà i riflettori del grande volley intercontinentale: il mercoledì 7 e giovedì 8 ottobre il PalaBarton Energy ospiterà la Oji Cup,",
-      "createdTime": "Fri, 25 Sep 2026 05:00:08 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-12.50.06-1.jpeg",
-      "permalink": "https://www.pianetavolley.net/2026/09/fermento-crescente-per-la-oji-cup/",
-      "id": "8"
     },
     {
       "title": "Serie C femminile: la Bartoccini School Volley Perugia pensa in grande",
@@ -71,7 +63,7 @@
       "createdTime": "Fri, 11 Sep 2026 14:57:03 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/rubini-simone.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35249",
-      "id": "9"
+      "id": "8"
     },
     {
       "title": "Serie C maschile: Foligno in pole, ma attenzione alla School Volley Perugia",
@@ -79,7 +71,7 @@
       "createdTime": "Fri, 04 Sep 2026 14:38:33 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/brighigna-francesco.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35204",
-      "id": "10"
+      "id": "9"
     },
     {
       "title": "Pallavolo San Sisto: è pronta la carica delle 200",
@@ -87,7 +79,7 @@
       "createdTime": "Sat, 29 Aug 2026 12:02:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/pallavolo-San-Sisto.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35167",
-      "id": "11"
+      "id": "10"
     },
     {
       "title": "Alimenti nuovo DS della Pallavolo Monteluce",
@@ -95,7 +87,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:29:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Roberto-Alimenti.png",
       "permalink": "https://www.volleyumbria.it/?p=35104",
-      "id": "12"
+      "id": "11"
     },
     {
       "title": "Monteluce Volley: Michele Antonelli è il nuovo allenatore della Seconda Divisione Femminile",
@@ -103,7 +95,7 @@
       "createdTime": "Fri, 21 Aug 2026 08:58:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/antonelli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35094",
-      "id": "13"
+      "id": "12"
     },
     {
       "title": "E’ quasi pronta la ‘casa’ dell’Inter Volley Foligno",
@@ -111,7 +103,7 @@
       "createdTime": "Fri, 14 Aug 2026 11:26:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Screenshot_2026-08-14-11-44-05-575_com.mi_.globalbrowser-edit.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35036",
-      "id": "14"
+      "id": "13"
     }
   ]
 }
