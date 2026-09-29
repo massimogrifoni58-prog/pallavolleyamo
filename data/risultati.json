@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:03:36.210036+00:00",
+  "generatedAt": "2026-09-29T11:03:40.293622+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2891,15 +2891,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627454",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 2",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "A.S.D. SIGILLO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627456",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 2",
@@ -2932,6 +2923,15 @@
       "giornata": "Giornata 2",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627454",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "A.S.D. SIGILLO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6734,20 +6734,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627357",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 21",
-      "home": "REBELS ASSISI",
-      "away": "ASD PGS DON BOSCO CANNARA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627355",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 21",
       "home": "VIANDER ACTON BASTIA",
       "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627357",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 21",
+      "home": "REBELS ASSISI",
+      "away": "ASD PGS DON BOSCO CANNARA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -7931,20 +7931,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629440",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "SCAI VOLLEY 86 PETRIGNANO",
-      "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629437",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 7",
       "home": "REBELS ASSISI",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629440",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8282,20 +8282,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629480",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 15",
-      "home": "SCAI VOLLEY 86 PETRIGNANO",
-      "away": "DIFDIF VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629477",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 15",
       "home": "REBELS ASSISI",
       "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629480",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "DIFDIF VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8372,20 +8372,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629490",
-      "competition": "1 Divisione Femminile Girone B",
-      "giornata": "Giornata 17",
-      "home": "SCAI VOLLEY 86 PETRIGNANO",
-      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629487",
       "competition": "1 Divisione Femminile Girone B",
       "giornata": "Giornata 17",
       "home": "REBELS ASSISI",
       "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629490",
+      "competition": "1 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "SCAI VOLLEY 86 PETRIGNANO",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10136,11 +10136,758 @@
       "status": "in programma"
     },
     {
-      "id": "131641215",
-      "competition": "Under 17 Femminile ELITE",
+      "id": "131644285",
+      "competition": "Under 17 Maschile Girone A",
       "giornata": "Giornata 1",
-      "home": "POLISP DON BOSCO GUBBIO BIANCA",
-      "away": "MARCONI MONINI PALLAVOLO",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644286",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644287",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644288",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644290",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "SIR MERICAT OLMO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644289",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644292",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644291",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644293",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 3",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644294",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644295",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644296",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 4",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644297",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIR MERICAT OLMO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644299",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644298",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644300",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644301",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644302",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644304",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "SIR MERICAT OLMO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644303",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644305",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644306",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644308",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "SIR MERICAT OLMO",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644307",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 8",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644309",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644310",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644311",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644312",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644313",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644314",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644317",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "SIR MERICAT OLMO",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644316",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644315",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 11",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644318",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644319",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644320",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 12",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644322",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "SIR MERICAT OLMO",
+      "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644321",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "CITTA DI CASTELLO PALLAVOLO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644323",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 13",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644324",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "POLISPORTIVA DELFINO - PELLICANO",
+      "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644325",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644326",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 14",
+      "home": "SIR GIOVANILE MERICAT",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644337",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644338",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644336",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644340",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "V. NARNI S.A.",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644341",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644339",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 2",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644343",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644342",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644344",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "POLISPORTIVA CLT",
+      "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644347",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "V. NARNI S.A.",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644345",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644346",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644349",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA CLT",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644350",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644348",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644353",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644352",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644351",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 6",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644355",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644356",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644354",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "V. NARNI S.A.",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644358",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "V. NARNI S.A.",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644359",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644357",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 8",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644360",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644361",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644362",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644365",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "V. NARNI S.A.",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644363",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644364",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644366",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 11",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644368",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 11",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644367",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 11",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644371",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 12",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644369",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 12",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644370",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 12",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644372",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 13",
+      "home": "V. NARNI S.A.",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644374",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 13",
+      "home": "POLISPORTIVA CLT",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644373",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 13",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644376",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 14",
+      "home": "STRIKE TEAM MONTELUCE UNDER 17",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644377",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644375",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "away": "V. NARNI S.A.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10150,6 +10897,15 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641215",
+      "competition": "Under 17 Femminile ELITE",
+      "giornata": "Giornata 1",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10910,20 +11666,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641497",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 3",
-      "home": "VOLLEY 86 PETRIGNANO",
-      "away": "REBELS ASSISI U17",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641498",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 3",
       "home": "FOLIGNO VOLLEY GIALLA",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641497",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "VOLLEY 86 PETRIGNANO",
+      "away": "REBELS ASSISI U17",
       "score": "da disputare",
       "status": "in programma"
     },
