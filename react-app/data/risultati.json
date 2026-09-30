@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:03:40.293622+00:00",
+  "generatedAt": "2026-09-30T05:03:15.853616+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -5717,20 +5717,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627243",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 2",
-      "home": "FOLIGNO VOLLEY ASD",
-      "away": "ASD PGS BOSICO VOLLEY GREEN2",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627242",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 2",
       "home": "MARCONI MONINI PALLAVOLO GREEN1",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627243",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6284,15 +6284,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627309",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 13",
-      "home": "ASD PGS BOSICO VOLLEY GREEN2",
-      "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627305",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 13",
@@ -6316,6 +6307,15 @@
       "giornata": "Giornata 13",
       "home": "VIANDER ACTON BASTIA",
       "away": "MARCONI MONINI PALLAVOLO GREEN1",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627309",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "ASD PGS BOSICO VOLLEY GREEN2",
       "score": "da disputare",
       "status": "in programma"
     },

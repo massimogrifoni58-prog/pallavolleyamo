@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T11:05:31.897008+00:00",
+  "generatedAt": "2026-09-30T05:04:47.567841+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -4659,10 +4659,10 @@
         "id": "serie-d-femminile-b-11",
         "campionato": "Serie D Femminile Girone B",
         "giornata": "2",
-        "data": "2026-10-31",
-        "ora": "18:00",
-        "casa": "FOLIGNO VOLLEY ASD",
-        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
+        "data": "2026-11-01",
+        "ora": "17:30",
+        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
+        "ospite": "FOLIGNO VOLLEY ASD",
         "risultato": null
       },
       {
@@ -5320,9 +5320,9 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "13",
         "data": "2027-02-13",
-        "ora": "17:30",
-        "casa": "ASD PGS BOSICO VOLLEY GREEN2",
-        "ospite": "FOLIGNO VOLLEY ASD",
+        "ora": "21:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
         "risultato": null
       },
       {
