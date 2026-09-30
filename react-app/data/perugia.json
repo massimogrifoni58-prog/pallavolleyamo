@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-09-30T05:02:44.339866+00:00",
+  "generatedAt": "2026-09-30T10:53:20.831358+00:00",
   "posts": [
+    {
+      "title": "Le Black Angels sono cariche, coach Micoli: “Vedo il giusto approccio”",
+      "excerpt": "Ultimi allenamenti per la Bartoccini +energia Perugia in vista dell’esordio in campionato. Sabato a Busto Arsizio il primo esame di una lunga stagione. Il tecnico: “Stiamo lavorando bene, mi aspetto r",
+      "createdTime": "Wed, 30 Sep 2026 10:02:58 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/micoli-2-1.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35364",
+      "id": "1"
+    },
+    {
+      "title": "Gubbio, Fossato di Vico e Sigillo unite nel giovanile",
+      "excerpt": "È stata rinnovata anche per l’attuale stagione sportiva la collaborazione nel settore pallavolo tra la Polisportiva Don Bosco Gubbio, la Fossato Volley e la Sigillo Volley. Dopo gli ottimi risultati o",
+      "createdTime": "Wed, 30 Sep 2026 05:00:29 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Gubbio-Sigillo-Fossato-loghi.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/09/gubbio-fossato-di-vico-e-sigillo-unite-nel-giovanile/",
+      "id": "2"
+    },
     {
       "title": "Le Black Angels ricevono l’abbraccio degli sponsor",
       "excerpt": "Alla ‘Tenuta Montenero’ si è rinnovato l’appuntamento con le aziende partner. Presentati dirigenza, staff e roster. Il Presidente Antonio Bartoccini: “E’ sempre una bella emozione condividere questi m",
       "createdTime": "Tue, 29 Sep 2026 13:36:36 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/PHOTO-2026-09-29-14-34-38.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35360",
-      "id": "1"
+      "id": "3"
     },
     {
       "title": "Altotevere, Luatti si gode il doppio salto di categoria: “La squadra mi piace sempre più”",
@@ -15,7 +31,7 @@
       "createdTime": "Tue, 29 Sep 2026 11:44:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/luatti-gabriele-primo-piano.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35356",
-      "id": "2"
+      "id": "4"
     },
     {
       "title": "Al via il reclutamento per gli aspiranti arbitri",
@@ -23,7 +39,7 @@
       "createdTime": "Tue, 29 Sep 2026 07:00:43 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Corso-Arbitri-locandina.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/al-via-il-reclutamento-per-gli-aspiranti-arbitri/",
-      "id": "3"
+      "id": "5"
     },
     {
       "title": "Le Black Angels verso l’esordio, Martinelli: “Siamo pronte”",
@@ -31,7 +47,7 @@
       "createdTime": "Mon, 28 Sep 2026 11:07:46 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/Martinelli-2.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35351",
-      "id": "4"
+      "id": "6"
     },
     {
       "title": "Città di Castello, gli uomini si misurano con Arezzo",
@@ -39,7 +55,7 @@
       "createdTime": "Mon, 28 Sep 2026 11:00:46 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Bartolini-Marco-1.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/citta-di-castello-gli-uomini-si-misurano-con-arezzo/",
-      "id": "5"
+      "id": "7"
     },
     {
       "title": "La Sirio Perugia torna in campo con Marsciano",
@@ -47,15 +63,7 @@
       "createdTime": "Mon, 28 Sep 2026 05:00:59 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/09/Sirio-Perugia-Volley-allenamento.jpg",
       "permalink": "https://www.pianetavolley.net/2026/09/la-sirio-perugia-torna-in-campo-con-marsciano/",
-      "id": "6"
-    },
-    {
-      "title": "Una buona Altotevere fa suo l’allenamento congiunto con i Lupi di Santa Croce sull’Arno",
-      "excerpt": "I biancazzurri, che lasciano a riposo Pinali, si aggiudicano tutti i set, evidenziando progressi in battuta e in difesa. Marra: “Lavoriamo molto anche sull’attacco” ErmGroup Altotevere in crescita, al",
-      "createdTime": "Sun, 27 Sep 2026 11:50:56 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/test-con-santa-croce-bellucci-in-palleggio.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=35345",
-      "id": "7"
+      "id": "8"
     },
     {
       "title": "Serie C femminile: la Bartoccini School Volley Perugia pensa in grande",
@@ -63,7 +71,7 @@
       "createdTime": "Fri, 11 Sep 2026 14:57:03 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/rubini-simone.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35249",
-      "id": "8"
+      "id": "9"
     },
     {
       "title": "Serie C maschile: Foligno in pole, ma attenzione alla School Volley Perugia",
@@ -71,7 +79,7 @@
       "createdTime": "Fri, 04 Sep 2026 14:38:33 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/brighigna-francesco.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35204",
-      "id": "9"
+      "id": "10"
     },
     {
       "title": "Pallavolo San Sisto: è pronta la carica delle 200",
@@ -79,7 +87,7 @@
       "createdTime": "Sat, 29 Aug 2026 12:02:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/pallavolo-San-Sisto.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35167",
-      "id": "10"
+      "id": "11"
     },
     {
       "title": "Alimenti nuovo DS della Pallavolo Monteluce",
@@ -87,7 +95,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:29:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Roberto-Alimenti.png",
       "permalink": "https://www.volleyumbria.it/?p=35104",
-      "id": "11"
+      "id": "12"
     },
     {
       "title": "Monteluce Volley: Michele Antonelli è il nuovo allenatore della Seconda Divisione Femminile",
@@ -95,7 +103,7 @@
       "createdTime": "Fri, 21 Aug 2026 08:58:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/antonelli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35094",
-      "id": "12"
+      "id": "13"
     },
     {
       "title": "E’ quasi pronta la ‘casa’ dell’Inter Volley Foligno",
@@ -103,7 +111,7 @@
       "createdTime": "Fri, 14 Aug 2026 11:26:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Screenshot_2026-08-14-11-44-05-575_com.mi_.globalbrowser-edit.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35036",
-      "id": "13"
+      "id": "14"
     }
   ]
 }

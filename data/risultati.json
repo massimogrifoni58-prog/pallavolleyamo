@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T05:03:15.853616+00:00",
+  "generatedAt": "2026-09-30T10:54:06.331366+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2837,6 +2837,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627450",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131628261",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 1",
@@ -2864,11 +2873,11 @@
       "status": "in programma"
     },
     {
-      "id": "131627450",
+      "id": "131627457",
       "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "giornata": "Giornata 2",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2896,15 +2905,6 @@
       "giornata": "Giornata 2",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627457",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 2",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3062,20 +3062,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627472",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 5",
-      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627474",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 5",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627472",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 5",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3188,15 +3188,6 @@
       "status": "in programma"
     },
     {
-      "id": "131628293",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 7",
-      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627484",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 7",
@@ -3211,6 +3202,15 @@
       "giornata": "Giornata 7",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628293",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3818,15 +3818,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627544",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 17",
-      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627546",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 17",
@@ -3841,6 +3832,15 @@
       "giornata": "Giornata 17",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
       "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627544",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 17",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5969,20 +5969,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627268",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "ASD PGS BOSICO VOLLEY GREEN2",
-      "away": "ASD CASCIA PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627271",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 7",
       "home": "REBELS ASSISI",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627268",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ASD PGS BOSICO VOLLEY GREEN2",
+      "away": "ASD CASCIA PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8903,15 +8903,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644107",
-      "competition": "Under 19 Maschile Girone B",
-      "giornata": "Giornata 4",
-      "home": "POLISPORTIVA CLT",
-      "away": "POLISPORTIVA DELFINO - EUROSPIN",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644106",
       "competition": "Under 19 Maschile Girone B",
       "giornata": "Giornata 4",
@@ -8926,6 +8917,15 @@
       "giornata": "Giornata 4",
       "home": "SIR GIOVANILE MERICAT",
       "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644107",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "POLISPORTIVA DELFINO - EUROSPIN",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8984,15 +8984,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644115",
-      "competition": "Under 19 Maschile Girone B",
-      "giornata": "Giornata 7",
-      "home": "POLISPORTIVA CLT",
-      "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644114",
       "competition": "Under 19 Maschile Girone B",
       "giornata": "Giornata 7",
@@ -9007,6 +8998,15 @@
       "giornata": "Giornata 7",
       "home": "POLISPORTIVA DELFINO - EUROSPIN",
       "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644115",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11288,15 +11288,6 @@
       "status": "in programma"
     },
     {
-      "id": "131641446",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 9",
-      "home": "TRESTINA VOLLEY",
-      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641447",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 9",
@@ -11311,6 +11302,15 @@
       "giornata": "Giornata 9",
       "home": "POLIS. DON BOSCO  GUBBIO VERDE",
       "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641446",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
       "score": "da disputare",
       "status": "in programma"
     },
