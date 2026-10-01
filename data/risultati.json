@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T05:03:49.086900+00:00",
+  "generatedAt": "2026-10-01T11:20:50.512954+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -488,6 +488,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626846",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "ENERGY PMU MARSCIANO",
+      "away": "ROSSI ASCENSORI FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626843",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 10",
@@ -511,15 +520,6 @@
       "giornata": "Giornata 10",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "POLISPORTIVA DELFINO - SAIMA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626846",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 10",
-      "home": "ENERGY PMU MARSCIANO",
-      "away": "ROSSI ASCENSORI FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10905,7 +10905,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 1",
       "home": "POLISP DON BOSCO GUBBIO BIANCA",
-      "away": "MARCONI MONINI PALLAVOLO",
+      "away": "Rebels Marconi  Monini Assisi",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10913,7 +10913,7 @@
       "id": "131641217",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 2",
-      "home": "MARCONI MONINI PALLAVOLO",
+      "home": "Rebels Marconi  Monini Assisi",
       "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
       "score": "da disputare",
       "status": "in programma"
@@ -10932,7 +10932,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 3",
       "home": "TIBER VOLLEY",
-      "away": "MARCONI MONINI PALLAVOLO",
+      "away": "Rebels Marconi  Monini Assisi",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10958,7 +10958,7 @@
       "id": "131641221",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 4",
-      "home": "MARCONI MONINI PALLAVOLO",
+      "home": "Rebels Marconi  Monini Assisi",
       "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
@@ -10985,7 +10985,7 @@
       "id": "131641225",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 6",
-      "home": "MARCONI MONINI PALLAVOLO",
+      "home": "Rebels Marconi  Monini Assisi",
       "away": "POLISP DON BOSCO GUBBIO BIANCA",
       "score": "da disputare",
       "status": "in programma"
@@ -11004,7 +11004,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 7",
       "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
-      "away": "MARCONI MONINI PALLAVOLO",
+      "away": "Rebels Marconi  Monini Assisi",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11030,7 +11030,7 @@
       "id": "131641229",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 8",
-      "home": "MARCONI MONINI PALLAVOLO",
+      "home": "Rebels Marconi  Monini Assisi",
       "away": "TIBER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -11040,7 +11040,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 9",
       "home": "FOLIGNO VOLLEY ASD",
-      "away": "MARCONI MONINI PALLAVOLO",
+      "away": "Rebels Marconi  Monini Assisi",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -12278,20 +12278,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641566",
-      "competition": "Under 17 Femminile Girone E",
-      "giornata": "Giornata 8",
-      "home": "MARCONI MONINI PALLAVOLO BLU",
-      "away": "FOLIGNO VOLLEY ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641565",
       "competition": "Under 17 Femminile Girone E",
       "giornata": "Giornata 8",
       "home": "ASD PALLAVOLO NORCIA",
       "away": "FARMACIA ANGELICI ARRONE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641566",
+      "competition": "Under 17 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO BLU",
+      "away": "FOLIGNO VOLLEY ROSSA",
       "score": "da disputare",
       "status": "in programma"
     },

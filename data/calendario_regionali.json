@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T05:05:35.268360+00:00",
+  "generatedAt": "2026-10-01T11:22:44.042027+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -634,7 +634,7 @@
         "campionato": "Serie C Maschile Girone Unico",
         "giornata": "9",
         "data": "2026-12-12",
-        "ora": "17:00",
+        "ora": "16:30",
         "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
         "ospite": "ENERGY PMU MARSCIANO",
         "risultato": null
@@ -684,7 +684,7 @@
         "campionato": "Serie C Maschile Girone Unico",
         "giornata": "10",
         "data": "2026-12-19",
-        "ora": "17:00",
+        "ora": "16:30",
         "casa": "ENERGY PMU MARSCIANO",
         "ospite": "ROSSI ASCENSORI FOLIGNO",
         "risultato": null
@@ -1084,7 +1084,7 @@
         "campionato": "Serie C Maschile Girone Unico",
         "giornata": "17",
         "data": "2027-03-06",
-        "ora": "17:30",
+        "ora": "20:30",
         "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
         "ospite": "ENERGY PMU MARSCIANO",
         "risultato": null
