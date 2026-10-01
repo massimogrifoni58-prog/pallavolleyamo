@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T10:54:06.331366+00:00",
+  "generatedAt": "2026-10-01T05:03:49.086900+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -3251,6 +3251,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627494",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627489",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 8",
@@ -3283,15 +3292,6 @@
       "giornata": "Giornata 8",
       "home": "PALLAVOLO GUBBIO",
       "away": "UNILAB  PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627494",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 8",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10298,15 +10298,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644304",
-      "competition": "Under 17 Maschile Girone A",
-      "giornata": "Giornata 7",
-      "home": "SIR MERICAT OLMO",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644303",
       "competition": "Under 17 Maschile Girone A",
       "giornata": "Giornata 7",
@@ -10321,6 +10312,15 @@
       "giornata": "Giornata 7",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
       "away": "SIR GIOVANILE MERICAT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644304",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 7",
+      "home": "SIR MERICAT OLMO",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
