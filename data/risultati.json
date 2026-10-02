@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T11:20:50.512954+00:00",
+  "generatedAt": "2026-10-02T05:05:27.106237+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -3017,6 +3017,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627468",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
+      "away": "UNILAB  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627465",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 4",
@@ -3031,15 +3040,6 @@
       "giornata": "Giornata 4",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627468",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 4",
-      "home": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "away": "UNILAB  PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3512,15 +3512,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627513",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 12",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627518",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 12",
@@ -3535,6 +3526,15 @@
       "giornata": "Giornata 12",
       "home": "A.S.D. SIGILLO VOLLEY",
       "away": "MARCHETTI PRO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627513",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4007,6 +4007,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627564",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 20",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627565",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 20",
@@ -4021,15 +4030,6 @@
       "giornata": "Giornata 20",
       "home": "PALLAVOLO GUBBIO",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627564",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 20",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4331,6 +4331,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627591",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627592",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 25",
@@ -4345,15 +4354,6 @@
       "giornata": "Giornata 25",
       "home": "CLT TERNI",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627591",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11720,6 +11720,15 @@
       "status": "in programma"
     },
     {
+      "id": "131641505",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "SPELLO VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131641504",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 5",
@@ -11734,15 +11743,6 @@
       "giornata": "Giornata 5",
       "home": "VOLLEY 86 PETRIGNANO",
       "away": "FOLIGNO VOLLEY GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131641505",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 5",
-      "home": "SPELLO VOLLEY",
-      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
