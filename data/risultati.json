@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T05:05:27.106237+00:00",
+  "generatedAt": "2026-10-02T10:52:33.724829+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -326,15 +326,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626829",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 7",
-      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "away": "ROSSI ASCENSORI FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626824",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 7",
@@ -358,6 +349,15 @@
       "giornata": "Giornata 7",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "UNIKO VOLLEY ORTE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626829",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "away": "ROSSI ASCENSORI FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11729,20 +11729,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641504",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 5",
-      "home": "SCHOOL VOLLEY PERUGIA INDACO",
-      "away": "REBELS ASSISI U17",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641503",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 5",
       "home": "VOLLEY 86 PETRIGNANO",
       "away": "FOLIGNO VOLLEY GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641504",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA INDACO",
+      "away": "REBELS ASSISI U17",
       "score": "da disputare",
       "status": "in programma"
     },
