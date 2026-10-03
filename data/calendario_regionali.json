@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:54:19.180036+00:00",
+  "generatedAt": "2026-10-03T05:05:00.968980+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -1756,7 +1756,7 @@
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "2",
         "data": "2026-10-24",
-        "ora": "19:00",
+        "ora": "20:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null
@@ -2076,7 +2076,7 @@
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "7",
         "data": "2026-11-28",
-        "ora": "17:00",
+        "ora": "21:00",
         "casa": "SCHOOL VOLLEY PERUGIA",
         "ospite": "ELLERA VOLLEY",
         "risultato": null

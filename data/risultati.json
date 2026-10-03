@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T10:52:33.724829+00:00",
+  "generatedAt": "2026-10-03T05:03:20.221719+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1739,15 +1739,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626985",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 7",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626980",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 7",
@@ -1771,6 +1762,15 @@
       "giornata": "Giornata 7",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626985",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ELLERA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9209,20 +9209,20 @@
       "status": "in programma"
     },
     {
-      "id": "131639373",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 4",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639374",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 4",
       "home": "SIRIO PALLAVOLO",
       "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639373",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10604,20 +10604,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644345",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 4",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "POLISPORTIVA CLT",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644346",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 4",
       "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
       "away": "SIR GIOVANILE MERICAT GREEN",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644345",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "POLISPORTIVA CLT",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11828,20 +11828,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641517",
-      "competition": "Under 17 Femminile Girone C",
-      "giornata": "Giornata 9",
-      "home": "VOLLEY 86 PETRIGNANO",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641516",
       "competition": "Under 17 Femminile Girone C",
       "giornata": "Giornata 9",
       "home": "SCHOOL VOLLEY PERUGIA INDACO",
       "away": "FOLIGNO VOLLEY GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641517",
+      "competition": "Under 17 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "VOLLEY 86 PETRIGNANO",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11882,15 +11882,6 @@
       "status": "in programma"
     },
     {
-      "id": "131641521",
-      "competition": "Under 17 Femminile Girone D",
-      "giornata": "Giornata 1",
-      "home": "SIRIO PALLAVOLO ARANCIO",
-      "away": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641522",
       "competition": "Under 17 Femminile Girone D",
       "giornata": "Giornata 1",
@@ -11905,6 +11896,15 @@
       "giornata": "Giornata 1",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641521",
+      "competition": "Under 17 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA 17",
+      "away": "SIRIO PALLAVOLO ARANCIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -12026,20 +12026,20 @@
       "status": "in programma"
     },
     {
+      "id": "131641536",
+      "competition": "Under 17 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "SIRIO PALLAVOLO ARANCIO",
+      "away": "UMBRIA VOLLEY ACADEMY DERUTA 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131641538",
       "competition": "Under 17 Femminile Girone D",
       "giornata": "Giornata 6",
       "home": "ELLERA VOLLEY",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131641536",
-      "competition": "Under 17 Femminile Girone D",
-      "giornata": "Giornata 6",
-      "home": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-      "away": "SIRIO PALLAVOLO ARANCIO",
       "score": "da disputare",
       "status": "in programma"
     },

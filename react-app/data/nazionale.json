@@ -1,30 +1,6 @@
 {
-  "generatedAt": "2026-10-02T10:50:48.534071+00:00",
+  "generatedAt": "2026-10-03T05:01:09.493846+00:00",
   "posts": [
-    {
-      "id": "4",
-      "title": "Pallavolo SL – Piacenza ha presentato ufficialmente Merrick McHenry: “Per me si sta avversando un sogno incredibile”",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 30 Sep 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/10/01/pallavolo-sl-piacenza-ha-presentato-ufficialmente-merrick-mchenry-per-me-si-sta-avversando-un-sogno-incredibile/"
-    },
-    {
-      "id": "6",
-      "title": "Pallavolo Storie – Indre Sorokaite: la cittadina del mondo che ha raggiunto l’azzurro torna a schiacciare nella sua Kaunas",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Wed, 30 Sep 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/10/01/pallavolo-storie-indre-sorokaite-la-cittadina-del-mondo-che-ha-raggiunto-lazzurro-torna-a-schiacciare-nella-sua-kaunas/"
-    },
-    {
-      "id": "7",
-      "title": "La Bartoccini si allena con la Nazionale sorde",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Wed, 30 Sep 2026 10:22:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/9/30/1790800577801_bartoccini.jpg",
-      "permalink": "https://www.rainews.it/tgr/umbria/video/2026/09/tgr-umbria-sport-bartoccini-perugia-nazionale-italiana-volley-sorde-70cf8313-e8d2-48a9-be41-912261c1d2ca.html"
-    },
     {
       "id": "worldcupfemminile2027le32nazio",
       "title": "World Cup femminile 2027: Le 32 nazionali gia qualificate a USA e Canada, finali ad Anaheim",
@@ -34,12 +10,12 @@
       "permalink": "https://www.volleyball.it/2026/09/30/notizie/argomenti/mondiali/articolo/world-cup-femminile-2027-32-nazionali-tra-usa-e-canada-finali-ad-anaheim.html"
     },
     {
-      "id": "5",
-      "title": "Europei di pallavolo, Italia eliminata dalla Finlandia ai quarti di finale",
-      "excerpt": "Fonte: infooggi.it",
-      "createdTime": "Wed, 23 Sep 2026 21:23:00 GMT",
-      "image": "https://cdn.infooggi.it/images/uploads/public/pgo/s5o/lal/pgos5olalo8732al61b2xx.png/webp",
-      "permalink": "https://www.infooggi.it/articolo/europei-di-pallavolo-italia-eliminata-dalla-finlandia-ai-quarti-di-finale/155698"
+      "id": "vnlfinalsitaliastatiunitivalel",
+      "title": "VNL Finals, Italia-Stati Uniti vale la semifinale: De Giorgi e Sanguinetti parlano alla vigilia",
+      "excerpt": "A Ningbo gli azzurri affrontano gli USA nei quarti: il ct e il centrale fanno il punto dopo il...",
+      "createdTime": "Wed, 29 Jul 2026 17:00:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/De_Giogi.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/29/notizie/argomenti/vnl-maschile/articolo/vnl-finals-italia-stati-uniti-vale-la-semifinale-de-giorgi-e-sanguinetti-parlano-alla-vigilia.html"
     },
     {
       "id": "esclusivoeccoilplanningdeldolo",
@@ -90,6 +66,14 @@
       "permalink": "https://www.volleyball.it/2026/07/08/notizie/argomenti/vnl-maschile/articolo/fivb-la-russia-riappare-ufficialmente-nel-ranking-maschile-e-femminile-senza-penalizzazioni.html"
     },
     {
+      "id": "vnllesquadrealvianelledizione2",
+      "title": "VNL: Le squadre al via nell'edizione 2027",
+      "excerpt": "MODENA - Con l'annuncio odierno della FIVB sono decise le squadre della VNL 2027.Torneo...",
+      "createdTime": "Wed, 05 Aug 2026 00:27:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Squadre_al_via_in_VNL_2027.png",
+      "permalink": "https://www.volleyball.it/2026/08/05/notizie/argomenti/vnl-femminile/articolo/vnl-le-squadre-al-via-nelledizione-2027.html"
+    },
+    {
       "id": "worldcup2027definitele32nazion",
       "title": "World Cup 2027: Definite le 32 nazionali maschili per la Polonia, Europa protagonista",
       "excerpt": "Il prossimo Mondiale maschile, ribattezzato World Cup, vedrà al via 17 nazionali europee. Dodici...",
@@ -130,20 +114,60 @@
       "permalink": "https://www.volleyball.it/2026/08/04/notizie/argomenti/vnl-maschile/articolo/russia-in-vnl-2027-la-fivb-allarga-pero-il-torneo-a-19-squadre.html"
     },
     {
+      "id": "mondovolleylealtrenewsdel30lug",
+      "title": "Mondo Volley: Le altre news del 30 luglio 2026: le Leghe sfidano il calendario, Plak saluta",
+      "excerpt": "I club italiani si oppongono agli eventi internazionali in inverno e Celeste Plak chiude una...",
+      "createdTime": "Thu, 30 Jul 2026 23:05:15 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Comunicato_Congiunto.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/superlega/articolo/mondo-volley-le-altre-news-del-30-luglio-2026-le-leghe-sfidano-il-calendario-plak-saluta.html"
+    },
+    {
+      "id": "vnlfinalslapoloniaconquistailp",
+      "title": "VNL Finals: La Polonia conquista il pass per la Semifinale. 3-1 all'Ucraina",
+      "excerpt": "30 LuglioPolonia - Ucraina 3-1 (25-22, 22-25, 25-20, 25-17)Durata 1h40'Pubblico: 3.491Stats...",
+      "createdTime": "Thu, 30 Jul 2026 15:38:32 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Bartosz_Bolazd.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-maschile/articolo/vnl-finals-la-polonia-conquista-il-pass-per-la-semifinale-3-1-allucraina.html"
+    },
+    {
+      "id": "vnlfinalsdegiorgidopoilkocongl",
+      "title": "VNL Finals: De Giorgi dopo il ko con gli Stati Uniti: \"Non abbiamo espresso la nostra qualità, dobbiamo imparare da questa sconfitta\"",
+      "excerpt": "Le parole post gara di Romanò, Kiraly e Hanes",
+      "createdTime": "Thu, 30 Jul 2026 11:05:18 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/De_Giorgi.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-maschile/articolo/vnl-finals-de-giorgi-dopo-il-ko-con-gli-stati-uniti-non-abbiamo-espresso-la-nostra-qualita-dobb.html"
+    },
+    {
+      "id": "vnlfinalsitaliaeliminataaiquar",
+      "title": "VNL Finals: Italia eliminata ai quarti, gli Stati Uniti vincono 3-0",
+      "excerpt": "Gli azzurri escono dalla Volleyball Nations League dopo la sconfitta per 3-0 contro gli Stati...",
+      "createdTime": "Thu, 30 Jul 2026 10:43:36 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/ITALIA_KO.jpeg",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-maschile/articolo/vnl-finals-italia-eliminata-ai-quarti-gli-stati-uniti-vincono-3-0.html"
+    },
+    {
+      "id": "agendalegaredellagiornata",
+      "title": "Agenda: Le gare della giornata",
+      "excerpt": "Quattro gare in programma oggi in due manifestazioni.",
+      "createdTime": "Thu, 30 Jul 2026 05:04:17 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/GRAFICA_-_Le_gare_di_Oggi.png",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-maschile/articolo/agenda-le-gare-della-giornata-7.html"
+    },
+    {
+      "id": "mondovolleylealtrenewsdel29lug",
+      "title": "Mondo Volley: Le altre news del 29 luglio 2026: Zaytsev trova squadra in Azerbaigian, l’A2 torna al girone unico, Giappone in semifinale",
+      "excerpt": "Mercato, nuovi assetti e grandi appuntamenti internazionali: Zaytsev riparte dall’Ordu, la Serie A2...",
+      "createdTime": "Thu, 30 Jul 2026 00:23:02 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Mandiraci_turchia_battuta.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-29-luglio-2026-zaytsev-trova-squadra-in-azerbaigian-la2-torna-a.html"
+    },
+    {
       "id": "succedevaoggi10settembreiprimi",
       "title": "Succedeva oggi, 10 settembre: I primi Mondiali, i 50 anni di Nummerdor e due tie-break azzurri",
       "excerpt": "Il 10 settembre unisce due svolte fondative: il debutto del Mondiale maschile indoor e l’apertura...",
       "createdTime": "Thu, 10 Sep 2026 10:53:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Praga.jpg",
       "permalink": "https://www.volleyball.it/2026/09/10/notizie/argomenti/internazionale/articolo/succedeva-oggi-10-settembre-i-primi-mondiali-i-50-anni-di-nummerdor-e-due-tie-break-azzurri.html"
-    },
-    {
-      "id": "8",
-      "title": "Italia-Svezia oggi, Europei di pallavolo maschile: a che ora e dove vederla in diretta in chiaro",
-      "excerpt": "Fonte: today.it",
-      "createdTime": "Thu, 10 Sep 2026 02:49:00 GMT",
-      "image": null,
-      "permalink": "https://www.today.it/sport/volley/italia-svezia-oggi-europei-pallavolo-maschile-orario-diretta.html"
     },
     {
       "id": "plotnytskyicriticomentregliucr",
@@ -162,22 +186,6 @@
       "permalink": "https://www.volleyball.it/2026/07/09/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-8-luglio-2026-acquarone-a-cannes-gioia-prende-capelli-svezia-avan.html"
     },
     {
-      "id": "1",
-      "title": "Le stelle del volley tornano a dare spettacolo: tutte le date e il calendario completo della Serie A1 di pallavolo femminile 2026 / 2027",
-      "excerpt": "Fonte: olympics.com",
-      "createdTime": "Thu, 01 Oct 2026 20:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.olympics.com/it/notizie/pallavolo-femminile-serie-a1-2026-2027-calendario-programma-volley"
-    },
-    {
-      "id": "2",
-      "title": "Velasco: “Nazionale? C’era chi parlava di vincere i Mondiali prima di andarci. E su Mancini…”",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Thu, 01 Oct 2026 15:05:59 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/notizie/other/velasco-nazionale-c-era-chi-parlava-di-vincere-i-mondiali-prima-di-andarci-e-su-mancini/vi-AA2dmEPr"
-    },
-    {
       "id": "succedevaoggi30agostoilrecordd",
       "title": "Succedeva oggi, 30 agosto: Il record di Varsavia, l’oro Under 19 e gli scudetti di Caorle",
       "excerpt": "Il 30 agosto intreccia beach volley, grandi eventi internazionali, successi giovanili e crescita...",
@@ -194,14 +202,6 @@
       "permalink": "https://www.volleyball.it/2026/09/27/notizie/argomenti/europei-maschili/articolo/la-pestata-il-mistero-del-palleggiatore-invisibile.html"
     },
     {
-      "id": "9",
-      "title": "Presentazione del Brindisi Fc e nazionale di pallavolo in contemporanea: le istituzioni scelgono il calcio locale",
-      "excerpt": "Fonte: quotidianodipuglia.it",
-      "createdTime": "Sun, 23 Aug 2026 14:24:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/22/9720279_22202007_giochi_del_mediterraneo.jpg",
-      "permalink": "https://www.quotidianodipuglia.it/brindisi/brindisi_festa_calcio_presentazione_e_nazionale_pallavolo_in_contemporanea_istituzioni_scelgono_calcio_locale-9720279.html"
-    },
-    {
       "id": "eurovolleylapallavolodiventaar",
       "title": "Eurovolley: La pallavolo diventa arte. Murales per Egonu, Giannelli, Michieletto e De Gennaro",
       "excerpt": "Da Poggiomarino a Sant’Agnello, fino a Benvento, i volti dei campioni azzurri conquistano le pareti...",
@@ -216,6 +216,14 @@
       "createdTime": "Sun, 20 Sep 2026 13:19:56 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/audience.png",
       "permalink": "https://www.volleyball.it/2026/09/20/notizie/argomenti/europei-maschili/articolo/ascolti-tv-aldo-grasso-sul-corriere-celebra-il-boom-della-pallavolo-in-televisione-buon-prodotto.html"
+    },
+    {
+      "id": "mondovolleylealtrenewsdel9agos",
+      "title": "Mondo Volley: Le altre news del 9 agosto 2026: Wen fa la storia, le Azzurre volano in Polonia, Gottardi-Orsi Toth quarte",
+      "excerpt": "Mercato, preparazione delle Nazionali e risultati dalla sabbia: le notizie del volley italiano e...",
+      "createdTime": "Sun, 09 Aug 2026 23:11:16 GMT",
+      "image": "https://www.volleyball.it/typo3temp/pics/bd5c104bd9.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/09/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-9-agosto-2026-wen-fa-la-storia-le-azzurre-volano-in-polonia-gotta.html"
     },
     {
       "id": "eurovolleydanesidopolafinalefa",
@@ -304,6 +312,30 @@
       "createdTime": "Sun, 06 Sep 2026 00:45:45 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Presidente_Turchia.png",
       "permalink": "https://www.volleyball.it/2026/09/06/notizie/argomenti/europei-femminili/articolo/europei-femminili-uestuendag-attacca-terzic-dopo-quello-che-ha-fatto-non-cerchi-piu-lavoro-in.html"
+    },
+    {
+      "id": "vnlfinalsvinceancoralapolonia3",
+      "title": "VNL Finals: Vince ancora la Polonia. 3-2 agli USA. Slovenia di bronzo",
+      "excerpt": "2 AgostoFinale 1 ° postoUSA - Polonia 2-3 (21-25, 25-23, 27-25, 23-25, 10-15)Durata 2h08'Pubblico:...",
+      "createdTime": "Sun, 02 Aug 2026 16:14:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_campione.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/02/notizie/argomenti/vnl-maschile/articolo/vnl-finals-vince-ancora-la-polonia-3-2-agli-usa-slovenia-di-bronzo.html"
+    },
+    {
+      "id": "internazionaleipotesidinuovoca",
+      "title": "Internazionale: Ipotesi di nuovo calendario internazionale FIVB dal 2028... 9 mesi per i campionati",
+      "excerpt": "A dicembre e gennaio mondiali e continentali. Più tempo per i campionati?",
+      "createdTime": "Sun, 02 Aug 2026 11:45:36 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/grafica_-_planning_fivb.png",
+      "permalink": "https://www.volleyball.it/2026/08/02/notizie/argomenti/superlega/articolo/internazionale-ipotesi-di-nuovo-calendario-internazionale-fivb-dal-2028-9-mesi-per-i-campionati.html"
+    },
+    {
+      "id": "vnllapoloniadinikolagrbicvince",
+      "title": "VNL:  La Polonia di Nikola Grbic vince la VNL 2026. Fornal MVP.  Tutti i risultati, le statistiche, le classifiche",
+      "excerpt": "Tutte le partite degli azzurri e del torneo. Italia chiude al 5° posto",
+      "createdTime": "Sun, 02 Aug 2026 10:23:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_win_VNL.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/02/notizie/argomenti/risultati/articolo/vnl-il-calendario-completo-della-prima-fase-finali-in-cina.html"
     },
     {
       "id": "eurovolleyleonmvpmaneldreamtea",
@@ -402,6 +434,14 @@
       "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
     },
     {
+      "id": "mondovolleylealtrenewsdell8ago",
+      "title": "Mondo Volley: Le altre news dell'8 agosto 2026: Michieletto torna in azzurro, Vallefoglia riparte, il Brasile vola in semifinale",
+      "excerpt": "Convocazioni, mercato, raduni e risultati internazionali: tutte le notizie della pallavolo italiana...",
+      "createdTime": "Sat, 08 Aug 2026 23:02:48 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Michieletto_italia.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/08/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-dell8-agosto-2026-michieletto-torna-in-azzurro-vallefoglia-riparte-i.html"
+    },
+    {
       "id": "europeifemminiliserbiapoloniae",
       "title": "Europei femminili: Serbia-Polonia e Italia-Turchia, la programmazione tv delle finali",
       "excerpt": "Domenica 6 settembre a Istanbul si assegnano le medaglie. Alle 15 Serbia-Polonia per il bronzo,...",
@@ -418,12 +458,28 @@
       "permalink": "https://www.volleyball.it/2026/09/05/notizie/argomenti/europei-femminili/articolo/europei-femminili-velasco-dopo-la-polonia-domani-dovremo-isolarci-dallambiente.html"
     },
     {
-      "id": "10",
-      "title": "Nazionale pallavolo femminile, Miriam Sylla: “Polemiche? Noi nazionale italiana senza sé e senza ma”",
-      "excerpt": "Fonte: affaritaliani.it",
-      "createdTime": "Mon, 29 Oct 2018 07:10:00 GMT",
-      "image": "https://www.affaritaliani.it/wp-content/uploads/2026/02/Placeholder.jpg",
-      "permalink": "https://www.affaritaliani.it/politica/nazionale-pallavolo-femminile-miriam-sylla-polemiche-noi-nazionale-italiana-senza-se-senza-ma.html"
+      "id": "mondovolleylealtrenewsdel1agos",
+      "title": "Mondo Volley: Le altre news del 1° agosto 2026: Usa-Polonia vale l’oro, Narbonne ritira il 19 di Rivas, Club Italia riparte da Imola",
+      "excerpt": "Gli Stati Uniti spezzano l’imbattibilità del Giappone, il club francese rende omaggio al capitano...",
+      "createdTime": "Sat, 01 Aug 2026 23:03:44 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Narbonne_-_Willner_Rivas.png",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/mondo-volley-le-altre-news-del-1-agosto-2026-usa-polonia-vale-loro-narbonne-ritira-il-19-di.html"
+    },
+    {
+      "id": "vnlglistatiunitirimontanoilgia",
+      "title": "VNL: Gli Stati Uniti rimontano il Giappone e sfidano la Polonia per l'oro",
+      "excerpt": "La squadra di Karch Kiraly vince 3-2 dopo essere stata sotto 2-1 e infligge ai nipponici la prima...",
+      "createdTime": "Sat, 01 Aug 2026 16:23:34 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/usa-giappone-vnl-2026.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-gli-stati-uniti-rimontano-il-giappone-e-sfidano-la-polonia-per-loro.html"
+    },
+    {
+      "id": "vnlpoloniatravolgelasloveniaev",
+      "title": "VNL: Polonia travolge la Slovenia e vola in finale",
+      "excerpt": "Netto 3-0 a Ningbo con Leon protagonista: 16 punti, sei ace e una squadra dominante anche a muro. I...",
+      "createdTime": "Sat, 01 Aug 2026 11:35:44 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_win_semifinale.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-polonia-travolge-la-slovenia-e-vola-in-finale.html"
     },
     {
       "id": "europei2026marttilaprimoneipun",
@@ -432,14 +488,6 @@
       "createdTime": "Mon, 28 Sep 2026 12:25:32 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/plotnytskyi-europei-2026-statistiche.jpg",
       "permalink": "https://www.volleyball.it/2026/09/28/notizie/argomenti/europei-maschili/articolo/europei-2026-marttila-primo-nei-punti-plotnytskyi-negli-ace-e-kozamernik-a-muro.html"
-    },
-    {
-      "id": "11",
-      "title": "All’Unical presentati “DUnicaL Career” e “CUS Unical Sport Hub”. Ci sarà una squadra di pallavolo di serie B maschile con soli studenti universitari",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Mon, 28 Sep 2026 11:21:16 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/notizie/other/all-unical-presentati-dunical-career-e-cus-unical-sport-hub-ci-sar%C3%A0-una-squadra-di-pallavolo-di-serie-b-maschile-con-soli-studenti-universitari/ar-AA2d86d7"
     },
     {
       "id": "succedevaoggi24agostolitaliamo",
@@ -472,6 +520,14 @@
       "createdTime": "Mon, 07 Sep 2026 01:28:16 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Velasco.jpg",
       "permalink": "https://www.volleyball.it/2026/09/07/notizie/argomenti/europei-femminili/articolo/eurovolley-velasco-dopo-la-finale-il-secondo-non-e-il-primo-dei-perdenti.html"
+    },
+    {
+      "id": "mondovolleylealtrenewsdel31lug",
+      "title": "Mondo Volley: Le altre news del 31 luglio 2026: Amaranto trascina la Colombia, Kochanowski salta gli Europei, Duda si ferma",
+      "excerpt": "Il nuovo opposto di Cisterna protagonista ai Giochi Centroamericani, la Polonia perde il suo...",
+      "createdTime": "Fri, 31 Jul 2026 23:28:45 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Miguel_Ángel_Martínez_Amaranto.jpg",
+      "permalink": "https://www.volleyball.it/2026/07/31/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-31-luglio-2026-amaranto-trascina-la-colombia-kochanowski-salta-gli.html"
     },
     {
       "id": "fivbsospendelafederazionefilip",
@@ -538,14 +594,6 @@
       "permalink": "https://www.volleyball.it/2026/09/25/notizie/argomenti/europei-maschili/articolo/eurovolley-slovenia-polonia-la-semifinale-si-ripete-soli-sfida-grbic.html"
     },
     {
-      "id": "3",
-      "title": "Stella Nervini: \"Che ambiente per la pallavolo a Chieri, viva le piccole città!\"",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Fri, 25 Sep 2026 09:58:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/9/27/1790506169817_Stella_Nervini_intervista.jpg",
-      "permalink": "https://www.rainews.it/tgr/piemonte/video/2026/09/stella-nervini-che-ambiente-per-la-pallavolo-a-chieri-viva-le-piccole-citta-6cc04966-9399-485c-a6d6-4cb186864377.html"
-    },
-    {
       "id": "eurovolleynikolovredeipuntiplo",
       "title": "Eurovolley: Nikolov re dei punti, Plotnytskyi degli ace e Colson dei muri",
       "excerpt": "Le classifiche individuali al termine dei gironi: Aleksandar Nikolov guida con 117 punti. Romanò...",
@@ -560,6 +608,14 @@
       "createdTime": "Fri, 14 Aug 2026 23:06:34 GMT",
       "image": "https://www.volleyball.it/typo3temp/pics/ee7568111b.jpg",
       "permalink": "https://www.volleyball.it/2026/08/14/notizie/argomenti/internazionale/articolo/mondo-volley-le-altre-news-del-14-agosto-2026-modena-riparte-colombo-sceglie-vibo-bergmann-torna.html"
+    },
+    {
+      "id": "eurovolley2026invenditaibiglie",
+      "title": "EuroVolley 2026: In vendita i biglietti per semifinali e finali di Milano",
+      "excerpt": "Il 25 e 26 settembre l'Unipol Forum ospiterà le quattro gare decisive. Disponibili anche...",
+      "createdTime": "Fri, 14 Aug 2026 12:02:44 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/eurovolley-2026-milano-semifinali-finali.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/14/notizie/argomenti/vnl-maschile/articolo/eurovolley-2026-in-vendita-i-biglietti-per-semifinali-e-finali-di-milano.html"
     },
     {
       "id": "fivbrenamingdelmondialechedive",
