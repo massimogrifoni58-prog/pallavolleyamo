@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:12:16.669038+00:00",
+  "generatedAt": "2026-10-04T05:03:25.096846+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -200,20 +200,20 @@
       "status": "in programma"
     },
     {
-      "id": "131626806",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 4",
-      "home": "CITTA' DI CASTELLO PALLAVOLO",
-      "away": "VOLLEY CASCIA SPOLETO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131626810",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 4",
       "home": "UNIKO VOLLEY ORTE",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626806",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "CITTA' DI CASTELLO PALLAVOLO",
+      "away": "VOLLEY CASCIA SPOLETO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -3251,6 +3251,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627492",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627494",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 8",
@@ -3301,15 +3310,6 @@
       "giornata": "Giornata 8",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627492",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 8",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11909,6 +11909,15 @@
       "status": "in programma"
     },
     {
+      "id": "131641525",
+      "competition": "Under 17 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "UMBRIA VOLLEY ACADEMY DERUTA 17",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131641526",
       "competition": "Under 17 Femminile Girone D",
       "giornata": "Giornata 2",
@@ -11923,15 +11932,6 @@
       "giornata": "Giornata 2",
       "home": "ELLERA VOLLEY",
       "away": "REVISIONANDO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131641525",
-      "competition": "Under 17 Femminile Girone D",
-      "giornata": "Giornata 2",
-      "home": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
       "score": "da disputare",
       "status": "in programma"
     },
