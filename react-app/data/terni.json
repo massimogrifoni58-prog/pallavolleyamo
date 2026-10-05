@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T05:02:59.819418+00:00",
+  "generatedAt": "2026-10-05T12:00:57.059681+00:00",
   "posts": [
     {
       "id": "seriecvolleyilcltvinceilderbya",
@@ -23,7 +23,7 @@
       "createdTime": "Tue, 29 Sep 2026 13:55:00 GMT",
       "image": "https://img.terninrete.it/2026/09/3YGyUIk4-cestista-italia.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-il-gigante-narnese-e-diventato-cittadino-italiano-dorin-buca-alto-216-centimetri-ha-giurato-in-comune/",
-      "id": "3"
+      "id": "2"
     },
     {
       "title": "Pallavolo Clt Terni, tre atleti convocati al Trofeo delle Regioni 2026",
@@ -32,6 +32,14 @@
       "image": "https://www.umbria24.it/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-23-at-10.54.10.jpeg",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-clt-terni-tre-atleti-convocati-al-trofeo-delle-regioni-2026/",
       "id": "5"
+    },
+    {
+      "title": "L'Amerina Pallavolo in Serie C dopo una stagione condotta sempre in testa",
+      "excerpt": "Fonte: sporterni.it",
+      "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
+      "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
+      "permalink": "https://www.sporterni.it/articolo.php?id=27304",
+      "id": "6"
     },
     {
       "id": "superenalottocentratoarivadelg",
@@ -47,7 +55,7 @@
       "createdTime": "Tue, 11 Nov 2025 02:28:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/10/9180399_10153740_tva_napoli_2_47_scaled.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_spazza_via_le_sue_paure_ed_acciuffa_la_prima_vittoria_3_0_napoli-9180399.html",
-      "id": "6"
+      "id": "8"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -66,28 +74,12 @@
       "permalink": "https://terninrete.it/notizie-di-terni-volley-e-serie-b-per-il-clt/"
     },
     {
-      "title": "Orvieto Volley Academy, sport e inclusione con l'Associazione Andromeda",
-      "excerpt": "Fonte: orvietonews.it",
-      "createdTime": "Sun, 04 Oct 2026 10:30:00 GMT",
-      "image": "/upload/immagini/2026/10/volleyandomeda-.jpg",
-      "permalink": "https://www.orvietonews.it/sport/2026/10/04/orvieto-volley-academy-sport-e-inclusione-con-l-associazione-andromeda-124097.html",
-      "id": "1"
-    },
-    {
       "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sun, 04 Oct 2026 04:01:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/10/test-con-terni-attacco-alpini-scaled.jpg",
       "permalink": "https://www.umbria24.it/citta-di-castello/altotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1/",
-      "id": "2"
-    },
-    {
-      "title": "Terni Volley: coach Giombini: «A Sabaudia voglio un gruppo che metta in campo l'incoscienza»",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Sat, 25 Oct 2025 12:42:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/25/9149120_25182902_img_20251025_wa0008.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/a_sabaudia_voglio_un_gruppo_metta_campo_incoscienza_entusiamo_giovani-9149120.html",
-      "id": "7"
+      "id": "1"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -114,6 +106,22 @@
       "permalink": "https://terninrete.it/notizie-di-terni-la-bosico-volley-seconda-al-torneo-nazionale-di-spoleto-497628/"
     },
     {
+      "title": "Pallavolo AZ Zambelli",
+      "excerpt": "Fonte: orvietosport.it",
+      "createdTime": "Mon, 29 Jun 2026 08:28:00 GMT",
+      "image": null,
+      "permalink": "https://www.orvietosport.it/category/volley/pallavolo-az-zambelli/",
+      "id": "4"
+    },
+    {
+      "title": "Orvieto Volley Academy, sconfitta a domicilio aspettando la Pallavolo Arrone",
+      "excerpt": "Fonte: orvietonews.it",
+      "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
+      "image": "/upload/immagini/2026/01/orvietovolleyacademy27-.jpg",
+      "permalink": "https://www.orvietonews.it/sport/2026/02/17/orvieto-volley-academy-sconfitta-a-domicilio-aspettando-la-pallavolo-arrone-120248.html",
+      "id": "7"
+    },
+    {
       "id": "bosicovolleyunder13altorneonaz",
       "title": "Bosico Volley under 13 al torneo nazionale “Opes Volley” di Riccione",
       "excerpt": "Quattro giornate intense quelle che hanno visto impegnate le ragazze della Bosico Volley under 13 dall&#8217;8 all&#8217;11 giugno, nel torneo &#8220;Opes Volley&#8221; di Riccione. Dodici in totale l",
@@ -135,7 +143,7 @@
       "createdTime": "Fri, 25 Sep 2026 10:24:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-18.22.32-6.jpeg",
       "permalink": "https://www.umbria24.it/fotogallery/terni-volley-academy-sir-susa-scai-perugia-la-fotogallery-del-primo-storico-derby-della-pallavolo/",
-      "id": "4"
+      "id": "3"
     },
     {
       "title": "Narni: \"Adrenalina Pura\", gli studenti del liceo Gandhi al Festival dello Sport di Trento",
@@ -143,7 +151,7 @@
       "createdTime": "Fri, 17 Oct 2025 08:21:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/17/9133109_17145115_whatsapp_image_2025_10_16_at_10.00.25.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/narni_adrenalina_pura_studenti_liceo_gandhi_al_festival_dello_sport_di_trento-9133109.html",
-      "id": "8"
+      "id": "9"
     }
   ]
 }
