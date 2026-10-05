@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T10:52:48.361921+00:00",
+  "generatedAt": "2026-10-05T05:03:20.591351+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10352,15 +10352,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644309",
-      "competition": "Under 17 Maschile Girone A",
-      "giornata": "Giornata 9",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "MARCHETTI PRO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644310",
       "competition": "Under 17 Maschile Girone A",
       "giornata": "Giornata 9",
@@ -10375,6 +10366,15 @@
       "giornata": "Giornata 9",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
       "away": "SIR MERICAT OLMO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644309",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "MARCHETTI PRO VITT CHIUSI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10766,20 +10766,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644363",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 10",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "SIR GIOVANILE MERICAT GREEN",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644364",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 10",
       "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
       "away": "STRIKE TEAM MONTELUCE UNDER 17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644363",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 10",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR GIOVANILE MERICAT GREEN",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10820,20 +10820,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644369",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 12",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "SIR MERICAT PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644370",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 12",
       "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
       "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644369",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 12",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR MERICAT PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11081,20 +11081,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641421",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "UISP VOLLEY UMBERTIDE",
-      "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641422",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 1",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641421",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TRESTINA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
