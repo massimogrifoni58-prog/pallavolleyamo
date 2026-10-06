@@ -472,7 +472,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
     { href: "#/terni", label: "News Prov. TR", locked: true },
     { href: "#/perugia", label: "News Prov. PG", locked: true },
     { href: "#/squadre-top", label: "News Squadre", locked: true },
-    { href: "#/pallavolo-umbria", label: "Pallavolo Umbria", locked: true },
+    { href: "#/pallavolo-umbria", label: "La Settimana Volley", locked: true },
   ]}
 />
 <NavDropdown
