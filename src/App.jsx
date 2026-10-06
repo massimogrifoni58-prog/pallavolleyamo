@@ -5441,6 +5441,34 @@ function BannerIscrizione({ onClose }) {
     </div>
   );
 }
+function chiaveCampionato(nome) {
+  const n = nome.toLowerCase();
+  let livello = 9;
+  if (n.includes("serie c")) livello = 0;
+  else if (n.includes("serie d")) livello = 1;
+  else if (n.includes("1 divisione")) livello = 2;
+  else if (n.includes("under 19")) livello = 3;
+  else if (n.includes("under 17")) livello = 4;
+  const genere = n.includes("maschile") ? 0 : 1;
+  let girone = "0";
+  if (!n.includes("elite")) {
+    const m = n.match(/girone\s+([a-z0-9]+)/);
+    if (m && m[1] !== "unico") girone = m[1].toUpperCase();
+  }
+  return [livello, genere, girone];
+}
+
+function ordinaCampionati(lista) {
+  return [...lista].sort((a, b) => {
+    const ka = chiaveCampionato(a.nome);
+    const kb = chiaveCampionato(b.nome);
+    for (let i = 0; i < ka.length; i++) {
+      if (ka[i] < kb[i]) return -1;
+      if (ka[i] > kb[i]) return 1;
+    }
+    return a.nome.localeCompare(b.nome, "it");
+  });
+}
 function CalendarioCompletoPage() {
   const campionatiRegionali = calendarioRegionaliData.campionati || [];
   const partiteRegionaliData = calendarioRegionaliData.partite || {};
@@ -5527,14 +5555,16 @@ function CalendarioCompletoPage() {
         <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
   <select className="all2-select" value={selCategoria}
     onChange={(e) => cambiaCategoria(e.target.value)}>
-    <optgroup label="Serie C e D">
-      {categorie
-        .filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-"))
+        <optgroup label="Serie C e D">
+      {ordinaCampionati(categorie.filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-")))
+        .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
+    </optgroup>
+    <optgroup label="1ª Divisione">
+      {ordinaCampionati(categorie.filter(c => c.id.startsWith("giov-1-divisione")))
         .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
     </optgroup>
     <optgroup label="Giovanili">
-      {categorie
-        .filter(c => c.id.startsWith("giov-"))
+      {ordinaCampionati(categorie.filter(c => c.id.startsWith("giov-") && !c.id.startsWith("giov-1-divisione")))
         .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
     </optgroup>
   </select>
