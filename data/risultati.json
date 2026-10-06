@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:01:13.830814+00:00",
+  "generatedAt": "2026-10-06T05:03:33.912806+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8440,6 +8440,2598 @@
       "giornata": "Giornata 18",
       "home": "SPELLO VOLLEY",
       "away": "SCAI VOLLEY 86 PETRIGNANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657845",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657843",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "TIBER VOLLEY",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657844",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SIR PERUGIA",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657846",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657850",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657849",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657847",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657848",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657854",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657851",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "TIBER VOLLEY",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657853",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SIR PERUGIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657852",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657857",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657855",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657856",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657858",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657859",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TIBER VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657862",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIR PERUGIA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657861",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657860",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657866",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657864",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657865",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657863",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657867",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "TIBER VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657869",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657870",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657868",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657872",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657874",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657871",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "SIR PERUGIA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657873",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657878",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657876",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657877",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657875",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657882",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657880",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657881",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657879",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657883",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "TIBER VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657885",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657884",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "SIR PERUGIA",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657886",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657890",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657889",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657887",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657888",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 12",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657894",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657891",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "TIBER VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657893",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "SIR PERUGIA",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657892",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 13",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657895",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657896",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657897",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657898",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 14",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657899",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "TIBER VOLLEY",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657902",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "SIR PERUGIA",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657901",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657900",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657903",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657905",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657906",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657904",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 16",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657907",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "TIBER VOLLEY",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657910",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657909",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657908",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 17",
+      "home": "US ACLI COLOMBELLA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657912",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "UISP VOLLEY UMBERTIDE BIANCA",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657914",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657911",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "SIR PERUGIA",
+      "away": "US ACLI COLOMBELLA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657913",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657972",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657971",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657973",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657974",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657978",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657975",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657977",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657976",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657981",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657979",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657980",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657982",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657985",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657983",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657984",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657986",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657990",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657989",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657987",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657988",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657992",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657993",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657994",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657991",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657997",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657995",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657996",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657998",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658002",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657999",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658000",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658001",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658004",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658003",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658006",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658005",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658008",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658010",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658007",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658009",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658012",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658011",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658013",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658014",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 11",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658018",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658016",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658017",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658015",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 12",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658021",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658019",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658020",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658022",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658023",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658024",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658025",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658026",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658030",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658029",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658027",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658028",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658033",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658031",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "REBELS ASSISI 2D TIFFANY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658034",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658032",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658037",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "away": "UISP VOLLEY UMBERTIDE ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658035",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658036",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658038",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 17",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658042",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658039",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658040",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658041",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 18",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658176",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658178",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658177",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "SIR ASSISI",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658175",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "PMU MARSCIANO",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658182",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658179",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658180",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658181",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658185",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658184",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658186",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "SIR ASSISI",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658183",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "PMU MARSCIANO",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658189",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658190",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658188",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658187",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658193",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658194",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658192",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658191",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "PMU MARSCIANO",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658196",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658195",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658198",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "SIR ASSISI",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658197",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658201",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658200",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658199",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "PMU MARSCIANO",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658202",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658206",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658203",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658205",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658204",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "SIR ASSISI",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658208",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658207",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658210",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658209",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658211",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658212",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658213",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658214",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658216",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 11",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658218",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 11",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658217",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 11",
+      "home": "SIR ASSISI",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658215",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 11",
+      "home": "PMU MARSCIANO",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658222",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 12",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658220",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 12",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658219",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 12",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658221",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 12",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658226",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 13",
+      "home": "SIR ASSISI",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658225",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 13",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658224",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 13",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658223",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 13",
+      "home": "PMU MARSCIANO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658227",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 14",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658230",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 14",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658229",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 14",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658228",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 14",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658233",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 15",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658234",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 15",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658232",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 15",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658231",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 15",
+      "home": "PMU MARSCIANO",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658237",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 16",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658236",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 16",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658235",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 16",
+      "home": "SIR ASSISI",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658238",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 16",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658241",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 17",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658240",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 17",
+      "home": "UNIPOL V.A.BASTIA",
+      "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658239",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 17",
+      "home": "PMU MARSCIANO",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658242",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 17",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658246",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 18",
+      "home": "REBELS ASSISI 2D PEACH",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658243",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 18",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "UNIPOL V.A.BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658245",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 18",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658244",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 18",
+      "home": "SIR ASSISI",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658267",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658268",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658269",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658270",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "POLISPORTIVA CLT",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658273",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658271",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658272",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658274",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "PMU MARSCIANO BLU",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658275",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658276",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658277",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658278",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658279",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658280",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658281",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "PMU MARSCIANO BLU",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658282",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658286",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658284",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658283",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658285",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658289",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658290",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658287",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658288",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "PMU MARSCIANO BLU",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658291",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658292",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658293",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658294",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658295",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658296",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658297",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "POLISPORTIVA CLT",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658298",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "PMU MARSCIANO BLU",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658299",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658302",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658300",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658301",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658303",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658306",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658304",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658305",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658307",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 11",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658308",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 11",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658309",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 11",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658310",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 11",
+      "home": "POLISPORTIVA CLT",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658313",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 12",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658312",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 12",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658311",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 12",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658314",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 12",
+      "home": "PMU MARSCIANO BLU",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658315",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 13",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658316",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 13",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658317",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 13",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658318",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 13",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658320",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 14",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658321",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658319",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 14",
+      "home": "PMU MARSCIANO BLU",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658322",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 14",
+      "home": "POLISPORTIVA CLT",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658323",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 15",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658324",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 15",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658326",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 15",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658325",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 15",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658330",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 16",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658327",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 16",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658328",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 16",
+      "home": "POLISPORTIVA CLT",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658329",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 16",
+      "home": "PMU MARSCIANO BLU",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658331",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 17",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658332",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 17",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658333",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 17",
+      "home": "CASCIANELLI LORENA TUDER VOLLEI",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658334",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 17",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658335",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 18",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658336",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 18",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658337",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 18",
+      "home": "POLISPORTIVA CLT",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658338",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 18",
+      "home": "PMU MARSCIANO BLU",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
