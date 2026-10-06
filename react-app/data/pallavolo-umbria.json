@@ -1,0 +1,117 @@
+{
+  "aggiornamento": "2026-10-05",
+  "settimana": "5 – 11 ottobre 2026",
+  "commento": "Settimana di avvio per il volley umbro. Tra le donne la Bartoccini ha perso 3-1 a Busto Arsizio e domenica 11 ottobre torna al PalaBarton Energy contro Leonessa Altamura; in B2 si comincia il 17 e 18 ottobre e Città di Castello si è presentata in piazza il 5 ottobre. Tra gli uomini il campionato parte il 18 ottobre, con Sir Susa Scai Perugia a Cuneo e Terni Volley Academy a Sorrento.",
+  "derby": {
+    "titolo": "Derby Città di Castello – Marsciano",
+    "nota": "Serie B2 femminile, girone G.",
+    "partite": [
+      {
+        "quando": "2026-10-17",
+        "ora": "21:00",
+        "casa": "Fail Group Marsciano",
+        "ospite": "Pallavolo Città di Castello",
+        "impianto": "Palasport Maria Stella Pippi, Marsciano",
+        "giornata": "1"
+      },
+      {
+        "quando": "2027-02-13",
+        "ora": "18:30",
+        "casa": "Pallavolo Città di Castello",
+        "ospite": "Fail Group Marsciano",
+        "impianto": "Palazzetto Andrea Joan, Città di Castello",
+        "giornata": "14"
+      }
+    ]
+  },
+  "squadre": [
+    {
+      "id": "bartoccini",
+      "genere": "F",
+      "nome": "Bartoccini Perugia",
+      "categoria": "Serie A2",
+      "ultimo": {
+        "quando": "3 – 4 ottobre",
+        "casa": "Busto Arsizio",
+        "ospite": "Bartoccini Perugia",
+        "risultato": "3-1",
+        "parziali": ["27-25", "25-22", "22-25", "25-22"]
+      },
+      "prossima": {
+        "quando": "2026-10-11",
+        "ora": "17:00",
+        "casa": "Bartoccini Perugia",
+        "ospite": "Leonessa Altamura",
+        "impianto": "PalaBarton Energy, Perugia"
+      },
+      "commento": "Sconfitta in trasferta all'esordio, con due set decisi sul filo. Domenica la prima in casa."
+    },
+    {
+      "id": "citta-di-castello",
+      "genere": "F",
+      "nome": "Pallavolo Città di Castello",
+      "categoria": "Serie B2 – Girone G",
+      "ultimo": null,
+      "prossima": {
+        "quando": "2026-10-17",
+        "ora": "21:00",
+        "casa": "Fail Group Marsciano",
+        "ospite": "Pallavolo Città di Castello",
+        "impianto": "Palasport Maria Stella Pippi, Marsciano"
+      },
+      "commento": "Presentata in piazza il 5 ottobre. Allenatrice: Fiorella Di Leone."
+    },
+    {
+      "id": "marsciano",
+      "genere": "F",
+      "nome": "Fail Group Marsciano",
+      "categoria": "Serie B2 – Girone G",
+      "ultimo": null,
+      "prossima": {
+        "quando": "2026-10-17",
+        "ora": "21:00",
+        "casa": "Fail Group Marsciano",
+        "ospite": "Pallavolo Città di Castello",
+        "impianto": "Palasport Maria Stella Pippi, Marsciano"
+      },
+      "commento": "Allenatore: Gian Paolo Sperandio (da confermare)."
+    },
+    {
+      "id": "sir-perugia",
+      "genere": "M",
+      "nome": "Sir Susa Scai Perugia",
+      "categoria": "Superlega",
+      "ultimo": null,
+      "prossima": {
+        "quando": "2026-10-18",
+        "ora": "18:00",
+        "casa": "Cuneo Volley",
+        "ospite": "Sir Susa Scai Perugia",
+        "impianto": "Palasport di Cuneo",
+        "giornata": "1"
+      },
+      "commento": ""
+    },
+    {
+      "id": "tva",
+      "genere": "M",
+      "nome": "Terni Volley Academy",
+      "categoria": "Serie A3",
+      "ultimo": null,
+      "prossima": {
+        "quando": "2026-10-18",
+        "ora": "18:00",
+        "casa": "Romeo Sorrento",
+        "ospite": "Terni Volley Academy",
+        "impianto": "PalAtigliana, Sorrento",
+        "giornata": "1"
+      },
+      "commento": ""
+    }
+  ],
+  "serieCD": {
+    "commento": "",
+    "partite": []
+  },
+  "archivio": []
+}
