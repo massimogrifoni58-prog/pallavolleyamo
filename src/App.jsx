@@ -6121,7 +6121,7 @@ function PallavoloUmbriaPage() {
 
   return (
     <main>
-      <CampionatiHero titolo="Pallavolo Umbria" />
+      <CampionatiHero titolo="La settimana Volley" />
       <section className="section">
         <h2 className="feed-heading">La settimana</h2>
         {dati.settimana && (
@@ -6298,7 +6298,7 @@ useEffect(() => {
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "privacy" && <PrivacyPage />}
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria"].includes(route) && <NotFoundPage />}#000
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
