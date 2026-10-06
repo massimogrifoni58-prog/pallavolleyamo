@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:03:33.912806+00:00",
+  "generatedAt": "2026-10-06T11:44:10.195353+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -13277,20 +13277,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644356",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 7",
-      "home": "POLISPORTIVA CLT",
-      "away": "SIR GIOVANILE MERICAT GREEN",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644354",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 7",
       "home": "V. NARNI S.A.",
       "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644356",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 7",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR GIOVANILE MERICAT GREEN",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13376,20 +13376,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644366",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 11",
-      "home": "POLISPORTIVA CLT",
-      "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644368",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 11",
       "home": "SIR MERICAT PERUGIA",
       "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644366",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 11",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13934,20 +13934,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641453",
-      "competition": "Under 17 Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-      "away": "VOLLEY PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641452",
       "competition": "Under 17 Femminile Girone B",
       "giornata": "Giornata 1",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "STRIKE TEAM MONTELUCE U17",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641453",
+      "competition": "Under 17 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
+      "away": "VOLLEY PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
