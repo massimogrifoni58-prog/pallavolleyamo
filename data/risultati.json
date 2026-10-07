@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T05:04:08.211141+00:00",
+  "generatedAt": "2026-10-07T11:31:13.226427+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8480,20 +8480,20 @@
       "status": "in programma"
     },
     {
-      "id": "131657850",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 2",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657849",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 2",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657850",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9281,20 +9281,20 @@
       "status": "in programma"
     },
     {
+      "id": "131657994",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+      "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131657993",
       "competition": "2 Divisione Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131657994",
-      "competition": "2 Divisione Femminile Girone B",
-      "giornata": "Giornata 6",
-      "home": "STRIKE TEAM MONTELUCE",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9596,15 +9596,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658030",
-      "competition": "2 Divisione Femminile Girone B",
-      "giornata": "Giornata 15",
-      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
-      "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658029",
       "competition": "2 Divisione Femminile Girone B",
       "giornata": "Giornata 15",
@@ -9628,6 +9619,15 @@
       "giornata": "Giornata 15",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658030",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 15",
+      "home": "STRIKE TEAM MONTELUCE",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9794,20 +9794,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658180",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 2",
-      "home": "UISP VOLLEY UMBERTIDE GIALLA",
-      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658181",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 2",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
       "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658180",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "UISP VOLLEY UMBERTIDE GIALLA",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10721,20 +10721,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658306",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 10",
-      "home": "SANGEMINI COLLELUNA VOLLEY",
-      "away": "POLISPORTIVA CLT",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658304",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 10",
       "home": "CASCIANELLI LORENA TUDER VOLLEI",
       "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658306",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "POLISPORTIVA CLT",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13664,20 +13664,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641423",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641422",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 1",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641423",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -15280,6 +15280,1806 @@
       "giornata": "Giornata 10",
       "home": "DIFDIF VOLLEY ACADEMY",
       "away": "ASD PGS BOSICO VOLLEY RED BARTOCCINI GIOIELLERIE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659099",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659098",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659097",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "TRESTINA VOLLEY",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659100",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659102",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TIBER VOLLEY",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659101",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "POLISPORTIVA DON BOSCO GUBBIO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659104",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659105",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "TIBER VOLLEY",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659103",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "TRESTINA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659106",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659108",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659107",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659111",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TIBER VOLLEY",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659109",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659110",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA DON BOSCO GUBBIO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659114",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659113",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "TIBER VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659112",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA DON BOSCO GUBBIO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659116",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659115",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659117",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "TRESTINA VOLLEY",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659118",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659119",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659120",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "POLISPORTIVA DON BOSCO GUBBIO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659121",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TIBER VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659122",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA DON BOSCO GUBBIO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659123",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "NUOVA PALLAVOLO GUALDO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659125",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659126",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "TIBER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659124",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659127",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659128",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659129",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659130",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "FOLIGNO U15 ROSA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659131",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "PMU MARSCIANO BLU",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659132",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SIR PERUGIA",
+      "away": "SIRIO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659133",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659134",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659135",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIR PERUGIA",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659136",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "FOLIGNO U15 ROSA",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659137",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659138",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SIRIO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659139",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659140",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "PMU MARSCIANO BLU",
+      "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659141",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SIR PERUGIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659144",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "FOLIGNO U15 ROSA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659142",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "PMU MARSCIANO BLU",
+      "away": "SIRIO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659143",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SIR PERUGIA",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659147",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659145",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659146",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659148",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "FOLIGNO U15 ROSA",
+      "away": "SIRIO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659150",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "PMU MARSCIANO BLU",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659149",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659152",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "PMU MARSCIANO BLU",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659153",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659151",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "SIR PERUGIA",
+      "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659155",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "FOLIGNO U15 ROSA",
+      "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659154",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "SIRIO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659156",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659430",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659431",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659432",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659433",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659434",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "UMBRIA VOLLEY ACADEMY 15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659435",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659436",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659437",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "UMBRIA VOLLEY ACADEMY 15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659438",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659439",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659440",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659441",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659442",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659443",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659444",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "UMBRIA VOLLEY ACADEMY 15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659447",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "UMBRIA VOLLEY ACADEMY 15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659445",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659446",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659450",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659448",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659449",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659451",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659453",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659452",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659456",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "UMBRIA VOLLEY ACADEMY 15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659455",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659454",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659458",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659457",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659459",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659461",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659460",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659462",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659465",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659464",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659463",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SCHOOL VOLLEY PERUGIA NERO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659467",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659466",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659468",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659470",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659471",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659469",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659472",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "SCHOOL VOLLEY PERUGIA NERO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659474",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659473",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659476",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SCHOOL VOLLEY PERUGIA NERO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659475",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659477",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659478",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659480",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659479",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659482",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA NERO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659483",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659481",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659486",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659484",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659485",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "SCHOOL VOLLEY PERUGIA NERO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659487",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659489",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659488",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659492",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "REBELS ASSISI U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659491",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "TREVI VOLLEY",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659490",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "U15 FOLIGNO BLU",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659494",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659493",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI U15",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659495",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "U15 FOLIGNO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659497",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "TREVI VOLLEY",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659496",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "U15 FOLIGNO BLU",
+      "away": "REBELS ASSISI U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659498",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659501",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "U15 FOLIGNO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659499",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "REBELS ASSISI U15",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659500",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "TREVI VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659503",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "REBELS ASSISI U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659502",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "U15 FOLIGNO BLU",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659504",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659505",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "U15 FOLIGNO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659507",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "REBELS ASSISI U15",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659506",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659509",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659508",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "TREVI VOLLEY",
+      "away": "REBELS ASSISI U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659510",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "U15 FOLIGNO BLU",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659513",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659512",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659511",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "REBELS ASSISI U15",
+      "away": "U15 FOLIGNO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659515",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659516",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "U15 FOLIGNO BLU",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659514",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "ASD PGS DON BOSCO CANNARA",
+      "away": "REBELS ASSISI U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659519",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "ASD PGS DON BOSCO CANNARA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659518",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "REBELS ASSISI U15",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659517",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "TREVI VOLLEY",
+      "away": "U15 FOLIGNO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659522",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 1",
+      "home": "PMU MARSCIANO BIANCA",
+      "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659521",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 1",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659520",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 1",
+      "home": "REALE MUTUA TUDER VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659525",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 2",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659523",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 2",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659524",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 2",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659528",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 3",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659527",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 3",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659526",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 3",
+      "home": "REALE MUTUA TUDER VOLLEY",
+      "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659531",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 4",
+      "home": "PMU MARSCIANO BIANCA",
+      "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659530",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 4",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659529",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 4",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659534",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 5",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659532",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 5",
+      "home": "REALE MUTUA TUDER VOLLEY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659533",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 5",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659536",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 6",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659537",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 6",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659535",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659539",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 7",
+      "home": "PMU MARSCIANO BIANCA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659538",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 7",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659540",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 7",
+      "home": "REALE MUTUA TUDER VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659542",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 8",
+      "home": "PMU MARSCIANO BIANCA",
+      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659541",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 8",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659543",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 8",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659544",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 9",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659546",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 9",
+      "home": "REALE MUTUA TUDER VOLLEY",
+      "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659545",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 9",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659549",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 10",
+      "home": "PMU MARSCIANO BIANCA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659547",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 10",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659548",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 10",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659551",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 1",
+      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659550",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 1",
+      "home": "BOSICO GIOIELLERIE BARTOCCINI",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659552",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659553",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 2",
+      "home": "POLISPORTIVA CLT",
+      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659554",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 3",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659555",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 3",
+      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "away": "BOSICO GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659556",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659557",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 4",
+      "home": "BOSICO GIOIELLERIE BARTOCCINI",
+      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659559",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 5",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659558",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA CLT",
+      "away": "BOSICO GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659560",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "BOSICO GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659561",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659563",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 7",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659562",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 7",
+      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659564",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659565",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 8",
+      "home": "BOSICO GIOIELLERIE BARTOCCINI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659567",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 9",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "BOSICO GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659566",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA CLT",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659569",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 10",
+      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659568",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 10",
+      "home": "BOSICO GIOIELLERIE BARTOCCINI",
+      "away": "POLISPORTIVA CLT",
       "score": "da disputare",
       "status": "in programma"
     }

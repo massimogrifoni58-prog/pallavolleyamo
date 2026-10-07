@@ -1,14 +1,6 @@
 {
-  "generatedAt": "2026-10-07T05:01:32.260957+00:00",
+  "generatedAt": "2026-10-07T11:28:39.189033+00:00",
   "posts": [
-    {
-      "id": "11",
-      "title": "La Bartoccini si allena con la Nazionale sorde",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Wed, 30 Sep 2026 10:22:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/9/30/1790800577801_bartoccini.jpg",
-      "permalink": "https://www.rainews.it/tgr/umbria/video/2026/09/tgr-umbria-sport-bartoccini-perugia-nazionale-italiana-volley-sorde-70cf8313-e8d2-48a9-be41-912261c1d2ca.html"
-    },
     {
       "id": "worldcupfemminile2027le32nazio",
       "title": "World Cup femminile 2027: Le 32 nazionali gia qualificate a USA e Canada, finali ad Anaheim",
@@ -26,7 +18,7 @@
       "permalink": "https://www.volleyball.it/2026/07/29/notizie/argomenti/vnl-maschile/articolo/vnl-finals-italia-stati-uniti-vale-la-semifinale-de-giorgi-e-sanguinetti-parlano-alla-vigilia.html"
     },
     {
-      "id": "3",
+      "id": "5",
       "title": "Europei di pallavolo, Italia eliminata dalla Finlandia ai quarti di finale",
       "excerpt": "Fonte: infooggi.it",
       "createdTime": "Wed, 23 Sep 2026 21:23:00 GMT",
@@ -48,6 +40,14 @@
       "createdTime": "Wed, 16 Sep 2026 18:27:19 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/antropova_d_argento_1.png",
       "permalink": "https://www.volleyball.it/2026/09/16/notizie/argomenti/europei-femminili/articolo/antropova-racconta-il-suo-europeo-ho-scelto-il-coraggio-questa-estate-e-storia.html"
+    },
+    {
+      "id": "9",
+      "title": "Europei di pallavolo maschile 2026, quando gioca l'Italia di De Giorgi: il calendario, gli orari delle partite e dove vederle in tv",
+      "excerpt": "Fonte: today.it",
+      "createdTime": "Wed, 09 Sep 2026 12:08:00 GMT",
+      "image": null,
+      "permalink": "https://www.today.it/sport/volley/europei-pallavolo-maschile-2026-italia-calendario-orari-tv.html"
     },
     {
       "id": "succedevaoggi9settembrei55anni",
@@ -82,20 +82,20 @@
       "permalink": "https://www.volleyball.it/2026/07/08/notizie/argomenti/vnl-maschile/articolo/fivb-la-russia-riappare-ufficialmente-nel-ranking-maschile-e-femminile-senza-penalizzazioni.html"
     },
     {
+      "id": "4",
+      "title": "Pallavolo e sociale, Alessandra Campedelli a Villa Angela, l’incontro promosso da Planet Volley e Fondazione Pia Casa",
+      "excerpt": "Fonte: sportwebsicilia.it",
+      "createdTime": "Wed, 07 Oct 2026 02:52:00 GMT",
+      "image": "https://sportwebsicilia.it/wp-content/uploads/sites/9/2026/10/INVITO-e1791359604182.jpg",
+      "permalink": "https://sportwebsicilia.it/2026/10/07/alessandra-campedelli-planet-volley-fondazione-pia-casa-villa-angela/"
+    },
+    {
       "id": "vnllesquadrealvianelledizione2",
       "title": "VNL: Le squadre al via nell'edizione 2027",
       "excerpt": "MODENA - Con l'annuncio odierno della FIVB sono decise le squadre della VNL 2027.Torneo...",
       "createdTime": "Wed, 05 Aug 2026 00:27:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Squadre_al_via_in_VNL_2027.png",
       "permalink": "https://www.volleyball.it/2026/08/05/notizie/argomenti/vnl-femminile/articolo/vnl-le-squadre-al-via-nelledizione-2027.html"
-    },
-    {
-      "id": "8",
-      "title": "Europei Maschili: taglio del nastro della Pool A di Modena",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Wed, 02 Sep 2026 10:18:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/09/02/151213817-a92b405a-4c7d-42f4-a3e9-bf74f5d25aa9.jpeg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/09/02-150972271/europei_maschili_taglio_del_nastro_della_pool_a_di_modena"
     },
     {
       "id": "worldcup2027definitele32nazion",
@@ -152,6 +152,14 @@
       "createdTime": "Tue, 08 Sep 2026 16:48:19 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Minja_Osmajić.png",
       "permalink": "https://www.volleyball.it/2026/09/08/notizie/argomenti/internazionale/articolo/serbia-boskovic-dona-la-medaglia-allinfortunata-osmajic.html"
+    },
+    {
+      "id": "1",
+      "title": "Pallavolo in lutto, addio a Stefania Corna: palleggiatrice cresciuta nel vivaio della Foppapedretti Bergamo, giocò anche a Casalmaggiore e Scandicci",
+      "excerpt": "Fonte: eurosport.it",
+      "createdTime": "Tue, 06 Oct 2026 15:47:00 GMT",
+      "image": null,
+      "permalink": "https://www.eurosport.it/pallavolo/pallavolo-in-lutto-addio-a-stefania-corna-palleggiatrice-cresciuta-nel-vivaio-della-foppapedretti-bergamo-gioco-anche-a-casalmaggiore-e-scandicci_sto23343567/story.shtml"
     },
     {
       "id": "russiafuoridaimondiali2027inpo",
@@ -234,14 +242,6 @@
       "permalink": "https://www.volleyball.it/2026/09/10/notizie/argomenti/internazionale/articolo/succedeva-oggi-10-settembre-i-primi-mondiali-i-50-anni-di-nummerdor-e-due-tie-break-azzurri.html"
     },
     {
-      "id": "4",
-      "title": "Italia-Svezia oggi, Europei di pallavolo maschile: a che ora e dove vederla in diretta in chiaro",
-      "excerpt": "Fonte: today.it",
-      "createdTime": "Thu, 10 Sep 2026 02:49:00 GMT",
-      "image": null,
-      "permalink": "https://www.today.it/sport/volley/italia-svezia-oggi-europei-pallavolo-maschile-orario-diretta.html"
-    },
-    {
       "id": "plotnytskyicriticomentregliucr",
       "title": "Plotnytskyi critico: \"Mentre gli ucraini vengono uccisi, la FIVB sceglie di riportare la Russia nelle competizioni\"",
       "excerpt": "Lo schiacciatore della nazionale ucraina Oleh Plotnytskyi critica duramente la decisione della FIVB...",
@@ -258,7 +258,7 @@
       "permalink": "https://www.volleyball.it/2026/07/09/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-8-luglio-2026-acquarone-a-cannes-gioia-prende-capelli-svezia-avan.html"
     },
     {
-      "id": "6",
+      "id": "11",
       "title": "Velasco: “Nazionale? C’era chi parlava di vincere i Mondiali prima di andarci. E su Mancini…”",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Thu, 01 Oct 2026 15:05:59 GMT",
@@ -458,6 +458,14 @@
       "permalink": "https://www.volleyball.it/2026/09/06/notizie/argomenti/europei-femminili/articolo/europei-femminili-uestuendag-attacca-terzic-dopo-quello-che-ha-fatto-non-cerchi-piu-lavoro-in.html"
     },
     {
+      "id": "3",
+      "title": "Pallavolo VBWorldCup – Ecco le 32 squadre partecipanti alla Womens Volleyball World Cup 2027: la Svizzera unica esordiente",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Sun, 04 Oct 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/10/05/pallavolo-vbworldcup-ecco-le-32-squadre-partecipanti-alla-womens-volleyball-world-cup-2027-la-svizzera-unica-esordiente/"
+    },
+    {
       "id": "vnlfinalsvinceancoralapolonia3",
       "title": "VNL Finals: Vince ancora la Polonia. 3-2 agli USA. Slovenia di bronzo",
       "excerpt": "2 AgostoFinale 1 ° postoUSA - Polonia 2-3 (21-25, 25-23, 27-25, 23-25, 10-15)Durata 2h08'Pubblico:...",
@@ -554,14 +562,6 @@
       "permalink": "https://www.volleyball.it/2026/09/26/notizie/argomenti/europei-maschili/articolo/eurovolley-finlandia-e-slovenia-in-palio-il-bronzo-i-finlandesi-cercano-la-prima-medaglia.html"
     },
     {
-      "id": "12",
-      "title": "La Federazione Italiana Pallavolo compie 80 anni, il sanremese Simone Parodi testimonial dell'evento del Comitato Territoriale Liguria Ponente (Foto)",
-      "excerpt": "Fonte: sanremonews.it",
-      "createdTime": "Sat, 26 Sep 2026 05:43:00 GMT",
-      "image": "https://www.sanremonews.it/fileadmin/archivio/sanremonews/Fipav_Comitato_Liguria_Ponente_Parodi__Clemente__Oliveri__Privitera.jpg",
-      "permalink": "https://www.sanremonews.it/2026/09/26/sommario/sport/leggi-notizia/argomenti/sport/articolo/la-federazione-italiana-pallavolo-compie-80-anni-il-sanremese-simone-parodi-testimonial-dellevento.html"
-    },
-    {
       "id": "eurovolleygianiportalafranciai",
       "title": "Eurovolley: Giani porta la Francia in finale. \"Questa squadra non ha vinto ancora nulla. Stiamo costruendo\"",
       "excerpt": "Andrea Giani commenta la qualificazione della Francia alla finale di EuroVolley 2026 dopo il...",
@@ -584,14 +584,6 @@
       "createdTime": "Sat, 22 Aug 2026 10:00:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Italia_festa_vs_Slovacchia_Mondiale_2025.jpg",
       "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
-    },
-    {
-      "id": "7",
-      "title": "Dominio italiano nel volley: anche la nazionale maschile in vetta al ranking",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Sat, 13 Jun 2026 15:29:00 GMT",
-      "image": "https://cdn.corrieredellosport.it/images/2026/06/13/202551750-747a11df-8d0f-492d-9d7f-cb415416a2ea.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/nazionali-volley/2026/06/13-149177311/dominio_italiano_nel_volley_anche_la_nazionale_maschile_in_vetta_al_ranking"
     },
     {
       "id": "mondovolleylealtrenewsdell8ago",
@@ -640,6 +632,14 @@
       "createdTime": "Sat, 01 Aug 2026 16:23:34 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/usa-giappone-vnl-2026.jpg",
       "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-gli-stati-uniti-rimontano-il-giappone-e-sfidano-la-polonia-per-loro.html"
+    },
+    {
+      "id": "vnlpoloniatravolgelasloveniaev",
+      "title": "VNL: Polonia travolge la Slovenia e vola in finale",
+      "excerpt": "Netto 3-0 a Ningbo con Leon protagonista: 16 punti, sei ace e una squadra dominante anche a muro. I...",
+      "createdTime": "Sat, 01 Aug 2026 11:35:44 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Polonia_win_semifinale.jpg",
+      "permalink": "https://www.volleyball.it/2026/08/01/notizie/argomenti/vnl-maschile/articolo/vnl-polonia-travolge-la-slovenia-e-vola-in-finale.html"
     }
   ]
 }
