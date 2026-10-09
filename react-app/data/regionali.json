@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-09T05:02:20.866825+00:00",
+  "generatedAt": "2026-10-09T11:38:35.023777+00:00",
   "posts": [
     {
       "id": "news-7",
-      "title": "Umbria Volley, Agrodolce Seconda Giornata al Trofeo delle Regioni",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Wed, 28 Jun 2023 20:36:00 GMT",
-      "image": "https://www.lanazione.it/og/lanazione.jpg",
-      "permalink": "https://www.lanazione.it/umbria/sport/umbria-volley-agrodolce-seconda-giornata-al-trofeo-delle-regioni-92011606"
+      "title": "Bagno di folla a Perugia per l'S3",
+      "excerpt": "Fonte: corrieredellosport.it",
+      "createdTime": "Wed, 31 May 2023 14:48:00 GMT",
+      "image": "http://cdn.corrieredellosport.it/images/2023/05/31/195901347-b4766d45-fad6-4b6e-af2e-3fb7f1ad47f9.jpg",
+      "permalink": "https://www.corrieredellosport.it/news/volley/2023/05/31-108443853/bagno_di_folla_a_perugia_per_l_s3"
     },
     {
-      "id": "news-7",
-      "title": "Con l'approvazione del bilancio 2023 chiuso il Consiglio Federale",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Wed, 21 Dec 2022 09:29:00 GMT",
-      "image": "http://cdn.tuttosport.com/images/2022/12/21/162932253-a50830aa-bb1d-4072-8c47-c607aa1f9899.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/2022/12/21-101379151/con_l_approvazione_del_bilancio_2023_chiuso_il_consiglio_federale"
+      "id": "news-5",
+      "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
+      "excerpt": "Fonte: assisisport.it",
+      "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
+      "image": null,
+      "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
     },
     {
       "id": "news-0",
@@ -34,7 +34,7 @@
       "permalink": "https://www.umbria24.it/sport24/mondo-della-pallavolo-in-lutto-e-morta-stefania-corna/"
     },
     {
-      "id": "news-0",
+      "id": "news-1",
       "title": "Pallavolo Oji Cup – La nuova Perugia si è presentata al suo pubblico battendo 3-1 la Suntory Sunbirds",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 07 Oct 2026 17:00:00 GMT",
@@ -90,7 +90,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-2",
+      "id": "news-6",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -123,35 +123,11 @@
     },
     {
       "id": "news-4",
-      "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Tue, 08 Sep 2026 22:35:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/09/TDR-26-rapp-femminile-settimo-posto-e1788932040310.jpeg",
-      "permalink": "https://www.umbria24.it/sport24/beach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni/"
-    },
-    {
-      "id": "news-4",
       "title": "Diventare arbitri di pallavolo: Fipav Umbria apre le iscrizioni ai corsi",
       "excerpt": "Fonte: umbriaon.it",
       "createdTime": "Tue, 08 Sep 2026 07:57:00 GMT",
       "image": null,
       "permalink": "https://www.umbriaon.it/diventare-arbitri-di-pallavolo-fipav-umbria-apre-le-iscrizioni-ai-corsi/"
-    },
-    {
-      "id": "perugiaospitamercoledegiovedio",
-      "title": "Perugia ospita mercoledì e giovedi Osaka",
-      "excerpt": "Comincia dal Perugia la tournée della blasonata squadra di pallavolo della Suntory Sunbirds Osaka che è sbarcata in questi giorni in Italia per affinare la preparazione al proprio campionato. I viceca",
-      "createdTime": "Tue, 06 Oct 2026 09:00:49 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Oji-Cup-2026.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/perugia-ospita-mercoledi-e-giovedi-osaka/"
-    },
-    {
-      "id": "stamattinaaperugiauntorneocong",
-      "title": "Stamattina a Perugia un torneo con gli studenti",
-      "excerpt": "Si attendono circa tremila studenti provenienti da 22 scuole superiori del territorio stamattina al palasport di Pian di Massiano per incontrare i campioni della pallavolo in una mattinata dedicata al",
-      "createdTime": "Tue, 06 Oct 2026 07:00:40 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Its-Next-Gen-Volley-Cup-gruppo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/stamattina-a-perugia-un-torneo-con-gli-studenti/"
     },
     {
       "id": "news-6",
@@ -178,7 +154,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Terni Volley Academy, grande pallavolo e fucina di futuri campioni",
       "excerpt": "Fonte: tuttoggi.info",
       "createdTime": "Thu, 26 Jun 2025 11:47:00 GMT",
@@ -186,12 +162,20 @@
       "permalink": "https://tuttoggi.info/terni-volley-academy-grande-pallavolo-e-fucina-di-futuri-campioni/919797/"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-26-at-20.13.44.jpeg",
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
+    },
+    {
+      "id": "news-0",
+      "title": "Pallavolo OjiCup – Perugia concede il bis: battuti ancora i Suntory Sunbirds",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 08 Oct 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/10/09/pallavolo-ojicup-perugia-concede-il-bis-battuti-ancora-i-suntory-sunbirds/"
     },
     {
       "id": "robertopinalisangiustinocresci",
@@ -218,7 +202,7 @@
       "permalink": "https://www.pianetavolley.net/2026/10/niccolo-cappelletti-a-citta-di-castello-ho-legami-forti/"
     },
     {
-      "id": "news-1",
+      "id": "news-3",
       "title": "Sir Susa Scai Perugia, i campioni bianconeri incontrano i tifosi in un noto showroom Toyota",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Thu, 08 Oct 2026 04:00:00 GMT",
@@ -226,7 +210,7 @@
       "permalink": "https://www.perugiatoday.it/eventi/prompzione-toyota.html"
     },
     {
-      "id": "news-0",
+      "id": "news-4",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
@@ -242,6 +226,14 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
+      "id": "news-3",
+      "title": "Serie c, Bastia volley: falsa partenza a Foligno, bassa prova di carattere",
+      "excerpt": "Fonte: bastiaoggi.it",
+      "createdTime": "Sun, 20 Oct 2019 17:00:00 GMT",
+      "image": "https://www.bastiaoggi.it/wp-content/uploads/2019/10/school-vollwey.jpg",
+      "permalink": "https://www.bastiaoggi.it/sport/serie-c-bastia-volley-falsa-partenza-a-foligno-bassa-prova-di-carattere-43704/"
+    },
+    {
       "id": "news-5",
       "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
       "excerpt": "Fonte: lanazione.it",
@@ -250,12 +242,12 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-3",
-      "title": "La prima Champions League maschile di Perugia nella pallavolo",
-      "excerpt": "Fonte: ilpost.it",
-      "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
-      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/05/19/1747633306-Perugia-Volley.jpeg",
-      "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
+      "id": "news-4",
+      "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Sun, 11 Jan 2026 23:21:00 GMT",
+      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/YjFjYmYxMmYtYmZmOC00/0/pallavolo-e-tifoseria-un-campo-vivo-con-il-calore-del-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-01c05839"
     },
     {
       "id": "news-7",
@@ -266,7 +258,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sun, 04 Oct 2026 04:01:00 GMT",
@@ -282,7 +274,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -298,7 +290,7 @@
       "permalink": "https://www.ternitoday.it/sport/volley/terni-volley-sir-perugia-derby-pallavolo.html"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Il derby del Volley. Sir Perugia e Terni Academy si sfidano per la prima volta",
       "excerpt": "Fonte: rainews.it",
       "createdTime": "Sat, 26 Sep 2026 01:30:00 GMT",
@@ -312,14 +304,6 @@
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/56/72/7005672_22095945_03_paolo_cipiccia.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
-    },
-    {
-      "id": "news-7",
-      "title": "Perugia è in finale del Mondiale per club maschile di pallavolo",
-      "excerpt": "Fonte: ilpost.it",
-      "createdTime": "Sat, 20 Dec 2025 15:32:00 GMT",
-      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/12/21/1766312841-perugia-volley.jpeg",
-      "permalink": "https://www.ilpost.it/2025/12/21/perugia-va-in-finale-mondiale-club-pallavolo/"
     },
     {
       "id": "news-2",
@@ -371,11 +355,11 @@
     },
     {
       "id": "news-2",
-      "title": "Pallavolo Oji Cup – Doppia sfida a Perugia, tra i tricolori della Sir Susa Scai e i giapponesi del Suntory Sunbirds Osaka",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Mon, 05 Oct 2026 17:00:00 GMT",
+      "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
+      "excerpt": "Fonte: assisisport.it",
+      "createdTime": "Mon, 06 May 2024 06:05:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/10/06/volleyball-pallavolo-oji-cup-doppia-sfida-a-perugia-tra-i-tricolori-della-sir-susa-scai-e-i-giapponesi-del-suntory-sunbirds-osaka/"
+      "permalink": "http://www.assisisport.it/volley/umbria-academy-sir-volley-il-settore-giovanile-cala-il-pokerissimo-foto/"
     },
     {
       "id": "news-2",
@@ -386,7 +370,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Volley. Upc Camaiore in Umbria coi favori del pronostico. Versilia-Pietrasanta e Oasi cercano il riscatto",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 16 Jan 2026 23:59:00 GMT",
@@ -394,12 +378,20 @@
       "permalink": "https://sport.quotidiano.net/locale/volley/volley-upc-camaiore-in-umbria-d4b8b78f"
     },
     {
-      "id": "news-5",
-      "title": "Volley B1/F, Zero5 Castellana cerca conferme in Umbria",
-      "excerpt": "Fonte: antennasud.com",
-      "createdTime": "Fri, 16 Jan 2026 01:18:00 GMT",
-      "image": "https://www.antennasud.com/media/2026/01/IMG_2666.jpeg",
-      "permalink": "https://www.antennasud.com/volley-b1-f-zero5-castellana-cerca-conferme-in-umbria/"
+      "id": "claudiaconsolidomenicacentrere",
+      "title": "Claudia Consoli: «Domenica centreremo la vittoria»",
+      "excerpt": "Si pensa al riscatto nel campionato di serie A2 femminile, dopo la sconfitta esterna all’esordio è attesa dal debutto casalingo in campionato la Bartoccini +energia Perugia. Domenica 11 ottobre, contr",
+      "createdTime": "Fri, 09 Oct 2026 09:00:23 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Consoli-Claudia-primo-piano.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/claudia-consoli-domenica-centreremo-la-vittoria/"
+    },
+    {
+      "id": "perugiaancoratravolgenteconosa",
+      "title": "Perugia ancora travolgente con Osaka",
+      "excerpt": "Nel secondo incontro programmato al palasport di Pian di Massiano per dovere di ospitalità nei confronti della Suntory Sunbuirds Osaka il risultato è stato ancora più netto. Rimescolate le carte del m",
+      "createdTime": "Fri, 09 Oct 2026 07:00:40 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Kollator-David-attacco.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/perugia-ancora-travolgente-con-osaka/"
     },
     {
       "id": "perlasirioperugiaultimocollaud",
@@ -408,6 +400,14 @@
       "createdTime": "Fri, 09 Oct 2026 05:00:52 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Lillacci-Alessia-bagher.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/per-la-sirio-perugia-ultimo-collaudo-a-roma/"
+    },
+    {
+      "id": "news-0",
+      "title": "ITS Next Gen Volley Cup: studenti in campo con la Sir Perugia tra sport e formazione",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Fri, 09 Oct 2026 01:21:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/10/Next-Gen-Volley-Cup.jpg",
+      "permalink": "https://www.umbria24.it/perugia/its-next-gen-volley-cup-studenti-in-campo-con-la-sir-perugia-tra-sport-e-formazione/"
     },
     {
       "id": "fipav-18155",

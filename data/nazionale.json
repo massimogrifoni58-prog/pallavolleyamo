@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:01:18.789036+00:00",
+  "generatedAt": "2026-10-09T11:37:29.250377+00:00",
   "posts": [
     {
       "id": "worldcupfemminile2027le32nazio",
@@ -67,6 +67,14 @@
     },
     {
       "id": "8",
+      "title": "Volley, è morta Stefania Corna. Giocò in A1 e con la Nazionale. Aveva 35 anni",
+      "excerpt": "Fonte: msn.com",
+      "createdTime": "Wed, 07 Oct 2026 12:26:00 GMT",
+      "image": null,
+      "permalink": "https://www.msn.com/it-it/notizie/other/volley-%C3%A8-morta-stefania-corna-gioc%C3%B2-in-a1-e-con-la-nazionale-aveva-35-anni/ar-AA2dLuZ8"
+    },
+    {
+      "id": "10",
       "title": "Il volley italiano piange la scomparsa di Stefania Corna: ha giocato in nazionale con Folie, Bosetti e Orsi Toth",
       "excerpt": "Fonte: sport.virgilio.it",
       "createdTime": "Wed, 07 Oct 2026 09:50:00 GMT",
@@ -90,15 +98,7 @@
       "permalink": "https://www.fanpage.it/sport/altri-sport/stefania-corna-e-morta-a-35-anni-dopo-una-lunga-malattia-lutto-nel-mondo-della-pallavolo/"
     },
     {
-      "id": "9",
-      "title": "Morta Stefania Corna: la pallavolo piange la ex palleggiatrice della Nazionale Juniores, aveva 35 anni",
-      "excerpt": "Fonte: msn.com",
-      "createdTime": "Wed, 07 Oct 2026 05:35:18 GMT",
-      "image": null,
-      "permalink": "https://www.msn.com/it-it/sport/generale/morta-stefania-corna-la-pallavolo-piange-la-ex-palleggiatrice-della-nazionale-juniores-aveva-35-anni/ar-AA2dLHmB"
-    },
-    {
-      "id": "4",
+      "id": "6",
       "title": "Stefania Corna, addio all’ex palleggiatrice di Scandicci e della nazionale: aveva 35 anni",
       "excerpt": "Fonte: repubblica.it",
       "createdTime": "Wed, 07 Oct 2026 02:08:00 GMT",
@@ -168,6 +168,14 @@
       "createdTime": "Tue, 08 Sep 2026 16:48:19 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/09/Minja_Osmajić.png",
       "permalink": "https://www.volleyball.it/2026/09/08/notizie/argomenti/internazionale/articolo/serbia-boskovic-dona-la-medaglia-allinfortunata-osmajic.html"
+    },
+    {
+      "id": "5",
+      "title": "Pallavolo – Lutto nel volley italiano: si è spenta Stefania Corna, fu due volte campionessa Europea juniores",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Tue, 06 Oct 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/10/07/pallavolo-lutto-nel-volley-italiano-si-e-spenta-stefania-corna-fu-due-volte-campionessa-europea-juniores/"
     },
     {
       "id": "russiafuoridaimondiali2027inpo",
@@ -266,7 +274,7 @@
       "permalink": "https://www.volleyball.it/2026/07/09/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-8-luglio-2026-acquarone-a-cannes-gioia-prende-capelli-svezia-avan.html"
     },
     {
-      "id": "5",
+      "id": "9",
       "title": "Ottant’anni di pallavolo iblea: la sua storia celebrata al Castello di Donnafugata",
       "excerpt": "Fonte: ragusaoggi.it",
       "createdTime": "Thu, 08 Oct 2026 14:27:00 GMT",
@@ -282,20 +290,12 @@
       "permalink": "https://ivl24.it/la-pallavolo-italiana-compie-80-anni-a-potenza-la-festa-della-fipav-basilicata-cinque-premi-alla-carriera-e-giancarlo-damico-testimonial/"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "La FIPAV compie 80 anni: il Comitato FIPAV Monti Iblei celebra la storia della pallavolo al Castello di Donnafugata",
       "excerpt": "Fonte: radiortm.it",
       "createdTime": "Thu, 08 Oct 2026 03:22:00 GMT",
-      "image": "https://www.radiortm.it/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-08-at-14.25.24.jpeg",
+      "image": null,
       "permalink": "https://www.radiortm.it/2026/10/08/la-fipav-compie-80-anni-il-comitato-fipav-monti-iblei-celebra-la-storia-della-pallavolo-al-castello-di-donnafugata/"
-    },
-    {
-      "id": "6",
-      "title": "Lutto nel volley italiano: muore a 35 anni l’ex palleggiatrice della Nazionale",
-      "excerpt": "Fonte: notizie.it",
-      "createdTime": "Thu, 08 Oct 2026 01:04:00 GMT",
-      "image": "https://static.adhubmedia.com/notizie_it/wp-content/uploads/2026/10/lutto-nel-volley-italiano-muore-a-35-anni-lex-palleggiatrice-della-nazionale-data.jpg",
-      "permalink": "https://www.notizie.it/morta-35-anni-volley-italiano-piange-ex-palleggiatrice-bergamasca/"
     },
     {
       "id": "succedevaoggi30agostoilrecordd",
