@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:38:35.023777+00:00",
+  "generatedAt": "2026-10-10T05:02:33.322154+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -10,12 +10,12 @@
       "permalink": "https://www.corrieredellosport.it/news/volley/2023/05/31-108443853/bagno_di_folla_a_perugia_per_l_s3"
     },
     {
-      "id": "news-5",
-      "title": "Volley, il punto sulle tre squadre della Its Sir Umbria Academy in Serie C",
-      "excerpt": "Fonte: assisisport.it",
-      "createdTime": "Wed, 20 Mar 2024 08:19:00 GMT",
-      "image": null,
-      "permalink": "http://www.assisisport.it/volley/volley-il-punto-sulle-tre-squadre-della-its-sir-umbria-academy-in-serie-c/"
+      "id": "news-7",
+      "title": "Umbria Volley, Agrodolce Seconda Giornata al Trofeo delle Regioni",
+      "excerpt": "Fonte: lanazione.it",
+      "createdTime": "Wed, 28 Jun 2023 20:36:00 GMT",
+      "image": "https://www.lanazione.it/og/lanazione.jpg",
+      "permalink": "https://www.lanazione.it/umbria/sport/umbria-volley-agrodolce-seconda-giornata-al-trofeo-delle-regioni-92011606"
     },
     {
       "id": "news-0",
@@ -42,14 +42,6 @@
       "permalink": "https://www.ivolleymagazine.it/2026/10/08/pallavolo-oji-cup-la-nuova-perugia-si-e-presentata-al-suo-pubblico-battendo-3-1-la-suntory-sunbirds/"
     },
     {
-      "id": "pvit-0",
-      "title": "Sirio Perugia, 3-0 a Marsciano e successo anche nel set extra",
-      "excerpt": "Fonte: pallavolo.it",
-      "createdTime": "Wed, 07 Oct 2026 15:12:08 +0000",
-      "image": null,
-      "permalink": "https://www.pallavolo.it/sirio-perugia-marsciano-test-3-0/"
-    },
-    {
       "id": "francescamichielettosperoneiti",
       "title": "Francesca Michieletto: «Spero nei tifosi domenica a Perugia»",
       "excerpt": "Si guarda alla seconda giornata del campionato di serie A2 femminile in casa della Bartoccini +energia Perugia, debutto casalingo che avverrà domenica 11 ottobre contro le pugliesi di Altamura. Le mag",
@@ -74,14 +66,6 @@
       "permalink": "https://www.pianetavolley.net/2026/10/ferre-reggers-sento-un-po-la-pressione-a-perugia/"
     },
     {
-      "id": "tommasobaldinisangiustinoavril",
-      "title": "Tommaso Baldini: «San Giustino avrà il mio contributo»",
-      "excerpt": "Si continua a tenere alto il ritmo in serie A3 maschile dove gli incontri amichevoli sono il mezzo per riscontrare i passi avanti. La Ermgroup San Giustino ha già disputato diversi match-test e guarda",
-      "createdTime": "Wed, 07 Oct 2026 05:00:11 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Baldini-Tommaso.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/tommaso-baldini-san-giustino-avra-il-mio-contributo/"
-    },
-    {
       "id": "news-3",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
@@ -90,7 +74,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-6",
+      "id": "news-2",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -110,7 +94,7 @@
       "title": "Volley, Abita Infissi Bastia si impone su Foligno 3-2 dopo una gara molto dura",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Tue, 28 Jan 2020 02:00:00 GMT",
-      "image": null,
+      "image": "https://www.assisisport.it/wp-content/uploads/2020/01/Abita-Infissi-Bastia-vs-Foligno-27-gennaio-2020-Immagine-in-evidenza-1024x768.jpg",
       "permalink": "https://www.assisisport.it/volley/volley-abita-infissi-vs-foligno/"
     },
     {
@@ -202,7 +186,7 @@
       "permalink": "https://www.pianetavolley.net/2026/10/niccolo-cappelletti-a-citta-di-castello-ho-legami-forti/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Sir Susa Scai Perugia, i campioni bianconeri incontrano i tifosi in un noto showroom Toyota",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Thu, 08 Oct 2026 04:00:00 GMT",
@@ -242,12 +226,12 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-4",
-      "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Sun, 11 Jan 2026 23:21:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/YjFjYmYxMmYtYmZmOC00/0/pallavolo-e-tifoseria-un-campo-vivo-con-il-calore-del-pubblico.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-01c05839"
+      "id": "news-5",
+      "title": "La prima Champions League maschile di Perugia nella pallavolo",
+      "excerpt": "Fonte: ilpost.it",
+      "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
+      "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/05/19/1747633306-Perugia-Volley.jpeg",
+      "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
     },
     {
       "id": "news-7",
@@ -266,7 +250,7 @@
       "permalink": "https://www.umbria24.it/citta-di-castello/altotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
       "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
@@ -274,12 +258,20 @@
       "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
       "image": "https://www.ansa.it/webimages/img_1129x635/2026/3/1/efbbdc1b9a471aab0d8f9d1ca1fd7eb3.jpg",
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
+    },
+    {
+      "id": "news-5",
+      "title": "LE AZZURRE DEL VOLLEY SORDE IN VISITA AL PERUGIA CALCIO",
+      "excerpt": "Fonte: acperugiacalcio.com",
+      "createdTime": "Sat, 26 Sep 2026 06:21:00 GMT",
+      "image": null,
+      "permalink": "https://acperugiacalcio.com/le-azzurre-del-volley-sorde-in-visita-al-perugia-calcio/"
     },
     {
       "id": "news-2",
@@ -290,7 +282,7 @@
       "permalink": "https://www.ternitoday.it/sport/volley/terni-volley-sir-perugia-derby-pallavolo.html"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Il derby del Volley. Sir Perugia e Terni Academy si sfidano per la prima volta",
       "excerpt": "Fonte: rainews.it",
       "createdTime": "Sat, 26 Sep 2026 01:30:00 GMT",
@@ -314,6 +306,22 @@
       "permalink": "https://sport.quotidiano.net/volley/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
+      "id": "giovannisanguinettiperugiapens",
+      "title": "Giovanni Sanguinetti: «Perugia pensa ad eliminare le sbavature»",
+      "excerpt": "Sul taraflex tricolore di Pian di Massiano è andato in scena il futuro della pallavolo. La Sir Susa Scai Perugia ha superato brillantemente il doppio test match contro i blasonati giapponesi di Osaka,",
+      "createdTime": "Sat, 10 Oct 2026 05:00:13 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Sanguinetti-Giovanni-mvp.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/giovanni-sanguinetti-perugia-pensa-ad-eliminare-le-sbavature/"
+    },
+    {
+      "id": "news-6",
+      "title": "Belluno Volley: Successo in Umbria e aggancio al secondo posto",
+      "excerpt": "Fonte: sportiamoci.it",
+      "createdTime": "Sat, 03 Jan 2026 16:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.sportiamoci.it/2026/01/04/belluno-volley-successo-in-umbria-e-aggancio-al-secondo-posto/"
+    },
+    {
       "id": "news-7",
       "title": "Pallavolo, nel 2026 Assisi sede di una finale nazionale giovanile",
       "excerpt": "Fonte: umbriacronaca.it",
@@ -326,11 +334,11 @@
       "title": "Bastia Volley, falsa partenza a Foligno: sconfitta 3-0 al debutto, domenica l’occasione per il riscatto",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 21 Oct 2019 09:44:00 GMT",
-      "image": null,
+      "image": "https://www.assisisport.it/wp-content/uploads/2019/10/FullSizeRender.jpg",
       "permalink": "https://www.assisisport.it/volley/bastia-volley-falsa-partenza-a-foligno-sconfitta-3-0-al-debutto-domenica-loccasione-per-il-riscatto/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Pallavolo maschile, Perugia e Civitanova per la finale di Superlega 2026: il programma e dove vedere in diretta le partite per lo scudetto · Volley",
       "excerpt": "Fonte: olympics.com",
       "createdTime": "Mon, 20 Apr 2026 00:01:00 GMT",
@@ -355,14 +363,6 @@
     },
     {
       "id": "news-2",
-      "title": "Umbria Academy Sir Volley, il settore giovanile cala il pokerissimo (foto)",
-      "excerpt": "Fonte: assisisport.it",
-      "createdTime": "Mon, 06 May 2024 06:05:00 GMT",
-      "image": null,
-      "permalink": "http://www.assisisport.it/volley/umbria-academy-sir-volley-il-settore-giovanile-cala-il-pokerissimo-foto/"
-    },
-    {
-      "id": "news-2",
       "title": "Volley serie B, c’è Foligno-Sansepolcro",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
@@ -370,12 +370,12 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-7",
-      "title": "Volley. Upc Camaiore in Umbria coi favori del pronostico. Versilia-Pietrasanta e Oasi cercano il riscatto",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Fri, 16 Jan 2026 23:59:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZTQzZTRiN2QtNjI1MS00/0/pallavolo-velocita-tecnica-e-passione-in-ogni-scambio.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/locale/volley/volley-upc-camaiore-in-umbria-d4b8b78f"
+      "id": "pvit-0",
+      "title": "Club Arezzo, la Serie B parte il 17 ottobre da Cavezzo",
+      "excerpt": "Fonte: pallavolo.it",
+      "createdTime": "Fri, 09 Oct 2026 14:16:00 +0000",
+      "image": null,
+      "permalink": "https://www.pallavolo.it/club-arezzo-esordio-serie-b-cavezzo/"
     },
     {
       "id": "claudiaconsolidomenicacentrere",

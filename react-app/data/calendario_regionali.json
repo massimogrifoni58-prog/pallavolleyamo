@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:42:12.330443+00:00",
+  "generatedAt": "2026-10-10T05:06:02.699762+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -4770,7 +4770,7 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "4",
         "data": "2026-11-14",
-        "ora": "20:00",
+        "ora": "21:00",
         "casa": "MARCONI MONINI PALLAVOLO GREEN1",
         "ospite": "ASD PGS DON BOSCO CANNARA",
         "risultato": null
@@ -5239,7 +5239,7 @@
         "id": "serie-d-femminile-b-69",
         "campionato": "Serie D Femminile Girone B",
         "giornata": "12",
-        "data": "2027-01-23",
+        "data": "2027-01-30",
         "ora": "21:00",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "ASD CASCIA PALLAVOLO",
@@ -5380,7 +5380,7 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "14",
         "data": "2027-02-20",
-        "ora": "21:00",
+        "ora": "21:15",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "ASD PGS BOSICO VOLLEY GREEN2",
         "risultato": null
