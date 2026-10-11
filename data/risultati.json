@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:57:15.426514+00:00",
+  "generatedAt": "2026-10-11T05:03:59.049577+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -5384,15 +5384,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627202",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 18",
-      "home": "NUOVA PALLAVOLO GUALDO",
-      "away": "OMG VOLLEY PONTE VALLECEPPI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627205",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 18",
@@ -5416,6 +5407,15 @@
       "giornata": "Giornata 18",
       "home": "SCHOOL VOLLEY PERUGIA  GREEN1",
       "away": "EMMEPI  GROUP  PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627202",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 18",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "OMG VOLLEY PONTE VALLECEPPI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6041,15 +6041,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627275",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 8",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627276",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 8",
@@ -6064,6 +6055,15 @@
       "giornata": "Giornata 8",
       "home": "ASD CASCIA PALLAVOLO",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627275",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6302,20 +6302,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627308",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 13",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "MARCONI MONINI PALLAVOLO GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627309",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 13",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627308",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 13",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "MARCONI MONINI PALLAVOLO GREEN1",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13133,20 +13133,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644312",
-      "competition": "Under 17 Maschile Girone A",
-      "giornata": "Giornata 10",
-      "home": "MARCHETTI PRO VITT CHIUSI",
-      "away": "SIR GIOVANILE MERICAT",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644313",
       "competition": "Under 17 Maschile Girone A",
       "giornata": "Giornata 10",
       "home": "POLISPORTIVA DELFINO - PELLICANO",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644312",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 10",
+      "home": "MARCHETTI PRO VITT CHIUSI",
+      "away": "SIR GIOVANILE MERICAT",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17750,20 +17750,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659561",
-      "competition": "Under 15 Femminile Girone G",
-      "giornata": "Giornata 6",
-      "home": "POLISPORTIVA CLT",
-      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131660641",
       "competition": "Under 15 Femminile Girone G",
       "giornata": "Giornata 6",
       "home": "ASD CASCIA PALLAVOLO",
       "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659561",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
       "score": "da disputare",
       "status": "in programma"
     },

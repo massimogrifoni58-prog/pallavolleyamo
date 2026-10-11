@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T10:59:08.743564+00:00",
+  "generatedAt": "2026-10-11T05:05:51.450350+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -4248,7 +4248,7 @@
         "campionato": "Serie D Femminile Girone A",
         "giornata": "18",
         "data": "2027-03-21",
-        "ora": "17:00",
+        "ora": "20:00",
         "casa": "NUOVA PALLAVOLO GUALDO",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI",
         "risultato": null
@@ -4789,8 +4789,8 @@
         "id": "serie-d-femminile-b-24",
         "campionato": "Serie D Femminile Girone B",
         "giornata": "5",
-        "data": "2026-11-22",
-        "ora": "00:00",
+        "data": "2026-11-21",
+        "ora": "20:15",
         "casa": "ASD CASCIA PALLAVOLO",
         "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
         "risultato": null
@@ -4979,8 +4979,8 @@
         "id": "serie-d-femminile-b-43",
         "campionato": "Serie D Femminile Girone B",
         "giornata": "8",
-        "data": "2026-12-12",
-        "ora": "21:00",
+        "data": "2026-12-17",
+        "ora": "21:15",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "FOLIGNO VOLLEY ASD",
         "risultato": null
@@ -5310,7 +5310,7 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "13",
         "data": "2027-02-13",
-        "ora": "21:00",
+        "ora": "21:15",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "MARCONI MONINI PALLAVOLO GREEN1",
         "risultato": null
