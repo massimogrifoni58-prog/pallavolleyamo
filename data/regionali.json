@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T05:02:30.434167+00:00",
+  "generatedAt": "2026-10-11T11:10:44.853399+00:00",
   "posts": [
     {
       "id": "news-0",
@@ -50,7 +50,7 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-7",
+      "id": "news-6",
       "title": "Nova Volley cade in casa: Sir Umbria Academy Assisi vince 3-1",
       "excerpt": "Fonte: ilrestodelcarlino.it",
       "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
@@ -74,20 +74,20 @@
       "permalink": "https://www.umbria24.it/sport24/pallavolo-nasce-il-progetto-80-anni-sotto-rete-organizzato-dalla-fipav-umbria/"
     },
     {
+      "id": "news-7",
+      "title": "Mani fuori e Belle dentro: quando la pallavolo fa vincere le detenute di Capanne",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Tue, 14 Oct 2025 00:00:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/13/9125028_13213449_foto_3_2_.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/perugia_mani_fuori_belle_dentro_pallavolo_vincere_detenute_capanne-9125028.html"
+    },
+    {
       "id": "news-4",
       "title": "Diventare arbitri di pallavolo: Fipav Umbria apre le iscrizioni ai corsi",
       "excerpt": "Fonte: umbriaon.it",
       "createdTime": "Tue, 08 Sep 2026 07:57:00 GMT",
       "image": null,
       "permalink": "https://www.umbriaon.it/diventare-arbitri-di-pallavolo-fipav-umbria-apre-le-iscrizioni-ai-corsi/"
-    },
-    {
-      "id": "news-7",
-      "title": "LVF A1/A2 Fineco: Youtube, Busto Arsizio-Perugia (A2) la più vista del weekend. Rivediamole",
-      "excerpt": "Fonte: volleyball.it",
-      "createdTime": "Tue, 06 Oct 2026 07:55:00 GMT",
-      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/10/rivediamole-busto-perugia-youtube.jpg",
-      "permalink": "https://www.volleyball.it/2026/10/06/notizie/argomenti/a1-femminile/articolo/lvf-a1a2-fineco-youtube-busto-arsizio-perugia-a2-la-piu-vista-del-weekend-rivediamole.html"
     },
     {
       "id": "news-7",
@@ -122,7 +122,7 @@
       "permalink": "https://tuttoggi.info/terni-volley-academy-grande-pallavolo-e-fucina-di-futuri-campioni/919797/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
@@ -138,7 +138,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/01/16/pallavolo-mercato-terni-ha-ingaggiato-il-polacco-lukasz-ciupa/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Pallavolo OjiCup – Perugia concede il bis: battuti ancora i Suntory Sunbirds",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Thu, 08 Oct 2026 17:00:00 GMT",
@@ -152,22 +152,6 @@
       "createdTime": "Thu, 08 Oct 2026 13:48:20 GMT",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Pinali-Roberto.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/roberto-pinali-san-giustino-e-cresciuta/"
-    },
-    {
-      "id": "perugiafasualaprimaconosaka",
-      "title": "Perugia fa sua la prima con Osaka",
-      "excerpt": "La tournée giapponese è cominciata dal palasport di Pian di Massiano per la Suntory Sunbuirds Osaka che, di fronte a circa duemila spettatori ha dovuto cedere alla Sir Susa Scai Perugia. Le squadre an",
-      "createdTime": "Thu, 08 Oct 2026 07:00:05 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Hosseini-Seyed-Matin-attacco.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/perugia-fa-sua-la-prima-con-osaka/"
-    },
-    {
-      "id": "niccolcappellettiacittdicastel",
-      "title": "Niccolò Cappelletti: «A Città di Castello ho legami forti»",
-      "excerpt": "È cominciata con l’allenamento del martedì la penultima settimana di preparazione del Città di Castello Pallavolo in vista dell’esordio in serie B maschile prevista per sabato 17 ottobre contro Pescar",
-      "createdTime": "Thu, 08 Oct 2026 05:00:42 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Cappelletti-Niccolo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/niccolo-cappelletti-a-citta-di-castello-ho-legami-forti/"
     },
     {
       "id": "news-3",
@@ -194,12 +178,28 @@
       "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "La prima Champions League maschile di Perugia nella pallavolo",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 18 May 2025 23:17:00 GMT",
       "image": "https://static-prod.cdnilpost.com/wp-content/uploads/2025/05/19/1747633306-Perugia-Volley.jpeg",
       "permalink": "https://www.ilpost.it/2025/05/19/perugia-vittoria-champions-league-pallavolo/"
+    },
+    {
+      "id": "lasirioperugialasciailsegnoanc",
+      "title": "La Sirio Perugia lascia il segno anche a Roma",
+      "excerpt": "Si chiude con una conferma del buon periodo il ciclo di verifiche sul campo per la Sirio Perugia Volley che, in vista del campionato di serie B1 femminile, ha misurato per la seconda volta le sue forz",
+      "createdTime": "Sun, 11 Oct 2026 09:00:58 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Sirio-Perugia-amichevole.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/la-sirio-perugia-lascia-il-segno-anche-a-roma/"
+    },
+    {
+      "id": "cittdicastellolucieombrecontro",
+      "title": "Città di Castello: luci e ombre contro Arezzo",
+      "excerpt": "L’ultimo allenamento congiunto che precede l’esordio nel campionato di serie B maschile ha visto la Città di Castello Pallavolo tenere testa alla pari categoria del Club Arezzo (25-14, 25-15, 16-25, 2",
+      "createdTime": "Sun, 11 Oct 2026 07:00:01 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Panizzi-Matteo-polo.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/citta-di-castello-luci-e-ombre-contro-arezzo/"
     },
     {
       "id": "kamilsemeniukbuonesensazioniap",
@@ -218,7 +218,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Sun, 04 Oct 2026 04:01:00 GMT",
@@ -330,7 +330,7 @@
       "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Bastia Volley, falsa partenza a Foligno: sconfitta 3-0 al debutto, domenica l’occasione per il riscatto",
       "excerpt": "Fonte: assisisport.it",
       "createdTime": "Mon, 21 Oct 2019 09:44:00 GMT",
@@ -354,7 +354,7 @@
       "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
       "title": "Volley serie B, c’è Foligno-Sansepolcro",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
@@ -362,7 +362,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
     },
     {
-      "id": "news-6",
+      "id": "news-7",
       "title": "Volley giovanile, il bilancio delle rappresentative. Trofeo delle Regioni. L’Umbria migliora",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Fri, 26 Jun 2026 17:01:00 GMT",
@@ -370,7 +370,7 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-giovanile-il-bilancio-delle-d3be8024"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Sir Perugia-Osaka: si rinnova la partnership. Colpo internazionale del presidente Sirci",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Fri, 09 Oct 2026 23:12:13 GMT",
