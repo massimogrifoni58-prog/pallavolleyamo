@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T11:12:37.112264+00:00",
+  "generatedAt": "2026-10-12T05:03:41.581664+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2756,15 +2756,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627095",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 26",
-      "home": "FOSSATO VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627094",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 26",
@@ -2797,6 +2788,15 @@
       "giornata": "Giornata 26",
       "home": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "away": "AMERINA PALLAVOLO A S D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627095",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "FOSSATO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4322,15 +4322,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627594",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "UNILAB  PONTE FELCINO",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627591",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 25",
@@ -4354,6 +4345,15 @@
       "giornata": "Giornata 25",
       "home": "CLT TERNI",
       "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627594",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "UNILAB  PONTE FELCINO",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10640,20 +10640,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658287",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 6",
-      "home": "POLISPORTIVA CLT",
-      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658288",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 6",
       "home": "PMU MARSCIANO BLU",
       "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658287",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10703,15 +10703,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658295",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 8",
-      "home": "BOSICO VOLLEY-TERNI VA",
-      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658296",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 8",
@@ -10744,6 +10735,15 @@
       "giornata": "Giornata 8",
       "home": "PMU MARSCIANO BLU",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658295",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "UMBRIA VOLLEY ACADEMY SECONDA",
       "score": "da disputare",
       "status": "in programma"
     },

@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-10-11T11:11:42.416486+00:00",
+  "generatedAt": "2026-10-12T05:02:50.910209+00:00",
   "posts": [
+    {
+      "title": "Sirio Perugia: il ciclo di amichevoli si chiude con una vittoria a Roma",
+      "excerpt": "Si chiude con una conferma del buon periodo il ciclo di verifiche sul campo per la Sirio Perugia Volley che, in vista del campionato di serie B1 femminile, ha misurato per la seconda volta le sue forz",
+      "createdTime": "Sun, 11 Oct 2026 18:13:01 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Sirio-Perugia-amichevole.jpeg",
+      "permalink": "https://www.volleyumbria.it/?p=35450",
+      "id": "1"
+    },
+    {
+      "title": "Benvenuta a casa: la Bartoccini ringrazia con un 3-0 su Altamura",
+      "excerpt": "Partita veloce con le Black Angels che spingono in attacco e alzano muri solidi. Mvp Francesca Michieletto Seconda di campionato per la Bartoccini +energia Perugia, che domenica 11 ottobre ha ospitato",
+      "createdTime": "Sun, 11 Oct 2026 17:00:19 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Bartoccini_Michieletto.jpeg",
+      "permalink": "https://www.volleyumbria.it/?p=35445",
+      "id": "2"
+    },
     {
       "title": "La Sirio Perugia lascia il segno anche a Roma",
       "excerpt": "Si chiude con una conferma del buon periodo il ciclo di verifiche sul campo per la Sirio Perugia Volley che, in vista del campionato di serie B1 femminile, ha misurato per la seconda volta le sue forz",
       "createdTime": "Sun, 11 Oct 2026 09:00:58 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Sirio-Perugia-amichevole.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/la-sirio-perugia-lascia-il-segno-anche-a-roma/",
-      "id": "1"
+      "id": "3"
     },
     {
       "title": "Città di Castello: luci e ombre contro Arezzo",
@@ -15,7 +31,7 @@
       "createdTime": "Sun, 11 Oct 2026 07:00:01 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Panizzi-Matteo-polo.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/citta-di-castello-luci-e-ombre-contro-arezzo/",
-      "id": "2"
+      "id": "4"
     },
     {
       "title": "Black Angels all’esame Altamura con la voglia di riscatto",
@@ -23,7 +39,7 @@
       "createdTime": "Sat, 10 Oct 2026 13:33:25 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Black-Angels-a-Busto-3.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35443",
-      "id": "3"
+      "id": "5"
     },
     {
       "title": "Altotevere, un Monaldi soddisfatto a una settimana dal via del campionato",
@@ -31,7 +47,7 @@
       "createdTime": "Sat, 10 Oct 2026 12:22:57 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/monaldi.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35439",
-      "id": "4"
+      "id": "6"
     },
     {
       "title": "Serie B: una stagione dignitosa nell’obiettivo delle umbre",
@@ -39,31 +55,7 @@
       "createdTime": "Fri, 09 Oct 2026 14:54:59 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/bovari-fabio.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35434",
-      "id": "5"
-    },
-    {
-      "title": "Rinnovata la partnership tra Perugia e Osaka",
-      "excerpt": "Il prolungamento dell&#8217;accordo, iniziato nel 2025, aprirà una nuova fase di collaborazione e consentirà ai due club di ampliare lo scambio di esperienze e competenze in ambito organizzativo, mana",
-      "createdTime": "Fri, 09 Oct 2026 13:54:13 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Perugia-e-Osaka-accordo-rinnovato.jpeg",
-      "permalink": "https://www.volleyumbria.it/?p=35413",
-      "id": "6"
-    },
-    {
-      "title": "Black Angels, Consoli invita i tifosi: “Abbiamo bisogno di voi”",
-      "excerpt": "La centrale della Bartoccini +energia Perugia in vista dell&#8217;esordio al PalaBarton contro Altamura: &#8220;Vogliamo riscattarci. Spero nella presenza del pubblico, il nostro settimo giocatore&#82",
-      "createdTime": "Fri, 09 Oct 2026 05:44:09 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Consoli-1.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35431",
       "id": "7"
-    },
-    {
-      "title": "Per la Sirio Perugia ultimo collaudo a Roma",
-      "excerpt": "L’ultimo test programmato nel periodo di preparazione al campionato prevede la stessa avversaria con cui erano cominciate le verifiche per la Sirio Perugia Volley che, sabato 10 ottobre, alla palestra",
-      "createdTime": "Fri, 09 Oct 2026 05:00:52 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Lillacci-Alessia-bagher.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/per-la-sirio-perugia-ultimo-collaudo-a-roma/",
-      "id": "8"
     },
     {
       "title": "Serie C femminile: la Bartoccini School Volley Perugia pensa in grande",
@@ -71,7 +63,7 @@
       "createdTime": "Fri, 11 Sep 2026 14:57:03 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/rubini-simone.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35249",
-      "id": "9"
+      "id": "8"
     },
     {
       "title": "Serie C maschile: Foligno in pole, ma attenzione alla School Volley Perugia",
@@ -79,7 +71,7 @@
       "createdTime": "Fri, 04 Sep 2026 14:38:33 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/brighigna-francesco.jpeg",
       "permalink": "https://www.volleyumbria.it/?p=35204",
-      "id": "10"
+      "id": "9"
     },
     {
       "title": "Pallavolo San Sisto: è pronta la carica delle 200",
@@ -87,7 +79,7 @@
       "createdTime": "Sat, 29 Aug 2026 12:02:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/pallavolo-San-Sisto.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35167",
-      "id": "11"
+      "id": "10"
     },
     {
       "title": "Alimenti nuovo DS della Pallavolo Monteluce",
@@ -95,7 +87,7 @@
       "createdTime": "Sat, 22 Aug 2026 17:29:26 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Roberto-Alimenti.png",
       "permalink": "https://www.volleyumbria.it/?p=35104",
-      "id": "12"
+      "id": "11"
     },
     {
       "title": "Monteluce Volley: Michele Antonelli è il nuovo allenatore della Seconda Divisione Femminile",
@@ -103,7 +95,7 @@
       "createdTime": "Fri, 21 Aug 2026 08:58:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/antonelli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35094",
-      "id": "13"
+      "id": "12"
     },
     {
       "title": "E’ quasi pronta la ‘casa’ dell’Inter Volley Foligno",
@@ -111,7 +103,7 @@
       "createdTime": "Fri, 14 Aug 2026 11:26:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/08/Screenshot_2026-08-14-11-44-05-575_com.mi_.globalbrowser-edit.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35036",
-      "id": "14"
+      "id": "13"
     }
   ]
 }
