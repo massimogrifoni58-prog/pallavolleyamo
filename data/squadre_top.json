@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T12:46:39.303036+00:00",
+  "generatedAt": "2026-10-12T05:05:40.706345+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,13 +35,6 @@
   "news": {
     "sir-perugia": [
       {
-        "title": "I fuoriclasse della Superlega scendono in campo: tutte le date e il calendario completo della stagione italiana di pallavolo maschile 2026 / 2027",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ab0575442c9998ba3ff94e73b1&url=https%3a%2f%2fwww.olympics.com%2fit%2fnotizie%2fpallavolo-maschile-superlega-2026-2027-calendario-programma-volley&c=4876999450947861618&mkt=it-it",
-        "pubDate": "Sun, 11 Oct 2026 19:00:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
         "title": "Superlega, meno otto al via e la Sir è sulla buona strada. Semeniuk: \"Ho ottime sensazioni\" - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTEVOcmlyUFI1QkpfWEhQQWdqa2VkODhnN3V5MWpwWHFvLTZ6Vjd1UkVJbGhra0xNZ3lMVnAzM0JmMlhyMVFWX3ZRSWNaTVlDZWtFVVVWa2ZXd1VSd05HRUdTcHp3SGNPMEZUVmd0dUJtcDJHUlpHakV1QnNlR1pfaWVOSGR5QTJUbkxtYkxXNDlKdndzUUM3Q2RiS21LSDlDRnF3VGZyNjlWOTdvanF0UUhmNA?oc=5",
         "pubDate": "Sat, 10 Oct 2026 14:48:36 GMT",
@@ -50,7 +43,7 @@
       },
       {
         "title": "Sir Susa Scai Perugia verso il campionato: la prima contro Cuneo",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ab0575442c9998ba3ff94e73b1&url=https%3a%2f%2fwww.sportperugia.it%2fsir-susa-scai-perugia-verso-il-campionato-la-prima-contro-cuneo%2f&c=7831770538551920378&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa047d5411f9e33970c49ca1b3d&url=https%3a%2f%2fwww.sportperugia.it%2fsir-susa-scai-perugia-verso-il-campionato-la-prima-contro-cuneo%2f&c=7831770538551920378&mkt=it-it",
         "pubDate": "Sat, 10 Oct 2026 05:15:00 GMT",
         "source": "",
         "image": null
@@ -68,6 +61,13 @@
         "pubDate": "Fri, 09 Oct 2026 08:04:49 GMT",
         "source": "Sir Safety Perugia",
         "image": null
+      },
+      {
+        "title": "ITS Next Gen Volley Cup: studenti in campo con la Sir Perugia tra sport e formazione - - Umbria 24",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTy1ocndPSmZBbHRfdlFGZ1psdlJOcElUTGRQbWgtOXctUG92b2FwN3B0dkhRekQ5a1NKNzg0T2Z1bG1UMDl3OGlVYnFiRnNFeldKZkpVUGREVGxHZ2dFNWo0RUkwNlJ5NlR1VGs5Z3QzUjlwbm8way0wR1FXM0wyRExwUzV5OGlHUWR5eXkxTWlUUnJadEN6QnFXa190NHJZVC0zU2xtcWoxUFVUVmZxbXo0ajNDSW8?oc=5",
+        "pubDate": "Fri, 09 Oct 2026 07:52:23 GMT",
+        "source": "- Umbria 24",
+        "image": null
       }
     ],
     "bartoccini": [
@@ -80,14 +80,14 @@
       },
       {
         "title": "Black Angels Perugia; 3-0 al PalaBarton Energy contro Altamura",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ac692c4314bba9cfb429afb550&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-3-0-al-palabarton-energy-contro-altamura%2f&c=13648193829865298903&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa1ec0d40eca986cbb8afe500f7&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-3-0-al-palabarton-energy-contro-altamura%2f&c=13648193829865298903&mkt=it-it",
         "pubDate": "Sun, 11 Oct 2026 11:59:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Pallavolo A2F – Perugia cercava il riscatto immediato: obiettivo raggiunto con il 3-0 su Altamura",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ac692c4314bba9cfb429afb550&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f11%2fpallavolo-a2f-perugia-cercava-il-riscatto-immediato-obiettivo-raggiunto-con-il-3-0-su-altamura%2f&c=12552421069488476492&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa1ec0d40eca986cbb8afe500f7&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f11%2fpallavolo-a2f-perugia-cercava-il-riscatto-immediato-obiettivo-raggiunto-con-il-3-0-su-altamura%2f&c=12552421069488476492&mkt=it-it",
         "pubDate": "Sat, 10 Oct 2026 17:00:00 GMT",
         "source": "",
         "image": null
@@ -101,7 +101,7 @@
       },
       {
         "title": "Volley femminile serie A2. Black Angels, Consoli invita i tifosi : \"Abbiamo bisogno di voi»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ac692c4314bba9cfb429afb550&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fother%2fvolley-femminile-serie-a2-black-angels-consoli-invita-i-tifosi-abbiamo-bisogno-di-voi%2far-AA2dWNmC&c=17892102877502359682&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa1ec0d40eca986cbb8afe500f7&url=https%3a%2f%2fwww.msn.com%2fit-it%2fnotizie%2fother%2fvolley-femminile-serie-a2-black-angels-consoli-invita-i-tifosi-abbiamo-bisogno-di-voi%2far-AA2dWNmC&c=17892102877502359682&mkt=it-it",
         "pubDate": "Fri, 09 Oct 2026 23:22:18 GMT",
         "source": "",
         "image": null
@@ -109,16 +109,9 @@
     ],
     "tva": [
       {
-        "title": "Terni Volley Academy riparte da D’Amico: “Voglio una squadra che lotti su ogni pallone”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6acfc074d509707766bf14d4b1c&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-riparte-d-amico-voglio-squadra-lotti-pallone-120030&c=6099623339489574614&mkt=it-it",
-        "pubDate": "Sun, 11 Oct 2026 13:59:00 GMT",
-        "source": "",
-        "image": null
-      },
-      {
-        "title": "Terni Volley Academy-Sir Perugia 0-3, pomeriggio di grande pallavolo al PalaTerni con i campioni d'Europa e del mondo",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6acfc074d509707766bf14d4b1c&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley%2fterni-volley-sir-perugia-derby-pallavolo.html&c=16807702076739065058&mkt=it-it",
-        "pubDate": "Sat, 26 Sep 2026 02:37:00 GMT",
+        "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa1e4f64bc0a18dc0d44a79194b&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2faltotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1%2f&c=2942156678771184910&mkt=it-it",
+        "pubDate": "Sun, 04 Oct 2026 04:01:00 GMT",
         "source": "",
         "image": null
       },
@@ -142,6 +135,13 @@
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "TerniToday",
         "image": null
+      },
+      {
+        "title": "Terni Volley Academy ai Play out: avversario dei Dragons, date e regolamento",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa1e4f64bc0a18dc0d44a79194b&url=https%3a%2f%2fwww.today.it%2fsport%2fvolley-academy-regolamento-spareggi-salvezza-terni-2026.html&c=11008252625703158102&mkt=it-it",
+        "pubDate": "Sun, 15 Mar 2026 14:01:00 GMT",
+        "source": "",
+        "image": null
       }
     ],
     "altotevere": [
@@ -153,10 +153,10 @@
         "image": null
       },
       {
-        "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ad7f1f44ef9cf22030934aabde&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2faltotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1%2f&c=2942156678771184910&mkt=it-it",
-        "pubDate": "Sun, 04 Oct 2026 04:01:00 GMT",
-        "source": "",
+        "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1 - - Umbria 24",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVExOQkFla09xdnlzRnZTVnhQbl9HTWtDbmNObzM3TDhUalRUV1U4eEZrWjM2QXB5RzJ5UllDV0FxS09zN0VKRzliMzRycklGRmdWRXUtM0hUNExuZ0VwNDFDQ2VVNDI1dm93bVdlWkJzSVdLcGJ4TE9obF9IZXI1RDFTcDd6XzhBcFlBQk5OWVFmb1BQb2Z0TzFtM2ozYWNzS3VMZE5Cc00tLXZ3Nm93dVljaDFyQ3pZWDR5UG15akRPNkJjRDVJbWMySjg?oc=5",
+        "pubDate": "Sun, 04 Oct 2026 13:26:09 GMT",
+        "source": "- Umbria 24",
         "image": null
       },
       {
@@ -168,16 +168,16 @@
       },
       {
         "title": "Altotevere, fare struttura con collaboratori che sono vere e proprie risorse",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accd6ad7f1f44ef9cf22030934aabde&url=https%3a%2f%2fwww2.saturnonotizie.it%2fnews%2fread%2f209645%2fpallavolo-san-giustino.html&c=10131582932184579274&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa21aea4d5382f32eb75128c09e&url=https%3a%2f%2fwww2.saturnonotizie.it%2fnews%2fread%2f209645%2fpallavolo-san-giustino.html&c=10131582932184579274&mkt=it-it",
         "pubDate": "Wed, 16 Sep 2026 00:21:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Volley Altotevere si presenta: quinta stagione consecutiva in Serie A3 - TTV.it",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMHY2Q09Fc0ZoTFNtRlBPc1dvSjBUSW9GcDUxb0d1MHBqcmlnWHkxSVRYOHhraG8xcGJ5elowVUpNQnpXNXlsYVJ5YkQ3Z3RNNnExTXo3U0JYM1d0RkRYajYzY0NuM3NtSGs1eFBVSW1POVdTV2gyMVVCLUVOTzl5WTc4OFpWQVBhbkxfa0JLSVBhNEx2WDYtN1BSaw?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
-        "source": "TTV.it",
+        "title": "ErmGroup Volley Altotevere, si alza il sipario - Teletruria",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGZ4dFUteGt5SGlzbTdsWkRuLXFjRXRrd3NWNjhRWF9VeTRES05GcDJtWEwxa1FEdGNvdWJsdGNSV3VYV29MOFNFa0o2V3c5M3M0eHlOUkc3ZDFMRzlMaVJTZzVRZTd1NXJ2MTM0ZUtMWnNFSHNnWVN0aWpHLVlObDJMVVg2NEZGZHA0TVgzdVpteE1mRnZVdg?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
+        "source": "Teletruria",
         "image": null
       }
     ],
@@ -197,24 +197,24 @@
         "image": null
       },
       {
+        "title": "Volley serie B: Dopo la trasferta a Modena, il 24 ottobre l’esordio casalingo al PalaMaccagnolo contro Mirandola. Il Club Arezzo lancia la sfida prima del debutto di Cavezzo ...",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa3680749ad9384e3aab6f51e8b&url=https%3a%2f%2fsport.quotidiano.net%2flocale%2fvolley%2fvolley-serie-b-dopo-la-a5a5ecbd&c=14749273758002694841&mkt=it-it",
+        "pubDate": "Fri, 09 Oct 2026 17:00:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
+        "title": "La FIPAV compie 80 anni: il Comitato FIPAV Monti Iblei celebra la storia della pallavolo al Castello di Donnafugata",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa3680749ad9384e3aab6f51e8b&url=https%3a%2f%2fwww.radiortm.it%2f2026%2f10%2f08%2fla-fipav-compie-80-anni-il-comitato-fipav-monti-iblei-celebra-la-storia-della-pallavolo-al-castello-di-donnafugata%2f&c=4448539702287269853&mkt=it-it",
+        "pubDate": "Thu, 08 Oct 2026 03:22:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Penultima settimana di preparazione del Città di Castello Pallavolo - Saturno Notizie",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWWtPNzdMYTBFVlVvVGtBRVpMVlk4MkdiRHQzNEN4QWdVTU5hZ3ZKWU1TZy1lOVU0cm41Rm04Vl9yOEVVcTEzOHFzdUd5YlpKUHJDd1E1Q3hILWhWMXdObzJzSmo5THA3b2xfOHVKYXJ6b2daVXVzWGozOXozb1g1RW44d3liUQ?oc=5",
         "pubDate": "Wed, 07 Oct 2026 09:37:04 GMT",
         "source": "Saturno Notizie",
-        "image": null
-      },
-      {
-        "title": "Pallavolo, Città di Castello prepara festa per due squadre B - Alto Tevere Oggi",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWWtJUWRvZjdlcUhkSmZDOVpyTzhGRG1kcVBYTW4tOWpteHpBc2Vhc0ZHV0s2eTZtbEdMWnpzdFFlb2xRa0JsLXdaMXRrdTF6NjFfT0R0WEFUaDhUbmZ5bWRBZVdiRW9LQWIyQ05KcUJPcllJVjVnREVKMi10cEtKZ3ZKSlRlTmJlMDJ3TzhrN0UxSkwx?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 08:37:55 GMT",
-        "source": "Alto Tevere Oggi",
-        "image": null
-      },
-      {
-        "title": "Tris Città di Castello. E Monteluce sogna - La Nazione",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00eW9PZ2RXRDJhREktdjdBZGtPOEVveWhCbGNqQ2pzbF8wS2ozRWJLejJ3SHZYUFgtSWxaUzBzbE9TQ1FXeHUybzF3dWNFa1pjQllaR1YycTV3aGEwT1BURHZBYzBmRkJyUHlzUlE5TXpPTUt5QVRpSU1TSUVjZw?oc=5",
-        "pubDate": "Mon, 17 Aug 2026 07:00:00 GMT",
-        "source": "La Nazione",
         "image": null
       }
     ],
@@ -224,6 +224,13 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX3hPR1IxME5YZ1I2NWs4SDR0dERzcWJtTVJnOEVfdXVZR19XWmplR2RFZlZsdEdZTWFSVVBkYlNxTkpMRWUwbzFOWlJ5bEJLd0JPbk02YTlVS0cxaGtFMzdLSmhZZnd1WnNlMThQT0hFYlM5NF9feHQ3YnUwcy16UjZ2VUx4cmwxWFJyeQ?oc=5",
         "pubDate": "Wed, 07 Oct 2026 09:00:42 GMT",
         "source": "Pianeta Volley",
+        "image": null
+      },
+      {
+        "title": "Tutto facile per la Sirio Perugia Volley nel test contro Marsciano",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acc6aa4c8c0471fa5c56af34e4235e7&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2ftutto-facile-per-la-sirio-perugia-volley-nel-test-contro-marsciano%2f&c=13154060455434133196&mkt=it-it",
+        "pubDate": "Wed, 07 Oct 2026 00:47:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -245,13 +252,6 @@
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLWRQNi1weUJsRzhMSVlzQWxLby1aSVFmZnZYTnZKNGk2cGpiTnY5LXRXbVUzZDRlVVBVdXNtODJ2cFgxbHhoNHBYemphNVJsaHZKRXl0V2VKdTJ5c2F2X2V0d2dqQmpQRGN4ajNqLTZTUVp5b1lTZXEwQmMxVnRQcDNyWkh1MlAwaDFNVEtZVHpueFBmR2hDZEJ5UHFXUmVpcUVSaURtZkV4c29ZbnhTSFpDSnllcnIyX0kzWHBndHBDSTdXeDNHaTRCdDdkQU81R1VhTlVYMEFfSndrd1VJV1R0N3otYUJLaWlR?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
         "source": "FIPAV Lazio",
-        "image": null
-      },
-      {
-        "title": "Marsciano lotta ma è beffata nel finale a Collemarino - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLVJCRmdwYUVxdmhWLXZJSEhsYXNOZFVmTTVGbmFIR2dsaUZJYVFneThnVllpMVhFMWxHVGNkdm15YkNGSjlJdW9zcU12Y0VHR25kLVJfcEQtc3Rkekp6eHBlU0R3Z05sdnRFY1NMclhEMXEwM2lwREVsWDVVNUhVdGs5Q05oZzZDZG5ZTFdWRlhpcE1pNzI4?oc=5",
-        "pubDate": "Sun, 19 Apr 2026 07:00:00 GMT",
-        "source": "Pianeta Volley",
         "image": null
       }
     ]
