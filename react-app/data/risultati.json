@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:03:41.581664+00:00",
+  "generatedAt": "2026-10-12T12:44:51.913054+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -596,6 +596,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626854",
+      "competition": "Serie C Maschile Girone Unico",
+      "giornata": "Giornata 12",
+      "home": "ITALCHIMICI",
+      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626856",
       "competition": "Serie C Maschile Girone Unico",
       "giornata": "Giornata 12",
@@ -619,15 +628,6 @@
       "giornata": "Giornata 12",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "POLISPORTIVA DELFINO - SAIMA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626854",
-      "competition": "Serie C Maschile Girone Unico",
-      "giornata": "Giornata 12",
-      "home": "ITALCHIMICI",
-      "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5684,7 +5684,7 @@
       "id": "131627237",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 1",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "SALUMIFICIO BATTISTI TUDER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -5739,7 +5739,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 2",
       "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5792,7 +5792,7 @@
       "id": "131627248",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 3",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
@@ -5829,7 +5829,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 4",
       "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5900,7 +5900,7 @@
       "id": "131627261",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 5",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -5946,7 +5946,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "ASD CASCIA PALLAVOLO",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -5990,7 +5990,7 @@
       "id": "131627272",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 7",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
@@ -6027,7 +6027,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 8",
       "home": "ASD PGS BOSICO VOLLEY GREEN2",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6116,7 +6116,7 @@
       "id": "131627282",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 9",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
@@ -6170,7 +6170,7 @@
       "id": "131627291",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 10",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "REBELS ASSISI",
       "score": "da disputare",
       "status": "in programma"
@@ -6216,7 +6216,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 11",
       "home": "LYNX ACQUASPARTA VOLLEY",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6261,7 +6261,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 12",
       "home": "SALUMIFICIO BATTISTI TUDER VOLLEY",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6296,7 +6296,7 @@
       "id": "131627307",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 13",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
@@ -6369,7 +6369,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 14",
       "home": "FOLIGNO VOLLEY ASD",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6440,7 +6440,7 @@
       "id": "131627320",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 15",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "MARCONI MONINI PALLAVOLO GREEN1",
       "score": "da disputare",
       "status": "in programma"
@@ -6450,7 +6450,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 16",
       "home": "SAN MARIANO VOLLEY",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6530,7 +6530,7 @@
       "id": "131627330",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 17",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "ASD CASCIA PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
@@ -6594,7 +6594,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 18",
       "home": "NARNI SPORT ACADEMY",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6629,7 +6629,7 @@
       "id": "131627340",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 19",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "ASD PGS BOSICO VOLLEY GREEN2",
       "score": "da disputare",
       "status": "in programma"
@@ -6693,7 +6693,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 20",
       "home": "VIANDER ACTON BASTIA",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6738,7 +6738,7 @@
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 21",
       "home": "REBELS ASSISI",
-      "away": "E.DI.TEC. CANNARA",
+      "away": "E.DI.TEC. CANNARA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6809,7 +6809,7 @@
       "id": "131627358",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 22",
-      "home": "E.DI.TEC. CANNARA",
+      "home": "E.DI.TEC. CANNARA VOLLEY",
       "away": "LYNX ACQUASPARTA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -9173,15 +9173,6 @@
       "status": "in programma"
     },
     {
-      "id": "131657979",
-      "competition": "2 Divisione Femminile Girone B",
-      "giornata": "Giornata 3",
-      "home": "REBELS ASSISI 2D TIFFANY",
-      "away": "ELLERA VOLLEY BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657980",
       "competition": "2 Divisione Femminile Girone B",
       "giornata": "Giornata 3",
@@ -9196,6 +9187,15 @@
       "giornata": "Giornata 3",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657979",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "REBELS ASSISI 2D TIFFANY",
+      "away": "ELLERA VOLLEY BLU",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9929,6 +9929,15 @@
       "status": "in programma"
     },
     {
+      "id": "131658197",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131658195",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 6",
@@ -9943,15 +9952,6 @@
       "giornata": "Giornata 6",
       "home": "SIR ASSISI",
       "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131658197",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 6",
-      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
-      "away": "FOLIGNO VOLLEY ASD",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -15590,20 +15590,20 @@
       "status": "in programma"
     },
     {
-      "id": "131660192",
-      "competition": "Under 15 Maschile Girone A",
-      "giornata": "Giornata 6",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "SIR GIOVANILE MERICAT PG",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131660190",
       "competition": "Under 15 Maschile Girone A",
       "giornata": "Giornata 6",
       "home": "CITTA DI CASTELLO PALLAVOLO",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131660192",
+      "competition": "Under 15 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR GIOVANILE MERICAT PG",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17714,6 +17714,15 @@
       "status": "in programma"
     },
     {
+      "id": "131659558",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA CLT",
+      "away": "BOSICO GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131660640",
       "competition": "Under 15 Femminile Girone G",
       "giornata": "Giornata 5",
@@ -17728,15 +17737,6 @@
       "giornata": "Giornata 5",
       "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
       "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659558",
-      "competition": "Under 15 Femminile Girone G",
-      "giornata": "Giornata 5",
-      "home": "POLISPORTIVA CLT",
-      "away": "BOSICO GIOIELLERIE BARTOCCINI",
       "score": "da disputare",
       "status": "in programma"
     },
