@@ -32,7 +32,7 @@ SOGGETTI = [
     {
         "id": "bartoccini",
         "nome": "Bartoccini MC Restauri Perugia",
-        "categoria": "Serie A1 F",
+        "categoria": "Serie A2 F",
         "queries": [
             {"q": "Bartoccini Perugia volley femminile", "fonte": "google"},
             {"q": "Black Angels Perugia pallavolo", "fonte": "bing"},

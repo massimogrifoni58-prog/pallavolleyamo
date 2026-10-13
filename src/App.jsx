@@ -4976,7 +4976,7 @@ function MappaPage() {
 
   const colori = {
     "Superlega": "#7F77DD",
-    "Serie A1 F": "#D85A30",
+    "Serie A1 F": "#D85A30", "Serie A2 F": "#D85A30",
     "Serie A3": "#EF9F27",
     "Serie B M": "#2DBB8A",
     "Serie B F": "#20a870",
@@ -4993,7 +4993,7 @@ function MappaPage() {
 
   const catFiltri = {
     "Tutti": () => true,
-    "Superlega/A": s => ["Superlega","Serie A1 F","Serie A3"].includes(s.categoria),
+    "Superlega/A": s => ["Superlega","Serie A1 F","Serie A2 F","Serie A3"].includes(s.categoria),
     "Serie B": s => s.categoria.includes("Serie B"),
     "Serie C": s => s.categoria.includes("Serie C"),
     "Serie D": s => s.categoria.includes("Serie D"),

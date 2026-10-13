@@ -59,6 +59,6 @@ jobs:
             exit 0
           fi
           git commit -m "Aggiornamento rapido risultati"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
           curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_AlirBjIprA7fpYqlQpwFXWksVFpy/NF6htE5x4p"
