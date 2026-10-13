@@ -4248,7 +4248,7 @@ function ChiSiamoPage() {
               <a href="mailto:postmaster@pallavolleyamo.it" className="sponsor-cta" style={{ fontSize: "0.85rem" }}>
                 ✉️ Scrivici
               </a>
-              <a href="https://www.facebook.com/pallavolleyamo" target="_blank" rel="noreferrer"
+              <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer"
                 className="sponsor-cta" style={{ fontSize: "0.85rem", background: "#1877f2" }}>
                 Facebook PallaVolleyAmo
               </a>
@@ -5173,7 +5173,7 @@ function Footer() {
         </div>
         <div style={{ minWidth: "140px" }}>
           <div style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Seguici</div>
-           <a href="https://www.facebook.com/PallaVolleyAmo" target="_blank" rel="noreferrer"
+           <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer"
            style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.78rem", color: "var(--text-dim)", textDecoration: "none" }}
            onMouseOver={e => e.currentTarget.style.color = "var(--gold)"}
            onMouseOut={e => e.currentTarget.style.color = "var(--text-dim)"}>
@@ -6169,10 +6169,12 @@ function PostFacebookPage() {
     const dai = iso(da), aai = iso(oggi);
     const lista = tutte.filter((p) => p.risultato && p.data >= dai && p.data <= aai && filtraGiov(p));
     const date = lista.map((p) => p.data).sort();
+    const fineSett = date.some((d) => { const g = new Date(d + "T12:00:00").getDay(); return g === 0 || g === 6; });
+    const etic = fineSett ? "RISULTATI DEL WEEKEND IN UMBRIA" : "ULTIMI RISULTATI IN UMBRIA";
     if (date.length) {
-      titolo = "\u{1F3D0} RISULTATI DEL WEEKEND IN UMBRIA (" + dm(date[0]) + (date[date.length - 1] !== date[0] ? "-" + dm(date[date.length - 1]) : "") + ")";
+      titolo = "\u{1F3D0} " + etic + " (" + dm(date[0]) + (date[date.length - 1] !== date[0] ? "-" + dm(date[date.length - 1]) : "") + ")";
     } else {
-      titolo = "\u{1F3D0} RISULTATI DEL WEEKEND IN UMBRIA";
+      titolo = "\u{1F3D0} " + etic;
     }
     const gruppi = {};
     lista.forEach((p) => { (gruppi[p.campionato] = gruppi[p.campionato] || []).push(p); });
