@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:07:43.865682+00:00",
+  "generatedAt": "2026-10-13T23:40:45.994413+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6475,7 +6475,7 @@
         "id": "giov-under-17-femminile-girone-c-0",
         "campionato": "Under 17 Femminile Girone C",
         "giornata": "1",
-        "data": "2026-10-14",
+        "data": "2026-10-19",
         "ora": "19:30",
         "casa": "VOLLEY 86 PETRIGNANO",
         "ospite": "SCHOOL VOLLEY PERUGIA INDACO",
@@ -6791,7 +6791,7 @@
         "ora": "20:30",
         "casa": "ELLERA VOLLEY",
         "ospite": "REBELS ASSISI U19",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-girone-b-2",
@@ -7093,7 +7093,7 @@
         "ora": "20:00",
         "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
         "ospite": "FOLIGNO VOLLEY ASD",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-elite-2",
@@ -7305,7 +7305,7 @@
         "ora": "20:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-girone-a-3",
