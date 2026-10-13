@@ -606,7 +606,8 @@ function HomePage({ latestNews = [] }) {
     if (m.status !== "disputata" || !m.score) return false;
     const comp = (m.competition || "").toLowerCase();
     const isRegionale = comp.includes("serie c") || comp.includes("serie d") ||
-      comp.includes("1 divisione") || comp.includes("prima divisione");
+      comp.includes("1 divisione") || comp.includes("prima divisione") ||
+      comp.includes("2 divisione") || comp.includes("under");
     const isNazionale = comp.includes("serie a") || comp.includes("serie b") ||
       comp.includes("superlega") || comp.includes("a1") || comp.includes("a2") || comp.includes("a3");
     if (isRegionale) return true;
@@ -622,6 +623,16 @@ function HomePage({ latestNews = [] }) {
   const inPausaEstiva = meseCorrente >= 6 && meseCorrente <= 8; // giugno, luglio, agosto
 
   const hasRisultati = !inPausaEstiva && risultati.length > 0;
+
+  const oggiISO = new Date().toISOString().slice(0, 10);
+  const prossime = Object.values(calendarioRegionaliData.partite || {})
+    .flat()
+    .filter((p) => p.data && p.data >= oggiISO && !p.risultato && /^Serie [CD]/.test(p.campionato || ""))
+    .sort((a, b) => (a.data + (a.ora || "")).localeCompare(b.data + (b.ora || "")))
+    .slice(0, 8);
+  const prossimeTesto = prossime
+    .map((p) => `${p.casa} – ${p.ospite} (${p.data.slice(8, 10)}/${p.data.slice(5, 7)}${p.ora ? " " + p.ora : ""})`)
+    .join("   ·   ");
   const risultatiTesto = risultati.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("   ·   ");
 
   // Statistiche rapide
@@ -658,6 +669,12 @@ function HomePage({ latestNews = [] }) {
 
         {/* Fascia risultati */}
         <div className="hero-risultati">
+          {!hasRisultati && !inPausaEstiva && prossime.length > 0 && (
+            <div className="hero-risultati__label">
+              <span className="hero-risultati__dot"></span>
+              PROSSIME PARTITE
+            </div>
+          )}
           {hasRisultati && (
             <div className="hero-risultati__label">
               <span className="hero-risultati__dot"></span>
@@ -676,6 +693,17 @@ function HomePage({ latestNews = [] }) {
                 style={{ "--scroll-duration": `${Math.max(20, risultati.length * 3)}s` }}
               >
                 {[risultatiTesto, risultatiTesto].map((t, i) => (
+                  <span key={i} className="hero-risultati__testo">{t}</span>
+                ))}
+              </div>
+            </div>
+          ) : (!inPausaEstiva && prossime.length > 0) ? (
+            <div className="hero-risultati__track-wrap">
+              <div
+                className="hero-risultati__track"
+                style={{ "--scroll-duration": `${Math.max(20, prossime.length * 4)}s` }}
+              >
+                {[prossimeTesto, prossimeTesto].map((t, i) => (
                   <span key={i} className="hero-risultati__testo">{t}</span>
                 ))}
               </div>

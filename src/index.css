@@ -4703,3 +4703,49 @@ p {
 body {
   padding-bottom: 70px;
 }
+
+/* FASCIA_RISULTATI_FIX: .hero-grafico > * la rendeva relative e la nascondeva sotto il bordo */
+.hero-grafico > .hero-risultati {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* FASCIA_TESTO_FIX: testo della fascia risultati piu piccolo */
+.hero-grafico > .hero-risultati { height: 38px; }
+.hero-grafico .hero-risultati__testo { font-size: 0.85rem; padding-right: 3rem; }
+.hero-grafico .hero-risultati__label { font-size: 0.7rem; }
+
+/* FASCIA_ETICHETTA_FIX: etichetta su una riga e scorrimento senza scatti */
+.hero-grafico .hero-risultati__label {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  height: 100%;
+  padding: 0 0.9rem;
+  white-space: nowrap;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: rgba(212,175,55,0.15);
+  border-right: 1px solid rgba(212,175,55,0.4);
+}
+.hero-grafico .hero-risultati__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e03131;
+  display: inline-block;
+}
+.hero-grafico .hero-risultati__orario {
+  color: rgba(212,175,55,0.75);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+}
+.hero-grafico .hero-risultati__track { width: max-content; }
+@media (max-width: 600px) {
+  .hero-grafico .hero-risultati__orario { display: none; }
+}
