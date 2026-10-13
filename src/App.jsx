@@ -6187,8 +6187,36 @@ function PallavoloUmbriaPage() {
             {dati.settimana}
           </p>
         )}
-        {dati.commento && (
-          <p style={{ lineHeight: 1.6, maxWidth: "70ch", marginBottom: "1.75rem" }}>{dati.commento}</p>
+        {dati.titolo && (
+          <h3 style={{ fontSize: "1.3rem", lineHeight: 1.25, margin: "0 0 0.75rem", maxWidth: "26ch" }}>{dati.titolo}</h3>
+        )}
+        {dati.occhiello && (
+          <p style={{ fontSize: "1rem", lineHeight: 1.6, fontWeight: 500, maxWidth: "62ch", margin: "0 0 1.75rem", paddingLeft: "0.9rem", borderLeft: "3px solid var(--gold)" }}>{dati.occhiello}</p>
+        )}
+        {dati.sezioni && dati.sezioni.length > 0 ? (
+          <div style={{ maxWidth: "66ch", marginBottom: "2rem" }}>
+            {dati.sezioni.map((s, i) => (
+              <div key={i} style={{ marginBottom: "1.75rem" }}>
+                {s.titolo && (
+                  <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", lineHeight: 1.3, margin: "0 0 0.55rem" }}>{s.titolo}</h3>
+                )}
+                {(s.testo || []).map((p, j) => (
+                  <p key={j} style={{ fontSize: "0.93rem", lineHeight: 1.7, margin: "0 0 0.85rem" }}>{p}</p>
+                ))}
+                {s.elenco && s.elenco.length > 0 && (
+                  <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.55rem" }}>
+                    {s.elenco.map((e, k) => (
+                      <li key={k} style={{ fontSize: "0.93rem", lineHeight: 1.6 }}>{e}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
+        ) : (
+          dati.commento && (
+            <p style={{ lineHeight: 1.75, maxWidth: "66ch", marginBottom: "1.75rem", whiteSpace: "pre-line" }}>{dati.commento}</p>
+          )
         )}
 
         {derby && (
