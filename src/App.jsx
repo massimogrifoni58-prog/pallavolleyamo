@@ -6343,10 +6343,26 @@ useEffect(() => {
 }, []);
   const { subscribed, subscribe, unsubscribe } = useSubscribed();
 useEffect(() => {
-  if (!subscribed) setShowBannerIscrizione(true);
+  if (subscribed) return;
+  let ultimo = 0;
+  try { ultimo = Number(localStorage.getItem("pva_banner_chiuso") || 0); } catch (e) {}
+  if (Date.now() - ultimo < 7 * 24 * 3600 * 1000) return;
+  const t = setTimeout(() => setShowBannerIscrizione(true), 30000);
+  return () => clearTimeout(t);
 }, [subscribed]);
   const [showSplash, setShowSplash] = useState(true);
-  const [showPillola, setShowPillola] = useState(true);
+  const [showPillola, setShowPillola] = useState(false);
+  useEffect(() => {
+    const oggi = new Date().toISOString().slice(0, 10);
+    let visto = null;
+    try { visto = localStorage.getItem("pva_pillola_data"); } catch (e) {}
+    if (visto === oggi) return;
+    const t = setTimeout(() => {
+      setShowPillola(true);
+      try { localStorage.setItem("pva_pillola_data", oggi); } catch (e) {}
+    }, 8000);
+    return () => clearTimeout(t);
+  }, []);
   const [showBannerIscrizione, setShowBannerIscrizione] = useState(false);
   const pilloleList = pilloleData.pillole || [];
   const pillolaDiOggi = pilloleList[(new Date().getDate() - 1) % pilloleList.length];
@@ -6431,7 +6447,7 @@ useEffect(() => {
 
       <Footer />
       {showBannerIscrizione && !subscribed && (
-        <BannerIscrizione onClose={() => setShowBannerIscrizione(false)} />
+        <BannerIscrizione onClose={() => { setShowBannerIscrizione(false); try { localStorage.setItem("pva_banner_chiuso", String(Date.now())); } catch (e) {} }} />
       )}
       <Analytics />
     </>
