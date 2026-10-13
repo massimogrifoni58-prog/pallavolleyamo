@@ -6135,6 +6135,121 @@ function CookieBanner() {
   );
 }
 
+function PostFacebookPage() {
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const macro = (c) => (/^Serie C/.test(c || "") ? 0 : /^Serie D/.test(c || "") ? 1 : 2);
+  const dm = (d) => d.slice(8, 10) + "/" + d.slice(5, 7);
+  const giornoMese = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
+  const giornoSett = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long" });
+
+  const oggi = new Date();
+  oggi.setHours(12, 0, 0, 0);
+  const dow = oggi.getDay();
+  const [modo, setModo] = useState(dow === 0 || dow === 1 || dow === 2 ? "risultati" : "anteprima");
+  const [giov, setGiov] = useState(true);
+  const [copiato, setCopiato] = useState(false);
+  const areaRef = useRef(null);
+
+  useEffect(() => {
+    let m = document.querySelector('meta[name="robots"]');
+    if (!m) { m = document.createElement("meta"); m.setAttribute("name", "robots"); document.head.appendChild(m); }
+    m.setAttribute("content", "noindex, nofollow");
+    return () => { m.setAttribute("content", "index, follow"); };
+  }, []);
+
+  const tutte = Object.values(calendarioRegionaliData.partite || {}).flat();
+  const filtraGiov = (p) => giov || macro(p.campionato) < 2;
+  let righe = [];
+  let titolo = "";
+  let coda = "";
+
+  if (modo === "risultati") {
+    const da = new Date(oggi); da.setDate(oggi.getDate() - 6);
+    const dai = iso(da), aai = iso(oggi);
+    const lista = tutte.filter((p) => p.risultato && p.data >= dai && p.data <= aai && filtraGiov(p));
+    const date = lista.map((p) => p.data).sort();
+    if (date.length) {
+      titolo = "\u{1F3D0} RISULTATI DEL WEEKEND IN UMBRIA (" + dm(date[0]) + (date[date.length - 1] !== date[0] ? "-" + dm(date[date.length - 1]) : "") + ")";
+    } else {
+      titolo = "\u{1F3D0} RISULTATI DEL WEEKEND IN UMBRIA";
+    }
+    const gruppi = {};
+    lista.forEach((p) => { (gruppi[p.campionato] = gruppi[p.campionato] || []).push(p); });
+    Object.keys(gruppi)
+      .sort((a, b) => macro(a) - macro(b) || a.localeCompare(b))
+      .forEach((c) => {
+        righe.push("");
+        righe.push("\u{1F539} " + c);
+        gruppi[c].sort((a, b) => (a.data + (a.ora || "")).localeCompare(b.data + (b.ora || "")))
+          .forEach((p) => righe.push(nome(p.casa) + "  " + p.risultato.replace(/\s/g, "") + "  " + nome(p.ospite)));
+      });
+    if (!lista.length) righe.push("", "(nessun risultato disponibile negli ultimi giorni)");
+    coda = "\u{1F449} Tutti i risultati e le classifiche su www.pallavolleyamo.it";
+  } else {
+    const off = (6 - dow + 7) % 7;
+    const sab = new Date(oggi); sab.setDate(oggi.getDate() + off);
+    const ven = new Date(sab); ven.setDate(sab.getDate() - 1);
+    const dom = new Date(sab); dom.setDate(sab.getDate() + 1);
+    const giorni = [iso(ven), iso(sab), iso(dom)];
+    const lista = tutte.filter((p) => giorni.includes(p.data) && !p.risultato && filtraGiov(p));
+    titolo = "\u{1F3D0} IL WEEKEND DEL VOLLEY IN UMBRIA (" + dm(giorni[0]) + "-" + dm(giorni[2]) + ")";
+    giorni.forEach((g) => {
+      const del = lista.filter((p) => p.data === g).sort((a, b) => macro(a.campionato) - macro(b.campionato) || (a.ora || "").localeCompare(b.ora || ""));
+      if (!del.length) return;
+      righe.push("");
+      righe.push("\u{1F4C5} " + giornoSett(g).toUpperCase() + " " + giornoMese(g));
+      del.forEach((p) => righe.push((p.ora || "") + " " + nome(p.casa) + " - " + nome(p.ospite) + " (" + p.campionato.replace(/ Girone.*$/, "") + ")"));
+    });
+    if (!lista.length) righe.push("", "(nessuna partita in programma)");
+    coda = "\u{1F449} Il programma completo su www.pallavolleyamo.it/weekend-umbria";
+  }
+
+  const testo = [titolo].concat(righe).concat(["", coda, "#pallavolleyamo #pallavolo #umbria #volleyumbria"]).join("\n");
+
+  async function copia() {
+    const v = areaRef.current ? areaRef.current.value : testo;
+    try { await navigator.clipboard.writeText(v); }
+    catch (e) { if (areaRef.current) { areaRef.current.select(); document.execCommand("copy"); } }
+    setCopiato(true);
+    setTimeout(() => setCopiato(false), 2500);
+  }
+
+  const chip = (attivo) => ({
+    padding: "0.35rem 0.9rem", borderRadius: "999px", cursor: "pointer", fontSize: "0.85rem",
+    border: "1px solid " + (attivo ? "var(--gold)" : "var(--border)"),
+    background: attivo ? "var(--gold)" : "transparent",
+    color: attivo ? "#000" : "inherit",
+  });
+
+  return (
+    <main>
+      <CampionatiHero titolo="Post Facebook" />
+      <section className="section">
+        <h2 className="feed-heading">Genera il post</h2>
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "0.9rem" }}>
+          <button onClick={() => setModo("risultati")} style={chip(modo === "risultati")}>Risultati</button>
+          <button onClick={() => setModo("anteprima")} style={chip(modo === "anteprima")}>Anteprima weekend</button>
+        </div>
+        <label style={{ display: "block", fontSize: "0.88rem", marginBottom: "0.9rem" }}>
+          <input type="checkbox" checked={giov} onChange={(e) => setGiov(e.target.checked)} /> Includi i campionati giovanili
+        </label>
+        <textarea
+          key={modo + String(giov) + testo.length}
+          ref={areaRef}
+          defaultValue={testo}
+          rows={18}
+          style={{ width: "100%", maxWidth: "720px", fontSize: "0.9rem", lineHeight: 1.5, padding: "0.8rem", borderRadius: "10px", border: "1px solid var(--border)", background: "transparent", color: "inherit", fontFamily: "inherit" }}
+        />
+        <div style={{ marginTop: "0.9rem", display: "flex", gap: "0.7rem", alignItems: "center", flexWrap: "wrap" }}>
+          <button onClick={copia} style={{ ...chip(true), padding: "0.5rem 1.2rem", fontWeight: 600 }}>Copia testo</button>
+          {copiato && <span style={{ color: "var(--gold)", fontSize: "0.9rem" }}>Copiato! Ora incollalo su Facebook.</span>}
+        </div>
+      </section>
+    </main>
+  );
+}
+
 function WeekendUmbriaPage() {
   const [filtro, setFiltro] = useState("Tutte");
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
@@ -6544,7 +6659,8 @@ useEffect(() => {
           {route === "privacy" && <PrivacyPage />}
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria"].includes(route) && <NotFoundPage />}
+          {route === "post-facebook" && <PostFacebookPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
