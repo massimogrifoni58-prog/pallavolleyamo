@@ -473,6 +473,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
     { href: "#/perugia", label: "News Prov. PG", locked: true },
     { href: "#/squadre-top", label: "News Squadre", locked: true },
     { href: "#/pallavolo-umbria", label: "La Settimana Volley", locked: true },
+    { href: "#/weekend-umbria", label: "Il weekend in Umbria" },
   ]}
 />
 <NavDropdown
@@ -6134,6 +6135,92 @@ function CookieBanner() {
   );
 }
 
+function WeekendUmbriaPage() {
+  const [filtro, setFiltro] = useState("Tutte");
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const macro = (c) => (/^Serie C/.test(c || "") ? "Serie C" : /^Serie D/.test(c || "") ? "Serie D" : "Giovanili");
+
+  const base = new Date();
+  base.setHours(12, 0, 0, 0);
+  const dow = base.getDay();
+  const offset = dow === 0 ? -1 : dow === 1 ? -2 : 6 - dow;
+  const sab = new Date(base);
+  sab.setDate(base.getDate() + offset);
+  const ven = new Date(sab); ven.setDate(sab.getDate() - 1);
+  const dom = new Date(sab); dom.setDate(sab.getDate() + 1);
+  const giorni = [iso(ven), iso(sab), iso(dom)];
+  const concluso = dow === 1;
+
+  const tutte = Object.values(calendarioRegionaliData.partite || {}).flat()
+    .filter((p) => p.data && giorni.includes(p.data));
+  const visibili = tutte.filter((p) => filtro === "Tutte" || macro(p.campionato) === filtro);
+
+  const etichetta = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+  const periodo = new Date(giorni[0] + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" })
+    + " – " + new Date(giorni[2] + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" });
+
+  const chip = (attivo) => ({
+    padding: "0.35rem 0.9rem", borderRadius: "999px", cursor: "pointer", fontSize: "0.85rem",
+    border: "1px solid " + (attivo ? "var(--gold)" : "var(--border)"),
+    background: attivo ? "var(--gold)" : "transparent",
+    color: attivo ? "#000" : "inherit",
+  });
+
+  return (
+    <main>
+      <CampionatiHero titolo="Il weekend in Umbria" />
+      <section className="section">
+        <h2 className="feed-heading">{concluso ? "Il weekend appena concluso" : "Le partite del weekend"}</h2>
+        <p style={{ color: "var(--gold)", fontSize: "0.85rem", margin: "0 0 0.5rem" }}>{periodo}</p>
+        <p style={{ fontSize: "0.93rem", lineHeight: 1.6, maxWidth: "62ch", margin: "0 0 1rem" }}>
+          Tutte le gare di Serie C, Serie D e dei campionati giovanili FIPAV Umbria in programma tra venerdì e domenica.
+          Il calendario e i risultati si aggiornano automaticamente durante il giorno.
+        </p>
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+          {["Tutte", "Serie C", "Serie D", "Giovanili"].map((f) => (
+            <button key={f} onClick={() => setFiltro(f)} style={chip(filtro === f)}>{f}</button>
+          ))}
+        </div>
+        {visibili.length === 0 && (
+          <p style={{ color: "var(--text-dim)" }}>
+            Nessuna partita in programma per questo weekend{filtro !== "Tutte" ? " in " + filtro : ""}. Il calendario si aggiorna ogni due ore.
+          </p>
+        )}
+        {giorni.map((g) => {
+          const dellGiorno = visibili
+            .filter((p) => p.data === g)
+            .sort((a, b) => (a.ora || "").localeCompare(b.ora || ""));
+          if (dellGiorno.length === 0) return null;
+          return (
+            <div key={g} style={{ marginBottom: "2rem", maxWidth: "720px" }}>
+              <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", textTransform: "capitalize", margin: "0 0 0.6rem" }}>
+                {etichetta(g)} <span style={{ color: "var(--text-dim)", fontSize: "0.8rem" }}>({dellGiorno.length} partite)</span>
+              </h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+                {dellGiorno.map((p) => (
+                  <div key={p.id} style={{ display: "flex", gap: "0.9rem", alignItems: "flex-start", border: "1px solid var(--border)", borderRadius: "10px", padding: "0.65rem 0.9rem" }}>
+                    <div style={{ minWidth: "3.2rem", fontWeight: 700, fontSize: "0.95rem" }}>{p.ora || "—"}</div>
+                    <div style={{ flex: 1 }}>
+                      <div style={{ fontWeight: 600, fontSize: "0.92rem", lineHeight: 1.4 }}>
+                        {nome(p.casa)} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>–</span> {nome(p.ospite)}
+                        {p.risultato && <span style={{ color: "var(--gold)", marginLeft: "0.6rem" }}>{typeof p.risultato === "string" ? p.risultato : ""}</span>}
+                      </div>
+                      <div style={{ color: "var(--text-dim)", fontSize: "0.76rem" }}>
+                        {p.campionato}{p.giornata ? " · giornata " + p.giornata : ""}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </section>
+    </main>
+  );
+}
+
 function PallavoloUmbriaPage() {
   const dati = pallavoloUmbriaData || {};
   const squadre = dati.squadre || [];
@@ -6335,6 +6422,7 @@ const route = useRoute();
 useEffect(() => {
   const SITO = "https://www.pallavolleyamo.it";
   const SEO = {
+    "weekend-umbria": ["Il weekend in Umbria: partite di Serie C, D e giovanili | PallaVolleyAmo", "Tutte le partite di pallavolo del weekend in Umbria: Serie C, Serie D e campionati giovanili FIPAV, con orari e risultati aggiornati."],
     "home": ["PallaVolleyAmo — Volley Umbria", "Il sito di riferimento per la pallavolo in Umbria: risultati, classifiche, notizie e campionati FIPAV aggiornati ogni giorno."],
     "pallavolo-umbria": ["La Settimana Volley — commenti e notizie | PallaVolleyAmo", "Il commento settimanale sulla pallavolo umbra: squadre, derby, campionati nazionali e regionali, con le partite da non perdere."],
     "regionali": ["Campionati regionali di pallavolo in Umbria | PallaVolleyAmo", "Serie C, Serie D e campionati giovanili FIPAV Umbria: calendari, risultati e classifiche aggiornati."],
@@ -6455,7 +6543,8 @@ useEffect(() => {
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "privacy" && <PrivacyPage />}
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria"].includes(route) && <NotFoundPage />}
+          {route === "weekend-umbria" && <WeekendUmbriaPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
