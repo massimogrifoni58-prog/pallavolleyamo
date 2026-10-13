@@ -632,8 +632,8 @@ function HomePage({ latestNews = [] }) {
     .slice(0, 8);
   const prossimeTesto = prossime
     .map((p) => `${p.casa} – ${p.ospite} (${p.data.slice(8, 10)}/${p.data.slice(5, 7)}${p.ora ? " " + p.ora : ""})`)
-    .join("   ·   ");
-  const risultatiTesto = risultati.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("   ·   ");
+    .join("\u00a0\u00a0\u00a0\u25cf\u00a0\u00a0\u00a0");
+  const risultatiTesto = risultati.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("\u00a0\u00a0\u00a0\u25cf\u00a0\u00a0\u00a0");
 
   // Statistiche rapide
   const nCampionati = new Set((risultatiData.matches || []).map((m) => getMacroCategory(m.competition))).size;
@@ -690,7 +690,7 @@ function HomePage({ latestNews = [] }) {
             <div className="hero-risultati__track-wrap">
               <div
                 className="hero-risultati__track"
-                style={{ "--scroll-duration": `${Math.max(20, risultati.length * 3)}s` }}
+                style={{ "--scroll-duration": `${Math.max(45, risultati.length * 9)}s` }}
               >
                 {[risultatiTesto, risultatiTesto].map((t, i) => (
                   <span key={i} className="hero-risultati__testo">{t}</span>
@@ -701,7 +701,7 @@ function HomePage({ latestNews = [] }) {
             <div className="hero-risultati__track-wrap">
               <div
                 className="hero-risultati__track"
-                style={{ "--scroll-duration": `${Math.max(20, prossime.length * 4)}s` }}
+                style={{ "--scroll-duration": `${Math.max(45, prossime.length * 10)}s` }}
               >
                 {[prossimeTesto, prossimeTesto].map((t, i) => (
                   <span key={i} className="hero-risultati__testo">{t}</span>
