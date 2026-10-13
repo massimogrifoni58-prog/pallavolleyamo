@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T05:03:07.853880+00:00",
+  "generatedAt": "2026-10-13T05:03:35.512082+00:00",
   "posts": [
     {
       "id": "seriecvolleyilcltvinceilderbya",
@@ -79,7 +79,7 @@
       "createdTime": "Sun, 26 Oct 2025 14:16:00 GMT",
       "image": "https://img.terninrete.it/2025/10/3359486f-5d92-4e26-8b4e-8967fac12b86.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-serie-a3-pallavolo-i-dragons-perdono-a-sabaudia-3-2/",
-      "id": "10"
+      "id": "11"
     },
     {
       "title": "La Terni Volley cerca la prima vittoria in serie A 3 contro la Gaia Energy Napoli",
@@ -104,6 +104,14 @@
       "image": "https://www.umbria24.it/wp-content/uploads/2026/10/test-con-terni-attacco-alpini-scaled.jpg",
       "permalink": "https://www.umbria24.it/citta-di-castello/altotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1/",
       "id": "2"
+    },
+    {
+      "title": "Terni Volley: coach Giombini: «A Sabaudia voglio un gruppo che metta in campo l'incoscienza»",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sat, 25 Oct 2025 12:42:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/25/9149120_25182902_img_20251025_wa0008.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/a_sabaudia_voglio_un_gruppo_metta_campo_incoscienza_entusiamo_giovani-9149120.html",
+      "id": "12"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -138,6 +146,14 @@
       "id": "4"
     },
     {
+      "title": "Terni Volley: i Dragons cedono al tie break a Sabaudia, primo punto in A3",
+      "excerpt": "Fonte: sporterni.it",
+      "createdTime": "Mon, 27 Oct 2025 04:23:00 GMT",
+      "image": "https://www.sporterni.it/immagini/articoli/26530.jpg",
+      "permalink": "https://www.sporterni.it/articolo.php?id=26530",
+      "id": "10"
+    },
+    {
       "title": "Orvieto Volley Academy, sconfitta a domicilio aspettando la Pallavolo Arrone",
       "excerpt": "Fonte: orvietonews.it",
       "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
@@ -160,6 +176,14 @@
       "createdTime": "Mon, 09 Jul 2018 06:00:00 GMT",
       "image": "https://img.terninrete.it/2019/03/MG_6237.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-volley-la-bosico-under-14-vince-il-4176-torneo-nazionale-summer-volley-cup-475244/"
+    },
+    {
+      "title": "Narni: \"Adrenalina Pura\", gli studenti del liceo Gandhi al Festival dello Sport di Trento",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Fri, 17 Oct 2025 08:21:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/17/9133109_17145115_whatsapp_image_2025_10_16_at_10.00.25.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/narni_adrenalina_pura_studenti_liceo_gandhi_al_festival_dello_sport_di_trento-9133109.html",
+      "id": "13"
     }
   ]
 }
