@@ -1,0 +1,64 @@
+name: Aggiornamento rapido risultati
+on:
+  schedule:
+    - cron: '0 6-20/2 * * *'  # ogni 2 ore, dalle 8:00 alle 22:00 ora italiana (estate/inverno +-1h)
+  workflow_dispatch:
+concurrency:
+  group: aggiornamento-dati
+  cancel-in-progress: false
+jobs:
+  risultati:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+      - name: Scarica calendari e risultati
+        run: |
+          cd scraper
+          python fetch_calendario_fipav.py
+          python fetch_merge_regionali_giovanili.py
+          python fetch_risultati.py
+      - name: Copia i soli file interessati e scarta se invariati
+        run: |
+          python - <<'EOF'
+          import json, subprocess, shutil
+          files = ["calendario_regionali.json", "risultati.json"]
+          for f in files:
+              src = "react-app/data/" + f
+              dst = "data/" + f
+              shutil.copy(src, dst)
+              for p in (src, dst):
+                  try:
+                      old = json.loads(subprocess.check_output(["git", "show", "HEAD:" + p]))
+                  except Exception:
+                      continue
+                  new = json.load(open(p, encoding="utf-8"))
+                  old.pop("generatedAt", None)
+                  new.pop("generatedAt", None)
+                  if old == new:
+                      subprocess.check_call(["git", "checkout", "HEAD", "--", p])
+                      print("invariato:", p)
+                  else:
+                      print("CAMBIATO:", p)
+          EOF
+      - name: Commit e push (senza force)
+        run: |
+          git config --global user.email "massimogrifoni58@gmail.com"
+          git config --global user.name "PallaVolleyAmo Bot"
+          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json
+          if git diff --staged --quiet; then
+            echo "Nessun cambiamento, esco"
+            exit 0
+          fi
+          git commit -m "Aggiornamento rapido risultati"
+          git pull --rebase
+          git push
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_AlirBjIprA7fpYqlQpwFXWksVFpy/NF6htE5x4p"
