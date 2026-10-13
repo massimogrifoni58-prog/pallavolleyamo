@@ -6261,8 +6261,8 @@ function PallavoloUmbriaPage() {
             <div style={{ display: "flex", flexDirection: "column", gap: "0.7rem" }}>
               {archivio.map((a, i) => (
                 <div key={i} style={cardStyle}>
-                  <div style={{ color: "var(--gold)", fontSize: "0.8rem", marginBottom: "0.25rem" }}>{a.settimana}</div>
-                  <p style={{ margin: 0, fontSize: "0.85rem", lineHeight: 1.5 }}>{a.commento}</p>
+                  <details><summary style={{ cursor: "pointer", color: "var(--gold)", fontSize: "0.8rem", marginBottom: "0.25rem" }}>{a.settimana} · leggi</summary>
+                  <p style={{ margin: "0.5rem 0 0", fontSize: "0.85rem", lineHeight: 1.5, whiteSpace: "pre-line" }}>{a.commento}</p></details>
                 </div>
               ))}
             </div>
