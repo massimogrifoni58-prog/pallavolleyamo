@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T06:32:35.533328+00:00",
+  "generatedAt": "2026-10-13T12:27:49.002197+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -18146,20 +18146,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661561",
-      "competition": "Under 14 Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661563",
       "competition": "Under 14 Femminile Girone B",
       "giornata": "Giornata 1",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
       "away": "REBELS ASSISI U14 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661561",
+      "competition": "Under 14 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18497,20 +18497,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661600",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 4",
-      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "away": "STRIKE TEAM MONTELUCE U14 F",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661601",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 4",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661600",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+      "away": "STRIKE TEAM MONTELUCE U14 F",
       "score": "da disputare",
       "status": "in programma"
     },
