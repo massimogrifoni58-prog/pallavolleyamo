@@ -6275,6 +6275,61 @@ function PallavoloUmbriaPage() {
 
 export default function App() {
 const route = useRoute();
+// SEO_PAGINE: titolo, descrizione e canonical per ogni pagina
+useEffect(() => {
+  const SITO = "https://www.pallavolleyamo.it";
+  const SEO = {
+    "home": ["PallaVolleyAmo — Volley Umbria", "Il sito di riferimento per la pallavolo in Umbria: risultati, classifiche, notizie e campionati FIPAV aggiornati ogni giorno."],
+    "pallavolo-umbria": ["La Settimana Volley — commenti e notizie | PallaVolleyAmo", "Il commento settimanale sulla pallavolo umbra: squadre, derby, campionati nazionali e regionali, con le partite da non perdere."],
+    "regionali": ["Campionati regionali di pallavolo in Umbria | PallaVolleyAmo", "Serie C, Serie D e campionati giovanili FIPAV Umbria: calendari, risultati e classifiche aggiornati."],
+    "nazionale": ["Pallavolo nazionale: notizie e risultati | PallaVolleyAmo", "Le ultime notizie e i risultati della pallavolo italiana: Nazionale, SuperLega e Serie A."],
+    "nazionali": ["Campionati nazionali di pallavolo | PallaVolleyAmo", "Serie A, Serie B e campionati nazionali: le squadre umbre e i risultati della settimana."],
+    "terni": ["Pallavolo a Terni e provincia | PallaVolleyAmo", "Notizie, risultati e squadre di pallavolo di Terni, Narni e della provincia."],
+    "perugia": ["Pallavolo a Perugia e provincia | PallaVolleyAmo", "Notizie, risultati e squadre di pallavolo di Perugia e della provincia."],
+    "risultati": ["Risultati pallavolo Umbria | PallaVolleyAmo", "Tutti i risultati delle partite di pallavolo in Umbria, dalla Serie C ai campionati giovanili."],
+    "calendario": ["Calendario partite pallavolo Umbria | PallaVolleyAmo", "Il calendario delle prossime partite dei campionati di pallavolo in Umbria."],
+    "classifica": ["Classifiche pallavolo Umbria | PallaVolleyAmo", "Le classifiche aggiornate dei campionati di pallavolo umbri, maschili e femminili."],
+    "dirette": ["Pallavolo in diretta | PallaVolleyAmo", "Le partite di pallavolo da seguire in diretta."],
+    "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
+    "galleria": ["Galleria foto pallavolo | PallaVolleyAmo", "Le foto della pallavolo umbra: partite, squadre ed eventi."],
+    "video": ["Video di pallavolo | PallaVolleyAmo", "Video di pallavolo: azioni, partite e allenamenti."],
+    "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
+    "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
+    "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
+    "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
+    "pillole": ["Pillole di pallavolo | PallaVolleyAmo", "Ogni giorno una pillola di pallavolo: consigli, tecnica e curiosità."],
+    "atleta-settimana": ["Atleta della Settimana | PallaVolleyAmo", "L'atleta della settimana: i migliori giocatori e giocatrici di pallavolo al mondo."],
+    "squadre-top": ["Squadre top di pallavolo | PallaVolleyAmo", "Le squadre di vertice della pallavolo italiana e umbra."],
+    "preparazione-fisica": ["Preparazione fisica per la pallavolo | PallaVolleyAmo", "Esercizi di preparazione fisica per pallavolisti: core, gambe, spalle e pliometria."],
+    "camp": ["Camp di pallavolo | PallaVolleyAmo", "I camp di pallavolo estivi e invernali per giovani atleti."],
+    "agenda": ["Agenda eventi di pallavolo | PallaVolleyAmo", "Gli eventi, i tornei e gli appuntamenti della pallavolo umbra."],
+    "mappa": ["Mappa delle società di pallavolo in Umbria | PallaVolleyAmo", "La mappa delle società e dei palazzetti di pallavolo in Umbria."],
+    "chi-siamo": ["Chi siamo | PallaVolleyAmo", "PallaVolleyAmo, il portale dedicato alla pallavolo umbra."],
+    "articoli-societa": ["Articoli e notizie dalle società | PallaVolleyAmo", "Le notizie e gli articoli delle società di pallavolo umbre."],
+    "allenatori2": ["Allenatori di pallavolo | PallaVolleyAmo", "Gli allenatori della pallavolo umbra e i loro consigli."]
+  };
+  const info = SEO[route] || SEO["home"];
+  document.title = info[0];
+  const metaNome = (attr, nome, valore) => {
+    let el = document.head.querySelector(`meta[${attr}="${nome}"]`);
+    if (!el) {
+      el = document.createElement("meta");
+      el.setAttribute(attr, nome);
+      document.head.appendChild(el);
+    }
+    el.setAttribute("content", valore);
+  };
+  metaNome("name", "description", info[1]);
+  metaNome("property", "og:title", info[0]);
+  metaNome("property", "og:description", info[1]);
+  let link = document.head.querySelector("link[rel=canonical]");
+  if (!link) {
+    link = document.createElement("link");
+    link.setAttribute("rel", "canonical");
+    document.head.appendChild(link);
+  }
+  link.setAttribute("href", route === "home" ? SITO + "/" : SITO + "/" + route);
+}, [route]);
 useEffect(() => {
   function handleClick(e) {
     const link = e.target.closest('a[href^="#/"]');
