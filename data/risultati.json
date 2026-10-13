@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T05:04:12.588453+00:00",
+  "generatedAt": "2026-10-13T06:32:35.533328+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8669,20 +8669,20 @@
       "status": "in programma"
     },
     {
+      "id": "131657870",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "A.S.D. SIGILLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131657869",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 7",
       "home": "VIANDER ACTON BASTIA",
       "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131657870",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 7",
-      "home": "A.S.D. SIGILLO VOLLEY",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9005,8 +9005,8 @@
       "id": "131657906",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 16",
-      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "away": "A.S.D. SIGILLO VOLLEY",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16859,20 +16859,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659467",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 3",
-      "home": "SCHOOL VOLLEY PERUGIA NERO",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659468",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 3",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659467",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
