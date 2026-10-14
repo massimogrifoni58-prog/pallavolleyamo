@@ -5288,49 +5288,36 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   );
 }
 function Footer() {
+  const link = [
+    { label: "Chi Siamo", href: "#/chi-siamo" },
+    { label: "Iscriviti", href: "#/iscrizione" },
+    { label: "Mappa Volley", href: "#/mappa" },
+    { label: "Articoli Società", href: "#/articoli-societa" },
+  ];
   return (
-    <footer style={{
-      background: "var(--bg)",
-      borderTop: "1px solid rgba(212,175,55,0.2)",
-      padding: "2rem 1.5rem 1.5rem",
-      marginTop: "2rem",
-    }}>
-      <div style={{ maxWidth: "900px", margin: "0 auto", display: "flex", flexWrap: "wrap", gap: "2rem", justifyContent: "space-between" }}>
-        <div style={{ flex: 1, minWidth: "200px" }}>
-          <img src="/logo-pva.svg" alt="PallaVolleyAmo" style={{ width: "60px", marginBottom: "0.75rem" }} />
-          <p style={{ fontSize: "0.75rem", color: "var(--text-dim)", lineHeight: 1.6, margin: 0 }}>
-            Il portale della pallavolo umbra. Notizie, risultati e aggiornamenti ogni giorno.
-          </p>
+    <footer className="sito-footer">
+      <div className="sito-footer__griglia">
+        <div className="sito-footer__col">
+          <img src="/logo-pva.svg" alt="PallaVolleyAmo" className="sito-footer__logo" />
+          <p className="sito-footer__testo">Il portale della pallavolo umbra. Notizie, risultati e aggiornamenti ogni giorno.</p>
         </div>
-        <div style={{ minWidth: "140px" }}>
-          <div style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Link rapidi</div>
-          {[
-            { label: "Chi Siamo", href: "#/chi-siamo" },
-            { label: "Iscriviti", href: "#/iscrizione" },
-            { label: "Mappa Volley", href: "#/mappa" },
-            { label: "Articoli Società", href: "#/articoli-societa" },
-          ].map(l => (
-            <a key={l.href} href={l.href} style={{ display: "block", fontSize: "0.78rem", color: "var(--text-dim)", textDecoration: "none", marginBottom: "0.4rem" }}
-              onMouseOver={e => e.target.style.color = "var(--gold)"}
-              onMouseOut={e => e.target.style.color = "var(--text-dim)"}>
-              {l.label}
-            </a>
+        <div className="sito-footer__col">
+          <div className="sito-footer__titolo">Link rapidi</div>
+          {link.map(l => (
+            <a key={l.href} href={l.href} className="sito-footer__link">{l.label}</a>
           ))}
         </div>
-        <div style={{ minWidth: "140px" }}>
-          <div style={{ fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.12em", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.75rem" }}>Seguici</div>
-           <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer"
-           style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.78rem", color: "var(--text-dim)", textDecoration: "none" }}
-           onMouseOver={e => e.currentTarget.style.color = "var(--gold)"}
-           onMouseOut={e => e.currentTarget.style.color = "var(--text-dim)"}>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-         </svg>
-         Facebook
-        </a>
+        <div className="sito-footer__col">
+          <div className="sito-footer__titolo">Seguici</div>
+          <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer" className="sito-footer__link sito-footer__fb">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            Facebook
+          </a>
         </div>
       </div>
-      <div style={{ maxWidth: "900px", margin: "1.5rem auto 0", borderTop: "1px solid var(--border)", paddingTop: "1rem", fontSize: "0.68rem", color: "var(--text-dim)", textAlign: "center" }}>
+      <div className="sito-footer__fondo">
         © 2026 PallaVolleyAmo.it · Tutti i diritti riservati · Portale non ufficiale FIPAV
         <br />
         <LastUpdated /> · <VisitCounter />
