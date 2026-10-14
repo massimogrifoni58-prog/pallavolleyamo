@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T05:03:50.960775+00:00",
+  "generatedAt": "2026-10-14T09:55:05.431055+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -9812,15 +9812,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658185",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 3",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658184",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 3",
@@ -9844,6 +9835,15 @@
       "giornata": "Giornata 3",
       "home": "PMU MARSCIANO",
       "away": "UISP VOLLEY UMBERTIDE GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658185",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9893,15 +9893,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658194",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 5",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658192",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 5",
@@ -9916,6 +9907,15 @@
       "giornata": "Giornata 5",
       "home": "PMU MARSCIANO",
       "away": "REBELS ASSISI 2D PEACH",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658194",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10001,15 +10001,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658203",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 8",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658205",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 8",
@@ -10024,6 +10015,15 @@
       "giornata": "Giornata 8",
       "home": "SIR ASSISI",
       "away": "UNIPOL ASSICURAZIONI BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658203",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "PMU MARSCIANO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10100,15 +10100,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658216",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 11",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "UISP VOLLEY UMBERTIDE GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658218",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 11",
@@ -10132,6 +10123,15 @@
       "giornata": "Giornata 11",
       "home": "PMU MARSCIANO",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658216",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 11",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "UISP VOLLEY UMBERTIDE GIALLA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10181,15 +10181,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658225",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 13",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "REBELS ASSISI 2D PEACH",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658224",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 13",
@@ -10204,6 +10195,15 @@
       "giornata": "Giornata 13",
       "home": "PMU MARSCIANO",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658225",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 13",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "REBELS ASSISI 2D PEACH",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10253,15 +10253,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658234",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 15",
-      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "away": "SIR ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658232",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 15",
@@ -10276,6 +10267,15 @@
       "giornata": "Giornata 15",
       "home": "PMU MARSCIANO",
       "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658234",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 15",
+      "home": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "away": "SIR ASSISI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13331,20 +13331,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644342",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 3",
-      "home": "SIR GIOVANILE MERICAT GREEN",
-      "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644344",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 3",
       "home": "POLISPORTIVA CLT",
       "away": "V. NARNI S.A.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644342",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -15482,20 +15482,20 @@
       "status": "in programma"
     },
     {
-      "id": "131660178",
-      "competition": "Under 15 Maschile Girone A",
-      "giornata": "Giornata 2",
-      "home": "SCHOOL VOLLEY PERUGIA",
-      "away": "STRIKE TEAM MONTELUCE U15",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131660179",
       "competition": "Under 15 Maschile Girone A",
       "giornata": "Giornata 2",
       "home": "CITTA DI CASTELLO PALLAVOLO",
       "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131660178",
+      "competition": "Under 15 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "STRIKE TEAM MONTELUCE U15",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16040,15 +16040,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659104",
-      "competition": "Under 15 Femminile Girone A",
-      "giornata": "Giornata 3",
-      "home": "PALLAVOLO CITTA' DI CASTELLO",
-      "away": "NUOVA PALLAVOLO GUALDO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659105",
       "competition": "Under 15 Femminile Girone A",
       "giornata": "Giornata 3",
@@ -16063,6 +16054,15 @@
       "giornata": "Giornata 3",
       "home": "TRESTINA VOLLEY",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659104",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "NUOVA PALLAVOLO GUALDO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17012,20 +17012,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659486",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 9",
-      "home": "SIRIO PALLAVOLO VERDE",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659484",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 9",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659486",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17876,20 +17876,20 @@
       "status": "in programma"
     },
     {
-      "id": "131664964",
-      "competition": "Under 14 Maschile Girone Unico",
-      "giornata": "Giornata 1",
-      "home": "V. NARNI S.A.",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131664965",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 1",
       "home": "SIR MERICAT PERUGIA",
       "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131664964",
+      "competition": "Under 14 Maschile Girone Unico",
+      "giornata": "Giornata 1",
+      "home": "V. NARNI S.A.",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17957,20 +17957,20 @@
       "status": "in programma"
     },
     {
-      "id": "131664973",
-      "competition": "Under 14 Maschile Girone Unico",
-      "giornata": "Giornata 4",
-      "home": "STRIKE TEAM MONTELUCE U14M",
-      "away": "SIR MERICAT PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131664972",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 4",
       "home": "INTER VOLLEY FOLIGNO",
       "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131664973",
+      "competition": "Under 14 Maschile Girone Unico",
+      "giornata": "Giornata 4",
+      "home": "STRIKE TEAM MONTELUCE U14M",
+      "away": "SIR MERICAT PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18443,6 +18443,15 @@
       "status": "in programma"
     },
     {
+      "id": "131660333",
+      "competition": "Under 14 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "TIBER VOLLEY",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131660332",
       "competition": "Under 14 Femminile Girone A",
       "giornata": "Giornata 8",
@@ -18457,15 +18466,6 @@
       "giornata": "Giornata 8",
       "home": "TRESTINA VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131660333",
-      "competition": "Under 14 Femminile Girone A",
-      "giornata": "Giornata 8",
-      "home": "TIBER VOLLEY",
-      "away": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
