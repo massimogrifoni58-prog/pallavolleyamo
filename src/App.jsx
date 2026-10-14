@@ -264,7 +264,9 @@ function Ticker({ posts }) {
 }
 function NavDropdown({ label, items, subscribed }) {
   const [open, setOpen] = useState(false);
+  const [shift, setShift] = useState(0);
   const ref = useRef(null);
+  const menuRef = useRef(null);
 
   useEffect(() => {
     function handleClickOutside(e) {
@@ -275,6 +277,19 @@ function NavDropdown({ label, items, subscribed }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  useEffect(() => {
+    if (!open) { setShift(0); return; }
+    const el = menuRef.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const m = 8;
+    let s = 0;
+    if (r.left < m) s = m - r.left;
+    else if (r.right > window.innerWidth - m) s = (window.innerWidth - m) - r.right;
+    setShift(s);
+  }, [open]);
+
   const ricco = items.some((i) => i.sub);
   return (
     <div className="nav-dropdown" ref={ref}>
@@ -282,7 +297,11 @@ function NavDropdown({ label, items, subscribed }) {
         {label} <span className="nav-btn__arrow">{open ? "▲" : "▼"}</span>
       </button>
       {open && (
-        <div className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "")}>
+        <div
+          ref={menuRef}
+          className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "")}
+          style={shift ? { marginLeft: shift + "px" } : undefined}
+        >
           {items.map((item) => {
             const locked = item.locked && !subscribed;
             if (item.sub) {
@@ -481,35 +500,35 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
       </button>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
      <NavDropdown
-  label="Notizie"
-  subscribed={subscribed}
-  items={[
-    { href: "#/nazionale", label: "News delle Nazionali", locked: true },
-    { href: "#/nazionali", label: "News Campionati Naz.", locked: true },
-    { href: "#/regionali", label: "News Regionali", locked: true },
-    { href: "#/terni", label: "News Prov. TR", locked: true },
-    { href: "#/perugia", label: "News Prov. PG", locked: true },
-    { href: "#/squadre-top", label: "News Squadre", locked: true },
-    { href: "#/pallavolo-umbria", label: "La Settimana Volley", locked: true },
-  ]}
-/>
+          label="Notizie"
+          subscribed={subscribed}
+          items={[
+            { href: "#/nazionale", label: "News delle Nazionali", sub: "Le ultime su azzurre e azzurri", locked: true },
+            { href: "#/nazionali", label: "News Campionati Naz.", sub: "Serie A, B e campionati nazionali", locked: true },
+            { href: "#/regionali", label: "News Regionali", sub: "Serie C, D e giovanili dell'Umbria", locked: true },
+            { href: "#/terni", label: "News Prov. TR", sub: "Dalla provincia di Terni", locked: true },
+            { href: "#/perugia", label: "News Prov. PG", sub: "Dalla provincia di Perugia", locked: true },
+            { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice", locked: true },
+            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", locked: true, evidenza: true },
+          ]}
+        />
 <NavDropdown
-  label="Bacheca"
-  subscribed={subscribed}
-  items={[
-    { href: "#/mercato", label: "Mercato" },
-    { href: "#/articoli-societa", label: "Articoli Società", locked: true },
-    { href: "#/rosa", label: "Invia Rosa" },
-  ]}
-/>
+          label="Bacheca"
+          subscribed={subscribed}
+          items={[
+            { href: "#/mercato", label: "Mercato", sub: "Cerco e offro: atlete, atleti, allenatori" },
+            { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società", locked: true },
+            { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
+          ]}
+        />
         <NavDropdown
           label="Top Atleti"
           subscribed={subscribed}
           items={[
-            { href: "#/atleta-settimana", label: "Atleta della Settimana", locked: true },
-            { href: "#/squadra-settimana", label: "Squadra della Settimana", locked: true },
-     ]}
-    />
+            { href: "#/atleta-settimana", label: "Atleta della Settimana", sub: "Chi ha brillato in campo", locked: true },
+            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire", locked: true },
+          ]}
+        />
         <NavDropdown
           label="Campionati"
           subscribed={subscribed}
@@ -525,33 +544,33 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           ]}
         />
         <NavDropdown
-            label="Foto e Video"
-            subscribed={subscribed}
-            items={[
-              { href: "#/galleria", label: "Galleria Foto", locked: true },
-              { href: "#/foto-settimana", label: "Foto del Giorno", locked: true },
-              { href: "#/video", label: " Video", locked: true },
-       ]}
-      />
+          label="Foto e Video"
+          subscribed={subscribed}
+          items={[
+            { href: "#/galleria", label: "Galleria Foto", sub: "Gli album delle partite", locked: true },
+            { href: "#/foto-settimana", label: "Foto del Giorno", sub: "Lo scatto più bello", locked: true },
+            { href: "#/video", label: "Video", sub: "Azioni e highlights", locked: true, largo: true },
+          ]}
+        />
         <NavDropdown
-  label="Formazione"
-  subscribed={subscribed}
-  items={[
-    { href: "#/fondamentali", label: "Tecnica", locked: true },
-    { href: "#/preparazione-fisica", label: "Fisica", locked: true },
-    { href: "#/mental-coach", label: "Mente", locked: true },
-    { href: "#/schede", label: "Schede Allenamento", locked: true },
-  ]}
-/>
+          label="Formazione"
+          subscribed={subscribed}
+          items={[
+            { href: "#/fondamentali", label: "Tecnica", sub: "Fondamentali e gesti tecnici", locked: true },
+            { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica", locked: true },
+            { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione", locked: true },
+            { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare", locked: true },
+          ]}
+        />
         <NavDropdown
-           label="Allenatori"
-subscribed={subscribed}
-items={[
-  { href: "#/allenatori2", label: "Cerca Allenatore", locked: true },
-  { href: "#/camp", label: "Camp Estivi 2026", locked: true },
-  { href: "#/velasco", label: "Julio Velasco", locked: true },
-]}
-      />
+          label="Allenatori"
+          subscribed={subscribed}
+          items={[
+            { href: "#/allenatori2", label: "Cerca Allenatore", sub: "Trova il tecnico giusto", locked: true },
+            { href: "#/camp", label: "Camp Estivi 2026", sub: "Camp e stage per atlete e atleti", locked: true },
+            { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", locked: true, largo: true },
+          ]}
+        />
       </nav>
     </header>
   );
