@@ -678,6 +678,36 @@ function HomePage({ latestNews = [] }) {
   const nCampionati = new Set((risultatiData.matches || []).map((m) => getMacroCategory(m.competition))).size;
   const nSquadre = new Set((risultatiData.matches || []).flatMap((m) => [m.home, m.away])).size;
 
+  const weekendHome = (() => {
+    const tc = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+    const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    const base = new Date();
+    base.setHours(12, 0, 0, 0);
+    const dow = base.getDay();
+    const sab = new Date(base);
+    sab.setDate(base.getDate() + (dow === 0 ? -1 : 6 - dow));
+    const ven = new Date(sab); ven.setDate(sab.getDate() - 1);
+    const dom = new Date(sab); dom.setDate(sab.getDate() + 1);
+    const da = iso(ven), a = iso(dom), oggi = iso(base);
+    const lista = Object.values(calendarioRegionaliData.partite || {}).flat()
+      .filter((p) => p.data && p.data >= da && p.data <= a && p.data >= oggi && !p.risultato && /^Serie [CD]/.test(p.campionato || ""))
+      .sort((x, y) => (x.data + (x.ora || "")).localeCompare(y.data + (y.ora || "")));
+    const mostra = [];
+    const viste = new Set();
+    lista.forEach((p) => { if (mostra.length < 3 && !viste.has(p.campionato)) { viste.add(p.campionato); mostra.push(p); } });
+    lista.forEach((p) => { if (mostra.length < 3 && !mostra.includes(p)) mostra.push(p); });
+    mostra.sort((x, y) => (x.data + (x.ora || "")).localeCompare(y.data + (y.ora || "")));
+    const giorno = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+    return {
+      titolo: (dow >= 5 || dow === 0) ? "Questo weekend in Umbria" : "Il prossimo weekend in Umbria",
+      totale: lista.length,
+      mostra,
+      tc,
+      quando: (p) => giorno(p.data) + (p.ora ? " · " + p.ora : "") + " · " + (p.campionato || "").replace(/ Girone.*$/, ""),
+    };
+  })();
+
+
   return (
     <main>
       <div className="hero-grafico">
@@ -756,7 +786,44 @@ function HomePage({ latestNews = [] }) {
           )}
         </div>
       </div>     
-       {squadreTopData.news && (
+             {weekendHome.mostra.length > 0 && (
+        <div className="evidenza-box">
+          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "0.5rem" }}>
+            <h2 className="evidenza-titolo">{weekendHome.titolo}</h2>
+            <a href="#/weekend-umbria" style={{ color: "var(--gold)", fontSize: "0.85rem", fontWeight: 700, textDecoration: "none", marginBottom: "1rem" }}>
+              Tutte le {weekendHome.totale} partite →
+            </a>
+          </div>
+          <div className="evidenza-grid">
+            {weekendHome.mostra.map((p) => (
+              <a key={p.id} href="#/weekend-umbria" className="evidenza-card">
+                <div className="evidenza-card__body">
+                  <p className="evidenza-card__date">{weekendHome.quando(p)}</p>
+                  <h3 className="evidenza-card__title">{weekendHome.tc(p.casa)} – {weekendHome.tc(p.ospite)}</h3>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {pallavoloUmbriaData && pallavoloUmbriaData.titolo && (
+        <div className="evidenza-box">
+          <h2 className="evidenza-titolo">La Settimana Volley</h2>
+          <a href="#/pallavolo-umbria" className="evidenza-card">
+            <div className="evidenza-card__body">
+              <p className="evidenza-card__date">{pallavoloUmbriaData.settimana}</p>
+              <h3 className="evidenza-card__title" style={{ fontSize: "1.05rem" }}>{pallavoloUmbriaData.titolo}</h3>
+              {pallavoloUmbriaData.occhiello && (
+                <p style={{ margin: "0.5rem 0 0", fontSize: "0.85rem", lineHeight: 1.55, color: "var(--text-dim)" }}>{pallavoloUmbriaData.occhiello}</p>
+              )}
+              <p style={{ margin: "0.7rem 0 0", color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem" }}>Leggi la settimana →</p>
+            </div>
+          </a>
+        </div>
+      )}
+
+      {squadreTopData.news && (
         <div className="evidenza-box">
           <h2 className="evidenza-titolo">Squadre Umbre Top</h2>
           <div className="evidenza-grid">
