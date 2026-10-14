@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:55:48.723272+00:00",
+  "generatedAt": "2026-10-14T21:29:03.218255+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6177,7 +6177,7 @@
         "ora": "19:00",
         "casa": "SIRIO PALLAVOLO ROSSA",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-b-1",
@@ -7295,7 +7295,7 @@
         "ora": "20:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-19-femminile-girone-a-2",
@@ -7889,7 +7889,7 @@
         "ora": "18:30",
         "casa": "MARCONI MONINI PALLAVOLO BLU",
         "ospite": "ASD PALLAVOLO NORCIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-e-1",
@@ -7899,7 +7899,7 @@
         "ora": "18:30",
         "casa": "FOLIGNO VOLLEY ROSSA",
         "ospite": "BOSICO  VOLLEY-TERNI VA BLU BARTOCCINI",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-e-2",
