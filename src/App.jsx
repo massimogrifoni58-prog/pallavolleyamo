@@ -275,15 +275,33 @@ function NavDropdown({ label, items, subscribed }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+  const ricco = items.some((i) => i.sub);
   return (
     <div className="nav-dropdown" ref={ref}>
       <button className="nav-btn nav-btn--drop" onClick={() => setOpen(!open)}>
         {label} <span className="nav-btn__arrow">{open ? "▲" : "▼"}</span>
       </button>
       {open && (
-        <div className="nav-dropdown__menu">
+        <div className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "")}>
           {items.map((item) => {
             const locked = item.locked && !subscribed;
+            if (item.sub) {
+              return (
+                <a
+                  key={item.href}
+                  className={"nav-dropdown__item nav-dropdown__item--ricco" + (item.evidenza ? " nav-dropdown__item--evidenza" : "") + (item.largo || item.evidenza ? " nav-dropdown__item--largo" : "")}
+                  href={locked ? "#/iscrizione" : item.href}
+                  onClick={() => setOpen(false)}
+                  style={locked ? { opacity: 0.65 } : {}}
+                >
+                  <span className="nav-dropdown__icon">{item.icon}</span>
+                  <span className="nav-dropdown__testo">
+                    <span className="nav-dropdown__titolo">{item.label}{locked && " \u{1F512}"}</span>
+                    <span className="nav-dropdown__sub">{item.sub}</span>
+                  </span>
+                </a>
+              );
+            }
             return (
               <a
                 key={item.href}
@@ -292,7 +310,7 @@ function NavDropdown({ label, items, subscribed }) {
                 onClick={() => setOpen(false)}
                 style={locked ? { opacity: 0.6 } : {}}
               >
-                {item.label} {locked && "🔒"}
+                {item.label} {locked && "\u{1F512}"}
               </a>
             );
           })}
@@ -472,8 +490,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
     { href: "#/terni", label: "News Prov. TR", locked: true },
     { href: "#/perugia", label: "News Prov. PG", locked: true },
     { href: "#/squadre-top", label: "News Squadre", locked: true },
-    { href: "#/pallavolo-umbria", label: "La Settimana Volley", locked: true },
-    { href: "#/weekend-umbria", label: "Il weekend in Umbria" },
+    { href: "#/pallavolo-umbria", label: "La Settimana Volley", locked: true },
   ]}
 />
 <NavDropdown
@@ -494,17 +511,19 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
      ]}
     />
         <NavDropdown
-   label="Campionati"
-   subscribed={subscribed}
-   items={[
-     { href: "#/dirette", label: (diretteData.dirette || []).length > 0 ? "🔴 Dirette Live" : "Dirette Live" },
-     { href: "#/squadre-iscritte", label: "Squadre Iscritte" },
-     { href: "#/agenda", label: "Calendario Squadre", locked: true },
-     { href: "#/classifica", label: "Classifica" },
-     { href: "#/headtohead", label: "Head to Head" },
-     { href: "#/mappa", label: "🗺 Mappa", locked: true },
-  ]}
- />
+          label="Campionati"
+          subscribed={subscribed}
+          items={[
+            { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
+            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Serie C, D e giovanili" },
+            { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
+            { href: "#/agenda", icon: "\u{1F4C5}", label: "Calendario squadre", sub: "Le gare di ogni squadra", locked: true },
+            { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
+            { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
+            { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre", locked: true },
+            { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati", largo: true },
+          ]}
+        />
         <NavDropdown
             label="Foto e Video"
             subscribed={subscribed}
