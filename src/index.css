@@ -4784,3 +4784,14 @@ body.light-mode .nav-dropdown__menu--ricco .nav-dropdown__item:hover { border-co
 .risultati-mini__score { color: var(--gold); font-weight: 700; font-size: 0.82rem; white-space: nowrap; }
 @media (max-width: 900px) { .risultati-mini__griglia { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .risultati-mini__griglia { grid-template-columns: 1fr; } }
+
+/* FINE_SCHEDE */
+.fine-schede { display: flex; flex-wrap: wrap; gap: 12px; margin: 1.5rem 0 0.5rem; }
+.fine-schede__oro { flex: 2 1 320px; min-width: 0; background: var(--gold); color: #141413; border-radius: 12px; padding: 0.9rem 1.2rem; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.fine-schede__titolo { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; line-height: 1; letter-spacing: 0.03em; }
+.fine-schede__testo { font-size: 0.8rem; margin-top: 3px; }
+.fine-schede__btn { background: #141413; color: #f2efe6; padding: 0.5rem 0.9rem; border-radius: 8px; font-weight: 700; font-size: 0.8rem; text-decoration: none; }
+.fine-schede__nera { flex: 1 1 220px; min-width: 0; background: #141413; color: #f2efe6; border: 1px solid #2a2a2a; border-radius: 12px; padding: 0.9rem 1.2rem; display: flex; flex-direction: column; gap: 3px; justify-content: center; }
+.fine-schede__mini { font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+.fine-schede__fb { font-size: 0.9rem; font-weight: 700; }
+.fine-schede__link { font-size: 0.8rem; font-weight: 700; color: var(--gold); text-decoration: none; }

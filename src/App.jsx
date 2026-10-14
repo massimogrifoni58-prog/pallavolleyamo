@@ -876,10 +876,20 @@ function HomePage({ latestNews = [] }) {
         </div>
       )}
 
-      <div className="iscriviti-banner">
-          <span className="iscriviti-banner__testo">Iscriviti gratis — Leggi tutte le notizie senza limiti</span>
-          <a href="#/iscrizione" className="iscriviti-banner__btn">Iscriviti ora →</a>
+            <div className="fine-schede">
+        <div className="fine-schede__oro">
+          <div>
+            <div className="fine-schede__titolo">Iscriviti gratis</div>
+            <div className="fine-schede__testo">Leggi tutte le notizie senza limiti.</div>
+          </div>
+          <a href="#/iscrizione" className="fine-schede__btn">Iscriviti ora →</a>
         </div>
+        <div className="fine-schede__nera">
+          <div className="fine-schede__mini">Seguici</div>
+          <div className="fine-schede__fb">PallaVolleyAmo su Facebook</div>
+          <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noopener noreferrer" className="fine-schede__link">Apri la pagina →</a>
+        </div>
+      </div>
        </main>
   );
 }
