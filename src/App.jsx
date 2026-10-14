@@ -678,6 +678,13 @@ function HomePage({ latestNews = [] }) {
   const nCampionati = new Set((risultatiData.matches || []).map((m) => getMacroCategory(m.competition))).size;
   const nSquadre = new Set((risultatiData.matches || []).flatMap((m) => [m.home, m.away])).size;
 
+  const risultatiCard = (() => {
+    const prio = (c) => (/^serie [cd]/i.test(c || "") ? 0 : 1);
+    return [...risultati].sort((x, y) => prio(x.competition) - prio(y.competition)).slice(0, 6);
+  })();
+  const tcR = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+
+
   const weekendHome = (() => {
     const tc = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
     const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
@@ -803,6 +810,30 @@ function HomePage({ latestNews = [] }) {
                 </div>
               </a>
             ))}
+          </div>
+        </div>
+      )}
+
+      {hasRisultati && risultatiCard.length > 0 && (
+        <div className="risultati-mini">
+          <div className="risultati-mini__testa">
+            <h2 className="risultati-mini__titolo">Ultimi risultati</h2>
+            <a href="#/risultati" className="risultati-mini__link">Tutti i risultati →</a>
+          </div>
+          <div className="risultati-mini__griglia">
+            {risultatiCard.map((m) => {
+              const [sc, so] = (m.score || "0-0").split("-").map((n) => parseInt(n, 10) || 0);
+              return (
+                <a key={m.id} href="#/risultati" className="risultati-mini__riga">
+                  <span className="risultati-mini__cat">{(m.competition || "").replace(/ Girone.*$/, "")}</span>
+                  <span className="risultati-mini__partita">
+                    <span className={"risultati-mini__casa" + (sc > so ? " risultati-mini__vince" : "")}>{tcR(m.home)}</span>
+                    <span className="risultati-mini__score">{sc} – {so}</span>
+                    <span className={"risultati-mini__ospite" + (so > sc ? " risultati-mini__vince" : "")}>{tcR(m.away)}</span>
+                  </span>
+                </a>
+              );
+            })}
           </div>
         </div>
       )}
