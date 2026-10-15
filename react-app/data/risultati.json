@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:35:53.452392+00:00",
+  "generatedAt": "2026-10-15T16:43:19.051316+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -15986,15 +15986,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659099",
-      "competition": "Under 15 Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "NUOVA PALLAVOLO GUALDO",
-      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659098",
       "competition": "Under 15 Femminile Girone A",
       "giornata": "Giornata 1",
@@ -16009,6 +16000,15 @@
       "giornata": "Giornata 1",
       "home": "TRESTINA VOLLEY",
       "away": "POLISPORTIVA DON BOSCO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659099",
+      "competition": "Under 15 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "NUOVA PALLAVOLO GUALDO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16400,20 +16400,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659142",
-      "competition": "Under 15 Femminile Girone B",
-      "giornata": "Giornata 6",
-      "home": "PMU MARSCIANO BLU",
-      "away": "SIRIO PALLAVOLO ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659143",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "SIR PERUGIA",
       "away": "BARTOCCINI SCHOOL VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659142",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "PMU MARSCIANO BLU",
+      "away": "SIRIO PALLAVOLO ROSSA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17480,20 +17480,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659537",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 6",
-      "home": "FREE GAS&LUCE NARNI",
-      "away": "PMU MARSCIANO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659535",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 6",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "REALE MUTUA TUDER VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659537",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 6",
+      "home": "FREE GAS&LUCE NARNI",
+      "away": "PMU MARSCIANO BIANCA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17615,20 +17615,20 @@
       "status": "in programma"
     },
     {
-      "id": "131660634",
-      "competition": "Under 15 Femminile Girone G",
-      "giornata": "Giornata 1",
-      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
-      "away": "ASD CASCIA PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659550",
       "competition": "Under 15 Femminile Girone G",
       "giornata": "Giornata 1",
       "home": "BOSICO GIOIELLERIE BARTOCCINI",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131660634",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 1",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "ASD CASCIA PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18956,6 +18956,15 @@
       "status": "in programma"
     },
     {
+      "id": "131661609",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661611",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 7",
@@ -18970,15 +18979,6 @@
       "giornata": "Giornata 7",
       "home": "VIANDER ACTON BASTIA",
       "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131661609",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 7",
-      "home": "REVISIONANDO VITT CHIUSI",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "score": "da disputare",
       "status": "in programma"
     },
