@@ -6,6 +6,7 @@ import terniData from "../data/terni.json";
 import perugiaData from "../data/perugia.json";
 import risultatiData from "../data/risultati.json";
 import risultatiNazionali from "../data/risultati_nazionali.json";
+import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import pilloleData from "../data/pillole.json";
@@ -535,7 +536,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
-            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A3, Serie C, D e giovanili" },
+            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
             { href: "#/agenda", icon: "\u{1F4C5}", label: "Calendario squadre", sub: "Le gare di ogni squadra", locked: true },
             { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
@@ -5637,7 +5638,7 @@ function ordinaCampionati(lista) {
 }
 const NAZ_CAMP = [];
 const NAZ_PARTITE = {};
-(risultatiNazionali.matches || []).forEach((m) => {
+[...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])].forEach((m) => {
   if (!m.dataIso) return;
   const id = "naz-" + m.competition.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+$/, "");
   if (!NAZ_PARTITE[id]) {
@@ -5741,7 +5742,7 @@ function CalendarioCompletoPage() {
         <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
   <select className="all2-select" value={selCategoria}
     onChange={(e) => cambiaCategoria(e.target.value)}>
-        <optgroup label="Superlega e Serie A3">
+        <optgroup label="Campionati nazionali">
       {categorie.filter(c => c.id.startsWith("naz-"))
         .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
     </optgroup>
