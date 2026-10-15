@@ -26,11 +26,12 @@ jobs:
           python fetch_calendario_fipav.py
           python fetch_merge_regionali_giovanili.py
           python fetch_risultati.py
+          python fetch_nazionali.py
       - name: Copia i soli file interessati e scarta se invariati
         run: |
           python - <<'EOF'
           import json, subprocess, shutil
-          files = ["calendario_regionali.json", "risultati.json"]
+          files = ["calendario_regionali.json", "risultati.json", "risultati_nazionali.json"]
           for f in files:
               src = "react-app/data/" + f
               dst = "data/" + f
@@ -53,7 +54,7 @@ jobs:
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
           git config --global user.name "PallaVolleyAmo Bot"
-          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json
+          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json react-app/data/risultati_nazionali.json data/risultati_nazionali.json
           if git diff --staged --quiet; then
             echo "Nessun cambiamento, esco"
             exit 0

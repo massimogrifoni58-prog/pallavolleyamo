@@ -5,6 +5,7 @@ import regionaliData from "../data/regionali.json";
 import terniData from "../data/terni.json";
 import perugiaData from "../data/perugia.json";
 import risultatiData from "../data/risultati.json";
+import risultatiNazionali from "../data/risultati_nazionali.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import pilloleData from "../data/pillole.json";
@@ -534,7 +535,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
-            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Serie C, D e giovanili" },
+            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A3, Serie C, D e giovanili" },
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
             { href: "#/agenda", icon: "\u{1F4C5}", label: "Calendario squadre", sub: "Le gare di ogni squadra", locked: true },
             { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
@@ -1391,6 +1392,7 @@ function MatchRow({ match }) {
       </div>
       {open && (
         <div className="match__detail">
+          {match.data && <span>Quando: {match.data}</span>}
           <span>Campionato: {match.competition}</span>
           <span>Giornata: {match.giornata}</span>
           <span>Stato: {disputata ? "Disputata" : "Da disputare"}</span>
@@ -1401,6 +1403,8 @@ function MatchRow({ match }) {
 }
 
 const COMPETITION_PRIORITY = [
+  "superlega",
+  "serie a3",
   "serie c maschile",
   "serie c femminile",
   "serie d maschile",
@@ -1440,7 +1444,7 @@ function getMacroCategory(name) {
 
 function isAllowedCategory(name) {
   const lower = (name || "").toLowerCase();
-  const allowed = ["serie c", "serie d", "1 divisione", "prima divisione", "2 divisione", "seconda divisione", "1° divisione", "2° divisione"];
+  const allowed = ["superlega", "serie a3", "serie c", "serie d", "1 divisione", "prima divisione", "2 divisione", "seconda divisione", "1° divisione", "2° divisione"];
   return allowed.some(k => lower.includes(k));
 }
 function VideoPage() {
@@ -1616,7 +1620,7 @@ function DiretteLivePage() {
 
 function RisultatiPage() {
   const urlCat = "";
-  const matches = (risultatiData.matches || []).filter((m) => isAllowedCategory(m.competition));
+  const matches = [...(risultatiData.matches || []), ...(risultatiNazionali.matches || [])].filter((m) => isAllowedCategory(m.competition));
 
   const byMacro = {};
   matches.forEach((m) => {
@@ -1704,7 +1708,7 @@ function RisultatiPage() {
 }
 
 function CalendarioPage() {
-  const allMatches = risultatiData.matches || [];
+  const allMatches = [...(risultatiData.matches || []), ...(risultatiNazionali.matches || [])];
   const matches = allMatches.filter((m) => m.status !== "disputata");
 
   const byMacro = {};
@@ -5631,9 +5635,29 @@ function ordinaCampionati(lista) {
     return a.nome.localeCompare(b.nome, "it");
   });
 }
+const NAZ_CAMP = [];
+const NAZ_PARTITE = {};
+(risultatiNazionali.matches || []).forEach((m) => {
+  if (!m.dataIso) return;
+  const id = "naz-" + m.competition.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-+$/, "");
+  if (!NAZ_PARTITE[id]) {
+    NAZ_PARTITE[id] = [];
+    NAZ_CAMP.push({ id, nome: m.competition.replace(" Girone Unico", "") });
+  }
+  NAZ_PARTITE[id].push({
+    id: m.id,
+    data: m.dataIso,
+    ora: m.ora,
+    casa: m.home,
+    ospite: m.away,
+    risultato: m.status === "disputata" ? m.score : "0-0",
+    giornata: String(m.giornata || "").replace(/\D/g, ""),
+    impianto: m.impianto || "",
+  });
+});
 function CalendarioCompletoPage() {
-  const campionatiRegionali = calendarioRegionaliData.campionati || [];
-  const partiteRegionaliData = calendarioRegionaliData.partite || {};
+  const campionatiRegionali = [...(calendarioRegionaliData.campionati || []), ...NAZ_CAMP];
+  const partiteRegionaliData = { ...(calendarioRegionaliData.partite || {}), ...NAZ_PARTITE };
   const partiteNazionali = calendarioSquadreData.partite || [];
 
   const categorie = [
@@ -5717,8 +5741,12 @@ function CalendarioCompletoPage() {
         <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
   <select className="all2-select" value={selCategoria}
     onChange={(e) => cambiaCategoria(e.target.value)}>
-        <optgroup label="Serie C e D">
-      {ordinaCampionati(categorie.filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-")))
+        <optgroup label="Superlega e Serie A3">
+      {categorie.filter(c => c.id.startsWith("naz-"))
+        .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
+    </optgroup>
+    <optgroup label="Serie C e D">
+      {ordinaCampionati(categorie.filter(c => c.id !== "nazionale" && !c.id.startsWith("giov-") && !c.id.startsWith("naz-")))
         .map(c => <option key={c.id} value={c.id}>{c.nome}</option>)}
     </optgroup>
     <optgroup label="1ª Divisione">

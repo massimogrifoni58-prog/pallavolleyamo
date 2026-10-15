@@ -1,168 +1,146 @@
 """
-Scraper notizie CAMPIONATI NAZIONALI - Bing News RSS
-=========================================================
-Scarica le ultime notizie sui campionati nazionali di pallavolo
-(SuperLega, Serie A1 femminile, ecc.) da Bing News, che fornisce
-link diretti veri (a differenza di Google News) cosi' possiamo
-recuperare anche le immagini di anteprima.
+Scraper RISULTATI NAZIONALI - solo squadre umbre
+================================================
+Legge i calendari/risultati di legavolley.it (Superlega e Serie A3)
+e tiene solo le partite delle squadre umbre.
 
 Uso:
-    python fetch_nazionali.py
+    python fetch_nazionali.py                     (scarica dal sito)
+    python fetch_nazionali.py --prova 999 file.html [1001 file2.html ...]
 
 Output:
-    ../react-app/data/nazionali.json
+    ../react-app/data/risultati_nazionali.json
 """
 
-import gzip
 import json
 import re
 import sys
-import urllib.error
-import urllib.parse
 import urllib.request
-import xml.etree.ElementTree as ET
-from pathlib import Path
 from datetime import datetime, timezone
+from pathlib import Path
+from bs4 import BeautifulSoup
 
-# Una o piu' parole chiave di ricerca per questa sezione.
-QUERIES = [
-    "superlega volley",
-    "serie a1 volley femminile",
-    "serie a pallavolo",
-]
-
-LIMIT_PER_QUERY = 15
-TOTAL_LIMIT = 30
-# Escludiamo notizie della Nazionale che vanno in nazionale.json
-EXCLUDE_KEYWORDS = [
-    "nazionale italiana", "azzurre", "azzurri", "vnl", 
-    "nations league", "mondiali", "olimpiadi", "europei",
-    "velasco", "de giorgi",
-]
-OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "nazionali.json"
+URL = "https://www.legavolley.it/calendario/?idCampionato={id}"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
+OUTPUT_PATH = Path(__file__).resolve().parent.parent / "react-app" / "data" / "risultati_nazionali.json"
+
+# (idCampionato, nome campionato)
+CAMPIONATI = [
+    (999, "Superlega Girone Unico"),
+    (1001, "Serie A3 Maschile Girone Bianco"),
+    (1002, "Serie A3 Maschile Girone Blu"),
+]
+
+# Pezzi di nome (minuscolo) delle squadre umbre da tenere
+SQUADRE_UMBRE = ["sir susa", "sir safety", "altotevere", "terni"]
+
+RE_GIORNATA = re.compile(r"(\d+)\s*ª?\s*Giornata\s*(Andata|Ritorno)?", re.I)
+RE_DATA = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
+RE_ORA = re.compile(r"Ore\s*(\d{1,2}[:.]\d{2})", re.I)
+RE_SCORE = re.compile(r"^(\d+)\s*-\s*(\d+)$")
 
 
-def fetch_og_image(url, timeout=8):
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=timeout) as response:
-            raw = response.read(60000)
-            if response.headers.get("Content-Encoding") == "gzip":
-                raw = gzip.decompress(raw)
-            html = raw.decode("utf-8", errors="ignore")
-    except Exception:
-        return None
-
-    match = re.search(
-        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
-        html,
-        re.IGNORECASE,
-    )
-    if not match:
-        match = re.search(
-            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-            html,
-            re.IGNORECASE,
-        )
-    return match.group(1) if match else None
+def scarica(url):
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="ignore")
 
 
-def build_rss_url(query):
-    q = urllib.parse.quote(query)
-    return f"https://www.bing.com/news/search?q={q}&format=RSS&setlang=it-IT&cc=IT"
+def e_umbra(nome):
+    n = nome.lower()
+    return any(k in n for k in SQUADRE_UMBRE)
 
 
-def fetch_rss(query):
-    url = build_rss_url(query)
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            return response.read()
-    except urllib.error.HTTPError as e:
-        print(f"ERRORE HTTP {e.code} per la query '{query}'")
-        return None
-    except urllib.error.URLError as e:
-        print(f"ERRORE di connessione per la query '{query}': {e}")
-        return None
+def pulisci(t):
+    return re.sub(r"\s+", " ", t.replace("\xa0", " ")).strip()
 
 
-def extract_real_url(bing_link):
-    """Il link RSS di Bing e' un wrapper (bing.com/news/apiclick.aspx?...
-    &url=LINK_VERO&...). Estraiamo il link vero per mostrare la fonte
-    corretta (es. corriere.it) invece di sempre 'bing.com'."""
-    try:
-        parsed = urllib.parse.urlparse(bing_link)
-        params = urllib.parse.parse_qs(parsed.query)
-        if "url" in params:
-            return params["url"][0]
-    except Exception:
-        pass
-    return bing_link
-
-
-def source_from_url(url):
-    try:
-        return urllib.parse.urlparse(url).netloc.replace("www.", "")
-    except Exception:
-        return ""
-
-
-def parse_rss(xml_bytes, limit):
-    root = ET.fromstring(xml_bytes)
-    items = root.findall("./channel/item")[:limit]
-
-    posts = []
-    for item in items:
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        link = extract_real_url(link)
-        pub_date = (item.findtext("pubDate") or "").strip()
-        source = source_from_url(link)
-
-        posts.append({
-            "title": title,
-            "excerpt": f"Fonte: {source}" if source else "",
-            "createdTime": pub_date,
-            "image": None,
-            "permalink": link,
+def leggi_calendario(html, id_camp, nome_camp):
+    soup = BeautifulSoup(html, "html.parser")
+    tabelle = soup.find_all("table", id="GareGiornata")
+    # 1) intestazioni di giornata + righe partita, in ordine di documento
+    elementi = []
+    for tr in soup.find_all("tr"):
+        classi = tr.get("class") or []
+        if tr.get("id") == "HeadCol":
+            elementi.append(("testa", pulisci(tr.get_text(" "))))
+        elif "tab-gara" in classi:
+            elementi.append(("gara", tr))
+    max_andata = 0
+    for tipo, val in elementi:
+        if tipo == "testa":
+            m = RE_GIORNATA.search(val)
+            if m and (m.group(2) or "").lower() != "ritorno":
+                max_andata = max(max_andata, int(m.group(1)))
+    risultati = []
+    giornata_n = None
+    for tipo, val in elementi:
+        if tipo == "testa":
+            m = RE_GIORNATA.search(val)
+            if m:
+                n = int(m.group(1))
+                if (m.group(2) or "").lower() == "ritorno":
+                    n += max_andata
+                giornata_n = n
+            continue
+        celle = val.find_all("td")
+        if len(celle) < 5:
+            continue
+        num = pulisci(celle[0].get_text())
+        quando = pulisci(celle[1].get_text(" "))
+        casa = pulisci(celle[2].get_text())
+        ris = pulisci(celle[3].get_text())
+        ospite = pulisci(celle[4].get_text())
+        if not (e_umbra(casa) or e_umbra(ospite)):
+            continue
+        md = RE_DATA.search(quando)
+        mo = RE_ORA.search(quando)
+        data_iso = f"{md.group(3)}-{int(md.group(2)):02d}-{int(md.group(1)):02d}" if md else None
+        data_txt = quando.replace("Ore", "ore") if quando else ""
+        ms = RE_SCORE.match(ris)
+        giocata = bool(ms) and not (ms.group(1) == "0" and ms.group(2) == "0")
+        risultati.append({
+            "id": f"lv{id_camp}-{num}",
+            "competition": nome_camp,
+            "giornata": f"Giornata {giornata_n}" if giornata_n else "Giornata",
+            "home": casa.upper(),
+            "away": ospite.upper(),
+            "score": ris if giocata else "da disputare",
+            "status": "disputata" if giocata else "in programma",
+            "data": data_txt,
+            "dataIso": data_iso,
+            "ora": mo.group(1).replace(".", ":") if mo else None,
+            "impianto": pulisci(celle[6].get_text(" - ")) if len(celle) > 6 else None,
         })
-    return posts
+    return risultati
 
 
 def main():
-    all_posts = []
-    seen_links = set()
-
-    for query in QUERIES:
-        print(f"Scarico notizie da Bing News per: '{query}'...")
-        xml_bytes = fetch_rss(query)
-        if xml_bytes is None:
-            continue
-        posts = parse_rss(xml_bytes, LIMIT_PER_QUERY)
-        for p in posts:
-            testo = (p["title"] + " " + p["excerpt"]).lower()
-            if p["permalink"] not in seen_links and not any(k in testo for k in EXCLUDE_KEYWORDS):
-                seen_links.add(p["permalink"])
-                all_posts.append(p)
-
-    all_posts = all_posts[:TOTAL_LIMIT]
-
-    for i, p in enumerate(all_posts):
-        p["id"] = str(i + 1)
-
-    print(f"Trovate {len(all_posts)} notizie totali (senza duplicati).")
-
-    print("Recupero le immagini di anteprima (puo' richiedere qualche secondo)...")
-    for p in all_posts:
-        p["image"] = fetch_og_image(p["permalink"])
-
+    tutte = []
+    if len(sys.argv) > 1 and sys.argv[1] == "--prova":
+        coppie = sys.argv[2:]
+        nomi = dict(CAMPIONATI)
+        for i in range(0, len(coppie), 2):
+            idc = int(coppie[i])
+            html = open(coppie[i + 1], encoding="utf-8").read()
+            tutte += leggi_calendario(html, idc, nomi[idc])
+    else:
+        for idc, nome in CAMPIONATI:
+            try:
+                html = scarica(URL.format(id=idc))
+                trovate = leggi_calendario(html, idc, nome)
+                print(f"{nome}: {len(trovate)} partite di squadre umbre")
+                tutte += trovate
+            except Exception as e:
+                print(f"ERRORE {nome}: {e}")
+        if not tutte:
+            print("Nessun dato scaricato: lascio il file com'e'.")
+            return
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(
-        json.dumps({"generatedAt": datetime.now(timezone.utc).isoformat(), "posts": all_posts}, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-    print(f"Salvate {len(all_posts)} notizie in: {OUTPUT_PATH}")
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump({"generatedAt": datetime.now(timezone.utc).isoformat(), "matches": tutte},
+                  f, ensure_ascii=False, indent=2)
+    print(f"Salvato {OUTPUT_PATH} ({len(tutte)} partite)")
 
 
 if __name__ == "__main__":

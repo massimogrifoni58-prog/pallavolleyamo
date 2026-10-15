@@ -30,6 +30,7 @@ jobs:
           python fetch_feeds_locali.py
           python fetch_terni.py
           python fetch_risultati.py
+          python fetch_nazionali.py
           python fetch_volley_feeds.py
           python fetch_coach_news.py
           python fetch_news_generali.py
