@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:56:27.451290+00:00",
+  "generatedAt": "2026-10-15T05:06:56.372182+00:00",
   "news": {
     "1": [
       {
@@ -7,12 +7,6 @@
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdXhIcnVsY2NoU1Y4d3hOLWJkYkpmMG9aRkpVWjJDVHNIUWpodVdZZEVXUUtlajlOcjBJMTJaaWxhUWJ2LTVMb0c3SVg1NUFiSzA3Y2VlRVVpMG8xTUxLZmwzQjlyVXdjejhjZHlxV2lNeUU0M3ZiVTRIQmNycFlVTlBHZlFZeVVGdE1ESU8xMnY1RWJmWlNCQXl6bFVWUzZuN2c?oc=5",
         "pubDate": "Wed, 14 Oct 2026 08:44:23 GMT",
         "source": "FIPAV Lazio"
-      },
-      {
-        "title": "Il sogno azzurro di Emma e Carlotta: due giovani talenti in Nazionale - Unione Monregalese",
-        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMlgwd1FWNzl3UzJhaF9WRFFqZmJkOEhuVDJ5MVhmTnhpYmlFRnd5TXotQ0t0T0JJWWpCcS1FWVlkcm12eXlrMWNZYmZITnEtNHdKMGRmNHdFTEY1TUg2VGdXeXcwaktLNkJhakwwWWoxYi1CWU9FUHJkMV9MNmlFeWdpZnJYTWlNZnB1cGlnX1RoTVJsblpCV1Q5cW5nMjZTLVRSa29nY3d3RkRkakFuaDVNeDBqck9QckVMcjZodjJvQzdId1gzcFJ3V3dDc1h5VHc?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 12:15:43 GMT",
-        "source": "Unione Monregalese"
       },
       {
         "title": "Le convocate di Mencarelli per lo stage di Castelnovo nè Monti - Federazione Italiana Pallavolo",
@@ -31,20 +25,26 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkI2ZEVTa0pEUnJ0SVJERW5veXRYX005WUQ1VUotbzFxX2JSck9IYXM4TFF4QmtPdGIyQjBCSUlDeklYSjJHM0JXcVlPdUNzeS1WMnhsQ0dmek9YMnlzSGlKVjUweklSREJtWnB4bC1sd09hT2hmT3VmTVlsUmZZV0FTanNxclRWZ2NEYXRLLW5Rdw?oc=5",
         "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT",
         "source": "Federazione Italiana Pallavolo"
+      },
+      {
+        "title": "Pallavolo U18F - Le Azzurrine al lavoro in vista del Torneo WEVZA, le convocazioni di Mencarelli - iVolley Magazine",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdldCbTI3YUw4b3lOeVNhN2loQXE1bUF2RGVHc3lHWTVJYXRYM0pWZXA1WExHSHJGMEp6RnVRSnBjN1NWUUR2dVp4U3J5dnVrSTdRTGVtZk01UWFoR0dYQzJOeFExVDNkVTdJRENNczJIWXVRNXM1MkNpOGplRHduMFVmQkxoT2FmamxhUXBrNW9zUkdEVlRYWG9TTFFyczM2RzZRWWZXbWlZX3llVzR4R0dWMDh3MjhsNkJPMnItNC1fTlZOOWI2Y2VQR2Mxc24xclE?oc=5",
+        "pubDate": "Tue, 16 Dec 2025 08:00:00 GMT",
+        "source": "iVolley Magazine"
       }
     ],
     "2": [
+      {
+        "title": "Pallavolo A1F - Sarah Fahr e Daniele Santarelli: \"Un bel 3-0 su un campo difficile, siamo contenti\" - iVolley Magazine",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYk90SmZXSmpwLXA3a2NnRFNQaXRwUDZNbDZSMXFRWEFhdTZXQ1JiSGRkS0ZudTRxMEhMUzJ4N0hCemhQai04OERvWWxUWnliUWRreU8wbm9tYXc1cFAzbE15UEI5N2F3Vk4zaDZlTUptanRyMmFUcWpQMjZkc04yd1hiUzhzVnZrV2JKS0p6eng1R3NzeGpJS0c5OFQwMzlFNTVPRXl1UjAtTzFENnUzQnZDS3B1c0NBLWhjYVVUUmY2QWdRdnZ0MGJVMkNNbjJsVXc?oc=5",
+        "pubDate": "Thu, 15 Oct 2026 00:33:50 GMT",
+        "source": "iVolley Magazine"
+      },
       {
         "title": "LIVE Chieri-Conegliano, A1 volley femminile in DIRETTA: primo ostacolo davvero impegnativo per le campionesse d’Italia - OA Sport",
         "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYmNtaFpJZmNURm0yZEZiLU1xZnRQMVJTU1NBeU51Vm9tSzdzekJqME52NUlMSmxBTHhNSXkxVzhOdXFDbUNhb09ORE56ZTRnOFFCaTI1aHA5LXVvdDRGOUIwZEJMVHhWSUpSMmRuTm12UVJSM1FmZldVZjNMcURQd0hwVDNzREJUdG5qTnFBUXFlbUY5VUFlSkFrX0pZZ2Y0cGlUTHozX1Nsb0x6cmxuRVMzemwzR3VSWmxKSG1vSVJwUkFhUW5yS21ncnpFelItcV9RdGdjTHJRbmpmRVdDUGZYelVod9IB5gFBVV95cUxPYmNtaFpJZmNURm0yZEZiLU1xZnRQMVJTU1NBeU51Vm9tSzdzekJqME52NUlMSmxBTHhNSXkxVzhOdXFDbUNhb09ORE56ZTRnOFFCaTI1aHA5LXVvdDRGOUIwZEJMVHhWSUpSMmRuTm12UVJSM1FmZldVZjNMcURQd0hwVDNzREJUdG5qTnFBUXFlbUY5VUFlSkFrX0pZZ2Y0cGlUTHozX1Nsb0x6cmxuRVMzemwzR3VSWmxKSG1vSVJwUkFhUW5yS21ncnpFelItcV9RdGdjTHJRbmpmRVdDUGZYelVodw?oc=5",
         "pubDate": "Wed, 14 Oct 2026 03:24:02 GMT",
         "source": "OA Sport"
-      },
-      {
-        "title": "Pallavolo A1F - Santarelli prima della sfida con Chieri: \"Una gara difficile, dove dovremo confermare di essere in un buon momento\" - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNM3BSYXY1c3dmSksxekF6VS1lTHVROUFEUlRoYmxsT3NUUVlRdWtmbmJNdHA4RHZJU2xvQ3VFMEsxbnE0Nm5zMTVRSHZLRVRPM3N4cHcyUGxXTHF5UUZRcVNtYTU2eUVVaml1MWx4dG5MVGpEWFNBV3FRM3hOOW1JZ0JuUVAxcXR4dWZkZnl5UXVnSTUtRnZOd01nbFN3OFNnQ3g0SE01YWRGSi1LVnFld212NElFd1dnVFpzdG1XSDU3cVJIaTVqdlYtbkZ4TGJ2RGthbWZqQzRhTl9MYkFmX0xQd0VjUG5penlWOENTRVdiTG5Kanp2ZGg4ajU?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 21:41:49 GMT",
-        "source": "iVolley Magazine"
       },
       {
         "title": "Imoco Volley in trasferta a Torino: coach Santarelli analizza la sfida contro Chieri: 'Bel banco di prova' - Oggi Treviso",
@@ -53,10 +53,10 @@
         "source": "Oggi Treviso"
       },
       {
-        "title": "PANTERE IN VIAGGIO, DOMANI ANTICIPO A TORINO VS CHIERI - Lega Volley Femminile",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcHRjdWNCZFlmOWUyTWFiRnVkNTZ1MkxLUTNCTzEyWHloWURsUmhuMHdpU1BGQ0EwVHoxS2RSYmJZNEViQnhCSzI4bGJRaDgxaFpFdms2bmtfQmpidDdtRjRZTmxwbzRoNGpVcVItUnBObFVvalZHWFVuQ0x5dXVSeW1zQ2NmOEMyTk5FdjFvekJONWc?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 14:38:33 GMT",
-        "source": "Lega Volley Femminile"
+        "title": "PANTERE IN VIAGGIO: DOMANI IN CAMPO A TORINO CONTRO CHIERI (20.30 Rai Sport e DAZN) - Imoco Volley Conegliano",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQzhMWXRlempZU2VZSUJ2eVJ0YW5kWjFrNzFZSTdza2dLd1hiSm5RM01qN0dEOHkwR005clhIUkpONEF5MmFBNDdFZVdaUkVsM0tvbmVaclhUbXlTTWpWOUxmc1Jjd0dMNzVmdjNLeFRWdjlCWlgtQVBvSlFLamg5WmFaQ2o2eUJ2allVYUtuVE5uenZfemZHTktDREJ4cW5La3haS0NFMA?oc=5",
+        "pubDate": "Tue, 13 Oct 2026 14:38:13 GMT",
+        "source": "Imoco Volley Conegliano"
       },
       {
         "title": "L'estate \"d'oro\" di Daniele Santarelli: il coach torna al Conegliano dopo due trionfi - RaiNews",
@@ -152,9 +152,9 @@
     ],
     "7": [
       {
-        "title": "Volley Serie A3 – Fiducia Zanini: “Il Gabbiano sarà competitivo” - la Voce Di Mantova",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZDFzTER6amRlX2hBX1R0WU5DRm1PT21CaktvY1dmWUlLOUhocF8zZGtLVnZlbUc1eURhU1NVVXlscFBqZXFZZkQ5eEgxS1RpbXN0bFM5aWFFWnlxdGlNdnVxejAyMWIydGxVbmRUWTVTUGI2Xy1GM1c5RlZkbzRFNmVVTmJ1M09lQlA1MWt3WVpkVmIyWmc?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 12:40:41 GMT",
+        "title": "Pallavolo serie A3 - Il tecnico Radici indica la via: “Gabbiano, prima il gruppo e poi penseremo agli obiettivi” - la Voce Di Mantova",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWFhQdjI2UEpKSkdQRUZGSmlpTmZnSzRQNkxQRF94NkhiQ1NnWF85d0tETVZTVFZBM0J0MldoTUpuMWd5N2dUSkk3cnlhRU1zVURPdlIxUDRQWlhsSTM0Q0pBTDRkYTVDcVRNdFJ4YW9aemMwR3EtVGY3OWxQZDNkM0RNdDBuMHhaX1FsQ21weHFDUFcwai0xZk9ScGNWdmhCSzNHMFdjN1RvbFhJMG1wSmJfMDEzMkp0LTFjbDdWUkxQRF9xbC1xcUNfelE1VEVWZGxBVQ?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 13:50:49 GMT",
         "source": "la Voce Di Mantova"
       },
       {
@@ -211,16 +211,16 @@
         "source": "Pianeta Volley"
       },
       {
-        "title": "Terni Volley Academy, ultima chiamata per i rossoverdi: “Crediamo ancora nella salvezza” - TerniToday",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMXdYbVNwRWRjMmJMTWlGVGN5S0F6RXgwT25TaFBLekI1VjVVME96N190aF9YVVg1MUZqaHNMbEIyY2ttS3BpWlh6R3VxdXRYQlZWdF9CMWxnalNYYVVwQkp4cHpGZ3JxSmdRaXJEdUhZTlRzQjREWGtNUkpMUkM4SHhwcDVMRU1NQXVsMzJmbC0?oc=5",
-        "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT",
-        "source": "TerniToday"
-      },
-      {
         "title": "Terni Volley, Camardese punta sul gruppo - Lega Pallavolo Serie A",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbzRhTnVmMVRINjFIZU9FN29iSzQ4RURHdlJEdTlHbjBfb1J6VW5faXYxQ2hqMWdtRnhONHVGS3lkeXZHQzc2UV80dUlqcF9qTXk5MTVuQW13YUV0TUpKd3EtNFdBQ2xIcFQzalNRaFV2eHIxcFp4YzRJaw?oc=5",
         "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT",
         "source": "Lega Pallavolo Serie A"
+      },
+      {
+        "title": "Terni Volley Academy, duemila persone pronte a spingere Javier Martinez e compagni. In arrivo Nelson Dida - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM1BQdjk2VEpBemZrZ0lmSzNzTTNnTGg1dk92TXduS19mbHpJeGNBa3FfLVNUcTdCLVBoRFB2ZHdUdnlGNDU5OUU0WUNmSWQxWkpMOXVBdGFZa092VTJoQlBsNWxfRkswSlhSemI4UW9lWFo4dEFYWTNrZ2R0NXc4MGo1ekxRWk5pT1AwMEhQUko?oc=5",
+        "pubDate": "Tue, 24 Feb 2026 08:00:00 GMT",
+        "source": "TerniToday"
       },
       {
         "title": "Pallavolo A3M - Leondino Giombini non è più l'allenatore di Terni, la squadra affidata a Cristiano Camardese - iVolley Magazine",

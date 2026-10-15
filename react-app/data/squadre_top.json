@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T09:56:48.241007+00:00",
+  "generatedAt": "2026-10-15T05:07:05.578122+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,17 +35,24 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Gli uomini di Perugia hanno acceso la tifoseria - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkNXTzJZeWYycDVvRXFFeDJSU2VXc0wzdVhBSTJSV3RRemNQd1R3Wl8wS1hUNVN5SGNfNllna2JCWmdSY1dXWnd2YXVfajJ6dEhHcHFLbGk1MkdTZEhmRlpMd0VFdDBsZVlqQjZadFhOUTNZblVQdzlWS21JS1dPbHV4UWZRZXl5b3JsY3g1WQ?oc=5",
+        "pubDate": "Wed, 14 Oct 2026 19:00:32 GMT",
+        "source": "Pianeta Volley",
+        "image": null
+      },
+      {
+        "title": "I Block Devils hanno abbracciato i loro tifosi",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f760337418abe967d8920c36d05&url=https%3a%2f%2fwww.umbriadomani.it%2fperugia%2fi-block-devils-hanno-abbracciato-i-loro-tifosi-349985%2f&c=5330810326081357750&mkt=it-it",
+        "pubDate": "Wed, 14 Oct 2026 14:00:00 GMT",
+        "source": "",
+        "image": null
+      },
+      {
         "title": "Volley, Radio Glox trasmetterà in diretta le partite della Sir Susa Scai Perugia - PerugiaToday",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSG1LWkE4eTlIcko0UE1LT0xId2xvVS1DUFhzdEFiZnMyRWtVR3lxRzNUUEZtazZyQkpRTEFXN1JxQmh6U2k5SkhETm9tMTVRUUx6MUlEcjB1MkdlTW1vZGtnTjJQMFBvNUJjWC1ZeXdEV21XYVhuMFZ2Z19UdzVucmVhSTF1YlZkUkY0RnRaeFdCdw?oc=5",
         "pubDate": "Tue, 13 Oct 2026 19:35:26 GMT",
         "source": "PerugiaToday",
-        "image": null
-      },
-      {
-        "title": "Radio Glox partner ufficiale della Sir Perugia: tutte le partite in diretta",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51dc56644e90941728f3a8d65582&url=https%3a%2f%2fit.blastingnews.com%2fsport%2f2026%2f10%2fradio-glox-partner-ufficiale-della-sir-perugia-tutte-le-partite-in-diretta-004181621.html&c=2637984407115451181&mkt=it-it",
-        "pubDate": "Tue, 13 Oct 2026 07:49:00 GMT",
-        "source": "",
         "image": null
       },
       {
@@ -57,24 +64,24 @@
       },
       {
         "title": "Sir Susa Scai, Radio Glox al fianco dei Block Devils per tutta la stagione",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51dc56644e90941728f3a8d65582&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-radio-glox-al-fianco-dei-block-devils-per-tutta-la-stagione%2f&c=16644589514566472549&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f760337418abe967d8920c36d05&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fsir-susa-scai-radio-glox-al-fianco-dei-block-devils-per-tutta-la-stagione%2f&c=16644589514566472549&mkt=it-it",
         "pubDate": "Tue, 13 Oct 2026 05:36:00 GMT",
         "source": "",
-        "image": null
-      },
-      {
-        "title": "Superlega, la Sir Susa Scai Perugia riceve il saluto e l'applauso dell'amministrazione comunale - PerugiaToday",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdXBseGNzYnQ5SGpSMi10Skp5YXYzS1pWQlBlUm82TkhKbHk5cnR1U2dXUTJDdF9KWS1oOWtJUzN4UldKX0JhNXowMU54UklMOXp3a05NUFpJVVh1c0p1Y1gwNXR4R0Z4bm1HZkk4TTg1Q3BYOVVaREtyajBVTXFvNFl0RmExYlZnbW93anlR?oc=5",
-        "pubDate": "Mon, 12 Oct 2026 16:00:05 GMT",
-        "source": "PerugiaToday",
         "image": null
       }
     ],
     "bartoccini": [
       {
-        "title": "Pallavolo A2F – Perugia cerca continuità in casa di una Altino affamata di punti",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51dddcee4f50b45581b4830ba86a&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f13%2fpallavolo-a2f-perugia-cerca-continuita-in-casa-di-una-altino-affamata-di-punti%2f&c=9164031524222939032&mkt=it-it",
-        "pubDate": "Mon, 12 Oct 2026 17:01:00 GMT",
+        "title": "Volley A2 femminile, la Bartoccini +energia ha preso il via: travolta Altino a domicilio - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYzlnbW1lMkhqZ2xya2NWWGlFSS1SbE9mdThNdXhEUDk5RkJjQ0ZsOTVjdEpkaXFxMHZEbkJlbGZPNkdqNEp2MnhzUTUwQnl5T09Qckw1XzdWR2x5OWFRd0N0M2dBbUFfaGJSSFQtMFpvWFdvckk2WVlDU3ZrdXVmSlc4c1JXRzFmRl9KYzY2aXJiRE1ZZW1wUzh3ZDEwa3FpNVhxcDRtN2dUVzll?oc=5",
+        "pubDate": "Wed, 14 Oct 2026 23:18:38 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
+        "title": "Pallavolo A2F – Le Black Angels concedono il bis: bella vittoria in casa di Altino (3-0)",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f76b4ca40c29304a9d012df0374&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f14%2fpallavolo-a2f-le-black-angels-concedono-il-bis-bella-vittoria-in-casa-di-altino-3-0%2f&c=17015354379367402641&mkt=it-it",
+        "pubDate": "Tue, 13 Oct 2026 17:00:00 GMT",
         "source": "",
         "image": null
       },
@@ -87,32 +94,32 @@
       },
       {
         "title": "Black Angels Perugia; 3-0 al PalaBarton Energy contro Altamura",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51dddcee4f50b45581b4830ba86a&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-3-0-al-palabarton-energy-contro-altamura%2f&c=13648193829865298903&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f76b4ca40c29304a9d012df0374&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-3-0-al-palabarton-energy-contro-altamura%2f&c=13648193829865298903&mkt=it-it",
         "pubDate": "Sun, 11 Oct 2026 11:59:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Pallavolo A2F – Perugia cercava il riscatto immediato: obiettivo raggiunto con il 3-0 su Altamura",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51dddcee4f50b45581b4830ba86a&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f11%2fpallavolo-a2f-perugia-cercava-il-riscatto-immediato-obiettivo-raggiunto-con-il-3-0-su-altamura%2f&c=12552421069488476492&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f76b4ca40c29304a9d012df0374&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f11%2fpallavolo-a2f-perugia-cercava-il-riscatto-immediato-obiettivo-raggiunto-con-il-3-0-su-altamura%2f&c=12552421069488476492&mkt=it-it",
         "pubDate": "Sat, 10 Oct 2026 17:00:00 GMT",
         "source": "",
-        "image": null
-      },
-      {
-        "title": "Volley, Serie A2 femminile: la Bartoccini +energia cerca il riscatto contro Altamura - - Umbria 24",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMUlqa3JKbTdOa3BXekNtci1ZMEt4YVJYQ1FjQmxCYnBPSUptMEN6NWhmSXlXcm8xbUhJU0ktRlNqREhhUXN2U0ozS05QZlk3TXJIV3hnRGJwcmZtZkE1a3h5U1pWUkNWX0pqYnQyQlhxeVdNQ1JpX3o0YmplTmtmMVdaQWV1Wm5yT0ZBOTRYZndRSGM5T2g0MENmY014MnhhVy1ZNER0dDBWZXVTVWVfbzN4TUQ?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 14:00:58 GMT",
-        "source": "- Umbria 24",
         "image": null
       }
     ],
     "tva": [
       {
         "title": "Terni Volley Academy-Sir Perugia 0-3, pomeriggio di grande pallavolo al PalaTerni con i campioni d'Europa e del mondo",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51de0ab540fb85539b842ceef2ee&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley%2fterni-volley-sir-perugia-derby-pallavolo.html&c=16807702076739065058&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f77fffe46708da510f3913a9563&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley%2fterni-volley-sir-perugia-derby-pallavolo.html&c=16807702076739065058&mkt=it-it",
         "pubDate": "Sat, 26 Sep 2026 02:37:00 GMT",
         "source": "",
+        "image": null
+      },
+      {
+        "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYnhYWHZqbUhMZWhfNG9IaDVybWRLZ25zazRpYkxVVmI0X05kUG1fMkw4c0ZsRkVDOTU4aHlXekYxakNJUnQ2eW5mSkhkd3M5Z3lrbm1TUlc3bkY0dzlkWDE0SjJOeFVPLUJzQ2U3ZkpBLVJvLVczOS1aakZPLVBXTDd6Zjc4OWZpMHFyM3lNRy1TdldybEk4WkdKNXd3MlhwVWJJ?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
+        "source": "TerniToday",
         "image": null
       },
       {
@@ -135,13 +142,6 @@
         "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
         "source": "TerniToday",
         "image": null
-      },
-      {
-        "title": "Terni Volley Academy ai Play out: avversario dei Dragons, date e regolamento",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51de0ab540fb85539b842ceef2ee&url=https%3a%2f%2fwww.today.it%2fsport%2fvolley-academy-regolamento-spareggi-salvezza-terni-2026.html&c=11008252625703158102&mkt=it-it",
-        "pubDate": "Sun, 15 Mar 2026 14:01:00 GMT",
-        "source": "",
-        "image": null
       }
     ],
     "altotevere": [
@@ -154,16 +154,16 @@
       },
       {
         "title": "Altotevere e Terni Volley Academy si danno battaglia a San Giustino: vince la ErmGroup 3-1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51deadee483c9d8cebec671275ef&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2faltotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1%2f&c=2942156678771184910&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f775db4460c83114e8c283f3c55&url=https%3a%2f%2fwww.umbria24.it%2fcitta-di-castello%2faltotevere-e-terni-volley-academy-si-danno-battaglia-a-san-giustino-vince-la-ermgroup-3-1%2f&c=2942156678771184910&mkt=it-it",
         "pubDate": "Sun, 04 Oct 2026 04:01:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "La ErmGroup Altotevere si è presentata nella “sua” San Giustino - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWp3amJHQnAzdUlKU2ZNcTQwU3VsLUk3TmFOenI2bVl5WWxCWHZFdHBLSTI0ajV2SFN6VmxLTVBaMktzOGgyTmJfZy1xUG9LYVhXME84Y3p0ckdJdkV3bFRvWkktRm8tQnVjSmZDbFBvQXpjbnVPMXBGQXlob01KRWl4cnNaYzNCdjRCR1o0MThORDVOSVNpdg?oc=5",
-        "pubDate": "Sat, 03 Oct 2026 15:22:17 GMT",
-        "source": "Lega Pallavolo Serie A",
+        "title": "La ErmGroup Altotevere Volley si è presentata nella “sua” San Giustino - Saturno Notizie",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdElHWjBWT0h0VUdkSGdFOERCcmZHbGxRVU13WUF3UTFNVThlc1lnSlNFMTZyeDhkc0xiXzJFclRrNnJfR211ZjI4Vk5Lc1ViaU10Z1lGZEZTNXQxR2tKd0JLdHZDTXcyMkpjXzl2d09va2ZtNndjUTRSU1RWWVU2NXJKZmtEV3lzeEE?oc=5",
+        "pubDate": "Sat, 03 Oct 2026 15:03:52 GMT",
+        "source": "Saturno Notizie",
         "image": null
       },
       {
@@ -197,9 +197,9 @@
         "image": null
       },
       {
-        "title": "Il Club Italia si presenta a Parma: un pezzo di storia della pallavolo incontra il futuro",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51df46c84f3985e6bdecbb2eb6ca&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fil-club-italia-si-presenta-a-parma-un-pezzo-di-storia-della-pallavolo-incontra-il-futuro%2f&c=905743609560125752&mkt=it-it",
-        "pubDate": "Mon, 12 Oct 2026 17:01:00 GMT",
+        "title": "Ottant’anni di volley: i protagonisti che hanno fatto la storia degli Iblei premiati al Castello di Donnafugata",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f781b99412a8624f65b617700eb&url=https%3a%2f%2fwww.ragusaoggi.it%2fottantanni-di-volley-i-protagonisti-che-hanno-fatto-la-storia-degli-iblei-premiati-al-castello-di-donnafugata%2f&c=8798843345276748341&mkt=it-it",
+        "pubDate": "Mon, 12 Oct 2026 10:45:00 GMT",
         "source": "",
         "image": null
       },
@@ -211,17 +211,17 @@
         "image": null
       },
       {
-        "title": "Città di Castello supera Arezzo nell'ultimo test prima del campionato - Saturno Notizie",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSDlJdVM0eWx4ZTFna29ZQUZNNUdid3RzT0lKeElyUU56N3gtSGxiNHlVaXY1UVlFRGVpR0JDeUt5dkdlcGFOT1lSYk5ZQm5FdVJBREhfRmtSbnVNU093TE8tRGNNQmZVMXpDME5FMC05dzdQZzJKdUZMZHZaM1UzNGxuZmYzNGpDR09zbDh3QQ?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 12:54:01 GMT",
-        "source": "Saturno Notizie",
+        "title": "Volley serie B: Dopo la trasferta a Modena, il 24 ottobre l’esordio casalingo al PalaMaccagnolo contro Mirandola. Il Club Arezzo lancia la sfida prima del debutto di Cavezzo ...",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f781b99412a8624f65b617700eb&url=https%3a%2f%2fsport.quotidiano.net%2flocale%2fvolley%2fvolley-serie-b-dopo-la-a5a5ecbd&c=14749273758002694841&mkt=it-it",
+        "pubDate": "Fri, 09 Oct 2026 17:00:00 GMT",
+        "source": "",
         "image": null
       }
     ],
     "marsciano": [
       {
         "title": "Orvieto Volley Academy, al via il campionato regionale Under 15: 42 squadre in campo in Umbria",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf51df7cf3461aa9e9556eaa65c1b1&url=https%3a%2f%2fmaremmanews.it%2fsport%2f2026-10-10%2forvieto-volley-academy-al-via-il-campionato-regionale-under-15-42-squadre-in-campo-in-umbria&c=8543022474957720242&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f7950444419a877fbac6c99e68a&url=https%3a%2f%2fmaremmanews.it%2fsport%2f2026-10-10%2forvieto-volley-academy-al-via-il-campionato-regionale-under-15-42-squadre-in-campo-in-umbria&c=8543022474957720242&mkt=it-it",
         "pubDate": "Sat, 10 Oct 2026 10:14:00 GMT",
         "source": "",
         "image": null
@@ -231,6 +231,13 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX3hPR1IxME5YZ1I2NWs4SDR0dERzcWJtTVJnOEVfdXVZR19XWmplR2RFZlZsdEdZTWFSVVBkYlNxTkpMRWUwbzFOWlJ5bEJLd0JPbk02YTlVS0cxaGtFMzdLSmhZZnd1WnNlMThQT0hFYlM5NF9feHQ3YnUwcy16UjZ2VUx4cmwxWFJyeQ?oc=5",
         "pubDate": "Wed, 07 Oct 2026 09:00:42 GMT",
         "source": "Pianeta Volley",
+        "image": null
+      },
+      {
+        "title": "Tutto facile per la Sirio Perugia Volley nel test contro Marsciano",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad05f7950444419a877fbac6c99e68a&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2ftutto-facile-per-la-sirio-perugia-volley-nel-test-contro-marsciano%2f&c=13154060455434133196&mkt=it-it",
+        "pubDate": "Wed, 07 Oct 2026 00:47:00 GMT",
+        "source": "",
         "image": null
       },
       {
@@ -245,13 +252,6 @@
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbDlwaElLUHNWNWJONmoxM2dWSDVlanJyMXpSQW4xdXZEOFZkZXNUTGlfN01uU2J5M2NKM1IwX1o0ZFFvU1pFTmpyNU0yVmM4LVktaFNHa2M2d2ZLdklmdkFEdGdPUG9VRVZjbklMOXQ5YURMNFJvaEhHY1JudmZQMERzdTdEWmRDdFc3bVdHcmZaVE8xVWF3SDllUDBQY0ZjZmlnTkJiWVNJaVk4cUhsdmZoZllHbFRzaTNrVTZqT3l1b0ZEUHlLNC05SnZhLVZDSHF3QzUwTlJoZDBVeGp2akhlNFlPUmlENVJySk5talBhZ9IB9wFBVV95cUxQei1SVmROVmdhdXB3bVRuU0pfUlVTdjlkenhCVlRDcmhzYjZpYUpxTVNaUWVORXAyQW9faDFnb2F6VFpPMWloNWdqb0NZcDNDVzBSem1Xa2I4cWM3TGJjUVo5TXlkM1doOVJxZXh2R3A4SHpHY1E3eUlWT0xleEhuX2FxZm1JY1YwT1p5QmpoQ2E5Z3dzOGdIZ1VzMEtxNDZTZE5jUVlyWElZdUthbjJucG9iVENpVnJRMWRQUTZPelNILXdseWxrTVBYbXFsYnJCbFFfeWw4cVc5Rzg3R1BtUWh1WjdrdWQ4cGg5MzlkRHh5am9GMDdj?oc=5",
         "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
         "source": "Il Messaggero",
-        "image": null
-      },
-      {
-        "title": "B-Connect: svelati i gironi di Serie B Maschile, B1 e B2 femminile: le squadre laziali pronte a scendere in campo - FIPAV Lazio",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLWRQNi1weUJsRzhMSVlzQWxLby1aSVFmZnZYTnZKNGk2cGpiTnY5LXRXbVUzZDRlVVBVdXNtODJ2cFgxbHhoNHBYemphNVJsaHZKRXl0V2VKdTJ5c2F2X2V0d2dqQmpQRGN4ajNqLTZTUVp5b1lTZXEwQmMxVnRQcDNyWkh1MlAwaDFNVEtZVHpueFBmR2hDZEJ5UHFXUmVpcUVSaURtZkV4c29ZbnhTSFpDSnllcnIyX0kzWHBndHBDSTdXeDNHaTRCdDdkQU81R1VhTlVYMEFfSndrd1VJV1R0N3otYUJLaWlR?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "source": "FIPAV Lazio",
         "image": null
       }
     ]
