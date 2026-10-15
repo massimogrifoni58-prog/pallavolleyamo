@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T09:37:31.847129+00:00",
+  "generatedAt": "2026-10-15T21:10:08.351305+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5885,7 +5885,7 @@
         "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-a-2",
@@ -5895,7 +5895,7 @@
         "ora": "20:30",
         "casa": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-a-3",
@@ -6489,7 +6489,7 @@
         "ora": "19:30",
         "casa": "FOLIGNO VOLLEY GIALLA",
         "ospite": "SPELLO VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-c-2",
@@ -7597,7 +7597,7 @@
         "ora": "19:00",
         "casa": "REVISIONANDO VITT CHIUSI",
         "ospite": "PMU MARSCIANO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-d-2",
@@ -7607,7 +7607,7 @@
         "ora": "20:45",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-d-3",
@@ -8091,7 +8091,7 @@
         "ora": "18:00",
         "casa": "GR IMPIANTI - THAI NARNI",
         "ospite": "AMERINA PALLAVOLO A S D",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-f-1",
@@ -8101,7 +8101,7 @@
         "ora": "18:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
         "ospite": "NARNI SPORT ACADEMY RUBINO",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-17-femminile-girone-f-2",
@@ -8293,7 +8293,7 @@
         "ora": "18:45",
         "casa": "NARNI SPORT ACADEMY DENIM",
         "ospite": "POLISPORTIVA CLT",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-g-1",
