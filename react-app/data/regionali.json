@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T05:03:36.549363+00:00",
+  "generatedAt": "2026-10-15T09:34:48.511849+00:00",
   "posts": [
     {
       "id": "news-3",
@@ -66,7 +66,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-4",
+      "id": "news-7",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -82,7 +82,7 @@
       "permalink": "https://sport.quotidiano.net/volley/convocata-la-rappresentativa-femminile-fipav-5dee1306"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Nova Volley cade in casa: Sir Umbria Academy Assisi vince 3-1",
       "excerpt": "Fonte: ilrestodelcarlino.it",
       "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
@@ -122,6 +122,14 @@
       "permalink": "https://www.pianetavolley.net/2026/10/per-le-donne-di-perugia-turno-infrasettimanale-ad-altino/"
     },
     {
+      "id": "news-6",
+      "title": "Radio Glox partner ufficiale della Sir Perugia: tutte le partite in diretta",
+      "excerpt": "Fonte: it.blastingnews.com",
+      "createdTime": "Tue, 13 Oct 2026 07:49:00 GMT",
+      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/10/13/660x290/b_1200x675x95/la-voce-dei-block-devils-radio-glox-raccontera-le-partite-della-c-creative-commons_3383013.jpg",
+      "permalink": "https://it.blastingnews.com/sport/2026/10/radio-glox-partner-ufficiale-della-sir-perugia-tutte-le-partite-in-diretta-004181621.html"
+    },
+    {
       "id": "sansistopuntasullalineaverdein",
       "title": "San Sisto punta sulla linea verde in questa stagione",
       "excerpt": "Poche cose ancora da sistemare prima del via ufficiale della nuova stagione, la Pallavolo San Sisto si presenta al nastro di partenza in serie D femminile. La squadra di punta del presidente Maurizio ",
@@ -146,6 +154,14 @@
       "permalink": "https://www.pianetavolley.net/2026/10/cecilia-nicolini-una-perugia-da-pelle-doca/"
     },
     {
+      "id": "news-5",
+      "title": "Beach volley, settimo posto per l’Umbria al Trofeo delle Regioni",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 08 Sep 2026 22:35:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/09/TDR-26-rapp-femminile-settimo-posto-e1788932040310.jpeg",
+      "permalink": "https://www.umbria24.it/sport24/beach-volley-settimo-posto-per-lumbria-al-trofeo-delle-regioni/"
+    },
+    {
       "id": "news-7",
       "title": "Diventare arbitri di pallavolo: Fipav Umbria apre le iscrizioni ai corsi",
       "excerpt": "Fonte: umbriaon.it",
@@ -162,7 +178,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
@@ -184,6 +200,14 @@
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-26-at-20.13.44.jpeg",
       "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
+    },
+    {
+      "id": "lenagrossescharmanntrebuonipun",
+      "title": "Lena Grosse Scharmann: «Tre buoni punti per il percorso di Perugia»",
+      "excerpt": "Dopo tre giornate di campionato sono rimaste solo due le squadre a punteggio pieno, si confermano le previsioni di grande incertezza nel campionato di serie A2 femminile dove la differenza la potrà fa",
+      "createdTime": "Thu, 15 Oct 2026 07:00:27 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Grosse-Scharmann-Lena-mvp.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/lena-grosse-scharmann-tre-buoni-punti-per-il-percorso-di-perugia/"
     },
     {
       "id": "matteoalpinioraasangiustinoson",
@@ -210,7 +234,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/01/16/pallavolo-mercato-terni-ha-ingaggiato-il-polacco-lukasz-ciupa/"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sun, 29 Jun 2014 14:13:00 GMT",
@@ -234,12 +258,12 @@
       "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
     },
     {
-      "id": "news-4",
-      "title": "Volley B maschile, la Rossi Ascensori Foligno sbanca il PalaPanini e continua la risalita",
-      "excerpt": "Fonte: perugiatoday.it",
-      "createdTime": "Sun, 12 Feb 2023 07:19:00 GMT",
+      "id": "news-7",
+      "title": "I fuoriclasse della Superlega scendono in campo: tutte le date e il calendario completo della stagione italiana di pallavolo maschile 2026 / 2027",
+      "excerpt": "Fonte: olympics.com",
+      "createdTime": "Sun, 11 Oct 2026 19:00:00 GMT",
       "image": null,
-      "permalink": "https://www.perugiatoday.it/sport/volley/la-rossi-ascensori-vince-3-0-a-modena.html"
+      "permalink": "https://www.olympics.com/it/notizie/pallavolo-maschile-superlega-2026-2027-calendario-programma-volley"
     },
     {
       "id": "news-6",
@@ -250,14 +274,6 @@
       "permalink": "https://ivl24.it/la-pallavolo-lucana-ha-festeggiato-gli-80-anni-di-fipav/"
     },
     {
-      "id": "news-6",
-      "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/02/9685329_02003505_sir_10.jpg",
-      "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
-    },
-    {
       "id": "news-3",
       "title": "Terni Volley Academy-Sir Perugia 0-3, pomeriggio di grande pallavolo al PalaTerni con i campioni d'Europa e del mondo",
       "excerpt": "Fonte: ternitoday.it",
@@ -266,7 +282,7 @@
       "permalink": "https://www.ternitoday.it/sport/volley/terni-volley-sir-perugia-derby-pallavolo.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -338,14 +354,6 @@
       "permalink": "https://www.oasport.it/2026/10/volley-le-favorite-della-superlega-2026-2027-perugia-in-pole-position-ma-occhio-alla-rabbia-di-trento/"
     },
     {
-      "id": "ginosirciperugiavuolerealizzar",
-      "title": "Gino Sirci: «Perugia vuole realizzare i suoi sogni»",
-      "excerpt": "Meno di una settimana al debutto in superlega maschile per la Sir Susa Scai Perugia che stamattina ha tolto i veli ufficialmente alla Sala dei Notari di Palazzo dei Priori e poi al Solone d’Onore di P",
-      "createdTime": "Mon, 12 Oct 2026 15:00:35 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Sir-Susa-Scai-Perugia-fontana.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/gino-sirci-perugia-vuole-realizzare-i-suoi-sogni/"
-    },
-    {
       "id": "news-3",
       "title": "Sir in Comune Perugia e in Regione, parte la nuova stagione della pallavolo",
       "excerpt": "Fonte: ansa.it",
@@ -354,20 +362,12 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/10/12/sir-in-comune-perugia-e-in-regione-parte-la-nuova-stagione-della-pallavolo_3081536e-013e-4ef2-88e4-425692e9887f.html"
     },
     {
-      "id": "news-1",
+      "id": "news-0",
       "title": "Proietti alla Sir: 'Siete l’immagine dell’Umbria che vince'",
       "excerpt": "Fonte: it.blastingnews.com",
       "createdTime": "Mon, 12 Oct 2026 12:11:00 GMT",
       "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/10/12/660x290/b_1200x675x95/sirreale-stamattina-la-presentazione-del-libro-sul-triplete-c-creative-commons_3381833.jpg",
       "permalink": "https://it.blastingnews.com/sport/2026/10/proietti-alla-sir-siete-l-immagine-dell-umbria-che-vince-004180425.html"
-    },
-    {
-      "id": "news-7",
-      "title": "Sir Perugia volley ricevuta in Comune e Regione: via alla nuova stagione",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Mon, 12 Oct 2026 11:19:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/10/12/660x290/b_1200x675x95/la-sir-susa-scai-perugia-si-presenta-alla-citta-sportperugiait-c-creative-commons_3381635.jpg",
-      "permalink": "https://it.blastingnews.com/sport/2026/10/sir-perugia-volley-ricevuta-in-comune-e-regione-via-alla-nuova-stagione-004180225.html"
     },
     {
       "id": "news-0",
