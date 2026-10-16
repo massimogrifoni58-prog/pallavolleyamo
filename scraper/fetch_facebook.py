@@ -23,7 +23,7 @@ def main():
         print("ERRORE: mancano FB_PAGE_TOKEN o FB_PAGE_ID")
         sys.exit(1)
     q = urllib.parse.urlencode({
-        "fields": "id,message,created_time,full_picture,permalink_url",
+        "fields": "id,message,created_time,full_picture,permalink_url,comments.limit(30){message,from}",
         "limit": 100,
         "access_token": token,
     })
@@ -37,11 +37,17 @@ def main():
     posts = []
     for p in dati.get("data", []):
         msg = p.get("message") or ""
-        if tag not in msg.lower():
+        # l'hashtag puo' stare nel post oppure in un commento scritto dalla pagina stessa
+        extra = ""
+        for c in (p.get("comments") or {}).get("data", []):
+            cm = c.get("message") or ""
+            if tag in cm.lower() and str((c.get("from") or {}).get("id", "")) == page:
+                extra += " " + cm
+        if tag not in msg.lower() and not extra:
             continue
         sezione = DEFAULT_SEZIONE
         for s in SEZIONI:
-            if re.search(r"#" + s + r"\b", msg, re.I):
+            if re.search(r"#" + s + r"\b", msg + extra, re.I):
                 sezione = s
                 break
         pulito = re.sub(r"#\w+", "", msg)
