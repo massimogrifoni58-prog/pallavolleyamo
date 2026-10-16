@@ -1038,6 +1038,97 @@ function GlossarioPage() {
     </main>
   );
 }
+function RisultatiVetrina() {
+  const GIORNI = 7, MAX_RIS = 6, MAX_PROX = 4;
+  const oggiD = new Date();
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const oggi = iso(oggiD);
+  const da = iso(new Date(oggiD.getFullYear(), oggiD.getMonth(), oggiD.getDate() - GIORNI));
+  const k = (c, h, o) => (c || "").toLowerCase() + "|" + (h || "").toLowerCase() + "|" + (o || "").toLowerCase();
+  const tc = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'(])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const quando = (data, ora) => {
+    if (!data) return "";
+    const [y, m, d] = data.split("-").map(Number);
+    const t = new Date(y, m - 1, d).toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
+    return t.charAt(0).toUpperCase() + t.slice(1) + (ora ? " · " + ora : "");
+  };
+  const partiteReg = Object.values(calendarioRegionaliData.partite || {}).flat();
+  const mappa = {};
+  partiteReg.forEach((p) => { if (p.data) mappa[k(p.campionato, p.casa, p.ospite)] = p; });
+  const naz = [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])];
+
+  const giocate = [];
+  (risultatiData.matches || []).forEach((m) => {
+    if (m.status !== "disputata" || !m.score) return;
+    const p = mappa[k(m.competition, m.home, m.away)];
+    if (p && p.data >= da && p.data <= oggi) giocate.push({ id: m.id, comp: m.competition, casa: m.home, ospite: m.away, score: m.score, data: p.data, ora: p.ora });
+  });
+  naz.forEach((m) => {
+    if (m.status === "disputata" && m.dataIso && m.dataIso >= da && m.dataIso <= oggi)
+      giocate.push({ id: m.id, comp: m.competition, casa: m.home, ospite: m.away, score: m.score, data: m.dataIso, ora: m.ora });
+  });
+  giocate.sort((x, y) => (y.data + (y.ora || "")).localeCompare(x.data + (x.ora || "")));
+  const ultime = giocate.slice(0, MAX_RIS);
+
+  const prossime = [];
+  partiteReg.forEach((p) => {
+    if (p.data && p.data >= oggi && !p.risultato && /^Serie [CD]/.test(p.campionato || ""))
+      prossime.push({ id: p.id, comp: p.campionato, casa: p.casa, ospite: p.ospite, data: p.data, ora: p.ora });
+  });
+  naz.forEach((m) => {
+    if (m.status !== "disputata" && m.dataIso && m.dataIso >= oggi)
+      prossime.push({ id: m.id, comp: m.competition, casa: m.home, ospite: m.away, data: m.dataIso, ora: m.ora });
+  });
+  prossime.sort((x, y) => (x.data + (x.ora || "")).localeCompare(y.data + (y.ora || "")));
+  const prox = prossime.slice(0, MAX_PROX);
+
+  if (ultime.length === 0 && prox.length === 0) return null;
+  const nomeComp = (c) => (c || "").replace(" Girone Unico", "");
+
+  return (
+    <div className="vetrina">
+      {ultime.length > 0 && (
+        <>
+          <h3 className="vetrina__titolo">Ultimi risultati</h3>
+          <div className="vetrina__griglia">
+            {ultime.map((m) => {
+              const sc = /(\d+)\s*-\s*(\d+)/.exec(m.score || "");
+              const a = sc ? Number(sc[1]) : 0, b = sc ? Number(sc[2]) : 0;
+              return (
+                <div className="vetrina-card" key={m.id + m.data}>
+                  <div className="vetrina-card__top">
+                    <span className="vetrina-card__comp">{nomeComp(m.comp)}</span>
+                    <span className="vetrina-card__data">{quando(m.data, "")}</span>
+                  </div>
+                  <div className="vetrina-card__match">
+                    <span className={"vetrina-card__sq" + (a > b ? " vetrina-card__sq--vince" : "")}>{tc(m.casa)}</span>
+                    <span className="vetrina-card__score">{sc ? sc[1] : "-"}<i>:</i>{sc ? sc[2] : "-"}</span>
+                    <span className={"vetrina-card__sq" + (b > a ? " vetrina-card__sq--vince" : "")}>{tc(m.ospite)}</span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )}
+      {prox.length > 0 && (
+        <>
+          <h3 className="vetrina__titolo">Prossime partite</h3>
+          <div className="vetrina__prox">
+            {prox.map((m) => (
+              <div className="vetrina-prox" key={m.id + m.data}>
+                <div className="vetrina-prox__quando">{quando(m.data, m.ora)}</div>
+                <div className="vetrina-prox__match">{tc(m.casa)} <span>vs</span> {tc(m.ospite)}</div>
+                <div className="vetrina-prox__comp">{nomeComp(m.comp)}</div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
 function CondividiBar({ titolo, percorso }) {
   const [copiato, setCopiato] = useState(false);
   const url = (typeof window !== "undefined" ? window.location.origin : "https://pallavolleyamo.it") + "/#/" + percorso;
@@ -5799,8 +5890,10 @@ function CalendarioCompletoPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
         <CondividiBar titolo="Risultati e calendario delle squadre umbre" percorso="risultati" />
+        <RisultatiVetrina />
 
-        <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
+        <div className="tendine-riga" style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem 0.6rem", alignItems: "flex-start", justifyContent: "center", marginBottom: "1.4rem", marginLeft: 0, marginRight: "auto", width: "100%" }}>
+<div className="all2-select-wrap" style={{ flex: "0 1 230px", margin: 0 }}>
   <select className="all2-select" value={selCategoria}
     onChange={(e) => cambiaCategoria(e.target.value)}>
         <optgroup label="Campionati nazionali">
@@ -5823,13 +5916,14 @@ function CalendarioCompletoPage() {
 </div>
 
         {squadreUniche.length > 0 && (
-          <div className="all2-select-wrap" style={{ marginBottom: "1.5rem", maxWidth: "320px" }}>
+          <div className="all2-select-wrap" style={{ flex: "0 1 260px", margin: 0 }}>
             <select className="all2-select" value={selSquadra} onChange={(e) => { setSelSquadra(e.target.value); setSelectedDay(null); }}>
               <option value="">-- Vedi tutte le partite di una squadra --</option>
               {squadreUniche.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
         )}
+</div>
 
         {selSquadra ? (
           <>
