@@ -23,6 +23,13 @@ def main():
     if not token or not page:
         print("ERRORE: mancano FB_PAGE_TOKEN o FB_PAGE_ID")
         sys.exit(1)
+    # se il token e' di un utente (es. utente di sistema) ricava quello della pagina
+    try:
+        r = chiama(f"{API}/{page}?" + urllib.parse.urlencode({"fields": "access_token", "access_token": token}))
+        if r.get("access_token"):
+            token = r["access_token"]
+    except Exception as e:
+        print("Nota: token di pagina non ricavato, uso quello fornito")
     q = urllib.parse.urlencode({
         "fields": "id,message,created_time,full_picture,permalink_url,comments.limit(30){message,from}",
         "limit": 100,
