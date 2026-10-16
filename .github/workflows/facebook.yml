@@ -1,0 +1,29 @@
+name: Importa notizie da Facebook
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  facebook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scarica i post da Facebook
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+        run: python scraper/fetch_facebook.py
+      - name: Salva se cambiato
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/facebook_news.json react-app/data/facebook_news.json
+          git diff --staged --quiet || (git commit -m "Aggiorna notizie da Facebook" && git pull --rebase && git push)
