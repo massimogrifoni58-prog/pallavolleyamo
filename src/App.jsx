@@ -1038,6 +1038,42 @@ function GlossarioPage() {
     </main>
   );
 }
+function CondividiBar({ titolo, percorso }) {
+  const [copiato, setCopiato] = useState(false);
+  const url = (typeof window !== "undefined" ? window.location.origin : "https://pallavolleyamo.it") + "/#/" + percorso;
+  const testo = (titolo || "PallaVolleyAmo") + " - PallaVolleyAmo";
+  const btn = {
+    display: "inline-flex", alignItems: "center", gap: "0.4rem",
+    padding: "0.5rem 0.95rem", borderRadius: "999px", fontSize: "0.82rem", fontWeight: 700,
+    border: "2px solid var(--gold)", background: "rgba(212,175,55,0.12)", color: "var(--gold)",
+    cursor: "pointer", textDecoration: "none", lineHeight: 1,
+  };
+  const copia = async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+    } catch (e) {
+      const t = document.createElement("textarea");
+      t.value = url; document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); } catch (e2) {}
+      document.body.removeChild(t);
+    }
+    setCopiato(true);
+    setTimeout(() => setCopiato(false), 2000);
+  };
+  const nativo = typeof navigator !== "undefined" && navigator.share;
+  return (
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center", margin: "0 0 1.75rem" }}>
+      <span style={{ fontSize: "0.82rem", color: "var(--text-dim)", marginRight: "0.2rem" }}>Condividi:</span>
+      <a className="condividi-btn" style={btn} href={"https://wa.me/?text=" + encodeURIComponent(testo + " " + url)} target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a className="condividi-btn" style={btn} href={"https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url)} target="_blank" rel="noopener noreferrer">Facebook</a>
+      <button type="button" className="condividi-btn" style={btn} onClick={copia}>{copiato ? "Link copiato \u2713" : "Copia link"}</button>
+      {nativo && (
+        <button type="button" className="condividi-btn" style={btn} onClick={() => navigator.share({ title: testo, url }).catch(() => {})}>Altro...</button>
+      )}
+    </div>
+  );
+}
+
 function AtletaSettimanaPage() {
   const oggi = new Date();
   const settimana = Math.ceil((oggi - new Date(oggi.getFullYear(), 0, 1)) / 604800000);
@@ -6583,6 +6619,7 @@ function PallavoloUmbriaPage() {
         {dati.occhiello && (
           <p style={{ fontSize: "1rem", lineHeight: 1.6, fontWeight: 500, maxWidth: "62ch", margin: "0 0 1.75rem", paddingLeft: "0.9rem", borderLeft: "3px solid var(--gold)" }}>{dati.occhiello}</p>
         )}
+        <CondividiBar titolo={dati.titolo} percorso="pallavolo-umbria" />
         {dati.sezioni && dati.sezioni.length > 0 ? (
           <div style={{ maxWidth: "66ch", marginBottom: "2rem" }}>
             {dati.sezioni.map((s, i) => (
