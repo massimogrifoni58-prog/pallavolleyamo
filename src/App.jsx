@@ -5798,6 +5798,7 @@ function CalendarioCompletoPage() {
       <CampionatiHero titolo="Calendario" />
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
+        <CondividiBar titolo="Risultati e calendario delle squadre umbre" percorso="risultati" />
 
         <div className="all2-select-wrap" style={{ marginBottom: "1rem", maxWidth: "360px" }}>
   <select className="all2-select" value={selCategoria}
@@ -6511,6 +6512,7 @@ function WeekendUmbriaPage() {
       <CampionatiHero titolo="Il weekend in Umbria" />
       <section className="section">
         <h2 className="feed-heading">{concluso ? "Il weekend appena concluso" : "Le partite del weekend"}</h2>
+        <CondividiBar titolo="Il weekend in Umbria" percorso="weekend-umbria" />
         <p style={{ color: "var(--gold)", fontSize: "0.85rem", margin: "0 0 0.5rem" }}>{periodo}</p>
         <p style={{ fontSize: "0.93rem", lineHeight: 1.6, maxWidth: "62ch", margin: "0 0 1rem" }}>
           Tutte le gare di Serie C, Serie D e dei campionati giovanili FIPAV Umbria in programma tra venerdì e domenica.
