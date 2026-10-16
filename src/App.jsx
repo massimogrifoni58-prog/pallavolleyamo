@@ -9,6 +9,7 @@ import risultatiNazionali from "../data/risultati_nazionali.json";
 import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
+import facebookNewsData from "../data/facebook_news.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
@@ -1480,7 +1481,28 @@ function SectionPage({ slug, subscribed }) {
       _articolo: a,
     }));
 
-  const allPosts = [...(section.data.posts || []), ...articoliProv].sort(
+  const fbProv = (facebookNewsData.posts || [])
+    .filter(p => p.sezione === slug)
+    .map(p => ({
+      id: `fb-${p.id}`,
+      title: p.title,
+      excerpt: p.excerpt,
+      createdTime: p.createdTime,
+      image: p.image || null,
+      permalink: null,
+      source: "PallaVolleyAmo",
+      _isArticolo: true,
+      _articolo: {
+        id: p.id,
+        titolo: p.title,
+        testo: p.testo || p.excerpt || "",
+        foto: p.image || null,
+        societa: "PallaVolleyAmo",
+        data: formatDate(p.createdTime),
+      },
+    }));
+
+  const allPosts = [...(section.data.posts || []), ...articoliProv, ...fbProv].sort(
     (a, b) => parseDate(b) - parseDate(a)
   );
 
