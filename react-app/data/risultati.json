@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:11:08.641358+00:00",
+  "generatedAt": "2026-10-16T05:04:18.904287+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -17903,20 +17903,20 @@
       "status": "in programma"
     },
     {
-      "id": "131664966",
-      "competition": "Under 14 Maschile Girone Unico",
-      "giornata": "Giornata 2",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "V. NARNI S.A.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131664968",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 2",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "CITTA DI CASTELLO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131664966",
+      "competition": "Under 14 Maschile Girone Unico",
+      "giornata": "Giornata 2",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "V. NARNI S.A.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17984,11 +17984,11 @@
       "status": "in programma"
     },
     {
-      "id": "131664977",
+      "id": "131664975",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 5",
-      "home": "SIR MERICAT PERUGIA",
-      "away": "V. NARNI S.A.",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18002,11 +18002,11 @@
       "status": "in programma"
     },
     {
-      "id": "131664975",
+      "id": "131664977",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 5",
-      "home": "VOLLEY BORGO ALTOTEVERE",
-      "away": "INTER VOLLEY FOLIGNO",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "V. NARNI S.A.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18065,20 +18065,20 @@
       "status": "in programma"
     },
     {
-      "id": "131664984",
-      "competition": "Under 14 Maschile Girone Unico",
-      "giornata": "Giornata 8",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "STRIKE TEAM MONTELUCE U14M",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131664986",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 8",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131664984",
+      "competition": "Under 14 Maschile Girone Unico",
+      "giornata": "Giornata 8",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "STRIKE TEAM MONTELUCE U14M",
       "score": "da disputare",
       "status": "in programma"
     },
