@@ -1039,7 +1039,7 @@ function GlossarioPage() {
   );
 }
 function RisultatiVetrina() {
-  const GIORNI = 7, MAX_RIS = 6, MAX_PROX = 4;
+  const GIORNI = 7, MAX_RIS = 12, MAX_PROX = 6;
   const oggiD = new Date();
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   const oggi = iso(oggiD);
