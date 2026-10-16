@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T09:30:32.292819+00:00",
+  "generatedAt": "2026-10-16T16:26:07.309828+00:00",
   "matches": [
     {
       "id": "fp3212",
@@ -120,6 +120,18 @@
       "data": "07/11/2026 ore 18:30",
       "dataIso": "2026-11-07",
       "ora": "18:30"
+    },
+    {
+      "id": "fp11027",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "CIMAS ASD VOLLEY URBANIA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "07/11/2026 ore 21:00",
+      "dataIso": "2026-11-07",
+      "ora": "21:00"
     },
     {
       "id": "fp11233",
