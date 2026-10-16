@@ -35,6 +35,8 @@ def main():
         sys.exit(1)
 
     tag = HASHTAG.lower()
+    codice = os.environ.get("FB_CODICE", "").strip().lower()  # parola segreta da scrivere in un commento
+    n_commenti = n_validi = 0
     posts = []
     for p in dati.get("data", []):
         msg = p.get("message") or ""
@@ -42,8 +44,12 @@ def main():
         extra = ""
         for c in (p.get("comments") or {}).get("data", []):
             cm = c.get("message") or ""
-            if tag in cm.lower() and str((c.get("from") or {}).get("id", "")) in (page, ADMIN_ID):
-                extra += " " + cm
+            n_commenti += 1
+            autore = str((c.get("from") or {}).get("id", ""))
+            codice_ok = bool(codice) and codice in cm.lower()
+            if (tag in cm.lower() and autore in (page, ADMIN_ID)) or codice_ok:
+                extra += " " + cm + " " + tag
+                n_validi += 1
         if tag not in msg.lower() and not extra:
             continue
         sezione = DEFAULT_SEZIONE
@@ -84,6 +90,7 @@ def main():
     for d in ("data", "react-app/data"):
         Path(d).mkdir(parents=True, exist_ok=True)
         Path(d, "facebook_news.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Commenti letti: {n_commenti} - commenti validi: {n_validi}")
     print(f"Post letti: {len(dati.get('data', []))} - importati con {HASHTAG}: {len(posts)}")
 
 if __name__ == "__main__":

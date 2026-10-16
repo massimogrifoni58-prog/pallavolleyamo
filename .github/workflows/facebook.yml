@@ -20,6 +20,7 @@ jobs:
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_CODICE: ${{ secrets.FB_CODICE }}
         run: python scraper/fetch_facebook.py
       - name: Salva se cambiato
         run: |
