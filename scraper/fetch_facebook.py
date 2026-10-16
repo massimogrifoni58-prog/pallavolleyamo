@@ -35,8 +35,15 @@ def main():
         "limit": 100,
         "access_token": token,
     })
+    dati = {"data": []}
+    url = f"{API}/{page}/published_posts?{q}"
     try:
-        dati = chiama(f"{API}/{page}/published_posts?{q}")
+        for _ in range(5):  # fino a 5 pagine da 100 post
+            r = chiama(url)
+            dati["data"] += r.get("data", [])
+            url = (r.get("paging") or {}).get("next")
+            if not url:
+                break
     except urllib.error.HTTPError as e:
         print("ERRORE Facebook:", e.read().decode("utf-8", "replace")[:500])
         sys.exit(1)
@@ -93,7 +100,7 @@ def main():
     posts += [v for v in vecchie if v.get("id") not in nuovi_id]
     posts.sort(key=lambda x: x["createdTime"], reverse=True)
     posts = posts[:MAX_POST]
-    out = {"aggiornato": __import__("datetime").datetime.utcnow().isoformat() + "Z", "posts": posts}
+    out = {"aggiornato": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "posts": posts}
     for d in ("data", "react-app/data"):
         Path(d).mkdir(parents=True, exist_ok=True)
         Path(d, "facebook_news.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
