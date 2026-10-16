@@ -31,14 +31,14 @@ def main():
     except Exception as e:
         print("Nota: token di pagina non ricavato, uso quello fornito")
     q = urllib.parse.urlencode({
-        "fields": "id,message,created_time,full_picture,permalink_url,comments.limit(30){message,from}",
-        "limit": 100,
+        "fields": "id,message,created_time,full_picture,permalink_url,comments.limit(10){message,from}",
+        "limit": 25,
         "access_token": token,
     })
     dati = {"data": []}
     url = f"{API}/{page}/published_posts?{q}"
     try:
-        for _ in range(5):  # fino a 5 pagine da 100 post
+        for _ in range(16):  # fino a 16 pagine da 25 post
             r = chiama(url)
             dati["data"] += r.get("data", [])
             url = (r.get("paging") or {}).get("next")
