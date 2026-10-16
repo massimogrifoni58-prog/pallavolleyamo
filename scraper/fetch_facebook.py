@@ -10,6 +10,7 @@ HASHTAG = "#sulsito"          # i post con questo hashtag vengono importati
 DEFAULT_SEZIONE = "regionali"  # se non c'e' un hashtag di sezione
 SEZIONI = ["nazionale", "nazionali", "regionali", "terni", "perugia"]  # es. #terni
 MAX_POST = 40
+ADMIN_ID = "10242406550211017"  # profilo di Massimo: i suoi commenti con l'hashtag valgono
 API = "https://graph.facebook.com/v21.0"
 
 def chiama(url):
@@ -41,7 +42,7 @@ def main():
         extra = ""
         for c in (p.get("comments") or {}).get("data", []):
             cm = c.get("message") or ""
-            if tag in cm.lower() and str((c.get("from") or {}).get("id", "")) == page:
+            if tag in cm.lower() and str((c.get("from") or {}).get("id", "")) in (page, ADMIN_ID):
                 extra += " " + cm
         if tag not in msg.lower() and not extra:
             continue
@@ -70,6 +71,13 @@ def main():
             "source": "PallaVolleyAmo",
             "sezione": sezione,
         })
+    # le notizie gia' importate restano anche se poi cancelli il commento/hashtag
+    try:
+        vecchie = json.loads(Path("data/facebook_news.json").read_text(encoding="utf-8")).get("posts", [])
+    except Exception:
+        vecchie = []
+    nuovi_id = {p["id"] for p in posts}
+    posts += [v for v in vecchie if v.get("id") not in nuovi_id]
     posts.sort(key=lambda x: x["createdTime"], reverse=True)
     posts = posts[:MAX_POST]
     out = {"aggiornato": __import__("datetime").datetime.utcnow().isoformat() + "Z", "posts": posts}
