@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T09:32:24.267298+00:00",
+  "generatedAt": "2026-10-16T20:48:05.450214+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5875,7 +5875,7 @@
         "ora": "18:30",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-a-1",
@@ -8303,7 +8303,7 @@
         "ora": "17:30",
         "casa": "DIFDIF VOLLEY ACADEMY",
         "ospite": "LYNX ACQUASPARTA VOLLEY",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-g-2",
