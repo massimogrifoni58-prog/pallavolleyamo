@@ -663,7 +663,31 @@ function HomePage({ latestNews = [] }) {
   const meseCorrente = new Date().getMonth() + 1; // 1-12
   const inPausaEstiva = meseCorrente >= 6 && meseCorrente <= 8; // giugno, luglio, agosto
 
-  const hasRisultati = !inPausaEstiva && risultati.length > 0;
+  // Fascia scorrevole: ultimi 3 giorni, massimo 20 risultati (regionali + nazionali umbri)
+  const risultatiScorrevoli = (() => {
+    const GIORNI = 3, MAX = 20;
+    const oggiD = new Date();
+    const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    const da = iso(new Date(oggiD.getFullYear(), oggiD.getMonth(), oggiD.getDate() - GIORNI));
+    const a = iso(oggiD);
+    const k = (c, h, o) => (c || "").toLowerCase() + "|" + (h || "").toLowerCase() + "|" + (o || "").toLowerCase();
+    const mappa = {};
+    Object.values(calendarioRegionaliData.partite || {}).flat().forEach((p) => {
+      if (p.data) mappa[k(p.campionato, p.casa, p.ospite)] = p;
+    });
+    const lista = [];
+    risultati.forEach((m) => {
+      const p = mappa[k(m.competition, m.home, m.away)];
+      if (p && p.data >= da && p.data <= a) lista.push({ ...m, _d: p.data + (p.ora || "") });
+    });
+    [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])].forEach((m) => {
+      if (m.status === "disputata" && m.dataIso && m.dataIso >= da && m.dataIso <= a) lista.push({ ...m, _d: m.dataIso + (m.ora || "") });
+    });
+    lista.sort((x, y) => y._d.localeCompare(x._d));
+    return lista.slice(0, MAX);
+  })();
+
+  const hasRisultati = !inPausaEstiva && risultatiScorrevoli.length > 0;
 
   const oggiISO = new Date().toISOString().slice(0, 10);
   const prossime = Object.values(calendarioRegionaliData.partite || {})
@@ -674,7 +698,7 @@ function HomePage({ latestNews = [] }) {
   const prossimeTesto = prossime
     .map((p) => `${p.casa} – ${p.ospite} (${p.data.slice(8, 10)}/${p.data.slice(5, 7)}${p.ora ? " " + p.ora : ""})`)
     .join("\u00a0\u00a0\u00a0\u25cf\u00a0\u00a0\u00a0");
-  const risultatiTesto = risultati.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("\u00a0\u00a0\u00a0\u25cf\u00a0\u00a0\u00a0");
+  const risultatiTesto = risultatiScorrevoli.map((m) => `${m.home}  ${m.score}  ${m.away}`).join("\u00a0\u00a0\u00a0\u25cf\u00a0\u00a0\u00a0");
 
   // Statistiche rapide
   const nCampionati = new Set((risultatiData.matches || []).map((m) => getMacroCategory(m.competition))).size;
@@ -768,7 +792,7 @@ function HomePage({ latestNews = [] }) {
             <div className="hero-risultati__track-wrap">
               <div
                 className="hero-risultati__track"
-                style={{ "--scroll-duration": `${Math.max(45, risultati.length * 9)}s` }}
+                style={{ "--scroll-duration": `${Math.max(45, risultatiScorrevoli.length * 9)}s` }}
               >
                 {[risultatiTesto, risultatiTesto].map((t, i) => (
                   <span key={i} className="hero-risultati__testo">{t}</span>
@@ -816,7 +840,7 @@ function HomePage({ latestNews = [] }) {
         </div>
       )}
 
-      {hasRisultati && risultatiCard.length > 0 && (
+      {!inPausaEstiva && risultati.length > 0 && risultatiCard.length > 0 && (
         <div className="risultati-mini">
           <div className="risultati-mini__testa">
             <h2 className="risultati-mini__titolo">Ultimi risultati</h2>
