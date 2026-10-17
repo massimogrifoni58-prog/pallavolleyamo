@@ -474,6 +474,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <MeteoWidget />
         <LiveClock />
         <div className="masthead__topbar-links">
+          <a href="#/cerca" className="masthead__topbar-link">🔍 Cerca</a>
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
           <a href="#/privacy" className="masthead__topbar-link">Privacy Policy</a>
           <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
@@ -6708,6 +6709,165 @@ function MiaSquadraHome() {
   );
 }
 
+function CercaPage() {
+  const [q, setQ] = useState(() => { try { return new URLSearchParams(window.location.search).get("q") || ""; } catch (e) { return ""; } });
+  const partite = React.useMemo(() => tuttePartiteSquadre(), []);
+  const squadre = React.useMemo(() => {
+    const m = {};
+    partite.forEach((p) => {
+      [p.casa, p.ospite].forEach((n) => {
+        if (!n) return;
+        const k = normSq(n);
+        if (!m[k]) m[k] = { nome: n, cats: new Set() };
+        m[k].cats.add(categoriaBreve(p.camp));
+      });
+    });
+    return Object.values(m);
+  }, [partite]);
+
+  const t = normSq(q).replace(/[']/g, "");
+  const ok = (...campi) => t.length >= 2 && campi.some((c) => normSq(c).replace(/[']/g, "").includes(t));
+  const oggiISO = new Date().toISOString().slice(0, 10);
+
+  const trSquadre = t.length >= 2 ? squadre.filter((s) => ok(s.nome)).sort((a, b) => a.nome.localeCompare(b.nome, "it")).slice(0, 12) : [];
+  const trSocieta = (societaData.societa || []).filter((s) => ok(s.nome, s.citta, s.palazzetto)).slice(0, 8);
+  const trAllenatori = (allenatoriData.coaches || []).filter((c) => ok(c.name, c.team)).slice(0, 6);
+  const trAtleti = [...(atletiTopData.femminili || []), ...(atletiTopData.maschili || [])].filter((a) => ok(a.nome, a.club)).slice(0, 6);
+  const trGloss = (glossarioData.glossario || []).filter((g) => ok(g.termine)).slice(0, 5);
+  const notizie = [
+    ...(facebookNewsData.posts || []).map((p) => ({ ...p, fonte: "PallaVolleyAmo" })),
+    ...(newsGeneraliData.posts || []),
+    ...(regionaliData.posts || []),
+    ...(terniData.posts || []),
+    ...(perugiaData.posts || []),
+  ];
+  const trNews = notizie.filter((p) => ok(p.title)).slice(0, 8);
+
+  function seguiSquadra(nome) { salvaMiaSquadra(nome); navigateTo("mia-squadra"); }
+  function prossima(nome) {
+    return partite.filter((p) => !p.ris && p.data >= oggiISO && squadraMia(p.casa, nome) || (!p.ris && p.data >= oggiISO && squadraMia(p.ospite, nome)))
+      .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
+  }
+  const titoloSez = { fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", margin: "1.5rem 0 0.5rem" };
+  const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.7rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap", justifyContent: "space-between", textDecoration: "none", color: "inherit" };
+  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trAtleti.length + trGloss.length + trNews.length;
+
+  return (
+    <main>
+      <CampionatiHero titolo="Cerca" />
+      <section className="section">
+        <h2 className="feed-heading">Cerca nel sito</h2>
+        <input
+          type="search"
+          autoFocus
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Squadra, società, allenatore, notizia, termine…"
+          aria-label="Cerca nel sito"
+          style={{ width: "100%", maxWidth: "520px", padding: "0.75rem 0.95rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "1rem" }}
+        />
+        {t.length < 2 && <p className="state" style={{ marginTop: "1rem" }}>Scrivi almeno due lettere: per esempio “Trestina”, “Perugia”, “Velasco”, “ace”.</p>}
+        {t.length >= 2 && tot === 0 && <p className="state" style={{ marginTop: "1rem" }}>Nessun risultato per “{q}”.</p>}
+
+        {trSquadre.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Squadre</h3>
+            {trSquadre.length > 1 && (
+              <button className="filter-btn" style={{ marginBottom: "0.5rem" }} onClick={() => seguiSquadra("~" + q.trim())}>⭐ Segui tutte le squadre “{q.trim()}”</button>
+            )}
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trSquadre.map((s) => {
+                const pr = prossima(s.nome);
+                return (
+                  <div key={s.nome} style={box}>
+                    <div style={{ flex: "1 1 220px" }}>
+                      <div style={{ fontWeight: 700 }}>{s.nome}</div>
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{[...s.cats].join(" · ")}</div>
+                      {pr && <div style={{ fontSize: "0.78rem", marginTop: "0.2rem" }}>Prossima: {dataBreve(pr.data)}{pr.ora ? ` ore ${pr.ora}` : ""} — {pr.casa} vs {pr.ospite}</div>}
+                    </div>
+                    <button className="filter-btn filter-btn--active" onClick={() => seguiSquadra(s.nome)}>⭐ Segui</button>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        {trSocieta.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Società e palazzetti</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trSocieta.map((s) => (
+                <a key={s.id} href="#/mappa" style={box}>
+                  <div><div style={{ fontWeight: 700 }}>{s.nome}</div>
+                    <div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{[s.citta, s.palazzetto].filter(Boolean).join(" · ")}</div></div>
+                  <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Mappa →</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {trAllenatori.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Allenatori</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trAllenatori.map((c) => (
+                <a key={c.id} href="#/allenatori" style={box}>
+                  <div><div style={{ fontWeight: 700 }}>{c.name}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{c.team}</div></div>
+                  <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {trAtleti.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Atleti</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trAtleti.map((a) => (
+                <a key={a.id + a.nome} href="#/atleta-settimana" style={box}>
+                  <div><div style={{ fontWeight: 700 }}>{a.nome}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{[a.ruolo, a.club].filter(Boolean).join(" · ")}</div></div>
+                  <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {trNews.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Notizie</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trNews.map((p, i) => (
+                <a key={(p.id || p.permalink || "") + i} href={p.permalink} target="_blank" rel="noreferrer" style={box}>
+                  <div><div style={{ fontWeight: 600, fontSize: "0.9rem" }} dangerouslySetInnerHTML={{ __html: p.title }} />
+                    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{p.source || p.fonte}</div></div>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {trGloss.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Glossario</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              {trGloss.map((g) => (
+                <a key={g.termine} href="#/glossario" style={{ ...box, display: "block" }}>
+                  <div style={{ fontWeight: 700 }}>{g.termine}</div>
+                  <div style={{ fontSize: "0.8rem", color: "var(--text-dim)" }}>{truncate(g.definizione, 140)}</div>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+      </section>
+    </main>
+  );
+}
+
 function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
@@ -7198,6 +7358,7 @@ useEffect(() => {
   const SEO = {
     "weekend-umbria": ["Il weekend in Umbria: partite di Serie C, D e giovanili | PallaVolleyAmo", "Tutte le partite di pallavolo del weekend in Umbria: Serie C, Serie D e campionati giovanili FIPAV, con orari e risultati aggiornati."],
     "mia-squadra": ["La mia squadra: partite e risultati | PallaVolleyAmo", "Scegli la tua squadra di pallavolo: prossime partite, risultati e calendario da salvare sul telefono."],
+    "cerca": ["Cerca nel sito | PallaVolleyAmo", "Cerca squadre, società, allenatori, notizie e termini della pallavolo umbra."],
     "home": ["PallaVolleyAmo — Volley Umbria", "Il sito di riferimento per la pallavolo in Umbria: risultati, classifiche, notizie e campionati FIPAV aggiornati ogni giorno."],
     "pallavolo-umbria": ["La Settimana Volley — commenti e notizie | PallaVolleyAmo", "Il commento settimanale sulla pallavolo umbra: squadre, derby, campionati nazionali e regionali, con le partite da non perdere."],
     "regionali": ["Campionati regionali di pallavolo in Umbria | PallaVolleyAmo", "Serie C, Serie D e campionati giovanili FIPAV Umbria: calendari, risultati e classifiche aggiornati."],
@@ -7320,7 +7481,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7353,6 +7514,7 @@ useEffect(() => {
           {route === "dirette" && <DiretteLivePage />}
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
           {route === "mia-squadra" && <MiaSquadraPage />}
+          {route === "cerca" && <CercaPage />}
           {route === "risultati" && <CalendarioCompletoPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}
