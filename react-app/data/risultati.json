@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:48:25.709146+00:00",
+  "generatedAt": "2026-10-17T22:06:48.196028+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -43,8 +43,8 @@
       "giornata": "Giornata 1",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626790",
@@ -1438,8 +1438,8 @@
       "giornata": "Giornata 1",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626947",
@@ -1447,8 +1447,8 @@
       "giornata": "Giornata 1",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626944",
@@ -2842,8 +2842,8 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131628261",
@@ -2851,8 +2851,8 @@
       "giornata": "Giornata 1",
       "home": "PALLAVOLO GUBBIO",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627452",
@@ -19253,20 +19253,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661641",
-      "competition": "Under 14 Femminile Girone E",
-      "giornata": "Giornata 1",
-      "home": "NARNI",
-      "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661643",
       "competition": "Under 14 Femminile Girone E",
       "giornata": "Giornata 1",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661641",
+      "competition": "Under 14 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "NARNI",
+      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19406,6 +19406,15 @@
       "status": "in programma"
     },
     {
+      "id": "131661660",
+      "competition": "Under 14 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "AMERINA PALLAVOLO A S D",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661661",
       "competition": "Under 14 Femminile Girone E",
       "giornata": "Giornata 7",
@@ -19420,15 +19429,6 @@
       "giornata": "Giornata 7",
       "home": "POLISPORTIVA CLT",
       "away": "COLLELUNA VOLLEY SAN GEMINI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131661660",
-      "competition": "Under 14 Femminile Girone E",
-      "giornata": "Giornata 7",
-      "home": "AMERINA PALLAVOLO A S D",
-      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },

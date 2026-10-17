@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:47:46.117635+00:00",
+  "generatedAt": "2026-10-17T22:06:03.748978+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -107,7 +107,7 @@
         "ora": "21:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-maschile-1",
@@ -1689,7 +1689,7 @@
         "ora": "21:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-3",
@@ -1699,7 +1699,7 @@
         "ora": "21:00",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-4",
@@ -8107,7 +8107,7 @@
         "id": "giov-under-17-femminile-girone-f-2",
         "campionato": "Under 17 Femminile Girone F",
         "giornata": "2",
-        "data": "2026-10-22",
+        "data": "2026-11-03",
         "ora": "19:15",
         "casa": "AMERINA PALLAVOLO A S D",
         "ospite": "ORVIETO VOLLEY ACADEMY",
