@@ -6516,9 +6516,6 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
           )}
         </div>
       )}
-      {conCalendario && !p.ris && (
-        <button className="filter-btn" onClick={() => scaricaIcs([p], "partita.ics")} title="Aggiungi al calendario del telefono">📅 Calendario</button>
-      )}
     </div>
   );
 }
@@ -6643,7 +6640,7 @@ function MiaSquadraPage() {
               <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>📅 Scarica tutto il calendario</button>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "1.5rem" }}>
-              {prossime.slice(0, 12).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} conCalendario />)}
+              {prossime.slice(0, 12).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} />)}
             </div>
           </>
         )}
