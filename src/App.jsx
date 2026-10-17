@@ -538,6 +538,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Campionati"
           subscribed={subscribed}
           items={[
+            { href: "#/mia-squadra", icon: "\u2B50", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
@@ -822,6 +823,7 @@ function HomePage({ latestNews = [] }) {
           )}
         </div>
       </div>     
+      <MiaSquadraHome />
              {weekendHome.mostra.length > 0 && (
         <div className="evidenza-box">
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "0.5rem" }}>
@@ -5518,6 +5520,7 @@ function Breadcrumb({ route }) {
     "perugia": ["Notizie", "News Prov. PG"],
     "articoli-societa": ["Notizie", "Articoli Società"],
     "squadre-iscritte": ["Campionati", "Squadre Iscritte"],
+    "mia-squadra": ["Campionati", "La mia squadra"],
     "risultati": ["Campionati", "Risultati"],
     "risultati-seriec": ["Campionati", "Serie C"],
     "risultati-seried": ["Campionati", "Serie D"],
@@ -6397,6 +6400,257 @@ function CalendarioRegionaliPage() {
     </main>
   );
 }
+const CHIAVE_MIA_SQUADRA = "pva_mia_squadra";
+
+function leggiMiaSquadra() {
+  try { return localStorage.getItem(CHIAVE_MIA_SQUADRA) || ""; } catch (e) { return ""; }
+}
+function salvaMiaSquadra(nome) {
+  try {
+    if (nome) localStorage.setItem(CHIAVE_MIA_SQUADRA, nome);
+    else localStorage.removeItem(CHIAVE_MIA_SQUADRA);
+  } catch (e) {}
+}
+const normSq = (s) => (s || "").toLowerCase().replace(/\s+/g, " ").trim();
+
+// Tutte le partite note (regionali + nazionali) in un'unica lista
+function tuttePartiteSquadre() {
+  const punteggi = {};
+  (risultatiData.matches || []).forEach((m) => {
+    if (m.status === "disputata" && m.score) punteggi[normSq(m.competition) + "|" + normSq(m.home) + "|" + normSq(m.away)] = m.score;
+  });
+  const lista = [];
+  Object.values(calendarioRegionaliData.partite || {}).flat().forEach((p) => {
+    if (!p.data) return;
+    const ris = p.risultato || punteggi[normSq(p.campionato) + "|" + normSq(p.casa) + "|" + normSq(p.ospite)] || null;
+    lista.push({ id: p.id, camp: p.campionato, giornata: p.giornata, data: p.data, ora: (p.ora || "").slice(0, 5), casa: p.casa, ospite: p.ospite, ris });
+  });
+  [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])].forEach((m) => {
+    if (!m.dataIso) return;
+    const ris = m.status === "disputata" && m.score && m.score !== "da disputare" ? m.score : null;
+    lista.push({ id: "n" + m.id, camp: m.competition, giornata: (m.giornata || "").replace(/^Giornata\s*/i, ""), data: m.dataIso, ora: (m.ora || "").slice(0, 5), casa: m.home, ospite: m.away, ris });
+  });
+  (calendarioSquadreData.partite || []).forEach((p) => {
+    if (!p.data) return;
+    const dup = lista.some((x) => x.data === p.data && normSq(x.casa) === normSq(p.casa) && normSq(x.ospite) === normSq(p.ospite));
+    if (!dup) lista.push({ id: p.id, camp: p.categoria, data: p.data, ora: (p.ora || "").slice(0, 5), casa: p.casa, ospite: p.ospite, ris: p.risultato && p.risultato !== "0-0" ? p.risultato : null, luogo: p.impianto });
+  });
+  return lista;
+}
+
+function esitoPartita(p, nome) {
+  if (!p.ris) return null;
+  const m = String(p.ris).match(/(\d+)\s*-\s*(\d+)/);
+  if (!m) return null;
+  const a = Number(m[1]), b = Number(m[2]);
+  if (a === b) return null;
+  const inCasa = normSq(p.casa) === normSq(nome);
+  return (inCasa ? a > b : b > a) ? "V" : "S";
+}
+
+function scaricaIcs(partite, nomeFile) {
+  const esc = (t) => String(t || "").replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+  const f = (data, ora) => data.replace(/-/g, "") + "T" + (ora || "18:00").replace(":", "").slice(0, 4) + "00";
+  const fine = (data, ora) => {
+    const [h, mi] = (ora || "18:00").split(":").map(Number);
+    const d = new Date(2000, 0, 1, h + 2, mi);
+    return data.replace(/-/g, "") + "T" + String(d.getHours()).padStart(2, "0") + String(d.getMinutes()).padStart(2, "0") + "00";
+  };
+  const righe = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//PallaVolleyAmo//La mia squadra//IT", "CALSCALE:GREGORIAN"];
+  partite.forEach((p) => {
+    righe.push(
+      "BEGIN:VEVENT",
+      "UID:" + p.id + "@pallavolleyamo.it",
+      "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z",
+      "DTSTART:" + f(p.data, p.ora),
+      "DTEND:" + fine(p.data, p.ora),
+      "SUMMARY:" + esc(p.casa + " - " + p.ospite),
+      "DESCRIPTION:" + esc((p.camp || "") + (p.giornata ? " - Giornata " + p.giornata : "") + " (pallavolleyamo.it)"),
+    );
+    if (p.luogo) righe.push("LOCATION:" + esc(p.luogo));
+    righe.push("END:VEVENT");
+  });
+  righe.push("END:VCALENDAR");
+  const blob = new Blob([righe.join("\r\n")], { type: "text/calendar;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = nomeFile;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function dataBreve(iso) {
+  return new Date(iso + "T00:00:00").toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
+}
+
+function RigaPartitaSquadra({ p, nome, conCalendario }) {
+  const esito = esitoPartita(p, nome);
+  const mia = (n) => normSq(n) === normSq(nome);
+  return (
+    <div style={{ border: "1px solid var(--border)", borderRadius: "10px", padding: "0.75rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
+      <div style={{ flex: "1 1 220px", minWidth: 0 }}>
+        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.25rem" }}>
+          {dataBreve(p.data)}{p.ora ? ` · ${p.ora}` : ""} · {p.camp}{p.giornata ? ` · G.${p.giornata}` : ""}
+        </div>
+        <div style={{ fontSize: "0.9rem" }}>
+          <span style={{ fontWeight: mia(p.casa) ? 800 : 500, color: mia(p.casa) ? "var(--gold)" : "inherit" }}>{p.casa}</span>
+          <span style={{ color: "var(--text-dim)" }}> vs </span>
+          <span style={{ fontWeight: mia(p.ospite) ? 800 : 500, color: mia(p.ospite) ? "var(--gold)" : "inherit" }}>{p.ospite}</span>
+        </div>
+        {p.luogo && <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>📍 {p.luogo}</div>}
+      </div>
+      {p.ris && (
+        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+          <strong style={{ color: "var(--gold)" }}>{p.ris}</strong>
+          {esito && (
+            <span style={{ fontSize: "0.7rem", fontWeight: 800, padding: "0.15rem 0.5rem", borderRadius: "999px", background: esito === "V" ? "rgba(60,180,90,0.25)" : "rgba(220,70,70,0.25)", color: esito === "V" ? "#5fd37e" : "#ff8a8a" }}>
+              {esito === "V" ? "Vinta" : "Persa"}
+            </span>
+          )}
+        </div>
+      )}
+      {conCalendario && !p.ris && (
+        <button className="filter-btn" onClick={() => scaricaIcs([p], "partita.ics")} title="Aggiungi al calendario del telefono">📅 Calendario</button>
+      )}
+    </div>
+  );
+}
+
+function MiaSquadraPage() {
+  const [nome, setNome] = useState(leggiMiaSquadra());
+  const [cerca, setCerca] = useState("");
+
+  const partite = React.useMemo(() => tuttePartiteSquadre(), []);
+  const squadre = React.useMemo(() => {
+    const m = {};
+    partite.forEach((p) => { [p.casa, p.ospite].forEach((n) => { if (n && !m[normSq(n)]) m[normSq(n)] = n; }); });
+    return Object.values(m).sort((a, b) => a.localeCompare(b, "it"));
+  }, [partite]);
+
+  function scegli(n) { setNome(n); salvaMiaSquadra(n); setCerca(""); }
+  function cambia() { setNome(""); salvaMiaSquadra(""); }
+
+  if (!nome) {
+    const filtrate = cerca.trim() ? squadre.filter((s) => normSq(s).includes(normSq(cerca))) : [];
+    return (
+      <main>
+        <CampionatiHero titolo="La mia squadra" />
+        <section className="section">
+          <h2 className="feed-heading">Scegli la tua squadra</h2>
+          <p className="state" style={{ marginBottom: "1rem" }}>Scrivi il nome della società e toccala: la ricorderemo su questo dispositivo e ti mostreremo subito le sue partite e i suoi risultati.</p>
+          <input
+            type="search"
+            value={cerca}
+            onChange={(e) => setCerca(e.target.value)}
+            placeholder="Es. Trestina, Bosico, Perugia…"
+            aria-label="Cerca squadra"
+            style={{ width: "100%", maxWidth: "460px", padding: "0.7rem 0.9rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "1rem", marginBottom: "1rem" }}
+          />
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem", maxWidth: "460px" }}>
+            {filtrate.slice(0, 15).map((s) => (
+              <button key={s} className="filter-btn" style={{ textAlign: "left" }} onClick={() => scegli(s)}>{s}</button>
+            ))}
+            {cerca.trim() && filtrate.length === 0 && <p className="state">Nessuna squadra trovata.</p>}
+          </div>
+        </section>
+      </main>
+    );
+  }
+
+  const oggiISO = new Date().toISOString().slice(0, 10);
+  const mie = partite.filter((p) => normSq(p.casa) === normSq(nome) || normSq(p.ospite) === normSq(nome));
+  const ordina = (a, b) => (a.data + a.ora).localeCompare(b.data + b.ora);
+  const prossime = mie.filter((p) => !p.ris && p.data >= oggiISO).sort(ordina);
+  const giocate = mie.filter((p) => p.ris).sort((a, b) => ordina(b, a));
+  const prima = prossime[0];
+  const v = giocate.filter((p) => esitoPartita(p, nome) === "V").length;
+  const s = giocate.filter((p) => esitoPartita(p, nome) === "S").length;
+
+  return (
+    <main>
+      <CampionatiHero titolo="La mia squadra" />
+      <section className="section">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1rem" }}>
+          <h2 className="feed-heading" style={{ margin: 0 }}>{nome}</h2>
+          <button className="filter-btn" onClick={cambia}>Cambia squadra</button>
+        </div>
+
+        {prima ? (
+          <div style={{ border: "2px solid var(--gold)", borderRadius: "12px", padding: "1rem 1.2rem", marginBottom: "1.5rem", background: "rgba(212,175,55,0.07)" }}>
+            <div style={{ fontSize: "0.7rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.4rem" }}>Prossima partita</div>
+            <div style={{ fontSize: "1.05rem", fontWeight: 700 }}>{prima.casa} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>vs</span> {prima.ospite}</div>
+            <div style={{ fontSize: "0.85rem", color: "var(--text-dim)", margin: "0.3rem 0 0.7rem" }}>
+              {new Date(prima.data + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}{prima.ora ? ` · ore ${prima.ora}` : ""} · {prima.camp}
+            </div>
+            <button className="filter-btn filter-btn--active" onClick={() => scaricaIcs([prima], "prossima-partita.ics")}>📅 Aggiungi al calendario</button>
+          </div>
+        ) : (
+          <p className="state" style={{ marginBottom: "1.5rem" }}>Nessuna partita in programma al momento.</p>
+        )}
+
+        {giocate.length > 0 && (
+          <p style={{ marginBottom: "1.5rem", fontSize: "0.9rem" }}>
+            Stagione finora: <strong style={{ color: "#5fd37e" }}>{v} vinte</strong> · <strong style={{ color: "#ff8a8a" }}>{s} perse</strong>
+          </p>
+        )}
+
+        {prossime.length > 0 && (
+          <>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
+              <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", margin: 0 }}>Prossime partite ({prossime.length})</h3>
+              <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>📅 Scarica tutto il calendario</button>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "1.5rem" }}>
+              {prossime.slice(0, 12).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} conCalendario />)}
+            </div>
+          </>
+        )}
+
+        {giocate.length > 0 && (
+          <>
+            <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Ultimi risultati</h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+              {giocate.slice(0, 10).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} />)}
+            </div>
+          </>
+        )}
+      </section>
+    </main>
+  );
+}
+
+function MiaSquadraHome() {
+  const nome = leggiMiaSquadra();
+  if (!nome) {
+    return (
+      <section className="section" style={{ textAlign: "center" }}>
+        <a href="#/mia-squadra" className="filter-btn filter-btn--active" style={{ display: "inline-block", textDecoration: "none" }}>⭐ Scegli la tua squadra e segui le sue partite</a>
+      </section>
+    );
+  }
+  const oggiISO = new Date().toISOString().slice(0, 10);
+  const prossima = tuttePartiteSquadre()
+    .filter((p) => !p.ris && p.data >= oggiISO && (normSq(p.casa) === normSq(nome) || normSq(p.ospite) === normSq(nome)))
+    .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
+  return (
+    <section className="section">
+      <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
+        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>⭐ La mia squadra · {nome}</div>
+        {prossima ? (
+          <div style={{ marginTop: "0.3rem", fontSize: "0.92rem" }}>
+            {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
+          </div>
+        ) : (
+          <div style={{ marginTop: "0.3rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>Nessuna partita in programma. Tocca per vedere i risultati.</div>
+        )}
+      </a>
+    </section>
+  );
+}
+
 function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
@@ -6886,6 +7140,7 @@ useEffect(() => {
   const SITO = "https://www.pallavolleyamo.it";
   const SEO = {
     "weekend-umbria": ["Il weekend in Umbria: partite di Serie C, D e giovanili | PallaVolleyAmo", "Tutte le partite di pallavolo del weekend in Umbria: Serie C, Serie D e campionati giovanili FIPAV, con orari e risultati aggiornati."],
+    "mia-squadra": ["La mia squadra: partite e risultati | PallaVolleyAmo", "Scegli la tua squadra di pallavolo: prossime partite, risultati e calendario da salvare sul telefono."],
     "home": ["PallaVolleyAmo — Volley Umbria", "Il sito di riferimento per la pallavolo in Umbria: risultati, classifiche, notizie e campionati FIPAV aggiornati ogni giorno."],
     "pallavolo-umbria": ["La Settimana Volley — commenti e notizie | PallaVolleyAmo", "Il commento settimanale sulla pallavolo umbra: squadre, derby, campionati nazionali e regionali, con le partite da non perdere."],
     "regionali": ["Campionati regionali di pallavolo in Umbria | PallaVolleyAmo", "Serie C, Serie D e campionati giovanili FIPAV Umbria: calendari, risultati e classifiche aggiornati."],
@@ -7008,7 +7263,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7040,6 +7295,7 @@ useEffect(() => {
           {route === "classifica" && <ClassificaPage />}
           {route === "dirette" && <DiretteLivePage />}
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
+          {route === "mia-squadra" && <MiaSquadraPage />}
           {route === "risultati" && <CalendarioCompletoPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}
