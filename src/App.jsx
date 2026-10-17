@@ -6618,10 +6618,9 @@ function MiaSquadraPage() {
           <div style={{ border: "2px solid var(--gold)", borderRadius: "12px", padding: "1rem 1.2rem", marginBottom: "1.5rem", background: "rgba(212,175,55,0.07)" }}>
             <div style={{ fontSize: "0.7rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700, marginBottom: "0.4rem" }}>Prossima partita</div>
             <div style={{ fontSize: "1.05rem", fontWeight: 700 }}>{prima.casa} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>vs</span> {prima.ospite}</div>
-            <div style={{ fontSize: "0.85rem", color: "var(--text-dim)", margin: "0.3rem 0 0.7rem" }}>
+            <div style={{ fontSize: "0.85rem", color: "var(--text-dim)", margin: "0.3rem 0 0" }}>
               {new Date(prima.data + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}{prima.ora ? ` · ore ${prima.ora}` : ""} · {prima.camp}
             </div>
-            <button className="filter-btn filter-btn--active" onClick={() => scaricaIcs([prima], "prossima-partita.ics")}>📅 Aggiungi al calendario</button>
           </div>
         ) : (
           <p className="state" style={{ marginBottom: "1.5rem" }}>Nessuna partita in programma al momento.</p>
