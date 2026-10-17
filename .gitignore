@@ -9,3 +9,8 @@ dist/
 __pycache__/
 *.bak*
 *.old
+
+# generati a ogni build da scripts/genera-seo.mjs
+public/squadra/
+public/campionato/
+public/sitemap-partite.xml
