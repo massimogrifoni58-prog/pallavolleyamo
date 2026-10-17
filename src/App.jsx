@@ -474,7 +474,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <MeteoWidget />
         <LiveClock />
         <div className="masthead__topbar-links">
-          <a href="#/cerca" className="masthead__topbar-link">🔍 Cerca</a>
+          <a href="#/cerca" className="masthead__topbar-link">Cerca</a>
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
           <a href="#/privacy" className="masthead__topbar-link">Privacy Policy</a>
           <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
@@ -539,7 +539,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Campionati"
           subscribed={subscribed}
           items={[
-            { href: "#/mia-squadra", icon: "\u2B50", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
+            { href: "#/mia-squadra", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
@@ -5440,7 +5440,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
                     color: colori[selected.categoria] || "#888",
                   }}>{selected.categoria}</span>
                   <div style={{ lineHeight: 1.8, fontSize: "0.8rem" }}>
-                    <div>📍 {selected.citta} ({selected.provincia})</div>
+                    <div>{selected.citta} ({selected.provincia})</div>
                     <div>🏟 {selected.palazzetto}</div>
                     <div style={{ color: "var(--text-dim)" }}>{selected.indirizzo}</div>
                     <a href={selected.gmaps} target="_blank" rel="noreferrer"
@@ -5982,7 +5982,7 @@ function CalendarioCompletoPage() {
                   )}
                   {p.impianto && (
                     <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
-                      📍 {p.impianto}
+                      {p.impianto}
                     </div>
                   )}
                 </div>
@@ -6075,7 +6075,7 @@ function CalendarioCompletoPage() {
                       )}
                       {p.impianto && (
                         <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
-                          📍 {p.impianto}
+                          {p.impianto}
                         </div>
                       )}
                     </div>
@@ -6225,7 +6225,7 @@ function AgendaPage() {
                   )}
                   {p.impianto && (
                     <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
-                      📍 {p.impianto}
+                      {p.impianto}
                     </div>
                   )}
                 </div>
@@ -6523,7 +6523,7 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
           <span style={{ color: "var(--text-dim)" }}> vs </span>
           <span style={{ fontWeight: mia(p.ospite) ? 800 : 500, color: mia(p.ospite) ? "var(--gold)" : "inherit" }}>{p.ospite}</span>
         </div>
-        {p.luogo && <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>📍 {p.luogo}</div>}
+        {p.luogo && <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>{p.luogo}</div>}
       </div>
       {inCorso(p) && (
         <span style={{ fontSize: "0.7rem", fontWeight: 800, padding: "0.15rem 0.5rem", borderRadius: "999px", background: "rgba(212,175,55,0.2)", color: "var(--gold)" }}>In corso · risultato in arrivo</span>
@@ -6587,7 +6587,7 @@ function MiaSquadraPage() {
           />
           {trovate.length > 1 && (
             <button className="filter-btn filter-btn--active" style={{ marginBottom: "1rem" }} onClick={() => scegli("~" + cerca.trim())}>
-              ⭐ Segui tutte le squadre “{cerca.trim()}” ({trovate.length})
+              Segui tutte le squadre “{cerca.trim()}” ({trovate.length})
             </button>
           )}
           {cats.slice(0, 30).map((c) => (
@@ -6658,7 +6658,7 @@ function MiaSquadraPage() {
           <>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
               <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", margin: 0 }}>Prossime partite ({prossime.length})</h3>
-              <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>📅 Scarica tutto il calendario</button>
+              <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>Scarica tutto il calendario</button>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "1.5rem" }}>
               {prossime.slice(0, 12).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} />)}
@@ -6684,7 +6684,7 @@ function MiaSquadraHome() {
   if (!nome) {
     return (
       <section className="section" style={{ textAlign: "center" }}>
-        <a href="#/mia-squadra" className="filter-btn filter-btn--active" style={{ display: "inline-block", textDecoration: "none" }}>⭐ Scegli la tua squadra e segui le sue partite</a>
+        <a href="#/mia-squadra" className="filter-btn filter-btn--active" style={{ display: "inline-block", textDecoration: "none" }}>Scegli la tua squadra e segui le sue partite</a>
       </section>
     );
   }
@@ -6696,7 +6696,7 @@ function MiaSquadraHome() {
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
-        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>⭐ La mia squadra · {nomeMostrato(nome)}</div>
+        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}</div>
         {prossima ? (
           <div style={{ marginTop: "0.3rem", fontSize: "0.92rem" }}>
             {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
@@ -6773,7 +6773,7 @@ function CercaPage() {
           <>
             <h3 style={titoloSez}>Squadre</h3>
             {trSquadre.length > 1 && (
-              <button className="filter-btn" style={{ marginBottom: "0.5rem" }} onClick={() => seguiSquadra("~" + q.trim())}>⭐ Segui tutte le squadre “{q.trim()}”</button>
+              <button className="filter-btn" style={{ marginBottom: "0.5rem" }} onClick={() => seguiSquadra("~" + q.trim())}>Segui tutte le squadre “{q.trim()}”</button>
             )}
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
               {trSquadre.map((s) => {
@@ -6785,7 +6785,7 @@ function CercaPage() {
                       <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{[...s.cats].join(" · ")}</div>
                       {pr && <div style={{ fontSize: "0.78rem", marginTop: "0.2rem" }}>Prossima: {dataBreve(pr.data)}{pr.ora ? ` ore ${pr.ora}` : ""} — {pr.casa} vs {pr.ospite}</div>}
                     </div>
-                    <button className="filter-btn filter-btn--active" onClick={() => seguiSquadra(s.nome)}>⭐ Segui</button>
+                    <button className="filter-btn filter-btn--active" onClick={() => seguiSquadra(s.nome)}>Segui</button>
                   </div>
                 );
               })}
