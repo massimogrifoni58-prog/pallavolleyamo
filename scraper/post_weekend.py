@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Pubblica sulla pagina Facebook PallaVolleyAmo i risultati del weekend (venerdi-domenica).
-Legge FB_PAGE_TOKEN_POST e FB_PAGE_ID dalle variabili d'ambiente (GitHub Secrets).
+Legge FB_PAGE_TOKEN_POST2 e FB_PAGE_ID dalle variabili d'ambiente (GitHub Secrets).
 Senza PUBBLICA=1 non pubblica: stampa solo il testo (prova).
 Variabile opzionale DATA_RIFERIMENTO=AAAA-MM-GG per provare con un'altra data.
 """
@@ -99,10 +99,10 @@ def testo(risultati, da, a):
     return "\n".join(righe)
 
 def pubblica(msg):
-    token = os.environ.get("FB_PAGE_TOKEN_POST", "").strip()
+    token = os.environ.get("FB_PAGE_TOKEN_POST2", "").strip()
     page = os.environ.get("FB_PAGE_ID", "").strip()
     if not token or not page:
-        print("ERRORE: mancano FB_PAGE_TOKEN_POST o FB_PAGE_ID")
+        print("ERRORE: mancano FB_PAGE_TOKEN_POST2 o FB_PAGE_ID")
         sys.exit(1)
     try:  # token utente di sistema -> token della pagina
         r = json.load(urllib.request.urlopen(f"{API}/{page}?" + urllib.parse.urlencode({"fields": "access_token", "access_token": token}), timeout=30))
