@@ -1721,6 +1721,12 @@ function DiretteLivePage() {
     return match ? match[1] : null;
   }
 
+  // Estrai l'ID video da un URL YouTube (watch?v=, youtu.be/, /live/, /embed/)
+  function getYtVideoId(url) {
+    const m = (url || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|live\/|embed\/|shorts\/))([A-Za-z0-9_-]{11})/);
+    return m ? m[1] : null;
+  }
+
   return (
     <main>
       {/* Hero */}
@@ -1764,7 +1770,9 @@ function DiretteLivePage() {
                 {/* Player Facebook embedded */}
                 <div className="diretta-card__player">
                   <iframe
-                    src={`https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(d.url)}&show_text=false&width=560&appId=`}
+                    src={getYtVideoId(d.url)
+                      ? `https://www.youtube.com/embed/${getYtVideoId(d.url)}?autoplay=0&rel=0`
+                      : `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(d.url)}&show_text=false&width=560&appId=`}
                     width="100%"
                     height="315"
                     style={{ border: "none", overflow: "hidden" }}
