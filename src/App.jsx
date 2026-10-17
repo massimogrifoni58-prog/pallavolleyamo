@@ -1132,7 +1132,7 @@ function RisultatiVetrina() {
 
 function CondividiBar({ titolo, percorso }) {
   const [copiato, setCopiato] = useState(false);
-  const url = (typeof window !== "undefined" ? window.location.origin : "https://pallavolleyamo.it") + "/#/" + percorso;
+  const url = (typeof window !== "undefined" ? window.location.origin : "https://pallavolleyamo.it") + "/s/" + percorso + "/";
   const testo = (titolo || "PallaVolleyAmo") + " - PallaVolleyAmo";
   const btn = {
     display: "inline-flex", alignItems: "center", gap: "0.4rem",
