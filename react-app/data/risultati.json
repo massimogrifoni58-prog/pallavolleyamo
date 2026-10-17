@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:03:38.458523+00:00",
+  "generatedAt": "2026-10-17T09:00:39.326767+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10064,20 +10064,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658211",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 10",
-      "home": "UNIPOL ASSICURAZIONI BASTIA",
-      "away": "PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658212",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 10",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658211",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "UNIPOL ASSICURAZIONI BASTIA",
+      "away": "PMU MARSCIANO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16529,8 +16529,8 @@
       "id": "131659430",
       "competition": "Under 15 Femminile Girone C",
       "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
-      "away": "VOLLEY PONTE FELCINO",
+      "home": "VOLLEY PONTE FELCINO",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16670,20 +16670,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659445",
-      "competition": "Under 15 Femminile Girone C",
-      "giornata": "Giornata 6",
-      "home": "VOLLEY PONTE FELCINO",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659446",
       "competition": "Under 15 Femminile Girone C",
       "giornata": "Giornata 6",
       "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659445",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "VOLLEY PONTE FELCINO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18713,20 +18713,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661582",
-      "competition": "Under 14 Femminile Girone B",
-      "giornata": "Giornata 8",
-      "home": "REBELS ASSISI U14 ROSSA",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661583",
       "competition": "Under 14 Femminile Girone B",
       "giornata": "Giornata 8",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
       "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661582",
+      "competition": "Under 14 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "REBELS ASSISI U14 ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18803,20 +18803,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661593",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 1",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661592",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 1",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "STRIKE TEAM MONTELUCE U14 F",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661593",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "score": "da disputare",
       "status": "in programma"
     },
