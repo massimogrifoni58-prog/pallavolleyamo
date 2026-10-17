@@ -6745,7 +6745,7 @@ function CercaPage() {
 
   function seguiSquadra(nome) { salvaMiaSquadra(nome); navigateTo("mia-squadra"); }
   function prossima(nome) {
-    return partite.filter((p) => !p.ris && p.data >= oggiISO && squadraMia(p.casa, nome) || (!p.ris && p.data >= oggiISO && squadraMia(p.ospite, nome)))
+    return partite.filter((p) => ancoraDaGiocare(p) && !inCorso(p) && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
       .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
   }
   const titoloSez = { fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", margin: "1.5rem 0 0.5rem" };
