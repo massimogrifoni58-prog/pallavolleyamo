@@ -1157,7 +1157,7 @@ function CondividiBar({ titolo, percorso }) {
     <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", alignItems: "center", margin: "0 0 1.75rem" }}>
       <span style={{ fontSize: "0.82rem", color: "var(--text-dim)", marginRight: "0.2rem" }}>Condividi:</span>
       <a className="condividi-btn" style={btn} href={"https://wa.me/?text=" + encodeURIComponent(testo + " " + url)} target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      <a className="condividi-btn" style={btn} href={"https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url)} target="_blank" rel="noopener noreferrer">Facebook</a>
+      <button type="button" className="condividi-btn" style={btn} title="Copia il link e apre Facebook: incollalo nel post con Ctrl+V" onClick={() => { copia(); window.open("https://www.facebook.com/", "_blank", "noopener"); }}>Facebook</button>
       <button type="button" className="condividi-btn" style={btn} onClick={copia}>{copiato ? "Link copiato \u2713" : "Copia link"}</button>
       {nativo && (
         <button type="button" className="condividi-btn" style={btn} onClick={() => navigator.share({ title: testo, url }).catch(() => {})}>Altro...</button>
