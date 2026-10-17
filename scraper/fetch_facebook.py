@@ -100,6 +100,25 @@ def main():
     posts += [v for v in vecchie if v.get("id") not in nuovi_id]
     posts.sort(key=lambda x: x["createdTime"], reverse=True)
     posts = posts[:MAX_POST]
+    # salva le foto sul sito: i link delle immagini di Facebook scadono
+    Path("public/news").mkdir(parents=True, exist_ok=True)
+    for p in posts:
+        img = p.get("image") or ""
+        if not img.startswith("http"):
+            continue
+        nome = p["id"] + ".jpg"
+        dest = Path("public/news", nome)
+        try:
+            if not dest.exists():
+                req = urllib.request.Request(img, headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    dati_img = r.read()
+                if len(dati_img) < 1000:
+                    raise ValueError("immagine troppo piccola")
+                dest.write_bytes(dati_img)
+            p["image"] = "/news/" + nome
+        except Exception as e:
+            print("Foto non salvata per", p["id"], "-", str(e)[:80])
     out = {"aggiornato": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "posts": posts}
     for d in ("data", "react-app/data"):
         Path(d).mkdir(parents=True, exist_ok=True)
