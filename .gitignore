@@ -1,2 +1,11 @@
 # Local Netlify folder
 .netlify
+
+# Build e librerie: Vercel li ricostruisce da solo
+node_modules/
+dist/
+
+# File temporanei e di backup
+__pycache__/
+*.bak*
+*.old
