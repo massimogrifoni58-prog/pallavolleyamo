@@ -825,6 +825,7 @@ function HomePage({ latestNews = [] }) {
         </div>
       </div>     
       <MiaSquadraHome />
+      <DirettaOggiHome />
              {weekendHome.mostra.length > 0 && (
         <div className="evidenza-box">
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "0.5rem" }}>
@@ -6684,6 +6685,29 @@ function MiaSquadraPage() {
         )}
       </section>
     </main>
+  );
+}
+
+function DirettaOggiHome() {
+  const adesso = new Date();
+  const oggi = adesso.getFullYear() + "-" + String(adesso.getMonth() + 1).padStart(2, "0") + "-" + String(adesso.getDate()).padStart(2, "0");
+  const lista = (diretteData.dirette || []).filter((d) => {
+    if (!d.data || d.data !== oggi) return false;
+    const inizio = new Date(d.data + "T" + (d.oraInizio || "20:00") + ":00").getTime();
+    return !isNaN(inizio) && adesso.getTime() < inizio + 3 * 3600 * 1000;
+  });
+  if (lista.length === 0) return null;
+  return (
+    <section className="section">
+      {lista.map((d, i) => (
+        <a key={i} href="#/dirette" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid #e0443e", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(224,68,62,0.08)", marginBottom: "0.6rem" }}>
+          <div style={{ fontSize: "0.68rem", color: "#ff6b66", textTransform: "uppercase", fontWeight: 800, letterSpacing: "0.05em" }}>Oggi in diretta · ore {d.oraInizio}</div>
+          <div style={{ marginTop: "0.3rem", fontSize: "1.05rem", fontWeight: 700 }}>{d.casa} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>vs</span> {d.ospite}</div>
+          <div style={{ marginTop: "0.2rem", fontSize: "0.8rem", color: "var(--text-dim)" }}>{d.categoria}</div>
+          <div style={{ marginTop: "0.5rem", color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem" }}>Guarda la diretta →</div>
+        </a>
+      ))}
+    </section>
   );
 }
 
