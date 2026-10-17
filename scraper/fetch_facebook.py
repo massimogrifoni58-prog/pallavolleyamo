@@ -17,25 +17,36 @@ def chiama(url):
     with urllib.request.urlopen(url, timeout=30) as r:
         return json.load(r)
 
-def foto_del_post(post_id, token):
-    """Elenco delle foto di un post con piu' immagini (richiesta separata, per non appesantire la lista)."""
-    try:
-        q = urllib.parse.urlencode({
-            "fields": "attachments{media_type,media,subattachments.limit(30){media}}",
-            "access_token": token,
-        })
-        r = chiama(f"{API}/{post_id}?{q}")
-    except Exception as e:
-        print("Foto del post non lette:", post_id, "-", str(e)[:80])
-        return []
+def _estrai_foto(attachments):
     out = []
-    for a in (r.get("attachments") or {}).get("data", []):
+    for a in (attachments or []):
         subs = (a.get("subattachments") or {}).get("data", [])
         for x in (subs or [a]):
             src = ((x.get("media") or {}).get("image") or {}).get("src")
             if src and src not in out:
                 out.append(src)
     return out
+
+def foto_del_post(post_id, token):
+    """Elenco delle foto di un post con piu' immagini (richieste separate, per non appesantire la lista)."""
+    campi = "media_type,type,media,subattachments.limit(30){media,type}"
+    prove = [
+        (f"{API}/{post_id}?" + urllib.parse.urlencode({"fields": "attachments{" + campi + "}", "access_token": token}),
+         lambda r: (r.get("attachments") or {}).get("data", [])),
+        (f"{API}/{post_id}/attachments?" + urllib.parse.urlencode({"fields": campi, "access_token": token}),
+         lambda r: r.get("data", [])),
+    ]
+    for url, estrai in prove:
+        try:
+            r = chiama(url)
+        except Exception as e:
+            print("Foto del post non lette:", post_id, "-", str(e)[:120])
+            continue
+        foto = _estrai_foto(estrai(r))
+        if foto:
+            return foto
+        print("Nessuna foto in questa risposta:", json.dumps(r, ensure_ascii=False)[:400].replace(token, "***"))
+    return []
 
 def salva_foto(url, cartella, nome):
     """Scarica la foto in public/<cartella>/<nome> (i link di Facebook scadono) e ritorna il percorso sul sito."""
