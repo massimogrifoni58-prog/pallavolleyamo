@@ -6412,6 +6412,10 @@ function salvaMiaSquadra(nome) {
   } catch (e) {}
 }
 const normSq = (s) => (s || "").toLowerCase().replace(/\s+/g, " ").trim();
+// "~parola" = segui tutte le squadre della societa' che contengono la parola
+const squadraMia = (n, nome) => nome.startsWith("~") ? normSq(n).includes(normSq(nome.slice(1))) : normSq(n) === normSq(nome);
+const nomeMostrato = (nome) => nome.startsWith("~") ? nome.slice(1) + " (tutte le squadre)" : nome;
+const categoriaBreve = (c) => (c || "").replace(/\s*Girone.*$/i, "").replace(/\s*Femminile/i, " F").replace(/\s*Maschile/i, " M").trim();
 
 // Tutte le partite note (regionali + nazionali) in un'unica lista
 function tuttePartiteSquadre() {
@@ -6444,7 +6448,7 @@ function esitoPartita(p, nome) {
   if (!m) return null;
   const a = Number(m[1]), b = Number(m[2]);
   if (a === b) return null;
-  const inCasa = normSq(p.casa) === normSq(nome);
+  const inCasa = squadraMia(p.casa, nome);
   return (inCasa ? a > b : b > a) ? "V" : "S";
 }
 
@@ -6488,7 +6492,7 @@ function dataBreve(iso) {
 
 function RigaPartitaSquadra({ p, nome, conCalendario }) {
   const esito = esitoPartita(p, nome);
-  const mia = (n) => normSq(n) === normSq(nome);
+  const mia = (n) => squadraMia(n, nome);
   return (
     <div style={{ border: "1px solid var(--border)", borderRadius: "10px", padding: "0.75rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
       <div style={{ flex: "1 1 220px", minWidth: 0 }}>
@@ -6522,25 +6526,38 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
 function MiaSquadraPage() {
   const [nome, setNome] = useState(leggiMiaSquadra());
   const [cerca, setCerca] = useState("");
+  const [cat, setCat] = useState("");
 
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
+  // squadra -> categorie in cui gioca
   const squadre = React.useMemo(() => {
     const m = {};
-    partite.forEach((p) => { [p.casa, p.ospite].forEach((n) => { if (n && !m[normSq(n)]) m[normSq(n)] = n; }); });
-    return Object.values(m).sort((a, b) => a.localeCompare(b, "it"));
+    partite.forEach((p) => {
+      [p.casa, p.ospite].forEach((n) => {
+        if (!n) return;
+        const k = normSq(n);
+        if (!m[k]) m[k] = { nome: n, cats: new Set() };
+        m[k].cats.add(categoriaBreve(p.camp));
+      });
+    });
+    return Object.values(m).sort((x, y) => x.nome.localeCompare(y.nome, "it"));
   }, [partite]);
 
-  function scegli(n) { setNome(n); salvaMiaSquadra(n); setCerca(""); }
-  function cambia() { setNome(""); salvaMiaSquadra(""); }
+  function scegli(n) { setNome(n); salvaMiaSquadra(n); setCerca(""); setCat(""); }
+  function cambia() { setNome(""); salvaMiaSquadra(""); setCat(""); }
 
   if (!nome) {
-    const filtrate = cerca.trim() ? squadre.filter((s) => normSq(s).includes(normSq(cerca))) : [];
+    const q = normSq(cerca);
+    const trovate = q ? squadre.filter((x) => normSq(x.nome).includes(q)) : [];
+    const perCat = {};
+    trovate.forEach((x) => x.cats.forEach((c) => { (perCat[c] = perCat[c] || []).push(x.nome); }));
+    const cats = Object.keys(perCat).sort((a, b) => a.localeCompare(b, "it"));
     return (
       <main>
         <CampionatiHero titolo="La mia squadra" />
         <section className="section">
           <h2 className="feed-heading">Scegli la tua squadra</h2>
-          <p className="state" style={{ marginBottom: "1rem" }}>Scrivi il nome della società e toccala: la ricorderemo su questo dispositivo e ti mostreremo subito le sue partite e i suoi risultati.</p>
+          <p className="state" style={{ marginBottom: "1rem" }}>Scrivi il nome della società: ti mostriamo le sue squadre divise per categoria. Toccane una (o scegli “tutte”): la ricorderemo su questo dispositivo.</p>
           <input
             type="search"
             value={cerca}
@@ -6549,19 +6566,32 @@ function MiaSquadraPage() {
             aria-label="Cerca squadra"
             style={{ width: "100%", maxWidth: "460px", padding: "0.7rem 0.9rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "1rem", marginBottom: "1rem" }}
           />
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem", maxWidth: "460px" }}>
-            {filtrate.slice(0, 15).map((s) => (
-              <button key={s} className="filter-btn" style={{ textAlign: "left" }} onClick={() => scegli(s)}>{s}</button>
-            ))}
-            {cerca.trim() && filtrate.length === 0 && <p className="state">Nessuna squadra trovata.</p>}
-          </div>
+          {trovate.length > 1 && (
+            <button className="filter-btn filter-btn--active" style={{ marginBottom: "1rem" }} onClick={() => scegli("~" + cerca.trim())}>
+              ⭐ Segui tutte le squadre “{cerca.trim()}” ({trovate.length})
+            </button>
+          )}
+          {cats.slice(0, 30).map((c) => (
+            <div key={c} style={{ marginBottom: "1rem", maxWidth: "460px" }}>
+              <h3 style={{ fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.4rem" }}>{c}</h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+                {perCat[c].map((n) => (
+                  <button key={c + n} className="filter-btn" style={{ textAlign: "left" }} onClick={() => scegli(n)}>{n}</button>
+                ))}
+              </div>
+            </div>
+          ))}
+          {q && trovate.length === 0 && <p className="state">Nessuna squadra trovata.</p>}
         </section>
       </main>
     );
   }
 
   const oggiISO = new Date().toISOString().slice(0, 10);
-  const mie = partite.filter((p) => normSq(p.casa) === normSq(nome) || normSq(p.ospite) === normSq(nome));
+  const mieTutte = partite.filter((p) => squadraMia(p.casa, nome) || squadraMia(p.ospite, nome));
+  const categorie = [...new Set(mieTutte.map((p) => categoriaBreve(p.camp)))].sort((a, b) => a.localeCompare(b, "it"));
+  const catAttiva = categorie.includes(cat) ? cat : "";
+  const mie = catAttiva ? mieTutte.filter((p) => categoriaBreve(p.camp) === catAttiva) : mieTutte;
   const ordina = (a, b) => (a.data + a.ora).localeCompare(b.data + b.ora);
   const prossime = mie.filter((p) => !p.ris && p.data >= oggiISO).sort(ordina);
   const giocate = mie.filter((p) => p.ris).sort((a, b) => ordina(b, a));
@@ -6574,9 +6604,18 @@ function MiaSquadraPage() {
       <CampionatiHero titolo="La mia squadra" />
       <section className="section">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1rem" }}>
-          <h2 className="feed-heading" style={{ margin: 0 }}>{nome}</h2>
+          <h2 className="feed-heading" style={{ margin: 0 }}>{nomeMostrato(nome)}</h2>
           <button className="filter-btn" onClick={cambia}>Cambia squadra</button>
         </div>
+
+        {categorie.length > 1 && (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
+            <button className={`filter-btn ${!catAttiva ? "filter-btn--active" : ""}`} onClick={() => setCat("")}>Tutte</button>
+            {categorie.map((c) => (
+              <button key={c} className={`filter-btn ${catAttiva === c ? "filter-btn--active" : ""}`} onClick={() => setCat(c)}>{c}</button>
+            ))}
+          </div>
+        )}
 
         {prima ? (
           <div style={{ border: "2px solid var(--gold)", borderRadius: "12px", padding: "1rem 1.2rem", marginBottom: "1.5rem", background: "rgba(212,175,55,0.07)" }}>
@@ -6633,12 +6672,12 @@ function MiaSquadraHome() {
   }
   const oggiISO = new Date().toISOString().slice(0, 10);
   const prossima = tuttePartiteSquadre()
-    .filter((p) => !p.ris && p.data >= oggiISO && (normSq(p.casa) === normSq(nome) || normSq(p.ospite) === normSq(nome)))
+    .filter((p) => !p.ris && p.data >= oggiISO && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
     .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
-        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>⭐ La mia squadra · {nome}</div>
+        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>⭐ La mia squadra · {nomeMostrato(nome)}</div>
         {prossima ? (
           <div style={{ marginTop: "0.3rem", fontSize: "0.92rem" }}>
             {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
