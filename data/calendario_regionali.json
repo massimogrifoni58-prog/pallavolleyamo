@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:03:04.507672+00:00",
+  "generatedAt": "2026-10-17T17:47:46.117635+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -117,7 +117,7 @@
         "ora": "18:00",
         "casa": "ITALCHIMICI",
         "ospite": "POLISPORTIVA DELFINO - SAIMA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-maschile-2",
@@ -137,7 +137,7 @@
         "ora": "17:00",
         "casa": "SCHOOL VOLLEY PERUGIA",
         "ospite": "ROSSI ASCENSORI FOLIGNO",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "serie-c-maschile-4",
@@ -147,7 +147,7 @@
         "ora": "17:00",
         "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "serie-c-maschile-5",
@@ -157,7 +157,7 @@
         "ora": "17:30",
         "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
         "ospite": "UNIKO VOLLEY ORTE",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-maschile-6",
@@ -1679,7 +1679,7 @@
         "ora": "17:00",
         "casa": "THE GALLEON PUB MARSCIANO",
         "ospite": "UMBRA SERVIZI-U.V.A. DERUTA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-2",
@@ -1709,7 +1709,7 @@
         "ora": "18:00",
         "casa": "A.S.D. TREVI VOLLEY",
         "ospite": "AMERINA PALLAVOLO A S D",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-femminile-5",
@@ -1719,7 +1719,7 @@
         "ora": "18:00",
         "casa": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-6",

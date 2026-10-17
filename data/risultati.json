@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T10:26:54.463582+00:00",
+  "generatedAt": "2026-10-17T17:48:25.709146+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -7,8 +7,8 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "ROSSI ASCENSORI FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131626792",
@@ -16,8 +16,8 @@
       "giornata": "Giornata 1",
       "home": "PROMOVIDEO STRIKE TEAM MONTELUCE",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131626793",
@@ -25,8 +25,8 @@
       "giornata": "Giornata 1",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "UNIKO VOLLEY ORTE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626789",
@@ -34,8 +34,8 @@
       "giornata": "Giornata 1",
       "home": "ITALCHIMICI",
       "away": "POLISPORTIVA DELFINO - SAIMA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626788",
@@ -1411,8 +1411,8 @@
       "giornata": "Giornata 1",
       "home": "THE GALLEON PUB MARSCIANO",
       "away": "UMBRA SERVIZI-U.V.A. DERUTA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626948",
@@ -1420,8 +1420,8 @@
       "giornata": "Giornata 1",
       "home": "A.S.D. TREVI VOLLEY",
       "away": "AMERINA PALLAVOLO A S D",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626949",
@@ -1429,8 +1429,8 @@
       "giornata": "Giornata 1",
       "home": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626946",
@@ -2815,8 +2815,8 @@
       "giornata": "Giornata 1",
       "home": "SIR ITS UMBRIA ACADEMY PERUGIA",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627447",
@@ -2824,8 +2824,8 @@
       "giornata": "Giornata 1",
       "home": "UNILAB  PONTE FELCINO",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627448",
@@ -2833,8 +2833,8 @@
       "giornata": "Giornata 1",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO",
       "away": "MARCHETTI PRO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627450",
@@ -16796,20 +16796,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659460",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 1",
-      "home": "SIRIO PALLAVOLO VERDE",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659462",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 1",
       "home": "SAN MARIANO VOLLEY",
       "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659460",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16877,20 +16877,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659470",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 4",
-      "home": "SCHOOL VOLLEY PERUGIA NERO",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659471",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 4",
       "home": "SAN MARIANO VOLLEY",
       "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659470",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16958,6 +16958,15 @@
       "status": "in programma"
     },
     {
+      "id": "131659479",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131659480",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 7",
@@ -16972,15 +16981,6 @@
       "giornata": "Giornata 7",
       "home": "SCHOOL VOLLEY PERUGIA NERO",
       "away": "ELLERA VOLLEY BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659479",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 7",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17039,20 +17039,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659487",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 10",
-      "home": "SCHOOL VOLLEY PERUGIA NERO",
-      "away": "SIRIO PALLAVOLO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659489",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 10",
       "home": "SAN MARIANO VOLLEY",
       "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659487",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA NERO",
+      "away": "SIRIO PALLAVOLO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
