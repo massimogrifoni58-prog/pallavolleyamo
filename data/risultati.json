@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:00:39.326767+00:00",
+  "generatedAt": "2026-10-17T10:26:54.463582+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10622,15 +10622,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658290",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 6",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "BOSICO VOLLEY-TERNI VA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658288",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 6",
@@ -10645,6 +10636,15 @@
       "giornata": "Giornata 6",
       "home": "VOLLEY SPOLETO CASCIA",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658290",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "BOSICO VOLLEY-TERNI VA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18938,20 +18938,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661606",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 6",
-      "home": "BARTOCCINI SCHOOL VOLLEY",
-      "away": "REBELS ASSISI U14 BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661607",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 6",
       "home": "STRIKE TEAM MONTELUCE U14 F",
       "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661606",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "REBELS ASSISI U14 BLU",
       "score": "da disputare",
       "status": "in programma"
     },
