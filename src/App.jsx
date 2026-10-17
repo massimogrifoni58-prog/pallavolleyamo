@@ -10,6 +10,8 @@ import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import facebookNewsData from "../data/facebook_news.json";
+import facebookVideoData from "../data/facebook_video.json";
+import facebookGalleriaData from "../data/facebook_galleria.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
@@ -1622,11 +1624,17 @@ function isAllowedCategory(name) {
   return allowed.some(k => lower.includes(k));
 }
 function VideoPage() {
-  const videos = videoData.video || [];
-  const [filtro, setFiltro] = useState("Nazionale M");
+  // video pubblicati sulla pagina Facebook PallaVolleyAmo con #video + quelli di YouTube
+  const fbVideo = (facebookVideoData.posts || []).map((v) => ({
+    id: v.id, titolo: v.title, canale: "PallaVolleyAmo", thumbnail: v.image || "/logo-pva.svg",
+    categoria: "Redazione", url: v.permalink, fb: true, data: v.createdTime,
+  }));
+  const videos = [...fbVideo, ...(videoData.video || [])];
+  const [filtro, setFiltro] = useState("Redazione");
   const [selected, setSelected] = useState(null);
+  const selectedVideo = videos.find((v) => v.id === selected);
 
-  const categorie = ["Nazionale M", "Nazionale F", "TVA", "Umbria", "Redazione"];
+  const categorie = ["Redazione", "Umbria", "TVA", "Nazionale M", "Nazionale F"];
 
   const videoFiltrati = videos.filter(v => {
   if (filtro === "Nazionale M") return v.categoria === "Nazionale M";
@@ -1635,7 +1643,7 @@ function VideoPage() {
   if (filtro === "Umbria") return v.categoria === "Umbria";
   if (filtro === "Redazione") return v.categoria === "Redazione";
   return true;
-}).slice(0, 3);
+}).slice(0, 6);
 
   return (
     <main className="page-content">
@@ -1653,7 +1661,9 @@ function VideoPage() {
       {selected && (
         <div style={{ marginBottom: "1.5rem", borderRadius: "12px", overflow: "hidden", background: "#000" }}>
           <iframe
-            src={`https://www.youtube.com/embed/${selected}?autoplay=1`}
+            src={selectedVideo && selectedVideo.fb
+              ? `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(selectedVideo.url)}&show_text=false&width=560`
+              : `https://www.youtube.com/embed/${selected}?autoplay=1`}
             width="100%"
             height="400"
             frameBorder="0"
@@ -2558,21 +2568,16 @@ function FotoSettimanaPage() {
 }
 
 function GalleriaPage() {
-  // Raccoglie tutte le immagini dai dati news già scaricati
-  // (nazionali + regionali + terni + perugia + nazionale)
-  const allPosts = [
-    ...(nazionaleData.posts || []),
-    ...(nazionaliData.posts || []),
-    ...(regionaliData.posts || []),
-    ...(terniData.posts || []),
-    ...(perugiaData.posts || []),
-  ];
-
-  // Prende solo i post con immagine, elimina i duplicati, massimo 20
+  // Solo foto della pagina PallaVolleyAmo: post con #galleria + foto delle notizie importate da Facebook
+  const daGalleria = (facebookGalleriaData.posts || []).flatMap((g) =>
+    (g.images || []).map((img) => ({ image: img, title: g.title, permalink: g.permalink })));
+  const daNotizie = (facebookNewsData.posts || [])
+    .filter((p) => p.image)
+    .map((p) => ({ image: p.image, title: p.title, permalink: p.permalink }));
   const seen = new Set();
-  const foto = allPosts
+  const foto = [...daGalleria, ...daNotizie]
     .filter((p) => p.image && !seen.has(p.image) && seen.add(p.image))
-    .slice(0, 20);
+    .slice(0, 60);
 
   const [selected, setSelected] = useState(null);
 
@@ -2581,11 +2586,11 @@ function GalleriaPage() {
       <section className="section">
         <h2 className="feed-heading">Galleria Foto</h2>
         <p className="state" style={{ marginBottom: "1.25rem", fontSize: "0.82rem" }}>
-          {foto.length} foto — si aggiornano automaticamente con le notizie.
+          {foto.length} foto dalla pagina PallaVolleyAmo.
         </p>
 
         {foto.length === 0 && (
-          <p className="state">Nessuna foto disponibile. Lancia prima gli script di aggiornamento.</p>
+          <p className="state">Nessuna foto disponibile al momento.</p>
         )}
 
         <div className="galleria-grid">
@@ -2606,7 +2611,7 @@ function GalleriaPage() {
               {selected.title && <p className="galleria-lightbox__titolo">{selected.title}</p>}
               {selected.permalink && (
                 <a href={selected.permalink} target="_blank" rel="noreferrer" className="galleria-lightbox__link">
-                  Leggi l'articolo →
+                  Vedi il post su Facebook →
                 </a>
               )}
             </div>

@@ -17,6 +17,56 @@ def chiama(url):
     with urllib.request.urlopen(url, timeout=30) as r:
         return json.load(r)
 
+def foto_del_post(post_id, token):
+    """Elenco delle foto di un post con piu' immagini (richiesta separata, per non appesantire la lista)."""
+    try:
+        q = urllib.parse.urlencode({
+            "fields": "attachments{media_type,media,subattachments.limit(30){media}}",
+            "access_token": token,
+        })
+        r = chiama(f"{API}/{post_id}?{q}")
+    except Exception as e:
+        print("Foto del post non lette:", post_id, "-", str(e)[:80])
+        return []
+    out = []
+    for a in (r.get("attachments") or {}).get("data", []):
+        subs = (a.get("subattachments") or {}).get("data", [])
+        for x in (subs or [a]):
+            src = ((x.get("media") or {}).get("image") or {}).get("src")
+            if src and src not in out:
+                out.append(src)
+    return out
+
+def salva_foto(url, cartella, nome):
+    """Scarica la foto in public/<cartella>/<nome> (i link di Facebook scadono) e ritorna il percorso sul sito."""
+    if not url or not str(url).startswith("http"):
+        return url
+    dest = Path("public", cartella, nome)
+    try:
+        if not dest.exists():
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                dati_img = r.read()
+            if len(dati_img) < 1000:
+                raise ValueError("immagine troppo piccola")
+            dest.write_bytes(dati_img)
+        return "/" + cartella + "/" + nome
+    except Exception as e:
+        print("Foto non salvata:", nome, "-", str(e)[:80])
+        return url
+
+def unisci(nuovi, nome):
+    """Aggiunge i nuovi elementi a quelli gia' importati (restano anche se il post viene tolto)."""
+    try:
+        vecchie = json.loads(Path("data", nome).read_text(encoding="utf-8")).get("posts", [])
+    except Exception:
+        vecchie = []
+    ids = {x["id"] for x in nuovi}
+    tutti = nuovi + [v for v in vecchie if v.get("id") not in ids]
+    tutti.sort(key=lambda x: x.get("createdTime", ""), reverse=True)
+    return tutti[:MAX_POST]
+
 def main():
     token = os.environ.get("FB_PAGE_TOKEN", "").strip()
     page = os.environ.get("FB_PAGE_ID", "").strip()
@@ -51,7 +101,7 @@ def main():
     tag = HASHTAG.lower()
     codice = os.environ.get("FB_CODICE", "").strip().lower()  # parola segreta da scrivere in un commento
     n_commenti = n_validi = 0
-    posts = []
+    posts, videos, gallerie = [], [], []
     for p in dati.get("data", []):
         msg = p.get("message") or ""
         # l'hashtag puo' stare nel post oppure in un commento scritto dalla pagina stessa
@@ -80,51 +130,45 @@ def main():
         resto = " ".join(righe[1:]) if len(righe) > 1 else ""
         if len(titolo) > 110 and not resto:
             resto, titolo = titolo, titolo[:100].rsplit(" ", 1)[0] + "…"
-        posts.append({
+        base = {
             "id": "fb" + p["id"].split("_")[-1],
             "title": titolo,
-            "excerpt": (resto[:150] + "…") if len(resto) > 150 else resto,
             "testo": pulito,
             "createdTime": p.get("created_time", ""),
-            "image": p.get("full_picture"),
             "permalink": p.get("permalink_url"),
             "source": "PallaVolleyAmo",
-            "sezione": sezione,
-        })
-    # le notizie gia' importate restano anche se poi cancelli il commento/hashtag
-    try:
-        vecchie = json.loads(Path("data/facebook_news.json").read_text(encoding="utf-8")).get("posts", [])
-    except Exception:
-        vecchie = []
-    nuovi_id = {p["id"] for p in posts}
-    posts += [v for v in vecchie if v.get("id") not in nuovi_id]
-    posts.sort(key=lambda x: x["createdTime"], reverse=True)
-    posts = posts[:MAX_POST]
+        }
+        tutto = msg + extra
+        if re.search(r"#galleria\b", tutto, re.I):
+            foto = foto_del_post(p["id"], token) or ([p["full_picture"]] if p.get("full_picture") else [])
+            gallerie.append({**base, "images": foto})
+        elif re.search(r"#video\b", tutto, re.I):
+            videos.append({**base, "image": p.get("full_picture")})
+        else:
+            base.update({
+                "excerpt": (resto[:150] + "…") if len(resto) > 150 else resto,
+                "image": p.get("full_picture"),
+                "sezione": sezione,
+            })
+            posts.append(base)
+    for cartella in ("news", "galleria"):  # devono esistere sempre, il workflow le aggiunge a git
+        Path("public", cartella).mkdir(parents=True, exist_ok=True)
+    posts = unisci(posts, "facebook_news.json")
+    videos = unisci(videos, "facebook_video.json")
+    gallerie = unisci(gallerie, "facebook_galleria.json")
     # salva le foto sul sito: i link delle immagini di Facebook scadono
-    Path("public/news").mkdir(parents=True, exist_ok=True)
-    for p in posts:
-        img = p.get("image") or ""
-        if not img.startswith("http"):
-            continue
-        nome = p["id"] + ".jpg"
-        dest = Path("public/news", nome)
-        try:
-            if not dest.exists():
-                req = urllib.request.Request(img, headers={"User-Agent": "Mozilla/5.0"})
-                with urllib.request.urlopen(req, timeout=30) as r:
-                    dati_img = r.read()
-                if len(dati_img) < 1000:
-                    raise ValueError("immagine troppo piccola")
-                dest.write_bytes(dati_img)
-            p["image"] = "/news/" + nome
-        except Exception as e:
-            print("Foto non salvata per", p["id"], "-", str(e)[:80])
-    out = {"aggiornato": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "posts": posts}
-    for d in ("data", "react-app/data"):
-        Path(d).mkdir(parents=True, exist_ok=True)
-        Path(d, "facebook_news.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    for p in posts + videos:
+        p["image"] = salva_foto(p.get("image"), "news", p["id"] + ".jpg")
+    for g in gallerie:
+        g["images"] = [salva_foto(u, "galleria", f"{g['id']}-{n + 1}.jpg") for n, u in enumerate(g.get("images") or [])]
+    ora = __import__("datetime").datetime.now(__import__("datetime").timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for nome, lista in (("facebook_news.json", posts), ("facebook_video.json", videos), ("facebook_galleria.json", gallerie)):
+        out = {"aggiornato": ora, "posts": lista}
+        for d in ("data", "react-app/data"):
+            Path(d).mkdir(parents=True, exist_ok=True)
+            Path(d, nome).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Commenti letti: {n_commenti} - commenti validi: {n_validi}")
-    print(f"Post letti: {len(dati.get('data', []))} - importati con {HASHTAG}: {len(posts)}")
+    print(f"Post letti: {len(dati.get('data', []))} - importati con {HASHTAG}: {len(posts)} notizie, {len(videos)} video, {len(gallerie)} gallerie")
 
 if __name__ == "__main__":
     main()
