@@ -6442,6 +6442,24 @@ function tuttePartiteSquadre() {
   return lista;
 }
 
+// Orario d'inizio (senza orario = fine giornata)
+function inizioPartita(p) {
+  const d = new Date(p.data + "T" + (p.ora || "23:59") + ":00");
+  return isNaN(d.getTime()) ? null : d.getTime();
+}
+// Partita senza risultato e iniziata da meno di 2 ore (o non ancora iniziata)
+function ancoraDaGiocare(p) {
+  if (p.ris) return false;
+  const t = inizioPartita(p);
+  if (t === null) return p.data >= new Date().toISOString().slice(0, 10);
+  return t + 2 * 3600 * 1000 >= Date.now();
+}
+// Partita gia' iniziata ma senza risultato
+function inCorso(p) {
+  const t = inizioPartita(p);
+  return !p.ris && t !== null && t <= Date.now();
+}
+
 function esitoPartita(p, nome) {
   if (!p.ris) return null;
   const m = String(p.ris).match(/(\d+)\s*-\s*(\d+)/);
@@ -6506,6 +6524,9 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
         </div>
         {p.luogo && <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.2rem" }}>📍 {p.luogo}</div>}
       </div>
+      {inCorso(p) && (
+        <span style={{ fontSize: "0.7rem", fontWeight: 800, padding: "0.15rem 0.5rem", borderRadius: "999px", background: "rgba(212,175,55,0.2)", color: "var(--gold)" }}>In corso · risultato in arrivo</span>
+      )}
       {p.ris && (
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
           <strong style={{ color: "var(--gold)" }}>{p.ris}</strong>
@@ -6590,9 +6611,9 @@ function MiaSquadraPage() {
   const catAttiva = categorie.includes(cat) ? cat : "";
   const mie = catAttiva ? mieTutte.filter((p) => categoriaBreve(p.camp) === catAttiva) : mieTutte;
   const ordina = (a, b) => (a.data + a.ora).localeCompare(b.data + b.ora);
-  const prossime = mie.filter((p) => !p.ris && p.data >= oggiISO).sort(ordina);
+  const prossime = mie.filter(ancoraDaGiocare).sort(ordina);
   const giocate = mie.filter((p) => p.ris).sort((a, b) => ordina(b, a));
-  const prima = prossime[0];
+  const prima = prossime.find((p) => !inCorso(p));
   const v = giocate.filter((p) => esitoPartita(p, nome) === "V").length;
   const s = giocate.filter((p) => esitoPartita(p, nome) === "S").length;
 
@@ -6668,7 +6689,8 @@ function MiaSquadraHome() {
   }
   const oggiISO = new Date().toISOString().slice(0, 10);
   const prossima = tuttePartiteSquadre()
-    .filter((p) => !p.ris && p.data >= oggiISO && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
+    .filter((p) => ancoraDaGiocare(p) && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
+    .filter((p) => !inCorso(p))
     .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
   return (
     <section className="section">
