@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:26:07.309828+00:00",
+  "generatedAt": "2026-10-17T05:04:23.266507+00:00",
   "matches": [
     {
       "id": "fp3212",
@@ -278,6 +278,18 @@
       "ora": "18:30"
     },
     {
+      "id": "fp11061",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "VIVA VOLLEY TORTORETO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "12/12/2026 ore 21:00",
+      "dataIso": "2026-12-12",
+      "ora": "21:00"
+    },
+    {
       "id": "fp11258",
       "competition": "Serie B2 Girone G",
       "giornata": "Giornata",
@@ -336,6 +348,18 @@
       "data": "09/01/2027 ore 17:30",
       "dataIso": "2027-01-09",
       "ora": "17:30"
+    },
+    {
+      "id": "fp11076",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "MY MECH CERVIA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "09/01/2027 ore 21:00",
+      "dataIso": "2027-01-09",
+      "ora": "21:00"
     },
     {
       "id": "fp11274",
@@ -410,6 +434,18 @@
       "ora": "17:30"
     },
     {
+      "id": "fp11089",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "TEKNO PROGETTI ARABONA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "23/01/2027 ore 21:00",
+      "dataIso": "2027-01-23",
+      "ora": "21:00"
+    },
+    {
       "id": "fp3405",
       "competition": "Serie A2 Femminile Girone Unico",
       "giornata": "Giornata",
@@ -462,7 +498,7 @@
       "competition": "Serie B2 Girone F",
       "giornata": "Giornata",
       "home": "STARVOLLEY CITTA' DI CAST.",
-      "away": "VIRTUS FANO",
+      "away": "ESSENCE EARTH SYSTEM FANO",
       "score": "da disputare",
       "status": "in programma",
       "data": "13/02/2027 ore 21:00",
@@ -530,6 +566,18 @@
       "ora": "18:30"
     },
     {
+      "id": "fp11112",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "LARDINI FILOTTRANO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "27/02/2027 ore 21:00",
+      "dataIso": "2027-02-27",
+      "ora": "21:00"
+    },
+    {
       "id": "fp11316",
       "competition": "Serie B2 Girone G",
       "giornata": "Giornata",
@@ -576,6 +624,18 @@
       "data": "13/03/2027 ore 18:30",
       "dataIso": "2027-03-13",
       "ora": "18:30"
+    },
+    {
+      "id": "fp11125",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "G.S. TEAM 80",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "13/03/2027 ore 21:00",
+      "dataIso": "2027-03-13",
+      "ora": "21:00"
     },
     {
       "id": "fp3470",
@@ -650,6 +710,30 @@
       "ora": "18:30"
     },
     {
+      "id": "fp11138",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "FENIX ENERGIA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "03/04/2027 ore 21:00",
+      "dataIso": "2027-04-03",
+      "ora": "21:00"
+    },
+    {
+      "id": "fp11145",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "CLEMENTINA 2020 VOL",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "10/04/2027 ore 21:00",
+      "dataIso": "2027-04-10",
+      "ora": "21:00"
+    },
+    {
       "id": "fp3499",
       "competition": "Serie A2 Femminile Girone Unico",
       "giornata": "Giornata",
@@ -708,6 +792,18 @@
       "data": "24/04/2027 ore 17:30",
       "dataIso": "2027-04-24",
       "ora": "17:30"
+    },
+    {
+      "id": "fp11156",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "NEW SYSTEM VOLLEY TORRESI",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "24/04/2027 ore 21:00",
+      "dataIso": "2027-04-24",
+      "ora": "21:00"
     },
     {
       "id": "fp11355",
