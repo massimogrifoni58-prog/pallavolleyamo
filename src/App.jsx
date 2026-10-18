@@ -6352,6 +6352,7 @@ function MiaSquadraPage() {
   const [nome, setNome] = useState(leggiMiaSquadra());
   const [cerca, setCerca] = useState("");
   const [cat, setCat] = useState("");
+  const [linkCopiato, setLinkCopiato] = useState(false);
 
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
   // squadra -> categorie in cui gioca
@@ -6460,6 +6461,30 @@ function MiaSquadraPage() {
             Stagione finora: <strong style={{ color: "#5fd37e" }}>{v} vinte</strong> · <strong style={{ color: "#ff8a8a" }}>{s} perse</strong>
           </p>
         )}
+
+        {mie.length > 0 && (() => {
+          const linkCal = window.location.origin + "/api/calendario?squadra=" + encodeURIComponent(nome) + (catAttiva ? "&cat=" + encodeURIComponent(catAttiva) : "");
+          const copiaLink = () => {
+            const fatto = () => { setLinkCopiato(true); setTimeout(() => setLinkCopiato(false), 2500); };
+            try { navigator.clipboard.writeText(linkCal).then(fatto, () => window.prompt("Copia questo link:", linkCal)); }
+            catch (e) { window.prompt("Copia questo link:", linkCal); }
+          };
+          return (
+            <div style={{ border: "1px solid var(--gold)", borderRadius: "10px", padding: "0.9rem 1rem", marginBottom: "1.5rem" }}>
+              <div style={{ fontWeight: 700, color: "var(--gold)", marginBottom: "0.3rem" }}>Le partite sul tuo telefono</div>
+              <p style={{ fontSize: "0.88rem", margin: "0 0 0.7rem" }}>
+                Aggiungi il calendario della squadra al telefono: date, orari e risultati si aggiornano da soli, anche se la partita viene spostata.
+              </p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+                <a className="filter-btn filter-btn--active" style={{ textDecoration: "none" }} href={linkCal.replace(/^https?:/, "webcal:")}>Aggiungi al calendario</a>
+                <button className="filter-btn" onClick={copiaLink}>{linkCopiato ? "Link copiato" : "Copia il link"}</button>
+              </div>
+              <p style={{ fontSize: "0.78rem", opacity: 0.75, margin: "0.6rem 0 0" }}>
+                Se il pulsante non funziona (ad esempio su Android): copia il link, apri Google Calendar dal computer, scegli Altri calendari, Da URL, e incolla.
+              </p>
+            </div>
+          );
+        })()}
 
         {prossime.length > 0 && (
           <>
