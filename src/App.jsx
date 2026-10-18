@@ -1440,27 +1440,6 @@ function SquadraSettimanaPage() {
         <SegnalaPuntiForm />
       </section>
 
-      <section style={{ maxWidth: "720px" }}>
-        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.8rem" }}>Tutti i risultati della settimana</h2>
-        {dati.camps.map((c) => (
-          <div key={c} style={{ marginBottom: "1.4rem" }}>
-            <h3 style={{ fontSize: "0.95rem", margin: "0 0 0.4rem" }}>{c}</h3>
-            {dati.perCamp[c].sort((a, b) => a.data.localeCompare(b.data)).map((p) => {
-              const st = leggiSet(p.ris);
-              return (
-                <div key={p.id} style={{ display: "flex", justifyContent: "space-between", gap: "0.8rem", padding: "0.35rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.9rem" }}>
-                  <span>
-                    <span style={{ fontWeight: st.a > st.b ? 700 : 400 }}>{nomeBello(p.casa)}</span>
-                    <span style={{ color: "var(--text-dim)" }}> – </span>
-                    <span style={{ fontWeight: st.b > st.a ? 700 : 400 }}>{nomeBello(p.ospite)}</span>
-                  </span>
-                  <span style={{ color: "var(--gold)", fontWeight: 700, whiteSpace: "nowrap" }}>{st.a}-{st.b}</span>
-                </div>
-              );
-            })}
-          </div>
-        ))}
-      </section>
     </main>
   );
 }
