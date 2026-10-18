@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T18:33:07.097417+00:00",
+  "generatedAt": "2026-10-18T22:20:12.167564+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -52,8 +52,8 @@
       "giornata": "Giornata 1",
       "home": "VOLLEY CASCIA SPOLETO",
       "away": "ENERGY PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131626795",
@@ -2711,6 +2711,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627093",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "ELLERA VOLLEY",
+      "away": "FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627090",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 25",
@@ -2734,15 +2743,6 @@
       "giornata": "Giornata 25",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627093",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "ELLERA VOLLEY",
-      "away": "FOSSATO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -2869,8 +2869,8 @@
       "giornata": "Giornata 1",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "CLT TERNI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627457",
@@ -9632,6 +9632,15 @@
       "status": "in programma"
     },
     {
+      "id": "131658032",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 16",
+      "home": "UISP VOLLEY UMBERTIDE ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131658033",
       "competition": "2 Divisione Femminile Girone B",
       "giornata": "Giornata 16",
@@ -9655,15 +9664,6 @@
       "giornata": "Giornata 16",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "ELLERA VOLLEY BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131658032",
-      "competition": "2 Divisione Femminile Girone B",
-      "giornata": "Giornata 16",
-      "home": "UISP VOLLEY UMBERTIDE ROSSA",
-      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11576,6 +11576,15 @@
       "status": "in programma"
     },
     {
+      "id": "131644096",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 1",
+      "home": "POLISPORTIVA DELFINO - EUROSPIN",
+      "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131644098",
       "competition": "Under 19 Maschile Girone B",
       "giornata": "Giornata 1",
@@ -11590,15 +11599,6 @@
       "giornata": "Giornata 1",
       "home": "SIR MERICAT PERUGIA",
       "away": "TERNI VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131644096",
-      "competition": "Under 19 Maschile Girone B",
-      "giornata": "Giornata 1",
-      "home": "POLISPORTIVA DELFINO - EUROSPIN",
-      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16319,20 +16319,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659134",
-      "competition": "Under 15 Femminile Girone B",
-      "giornata": "Giornata 3",
-      "home": "BARTOCCINI SCHOOL VOLLEY",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659135",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 3",
       "home": "SIR PERUGIA",
       "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659134",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18578,20 +18578,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661569",
-      "competition": "Under 14 Femminile Girone B",
-      "giornata": "Giornata 3",
-      "home": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
-      "away": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661567",
       "competition": "Under 14 Femminile Girone B",
       "giornata": "Giornata 3",
       "home": "SCHOOL VOLLEY PERUGIA",
       "away": "REBELS ASSISI U14 ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661569",
+      "competition": "Under 14 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+      "away": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18911,20 +18911,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661604",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 5",
-      "home": "BARTOCCINI SCHOOL VOLLEY",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661605",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 5",
       "home": "STRIKE TEAM MONTELUCE U14 F",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661604",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "BARTOCCINI SCHOOL VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "score": "da disputare",
       "status": "in programma"
     },

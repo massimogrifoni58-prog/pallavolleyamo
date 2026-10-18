@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T18:32:20.340646+00:00",
+  "generatedAt": "2026-10-18T22:19:32.349316+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -127,7 +127,7 @@
         "ora": "19:00",
         "casa": "VOLLEY CASCIA SPOLETO",
         "ospite": "ENERGY PMU MARSCIANO",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "serie-c-maschile-3",
@@ -3156,7 +3156,7 @@
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "25",
         "data": "2027-01-30",
-        "ora": "21:00",
+        "ora": "17:00",
         "casa": "ELLERA VOLLEY",
         "ospite": "FOSSATO VOLLEY",
         "risultato": null
@@ -11279,8 +11279,8 @@
         "id": "giov-under-19-maschile-girone-b-0",
         "campionato": "Under 19 Maschile Girone B",
         "giornata": "1",
-        "data": "2026-11-19",
-        "ora": "17:30",
+        "data": "2026-11-16",
+        "ora": "18:00",
         "casa": "POLISPORTIVA DELFINO - EUROSPIN",
         "ospite": "INTER VOLLEY FOLIGNO",
         "risultato": null
