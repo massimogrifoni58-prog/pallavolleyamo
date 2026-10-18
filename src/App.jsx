@@ -6470,6 +6470,7 @@ function MiaSquadraPage() {
         )}
         {mie.length > 0 && iscritto && (() => {
           const linkCal = window.location.origin + "/api/calendario?squadra=" + encodeURIComponent(nome) + (catAttiva ? "&cat=" + encodeURIComponent(catAttiva) : "");
+          const apple = /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
           const copiaLink = () => {
             const fatto = () => { setLinkCopiato(true); setTimeout(() => setLinkCopiato(false), 2500); };
             try { navigator.clipboard.writeText(linkCal).then(fatto, () => window.prompt("Copia questo link:", linkCal)); }
@@ -6482,11 +6483,11 @@ function MiaSquadraPage() {
                 Aggiungi il calendario della squadra al telefono: date, orari e palestre si aggiornano da soli, anche se la partita viene spostata.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-                <a className="filter-btn filter-btn--active" style={{ textDecoration: "none" }} href={linkCal.replace(/^https?:/, "webcal:")}>Aggiungi al calendario</a>
+                <a className="filter-btn filter-btn--active" style={{ textDecoration: "none" }} target={apple ? undefined : "_blank"} rel="noreferrer" href={apple ? linkCal.replace(/^https?:/, "webcal:") : "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(linkCal.replace(/^https?:/, "webcal:"))}>{apple ? "Aggiungi al calendario" : "Aggiungi a Google Calendar"}</a>
                 <button className="filter-btn" onClick={copiaLink}>{linkCopiato ? "Link copiato" : "Copia il link"}</button>
               </div>
               <p style={{ fontSize: "0.78rem", opacity: 0.75, margin: "0.6rem 0 0" }}>
-                Se il pulsante non funziona (ad esempio su Android): copia il link, apri Google Calendar dal computer, scegli Altri calendari, Da URL, e incolla.
+                Se il pulsante non funziona: copia il link, apri Google Calendar dal computer, scegli Altri calendari, Da URL, e incolla. Poi il calendario compare anche sul telefono, con lo stesso account Google.
               </p>
             </div>
           );
