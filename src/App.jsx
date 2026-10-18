@@ -5097,18 +5097,29 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
   const [email, setEmail] = useState("");
   const [consenso, setConsenso] = useState(false);
   const [status, setStatus] = useState("idle"); // idle | sending | done | error
+  const [trappola, setTrappola] = useState(""); // campo nascosto: lo riempiono solo i robot
+  const apertaIl = React.useRef(Date.now());
 
   function handleSubmit(e) {
     e.preventDefault();
     if (!consenso) return;
+    // anti-robot: campo trappola riempito, form compilato in meno di 3 secondi, email non valida
+    const troppoVeloce = Date.now() - apertaIl.current < 3000;
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim());
+    if (trappola || troppoVeloce || !emailOk) {
+      if (trappola || troppoVeloce) { setStatus("done"); return; } // al robot si finge che sia andata bene, senza sbloccare nulla
+      setStatus("error");
+      return;
+    }
     setStatus("sending");
 
-   fetch("https://formspree.io/f/xrenqkbd", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ nome, email }),
-})
-      .then(() => {
+    fetch("https://formspree.io/f/xrenqkbd", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ nome: nome.trim().slice(0, 80), email: email.trim().slice(0, 120) }),
+    })
+      .then((r) => {
+        if (!r.ok) throw new Error("rifiutato");
         setStatus("done");
         subscribe();
       })
@@ -5137,6 +5148,11 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
               className="signup-form"
             >
               <input type="hidden" name="form-name" value="iscrizione" />
+              <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", overflow: "hidden" }}>
+                <label>Non compilare questo campo
+                  <input type="text" name="sito_web" tabIndex={-1} autoComplete="off" value={trappola} onChange={(e) => setTrappola(e.target.value)} />
+                </label>
+              </div>
               <label className="signup-form__field">
                 Nome
                 <input
@@ -5179,7 +5195,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
               </button>
               {status === "error" && (
                 <p className="signup-form__error">
-                  Si e' verificato un errore. Riprova piu' tardi.
+                  Controlla di aver scritto bene l'email, oppure riprova piu' tardi.
                 </p>
               )}
             </form>
