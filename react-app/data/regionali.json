@@ -1,22 +1,6 @@
 {
-  "generatedAt": "2026-10-17T08:59:24.714671+00:00",
+  "generatedAt": "2026-10-18T05:03:46.754629+00:00",
   "posts": [
-    {
-      "id": "news-5",
-      "title": "GF, Helena e Javier di nuovo insieme: lui gioca a pallavolo, lei fotografa a bordo campo",
-      "excerpt": "Fonte: it.blastingnews.com",
-      "createdTime": "Wed, 24 Sep 2025 13:15:00 GMT",
-      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2025/9/24/660x290/b_1200x675x95/javier-martinez-e-helena-prestes-c-x_3146374.jpg",
-      "permalink": "https://it.blastingnews.com/tv-gossip/2025/09/gf-helena-e-javier-di-nuovo-insieme-lui-gioca-a-pallavolo-lei-fotografa-a-bordo-campo-003940672.html"
-    },
-    {
-      "id": "news-4",
-      "title": "L’Assisi Volley festeggia il Natale con una serie di vittorie",
-      "excerpt": "Fonte: assisinews.it",
-      "createdTime": "Wed, 19 Dec 2018 16:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.assisinews.it/sport/assisi-volley-natale-2018-foto/"
-    },
     {
       "id": "news-3",
       "title": "Volley: Monini Granfruttato contro Foligno per il primo turno play-off",
@@ -27,14 +11,6 @@
     },
     {
       "id": "news-1",
-      "title": "Pallavolo A2 femminile, Tenaglia Altino sconfitta in casa senza attenuanti da Perugia",
-      "excerpt": "Fonte: abruzzopopolare.com",
-      "createdTime": "Wed, 14 Oct 2026 13:20:00 GMT",
-      "image": "https://www.abruzzopopolare.com/wp/wp-content/uploads/2026/10/altino-volley1-1.jpg",
-      "permalink": "https://www.abruzzopopolare.com/2026/10/14/pallavolo-a2-femminile-tenaglia-altino-sconfitta-in-casa-senza-attenuanti-da-perugia/"
-    },
-    {
-      "id": "news-0",
       "title": "Volley. L'ex azzurro Biribanti: «In quattro anni Terni può tornare in serie A»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
@@ -43,14 +19,22 @@
     },
     {
       "id": "news-5",
-      "title": "L'Italia del volley giovanile arriva ad Assisi",
-      "excerpt": "Fonte: www1.saturnonotizie.it",
-      "createdTime": "Wed, 13 May 2026 08:49:00 GMT",
-      "image": "https://www1.saturnonotizie.it/uploads/news/posts/2026/05/207176/e2d82af94804e7e8f9ed122b270394a140986ff9_full.jpeg",
-      "permalink": "https://www1.saturnonotizie.it/news/read/207176/finali-volley-assisi.html"
+      "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/90/40/7599040_29161352_110737485.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/ecco_europei_di_volley_un_punto_turismo_palabarton_tirato_lucido-7599040.html"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
+      "title": "Nova Volley cade in casa: Sir Umbria Academy Assisi vince 3-1",
+      "excerpt": "Fonte: ilrestodelcarlino.it",
+      "createdTime": "Tue, 29 Apr 2025 23:12:00 GMT",
+      "image": "https://www.ilrestodelcarlino.it/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
+      "permalink": "https://www.ilrestodelcarlino.it/ancona/sport/nova-volley-cade-in-casa-f142f098"
+    },
+    {
+      "id": "news-6",
       "title": "Pallavolo A1F – Doppia trasferta per Conegliano, che si allenerà a Foligno. Santarelli: “Saranno vent’anni che non rientro nel palazzetto della mia città, vivrò ...",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 15 Oct 2024 16:59:00 GMT",
@@ -58,7 +42,15 @@
       "permalink": "https://www.ivolleymagazine.it/2024/10/16/pallavolo-a1f-doppia-trasferta-per-conegliano-che-si-allenera-a-foligno-santarelli-saranno-ventanni-che-non-rientro-nel-palazzetto-della-mia-citta-vivro-emozioni-forti/"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
+      "title": "Pallavolo B1F – Sirio Perugia verso l’esordio stagionale, Bovari guarda alla sfida con Stia",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Tue, 13 Oct 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/10/14/pallavolo-b1f-sirio-perugia-verso-lesordio-stagionale-bovari-guarda-alla-sfida-con-stia/"
+    },
+    {
+      "id": "news-4",
       "title": "LA TENAGLIA ALTINO AVASTESE VOLLEY SI ARRENDE A PERUGIA: AL PALA BCC PASSANO LE UMBRE IN TRE SET",
       "excerpt": "Fonte: legavolleyfemminile.it",
       "createdTime": "Tue, 13 Oct 2026 17:00:00 GMT",
@@ -66,23 +58,15 @@
       "permalink": "https://www.legavolleyfemminile.it/la-tenaglia-altino-avastese-volley-si-arrende-a-perugia-al-pala-bcc-passano-le-umbre-in-tre-set/"
     },
     {
-      "id": "news-4",
-      "title": "Pallavolo A2 femminile, la Tenaglia Altino a Vasto cerca il riscatto contro Perugia",
-      "excerpt": "Fonte: abruzzopopolare.com",
-      "createdTime": "Tue, 13 Oct 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.abruzzopopolare.com/2026/10/14/pallavolo-a2-femminile-la-tenaglia-altino-a-vasto-cerca-il-riscatto-contro-perugia/?print=print"
-    },
-    {
       "id": "news-7",
-      "title": "Vollley: Volley Scuola, vince il Liceo Scientifico D'Assisi",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Tue, 08 Mar 2016 08:24:00 GMT",
-      "image": "http://cdn.corrieredellosport.it/images/2016/03/08/173305431-d81d45c2-fbcd-4344-9db7-fa1823e045df.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/volley-scuola/2016/03/08-9265241/vollley_volley_scuola_vince_il_liceo_scientifico_d_assisi"
+      "title": "Pallavolo Padova alla Gran Guardia, Cuttini guarda a Piacenza: «Un esordio importante»",
+      "excerpt": "Fonte: padova24ore.it",
+      "createdTime": "Tue, 13 Oct 2026 09:24:00 GMT",
+      "image": "https://www.padova24ore.it/wp-content/uploads/2026/10/pallavolo-gran-guardia-20261013.jpg",
+      "permalink": "https://www.padova24ore.it/pallavolo-padova-gran-guardia-esordio-piacenza-2026/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Pallavolo – Terni ufficializza due novità: da Lecce arrivano Luciano Zornetta e Andrea Santangelo",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 02 Jun 2026 17:00:00 GMT",
@@ -90,7 +74,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
@@ -98,7 +82,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
-      "id": "news-4",
+      "id": "news-6",
       "title": "Terni Volley Academy, grande pallavolo e fucina di futuri campioni",
       "excerpt": "Fonte: tuttoggi.info",
       "createdTime": "Thu, 26 Jun 2025 11:47:00 GMT",
@@ -106,7 +90,7 @@
       "permalink": "https://tuttoggi.info/terni-volley-academy-grande-pallavolo-e-fucina-di-futuri-campioni/919797/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
@@ -122,36 +106,20 @@
       "permalink": "https://www.assisisport.it/volley/assisi-volley-lancia-le-rebels-atlete-sane-ragazze-forti-fotointervista-video/"
     },
     {
-      "id": "news-2",
-      "title": "Pallavolo SL – Gino Sirci, dalle colonne de L’Équipe, si schiera contro il nuovo calendario internazionale",
+      "id": "news-7",
+      "title": "Pallavolo Mercato – Terni ha ingaggiato il polacco Lukasz Ciupa",
       "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Thu, 15 Oct 2026 17:01:00 GMT",
+      "createdTime": "Thu, 15 Jan 2026 16:00:00 GMT",
       "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/10/16/pallavolo-sl-gino-sirci-dalle-colonne-de-lequipe-si-schiera-contro-il-nuovo-calendario-internazionale/"
+      "permalink": "https://www.ivolleymagazine.it/2026/01/16/pallavolo-mercato-terni-ha-ingaggiato-il-polacco-lukasz-ciupa/"
     },
     {
       "id": "news-6",
-      "title": "Serie A2 Fineco senza soste, Nuvolí in viaggio verso Perugia",
-      "excerpt": "Fonte: legavolleyfemminile.it",
-      "createdTime": "Thu, 15 Oct 2026 17:01:00 GMT",
-      "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/10/palletta-Fiorio-1536x1024.jpg",
-      "permalink": "https://www.legavolleyfemminile.it/serie-a2-fineco-senza-soste-nuvoli-in-viaggio-verso-perugia/"
-    },
-    {
-      "id": "news-6",
-      "title": "Assisi capitale del volley giovanile con le finali nazionali Under 16",
-      "excerpt": "Fonte: umbria24.it",
-      "createdTime": "Thu, 14 May 2026 00:57:00 GMT",
-      "image": "https://www.umbria24.it/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-13-at-18.31.14.jpeg",
-      "permalink": "https://www.umbria24.it/sport24/assisi-capitale-del-volley-giovanile-con-le-finali-nazionali-under-16/"
-    },
-    {
-      "id": "news-1",
-      "title": "Pallavolo Precampionato – Cisterna Volley domani a Gubbio affronta Milano, Finauri: “Banco di prova importante”",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Thu, 02 Oct 2025 17:01:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2025/10/03/pallavolo-precampionato-cisterna-volley-domani-a-gubbio-affronta-milano-finauri-banco-di-prova-importante/"
+      "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 29 Jun 2014 14:13:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED/73/25/477325_0140629_umbria_femminile_tdr_volley_2014.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
     },
     {
       "id": "news-7",
@@ -186,7 +154,7 @@
       "permalink": "https://www.olympics.com/it/notizie/pallavolo-maschile-superlega-2026-2027-calendario-programma-volley"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sun, 11 Jan 2026 23:21:00 GMT",
@@ -194,7 +162,15 @@
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b2-femminile-la-01c05839"
     },
     {
-      "id": "news-3",
+      "id": "news-6",
+      "title": "Pallavolo, anche Perugia boccia la riforma Fivb. Sirci: «Così una rovina»",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 02 Aug 2026 04:33:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/08/02/9685329_02003505_sir_10.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/pallavolo_perugia_boccia_la_riforma_fivb_sirci_rovina-9685329.html"
+    },
+    {
+      "id": "news-4",
       "title": "Terni Volley Academy-Sir Perugia 0-3, pomeriggio di grande pallavolo al PalaTerni con i campioni d'Europa e del mondo",
       "excerpt": "Fonte: ternitoday.it",
       "createdTime": "Sat, 26 Sep 2026 02:37:00 GMT",
@@ -202,7 +178,7 @@
       "permalink": "https://www.ternitoday.it/sport/volley/terni-volley-sir-perugia-derby-pallavolo.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
@@ -216,6 +192,54 @@
       "createdTime": "Sat, 20 Feb 2010 16:00:00 GMT",
       "image": "https://www.spoletonline.com/immagini/1493_volleyBall.jpg",
       "permalink": "https://www.spoletonline.com/130509/Clitunno-Volley-travolgente-a-Foligno:-3-0-e-6-piazza"
+    },
+    {
+      "id": "unasirioperugiaconvincenteespu",
+      "title": "Una Sirio Perugia convincente espugna Stia",
+      "excerpt": "Inizia col piede giusto l’avventura in campionato per la Sirio Perugia Volley che nella gara d’esordio mostra di essere competitiva, pur non avendo ancora i meccanismi bene oliati, e si impone. La pri",
+      "createdTime": "Sat, 17 Oct 2026 23:00:27 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Sirio-Perugia-vittoria.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/una-sirio-perugia-convincente-espugna-stia/"
+    },
+    {
+      "id": "acittdicastellovalelaleggedelc",
+      "title": "A Città di Castello vale la legge del campo, Pescara kappao",
+      "excerpt": "Comincia con un netto successo casalingo per tre a zero il campionato di serie B maschile della matricola Città di Castello Pallavolo. Davanti ad un buon pubblico, che ha incitato i propri beniamini p",
+      "createdTime": "Sat, 17 Oct 2026 22:00:31 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Citta-di-Castello-Pallavolo-vittoria.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/a-citta-di-castello-vale-la-legge-del-campo-pescara-kappao/"
+    },
+    {
+      "id": "perugiauominialdebuttoesternod",
+      "title": "Perugia: uomini al debutto esterno di Cuneo",
+      "excerpt": "Sale il sipario alla superlega maschile, cominciano le sfide della prima giornata. Ad aprire le danze domenica 18 ottobre è un duello complicato per la Sir Susa Scai Perugia, team che ha cambiato qual",
+      "createdTime": "Sat, 17 Oct 2026 13:00:33 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Plotnytskyi-Oleh-pallone.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/perugia-uomini-al-debutto-esterno-di-cuneo/"
+    },
+    {
+      "id": "perledonnediperugiascontroadal",
+      "title": "Per le donne di Perugia scontro ad alta quota con Padova",
+      "excerpt": "La pallavolo di serie A2 femminile torna protagonista nel fine settimana, i riflettori saranno puntati nuovamente sul palasport di Pian di Massiano per la quarta giornata di andata. Le ragazze della B",
+      "createdTime": "Sat, 17 Oct 2026 11:00:40 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Recchia-Stefania.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/per-le-donne-di-perugia-scontro-ad-alta-quota-con-padova/"
+    },
+    {
+      "id": "news-2",
+      "title": "Cuneo: Costamagna chiama i tifosi, debutto con Perugia a San Rocco",
+      "excerpt": "Fonte: volleyball.it",
+      "createdTime": "Sat, 17 Oct 2026 10:14:00 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/10/cuneo-gabriele-costamagna.jpg",
+      "permalink": "https://www.volleyball.it/2026/10/17/notizie/argomenti/superlega/articolo/cuneo-costamagna-chiama-i-tifosi-debutto-con-perugia-a-san-rocco.html"
+    },
+    {
+      "id": "news-0",
+      "title": "Terni Volley Academy, a Sorrento l'esordio in campionato: \"Squadra motivata e carica per ottenere il massimo dal match\"",
+      "excerpt": "Fonte: ternitoday.it",
+      "createdTime": "Sat, 17 Oct 2026 09:24:00 GMT",
+      "image": null,
+      "permalink": "https://www.ternitoday.it/sport/volley/terni-volley-academy-sorrento-esordio-campionato-pallavolo-seriea3.html"
     },
     {
       "id": "asangiustinoscattaloraconaquit",
@@ -234,7 +258,15 @@
       "permalink": "https://www.pianetavolley.net/2026/10/per-terni-comincia-lavventura-sul-campo-di-sorrento/"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
+      "title": "Giuseppe Lomurno nominato vicepresidente della Scuola regionale dello Sport Umbria",
+      "excerpt": "Fonte: orvietosi.it",
+      "createdTime": "Sat, 17 Oct 2026 00:44:00 GMT",
+      "image": "https://orvietosi.it/wp-content/uploads/2026/10/FIPAV-Umbria-Lomurno-Giuseppe.jpg",
+      "permalink": "https://orvietosi.it/2026/10/giuseppe-lomurno-nominato-vicepresidente-della-scuola-regionale-dello-sport-umbria/"
+    },
+    {
+      "id": "news-1",
       "title": "Orvieto Volley Academy, al via il campionato regionale Under 15: 42 squadre in campo in Umbria",
       "excerpt": "Fonte: maremmanews.it",
       "createdTime": "Sat, 10 Oct 2026 10:14:00 GMT",
@@ -242,28 +274,12 @@
       "permalink": "https://maremmanews.it/sport/2026-10-10/orvieto-volley-academy-al-via-il-campionato-regionale-under-15-42-squadre-in-campo-in-umbria"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sat, 06 Sep 2025 17:00:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
-    },
-    {
-      "id": "news-0",
-      "title": "Volley, a Gubbio due set a testa tra Cisterna e Milano",
-      "excerpt": "Fonte: ilmessaggero.it",
-      "createdTime": "Sat, 04 Oct 2025 14:36:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/04/9107295_04210243_cisterna5.jpg",
-      "permalink": "https://www.ilmessaggero.it/latina/volley_gubbio_set_testa_cisterna_milano-9107295.html"
-    },
-    {
-      "id": "news-3",
-      "title": "Volley: Volley Scuola, il Francesco d'Assisi ricorda Federica Stiffi",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Mon, 25 Feb 2019 07:48:00 GMT",
-      "image": "http://cdn.corrieredellosport.it/images/2019/02/25/144811896-40d30d4e-4d6e-4dcc-a2e9-b87bee3cc46e.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/volley-scuola/2019/02/25-53845226/volley_volley_scuola_il_francesco_d_assisi_ricorda_federica_stiffi"
     },
     {
       "id": "news-4",
@@ -274,12 +290,28 @@
       "permalink": "https://www.anconatoday.it/sport/volley-foligno-sampress-loreto.html"
     },
     {
-      "id": "news-6",
-      "title": "Sir in Comune Perugia e in Regione, parte la nuova stagione della pallavolo",
-      "excerpt": "Fonte: ansa.it",
-      "createdTime": "Mon, 12 Oct 2026 12:22:00 GMT",
-      "image": "https://www.ansa.it/webimages/img_1280x720/2026/10/12/47af4e35c3b7f3c54c61f65e81b8457a.jpg",
-      "permalink": "https://www.ansa.it/umbria/notizie/2026/10/12/sir-in-comune-perugia-e-in-regione-parte-la-nuova-stagione-della-pallavolo_3081536e-013e-4ef2-88e4-425692e9887f.html"
+      "id": "news-4",
+      "title": "Pallavolo: Rpa lascia Umbria volley",
+      "excerpt": "Fonte: lagazzettadelmezzogiorno.it",
+      "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
+      "image": "https://lagazzettadelmezzogiorno.cdn.m33cloud.com/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
+      "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
+    },
+    {
+      "id": "news-1",
+      "title": "Proietti alla Sir: 'Siete l’immagine dell’Umbria che vince'",
+      "excerpt": "Fonte: it.blastingnews.com",
+      "createdTime": "Mon, 12 Oct 2026 12:11:00 GMT",
+      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/10/12/660x290/b_1200x675x95/sirreale-stamattina-la-presentazione-del-libro-sul-triplete-c-creative-commons_3381833.jpg",
+      "permalink": "https://it.blastingnews.com/sport/2026/10/proietti-alla-sir-siete-l-immagine-dell-umbria-che-vince-004180425.html"
+    },
+    {
+      "id": "news-3",
+      "title": "Sir Perugia volley ricevuta in Comune e Regione: via alla nuova stagione",
+      "excerpt": "Fonte: it.blastingnews.com",
+      "createdTime": "Mon, 12 Oct 2026 11:19:00 GMT",
+      "image": "https://staticr1.blastingcdncf.com/media/photogallery/2026/10/12/660x290/b_1200x675x95/la-sir-susa-scai-perugia-si-presenta-alla-citta-sportperugiait-c-creative-commons_3381635.jpg",
+      "permalink": "https://it.blastingnews.com/sport/2026/10/sir-perugia-volley-ricevuta-in-comune-e-regione-via-alla-nuova-stagione-004180225.html"
     },
     {
       "id": "news-0",
@@ -290,28 +322,12 @@
       "permalink": "https://www.umbriajournal.com/sport/pallavolo-otto-sostituzioni-e-nuove-norme-per-le-gare-umbre-653291/"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Pallavolo, presentate a Deruta le novità regolamentari della prossima stagione",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Mon, 12 Oct 2026 02:42:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/10/Fipav-nuove-regoole-Deruta-261011-1.jpg",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-presentate-a-deruta-le-novita-regolamentari-della-prossima-stagione/"
-    },
-    {
-      "id": "news-1",
-      "title": "Posts tagged with \"Assisi Volley\"",
-      "excerpt": "Fonte: assisinews.it",
-      "createdTime": "Mon, 12 Nov 2018 16:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.assisinews.it/tag/assisi-volley/"
-    },
-    {
-      "id": "news-2",
-      "title": "Fossato Volley-Sir Safety Assisi 1-3. Partita intensa e bellissima, atlete di casa in corsa per i play off",
-      "excerpt": "Fonte: cronacaeugubina.it",
-      "createdTime": "Mon, 09 Feb 2026 10:58:00 GMT",
-      "image": "https://www.cronacaeugubina.it/wp-content/uploads/2026/02/IMG-20260209-WA0005-e1770658900967.jpg",
-      "permalink": "https://www.cronacaeugubina.it/2026/02/09/fossato-volley-sir-safety-assisi-1-3-partita-intensa-e-bellissima-atlete-di-casa-in-corsa-per-i-play-off/"
     },
     {
       "id": "news-0",
@@ -338,14 +354,6 @@
       "permalink": "https://www.pianetavolley.net/2026/10/il-programma-della-serie-b-maschile-230/"
     },
     {
-      "id": "pvit-0",
-      "title": "Rubicone: debutto con Perugia, Mascetti chiede un profilo basso",
-      "excerpt": "Fonte: pallavolo.it",
-      "createdTime": "Fri, 16 Oct 2026 22:27:13 +0000",
-      "image": null,
-      "permalink": "https://www.pallavolo.it/rubicone-in-volley-sir-its-umbria-academy-il-prepartita-di-coach-mascetti/"
-    },
-    {
       "id": "tuttigliappuntamentideicampion",
       "title": "Tutti gli appuntamenti dei campionati regionali",
       "excerpt": "Pianeta Volley (Umbria) Partono i campionati regionali di pallavolo, nel fine settimana la curiosità degli sportivi sarà alta per sapere quali saranno le squadre da battere. Queste le gare della serie",
@@ -370,23 +378,7 @@
       "permalink": "https://www.pianetavolley.net/2026/10/claudio-bigi-san-giustino-vuole-coinvolgere/"
     },
     {
-      "id": "simonegiannelliperugiadevestar",
-      "title": "Simone Giannelli: «Perugia deve stare attenta al debutto»",
-      "excerpt": "Il debutto in campionato comincia tra la grande curiosità nella massima categoria nazionale, soprattutto per quanto riguarda la Sir Susa Scai Perugia. Gli sportivi sono curiosi di scoprire la superleg",
-      "createdTime": "Fri, 16 Oct 2026 15:00:12 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Giannelli-Simone-palla.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/simone-giannelli-perugia-deve-stare-attenta-al-debutto/"
-    },
-    {
-      "id": "cittdicastellonellaprimaospita",
-      "title": "Città di Castello nella prima ospita Pescara",
-      "excerpt": "La tifoseria biancorossa è in fermento, il campionato di serie B maschile è ormai arrivato al suo inizio per la Città di Castello Pallavolo che affila metaforicamente le armi per affrontare sabato 17 ",
-      "createdTime": "Fri, 16 Oct 2026 11:00:25 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Stoppelli-Davide.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/citta-di-castello-nella-prima-ospita-pescara/"
-    },
-    {
-      "id": "news-2",
+      "id": "news-3",
       "title": "La scuola regionale dello sport Umbria ha un nuovo presidente: è Giuseppe Lomurno",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Fri, 16 Oct 2026 09:13:00 GMT",
@@ -394,20 +386,20 @@
       "permalink": "https://www.umbria24.it/sport24/la-scuola-regionale-dello-sport-umbria-ha-un-nuovo-presidente-e-giuseppe-lomurno/"
     },
     {
-      "id": "claudiaconsoliperugiapossofare",
-      "title": "Claudia Consoli: «Perugia, posso fare di più»",
-      "excerpt": "La situazione comincia a migliorare e la classifica volge al bello in serie A2 femminile, dopo lo stop al debutto sono state infilati due successi che hanno scacciato le nuvole sopra il cielo della Ba",
-      "createdTime": "Fri, 16 Oct 2026 07:00:32 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Consoli-Claudia.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/claudia-consoli-perugia-posso-fare-di-piu/"
+      "id": "news-3",
+      "title": "Sirio Perugia Volley, ora si fa sul serio: alle porte l’esordio a Pratovecchio Stia",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Fri, 16 Oct 2026 01:20:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/10/Guarino-Giada-alza.jpg",
+      "permalink": "https://www.umbria24.it/perugia/sirio-perugia-volley-ora-si-fa-sul-serio-alle-porte-lesordio-a-pratovecchio-stia/"
     },
     {
-      "id": "sirioperugialastagioneiniziada",
-      "title": "Sirio Perugia: la stagione inizia da Stia",
-      "excerpt": "Dopo le uscite formali e amichevoli che sono servite a conoscersi e a perfezionare l’intesa, la Sirio Perugia Volley adesso comincia a fare sul serio, la squadra alza la concentrazione al massimo live",
-      "createdTime": "Fri, 16 Oct 2026 05:00:32 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Guarino-Giada-alza.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/sirio-perugia-la-stagione-inizia-da-stia/"
+      "id": "news-0",
+      "title": "ITS Next Gen Volley Cup: studenti in campo con la Sir Perugia tra sport e formazione",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Fri, 09 Oct 2026 00:52:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/10/Next-Gen-Volley-Cup.jpg",
+      "permalink": "https://www.umbria24.it/perugia/its-next-gen-volley-cup-studenti-in-campo-con-la-sir-perugia-tra-sport-e-formazione/"
     },
     {
       "id": "fipav-18155",
