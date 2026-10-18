@@ -78,6 +78,54 @@ def unisci(nuovi, nome):
     tutti.sort(key=lambda x: x.get("createdTime", ""), reverse=True)
     return tutti[:MAX_POST]
 
+
+STOP = {"asd", "a", "s", "d", "pallavolo", "volley", "volleyball", "pallavolistica", "sport", "sportiva", "club", "team", "academy",
+        "perugia", "terni", "umbria", "sir", "its", "uisp", "polisportiva", "gruppo", "group", "libertas", "csi", "fipav",
+        "serie", "di", "del", "della", "dei", "il", "la", "the", "and", "san", "santa", "citta", "castello", "f", "m"}
+
+def norm(t):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", str(t).lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+def carica_json(percorso, default):
+    try:
+        return json.loads(Path(percorso).read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+def parole_societa():
+    """Nomi delle societa' umbre (dai dati del sito) -> {nome: [parole distintive]}."""
+    nomi = set()
+    for x in carica_json("data/societa.json", {}).get("societa", []):
+        nomi.add(x.get("nome", ""))
+    isc = carica_json("data/squadre-iscritte.json", {})
+    for k in ("maschile", "femminile"):
+        for n in isc.get(k, []) or []:
+            nomi.add(n)
+    cal = carica_json("data/calendario_regionali.json", {}).get("partite", {})
+    for lista in (cal.values() if isinstance(cal, dict) else []):
+        for m in lista:
+            for k in ("casa", "ospite"):
+                if m.get(k):
+                    nomi.add(m[k])
+    out = {}
+    for n in nomi:
+        parole = [w for w in norm(n).split() if len(w) >= 4 and w not in STOP]
+        if parole:
+            out[n] = parole
+    return out
+
+def societa_citate(testo, elenco):
+    t = " " + norm(testo) + " "
+    trovate = []
+    for nome, parole in elenco.items():
+        if all(" " + w in t for w in parole):  # inizio parola (gestisce plurali/suffissi)
+            if norm(nome) not in [norm(x) for x in trovate]:
+                trovate.append(nome.title() if nome.isupper() else nome)
+    return trovate[:3]
+
 def main():
     token = os.environ.get("FB_PAGE_TOKEN", "").strip()
     page = os.environ.get("FB_PAGE_ID", "").strip()
@@ -110,6 +158,12 @@ def main():
         sys.exit(1)
 
     tag = HASHTAG.lower()
+    ap = carica_json("data/facebook_approvati.json", {})
+    approvati = ap.get("approvati", {})  # id -> sezione scelta in /modera
+    scartati = set(ap.get("scartati", []))
+    societa = parole_societa()
+    candidati = []
+    limite = (__import__("datetime").datetime.now(__import__("datetime").timezone.utc) - __import__("datetime").timedelta(days=21)).strftime("%Y-%m-%d")
     # diagnostica: i 5 post piu' recenti letti (data + inizio testo)
     for q in dati.get("data", [])[:5]:
         print("  recente:", q.get("created_time", "")[:16], "|", repr((q.get("message") or "")[:50]), "| hashtag:", HASHTAG in (q.get("message") or "").lower())
@@ -128,13 +182,22 @@ def main():
             if (tag in cm.lower() and autore in (page, ADMIN_ID)) or codice_ok:
                 extra += " " + cm + " " + tag
                 n_validi += 1
-        if tag not in msg.lower() and not extra:
+        pid = p["id"].split("_")[-1]
+        scelto = approvati.get(pid)
+        if tag not in msg.lower() and not extra and scelto is None:
+            # non importato: se parla di una societa' umbra va nella lista da approvare
+            if pid not in scartati and msg.strip() and p.get("created_time", "")[:10] >= limite:
+                citate = societa_citate(msg, societa)
+                if citate:
+                    candidati.append({"id": pid, "testo": msg.strip()[:600], "createdTime": p.get("created_time", ""),
+                                      "permalink": p.get("permalink_url"), "image": p.get("full_picture"), "societa": citate})
             continue
-        sezione = DEFAULT_SEZIONE
-        for s in SEZIONI:
-            if re.search(r"#" + s + r"\b", msg + extra, re.I):
-                sezione = s
-                break
+        sezione = scelto if scelto in SEZIONI else DEFAULT_SEZIONE
+        if scelto is None:
+            for s in SEZIONI:
+                if re.search(r"#" + s + r"\b", msg + extra, re.I):
+                    sezione = s
+                    break
         pulito = re.sub(r"#\w+", "", msg)
         pulito = re.sub(r"[ \t]+", " ", pulito).strip()
         righe = [r.strip() for r in pulito.split("\n") if r.strip()]
@@ -181,6 +244,9 @@ def main():
         for d in ("data", "react-app/data"):
             Path(d).mkdir(parents=True, exist_ok=True)
             Path(d, nome).write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    for d in ("data", "react-app/data"):
+        Path(d, "facebook_candidati.json").write_text(json.dumps({"aggiornato": ora, "posts": candidati}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Candidati da approvare (societa' umbre): {len(candidati)}")
     print(f"Commenti letti: {n_commenti} - commenti validi: {n_validi}")
     print(f"Post letti: {len(dati.get('data', []))} - importati con {HASHTAG}: {len(posts)} notizie, {len(videos)} video, {len(gallerie)} gallerie")
 

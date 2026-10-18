@@ -10,6 +10,8 @@ import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import facebookNewsData from "../data/facebook_news.json";
+import facebookCandidatiData from "../data/facebook_candidati.json";
+import facebookApprovatiData from "../data/facebook_approvati.json";
 import facebookVideoData from "../data/facebook_video.json";
 import facebookGalleriaData from "../data/facebook_galleria.json";
 import pilloleData from "../data/pillole.json";
@@ -6763,6 +6765,103 @@ function MiaSquadraHome() {
   );
 }
 
+function ModeraPage() {
+  const [pw, setPw] = useState(() => { try { return sessionStorage.getItem("pva_modera_pw") || ""; } catch (e) { return ""; } });
+  const [dentro, setDentro] = useState(false);
+  const [errore, setErrore] = useState("");
+  const [fatti, setFatti] = useState({});   // id -> "approvato" | "scartato" | "..."
+  const [sez, setSez] = useState({});       // id -> sezione scelta
+
+  useEffect(() => {
+    let m = document.querySelector('meta[name="robots"]');
+    if (!m) { m = document.createElement("meta"); m.setAttribute("name", "robots"); document.head.appendChild(m); }
+    m.setAttribute("content", "noindex, nofollow");
+    return () => { m.setAttribute("content", "index, follow"); };
+  }, []);
+
+  async function chiama(corpo) {
+    const r = await fetch("/api/modera", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: pw, ...corpo }) });
+    let j = {};
+    try { j = await r.json(); } catch (e) {}
+    if (!r.ok) throw new Error(j.errore || "Errore " + r.status);
+    return j;
+  }
+  async function entra(e) {
+    e.preventDefault();
+    setErrore("");
+    try {
+      await chiama({ azione: "verifica" });
+      try { sessionStorage.setItem("pva_modera_pw", pw); } catch (x) {}
+      setDentro(true);
+    } catch (x) { setErrore(x.message); }
+  }
+  async function scegli(id, azione) {
+    setFatti((f) => ({ ...f, [id]: "..." }));
+    try {
+      await chiama({ azione, id, sezione: sez[id] || "regionali" });
+      setFatti((f) => ({ ...f, [id]: azione === "approva" ? "Pubblicato: comparirà sul sito tra qualche minuto" : "Scartato" }));
+    } catch (x) {
+      setFatti((f) => { const n = { ...f }; delete n[id]; return n; });
+      setErrore(x.message);
+    }
+  }
+
+  const gia = new Set([...Object.keys(facebookApprovatiData.approvati || {}), ...(facebookApprovatiData.scartati || [])]);
+  const lista = (facebookCandidatiData.posts || []).filter((p) => !gia.has(p.id) || fatti[p.id]);
+  const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.8rem 1rem", display: "flex", gap: "1rem", flexWrap: "wrap" };
+
+  return (
+    <main>
+      <CampionatiHero titolo="Post delle società" />
+      <section className="section">
+        {!dentro ? (
+          <form onSubmit={entra} style={{ maxWidth: "360px" }}>
+            <h2 className="feed-heading">Area riservata</h2>
+            <input type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Password" aria-label="Password"
+              style={{ width: "100%", padding: "0.7rem 0.9rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "1rem" }} />
+            <button className="filter-btn filter-btn--active" type="submit" style={{ marginTop: "0.7rem" }}>Entra</button>
+            {errore && <p className="state" style={{ marginTop: "0.7rem" }}>{errore}</p>}
+          </form>
+        ) : (
+          <>
+            <h2 className="feed-heading">Post da approvare</h2>
+            <p className="state" style={{ marginBottom: "1rem" }}>Sono i post recenti della pagina Facebook che parlano di società umbre. Scegli la sezione e tocca “Pubblica sul sito”, oppure “Scarta”.</p>
+            {errore && <p className="state" style={{ marginBottom: "0.8rem" }}>{errore}</p>}
+            {lista.length === 0 && <p className="state">Nessun post da approvare adesso. La lista si aggiorna ogni due ore.</p>}
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+              {lista.map((p) => (
+                <div key={p.id} style={box}>
+                  {p.image && <img src={p.image} alt="" loading="lazy" style={{ width: "120px", height: "90px", objectFit: "cover", borderRadius: "8px" }} />}
+                  <div style={{ flex: "1 1 260px", minWidth: 0 }}>
+                    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{(p.createdTime || "").slice(0, 10)} · {(p.societa || []).join(", ")}</div>
+                    <div style={{ whiteSpace: "pre-line", fontSize: "0.9rem", margin: "0.3rem 0", maxHeight: "9rem", overflow: "hidden" }}>{p.testo}</div>
+                    {p.permalink && <a href={p.permalink} target="_blank" rel="noopener noreferrer" style={{ fontSize: "0.78rem" }}>Apri su Facebook</a>}
+                    {fatti[p.id] ? (
+                      <div style={{ marginTop: "0.6rem", fontWeight: 700 }}>{fatti[p.id] === "..." ? "Salvo…" : fatti[p.id]}</div>
+                    ) : (
+                      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.6rem", alignItems: "center" }}>
+                        <select value={sez[p.id] || "regionali"} onChange={(e) => setSez((x) => ({ ...x, [p.id]: e.target.value }))} aria-label="Sezione"
+                          style={{ padding: "0.45rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)" }}>
+                          <option value="regionali">Regionali</option>
+                          <option value="perugia">Perugia</option>
+                          <option value="terni">Terni</option>
+                          <option value="nazionali">Nazionali</option>
+                        </select>
+                        <button className="filter-btn filter-btn--active" onClick={() => scegli(p.id, "approva")}>Pubblica sul sito</button>
+                        <button className="filter-btn" onClick={() => scegli(p.id, "scarta")}>Scarta</button>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+      </section>
+    </main>
+  );
+}
+
 function CercaPage() {
   const [q, setQ] = useState(() => { try { return new URLSearchParams(window.location.search).get("q") || ""; } catch (e) { return ""; } });
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
@@ -7453,7 +7552,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7487,6 +7586,7 @@ useEffect(() => {
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
           {route === "mia-squadra" && <MiaSquadraPage />}
           {route === "cerca" && <CercaPage />}
+          {route === "modera" && <ModeraPage />}
           {route === "risultati" && <CalendarioCompletoPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
           {route === "risultati-seried" && <RisultatiPage cat="Serie D" />}

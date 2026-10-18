@@ -26,5 +26,5 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/facebook_news.json data/facebook_video.json data/facebook_galleria.json react-app/data/facebook_news.json react-app/data/facebook_video.json react-app/data/facebook_galleria.json public/news public/galleria
+          git add data/facebook_candidati.json react-app/data/facebook_candidati.json data/facebook_news.json data/facebook_video.json data/facebook_galleria.json react-app/data/facebook_news.json react-app/data/facebook_video.json react-app/data/facebook_galleria.json public/news public/galleria
           git diff --staged --quiet || (git commit -m "Aggiorna notizie da Facebook" && git pull --rebase && git push)
