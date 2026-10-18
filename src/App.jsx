@@ -6372,6 +6372,16 @@ function MiaSquadraPage() {
 
   function scegli(n) { setNome(n); salvaMiaSquadra(n); setCerca(""); setCat(""); }
   function cambia() { setNome(""); salvaMiaSquadra(""); setCat(""); }
+  // Arrivo dalle pagine pubbliche delle squadre: /mia-squadra?squadra=Nome
+  useEffect(() => {
+    try {
+      const richiesta = new URLSearchParams(window.location.search).get("squadra");
+      if (!richiesta) return;
+      const trovata = squadre.find((x) => normSq(x.nome) === normSq(richiesta));
+      if (trovata) scegli(trovata.nome);
+      window.history.replaceState({}, "", "/mia-squadra");
+    } catch (e) {}
+  }, []);
 
   if (!nome) {
     const q = normSq(cerca);

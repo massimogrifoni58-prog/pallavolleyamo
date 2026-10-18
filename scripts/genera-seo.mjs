@@ -80,12 +80,28 @@ ${corpo}
 }
 
 function tabella(righe, evidenzia) {
-  const e = (n) => (evidenzia && norm(n) === norm(evidenzia) ? `<strong>${esc(titolo(n))}</strong>` : esc(titolo(n)));
+  const e = (n) => {
+    if (evidenzia && norm(n) === norm(evidenzia)) return `<strong>${esc(titolo(n))}</strong>`;
+    const sl = slugSquadra[norm(n)];
+    return sl ? `<a href="/squadra/${sl}/">${esc(titolo(n))}</a>` : esc(titolo(n));
+  };
   return `<table><tr><th>Data</th><th>Partita</th><th>Risultato</th></tr>${righe
     .map((p) => `<tr><td>${esc(dataIt(p.data))}${p.ora ? " · " + esc(p.ora) : ""}<br><span class="p">${esc(catBreve(p.camp))}${p.giornata ? " · G." + esc(p.giornata) : ""}</span></td><td>${e(p.casa)} – ${e(p.ospite)}</td><td>${p.ris ? "<strong>" + esc(p.ris) + "</strong>" : "—"}</td></tr>`)
     .join("")}</table>`;
 }
 
+// slug di ogni squadra (serve per collegare le pagine tra loro)
+const slugSquadra = {};
+{
+  const usatiTmp = new Set();
+  for (const p of partite) for (const n of [p.casa, p.ospite]) {
+    if (!n || slugSquadra[norm(n)]) continue;
+    const sl = slug(n);
+    if (!sl || usatiTmp.has(sl)) continue;
+    usatiTmp.add(sl);
+    slugSquadra[norm(n)] = sl;
+  }
+}
 const sitemap = [];
 const scrivi = (url, html) => {
   const dir = path.join("public", url.replace(/^\//, ""));
@@ -109,8 +125,16 @@ for (const s of Object.values(squadre)) {
   const prossime = s.partite.filter((p) => !p.ris && p.data >= oggi).sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora)).slice(0, 12);
   const giocate = s.partite.filter((p) => p.ris).sort((a, b) => (b.data + b.ora).localeCompare(a.data + a.ora)).slice(0, 12);
   let corpo = `<p>${esc(nome)} gioca in: ${esc(cats.join(", "))}.</p>`;
+  corpo += `<p style="margin:1rem 0"><a href="/mia-squadra?squadra=${encodeURIComponent(s.nome)}" style="display:inline-block;background:#d4af37;color:#121214;padding:.6rem 1rem;border-radius:8px;font-weight:700;text-decoration:none">Segui ${esc(nome)} su PallaVolleyAmo</a><br><span class="p">Calendario sul telefono e notizie della tua squadra. Iscrizione gratuita.</span></p>`;
   corpo += prossime.length ? `<h2>Prossime partite</h2>${tabella(prossime, s.nome)}` : "<p>Nessuna partita in programma al momento.</p>";
   if (giocate.length) corpo += `<h2>Ultimi risultati</h2>${tabella(giocate, s.nome)}`;
+  // altre squadre dei campionati in cui gioca (collegamenti interni utili a Google)
+  const campSlug = [...new Set(s.partite.map((p) => slug(p.camp)).filter(Boolean))];
+  const avversari = new Set();
+  for (const p of partite) if (campSlug.includes(slug(p.camp))) for (const n of [p.casa, p.ospite]) if (n && norm(n) !== norm(s.nome) && slugSquadra[norm(n)]) avversari.add(norm(n));
+  const nomiAvv = partite.flatMap((p) => [p.casa, p.ospite]).filter((n) => n && avversari.has(norm(n)));
+  const unici = [...new Map(nomiAvv.map((n) => [norm(n), n])).values()].sort((a, b) => a.localeCompare(b, "it")).slice(0, 24);
+  if (unici.length) corpo += `<h2>Altre squadre dello stesso campionato</h2><p>${unici.map((n) => `<a href="/squadra/${slugSquadra[norm(n)]}/">${esc(titolo(n))}</a>`).join(" · ")}</p>` + (campSlug.length ? `<p class="p">Campionato: ${campSlug.map((c) => `<a href="/campionato/${c}/">${esc(c.replace(/-/g, " "))}</a>`).join(" · ")}</p>` : "");
   const prima = prossime[0];
   const descr = prima
     ? `${nome}: prossima partita ${dataIt(prima.data)}${prima.ora ? " ore " + prima.ora : ""} (${titolo(prima.casa)} – ${titolo(prima.ospite)}). Calendario e risultati ${cats[0]}.`
