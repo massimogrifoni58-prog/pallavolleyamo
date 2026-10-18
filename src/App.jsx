@@ -23,7 +23,7 @@ import mercatoData from "../data/mercato.json";
 import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
-import { cronaca as cronacaPartita } from "./cronaca.js";
+import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -1224,10 +1224,128 @@ function AtletaSettimanaPage() {
   );
 }
 function SquadraSettimanaPage() {
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  // livello del campionato: piu' e' alto, piu' pesa nella scelta
+  const livello = (c) => {
+    const t = (c || "").toLowerCase();
+    if (/superlega|serie a|a1|a2|a3/.test(t)) return 6;
+    if (/serie b/.test(t)) return 5;
+    if (/serie c/.test(t)) return 4;
+    if (/serie d/.test(t)) return 3;
+    if (/elite|under 19|u19/.test(t)) return 2;
+    return 1;
+  };
+  const dati = React.useMemo(() => {
+    const tutte = tuttePartiteSquadre();
+    const giocate = tutte.filter((p) => p.ris && leggiSet(p.ris)).sort((a, b) => a.data.localeCompare(b.data));
+    if (giocate.length === 0) return null;
+    const oggi = iso(new Date());
+    const ultima = giocate[giocate.length - 1].data;
+    const fine = ultima > oggi ? oggi : ultima;
+    const da = new Date(fine + "T12:00:00"); da.setDate(da.getDate() - 6);
+    const dal = iso(da);
+    const settimana = giocate.filter((p) => p.data >= dal && p.data <= fine);
+    if (settimana.length === 0) return null;
+    // per ogni squadra vincente: partita della settimana + serie di vittorie + record stagione
+    const cand = {};
+    settimana.forEach((p) => {
+      const s = leggiSet(p.ris);
+      const casaVince = s.a > s.b;
+      const nome = casaVince ? p.casa : p.ospite;
+      const k = normSq(nome) + "|" + categoriaBreve(p.camp);
+      const mie = giocate.filter((x) => x.camp === p.camp && (normSq(x.casa) === normSq(nome) || normSq(x.ospite) === normSq(nome)));
+      let serie = 0;
+      for (let i = mie.length - 1; i >= 0; i--) {
+        const m = mie[i], sm = leggiSet(m.ris);
+        const vinto = normSq(m.casa) === normSq(nome) ? sm.a > sm.b : sm.b > sm.a;
+        if (!vinto) break;
+        serie++;
+      }
+      const vinte = mie.filter((m) => { const sm = leggiSet(m.ris); return normSq(m.casa) === normSq(nome) ? sm.a > sm.b : sm.b > sm.a; }).length;
+      const setV = Math.max(s.a, s.b), setP = Math.min(s.a, s.b);
+      const c = { k, nome, camp: p.camp, cat: categoriaBreve(p.camp), partita: p, setV, setP, serie, vinte, giocate: mie.length, liv: livello(p.camp), netta: setP === 0 ? 1 : 0, trasferta: casaVince ? 0 : 1 };
+      if (!cand[k] || (c.setP < cand[k].setP)) cand[k] = c;
+    });
+    const lista = Object.values(cand).sort((a, b) =>
+      b.liv - a.liv || b.serie - a.serie || b.netta - a.netta || b.trasferta - a.trasferta || a.nome.localeCompare(b.nome));
+    // risultati raggruppati per campionato
+    const perCamp = {};
+    settimana.forEach((p) => { (perCamp[p.camp] ||= []).push(p); });
+    const camps = Object.keys(perCamp).sort((a, b) => livello(b) - livello(a) || a.localeCompare(b));
+    return { dal, fine, vincitrice: lista[0], altre: lista.slice(1, 6), perCamp, camps, totale: settimana.length, tutte };
+  }, []);
+
+  const dataBella = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
+  const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.7rem 0.9rem" };
+
+  if (!dati) {
+    return (
+      <main className="page-content">
+        <h1 className="page-title">Squadra della Settimana</h1>
+        <p className="page-subtitle">Non ci sono ancora risultati abbastanza recenti. La pagina si compila da sola appena arrivano le partite.</p>
+      </main>
+    );
+  }
+  const v = dati.vincitrice;
+  const s = leggiSet(v.partita.ris);
+  const avv = nomeBello(normSq(v.partita.casa) === normSq(v.nome) ? v.partita.ospite : v.partita.casa);
+  const casaV = normSq(v.partita.casa) === normSq(v.nome);
+
   return (
     <main className="page-content">
       <h1 className="page-title">Squadra della Settimana</h1>
-      <p className="page-subtitle">Prossimamente — in costruzione!</p>
+      <p className="page-subtitle">Dal {dataBella(dati.dal)} al {dataBella(dati.fine)} · {dati.totale} partite giocate</p>
+      <CondividiBar titolo="Squadra della Settimana" percorso="squadra-settimana" />
+
+      <div style={{ ...box, borderColor: "var(--gold)", maxWidth: "720px", margin: "1rem 0 1.5rem", padding: "1.1rem 1.2rem" }}>
+        <div style={{ color: "var(--gold)", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase" }}>La squadra da applaudire · {v.cat}</div>
+        <div style={{ fontSize: "1.5rem", fontWeight: 800, margin: "0.3rem 0" }}>{nomeBello(v.nome)}</div>
+        <p style={{ margin: 0, lineHeight: 1.6, fontSize: "0.95rem" }}>
+          {casaV ? "In casa" : "In trasferta"} contro {avv} ha vinto {Math.max(s.a, s.b)}-{Math.min(s.a, s.b)}
+          {v.setP === 0 ? ", senza lasciare set" : ""}.
+          {v.serie >= 2 ? " Sono " + v.serie + " vittorie consecutive." : ""}
+          {" "}In stagione: {v.vinte} {v.vinte === 1 ? "vittoria" : "vittorie"} su {v.giocate} {v.giocate === 1 ? "partita" : "partite"} in questo campionato.
+        </p>
+        <p style={{ margin: "0.7rem 0 0", color: "var(--text-dim)", fontSize: "0.78rem" }}>
+          Come si sceglie: tra le squadre che hanno vinto nella settimana conta prima il livello del campionato, poi le vittorie consecutive, poi il successo senza set persi e quello in trasferta.
+        </p>
+      </div>
+
+      {dati.altre.length > 0 && (
+        <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
+          <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.6rem" }}>Le altre candidate</h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            {dati.altre.map((c) => (
+              <div key={c.k} style={box}>
+                <div style={{ fontWeight: 600 }}>{nomeBello(c.nome)} <span style={{ color: "var(--gold)", marginLeft: "0.5rem" }}>{c.setV}-{c.setP}</span></div>
+                <div style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>{c.cat}{c.serie >= 2 ? " · " + c.serie + " vittorie di fila" : ""}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section style={{ maxWidth: "720px" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.8rem" }}>Tutti i risultati della settimana</h2>
+        {dati.camps.map((c) => (
+          <div key={c} style={{ marginBottom: "1.4rem" }}>
+            <h3 style={{ fontSize: "0.95rem", margin: "0 0 0.4rem" }}>{c}</h3>
+            {dati.perCamp[c].sort((a, b) => a.data.localeCompare(b.data)).map((p) => {
+              const st = leggiSet(p.ris);
+              return (
+                <div key={p.id} style={{ display: "flex", justifyContent: "space-between", gap: "0.8rem", padding: "0.35rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.9rem" }}>
+                  <span>
+                    <span style={{ fontWeight: st.a > st.b ? 700 : 400 }}>{nomeBello(p.casa)}</span>
+                    <span style={{ color: "var(--text-dim)" }}> – </span>
+                    <span style={{ fontWeight: st.b > st.a ? 700 : 400 }}>{nomeBello(p.ospite)}</span>
+                  </span>
+                  <span style={{ color: "var(--gold)", fontWeight: 700, whiteSpace: "nowrap" }}>{st.a}-{st.b}</span>
+                </div>
+              );
+            })}
+          </div>
+        ))}
+      </section>
     </main>
   );
 }
