@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-10-18T09:21:54.218034+00:00",
+  "generatedAt": "2026-10-18T15:04:01.091125+00:00",
   "news": {
     "1": [
-      {
-        "title": "Mondiali U 17: le azzurrine al Centro Pavesi prima della partenza - Corriere dello Sport",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSDFfajZCVTc0NFFtN25sQUxWWFhnUHBZZXJqMHJlLW9JSnh6dXVCUFRGUDVvcDZJXy1IQ0ZRZ2E1bHBMSjRoQUUyWUVFZzlzQm9UeDdGQnVLODJNbHdQQUNjVGlyNUg0UXFiSzdJRkF4bjRRZkpkMDZwa2J6Wk44WW0wR3UwNVBqdTA0WU00eVIyTldwYWk1aVJ6M3pMYS1vUGNIQnVvUF9ZZU4yRTZDMDQ0OUd0dzZ4dkZVU1Azc2VGVUdfaTVNLTBqVmZzRlpmSlprV1hCcWVaNFdjSmRZLW1R0gHkAUFVX3lxTFBFdXM2SGRzTnY0NTZJTXYwZVJNSEZmdGtudnZSMXFNa0FjX0RZVnZWdlpKRzc1eFVkR0ExaC1nOTlLMVNxMU0yRjFzTk5xdjl1RmRvUFNQRUZ4a1Z3ZlVENV9kS1FUUDRkeXZMc3MxZkNtc2FWUkFwdlFuSDVyNjRrY3dMOF9lNGNxSUNkSExUQUtOWU00Nk5JajNTdW9nZGVWM2J0S2hOMHZYdUpPbW9sTGtIQXdNNkE1dWVfVjltMEx1RUZGcjV2blc2QnU0NHNjREJYTEY4bzZMbTYxNmJ5aC1tMA?oc=5",
-        "pubDate": "Sun, 26 Jul 2026 07:00:00 GMT",
-        "source": "Corriere dello Sport"
-      },
       {
         "title": "Le convocate di Mencarelli per lo stage di Castelnovo nè Monti - Federazione Italiana Pallavolo",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXk1MFk4Y0pObkdOVjVoaVpDRW5WVnhYQ1B3dXlLdFNWeXZ3SmRrLVRjT0JZS3M0elczUXdJcEgySHZLalJWd1pGSlIxczItNUlBYlRNeFprYklNYkMtdm5kRmpSeG45LVhYMWJNWEoweFZxMDF0VTIyQzlaZkZVYWs5amFvY1MyVHIwZzV3?oc=5",
@@ -19,6 +13,12 @@
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZycGJyX3N1eTZMZ3lZeXJTSTVKdExrRTNRcWYwUnZnWGtBTldVNzJCc0ljVHRwMDMteGhpcEtGYk1oSHpsdFE0cnUzQ2ROb2R0VVJPT0Q2aHVmNVppMFpwaktMUVZuSEJGYUtnQWVzNTlSLTRUZUo5Rkp4RklqcTIzb2RrSDI0NFQzU1NRbjc5X2kzVGxjWEc0TXo1a3FYX0FxbG1YX2xXVVQtWUJHX21nYw?oc=5",
         "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT",
         "source": "Vero Volley"
+      },
+      {
+        "title": "Volley, Regional Day il 24 febbraio a Lamezia Terme con Marco Mencarelli - Cosenza Post",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLURYejhfN2pHNDlBYi02RkFELUhfU1lnV3BoelhORncxaTZRY19SRjRuVFB2Q0VMdERjS2x2SFVpbXZIS0l0dlV4VU9URGNVdm1oZ3dvODdxZHpTS1Fud21BTzlNYjJjTmRrY1NQRFRSdkVDMnZkR1hmcVFhNGJBZkJUQnZOaHAyZVNVd1dtdjN1ZWtYVUlnNUl5dDd0WjA0?oc=5",
+        "pubDate": "Sun, 22 Feb 2026 08:00:00 GMT",
+        "source": "Cosenza Post"
       },
       {
         "title": "Pallavolo – Il giudizio di Marco Mencarelli sulle nuove regole di gioco - iVolley Magazine",
@@ -35,9 +35,9 @@
     ],
     "2": [
       {
-        "title": "LIVE Talmassons-Conegliano, A1 volley femminile in DIRETTA: trasferta friulana per le Pantere - OA Sport",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGJqLUt6T09SWnV3OHMzYkxaRXFxVWF6WnZCLXZNem5CNlRZWFE0V01xUEM2aG9kbU41NS1feXBSa29VWnlzajlPZmpXTm8tOWd5TnBsSnA2THVQd3NRWHcxNFVDcm5WQmF1aDc1ZlF3azJkX3VxWGc2RWktb3ZfaHMwZ2NyRzFicXdBeExvZ1Nqazk5d1UtZERZcVdYTnFuY09WcWxFRjJjZE5yai1lY1VDU01CTDdQWWVRb2JCR1hUa0pGZ2fSAcYBQVVfeXFMT0Riai1Lek9PUlp1dzhzM2JMWkVxcVVhelp2Qi12TXpuQjZUWVhRNFdNcVBDNmhvZG1ONTUtX3lwUmtvVVp5c2o5T2ZqV05vLTlneU5wbEpwNkx1UHdzUVh3MTRVQ3JuVkJhdWg3NWZRd2syZF91cVhnNkVpLW92X2hzMGdjckcxYnF3QXhMb2dTams5OXdVLWREWXFXWE5xbmNPVnFsRUYyY2ROcmotZWNVQ1NNQkw3UFllUW9iQkdYVGtKRmdn?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 03:29:58 GMT",
+        "title": "LIVE Talmassons-Conegliano, A1 volley femminile in DIRETTA: le Pantere affrontano una neo-promossa - OA Sport",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObEk5VEtHRktDS1pJY0pyZzU1eGV5aml4ckcwR0FsSUNXU3NIWTFETU9HS2NxeGRWUkZTSTZFWkRSV2UzYmFwR1hZeElWVGI5eFp6Rnl1MEtoMWlQa05FMy1LSENfejZGeXVfWGZLNUNqNUFkUkRCdW1iYTNyRnM0WW93cHFZYVdteGoyZm1BU01lMVlXOVRfSVBwV0JmdElONWJwV25HTnVTSGJQQk1xVDZrMnBVYTRZLVduX3haX2LSAcYBQVVfeXFMT0Riai1Lek9PUlp1dzhzM2JMWkVxcVVhelp2Qi12TXpuQjZUWVhRNFdNcVBDNmhvZG1ONTUtX3lwUmtvVVp5c2o5T2ZqV05vLTlneU5wbEpwNkx1UHdzUVh3MTRVQ3JuVkJhdWg3NWZRd2syZF91cVhnNkVpLW92X2hzMGdjckcxYnF3QXhMb2dTams5OXdVLWREWXFXWE5xbmNPVnFsRUYyY2ROcmotZWNVQ1NNQkw3UFllUW9iQkdYVGtKRmdn?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 10:04:13 GMT",
         "source": "OA Sport"
       },
       {
