@@ -573,9 +573,10 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           ]}
         />
         <NavDropdown
-          label="Formazione"
+          label="Palestra del volley"
           subscribed={subscribed}
           items={[
+            { href: "#/palestra", label: "Inizia da qui", sub: "Tecnica, fisico, mente e schede: da dove partire" },
             { href: "#/fondamentali", label: "Tecnica", sub: "Fondamentali e gesti tecnici", locked: true },
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica", locked: true },
             { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione", locked: true },
@@ -1602,6 +1603,57 @@ function RosaPage() {
   );
 }
      
+function TornaPalestra({ dove }) {
+  return (
+    <p style={{ margin: "0 0 0.8rem", fontSize: "0.82rem" }}>
+      <a href="#/palestra" style={{ color: "var(--gold)", textDecoration: "none" }}>← Palestra del volley</a>
+      {dove ? <span style={{ color: "var(--text-dim)" }}> · {dove}</span> : null}
+    </p>
+  );
+}
+function PalestraPage() {
+  const parti = [
+    { href: "#/fondamentali", nome: "Tecnica", frase: "I sei fondamentali spiegati passo passo: battuta, ricezione, alzata, attacco, muro e difesa. Per ognuno trovi i tipi di gesto, gli esercizi e i consigli per migliorare.", per: "Per chi inizia e per chi vuole sistemare un gesto" },
+    { href: "#/preparazione-fisica", nome: "Fisico", frase: "Prevenzione degli infortuni, riscaldamento e stretching, muscoli del pallavolista, forza e recupero. Si cerca per argomento.", per: "Per atlete, atleti e preparatori" },
+    { href: "#/mental-coach", nome: "Mente", frase: "Gestire l'errore, restare concentrati, reggere la pressione dei punti decisivi e parlarsi bene in campo.", per: "Per giocatori, allenatori e genitori" },
+    { href: "#/schede", nome: "Schede allenamento", frase: "Esercizi già pronti da usare in palestra: allenamento tecnico, sedute tipo, side out, break point ed esercizi fisici. Si cerca anche per parola.", per: "Per gli allenatori che preparano la seduta" },
+  ];
+  const percorsi = [
+    { chi: "Sono un'atleta o un atleta", testo: "Parti dalla Tecnica per il gesto che vuoi migliorare, poi guarda il Fisico per non farti male e la Mente per giocare con più calma." },
+    { chi: "Sono un allenatore", testo: "Apri le Schede allenamento per la seduta di oggi e usa la Tecnica per spiegare bene i gesti ai ragazzi." },
+    { chi: "Sono un genitore", testo: "La Mente e il Fisico ti aiutano a capire cosa serve ai ragazzi, dentro e fuori dal campo." },
+  ];
+  const box = { display: "block", border: "1px solid var(--border)", borderRadius: "12px", padding: "1rem 1.1rem", textDecoration: "none", color: "inherit" };
+  return (
+    <main>
+      <section className="section">
+        <h2 className="feed-heading">La palestra del volley</h2>
+        <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "62ch", margin: "0 0 1.5rem" }}>
+          Qui si impara e ci si allena. Quattro parti, tutte gratuite per chi si iscrive: scegli quella che ti serve oggi.
+        </p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "0.9rem", maxWidth: "860px", marginBottom: "2.2rem" }}>
+          {parti.map((x) => (
+            <a key={x.href} href={x.href} style={box}>
+              <div style={{ color: "var(--gold)", fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.5rem", letterSpacing: "0.03em" }}>{x.nome}</div>
+              <p style={{ margin: "0.35rem 0 0.6rem", fontSize: "0.9rem", lineHeight: 1.55 }}>{x.frase}</p>
+              <div style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>{x.per}</div>
+              <div style={{ color: "var(--gold)", fontSize: "0.85rem", fontWeight: 700, marginTop: "0.6rem" }}>Apri →</div>
+            </a>
+          ))}
+        </div>
+        <h3 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.7rem" }}>Da dove inizio?</h3>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", maxWidth: "720px" }}>
+          {percorsi.map((x) => (
+            <div key={x.chi} style={{ borderLeft: "3px solid var(--gold)", padding: "0.2rem 0 0.2rem 0.9rem" }}>
+              <div style={{ fontWeight: 700, fontSize: "0.92rem" }}>{x.chi}</div>
+              <div style={{ fontSize: "0.9rem", lineHeight: 1.55, color: "var(--text-dim)" }}>{x.testo}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </main>
+  );
+}
 function PreparazioneFisicaPage() {
   const [sezioneAperta, setSezioneAperta] = useState(null);
   const [subAperta, setSubAperta] = useState(null);
@@ -1626,6 +1678,7 @@ function PreparazioneFisicaPage() {
 
   return (
     <main className="page-content">
+      <TornaPalestra dove="Fisico" />
       <h1 className="page-title">Preparazione Fisica</h1>
       <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem", fontSize: "0.9rem" }}>
         Guida alla preparazione fisica per il pallavolista. Cerca un argomento o sfoglia le sezioni.
@@ -3566,7 +3619,11 @@ const sez = contenuti[sezione];
   return (
     <main>
       <section className="section">
+        <TornaPalestra dove="Schede" />
         <h2 className="feed-heading">Schede Allenamento</h2>
+        <p style={{ fontSize: "0.9rem", color: "var(--text-dim)", margin: "0 0 1rem", maxWidth: "62ch" }}>
+          Esercizi pronti da usare in palestra. Scegli la sezione oppure cerca un esercizio per parola.
+        </p>
         <input
   className="form-input"
   type="text"
@@ -3753,7 +3810,11 @@ function FondamentaliPage() {
   return (
     <main>
       <section className="section">
+        <TornaPalestra dove="Tecnica" />
         <h2 className="feed-heading">Fondamentali del Volley</h2>
+        <p style={{ fontSize: "0.9rem", color: "var(--text-dim)", margin: "0 0 1rem", maxWidth: "62ch" }}>
+          Scegli il fondamentale: trovi i tipi di gesto, gli esercizi e i consigli per allenarlo.
+        </p>
 
         <div className="all2-select-wrap" style={{ marginBottom: "2rem", maxWidth: "320px" }}>
           <select className="all2-select" value={selected} onChange={(e) => setSelected(e.target.value)}>
@@ -3840,6 +3901,7 @@ function MentalCoachPage() {
     <main>
       <CampionatiHero titolo="Mental Coach" />
       <section className="section">
+        <TornaPalestra dove="Mente" />
         <p className="state" style={{ marginBottom: "1.5rem", fontSize: "0.85rem" }}>
           L'allenamento mentale del volley: gestione dell'errore, concentrazione, pressione e comunicazione di squadra.
         </p>
@@ -5553,9 +5615,11 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
-    "schede": ["Tecnica", "Schede Allenamento"],
-    "preparazione-fisica": ["Tecnica", "Preparazione Fisica"],
-    "fondamentali": ["Tecnica", "Fondamentali"],
+    "palestra": ["Palestra del volley"],
+    "schede": ["Palestra del volley", "Schede Allenamento"],
+    "preparazione-fisica": ["Palestra del volley", "Preparazione Fisica"],
+    "fondamentali": ["Palestra del volley", "Tecnica"],
+    "mental-coach": ["Palestra del volley", "Mente"],
     "velasco": ["Tecnica", "Julio Velasco"],
     "camp": ["Tecnica", "Camp Estivi"],
     "allenatori": ["Allenatori", "Notizie Allenatori"],
@@ -7498,6 +7562,7 @@ useEffect(() => {
     "classifica": ["Classifiche pallavolo Umbria | PallaVolleyAmo", "Le classifiche aggiornate dei campionati di pallavolo umbri, maschili e femminili."],
     "dirette": ["Pallavolo in diretta | PallaVolleyAmo", "Le partite di pallavolo da seguire in diretta."],
     "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
+    "palestra": ["La palestra del volley: tecnica, fisico, mente | PallaVolleyAmo", "Impara e allenati: i fondamentali, la preparazione fisica, il mental coach e le schede di allenamento per la pallavolo."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
@@ -7604,7 +7669,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7621,6 +7686,7 @@ useEffect(() => {
           {route === "schede" && <SchedePage />}
           {route === "squadre-top" && <SquadreTopPage />}
           {route === "pillole" && <PillolePage />}
+          {route === "palestra" && <PalestraPage />}
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "mental-coach" && <MentalCoachPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
