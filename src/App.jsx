@@ -1772,8 +1772,8 @@ function DiretteLivePage() {
             <p className="dirette-empty__testo">
               Le dirette appaiono qui automaticamente quando una società trasmette una partita.
               Le società possono inviare il link della diretta a{" "}
-              <a href="mailto:postmaster@pallavolleyamo.it" style={{ color: "var(--gold)" }}>
-                postmaster@pallavolleyamo.it
+              <a href="mailto:pallavolleyamo@libero.it" style={{ color: "var(--gold)" }}>
+                pallavolleyamo@libero.it
               </a>
             </p>
           </div>
@@ -1829,7 +1829,7 @@ function DiretteLivePage() {
           <ol className="dirette-info__lista">
             <li>Avvia una diretta Facebook dalla pagina della tua società</li>
             <li>Copia il link della diretta</li>
-            <li>Invialo a <a href="mailto:postmaster@pallavolleyamo.it" style={{ color: "var(--gold)" }}>postmaster@pallavolleyamo.it</a> con il nome delle squadre e la categoria</li>
+            <li>Invialo a <a href="mailto:pallavolleyamo@libero.it" style={{ color: "var(--gold)" }}>pallavolleyamo@libero.it</a> con il nome delle squadre e la categoria</li>
             <li>La diretta appare su PallaVolleyAmo entro pochi minuti</li>
           </ol>
         </div>
@@ -4610,7 +4610,7 @@ function ChiSiamoPage() {
               diventare sponsor? Siamo qui.
             </p>
             <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginTop: "1rem" }}>
-              <a href="mailto:postmaster@pallavolleyamo.it" className="sponsor-cta" style={{ fontSize: "0.85rem" }}>
+              <a href="mailto:pallavolleyamo@libero.it" className="sponsor-cta" style={{ fontSize: "0.85rem" }}>
                 ✉️ Scrivici
               </a>
               <a href="https://www.facebook.com/profile.php?id=136699049531253" target="_blank" rel="noreferrer"
@@ -4718,7 +4718,7 @@ fetch("https://formspree.io/f/xjgnwrwd", {
                 </div>
                 <p className="mercato-card__note">{a.note}</p>
                 <a
-                  href="mailto:postmaster@pallavolleyamo.it?subject=Contatto%20annuncio%20mercato"
+                  href="mailto:pallavolleyamo@libero.it?subject=Contatto%20annuncio%20mercato"
                   className="mercato-card__contatto"
                 >
                   Contatta tramite la redazione →
@@ -4744,7 +4744,7 @@ fetch("https://formspree.io/f/xjgnwrwd", {
                 </div>
                 <p className="mercato-card__note">{a.note}</p>
                 <a
-                  href="mailto:postmaster@pallavolleyamo.it?subject=Contatto%20annuncio%20mercato"
+                  href="mailto:pallavolleyamo@libero.it?subject=Contatto%20annuncio%20mercato"
                   className="mercato-card__contatto"
                 >
                   Contatta tramite la redazione →
@@ -5082,10 +5082,10 @@ function SponsorPage() {
           Scrivici per ricevere il media kit completo o per accordare una soluzione personalizzata.
         </p>
         <a
-          href="mailto:postmaster@pallavolleyamo.it?subject=Richiesta%20sponsorizzazione%20PallaVolleyAmo"
+          href="mailto:pallavolleyamo@libero.it?subject=Richiesta%20sponsorizzazione%20PallaVolleyAmo"
           className="sponsor-cta"
         >
-          Scrivici a postmaster@pallavolleyamo.it
+          Scrivici a pallavolleyamo@libero.it
         </a>
       </section>
     </main>
@@ -5264,7 +5264,7 @@ function SponsorBanner() {
         </a>
       ))}
       <a
-        href="mailto:postmaster@pallavolleyamo.it?subject=Proposta%20sponsorizzazione%20PallaVolleyAmo"
+        href="mailto:pallavolleyamo@libero.it?subject=Proposta%20sponsorizzazione%20PallaVolleyAmo"
         className="sponsor-banner__cta"
       >
         + Diventa sponsor
