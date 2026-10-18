@@ -259,33 +259,63 @@ function PostCard({ post, subscribed, onClick }) {
 function Ticker({ posts }) {
   const [idx, setIdx] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [fermo, setFermo] = useState(false);
 
-  useEffect(() => {
-    if (posts.length === 0) return;
-    const timer = setInterval(() => {
-      setVisible(false);
-      setTimeout(() => {
-        setIdx((i) => (i + 1) % posts.length);
-        setVisible(true);
-      }, 400);
-    }, 3000);
-    return () => clearInterval(timer);
+  // Gli ultimi risultati di pallavolo, mescolati alle notizie
+  const voci = React.useMemo(() => {
+    let risultati = [];
+    try {
+      const viste = new Set();
+      risultati = tuttePartiteSquadre()
+        .filter((m) => m.ris && leggiSet(m.ris))
+        .sort((x, y) => y.data.localeCompare(x.data))
+        .filter((m) => { const k = m.camp; if (viste.has(k)) return false; viste.add(k); return true; })
+        .slice(0, 4)
+        .map((m) => ({
+          source: "Volley " + categoriaBreve(m.camp),
+          title: nomeBello(m.casa) + " " + m.ris + " " + nomeBello(m.ospite),
+          interno: true,
+        }));
+    } catch (e) { risultati = []; }
+    const out = [];
+    const n = Math.max(posts.length, risultati.length);
+    for (let i = 0; i < n; i++) {
+      if (posts[i]) out.push(posts[i]);
+      if (risultati[i]) out.push(risultati[i]);
+    }
+    return out;
   }, [posts]);
 
-  if (posts.length === 0) return null;
-  const post = posts[idx];
+  useEffect(() => {
+    if (voci.length === 0 || fermo) return;
+    let t2;
+    const timer = setInterval(() => {
+      setVisible(false);
+      t2 = setTimeout(() => {
+        setIdx((i) => (i + 1) % voci.length);
+        setVisible(true);
+      }, 400);
+    }, 6000);
+    return () => { clearInterval(timer); clearTimeout(t2); };
+  }, [voci, fermo]);
+
+  if (voci.length === 0) return null;
+  const post = voci[idx % voci.length];
+  const esterno = !post.interno && post.permalink;
 
   return (
-    <div className="ticker">
+    <div className="ticker" onMouseEnter={() => setFermo(true)} onMouseLeave={() => setFermo(false)}
+      onTouchStart={() => setFermo(true)} onTouchEnd={() => setTimeout(() => setFermo(false), 8000)}>
       <span className="ticker__label">UMBRIA OGGI</span>
       <a
         className="ticker__single"
-        href={post.permalink || "#"}
-        target={post.permalink ? "_blank" : undefined}
+        href={post.interno ? "#/weekend-umbria" : (post.permalink || "#")}
+        target={esterno ? "_blank" : undefined}
         rel="noreferrer"
         style={{ opacity: visible ? 1 : 0, transition: "opacity 0.4s ease" }}
       >
-         {post.title || post.excerpt}
+        {post.source ? <span style={{ color: "var(--gold)", fontWeight: 700, marginRight: "0.5rem", fontSize: "0.72rem", textTransform: "uppercase" }}>{post.source}</span> : null}
+        {post.title || post.excerpt}
       </a>
     </div>
   );
