@@ -126,6 +126,12 @@ def societa_citate(testo, elenco):
                 trovate.append(nome.title() if nome.isupper() else nome)
     return trovate[:3]
 
+def condiviso(p):
+    """True se il post e' stato condiviso da un'altra pagina (non scritto da PallaVolleyAmo)."""
+    if "status_type" not in p and "parent_id" not in p:
+        return True  # campi non disponibili: non si puo' distinguere, meglio mostrarlo
+    return bool(p.get("parent_id")) or p.get("status_type") == "shared_story"
+
 def main():
     token = os.environ.get("FB_PAGE_TOKEN", "").strip()
     page = os.environ.get("FB_PAGE_ID", "").strip()
@@ -139,23 +145,26 @@ def main():
             token = r["access_token"]
     except Exception as e:
         print("Nota: token di pagina non ricavato, uso quello fornito")
-    q = urllib.parse.urlencode({
-        "fields": "id,message,created_time,full_picture,permalink_url,comments.limit(10){message,from}",
-        "limit": 25,
-        "access_token": token,
-    })
+    base_campi = "id,message,created_time,full_picture,permalink_url,comments.limit(10){message,from}"
+    extra_campi = ",status_type,parent_id,attachments.limit(1){type,url,title}"
     dati = {"data": []}
-    url = f"{API}/{page}/published_posts?{q}"
-    try:
-        for _ in range(16):  # fino a 16 pagine da 25 post
-            r = chiama(url)
-            dati["data"] += r.get("data", [])
-            url = (r.get("paging") or {}).get("next")
-            if not url:
-                break
-    except urllib.error.HTTPError as e:
-        print("ERRORE Facebook:", e.read().decode("utf-8", "replace")[:500])
-        sys.exit(1)
+    for campi in (base_campi + extra_campi, base_campi):  # se Facebook rifiuta i campi extra, si usa la versione base
+        q = urllib.parse.urlencode({"fields": campi, "limit": 25, "access_token": token})
+        url = f"{API}/{page}/published_posts?{q}"
+        dati = {"data": []}
+        try:
+            for _ in range(16):  # fino a 16 pagine da 25 post
+                r = chiama(url)
+                dati["data"] += r.get("data", [])
+                url = (r.get("paging") or {}).get("next")
+                if not url:
+                    break
+            break
+        except urllib.error.HTTPError as e:
+            print("ERRORE Facebook:", e.read().decode("utf-8", "replace")[:500])
+            if campi == base_campi:
+                sys.exit(1)
+            print("Riprovo senza i campi extra")
 
     tag = HASHTAG.lower()
     ap = carica_json("data/facebook_approvati.json", {})
@@ -166,7 +175,8 @@ def main():
     limite = (__import__("datetime").datetime.now(__import__("datetime").timezone.utc) - __import__("datetime").timedelta(days=21)).strftime("%Y-%m-%d")
     # diagnostica: i 5 post piu' recenti letti (data + inizio testo)
     for q in dati.get("data", [])[:5]:
-        print("  recente:", q.get("created_time", "")[:16], "|", repr((q.get("message") or "")[:50]), "| hashtag:", HASHTAG in (q.get("message") or "").lower())
+        print("  recente:", q.get("created_time", "")[:16], "|", repr((q.get("message") or "")[:50]), "| hashtag:", HASHTAG in (q.get("message") or "").lower(),
+              "| tipo:", q.get("status_type"), "| parent:", bool(q.get("parent_id")), "| allegato:", ((q.get("attachments") or {}).get("data") or [{}])[0].get("type"))
     codice = os.environ.get("FB_CODICE", "").strip().lower()  # parola segreta da scrivere in un commento
     n_commenti = n_validi = 0
     posts, videos, gallerie = [], [], []
@@ -186,7 +196,7 @@ def main():
         scelto = approvati.get(pid)
         if tag not in msg.lower() and not extra and scelto is None:
             # non importato: se parla di una societa' umbra va nella lista da approvare
-            if pid not in scartati and msg.strip() and p.get("created_time", "")[:10] >= limite:
+            if pid not in scartati and msg.strip() and p.get("created_time", "")[:10] >= limite and condiviso(p):
                 citate = societa_citate(msg, societa)
                 if citate:
                     candidati.append({"id": pid, "testo": msg.strip()[:600], "createdTime": p.get("created_time", ""),
