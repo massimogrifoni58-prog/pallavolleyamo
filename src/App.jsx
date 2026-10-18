@@ -545,6 +545,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Bacheca"
           subscribed={subscribed}
           items={[
+            { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
             { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società", locked: true },
             { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
           ]}
@@ -1603,6 +1604,45 @@ function RosaPage() {
   );
 }
      
+function PerLeSocietaPage() {
+  const blocchi = [
+    { t: "Le vostre squadre sul sito", d: "Calendario, risultati e classifica di ogni vostra squadra, aggiornati in automatico dai dati FIPAV. Dopo ogni partita giocata compare anche una breve cronaca.", l: "#/squadre-iscritte", ll: "Guarda le squadre iscritte" },
+    { t: "Le vostre notizie", d: "Un articolo, un risultato, un evento della società: scrivilo e lo pubblichiamo nella Bacheca. Serve l'iscrizione gratuita al sito.", l: "#/articoli-societa", ll: "Invia il tuo articolo" },
+    { t: "La rosa della squadra", d: "Mandaci i nomi delle vostre atlete e atleti: servono per presentare le squadre e per le iniziative del portale.", l: "#/rosa", ll: "Invia la rosa" },
+    { t: "Squadra della Settimana e atlete con più punti", d: "Ogni settimana scegliamo la squadra da applaudire. Per la classifica delle atlete con più punti servono i dati dei vostri referti: li inviate con un modulo e li controlliamo noi.", l: "#/squadra-settimana", ll: "Vai alla pagina" },
+    { t: "La partita sul telefono", d: "Allenatori, atlete e genitori scelgono la loro squadra e si abbonano al calendario: le partite arrivano sul telefono e si aggiornano da sole, anche se cambia un orario.", l: "#/mia-squadra", ll: "Prova La mia squadra" },
+    { t: "Sulla mappa", d: "Le società e le palestre dell'Umbria sulla Mappa volley, per farsi trovare da chi cerca una squadra vicino a casa.", l: "#/mappa", ll: "Apri la mappa" },
+  ];
+  const box = { border: "1px solid var(--border)", borderRadius: "12px", padding: "1rem 1.1rem" };
+  return (
+    <main>
+      <section className="section">
+        <h2 className="feed-heading">Per le società</h2>
+        <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "62ch", margin: "0 0 1.5rem" }}>
+          PallaVolleyAmo è il portale della pallavolo umbra e per le società è gratuito. Qui sotto trovi cosa puoi avere e cosa ci serve da te per far crescere il sito insieme.
+        </p>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "0.9rem", maxWidth: "900px", marginBottom: "2rem" }}>
+          {blocchi.map((b) => (
+            <div key={b.t} style={box}>
+              <div style={{ color: "var(--gold)", fontWeight: 700, fontSize: "1rem" }}>{b.t}</div>
+              <p style={{ margin: "0.4rem 0 0.7rem", fontSize: "0.9rem", lineHeight: 1.55 }}>{b.d}</p>
+              <a href={b.l} style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem", textDecoration: "none" }}>{b.ll} →</a>
+            </div>
+          ))}
+        </div>
+        <div style={{ ...box, borderColor: "var(--gold)", maxWidth: "900px" }}>
+          <div style={{ color: "var(--gold)", fontWeight: 700 }}>Hai trovato un dato sbagliato?</div>
+          <p style={{ margin: "0.4rem 0 0", fontSize: "0.9rem", lineHeight: 1.6 }}>
+            Un orario, una palestra, il nome della squadra: scrivici a{" "}
+            <a href="mailto:pallavolleyamo@libero.it" style={{ color: "var(--gold)" }}>pallavolleyamo@libero.it</a>{" "}
+            e lo correggiamo. Per condividere la vostra squadra basta mandare ai tifosi il link a{" "}
+            <a href="#/mia-squadra" style={{ color: "var(--gold)" }}>La mia squadra</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+  );
+}
 function TornaPalestra({ dove }) {
   return (
     <p style={{ margin: "0 0 0.8rem", fontSize: "0.82rem" }}>
@@ -5558,6 +5598,7 @@ function Footer() {
     { label: "Iscriviti", href: "#/iscrizione" },
     { label: "Mappa Volley", href: "#/mappa" },
     { label: "Articoli Società", href: "#/articoli-societa" },
+    { label: "Per le società", href: "#/per-le-societa" },
   ];
   return (
     <footer className="sito-footer">
@@ -5601,6 +5642,7 @@ function Breadcrumb({ route }) {
     "terni": ["Notizie", "News Prov. TR"],
     "perugia": ["Notizie", "News Prov. PG"],
     "articoli-societa": ["Notizie", "Articoli Società"],
+    "per-le-societa": ["Bacheca", "Per le società"],
     "squadre-iscritte": ["Campionati", "Squadre Iscritte"],
     "mia-squadra": ["Campionati", "La mia squadra"],
     "risultati": ["Campionati", "Risultati"],
@@ -7575,6 +7617,7 @@ useEffect(() => {
     "agenda": ["Agenda eventi di pallavolo | PallaVolleyAmo", "Gli eventi, i tornei e gli appuntamenti della pallavolo umbra."],
     "mappa": ["Mappa delle società di pallavolo in Umbria | PallaVolleyAmo", "La mappa delle società e dei palazzetti di pallavolo in Umbria."],
     "chi-siamo": ["Chi siamo | PallaVolleyAmo", "PallaVolleyAmo, il portale dedicato alla pallavolo umbra."],
+    "per-le-societa": ["Per le società di pallavolo | PallaVolleyAmo", "Cosa offre PallaVolleyAmo alle società umbre: visibilità, risultati, cronache, notizie e come partecipare. Gratis."],
     "articoli-societa": ["Articoli e notizie dalle società | PallaVolleyAmo", "Le notizie e gli articoli delle società di pallavolo umbre."],
     "allenatori2": ["Allenatori di pallavolo | PallaVolleyAmo", "Gli allenatori della pallavolo umbra e i loro consigli."]
   };
@@ -7669,7 +7712,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7687,6 +7730,7 @@ useEffect(() => {
           {route === "squadre-top" && <SquadreTopPage />}
           {route === "pillole" && <PillolePage />}
           {route === "palestra" && <PalestraPage />}
+          {route === "per-le-societa" && <PerLeSocietaPage />}
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "mental-coach" && <MentalCoachPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
