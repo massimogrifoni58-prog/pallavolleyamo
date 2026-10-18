@@ -8,6 +8,8 @@ Output: react-app/data/squadre_top.json
 import json
 import gzip
 import re
+import base64
+import html
 import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -133,8 +135,79 @@ def parse_rss(xml_bytes):
         return []
 
 
+def url_editore(link):
+    """Ricava l'indirizzo vero dell'articolo dal link della notizia (Bing o Google News)."""
+    try:
+        u = urllib.parse.urlparse(link)
+        if "bing.com" in u.netloc:
+            v = urllib.parse.parse_qs(u.query).get("url")
+            return v[0] if v else None
+        if "news.google.com" in u.netloc:
+            m = re.search(r"/articles/([A-Za-z0-9_-]+)", u.path)
+            if not m:
+                return None
+            b = m.group(1)
+            raw = base64.urlsafe_b64decode(b + "=" * (-len(b) % 4))
+            t = re.search(rb"https?://[\x21-\x7e]+", raw)
+            return t.group(0).decode("ascii") if t else url_google_nuovo(b)
+        return link
+    except Exception:
+        return None
+
+
+def url_google_nuovo(articolo_id):
+    """Link Google News di tipo nuovo: si chiede a Google l'indirizzo vero (se non risponde, si lascia senza foto)."""
+    try:
+        req = urllib.request.Request(f"https://news.google.com/rss/articles/{articolo_id}?hl=it&gl=IT&ceid=IT:it", headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            pagina = resp.read().decode("utf-8", errors="ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', pagina).group(1)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', pagina).group(1)
+        inner = json.dumps(["garturlreq", [["it", "IT", ["FINANCE_TOP_INDICES", "WEB_TEST_1_0_0"], None, None, 1, 1, "IT:it", None, 180, None, None, None, None, None, 0, None, None, [1608992183, 723341000]], "it", "IT", 1, [2, 4, 8], 1, 1, None, 0, 0, None, 0], articolo_id, int(ts), sg])
+        corpo = urllib.parse.urlencode({"f.req": json.dumps([[["Fbv4je", inner]]])}).encode()
+        r2 = urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute", data=corpo,
+                                    headers={**HEADERS, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+        with urllib.request.urlopen(r2, timeout=8) as resp:
+            testo = resp.read().decode("utf-8", errors="ignore")
+        blocco = json.loads(testo.split("\n\n", 1)[1])
+        url = json.loads(blocco[0][2])[1]
+        return url if url.startswith("http") else None
+    except Exception:
+        return None
+
+
+def trova_immagine(pagina_url):
+    """Scarica solo l'inizio della pagina e cerca l'immagine di anteprima (og:image)."""
+    try:
+        req = urllib.request.Request(pagina_url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            testo = resp.read(300000).decode("utf-8", errors="ignore")
+        for pat in (
+            r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]*content=["\']([^"\']+)',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\'](?:og:image|twitter:image)["\']',
+        ):
+            m = re.search(pat, testo, re.I)
+            if m:
+                img = urllib.parse.urljoin(pagina_url, html.unescape(m.group(1)).strip())
+                if img.startswith("http") and "google" not in urllib.parse.urlparse(img).netloc:
+                    return img
+    except Exception:
+        pass
+    return None
+
+
+def carica_immagini_precedenti():
+    """Riusa le immagini gia' trovate nei giorni scorsi, per non riscaricare tutto."""
+    try:
+        vecchio = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        return {n["link"]: n.get("image") for lst in vecchio.get("news", {}).values() for n in lst if n.get("image")}
+    except Exception:
+        return {}
+
+
 def main():
     result = {}
+    gia = carica_immagini_precedenti()
 
     for s in SOGGETTI:
         print(f"Scarico notizie per {s['nome']}...")
@@ -160,6 +233,13 @@ def main():
         # Ordina per data e taglia a MAX_NEWS
         all_posts.sort(key=lambda p: parse_date_safe(p["pubDate"]), reverse=True)
         all_posts = all_posts[:MAX_NEWS]
+        for p in all_posts:
+            if p["link"] in gia:
+                p["image"] = gia[p["link"]]
+                continue
+            pagina = url_editore(p["link"])
+            if pagina:
+                p["image"] = trova_immagine(pagina)
         result[s["id"]] = all_posts
         print(f"  → {len(all_posts)} notizie totali")
 
