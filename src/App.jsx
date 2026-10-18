@@ -6671,7 +6671,8 @@ function MiaSquadraPage() {
     <main>
       <CampionatiHero titolo="La mia squadra" />
       <section className="section">
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1rem" }}>
+        <InvitoIscrizione testo="Ti piace seguire la tua squadra? Con l'iscrizione leggi anche tutte le notizie." />
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", margin: "0.8rem 0 1rem" }}>
           <h2 className="feed-heading" style={{ margin: 0 }}>{nomeMostrato(nome)}</h2>
           <button className="filter-btn" onClick={cambia}>Cambia squadra</button>
         </div>
@@ -6751,6 +6752,16 @@ function DirettaOggiHome() {
   );
 }
 
+function InvitoIscrizione({ testo }) {
+  const { subscribed } = useSubscribed();
+  if (subscribed) return null;
+  return (
+    <a href="#/iscrizione" style={{ display: "block", textDecoration: "none", color: "inherit", marginTop: "0.7rem", border: "1px dashed var(--gold)", borderRadius: "10px", padding: "0.7rem 1rem", fontSize: "0.88rem" }}>
+      {testo} <strong style={{ color: "var(--gold)" }}>Iscriviti gratis in 10 secondi</strong>
+    </a>
+  );
+}
+
 function MiaSquadraHome() {
   const nome = leggiMiaSquadra();
   if (!nome) {
@@ -6788,6 +6799,7 @@ function MiaSquadraHome() {
           </div>
         )}
       </a>
+      <InvitoIscrizione testo="Segui la tua squadra e leggi tutte le notizie." />
     </section>
   );
 }
