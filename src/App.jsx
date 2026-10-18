@@ -15,6 +15,7 @@ import facebookApprovatiData from "../data/facebook_approvati.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
+import marcatriciData from "../data/marcatrici.json";
 import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
@@ -1223,6 +1224,85 @@ function AtletaSettimanaPage() {
     </main>
   );
 }
+function SegnalaPuntiForm() {
+  const vuoto = { societa: "", campionato: "", avversario: "", data: "", nome: "", punti: "", chi: "", email: "" };
+  const [f, setF] = useState(vuoto);
+  const [consenso, setConsenso] = useState(false);
+  const [status, setStatus] = useState("idle");
+  const [trappola, setTrappola] = useState("");
+  const apertaIl = React.useRef(Date.now());
+  const campo = (k) => ({ value: f[k], onChange: (e) => setF({ ...f, [k]: e.target.value }) });
+  const stile = { width: "100%", padding: "0.5rem 0.6rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "inherit", fontSize: "0.92rem", boxSizing: "border-box" };
+  const lab = { display: "block", fontSize: "0.8rem", color: "var(--text-dim)", margin: "0.6rem 0 0.2rem" };
+
+  function invia(e) {
+    e.preventDefault();
+    if (!consenso) return;
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(f.email.trim());
+    const puntiOk = Number(f.punti) > 0 && Number(f.punti) < 70;
+    if (trappola || Date.now() - apertaIl.current < 3000) { setStatus("done"); return; }
+    if (!emailOk || !puntiOk) { setStatus("error"); return; }
+    setStatus("sending");
+    const taglia = (v, n) => String(v || "").trim().slice(0, n);
+    fetch("https://formspree.io/f/xrenqkbd", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({
+        _subject: "Segnalazione punti atleta - PallaVolleyAmo",
+        tipo: "segnalazione punti",
+        societa: taglia(f.societa, 80), campionato: taglia(f.campionato, 80), avversario: taglia(f.avversario, 80),
+        data_partita: taglia(f.data, 12), atleta: taglia(f.nome, 80), punti: taglia(f.punti, 3),
+        nome: taglia(f.chi, 80), email: taglia(f.email, 120),
+      }),
+    })
+      .then((r) => { if (!r.ok) throw new Error("rifiutato"); setStatus("done"); })
+      .catch(() => setStatus("error"));
+  }
+
+  if (status === "done") {
+    return (
+      <div style={{ border: "1px solid var(--gold)", borderRadius: "10px", padding: "1rem" }}>
+        <p style={{ margin: "0 0 0.7rem" }}>Grazie! La segnalazione è arrivata. La controlliamo e, se è tutto a posto, la atleta compare in classifica.</p>
+        <button onClick={() => { setF(vuoto); setConsenso(false); setStatus("idle"); apertaIl.current = Date.now(); }}
+          style={{ padding: "0.4rem 1rem", borderRadius: "999px", border: "1px solid var(--gold)", background: "transparent", color: "inherit", cursor: "pointer" }}>
+          Segnala un'altra atleta
+        </button>
+      </div>
+    );
+  }
+  return (
+    <form onSubmit={invia} style={{ border: "1px dashed var(--gold)", borderRadius: "10px", padding: "1rem" }}>
+      <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", overflow: "hidden" }}>
+        <label>Non compilare<input type="text" name="sito_web" tabIndex={-1} autoComplete="off" value={trappola} onChange={(e) => setTrappola(e.target.value)} /></label>
+      </div>
+      <label style={lab}>La tua società o squadra</label>
+      <input required style={stile} {...campo("societa")} />
+      <label style={lab}>Campionato (per esempio Serie C F, Under 17 F)</label>
+      <input required style={stile} {...campo("campionato")} />
+      <label style={lab}>Contro chi avete giocato</label>
+      <input required style={stile} {...campo("avversario")} />
+      <label style={lab}>Data della partita</label>
+      <input required type="date" style={stile} {...campo("data")} />
+      <label style={lab}>Nome e cognome dell'atleta</label>
+      <input required style={stile} {...campo("nome")} />
+      <label style={lab}>Punti fatti nella partita</label>
+      <input required type="number" min="1" max="69" style={stile} {...campo("punti")} />
+      <label style={lab}>Il tuo nome (chi segnala)</label>
+      <input required style={stile} {...campo("chi")} />
+      <label style={lab}>La tua email (solo per eventuali controlli, non viene pubblicata)</label>
+      <input required type="email" style={stile} {...campo("email")} />
+      <label style={{ display: "flex", gap: "0.5rem", alignItems: "flex-start", fontSize: "0.82rem", margin: "0.9rem 0", lineHeight: 1.4 }}>
+        <input type="checkbox" checked={consenso} onChange={(e) => setConsenso(e.target.checked)} style={{ marginTop: "0.2rem" }} />
+        <span>Confermo che i dati sono quelli del referto e che la società è d'accordo a pubblicare il nome dell'atleta (per le minorenni mostriamo solo l'iniziale del cognome).</span>
+      </label>
+      <button type="submit" disabled={!consenso || status === "sending"}
+        style={{ padding: "0.5rem 1.3rem", borderRadius: "999px", border: "none", background: consenso ? "var(--gold)" : "var(--border)", color: "#000", fontWeight: 700, cursor: consenso ? "pointer" : "default" }}>
+        {status === "sending" ? "Invio..." : "Invia la segnalazione"}
+      </button>
+      {status === "error" && <p style={{ color: "#e66", fontSize: "0.85rem", margin: "0.7rem 0 0" }}>Non è partita. Controlla email e punti e riprova.</p>}
+    </form>
+  );
+}
 function SquadraSettimanaPage() {
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   // livello del campionato: piu' e' alto, piu' pesa nella scelta
@@ -1272,7 +1352,14 @@ function SquadraSettimanaPage() {
     const perCamp = {};
     settimana.forEach((p) => { (perCamp[p.camp] ||= []).push(p); });
     const camps = Object.keys(perCamp).sort((a, b) => livello(b) - livello(a) || a.localeCompare(b));
-    return { dal, fine, vincitrice: lista[0], altre: lista.slice(1, 6), perCamp, camps, totale: settimana.length, tutte };
+    const punti = {};
+    ((marcatriciData && marcatriciData.punti) || []).filter((x) => x.data >= dal && x.data <= fine && Number(x.punti) > 0).forEach((x) => {
+      const k = normSq(x.nome + " " + (x.cognome || "")) + "|" + normSq(x.squadra);
+      if (!punti[k]) punti[k] = { ...x, punti: 0 };
+      punti[k].punti += Number(x.punti);
+    });
+    const marcatrici = Object.values(punti).sort((a, b) => b.punti - a.punti || a.cognome.localeCompare(b.cognome)).slice(0, 12);
+    return { marcatrici, dal, fine, vincitrice: lista[0], altre: lista.slice(1, 6), perCamp, camps, totale: settimana.length, tutte };
   }, []);
 
   const dataBella = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
@@ -1324,6 +1411,34 @@ function SquadraSettimanaPage() {
           </div>
         </section>
       )}
+
+
+      <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.6rem" }}>Le atlete con più punti</h2>
+        {dati.marcatrici.length > 0 ? (
+          <div>
+            {dati.marcatrici.map((m, i) => {
+              const giovane = /under|u1\d|elite/i.test(m.campionato || "");
+              const cogn = giovane ? (m.cognome || "").charAt(0).toUpperCase() + "." : m.cognome;
+              return (
+                <div key={i} style={{ display: "flex", gap: "0.8rem", alignItems: "baseline", padding: "0.4rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.92rem" }}>
+                  <span style={{ minWidth: "1.5rem", color: "var(--gold)", fontWeight: 700 }}>{i + 1}</span>
+                  <span style={{ flex: 1 }}>{m.nome} {cogn} <span style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>· {nomeBello(m.squadra)}, {categoriaBreve(m.campionato)}</span></span>
+                  <span style={{ fontWeight: 700 }}>{m.punti} pt</span>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <p style={{ margin: 0, color: "var(--text-dim)", fontSize: "0.92rem", lineHeight: 1.6 }}>
+            Questa classifica nasce dalle segnalazioni delle società: i punti delle singole atlete stanno nei referti, che noi non possiamo vedere. Per ora non ne abbiamo ricevute per questa settimana.
+          </p>
+        )}
+        <p style={{ fontSize: "0.88rem", lineHeight: 1.6, margin: "1rem 0 0.7rem" }}>
+          Sei di una società? Segnalaci i punti delle tue atlete: li controlliamo e le mettiamo in classifica.
+        </p>
+        <SegnalaPuntiForm />
+      </section>
 
       <section style={{ maxWidth: "720px" }}>
         <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.8rem" }}>Tutti i risultati della settimana</h2>
