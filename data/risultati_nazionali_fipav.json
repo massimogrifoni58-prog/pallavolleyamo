@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:02:21.103498+00:00",
+  "generatedAt": "2026-10-18T15:41:46.305523+00:00",
   "matches": [
     {
       "id": "fp3212",
@@ -131,18 +131,6 @@
       "status": "in programma",
       "data": "07/11/2026 ore 21:00",
       "dataIso": "2026-11-07",
-      "ora": "21:00"
-    },
-    {
-      "id": "fp11233",
-      "competition": "Serie B2 Girone G",
-      "giornata": "Giornata",
-      "home": "FAIL GROUP MARSCIANO",
-      "away": "GIORGIO PERI GROSSETO",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "14/11/2026 ore 21:00",
-      "dataIso": "2026-11-14",
       "ora": "21:00"
     },
     {
