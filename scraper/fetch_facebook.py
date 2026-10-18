@@ -212,6 +212,8 @@ def main():
                 extra += " " + cm + " " + tag
                 n_validi += 1
         pid = p["id"].split("_")[-1]
+        if pid in scartati:  # scartato a mano: non viene mai importato
+            continue
         scelto = approvati.get(pid)
         if tag not in msg.lower() and not extra and scelto is None:
             # non importato: se parla di una societa' umbra va nella lista da approvare
