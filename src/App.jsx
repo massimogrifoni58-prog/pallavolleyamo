@@ -544,7 +544,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Bacheca"
           subscribed={subscribed}
           items={[
-            { href: "#/mercato", label: "Mercato", sub: "Cerco e offro: atlete, atleti, allenatori" },
             { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società", locked: true },
             { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
           ]}
@@ -587,7 +586,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/allenatori2", label: "Cerca Allenatore", sub: "Trova il tecnico giusto", locked: true },
-            { href: "#/camp", label: "Camp Estivi 2026", sub: "Camp e stage per atlete e atleti", locked: true },
             { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", locked: true, largo: true },
           ]}
         />
@@ -7389,13 +7387,12 @@ useEffect(() => {
 
         <div className="page-content">
           {route === "home" && <HomePage latestNews={latestFive} />}
-          {route === "mercato" && <MercatoPage subscribed={subscribed} />}
           {route === "chi-siamo" && <ChiSiamoPage />}
           {route === "privacy" && <PrivacyPage />}
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7407,7 +7404,6 @@ useEffect(() => {
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}
-          {route === "camp" && <CampEstiviPage />}
           {route === "agenda" && <CalendarioCompletoPage />}
           {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
