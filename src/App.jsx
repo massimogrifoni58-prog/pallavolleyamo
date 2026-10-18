@@ -5550,6 +5550,8 @@ function Footer() {
             </svg>
             Facebook
           </a>
+          <div className="sito-footer__titolo" style={{ marginTop: "0.9rem" }}>Contatti</div>
+          <a href="mailto:pallavolleyamo@libero.it" className="sito-footer__link">pallavolleyamo@libero.it</a>
         </div>
       </div>
       <div className="sito-footer__fondo">
