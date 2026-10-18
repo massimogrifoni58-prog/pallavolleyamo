@@ -2,6 +2,7 @@
 // e la sitemap relativa. Si esegue prima della build (npm run build).
 import fs from "node:fs";
 import path from "node:path";
+import { cronaca } from "../src/cronaca.js";
 
 const SITO = "https://www.pallavolleyamo.it";
 const leggi = (f) => JSON.parse(fs.readFileSync(path.join("data", f), "utf8"));
@@ -26,7 +27,7 @@ for (const [campId, lista] of Object.entries(campionati.partite || {})) {
   for (const p of lista) {
     if (!p.data) continue;
     const ris = p.risultato || punteggi[norm(p.campionato) + "|" + norm(p.casa) + "|" + norm(p.ospite)] || null;
-    partite.push({ campId, camp: p.campionato, giornata: p.giornata, data: p.data, ora: (p.ora || "").slice(0, 5).replace("00:00", ""), casa: p.casa, ospite: p.ospite, ris });
+    partite.push({ id: p.id, campId, camp: p.campionato, giornata: p.giornata, data: p.data, ora: (p.ora || "").slice(0, 5).replace("00:00", ""), casa: p.casa, ospite: p.ospite, ris });
   }
 }
 for (const f of ["risultati_nazionali.json", "risultati_nazionali_fipav.json"]) {
@@ -34,7 +35,7 @@ for (const f of ["risultati_nazionali.json", "risultati_nazionali_fipav.json"]) 
     for (const m of leggi(f).matches || []) {
       if (!m.dataIso) continue;
       const ris = m.status === "disputata" && m.score && m.score !== "da disputare" ? m.score : null;
-      partite.push({ campId: null, camp: m.competition, giornata: (m.giornata || "").replace(/^Giornata\s*/i, ""), data: m.dataIso, ora: (m.ora || "").slice(0, 5).replace("00:00", ""), casa: m.home, ospite: m.away, ris });
+      partite.push({ id: "n" + m.id, campId: null, camp: m.competition, giornata: (m.giornata || "").replace(/^Giornata\s*/i, ""), data: m.dataIso, ora: (m.ora || "").slice(0, 5).replace("00:00", ""), casa: m.home, ospite: m.away, ris });
     }
   } catch (e) {}
 }
@@ -127,6 +128,8 @@ for (const s of Object.values(squadre)) {
   let corpo = `<p>${esc(nome)} gioca in: ${esc(cats.join(", "))}.</p>`;
   corpo += `<p style="margin:1rem 0"><a href="/mia-squadra?squadra=${encodeURIComponent(s.nome)}" style="display:inline-block;background:#d4af37;color:#121214;padding:.6rem 1rem;border-radius:8px;font-weight:700;text-decoration:none">Segui ${esc(nome)} su PallaVolleyAmo</a><br><span class="p">Calendario sul telefono e notizie della tua squadra. Iscrizione gratuita.</span></p>`;
   corpo += prossime.length ? `<h2>Prossime partite</h2>${tabella(prossime, s.nome)}` : "<p>Nessuna partita in programma al momento.</p>";
+  const cron = giocate.slice(0, 3).map((g) => cronaca(g, partite)).filter(Boolean);
+  if (cron.length) corpo += `<h2>La cronaca delle ultime partite</h2>` + cron.map((c) => `<p>${esc(c)}</p>`).join("");
   if (giocate.length) corpo += `<h2>Ultimi risultati</h2>${tabella(giocate, s.nome)}`;
   // altre squadre dei campionati in cui gioca (collegamenti interni utili a Google)
   const campSlug = [...new Set(s.partite.map((p) => slug(p.camp)).filter(Boolean))];
@@ -153,7 +156,11 @@ for (const [sl, c] of Object.entries(perCamp)) {
   const giornate = {};
   for (const p of ord) (giornate[p.giornata || "—"] ||= []).push(p);
   let corpo = `<p>Calendario e risultati del campionato ${esc(c.nome)}, aggiornati dalla FIPAV.</p>`;
-  for (const [g, l] of Object.entries(giornate)) corpo += `<h2>${g === "—" ? "Partite" : "Giornata " + esc(g)}</h2>${tabella(l)}`;
+  for (const [g, l] of Object.entries(giornate)) {
+    corpo += `<h2>${g === "—" ? "Partite" : "Giornata " + esc(g)}</h2>${tabella(l)}`;
+    const cr = l.filter((x) => x.ris).map((x) => cronaca(x, partite)).filter(Boolean);
+    if (cr.length) corpo += `<h3 style="font-size:.9rem;color:#aaa;margin:1rem 0 .3rem">La cronaca</h3>` + cr.map((x) => `<p class="p" style="color:#ddd">${esc(x)}</p>`).join("");
+  }
   scrivi(`/campionato/${sl}/`, pagina({ url: `/campionato/${sl}/`, titoloPag: `${c.nome} — calendario e risultati | PallaVolleyAmo`, descr: `Calendario, orari e risultati del campionato ${c.nome}: tutte le giornate aggiornate.`, h1: c.nome, corpo }));
   nCa++;
 }

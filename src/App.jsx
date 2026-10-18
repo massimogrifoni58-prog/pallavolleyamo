@@ -23,6 +23,7 @@ import mercatoData from "../data/mercato.json";
 import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
+import { cronaca as cronacaPartita } from "./cronaca.js";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -6994,6 +6995,11 @@ function WeekendUmbriaPage() {
   const giorni = [iso(ven), iso(sab), iso(dom)];
   const concluso = dow === 1;
 
+  const tuttoIlCalendario = React.useMemo(() => tuttePartiteSquadre(), []);
+  const cronacaDi = (p) => {
+    const m = tuttoIlCalendario.find((x) => x.id === p.id);
+    return m && m.ris ? cronacaPartita(m, tuttoIlCalendario) : "";
+  };
   const tutte = Object.values(calendarioRegionaliData.partite || {}).flat()
     .filter((p) => p.data && giorni.includes(p.data));
   const visibili = tutte.filter((p) => filtro === "Tutte" || macro(p.campionato) === filtro);
@@ -7052,6 +7058,7 @@ function WeekendUmbriaPage() {
                       <div style={{ color: "var(--text-dim)", fontSize: "0.76rem" }}>
                         {p.campionato}{p.giornata ? " · giornata " + p.giornata : ""}
                       </div>
+                      {cronacaDi(p) && <p style={{ fontSize: "0.85rem", lineHeight: 1.5, margin: "0.4rem 0 0" }}>{cronacaDi(p)}</p>}
                     </div>
                   </div>
                 ))}
