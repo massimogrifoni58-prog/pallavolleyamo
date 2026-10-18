@@ -110,6 +110,9 @@ def main():
         sys.exit(1)
 
     tag = HASHTAG.lower()
+    # diagnostica: i 5 post piu' recenti letti (data + inizio testo)
+    for q in dati.get("data", [])[:5]:
+        print("  recente:", q.get("created_time", "")[:16], "|", repr((q.get("message") or "")[:50]), "| hashtag:", HASHTAG in (q.get("message") or "").lower())
     codice = os.environ.get("FB_CODICE", "").strip().lower()  # parola segreta da scrivere in un commento
     n_commenti = n_validi = 0
     posts, videos, gallerie = [], [], []
