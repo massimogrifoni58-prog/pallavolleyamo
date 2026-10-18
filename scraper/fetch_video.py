@@ -12,7 +12,9 @@ from datetime import datetime
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "react-app", "data")
 
-API_KEY = "AIzaSyCwgBEqKTB_Xz0v-YLfvBU5OFs6byjSekI"
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "")
+if not API_KEY:
+    raise SystemExit("Manca la variabile YOUTUBE_API_KEY (chiave YouTube): non scarico i video.")
 
 # 2 video per canale = 6 video totali
 CANALI = [
