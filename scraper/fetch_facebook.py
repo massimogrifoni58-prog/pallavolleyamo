@@ -128,6 +128,8 @@ def societa_citate(testo, elenco):
 
 def condiviso(p):
     """True se il post e' stato condiviso da un'altra pagina (non scritto da PallaVolleyAmo)."""
+    if p.get("_visitatore"):
+        return True
     if "status_type" not in p and "parent_id" not in p:
         return True  # campi non disponibili: non si puo' distinguere, meglio mostrarlo
     return bool(p.get("parent_id")) or p.get("status_type") == "shared_story"
@@ -165,6 +167,23 @@ def main():
             if campi == base_campi:
                 sys.exit(1)
             print("Riprovo senza i campi extra")
+
+    # post scritti da altri sulla pagina (societa' che pubblicano sulla pagina): elenco separato di Facebook
+    try:
+        qv = urllib.parse.urlencode({"fields": "id,message,created_time,full_picture,permalink_url,from", "limit": 50, "access_token": token})
+        rv = chiama(f"{API}/{page}/visitor_posts?{qv}")
+        vis = rv.get("data", [])
+        for v in vis:
+            v["_visitatore"] = True
+        ids = {x["id"] for x in dati["data"]}
+        dati["data"] += [v for v in vis if v["id"] not in ids]
+        print("Post dei visitatori letti:", len(vis))
+        for v in vis[:5]:
+            print("  visitatore:", v.get("created_time", "")[:16], "|", (v.get("from") or {}).get("name"), "|", repr((v.get("message") or "")[:50]))
+    except urllib.error.HTTPError as e:
+        print("Post dei visitatori NON letti:", e.read().decode("utf-8", "replace")[:300].replace(token, "***"))
+    except Exception as e:
+        print("Post dei visitatori NON letti:", str(e)[:200].replace(token, "***"))
 
     tag = HASHTAG.lower()
     ap = carica_json("data/facebook_approvati.json", {})
