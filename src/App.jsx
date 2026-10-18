@@ -6749,6 +6749,10 @@ function MiaSquadraHome() {
     .filter((p) => ancoraDaGiocare(p) && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
     .filter((p) => !inCorso(p))
     .sort((a, b) => (a.data + a.ora).localeCompare(b.data + b.ora))[0];
+  const ultima = tuttePartiteSquadre()
+    .filter((p) => p.ris && esitoPartita(p, nome) && (squadraMia(p.casa, nome) || squadraMia(p.ospite, nome)))
+    .sort((a, b) => (b.data + (b.ora || "")).localeCompare(a.data + (a.ora || "")))[0];
+  const esitoUltima = ultima ? esitoPartita(ultima, nome) : null;
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
@@ -6759,6 +6763,13 @@ function MiaSquadraHome() {
           </div>
         ) : (
           <div style={{ marginTop: "0.3rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>Nessuna partita in programma. Tocca per vedere i risultati.</div>
+        )}
+        {ultima && (
+          <div style={{ marginTop: "0.35rem", fontSize: "0.88rem" }}>
+            <span style={{ color: "var(--text-dim)" }}>Ultimo risultato ({dataBreve(ultima.data)}): </span>
+            {ultima.casa} <strong>{ultima.ris}</strong> {ultima.ospite}
+            {esitoUltima && <span style={{ marginLeft: "0.4rem", fontWeight: 700, color: esitoUltima === "V" ? "#4caf50" : "#e57373" }}>{esitoUltima === "V" ? "Vinta" : "Persa"}</span>}
+          </div>
         )}
       </a>
     </section>
