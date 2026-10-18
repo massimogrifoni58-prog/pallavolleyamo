@@ -12,14 +12,11 @@ import articoliSocietaData from "../data/articoli-societa.json";
 import facebookNewsData from "../data/facebook_news.json";
 import facebookCandidatiData from "../data/facebook_candidati.json";
 import facebookApprovatiData from "../data/facebook_approvati.json";
-import facebookVideoData from "../data/facebook_video.json";
-import facebookGalleriaData from "../data/facebook_galleria.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
 import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
-import videoData from "../data/video.json";
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
@@ -572,15 +569,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
             { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre", locked: true },
             { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati", largo: true },
-          ]}
-        />
-        <NavDropdown
-          label="Foto e Video"
-          subscribed={subscribed}
-          items={[
-            { href: "#/galleria", label: "Galleria Foto", sub: "Gli album delle partite", locked: true },
-            { href: "#/foto-settimana", label: "Foto del Giorno", sub: "Lo scatto più bello", locked: true },
-            { href: "#/video", label: "Video", sub: "Azioni e highlights", locked: true, largo: true },
           ]}
         />
         <NavDropdown
@@ -1651,80 +1639,6 @@ function isAllowedCategory(name) {
   const allowed = ["superlega", "serie a3", "serie c", "serie d", "1 divisione", "prima divisione", "2 divisione", "seconda divisione", "1° divisione", "2° divisione"];
   return allowed.some(k => lower.includes(k));
 }
-function VideoPage() {
-  // video pubblicati sulla pagina Facebook PallaVolleyAmo con #video + quelli di YouTube
-  const fbVideo = (facebookVideoData.posts || []).map((v) => ({
-    id: v.id, titolo: v.title, canale: "PallaVolleyAmo", thumbnail: v.image || "/logo-pva.svg",
-    categoria: "Redazione", url: v.permalink, fb: true, data: v.createdTime,
-  }));
-  const videos = [...fbVideo, ...(videoData.video || [])];
-  const [filtro, setFiltro] = useState("Redazione");
-  const [selected, setSelected] = useState(null);
-  const selectedVideo = videos.find((v) => v.id === selected);
-
-  const categorie = ["Redazione", "Umbria", "TVA", "Nazionale M", "Nazionale F"];
-
-  const videoFiltrati = videos.filter(v => {
-  if (filtro === "Nazionale M") return v.categoria === "Nazionale M";
-  if (filtro === "Nazionale F") return v.categoria === "Nazionale F";
-  if (filtro === "TVA") return v.categoria === "TVA";
-  if (filtro === "Umbria") return v.categoria === "Umbria";
-  if (filtro === "Redazione") return v.categoria === "Redazione";
-  return true;
-}).slice(0, 6);
-
-  return (
-    <main className="page-content">
-      <h1 className="page-title">Video</h1>
-      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
-        {categorie.map(c => (
-          <button key={c}
-            onClick={() => { setFiltro(c); setSelected(null); }}
-            className={`filter-btn ${filtro === c ? "filter-btn--active" : ""}`}>
-            {c}
-          </button>
-        ))}
-      </div>
-
-      {selected && (
-        <div style={{ marginBottom: "1.5rem", borderRadius: "12px", overflow: "hidden", background: "#000" }}>
-          <iframe
-            src={selectedVideo && selectedVideo.fb
-              ? `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(selectedVideo.url)}&show_text=false&width=560`
-              : `https://www.youtube.com/embed/${selected}?autoplay=1`}
-            width="100%"
-            height="400"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Video player"
-          />
-        </div>
-      )}
-
-      <div className="video-grid">
-        {videoFiltrati.length === 0 && <p className="state">Nessun video per questa categoria.</p>}
-        {videoFiltrati.map(v => (
-          <div key={v.id} className="video-card" onClick={() => setSelected(v.id)}
-            style={{ cursor: "pointer", outline: selected === v.id ? "2px solid var(--gold)" : "none" }}>
-            <div style={{ position: "relative" }}>
-              <img src={v.thumbnail} alt={v.titolo} className="video-card__thumb" loading="lazy" />
-              <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)",
-                background: "rgba(0,0,0,0.7)", borderRadius: "50%", width: "40px", height: "40px",
-                display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontSize: "1.2rem" }}>
-                ▶
-              </div>
-            </div>
-            <div className="video-card__body">
-              <p className="video-card__title">{v.titolo}</p>
-              <span className="video-card__canale">{v.canale}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-    </main>
-  );
-}
 function CampionatiHero({ titolo, sfondo }) {
   return (
     <div className="campionati-hero" style={sfondo ? { "--hero-bg": `url('${sfondo}')` } : {}}>
@@ -2502,163 +2416,6 @@ function handleSubmit(e) {
     </main>
   );
 }
-
-function FotoSettimanaPage() {
-  const [lightbox, setLightbox] = useState(null);
-
-  // Raccoglie tutte le foto da tutte le fonti di notizie
-  const tutteLeNotizie = [
-    ...(nazionaleData.posts || []),
-    ...(nazionaliData.posts || []),
-    ...(regionaliData.posts || []),
-    ...(terniData.posts || []),
-    ...(perugiaData.posts || []),
-  ].filter(p => p.image || p.img || p.thumbnail || p.foto);
-
-  // Ordina per data decrescente
-  const notizieConFoto = tutteLeNotizie.sort((a, b) => {
-    const da = new Date(a.createdTime || a.date || 0);
-    const db = new Date(b.createdTime || b.date || 0);
-    return db - da;
-  });
-
-  const fotoGiorno = notizieConFoto[0] || null;
-  const fotoPrecedenti = notizieConFoto.slice(1, 5);
-
-  const getImg = (p) => p.image || p.img || p.thumbnail || p.foto || null;
-  const getTitolo = (p) => p.title || p.excerpt?.slice(0, 80) || "Notizia";
-  const getData = (p) => p.createdTime ? formatDate(p.createdTime) : (p.date || "");
-
-  if (!fotoGiorno) {
-    return (
-      <main>
-        <section className="section" style={{ textAlign: "center", padding: "4rem 1rem" }}>
-          <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>📸</div>
-          <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "2rem", color: "var(--gold)", margin: "0 0 0.5rem" }}>
-            Foto del Giorno
-          </h2>
-          <p style={{ color: "var(--text-dim)" }}>
-            Nessuna foto disponibile. Le foto vengono aggiornate automaticamente con le notizie.
-          </p>
-        </section>
-      </main>
-    );
-  }
-
-  return (
-    <main>
-      <section className="section">
-        <h2 className="feed-heading">Foto del Giorno</h2>
-        <p className="state" style={{ marginBottom: "1.5rem", fontSize: "0.82rem" }}>
-          Aggiornata automaticamente con le ultime notizie di pallavolo.
-        </p>
-
-        {/* Foto principale */}
-        <div className="foto-sett-main" onClick={() => setLightbox(getImg(fotoGiorno))}>
-          <img src={getImg(fotoGiorno)} alt={getTitolo(fotoGiorno)} className="foto-sett-main__img" />
-          <div className="foto-sett-main__overlay">
-            <span className="foto-sett-main__badge">Foto del giorno</span>
-            <p className="foto-sett-main__didascalia">{getTitolo(fotoGiorno)}</p>
-            <div className="foto-sett-main__meta">
-              <span>{getData(fotoGiorno)}</span>
-              {fotoGiorno.permalink && (
-                <a href={fotoGiorno.permalink} target="_blank" rel="noreferrer"
-                  style={{ color: "var(--gold)", fontSize: "0.72rem" }}
-                  onClick={e => e.stopPropagation()}>
-                  Leggi l'articolo →
-                </a>
-              )}
-            </div>
-          </div>
-        </div>
-
-        {/* Foto precedenti */}
-        {fotoPrecedenti.length > 0 && (
-          <>
-            <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1rem", letterSpacing: "0.05em", color: "var(--gold-bright)", margin: "2rem 0 1rem" }}>
-              Altre foto recenti
-            </h3>
-            <div className="foto-sett-griglia">
-              {fotoPrecedenti.map((foto, i) => (
-                <div key={i} className="foto-sett-card" onClick={() => setLightbox(getImg(foto))}>
-                  <img src={getImg(foto)} alt={getTitolo(foto)} className="foto-sett-card__img" />
-                  <div className="foto-sett-card__info">
-                    <p className="foto-sett-card__didascalia">{getTitolo(foto).slice(0, 60)}...</p>
-                    <span className="foto-sett-card__data">{getData(foto)}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </>
-        )}
-
-        {lightbox && (
-          <div className="lightbox" onClick={() => setLightbox(null)}>
-            <img src={lightbox} alt="Foto ingrandita" className="lightbox__img" />
-            <button className="lightbox__close" onClick={() => setLightbox(null)}>✕</button>
-          </div>
-        )}
-      </section>
-    </main>
-  );
-}
-
-function GalleriaPage() {
-  // Solo foto della pagina PallaVolleyAmo: post con #galleria + foto delle notizie importate da Facebook
-  const daGalleria = (facebookGalleriaData.posts || []).flatMap((g) =>
-    (g.images || []).map((img) => ({ image: img, title: g.title, permalink: g.permalink })));
-  const daNotizie = (facebookNewsData.posts || [])
-    .filter((p) => p.image)
-    .map((p) => ({ image: p.image, title: p.title, permalink: p.permalink }));
-  const seen = new Set();
-  const foto = [...daGalleria, ...daNotizie]
-    .filter((p) => p.image && !seen.has(p.image) && seen.add(p.image))
-    .slice(0, 60);
-
-  const [selected, setSelected] = useState(null);
-
-  return (
-    <main>
-      <section className="section">
-        <h2 className="feed-heading">Galleria Foto</h2>
-        <p className="state" style={{ marginBottom: "1.25rem", fontSize: "0.82rem" }}>
-          {foto.length} foto dalla pagina PallaVolleyAmo.
-        </p>
-
-        {foto.length === 0 && (
-          <p className="state">Nessuna foto disponibile al momento.</p>
-        )}
-
-        <div className="galleria-grid">
-          {foto.map((p, i) => (
-            <div key={i} className="galleria-item" onClick={() => setSelected(p)}>
-              <img src={p.image} alt={p.title || ""} loading="lazy" />
-              {p.title && <div className="galleria-item__overlay">{p.title}</div>}
-            </div>
-          ))}
-        </div>
-
-        {/* Lightbox */}
-        {selected && (
-          <div className="galleria-lightbox" onClick={() => setSelected(null)}>
-            <div className="galleria-lightbox__inner" onClick={(e) => e.stopPropagation()}>
-              <button className="galleria-lightbox__close" onClick={() => setSelected(null)}>✕</button>
-              <img src={selected.image} alt={selected.title || ""} />
-              {selected.title && <p className="galleria-lightbox__titolo">{selected.title}</p>}
-              {selected.permalink && (
-                <a href={selected.permalink} target="_blank" rel="noreferrer" className="galleria-lightbox__link">
-                  Vedi il post su Facebook →
-                </a>
-              )}
-            </div>
-          </div>
-        )}
-      </section>
-    </main>
-  );
-}
-
-const ANTHROPIC_API_KEY = "INSERISCI_QUI_LA_TUA_API_KEY";
 
 function RedazionePage() {
   const [input, setInput] = useState("");
@@ -5584,8 +5341,6 @@ function Breadcrumb({ route }) {
     "headtohead": ["Campionati", "Head to Head"],
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
-    "video": ["Foto e Video", "Video"],
-    "galleria": ["Foto e Video", "Galleria"],
     "glossario": ["Tecnica", "Glossario"],
     "schede": ["Tecnica", "Schede Allenamento"],
     "preparazione-fisica": ["Tecnica", "Preparazione Fisica"],
@@ -7484,8 +7239,6 @@ useEffect(() => {
     "classifica": ["Classifiche pallavolo Umbria | PallaVolleyAmo", "Le classifiche aggiornate dei campionati di pallavolo umbri, maschili e femminili."],
     "dirette": ["Pallavolo in diretta | PallaVolleyAmo", "Le partite di pallavolo da seguire in diretta."],
     "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
-    "galleria": ["Galleria foto pallavolo | PallaVolleyAmo", "Le foto della pallavolo umbra: partite, squadre ed eventi."],
-    "video": ["Video di pallavolo | PallaVolleyAmo", "Video di pallavolo: azioni, partite e allenamenti."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
@@ -7593,7 +7346,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","galleria","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","foto-settimana","agenda","articoli-societa","squadre-top","dirette","video","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","camp","allenatori2","sponsor","commenti","mercato","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7604,7 +7357,6 @@ useEffect(() => {
           {route === "glossario" && <GlossarioPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
-          {route === "video" && <VideoPage />}
           {route === "mappa" && <MappaPage />}
           {route === "camp" && <CampEstiviPage />}
           {route === "agenda" && <CalendarioCompletoPage />}
@@ -7615,8 +7367,6 @@ useEffect(() => {
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "mental-coach" && <MentalCoachPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
-          {route === "galleria" && <GalleriaPage />}
-          {route === "foto-settimana" && <FotoSettimanaPage />}
           {route === "articoli-societa" && <ArticoliSocietaPage subscribed={subscribed} />}
           {route === "allenatori2" && <Allenatori2Page />}
           {route === "campi" && <CampiPage />}
