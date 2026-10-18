@@ -1,4 +1,4 @@
-// Calendario di una squadra in formato ICS, che i telefoni possono "abbonare":
+// Calendario di una squadra (senza risultati, di proposito: per quelli si torna sul sito) in formato ICS, che i telefoni possono "abbonare":
 // si aggiorna da solo quando cambiano date, orari o risultati.
 // Uso: /api/calendario?squadra=Nome%20squadra  (oppure ~parola per tutte le squadre di una societa')
 //      /api/calendario?squadra=...&cat=Serie%20C%20M  (solo una categoria)
@@ -79,15 +79,15 @@ export default function handler(req, res) {
     "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H",
   ];
   mie.forEach((p) => {
-    const ris = p.ris ? " (" + p.ris + ")" : "";
     righe.push(
       "BEGIN:VEVENT",
       "UID:" + String(p.id).replace(/[^A-Za-z0-9_-]/g, "") + "@pallavolleyamo.it",
       "DTSTAMP:" + adesso,
       "DTSTART:" + ymd(p.data) + "T" + hms(p.ora),
       "DTEND:" + fineOra(p.data, p.ora),
-      "SUMMARY:" + esc(p.casa + " - " + p.ospite + ris),
-      "DESCRIPTION:" + esc((p.camp || "") + (p.giornata ? " - Giornata " + p.giornata : "") + (p.ora ? "" : " (orario da confermare)") + " - pallavolleyamo.it"),
+      "SUMMARY:" + esc(p.casa + " - " + p.ospite),
+      "DESCRIPTION:" + esc((p.camp || "") + (p.giornata ? " - Giornata " + p.giornata : "") + (p.ora ? "" : " (orario da confermare)") + " - Risultati, classifica e notizie su pallavolleyamo.it"),
+      "URL:https://www.pallavolleyamo.it/mia-squadra",
     );
     if (p.luogo) righe.push("LOCATION:" + esc(p.luogo));
     righe.push("END:VEVENT");

@@ -6353,6 +6353,7 @@ function MiaSquadraPage() {
   const [cerca, setCerca] = useState("");
   const [cat, setCat] = useState("");
   const [linkCopiato, setLinkCopiato] = useState(false);
+  const { subscribed: iscritto } = useSubscribed();
 
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
   // squadra -> categorie in cui gioca
@@ -6462,7 +6463,12 @@ function MiaSquadraPage() {
           </p>
         )}
 
-        {mie.length > 0 && (() => {
+        {mie.length > 0 && !iscritto && (
+          <div style={{ marginBottom: "1.5rem" }}>
+            <InvitoIscrizione testo="Vuoi le partite della tua squadra sul telefono, che si aggiornano da sole?" />
+          </div>
+        )}
+        {mie.length > 0 && iscritto && (() => {
           const linkCal = window.location.origin + "/api/calendario?squadra=" + encodeURIComponent(nome) + (catAttiva ? "&cat=" + encodeURIComponent(catAttiva) : "");
           const copiaLink = () => {
             const fatto = () => { setLinkCopiato(true); setTimeout(() => setLinkCopiato(false), 2500); };
@@ -6473,7 +6479,7 @@ function MiaSquadraPage() {
             <div style={{ border: "1px solid var(--gold)", borderRadius: "10px", padding: "0.9rem 1rem", marginBottom: "1.5rem" }}>
               <div style={{ fontWeight: 700, color: "var(--gold)", marginBottom: "0.3rem" }}>Le partite sul tuo telefono</div>
               <p style={{ fontSize: "0.88rem", margin: "0 0 0.7rem" }}>
-                Aggiungi il calendario della squadra al telefono: date, orari e risultati si aggiornano da soli, anche se la partita viene spostata.
+                Aggiungi il calendario della squadra al telefono: date, orari e palestre si aggiornano da soli, anche se la partita viene spostata.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
                 <a className="filter-btn filter-btn--active" style={{ textDecoration: "none" }} href={linkCal.replace(/^https?:/, "webcal:")}>Aggiungi al calendario</a>
