@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:41:38.098463+00:00",
+  "generatedAt": "2026-10-18T18:33:07.097417+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1456,8 +1456,8 @@
       "giornata": "Giornata 1",
       "home": "SAN MARIANO VOLLEY",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626950",
@@ -2860,8 +2860,8 @@
       "giornata": "Giornata 1",
       "home": "A.S.D. SIGILLO VOLLEY",
       "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627449",
@@ -14668,8 +14668,8 @@
       "giornata": "Giornata 2",
       "home": "UMBRIA VOLLEY ACADEMY DERUTA 17",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641526",

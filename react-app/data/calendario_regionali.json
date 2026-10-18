@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:40:56.907521+00:00",
+  "generatedAt": "2026-10-18T18:32:20.340646+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -1669,7 +1669,7 @@
         "ora": "19:00",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-femminile-1",
@@ -7627,7 +7627,7 @@
         "ora": "17:00",
         "casa": "UMBRIA VOLLEY ACADEMY DERUTA 17",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-5",
