@@ -5849,54 +5849,24 @@ function SquadreTopPage() {
 }
 function BannerIscrizione({ onClose }) {
   return (
-    <div style={{
-      position: "fixed",
-      bottom: 0,
-      left: 0,
-      right: 0,
-      background: "#0a0a0c",
-      borderTop: "2px solid var(--gold)",
-      padding: "1rem 1.5rem",
-      zIndex: 200,
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "space-between",
-      gap: "1rem",
-      flexWrap: "wrap",
-      boxShadow: "0 -4px 20px rgba(0,0,0,0.5)",
-    }}>
-      <div style={{ flex: 1, minWidth: "200px" }}>
-        <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "var(--gold)" }}>
-          Ti piace PallaVolleyAmo?
-        </div>
-        <div style={{ fontSize: "0.78rem", color: "var(--text-dim)" }}>
-          Iscriviti gratis per leggere tutte le notizie senza limiti.
-        </div>
-      </div>
-      <div style={{ display: "flex", gap: "0.6rem" }}>
-        <a href="#/iscrizione" onClick={onClose} style={{
-          background: "var(--gold)",
-          color: "#000",
-          padding: "0.5rem 1.2rem",
-          borderRadius: "8px",
-          fontWeight: 700,
-          fontSize: "0.8rem",
-          textDecoration: "none",
-        }}>
-          Iscriviti Gratis
-        </a>
-        <button onClick={onClose} style={{
-          background: "transparent",
-          border: "1px solid var(--border)",
-          color: "var(--text-dim)",
-          padding: "0.5rem 0.9rem",
-          borderRadius: "8px",
-          fontSize: "0.8rem",
-          cursor: "pointer",
-        }}>
-          ✕
-        </button>
-      </div>
+    <div className="promo-box" role="dialog" aria-label="Iscriviti a PallaVolleyAmo">
+      <button className="promo-box__close" onClick={onClose} aria-label="Chiudi">×</button>
+      <video
+        className="promo-box__video"
+        src="/promo-pva.mp4"
+        poster="/promo-pva.jpg"
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+      />
+      <button
+        className="promo-box__cta"
+        onClick={() => { onClose(); navigateTo("iscrizione"); }}
+      >
+        Iscriviti gratis
+      </button>
     </div>
   );
 }
@@ -7647,7 +7617,7 @@ useEffect(() => {
   let ultimo = 0;
   try { ultimo = Number(localStorage.getItem("pva_banner_chiuso") || 0); } catch (e) {}
   if (Date.now() - ultimo < 7 * 24 * 3600 * 1000) return;
-  const t = setTimeout(() => setShowBannerIscrizione(true), 30000);
+  const t = setTimeout(() => setShowBannerIscrizione(true), 20000);
   return () => clearTimeout(t);
 }, [subscribed]);
   const [showSplash, setShowSplash] = useState(true);
@@ -7747,7 +7717,7 @@ useEffect(() => {
       </div>
 
       <Footer />
-      {showBannerIscrizione && !subscribed && (
+      {showBannerIscrizione && !subscribed && !showPillola && (
         <BannerIscrizione onClose={() => { setShowBannerIscrizione(false); try { localStorage.setItem("pva_banner_chiuso", String(Date.now())); } catch (e) {} }} />
       )}
       <Analytics />

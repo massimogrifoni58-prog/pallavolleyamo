@@ -4893,3 +4893,12 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
   .mappa-elenco { flex: 1 1 100%; max-height: 260px; background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 12px; padding: 0.7rem 0.8rem; }
   .mappa-svg-wrap { flex: 1 1 100%; max-width: none !important; }
 }
+
+/* Riquadro promo con clip */
+.promo-box { position: fixed; right: 16px; bottom: 16px; width: 220px; z-index: 200; background: #0a0a0c; border: 2px solid var(--gold, #d4af37); border-radius: 14px; overflow: hidden; box-shadow: 0 8px 28px rgba(0,0,0,0.6); animation: promo-in 0.5s ease-out; }
+.promo-box__video { display: block; width: 100%; height: auto; aspect-ratio: 480 / 754; background: #0a0a0c; }
+.promo-box__cta { display: block; width: 100%; border: 0; background: #ff8a00; color: #111114; font-weight: 800; font-size: 0.9rem; padding: 0.7rem 0.5rem; cursor: pointer; }
+.promo-box__cta:hover { background: #ffa033; }
+.promo-box__close { position: absolute; top: 6px; right: 6px; z-index: 2; width: 30px; height: 30px; border-radius: 50%; border: 0; background: rgba(0,0,0,0.65); color: #fff; font-size: 1.3rem; line-height: 1; cursor: pointer; }
+@keyframes promo-in { from { transform: translateY(30px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (max-width: 600px) { .promo-box { width: 150px; right: 10px; bottom: 10px; } .promo-box__cta { font-size: 0.78rem; padding: 0.55rem 0.3rem; } }
