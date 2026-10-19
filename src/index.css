@@ -4860,3 +4860,22 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
 .form-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 .form-success { max-width: 640px; border: 1px solid var(--gold); border-radius: 12px; padding: 1rem 1.2rem; background: var(--bg-card); }
 @media (max-width: 560px) { .form-row { flex-direction: column; gap: 0; } }
+
+/* ===== Classifica piu' curata ===== */
+.classifica-wrap { background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 12px; overflow: hidden; max-width: 640px; }
+.classifica-wrap .classifica-table { max-width: none; }
+.classifica-wrap .classifica-table th { background: rgba(212,175,55,0.08); padding: 0.65rem 0.4rem; }
+.classifica-wrap .classifica-table td { padding: 0.6rem 0.4rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.classifica-wrap .classifica-table tbody tr:nth-child(even) td { background: rgba(255,255,255,0.025); }
+.classifica-wrap .classifica-table tbody tr:last-child td { border-bottom: 0; }
+.classifica-wrap .classifica-table__first td { background: rgba(212,175,55,0.1) !important; }
+.classifica-wrap .classifica-table__first .classifica-table__nome { font-weight: 700; }
+.classifica-pos { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; font-size: 0.78rem; font-weight: 700; color: var(--text-dim); }
+.classifica-pos--1 { background: var(--gold); color: #111114; }
+.classifica-pos--2 { background: #b9bcc4; color: #111114; }
+.classifica-pos--3 { background: #b07a45; color: #111114; }
+.classifica-wrap .classifica-table__pts { color: #111114; }
+.classifica-wrap .classifica-table__pts { position: relative; }
+.classifica-wrap .classifica-table__pts::before { content: ""; position: absolute; inset: 0.45rem 0.25rem; border-radius: 999px; background: var(--gold); z-index: -1; }
+.classifica-wrap .classifica-table__pts { z-index: 1; }
+@media (max-width: 480px) { .classifica-wrap .classifica-table th, .classifica-wrap .classifica-table td { padding-left: 0.25rem; padding-right: 0.25rem; } }

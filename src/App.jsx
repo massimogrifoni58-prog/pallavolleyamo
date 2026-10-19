@@ -4283,6 +4283,9 @@ function ClassificaPage() {
     : {};
 
   const gironeNames = Object.keys(gironiDaMostrare);
+  const nomeSq = (n) => (n || "").replace(/\b[Aa]\.?\s?[Ss]\.?\s?[Dd]\.?(?=\s|$)/g, "").replace(/\s+/g, " ").trim()
+    .toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase())
+    .replace(/\b(Di|Del|Della|Dei|Da)\b(?!$)/g, (w) => w.toLowerCase());
 
   return (
     <main>
@@ -4318,6 +4321,7 @@ function ClassificaPage() {
               {gironeNames.length > 1 && (
                 <h3 className="competition-block__title">{girone}</h3>
               )}
+              <div className="classifica-wrap">
               <table className="classifica-table">
                 <thead>
                   <tr>
@@ -4334,8 +4338,8 @@ function ClassificaPage() {
                 <tbody>
                   {classifica.map((sq, i) => (
                     <tr key={sq.nome} className={i === 0 ? "classifica-table__first" : ""}>
-                      <td className="classifica-table__pos">{i + 1}</td>
-                      <td className="classifica-table__nome">{sq.nome}</td>
+                      <td className="classifica-table__pos"><span className={"classifica-pos" + (i < 3 ? " classifica-pos--" + (i + 1) : "")}>{i + 1}</span></td>
+                      <td className="classifica-table__nome">{nomeSq(sq.nome)}</td>
                       <td>{sq.g}</td>
                       <td>{sq.v}</td>
                       <td>{sq.p}</td>
@@ -4346,6 +4350,7 @@ function ClassificaPage() {
                   ))}
                 </tbody>
               </table>
+              </div>
             </div>
           );
         })}
