@@ -24,6 +24,7 @@ MAX_NEWS = 5
 SOGGETTI = [
     {
         "id": "sir-perugia",
+        "match_key": 'PERUGIA', "match_comp": 'Superlega',
         "nome": "Sir Susa Vim Perugia",
         "categoria": "Superlega",
         "queries": [
@@ -33,6 +34,7 @@ SOGGETTI = [
     },
     {
         "id": "bartoccini",
+        "match_key": 'BARTOCCINI', "match_comp": 'Serie A2 Femminile',
         "nome": "Bartoccini MC Restauri Perugia",
         "categoria": "Serie A2 F",
         "queries": [
@@ -42,6 +44,7 @@ SOGGETTI = [
     },
     {
         "id": "tva",
+        "match_key": 'TERNI', "match_comp": 'Serie A3',
         "nome": "Terni Volley Academy",
         "categoria": "Serie A3",
         "queries": [
@@ -51,6 +54,7 @@ SOGGETTI = [
     },
     {
         "id": "altotevere",
+        "match_key": 'ALTOTEVERE', "match_comp": 'Serie A3',
         "nome": "Ermgroup Altotevere San Giustino",
         "categoria": "Serie A3",
         "queries": [
@@ -60,6 +64,7 @@ SOGGETTI = [
     },
     {
         "id": "citta-castello",
+        "match_key": "CITTA'DI CASTELLO", "match_comp": 'Serie B Girone E',
         "nome": "Pallavolo Città di Castello",
         "categoria": "Serie B M",
         "queries": [
@@ -69,6 +74,7 @@ SOGGETTI = [
     },
     {
         "id": "marsciano",
+        "match_key": 'MARSCIANO', "match_comp": 'Serie B2 Girone G',
         "nome": "Pallavolo Media Umbria Marsciano",
         "categoria": "Serie B F",
         "queries": [
@@ -77,6 +83,34 @@ SOGGETTI = [
         ]
     },
 ]
+
+
+RISULTATI_FILES = ["risultati_nazionali.json", "risultati_nazionali_fipav.json"]
+
+
+def pulisci_nome(n):
+    n = re.sub(r"\b(S\.?S\.?D\.?R?\.?L?\.?|A\.?S\.?D\.?|ARL)\b", "", n, flags=re.I)
+    return re.sub(r"\s+", " ", n.replace("'", "'")).strip().title()
+
+
+def prossima_avversaria(s):
+    """Cerca nel calendario la prossima partita della squadra e ritorna il nome dell'avversaria."""
+    oggi = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    migliori = []
+    for f in RISULTATI_FILES:
+        try:
+            d = json.loads((OUTPUT_PATH.parent / f).read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for m in d.get("matches", []):
+            if (m.get("dataIso") or "") < oggi or s["match_comp"].lower() not in (m.get("competition") or "").lower():
+                continue
+            h, a = m["home"].upper(), m["away"].upper()
+            if s["match_key"].upper() in h:
+                migliori.append((m["dataIso"], m["away"]))
+            elif s["match_key"].upper() in a:
+                migliori.append((m["dataIso"], m["home"]))
+    return pulisci_nome(sorted(migliori)[0][1]) if migliori else None
 
 
 def fetch_news(query, fonte="bing"):
@@ -208,13 +242,23 @@ def carica_immagini_precedenti():
 def main():
     result = {}
     gia = carica_immagini_precedenti()
+    try:
+        vecchie = json.loads(OUTPUT_PATH.read_text(encoding="utf-8")).get("news", {})
+    except Exception:
+        vecchie = {}
 
     for s in SOGGETTI:
         print(f"Scarico notizie per {s['nome']}...")
         all_posts = []
         seen_titles = set()
 
-        for q_info in s["queries"]:
+        queries = list(s["queries"])
+        avv = prossima_avversaria(s)
+        if avv:
+            print(f"  Prossima avversaria: {avv}")
+            queries += [{"q": f"{avv} pallavolo", "fonte": "google", "avv": avv},
+                        {"q": f"{avv} volley", "fonte": "bing", "avv": avv}]
+        for q_info in queries:
             print(f"  [{q_info['fonte']}] {q_info['q']}", end=" ", flush=True)
             xml_bytes = fetch_news(q_info["q"], q_info["fonte"])
             if not xml_bytes:
@@ -226,13 +270,17 @@ def main():
                 key = p["title"][:50].lower()
                 if key not in seen_titles:
                     seen_titles.add(key)
+                    if q_info.get("avv"):
+                        p["avversaria"] = q_info["avv"]
                     all_posts.append(p)
                     nuovi += 1
             print(f"(+{nuovi})")
 
         # Ordina per data e taglia a MAX_NEWS
         all_posts.sort(key=lambda p: parse_date_safe(p["pubDate"]), reverse=True)
-        all_posts = all_posts[:MAX_NEWS]
+        proprie = [p for p in all_posts if not p.get("avversaria")][:MAX_NEWS]
+        altre = [p for p in all_posts if p.get("avversaria")][:3]
+        all_posts = sorted(proprie + altre, key=lambda p: parse_date_safe(p["pubDate"]), reverse=True)
         for p in all_posts:
             if p["link"] in gia:
                 p["image"] = gia[p["link"]]
@@ -240,6 +288,9 @@ def main():
             pagina = url_editore(p["link"])
             if pagina:
                 p["image"] = trova_immagine(pagina)
+        if not all_posts and s["id"] in vecchie:
+            print("  nessuna notizia scaricata: tengo quelle precedenti")
+            all_posts = vecchie[s["id"]]
         result[s["id"]] = all_posts
         print(f"  → {len(all_posts)} notizie totali")
 
@@ -247,7 +298,7 @@ def main():
     OUTPUT_PATH.write_text(
         json.dumps({
             "generatedAt": datetime.now(timezone.utc).isoformat(),
-            "soggetti": [{k: v for k, v in s.items() if k != "queries"} for s in SOGGETTI],
+            "soggetti": [{k: v for k, v in s.items() if k not in ("queries", "match_key", "match_comp")} for s in SOGGETTI],
             "news": result
         }, ensure_ascii=False, indent=2),
         encoding="utf-8",
