@@ -1500,7 +1500,7 @@ function RosaPage() {
     <main className="page-content">
       <h1 className="page-title">Rosa Squadre</h1>
       <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem" }}>
-        Inserisci i nominativi delle tue atlete/atleti. I dati saranno utilizzati per la Formazione della Settimana e altre iniziative del portale.
+        Inserisci i nominativi delle tue atlete/atleti. I dati saranno utilizzati per la Squadra della Settimana e altre iniziative del portale.
       </p>
 
       {status === "done" ? (
