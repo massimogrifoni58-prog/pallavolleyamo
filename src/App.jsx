@@ -270,7 +270,7 @@ function Ticker({ posts }) {
         .filter((m) => m.ris && leggiSet(m.ris))
         .sort((x, y) => y.data.localeCompare(x.data))
         .filter((m) => { const k = m.camp; if (viste.has(k)) return false; viste.add(k); return true; })
-        .slice(0, 4)
+        .slice(0, 1)
         .map((m) => ({
           source: "Volley " + categoriaBreve(m.camp),
           title: nomeBello(m.casa) + " " + m.ris + " " + nomeBello(m.ospite),
@@ -596,7 +596,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
-            { href: "#/agenda", icon: "\u{1F4C5}", label: "Calendario squadre", sub: "Le gare di ogni squadra", locked: true },
             { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
             { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
             { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre", locked: true },
@@ -818,55 +817,6 @@ function HomePage({ latestNews = [] }) {
           {/* Linee decorative laterali */}
         </svg>
 
-        {/* Fascia risultati */}
-        <div className="hero-risultati">
-          {!hasRisultati && !inPausaEstiva && prossime.length > 0 && (
-            <div className="hero-risultati__label">
-              <span className="hero-risultati__dot"></span>
-              PROSSIME PARTITE
-            </div>
-          )}
-          {hasRisultati && (
-            <div className="hero-risultati__label">
-              <span className="hero-risultati__dot"></span>
-              ULTIMI RISULTATI
-              {risultatiData.generatedAt && (
-                <span className="hero-risultati__orario">
-                  · aggiornato alle {new Date(risultatiData.generatedAt).toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" })}
-                </span>
-              )}
-            </div>
-          )}
-          {hasRisultati ? (
-            <div className="hero-risultati__track-wrap">
-              <div
-                className="hero-risultati__track"
-                style={{ "--scroll-duration": `${Math.max(45, risultatiScorrevoli.length * 9)}s` }}
-              >
-                {[risultatiTesto, risultatiTesto].map((t, i) => (
-                  <span key={i} className="hero-risultati__testo">{t}</span>
-                ))}
-              </div>
-            </div>
-          ) : (!inPausaEstiva && prossime.length > 0) ? (
-            <div className="hero-risultati__track-wrap">
-              <div
-                className="hero-risultati__track"
-                style={{ "--scroll-duration": `${Math.max(45, prossime.length * 10)}s` }}
-              >
-                {[prossimeTesto, prossimeTesto].map((t, i) => (
-                  <span key={i} className="hero-risultati__testo">{t}</span>
-                ))}
-              </div>
-            </div>
-          ) : (
-            <p className="hero-risultati__placeholder">
-              {inPausaEstiva
-                ? "⚡ Ci si allena per la nuova stagione — i risultati tornano a settembre"
-                : "I risultati delle squadre umbre appariranno qui · Aggiornamento automatico ogni giorno"}
-            </p>
-          )}
-        </div>
       </div>     
       <MiaSquadraHome />
       <DirettaOggiHome />
@@ -1090,7 +1040,7 @@ function GlossarioPage() {
   );
 }
 function RisultatiVetrina() {
-  const GIORNI = 7, MAX_RIS = 12, MAX_PROX = 6;
+  const GIORNI = 7, MAX_RIS = 8, MAX_PROX = 5;
   const oggiD = new Date();
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   const oggi = iso(oggiD);
