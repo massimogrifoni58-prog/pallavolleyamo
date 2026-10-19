@@ -19,7 +19,6 @@ import marcatriciData from "../data/marcatrici.json";
 import glossarioData from "../data/glossario.json";
 import { Analytics } from '@vercel/analytics/react';
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
-import atletiTopData from "../data/atleti-top.json";
 import mercatoData from "../data/mercato.json";
 import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
@@ -580,10 +579,10 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           ]}
         />
         <NavDropdown
-          label="Top Atleti"
+          label="Top Umbria"
           subscribed={subscribed}
           items={[
-            { href: "#/atleta-settimana", label: "Atleta della Settimana", sub: "Chi ha brillato in campo", locked: true },
+            { href: "#/atleta-settimana", label: "Atlete della Settimana", sub: "Le migliori dei campionati umbri", locked: true },
             { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire", locked: true },
           ]}
         />
@@ -1168,42 +1167,67 @@ function CondividiBar({ titolo, percorso }) {
 }
 
 function AtletaSettimanaPage() {
-  const oggi = new Date();
-  const settimana = Math.ceil((oggi - new Date(oggi.getFullYear(), 0, 1)) / 604800000);
-  
-  const femminili = atletiTopData.femminili || [];
-  const maschili = atletiTopData.maschili || [];
-  
-  const atletaF = femminili[settimana % femminili.length];
-  const atletaM = maschili[settimana % maschili.length];
-
+  const dati = React.useMemo(() => {
+    const fine = new Date();
+    const dal = new Date(fine.getTime() - 7 * 86400000);
+    const iso = (d) => d.toISOString().slice(0, 10);
+    const punti = {};
+    ((marcatriciData && marcatriciData.punti) || [])
+      .filter((x) => x.data >= iso(dal) && x.data <= iso(fine) && Number(x.punti) > 0)
+      .forEach((x) => {
+        const k = (x.nome + " " + (x.cognome || "")).toLowerCase() + "|" + (x.squadra || "").toLowerCase();
+        if (!punti[k]) punti[k] = { ...x, punti: 0 };
+        punti[k].punti += Number(x.punti);
+      });
+    const lista = Object.values(punti).sort((a, b) => b.punti - a.punti || String(a.cognome).localeCompare(String(b.cognome)));
+    return { lista, dal: iso(dal), fine: iso(fine) };
+  }, []);
+  const dataBella = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
+  const nomeAtleta = (m) => {
+    const giovane = /under|u1\d|elite/i.test(m.campionato || "");
+    return m.nome + " " + (giovane ? (m.cognome || "").charAt(0).toUpperCase() + "." : m.cognome);
+  };
+  const [prima, ...altre] = dati.lista;
   return (
     <main className="page-content">
-      <h1 className="page-title"> Atleta della Settimana</h1>
-      <p className="page-subtitle">Settimana {settimana} — i migliori al mondo</p>
-      
-      <div className="atleta-grid">
-        {[atletaF, atletaM].map(atleta => atleta && (
-          <div key={atleta.id + atleta.nazionalita} className="atleta-card">
-            <div className="atleta-card__header">
-              <span className="atleta-card__ruolo">{atleta.ruolo}</span>
-              <span className="atleta-card__naz">{atleta.nazionalita}</span>
-            </div>
-            {atleta.foto && atleta.foto[0] && (
-              <img src={atleta.foto[0]} alt={atleta.nome} className="atleta-card__foto" />
-            )}
-            {(!atleta.foto || !atleta.foto[0]) && (
-              <div className="atleta-card__foto-placeholder">🏐</div>
-            )}
-            <h2 className="atleta-card__nome">{atleta.nome}</h2>
-            <p className="atleta-card__club">{atleta.club}</p>
-            <p className="atleta-card__bio">{atleta.bio}</p>
-            <div className="atleta-card__palmares">
-              <strong> Palmares:</strong> {atleta.palmares}
-            </div>
+      <h1 className="page-title">Atlete della Settimana</h1>
+      <p className="page-subtitle">Le migliori dei campionati umbri, dal {dataBella(dati.dal)} al {dataBella(dati.fine)}</p>
+
+      {prima ? (
+        <section style={{ maxWidth: "720px", marginBottom: "1.5rem" }}>
+          <div style={{ border: "1px solid var(--gold)", borderRadius: "12px", padding: "1.1rem 1.2rem", background: "rgba(212,175,55,0.08)" }}>
+            <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.05em" }}>Atleta della settimana</div>
+            <h2 style={{ margin: "0.3rem 0", fontSize: "1.6rem" }}>{nomeAtleta(prima)}</h2>
+            <p style={{ margin: 0, color: "var(--text-dim)", fontSize: "0.9rem" }}>
+              {nomeBello(prima.squadra)} · {categoriaBreve(prima.campionato)}
+            </p>
+            <p style={{ margin: "0.6rem 0 0", fontWeight: 700, fontSize: "1.05rem" }}>{prima.punti} punti</p>
           </div>
-        ))}
-      </div>
+          {altre.length > 0 && (
+            <div style={{ marginTop: "1rem" }}>
+              <h3 style={{ fontSize: "1rem", color: "var(--gold)", margin: "0 0 0.4rem" }}>Altre atlete in evidenza</h3>
+              {altre.slice(0, 9).map((m, i) => (
+                <div key={i} style={{ display: "flex", gap: "0.8rem", alignItems: "baseline", padding: "0.4rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.92rem" }}>
+                  <span style={{ minWidth: "1.5rem", color: "var(--gold)", fontWeight: 700 }}>{i + 2}</span>
+                  <span style={{ flex: 1 }}>{nomeAtleta(m)} <span style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>· {nomeBello(m.squadra)}, {categoriaBreve(m.campionato)}</span></span>
+                  <span style={{ fontWeight: 700 }}>{m.punti} pt</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      ) : (
+        <p style={{ maxWidth: "720px", color: "var(--text-dim)", fontSize: "0.95rem", lineHeight: 1.6 }}>
+          Questa settimana non abbiamo ancora ricevuto segnalazioni. L'atleta della settimana nasce dai punti che ci mandano le società: li controlliamo uno per uno prima di pubblicarli.
+        </p>
+      )}
+
+      <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
+        <p style={{ fontSize: "0.9rem", lineHeight: 1.6, margin: "0 0 0.7rem" }}>
+          Sei di una società o hai visto una grande partita? Segnalaci i punti dell'atleta: li controlliamo e, se è tutto a posto, compare qui.
+        </p>
+        <SegnalaPuntiForm />
+      </section>
     </main>
   );
 }
@@ -5654,7 +5678,7 @@ function Breadcrumb({ route }) {
     "camp": ["Tecnica", "Camp Estivi"],
     "allenatori": ["Allenatori", "Notizie Allenatori"],
     "mercato": ["Mercato", "Mercato"],
-    "atleta-settimana": ["Top", "Atleta della Settimana"],
+    "atleta-settimana": ["Top", "Atlete della Settimana"],
     "mappa": ["Mappa", "Mappa Volley Umbro"],
     "chi-siamo": ["Chi Siamo"],
     "iscrizione": ["Iscriviti"],
@@ -7029,7 +7053,6 @@ function CercaPage() {
   const trSquadre = t.length >= 2 ? squadre.filter((s) => ok(s.nome)).sort((a, b) => a.nome.localeCompare(b.nome, "it")).slice(0, 12) : [];
   const trSocieta = (societaData.societa || []).filter((s) => ok(s.nome, s.citta, s.palazzetto)).slice(0, 8);
   const trAllenatori = (allenatoriData.coaches || []).filter((c) => ok(c.name, c.team)).slice(0, 6);
-  const trAtleti = [...(atletiTopData.femminili || []), ...(atletiTopData.maschili || [])].filter((a) => ok(a.nome, a.club)).slice(0, 6);
   const trGloss = (glossarioData.glossario || []).filter((g) => ok(g.termine)).slice(0, 5);
   const notizie = [
     ...(facebookNewsData.posts || []).map((p) => ({ ...p, fonte: "PallaVolleyAmo" })),
@@ -7047,7 +7070,7 @@ function CercaPage() {
   }
   const titoloSez = { fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", margin: "1.5rem 0 0.5rem" };
   const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.7rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap", justifyContent: "space-between", textDecoration: "none", color: "inherit" };
-  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trAtleti.length + trGloss.length + trNews.length;
+  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trGloss.length + trNews.length;
 
   return (
     <main>
@@ -7112,20 +7135,6 @@ function CercaPage() {
               {trAllenatori.map((c) => (
                 <a key={c.id} href="#/allenatori" style={box}>
                   <div><div style={{ fontWeight: 700 }}>{c.name}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{c.team}</div></div>
-                  <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
-                </a>
-              ))}
-            </div>
-          </>
-        )}
-
-        {trAtleti.length > 0 && (
-          <>
-            <h3 style={titoloSez}>Atleti</h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              {trAtleti.map((a) => (
-                <a key={a.id + a.nome} href="#/atleta-settimana" style={box}>
-                  <div><div style={{ fontWeight: 700 }}>{a.nome}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{[a.ruolo, a.club].filter(Boolean).join(" · ")}</div></div>
                   <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
                 </a>
               ))}
@@ -7599,7 +7608,7 @@ useEffect(() => {
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
     "pillole": ["Pillole di pallavolo | PallaVolleyAmo", "Ogni giorno una pillola di pallavolo: consigli, tecnica e curiosità."],
-    "atleta-settimana": ["Atleta della Settimana | PallaVolleyAmo", "L'atleta della settimana: i migliori giocatori e giocatrici di pallavolo al mondo."],
+    "atleta-settimana": ["Atlete della Settimana | PallaVolleyAmo", "Le migliori atlete dei campionati umbri della settimana, con i punti segnalati dalle società."],
     "squadre-top": ["Squadre top di pallavolo | PallaVolleyAmo", "Le squadre di vertice della pallavolo italiana e umbra."],
     "preparazione-fisica": ["Preparazione fisica per la pallavolo | PallaVolleyAmo", "Esercizi di preparazione fisica per pallavolisti: core, gambe, spalle e pliometria."],
     "camp": ["Camp di pallavolo | PallaVolleyAmo", "I camp di pallavolo estivi e invernali per giovani atleti."],
