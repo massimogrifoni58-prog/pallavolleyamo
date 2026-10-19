@@ -4893,3 +4893,11 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
   .mappa-elenco { flex: 1 1 100%; max-height: 260px; background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 12px; padding: 0.7rem 0.8rem; }
   .mappa-svg-wrap { flex: 1 1 100%; max-width: none !important; }
 }
+
+/* Banner di testata delle pagine: su telefono a tutta larghezza e con testo ben dentro */
+@media (max-width: 600px) {
+  .campionati-hero { width: 100%; border-radius: 10px; overflow: hidden; }
+  .campionati-hero__overlay { padding: 1rem 1.1rem; text-align: center; box-sizing: border-box; border-radius: 10px; }
+  .campionati-hero__titolo { font-size: 2rem; line-height: 1.05; }
+  .campionati-hero__sub { font-size: 0.68rem; line-height: 1.5; }
+}
