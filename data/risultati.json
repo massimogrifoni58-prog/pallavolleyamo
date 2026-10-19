@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T05:03:48.322626+00:00",
+  "generatedAt": "2026-10-19T10:29:14.096868+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2720,15 +2720,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627090",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627092",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 25",
@@ -2756,6 +2747,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627090",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627094",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 26",
@@ -2774,20 +2774,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627097",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 26",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627099",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 26",
       "home": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
       "away": "AMERINA PALLAVOLO A S D",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627097",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 26",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -4358,20 +4358,20 @@
       "status": "in programma"
     },
     {
-      "id": "131628314",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 25",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627596",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 25",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131628314",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 25",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "VOLLEY BORGO ALTOTEVERE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10766,20 +10766,20 @@
       "status": "in programma"
     },
     {
-      "id": "131662290",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 9",
-      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
-      "away": "VOLLEY SPOLETO CASCIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658300",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 9",
       "home": "CASCIANELLI LORENA TUDER VOLLEI",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131662290",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "UMBRIA VOLLEY ACADEMY SECONDA",
+      "away": "VOLLEY SPOLETO CASCIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11684,15 +11684,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644109",
-      "competition": "Under 19 Maschile Girone B",
-      "giornata": "Giornata 5",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "SIR GIOVANILE MERICAT",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644110",
       "competition": "Under 19 Maschile Girone B",
       "giornata": "Giornata 5",
@@ -11707,6 +11698,15 @@
       "giornata": "Giornata 5",
       "home": "POLISPORTIVA DELFINO - EUROSPIN",
       "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644109",
+      "competition": "Under 19 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR GIOVANILE MERICAT",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17930,20 +17930,20 @@
       "status": "in programma"
     },
     {
+      "id": "131664969",
+      "competition": "Under 14 Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131664970",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 3",
       "home": "V. NARNI S.A.",
       "away": "STRIKE TEAM MONTELUCE U14M",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131664969",
-      "competition": "Under 14 Maschile Girone Unico",
-      "giornata": "Giornata 3",
-      "home": "SIR MERICAT PERUGIA",
-      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18122,8 +18122,8 @@
       "id": "131664990",
       "competition": "Under 14 Maschile Girone Unico",
       "giornata": "Giornata 10",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "SIR MERICAT PERUGIA",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18551,15 +18551,6 @@
       "status": "in programma"
     },
     {
-      "id": "131661566",
-      "competition": "Under 14 Femminile Girone B",
-      "giornata": "Giornata 2",
-      "home": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661564",
       "competition": "Under 14 Femminile Girone B",
       "giornata": "Giornata 2",
@@ -18574,6 +18565,15 @@
       "giornata": "Giornata 2",
       "home": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661566",
+      "competition": "Under 14 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },

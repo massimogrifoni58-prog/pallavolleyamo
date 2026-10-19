@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T05:07:14.384020+00:00",
+  "generatedAt": "2026-10-19T10:32:03.040979+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -1604,7 +1604,7 @@
         "campionato": "Serie C Maschile Girone Unico",
         "giornata": "26",
         "data": "2027-02-06",
-        "ora": "18:00",
+        "ora": "21:00",
         "casa": "ITALCHIMICI",
         "ospite": "VOLLEY BORGO ALTOTEVERE",
         "risultato": null
@@ -3125,8 +3125,8 @@
         "id": "serie-c-femminile-146",
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "25",
-        "data": "2027-01-30",
-        "ora": "18:00",
+        "data": "2027-02-03",
+        "ora": "21:00",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "MARCONI MONINI PALLAVOLO",
         "risultato": null
@@ -3196,7 +3196,7 @@
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "26",
         "data": "2027-02-06",
-        "ora": "18:00",
+        "ora": "20:00",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
         "risultato": null
@@ -11409,7 +11409,7 @@
         "id": "giov-under-19-maschile-girone-b-13",
         "campionato": "Under 19 Maschile Girone B",
         "giornata": "5",
-        "data": "2027-01-13",
+        "data": "2027-01-14",
         "ora": "19:30",
         "casa": "INTER VOLLEY FOLIGNO",
         "ospite": "SIR GIOVANILE MERICAT",
