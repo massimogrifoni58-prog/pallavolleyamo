@@ -4212,7 +4212,10 @@ function ClassificaPage() {
   }
 
   const matchesVecchi = (risultatiData.matches || []).filter((m) => m.status === "disputata" && isAllowedCategory(m.competition));
-  const matchesNuovi = normalizzaPartiteNuove();
+  // Le stesse partite possono arrivare da due fonti: si contano una volta sola
+  const chiavePartita = (m) => [m.competition, m.home, m.away].map((x) => (x || "").toLowerCase().replace(/[^a-z0-9]/g, "")).join("|");
+  const giaConteggiate = new Set(matchesVecchi.map(chiavePartita));
+  const matchesNuovi = normalizzaPartiteNuove().filter((m) => !giaConteggiate.has(chiavePartita(m)));
   const matches = [...matchesVecchi, ...matchesNuovi];
 
   const byMacro = {};
