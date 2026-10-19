@@ -5516,7 +5516,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
             <div ref={mapRef} style={{ width: "100%", height: "450px", borderRadius: "12px", border: "1px solid var(--border)" }} />
           </div>
 
-          <div style={{ flex: 1, overflowY: "auto", maxHeight: "500px", fontSize: "0.78rem" }}>
+          <div className="mappa-elenco">
             {Object.entries(colori).map(([cat, col]) => {
               const lista = societaFiltrate.filter(s => s.categoria === cat);
               if (lista.length === 0) return null;
