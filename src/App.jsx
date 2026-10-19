@@ -5809,7 +5809,7 @@ function SquadreTopPage() {
 
         {squadraSelezionata && (
           <div style={{ marginBottom: "1rem", fontSize: "0.75rem", color: "var(--text-dim)" }}>
-            Ultime 5 notizie su <strong style={{ color: "var(--gold)" }}>{squadraSelezionata.nome}</strong>
+            Ultime notizie su <strong style={{ color: "var(--gold)" }}>{squadraSelezionata.nome}</strong>
           </div>
         )}
 
@@ -5835,6 +5835,7 @@ function SquadreTopPage() {
       {n.title}
     </a>
     <div style={{ fontSize: "0.68rem", color: "var(--text-dim)" }}>
+      {n.avversaria && <span style={{ marginRight: "0.75rem", border: "1px solid var(--border)", borderRadius: 4, padding: "0 5px" }}>Prossima avversaria: {n.avversaria}</span>}
       {n.source && <span style={{ marginRight: "0.75rem", color: "var(--gold)" }}>{n.source}</span>}
       {n.pubDate && <span>{formatDate(n.pubDate)}</span>}
     </div>
