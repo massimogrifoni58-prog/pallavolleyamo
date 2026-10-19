@@ -4924,3 +4924,19 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
 @media (max-width: 520px) { .atl-card__corpo { flex-wrap: wrap; } .atl-card__sigla { width: 3.6rem; height: 3.6rem; font-size: 1.25rem; } .atl-card__testo { flex-basis: calc(100% - 4.8rem); } .atl-card__punti { flex-basis: 100%; display: flex; align-items: baseline; justify-content: center; gap: 0.5rem; border-left: 0; border-top: 1px solid rgba(212,175,55,0.35); padding: 0.7rem 0 0; } .atl-card__punti-n { font-size: 2.2rem; } .atl-card__nome { font-size: 1.3rem; } }
 body.light-mode .atl-card { background: radial-gradient(120% 140% at 0% 0%, rgba(184,134,11,0.18) 0%, rgba(184,134,11,0.04) 45%, rgba(255,255,255,0) 75%), #fff; box-shadow: 0 8px 22px rgba(0,0,0,0.12); }
 body.light-mode .atl-card__sigla, body.light-mode .atl-card__chip, body.light-mode .atl-card__punti-n { color: #8a6508; }
+
+/* Testi piu leggibili (misure confrontate con A1 Gallery) */
+.evidenza-card__date { font-size: 0.75rem; }
+.evidenza-card__title { font-size: 1rem; line-height: 1.35; }
+@media (max-width: 960px) {
+  .ticker { font-size: 0.78rem !important; }
+  .ticker__label { font-size: 0.68rem !important; }
+  .ticker__single { font-size: 0.78rem !important; }
+}
+@media (max-width: 480px) {
+  .masthead__tagline { font-size: 0.8rem; }
+  .masthead__eyebrow { font-size: 0.7rem; }
+  .ticker { font-size: 0.78rem !important; }
+  .ticker__label { font-size: 0.68rem !important; }
+  .ticker__single { font-size: 0.78rem !important; }
+}
