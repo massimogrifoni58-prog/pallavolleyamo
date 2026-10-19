@@ -21,7 +21,9 @@ def norm(s):
     return re.sub(r"\s+", " ", (s or "").lower()).strip()
 
 def titolo(s):
-    return " ".join(w.capitalize() if w.isupper() or w.islower() else w for w in (s or "").replace("  ", " ").split())
+    s = re.sub(r"\b[Aa]\.?\s?[Ss]\.?\s?[Dd]\.?(?=\s|$)", "", s or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return " ".join((w if w.lower() in ("di","del","della","dei","da") else w.capitalize()) if w.isupper() or w.islower() else w for w in (s or "").replace("  ", " ").split())
 
 def intervallo(oggi):
     # ultimo venerdi..domenica gia' conclusi
@@ -60,6 +62,12 @@ def raccogli(da, a):
                     out.append((re.sub(r"\s*Girone.*$", "", m["competition"]), m["home"], m["away"], sc))
         except FileNotFoundError:
             pass
+    try:
+        for m in carica("risultati_extra.json").get("risultati", []):
+            if da_s <= m["data"] <= a_s and punteggio(m["score"]):
+                out.append((m["campionato"], m["casa"], m["ospite"], punteggio(m["score"])))
+    except FileNotFoundError:
+        pass
     visti, unici = set(), []
     for r in out:
         k = (norm(r[0]), norm(r[1]), norm(r[2]))
@@ -77,13 +85,13 @@ def ordine(c):
 
 def testo(risultati, da, a):
     mesi = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
-    righe = [f"🏐 I risultati del weekend ({da.day}-{a.day} {mesi[a.month - 1]})", ""]
+    righe = [f"I risultati del weekend ({da.day}-{a.day} {mesi[a.month - 1]})", ""]
     per = {}
     for c, h, o, sc in risultati:
         per.setdefault(c, []).append((h, o, sc))
     n = 0
     for c in sorted(per, key=lambda x: (ordine(x), x)):
-        righe.append(f"▪ {c}")
+        righe.append(c.upper())
         for h, o, (x, y) in per[c]:
             if n >= MAX_RIGHE:
                 break
@@ -94,7 +102,7 @@ def testo(risultati, da, a):
             righe.append("…e tutti gli altri risultati sul sito.")
             righe.append("")
             break
-    righe.append("📲 Tutti i risultati, classifiche e calendari su pallavolleyamo.it")
+    righe.append("Tutti i risultati, classifiche e calendari su pallavolleyamo.it")
     righe.append("#pallavolo #volleyumbria #pallavolleyamo")
     return "\n".join(righe)
 
