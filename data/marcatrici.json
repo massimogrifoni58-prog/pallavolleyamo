@@ -1,1 +1,59 @@
-{"nota":"Punti delle atlete segnalati dalle societa e controllati a mano. Ogni voce: data (AAAA-MM-GG), nome, cognome, squadra, campionato, punti.","punti":[]}
+{
+  "nota": "Punti delle atlete segnalati dalle societa e controllati a mano. Ogni voce: data (AAAA-MM-GG), nome, cognome, squadra, campionato, punti.",
+  "punti": [
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Ndulue",
+      "squadra": "Fail Group Marsciano",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 12,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    },
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Carboni",
+      "squadra": "Fail Group Marsciano",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 12,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    },
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Fiorucci",
+      "squadra": "Fail Group Marsciano",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 10,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    },
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Iacobbi",
+      "squadra": "Fail Group Marsciano",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 7,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    },
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Falchetti",
+      "squadra": "Pallavolo Città di Castello",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 8,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    },
+    {
+      "data": "2026-10-17",
+      "nome": "",
+      "cognome": "Sasso",
+      "squadra": "Pallavolo Città di Castello",
+      "campionato": "Serie B2 Femminile Girone G",
+      "punti": 8,
+      "partita": "Fail Group Marsciano - Pallavolo Città di Castello 3-0"
+    }
+  ]
+}
