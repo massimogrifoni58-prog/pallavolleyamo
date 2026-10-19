@@ -4229,7 +4229,7 @@ function ClassificaPage() {
   );
 
   // All'apertura si mostra subito una classifica (la prima categoria con risultati)
-  const [selMacro, setSelMacro] = useState(macroCategories[0] || "");
+  const [selMacro, setSelMacro] = useState(macroCategories.includes("Serie C Femminile") ? "Serie C Femminile" : (macroCategories[0] || ""));
   const [selComp, setSelComp] = useState("");
 
   const compNames = selMacro ? Object.keys(byMacro[selMacro]) : [];
