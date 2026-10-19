@@ -1504,7 +1504,7 @@ function RosaPage() {
       </p>
 
       {status === "done" ? (
-        <div className="form-success">✅ Dati inviati! Grazie per la collaborazione.</div>
+        <div className="form-success">Dati inviati! Grazie per la collaborazione.</div>
       ) : (
         <div className="form-card">
           <div className="form-group">
@@ -1593,7 +1593,6 @@ function PerLeSocietaPage() {
     { t: "La partita sul telefono", d: "Allenatori, atlete e genitori scelgono la loro squadra e si abbonano al calendario: le partite arrivano sul telefono e si aggiornano da sole, anche se cambia un orario.", l: "#/mia-squadra", ll: "Prova La mia squadra" },
     { t: "Sulla mappa", d: "Le società e le palestre dell'Umbria sulla Mappa volley, per farsi trovare da chi cerca una squadra vicino a casa.", l: "#/mappa", ll: "Apri la mappa" },
   ];
-  const box = { border: "1px solid var(--border)", borderRadius: "12px", padding: "1rem 1.1rem" };
   return (
     <main>
       <section className="section">
@@ -1603,14 +1602,14 @@ function PerLeSocietaPage() {
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "0.9rem", maxWidth: "900px", marginBottom: "2rem" }}>
           {blocchi.map((b) => (
-            <div key={b.t} style={box}>
+            <div key={b.t} className="card-pva">
               <div style={{ color: "var(--gold)", fontWeight: 700, fontSize: "1rem" }}>{b.t}</div>
               <p style={{ margin: "0.4rem 0 0.7rem", fontSize: "0.9rem", lineHeight: 1.55 }}>{b.d}</p>
               <a href={b.l} style={{ color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem", textDecoration: "none" }}>{b.ll} →</a>
             </div>
           ))}
         </div>
-        <div style={{ ...box, borderColor: "var(--gold)", maxWidth: "900px" }}>
+        <div className="card-pva card-pva--gold" style={{ maxWidth: "900px" }}>
           <div style={{ color: "var(--gold)", fontWeight: 700 }}>Hai trovato un dato sbagliato?</div>
           <p style={{ margin: "0.4rem 0 0", fontSize: "0.9rem", lineHeight: 1.6 }}>
             Un orario, una palestra, il nome della squadra: scrivici a{" "}
@@ -1643,7 +1642,6 @@ function PalestraPage() {
     { chi: "Sono un allenatore", testo: "Apri le Schede allenamento per la seduta di oggi e usa la Tecnica per spiegare bene i gesti ai ragazzi." },
     { chi: "Sono un genitore", testo: "La Mente e il Fisico ti aiutano a capire cosa serve ai ragazzi, dentro e fuori dal campo." },
   ];
-  const box = { display: "block", border: "1px solid var(--border)", borderRadius: "12px", padding: "1rem 1.1rem", textDecoration: "none", color: "inherit" };
   return (
     <main>
       <section className="section">
@@ -1653,7 +1651,7 @@ function PalestraPage() {
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "0.9rem", maxWidth: "860px", marginBottom: "2.2rem" }}>
           {parti.map((x) => (
-            <a key={x.href} href={x.href} style={box}>
+            <a key={x.href} href={x.href} className="card-pva">
               <div style={{ color: "var(--gold)", fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.5rem", letterSpacing: "0.03em" }}>{x.nome}</div>
               <p style={{ margin: "0.35rem 0 0.6rem", fontSize: "0.9rem", lineHeight: 1.55 }}>{x.frase}</p>
               <div style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>{x.per}</div>
