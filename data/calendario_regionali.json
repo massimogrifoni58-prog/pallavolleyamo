@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T10:32:03.040979+00:00",
+  "generatedAt": "2026-10-19T19:44:29.667594+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5905,7 +5905,7 @@
         "ora": "17:30",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-a-4",
@@ -6479,7 +6479,7 @@
         "ora": "19:30",
         "casa": "VOLLEY 86 PETRIGNANO",
         "ospite": "SCHOOL VOLLEY PERUGIA INDACO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-c-1",
@@ -7335,7 +7335,7 @@
         "ora": "17:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
         "ospite": "REVISIONANDO VITT CHIUSI",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-a-6",
@@ -7637,7 +7637,7 @@
         "ora": "18:15",
         "casa": "PMU MARSCIANO",
         "ospite": "SIRIO PALLAVOLO ARANCIO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-6",
