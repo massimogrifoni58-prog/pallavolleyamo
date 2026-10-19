@@ -23,7 +23,7 @@ def norm(s):
 def titolo(s):
     s = re.sub(r"\b[Aa]\.?\s?[Ss]\.?\s?[Dd]\.?(?=\s|$)", "", s or "")
     s = re.sub(r"\s+", " ", s).strip()
-    return " ".join((w if w.lower() in ("di","del","della","dei","da") else w.capitalize()) if w.isupper() or w.islower() else w for w in (s or "").replace("  ", " ").split())
+    return " ".join((w.lower() if w.lower() in ("di","del","della","dei","da") else w.capitalize()) if w.isupper() or w.islower() else w for w in (s or "").replace("  ", " ").split())
 
 def intervallo(oggi):
     # ultimo venerdi..domenica gia' conclusi
