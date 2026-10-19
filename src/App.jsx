@@ -568,7 +568,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/terni", label: "News Prov. TR", sub: "Dalla provincia di Terni", locked: true },
             { href: "#/perugia", label: "News Prov. PG", sub: "Dalla provincia di Perugia", locked: true },
             { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice", locked: true },
-            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", locked: true, evidenza: true },
           ]}
         />
 <NavDropdown
@@ -592,6 +591,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Campionati"
           subscribed={subscribed}
           items={[
+            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", locked: true, evidenza: true },
             { href: "#/mia-squadra", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
