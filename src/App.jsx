@@ -1195,13 +1195,25 @@ function AtletaSettimanaPage() {
 
       {prima ? (
         <section style={{ maxWidth: "720px", marginBottom: "1.5rem" }}>
-          <div style={{ border: "1px solid var(--gold)", borderRadius: "12px", padding: "1.1rem 1.2rem", background: "rgba(212,175,55,0.08)" }}>
-            <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.05em" }}>Atleta della settimana</div>
-            <h2 style={{ margin: "0.3rem 0", fontSize: "1.6rem" }}>{nomeAtleta(prima)}</h2>
-            <p style={{ margin: 0, color: "var(--text-dim)", fontSize: "0.9rem" }}>
-              {nomeBello(prima.squadra)} · {categoriaBreve(prima.campionato)}
-            </p>
-            <p style={{ margin: "0.6rem 0 0", fontWeight: 700, fontSize: "1.05rem" }}>{prima.punti} punti</p>
+          <div className="atl-card">
+            <div className="atl-card__nastro">Atleta della settimana</div>
+            <div className="atl-card__corpo">
+              <div className="atl-card__sigla" aria-hidden="true">
+                {(prima.nome || "").charAt(0).toUpperCase()}{(prima.cognome || "").charAt(0).toUpperCase()}
+              </div>
+              <div className="atl-card__testo">
+                <h2 className="atl-card__nome">{nomeAtleta(prima)}</h2>
+                <p className="atl-card__squadra">{nomeBello(prima.squadra)}</p>
+                <div className="atl-card__chip-riga">
+                  <span className="atl-card__chip">{categoriaBreve(prima.campionato)}</span>
+                  {prima.avversario && <span className="atl-card__chip atl-card__chip--tenue">contro {prima.avversario}</span>}
+                </div>
+              </div>
+              <div className="atl-card__punti">
+                <span className="atl-card__punti-n">{prima.punti}</span>
+                <span className="atl-card__punti-l">punti</span>
+              </div>
+            </div>
           </div>
           {altre.length > 0 && (
             <div style={{ marginTop: "1rem" }}>
@@ -1391,15 +1403,31 @@ function SquadraSettimanaPage() {
       <p className="page-subtitle">Dal {dataBella(dati.dal)} al {dataBella(dati.fine)} · {dati.totale} partite giocate</p>
       <CondividiBar titolo="Squadra della Settimana" percorso="squadra-settimana" />
 
-      <div style={{ ...box, borderColor: "var(--gold)", maxWidth: "720px", margin: "1rem 0 1.5rem", padding: "1.1rem 1.2rem" }}>
-        <div style={{ color: "var(--gold)", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase" }}>La squadra da applaudire · {v.cat}</div>
-        <div style={{ fontSize: "1.5rem", fontWeight: 800, margin: "0.3rem 0" }}>{nomeBello(v.nome)}</div>
-        <p style={{ margin: 0, lineHeight: 1.6, fontSize: "0.95rem" }}>
-          {casaV ? "In casa" : "In trasferta"} contro {avv} ha vinto {Math.max(s.a, s.b)}-{Math.min(s.a, s.b)}
-          {v.setP === 0 ? ", senza lasciare set" : ""}.
-          {v.serie >= 2 ? " Sono " + v.serie + " vittorie consecutive." : ""}
-          {" "}In stagione: {v.vinte} {v.vinte === 1 ? "vittoria" : "vittorie"} su {v.giocate} {v.giocate === 1 ? "partita" : "partite"} in questo campionato.
-        </p>
+      <div style={{ maxWidth: "720px", margin: "1rem 0 1.5rem" }}>
+        <div className="atl-card">
+          <div className="atl-card__nastro">Squadra della settimana</div>
+          <div className="atl-card__corpo">
+            <div className="atl-card__sigla" aria-hidden="true">
+              {nomeBello(v.nome).split(/\s+/).filter((w) => w.length > 2).slice(0, 2).map((w) => w.charAt(0).toUpperCase()).join("") || nomeBello(v.nome).charAt(0).toUpperCase()}
+            </div>
+            <div className="atl-card__testo">
+              <h2 className="atl-card__nome">{nomeBello(v.nome)}</h2>
+              <p className="atl-card__squadra">{casaV ? "In casa" : "In trasferta"} contro {avv}</p>
+              <div className="atl-card__chip-riga">
+                <span className="atl-card__chip">{v.cat}</span>
+                {v.setP === 0 && <span className="atl-card__chip">senza set persi</span>}
+                {v.serie >= 2 && <span className="atl-card__chip">{v.serie} vittorie di fila</span>}
+              </div>
+            </div>
+            <div className="atl-card__punti">
+              <span className="atl-card__punti-n">{Math.max(s.a, s.b)}-{Math.min(s.a, s.b)}</span>
+              <span className="atl-card__punti-l">risultato</span>
+            </div>
+          </div>
+          <p style={{ margin: 0, padding: "0 1.2rem 1rem", color: "var(--text-dim)", fontSize: "0.85rem" }}>
+            In stagione: {v.vinte} {v.vinte === 1 ? "vittoria" : "vittorie"} su {v.giocate} {v.giocate === 1 ? "partita" : "partite"} in questo campionato.
+          </p>
+        </div>
         <p style={{ margin: "0.7rem 0 0", color: "var(--text-dim)", fontSize: "0.78rem" }}>
           Come si sceglie: tra le squadre che hanno vinto nella settimana conta prima il livello del campionato, poi le vittorie consecutive, poi il successo senza set persi e quello in trasferta.
         </p>
