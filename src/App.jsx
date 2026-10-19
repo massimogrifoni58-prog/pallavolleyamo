@@ -320,7 +320,7 @@ function Ticker({ posts }) {
     </div>
   );
 }
-function NavDropdown({ label, items, subscribed }) {
+function NavDropdown({ label, items, subscribed, tre }) {
   const [open, setOpen] = useState(false);
   const [shift, setShift] = useState(0);
   const ref = useRef(null);
@@ -357,7 +357,7 @@ function NavDropdown({ label, items, subscribed }) {
       {open && (
         <div
           ref={menuRef}
-          className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "")}
+          className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "") + (tre ? " nav-dropdown__menu--tre" : "")}
           style={shift ? { marginLeft: shift + "px" } : undefined}
         >
           {items.map((item) => {
@@ -589,6 +589,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         />
         <NavDropdown
           label="Campionati"
+          tre
           subscribed={subscribed}
           items={[
             { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", locked: true, evidenza: true },
@@ -599,7 +600,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
             { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
             { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre", locked: true },
-            { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati", largo: true },
+            { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati" },
           ]}
         />
         <NavDropdown

@@ -4901,3 +4901,8 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
   .campionati-hero__titolo { font-size: 2rem; line-height: 1.05; }
   .campionati-hero__sub { font-size: 0.68rem; line-height: 1.5; }
 }
+
+/* Menu Campionati: 3 colonne da 3 voci */
+.nav-dropdown__menu--tre { width: 820px; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, auto); grid-auto-flow: column; }
+@media (max-width: 900px) { .nav-dropdown__menu--tre { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; width: min(92vw, 360px); } }
+.nav-dropdown__menu--tre .nav-dropdown__item--largo { grid-column: auto; }
