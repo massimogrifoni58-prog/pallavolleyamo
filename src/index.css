@@ -4906,3 +4906,21 @@ a.card-pva:hover, a.card-pva:focus-visible { border-color: var(--gold); transfor
 .nav-dropdown__menu--tre { width: 820px; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, auto); grid-auto-flow: column; }
 @media (max-width: 900px) { .nav-dropdown__menu--tre { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; width: min(92vw, 360px); } }
 .nav-dropdown__menu--tre .nav-dropdown__item--largo { grid-column: auto; }
+
+/* Card Atleta della Settimana */
+.atl-card { position: relative; border-radius: 16px; overflow: hidden; border: 1px solid rgba(212,175,55,0.55); background: radial-gradient(120% 140% at 0% 0%, rgba(212,175,55,0.22) 0%, rgba(212,175,55,0.05) 45%, rgba(0,0,0,0) 75%), var(--card-bg, #15151a); box-shadow: 0 10px 28px rgba(0,0,0,0.35); }
+.atl-card__nastro { display: inline-block; background: linear-gradient(90deg, #d4af37, #f0d77a); color: #111; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1.1rem 0.35rem 1rem; border-bottom-right-radius: 14px; }
+.atl-card__corpo { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.2rem 1.2rem; }
+.atl-card__sigla { flex: 0 0 auto; width: 4.4rem; height: 4.4rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 800; letter-spacing: 0.04em; color: #d4af37; background: rgba(212,175,55,0.1); border: 2px solid #d4af37; box-shadow: 0 0 0 5px rgba(212,175,55,0.12); }
+.atl-card__testo { flex: 1; min-width: 0; }
+.atl-card__nome { margin: 0; font-size: 1.45rem; line-height: 1.15; letter-spacing: 0.01em; }
+.atl-card__squadra { margin: 0.25rem 0 0.5rem; color: var(--text-dim); font-size: 0.92rem; }
+.atl-card__chip-riga { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.atl-card__chip { font-size: 0.72rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; background: rgba(212,175,55,0.16); border: 1px solid rgba(212,175,55,0.45); color: #d4af37; }
+.atl-card__chip--tenue { background: transparent; border-color: var(--border); color: var(--text-dim); font-weight: 500; }
+.atl-card__punti { flex: 0 0 auto; text-align: center; padding-left: 1rem; border-left: 1px solid rgba(212,175,55,0.35); }
+.atl-card__punti-n { display: block; font-size: 2.6rem; font-weight: 800; line-height: 1; color: #d4af37; }
+.atl-card__punti-l { display: block; margin-top: 0.2rem; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
+@media (max-width: 520px) { .atl-card__corpo { flex-wrap: wrap; } .atl-card__sigla { width: 3.6rem; height: 3.6rem; font-size: 1.25rem; } .atl-card__testo { flex-basis: calc(100% - 4.8rem); } .atl-card__punti { flex-basis: 100%; display: flex; align-items: baseline; justify-content: center; gap: 0.5rem; border-left: 0; border-top: 1px solid rgba(212,175,55,0.35); padding: 0.7rem 0 0; } .atl-card__punti-n { font-size: 2.2rem; } .atl-card__nome { font-size: 1.3rem; } }
+body.light-mode .atl-card { background: radial-gradient(120% 140% at 0% 0%, rgba(184,134,11,0.18) 0%, rgba(184,134,11,0.04) 45%, rgba(255,255,255,0) 75%), #fff; box-shadow: 0 8px 22px rgba(0,0,0,0.12); }
+body.light-mode .atl-card__sigla, body.light-mode .atl-card__chip, body.light-mode .atl-card__punti-n { color: #8a6508; }

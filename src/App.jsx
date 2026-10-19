@@ -1195,13 +1195,25 @@ function AtletaSettimanaPage() {
 
       {prima ? (
         <section style={{ maxWidth: "720px", marginBottom: "1.5rem" }}>
-          <div style={{ border: "1px solid var(--gold)", borderRadius: "12px", padding: "1.1rem 1.2rem", background: "rgba(212,175,55,0.08)" }}>
-            <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700, letterSpacing: "0.05em" }}>Atleta della settimana</div>
-            <h2 style={{ margin: "0.3rem 0", fontSize: "1.6rem" }}>{nomeAtleta(prima)}</h2>
-            <p style={{ margin: 0, color: "var(--text-dim)", fontSize: "0.9rem" }}>
-              {nomeBello(prima.squadra)} · {categoriaBreve(prima.campionato)}
-            </p>
-            <p style={{ margin: "0.6rem 0 0", fontWeight: 700, fontSize: "1.05rem" }}>{prima.punti} punti</p>
+          <div className="atl-card">
+            <div className="atl-card__nastro">Atleta della settimana</div>
+            <div className="atl-card__corpo">
+              <div className="atl-card__sigla" aria-hidden="true">
+                {(prima.nome || "").charAt(0).toUpperCase()}{(prima.cognome || "").charAt(0).toUpperCase()}
+              </div>
+              <div className="atl-card__testo">
+                <h2 className="atl-card__nome">{nomeAtleta(prima)}</h2>
+                <p className="atl-card__squadra">{nomeBello(prima.squadra)}</p>
+                <div className="atl-card__chip-riga">
+                  <span className="atl-card__chip">{categoriaBreve(prima.campionato)}</span>
+                  {prima.avversario && <span className="atl-card__chip atl-card__chip--tenue">contro {prima.avversario}</span>}
+                </div>
+              </div>
+              <div className="atl-card__punti">
+                <span className="atl-card__punti-n">{prima.punti}</span>
+                <span className="atl-card__punti-l">punti</span>
+              </div>
+            </div>
           </div>
           {altre.length > 0 && (
             <div style={{ marginTop: "1rem" }}>
