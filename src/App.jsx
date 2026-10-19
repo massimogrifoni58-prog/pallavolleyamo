@@ -580,10 +580,9 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           ]}
         />
         <NavDropdown
-          label="Top Atleti"
+          label="Top Squadre"
           subscribed={subscribed}
           items={[
-            { href: "#/atleta-settimana", label: "Atleta della Settimana", sub: "Chi ha brillato in campo", locked: true },
             { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire", locked: true },
           ]}
         />
@@ -7029,7 +7028,6 @@ function CercaPage() {
   const trSquadre = t.length >= 2 ? squadre.filter((s) => ok(s.nome)).sort((a, b) => a.nome.localeCompare(b.nome, "it")).slice(0, 12) : [];
   const trSocieta = (societaData.societa || []).filter((s) => ok(s.nome, s.citta, s.palazzetto)).slice(0, 8);
   const trAllenatori = (allenatoriData.coaches || []).filter((c) => ok(c.name, c.team)).slice(0, 6);
-  const trAtleti = [...(atletiTopData.femminili || []), ...(atletiTopData.maschili || [])].filter((a) => ok(a.nome, a.club)).slice(0, 6);
   const trGloss = (glossarioData.glossario || []).filter((g) => ok(g.termine)).slice(0, 5);
   const notizie = [
     ...(facebookNewsData.posts || []).map((p) => ({ ...p, fonte: "PallaVolleyAmo" })),
@@ -7047,7 +7045,7 @@ function CercaPage() {
   }
   const titoloSez = { fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", margin: "1.5rem 0 0.5rem" };
   const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.7rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap", justifyContent: "space-between", textDecoration: "none", color: "inherit" };
-  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trAtleti.length + trGloss.length + trNews.length;
+  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trGloss.length + trNews.length;
 
   return (
     <main>
@@ -7112,20 +7110,6 @@ function CercaPage() {
               {trAllenatori.map((c) => (
                 <a key={c.id} href="#/allenatori" style={box}>
                   <div><div style={{ fontWeight: 700 }}>{c.name}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{c.team}</div></div>
-                  <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
-                </a>
-              ))}
-            </div>
-          </>
-        )}
-
-        {trAtleti.length > 0 && (
-          <>
-            <h3 style={titoloSez}>Atleti</h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              {trAtleti.map((a) => (
-                <a key={a.id + a.nome} href="#/atleta-settimana" style={box}>
-                  <div><div style={{ fontWeight: 700 }}>{a.nome}</div><div style={{ fontSize: "0.75rem", color: "var(--text-dim)" }}>{[a.ruolo, a.club].filter(Boolean).join(" · ")}</div></div>
                   <span style={{ color: "var(--gold)", fontSize: "0.8rem" }}>Vai →</span>
                 </a>
               ))}
