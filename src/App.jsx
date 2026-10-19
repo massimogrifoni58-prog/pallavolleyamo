@@ -6923,8 +6923,8 @@ function MiaSquadraHome() {
   const nome = leggiMiaSquadra();
   if (!nome) {
     return (
-      <section className="section" style={{ textAlign: "center" }}>
-        <a href="#/mia-squadra" className="filter-btn filter-btn--active" style={{ display: "inline-block", textDecoration: "none" }}>Scegli la tua squadra e segui le sue partite</a>
+      <section className="section" style={{ textAlign: "center", marginTop: "1.4rem", marginBottom: "2rem" }}>
+        <a href="#/mia-squadra" className="filter-btn filter-btn--active" style={{ display: "inline-block", textDecoration: "none", fontSize: "0.95rem", padding: "0.65rem 1.4rem" }}>Scegli la tua squadra e segui le sue partite</a>
       </section>
     );
   }
