@@ -5340,7 +5340,7 @@ function SidebarLeft({ localNews = [] }) {
             {localNews.map((n, i) => (
               <a key={i} href={n.permalink} target="_blank" rel="noreferrer" 
                 style={{ fontSize: "0.78rem", color: "var(--text)", textDecoration: "none", lineHeight: "1.3", borderBottom: "1px solid var(--border)", paddingBottom: "0.4rem" }}>
-                <span style={{ fontSize: "0.65rem", color: "var(--gold)", display: "block" }}>{formatDate(n.createdTime)}</span>
+                <span style={{ fontSize: "0.72rem", color: "var(--gold)", display: "block" }}>{formatDate(n.createdTime)}</span>
                 {n.title}
               </a>
             ))}
@@ -5577,7 +5577,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
               if (lista.length === 0) return null;
               return (
                 <div key={cat} style={{ marginBottom: "10px" }}>
-                  <div style={{ fontSize: "0.68rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>{cat}</div>
+                  <div style={{ fontSize: "0.72rem", fontWeight: 700, color: col, textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "4px" }}>{cat}</div>
                   {lista.map(s => (
                     <div key={s.id} onClick={() => setSelected(s)}
                       style={{ padding: "3px 6px", borderRadius: "6px", cursor: "pointer",
@@ -5720,7 +5720,7 @@ function Breadcrumb({ route }) {
   return (
     <div style={{
       padding: "0.4rem 1.5rem",
-      fontSize: "0.68rem",
+      fontSize: "0.72rem",
       color: "var(--text-dim)",
       borderBottom: "1px solid var(--border)",
       background: "rgba(212,175,55,0.05)",
@@ -5783,14 +5783,14 @@ function SquadreIscrittePage() {
             onClick={() => setSelCat("maschile")}
           >
             Serie C Maschile
-            <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({maschile.length})</span>
+            <span style={{ fontSize: "0.72rem", opacity: 0.7, marginLeft: 4 }}>({maschile.length})</span>
           </button>
           <button
             className={`filter-btn ${selCat === "femminile" ? "filter-btn--active" : ""}`}
             onClick={() => setSelCat("femminile")}
           >
             Serie C Femminile
-            <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({femminile.length})</span>
+            <span style={{ fontSize: "0.72rem", opacity: 0.7, marginLeft: 4 }}>({femminile.length})</span>
           </button>
         </div>
 
@@ -5857,7 +5857,7 @@ function SquadreTopPage() {
               className={`filter-btn ${selected === s.id ? "filter-btn--active" : ""}`}
               onClick={() => setSelected(s.id)}>
               {s.nome}
-              <span style={{ fontSize: "0.6rem", opacity: 0.7, marginLeft: 4 }}>({s.categoria})</span>
+              <span style={{ fontSize: "0.72rem", opacity: 0.7, marginLeft: 4 }}>({s.categoria})</span>
             </button>
           ))}
         </div>
@@ -5889,7 +5889,7 @@ function SquadreTopPage() {
       style={{ color: "var(--text)", textDecoration: "none", fontWeight: 600, fontSize: "0.88rem", lineHeight: 1.4, display: "block", marginBottom: "0.25rem" }}>
       {n.title}
     </a>
-    <div style={{ fontSize: "0.68rem", color: "var(--text-dim)" }}>
+    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>
       {n.avversaria && <span style={{ marginRight: "0.75rem", border: "1px solid var(--border)", borderRadius: 4, padding: "0 5px" }}>Prossima avversaria: {n.avversaria}</span>}
       {n.source && <span style={{ marginRight: "0.75rem", color: "var(--gold)" }}>{n.source}</span>}
       {n.pubDate && <span>{formatDate(n.pubDate)}</span>}
@@ -6137,7 +6137,7 @@ function CalendarioCompletoPage() {
                   borderRadius: "10px",
                   padding: "0.85rem 1rem",
                 }}>
-                  <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                  <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
                     {formatDataBreve(p.data)} {p.ora && `· ${p.ora}`} {p.giornata && `· Giornata ${p.giornata}`}
                   </div>
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
@@ -6167,7 +6167,7 @@ function CalendarioCompletoPage() {
 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
               {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
-                <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+                <div key={g} style={{ textAlign: "center", fontSize: "0.72rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
                   {g}
                 </div>
               ))}
@@ -6230,7 +6230,7 @@ function CalendarioCompletoPage() {
                       borderRadius: "10px",
                       padding: "0.85rem 1rem",
                     }}>
-                      <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                      <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
                         {p.categoria || (p.giornata && `Giornata ${p.giornata}`)} {p.ora && `· ${p.ora}`}
                       </div>
                       <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
@@ -6317,7 +6317,7 @@ function AgendaPage() {
 
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
           {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
-            <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+            <div key={g} style={{ textAlign: "center", fontSize: "0.72rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
               {g}
             </div>
           ))}
@@ -6380,7 +6380,7 @@ function AgendaPage() {
                   borderRadius: "10px",
                   padding: "0.85rem 1rem",
                 }}>
-                  <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                  <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
                     {p.categoria} {p.ora && `· ${p.ora}`}
                   </div>
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
@@ -6480,7 +6480,7 @@ function CalendarioRegionaliPage() {
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(7, 1fr)", gap: "3px", marginBottom: "0.5rem", maxWidth: "420px", margin: "0 auto 0.5rem" }}>
           {["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"].map(g => (
-            <div key={g} style={{ textAlign: "center", fontSize: "0.6rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
+            <div key={g} style={{ textAlign: "center", fontSize: "0.72rem", color: "var(--text-dim)", fontWeight: 700, textTransform: "uppercase" }}>
               {g}
             </div>
           ))}
@@ -6543,7 +6543,7 @@ function CalendarioRegionaliPage() {
                   borderRadius: "10px",
                   padding: "0.85rem 1rem",
                 }}>
-                  <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
+                  <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.3rem" }}>
                     {p.giornata && `Giornata ${p.giornata}`} {p.ora && `· ${p.ora}`}
                   </div>
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
@@ -6681,7 +6681,7 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
   return (
     <div style={{ border: "1px solid var(--border)", borderRadius: "10px", padding: "0.75rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
       <div style={{ flex: "1 1 220px", minWidth: 0 }}>
-        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.25rem" }}>
+        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.25rem" }}>
           {dataBreve(p.data)}{p.ora ? ` · ${p.ora}` : ""} · {p.camp}{p.giornata ? ` · G.${p.giornata}` : ""}
         </div>
         <div style={{ fontSize: "0.9rem" }}>
@@ -6901,7 +6901,7 @@ function DirettaOggiHome() {
     <section className="section">
       {lista.map((d, i) => (
         <a key={i} href="#/dirette" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid #e0443e", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(224,68,62,0.08)", marginBottom: "0.6rem" }}>
-          <div style={{ fontSize: "0.68rem", color: "#ff6b66", textTransform: "uppercase", fontWeight: 800, letterSpacing: "0.05em" }}>Oggi in diretta · ore {d.oraInizio}</div>
+          <div style={{ fontSize: "0.72rem", color: "#ff6b66", textTransform: "uppercase", fontWeight: 800, letterSpacing: "0.05em" }}>Oggi in diretta · ore {d.oraInizio}</div>
           <div style={{ marginTop: "0.3rem", fontSize: "1.05rem", fontWeight: 700 }}>{d.casa} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>vs</span> {d.ospite}</div>
           <div style={{ marginTop: "0.2rem", fontSize: "0.8rem", color: "var(--text-dim)" }}>{d.categoria}</div>
           <div style={{ marginTop: "0.5rem", color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem" }}>Guarda la diretta →</div>
@@ -6942,7 +6942,7 @@ function MiaSquadraHome() {
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
-        <div style={{ fontSize: "0.68rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}</div>
+        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}</div>
         {prossima ? (
           <div style={{ marginTop: "0.3rem", fontSize: "0.92rem" }}>
             {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
