@@ -4955,3 +4955,15 @@ body.light-mode .atl-card__sigla, body.light-mode .atl-card__chip, body.light-mo
 .we-card__vs { margin: 0; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
 body.light-mode .we-card__ora { color: #fff; background: #b8860b; }
 body.light-mode .we-card__quando { background: rgba(184,134,11,0.08); border-color: rgba(184,134,11,0.4); color: #8a6508; }
+
+/* === HOME: schede Squadre Umbre Top === */
+.st-card { display: flex; flex-direction: column; gap: 0.7rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 0.9rem; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+.st-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(212,175,55,0.15); border-color: var(--gold); }
+.st-card__testa { display: flex; align-items: center; gap: 0.7rem; }
+.st-card__sigla { flex: 0 0 2.8rem; height: 2.8rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--gold); background: rgba(212,175,55,0.1); color: var(--gold); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.04em; }
+.st-card__chi { display: flex; flex-direction: column; min-width: 0; }
+.st-card__nome { font-size: 0.88rem; font-weight: 700; color: var(--text); line-height: 1.25; }
+.st-card__cat { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.st-card__titolo { margin: 0; font-size: 1rem; font-weight: 700; line-height: 1.4; color: var(--text); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.st-card__piede { margin: auto 0 0; padding-top: 0.6rem; border-top: 1px solid var(--border); font-size: 0.78rem; font-weight: 600; color: var(--text-dim); }
+body.light-mode .st-card__sigla { color: #8a6508; border-color: #b8860b; background: rgba(184,134,11,0.08); }

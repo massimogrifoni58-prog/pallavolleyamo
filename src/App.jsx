@@ -906,12 +906,22 @@ function HomePage({ latestNews = [] }) {
               const ultima = notizie[0];
               const soggetto = (squadreTopData.soggetti || []).find(s => s.id === id);
               if (!ultima) return null;
+              const siglaMappa = { "sir-perugia": "SIR", bartoccini: "BP", tva: "TVA", altotevere: "AT", "citta-castello": "CC", marsciano: "MA" };
+              const sigla = siglaMappa[id] || (soggetto?.nome || "").split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+              const m = (ultima.title || "").match(/^(.*) - ([^-]{3,40})$/);
+              const titolo = m ? m[1] : ultima.title;
+              const fonte = m ? m[2] : "";
               return (
-                <a key={id} href={ultima.link} target="_blank" rel="noreferrer" className="evidenza-card">
-                  <div className="evidenza-card__body">
-                    <p className="evidenza-card__date">{soggetto?.nome} · {soggetto?.categoria}</p>
-                    <h3 className="evidenza-card__title">{ultima.title}</h3>
+                <a key={id} href={ultima.link} target="_blank" rel="noreferrer" className="st-card">
+                  <div className="st-card__testa">
+                    <span className="st-card__sigla">{sigla}</span>
+                    <span className="st-card__chi">
+                      <span className="st-card__nome">{soggetto?.nome}</span>
+                      <span className="st-card__cat">{soggetto?.categoria}</span>
+                    </span>
                   </div>
+                  <h3 className="st-card__titolo">{titolo}</h3>
+                  <p className="st-card__piede">{fonte ? fonte + " · " : ""}Leggi la notizia →</p>
                 </a>
               );
             })}
