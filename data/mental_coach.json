@@ -1,0 +1,227 @@
+{
+ "avviso": "Il Mental Coach offre consigli generali sulla mentalità nello sport. Non sostituisce uno psicologo: se stai attraversando un periodo difficile, parlane con un adulto di cui ti fidi o con un professionista.",
+ "situazioni": [
+  {
+   "categoria": "Dopo un errore",
+   "domanda": "Ho sbagliato una battuta importante e non riesco a smettere di pensarci",
+   "risposta": "Succede a tutte, anche a chi gioca in Serie A. Il punto non è non sbagliare, è quanto tempo ti resta addosso l'errore. La palla successiva è l'unica che puoi ancora giocare, quella di prima ormai è andata.\n\nIl pensiero che ti ronza in testa è normale. Non devi cacciarlo via, devi dargli un posto e tornare al gioco.",
+   "prova": "Dopo l'errore fai un respiro lungo, guarda un punto fisso (la linea, il nastro) e dì a te stessa una parola sola: 'prossima'. Poi pensa solo a dove vuoi mandare la palla."
+  },
+  {
+   "categoria": "Dopo un errore",
+   "domanda": "Dopo un errore mi arrabbio con me stessa e gioco peggio",
+   "risposta": "La rabbia verso te stessa consuma energia che ti serve per giocare. Se ti dici 'sono una frana' dopo ogni errore, il corpo si irrigidisce e l'errore dopo arriva più facilmente.\n\nParlati come parleresti a una compagna che ha appena sbagliato: con rispetto e senza drammi.",
+   "prova": "Scegli una frase tua e corta, per esempio 'va bene, avanti' oppure 'si riparte'. Ripetila ogni volta che sbagli, in allenamento per prima, così diventa un'abitudine."
+  },
+  {
+   "categoria": "Dopo un errore",
+   "domanda": "Ho paura di sbagliare e per questo non tiro più forte",
+   "risposta": "Se giochi per non sbagliare, di solito sbagli lo stesso, e in più giochi senza coraggio. L'errore fa parte del gioco, soprattutto quando provi a fare una cosa difficile.\n\nUna squadra che non rischia mai non migliora. Meglio una battuta forte che finisce in rete che dieci palle morbide che gli avversari mangiano senza problemi.",
+   "prova": "Per tre allenamenti stabilisci con l'allenatore un numero di battute 'coraggiose' da fare. In quelle l'errore non conta, conta solo che tu ci abbia provato."
+  },
+  {
+   "categoria": "Dopo un errore",
+   "domanda": "Ho sbagliato e l'allenatore mi ha sostituita davanti a tutti",
+   "risposta": "È una brutta sensazione e hai il diritto di restarci male. Spesso però il cambio non vuol dire 'sei scarsa': è una scelta tattica o un modo per darti un attimo per respirare.\n\nSe ti rimane il dubbio, non tenerlo dentro. A fine allenamento chiedi con calma: 'Mister, cosa posso migliorare per restare in campo?' Di solito una domanda così fa più effetto di mille broncio.",
+   "prova": "Dopo la partita scrivi su un foglio una cosa che hai fatto bene e una su cui lavorare. Porta la seconda all'allenamento successivo."
+  },
+  {
+   "categoria": "Ansia e pressione",
+   "domanda": "Prima della partita ho il cuore a mille e non riesco a stare ferma",
+   "risposta": "Il cuore che batte forte è il corpo che si prepara a giocare. Non è un segnale che qualcosa va male, anzi: un po' di tensione serve. Il problema nasce quando la leggi come paura.\n\nProva a cambiarle nome: 'sono carica', non 'ho paura'. Sembra una banalità ma funziona più di quanto pensi.",
+   "prova": "Respira dal naso contando fino a 4, poi butta fuori l'aria dalla bocca contando fino a 6. Ripetilo per un minuto, anche in spogliatoio. Allunga l'espirazione: è quella che calma."
+  },
+  {
+   "categoria": "Ansia e pressione",
+   "domanda": "Nei punti decisivi mi tremano le mani",
+   "risposta": "Sui punti importanti ti sembra che tutto pesi di più, ma la palla è sempre la stessa, il campo è sempre lo stesso. Quello che cambia è quanto ci pensi.\n\nLe giocatrici che reggono la pressione non sono quelle che non la sentono, sono quelle che hanno una routine fissa da fare prima di battere o di attaccare.",
+   "prova": "Costruisci una routine di tre gesti sempre uguali: per esempio palleggi la palla due volte, respiri, guardi il bersaglio. Falla identica in allenamento e in partita, anche sul 24-24."
+  },
+  {
+   "categoria": "Ansia e pressione",
+   "domanda": "Ho paura di deludere la squadra",
+   "risposta": "Chi ha paura di deludere gioca per gli altri e non per sé, e questo pesa tantissimo. Le tue compagne non ti chiedono la partita perfetta: ti chiedono di esserci e di provarci.\n\nPensa a quante volte una compagna ha sbagliato e tu non l'hai giudicata. Probabilmente lo stesso vale per te.",
+   "prova": "Prima della partita parla con una compagna di fiducia e dille cosa ti preoccupa. Spesso scopri che pensa le stesse cose."
+  },
+  {
+   "categoria": "Ansia e pressione",
+   "domanda": "Dormo male la notte prima della partita",
+   "risposta": "Succede a molti atleti e una notte storta non rovina la partita: conta di più come dormi nei giorni prima. Il rischio è preoccuparsi di non dormire, e così si dorme ancora peggio.\n\nNon guardare il telefono a letto e tieni gli stessi orari del solito.",
+   "prova": "La sera prepara la borsa, scrivi su un foglio le tre cose che vuoi fare in partita e spegni lo schermo mezz'ora prima. Se non dormi, riposa lo stesso: il corpo recupera anche da sdraiati."
+  },
+  {
+   "categoria": "Ansia e pressione",
+   "domanda": "Mi blocco quando c'è molto pubblico",
+   "risposta": "Con tante persone che guardano sembra che ogni gesto venga giudicato. In realtà la gente guarda la partita e dopo cinque minuti nessuno ricorda chi ha fatto cosa.\n\nTi aiuta restringere l'attenzione: dal campo intero ai piedi, alla palla, al prossimo gesto.",
+   "prova": "Prima di ogni punto guarda i piedi delle avversarie o la palla, non le tribune. Allenati con qualcuno che ti guarda, anche solo due amiche sedute a bordo campo."
+  },
+  {
+   "categoria": "Fiducia in sé",
+   "domanda": "Mi sento meno brava delle altre",
+   "risposta": "Il confronto continuo è una trappola: guardi i loro punti forti e i tuoi punti deboli. Così perdi sempre.\n\nOgni giocatrice ha cose in cui è forte e cose in cui non lo è. Il tuo lavoro è migliorare ogni settimana rispetto a te stessa, non essere come un'altra.",
+   "prova": "Tieni un quaderno: ogni sera una riga con la cosa che ti è riuscita meglio nell'allenamento. Dopo un mese rileggilo."
+  },
+  {
+   "categoria": "Fiducia in sé",
+   "domanda": "Non credo in me quando devo fare qualcosa di nuovo",
+   "risposta": "Una cosa nuova all'inizio viene male, e va bene così. Nessuno nasce con la schiacciata perfetta. La fiducia arriva dopo le ripetizioni, non prima.\n\nNon aspettare di sentirti pronta: comincia in piccolo e alza di poco la difficoltà.",
+   "prova": "Dividi il gesto in tre passi facili e allenali uno alla volta. Quando i primi due vengono, aggiungi il terzo."
+  },
+  {
+   "categoria": "Fiducia in sé",
+   "domanda": "In allenamento sono brava, in partita non rendo",
+   "risposta": "È molto comune. In allenamento nessuno ti giudica, in partita senti il risultato e gli sguardi. Il segreto è portare in partita le sensazioni dell'allenamento.\n\nGli allenamenti dovrebbero somigliare alla gara: punteggio, pressione, conseguenze.",
+   "prova": "In allenamento chiedi di giocare sempre punti con un obiettivo (il primo a 15, una penitenza leggera per chi perde). Così il cervello si abitua a gestire il peso del risultato."
+  },
+  {
+   "categoria": "Fiducia in sé",
+   "domanda": "Dopo un infortunio ho paura di rientrare",
+   "risposta": "Dopo uno stop è normale non fidarsi del corpo. Rientra con calma e segui quello che dicono medico e fisioterapista, senza saltare passaggi.\n\nIl rientro mentale è lento come quello fisico. Alcune partite andranno a metà del tuo livello e va bene.",
+   "prova": "Fissa piccoli obiettivi settimanali (una battuta, un set, un ruolo). Festeggia ogni passo, anche piccolo."
+  },
+  {
+   "categoria": "Panchina e ruolo",
+   "domanda": "Sto sempre in panchina e mi sento inutile",
+   "risposta": "Stare fuori è dura, ma la panchina non è un posto da spettatrice. Chi rimane lì e continua a lavorare bene è quella che, quando serve, entra pronta.\n\nParla con l'allenatore e chiedi chiaramente cosa ti manca per giocare di più. Una risposta sincera vale più di mille ipotesi.",
+   "prova": "Chiedi all'allenatore due cose concrete su cui lavorare e portale in ogni allenamento. Quando entri, dai il massimo nei primi due punti: quelli restano in mente."
+  },
+  {
+   "categoria": "Panchina e ruolo",
+   "domanda": "Entro dalla panchina a freddo e sbaglio subito",
+   "risposta": "Entrare a freddo è una delle cose più difficili della pallavolo. Non è colpa tua se i primi palloni sono duri.\n\nPrepara il corpo prima di entrare, non quando l'allenatore ti chiama.",
+   "prova": "Dalla panchina muoviti: salti leggeri, circonduzioni di spalle, qualche palleggio contro il muro. Prima di entrare ripeti dentro di te la prima cosa che farai."
+  },
+  {
+   "categoria": "Panchina e ruolo",
+   "domanda": "Non mi piace il ruolo che mi hanno dato",
+   "risposta": "Cambiare ruolo può sembrare un passo indietro. Spesso è un'occasione: molte grandi giocatrici hanno fatto carriera in un ruolo diverso da quello che sognavano all'inizio.\n\nAscolta le motivazioni dell'allenatore e prova per un periodo definito.",
+   "prova": "Concorda con l'allenatore un periodo di prova di sei settimane, poi parlatene di nuovo. Così sai che non è per sempre e puoi darti davvero."
+  },
+  {
+   "categoria": "Panchina e ruolo",
+   "domanda": "Voglio fare la capitana ma non so da dove cominciare",
+   "risposta": "Capitana non è quella che parla di più, è quella che fa stare bene la squadra e dà l'esempio. Si comincia dai gesti piccoli: arrivare per prima, incoraggiare chi sbaglia, ascoltare.\n\nNon serve la fascia al braccio per iniziare a comportarti da leader.",
+   "prova": "Questa settimana dì una frase di incoraggiamento a ogni compagna prima di un allenamento. Vedrai come cambia l'aria."
+  },
+  {
+   "categoria": "Squadra e compagne",
+   "domanda": "Una compagna mi sgrida in campo e mi dà fastidio",
+   "risposta": "Quando qualcuno ti richiama in campo spesso lo fa per l'adrenalina, non per cattiveria. Però il modo conta, e puoi dirlo.\n\nNon rispondere durante il punto: parlane dopo, con calma, a quattr'occhi.",
+   "prova": "Dopo l'allenamento di' alla compagna: 'In campo mi aiuta se mi dici cosa fare, non cosa ho sbagliato'. Spiegare cosa ti serve funziona meglio di arrabbiarsi."
+  },
+  {
+   "categoria": "Squadra e compagne",
+   "domanda": "Nella squadra ci sono gruppetti e mi sento esclusa",
+   "risposta": "Sentirsi fuori dal gruppo fa male, soprattutto se passi tanto tempo con quelle persone. Di solito basta fare il primo passo piccolo: chiedere una cosa, offrire un passaggio, mandare un messaggio.\n\nNon serve essere amica di tutte, serve avere rispetto in campo e almeno una persona con cui stare bene.",
+   "prova": "Scegli una compagna con cui non hai mai parlato molto e proponile di fare esercizi insieme prima dell'allenamento. Una al mese è già tanto."
+  },
+  {
+   "categoria": "Squadra e compagne",
+   "domanda": "Come si recupera il gruppo dopo una brutta sconfitta?",
+   "risposta": "Dopo una sconfitta pesante ognuno ha bisogno di sfogarsi. Il gruppo riparte quando si smette di cercare colpevoli e si guarda avanti insieme.\n\nUna squadra che si parla con sincerità e rispetto dopo una partita storta cresce più di una che perde senza dirsi niente.",
+   "prova": "Il giorno dopo, tutte insieme, ognuna dice una cosa che ha fatto bene e una che può migliorare. Poi si cambia argomento e si torna ad allenarsi."
+  },
+  {
+   "categoria": "Squadra e compagne",
+   "domanda": "C'è una compagna che sbaglia sempre e mi innervosisco",
+   "risposta": "Chi sbaglia spesso di solito è la prima a stare male. Se la rimproveri peggiori le cose: si irrigidisce e sbaglia ancora di più.\n\nIl tuo compito è aiutarla a tornare tranquilla, non farle sentire il peso.",
+   "prova": "Dopo l'errore avvicinati, batti il cinque e dille una frase sola: 'Dai, la prossima è tua.' Sembra poco, ma cambia il punto dopo."
+  },
+  {
+   "categoria": "Con l'allenatore",
+   "domanda": "L'allenatore mi urla addosso e non so come reagire",
+   "risposta": "Alcuni allenatori alzano la voce per energia, ma sentirsi urlare addosso non ti deve mai far sentire umiliata. Se succede, vale la pena parlarne con calma, in un momento neutro.\n\nSe ti sembra che superi il limite, parlane con un genitore o con il dirigente: hai il diritto di sentirti rispettata.",
+   "prova": "Chiedi un colloquio a fine allenamento e prepara una frase semplice: 'Mi aiuta di più se mi spiega cosa devo correggere con un tono più calmo.'"
+  },
+  {
+   "categoria": "Con l'allenatore",
+   "domanda": "Non capisco cosa vuole da me l'allenatore",
+   "risposta": "Quando una richiesta non è chiara, chiedere non è debolezza: è professionalità. Meglio una domanda in più oggi che un malinteso per mesi.\n\nChiedi un esempio concreto: 'Può farmi vedere cosa intende?'",
+   "prova": "Alla prossima indicazione ripetila con parole tue: 'Quindi devo fare così, giusto?' Se hai capito male, se ne accorge subito."
+  },
+  {
+   "categoria": "Con l'allenatore",
+   "domanda": "Penso di meritare più spazio ma non ho il coraggio di dirlo",
+   "risposta": "Dirlo con calma è un segno di maturità. L'importante è farlo fuori dall'allenamento e senza paragonarti a nessuna compagna.\n\nPorta fatti, non lamentele: cosa stai facendo per migliorare e cosa speri di ottenere.",
+   "prova": "Scrivi in tre righe cosa vuoi dire, poi chiedi due minuti all'allenatore. Ascolta la risposta senza interrompere, anche se non ti piace."
+  },
+  {
+   "categoria": "Genitori",
+   "domanda": "I miei genitori mi danno consigli dagli spalti e mi distraggono",
+   "risposta": "I genitori vogliono aiutare, ma dagli spalti a volte aggiungono pressione senza accorgersene. Se ti disturba, puoi dirlo, in un momento tranquillo e con gentilezza.\n\nPuoi chiedere un accordo semplice: in partita ti incoraggiano e basta, i consigli ne parlate a casa.",
+   "prova": "Prima della prossima partita di' ai tuoi: 'Mi fa piacere se mi tifate, ma i consigli dopo, in macchina, quando sono più tranquilla.'"
+  },
+  {
+   "categoria": "Genitori",
+   "domanda": "Come devo comportarmi da genitore durante la partita?",
+   "risposta": "Il tuo ruolo è il tifoso più sereno del palazzetto: applaudi i punti, applaudi anche gli errori, rispetta arbitro e avversari. I ragazzi guardano come ti comporti e imparano.\n\nI consigli tecnici sono compito dell'allenatore: se dai indicazioni diverse, il ragazzo non sa chi ascoltare.",
+   "prova": "In macchina, dopo la partita, chiedi per prima cosa: 'Ti sei divertita?' Parlerete di errori e risultato solo se è lei a volerlo."
+  },
+  {
+   "categoria": "Genitori",
+   "domanda": "Mia figlia vuole smettere dopo una sconfitta, che faccio?",
+   "risposta": "Dopo una brutta partita le decisioni a caldo non sono affidabili. Lasciala sfogare, ascoltala senza giudicare e rimanda ogni scelta di qualche giorno.\n\nSe il desiderio di smettere resta anche dopo settimane, probabilmente c'è qualcosa di più profondo da capire: la squadra, l'allenatore, la stanchezza.",
+   "prova": "Aspetta tre giorni, poi chiedi con calma: 'Cosa ti pesa di più in questo periodo?' Ascolta più che parlare."
+  },
+  {
+   "categoria": "Genitori",
+   "domanda": "Mio figlio sbaglia e si dispera, come lo aiuto?",
+   "risposta": "Ai ragazzi non serve sentirsi dire 'non è niente' subito. Prima serve capire che li hai visti e che li accetti anche quando sbagliano.\n\nPoi, a mente fredda, ricordagli che gli errori fanno parte di ogni percorso.",
+   "prova": "Digli: 'Mi è piaciuto come hai provato a rialzarti dopo l'errore.' Valorizza l'atteggiamento, non il risultato."
+  },
+  {
+   "categoria": "Motivazione e allenamento",
+   "domanda": "Non ho voglia di allenarmi",
+   "risposta": "Capita a tutti e non vuol dire che il volley non ti piaccia più. Spesso è stanchezza, scuola, o periodo pieno. Il trucco è non decidere in base al 'ho voglia' ma al 'ho un impegno'.\n\nDi solito la voglia arriva dopo i primi dieci minuti di allenamento.",
+   "prova": "Fai solo l'inizio: vai in palestra, fai il riscaldamento. Se dopo dieci minuti vuoi ancora andare via, ne parli. Quasi sempre resti."
+  },
+  {
+   "categoria": "Motivazione e allenamento",
+   "domanda": "Come mi pongo un obiettivo che sia davvero mio?",
+   "risposta": "Un obiettivo vero è piccolo, misurabile e dipende da te, non dalle altre. 'Vincere il campionato' dipende da tutte, 'ricevere meglio' dipende da te.\n\nDividi l'obiettivo grande in tappe da un mese.",
+   "prova": "Scrivi: cosa voglio migliorare, come lo misuro, entro quando. Per esempio: 'Su 10 ricezioni, 7 precise entro fine novembre.'"
+  },
+  {
+   "categoria": "Motivazione e allenamento",
+   "domanda": "Mi alleno tanto ma non vedo miglioramenti",
+   "risposta": "Il miglioramento nello sport non è una linea dritta: ci sono periodi in cui sembra di non muoversi e poi tutto scatta. Succede a tutti.\n\nControlla se ti alleni con uno scopo preciso o ripeti solo i gesti. Qualità e attenzione contano più delle ore.",
+   "prova": "A ogni allenamento scegli una cosa sola da curare. Alla fine chiediti: 'L'ho fatta meglio di ieri?'"
+  },
+  {
+   "categoria": "Motivazione e allenamento",
+   "domanda": "Come concilio scuola e pallavolo?",
+   "risposta": "Chi riesce a fare bene entrambe di solito ha una routine semplice e la rispetta: compiti a orari fissi, sonno regolare, tempo per respirare.\n\nSe un periodo di verifiche ti schiaccia, parlane con l'allenatore: capirà.",
+   "prova": "Segna ogni domenica sera le tre cose più importanti della settimana (scuola e sport) e distribuiscile sui giorni. Meno improvvisazione, meno ansia."
+  },
+  {
+   "categoria": "Il giorno della partita",
+   "domanda": "Cosa faccio nei minuti prima di entrare in campo?",
+   "risposta": "Non cercare di fare mille cose. Tre cose bastano: muovere il corpo, respirare, avere un'idea chiara di cosa vuoi fare nei primi punti.\n\nEvita di rileggere gli errori della scorsa settimana: oggi è un'altra partita.",
+   "prova": "Riscaldamento serio, due respiri lunghi, e una frase sola da dirti: per esempio 'prima palla, tutta qui'."
+  },
+  {
+   "categoria": "Il giorno della partita",
+   "domanda": "Come reagisco quando l'arbitro sbaglia una decisione?",
+   "risposta": "Succede e può far arrabbiare, ma discutere con l'arbitro non cambia il punto e ti toglie lucidità. Il punto è già segnato, quello dopo lo puoi ancora giocare.\n\nSe la rabbia sale, dai la responsabilità al capitano di parlare per la squadra.",
+   "prova": "Respiro, guardo il pavimento per un secondo, poi alzo lo sguardo sulla prossima battuta. Il fastidio lo sfoghi dopo la partita, non durante."
+  },
+  {
+   "categoria": "Il giorno della partita",
+   "domanda": "Siamo sotto di due set, come si riparte?",
+   "risposta": "Essere sotto non è finita: le partite si ribaltano più spesso di quanto sembri. Non pensare a tutta la rimonta, pensa solo al punto che hai davanti.\n\nUn set dura 25 punti, una rimonta si costruisce un punto alla volta.",
+   "prova": "Nell'intervallo tra i set, tutte insieme, scegliete una cosa sola da cambiare. Una, non dieci. Poi ripartite con la battuta successiva."
+  },
+  {
+   "categoria": "Il giorno della partita",
+   "domanda": "Come gestisco la sconfitta dopo la partita?",
+   "risposta": "Concediti qualche minuto per restarci male, è normale. Poi, senza buttarti giù, cerca cosa puoi portare via: una cosa che ha funzionato e una da migliorare.\n\nNon rivedere la partita a letto, la sera. Lascia passare una notte.",
+   "prova": "Il giorno dopo scrivi due righe: cosa ho fatto bene, cosa voglio migliorare. Poi chiudi il quaderno e pensa all'allenamento."
+  },
+  {
+   "categoria": "Il giorno della partita",
+   "domanda": "Come si festeggia una vittoria senza esaltarsi troppo?",
+   "risposta": "Goditi la vittoria, te la sei guadagnata. Ma tieni la testa sul prossimo allenamento: quello che ti ha fatto vincere si ripete solo se continui a lavorare.\n\nRispetta sempre le avversarie: oggi vinci tu, domani chissà.",
+   "prova": "Dopo la partita ringrazia chi ti ha aiutato (compagne, allenatore, genitori). Poi, nell'allenamento successivo, riparti dall'inizio come se fosse la prima volta."
+  }
+ ]
+}

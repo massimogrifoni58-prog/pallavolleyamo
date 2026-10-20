@@ -17,6 +17,7 @@ import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
 import marcatriciData from "../data/marcatrici.json";
 import glossarioData from "../data/glossario.json";
+import mentalCoachData from "../data/mental_coach.json";
 import { Analytics } from '@vercel/analytics/react';
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import mercatoData from "../data/mercato.json";
@@ -4058,6 +4059,50 @@ function FondamentaliPage() {
     </main>
   );
 }
+function MentalCoachDomande() {
+  const tutte = mentalCoachData.situazioni || [];
+  const categorie = [...new Set(tutte.map((x) => x.categoria))];
+  const [cat, setCat] = useState("");
+  const [cerca, setCerca] = useState("");
+  const [aperta, setAperta] = useState(null);
+  const q = cerca.trim().toLowerCase();
+  const lista = tutte.filter((x) => (!cat || x.categoria === cat) && (!q || (x.domanda + " " + x.risposta).toLowerCase().includes(q)));
+  return (
+    <div className="mc-box">
+      <h2 className="mc-titolo">Chiedi al Mental Coach</h2>
+      <p className="mc-sub">Scegli la situazione che ti somiglia di più e leggi cosa fare. Le risposte sono pensate per giocatrici, giocatori, allenatori e genitori.</p>
+      <input className="mc-cerca" type="search" placeholder="Cerca una parola, per esempio ansia, battuta, panchina" value={cerca} onChange={(e) => { setCerca(e.target.value); setAperta(null); }} />
+      <div className="mc-cats">
+        <button className={"mc-cat" + (cat === "" ? " mc-cat--sel" : "")} onClick={() => { setCat(""); setAperta(null); }}>Tutte</button>
+        {categorie.map((c) => (
+          <button key={c} className={"mc-cat" + (cat === c ? " mc-cat--sel" : "")} onClick={() => { setCat(c); setAperta(null); }}>{c}</button>
+        ))}
+      </div>
+      <div className="mc-lista">
+        {lista.length === 0 && <p className="mc-vuoto">Nessuna situazione trovata. Prova con un'altra parola o scegli una categoria.</p>}
+        {lista.map((x) => {
+          const aprta = aperta === x.domanda;
+          return (
+            <div key={x.domanda} className={"mc-voce" + (aprta ? " mc-voce--aperta" : "")}>
+              <button className="mc-domanda" aria-expanded={aprta} onClick={() => setAperta(aprta ? null : x.domanda)}>
+                <span className="mc-domanda__cat">{x.categoria}</span>
+                <span className="mc-domanda__testo">{x.domanda}</span>
+              </button>
+              {aprta && (
+                <div className="mc-risposta">
+                  {x.risposta.split("\n\n").map((par, i) => <p key={i}>{par}</p>)}
+                  <p className="mc-prova"><strong>Prova così.</strong> {x.prova}</p>
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+      <p className="mc-avviso">{mentalCoachData.avviso}</p>
+    </div>
+  );
+}
+
 function MentalCoachPage() {
   const argomenti = [
     {
@@ -4088,6 +4133,7 @@ function MentalCoachPage() {
         <p className="state" style={{ marginBottom: "1.5rem", fontSize: "0.85rem" }}>
           L'allenamento mentale del volley: gestione dell'errore, concentrazione, pressione e comunicazione di squadra.
         </p>
+        <MentalCoachDomande />
         {argomenti.map(arg => (
           <div key={arg.id} style={{ marginBottom: "2.5rem" }}>
             <h2 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: "1.6rem", color: "var(--gold)", marginBottom: "0.2rem" }}>
