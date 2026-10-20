@@ -561,12 +561,12 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Notizie"
           subscribed={subscribed}
           items={[
-            { href: "#/nazionale", label: "News delle Nazionali", sub: "Le ultime su azzurre e azzurri", locked: true },
-            { href: "#/nazionali", label: "News Campionati Naz.", sub: "Serie A, B e campionati nazionali", locked: true },
-            { href: "#/regionali", label: "News Regionali", sub: "Serie C, D e giovanili dell'Umbria", locked: true },
-            { href: "#/terni", label: "News Prov. TR", sub: "Dalla provincia di Terni", locked: true },
-            { href: "#/perugia", label: "News Prov. PG", sub: "Dalla provincia di Perugia", locked: true },
-            { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice", locked: true },
+            { href: "#/nazionale", label: "News delle Nazionali", sub: "Le ultime su azzurre e azzurri" },
+            { href: "#/nazionali", label: "News Campionati Naz.", sub: "Serie A, B e campionati nazionali" },
+            { href: "#/regionali", label: "News Regionali", sub: "Serie C, D e giovanili dell'Umbria" },
+            { href: "#/terni", label: "News Prov. TR", sub: "Dalla provincia di Terni" },
+            { href: "#/perugia", label: "News Prov. PG", sub: "Dalla provincia di Perugia" },
+            { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice" },
           ]}
         />
 <NavDropdown
@@ -574,7 +574,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
-            { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società", locked: true },
+            { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società" },
             { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
           ]}
         />
@@ -598,7 +598,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
             { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
             { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
-            { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre", locked: true },
+            { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre" },
             { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati" },
           ]}
         />
@@ -607,18 +607,18 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/palestra", label: "Inizia da qui", sub: "Tecnica, fisico, mente e schede: da dove partire" },
-            { href: "#/fondamentali", label: "Tecnica", sub: "Fondamentali e gesti tecnici", locked: true },
-            { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica", locked: true },
-            { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione", locked: true },
-            { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare", locked: true },
+            { href: "#/fondamentali", label: "Tecnica", sub: "Fondamentali e gesti tecnici" },
+            { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
+            { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione" },
+            { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare" },
           ]}
         />
         <NavDropdown
           label="Allenatori"
           subscribed={subscribed}
           items={[
-            { href: "#/allenatori2", label: "Cerca Allenatore", sub: "Trova il tecnico giusto", locked: true },
-            { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", locked: true, largo: true },
+            { href: "#/allenatori2", label: "Cerca Allenatore", sub: "Trova il tecnico giusto" },
+            { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", largo: true },
           ]}
         />
       </nav>
