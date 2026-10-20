@@ -1,0 +1,30 @@
+name: Post programma del weekend su Facebook (venerdi)
+
+on:
+  schedule:
+    - cron: "0 13 * * 5"   # ogni venerdi' alle 13:00 UTC (14:00/15:00 in Italia)
+  workflow_dispatch:
+    inputs:
+      pubblica:
+        description: "Scrivi si per pubblicare davvero (altrimenti e' solo una prova)"
+        default: "no"
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Prepara e pubblica il post del weekend
+        env:
+          FB_PAGE_TOKEN_POST2: ${{ secrets.FB_PAGE_TOKEN_POST2 || secrets.FB_PAGE_TOKEN2 }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          PUBBLICA: ${{ (github.event_name == 'schedule' || github.event.inputs.pubblica == 'si') && '1' || '0' }}
+        run: python scraper/post_venerdi.py
