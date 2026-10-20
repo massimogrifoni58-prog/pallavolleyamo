@@ -5029,25 +5029,3 @@ body.light-mode .risultati-mini__score { color: #8a6508; background: rgba(184,13
 .bm-card__live { padding: 0.4rem 1rem; border-radius: 999px; background: var(--gold); color: #111; font-weight: 800; font-size: 0.85rem; }
 body.light-mode .bm-card__blocco strong { color: #8a6508; }
 @media (max-width: 520px) { .bm-card__squadra { font-size: 1.2rem; } .bm-card__blocco { min-width: 3.6rem; } .bm-card__blocco strong { font-size: 1.5rem; } }
-
-/* === Il Palleggio === */
-.pl-box { max-width: 440px; margin: 1rem 0 2rem; }
-.pl-top { display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-dim); }
-.pl-campo { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid rgba(212,175,55,0.45); line-height: 0; }
-.pl-canvas { display: block; width: 100%; height: auto; aspect-ratio: 400 / 560; touch-action: none; user-select: none; -webkit-user-select: none; cursor: pointer; }
-.pl-velo { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.7rem; line-height: 1.3; background: rgba(10,18,32,0.62); text-align: center; padding: 1rem; }
-.pl-velo__etichetta { margin: 0; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: #ddd; }
-.pl-velo__punti { margin: 0; font-size: 2.6rem; font-weight: 800; color: var(--gold); }
-.pl-velo__testo { margin: 0; font-size: 1rem; font-weight: 700; color: #fff; }
-.pl-velo .qz-link { color: var(--gold); }
-
-.qz-btn { padding: 0.7rem 1.4rem; font-size: 0.95rem; font-weight: 800; font-family: inherit; border: 0; border-radius: 999px; cursor: pointer; background: var(--gold); color: #111; }
-.qz-link { display: block; margin-top: 1rem; font-size: 0.9rem; color: var(--gold); }
-
-.pl-livelli { display: flex; gap: 0.4rem; margin-bottom: 0.7rem; }
-.pl-liv { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 0.1rem; padding: 0.45rem 0.2rem; font-family: inherit; border-radius: 10px; cursor: pointer; color: var(--text); background: transparent; border: 1px solid var(--border); }
-.pl-liv strong { font-size: 1.05rem; color: var(--gold); }
-.pl-liv span { font-size: 0.62rem; letter-spacing: 0.03em; text-transform: uppercase; color: var(--text-dim); white-space: nowrap; }
-.pl-liv--sel { border-color: var(--gold); background: rgba(212,175,55,0.12); }
-.pl-liv--chiuso { opacity: 0.55; }
-.pl-liv:disabled { cursor: default; }
