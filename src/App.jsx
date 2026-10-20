@@ -1503,13 +1503,19 @@ function AllenatoreVirtualePage() {
 
   const [testo, setTesto] = useState("");
   const [risposta, setRisposta] = useState(null);
+  const rispostaRef = React.useRef(null);
+  useEffect(() => {
+    if (risposta && rispostaRef.current) {
+      try { rispostaRef.current.scrollIntoView({ behavior: "smooth", block: "start" }); } catch (e) { /* ignora */ }
+    }
+  }, [risposta]);
 
   const chiedi = (domanda) => {
     const q = domanda.trim();
     if (!q) return;
-    const base = avToken(avNorm(q).split(/\s+/).map((w) => AV_ALIAS[w] || w).join(" "));
+    const base = avToken(avNorm(q).split(/\s+/).map((w) => (Object.prototype.hasOwnProperty.call(AV_ALIAS, w) ? AV_ALIAS[w] : w)).join(" "));
     const sin = [];
-    avNorm(q).split(/\s+/).forEach((w) => (AV_SINONIMI[w] || []).forEach((x) => sin.push(avStem(x))));
+    avNorm(q).split(/\s+/).forEach((w) => (Object.prototype.hasOwnProperty.call(AV_SINONIMI, w) ? AV_SINONIMI[w] : []).forEach((x) => sin.push(avStem(x))));
     const punta = (parole, doc, peso) => {
       let sc = 0;
       parole.forEach((w) => {
@@ -1560,7 +1566,7 @@ function AllenatoreVirtualePage() {
       </div>
 
       {risposta && (
-        <div className="av-risposta">
+        <div className="av-risposta" ref={rispostaRef} style={{ scrollMarginTop: "80px" }}>
           <p className="av-domanda">Hai chiesto: {risposta.domanda}</p>
           {risposta.risultati.length === 0 && risposta.pagine.length === 0 && (
             <div className="mc-box">
