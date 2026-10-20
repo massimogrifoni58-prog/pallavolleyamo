@@ -785,6 +785,14 @@ function HomePage({ latestNews = [] }) {
       mostra,
       tc,
       quando: (p) => giorno(p.data) + (p.ora ? " · " + p.ora : "") + " · " + (p.campionato || "").replace(/ Girone.*$/, ""),
+      breve: (p) => {
+        const d = new Date(p.data + "T12:00:00");
+        return {
+          g: d.toLocaleDateString("it-IT", { weekday: "short" }).replace(".", ""),
+          n: d.getDate(),
+          m: d.toLocaleDateString("it-IT", { month: "short" }).replace(".", ""),
+        };
+      },
     };
   })();
 
@@ -830,10 +838,18 @@ function HomePage({ latestNews = [] }) {
           </div>
           <div className="evidenza-grid">
             {weekendHome.mostra.map((p) => (
-              <a key={p.id} href="#/weekend-umbria" className="evidenza-card">
-                <div className="evidenza-card__body">
-                  <p className="evidenza-card__date">{weekendHome.quando(p)}</p>
-                  <h3 className="evidenza-card__title">{weekendHome.tc(p.casa)} – {weekendHome.tc(p.ospite)}</h3>
+              <a key={p.id} href="#/weekend-umbria" className="we-card">
+                <div className="we-card__quando">
+                  <span className="we-card__giorno">{weekendHome.breve(p).g}</span>
+                  <span className="we-card__num">{weekendHome.breve(p).n}</span>
+                  <span className="we-card__mese">{weekendHome.breve(p).m}</span>
+                  {p.ora && <span className="we-card__ora">{p.ora}</span>}
+                </div>
+                <div className="we-card__corpo">
+                  <p className="we-card__camp">{(p.campionato || "").replace(/ Girone.*$/, "")}</p>
+                  <p className="we-card__squadra">{weekendHome.tc(p.casa)}</p>
+                  <p className="we-card__vs">contro</p>
+                  <p className="we-card__squadra">{weekendHome.tc(p.ospite)}</p>
                 </div>
               </a>
             ))}

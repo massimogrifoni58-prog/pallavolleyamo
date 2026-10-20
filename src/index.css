@@ -4940,3 +4940,18 @@ body.light-mode .atl-card__sigla, body.light-mode .atl-card__chip, body.light-mo
   .ticker__label { font-size: 0.68rem !important; }
   .ticker__single { font-size: 0.78rem !important; }
 }
+
+/* === HOME: schede del weekend === */
+.we-card { display: flex; gap: 0.9rem; align-items: stretch; background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 0.8rem; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+.we-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(212,175,55,0.15); border-color: var(--gold); }
+.we-card__quando { flex: 0 0 4.2rem; align-self: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.05rem; border-radius: 10px; padding: 0.5rem 0.3rem; background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.35); color: var(--gold); text-align: center; }
+.we-card__giorno { font-size: 0.72rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+.we-card__num { font-size: 1.7rem; font-weight: 800; line-height: 1; color: var(--text); }
+.we-card__mese { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.we-card__ora { margin-top: 0.35rem; padding: 0.1rem 0.5rem; border-radius: 999px; background: var(--gold); color: #111; font-size: 0.78rem; font-weight: 800; }
+.we-card__corpo { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 0.1rem; }
+.we-card__camp { margin: 0 0 0.3rem; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.we-card__squadra { margin: 0; font-size: 0.98rem; font-weight: 700; line-height: 1.3; color: var(--text); }
+.we-card__vs { margin: 0; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+body.light-mode .we-card__ora { color: #fff; background: #b8860b; }
+body.light-mode .we-card__quando { background: rgba(184,134,11,0.08); border-color: rgba(184,134,11,0.4); color: #8a6508; }
