@@ -611,6 +611,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
             { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione" },
             { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare" },
+            { href: "#/palleggio", label: "Il Palleggio", sub: "Il gioco: tieni il pallone in aria", evidenza: true },
           ]}
         />
         <NavDropdown
@@ -1098,6 +1099,162 @@ function ArticoloCard({ articolo, onOpen }) {
     </div>
   );
 }
+function PalleggioPage() {
+  const canvasRef = React.useRef(null);
+  const statoRef = React.useRef(null);
+  const [fase, setFase] = useState("inizio");
+  const [punti, setPunti] = useState(0);
+  const [record, setRecord] = useState(() => {
+    try { return Number(localStorage.getItem("pva_palleggio_record")) || 0; } catch (e) { return 0; }
+  });
+  const W = 400, H = 560, R = 38;
+
+  const nuovoStato = () => ({ x: W / 2, y: 190, vx: 0, vy: 0, ang: 0, punti: 0, parti: [], vivo: true, tocchi: 0, onda: 0 });
+
+  useEffect(() => {
+    const cv = canvasRef.current;
+    if (!cv) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    cv.width = W * dpr; cv.height = H * dpr;
+    const ctx = cv.getContext("2d");
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    statoRef.current = statoRef.current || nuovoStato();
+    let raf, ultimo = performance.now();
+
+    const pallone = (st) => {
+      ctx.save();
+      ctx.translate(st.x, st.y);
+      ctx.rotate(st.ang);
+      ctx.beginPath(); ctx.arc(0, 0, R, 0, Math.PI * 2); ctx.closePath();
+      ctx.fillStyle = "#f6f3ea"; ctx.fill();
+      ctx.save(); ctx.clip();
+      const fasce = ["#d4af37", "#2f6db5"];
+      for (let k = 0; k < 3; k++) {
+        ctx.save(); ctx.rotate((k * Math.PI * 2) / 3);
+        ctx.beginPath(); ctx.moveTo(-R, -R * 0.25);
+        ctx.quadraticCurveTo(0, -R * 0.75, R, -R * 0.25);
+        ctx.lineTo(R, R * 0.05);
+        ctx.quadraticCurveTo(0, -R * 0.45, -R, R * 0.05);
+        ctx.closePath();
+        ctx.fillStyle = fasce[k % 2]; ctx.fill();
+        ctx.restore();
+      }
+      ctx.restore();
+      ctx.lineWidth = 2; ctx.strokeStyle = "rgba(0,0,0,0.35)"; ctx.stroke();
+      ctx.restore();
+    };
+
+    const disegna = (st) => {
+      const g = ctx.createLinearGradient(0, 0, 0, H);
+      g.addColorStop(0, "#14233d"); g.addColorStop(0.7, "#1d3557"); g.addColorStop(1, "#c8884a");
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+      // parquet
+      ctx.fillStyle = "#c8884a"; ctx.fillRect(0, H - 70, W, 70);
+      ctx.strokeStyle = "rgba(255,255,255,0.7)"; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.moveTo(0, H - 70); ctx.lineTo(W, H - 70); ctx.stroke();
+      ctx.strokeStyle = "rgba(255,255,255,0.35)"; ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(0, H - 30); ctx.lineTo(W, H - 30); ctx.stroke();
+      // ombra
+      const alt = Math.max(0, (H - 70 - st.y) / H);
+      ctx.fillStyle = "rgba(0,0,0," + (0.3 - alt * 0.2) + ")";
+      ctx.beginPath(); ctx.ellipse(st.x, H - 50, R * (1 - alt * 0.5), 9 * (1 - alt * 0.5), 0, 0, Math.PI * 2); ctx.fill();
+      // onda al tocco
+      if (st.onda > 0) {
+        ctx.strokeStyle = "rgba(212,175,55," + st.onda / 14 + ")"; ctx.lineWidth = 3;
+        ctx.beginPath(); ctx.arc(st.x, st.y, R + (14 - st.onda) * 3, 0, Math.PI * 2); ctx.stroke();
+      }
+      pallone(st);
+      st.parti.forEach((q) => { ctx.fillStyle = "rgba(212,175,55," + q.v / 20 + ")"; ctx.beginPath(); ctx.arc(q.x, q.y, 3, 0, Math.PI * 2); ctx.fill(); });
+      ctx.fillStyle = "#fff"; ctx.font = "800 54px system-ui, sans-serif"; ctx.textAlign = "center";
+      ctx.globalAlpha = 0.9; ctx.fillText(String(st.punti), W / 2, 70); ctx.globalAlpha = 1;
+    };
+
+    const ciclo = (t) => {
+      const st = statoRef.current;
+      const dt = Math.min((t - ultimo) / 16.67, 2.5);
+      ultimo = t;
+      if (st.vivo && st.attivo) {
+        const grav = 0.34 + Math.min(st.punti, 40) * 0.004;
+        st.vy += grav * dt;
+        st.x += st.vx * dt; st.y += st.vy * dt;
+        st.ang += (st.vx * 0.02) * dt;
+        if (st.x < R) { st.x = R; st.vx = Math.abs(st.vx) * 0.9; }
+        if (st.x > W - R) { st.x = W - R; st.vx = -Math.abs(st.vx) * 0.9; }
+        if (st.y < R) { st.y = R; st.vy = Math.abs(st.vy) * 0.5; }
+        if (st.y > H - 70 + R * 0.4) {
+          st.vivo = false;
+          setPunti(st.punti);
+          setRecord((r) => {
+            const n = Math.max(r, st.punti);
+            try { localStorage.setItem("pva_palleggio_record", String(n)); } catch (e) {}
+            return n;
+          });
+          setFase("fine");
+        }
+      }
+      st.parti.forEach((q) => { q.x += q.vx * dt; q.y += q.vy * dt; q.vy += 0.2 * dt; q.v -= dt; });
+      st.parti = st.parti.filter((q) => q.v > 0);
+      if (st.onda > 0) st.onda -= dt;
+      disegna(st);
+      raf = requestAnimationFrame(ciclo);
+    };
+    raf = requestAnimationFrame(ciclo);
+    return () => cancelAnimationFrame(raf);
+  }, []);
+
+  const tocca = (e) => {
+    const st = statoRef.current;
+    if (!st || !st.vivo || !st.attivo) return;
+    const r = canvasRef.current.getBoundingClientRect();
+    const px = ((e.clientX - r.left) / r.width) * W;
+    const py = ((e.clientY - r.top) / r.height) * H;
+    const dx = st.x - px, dy = st.y - py;
+    if (Math.hypot(dx, dy) > R * 1.9) return;
+    st.punti += 1;
+    st.vy = -(10.5 + Math.min(st.punti, 30) * 0.12);
+    st.vx = Math.max(-7, Math.min(7, (dx / R) * 5.5));
+    st.onda = 14;
+    for (let k = 0; k < 10; k++) st.parti.push({ x: st.x, y: st.y + R * 0.6, vx: (Math.random() - 0.5) * 6, vy: Math.random() * -4, v: 14 + Math.random() * 6 });
+    setPunti(st.punti);
+  };
+
+  const via = () => {
+    statoRef.current = nuovoStato();
+    statoRef.current.attivo = true;
+    statoRef.current.vy = -6;
+    setPunti(0);
+    setFase("gioco");
+  };
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Il Palleggio</h1>
+      <p className="page-subtitle">Tocca il pallone per tenerlo in aria. Colpiscilo a sinistra per mandarlo a destra, e al contrario. Quanti tocchi riesci a fare?</p>
+      <div className="pl-box">
+        <div className="pl-top"><span>Record: {record}</span><span>Tocchi: {fase === "gioco" ? punti : fase === "fine" ? punti : 0}</span></div>
+        <div className="pl-campo">
+          <canvas ref={canvasRef} className="pl-canvas" onPointerDown={tocca} />
+          {fase !== "gioco" && (
+            <div className="pl-velo">
+              {fase === "fine" && (
+                <>
+                  <p className="pl-velo__etichetta">Palla a terra</p>
+                  <p className="pl-velo__punti">{punti} {punti === 1 ? "tocco" : "tocchi"}</p>
+                  {punti > 0 && punti >= record && <p className="pl-velo__testo">Nuovo record!</p>}
+                </>
+              )}
+              <button className="qz-btn" onClick={via}>{fase === "fine" ? "Riprova" : "Inizia"}</button>
+              {fase === "fine" && punti > 0 && (
+                <a className="qz-link" href={"https://wa.me/?text=" + encodeURIComponent("Ho fatto " + punti + " tocchi al Palleggio di PallaVolleyAmo. Riesci a battermi? https://www.pallavolleyamo.it/palleggio")} target="_blank" rel="noreferrer">Sfida un amico su WhatsApp</a>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </main>
+  );
+}
+
 function GlossarioPage() {
   const [search, setSearch] = useState("");
   const [categoria, setCategoria] = useState("Tutte");
@@ -5809,6 +5966,7 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
+    "palleggio": ["Palestra del volley", "Il Palleggio"],
     "palestra": ["Palestra del volley"],
     "schede": ["Palestra del volley", "Schede Allenamento"],
     "preparazione-fisica": ["Palestra del volley", "Preparazione Fisica"],
@@ -7744,6 +7902,7 @@ useEffect(() => {
     "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
     "palestra": ["La palestra del volley: tecnica, fisico, mente | PallaVolleyAmo", "Impara e allenati: i fondamentali, la preparazione fisica, il mental coach e le schede di allenamento per la pallavolo."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
+    "palleggio": ["Il Palleggio, il gioco | PallaVolleyAmo", "Tocca il pallone e tienilo in aria il più a lungo possibile. Sfida i tuoi amici."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
@@ -7850,7 +8009,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","palleggio","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7859,6 +8018,7 @@ useEffect(() => {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "palleggio" && <PalleggioPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}
