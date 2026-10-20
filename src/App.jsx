@@ -18,6 +18,8 @@ import diretteData from "../data/dirette.json";
 import marcatriciData from "../data/marcatrici.json";
 import glossarioData from "../data/glossario.json";
 import mentalCoachData from "../data/mental_coach.json";
+import pilloleEserciziData from "../data/pillole_esercizi_regole.json";
+import pilloleMentaleData from "../data/pillole_mentale_citazioni.json";
 import { Analytics } from '@vercel/analytics/react';
 import preparazioneFisicaData from "../data/preparazione-fisica.json";
 import mercatoData from "../data/mercato.json";
@@ -607,6 +609,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Palestra del volley"
           subscribed={subscribed}
           items={[
+            { href: "#/allenatore-virtuale", label: "Allenatore virtuale", sub: "Fai una domanda, trovi la risposta", evidenza: true },
             { href: "#/palestra", label: "Inizia da qui", sub: "Tecnica, fisico, mente e schede: da dove partire" },
             { href: "#/fondamentali", label: "Tecnica", sub: "Fondamentali e gesti tecnici" },
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
@@ -1402,6 +1405,178 @@ function ArchivioRiservatoPage() {
             </div>
           </div>
         </>
+      )}
+    </main>
+  );
+}
+
+const AV_STOP = new Set("il lo la le gli un una uno di a da in con su per tra fra e o ma che chi cosa come quando dove perche mi ti si ci non sono ho ha hai del della delle dei degli al alla alle ai nel nella sul sulla miei mio mia tua tuo fare posso devo voglio vorrei ogni quanto quale quali piu molto sempre anche ancora sul sui nei prima dopo partita gioca oggi fa mia tempo".split(" "));
+const AV_SINONIMI = {
+  ansia: ["paura", "tensione", "nervoso", "agitazione", "pressione", "emozione"],
+  paura: ["ansia", "tensione", "pressione"],
+  nervoso: ["ansia", "tensione", "agitazione"],
+  battuta: ["servizio", "battere", "float"],
+  servizio: ["battuta"],
+  schiacciata: ["attacco", "schiacciare", "attaccare"],
+  attacco: ["schiacciata", "schiacciare"],
+  ricezione: ["bagher", "ricevere"],
+  difesa: ["bagher", "difendere"],
+  palleggio: ["alzata", "alzatore", "palleggiatore"],
+  alzatore: ["palleggiatore", "alzata"],
+  infortunio: ["caviglia", "spalla", "ginocchio", "dolore", "prevenzione"],
+  dolore: ["infortunio", "caviglia", "spalla", "ginocchio"],
+  caviglia: ["infortunio", "distorsione"],
+  errore: ["sbagliato", "sbaglio", "sbagliare", "sbagliato"],
+  sbagliare: ["errore", "sbaglio"],
+  sbagliato: ["errore", "sbaglio"],
+  genitori: ["mamma", "papa", "genitore"],
+  panchina: ["riserva", "poco", "spazio"],
+  fiducia: ["autostima", "sicurezza", "coraggio"],
+  riscaldamento: ["warm", "mobilita"],
+  squadra: ["compagne", "gruppo", "compagni"],
+  allenamento: ["allenarsi", "esercizi", "esercizio"],
+  esercizi: ["esercizio", "allenamento"],
+  stanca: ["stanchezza", "recupero"],
+  voglia: ["motivazione", "demotivata"],
+  motivazione: ["voglia", "obiettivo"],
+};
+const AV_PAGINE = [
+  { re: /risultat|punteggi|ultima partita|com'e andata|come e andata/, label: "Risultati", sub: "Tutti i campionati umbri", href: "#/risultati", solo: true },
+  { re: /classific/, label: "Classifiche", sub: "Tutti i campionati", href: "#/classifica", solo: true },
+  { re: /quando gioca|prossima partita|calendario|orari|weekend|domenica|sabato/, label: "La mia squadra", sub: "Partite e orari della tua squadra", href: "#/mia-squadra", solo: true },
+  { re: /weekend|fine settimana|venerdi|sabato|domenica/, label: "Il weekend in Umbria", sub: "Le partite di venerdì, sabato e domenica", href: "#/weekend-umbria" },
+  { re: /cerco.*allenatore|trovare.*allenatore|allenatore per|tecnico/, label: "Cerca Allenatore", sub: "Trova il tecnico giusto", href: "#/allenatori2" },
+  { re: /palestra|dove giocare|campo|palazzetto|societa|dove si gioca/, label: "Mappa volley", sub: "Società e palestre", href: "#/mappa" },
+  { re: /battut|servizio|ricezion|ricevere|palleggi|alzat|schiacc|attacc|attaccare|muro|difes|fondament|tecnic|bagher/, label: "Tecnica", sub: "Fondamentali e gesti tecnici", href: "#/fondamentali" },
+  { re: /fisic|preparazion|atletic|forza|salto|stretching|riscald|infortun|caviglia|spalla|ginocchio/, label: "Preparazione fisica", sub: "Prevenzione e allenamento atletico", href: "#/preparazione-fisica" },
+  { re: /mental|ansia|paura|concentraz|testa|pressione|fiducia|errore|sbagli/, label: "Mental Coach", sub: "Le situazioni e le risposte sulla testa", href: "#/mental-coach" },
+  { re: /iscri|registr|account/, label: "Iscrizione", sub: "Iscriviti gratis al sito", href: "#/iscrizione" },
+  { re: /notizi|news|ultime/, label: "Notizie", sub: "Le ultime dal volley umbro", href: "#/regionali" },
+  { re: /rosa|inviare.*nomi|atlete della squadra/, label: "Invia Rosa", sub: "Manda la rosa della tua squadra", href: "#/rosa" },
+];
+const AV_ESEMPI = [
+  "Ho ansia prima della partita",
+  "Come migliorare la battuta float?",
+  "Cos'è il side out?",
+  "Come prevenire gli infortuni alla caviglia?",
+  "Sono sempre in panchina",
+  "Cosa significa rotazione?",
+  "Come recupero dopo un errore?",
+  "Quando gioca la mia squadra?",
+];
+
+function avNorm(t) {
+  return (t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9\s]/g, " ");
+}
+function avStem(w) {
+  return w.length > 4 ? w.replace(/[aeiou]+$/, "") : w;
+}
+function avToken(t) {
+  return avNorm(t).split(/\s+/).filter((w) => w.length > 1 && !AV_STOP.has(w)).map(avStem);
+}
+
+function AllenatoreVirtualePage() {
+  const docs = React.useMemo(() => {
+    const d = [];
+    (mentalCoachData.situazioni || []).forEach((x) => d.push({ tipo: "mental", titolo: x.domanda, corpo: x.risposta, extra: x.prova, cat: x.categoria, tt: avToken(x.domanda + " " + x.categoria), bt: avToken(x.risposta + " " + x.prova) }));
+    (glossarioData.glossario || []).forEach((x) => d.push({ tipo: "glossario", titolo: x.termine, corpo: x.definizione, cat: x.categoria, tt: avToken(x.termine), bt: avToken(x.definizione + " " + x.categoria) }));
+    (preparazioneFisicaData.sezioni || []).forEach((x) => d.push({ tipo: "fisica", titolo: x.titolo, corpo: x.intro, cat: "Preparazione fisica", link: "#/preparazione-fisica", tt: avToken(x.titolo + " preparazione fisica"), bt: avToken(x.intro) }));
+    [pilloleData, pilloleEserciziData, pilloleMentaleData].forEach((src) => (src.pillole || []).forEach((x) => d.push({ tipo: "pillola", titolo: x.tema, corpo: x.consiglio, extra: x.in_palestra, cat: x.sezione, tt: avToken(x.tema + " " + x.sezione), bt: avToken(x.consiglio + " " + (x.in_palestra || "")) })));
+    return d;
+  }, []);
+
+  const [testo, setTesto] = useState("");
+  const [risposta, setRisposta] = useState(null);
+
+  const chiedi = (domanda) => {
+    const q = domanda.trim();
+    if (!q) return;
+    const base = avToken(q);
+    const sin = [];
+    avNorm(q).split(/\s+/).forEach((w) => (AV_SINONIMI[w] || []).forEach((x) => sin.push(avStem(x))));
+    const punta = (parole, doc, peso) => {
+      let sc = 0;
+      parole.forEach((w) => {
+        if (doc.includes(w)) sc += peso;
+        else if (w.length >= 5 && doc.some((x) => x.length >= 5 && (x.startsWith(w) || w.startsWith(x)))) sc += peso * 0.6;
+      });
+      return sc;
+    };
+    const n = avNorm(q);
+    const pagine = AV_PAGINE.filter((p) => p.re.test(n));
+    const ordinati = docs
+      .map((doc) => ({ doc, sc: punta(base, doc.tt, 3) + punta(base, doc.bt, 1) + punta(sin, doc.tt, 1.2) + punta(sin, doc.bt, 0.4) + (doc.tipo === "mental" ? 0.3 : 0) }))
+      .filter((x) => x.sc >= (pagine.length ? 4 : 3))
+      .sort((a, b) => b.sc - a.sc);
+    const soglia = ordinati.length ? Math.max(3, ordinati[0].sc * 0.45) : 3;
+    const risultati = [];
+    const perTipo = {};
+    const visti = new Set();
+    for (const x of ordinati) {
+      const chiave = avNorm(x.doc.titolo).trim();
+      if (x.sc < soglia || visti.has(chiave)) continue;
+      if ((perTipo[x.doc.tipo] || 0) >= 2) continue;
+      visti.add(chiave);
+      perTipo[x.doc.tipo] = (perTipo[x.doc.tipo] || 0) + 1;
+      risultati.push(x.doc);
+      if (risultati.length >= 4) break;
+    }
+    setRisposta({ domanda: q, risultati: pagine.some((p) => p.solo) ? [] : risultati, pagine });
+  };
+
+  const dolore = risposta && /infortun|dolore|caviglia|spalla|ginocchio|schiena|male /.test(avNorm(risposta.domanda));
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Allenatore virtuale</h1>
+      <p className="page-subtitle">Scrivi la tua domanda sulla pallavolo: tecnica, testa, allenamento, regole o partite. Non è una persona e non è un'intelligenza artificiale: cerca la risposta migliore nelle schede del sito.</p>
+      <div className="mc-box">
+        <form onSubmit={(e) => { e.preventDefault(); chiedi(testo); }}>
+          <input className="mc-cerca" type="text" placeholder="Per esempio: come gestisco l'ansia prima della partita?" value={testo} onChange={(e) => setTesto(e.target.value)} />
+          <button className="qz-btn" type="submit" disabled={!testo.trim()}>Chiedi</button>
+        </form>
+        <p className="mc-sub" style={{ margin: "1rem 0 0.5rem" }}>Oppure scegli una domanda:</p>
+        <div className="mc-cats">
+          {AV_ESEMPI.map((e) => (
+            <button key={e} className="mc-cat" onClick={() => { setTesto(e); chiedi(e); }}>{e}</button>
+          ))}
+        </div>
+      </div>
+
+      {risposta && (
+        <div className="av-risposta">
+          <p className="av-domanda">Hai chiesto: {risposta.domanda}</p>
+          {risposta.risultati.length === 0 && risposta.pagine.length === 0 && (
+            <div className="mc-box">
+              <p className="mc-sub">Non ho trovato una risposta precisa. Prova con poche parole chiave, per esempio "battuta", "ansia", "panchina" o "rotazione". Oppure guarda:</p>
+              <div className="av-link-riga">
+                <a className="av-link" href="#/mental-coach">Mental Coach</a>
+                <a className="av-link" href="#/glossario">Glossario</a>
+                <a className="av-link" href="#/fondamentali">Tecnica</a>
+              </div>
+            </div>
+          )}
+          {risposta.risultati.map((r, i) => (
+            <div key={i} className="mc-box av-card">
+              <span className="mc-domanda__cat">{r.tipo === "glossario" ? "Glossario · " + r.cat : r.tipo === "fisica" ? r.cat : r.tipo === "mental" ? "Mental Coach · " + r.cat : "Consiglio · " + r.cat}</span>
+              <h3 className="av-card__titolo">{r.titolo}</h3>
+              {r.corpo.split("\n\n").map((par, k) => <p key={k} className="av-card__testo">{par}</p>)}
+              {r.link && <p className="av-card__testo"><a className="av-link" href={r.link} style={{ display: "inline-flex" }}><strong>Apri la pagina completa</strong></a></p>}
+              {r.extra && <p className="mc-prova"><strong>{r.tipo === "pillola" ? "In palestra." : "Prova così."}</strong> {r.extra}</p>}
+            </div>
+          ))}
+          {dolore && <p className="mc-avviso">Se hai un dolore che non passa, non aspettare: parlane con un medico o un fisioterapista. Questi consigli sono generali.</p>}
+          {risposta.pagine.length > 0 && (
+            <div className="mc-box">
+              <p className="mc-sub" style={{ marginBottom: "0.6rem" }}>Ti può servire anche:</p>
+              <div className="av-link-riga">
+                {risposta.pagine.map((p) => (
+                  <a key={p.href} className="av-link" href={p.href}><strong>{p.label}</strong><span>{p.sub}</span></a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       )}
     </main>
   );
@@ -6009,6 +6184,7 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
+    "allenatore-virtuale": ["Palestra del volley", "Allenatore virtuale"],
     "archivio-riservato": ["Archivio riservato"],
     "palloni": ["Palestra del volley", "Palloni in ordine"],
     "palestra": ["Palestra del volley"],
@@ -7948,6 +8124,7 @@ useEffect(() => {
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
     "palloni": ["Palloni in ordine, il gioco | PallaVolleyAmo", "Scegli la tua squadra e metti in ordine i palloni contro il tempo. Il primo livello è libero."],
     "archivio-riservato": ["Archivio riservato | PallaVolleyAmo", "Pagina privata."],
+    "allenatore-virtuale": ["Allenatore virtuale | PallaVolleyAmo", "Fai una domanda sulla pallavolo: tecnica, mentalità, allenamento, regole e partite. Trovi la risposta nelle schede del sito."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
@@ -8054,7 +8231,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","allenatore-virtuale","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -8063,6 +8240,7 @@ useEffect(() => {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "allenatore-virtuale" && <AllenatoreVirtualePage />}
           {route === "archivio-riservato" && <ArchivioRiservatoPage />}
           {route === "palloni" && <PalloniPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
