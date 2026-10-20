@@ -4974,3 +4974,10 @@ body.light-mode .st-card__sigla { color: #8a6508; border-color: #b8860b; backgro
   .page-content main { padding-bottom: 1rem; }
   .sidebar { padding-top: 0.5rem; }
 }
+
+/* === Telefono: foto con logo piu' bassa, cosi' i contenuti si vedono subito === */
+@media (max-width: 600px) {
+  .hero-grafico { height: 190px; }
+  .hero-inner { bottom: 0; }
+  .hero-logo-laterale { width: 130px; height: 130px; }
+}
