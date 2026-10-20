@@ -884,15 +884,33 @@ function HomePage({ latestNews = [] }) {
       {pallavoloUmbriaData && pallavoloUmbriaData.titolo && (
         <div className="evidenza-box">
           <h2 className="evidenza-titolo">La Settimana Volley</h2>
-          <a href="#/pallavolo-umbria" className="evidenza-card">
-            <div className="evidenza-card__body">
-              <p className="evidenza-card__date">{pallavoloUmbriaData.settimana}</p>
-              <h3 className="evidenza-card__title" style={{ fontSize: "1.05rem" }}>{pallavoloUmbriaData.titolo}</h3>
-              {pallavoloUmbriaData.occhiello && (
-                <p style={{ margin: "0.5rem 0 0", fontSize: "0.85rem", lineHeight: 1.55, color: "var(--text-dim)" }}>{pallavoloUmbriaData.occhiello}</p>
-              )}
-              <p style={{ margin: "0.7rem 0 0", color: "var(--gold)", fontWeight: 700, fontSize: "0.85rem" }}>Leggi la settimana →</p>
+          <a href="#/pallavolo-umbria" className="sv-card">
+            <div className="sv-card__testa">
+              <span className="sv-card__nastro">Questa settimana</span>
+              <span className="sv-card__data">{pallavoloUmbriaData.settimana}</span>
             </div>
+            <h3 className="sv-card__titolo">{pallavoloUmbriaData.titolo}</h3>
+            {pallavoloUmbriaData.occhiello && <p className="sv-card__testo">{pallavoloUmbriaData.occhiello}</p>}
+            {(() => {
+              const segna = (pallavoloUmbriaData.squadre || []).filter((q) => q.prossima && q.prossima.quando).slice(0, 3);
+              if (!segna.length) return null;
+              const breve = (iso) => {
+                const d = new Date(iso + "T12:00:00");
+                return d.toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" }).replace(/\./g, "");
+              };
+              return (
+                <div className="sv-card__segna">
+                  <p className="sv-card__segna-titolo">Da segnare</p>
+                  {segna.map((q) => (
+                    <div key={q.id} className="sv-card__riga">
+                      <span className="sv-card__quando">{breve(q.prossima.quando)}{q.prossima.ora ? " · " + q.prossima.ora : ""}</span>
+                      <span className="sv-card__partita">{q.prossima.casa} – {q.prossima.ospite}</span>
+                    </div>
+                  ))}
+                </div>
+              );
+            })()}
+            <p className="sv-card__link">Leggi la settimana →</p>
           </a>
         </div>
       )}
