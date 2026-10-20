@@ -102,6 +102,7 @@ def testo(risultati, da, a):
             righe.append("…e tutti gli altri risultati sul sito.")
             righe.append("")
             break
+    righe.append("La Settimana Volley, il commento della settimana: pallavolleyamo.it/pallavolo-umbria")
     righe.append("Tutti i risultati, classifiche e calendari su pallavolleyamo.it")
     righe.append("#pallavolo #volleyumbria #pallavolleyamo")
     return "\n".join(righe)
