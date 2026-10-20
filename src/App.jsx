@@ -1302,6 +1302,111 @@ function PalloniPage() {
   );
 }
 
+const ARCHIVIO_URL = "https://vwhxrfxxnjqkjdnxzqoz.supabase.co";
+const ARCHIVIO_KEY = "sb_publishable_FFQPDzRC6tJ4NLEP-TbCIA_9CwPsOwf";
+
+async function archivioRpc(nome, corpo) {
+  const r = await fetch(ARCHIVIO_URL + "/rest/v1/rpc/" + nome, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", apikey: ARCHIVIO_KEY, Authorization: "Bearer " + ARCHIVIO_KEY },
+    body: JSON.stringify(corpo || {}),
+  });
+  const dati = await r.json().catch(() => null);
+  if (!r.ok) throw new Error((dati && dati.message) || "Errore di connessione");
+  return dati;
+}
+
+function ArchivioRiservatoPage() {
+  const [impostata, setImpostata] = useState(null);
+  const [pw, setPw] = useState("");
+  const [pw2, setPw2] = useState("");
+  const [errore, setErrore] = useState("");
+  const [lavoro, setLavoro] = useState(false);
+  const [voci, setVoci] = useState(null);
+  const [cat, setCat] = useState("");
+  const [cerca, setCerca] = useState("");
+
+  useEffect(() => {
+    const m = document.createElement("meta");
+    m.name = "robots"; m.content = "noindex, nofollow";
+    document.head.appendChild(m);
+    archivioRpc("archivio_stato").then(setImpostata).catch(() => setErrore("Non riesco a collegarmi all'archivio."));
+    return () => { document.head.removeChild(m); };
+  }, []);
+
+  const entra = async (e) => {
+    e.preventDefault();
+    setLavoro(true); setErrore("");
+    try {
+      if (!impostata) {
+        if (pw.length < 10) throw new Error("La password deve avere almeno 10 caratteri");
+        if (pw !== pw2) throw new Error("Le due password non sono uguali");
+        await archivioRpc("archivio_imposta", { nuova: pw });
+        setImpostata(true);
+      }
+      setVoci(await archivioRpc("archivio_leggi", { pw }));
+      setPw(""); setPw2("");
+    } catch (err) {
+      setErrore(err.message);
+    } finally {
+      setLavoro(false);
+    }
+  };
+
+  const categorie = voci ? [...new Set(voci.map((v) => v.argomento))].sort() : [];
+  const q = cerca.trim().toLowerCase();
+  const lista = (voci || []).filter((v) => (!cat || v.argomento === cat) && (!q || (v.titolo + " " + v.riassunto + " " + v.fonte).toLowerCase().includes(q)));
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Archivio riservato</h1>
+      {voci === null ? (
+        <form className="mc-box" onSubmit={entra} style={{ maxWidth: "420px" }}>
+          {impostata === null && !errore && <p className="mc-sub">Un attimo...</p>}
+          {impostata === false && (
+            <p className="mc-sub">Prima volta: scegli una password di almeno 10 caratteri. Solo tu la conosci e serve per aprire questo archivio. Scrivila in un posto sicuro: se la perdi non si recupera.</p>
+          )}
+          {impostata === true && <p className="mc-sub">Inserisci la password per aprire l'archivio.</p>}
+          {impostata !== null && (
+            <>
+              <input className="mc-cerca" type="password" autoComplete={impostata ? "current-password" : "new-password"} placeholder="Password" value={pw} onChange={(e) => setPw(e.target.value)} />
+              {impostata === false && (
+                <input className="mc-cerca" type="password" autoComplete="new-password" placeholder="Ripeti la password" value={pw2} onChange={(e) => setPw2(e.target.value)} />
+              )}
+              <button className="qz-btn" type="submit" disabled={lavoro || !pw}>{lavoro ? "Un attimo..." : impostata ? "Apri" : "Imposta e apri"}</button>
+            </>
+          )}
+          {errore && <p className="mc-avviso" style={{ color: "#e74c3c" }}>{errore}</p>}
+        </form>
+      ) : (
+        <>
+          <p className="page-subtitle">{voci.length} risorse raccolte dal web. Pagina privata, non indicizzata.</p>
+          <div className="mc-box">
+            <input className="mc-cerca" type="search" placeholder="Cerca nell'archivio" value={cerca} onChange={(e) => setCerca(e.target.value)} />
+            <div className="mc-cats">
+              <button className={"mc-cat" + (cat === "" ? " mc-cat--sel" : "")} onClick={() => setCat("")}>Tutte</button>
+              {categorie.map((c) => (
+                <button key={c} className={"mc-cat" + (cat === c ? " mc-cat--sel" : "")} onClick={() => setCat(c)}>{c}</button>
+              ))}
+            </div>
+            <div className="mc-lista">
+              {lista.length === 0 && <p className="mc-vuoto">Nessuna risorsa trovata.</p>}
+              {lista.map((v) => (
+                <a key={v.id} className="mc-voce" href={v.url} target="_blank" rel="noopener noreferrer" style={{ display: "block", padding: "0.75rem 0.9rem", textDecoration: "none" }}>
+                  <span className="mc-domanda__cat">{v.argomento}</span>
+                  <span className="mc-domanda__testo" style={{ display: "block", margin: "0.15rem 0 0.3rem", color: "var(--text)" }}>{v.titolo}</span>
+                  <span style={{ display: "block", fontSize: "0.9rem", lineHeight: 1.5, color: "var(--text)" }}>{v.riassunto}</span>
+                  <span style={{ display: "block", marginTop: "0.35rem", fontSize: "0.75rem", color: "var(--text-dim)" }}>{v.fonte} · aggiunta il {new Date(v.aggiunto + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" })}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+    </main>
+  );
+}
+
 function GlossarioPage() {
   const [search, setSearch] = useState("");
   const [categoria, setCategoria] = useState("Tutte");
@@ -5904,6 +6009,7 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
+    "archivio-riservato": ["Archivio riservato"],
     "palloni": ["Palestra del volley", "Palloni in ordine"],
     "palestra": ["Palestra del volley"],
     "schede": ["Palestra del volley", "Schede Allenamento"],
@@ -7841,6 +7947,7 @@ useEffect(() => {
     "palestra": ["La palestra del volley: tecnica, fisico, mente | PallaVolleyAmo", "Impara e allenati: i fondamentali, la preparazione fisica, il mental coach e le schede di allenamento per la pallavolo."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
     "palloni": ["Palloni in ordine, il gioco | PallaVolleyAmo", "Scegli la tua squadra e metti in ordine i palloni contro il tempo. Il primo livello è libero."],
+    "archivio-riservato": ["Archivio riservato | PallaVolleyAmo", "Pagina privata."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
@@ -7947,7 +8054,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7956,6 +8063,7 @@ useEffect(() => {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "archivio-riservato" && <ArchivioRiservatoPage />}
           {route === "palloni" && <PalloniPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
