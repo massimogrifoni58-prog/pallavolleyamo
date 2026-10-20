@@ -3250,160 +3250,6 @@ function VelascoPage() {
   );
 }
 
-const COACH_API_KEY = "INSERISCI_QUI_LA_TUA_API_KEY";
-
-const ESEMPI = [
-  "Cos'è il side out nel volley?",
-  "Come si esegue la battuta float?",
-  "Qual è la differenza tra pipe e fast?",
-  "Come si imposta la difesa in cambio palla?",
-  "Cosa significa rotazione in pallavolo?",
-  "Come si costruisce un attacco in seconda linea?",
-  "Quando si usa il time-out?",
-  "Cosa fa il libero in campo?",
-  "Come si legge il muro avversario?",
-  "Cos'è il bagher e come si esegue?",
-];
-
-function CoachAiPage() {
-  const [domanda, setDomanda] = useState("");
-  const [risposta, setRisposta] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [storia, setStoria] = useState([]);
-
-  async function chiedi(testo) {
-    const q = testo || domanda;
-    if (!q.trim()) return;
-    setLoading(true);
-    setError("");
-    setRisposta("");
-
-    const nuovaStoria = [...storia, { role: "user", content: q }];
-
-    try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": COACH_API_KEY,
-          "anthropic-version": "2023-06-01",
-          "anthropic-dangerous-direct-browser-access": "true",
-        },
-        body: JSON.stringify({
-          model: "claude-haiku-4-5-20251001",
-          max_tokens: 1024,
-          system: `Sei un esperto allenatore di pallavolo italiano con 20 anni di esperienza. 
-Rispondi SOLO a domande sulla pallavolo: fondamentali, tattiche, regole, ruoli, fasi di gioco, allenamento.
-Se la domanda non riguarda la pallavolo, rispondi gentilmente che puoi aiutare solo su argomenti di pallavolo.
-Usa un linguaggio chiaro, tecnico ma accessibile anche per giocatori amatoriali.
-Rispondi in italiano, in modo conciso (massimo 200 parole), con elenchi puntati quando utile.`,
-          messages: nuovaStoria,
-        }),
-      });
-
-      const data = await res.json();
-      const testo = data.content?.[0]?.text || "Nessuna risposta ricevuta.";
-      setRisposta(testo);
-      setStoria([...nuovaStoria, { role: "assistant", content: testo }]);
-      setDomanda("");
-    } catch (e) {
-      setError("Errore di connessione. Riprova.");
-    } finally {
-      setLoading(false);
-    }
-  }
-
-  return (
-    <main>
-      {/* Hero grafico */}
-      <div className="coach-ai-hero">
-        <div className="coach-ai-hero__content">
-          <div className="coach-ai-hero__icon">🏐</div>
-          <h2 className="coach-ai-hero__titolo">Chiedi al Coach</h2>
-          <p className="coach-ai-hero__sub">
-            Fai qualsiasi domanda sulla pallavolo — fondamentali, tattiche, regole, ruoli.<br />
-            Il tuo allenatore virtuale risponde in italiano.
-          </p>
-        </div>
-        <svg className="coach-ai-hero__svg" viewBox="0 0 900 200" preserveAspectRatio="xMidYMid slice">
-          <g stroke="#d4af37" strokeWidth="0.4" opacity="0.1">
-            {[0,80,160,240,320,400,480,560,640,720,800,900].map((x,i) => (
-              <line key={i} x1={x} y1="0" x2={x} y2="200" />
-            ))}
-            {[0,50,100,150,200].map((y,i) => (
-              <line key={i} x1="0" y1={y} x2="900" y2={y} />
-            ))}
-          </g>
-          <circle cx="800" cy="100" r="120" fill="none" stroke="#d4af37" strokeWidth="0.8" opacity="0.07" />
-          <circle cx="100" cy="100" r="80" fill="none" stroke="#d4af37" strokeWidth="0.5" opacity="0.05" />
-        </svg>
-      </div>
-
-      <section className="section">
-        {/* Domande esempio */}
-        <div className="coach-ai-esempi">
-          <p className="coach-ai-esempi__label">Prova a chiedere:</p>
-          <div className="coach-ai-esempi__chips">
-            {ESEMPI.map((e, i) => (
-              <button key={i} className="coach-ai-chip" onClick={() => { setDomanda(e); chiedi(e); }}>
-                {e}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Storico conversazione */}
-        {storia.length > 0 && (
-          <div className="coach-ai-storia">
-            {storia.map((msg, i) => (
-              <div key={i} className={`coach-ai-msg coach-ai-msg--${msg.role}`}>
-                <span className="coach-ai-msg__label">{msg.role === "user" ? "Tu" : " Coach"}</span>
-                <p className="coach-ai-msg__testo">{msg.content}</p>
-              </div>
-            ))}
-            {loading && (
-              <div className="coach-ai-msg coach-ai-msg--assistant">
-                <span className="coach-ai-msg__label">Coach</span>
-                <p className="coach-ai-msg__testo coach-ai-loading">Sto elaborando la risposta...</p>
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Input domanda */}
-        <div className="coach-ai-input-wrap">
-          <input
-            className="coach-ai-input"
-            type="text"
-            placeholder="Scrivi la tua domanda sul volley..."
-            value={domanda}
-            onChange={(e) => setDomanda(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && chiedi()}
-          />
-          <button
-            className="coach-ai-btn"
-            onClick={() => chiedi()}
-            disabled={loading || !domanda.trim()}
-          >
-            {loading ? "..." : "Chiedi"}
-          </button>
-        </div>
-
-        {error && <p style={{ color: "red", fontSize: "0.82rem", marginTop: "0.5rem" }}>{error}</p>}
-
-        {storia.length > 0 && (
-          <button
-            className="coach-ai-reset"
-            onClick={() => { setStoria([]); setRisposta(""); setDomanda(""); }}
-          >
-            Nuova conversazione
-          </button>
-        )}
-      </section>
-    </main>
-  );
-}
 function PillolePage() {
   const pillole = pilloleData.pillole || [];
   const firma = pilloleData.firma || "";
@@ -7896,7 +7742,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7909,7 +7755,6 @@ useEffect(() => {
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}
           {route === "agenda" && <CalendarioCompletoPage />}
-          {route === "coach-ai" && <CoachAiPage />}
           {route === "schede" && <SchedePage />}
           {route === "squadre-top" && <SquadreTopPage />}
           {route === "pillole" && <PillolePage />}
