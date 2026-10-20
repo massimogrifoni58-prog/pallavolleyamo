@@ -5089,3 +5089,14 @@ body.light-mode .bm-card__blocco strong { color: #8a6508; }
 .pl-velo__testo { margin: 0; font-size: 1rem; font-weight: 600; color: #fff; }
 .qz-btn { padding: 0.7rem 1.4rem; font-size: 0.95rem; font-weight: 800; font-family: inherit; border: 0; border-radius: 999px; cursor: pointer; background: var(--gold); color: #111; }
 .qz-link { display: block; margin-top: 0.4rem; font-size: 0.9rem; color: var(--gold); }
+
+/* === Allenatore virtuale === */
+.av-risposta { max-width: 700px; display: flex; flex-direction: column; gap: 0.9rem; margin-bottom: 2rem; }
+.av-domanda { margin: 0; font-size: 0.9rem; color: var(--text-dim); }
+.av-card { margin: 0; }
+.av-card__titolo { margin: 0.2rem 0 0.5rem; font-size: 1.15rem; line-height: 1.3; color: var(--text); }
+.av-card__testo { margin: 0 0 0.7rem; font-size: 0.95rem; line-height: 1.6; color: var(--text); }
+.av-link-riga { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.av-link { display: flex; flex-direction: column; padding: 0.6rem 0.9rem; border-radius: 10px; text-decoration: none; color: var(--gold); border: 1px solid var(--border); }
+.av-link:hover { border-color: var(--gold); }
+.av-link span { font-size: 0.75rem; color: var(--text-dim); }
