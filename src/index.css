@@ -5013,3 +5013,19 @@ body.light-mode .risultati-mini__score { color: #8a6508; background: rgba(184,13
   .risultati-mini__partita { gap: 0.35rem; font-size: 0.8rem; }
   .risultati-mini__score { padding: 0.1rem 0.45rem; font-size: 0.88rem; }
 }
+
+/* === HOME: Il match da non perdere === */
+.bm-card { display: flex; flex-direction: column; align-items: center; gap: 0.8rem; text-align: center; padding: 1.4rem 1.2rem; border-radius: 14px; text-decoration: none; background: radial-gradient(circle at 50% 0%, rgba(212,175,55,0.16), transparent 65%), var(--card-bg); border: 1px solid rgba(212,175,55,0.45); transition: transform 0.2s, box-shadow 0.2s; }
+.bm-card:hover { transform: translateY(-3px); box-shadow: 0 8px 26px rgba(212,175,55,0.2); }
+.bm-card__camp { margin: 0; font-size: 0.74rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+.bm-card__squadre { display: flex; flex-direction: column; align-items: center; gap: 0.35rem; }
+.bm-card__squadra { font-size: 1.4rem; font-weight: 800; line-height: 1.2; color: var(--text); }
+.bm-card__vs { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
+.bm-card__quando { margin: 0; font-size: 0.9rem; color: var(--text-dim); }
+.bm-card__conto { display: flex; gap: 0.6rem; justify-content: center; }
+.bm-card__blocco { display: flex; flex-direction: column; align-items: center; min-width: 4.2rem; padding: 0.55rem 0.5rem; border-radius: 10px; background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.35); }
+.bm-card__blocco strong { font-size: 1.7rem; font-weight: 800; line-height: 1; color: var(--gold); }
+.bm-card__blocco em { margin-top: 0.25rem; font-size: 0.72rem; font-style: normal; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
+.bm-card__live { padding: 0.4rem 1rem; border-radius: 999px; background: var(--gold); color: #111; font-weight: 800; font-size: 0.85rem; }
+body.light-mode .bm-card__blocco strong { color: #8a6508; }
+@media (max-width: 520px) { .bm-card__squadra { font-size: 1.2rem; } .bm-card__blocco { min-width: 3.6rem; } .bm-card__blocco strong { font-size: 1.5rem; } }

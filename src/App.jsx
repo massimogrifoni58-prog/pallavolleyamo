@@ -690,6 +690,68 @@ function RicercaSocieta() {
   );
 }
 
+function BigMatchHome() {
+  const [adesso, setAdesso] = useState(() => Date.now());
+  useEffect(() => {
+    const t = setInterval(() => setAdesso(Date.now()), 30000);
+    return () => clearInterval(t);
+  }, []);
+  // ora italiana -> istante reale (gestisce ora legale/solare)
+  const daRoma = (iso, ora) => {
+    const [y, mo, d] = iso.split("-").map(Number);
+    const [h, mi] = (ora || "12:00").split(":").map(Number);
+    const guess = Date.UTC(y, mo - 1, d, h, mi);
+    const parts = new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Rome", hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric" }).formatToParts(new Date(guess));
+    const g = (t) => Number(parts.find((x) => x.type === t).value);
+    const offset = Date.UTC(g("year"), g("month") - 1, g("day"), g("hour"), g("minute")) - guess;
+    return guess - offset;
+  };
+  const tc = (str) => (str || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
+  const prossime = React.useMemo(() => {
+    const tutte = [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])]
+      .filter((m) => m.status !== "disputata" && m.dataIso && m.ora)
+      .filter((m) => /perugia|bartoccini|terni|altotevere|umbria|castello|marsciano|spoleto|foligno|orvieto/i.test(m.home + " " + m.away))
+      .map((m) => ({ ...m, quando: daRoma(m.dataIso, m.ora) }));
+    return tutte.sort((a, b) => a.quando - b.quando);
+  }, []);
+  const prossima = prossime.find((m) => m.quando + 3 * 3600 * 1000 > adesso && /superlega/i.test(m.competition) && m.quando - adesso < 14 * 86400000)
+    || prossime.find((m) => m.quando + 3 * 3600 * 1000 > adesso);
+  if (!prossima) return null;
+  const mancano = prossima.quando - adesso;
+  const iniziata = mancano <= 0;
+  const gg = Math.floor(mancano / 86400000);
+  const hh = Math.floor((mancano % 86400000) / 3600000);
+  const mm = Math.floor((mancano % 3600000) / 60000);
+  const dt = new Date(prossima.quando);
+  const giornoTxt = dt.toLocaleDateString("it-IT", { timeZone: "Europe/Rome", weekday: "long", day: "numeric", month: "long" });
+  const quando = giornoTxt.charAt(0).toUpperCase() + giornoTxt.slice(1) + ", ore " + prossima.ora;
+  const camp = (prossima.competition || "").replace(/ Girone.*$/, "");
+  const luogo = (prossima.impianto || "").replace(/\s*\([A-Z]{2}\)\s*$/, "");
+  return (
+    <div className="evidenza-box">
+      <h2 className="evidenza-titolo">Il match da non perdere</h2>
+      <a href="#/mia-squadra" className="bm-card">
+        <p className="bm-card__camp">{camp}</p>
+        <div className="bm-card__squadre">
+          <span className="bm-card__squadra">{tc(prossima.home)}</span>
+          <span className="bm-card__vs">contro</span>
+          <span className="bm-card__squadra">{tc(prossima.away)}</span>
+        </div>
+        <p className="bm-card__quando">{quando}{luogo ? " · " + luogo : ""}</p>
+        <div className="bm-card__conto">
+          {iniziata ? (
+            <span className="bm-card__live">In corso o appena iniziata</span>
+          ) : (
+            [[gg, gg === 1 ? "giorno" : "giorni"], [hh, hh === 1 ? "ora" : "ore"], [mm, mm === 1 ? "minuto" : "minuti"]].map(([n, l]) => (
+              <span key={l} className="bm-card__blocco"><strong>{n}</strong><em>{l}</em></span>
+            ))
+          )}
+        </div>
+      </a>
+    </div>
+  );
+}
+
 function HomePage({ latestNews = [] }) {
   const risultati = (risultatiData.matches || []).filter((m) => {
     if (m.status !== "disputata" || !m.score) return false;
@@ -756,11 +818,11 @@ function HomePage({ latestNews = [] }) {
     const prio = (c) => (/^serie [cd]/i.test(c || "") ? 0 : 1);
     return [...risultati].sort((x, y) => prio(x.competition) - prio(y.competition)).slice(0, 6);
   })();
-  const tcR = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const tcR = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
 
 
   const weekendHome = (() => {
-    const tc = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+    const tc = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
     const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
     const base = new Date();
     base.setHours(12, 0, 0, 0);
@@ -828,6 +890,7 @@ function HomePage({ latestNews = [] }) {
       </div>     
       <MiaSquadraHome />
       <DirettaOggiHome />
+      <BigMatchHome />
              {weekendHome.mostra.length > 0 && (
         <div className="evidenza-box">
           <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "0.5rem" }}>
@@ -7254,7 +7317,7 @@ function CercaPage() {
 
 function PostFacebookPage() {
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
-  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
   const macro = (c) => (/^Serie C/.test(c || "") ? 0 : /^Serie D/.test(c || "") ? 1 : 2);
   const dm = (d) => d.slice(8, 10) + "/" + d.slice(5, 7);
   const giornoMese = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
@@ -7372,7 +7435,7 @@ function PostFacebookPage() {
 function WeekendUmbriaPage() {
   const [filtro, setFiltro] = useState("Tutte");
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
-  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase());
+  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
   const macro = (c) => (/^Serie C/.test(c || "") ? "Serie C" : /^Serie D/.test(c || "") ? "Serie D" : "Giovanili");
 
   const base = new Date();
