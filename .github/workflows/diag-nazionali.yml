@@ -9,21 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prova fonti
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - name: Prova secondo percorso
         run: |
           mkdir -p diag
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-          t() { printf "%s  " "$1" >> diag/fonti.txt; curl -s -L -m 30 -o diag/tmp.html -w "%{http_code} %{size_download}\n" -A "$UA" -H "Accept: text/html,application/xhtml+xml" -H "Accept-Language: it-IT,it;q=0.9" "$2" >> diag/fonti.txt 2>&1; grep -o "Cuneo[^<]\{0,80\}" diag/tmp.html | head -2 >> diag/fonti.txt; }
-          : > diag/fonti.txt
-          t lega-browser "https://www.legavolley.it/calendario/?idCampionato=999"
-          t lega-http "http://www.legavolley.it/calendario/?idCampionato=999"
-          t lega-nowww "https://legavolley.it/calendario/?idCampionato=999"
-          t lega-risultati "https://www.legavolley.it/risultati/"
-          t jina "https://r.jina.ai/https://www.legavolley.it/calendario/?idCampionato=999"
-          t wiki "https://it.wikipedia.org/wiki/SuperLega_2026-2027"
-          t volleyball-world "https://en.volleyballworld.com/"
-          t sofascore "https://api.sofascore.com/api/v1/unique-tournament/1128/seasons"
-          t lvf "https://www.legavolleyfemminile.it/"
+          (cd scraper && python fetch_nazionali.py) > diag/prova2.txt 2>&1 || true
+          python - >> diag/prova2.txt 2>&1 <<'PY'
+          import json
+          d=json.load(open("react-app/data/risultati_nazionali.json",encoding="utf-8"))
+          m=d.get("matches",[])
+          print("partite",len(m),"disputate",sum(1 for x in m if x.get("status")=="disputata"))
+          for x in m:
+              if x.get("status")=="disputata": print(x["competition"],x["home"],x["score"],x["away"],x.get("dataIso"))
+          PY
           git config user.email bot@example.com; git config user.name diag
-          rm -f diag/tmp.html
-          git add diag && git commit -qm "diag fonti" && git push
+          git add diag && git commit -qm "diag prova2" && git push

@@ -41,8 +41,19 @@ RE_SCORE = re.compile(r"^(\d+)\s*-\s*(\d+)$")
 
 
 def scarica(url):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as r:
+    # Primo tentativo: diretto. legavolley.it blocca gli indirizzi di GitHub (403),
+    # quindi in quel caso si riprova passando da un servizio di lettura pagine.
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"Download diretto non riuscito ({e}): provo il secondo percorso")
+    req = urllib.request.Request(
+        "https://r.jina.ai/" + url,
+        headers={**HEADERS, "X-Return-Format": "html"},
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
         return r.read().decode("utf-8", errors="ignore")
 
 
