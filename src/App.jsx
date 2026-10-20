@@ -611,6 +611,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
             { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione" },
             { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare" },
+            { href: "#/quiz", label: "Quiz", sub: "Quanto ne sai di pallavolo? Gioca e sfida gli amici" },
           ]}
         />
         <NavDropdown
@@ -1098,6 +1099,74 @@ function ArticoloCard({ articolo, onOpen }) {
     </div>
   );
 }
+const DOMANDE_QUIZ = [{"d": "Quante giocatrici o giocatori di una squadra sono in campo contemporaneamente?", "o": ["4", "5", "6", "7"], "c": 2, "s": "In campo ci sono sempre sei giocatori per squadra."}, {"d": "Quanti set bisogna vincere per aggiudicarsi una partita al meglio dei cinque?", "o": ["2", "3", "4", "5"], "c": 1, "s": "Vince chi arriva per primo a tre set."}, {"d": "A quanti punti si vince un set normale, con almeno due punti di scarto?", "o": ["21", "25", "30", "15"], "c": 1, "s": "Il set arriva a 25 punti, ma serve un vantaggio di due."}, {"d": "A quanti punti si gioca il quinto set, il tie-break?", "o": ["15", "20", "21", "25"], "c": 0, "s": "Il tie-break si gioca a 15 punti, sempre con due di scarto."}, {"d": "Quanto è lungo il campo di pallavolo?", "o": ["12 metri", "15 metri", "18 metri", "20 metri"], "c": 2, "s": "Il campo misura 18 metri per 9, cioè 9 metri per ogni squadra."}, {"d": "A che altezza è la rete nel maschile?", "o": ["2,24 m", "2,35 m", "2,43 m", "2,50 m"], "c": 2, "s": "La rete maschile è a 2,43 metri, quella femminile a 2,24."}, {"d": "A che altezza è la rete nel femminile?", "o": ["2,24 m", "2,35 m", "2,43 m", "2,10 m"], "c": 0, "s": "La rete femminile è a 2,24 metri."}, {"d": "Quanti tocchi al massimo può fare una squadra prima di mandare la palla di là?", "o": ["2", "3", "4", "5"], "c": 1, "s": "Sono tre tocchi, il muro escluso."}, {"d": "Come si chiama il giocatore con la maglia di colore diverso, specialista della difesa?", "o": ["Opposto", "Schiacciatore", "Libero", "Centrale"], "c": 2, "s": "È il libero, che difende e riceve ma non può attaccare sopra la rete."}, {"d": "Come si chiama il servizio che vale un punto diretto, senza che l'avversario tocchi la palla?", "o": ["Ace", "Muro", "Bagher", "Pipe"], "c": 0, "s": "Si chiama ace."}, {"d": "Come si ruota in campo dopo aver conquistato il servizio?", "o": ["In senso orario", "In senso antiorario", "A scelta dell'allenatore", "Non si ruota"], "c": 0, "s": "Si ruota in senso orario, di una posizione alla volta."}, {"d": "Il tocco a muro conta come uno dei tre tocchi della squadra?", "o": ["Sì, sempre", "No, non conta", "Solo nel tie-break", "Solo nel femminile"], "c": 1, "s": "Il tocco del muro non conta: dopo il muro restano ancora tre tocchi."}, {"d": "Una palla che tocca la linea è...?", "o": ["Fuori", "Dentro", "Da ripetere", "Dipende dall'arbitro"], "c": 1, "s": "La palla che tocca la linea è dentro."}, {"d": "Quanti time-out ha ogni squadra in un set?", "o": ["1", "2", "3", "4"], "c": 1, "s": "Ogni squadra ha due time-out per set."}, {"d": "Quante sostituzioni può fare una squadra in un set?", "o": ["3", "4", "6", "12"], "c": 2, "s": "Le sostituzioni sono sei per set."}, {"d": "Alle Olimpiadi di Parigi 2024 la nazionale italiana femminile ha vinto...", "o": ["Il bronzo", "L'argento", "L'oro", "Non si era qualificata"], "c": 2, "s": "L'Italia di Velasco ha vinto la medaglia d'oro."}, {"d": "Come si chiama il tecnico che ha guidato la Generazione di Fenomeni e oggi guida la nazionale femminile?", "o": ["Julio Velasco", "Mauro Berruto", "Ferdinando De Giorgi", "Davide Mazzanti"], "c": 0, "s": "È Julio Velasco."}, {"d": "Che cosa è il bagher?", "o": ["Un tipo di battuta", "Il colpo con gli avambracci per ricevere o difendere", "Il colpo d'attacco", "Un fallo di rete"], "c": 1, "s": "Il bagher si fa con gli avambracci uniti, per ricevere e difendere."}, {"d": "Che cosa significa il fallo di doppia?", "o": ["Due giocatori toccano la palla insieme", "Lo stesso giocatore tocca la palla due volte di seguito", "La squadra fa due falli", "Si battono due servizi"], "c": 1, "s": "È il doppio tocco dello stesso giocatore, senza che la palla sia stata toccata da altri."}, {"d": "Che cosa fa il palleggiatore?", "o": ["Batte sempre per primo", "Alza la palla agli attaccanti", "Difende in fondo al campo", "Sta solo a muro"], "c": 1, "s": "Il palleggiatore (o alzatore) serve la palla agli schiacciatori."}, {"d": "Quale linea separa la zona d'attacco da quella di difesa?", "o": ["La linea dei 3 metri", "La linea di fondo", "La linea laterale", "La linea dei 6 metri"], "c": 0, "s": "È la linea dei tre metri, a tre metri dalla rete."}, {"d": "Con il sistema attuale, chi segna il punto quando vince lo scambio?", "o": ["Solo chi serve", "Solo chi riceve", "Chi vince l'azione, anche senza servire", "Nessuno, si rigioca"], "c": 2, "s": "Ogni azione assegna un punto, a chi serve o a chi riceve."}, {"d": "Da dove si batte il servizio?", "o": ["Da dentro il campo", "Da dietro la linea di fondo", "Da una zona laterale", "Da dove si vuole"], "c": 1, "s": "Si batte da dietro la linea di fondo, dentro la zona di battuta."}];
+
+function QuizPage() {
+  const NUM = 10;
+  const mescola = () => [...DOMANDE_QUIZ].sort(() => Math.random() - 0.5).slice(0, NUM);
+  const [domande, setDomande] = useState(mescola);
+  const [i, setI] = useState(0);
+  const [scelta, setScelta] = useState(null);
+  const [punti, setPunti] = useState(0);
+  const [finito, setFinito] = useState(false);
+  const d = domande[i];
+
+  const rispondi = (n) => {
+    if (scelta !== null) return;
+    setScelta(n);
+    if (n === d.c) setPunti((p) => p + 1);
+  };
+  const avanti = () => {
+    if (i + 1 >= domande.length) setFinito(true);
+    else { setI(i + 1); setScelta(null); }
+  };
+  const ricomincia = () => { setDomande(mescola()); setI(0); setScelta(null); setPunti(0); setFinito(false); };
+  const giudizio = punti >= 9 ? "Fenomeno! Potresti fare il secondo allenatore." : punti >= 7 ? "Molto bene, conosci davvero la pallavolo." : punti >= 5 ? "Buona base, ma c'è ancora da imparare." : "Si può migliorare: riprova e guarda il Glossario.";
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Quiz PallaVolleyAmo</h1>
+      <p className="page-subtitle">Dieci domande a caso sulla pallavolo. Quanto ne sai?</p>
+      <div className="qz-box">
+        {!finito ? (
+          <>
+            <div className="qz-top">
+              <span>Domanda {i + 1} di {domande.length}</span>
+              <span>Punti: {punti}</span>
+            </div>
+            <div className="qz-barra"><div className="qz-barra__v" style={{ width: ((i + (scelta !== null ? 1 : 0)) / domande.length) * 100 + "%" }} /></div>
+            <h2 className="qz-domanda">{d.d}</h2>
+            <div className="qz-opzioni">
+              {d.o.map((t, n) => {
+                let cl = "qz-opz";
+                if (scelta !== null) {
+                  if (n === d.c) cl += " qz-opz--giusta";
+                  else if (n === scelta) cl += " qz-opz--sbagliata";
+                }
+                return <button key={n} className={cl} onClick={() => rispondi(n)} disabled={scelta !== null}>{t}</button>;
+              })}
+            </div>
+            {scelta !== null && (
+              <div className="qz-esito">
+                <p><strong>{scelta === d.c ? "Giusto." : "Sbagliato."}</strong> {d.s}</p>
+                <button className="qz-btn" onClick={avanti}>{i + 1 >= domande.length ? "Vedi il risultato" : "Avanti"}</button>
+              </div>
+            )}
+          </>
+        ) : (
+          <div className="qz-fine">
+            <p className="qz-fine__etichetta">Il tuo risultato</p>
+            <p className="qz-fine__punti">{punti} su {domande.length}</p>
+            <p className="qz-fine__testo">{giudizio}</p>
+            <button className="qz-btn" onClick={ricomincia}>Gioca ancora</button>
+            <a className="qz-link" href={"https://wa.me/?text=" + encodeURIComponent("Ho fatto " + punti + " su " + domande.length + " al Quiz PallaVolleyAmo. Riesci a battermi? https://www.pallavolleyamo.it/quiz")} target="_blank" rel="noreferrer">Sfida un amico su WhatsApp</a>
+          </div>
+        )}
+      </div>
+    </main>
+  );
+}
+
 function GlossarioPage() {
   const [search, setSearch] = useState("");
   const [categoria, setCategoria] = useState("Tutte");
@@ -5809,6 +5878,7 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
+    "quiz": ["Palestra del volley", "Quiz"],
     "palestra": ["Palestra del volley"],
     "schede": ["Palestra del volley", "Schede Allenamento"],
     "preparazione-fisica": ["Palestra del volley", "Preparazione Fisica"],
@@ -7744,6 +7814,7 @@ useEffect(() => {
     "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
     "palestra": ["La palestra del volley: tecnica, fisico, mente | PallaVolleyAmo", "Impara e allenati: i fondamentali, la preparazione fisica, il mental coach e le schede di allenamento per la pallavolo."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
+    "quiz": ["Quiz di pallavolo | PallaVolleyAmo", "Dieci domande a caso sulla pallavolo: regole, campo, ruoli e storia. Quanti punti fai?"],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
@@ -7850,7 +7921,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","quiz","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","coach-ai","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7859,6 +7930,7 @@ useEffect(() => {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "quiz" && <QuizPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}

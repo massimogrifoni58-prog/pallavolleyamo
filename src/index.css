@@ -5029,3 +5029,25 @@ body.light-mode .risultati-mini__score { color: #8a6508; background: rgba(184,13
 .bm-card__live { padding: 0.4rem 1rem; border-radius: 999px; background: var(--gold); color: #111; font-weight: 800; font-size: 0.85rem; }
 body.light-mode .bm-card__blocco strong { color: #8a6508; }
 @media (max-width: 520px) { .bm-card__squadra { font-size: 1.2rem; } .bm-card__blocco { min-width: 3.6rem; } .bm-card__blocco strong { font-size: 1.5rem; } }
+
+/* === Quiz === */
+.qz-box { max-width: 640px; margin: 1rem 0 2rem; padding: 1.2rem; border-radius: 14px; background: var(--card-bg); border: 1px solid var(--border); }
+.qz-top { display: flex; justify-content: space-between; font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-dim); }
+.qz-barra { height: 6px; margin: 0.6rem 0 1.2rem; border-radius: 3px; background: rgba(128,128,128,0.25); overflow: hidden; }
+.qz-barra__v { height: 100%; background: var(--gold); transition: width 0.3s; }
+.qz-domanda { margin: 0 0 1rem; font-size: 1.2rem; line-height: 1.35; color: var(--text); }
+.qz-opzioni { display: flex; flex-direction: column; gap: 0.6rem; }
+.qz-opz { padding: 0.8rem 1rem; text-align: left; font-size: 1rem; font-family: inherit; border-radius: 10px; cursor: pointer; color: var(--text); background: transparent; border: 1px solid var(--border); transition: border-color 0.15s, background 0.15s; }
+.qz-opz:hover:not(:disabled) { border-color: var(--gold); background: rgba(212,175,55,0.08); }
+.qz-opz:disabled { cursor: default; }
+.qz-opz--giusta { border-color: #2e9e5b; background: rgba(46,158,91,0.18); }
+.qz-opz--sbagliata { border-color: #c0392b; background: rgba(192,57,43,0.18); }
+.qz-esito { margin-top: 1rem; }
+.qz-esito p { margin: 0 0 0.8rem; font-size: 0.95rem; line-height: 1.45; color: var(--text); }
+.qz-btn { padding: 0.7rem 1.4rem; font-size: 0.95rem; font-weight: 800; font-family: inherit; border: 0; border-radius: 999px; cursor: pointer; background: var(--gold); color: #111; }
+.qz-fine { text-align: center; padding: 0.5rem 0; }
+.qz-fine__etichetta { margin: 0; font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
+.qz-fine__punti { margin: 0.3rem 0; font-size: 3rem; font-weight: 800; color: var(--gold); }
+.qz-fine__testo { margin: 0 0 1.2rem; font-size: 1.05rem; color: var(--text); }
+.qz-link { display: block; margin-top: 1rem; font-size: 0.9rem; color: var(--gold); }
+body.light-mode .qz-fine__punti { color: #8a6508; }
