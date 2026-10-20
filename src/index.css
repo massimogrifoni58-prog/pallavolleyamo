@@ -5029,3 +5029,23 @@ body.light-mode .risultati-mini__score { color: #8a6508; background: rgba(184,13
 .bm-card__live { padding: 0.4rem 1rem; border-radius: 999px; background: var(--gold); color: #111; font-weight: 800; font-size: 0.85rem; }
 body.light-mode .bm-card__blocco strong { color: #8a6508; }
 @media (max-width: 520px) { .bm-card__squadra { font-size: 1.2rem; } .bm-card__blocco { min-width: 3.6rem; } .bm-card__blocco strong { font-size: 1.5rem; } }
+
+/* === Mental Coach: domande === */
+.mc-box { margin: 0 0 2.5rem; padding: 1.2rem; border-radius: 14px; background: var(--card-bg); border: 1px solid rgba(212,175,55,0.4); }
+.mc-titolo { margin: 0 0 0.3rem; font-size: 1.5rem; color: var(--gold); }
+.mc-sub { margin: 0 0 1rem; font-size: 0.92rem; line-height: 1.5; color: var(--text-dim); }
+.mc-cerca { width: 100%; box-sizing: border-box; padding: 0.7rem 0.9rem; margin-bottom: 0.8rem; font-size: 1rem; font-family: inherit; border-radius: 10px; color: var(--text); background: transparent; border: 1px solid var(--border); }
+.mc-cats { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+.mc-cat { padding: 0.35rem 0.8rem; font-size: 0.8rem; font-family: inherit; border-radius: 999px; cursor: pointer; color: var(--text-dim); background: transparent; border: 1px solid var(--border); }
+.mc-cat--sel { color: #111; background: var(--gold); border-color: var(--gold); font-weight: 700; }
+.mc-lista { display: flex; flex-direction: column; gap: 0.5rem; }
+.mc-voce { border-radius: 10px; border: 1px solid var(--border); overflow: hidden; }
+.mc-voce--aperta { border-color: var(--gold); }
+.mc-domanda { width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 0.15rem; padding: 0.75rem 0.9rem; text-align: left; font-family: inherit; cursor: pointer; color: var(--text); background: transparent; border: 0; }
+.mc-domanda__cat { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+.mc-domanda__testo { font-size: 1rem; font-weight: 600; line-height: 1.35; }
+.mc-risposta { padding: 0 0.9rem 0.9rem; }
+.mc-risposta p { margin: 0 0 0.7rem; font-size: 0.95rem; line-height: 1.6; color: var(--text); }
+.mc-prova { padding: 0.7rem 0.8rem; border-radius: 8px; background: rgba(212,175,55,0.1); border-left: 3px solid var(--gold); }
+.mc-vuoto { font-size: 0.9rem; color: var(--text-dim); }
+.mc-avviso { margin: 1rem 0 0; font-size: 0.78rem; line-height: 1.5; color: var(--text-dim); }
