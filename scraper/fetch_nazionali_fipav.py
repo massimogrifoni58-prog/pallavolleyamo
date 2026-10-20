@@ -27,6 +27,7 @@ FINE_STAGIONE = date(2027, 5, 31)
 
 RE_GARA = re.compile(r"^(\d+)\s+-\s+(\S+)\s+(?:(\S+)\s+)?-\s+(.*)$")
 RE_DATA = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{2,4})\s+(\d{1,2}:\d{2})")
+RE_SOLO_DATA = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{2,4})")
 RE_SCORE = re.compile(r"^(\d+)\s*-\s*(\d+)$")
 KEY_UMBRE = ["bartoccini"]
 
@@ -100,6 +101,89 @@ def leggi_settimana(html):
     return out
 
 
+LVF_A2_URL = "https://www.legavolleyfemminile.it/risultati/?serie=2&campionato=710340&stagione=2026&giornata=tutte"
+
+
+def scarica_lvf(url):
+    """Scarica la pagina della Lega femminile: prima diretto, poi da un secondo percorso."""
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=40) as r:
+            return r.read().decode("utf-8", errors="ignore")
+    except Exception as e:
+        print(f"Lega femminile: download diretto non riuscito ({e}), provo il secondo percorso")
+    req = urllib.request.Request("https://r.jina.ai/" + url, headers={**HEADERS, "X-Return-Format": "html"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return r.read().decode("utf-8", errors="ignore")
+
+
+def leggi_lvf_a2(html):
+    """Legge i punteggi della Serie A2 femminile dal sito della Lega.
+    Restituisce solo le partite di squadre umbre ancora gia' giocate:
+    [{"dataIso", "squadre": (casa, ospite), "set": (x, y)}]"""
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    for t in soup.select("table.risultati"):
+        ths = [pulisci(x.get_text(" ")) for x in t.select("thead th")]
+        md = next((RE_SOLO_DATA.search(x) for x in ths if RE_SOLO_DATA.search(x)), None)
+        righe = t.select("tbody tr")
+        if not md or len(righe) != 2:
+            continue
+        squadre, punti = [], []
+        for r in righe:
+            n = r.find("th")
+            a = r.find("a")
+            try:
+                punti.append(int(pulisci(n.get_text())))
+            except Exception:
+                punti.append(None)
+            squadre.append(pulisci(a.get_text(" ")) if a else "")
+        if None in punti or (punti[0] == 0 and punti[1] == 0):
+            continue  # non ancora giocata
+        if not any(e_umbra(x) for x in squadre):
+            continue
+        g, m, a_ = int(md.group(1)), int(md.group(2)), int(md.group(3))
+        if a_ < 100:
+            a_ += 2000
+        ora = next((x for x in ths if re.fullmatch(r"\d{1,2}:\d{2}", x)), "")
+        out.append({"id": ths[0].lstrip("#"), "dataIso": f"{a_}-{m:02d}-{g:02d}", "ora": ora,
+                    "squadre": (squadre[0], squadre[1]), "set": (punti[0], punti[1])})
+    return out
+
+
+def applica_lvf_a2(partite, lvf):
+    """Mette il punteggio sulle partite A2 gia' presenti (stessa data, squadra umbra in casa o fuori).
+    Se la partita non c'e' (succede per alcune trasferte) la aggiunge."""
+    n = 0
+    for r in lvf:
+        casa_umbra = e_umbra(r["squadre"][0])
+        trovata = None
+        for m in partite:
+            if m.get("competition") != "Serie A2 Femminile Girone Unico" or m.get("dataIso") != r["dataIso"]:
+                continue
+            if (e_umbra(m["home"]) if casa_umbra else e_umbra(m["away"])):
+                trovata = m
+                break
+        x, y = r["set"]
+        if trovata is None:
+            g, mm, a_ = r["dataIso"][8:], r["dataIso"][5:7], r["dataIso"][:4]
+            trovata = {
+                "id": f"lva2-{r['id']}",
+                "competition": "Serie A2 Femminile Girone Unico",
+                "giornata": "Giornata",
+                "home": pulisci_squadra(r["squadre"][0]).upper(),
+                "away": pulisci_squadra(r["squadre"][1]).upper(),
+                "data": f"{g}/{mm}/{a_} ore {r['ora']}",
+                "dataIso": r["dataIso"],
+                "ora": r["ora"].zfill(5),
+            }
+            partite.append(trovata)
+        trovata["score"] = f"{x}-{y}"
+        trovata["status"] = "disputata"
+        n += 1
+    return n
+
+
 def lunedi(d):
     return d - timedelta(days=d.weekday())
 
@@ -112,6 +196,10 @@ def main():
             nuove += leggi_settimana(open(f, encoding="utf-8").read())
         for m in nuove:
             print(m["dataIso"], m["competition"], m["home"], m["score"], m["away"])
+        return
+    if args and args[0] == "--prova-lvf":
+        for r in leggi_lvf_a2(open(args[1], encoding="utf-8").read()):
+            print(r["dataIso"], r["squadre"][0], r["set"][0], "-", r["set"][1], r["squadre"][1])
         return
     oggi = date.today()
     if "--tutto" in args:
@@ -146,6 +234,11 @@ def main():
         vecchie = [m for m in vecchie if not (a.isoformat() <= (m.get("dataIso") or "") <= fine.isoformat())]
     ids = {m["id"] for m in nuove}
     tutte = [m for m in vecchie if m["id"] not in ids] + nuove
+    try:
+        n_lvf = applica_lvf_a2(tutte, leggi_lvf_a2(scarica_lvf(LVF_A2_URL)))
+        print(f"Serie A2 femminile (Lega): {n_lvf} punteggi applicati")
+    except Exception as e:
+        print(f"ERRORE Serie A2 femminile (Lega): {e}: lascio i dati com'erano")
     tutte.sort(key=lambda m: (m.get("dataIso") or "", m.get("ora") or ""))
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
