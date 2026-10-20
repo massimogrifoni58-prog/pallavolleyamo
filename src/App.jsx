@@ -868,7 +868,10 @@ function HomePage({ latestNews = [] }) {
               const [sc, so] = (m.score || "0-0").split("-").map((n) => parseInt(n, 10) || 0);
               return (
                 <a key={m.id} href="#/risultati" className="risultati-mini__riga">
-                  <span className="risultati-mini__cat">{(m.competition || "").replace(/ Girone.*$/, "")}</span>
+                  <span className="risultati-mini__cat">
+                    <span>{(m.competition || "").replace(/ Girone.*$/, "")}</span>
+                    {m.giornata && /\d/.test(m.giornata) && <span className="risultati-mini__giornata">{m.giornata.replace("Giornata", "G.")}</span>}
+                  </span>
                   <span className="risultati-mini__partita">
                     <span className={"risultati-mini__casa" + (sc > so ? " risultati-mini__vince" : "")}>{tcR(m.home)}</span>
                     <span className="risultati-mini__score">{sc} – {so}</span>
