@@ -612,6 +612,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
             { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione" },
             { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare" },
+            { href: "#/palloni", label: "Palloni in ordine", sub: "Il gioco: scegli la tua squadra e vinci contro il tempo", evidenza: true },
           ]}
         />
         <NavDropdown
@@ -1099,6 +1100,208 @@ function ArticoloCard({ articolo, onOpen }) {
     </div>
   );
 }
+const LIVELLI_PALLONI = [
+  { c: 3, cap: 4, t: 90 },
+  { c: 3, cap: 5, t: 90 },
+  { c: 3, cap: 6, t: 100 },
+  { c: 4, cap: 4, t: 100 },
+  { c: 4, cap: 5, t: 110 },
+  { c: 4, cap: 6, t: 120 },
+];
+const COLORI_PALLONI = ["#d4af37", "#2f6db5", "#c0392b", "#2e9e5b"];
+
+function palloniRisolto(tubi, cap) {
+  return tubi.every((t) => t.length === 0 || (t.length === cap && t.every((x) => x === t[0])));
+}
+
+function palloniNuovaPartita(lv) {
+  const { c, cap } = LIVELLI_PALLONI[lv];
+  for (let tentativo = 0; tentativo < 50; tentativo++) {
+    const tubi = Array.from({ length: 5 }, (_, i) => (i < c ? Array(cap).fill(i) : []));
+    for (let k = 0; k < 200; k++) {
+      const da = [];
+      tubi.forEach((t, i) => { if (t.length) da.push(i); });
+      const a = da[Math.floor(Math.random() * da.length)];
+      const a2 = [];
+      tubi.forEach((t, i) => { if (i !== a && t.length < cap) a2.push(i); });
+      if (!a2.length) continue;
+      const b = a2[Math.floor(Math.random() * a2.length)];
+      tubi[b].push(tubi[a].pop());
+    }
+    if (tubi.filter((t) => t.length && !t.every((x) => x === t[0])).length >= 2) return tubi;
+  }
+  return Array.from({ length: 5 }, (_, i) => (i < c ? Array(cap).fill(i) : []));
+}
+
+function PalloniPage() {
+  const { subscribed } = useSubscribed();
+  const gruppi = React.useMemo(() => {
+    const g = {};
+    const aggiungi = (camp, nome) => {
+      const k = (camp || "").replace(/\s*Girone.*$/i, "").trim();
+      if (!/^(Superlega|Serie (A|B|C|D))/i.test(k)) return;
+      (g[k] = g[k] || new Set()).add(nome);
+    };
+    [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])].forEach((m) => { aggiungi(m.competition, m.home); aggiungi(m.competition, m.away); });
+    Object.values(calendarioRegionaliData.partite || {}).flat().forEach((p) => { aggiungi(p.campionato, p.casa); aggiungi(p.campionato, p.ospite); });
+    const ordine = ["Superlega", "Serie A3 Maschile", "Serie A2 Femminile", "Serie B", "Serie B2", "Serie C Maschile", "Serie C Femminile", "Serie D Femminile"];
+    return Object.keys(g)
+      .sort((a, b) => (ordine.indexOf(a) + 100) % 100 - (ordine.indexOf(b) + 100) % 100 || a.localeCompare(b))
+      .map((k) => ({ nome: k, squadre: [...g[k]].map((n) => nomeBello(n)).sort((x, y) => x.localeCompare(y)) }));
+  }, []);
+
+  const [squadra, setSquadra] = useState("");
+  const [gruppo, setGruppo] = useState("");
+  const [cerca, setCerca] = useState("");
+  const [livello, setLivello] = useState(0);
+  const [tubi, setTubi] = useState([]);
+  const [sel, setSel] = useState(null);
+  const [mosse, setMosse] = useState(0);
+  const [tempo, setTempo] = useState(0);
+  const [fase, setFase] = useState("scelta");
+  const [sbloccato, setSbloccato] = useState(() => {
+    try { return Math.min(Number(localStorage.getItem("pva_palloni_livello")) || 0, LIVELLI_PALLONI.length - 1); } catch (e) { return 0; }
+  });
+
+  const sigla = (n) => {
+    const parole = (n || "").split(/\s+/).filter((w) => w.length > 2 && /^[A-Za-zÀ-ÿ]/.test(w) && !/^(asd|a\.s\.d\.|volley|pallavolo|team)$/i.test(w));
+    const base = parole.length ? parole : (n || "?").split(/\s+/).filter((w) => /^[A-Za-zÀ-ÿ]/.test(w));
+    return base.slice(0, 3).map((w) => w.charAt(0).toUpperCase()).join("");
+  };
+
+  useEffect(() => {
+    if (fase !== "gioco") return undefined;
+    const t = setInterval(() => setTempo((x) => x - 1), 1000);
+    return () => clearInterval(t);
+  }, [fase]);
+  useEffect(() => { if (fase === "gioco" && tempo <= 0) setFase("perso"); }, [tempo, fase]);
+
+  const avvia = (lv, nome) => {
+    if (nome) setSquadra(nome);
+    setLivello(lv);
+    setTubi(palloniNuovaPartita(lv));
+    setSel(null); setMosse(0); setTempo(LIVELLI_PALLONI[lv].t);
+    setFase("gioco");
+  };
+
+  const tocca = (i) => {
+    if (fase !== "gioco") return;
+    const cap = LIVELLI_PALLONI[livello].cap;
+    if (sel === null) { if (tubi[i].length) setSel(i); return; }
+    if (sel === i) { setSel(null); return; }
+    if (tubi[i].length >= cap) { setSel(tubi[i].length ? i : null); return; }
+    const nuovi = tubi.map((t) => [...t]);
+    nuovi[i].push(nuovi[sel].pop());
+    setTubi(nuovi); setSel(null); setMosse((m) => m + 1);
+    if (palloniRisolto(nuovi, cap)) {
+      setFase("vinto");
+      setSbloccato((m) => {
+        const n = Math.max(m, Math.min(livello + 1, LIVELLI_PALLONI.length - 1));
+        try { localStorage.setItem("pva_palloni_livello", String(n)); } catch (e) {}
+        return n;
+      });
+    }
+  };
+
+  const mmss = (t) => Math.floor(Math.max(t, 0) / 60) + ":" + String(Math.max(t, 0) % 60).padStart(2, "0");
+  const q = cerca.trim().toLowerCase();
+  const elenco = q
+    ? gruppi.flatMap((g) => g.squadre.map((n) => ({ n, g: g.nome }))).filter((x) => x.n.toLowerCase().includes(q)).slice(0, 30)
+    : (gruppi.find((g) => g.nome === gruppo)?.squadre || []).map((n) => ({ n, g: gruppo }));
+
+  return (
+    <main className="page-content">
+      <h1 className="page-title">Palloni in ordine</h1>
+      <p className="page-subtitle">Scegli la tua squadra e metti in ordine i palloni: in ogni contenitore deve restare un solo colore. Hai poco tempo. Il primo livello è libero, per gli altri serve l'iscrizione gratuita.</p>
+
+      {fase === "scelta" ? (
+        <div className="pb-scelta">
+          <h2 className="pb-scelta__titolo">Scegli la tua squadra</h2>
+          <input className="mc-cerca" type="search" placeholder="Cerca la tua squadra" value={cerca} onChange={(e) => setCerca(e.target.value)} />
+          {!q && (
+            <div className="mc-cats">
+              {gruppi.map((g) => (
+                <button key={g.nome} className={"mc-cat" + (gruppo === g.nome ? " mc-cat--sel" : "")} onClick={() => setGruppo(g.nome)}>{g.nome}</button>
+              ))}
+            </div>
+          )}
+          <div className="pb-squadre">
+            {!q && !gruppo && <p className="mc-vuoto">Scegli un campionato oppure cerca il nome della squadra.</p>}
+            {elenco.map((x) => (
+              <button key={x.g + x.n} className="pb-squadra" onClick={() => avvia(0, x.n)}>
+                <span className="pb-squadra__nome">{x.n}</span>
+                <span className="pb-squadra__camp">{x.g}</span>
+              </button>
+            ))}
+            {q && elenco.length === 0 && <p className="mc-vuoto">Nessuna squadra trovata.</p>}
+          </div>
+        </div>
+      ) : (
+        <div className="pb-gioco">
+          <div className="pb-top">
+            <span className="pb-top__sq">{squadra}</span>
+            <button className="pb-cambia" onClick={() => { setFase("scelta"); setSel(null); }}>Cambia squadra</button>
+          </div>
+          <div className="pb-livelli">
+            {LIVELLI_PALLONI.map((l, n) => {
+              const chiuso = n > 0 && !subscribed;
+              const nonRaggiunto = n > sbloccato;
+              return (
+                <button key={n} className={"pb-liv" + (n === livello ? " pb-liv--sel" : "") + (chiuso || nonRaggiunto ? " pb-liv--chiuso" : "")}
+                  onClick={() => { if (chiuso) { window.location.href = "#/iscrizione"; return; } if (!nonRaggiunto) avvia(n); }}>
+                  {n + 1}
+                </button>
+              );
+            })}
+          </div>
+          <div className="pb-info"><span>Livello {livello + 1}</span><span className={tempo <= 15 && fase === "gioco" ? "pb-tempo pb-tempo--poco" : "pb-tempo"}>Tempo {mmss(tempo)}</span><span>Mosse {mosse}</span></div>
+          <div className="pb-campo">
+            <div className="pb-rete" aria-hidden="true" />
+            <div className="pb-tubi">
+              {tubi.map((t, i) => (
+                <button key={i} className={"pb-tubo" + (sel === i ? " pb-tubo--sel" : "")} style={{ height: LIVELLI_PALLONI[livello].cap * 50 + 16 }} onClick={() => tocca(i)} aria-label={"Contenitore " + (i + 1)}>
+                  {t.map((c, k) => (
+                    <span key={k} className={"pb-pallone" + (sel === i && k === t.length - 1 ? " pb-pallone--su" : "")} style={{ background: COLORI_PALLONI[c] }}>
+                      <em>{sigla(squadra)}</em>
+                    </span>
+                  ))}
+                </button>
+              ))}
+            </div>
+            {fase !== "gioco" && (
+              <div className="pl-velo">
+                {fase === "vinto" && (
+                  <>
+                    <p className="pl-velo__etichetta">Livello {livello + 1} superato</p>
+                    <p className="pl-velo__punti">{mosse} mosse</p>
+                    <p className="pl-velo__testo">Tempo rimasto {mmss(tempo)}</p>
+                    {livello + 1 >= LIVELLI_PALLONI.length ? (
+                      <><p className="pl-velo__testo">Hai finito tutti i livelli. Campione!</p><button className="qz-btn" onClick={() => avvia(0)}>Ricomincia</button></>
+                    ) : subscribed ? (
+                      <button className="qz-btn" onClick={() => avvia(livello + 1)}>Livello {livello + 2}</button>
+                    ) : (
+                      <><p className="pl-velo__testo">Per i livelli successivi serve l'iscrizione, gratuita.</p><a className="qz-btn" href="#/iscrizione" style={{ textDecoration: "none" }}>Iscriviti e continua</a></>
+                    )}
+                    <a className="qz-link" href={"https://wa.me/?text=" + encodeURIComponent("Ho superato il livello " + (livello + 1) + " di Palloni in ordine con " + squadra + ". Riesci a battermi? https://www.pallavolleyamo.it/palloni")} target="_blank" rel="noreferrer">Sfida un amico su WhatsApp</a>
+                  </>
+                )}
+                {fase === "perso" && (
+                  <>
+                    <p className="pl-velo__etichetta">Tempo scaduto</p>
+                    <p className="pl-velo__testo">Non è andata, ma i palloni si rimescolano e puoi riprovare.</p>
+                    <button className="qz-btn" onClick={() => avvia(livello)}>Riprova</button>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
+          {fase === "gioco" && <button className="pb-cambia" style={{ marginTop: "0.8rem" }} onClick={() => avvia(livello)}>Rimescola da capo</button>}
+        </div>
+      )}
+    </main>
+  );
+}
+
 function GlossarioPage() {
   const [search, setSearch] = useState("");
   const [categoria, setCategoria] = useState("Tutte");
@@ -5701,6 +5904,7 @@ function Breadcrumb({ route }) {
     "giovanili": ["Campionati", "Giovanili"],
     "dirette": ["Campionati", "Dirette Live"],
     "glossario": ["Tecnica", "Glossario"],
+    "palloni": ["Palestra del volley", "Palloni in ordine"],
     "palestra": ["Palestra del volley"],
     "schede": ["Palestra del volley", "Schede Allenamento"],
     "preparazione-fisica": ["Palestra del volley", "Preparazione Fisica"],
@@ -7636,6 +7840,7 @@ useEffect(() => {
     "mercato": ["Mercato pallavolo Umbria: cerco e offro | PallaVolleyAmo", "Il mercato della pallavolo umbra: giocatori, allenatori e squadre che cercano e offrono."],
     "palestra": ["La palestra del volley: tecnica, fisico, mente | PallaVolleyAmo", "Impara e allenati: i fondamentali, la preparazione fisica, il mental coach e le schede di allenamento per la pallavolo."],
     "fondamentali": ["I fondamentali della pallavolo | PallaVolleyAmo", "Battuta, ricezione, palleggio, attacco, muro e difesa: i fondamentali della pallavolo spiegati."],
+    "palloni": ["Palloni in ordine, il gioco | PallaVolleyAmo", "Scegli la tua squadra e metti in ordine i palloni contro il tempo. Il primo livello è libero."],
     "glossario": ["Glossario della pallavolo | PallaVolleyAmo", "Il glossario dei termini della pallavolo, dalla A alla Z."],
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
@@ -7742,7 +7947,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <PostFacebookPage />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -7751,6 +7956,7 @@ useEffect(() => {
           {route === "redazione" && <RedazionePage />}
           {route === "velasco" && <VelascoPage />}
           {route === "glossario" && <GlossarioPage />}
+          {route === "palloni" && <PalloniPage />}
           {route === "atleta-settimana" && <AtletaSettimanaPage />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}
