@@ -2129,7 +2129,9 @@ function RisultatiPage() {
     setSelGiornata("");
     if (selMacro && selComp) {
       const gs = Object.keys(byMacro[selMacro][selComp]).sort((a, b) => giornataNumber(a) - giornataNumber(b));
-      if (gs.length > 0) setSelGiornata(gs[gs.length - 1]);
+      // apre l'ultima giornata che ha almeno una partita giocata; se non ce n'è, l'ultima
+      const giocate = gs.filter((g) => byMacro[selMacro][selComp][g].some((m) => m.status === "disputata"));
+      if (gs.length > 0) setSelGiornata(giocate.length > 0 ? giocate[giocate.length - 1] : gs[gs.length - 1]);
     }
   }, [selComp]);
 

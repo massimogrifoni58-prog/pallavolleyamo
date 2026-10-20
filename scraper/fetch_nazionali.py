@@ -85,6 +85,8 @@ def leggi_calendario(html, id_camp, nome_camp):
                 max_andata = max(max_andata, int(m.group(1)))
     risultati = []
     giornata_n = None
+    senza_giornata = []  # partite lette prima della prima intestazione
+    primo_n = None
     for tipo, val in elementi:
         if tipo == "testa":
             m = RE_GIORNATA.search(val)
@@ -93,6 +95,8 @@ def leggi_calendario(html, id_camp, nome_camp):
                 if (m.group(2) or "").lower() == "ritorno":
                     n += max_andata
                 giornata_n = n
+                if primo_n is None:
+                    primo_n = n
             continue
         celle = val.find_all("td")
         if len(celle) < 5:
@@ -123,6 +127,13 @@ def leggi_calendario(html, id_camp, nome_camp):
             "ora": mo.group(1).replace(".", ":") if mo else None,
             "impianto": pulisci(celle[6].get_text(" - ")) if len(celle) > 6 else None,
         })
+        if giornata_n is None:
+            senza_giornata.append(risultati[-1])
+    # Se la prima intestazione si perde (succede col secondo percorso di download),
+    # le partite iniziali sono della giornata subito prima della prima trovata.
+    if senza_giornata and primo_n and primo_n > 1:
+        for r in senza_giornata:
+            r["giornata"] = f"Giornata {primo_n - 1}"
     return risultati
 
 
