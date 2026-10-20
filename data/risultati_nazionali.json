@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-10-15T09:43:34.464886+00:00",
+  "generatedAt": "2026-10-20T07:31:32.850101+00:00",
   "matches": [
     {
       "id": "lv999-5",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata",
       "home": "ACQUA SANT'ANNA CUNEO",
       "away": "SIR SUSA SCAI PERUGIA",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "2-3",
+      "status": "disputata",
       "data": "Domenica 18/10/2026 ore 18:00",
       "dataIso": "2026-10-18",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport di Cuneo - Cuneo (CN)"
     },
     {
       "id": "lv999-7",
@@ -23,7 +24,8 @@
       "status": "in programma",
       "data": "Domenica 25/10/2026 ore 18:00",
       "dataIso": "2026-10-25",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv999-15",
@@ -35,7 +37,8 @@
       "status": "in programma",
       "data": "Sabato 31/10/2026 ore 18:00",
       "dataIso": "2026-10-31",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "OpiquadArena - Monza (MB)"
     },
     {
       "id": "lv999-19",
@@ -47,7 +50,8 @@
       "status": "in programma",
       "data": "Mercoledí 4/11/2026 ore 20:30",
       "dataIso": "2026-11-04",
-      "ora": "20:30"
+      "ora": "20:30",
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv999-25",
@@ -59,7 +63,8 @@
       "status": "in programma",
       "data": "Domenica 8/11/2026 ore 18:00",
       "dataIso": "2026-11-08",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "BTS Arena - Trento (TN)"
     },
     {
       "id": "lv999-32",
@@ -71,7 +76,8 @@
       "status": "in programma",
       "data": "",
       "dataIso": null,
-      "ora": null
+      "ora": null,
+      "impianto": "PalaBancaSport - Piacenza (PC)"
     },
     {
       "id": "lv999-37",
@@ -83,7 +89,8 @@
       "status": "in programma",
       "data": "",
       "dataIso": null,
-      "ora": null
+      "ora": null,
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv999-47",
@@ -95,7 +102,8 @@
       "status": "in programma",
       "data": "",
       "dataIso": null,
-      "ora": null
+      "ora": null,
+      "impianto": "Allianz Cloud (Palalido) - Milano (MI)"
     },
     {
       "id": "lv999-49",
@@ -107,7 +115,8 @@
       "status": "in programma",
       "data": "",
       "dataIso": null,
-      "ora": null
+      "ora": null,
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv999-55",
@@ -119,7 +128,8 @@
       "status": "in programma",
       "data": "",
       "dataIso": null,
-      "ora": null
+      "ora": null,
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv999-61",
@@ -131,19 +141,21 @@
       "status": "in programma",
       "data": "Mercoledí 28/10/2026 ore 20:30",
       "dataIso": "2026-10-28",
-      "ora": "20:30"
+      "ora": "20:30",
+      "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
       "id": "lv1001-1001",
       "competition": "Serie A3 Maschile Girone Bianco",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata",
       "home": "ERMGROUP ALTOTEVERE",
       "away": "NEGRINI CTE ACQUI TERME",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-1",
+      "status": "disputata",
       "data": "Domenica 18/10/2026 ore 18:00",
       "dataIso": "2026-10-18",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1001-1007",
@@ -155,7 +167,8 @@
       "status": "in programma",
       "data": "Domenica 25/10/2026 ore 17:30",
       "dataIso": "2026-10-25",
-      "ora": "17:30"
+      "ora": "17:30",
+      "impianto": "Palafrancescucci - Casnate con Bernate (CO)"
     },
     {
       "id": "lv1001-1013",
@@ -167,7 +180,8 @@
       "status": "in programma",
       "data": "Domenica 1/11/2026 ore 16:00",
       "dataIso": "2026-11-01",
-      "ora": "16:00"
+      "ora": "16:00",
+      "impianto": "Palazzetto dello Sport - Sarroch (CA)"
     },
     {
       "id": "lv1001-1020",
@@ -179,7 +193,8 @@
       "status": "in programma",
       "data": "Domenica 8/11/2026 ore 18:00",
       "dataIso": "2026-11-08",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1001-1030",
@@ -191,7 +206,8 @@
       "status": "in programma",
       "data": "Domenica 15/11/2026 ore 18:00",
       "dataIso": "2026-11-15",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Centro Sportivo Paolo VI - Brugherio (MB)"
     },
     {
       "id": "lv1001-1032",
@@ -203,7 +219,8 @@
       "status": "in programma",
       "data": "Sabato 21/11/2026 ore 20:30",
       "dataIso": "2026-11-21",
-      "ora": "20:30"
+      "ora": "20:30",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1001-1039",
@@ -215,7 +232,8 @@
       "status": "in programma",
       "data": "Domenica 29/11/2026 ore 18:00",
       "dataIso": "2026-11-29",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Pala Barbazza - San Donà di Piave (VE)"
     },
     {
       "id": "lv1001-1044",
@@ -227,7 +245,8 @@
       "status": "in programma",
       "data": "Domenica 6/12/2026 ore 18:00",
       "dataIso": "2026-12-06",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1001-1049",
@@ -239,7 +258,8 @@
       "status": "in programma",
       "data": "Domenica 13/12/2026 ore 16:00",
       "dataIso": "2026-12-13",
-      "ora": "16:00"
+      "ora": "16:00",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1001-1058",
@@ -251,7 +271,8 @@
       "status": "in programma",
       "data": "Domenica 20/12/2026 ore 18:00",
       "dataIso": "2026-12-20",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Pala200 - Settimo Torinese (TO)"
     },
     {
       "id": "lv1001-1062",
@@ -263,19 +284,21 @@
       "status": "in programma",
       "data": "Domenica 27/12/2026 ore 18:00",
       "dataIso": "2026-12-27",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport San Giustino - San Giustino (PG)"
     },
     {
       "id": "lv1002-1205",
       "competition": "Serie A3 Maschile Girone Blu",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata",
       "home": "ROMEO SORRENTO",
       "away": "TERNI VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-1",
+      "status": "disputata",
       "data": "Domenica 18/10/2026 ore 19:00",
       "dataIso": "2026-10-18",
-      "ora": "19:00"
+      "ora": "19:00",
+      "impianto": "PalAtigliana - Sorrento (NA)"
     },
     {
       "id": "lv1002-1211",
@@ -287,7 +310,8 @@
       "status": "in programma",
       "data": "Sabato 24/10/2026 ore 18:00",
       "dataIso": "2026-10-24",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
     },
     {
       "id": "lv1002-1215",
@@ -299,7 +323,8 @@
       "status": "in programma",
       "data": "Sabato 31/10/2026 ore 18:00",
       "dataIso": "2026-10-31",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport di Galatone - Galatone (LE)"
     },
     {
       "id": "lv1002-1223",
@@ -311,7 +336,8 @@
       "status": "in programma",
       "data": "Sabato 7/11/2026 ore 18:00",
       "dataIso": "2026-11-07",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
     },
     {
       "id": "lv1002-1229",
@@ -323,7 +349,8 @@
       "status": "in programma",
       "data": "Sabato 14/11/2026 ore 16:00",
       "dataIso": "2026-11-14",
-      "ora": "16:00"
+      "ora": "16:00",
+      "impianto": "PalaTerni - Terni (TR)"
     },
     {
       "id": "lv1002-1231",
@@ -335,7 +362,8 @@
       "status": "in programma",
       "data": "Domenica 22/11/2026 ore 16:00",
       "dataIso": "2026-11-22",
-      "ora": "16:00"
+      "ora": "16:00",
+      "impianto": "PalaGrotte - Castellana Grotte (BA)"
     },
     {
       "id": "lv1002-1241",
@@ -347,7 +375,8 @@
       "status": "in programma",
       "data": "Domenica 29/11/2026 ore 19:00",
       "dataIso": "2026-11-29",
-      "ora": "19:00"
+      "ora": "19:00",
+      "impianto": "PalaTerni - Terni (TR)"
     },
     {
       "id": "lv1002-1247",
@@ -359,7 +388,8 @@
       "status": "in programma",
       "data": "Domenica 6/12/2026 ore 18:00",
       "dataIso": "2026-12-06",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Pala Brillia - Corigliano Calabro (CS)"
     },
     {
       "id": "lv1002-1253",
@@ -371,7 +401,8 @@
       "status": "in programma",
       "data": "Domenica 13/12/2026 ore 18:00",
       "dataIso": "2026-12-13",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
     },
     {
       "id": "lv1002-1263",
@@ -383,7 +414,8 @@
       "status": "in programma",
       "data": "Sabato 26/12/2026 ore 18:00",
       "dataIso": "2026-12-26",
-      "ora": "18:00"
+      "ora": "18:00",
+      "impianto": "Palasport di Cisterna di Latina - Cisterna di Latina (LT)"
     }
   ]
 }
