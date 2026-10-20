@@ -7826,7 +7826,9 @@ function LastUpdated() {
 
   return (
     <p className="visit-counter">
-      Dati aggiornati il: <strong>{formatted}</strong>
+      Ultimo aggiornamento completo: <strong>{formatted}</strong>
+      <br />
+      <span style={{ fontSize: "0.85em", opacity: 0.85 }}>I risultati si controllano ogni 2 ore</span>
     </p>
   );
 }
