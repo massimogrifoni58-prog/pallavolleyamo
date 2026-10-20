@@ -4981,3 +4981,20 @@ body.light-mode .st-card__sigla { color: #8a6508; border-color: #b8860b; backgro
   .hero-inner { bottom: 0; }
   .hero-logo-laterale { width: 130px; height: 130px; }
 }
+
+/* === HOME: scheda La Settimana Volley === */
+.sv-card { display: flex; flex-direction: column; gap: 0.7rem; background: var(--card-bg); border: 1px solid var(--border); border-left: 4px solid var(--gold); border-radius: 12px; padding: 1.1rem 1.2rem; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+.sv-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(212,175,55,0.15); border-color: var(--gold); }
+.sv-card__testa { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; }
+.sv-card__nastro { padding: 0.15rem 0.65rem; border-radius: 999px; background: var(--gold); color: #111; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.sv-card__data { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); }
+.sv-card__titolo { margin: 0; font-size: 1.3rem; font-weight: 800; line-height: 1.3; color: var(--text); }
+.sv-card__testo { margin: 0; font-size: 0.92rem; line-height: 1.6; color: var(--text-dim); }
+.sv-card__segna { display: flex; flex-direction: column; gap: 0.4rem; padding: 0.8rem 0.9rem; border-radius: 10px; background: rgba(212,175,55,0.07); border: 1px solid rgba(212,175,55,0.25); }
+.sv-card__segna-titolo { margin: 0 0 0.1rem; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
+.sv-card__riga { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.7rem; }
+.sv-card__quando { flex: 0 0 auto; font-size: 0.78rem; font-weight: 800; color: var(--gold); text-transform: uppercase; }
+.sv-card__partita { font-size: 0.92rem; font-weight: 600; color: var(--text); }
+.sv-card__link { margin: 0; font-size: 0.88rem; font-weight: 700; color: var(--gold); }
+body.light-mode .sv-card__nastro { background: #b8860b; color: #fff; }
+@media (max-width: 520px) { .sv-card { padding: 1rem; } .sv-card__titolo { font-size: 1.15rem; } }
