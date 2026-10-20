@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T09:48:15.301377+00:00",
+  "generatedAt": "2026-10-20T16:40:31.037032+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10217,20 +10217,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658230",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 14",
-      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
-      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658229",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 14",
       "home": "UISP VOLLEY UMBERTIDE GIALLA",
       "away": "FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658230",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 14",
+      "home": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
       "score": "da disputare",
       "status": "in programma"
     },

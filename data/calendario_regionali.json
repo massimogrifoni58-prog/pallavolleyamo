@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T09:51:46.762972+00:00",
+  "generatedAt": "2026-10-20T16:39:47.379486+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -7583,8 +7583,8 @@
         "id": "giov-under-17-femminile-girone-d-0",
         "campionato": "Under 17 Femminile Girone D",
         "giornata": "1",
-        "data": "2026-10-24",
-        "ora": "17:00",
+        "data": "2026-10-25",
+        "ora": "11:00",
         "casa": "UMBRIA VOLLEY ACADEMY DERUTA 17",
         "ospite": "SIRIO PALLAVOLO ARANCIO",
         "risultato": null
@@ -9084,7 +9084,7 @@
         "campionato": "Under 19 Femminile ELITE",
         "giornata": "5",
         "data": "2026-11-26",
-        "ora": "19:45",
+        "ora": "20:00",
         "casa": "SCHOOL VOLLEY PERUGIA",
         "ospite": "SIRIO PALLAVOLO",
         "risultato": null
@@ -10378,7 +10378,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "1",
         "data": "2026-11-14",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "A.S. FOSSATO VOLLEY",
         "risultato": null
@@ -10478,7 +10478,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "3",
         "data": "2026-11-28",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "ELETTRA  2  PONTE FELCINO",
         "risultato": null
@@ -10578,7 +10578,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "5",
         "data": "2026-12-12",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "SIRIO PALLAVOLO",
         "risultato": null
@@ -10678,7 +10678,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "7",
         "data": "2027-01-09",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null
@@ -10878,7 +10878,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "11",
         "data": "2027-02-20",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "TRESTINA VOLLEY",
         "risultato": null
@@ -10978,7 +10978,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "13",
         "data": "2027-03-06",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "POLISP DON BOSCO GUBBIO BIANCA",
         "risultato": null
@@ -11078,7 +11078,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "15",
         "data": "2027-03-20",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "TIBER VOLLEY",
         "risultato": null
@@ -11178,7 +11178,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "17",
         "data": "2027-04-10",
-        "ora": "17:30",
+        "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "VOLLEY PIETRALUNGA",
         "risultato": null
