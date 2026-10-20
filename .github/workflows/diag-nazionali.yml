@@ -1,0 +1,31 @@
+name: Diagnosi risultati nazionali
+on:
+  push:
+    branches: [diag-nazionali]
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - name: Prova
+        run: |
+          mkdir -p diag
+          (cd scraper && python fetch_nazionali.py) > diag/nazionali.txt 2>&1 || true
+          (cd scraper && python fetch_nazionali_fipav.py --tutto) > diag/fipav.txt 2>&1 || true
+          curl -s -o /dev/null -w "legavolley HTTP %{http_code}\n" -A "Mozilla/5.0" https://www.legavolley.it/risultati-classifiche/ > diag/http.txt 2>&1 || true
+          python - >> diag/http.txt 2>&1 <<'PY'
+          import json
+          for f in ["react-app/data/risultati_nazionali.json","react-app/data/risultati_nazionali_fipav.json"]:
+              d=json.load(open(f,encoding="utf-8"))
+              m=d.get("matches",[])
+              print(f,len(m),"disputate:",sum(1 for x in m if x.get("status")=="disputata"))
+          PY
+          git config user.email bot@example.com; git config user.name diag
+          git add diag
+          git commit -m "diag" && git push
