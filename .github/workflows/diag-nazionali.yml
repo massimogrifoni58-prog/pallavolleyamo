@@ -9,23 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - run: pip install requests beautifulsoup4
-      - name: Prova
+      - name: Prova fonti
         run: |
           mkdir -p diag
-          (cd scraper && python fetch_nazionali.py) > diag/nazionali.txt 2>&1 || true
-          (cd scraper && python fetch_nazionali_fipav.py --tutto) > diag/fipav.txt 2>&1 || true
-          curl -s -o /dev/null -w "legavolley HTTP %{http_code}\n" -A "Mozilla/5.0" https://www.legavolley.it/risultati-classifiche/ > diag/http.txt 2>&1 || true
-          python - >> diag/http.txt 2>&1 <<'PY'
-          import json
-          for f in ["react-app/data/risultati_nazionali.json","react-app/data/risultati_nazionali_fipav.json"]:
-              d=json.load(open(f,encoding="utf-8"))
-              m=d.get("matches",[])
-              print(f,len(m),"disputate:",sum(1 for x in m if x.get("status")=="disputata"))
-          PY
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          t() { printf "%s  " "$1" >> diag/fonti.txt; curl -s -L -m 30 -o diag/tmp.html -w "%{http_code} %{size_download}\n" -A "$UA" -H "Accept: text/html,application/xhtml+xml" -H "Accept-Language: it-IT,it;q=0.9" "$2" >> diag/fonti.txt 2>&1; grep -o "Cuneo[^<]\{0,80\}" diag/tmp.html | head -2 >> diag/fonti.txt; }
+          : > diag/fonti.txt
+          t lega-browser "https://www.legavolley.it/calendario/?idCampionato=999"
+          t lega-http "http://www.legavolley.it/calendario/?idCampionato=999"
+          t lega-nowww "https://legavolley.it/calendario/?idCampionato=999"
+          t lega-risultati "https://www.legavolley.it/risultati/"
+          t jina "https://r.jina.ai/https://www.legavolley.it/calendario/?idCampionato=999"
+          t wiki "https://it.wikipedia.org/wiki/SuperLega_2026-2027"
+          t volleyball-world "https://en.volleyballworld.com/"
+          t sofascore "https://api.sofascore.com/api/v1/unique-tournament/1128/seasons"
+          t lvf "https://www.legavolleyfemminile.it/"
           git config user.email bot@example.com; git config user.name diag
-          git add diag
-          git commit -m "diag" && git push
+          rm -f diag/tmp.html
+          git add diag && git commit -qm "diag fonti" && git push
