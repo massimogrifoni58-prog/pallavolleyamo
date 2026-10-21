@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T09:50:30.415071+00:00",
+  "generatedAt": "2026-10-21T16:59:09.125764+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -108,6 +108,18 @@
       "data": "24/10/2026 ore 21:00",
       "dataIso": "2026-10-24",
       "ora": "21:00"
+    },
+    {
+      "id": "fp11216",
+      "competition": "Serie B2 Girone G",
+      "giornata": "Giornata",
+      "home": "PALLAV. CITTA' DI CASTELLO",
+      "away": "PALLAVOLO I'GIGLIO CASTELF.NO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "31/10/2026 ore 18:30",
+      "dataIso": "2026-10-31",
+      "ora": "18:30"
     },
     {
       "id": "fp11221",
