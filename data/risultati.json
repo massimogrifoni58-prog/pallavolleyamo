@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T05:05:43.141698+00:00",
+  "generatedAt": "2026-10-21T09:49:32.781426+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10037,15 +10037,6 @@
       "status": "in programma"
     },
     {
-      "id": "131658207",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 9",
-      "home": "UNIPOL ASSICURAZIONI BASTIA",
-      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658210",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 9",
@@ -10060,6 +10051,15 @@
       "giornata": "Giornata 9",
       "home": "UISP VOLLEY UMBERTIDE GIALLA",
       "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658207",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "UNIPOL ASSICURAZIONI BASTIA",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16535,20 +16535,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659431",
-      "competition": "Under 15 Femminile Girone C",
-      "giornata": "Giornata 1",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
-      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659432",
       "competition": "Under 15 Femminile Girone C",
       "giornata": "Giornata 1",
       "home": "UMBRIA VOLLEY ACADEMY 15",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659431",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "score": "da disputare",
       "status": "in programma"
     },
