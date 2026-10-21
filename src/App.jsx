@@ -1136,6 +1136,36 @@ function palloniNuovaPartita(lv) {
   return Array.from({ length: 5 }, (_, i) => (i < c ? Array(cap).fill(i) : []));
 }
 
+function PalloniClassifica({ evidenzia }) {
+  const [righe, setRighe] = useState(null);
+  const [errore, setErrore] = useState(false);
+  useEffect(() => {
+    let vivo = true;
+    archivioRpc("palloni_classifica", {}).then((d) => { if (vivo) setRighe(Array.isArray(d) ? d : []); }).catch(() => { if (vivo) setErrore(true); });
+    return () => { vivo = false; };
+  }, []);
+  return (
+    <div className="pb-class">
+      <h2 className="pb-scelta__titolo">Classifica delle squadre</h2>
+      <p className="mc-sub">Ogni livello superato porta alla tua squadra tanti punti quanto è il numero del livello. Non viene salvato nessun dato personale.</p>
+      {errore && <p className="mc-vuoto">La classifica non è raggiungibile in questo momento.</p>}
+      {!errore && righe === null && <p className="mc-vuoto">Carico la classifica...</p>}
+      {righe && righe.length === 0 && <p className="mc-vuoto">Nessuna partita ancora: la prima squadra in classifica può essere la tua.</p>}
+      {righe && righe.length > 0 && (
+        <ol className="pb-class__lista">
+          {righe.map((r, i) => (
+            <li key={r.squadra} className={"pb-class__riga" + (r.squadra === evidenzia ? " pb-class__riga--mia" : "")}>
+              <span className="pb-class__pos">{i + 1}</span>
+              <span className="pb-class__nome">{r.squadra}</span>
+              <span className="pb-class__dati">{r.partite} {Number(r.partite) === 1 ? "livello" : "livelli"} · <strong>{r.punti} punti</strong></span>
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+  );
+}
+
 function PalloniPage() {
   const { subscribed } = useSubscribed();
   const gruppi = React.useMemo(() => {
@@ -1198,6 +1228,7 @@ function PalloniPage() {
     setTubi(nuovi); setSel(null); setMosse((m) => m + 1);
     if (palloniRisolto(nuovi, cap)) {
       setFase("vinto");
+      archivioRpc("palloni_invia", { p_squadra: squadra, p_livello: livello + 1, p_mosse: mosse + 1, p_secondi: Math.max(0, Math.min(120, tempo)) }).catch(() => {});
       setSbloccato((m) => {
         const n = Math.max(m, Math.min(livello + 1, LIVELLI_PALLONI.length - 1));
         try { localStorage.setItem("pva_palloni_livello", String(n)); } catch (e) {}
@@ -1238,6 +1269,7 @@ function PalloniPage() {
             ))}
             {q && elenco.length === 0 && <p className="mc-vuoto">Nessuna squadra trovata.</p>}
           </div>
+          <PalloniClassifica evidenzia={squadra} />
         </div>
       ) : (
         <div className="pb-gioco">

@@ -5100,3 +5100,13 @@ body.light-mode .bm-card__blocco strong { color: #8a6508; }
 .av-link { display: flex; flex-direction: column; padding: 0.6rem 0.9rem; border-radius: 10px; text-decoration: none; color: var(--gold); border: 1px solid var(--border); }
 .av-link:hover { border-color: var(--gold); }
 .av-link span { font-size: 0.75rem; color: var(--text-dim); }
+
+/* Palloni in ordine: classifica squadre */
+.pb-class { margin-top: 2rem; }
+.pb-class__lista { list-style: none; margin: 0.8rem 0 0; padding: 0; display: grid; gap: 0.4rem; }
+.pb-class__riga { display: grid; grid-template-columns: 2rem 1fr auto; gap: 0.6rem; align-items: center; padding: 0.6rem 0.8rem; border: 1px solid rgba(212,175,55,0.25); border-radius: 10px; background: rgba(255,255,255,0.03); }
+.pb-class__riga--mia { border-color: #d4af37; background: rgba(212,175,55,0.1); }
+.pb-class__pos { font-weight: 700; color: #d4af37; text-align: center; }
+.pb-class__nome { font-weight: 600; }
+.pb-class__dati { font-size: 0.85rem; opacity: 0.85; text-align: right; }
+@media (max-width: 520px) { .pb-class__riga { grid-template-columns: 1.6rem 1fr; } .pb-class__dati { grid-column: 2; text-align: left; } }
