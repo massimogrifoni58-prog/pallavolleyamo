@@ -5659,11 +5659,19 @@ function SponsorPage() {
     },
   ];
 
+  const numeri = [
+    { n: "circa 150", t: "visitatori del sito negli ultimi 30 giorni" },
+    { n: "84%", t: "dei visitatori viene dall'Italia" },
+    { n: "61%", t: "legge il sito da telefono" },
+    { n: "841", t: "visualizzazioni della pagina Facebook in 28 giorni" },
+    { n: "44", t: "follower della pagina Facebook" },
+  ];
+
   const vantaggi = [
-    { titolo: "Visibilità regionale", testo: "Il tuo logo raggiunge tutti gli appassionati di pallavolo in Umbria, aggiornati quotidianamente sulle notizie e i risultati dei campionati regionali." },
-    { titolo: "Target specifico", testo: "Il nostro pubblico è composto da giocatori, allenatori, famiglie e dirigenti sportivi — il target ideale per attività legate allo sport e al territorio." },
-    { titolo: "Aggiornamenti giornalieri", testo: "Il sito si aggiorna ogni giorno automaticamente, portando nuovi visitatori continuamente nel corso della stagione." },
-    { titolo: "Presenza duratura", testo: "Il tuo banner o logo è presente su tutte le pagine del sito per tutta la durata del contratto, con link diretto al tuo sito o profilo social." },
+    { titolo: "Pubblico mirato", testo: "Chi arriva cerca risultati, calendario e classifiche della propria squadra: giocatori, famiglie, allenatori e dirigenti del volley umbro." },
+    { titolo: "Aggiornato ogni giorno", testo: "Il sito si aggiorna ogni giorno in modo automatico, con risultati e notizie di tutti i campionati regionali." },
+    { titolo: "Il tuo nome in un posto preciso", testo: "Il tuo logo e il link al tuo sito compaiono in un riquadro a rotazione in fondo alle pagine e nella pagina dedicata agli sponsor." },
+    { titolo: "Un progetto che cresce", testo: "Il sito è nuovo e in crescita. Chi sceglie di esserci adesso entra tra i primi partner." },
   ];
 
   return (
@@ -5682,10 +5690,21 @@ function SponsorPage() {
 
         <p className="sponsor-intro">
           <strong>PallaVolleyAmo</strong> è il punto di riferimento per la pallavolo in Umbria —
-          notizie, risultati, classifiche e calendario di tutti i campionati regionali, dalla Serie C
-          fino all'Under 14. Ogni giorno nuovi aggiornamenti, ogni giorno nuovi lettori.
-          Associa il tuo brand a questo progetto e raggiungi un pubblico appassionato e fidelizzato.
+          notizie, risultati, classifiche e calendario dei campionati regionali.
+          Associa il tuo brand a questo progetto e raggiungi un pubblico appassionato di pallavolo, vicino al territorio.
         </p>
+
+        {/* Numeri */}
+        <h3 className="sponsor-section-title">I nostri numeri</h3>
+        <div className="sponsor-grid">
+          {numeri.map((x, i) => (
+            <div key={i} className="sponsor-card">
+              <h4 className="sponsor-card__titolo" style={{ fontSize: "1.6rem" }}>{x.n}</h4>
+              <p className="sponsor-card__testo">{x.t}</p>
+            </div>
+          ))}
+        </div>
+        <p className="sponsor-intro" style={{ fontSize: "0.8rem", opacity: 0.75 }}>Dati aggiornati al 22 ottobre 2026: statistiche del sito e della pagina Facebook.</p>
 
         {/* Vantaggi */}
         <div className="sponsor-grid">
@@ -5698,33 +5717,31 @@ function SponsorPage() {
         </div>
 
         {/* Pacchetti */}
-        <h3 className="sponsor-section-title">Pacchetti disponibili</h3>
+        <h3 className="sponsor-section-title">Formule disponibili</h3>
         <div className="sponsor-pacchetti">
           <div className="sponsor-pacco">
-            <div className="sponsor-pacco__nome">Base</div>
+            <div className="sponsor-pacco__nome">Presenza</div>
             <ul className="sponsor-pacco__lista">
-              <li>Logo nella sidebar</li>
-              <li>Link al tuo sito</li>
-              <li>Visibile su tutte le pagine</li>
+              <li>Logo e link a rotazione in fondo alle pagine</li>
+              <li>Scheda nella pagina "I nostri sponsor"</li>
+              <li>Prezzo su richiesta</li>
             </ul>
           </div>
           <div className="sponsor-pacco sponsor-pacco--gold">
-            <div className="sponsor-pacco__badge">Più scelto</div>
-            <div className="sponsor-pacco__nome">Premium</div>
+            <div className="sponsor-pacco__badge">Più completa</div>
+            <div className="sponsor-pacco__nome">Presenza e Facebook</div>
             <ul className="sponsor-pacco__lista">
-              <li>Banner in homepage</li>
-              <li>Logo nella sidebar</li>
-              <li>Link al tuo sito</li>
-              <li>Menzione nelle news</li>
+              <li>Tutto quanto incluso in Presenza</li>
+              <li>Un post dedicato sulla pagina Facebook</li>
+              <li>Prezzo su richiesta</li>
             </ul>
           </div>
           <div className="sponsor-pacco">
-            <div className="sponsor-pacco__nome">Partner</div>
+            <div className="sponsor-pacco__nome">Sezione</div>
             <ul className="sponsor-pacco__lista">
-              <li>Logo in header</li>
-              <li>Pagina dedicata</li>
-              <li>Banner in homepage</li>
-              <li>Post Facebook incluso</li>
+              <li>Il tuo nome su uno spazio fisso, per esempio "Il match da non perdere, offerto da..."</li>
+              <li>Tutto quanto incluso in Presenza e Facebook</li>
+              <li>Prezzo su richiesta</li>
             </ul>
           </div>
         </div>
@@ -5732,7 +5749,7 @@ function SponsorPage() {
         {/* Contatto */}
         <h3 className="sponsor-section-title">Contattaci</h3>
         <p className="sponsor-intro" style={{ marginBottom: "1.25rem" }}>
-          Scrivici per ricevere il media kit completo o per accordare una soluzione personalizzata.
+          Scrivici per conoscere i prezzi e concordare la soluzione più adatta alla tua attività.
         </p>
         <a
           href="mailto:pallavolleyamo@libero.it?subject=Richiesta%20sponsorizzazione%20PallaVolleyAmo"
