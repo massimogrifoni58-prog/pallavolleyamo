@@ -22,19 +22,21 @@ const PAESI_EXTRA = {
   "citta della pieve": [42.953, 12.004], "panicale": [43.028, 12.100], "passignano": [43.188, 12.137],
   "tuoro": [43.207, 12.074], "montecastrilli": [42.650, 12.488], "otricoli": [42.420, 12.477],
   "stroncone": [42.501, 12.659], "ferentillo": [42.621, 12.788], "valfabbrica": [43.159, 12.602],
-  "gubbio": [43.352, 12.577], "umbertide": [43.306, 12.336], "attigliano": [42.516, 12.293],
+  "gubbio": [43.352, 12.577], "castel dell aquila": [42.619, 12.448], "umbertide": [43.306, 12.336], "attigliano": [42.516, 12.293],
 };
 // Nomi abbreviati -> nome del comune usato sopra o nella Mappa volley
 const ALIAS = { "arronepallavolo": "arrone", "bastia": "bastia umbra", "ellera": "ellera umbra", "amerina": "amelia", "fossato": "fossato di vico", "castello": "citta di castello", "valleceppi": "ponte valleceppi" };
 // Squadre senza paese nel nome, di cui si conosce la sede
-const SEDE_NOTA = { "delfino": "tavernelle", "sirio": "magione", "sir": "perugia" };
+const SEDE_NOTA = { "delfino": "tavernelle", "sirio": "magione", "sir": "perugia", "difdif": "castel dell aquila", "italchimici": "foligno", "clt": "terni", "tiber": "todi" };
 
 export function costruisciLuoghi() {
   const soc = (societaData.societa || []).filter((s) => s.lat && s.lng);
   const citta = {};
+  const scritto = { "castel dell aquila": "Castel dell'Aquila", "san gemini": "San Gemini", "citta della pieve": "Città della Pieve", "giano dell umbria": "Giano dell'Umbria" };
   soc.forEach((s) => {
     const c = norm(s.citta);
     if (!c) return;
+    scritto[c] = s.citta;
     (citta[c] = citta[c] || []).push([s.lat, s.lng]);
   });
   const comuni = {};
@@ -43,7 +45,7 @@ export function costruisciLuoghi() {
   });
   Object.entries(PAESI_EXTRA).forEach(([c, p]) => { if (!comuni[c]) comuni[c] = p; });
   const nomiComuni = Object.keys(comuni).sort((a, b) => b.length - a.length);
-  const nomeBello = (c) => c.replace(/\b\w/g, (x) => x.toUpperCase());
+  const nomeBello = (c) => scritto[c] || c.replace(/\b\w/g, (x) => x.toUpperCase());
 
   const cache = {};
   return function luogo(squadra) {
