@@ -130,7 +130,7 @@ export default function VicinoATe({ partite, nome, etichettaGiorno }) {
       {stato !== "ok" && (
         <div className="vicino__invito">
           <div>
-            <p className="vicino__titolo">📍 Si gioca vicino a te</p>
+            <p className="vicino__titolo">Si gioca vicino a te</p>
             <p className="vicino__testo">Trova le partite di questo weekend nei palazzetti più vicini a dove ti trovi. La posizione resta sul tuo telefono.</p>
           </div>
           <button className="vicino__btn" onClick={cerca} disabled={stato === "cerco"}>
@@ -142,7 +142,7 @@ export default function VicinoATe({ partite, nome, etichettaGiorno }) {
       {stato === "ok" && (
         <div className="vicino__risultati">
           <div className="vicino__testa">
-            <p className="vicino__titolo">📍 Le partite più vicine a te</p>
+            <p className="vicino__titolo">Le partite più vicine a te</p>
             <button className="vicino__chiudi" onClick={() => { setStato("pronto"); setPos(null); }}>Chiudi</button>
           </div>
           {vicine.length === 0 && <p className="vicino__testo">Nessuna partita ancora da giocare trovata per questo weekend.</p>}
@@ -160,7 +160,7 @@ export default function VicinoATe({ partite, nome, etichettaGiorno }) {
             ))}
           </ol>
           {vicine.length > quante && <button className="vicino__altre" onClick={() => setQuante((q) => q + 8)}>Mostra altre partite</button>}
-          <p className="vicino__nota">Distanze in linea d'aria. Per le squadre senza palazzetto in archivio la posizione è quella del paese.</p>
+          <p className="vicino__nota">Distanze in linea d'aria. Per le squadre senza palazzetto in archivio la posizione è quella del paese. Le partite di squadre di cui non conosciamo la sede non compaiono in questo elenco.</p>
         </div>
       )}
     </div>
