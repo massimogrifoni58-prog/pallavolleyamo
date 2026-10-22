@@ -326,7 +326,7 @@ function Ticker({ posts }) {
 // Codice di 4 numeri che apre il menu "Area riservata".
 // Qui c'e' solo l'impronta (SHA-256) del codice, non il codice in chiaro.
 // Le pagine riservate restano comunque protette dalle loro password.
-const CODICE_AREA_HASH = "ff2f1dc2a37feae2b2bfba3441f92390a7ecf3e4d6fab043ceae1e0e7d525859";
+const CODICE_AREA_HASH = "7237c4f82e34a4274b226ad5fd0646c53761330500ce78d5cfae89bf4efe4e4c";
 const CODICE_AREA_CHIAVE = "pva_area_ok";
 async function impronta(testo) {
   const dati = new TextEncoder().encode("pallavolleyamo:" + testo);
