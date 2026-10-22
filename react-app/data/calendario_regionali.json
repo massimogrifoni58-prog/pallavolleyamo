@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:53:25.005218+00:00",
+  "generatedAt": "2026-10-22T21:23:39.166642+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6217,7 +6217,7 @@
         "ora": "19:30",
         "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-b-5",
@@ -6227,7 +6227,7 @@
         "ora": "18:15",
         "casa": "STRIKE TEAM MONTELUCE U17",
         "ospite": "SIRIO PALLAVOLO ROSSA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-b-6",
@@ -8121,7 +8121,7 @@
         "ora": "18:45",
         "casa": "NARNI SPORT ACADEMY RUBINO",
         "ospite": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-f-4",
