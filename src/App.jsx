@@ -627,6 +627,15 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", largo: true },
           ]}
         />
+        <NavDropdown
+          label="Area riservata"
+          subscribed={subscribed}
+          items={[
+            { href: "#/modera", label: "Post da approvare", sub: "I post delle società da pubblicare sul sito" },
+            { href: "#/post-facebook", label: "Post del weekend", sub: "Testo e grafica pronti per Facebook" },
+            { href: "#/archivio-riservato", label: "Archivio riservato", sub: "L'archivio protetto da password" },
+          ]}
+        />
       </nav>
     </header>
   );
