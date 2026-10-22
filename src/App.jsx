@@ -7541,7 +7541,8 @@ function MiaSquadraHome() {
   );
 }
 
-function ModeraPage() {
+function ModeraPage({ tabIniziale }) {
+  const [tab, setTab] = useState(tabIniziale || "post");
   const [pw, setPw] = useState(() => { try { return sessionStorage.getItem("pva_modera_pw") || ""; } catch (e) { return ""; } });
   const [dentro, setDentro] = useState(false);
   const [errore, setErrore] = useState("");
@@ -7588,7 +7589,7 @@ function ModeraPage() {
 
   return (
     <main>
-      <CampionatiHero titolo="Post delle società" />
+      <CampionatiHero titolo="Area riservata" />
       <section className="section">
         {!dentro ? (
           <form onSubmit={entra} style={{ maxWidth: "360px" }}>
@@ -7599,6 +7600,17 @@ function ModeraPage() {
             {errore && <p className="state" style={{ marginTop: "0.7rem" }}>{errore}</p>}
           </form>
         ) : (
+          <>
+            <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.2rem" }}>
+              <button className={"filter-btn" + (tab === "post" ? " filter-btn--active" : "")} onClick={() => setTab("post")}>Post da approvare</button>
+              <button className={"filter-btn" + (tab === "weekend" ? " filter-btn--active" : "")} onClick={() => setTab("weekend")}>Post del weekend</button>
+            </div>
+            {tab === "weekend" ? (
+              <>
+                <h2 className="feed-heading">Post del weekend</h2>
+                <GeneraPostWeekend />
+              </>
+            ) : (
           <>
             <h2 className="feed-heading">Post da approvare</h2>
             <p className="state" style={{ marginBottom: "1rem" }}>Sono i post recenti della pagina Facebook che parlano di società umbre. Scegli la sezione e tocca “Pubblica sul sito”, oppure “Scarta”.</p>
@@ -7631,6 +7643,8 @@ function ModeraPage() {
                 </div>
               ))}
             </div>
+          </>
+            )}
           </>
         )}
       </section>
@@ -7783,7 +7797,8 @@ function CercaPage() {
 }
 
 
-function PostFacebookPage() {
+// Generatore del post del weekend (testo + grafica): si usa dentro l'area riservata /modera
+function GeneraPostWeekend() {
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
   const macro = (c) => (/^Serie C/.test(c || "") ? 0 : /^Serie D/.test(c || "") ? 1 : 2);
@@ -7799,12 +7814,6 @@ function PostFacebookPage() {
   const [copiato, setCopiato] = useState(false);
   const areaRef = useRef(null);
 
-  useEffect(() => {
-    let m = document.querySelector('meta[name="robots"]');
-    if (!m) { m = document.createElement("meta"); m.setAttribute("name", "robots"); document.head.appendChild(m); }
-    m.setAttribute("content", "noindex, nofollow");
-    return () => { m.setAttribute("content", "index, follow"); };
-  }, []);
 
   const tutte = Object.values(calendarioRegionaliData.partite || {}).flat();
   const filtraGiov = (p) => giov || macro(p.campionato) < 2;
@@ -7896,10 +7905,8 @@ function PostFacebookPage() {
   });
 
   return (
-    <main>
-      <CampionatiHero titolo="Post Facebook" />
-      <section className="section">
-        <h2 className="feed-heading">Genera il post</h2>
+    <>
+        <p className="state" style={{ margin: "0 0 1rem", padding: 0, textAlign: "left", fontSize: "0.88rem" }}>Testo pronto da copiare e grafica da allegare per il post Facebook del weekend: anteprima delle partite (giovedì–venerdì) o risultati (lunedì).</p>
         <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "0.9rem" }}>
           <button onClick={() => setModo("risultati")} style={chip(modo === "risultati")}>Risultati</button>
           <button onClick={() => setModo("anteprima")} style={chip(modo === "anteprima")}>Anteprima weekend</button>
@@ -7919,8 +7926,7 @@ function PostFacebookPage() {
           <PulsanteGraficaWeekend dati={grafica} stile={{ ...chip(false), padding: "0.5rem 1.2rem", fontWeight: 600, borderColor: "var(--gold)", color: "var(--gold)" }} />
           {copiato && <span style={{ color: "var(--gold)", fontSize: "0.9rem" }}>Copiato! Ora incollalo su Facebook.</span>}
         </div>
-      </section>
-    </main>
+    </>
   );
 }
 
@@ -8344,7 +8350,7 @@ useEffect(() => {
           {route === "privacy" && <PrivacyPage />}
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
-          {route === "post-facebook" && <PostFacebookPage />}
+          {route === "post-facebook" && <ModeraPage tabIniziale="weekend" />}
           {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","allenatore-virtuale","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
