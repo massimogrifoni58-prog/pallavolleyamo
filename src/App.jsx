@@ -27,6 +27,7 @@ import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
 import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
+import { PulsanteGrafica } from "./GraficaRisultato.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -945,6 +946,7 @@ function HomePage({ latestNews = [] }) {
                     <span className="risultati-mini__score">{sc} – {so}</span>
                     <span className={"risultati-mini__ospite" + (so > sc ? " risultati-mini__vince" : "")}>{tcR(m.away)}</span>
                   </span>
+                  <PulsanteGrafica piccolo partita={{ campionato: m.competition, giornata: m.giornata, casa: m.home, ospite: m.away, risultato: m.score }} />
                 </a>
               );
             })}
@@ -6636,6 +6638,19 @@ function CalendarioCompletoPage() {
     setSelSquadra("");
   }
 
+  // Dati della partita per la grafica social del risultato
+  function partitaPerGrafica(p) {
+    const cat = categorie.find((c) => c.id === selCategoria);
+    return {
+      campionato: p.campionato || p.categoria || (cat && cat.nome) || "",
+      giornata: p.giornata ? "Giornata " + p.giornata : "",
+      quando: p.data ? formatDataBreve(p.data).replace(/\./g, "") : "",
+      casa: p.casa,
+      ospite: p.ospite,
+      risultato: p.risultato,
+    };
+  }
+
   function formatDataBreve(dataISO) {
     return new Date(dataISO + "T00:00:00").toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
   }
@@ -6707,6 +6722,7 @@ function CalendarioCompletoPage() {
                   {p.risultato && p.risultato !== "0-0" && (
                     <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
                   )}
+                  <PulsanteGrafica partita={partitaPerGrafica(p)} />
                   {p.impianto && (
                     <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
                       {p.impianto}
@@ -6800,6 +6816,7 @@ function CalendarioCompletoPage() {
                       {p.risultato && p.risultato !== "0-0" && (
                         <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
                       )}
+                      <PulsanteGrafica partita={partitaPerGrafica(p)} />
                       {p.impianto && (
                         <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", marginTop: "0.3rem" }}>
                           {p.impianto}
