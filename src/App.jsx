@@ -323,8 +323,77 @@ function Ticker({ posts }) {
     </div>
   );
 }
-function NavDropdown({ label, items, subscribed, tre }) {
+// Codice di 4 numeri che apre il menu "Area riservata".
+// Qui c'e' solo l'impronta (SHA-256) del codice, non il codice in chiaro.
+// Le pagine riservate restano comunque protette dalle loro password.
+const CODICE_AREA_HASH = "ff2f1dc2a37feae2b2bfba3441f92390a7ecf3e4d6fab043ceae1e0e7d525859";
+const CODICE_AREA_CHIAVE = "pva_area_ok";
+async function impronta(testo) {
+  const dati = new TextEncoder().encode("pallavolleyamo:" + testo);
+  const h = await crypto.subtle.digest("SHA-256", dati);
+  return Array.from(new Uint8Array(h)).map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+function CodiceArea({ onOk }) {
+  const [cod, setCod] = useState("");
+  const [errore, setErrore] = useState("");
+  const [tentativi, setTentativi] = useState(0);
+  const [attesa, setAttesa] = useState(0);
+  const inputRef = useRef(null);
+  useEffect(() => { if (inputRef.current) inputRef.current.focus(); }, []);
+  useEffect(() => {
+    if (attesa <= 0) return;
+    const t = setTimeout(() => setAttesa((a) => a - 1), 1000);
+    return () => clearTimeout(t);
+  }, [attesa]);
+  async function prova(valore) {
+    if (valore.length !== 4 || attesa > 0) return;
+    let giusto = false;
+    try { giusto = (await impronta(valore)) === CODICE_AREA_HASH; } catch (e) { giusto = false; }
+    if (giusto) {
+      try { sessionStorage.setItem(CODICE_AREA_CHIAVE, "1"); } catch (e) {}
+      onOk();
+      return;
+    }
+    const n = tentativi + 1;
+    setTentativi(n);
+    setCod("");
+    if (n % 3 === 0) { setAttesa(30); setErrore("Troppi tentativi: riprova tra poco."); }
+    else setErrore("Codice sbagliato");
+  }
+  return (
+    <form className="codice-area" onSubmit={(e) => { e.preventDefault(); prova(cod); }}>
+      <label className="codice-area__label" htmlFor="codice-area-input">Inserisci il codice</label>
+      <input
+        id="codice-area-input"
+        ref={inputRef}
+        className="codice-area__input"
+        type="password"
+        inputMode="numeric"
+        autoComplete="off"
+        pattern="[0-9]*"
+        maxLength={4}
+        value={cod}
+        disabled={attesa > 0}
+        onChange={(e) => {
+          const v = e.target.value.replace(/\D/g, "").slice(0, 4);
+          setCod(v);
+          setErrore("");
+          if (v.length === 4) prova(v);
+        }}
+        aria-label="Codice di 4 numeri"
+      />
+      <p className="codice-area__msg">{attesa > 0 ? `Attendi ${attesa} secondi` : errore || "4 numeri"}</p>
+    </form>
+  );
+}
+
+function NavDropdown({ label, items, subscribed, tre, conCodice }) {
   const [open, setOpen] = useState(false);
+  const [sbloccato, setSbloccato] = useState(() => {
+    if (!conCodice) return true;
+    try { return sessionStorage.getItem(CODICE_AREA_CHIAVE) === "1"; } catch (e) { return false; }
+  });
   const [shift, setShift] = useState(0);
   const ref = useRef(null);
   const menuRef = useRef(null);
@@ -349,7 +418,7 @@ function NavDropdown({ label, items, subscribed, tre }) {
     if (r.left < m) s = m - r.left;
     else if (r.right > window.innerWidth - m) s = (window.innerWidth - m) - r.right;
     setShift(s);
-  }, [open]);
+  }, [open, sbloccato]);
 
   const ricco = items.some((i) => i.sub);
   return (
@@ -363,7 +432,7 @@ function NavDropdown({ label, items, subscribed, tre }) {
           className={"nav-dropdown__menu" + (ricco ? " nav-dropdown__menu--ricco" : "") + (tre ? " nav-dropdown__menu--tre" : "")}
           style={shift ? { marginLeft: shift + "px" } : undefined}
         >
-          {items.map((item) => {
+          {!sbloccato ? <CodiceArea onOk={() => setSbloccato(true)} /> : items.map((item) => {
             const locked = item.locked && !subscribed;
             if (item.sub) {
               return (
@@ -629,6 +698,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         />
         <NavDropdown
           label="Area riservata"
+          conCodice
           subscribed={subscribed}
           items={[
             { href: "#/modera", label: "Post da approvare", sub: "I post delle società da pubblicare sul sito" },
