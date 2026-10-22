@@ -2138,7 +2138,7 @@ function SquadraSettimanaPage() {
           <div className="atl-card__nastro">Squadra della settimana</div>
           <div className="atl-card__corpo">
             <div className="atl-card__sigla" aria-hidden="true">
-              {nomeBello(v.nome).split(/\s+/).filter((w) => w.length > 2).slice(0, 2).map((w) => w.charAt(0).toUpperCase()).join("") || nomeBello(v.nome).charAt(0).toUpperCase()}
+              {nomeBello(v.nome).split(/\s+/).map((w) => w.replace(/[^A-Za-zÀ-ÿ]/g, "")).filter((w) => w.length > 2).slice(0, 2).map((w) => w.charAt(0).toUpperCase()).join("") || nomeBello(v.nome).charAt(0).toUpperCase()}
             </div>
             <div className="atl-card__testo">
               <h2 className="atl-card__nome">{nomeBello(v.nome)}</h2>
