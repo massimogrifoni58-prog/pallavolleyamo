@@ -27,7 +27,7 @@ import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
 import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
-import { PulsanteGrafica } from "./GraficaRisultato.jsx";
+import { PulsanteGrafica, PulsanteGraficaWeekend } from "./GraficaRisultato.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -7811,6 +7811,24 @@ function PostFacebookPage() {
   let righe = [];
   let titolo = "";
   let coda = "";
+  // Dati per la grafica del post: date, numero di partite e alcune partite in evidenza
+  const intervallo = (d1, d2) => {
+    const a = new Date(d1 + "T12:00:00"), b = new Date(d2 + "T12:00:00");
+    if (d1 === d2) return a.toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
+    const fine = b.toLocaleDateString("it-IT", { day: "numeric", month: "long" });
+    return (a.getMonth() === b.getMonth() ? a.getDate() : a.toLocaleDateString("it-IT", { day: "numeric", month: "long" })) + " – " + fine;
+  };
+  const scegliEvidenza = (lista) => {
+    const ord = lista.slice().sort((a, b) => macro(a.campionato) - macro(b.campionato) || (a.data + (a.ora || "")).localeCompare(b.data + (b.ora || "")));
+    const scelte = [], visti = new Set();
+    ord.forEach((p) => { if (scelte.length < 5 && !visti.has(p.campionato)) { visti.add(p.campionato); scelte.push(p); } });
+    ord.forEach((p) => { if (scelte.length < 5 && !scelte.includes(p)) scelte.push(p); });
+    return scelte.map((p) => ({
+      campionato: p.campionato, casa: p.casa, ospite: p.ospite, risultato: p.risultato,
+      quando: new Date(p.data + "T12:00:00").toLocaleDateString("it-IT", { weekday: "short" }).replace(".", "") + "|" + (p.ora || "").slice(0, 5),
+    }));
+  };
+  let grafica = null;
 
   if (modo === "risultati") {
     const da = new Date(oggi); da.setDate(oggi.getDate() - 6);
@@ -7835,6 +7853,7 @@ function PostFacebookPage() {
           .forEach((p) => righe.push(nome(p.casa) + "  " + p.risultato.replace(/\s/g, "") + "  " + nome(p.ospite)));
       });
     if (!lista.length) righe.push("", "(nessun risultato disponibile negli ultimi giorni)");
+    if (lista.length) grafica = { modo, date: intervallo(date[0], date[date.length - 1]), totale: lista.length, nCampionati: new Set(lista.map((p) => p.campionato)).size, evidenza: scegliEvidenza(lista) };
     coda = "\u{1F449} Tutti i risultati e le classifiche su www.pallavolleyamo.it";
   } else {
     const off = (6 - dow + 7) % 7;
@@ -7852,6 +7871,10 @@ function PostFacebookPage() {
       del.forEach((p) => righe.push((p.ora || "") + " " + nome(p.casa) + " - " + nome(p.ospite) + " (" + p.campionato.replace(/ Girone.*$/, "") + ")"));
     });
     if (!lista.length) righe.push("", "(nessuna partita in programma)");
+    if (lista.length) {
+      const dateP = lista.map((p) => p.data).sort();
+      grafica = { modo, date: intervallo(dateP[0], dateP[dateP.length - 1]), totale: lista.length, nCampionati: new Set(lista.map((p) => p.campionato)).size, evidenza: scegliEvidenza(lista) };
+    }
     coda = "\u{1F449} Il programma completo su www.pallavolleyamo.it/weekend-umbria";
   }
 
@@ -7893,6 +7916,7 @@ function PostFacebookPage() {
         />
         <div style={{ marginTop: "0.9rem", display: "flex", gap: "0.7rem", alignItems: "center", flexWrap: "wrap" }}>
           <button onClick={copia} style={{ ...chip(true), padding: "0.5rem 1.2rem", fontWeight: 600 }}>Copia testo</button>
+          <PulsanteGraficaWeekend dati={grafica} stile={{ ...chip(false), padding: "0.5rem 1.2rem", fontWeight: 600, borderColor: "var(--gold)", color: "var(--gold)" }} />
           {copiato && <span style={{ color: "var(--gold)", fontSize: "0.9rem" }}>Copiato! Ora incollalo su Facebook.</span>}
         </div>
       </section>

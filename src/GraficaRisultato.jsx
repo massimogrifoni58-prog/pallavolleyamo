@@ -78,7 +78,9 @@ function testoSpaziato(ctx, testo, x, y, spazio) {
   [...testo].forEach((c) => { ctx.fillText(c, pos, y); pos += ctx.measureText(c).width + spazio; });
 }
 
-async function disegna(canvas, partita, formato) {
+// Parte comune a tutte le grafiche: sfondo, cornice, logo e nome del sito.
+// Restituisce dove finisce la testata, per sapere da dove continuare a disegnare.
+async function preparaGrafica(canvas, formato, opz = {}) {
   const W = 1080;
   const H = formato === "storia" ? 1920 : 1080;
   canvas.width = W;
@@ -116,10 +118,10 @@ async function disegna(canvas, partita, formato) {
   ctx.strokeRect(28, 28, W - 56, H - 56);
 
   const storia = formato === "storia";
-  const y0 = storia ? 230 : 70; // spazio in alto per le storie (barra del profilo)
+  const y0 = opz.y0 != null ? opz.y0 : (storia ? 230 : 70); // spazio in alto per le storie (barra del profilo)
 
   // Logo e nome del sito
-  const lato = storia ? 170 : 130;
+  const lato = opz.lato || (storia ? 170 : 130);
   if (logo) {
     // Il PNG ha gli angoli bianchi: si ritaglia solo il cerchio del logo
     const lx = W / 2 - lato / 2;
@@ -149,6 +151,30 @@ async function disegna(canvas, partita, formato) {
     ctx.fillStyle = col;
     [...t].forEach((c) => { ctx.fillText(c, x, yNome); x += ctx.measureText(c).width + spazio; });
   });
+  return { ctx, W, H, storia, yNome };
+}
+
+// Fascia dorata in basso con l'indirizzo del sito
+function disegnaFascia(ctx, W, H, storia, sottotitolo) {
+  const hFascia = storia ? 150 : 110;
+  const yFascia = H - 28 - hFascia - (storia ? 110 : 0);
+  const g = ctx.createLinearGradient(0, yFascia, W, yFascia);
+  g.addColorStop(0, ORO);
+  g.addColorStop(1, ORO_CHIARO);
+  ctx.fillStyle = g;
+  ctx.fillRect(28, yFascia, W - 56, hFascia);
+  ctx.fillStyle = "#141413";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.font = `${storia ? 58 : 50}px "Bebas Neue", Impact, sans-serif`;
+  ctx.fillText("WWW.PALLAVOLLEYAMO.IT", W / 2, yFascia + hFascia * 0.4);
+  ctx.font = `400 ${storia ? 28 : 24}px "DM Sans", Arial, sans-serif`;
+  ctx.fillText(sottotitolo, W / 2, yFascia + hFascia * 0.76);
+  return yFascia;
+}
+
+async function disegna(canvas, partita, formato) {
+  const { ctx, W, H, storia, yNome } = await preparaGrafica(canvas, formato);
 
   // Campionato e giornata
   const yCamp = yNome + (storia ? 130 : 90);
@@ -196,20 +222,108 @@ async function disegna(canvas, partita, formato) {
     ctx.fillText("OSPITI", W - 230, yMatch - 140);
   }
 
-  // Fascia in basso con l'indirizzo del sito
-  const hFascia = storia ? 150 : 110;
-  const yFascia = H - 28 - hFascia - (storia ? 110 : 0);
-  const g = ctx.createLinearGradient(0, yFascia, W, yFascia);
-  g.addColorStop(0, ORO);
-  g.addColorStop(1, ORO_CHIARO);
-  ctx.fillStyle = g;
-  ctx.fillRect(28, yFascia, W - 56, hFascia);
-  ctx.fillStyle = "#141413";
+  disegnaFascia(ctx, W, H, storia, "Risultati e classifiche del volley umbro");
+}
+
+// Scrive un testo su una riga sola, accorciandolo con "…" se non ci sta
+function scriviInRiga(ctx, testo, x, y, larghezza) {
+  let t = testo;
+  if (ctx.measureText(t).width > larghezza) {
+    while (t.length > 2 && ctx.measureText(t + "…").width > larghezza) t = t.slice(0, -1);
+    t = t.trim() + "…";
+  }
+  ctx.fillText(t, x, y);
+}
+
+// Copertina per il post del weekend (anteprima delle partite o risultati).
+// dati = { modo: "anteprima" | "risultati", date, totale, nCampionati, evidenza: [{ campionato, casa, ospite, quando, risultato }] }
+async function disegnaWeekend(canvas, dati, formato) {
+  const { ctx, W, H, storia, yNome } = await preparaGrafica(canvas, formato, storia0(formato));
+  const risultati = dati.modo === "risultati";
+
+  // Titolo grande
+  let y = yNome + (storia ? 150 : 95);
   ctx.textAlign = "center";
-  ctx.font = `${storia ? 58 : 50}px "Bebas Neue", Impact, sans-serif`;
-  ctx.fillText("WWW.PALLAVOLLEYAMO.IT", W / 2, yFascia + hFascia * 0.4);
-  ctx.font = `400 ${storia ? 28 : 24}px "DM Sans", Arial, sans-serif`;
-  ctx.fillText("Risultati e classifiche del volley umbro", W / 2, yFascia + hFascia * 0.76);
+  ctx.textBaseline = "middle";
+  ctx.fillStyle = TESTO;
+  ctx.font = `${storia ? 120 : 96}px "Bebas Neue", Impact, sans-serif`;
+  ctx.fillText(risultati ? "I RISULTATI DEL WEEKEND" : "IL WEEKEND DEL VOLLEY", W / 2, y);
+  y += storia ? 100 : 78;
+  ctx.fillStyle = ORO;
+  ctx.font = `${storia ? 84 : 66}px "Bebas Neue", Impact, sans-serif`;
+  ctx.fillText("IN UMBRIA", W / 2, y);
+
+  // Date e numero di partite
+  y += storia ? 85 : 62;
+  ctx.font = `700 ${storia ? 34 : 28}px "DM Sans", Arial, sans-serif`;
+  ctx.fillStyle = TESTO;
+  testoSpaziato(ctx, (dati.date || "").toUpperCase(), W / 2, y, 3);
+  y += storia ? 52 : 42;
+  ctx.font = `400 ${storia ? 30 : 25}px "DM Sans", Arial, sans-serif`;
+  ctx.fillStyle = SPENTO;
+  ctx.textAlign = "center";
+  const conteggio = dati.totale + (dati.totale === 1 ? (risultati ? " partita giocata" : " partita in programma") : (risultati ? " partite giocate" : " partite in programma")) +
+    (dati.nCampionati > 1 ? " in " + dati.nCampionati + " campionati" : "");
+  ctx.fillText(conteggio, W / 2, y);
+
+  // Partite in evidenza
+  const ev = (dati.evidenza || []).slice(0, storia ? 4 : 3);
+  if (ev.length) {
+    y += storia ? 95 : 62;
+    ctx.font = `700 ${storia ? 24 : 21}px "DM Sans", Arial, sans-serif`;
+    ctx.fillStyle = ORO;
+    testoSpaziato(ctx, "IN EVIDENZA", W / 2, y, 6);
+    y += storia ? 40 : 30;
+    const hRiga = storia ? 150 : 118;
+    const x0 = 80, x1 = W - 80;
+    ev.forEach((p) => {
+      // riquadro della partita
+      ctx.fillStyle = "rgba(11,11,13,0.62)";
+      ctx.fillRect(x0, y, x1 - x0, hRiga - 16);
+      ctx.fillStyle = ORO;
+      ctx.fillRect(x0, y, 5, hRiga - 16);
+      const cy = y + (hRiga - 16) / 2;
+      // a destra: punteggio (risultati) oppure giorno e ora (anteprima)
+      const largDestra = storia ? 200 : 170;
+      const xDestra = x1 - 24 - largDestra / 2;
+      ctx.textAlign = "center";
+      if (risultati) {
+        ctx.fillStyle = ORO;
+        ctx.font = `${storia ? 84 : 70}px "Bebas Neue", Impact, sans-serif`;
+        ctx.fillText((p.risultato || "").replace(/\s/g, "").replace("-", "–"), xDestra, cy + 3);
+      } else {
+        const [giorno, ora] = (p.quando || "").split("|");
+        ctx.fillStyle = ORO;
+        ctx.font = `${storia ? 46 : 38}px "Bebas Neue", Impact, sans-serif`;
+        ctx.fillText((giorno || "").toUpperCase(), xDestra, cy - (ora ? (storia ? 22 : 18) : 0));
+        if (ora) {
+          ctx.fillStyle = TESTO;
+          ctx.font = `700 ${storia ? 30 : 26}px "DM Sans", Arial, sans-serif`;
+          ctx.fillText(ora, xDestra, cy + (storia ? 24 : 20));
+        }
+      }
+      // a sinistra: campionato e squadre
+      const xs = x0 + 28;
+      const largTesto = xDestra - largDestra / 2 - xs - 10;
+      ctx.textAlign = "left";
+      ctx.fillStyle = ORO;
+      ctx.font = `700 ${storia ? 22 : 19}px "DM Sans", Arial, sans-serif`;
+      scriviInRiga(ctx, (p.campionato || "").replace(/ Girone.*$/i, "").toUpperCase(), xs, cy - (storia ? 40 : 32), largTesto);
+      const [a, b] = leggiPunteggio(p.risultato);
+      ctx.font = `${storia ? 40 : 34}px "Bebas Neue", Impact, sans-serif`;
+      ctx.fillStyle = risultati && b > a ? SPENTO : TESTO;
+      scriviInRiga(ctx, nomeBello(p.casa).toUpperCase(), xs, cy - (storia ? 2 : 0), largTesto);
+      ctx.fillStyle = risultati && a > b ? SPENTO : TESTO;
+      scriviInRiga(ctx, nomeBello(p.ospite).toUpperCase(), xs, cy + (storia ? 38 : 32), largTesto);
+      y += hRiga;
+    });
+  }
+
+  disegnaFascia(ctx, W, H, storia, risultati ? "Tutti i risultati e le classifiche sul sito" : "Il programma completo sul sito");
+}
+function storia0(formato) {
+  // copertina: testata un po' piu' compatta per lasciare spazio alle partite
+  return formato === "storia" ? { y0: 200, lato: 150 } : { y0: 52, lato: 104 };
 }
 
 function nomeFile(p, formato) {
@@ -217,7 +331,8 @@ function nomeFile(p, formato) {
   return `risultato-${pulisci(p.casa)}-${pulisci(p.ospite)}${formato === "storia" ? "-storia" : ""}.png`;
 }
 
-export function GraficaRisultatoModal({ partita, onClose }) {
+// Finestra con anteprima, scelta del formato, Scarica e Condividi
+function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, onClose }) {
   const canvasRef = useRef(null);
   const [formato, setFormato] = useState("post");
   const [pronta, setPronta] = useState(false);
@@ -226,9 +341,9 @@ export function GraficaRisultatoModal({ partita, onClose }) {
   useEffect(() => {
     let attivo = true;
     setPronta(false);
-    disegna(canvasRef.current, partita, formato).then(() => { if (attivo) setPronta(true); });
+    disegnaSu(canvasRef.current, formato).then(() => { if (attivo) setPronta(true); });
     return () => { attivo = false; };
-  }, [partita, formato]);
+  }, [chiave, formato]);
 
   useEffect(() => {
     const esc = (e) => { if (e.key === "Escape") onClose(); };
@@ -244,7 +359,7 @@ export function GraficaRisultatoModal({ partita, onClose }) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = nomeFile(partita, formato);
+    a.download = nomeFileDi(formato);
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -255,8 +370,7 @@ export function GraficaRisultatoModal({ partita, onClose }) {
   async function condividi() {
     const blob = await comeFile();
     if (!blob) return;
-    const file = new File([blob], nomeFile(partita, formato), { type: "image/png" });
-    const testo = `${nomeBello(partita.casa)} ${partita.risultato.replace(/\s/g, "")} ${nomeBello(partita.ospite)} — risultati e classifiche su www.pallavolleyamo.it`;
+    const file = new File([blob], nomeFileDi(formato), { type: "image/png" });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
       try { await navigator.share({ files: [file], text: testo }); } catch (e) { /* annullato */ }
     } else {
@@ -267,10 +381,10 @@ export function GraficaRisultatoModal({ partita, onClose }) {
   const puoCondividere = typeof navigator !== "undefined" && !!navigator.canShare;
 
   return createPortal(
-    <div className="grafica-overlay" onClick={(e) => { e.stopPropagation(); e.preventDefault(); onClose(); }} role="dialog" aria-modal="true" aria-label="Grafica del risultato">
+    <div className="grafica-overlay" onClick={(e) => { e.stopPropagation(); e.preventDefault(); onClose(); }} role="dialog" aria-modal="true" aria-label={titolo}>
       <div className="grafica-box" onClick={(e) => e.stopPropagation()}>
         <button className="grafica-chiudi" onClick={onClose} aria-label="Chiudi">×</button>
-        <h3 className="grafica-titolo">Grafica del risultato</h3>
+        <h3 className="grafica-titolo">{titolo}</h3>
         <div className="grafica-formati">
           <button className={"filter-btn" + (formato === "post" ? " filter-btn--active" : "")} onClick={() => setFormato("post")}>Post quadrato</button>
           <button className={"filter-btn" + (formato === "storia" ? " filter-btn--active" : "")} onClick={() => setFormato("storia")}>Storia verticale</button>
@@ -286,6 +400,41 @@ export function GraficaRisultatoModal({ partita, onClose }) {
       </div>
     </div>,
     document.body
+  );
+}
+
+export function GraficaRisultatoModal({ partita, onClose }) {
+  return (
+    <ModaleGrafica
+      titolo="Grafica del risultato"
+      chiave={partita.casa + partita.ospite + partita.risultato}
+      disegnaSu={(canvas, formato) => disegna(canvas, partita, formato)}
+      nomeFileDi={(formato) => nomeFile(partita, formato)}
+      testo={`${nomeBello(partita.casa)} ${String(partita.risultato).replace(/\s/g, "")} ${nomeBello(partita.ospite)} — risultati e classifiche su www.pallavolleyamo.it`}
+      onClose={onClose}
+    />
+  );
+}
+
+// Pulsante per la pagina "Post Facebook": copertina del post del weekend
+export function PulsanteGraficaWeekend({ dati, stile }) {
+  const [aperto, setAperto] = useState(false);
+  if (!dati || !dati.totale) return null;
+  const risultati = dati.modo === "risultati";
+  return (
+    <>
+      <button onClick={() => setAperto(true)} style={stile}>📸 Crea grafica del post</button>
+      {aperto && (
+        <ModaleGrafica
+          titolo={risultati ? "Grafica: risultati del weekend" : "Grafica: weekend del volley"}
+          chiave={JSON.stringify(dati)}
+          disegnaSu={(canvas, formato) => disegnaWeekend(canvas, dati, formato)}
+          nomeFileDi={(formato) => (risultati ? "risultati-weekend" : "weekend-volley-umbria") + (formato === "storia" ? "-storia" : "") + ".png"}
+          testo={(risultati ? "I risultati del weekend in Umbria" : "Il weekend del volley in Umbria") + " su www.pallavolleyamo.it"}
+          onClose={() => setAperto(false)}
+        />
+      )}
+    </>
   );
 }
 
