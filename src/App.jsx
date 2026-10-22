@@ -28,6 +28,7 @@ import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
 import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
 import { PulsanteGrafica, PulsanteGraficaWeekend } from "./GraficaRisultato.jsx";
+import VicinoATe from "./VicinoATe.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -8062,6 +8063,13 @@ function WeekendUmbriaPage() {
             <button key={f} onClick={() => setFiltro(f)} style={chip(filtro === f)}>{f}</button>
           ))}
         </div>
+        {!concluso && visibili.some((p) => !p.risultato) && (
+          <VicinoATe
+            partite={visibili}
+            nome={nome}
+            etichettaGiorno={(d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "short" })}
+          />
+        )}
         {visibili.length === 0 && (
           <p style={{ color: "var(--text-dim)" }}>
             Nessuna partita in programma per questo weekend{filtro !== "Tutte" ? " in " + filtro : ""}. Il calendario si aggiorna ogni due ore.

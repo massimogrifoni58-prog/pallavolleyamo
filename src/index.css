@@ -5138,3 +5138,32 @@ body.light-mode .bm-card__blocco strong { color: #8a6508; }
 .codice-area__input:focus { outline: none; border-color: var(--gold); }
 .codice-area__input:disabled { opacity: 0.5; }
 .codice-area__msg { margin: 0; font-size: 0.78rem; color: var(--text-dim); min-height: 1em; }
+
+/* SI GIOCA VICINO A TE */
+.vicino { max-width: 720px; margin: 0 0 1.75rem; }
+.vicino__invito { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.9rem; padding: 1rem 1.1rem; border: 1px solid var(--gold); border-radius: 12px; background: linear-gradient(135deg, rgba(212,175,55,0.12), rgba(212,175,55,0.03)); }
+.vicino__invito > div { flex: 1 1 280px; min-width: 0; }
+.vicino__titolo { margin: 0 0 0.25rem; color: var(--gold); font-weight: 700; font-size: 1rem; }
+.vicino__testo { margin: 0; font-size: 0.86rem; line-height: 1.5; color: var(--text-dim); }
+.vicino__btn { flex: 0 0 auto; padding: 0.65rem 1.15rem; border-radius: 999px; border: none; background: var(--gold); color: #141413; font-weight: 700; font-size: 0.9rem; cursor: pointer; }
+.vicino__btn:disabled { opacity: 0.6; cursor: wait; }
+.vicino__errore { flex-basis: 100%; margin: 0; font-size: 0.84rem; color: #e57373; }
+.vicino__risultati { padding: 1rem 1.1rem; border: 1px solid var(--gold); border-radius: 12px; background: var(--bg-card); }
+.vicino__testa { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 0.6rem; }
+.vicino__chiudi { background: none; border: 1px solid var(--border-strong); color: var(--text-dim); border-radius: 999px; padding: 0.25rem 0.8rem; font-size: 0.78rem; cursor: pointer; }
+.vicino__lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.vicino__riga { display: grid; grid-template-columns: 3.6rem 1fr auto; align-items: center; gap: 0.75rem; padding: 0.6rem 0.7rem; border: 1px solid var(--border); border-radius: 10px; }
+.vicino__km { text-align: center; color: var(--gold); font-weight: 800; font-size: 1.15rem; line-height: 1; }
+.vicino__km span { display: block; font-size: 0.65rem; font-weight: 600; color: var(--text-dim); margin-top: 0.2rem; }
+.vicino__corpo { min-width: 0; }
+.vicino__quando { margin: 0; font-size: 0.74rem; color: var(--gold); text-transform: capitalize; }
+.vicino__partita { margin: 0.1rem 0; font-weight: 600; font-size: 0.9rem; line-height: 1.35; }
+.vicino__dove { margin: 0; font-size: 0.74rem; color: var(--text-dim); }
+.vicino__vai { flex: 0 0 auto; padding: 0.4rem 0.75rem; border-radius: 999px; border: 1px solid var(--gold); color: var(--gold); font-size: 0.78rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.vicino__vai:hover { background: var(--gold); color: #141413; }
+.vicino__altre { margin-top: 0.7rem; background: none; border: none; color: var(--gold); font-weight: 700; cursor: pointer; padding: 0; }
+.vicino__nota { margin: 0.7rem 0 0; font-size: 0.72rem; color: var(--text-dim); }
+@media (max-width: 520px) {
+  .vicino__riga { grid-template-columns: 3rem 1fr; }
+  .vicino__vai { grid-column: 2; justify-self: start; }
+}
