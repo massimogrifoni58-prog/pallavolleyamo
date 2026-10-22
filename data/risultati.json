@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:49:53.577542+00:00",
+  "generatedAt": "2026-10-22T16:57:51.472488+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -2963,15 +2963,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627462",
-      "competition": "Serie D Maschile Girone Unico",
-      "giornata": "Giornata 3",
-      "home": "A.S.D. SIGILLO VOLLEY",
-      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627460",
       "competition": "Serie D Maschile Girone Unico",
       "giornata": "Giornata 3",
@@ -2995,6 +2986,15 @@
       "giornata": "Giornata 3",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627462",
+      "competition": "Serie D Maschile Girone Unico",
+      "giornata": "Giornata 3",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "SIR ITS UMBRIA ACADEMY ASSISI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -8570,20 +8570,20 @@
       "status": "in programma"
     },
     {
-      "id": "131657856",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 4",
-      "home": "A.S.D. SIGILLO VOLLEY",
-      "away": "US ACLI COLOMBELLA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657858",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 4",
       "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "away": "UISP VOLLEY UMBERTIDE BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657856",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "A.S.D. SIGILLO VOLLEY",
+      "away": "US ACLI COLOMBELLA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10433,20 +10433,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658273",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 2",
-      "home": "SANGEMINI COLLELUNA VOLLEY",
-      "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131662241",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 2",
       "home": "NARNI SPORT ACADEMY",
       "away": "VOLLEY SPOLETO CASCIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658273",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10505,20 +10505,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658278",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 3",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "PMU MARSCIANO BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131662242",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 3",
       "home": "VOLLEY SPOLETO CASCIA",
       "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658278",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PMU MARSCIANO BLU",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11072,6 +11072,15 @@
       "status": "in programma"
     },
     {
+      "id": "131662317",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 16",
+      "home": "VOLLEY SPOLETO CASCIA",
+      "away": "BOSICO VOLLEY-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131658327",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 16",
@@ -11095,15 +11104,6 @@
       "giornata": "Giornata 16",
       "home": "PMU MARSCIANO BLU",
       "away": "CASCIANELLI LORENA TUDER VOLLEI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131662317",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 16",
-      "home": "VOLLEY SPOLETO CASCIA",
-      "away": "BOSICO VOLLEY-TERNI VA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -15554,15 +15554,6 @@
       "status": "in programma"
     },
     {
-      "id": "131660189",
-      "competition": "Under 15 Maschile Girone A",
-      "giornata": "Giornata 5",
-      "home": "SIR MERICAT PERUGIA",
-      "away": "SIR GIOVANILE MERICAT PG",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131660188",
       "competition": "Under 15 Maschile Girone A",
       "giornata": "Giornata 5",
@@ -15577,6 +15568,15 @@
       "giornata": "Giornata 5",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
       "away": "STRIKE TEAM MONTELUCE U15",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131660189",
+      "competition": "Under 15 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "SIR GIOVANILE MERICAT PG",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16607,6 +16607,15 @@
       "status": "in programma"
     },
     {
+      "id": "131659441",
+      "competition": "Under 15 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "UMBRIA VOLLEY ACADEMY 15",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131659439",
       "competition": "Under 15 Femminile Girone C",
       "giornata": "Giornata 4",
@@ -16621,15 +16630,6 @@
       "giornata": "Giornata 4",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
       "away": "VOLLEY PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659441",
-      "competition": "Under 15 Femminile Girone C",
-      "giornata": "Giornata 4",
-      "home": "UMBRIA VOLLEY ACADEMY 15",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17147,15 +17147,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659501",
-      "competition": "Under 15 Femminile Girone E",
-      "giornata": "Giornata 4",
-      "home": "INTER VOLLEY FOLIGNO",
-      "away": "U15 FOLIGNO BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659499",
       "competition": "Under 15 Femminile Girone E",
       "giornata": "Giornata 4",
@@ -17170,6 +17161,15 @@
       "giornata": "Giornata 4",
       "home": "TREVI VOLLEY",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659501",
+      "competition": "Under 15 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "U15 FOLIGNO BLU",
+      "away": "INTER VOLLEY FOLIGNO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17294,8 +17294,8 @@
       "id": "131659516",
       "competition": "Under 15 Femminile Girone E",
       "giornata": "Giornata 9",
-      "home": "U15 FOLIGNO BLU",
-      "away": "INTER VOLLEY FOLIGNO",
+      "home": "INTER VOLLEY FOLIGNO",
+      "away": "U15 FOLIGNO BLU",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -18821,6 +18821,15 @@
       "status": "in programma"
     },
     {
+      "id": "131661596",
+      "competition": "Under 14 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "STRIKE TEAM MONTELUCE U14 F",
+      "away": "REBELS ASSISI U14 BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661594",
       "competition": "Under 14 Femminile Girone C",
       "giornata": "Giornata 2",
@@ -18835,15 +18844,6 @@
       "giornata": "Giornata 2",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131661596",
-      "competition": "Under 14 Femminile Girone C",
-      "giornata": "Giornata 2",
-      "home": "STRIKE TEAM MONTELUCE U14 F",
-      "away": "REBELS ASSISI U14 BLU",
       "score": "da disputare",
       "status": "in programma"
     },
