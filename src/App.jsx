@@ -27,7 +27,7 @@ import newsGeneraliRaw from "../data/news_generali.json";
 import squadreTopData from "../data/squadre_top.json";
 import calendarioSquadreData from "../data/calendario_squadre.json";
 import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
-import { PulsanteGrafica, PulsanteGraficaWeekend } from "./GraficaRisultato.jsx";
+import { PulsanteGrafica, PulsanteGraficaWeekend, PulsanteGraficaSquadra } from "./GraficaRisultato.jsx";
 import VicinoATe from "./VicinoATe.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
@@ -2158,6 +2158,22 @@ function SquadraSettimanaPage() {
             In stagione: {v.vinte} {v.vinte === 1 ? "vittoria" : "vittorie"} su {v.giocate} {v.giocate === 1 ? "partita" : "partite"} in questo campionato.
           </p>
         </div>
+        <PulsanteGraficaSquadra dati={{
+          nome: v.nome,
+          campionato: v.camp,
+          risultato: Math.max(s.a, s.b) + "-" + Math.min(s.a, s.b),
+          avversario: normSq(v.partita.casa) === normSq(v.nome) ? v.partita.ospite : v.partita.casa,
+          inCasa: casaV,
+          senzaSetPersi: v.setP === 0,
+          serie: v.serie,
+          vinte: v.vinte,
+          giocate: v.giocate,
+          periodo: (() => {
+            const a = new Date(dati.dal + "T12:00:00"), b = new Date(dati.fine + "T12:00:00");
+            const fine = b.toLocaleDateString("it-IT", { day: "numeric", month: "long" });
+            return (a.getMonth() === b.getMonth() ? a.getDate() : a.toLocaleDateString("it-IT", { day: "numeric", month: "long" })) + " – " + fine;
+          })(),
+        }} />
         <p style={{ margin: "0.7rem 0 0", color: "var(--text-dim)", fontSize: "0.78rem" }}>
           Come si sceglie: tra le squadre che hanno vinto nella settimana conta prima il livello del campionato, poi le vittorie consecutive, poi il successo senza set persi e quello in trasferta.
         </p>

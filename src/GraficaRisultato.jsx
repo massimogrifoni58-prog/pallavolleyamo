@@ -321,6 +321,105 @@ async function disegnaWeekend(canvas, dati, formato) {
 
   disegnaFascia(ctx, W, H, storia, risultati ? "Tutti i risultati e le classifiche sul sito" : "Il programma completo sul sito");
 }
+// Grafica della Squadra della Settimana
+// dati = { nome, campionato, risultato: "3-0", avversario, inCasa, senzaSetPersi, serie, vinte, giocate, periodo }
+async function disegnaSquadraSettimana(canvas, dati, formato) {
+  const { ctx, W, H, storia, yNome } = await preparaGrafica(canvas, formato, storia0(formato));
+
+  // Nastro dorato con il titolo
+  let y = yNome + (storia ? 120 : 78);
+  const hN = storia ? 96 : 78, lN = storia ? 820 : 720;
+  const g = ctx.createLinearGradient(W / 2 - lN / 2, 0, W / 2 + lN / 2, 0);
+  g.addColorStop(0, ORO); g.addColorStop(1, ORO_CHIARO);
+  ctx.fillStyle = g;
+  ctx.fillRect(W / 2 - lN / 2, y - hN / 2, lN, hN);
+  ctx.fillStyle = "#141413";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.font = `${storia ? 70 : 58}px "Bebas Neue", Impact, sans-serif`;
+  testoSpaziato(ctx, "SQUADRA DELLA SETTIMANA", W / 2, y + 3, 3);
+  if (dati.periodo) {
+    y += hN / 2 + (storia ? 44 : 34);
+    ctx.font = `700 ${storia ? 28 : 23}px "DM Sans", Arial, sans-serif`;
+    ctx.fillStyle = SPENTO;
+    testoSpaziato(ctx, dati.periodo.toUpperCase(), W / 2, y, 3);
+  }
+
+  // Sigla della squadra in un cerchio dorato
+  y += storia ? 200 : 118;
+  const r = storia ? 120 : 76;
+  ctx.beginPath(); ctx.arc(W / 2, y, r, 0, Math.PI * 2);
+  ctx.fillStyle = "rgba(11,11,13,0.75)"; ctx.fill();
+  ctx.lineWidth = storia ? 6 : 5; ctx.strokeStyle = ORO; ctx.stroke();
+  const parole = nomeBello(dati.nome).split(/\s+/).map((w) => w.replace(/[^A-Za-zÀ-ÿ]/g, "")).filter((w) => w.length > 2);
+  const sigla = (parole.slice(0, 2).map((w) => w.charAt(0).toUpperCase()).join("") || nomeBello(dati.nome).charAt(0).toUpperCase());
+  ctx.fillStyle = ORO;
+  ctx.textAlign = "center";
+  ctx.font = `${storia ? 130 : 92}px "Bebas Neue", Impact, sans-serif`;
+  ctx.fillText(sigla, W / 2, y + 6);
+
+  // Nome della squadra, grande (rimpicciolisce se lungo)
+  y += r + (storia ? 120 : 82);
+  let size = storia ? 104 : 84, linee;
+  do {
+    ctx.font = `${size}px "Bebas Neue", Impact, sans-serif`;
+    linee = righe(ctx, nomeBello(dati.nome).toUpperCase(), W - 160, 2);
+    if (!linee.some((l) => ctx.measureText(l).width > W - 160)) break;
+    size -= 6;
+  } while (size > 44);
+  ctx.fillStyle = TESTO;
+  const alt = size * 0.98;
+  linee.forEach((l, i) => ctx.fillText(l, W / 2, y + i * alt));
+  y += (linee.length - 1) * alt;
+
+  // Campionato
+  y += storia ? 78 : 60;
+  ctx.font = `700 ${storia ? 32 : 26}px "DM Sans", Arial, sans-serif`;
+  ctx.fillStyle = ORO;
+  testoSpaziato(ctx, (dati.campionato || "").replace(/ Girone.*$/i, "").toUpperCase(), W / 2, y, 3);
+
+  // Risultato della partita: punteggio grande e, sotto, l'avversaria
+  y += storia ? 105 : 72;
+  const ris = String(dati.risultato || "").replace(/\s/g, "").replace("-", "–");
+  ctx.textAlign = "center";
+  ctx.fillStyle = ORO;
+  ctx.font = `${storia ? 84 : 62}px "Bebas Neue", Impact, sans-serif`;
+  ctx.fillText(ris + (dati.inCasa ? " IN CASA" : " IN TRASFERTA"), W / 2, y);
+  y += storia ? 62 : 46;
+  ctx.fillStyle = TESTO;
+  ctx.font = `400 ${storia ? 32 : 27}px "DM Sans", Arial, sans-serif`;
+  scriviInRiga(ctx, "contro " + nomeBello(dati.avversario), W / 2, y, W - 160);
+
+  // Etichette (senza set persi, vittorie di fila)
+  const chip = [];
+  if (dati.senzaSetPersi) chip.push("SENZA SET PERSI");
+  if (dati.serie >= 2) chip.push(dati.serie + " VITTORIE DI FILA");
+  if (dati.giocate) chip.push(`${dati.vinte} SU ${dati.giocate} IN STAGIONE`);
+  if (chip.length) {
+    y += storia ? 100 : 62;
+    ctx.font = `700 ${storia ? 24 : 20}px "DM Sans", Arial, sans-serif`;
+    const pad = storia ? 22 : 18, hC = storia ? 52 : 42, gap = 14;
+    const larg = chip.map((c) => ctx.measureText(c).width + pad * 2);
+    let x = W / 2 - (larg.reduce((t, l) => t + l, 0) + gap * (chip.length - 1)) / 2;
+    chip.forEach((c, i) => {
+      ctx.strokeStyle = ORO; ctx.lineWidth = 2;
+      const rr = hC / 2;
+      ctx.beginPath();
+      ctx.moveTo(x + rr, y - rr); ctx.lineTo(x + larg[i] - rr, y - rr);
+      ctx.arc(x + larg[i] - rr, y, rr, -Math.PI / 2, Math.PI / 2);
+      ctx.lineTo(x + rr, y + rr);
+      ctx.arc(x + rr, y, rr, Math.PI / 2, -Math.PI / 2);
+      ctx.closePath();
+      ctx.fillStyle = "rgba(11,11,13,0.6)"; ctx.fill(); ctx.stroke();
+      ctx.fillStyle = ORO; ctx.textAlign = "center";
+      ctx.fillText(c, x + larg[i] / 2, y + 1);
+      x += larg[i] + gap;
+    });
+  }
+
+  disegnaFascia(ctx, W, H, storia, "Ogni settimana la squadra da applaudire");
+}
+
 function storia0(formato) {
   // copertina: testata un po' piu' compatta per lasciare spazio alle partite
   return formato === "storia" ? { y0: 200, lato: 150 } : { y0: 52, lato: 104 };
@@ -431,6 +530,32 @@ export function PulsanteGraficaWeekend({ dati, stile }) {
           disegnaSu={(canvas, formato) => disegnaWeekend(canvas, dati, formato)}
           nomeFileDi={(formato) => (risultati ? "risultati-weekend" : "weekend-volley-umbria") + (formato === "storia" ? "-storia" : "") + ".png"}
           testo={(risultati ? "I risultati del weekend in Umbria" : "Il weekend del volley in Umbria") + " su www.pallavolleyamo.it"}
+          onClose={() => setAperto(false)}
+        />
+      )}
+    </>
+  );
+}
+
+// Pulsante per la pagina "Squadra della Settimana"
+export function PulsanteGraficaSquadra({ dati }) {
+  const [aperto, setAperto] = useState(false);
+  if (!dati || !dati.nome) return null;
+  const pulisci = (t) => (t || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return (
+    <>
+      <span role="button" tabIndex={0} className="grafica-apri" onClick={() => setAperto(true)}
+        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") setAperto(true); }}
+        title="Crea l'immagine della Squadra della Settimana da pubblicare sui social">
+        📸 Crea grafica social
+      </span>
+      {aperto && (
+        <ModaleGrafica
+          titolo="Grafica: Squadra della Settimana"
+          chiave={JSON.stringify(dati)}
+          disegnaSu={(canvas, formato) => disegnaSquadraSettimana(canvas, dati, formato)}
+          nomeFileDi={(formato) => "squadra-della-settimana-" + pulisci(dati.nome) + (formato === "storia" ? "-storia" : "") + ".png"}
+          testo={`🏆 Squadra della Settimana: ${nomeBello(dati.nome)}! Tutti i risultati su www.pallavolleyamo.it`}
           onClose={() => setAperto(false)}
         />
       )}
