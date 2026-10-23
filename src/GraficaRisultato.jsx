@@ -483,15 +483,11 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
   }
 
   async function suFacebook() {
-    // Computer: apro subito il riquadro di Facebook (come nelle notizie), prima di ogni attesa,
-    // altrimenti il browser lo blocca
+    // Computer: apro subito la pagina Facebook (prima di ogni attesa, altrimenti il browser la blocca):
+    // il riquadro "A cosa stai pensando?" della pagina permette di aggiungere la foto
     const eTelefono = typeof navigator !== "undefined" && /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || "");
     let finestra = null;
-    let sharer = "";
-    if (true) {
-      sharer = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(indirizzo) + "&quote=" + encodeURIComponent(String(testo).replace(/\s*(su\s+)?(https?:\/\/)?www\.pallavolleyamo\.it\/?$/i, "").trim());
-      if (!eTelefono) finestra = window.open(sharer, "fb-share", "width=600,height=500");
-    }
+    if (!eTelefono) finestra = window.open(PAGINA_FB, "_blank");
     let copiato = false;
     try { await navigator.clipboard.writeText(testoConLink); copiato = true; } catch (e) { /* ignora */ }
     const blob = await comeFile();
@@ -507,8 +503,8 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
     }
     // Computer: scarica l'immagine; il riquadro di Facebook è già aperto
     await scarica();
-    if (!finestra) finestra = window.open(sharer, "fb-share", "width=600,height=500");
-    setMsg("L'immagine è stata scaricata: aggiungila al post con il pulsante della foto." + (finestra ? "" : " Se il riquadro di Facebook non si è aperto, premi di nuovo."));
+    if (!finestra) finestra = window.open(PAGINA_FB, "_blank");
+    setMsg((copiato ? "Testo con il link copiato: incollalo nel post (Ctrl+V). " : "Scrivi nel post il link " + indirizzo + ". ") + "L'immagine è stata scaricata: nella pagina Facebook tocca \"A cosa stai pensando?\", poi il pulsante Foto e scegli l'immagine dai Download.");
   }
 
   const puoCondividere = typeof navigator !== "undefined" && !!navigator.canShare;
