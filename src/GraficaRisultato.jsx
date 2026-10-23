@@ -431,7 +431,12 @@ function nomeFile(p, formato) {
 }
 
 // Finestra con anteprima, scelta del formato, Scarica e Condividi
-function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, onClose }) {
+const PAGINA_FB = "https://www.facebook.com/profile.php?id=136699049531253";
+const SITO_URL = "https://www.pallavolleyamo.it";
+
+function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onClose }) {
+  const indirizzo = SITO_URL + (link || "");
+  const testoConLink = `${String(testo).replace(/\s*(su\s+)?(https?:\/\/)?www\.pallavolleyamo\.it\/?$/i, "").trim()}\n${indirizzo}`;
   const canvasRef = useRef(null);
   const [formato, setFormato] = useState("post");
   const [pronta, setPronta] = useState(false);
@@ -471,10 +476,18 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, onClose }
     if (!blob) return;
     const file = new File([blob], nomeFileDi(formato), { type: "image/png" });
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
-      try { await navigator.share({ files: [file], text: testo }); } catch (e) { /* annullato */ }
+      try { await navigator.share({ files: [file], text: testoConLink }); } catch (e) { /* annullato */ }
     } else {
       scarica();
     }
+  }
+
+  async function suFacebook() {
+    let copiato = false;
+    try { await navigator.clipboard.writeText(testoConLink); copiato = true; } catch (e) { /* ignora */ }
+    await scarica();
+    setMsg((copiato ? "Testo con il link copiato: incollalo nel post. " : "Scrivi nel post il link " + indirizzo + ". ") + "L'immagine è stata scaricata: aggiungila al post su Facebook.");
+    window.open(PAGINA_FB, "_blank", "noopener,noreferrer");
   }
 
   const puoCondividere = typeof navigator !== "undefined" && !!navigator.canShare;
@@ -493,7 +506,8 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, onClose }
         </div>
         <div className="grafica-azioni">
           {puoCondividere && <button className="grafica-btn grafica-btn--oro" onClick={condividi} disabled={!pronta}>Condividi</button>}
-          <button className={"grafica-btn" + (puoCondividere ? "" : " grafica-btn--oro")} onClick={scarica} disabled={!pronta}>Scarica immagine</button>
+          <button className={"grafica-btn" + (puoCondividere ? "" : " grafica-btn--oro")} onClick={suFacebook} disabled={!pronta}>Pubblica su Facebook</button>
+          <button className="grafica-btn" onClick={scarica} disabled={!pronta}>Scarica immagine</button>
         </div>
         {msg && <p className="grafica-msg">{msg}</p>}
       </div>
@@ -509,6 +523,7 @@ export function GraficaRisultatoModal({ partita, onClose }) {
       chiave={partita.casa + partita.ospite + partita.risultato}
       disegnaSu={(canvas, formato) => disegna(canvas, partita, formato)}
       nomeFileDi={(formato) => nomeFile(partita, formato)}
+      link="/risultati"
       testo={`${nomeBello(partita.casa)} ${String(partita.risultato).replace(/\s/g, "")} ${nomeBello(partita.ospite)} — risultati e classifiche su www.pallavolleyamo.it`}
       onClose={onClose}
     />
@@ -529,6 +544,7 @@ export function PulsanteGraficaWeekend({ dati, stile }) {
           chiave={JSON.stringify(dati)}
           disegnaSu={(canvas, formato) => disegnaWeekend(canvas, dati, formato)}
           nomeFileDi={(formato) => (risultati ? "risultati-weekend" : "weekend-volley-umbria") + (formato === "storia" ? "-storia" : "") + ".png"}
+          link="/weekend-umbria"
           testo={(risultati ? "I risultati del weekend in Umbria" : "Il weekend del volley in Umbria") + " su www.pallavolleyamo.it"}
           onClose={() => setAperto(false)}
         />
@@ -555,6 +571,7 @@ export function PulsanteGraficaSquadra({ dati }) {
           chiave={JSON.stringify(dati)}
           disegnaSu={(canvas, formato) => disegnaSquadraSettimana(canvas, dati, formato)}
           nomeFileDi={(formato) => "squadra-della-settimana-" + pulisci(dati.nome) + (formato === "storia" ? "-storia" : "") + ".png"}
+          link="/squadra-settimana"
           testo={`🏆 Squadra della Settimana: ${nomeBello(dati.nome)}! Tutti i risultati su www.pallavolleyamo.it`}
           onClose={() => setAperto(false)}
         />
