@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:03:27.012114+00:00",
+  "generatedAt": "2026-10-23T09:44:28.137089+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -12413,20 +12413,20 @@
       "status": "in programma"
     },
     {
-      "id": "131639424",
-      "competition": "Under 19 Femminile Girone A",
-      "giornata": "Giornata 3",
-      "home": "REVISIONANDO VITT CHIUSI",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639425",
       "competition": "Under 19 Femminile Girone A",
       "giornata": "Giornata 3",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639424",
+      "competition": "Under 19 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19510,6 +19510,1356 @@
       "giornata": "Giornata 10",
       "home": "COLLELUNA VOLLEY SAN GEMINI",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672926",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672927",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672925",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA VERDE",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672930",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672929",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672928",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672933",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672932",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672931",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA VERDE",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672935",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672936",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672934",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672939",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672938",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TRESTINA VOLLEY",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672937",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SCHOOL VOLLEY PERUGIA VERDE",
+      "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672941",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672940",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "TRESTINA VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672942",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672943",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672944",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672945",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA VERDE",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672948",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "TRESTINA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672947",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672946",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672949",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672950",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "TRESTINA VOLLEY",
+      "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672951",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "SCHOOL VOLLEY PERUGIA VERDE",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672952",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672954",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672953",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672957",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672956",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "TIBER VOLLEY BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672955",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672958",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672960",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "TIBER VOLLEY BIANCA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672959",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672963",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "TIBER VOLLEY BIANCA",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672962",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672961",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 3",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672966",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672964",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "TIBER VOLLEY BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672965",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672969",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "TIBER VOLLEY BIANCA",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672967",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672968",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672972",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672971",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "TIBER VOLLEY BIANCA",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672970",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 6",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672974",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672973",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672975",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "TIBER VOLLEY BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672977",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672976",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672978",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 8",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "TIBER VOLLEY BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672979",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "TIBER VOLLEY BIANCA",
+      "away": "SIRIO PALLAVOLO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672980",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672981",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672984",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "TIBER VOLLEY BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672983",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SIRIO PALLAVOLO VERDE",
+      "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672982",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 10",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672987",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672985",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672986",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 1",
+      "home": "UMBRIA VOLLEY ACADEMY 13",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672990",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672989",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "PMU MARSCIANO",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672988",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 2",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "UMBRIA VOLLEY ACADEMY 13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672993",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672991",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672992",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 3",
+      "home": "UMBRIA VOLLEY ACADEMY 13",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672996",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672994",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672995",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "UMBRIA VOLLEY ACADEMY 13",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672999",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672997",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "UMBRIA VOLLEY ACADEMY 13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672998",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 5",
+      "home": "PMU MARSCIANO",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673001",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "away": "UMBRIA VOLLEY ACADEMY 13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673000",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "PMU MARSCIANO",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673002",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673004",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673005",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673003",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 7",
+      "home": "UMBRIA VOLLEY ACADEMY 13",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673007",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "away": "UMBRIA VOLLEY ACADEMY 13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673008",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "PMU MARSCIANO",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673006",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 8",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673009",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673011",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "away": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673010",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 9",
+      "home": "PMU MARSCIANO",
+      "away": "UMBRIA VOLLEY ACADEMY 13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673014",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "SCHOOL VOLLEY PERUGIA AZZURRA",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673013",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673012",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "UMBRIA VOLLEY ACADEMY 13",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673015",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "U13 FOLIGNO VOLLEY ASD",
+      "away": "REBELS ASSISI U13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673017",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673016",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673018",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "SPELLO VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673020",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "TREVI VOLLEY",
+      "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673019",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "REBELS ASSISI U13",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673021",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "U13 FOLIGNO VOLLEY ASD",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673023",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "TREVI VOLLEY",
+      "away": "REBELS ASSISI U13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673022",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673024",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "SPELLO VOLLEY",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673026",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673025",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "REBELS ASSISI U13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673027",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "U13 FOLIGNO VOLLEY ASD",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673029",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "TREVI VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673028",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "REBELS ASSISI U13",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673032",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "SPELLO VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673031",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "TREVI VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673030",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "REBELS ASSISI U13",
+      "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673035",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "U13 FOLIGNO VOLLEY ASD",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673034",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "REBELS ASSISI U13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673033",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673037",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673036",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "SPELLO VOLLEY",
+      "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673038",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "REBELS ASSISI U13",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673041",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "U13 FOLIGNO VOLLEY ASD",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673039",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "TREVI VOLLEY",
+      "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673040",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "REBELS ASSISI U13",
+      "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673043",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "SPELLO VOLLEY",
+      "away": "REBELS ASSISI U13",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673044",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673042",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673065",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "CIDAT ARRONE PALLAVOLO",
+      "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673067",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "NARNI",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673066",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 1",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673069",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "BOSICO BLU GENESIS SOLUTIONS",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673068",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "POLISPORTIVA CLT",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673070",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 2",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "CIDAT ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673071",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "CIDAT ARRONE PALLAVOLO",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673073",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673072",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 3",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673076",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "NARNI",
+      "away": "CIDAT ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673074",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673075",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673077",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "CIDAT ARRONE PALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673078",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "BOSICO BLU GENESIS SOLUTIONS",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673079",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673080",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "BOSICO BLU GENESIS SOLUTIONS",
+      "away": "CIDAT ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673081",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673082",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673085",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "CIDAT ARRONE PALLAVOLO",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673084",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "NARNI",
+      "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673083",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 7",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673087",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "NARNI",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673088",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "BOSICO BLU GENESIS SOLUTIONS",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673086",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 8",
+      "home": "POLISPORTIVA CLT",
+      "away": "CIDAT ARRONE PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673091",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "CIDAT ARRONE PALLAVOLO",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673090",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "BOSICO BLU GENESIS SOLUTIONS",
+      "away": "COLLELUNA VOLLEY SAN GEMINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673089",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 9",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673094",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "NARNI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673093",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "POLISPORTIVA CLT",
+      "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673092",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "CIDAT ARRONE PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     }

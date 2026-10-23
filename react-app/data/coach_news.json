@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-10-23T05:05:37.969433+00:00",
+  "generatedAt": "2026-10-23T09:46:46.073285+00:00",
   "news": {
     "1": [
-      {
-        "title": "Volley, il tecnico della Delfina Termoli Alfredo Mottola diventa allenatore federale - Primonumero",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYVRBZXFTYXBSQUd6VV9waFVQMTQyTDZFSGxNV21GaDZCZTRfTWw2LUtqZzY2SjdzNWxhZURwNEFoNFZQQlNjMzhpblNQNGNjSU5Tcy1maHhSRW5qNjFyUmRqUmRldXF0bjQ0RkpaTUt6RzkzcDJpNVQ2eTdUNnpvbl9jcXZTMkpqXzV0V0ZVOWVFdVZaZTI5TzFfSUpBOUhfcE44aTI4LWRBY0JNRFFXam5ZaDY2Q3M1cF9yVzBPTEtMd3gtZ1g1N1hR?oc=5",
-        "pubDate": "Wed, 21 Oct 2026 14:38:00 GMT",
-        "source": "Primonumero"
-      },
       {
         "title": "Le convocate di Mencarelli per lo stage di Castelnovo nè Monti - Federazione Italiana Pallavolo",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXk1MFk4Y0pObkdOVjVoaVpDRW5WVnhYQ1B3dXlLdFNWeXZ3SmRrLVRjT0JZS3M0elczUXdJcEgySHZLalJWd1pGSlIxczItNUlBYlRNeFprYklNYkMtdm5kRmpSeG45LVhYMWJNWEoweFZxMDF0VTIyQzlaZkZVYWs5amFvY1MyVHIwZzV3?oc=5",
@@ -31,14 +25,26 @@
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX1NkcERkd19COVJwbG12bVF3WlZVcVVPV3JFczd4MzRFTTlKeThSR3pZU3BGLW1iblh5VGtzRTlMYVVfQlBsR2hPaGZxNFljaXA3UUtQUF81NGJab21oNl9iZTdDVFo1Y0NobXhNTF9UZVJXaFk1b0pfZnJJNlU4aHVpa0ZzOE1BN0RlRVlkX0xjLXd6M3hZXy1tZmpqc2dfdGdvNkJWSE9qc1RhR0pCSmFn?oc=5",
         "pubDate": "Fri, 13 Feb 2026 08:00:00 GMT",
         "source": "iVolley Magazine"
+      },
+      {
+        "title": "Torneo WEVZA: il DT Marco Mencarelli traccia un primo bilancio - Federazione Italiana Pallavolo",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkI2ZEVTa0pEUnJ0SVJERW5veXRYX005WUQ1VUotbzFxX2JSck9IYXM4TFF4QmtPdGIyQjBCSUlDeklYSjJHM0JXcVlPdUNzeS1WMnhsQ0dmek9YMnlzSGlKVjUweklSREJtWnB4bC1sd09hT2hmT3VmTVlsUmZZV0FTanNxclRWZ2NEYXRLLW5Rdw?oc=5",
+        "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT",
+        "source": "Federazione Italiana Pallavolo"
       }
     ],
     "2": [
       {
-        "title": "Imoco Volley, missione Supercoppa a Bari: sabato la sfida a Scandicci per il primo trofeo - Notizie Plus",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPclVCZVFpbUlBd3lBdlNrMkVWUDlVeFNiVHZxWjQ1UTIwbTBWeXVlTmZUN0VsaF9hcHkxbUFsZG9jWTAtRGxmUzNwS05CT0NxV1F6Mzg3VDZ1bzRwYXlQWEZTT3UxY3l6ZkJ2Wjhka3dtU3k2SXJLeWtXMktReEFJZmtsZENKdkdNVkZjd0RvZ0JvbTc2WV9QcG1BckNMQjN4V3RlTUs0NnNNXzVtampNd9IBtgFBVV95cUxPMVFUQjYwRHNHTml0Z2JEUVc1cFZQbDM0RGRTTms5dEktOXZheUpRUThHWGlmT0h6aEhTVGEyWXZoSlVFaXp4N18zbnFNSDJreUtjUGszNVk4V3piSjZ6a1VFLUpiV2ZBRWViNkt2RDFueWJKLTMxU00yUFQ2djVSVWxEUktDdTVBcWRTLU9keTJud1ZqbVl2YXVpbG9CTnhLbE9EaE5tSHZWRnkzVnFSZ1ZCWGlWQQ?oc=5",
-        "pubDate": "Thu, 22 Oct 2026 12:29:57 GMT",
-        "source": "Notizie Plus"
+        "title": "Supercoppa italiana: sabato la sfida contro Conegliano - Lega Pallavolo Serie A Femminile",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcEhBRDZhT2hzU2ozakV4aTZBNkVfYzJ3a3BuZkd2ZUZqcDdLcVU5QWh3RFNiQWNRa1ZMdDk1WDdlQThvSlptNlFBSEQyR2h2QlFHd2hGaGN2UTVBZS03OXJ3MVktajV2MG9tMFpzNnpvVDIzeDdXdkJ4dGM0Tk9LeUcyNVEwcFRxbGJhS2c0ZGJiM1k?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 07:02:13 GMT",
+        "source": "Lega Pallavolo Serie A Femminile"
+      },
+      {
+        "title": "Imoco Volley a Bari per la Supercoppa: sabato la sfida con Scandicci al PalaFlorio - TrevisoToday",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZFRQS3V0QWlnZ212cjRkYnZzUDN1d3NGenJFbkJmY2dfZjMtTHhFLWZVUlFmYUtqWUhIc2xRLTVpVWFmZ0xQc2NZdVVvUkJRNnhLazJkbmNxUkVCR0t0TEpsLWhYcXQ3VGhMNlFrVkpybFVKaTBtdW03REdfWnUxR2VqZVBmSGg4VEZfM29JekxRN0xkeHBqQjlBbVlSQzFOZC1TYkZOOXlOdw?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 05:00:00 GMT",
+        "source": "TrevisoToday"
       },
       {
         "title": "Pallavolo A1F - Santarelli e Wolosz: \"Abbiamo fatto un bel lavoro, ma potevamo giocare meglio il secondo set\" - iVolley Magazine",
@@ -57,12 +63,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQX2pGbzR3N3RhNmdBZGdKSEhReWRMR2x3bkVyODVqOFJVLU16RHV5OUhTNWVlTUVPUU4wcVRBVVFWbnpYUlljRDJnb3FXdjhid1JrU0syWGdwT0ZoSDlHR1hHdlBBZmdBeEU0WU5WanRHYklJUlBMZ29UTHdSRExiWjlqME5jdy1xXzFucUVtb01MUUNKVWhyaEVhMHl0aWVEMUxLb3QtRlpxblR6U3JLYUxkNzRkMVRmTHlGcWRlUUdWR05oUVhfTDNOTG5zWXRDSEFGd0lEVWJmaVRLQkhtYUN4aVo3S0p2RnRRS2tNY3kwUUJWaU9XTnh4MEs3Z1NWQVhGV2JObGZRUnNJaFZ0T2t2Z2hYTDZFQU5CNGhuOFRHNWlVd2JqdTFibUNib0U2YTlFUFo5SDJZb01IWUNPbGFYWXJpajg4NE5hQzVIbmVSQdIB1wJBVV95cUxOMHhSNEgyTFBFQThLeUpaMjN3QnMzaWNraXVTNm5rNXQzSnhWTWtBenJiN1Y1anoxYnptTlFwQXcyZk8wVktnQVBscW9CdXh0VUpRX2tmQW5PU0tsUWRoeWdHTlRJTzhlbDdnQ1hZM2xMWUxXUk1EUHFBaDU2cFY2ZktuNExlYkptaXRxc2JEYzNzOXZ0c3Y2VGFoQ0FQWlZRQXVkQW5Kb0RBZkNoUGVURFo3QVU2SGhtSlFVbTgybVVRUDBhRVQ2MDFOYnRaOG9PdzR2cUNBRXFVZnF4VThFcXhCWW9iM2JDWFQxOWptVk9pZUFRX2hmX28wblRLX0FPeEx2czVQWmt2WTR5T2NaUnR1czlQLXFNaDZsR05yRUlZVHVEY2gtVWJsV2pLeVZKSTA5NEwxTGdBR25KTmpJbldsRlFNbHc4Zzh2a3REVjJqVmZsUWdr?oc=5",
         "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
         "source": "Corriere del Veneto"
-      },
-      {
-        "title": "Sport in tv: pallavolo, i telespettatori contro Santarelli - La Stampa",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ2ZWM3NXLTFXSWk5N3dTNFNPV0tiQm9zQVRwcXN5cTlmU01SRlBrOUllWFZ5ZHlSX2lGeWRXNjM0a21mM3ppVHBqckJTV21VanNEZG1PVGlkR2JlZ0F3QmdZSHFxZ3ZJY1Q3SHplaHJYN0xYYkVEVlhGTndaOG92TnZHN2R2SjF4NVUwR3lIT0ZnN2JqOVVoQW5RUFhvazc4ZEk5MmtFWDY2U05VZzVUbVFR0gG3AUFVX3lxTE9vQW81RVJ2dWZrVHA5WnBmRjREZWp4NzBZcE5BdDZMUy1VNFk4WWxDU3lDQk12cFR0VGxnTXFDTThfdEVwd01RdU81ZmdsWTdHd1FZM0ljZUVacEdJTlpKa0gxekRuS29sVVU1cFRhNWkzQ0laal9PYkFpNlc0aThmaEdMMVcwZExnRW9VeEJWTHY2bHlGMkgyVE9keWFQc0NZemJPcGwtNGM0R3BuM3phaWprX2ZVMA?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
-        "source": "La Stampa"
       }
     ],
     "3": [
