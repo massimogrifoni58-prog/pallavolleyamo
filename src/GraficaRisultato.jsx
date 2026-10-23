@@ -441,6 +441,7 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
   const [formato, setFormato] = useState("post");
   const [pronta, setPronta] = useState(false);
   const [msg, setMsg] = useState("");
+  const [mostraLinkFb, setMostraLinkFb] = useState(false);
 
   useEffect(() => {
     let attivo = true;
@@ -504,6 +505,7 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
     // Computer: scarica l'immagine; il riquadro di Facebook è già aperto
     await scarica();
     if (!finestra) finestra = window.open(PAGINA_FB, "_blank");
+    setMostraLinkFb(true);
     setMsg((copiato ? "Testo con il link copiato: incollalo nel post (Ctrl+V). " : "Scrivi nel post il link " + indirizzo + ". ") + "L'immagine è stata scaricata: nella pagina Facebook tocca \"A cosa stai pensando?\", poi il pulsante Foto e scegli l'immagine dai Download.");
   }
 
@@ -527,6 +529,9 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
           <button className="grafica-btn" onClick={scarica} disabled={!pronta}>Scarica immagine</button>
         </div>
         {msg && <p className="grafica-msg">{msg}</p>}
+        {mostraLinkFb && (
+          <a className="grafica-btn" href={PAGINA_FB} target="_blank" rel="noopener noreferrer" style={{ display: "block", textAlign: "center", textDecoration: "none", marginTop: "0.5rem" }}>Apri la pagina Facebook</a>
+        )}
       </div>
     </div>,
     document.body
