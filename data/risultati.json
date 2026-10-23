@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:50:32.929831+00:00",
+  "generatedAt": "2026-10-23T21:15:30.440471+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -12670,8 +12670,8 @@
       "giornata": "Giornata 2",
       "home": "REBELS ASSISI U19",
       "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131639458",
@@ -15298,8 +15298,8 @@
       "giornata": "Giornata 2",
       "home": "POLISPORTIVA CLT",
       "away": "DIFDIF VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641596",
@@ -19064,6 +19064,15 @@
       "status": "in programma"
     },
     {
+      "id": "131674194",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "U14 FOLIGNO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661621",
       "competition": "Under 14 Femminile Girone D",
       "giornata": "Giornata 1",
@@ -19078,6 +19087,15 @@
       "giornata": "Giornata 1",
       "home": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
       "away": "LYNX ACQUASPARTA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674195",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19109,6 +19127,15 @@
       "status": "in programma"
     },
     {
+      "id": "131674196",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 3",
+      "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661626",
       "competition": "Under 14 Femminile Girone D",
       "giornata": "Giornata 3",
@@ -19136,6 +19163,15 @@
       "status": "in programma"
     },
     {
+      "id": "131674197",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 4",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661630",
       "competition": "Under 14 Femminile Girone D",
       "giornata": "Giornata 5",
@@ -19150,6 +19186,24 @@
       "giornata": "Giornata 5",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674198",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "ASD PALLAVOLO NORCIA",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674199",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "U14 FOLIGNO VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19181,11 +19235,29 @@
       "status": "in programma"
     },
     {
+      "id": "131674200",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "MARCONI MONINI PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131661633",
       "competition": "Under 14 Femminile Girone D",
       "giornata": "Giornata 7",
       "home": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
       "away": "ASD PALLAVOLO NORCIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674201",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "LYNX ACQUASPARTA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19221,6 +19293,24 @@
       "competition": "Under 14 Femminile Girone D",
       "giornata": "Giornata 9",
       "home": "LYNX ACQUASPARTA VOLLEY",
+      "away": "ASD PALLAVOLO NORCIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674202",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 9",
+      "home": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131674203",
+      "competition": "Under 14 Femminile Girone D",
+      "giornata": "Giornata 10",
+      "home": "NARNI SPORT ACADEMY",
       "away": "ASD PALLAVOLO NORCIA",
       "score": "da disputare",
       "status": "in programma"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:49:51.875733+00:00",
+  "generatedAt": "2026-10-23T21:14:50.286218+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6831,7 +6831,7 @@
         "ora": "18:30",
         "casa": "REBELS ASSISI U19",
         "ospite": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-girone-b-6",
@@ -8313,7 +8313,7 @@
         "ora": "20:00",
         "casa": "POLISPORTIVA CLT",
         "ospite": "DIFDIF VOLLEY ACADEMY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-g-3",
