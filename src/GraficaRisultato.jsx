@@ -483,6 +483,14 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
   }
 
   async function suFacebook() {
+    // Computer: apro subito il riquadro di Facebook (come nelle notizie), prima di ogni attesa,
+    // altrimenti il browser lo blocca
+    let finestra = null;
+    let sharer = "";
+    if (true) {
+      sharer = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(indirizzo) + "&quote=" + encodeURIComponent(String(testo).replace(/\s*(su\s+)?(https?:\/\/)?www\.pallavolleyamo\.it\/?$/i, "").trim());
+      if (!(typeof navigator !== "undefined" && navigator.canShare)) finestra = window.open(sharer, "fb-share", "width=600,height=500");
+    }
     let copiato = false;
     try { await navigator.clipboard.writeText(testoConLink); copiato = true; } catch (e) { /* ignora */ }
     const blob = await comeFile();
@@ -496,10 +504,10 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
       } catch (e) { /* annullato */ }
       return;
     }
-    // Computer: scarica l'immagine e apre la pagina Facebook
+    // Computer: scarica l'immagine; il riquadro di Facebook è già aperto
     await scarica();
-    setMsg((copiato ? "Testo con il link copiato: incollalo nel post. " : "Scrivi nel post il link " + indirizzo + ". ") + "L'immagine è stata scaricata: aggiungila al post su Facebook.");
-    window.open(PAGINA_FB, "_blank", "noopener,noreferrer");
+    if (!finestra) finestra = window.open(sharer, "fb-share", "width=600,height=500");
+    setMsg("L'immagine è stata scaricata: aggiungila al post con il pulsante della foto." + (finestra ? "" : " Se il riquadro di Facebook non si è aperto, premi di nuovo."));
   }
 
   const puoCondividere = typeof navigator !== "undefined" && !!navigator.canShare;
