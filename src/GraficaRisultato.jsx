@@ -485,6 +485,18 @@ function ModaleGrafica({ titolo, disegnaSu, nomeFileDi, testo, chiave, link, onC
   async function suFacebook() {
     let copiato = false;
     try { await navigator.clipboard.writeText(testoConLink); copiato = true; } catch (e) { /* ignora */ }
+    const blob = await comeFile();
+    if (!blob) return;
+    const file = new File([blob], nomeFileDi(formato), { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      // Telefono: apre l'elenco delle app con l'immagine già allegata (scegli Facebook)
+      try {
+        await navigator.share({ files: [file], text: testoConLink });
+        setMsg(copiato ? "Se nel post non compare il testo, incollalo: è già copiato, con il link." : "Se nel post manca il testo, scrivi il link " + indirizzo + ".");
+      } catch (e) { /* annullato */ }
+      return;
+    }
+    // Computer: scarica l'immagine e apre la pagina Facebook
     await scarica();
     setMsg((copiato ? "Testo con il link copiato: incollalo nel post. " : "Scrivi nel post il link " + indirizzo + ". ") + "L'immagine è stata scaricata: aggiungila al post su Facebook.");
     window.open(PAGINA_FB, "_blank", "noopener,noreferrer");
