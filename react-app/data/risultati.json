@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:44:28.137089+00:00",
+  "generatedAt": "2026-10-23T16:50:32.929831+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10064,20 +10064,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658212",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 10",
-      "home": "FOLIGNO VOLLEY ASD",
-      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658211",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 10",
       "home": "UNIPOL ASSICURAZIONI BASTIA",
       "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658212",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 10",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -14938,8 +14938,8 @@
       "giornata": "Giornata 2",
       "home": "ASD PALLAVOLO NORCIA",
       "away": "FOLIGNO VOLLEY ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641555",
@@ -17399,20 +17399,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659527",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 3",
-      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
-      "away": "PMU MARSCIANO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659526",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 3",
       "home": "REALE MUTUA TUDER VOLLEY",
       "away": "FREE GAS&LUCE NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659527",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 3",
+      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
+      "away": "PMU MARSCIANO BIANCA",
       "score": "da disputare",
       "status": "in programma"
     },
