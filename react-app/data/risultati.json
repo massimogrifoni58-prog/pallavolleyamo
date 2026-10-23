@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:24:21.758088+00:00",
+  "generatedAt": "2026-10-23T05:03:27.012114+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -19496,20 +19496,20 @@
       "status": "in programma"
     },
     {
-      "id": "131661669",
-      "competition": "Under 14 Femminile Girone E",
-      "giornata": "Giornata 10",
-      "home": "COLLELUNA VOLLEY SAN GEMINI",
-      "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131661670",
       "competition": "Under 14 Femminile Girone E",
       "giornata": "Giornata 10",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131661669",
+      "competition": "Under 14 Femminile Girone E",
+      "giornata": "Giornata 10",
+      "home": "COLLELUNA VOLLEY SAN GEMINI",
+      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     }
