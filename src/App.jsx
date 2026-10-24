@@ -6687,7 +6687,7 @@ function CalendarioCompletoPage() {
     ...campionatiRegionali.map(c => ({ id: c.id, nome: c.nome })),
   ];
 
-  const [selCategoria, setSelCategoria] = useState(NAZ_CAMP[0]?.id || campionatiRegionali[0]?.id || "")
+  const [selCategoria, setSelCategoria] = useState((campionatiRegionali.find((c) => c.id === "serie-c-femminile") || NAZ_CAMP[0] || campionatiRegionali[0] || {}).id || "")
   const [selSquadra, setSelSquadra] = useState("");
 
   const oggi = new Date();
