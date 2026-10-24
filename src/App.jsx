@@ -6663,6 +6663,20 @@ const NAZ_PARTITE = {};
     impianto: m.impianto || "",
   });
 });
+function LinkSquadra({ nome }) {
+  if (!nome) return null;
+  return (
+    <a
+      href={"/mia-squadra?squadra=" + encodeURIComponent(nome)}
+      title={"Calendario e risultati di " + nome}
+      onClick={(e) => { e.preventDefault(); navigateTo("mia-squadra?squadra=" + encodeURIComponent(nome)); }}
+      style={{ color: "inherit", textDecoration: "underline dotted", textUnderlineOffset: "3px", textDecorationColor: "var(--gold)" }}
+    >
+      {nome}
+    </a>
+  );
+}
+
 function CalendarioCompletoPage() {
   const campionatiRegionali = [...(calendarioRegionaliData.campionati || []), ...NAZ_CAMP];
   const partiteRegionaliData = { ...(calendarioRegionaliData.partite || {}), ...NAZ_PARTITE };
@@ -6764,6 +6778,12 @@ function CalendarioCompletoPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
         <CondividiBar titolo="Risultati e calendario delle squadre umbre" percorso="risultati" />
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "0.5rem 0.6rem", marginBottom: "1rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>
+          <span>Cerchi qualcosa di più preciso?</span>
+          <a href="/weekend-umbria" className="filter-btn" style={{ textDecoration: "none" }} onClick={(e) => { e.preventDefault(); navigateTo("weekend-umbria"); }}>Il weekend in Umbria</a>
+          <a href="/mia-squadra" className="filter-btn" style={{ textDecoration: "none" }} onClick={(e) => { e.preventDefault(); navigateTo("mia-squadra"); }}>La mia squadra</a>
+        </div>
+
         <div className="tendine-riga" style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem 0.6rem", alignItems: "flex-start", justifyContent: "center", marginBottom: "1.4rem", marginLeft: 0, marginRight: "auto", width: "100%" }}>
 <div className="all2-select-wrap" style={{ flex: "0 1 230px", margin: 0 }}>
   <select className="all2-select" value={selCategoria}
@@ -6816,7 +6836,7 @@ function CalendarioCompletoPage() {
                     {formatDataBreve(p.data)} {p.ora && `· ${p.ora}`} {p.giornata && `· Giornata ${p.giornata}`}
                   </div>
                   <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
-                    {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
+                    <LinkSquadra nome={p.casa} /> <span style={{ color: "var(--text-dim)" }}>vs</span> <LinkSquadra nome={p.ospite} />
                   </div>
                   {p.risultato && p.risultato !== "0-0" && (
                     <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
@@ -6876,8 +6896,10 @@ function CalendarioCompletoPage() {
                       alignItems: "center",
                       justifyContent: "center",
                       margin: "0 auto",
+                      paddingTop: isOggi ? "0.45rem" : 0,
                     }}
                   >
+                    {isOggi && <span style={{ position: "absolute", top: "1px", fontSize: "0.45rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase", letterSpacing: "0.03em" }}>oggi</span>}
                     {d}
                     {haPartite && (
                       <span style={{
@@ -6893,6 +6915,11 @@ function CalendarioCompletoPage() {
                 );
               })}
             </div>
+
+            <p style={{ textAlign: "center", fontSize: "0.72rem", color: "var(--text-dim)", margin: "0 0 1rem" }}>
+              <span style={{ display: "inline-block", width: "6px", height: "6px", borderRadius: "50%", background: "var(--gold)", marginRight: "0.3rem" }} />
+              giorni con partite. Tocca un giorno per vederle.
+            </p>
 
             {giornoAttivo && partiteSelezionate.length > 0 && (
               <div style={{ marginBottom: "1rem" }}>
@@ -6910,7 +6937,7 @@ function CalendarioCompletoPage() {
                         {p.categoria || (p.giornata && `Giornata ${p.giornata}`)} {p.ora && `· ${p.ora}`}
                       </div>
                       <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>
-                        {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
+                        <LinkSquadra nome={p.casa} /> <span style={{ color: "var(--text-dim)" }}>vs</span> <LinkSquadra nome={p.ospite} />
                       </div>
                       {p.risultato && p.risultato !== "0-0" && (
                         <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
