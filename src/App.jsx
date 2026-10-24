@@ -6751,7 +6751,12 @@ function CalendarioCompletoPage() {
     return new Date(dataISO + "T00:00:00").toLocaleDateString("it-IT", { weekday: "short", day: "numeric", month: "short" });
   }
 
-  const partiteSelezionate = selectedDay ? (partiteMap[selectedDay] || []) : [];
+  // Se non hai scelto un giorno, mostro già il primo giorno con partite da oggi in poi (nel mese visibile)
+  const giornoPredefinito = Object.keys(partiteMap)
+    .filter((d) => d.startsWith(`${anno}-${pad(mese + 1)}`) && d >= oggiISO && partiteMap[d].length > 0)
+    .sort()[0] || null;
+  const giornoAttivo = selectedDay || giornoPredefinito;
+  const partiteSelezionate = giornoAttivo ? (partiteMap[giornoAttivo] || []) : [];
 
   return (
     <main>
@@ -6759,8 +6764,6 @@ function CalendarioCompletoPage() {
       <section className="section">
         <h2 className="feed-heading">Calendario Squadre Umbre</h2>
         <CondividiBar titolo="Risultati e calendario delle squadre umbre" percorso="risultati" />
-        <RisultatiVetrina />
-
         <div className="tendine-riga" style={{ display: "flex", flexWrap: "wrap", gap: "0.8rem 0.6rem", alignItems: "flex-start", justifyContent: "center", marginBottom: "1.4rem", marginLeft: 0, marginRight: "auto", width: "100%" }}>
 <div className="all2-select-wrap" style={{ flex: "0 1 230px", margin: 0 }}>
   <select className="all2-select" value={selCategoria}
@@ -6852,11 +6855,11 @@ function CalendarioCompletoPage() {
                 const iso = dataISO(d);
                 const haPartite = partiteMap[iso] && partiteMap[iso].length > 0;
                 const isOggi = iso === oggiISO;
-                const isSelected = iso === selectedDay;
+                const isSelected = iso === giornoAttivo;
                 return (
                   <button
                     key={iso}
-                    onClick={() => haPartite && setSelectedDay(isSelected ? null : iso)}
+                    onClick={() => haPartite && setSelectedDay(iso)}
                     style={{
                       aspectRatio: "1",
                       maxWidth: "48px",
@@ -6891,10 +6894,10 @@ function CalendarioCompletoPage() {
               })}
             </div>
 
-            {selectedDay && partiteSelezionate.length > 0 && (
+            {giornoAttivo && partiteSelezionate.length > 0 && (
               <div style={{ marginBottom: "1rem" }}>
                 <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", marginBottom: "0.75rem" }}>
-                  {new Date(selectedDay + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
+                  {new Date(giornoAttivo + "T00:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" })}
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
                   {partiteSelezionate.map(p => (
@@ -6924,13 +6927,15 @@ function CalendarioCompletoPage() {
               </div>
             )}
 
-            {!selectedDay && (
+            {!giornoAttivo && (
               <p className="state" style={{ textAlign: "center", fontSize: "0.8rem" }}>
-                Clicca su un giorno evidenziato per vedere le partite, o seleziona una squadra sopra per vederle tutte insieme.
+                In questo mese non ci sono partite per il campionato scelto. Cambia mese o campionato, oppure scegli una squadra per vederle tutte insieme.
               </p>
             )}
           </>
         )}
+
+        <RisultatiVetrina />
       </section>
     </main>
   );
