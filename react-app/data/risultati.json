@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T18:41:52.982310+00:00",
+  "generatedAt": "2026-10-24T22:21:50.600574+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -88,8 +88,8 @@
       "giornata": "Giornata 2",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "ITALCHIMICI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626794",
@@ -1483,8 +1483,8 @@
       "giornata": "Giornata 2",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626952",
@@ -1492,8 +1492,8 @@
       "giornata": "Giornata 2",
       "home": "FOSSATO VOLLEY",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626954",
@@ -1501,8 +1501,8 @@
       "giornata": "Giornata 2",
       "home": "ELLERA VOLLEY",
       "away": "A.S.D. TREVI VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626955",
@@ -1510,8 +1510,8 @@
       "giornata": "Giornata 2",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "THE GALLEON PUB MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131626961",
@@ -2905,8 +2905,8 @@
       "giornata": "Giornata 2",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131627453",
@@ -5659,8 +5659,8 @@
       "giornata": "Giornata 1",
       "home": "NARNI SPORT ACADEMY",
       "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131627232",
@@ -16913,20 +16913,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659474",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 5",
-      "home": "PELLICANO VITT CHIUSI",
-      "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659473",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 5",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
       "away": "ELLERA VOLLEY BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659474",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "PELLICANO VITT CHIUSI",
+      "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16940,20 +16940,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659475",
-      "competition": "Under 15 Femminile Girone D",
-      "giornata": "Giornata 6",
-      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
-      "away": "SIRIO PALLAVOLO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659477",
       "competition": "Under 15 Femminile Girone D",
       "giornata": "Giornata 6",
       "home": "ELLERA VOLLEY BLU",
       "away": "SAN MARIANO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659475",
+      "competition": "Under 15 Femminile Girone D",
+      "giornata": "Giornata 6",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+      "away": "SIRIO PALLAVOLO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19649,15 +19649,6 @@
       "status": "in programma"
     },
     {
-      "id": "131672941",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 6",
-      "home": "UISP VOLLEY UMBERTIDE",
-      "away": "TIBER VOLLEY FUCSIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672940",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 6",
@@ -19672,6 +19663,15 @@
       "giornata": "Giornata 6",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "PALLAVOLO CITTA' DI CASTELLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672941",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "TIBER VOLLEY FUCSIA",
       "score": "da disputare",
       "status": "in programma"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T18:41:10.479585+00:00",
+  "generatedAt": "2026-10-24T22:20:54.725149+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -217,7 +217,7 @@
         "ora": "21:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "ITALCHIMICI",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-maschile-12",
@@ -1749,7 +1749,7 @@
         "ora": "21:00",
         "casa": "FOSSATO VOLLEY",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-9",
@@ -1759,7 +1759,7 @@
         "ora": "20:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-femminile-10",
@@ -1769,7 +1769,7 @@
         "ora": "21:00",
         "casa": "ELLERA VOLLEY",
         "ospite": "A.S.D. TREVI VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-femminile-11",
@@ -1779,7 +1779,7 @@
         "ora": "21:00",
         "casa": "AMERINA PALLAVOLO A S D",
         "ospite": "THE GALLEON PUB MARSCIANO",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "serie-c-femminile-12",
@@ -4573,7 +4573,7 @@
         "ora": "21:00",
         "casa": "NARNI SPORT ACADEMY",
         "ospite": "FOLIGNO VOLLEY ASD",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "serie-d-femminile-b-3",
