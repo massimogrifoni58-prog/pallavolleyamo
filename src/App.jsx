@@ -7928,7 +7928,7 @@ function CercaPage() {
 // Generatore del post del weekend (testo + grafica): si usa dentro l'area riservata /modera
 function GeneraPostWeekend() {
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
-  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
+  const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase()).replace(/\s+A S D$/, "");
   const macro = (c) => (/^Serie C/.test(c || "") ? 0 : /^Serie D/.test(c || "") ? 1 : 2);
   const dm = (d) => d.slice(8, 10) + "/" + d.slice(5, 7);
   const giornoMese = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
@@ -7940,6 +7940,7 @@ function GeneraPostWeekend() {
   const [modo, setModo] = useState(dow === 0 || dow === 1 || dow === 2 ? "risultati" : "anteprima");
   const [giov, setGiov] = useState(true);
   const [copiato, setCopiato] = useState(false);
+  const [scelte, setScelte] = useState([]);
   const areaRef = useRef(null);
 
 
@@ -7957,20 +7958,26 @@ function GeneraPostWeekend() {
   };
   const scegliEvidenza = (lista) => {
     const ord = lista.slice().sort((a, b) => macro(a.campionato) - macro(b.campionato) || (a.data + (a.ora || "")).localeCompare(b.data + (b.ora || "")));
-    const scelte = [], visti = new Set();
-    ord.forEach((p) => { if (scelte.length < 5 && !visti.has(p.campionato)) { visti.add(p.campionato); scelte.push(p); } });
-    ord.forEach((p) => { if (scelte.length < 5 && !scelte.includes(p)) scelte.push(p); });
-    return scelte.map((p) => ({
-      campionato: p.campionato, casa: p.casa, ospite: p.ospite, risultato: p.risultato,
+    const mie = ord.filter((p) => scelte.includes(p.id));
+    const sceltePost = [], visti = new Set();
+    if (mie.length) mie.slice(0, 4).forEach((p) => sceltePost.push(p));
+    else {
+      ord.forEach((p) => { if (sceltePost.length < 5 && !visti.has(p.campionato)) { visti.add(p.campionato); sceltePost.push(p); } });
+      ord.forEach((p) => { if (sceltePost.length < 5 && !sceltePost.includes(p)) sceltePost.push(p); });
+    }
+    return sceltePost.map((p) => ({
+      campionato: p.campionato, casa: p.casa.replace(/\s+A S D$/i, ""), ospite: p.ospite.replace(/\s+A S D$/i, ""), risultato: p.risultato,
       quando: new Date(p.data + "T12:00:00").toLocaleDateString("it-IT", { weekday: "short" }).replace(".", "") + "|" + (p.ora || "").slice(0, 5),
     }));
   };
   let grafica = null;
+  let candidate = [];
 
   if (modo === "risultati") {
     const da = new Date(oggi); da.setDate(oggi.getDate() - 6);
     const dai = iso(da), aai = iso(oggi);
     const lista = tutte.filter((p) => p.risultato && p.data >= dai && p.data <= aai && filtraGiov(p));
+    candidate = lista;
     const date = lista.map((p) => p.data).sort();
     const fineSett = date.some((d) => { const g = new Date(d + "T12:00:00").getDay(); return g === 0 || g === 6; });
     const etic = fineSett ? "RISULTATI DEL WEEKEND IN UMBRIA" : "ULTIMI RISULTATI IN UMBRIA";
@@ -7999,6 +8006,7 @@ function GeneraPostWeekend() {
     const dom = new Date(sab); dom.setDate(sab.getDate() + 1);
     const giorni = [iso(ven), iso(sab), iso(dom)];
     const lista = tutte.filter((p) => giorni.includes(p.data) && !p.risultato && filtraGiov(p));
+    candidate = lista;
     titolo = "\u{1F3D0} IL WEEKEND DEL VOLLEY IN UMBRIA (" + dm(giorni[0]) + "-" + dm(giorni[2]) + ")";
     giorni.forEach((g) => {
       const del = lista.filter((p) => p.data === g).sort((a, b) => macro(a.campionato) - macro(b.campionato) || (a.ora || "").localeCompare(b.ora || ""));
@@ -8042,6 +8050,28 @@ function GeneraPostWeekend() {
         <label style={{ display: "block", fontSize: "0.88rem", marginBottom: "0.9rem" }}>
           <input type="checkbox" checked={giov} onChange={(e) => setGiov(e.target.checked)} /> Includi i campionati giovanili
         </label>
+        {candidate.length > 0 && (
+          <details style={{ marginBottom: "0.9rem", fontSize: "0.88rem" }}>
+            <summary style={{ cursor: "pointer", fontWeight: 600 }}>
+              Partite in evidenza nella grafica {scelte.filter((id) => candidate.some((p) => p.id === id)).length > 0 ? "(" + scelte.filter((id) => candidate.some((p) => p.id === id)).length + " scelte)" : "(automatiche)"}
+            </summary>
+            <p className="state" style={{ margin: "0.5rem 0", padding: 0, textAlign: "left", fontSize: "0.82rem" }}>Spunta fino a 4 partite: nel post quadrato se ne vedono 3, nella storia 4. Se non scegli niente, le sceglie il sito.</p>
+            <div style={{ maxHeight: "260px", overflowY: "auto", border: "1px solid var(--border)", borderRadius: "8px", padding: "0.5rem 0.7rem" }}>
+              {candidate.slice().sort((x, y) => macro(x.campionato) - macro(y.campionato) || (x.data + (x.ora || "")).localeCompare(y.data + (y.ora || ""))).map((p) => {
+                const attiva = scelte.includes(p.id);
+                const piene = scelte.filter((id) => candidate.some((q) => q.id === id)).length >= 4;
+                return (
+                  <label key={p.id} style={{ display: "block", padding: "0.2rem 0", opacity: !attiva && piene ? 0.5 : 1 }}>
+                    <input type="checkbox" checked={attiva} disabled={!attiva && piene}
+                      onChange={() => setScelte((x) => (x.includes(p.id) ? x.filter((i) => i !== p.id) : [...x, p.id]))} />{" "}
+                    {nome(p.casa)} - {nome(p.ospite)} <span style={{ color: "var(--text-dim)" }}>({p.campionato.replace(/ Girone.*$/, "")}, {giornoSett(p.data).slice(0, 3)} {(p.ora || "").slice(0, 5)}{p.risultato ? ", " + p.risultato : ""})</span>
+                  </label>
+                );
+              })}
+            </div>
+            {scelte.length > 0 && <button type="button" className="filter-btn" style={{ marginTop: "0.5rem" }} onClick={() => setScelte([])}>Rimetti automatiche</button>}
+          </details>
+        )}
         <textarea
           key={modo + String(giov) + testo.length}
           ref={areaRef}
