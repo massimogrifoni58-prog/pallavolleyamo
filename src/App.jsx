@@ -7669,6 +7669,93 @@ function MiaSquadraHome() {
   );
 }
 
+function NuovoArticolo({ chiama }) {
+  const vuoto = { societa: "", autore: "", categoria: "Comunicato", provincia: "perugia", titolo: "", testo: "" };
+  const [f, setF] = useState(vuoto);
+  const [foto, setFoto] = useState("");
+  const [stato, setStato] = useState({ tipo: "", testo: "" });
+  const [invio, setInvio] = useState(false);
+  const societaNote = [...new Set((articoliSocietaData.articoli || []).map((a) => a.societa))].sort();
+  const campo = { width: "100%", padding: "0.6rem 0.8rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "0.95rem", fontFamily: "inherit" };
+  const lab = { display: "block", fontSize: "0.85rem", fontWeight: 600, margin: "0.9rem 0 0.3rem" };
+  const imposta = (k) => (e) => setF((x) => ({ ...x, [k]: e.target.value }));
+
+  function scegliFoto(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    setStato({ tipo: "", testo: "" });
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const max = 1400;
+      const k = Math.min(1, max / Math.max(img.width, img.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      setFoto(c.toDataURL("image/jpeg", 0.82));
+      URL.revokeObjectURL(url);
+    };
+    img.onerror = () => { setStato({ tipo: "errore", testo: "Non riesco a leggere questa foto. Prova con una JPG." }); URL.revokeObjectURL(url); };
+    img.src = url;
+  }
+
+  async function invia(e) {
+    e.preventDefault();
+    if (!f.societa.trim() || !f.titolo.trim() || f.testo.trim().length < 20) { setStato({ tipo: "errore", testo: "Servono società, titolo e testo." }); return; }
+    setInvio(true); setStato({ tipo: "", testo: "" });
+    try {
+      await chiama({ azione: "articolo", ...f, foto });
+      setStato({ tipo: "ok", testo: "Articolo salvato: comparirà sul sito tra qualche minuto." });
+      setF(vuoto); setFoto("");
+    } catch (x) {
+      setStato({ tipo: "errore", testo: x.message });
+    } finally { setInvio(false); }
+  }
+
+  return (
+    <form onSubmit={invia} style={{ maxWidth: "640px" }}>
+      <h2 className="feed-heading">Nuovo articolo</h2>
+      <p className="state" style={{ margin: "0 0 0.5rem", padding: 0, textAlign: "left", fontSize: "0.88rem" }}>Scrivi o incolla l'articolo di una società e aggiungi la foto: compare nella pagina "Articoli Società". La data è quella di oggi.</p>
+      <label style={lab}>Società</label>
+      <input list="elenco-societa-art" style={campo} value={f.societa} onChange={imposta("societa")} placeholder="Per esempio: Polisportiva CLT" />
+      <datalist id="elenco-societa-art">{societaNote.map((n) => <option key={n} value={n} />)}</datalist>
+      <label style={lab}>Titolo</label>
+      <input style={campo} value={f.titolo} onChange={imposta("titolo")} maxLength={200} />
+      <label style={lab}>Testo (vai a capo per fare i paragrafi)</label>
+      <textarea style={{ ...campo, minHeight: "240px", lineHeight: 1.5 }} value={f.testo} onChange={imposta("testo")} />
+      <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+        <div style={{ flex: "1 1 180px" }}>
+          <label style={lab}>Tipo</label>
+          <select style={campo} value={f.categoria} onChange={imposta("categoria")}>
+            {["Comunicato", "Risultato", "Evento", "Conferma", "Rinnovo", "Nuovo Acquisto"].map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
+        </div>
+        <div style={{ flex: "1 1 180px" }}>
+          <label style={lab}>Provincia</label>
+          <select style={campo} value={f.provincia} onChange={imposta("provincia")}>
+            <option value="perugia">Perugia</option>
+            <option value="terni">Terni</option>
+          </select>
+        </div>
+      </div>
+      <label style={lab}>Firma (facoltativa, se vuota uso la società)</label>
+      <input style={campo} value={f.autore} onChange={imposta("autore")} placeholder="Per esempio: Volley CLT" />
+      <label style={lab}>Foto (facoltativa)</label>
+      <input type="file" accept="image/*" onChange={scegliFoto} style={{ fontSize: "0.9rem" }} />
+      {foto && (
+        <div style={{ marginTop: "0.6rem" }}>
+          <img src={foto} alt="Anteprima" style={{ maxWidth: "260px", width: "100%", borderRadius: "8px", display: "block" }} />
+          <button type="button" className="filter-btn" style={{ marginTop: "0.4rem" }} onClick={() => setFoto("")}>Togli la foto</button>
+        </div>
+      )}
+      <div style={{ marginTop: "1.2rem" }}>
+        <button className="filter-btn filter-btn--active" type="submit" disabled={invio}>{invio ? "Salvo..." : "Pubblica l'articolo"}</button>
+      </div>
+      {stato.testo && <p className="state" style={{ marginTop: "0.8rem", textAlign: "left", fontWeight: 700, color: stato.tipo === "ok" ? "#4caf50" : undefined }}>{stato.testo}</p>}
+    </form>
+  );
+}
+
 function ModeraPage({ tabIniziale }) {
   const [tab, setTab] = useState(tabIniziale || "post");
   const [pw, setPw] = useState(() => { try { return sessionStorage.getItem("pva_modera_pw") || ""; } catch (e) { return ""; } });
@@ -7732,8 +7819,11 @@ function ModeraPage({ tabIniziale }) {
             <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.2rem" }}>
               <button className={"filter-btn" + (tab === "post" ? " filter-btn--active" : "")} onClick={() => setTab("post")}>Post da approvare</button>
               <button className={"filter-btn" + (tab === "weekend" ? " filter-btn--active" : "")} onClick={() => setTab("weekend")}>Post del weekend</button>
+              <button className={"filter-btn" + (tab === "articolo" ? " filter-btn--active" : "")} onClick={() => setTab("articolo")}>Nuovo articolo</button>
             </div>
-            {tab === "weekend" ? (
+            {tab === "articolo" ? (
+              <NuovoArticolo chiama={chiama} />
+            ) : tab === "weekend" ? (
               <>
                 <h2 className="feed-heading">Post del weekend</h2>
                 <GeneraPostWeekend />
