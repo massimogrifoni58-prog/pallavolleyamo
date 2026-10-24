@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T09:17:38.444159+00:00",
+  "generatedAt": "2026-10-24T10:40:39.737272+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8768,6 +8768,15 @@
       "status": "in programma"
     },
     {
+      "id": "131657880",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 10",
+      "home": "VIANDER ACTON BASTIA",
+      "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131657881",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 10",
@@ -8791,15 +8800,6 @@
       "giornata": "Giornata 10",
       "home": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131657880",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 10",
-      "home": "VIANDER ACTON BASTIA",
-      "away": "SIR PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10577,20 +10577,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658284",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 5",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "SANGEMINI COLLELUNA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658283",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 5",
       "home": "UMBRIA VOLLEY ACADEMY SECONDA",
       "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658284",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11048,8 +11048,8 @@
       "id": "131658325",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 15",
-      "home": "CASCIANELLI LORENA TUDER VOLLEI",
-      "away": "SANGEMINI COLLELUNA VOLLEY",
+      "home": "SANGEMINI COLLELUNA VOLLEY",
+      "away": "CASCIANELLI LORENA TUDER VOLLEI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17345,29 +17345,11 @@
       "status": "in programma"
     },
     {
-      "id": "131659521",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 1",
-      "home": "COLLELUNA VOLLEY SAN GEMINI BLU",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659520",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 1",
       "home": "REALE MUTUA TUDER VOLLEY",
       "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659525",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 2",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "REALE MUTUA TUDER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17386,15 +17368,6 @@
       "giornata": "Giornata 2",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "PMU MARSCIANO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659528",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 3",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "ORVIETO VOLLEY ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17435,24 +17408,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659529",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 4",
-      "home": "FREE GAS&LUCE NARNI",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659534",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 5",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "PMU MARSCIANO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659532",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 5",
@@ -17467,15 +17422,6 @@
       "giornata": "Giornata 5",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "FREE GAS&LUCE NARNI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659536",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 6",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17516,15 +17462,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659540",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 7",
-      "home": "REALE MUTUA TUDER VOLLEY",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659542",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 8",
@@ -17543,24 +17480,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659543",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 8",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659544",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 9",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "FREE GAS&LUCE NARNI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659546",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 9",
@@ -17575,15 +17494,6 @@
       "giornata": "Giornata 9",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "COLLELUNA VOLLEY SAN GEMINI BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659549",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 10",
-      "home": "PMU MARSCIANO BIANCA",
-      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19604,15 +19514,6 @@
       "status": "in programma"
     },
     {
-      "id": "131672926",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "TIBER VOLLEY FUCSIA",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672927",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 1",
@@ -19627,6 +19528,15 @@
       "giornata": "Giornata 1",
       "home": "SCHOOL VOLLEY PERUGIA VERDE",
       "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672926",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19712,20 +19622,20 @@
       "status": "in programma"
     },
     {
-      "id": "131672939",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 5",
-      "home": "UISP VOLLEY UMBERTIDE",
-      "away": "PALLAVOLO CITTA' DI CASTELLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672938",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 5",
       "home": "TRESTINA VOLLEY",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672939",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "UISP VOLLEY UMBERTIDE",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20423,20 +20333,20 @@
       "status": "in programma"
     },
     {
-      "id": "131673017",
-      "competition": "Under 13 Femminile Girone D",
-      "giornata": "Giornata 1",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "SPELLO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131673016",
       "competition": "Under 13 Femminile Girone D",
       "giornata": "Giornata 1",
       "home": "VIANDER ACTON BASTIA",
       "away": "TREVI VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673017",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "SPELLO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
