@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T06:03:10.563941+00:00",
+  "generatedAt": "2026-10-25T09:34:06.821981+00:00",
   "posts": [
     {
       "title": "Serie A3, Terni Volley Academy sconfitta a Sorrento all’esordio in campionato",
@@ -26,12 +26,20 @@
       "permalink": "https://terninrete.it/notizie-di-terni-volley-femminile-perugia-terni-e-gubbio-insieme-alla-moma-winter-cup-a-un-soffio-dalla-finale/"
     },
     {
+      "title": "Pallavolo Clt Terni, tre atleti convocati al Trofeo delle Regioni 2026",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Tue, 23 Jun 2026 01:56:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-23-at-10.54.10.jpeg",
+      "permalink": "https://www.umbria24.it/sport24/pallavolo-clt-terni-tre-atleti-convocati-al-trofeo-delle-regioni-2026/",
+      "id": "4"
+    },
+    {
       "title": "L'Amerina Pallavolo in Serie C dopo una stagione condotta sempre in testa",
       "excerpt": "Fonte: sporterni.it",
       "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=27304",
-      "id": "4"
+      "id": "5"
     },
     {
       "id": "superenalottocentratoarivadelg",
@@ -47,7 +55,7 @@
       "createdTime": "Tue, 11 Nov 2025 02:28:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/10/9180399_10153740_tva_napoli_2_47_scaled.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_spazza_via_le_sue_paure_ed_acciuffa_la_prima_vittoria_3_0_napoli-9180399.html",
-      "id": "5"
+      "id": "7"
     },
     {
       "id": "volleyilcltstupisceaferrara",
@@ -71,7 +79,15 @@
       "createdTime": "Sun, 26 Oct 2025 14:16:00 GMT",
       "image": "https://img.terninrete.it/2025/10/3359486f-5d92-4e26-8b4e-8967fac12b86.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-serie-a3-pallavolo-i-dragons-perdono-a-sabaudia-3-2/",
-      "id": "6"
+      "id": "9"
+    },
+    {
+      "title": "La Terni Volley cerca la prima vittoria in serie A 3 contro la Gaia Energy Napoli",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/08/9177140_08210447_.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
+      "id": "8"
     },
     {
       "title": "Terni Volley: coach Giombini: «A Sabaudia voglio un gruppo che metta in campo l'incoscienza»",
@@ -79,7 +95,7 @@
       "createdTime": "Sat, 25 Oct 2025 12:42:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/10/25/9149120_25182902_img_20251025_wa0008.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/a_sabaudia_voglio_un_gruppo_metta_campo_incoscienza_entusiamo_giovani-9149120.html",
-      "id": "7"
+      "id": "10"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -120,6 +136,14 @@
       "image": "/upload/immagini/2026/10/sinergia34-.jpg",
       "permalink": "https://www.orvietonews.it/sport/2026/10/20/orvieto-volley-academy-e-associazione-andromeda-ma-che-bella-sinergia-124373.html",
       "id": "2"
+    },
+    {
+      "title": "Orvieto Volley Academy, sconfitta a domicilio aspettando la Pallavolo Arrone",
+      "excerpt": "Fonte: orvietonews.it",
+      "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
+      "image": "/upload/immagini/2026/01/orvietovolleyacademy27-.jpg",
+      "permalink": "https://www.orvietonews.it/sport/2026/02/17/orvieto-volley-academy-sconfitta-a-domicilio-aspettando-la-pallavolo-arrone-120248.html",
+      "id": "6"
     },
     {
       "id": "bosicovolleyunder13altorneonaz",
