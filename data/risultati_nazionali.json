@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-25T09:34:55.035087+00:00",
+  "generatedAt": "2026-10-25T18:50:42.663400+00:00",
   "matches": [
     {
       "id": "lv999-5",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata 2",
       "home": "ACQUA SANT'ANNA CUNEO",
       "away": "SIR SUSA SCAI PERUGIA",
       "score": "2-3",
@@ -20,8 +20,8 @@
       "giornata": "Giornata 2",
       "home": "SIR SUSA SCAI PERUGIA",
       "away": "TINET PRATA DI PORDENONE",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-0",
+      "status": "disputata",
       "data": "Domenica 25/10/2026 ore 18:00",
       "dataIso": "2026-10-25",
       "ora": "18:00",
@@ -147,7 +147,7 @@
     {
       "id": "lv1001-1001",
       "competition": "Serie A3 Maschile Girone Bianco",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata 2",
       "home": "ERMGROUP ALTOTEVERE",
       "away": "NEGRINI CTE ACQUI TERME",
       "score": "3-1",
@@ -163,8 +163,8 @@
       "giornata": "Giornata 2",
       "home": "CAMPI REALI CANTÙ",
       "away": "ERMGROUP ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-1",
+      "status": "disputata",
       "data": "Domenica 25/10/2026 ore 17:30",
       "dataIso": "2026-10-25",
       "ora": "17:30",
@@ -290,7 +290,7 @@
     {
       "id": "lv1002-1205",
       "competition": "Serie A3 Maschile Girone Blu",
-      "giornata": "Giornata 1",
+      "giornata": "Giornata 2",
       "home": "ROMEO SORRENTO",
       "away": "TERNI VOLLEY ACADEMY",
       "score": "3-1",

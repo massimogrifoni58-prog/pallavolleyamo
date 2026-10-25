@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:53:33.579924+00:00",
+  "generatedAt": "2026-10-25T18:50:37.418281+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -97,8 +97,8 @@
       "giornata": "Giornata 2",
       "home": "POLISPORTIVA DELFINO - SAIMA",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131626797",
@@ -106,8 +106,8 @@
       "giornata": "Giornata 2",
       "home": "UNIKO VOLLEY ORTE",
       "away": "VOLLEY CASCIA SPOLETO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626800",
@@ -2914,8 +2914,8 @@
       "giornata": "Giornata 2",
       "home": "MARCHETTI PRO VITT CHIUSI",
       "away": "UNILAB  PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131628262",
@@ -4489,8 +4489,8 @@
       "giornata": "Giornata 1",
       "home": "SIRIO PERUGIA",
       "away": "POLISPORTIVA DELFINO - IDROSFERA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627102",
@@ -5677,8 +5677,8 @@
       "giornata": "Giornata 1",
       "home": "ASD CASCIA PALLAVOLO",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627237",
@@ -14416,8 +14416,8 @@
       "giornata": "Giornata 2",
       "home": "SPELLO VOLLEY",
       "away": "VOLLEY 86 PETRIGNANO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641498",
@@ -14686,8 +14686,8 @@
       "giornata": "Giornata 2",
       "home": "ELLERA VOLLEY",
       "away": "REVISIONANDO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131641529",
