@@ -39,7 +39,7 @@
       "foto": "/articoli/moroni.jpg",
       "logo": null
     },
-     {
+    {
       "id": "4",
       "societa": "Pallavolo Media Umbria",
       "autore": "societa",
@@ -67,7 +67,7 @@
     },
     {
       "id": "6",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": " Gianluca Ricci alla guida della serie C della Volleu Academy Bastia ",
@@ -80,7 +80,7 @@
     },
     {
       "id": "7",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "Strategia, passione e una promozione storica",
@@ -91,9 +91,9 @@
       "foto": "/articoli/iacone.jpg",
       "logo": null
     },
-     {
+    {
       "id": "8",
-      "societa":  "Orvieto Volley Academy",
+      "societa": "Orvieto Volley Academy",
       "autore": "PianetaVolley",
       "categoria": "Comunicato",
       "titolo": "Fabrizio Lisei torna ad allenare Orvieto",
@@ -106,7 +106,7 @@
     },
     {
       "id": "9",
-      "societa":  "Pallavolo Media Umbria",
+      "societa": "Pallavolo Media Umbria",
       "autore": "societa",
       "categoria": "Rinnovo",
       "titolo": "Aurora Gaggia rinnova",
@@ -117,9 +117,9 @@
       "foto": "/articoli/gaggia.jpg",
       "logo": null
     },
-      {
+    {
       "id": "10",
-      "societa":  "Pallavolo Media Umbria",
+      "societa": "Pallavolo Media Umbria",
       "autore": "societa",
       "categoria": "Rinnovo",
       "titolo": "Bianca Tedeschi confermata in Serie B2",
@@ -132,7 +132,7 @@
     },
     {
       "id": "11",
-      "societa":  "Trevi Volley",
+      "societa": "Trevi Volley",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "MARIO DE INNOCENTIS CONFERMATO NELLO STAFF DELLA TREVI VOLLEY",
@@ -142,10 +142,10 @@
       "provincia": "perugia",
       "foto": "/articoli/innocentis.jpg",
       "logo": null
-     },
+    },
     {
       "id": "12",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "Una nuova conferma, con un nuovo ruolo Giulia Barcherini ",
@@ -156,9 +156,9 @@
       "foto": "/articoli/barcherini.jpg",
       "logo": null
     },
-     {
+    {
       "id": "13",
-      "societa":  "Narni Sport Academy",
+      "societa": "Narni Sport Academy",
       "autore": "societa",
       "categoria": "Evento",
       "titolo": "2x2 torneo di beach Volley Miriano ",
@@ -171,7 +171,7 @@
     },
     {
       "id": "14",
-      "societa":  "Città di Castello",
+      "societa": "Città di Castello",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "𝐍𝐈𝐂𝐎𝐋𝐄 𝐂𝐎𝐍𝐅𝐈𝐑𝐌𝐄𝐃 🤍❤️ #𝟏𝟐 ",
@@ -184,7 +184,7 @@
     },
     {
       "id": "15",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "Isabella Zefi confermata al centro del progetto #9 ",
@@ -197,7 +197,7 @@
     },
     {
       "id": "16",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "Si continua con le conferme... Aurora Sicilia #17 ",
@@ -210,7 +210,7 @@
     },
     {
       "id": "17",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "La conferma DEL CAPITANO... Natalia Bernarino  ",
@@ -223,7 +223,7 @@
     },
     {
       "id": "18",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "oggi c'e la conferma Francesca Binnella ancora con noi #4 ",
@@ -236,7 +236,7 @@
     },
     {
       "id": "19",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "E vai con le conferme!!! Giorgia Zelli  ",
@@ -249,7 +249,7 @@
     },
     {
       "id": "20",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "𝗩irginia Mazzasette schiacciaancora con noi",
@@ -262,7 +262,7 @@
     },
     {
       "id": "21",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "𝗖𝗹𝗮𝘀𝘀𝗲 𝟮𝟬𝟭𝟭, Veronica sarà la più giovane della nostra Serie C Femminile",
@@ -275,7 +275,7 @@
     },
     {
       "id": "22",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "Si prosegue con le conferme!!! Maria Buzzicotti, classe 2010, cresciuta  nella nostra under 16.  ",
@@ -285,10 +285,10 @@
       "provincia": "terni",
       "foto": "/articoli/buzzicotti.jpg",
       "logo": null
-   },
+    },
     {
       "id": "23",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "𝗨n'altra giovanissima bastiola in prima squadra",
@@ -301,7 +301,7 @@
     },
     {
       "id": "24",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "𝗔rianna 𝗖icogna è una nuona giocatrice della Volley Academy Bastia",
@@ -311,10 +311,10 @@
       "provincia": "perugia",
       "foto": "/articoli/cicogna.jpg",
       "logo": null
-      },
+    },
     {
       "id": "25",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Nuovo Acquisto",
       "titolo": "Si comincia con le new entry!!! ",
@@ -324,10 +324,10 @@
       "provincia": "terni",
       "foto": "/articoli/manni.jpg",
       "logo": null
-      },
+    },
     {
       "id": "26",
-      "societa":  "Volley Academy Bastia",
+      "societa": "Volley Academy Bastia",
       "autore": "societa",
       "categoria": "Comunicato",
       "titolo": "La giovane Sofia Emanuelli entra a far parte della formazione di Serie C Femminile della Volley Academy Bastia",
@@ -340,7 +340,7 @@
     },
     {
       "id": "27",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Nuovo Acquisto",
       "titolo": "Un' altra New entry: Sofia Belloni, classe 2008 proveniente dalla serie D Free luce e gas di Narni. ",
@@ -350,10 +350,10 @@
       "provincia": "terni",
       "foto": "/articoli/belloni.jpg",
       "logo": null
-       },
+    },
     {
       "id": "28",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Conferma",
       "titolo": "Si prosegue con le conferme: Anna Borioli  ",
@@ -363,10 +363,10 @@
       "provincia": "terni",
       "foto": "/articoli/borioli.jpg",
       "logo": null
-      },
+    },
     {
       "id": "29",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Nuovo Acquisto",
       "titolo": "New Entry: Ilary Storti",
@@ -376,10 +376,10 @@
       "provincia": "terni",
       "foto": "/articoli/storti.jpg",
       "logo": null
-      },
+    },
     {
       "id": "30",
-      "societa":  "Amerina Pallavolo",
+      "societa": "Amerina Pallavolo",
       "autore": "societa",
       "categoria": "Nuovo Acquisto",
       "titolo": "New Entry: Ludovica Bighi! Classe 2001 proveniente dalla prima divisione Arrone pallavolo.",
@@ -389,10 +389,10 @@
       "provincia": "terni",
       "foto": "/articoli/bighi.jpg",
       "logo": null
-       },
+    },
     {
       "id": "31",
-      "societa":  "FIPAV UMBRIA",
+      "societa": "FIPAV UMBRIA",
       "autore": "FIPAV UMBRIA",
       "categoria": "Comunicato",
       "titolo": "Corso di Aggiornamento Regionale per Allenatori",
@@ -402,10 +402,10 @@
       "provincia": "terni",
       "foto": "/articoli/fipavumbria.jpg",
       "logo": null
-      },
+    },
     {
       "id": "32",
-      "societa":  "FIPAV UMBRIA",
+      "societa": "FIPAV UMBRIA",
       "autore": "FIPAV UMBRIA",
       "categoria": "Comunicato",
       "titolo": "Corso di Aggiornamento Regionale per Allenatori",
@@ -415,7 +415,7 @@
       "provincia": "perugia",
       "foto": "/articoli/fipavumbria.jpg",
       "logo": null
-      },
+    },
     {
       "id": "33",
       "societa": "PallaVolleyAmo",
@@ -440,6 +440,19 @@
       "mese": "Ottobre",
       "provincia": "terni",
       "foto": "/articoli/clt-u17.jpg",
+      "logo": null
+    },
+    {
+      "id": "35",
+      "societa": "Narni Sport Academy",
+      "autore": "Narni sport academy",
+      "categoria": "Comunicato",
+      "titolo": "Vittoria con brivido",
+      "testo": "Esordio di campionato,\ncon vittoria casalinga\nper le ragazze della D Femminile.\nDavanti al folto pubblico del PalaGandhi\nle Leonesse🦁\nbattono 3-2 il Foligno Volley,\ndopo una autentica battaglia sportiva \n durata ben 2 ore e 25 minuti.\nNel primo set, \npartono subito forte le ragazze\ndei Coaches Posati-Urbani,\n che si portano avanti\n11-4 e poi 14-9, grazie agli attacchi di \nSugoni e Bellinelli,\nma il Foligno riesce ad accorciare,\nprima 20-16  poi 21-17 e infine 24-23.\nLa regista rossoblu Giorgetti con una giocata di seconda intenzione rimette le cose apposto firmando il 25-23 che vale il set.\nNel secondo parziale si va' avanti punto a punto fino al 26-24 finale a favore delle Leonesse.\nSotto 2-0 c'è la reazione delle ospiti, \nche grazie ad un ottima difesa,\nriescono a vincere terzo e quarto parziale, pareggiando il conto dei set \ne portandosi sul 2 a 2.\nIl Tie-Break finale è emozionante, e lottato su ogni punto, infatti si va' al cambio di campo \nsull'8-6 per le locali, e si arriva fino  al 14-13,\ndove ci pensa Cozzolino con un Ace a firmare il punto del 15-13, che chiude set e match.\nUna vittoria importante per le nostre ragazze, \nche da' fiducia e dimostra la crescita della squadra quasi totalmente rinnovata,\ne soprattutto considerando\n la loro giovane età.\nDa segnalare,\n l'ottima prova del libero Zamporlini\n sicuramente la migliore in campo,\ne l'esordio in serie D di Emma Ceccarelli.\nAVANTI COSÌ RAGAZZE!💪\nSERIE D FEMMINILE GIRONE B 1'GIORNATA \nNARNI SPORT ACADEMY 3\nFoligno Volley 2\n( 25- 23/ 25-23/ 16-25 / 22-25/ 15-13)\nASD NARNI SPORT ACADEMY:\nGiorgetti, Bellinelli,\nSugoni, Diomedi (K),\nPiacenti, Novelli,\nZamporlini (L1), Matteaccio (L2), \nMorosi, Cozzolino, Giuliani, Ceccarelli,\nGrasselli, Giombolini.\nAllenatore: Posati R \nVice Allenatore: Urbani D. \nDirigente: Saveri E.",
+      "data": "25 Ottobre 2026",
+      "mese": "Ottobre",
+      "provincia": "terni",
+      "foto": "/articoli/vittoria-con-brivido-mvniiq6p.jpg",
       "logo": null
     }
   ]
