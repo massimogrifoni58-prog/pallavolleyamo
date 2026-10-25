@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:49:51.564578+00:00",
+  "generatedAt": "2026-10-25T22:24:14.884849+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -3251,7 +3251,7 @@
         "ora": "19:00",
         "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "STRIKE TEAM MONTELUCE",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "serie-d-femminile-a-3",
@@ -4553,7 +4553,7 @@
         "ora": "18:00",
         "casa": "LYNX ACQUASPARTA VOLLEY",
         "ospite": "REBELS ASSISI",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "serie-d-femminile-b-1",
@@ -4603,7 +4603,7 @@
         "ora": "18:00",
         "casa": "E.DI.TEC. CANNARA VOLLEY",
         "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "serie-d-femminile-b-6",
