@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T09:35:52.186354+00:00",
+  "generatedAt": "2026-10-25T11:05:23.589277+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -192,42 +192,6 @@
       "data": "15/11/2026 ore 17:00",
       "dataIso": "2026-11-15",
       "ora": "17:00"
-    },
-    {
-      "id": "fp7841",
-      "competition": "Serie B Girone E",
-      "giornata": "Giornata",
-      "home": "SIR ITS UMBRIA ACADEMY",
-      "away": "QUERZOLI VOLLEY FORLÌ SRL",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "21/11/2026 ore 17:30",
-      "dataIso": "2026-11-21",
-      "ora": "17:30"
-    },
-    {
-      "id": "fp11039",
-      "competition": "Serie B2 Girone F",
-      "giornata": "Giornata",
-      "home": "STARVOLLEY CITTA' DI CAST.",
-      "away": "A.S.D. POL.VA FRANCAVILLA",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "21/11/2026 ore 18:00",
-      "dataIso": "2026-11-21",
-      "ora": "18:00"
-    },
-    {
-      "id": "fp7837",
-      "competition": "Serie B Girone E",
-      "giornata": "Giornata",
-      "home": "CITTA'DI CASTELLO PALLAVOLO",
-      "away": "LA NEF RE SALMONE OSIMO",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "21/11/2026 ore 18:30",
-      "dataIso": "2026-11-21",
-      "ora": "18:30"
     },
     {
       "id": "fp3289",
