@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:24:14.884849+00:00",
+  "generatedAt": "2026-10-26T06:06:22.473441+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9234,7 +9234,7 @@
         "campionato": "Under 19 Femminile ELITE",
         "giornata": "9",
         "data": "2027-01-14",
-        "ora": "20:00",
+        "ora": "20:30",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "SAN MARIANO VOLLEY",
         "risultato": null
@@ -9595,7 +9595,7 @@
         "id": "giov-1-divisione-femminile-girone-b-12",
         "campionato": "1 Divisione Femminile Girone B",
         "giornata": "3",
-        "data": "2026-11-28",
+        "data": "2026-11-29",
         "ora": "17:00",
         "casa": "COLLELUNA VOLLEY SAN GEMINI",
         "ospite": "FOLIGNO VOLLEY ASD",
@@ -10568,7 +10568,7 @@
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "4",
         "data": "2026-12-06",
-        "ora": "18:00",
+        "ora": "19:00",
         "casa": "TIBER VOLLEY",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null

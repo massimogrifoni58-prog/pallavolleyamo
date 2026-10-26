@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T22:25:36.425495+00:00",
+  "generatedAt": "2026-10-26T06:04:18.202345+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -194,6 +194,42 @@
       "ora": "17:00"
     },
     {
+      "id": "fp7841",
+      "competition": "Serie B Girone E",
+      "giornata": "Giornata",
+      "home": "SIR ITS UMBRIA ACADEMY",
+      "away": "QUERZOLI VOLLEY FORLÌ SRL",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "21/11/2026 ore 17:30",
+      "dataIso": "2026-11-21",
+      "ora": "17:30"
+    },
+    {
+      "id": "fp11039",
+      "competition": "Serie B2 Girone F",
+      "giornata": "Giornata",
+      "home": "STARVOLLEY CITTA' DI CAST.",
+      "away": "A.S.D. POL.VA FRANCAVILLA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "21/11/2026 ore 18:00",
+      "dataIso": "2026-11-21",
+      "ora": "18:00"
+    },
+    {
+      "id": "fp7837",
+      "competition": "Serie B Girone E",
+      "giornata": "Giornata",
+      "home": "CITTA'DI CASTELLO PALLAVOLO",
+      "away": "LA NEF RE SALMONE OSIMO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "21/11/2026 ore 18:30",
+      "dataIso": "2026-11-21",
+      "ora": "18:30"
+    },
+    {
       "id": "fp3289",
       "competition": "Serie A2 Femminile Girone Unico",
       "giornata": "Giornata",
@@ -355,18 +391,6 @@
       "giornata": "Giornata",
       "home": "STARVOLLEY CITTA' DI CAST.",
       "away": "MY MECH CERVIA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "09/01/2027 ore 21:00",
-      "dataIso": "2027-01-09",
-      "ora": "21:00"
-    },
-    {
-      "id": "fp11274",
-      "competition": "Serie B2 Girone G",
-      "giornata": "Giornata",
-      "home": "FAIL GROUP MARSCIANO",
-      "away": "ARIETE PALLAVOLO PRATO",
       "score": "da disputare",
       "status": "in programma",
       "data": "09/01/2027 ore 21:00",
@@ -828,6 +852,18 @@
       "data": "01/05/2027 ore 18:30",
       "dataIso": "2027-05-01",
       "ora": "18:30"
+    },
+    {
+      "id": "fp11365",
+      "competition": "Serie B2 Girone G",
+      "giornata": "Giornata",
+      "home": "FAIL GROUP MARSCIANO",
+      "away": "ARIETE PALLAVOLO PRATO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "01/05/2027 ore 21:00",
+      "dataIso": "2027-05-01",
+      "ora": "21:00"
     },
     {
       "id": "fp7975",
