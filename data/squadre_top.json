@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T06:06:19.121983+00:00",
+  "generatedAt": "2026-10-26T10:48:18.784004+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,6 +35,30 @@
   "news": {
     "sir-perugia": [
       {
+        "title": "Pallavolo Padova, a Civitanova arriva un altro stop: la Lube vince 3-0 - La Piazza Web",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSGxfM1RPWThfRUtaVjZvRmZKM2tNbk9OTzE5Vi1xUjllWEE4S1R3aGtWbTNBSXpFM3RJSzdfbEtnbDduRDM1RTVzMFBJRUs3RjFyT3dqSmVKVkk2Y3I5V1p1WTdxMjBZdTB6Vjl5U1dHMTVsTzFFZkgzWFFGclRGdHBuQUs1ZUNlNWRGQVVkSGFkQlAwMnZSdm4xWFhTZmF4aUh2ZDVXUjlld3BQSF9nT2NiVXdsWUo3NW05dHh0VQ?oc=5",
+        "pubDate": "Mon, 26 Oct 2026 10:20:00 GMT",
+        "source": "La Piazza Web",
+        "image": "https://lapiazzaweb.cdn.m33cloud.com/resizer/600/315/true/2026_10_26/FOTO_%281%29-1793009361596.JPG--foto_dell_incontro.webp?1793009361770",
+        "avversaria": "Pallavolo Padova"
+      },
+      {
+        "title": "Pallavolo Padova, doppia trasferta in vista: sfida a Perugia, domenica a Milano - PadovaOggi",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRGhIVm5lNXozc0d4YTBmWkRYUWFCNWY4c2UzNnNlYTdhV3BNTnB4QXFWREhhOFBJOWFad0lVTUUtbkhaRG9CWDFYZmZVak1zbS1keGd0TEpLOEtxNEZTOGtxUXRDLUtLVEkyZkUwU1hHRk0wRjduTU44QVI4Qzd1MjVtcXlfZ1EydDdNU1pCemJHU29hck05Nm1B?oc=5",
+        "pubDate": "Mon, 26 Oct 2026 09:40:43 GMT",
+        "source": "PadovaOggi",
+        "image": null,
+        "avversaria": "Pallavolo Padova"
+      },
+      {
+        "title": "Hosting Padova at Palas - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Rd1o5NmRzNVJEMm5GNk05Vi04SWptT0taQ0tXRV9COFljbUlRVnpKNFBKT2xIZGVYaEdma1F1cmYyeXI0ZXFtLUtiZzhKWmVUQ0stcWdndXFFVEEtZjNGc3diQktYeldvSTZ2bzBIZzQ?oc=5",
+        "pubDate": "Mon, 26 Oct 2026 08:04:28 GMT",
+        "source": "Lega Pallavolo Serie A",
+        "image": null,
+        "avversaria": "Pallavolo Padova"
+      },
+      {
         "title": "Vero Volley Monza - Sir Susa Scai Perugia - Radio Italia",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcHJ5RWcxaHJtNXVwNW03VDZiY0VwOV81Sm45M24xSkpHcTJkVnhzYlc0aXB2bnZ4ZnhEMV84MmYtdENWU0VUTk1rQjJIQ2dWM0tLN0k5azcwUTJaa3lOZTlMMmZ2MmUzUlQ1ZTAxdElfNE1QeDBJWlRGLURYNVpXQzZtc2VDRVJMQkR3cQ?oc=5",
         "pubDate": "Sun, 25 Oct 2026 23:03:58 GMT",
@@ -49,30 +73,6 @@
         "image": "https://www.umbriatv.com/wp-content/uploads/2026/10/224564_Sir-Perugia-netto-3-0-contro-Prata-di-Pordenone_1792965258.jpg"
       },
       {
-        "title": "SuperLega, 2^giornata: la Lube Civitanova sconfigge Padova 3-0. Gargiulo MVP - Volley News",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHpiYnU3OUp0OU5xVWVQTlkwQ0hOWHV4UGk1VzFjQVFoN1RZN0lrT3JwN2dfLXFnRjdDVW90c3huaUdyejhQOEpuTURCVGVnUnVlQnNUVmR0WXd5YWhYai1UdTdPNXR6aUFwUVEtUGVNSEJzQnV1RWF4WUhnb2g1b05QeGVGWmFTYXpEYXZ0T2xmZnVWQTRaUFFPWTdRTjVz?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 21:09:57 GMT",
-        "source": "Volley News",
-        "image": "https://www.volleynews.it/wp-content/uploads/2026/10/Lube-Padova.jpg",
-        "avversaria": "Pallavolo Padova"
-      },
-      {
-        "title": "Pallavolo SL – Civitanova buona anche la seconda: Padova superata con un secco 3-0 - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX3RlYkxaZ0tDMHdrajlIemlzazNXVEVIWXdhXzVxbHd3YW5peDNNNTNsWkRtRXoycmVqckxLTmNpR0NVT3RiRGx6TTZoTm1XZE1PdFJUdVh5aEpRSGpMVVJHdTNQb3M1VEVsWjRpdXpBNVVRX3ZuR0RnenVrWnlkNVMzSG5aUFZwVV9PN1JjZjNTUTBmM3pkMUhFZzlTOWZVUVpQeGFZaXRHTjBZOXR3RGRkWDRuNTA5SlU2X1F1VQ?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 21:03:44 GMT",
-        "source": "iVolley Magazine",
-        "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/10/Simeon-Nikolov-in-palleggio.jpg",
-        "avversaria": "Pallavolo Padova"
-      },
-      {
-        "title": "Pallavolo Padova, a Civitanova finisce 3-0: reazione nel terzo set, ora il test con Perugia - Padova24Ore",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTUZIYVJ2dzU1c0R4T0ZYckZuVVBpNl8yQjlxazVHUS1NMWExZjdGY01zUm5YZ2psa29ybHdxMHN1VHRNZHZNTWZUb0dDNUdrbmE0akJmdnVQdFNJY2dmQ3RXN1hKQzNWZ1dab0hnRTN1N2RpMVlLWmVFRWpveV9hTA?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 20:17:09 GMT",
-        "source": "Padova24Ore",
-        "image": "https://www.padova24ore.it/wp-content/uploads/2026/10/pallavolo-padova-lube-20261025.jpg",
-        "avversaria": "Pallavolo Padova"
-      },
-      {
         "title": "Pallavolo SL – Perugia s’impone senza problemi su una Prata priva del suo opposto Klets - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdWYxbVppQkZSSWN6TjBUT0pkMzZGcFhPMEs5VlRNRTVyQm0zVVd5Um9IVDFMZ0FtVE9tTHR2ZTE3ejl3Z0VfWjN1TXBxVXZxNkllZ1R3b0dvT3Zpb1Z6WjNUeXhleE9iSEh0SFlsLXNpVW04aTgtYmxzUXQ5UkNXRU15dGxaQ0plUVFoSnNEbjNDTXZraVhfRThlb0FSUnZFdXdIenlOOFZRcldTc3hlYXVJQ0JOUThDQVZZS2t0eU5RbWswTlE?oc=5",
         "pubDate": "Sun, 25 Oct 2026 20:13:23 GMT",
@@ -80,18 +80,18 @@
         "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/10/Perugia-batte-Prata-Giannelli.jpg"
       },
       {
+        "title": "Volley Superlega, Perugia vince 3-0 su Prata nella prima stagionale in casa - Assisi Sport",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdUNHY3Noak1GTW1PaFhYN1dCNy1RNmR3RFYtdjM0ODNoNjJDTE1GRVNHN1NGUGdTYWlaUFYxTTRoeFZqU1hpRmd4RWdmR3VxcTRqdGFiZlRqeVJNN2VWSzU1eVlvVUxJWE14RVRnSVhXUThfWVgtLUp3T1BoNEVnYWJmSXp6NS01eU9feEwzdzRzWE9IYWFoUW9tUzhTVkhwSnNWTGN4NFluOTZ3S1E?oc=5",
+        "pubDate": "Sun, 25 Oct 2026 20:01:43 GMT",
+        "source": "Assisi Sport",
+        "image": "https://www.assisisport.it/wp-content/uploads/2026/10/IMG_4810-1024x683.jpeg"
+      },
+      {
         "title": "Volley, alla Tinet non basta l’orgoglio: sconfitta 3-0 a Perugia - Messaggero Veneto",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRjZYSk1DN3JzYnhCMFRwaUE3cUhqbS12U1dCZ2Rkb183cjBHS0FKRUF5cE1VTVNfQlpnMlBZWGVfQkxNQlBTZ1pUYWRaNnVZVlc5VVUxc3ROWUdocFAxdHUtSHBrS1FTeVpETWQyd2Q3Q2ljZk9pU19JbnBzU3dab3VJV1ZzRW9HbU1Ud0VvODdEV1JxVS1yaQ?oc=5",
         "pubDate": "Sun, 25 Oct 2026 19:42:59 GMT",
         "source": "Messaggero Veneto",
         "image": "https://images.messaggeroveneto.it/view/acePublic/alias/contentid/1uomlhkabds5uj74m0j/0/tinet-jpg.webp?f=16%3A9&w=840"
-      },
-      {
-        "title": "SL02 | Per-Pra | 25-10-26 - Sir Safety Perugia",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51amc4UEVrOWE4Zl9BSzdTYmEySjlGdjJRdy0wRGNZbGZZbEp6ZEFwUmUtbzZaSDl4WmRabkpqYkpMYUVRaDhub3NQNWdVRkw0T2pOTjFrb1BUYWFOUHdweUlWN0xvbWF4TUI0bjln?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 19:32:52 GMT",
-        "source": "Sir Safety Perugia",
-        "image": null
       }
     ],
     "bartoccini": [
@@ -104,11 +104,19 @@
         "avversaria": "Club Italia"
       },
       {
-        "title": "Club Italia, prima vittoria da tre punti contro Melendugno - Lega Volley Femminile",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWW9NT2N3NXgyNmkzNW9oNm5teGJTZUNlTUw0U3MyMUNZNHU4emxkUjMwTmgySWROZjhSZGc1WER1a2wzb2ZfRFZyWkFuWVU3VlN4MUVYUzhfTzltaGdKUl9RaUx5Z1BaMmpUekx3YXBtMmNmQUlTUlRfMFJvZnc3djhJa0ZCVkFkTkktanEwMG9jU1lrZlFRUw?oc=5",
-        "pubDate": "Sat, 24 Oct 2026 20:28:56 GMT",
-        "source": "Lega Volley Femminile",
-        "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/10/CLUB-ITALIA-MELENDUGNO-2-29-1536x1024.jpg",
+        "title": "Sotto gli occhi di Velasco, Melendugno lotta fino all'ultimo pallone: il Club Italia vince tre a uno - Corriere Salentino",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTBUZTJUZ0pMcjQyZFh4b3Z5a1pfRW1iNUsxMHRLcURLcHVTRTVkME9ta3IxRWMwZWQtUlRNbU5tRjhaY2czWUVWUFc2OER0bDAyWFVuQlpxaHdoUThPVUNHMWNWcFFfOVVvVDdXNkRZY0ZLWEJlMUFOSGU4LUtMY250cTB3dy1NMW5nS1NZM1Y0N20yN20yQk92SXdHa2pFUGJJc1kyamNVWVpkdVVtdTE2M2JuWnJaOGR2WEc1ZDFITkplVnN2RUsxUmNLMFFhUFpFZGd3?oc=5",
+        "pubDate": "Sun, 25 Oct 2026 07:22:36 GMT",
+        "source": "Corriere Salentino",
+        "image": "https://www.corrieresalentino.it/wp-content/uploads/og-cache/framed-791331.jpg",
+        "avversaria": "Club Italia"
+      },
+      {
+        "title": "Club Italia, Roma e Fasano vincono gli anticipi del sabato - Tuttosport",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPamQ0VnlBNjhNOVgweUs2Um5SM0VuWmU3R2RPTG53RTVHTURPRV8wcVFfc2Y2azBfcU1rQzhaZy1RS0d2RmxNXzZFbDhORVE1ZTdJckpDanNNdVJPYlRuNWxxYi1WT1M2VU5JN05vZFRXQ2pQQWVzQ3JOYkotNjNlY3pqa2dCWXZYV2JKd1dSeVh6d3BQcXNXaUVweWJ4QjlIMnNBNWkzQmhDU0wwc0MxUmVTeFl4cWk3cWJmU24xczIybk1RWVJHXzRB0gHMAUFVX3lxTE1ZRS10NUo4S0lIRGFfaTM0WWphcFlpRm9QbjNrN3Utbm5aVm03R2g5TWNlMG9Dc0VvdjhHSEJRbEJUZXBPaHZCc2plNDZXT0hOajdHaHk5bU9BR2hPSDg1NlVOUHhyLTZTQXpSRm55QTZnTkp3WTRNTEJwSkdGQi1aa2xOcGZ0SEx1U1dtTTNLWE5MellRcE9tQUdpaVZuSTk1XzdCMTZZZGZPdlNFcDl2WkJzUVYzYkNyZEsxTnkxU3hhTkF2M0xoLVc5OA?oc=5",
+        "pubDate": "Sun, 25 Oct 2026 00:03:19 GMT",
+        "source": "Tuttosport",
+        "image": "https://cdn.tuttosport.com/images/2026/10/24/235924620-6fd39b89-fefd-4403-b886-95bea7c976c4.jpg",
         "avversaria": "Club Italia"
       },
       {
@@ -119,23 +127,15 @@
         "image": null
       },
       {
-        "title": "Pallavolo A2F - Club Italia: la quarta vittoria arriva con Melendugno dopo una maratona di 2 ore davanti agli occhi di Velasco - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdUtxNS1SdUQzdkF1OXE2TjlFd0dPWElsNVlLYkRuQmtVNktlRGRxS29jc0R6OUJfanNEbmRaWFl6aC13aWo3UFJaODBiUFpWeWtaeF9uUlNWczFVemJ1Z2JNNFFKUnJUNTZNTUttSFI0ZzNiWFZoOFdaN093MVBLTEZxeklBcWxBR2c4aG1TRFZNUzd4VkJlNHU5OFhiMFRyYUNYWWN2SmczQWNVbElhMGJkZFA1TmdQcUxVN2ZIUVBWd3RuM0k1WjNnNWdCejh5SjJCLXhSXy1mY2lUbl9mRm5VVjFFUmlwY0Q1SlNMT1NNR2cyU3MyZ0R3?oc=5",
-        "pubDate": "Sat, 24 Oct 2026 19:28:58 GMT",
-        "source": "iVolley Magazine",
-        "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/10/Club-Italia-quarta-vittoria.jpg",
-        "avversaria": "Club Italia"
-      },
-      {
         "title": "La pallavolo vicina al territorio",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedbce9954271bb03d76adb029dff&url=https%3a%2f%2fwww.rainews.it%2ftgr%2fumbria%2fvideo%2f2026%2f10%2ftgr-monaldi-bartoccini-pallavolo-a15dc103-1ddf-4627-9f96-2c5f9f770b4d.html&c=7444948015537761954&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd16c454cc6930af47d4f4e3f5e&url=https%3a%2f%2fwww.rainews.it%2ftgr%2fumbria%2fvideo%2f2026%2f10%2ftgr-monaldi-bartoccini-pallavolo-a15dc103-1ddf-4627-9f96-2c5f9f770b4d.html&c=7444948015537761954&mkt=it-it",
         "pubDate": "Sat, 24 Oct 2026 02:52:00 GMT",
         "source": "",
         "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/10/24/1792852376666_Bartoccini.png"
       },
       {
         "title": "Pallavolo A2F – Perugia ‘vendicato’ il ko inaugurale, si gode un turno di riposo, Michieletto: “E’ bello riposarsi dopo 3 successi”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedbce9954271bb03d76adb029dff&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f23%2fpallavolo-a2f-perugia-vendicato-il-ko-inaugurale-si-gode-un-turno-di-riposo-michieletto-e-bello-riposarsi-dopo-3-successi%2f&c=261626345354053176&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd16c454cc6930af47d4f4e3f5e&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f10%2f23%2fpallavolo-a2f-perugia-vendicato-il-ko-inaugurale-si-gode-un-turno-di-riposo-michieletto-e-bello-riposarsi-dopo-3-successi%2f&c=261626345354053176&mkt=it-it",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 GMT",
         "source": "",
         "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/10/Francesca-michieletto-2.jpg"
@@ -149,7 +149,7 @@
       },
       {
         "title": "Bartoccini, non solo volley: attenzione al sociale con ‘In campo con le Black Angels – Oltre la rete’",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedbce9954271bb03d76adb029dff&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fbartoccini-non-solo-volley-attenzione-al-sociale-con-in-campo-con-le-black-angels-oltre-la-rete%2f&c=16319367542387298432&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd16c454cc6930af47d4f4e3f5e&url=https%3a%2f%2fwww.umbria24.it%2fperugia%2fbartoccini-non-solo-volley-attenzione-al-sociale-con-in-campo-con-le-black-angels-oltre-la-rete%2f&c=16319367542387298432&mkt=it-it",
         "pubDate": "Tue, 20 Oct 2026 04:56:00 GMT",
         "source": "",
         "image": "https://www.umbria24.it/wp-content/uploads/2026/10/conferenza-Black-Angels-progetto-sociale-10.jpg"
@@ -166,47 +166,47 @@
       },
       {
         "title": "Il Volley Modica si impone sul Galatone in quattro set",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc3b8f04b589067c0e2243c8aed&url=https%3a%2f%2fwww.lasicilia.it%2fnews%2fattualita%2f3084608%2fil-volley-modica-si-impone-sul-galatone-in-quattro-set.html&c=5348282271462233186&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd9296849bc8245a436d8160fe9&url=https%3a%2f%2fwww.lasicilia.it%2fnews%2fattualita%2f3084608%2fil-volley-modica-si-impone-sul-galatone-in-quattro-set.html&c=5348282271462233186&mkt=it-it",
         "pubDate": "Sun, 25 Oct 2026 10:59:00 GMT",
         "source": "",
         "image": "https://lasicilia.cdn.m33cloud.com/resizer/600/315/true/2026_10_25/856435348_2648511915608311_6956048298728048597_n-1792882957562.jpg--il_volley_modica_si_impone_sul_galatone_in_quattro_set.webp?1792882957692",
         "avversaria": "Green Volley Galatone"
       },
       {
-        "title": "Avimec Modica, prima vittoria stagionale: Galatone ko",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc3b8f04b589067c0e2243c8aed&url=https%3a%2f%2fwww.ragusah24.it%2f2026%2f10%2f25%2favimec-modica-prima-vittoria-stagionale-galatone-ko%2f&c=13095987262533430011&mkt=it-it",
-        "pubDate": "Sun, 25 Oct 2026 09:03:00 GMT",
-        "source": "",
-        "image": "https://www.ragusah24.it/wp-content/uploads/2026/10/856435348_2648511915608311_6956048298728048597_n.jpg",
-        "avversaria": "Green Volley Galatone"
-      },
-      {
         "title": "Serie A3: niente da fare per la Terni Volley Academy che cade 3-0 con Campobasso",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc28e0c4feab52bd7efdaa38ad3&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fserie-a3-niente-da-fare-per-la-terni-volley-academy-che-cade-3-0-con-campobasso%2f&c=17091052440358793611&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd8ef854bc79c64aa2f5eccabb5&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fserie-a3-niente-da-fare-per-la-terni-volley-academy-che-cade-3-0-con-campobasso%2f&c=17091052440358793611&mkt=it-it",
         "pubDate": "Sun, 25 Oct 2026 04:39:00 GMT",
         "source": "",
         "image": "https://www.umbria24.it/wp-content/uploads/2026/10/505120934_4103919666518434_5204898827848320480_n-1.jpg"
       },
       {
+        "title": "Riscatto dell’Avimec Modica, al PalaRizza cade la Green Volley Galatone in quattro set",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd9296849bc8245a436d8160fe9&url=https%3a%2f%2fsportwebsicilia.it%2f2026%2f10%2f25%2favimec-modica-galatone-serie-a3-volley-2026%2f&c=6471245231717455027&mkt=it-it",
+        "pubDate": "Sun, 25 Oct 2026 03:54:00 GMT",
+        "source": "",
+        "image": "https://sportwebsicilia.it/wp-content/uploads/sites/9/2026/10/856435348_2648511915608311_6956048298728048597_n.jpg",
+        "avversaria": "Green Volley Galatone"
+      },
+      {
         "title": "Terni Volley Academy- Campobasso 0-3, rossoverdi sconfitti nettamente al PalaTerni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc28e0c4feab52bd7efdaa38ad3&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley-academy-campobasso-partita-terni-2026.html&c=2601905059263827595&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd8ef854bc79c64aa2f5eccabb5&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley-academy-campobasso-partita-terni-2026.html&c=2601905059263827595&mkt=it-it",
         "pubDate": "Sat, 24 Oct 2026 10:08:00 GMT",
         "source": "",
         "image": null
       },
       {
+        "title": "Serie A3, Terni Volley Academy sconfitta a Sorrento all’esordio in campionato",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd8ef854bc79c64aa2f5eccabb5&url=https%3a%2f%2fwww.umbria24.it%2fsport24%2fserie-a3-terni-volley-academy-sconfitta-a-sorrento-allesordio-in-campionato%2f&c=1549088281631826601&mkt=it-it",
+        "pubDate": "Wed, 21 Oct 2026 03:25:00 GMT",
+        "source": "",
+        "image": "https://www.umbria24.it/wp-content/uploads/2026/10/505120934_4103919666518434_5204898827848320480_n.jpg"
+      },
+      {
         "title": "Terni Volley Academy, sconfitta al debutto per i Dragons: “La strada intrapresa è quella giusta”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc28e0c4feab52bd7efdaa38ad3&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fsorrento-volley-academy-sconfitta-esordio-terni-2026.html&c=8796250554541724017&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fd8ef854bc79c64aa2f5eccabb5&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fsorrento-volley-academy-sconfitta-esordio-terni-2026.html&c=8796250554541724017&mkt=it-it",
         "pubDate": "Mon, 19 Oct 2026 08:14:00 GMT",
         "source": "",
         "image": null
-      },
-      {
-        "title": "Terni Volley Academy-Sir Susa Scai Perugia: la fotogallery del primo storico derby della pallavolo",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedc28e0c4feab52bd7efdaa38ad3&url=https%3a%2f%2fwww.umbria24.it%2ffotogallery%2fterni-volley-academy-sir-susa-scai-perugia-la-fotogallery-del-primo-storico-derby-della-pallavolo%2f&c=10268341436277083230&mkt=it-it",
-        "pubDate": "Fri, 25 Sep 2026 09:26:00 GMT",
-        "source": "",
-        "image": "https://www.umbria24.it/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-18.22.32-6.jpeg"
       },
       {
         "title": "Terni Volley Academy, UFFICIALE il ripescaggio dei dragons in Serie A3: la composizione del girone - TerniToday",
@@ -257,14 +257,14 @@
       },
       {
         "title": "Parte il quarto campionato di A3 della Negrini CTE Acqui Terme",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedca69324c0d906a896d99b0c618&url=https%3a%2f%2fcronacatorino.it%2fsport-motori%2fermgroup-altotevere-negrini-cte-acqui-terme.html&c=12906173311061414045&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fe0ccf647539df593916facf4ee&url=https%3a%2f%2fcronacatorino.it%2fsport-motori%2fermgroup-altotevere-negrini-cte-acqui-terme.html&c=12906173311061414045&mkt=it-it",
         "pubDate": "Thu, 15 Oct 2026 06:38:00 GMT",
         "source": "",
         "image": "https://cronacatorino.it/wp-content/uploads/2026/10/A3-San-Giustino-Acqui.jpg"
       },
       {
         "title": "Altotevere Volley, presentazione a San Giustino",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedca69324c0d906a896d99b0c618&url=https%3a%2f%2fwww.teletruria.it%2fnotizie%2fsport%2fvolley%2faltotevere-volley-presentazione-a-san-giustino%2f&c=12680198920144046478&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fe0ccf647539df593916facf4ee&url=https%3a%2f%2fwww.teletruria.it%2fnotizie%2fsport%2fvolley%2faltotevere-volley-presentazione-a-san-giustino%2f&c=12680198920144046478&mkt=it-it",
         "pubDate": "Tue, 06 Oct 2026 07:00:00 GMT",
         "source": "",
         "image": "https://www.teletruria.it/wp-content/uploads/2026/10/173313_Altotevere-Volley-presentazione-a-San-Giustino_1791295209.jpg"
@@ -279,39 +279,39 @@
     ],
     "citta-castello": [
       {
+        "title": "Pallavolo: in A e B ko le compagini maschili, vince ancora il Trestina - TTV.it",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeVZ4MnN4Q0FWMU0ySk45d1ZVOUJGTnNveTBkTklzcjE1c1RCU3NKblpKaTJmbDlRRTllbVpjRU1rZWw5YTFCeDJkUDJPemlWVUd2WG5vaFNqejd2d3NyckVYb2NZMlRwdkJfUGFDRS1lcjNzbzd5Rk9XaUtNRTg1c2ZwSDJ6dTltMGFNaEp6RFMxc25zYXVwbWtR?oc=5",
+        "pubDate": "Mon, 26 Oct 2026 08:32:25 GMT",
+        "source": "TTV.it",
+        "image": "https://www.ttv.it/wp-content/uploads/2026/10/cantu-erm-768x404.jpeg"
+      },
+      {
         "title": "Città di Castello: le donne lasciano strada ad Empoli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedd2b58b486dbe0315a8e90f6d53&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f10%2fcitta-di-castello-le-donne-lasciano-strada-ad-empoli%2f&c=2081670690220839509&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fe784444e43a72a73bff05f34b6&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f10%2fcitta-di-castello-le-donne-lasciano-strada-ad-empoli%2f&c=2081670690220839509&mkt=it-it",
         "pubDate": "Sun, 25 Oct 2026 05:00:00 GMT",
         "source": "",
         "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Pallavolo-Citta-di-Castello-fine.jpg"
       },
       {
         "title": "Gli uomini del Città di Castello si arrendono a Jesi",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedd2b58b486dbe0315a8e90f6d53&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f10%2fgli-uomini-del-citta-di-castello-si-arrendono-a-jesi%2f&c=3936038284474572218&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fe784444e43a72a73bff05f34b6&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f10%2fgli-uomini-del-citta-di-castello-si-arrendono-a-jesi%2f&c=3936038284474572218&mkt=it-it",
         "pubDate": "Sun, 25 Oct 2026 02:00:00 GMT",
         "source": "",
         "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Cappelletti-Niccolo-pipe.jpg"
       },
       {
         "title": "Volley maschile serie B / Per Jesi seconda vittoria consecutiva, 3-1 al Città di Castello",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adeedd2b58b486dbe0315a8e90f6d53&url=https%3a%2f%2fwww.vallesina.tv%2fvolley%2fvolley-maschile-serie-b-per-jesi-seconda-vittoria-consecutiva-3-1-al-citta-di-castello%2f&c=16774085256655984876&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf2fe784444e43a72a73bff05f34b6&url=https%3a%2f%2fwww.vallesina.tv%2fvolley%2fvolley-maschile-serie-b-per-jesi-seconda-vittoria-consecutiva-3-1-al-citta-di-castello%2f&c=16774085256655984876&mkt=it-it",
         "pubDate": "Sun, 25 Oct 2026 01:08:00 GMT",
         "source": "",
         "image": "https://www.vallesina.tv/wp-content/uploads/2026/10/volley-jesi-cittadi-castello-3-1-899x600.jpg"
       },
       {
-        "title": "Primo esame in trasferta per il Città di Castello Pallavolo Femminile - Saturno Notizie",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWWNKeXdVMDV4NHZZTkFORTJqOFg2cXpNVEVjWlNyNEV1ajlhNEZmMGMwM2lLMkU5QVdrMkFTeGdEMVNodUE5ME1Rby1zRmxDUldUSmFNclBBM095STFlbTFTM0FMbVA4WklfY3p2VkpHTy11aGVDSlI0ZW9rQ0hwYUlXXzhhZw?oc=5",
-        "pubDate": "Fri, 23 Oct 2026 12:08:25 GMT",
-        "source": "Saturno Notizie",
-        "image": "https://www1.saturnonotizie.it/uploads/news/posts/2026/10/210492/3d72f6460d3ac85c9b75d2c159d4a5b1456540c2_full.jpeg"
-      },
-      {
-        "title": "Sport, volley serie B: Città di Castello pallavolo supera 3 – 0 Pescara - TRG Media",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWlZBRF9mYkRkb2Vfd2lWNVhCbVR4em9SYWZMTWZJWDBkSHZUSzBNWmpIVE56bVBMdUkteDNKT3NQVE1Zd2NVMHFNTmlRYVZaZVY2VENXOHBPQ1FRSW9QUnFYY0FkaFNoOVRjN3VDSVV3T2k2dGtsZTVXUXluczlfclFrSEUyZVdMeDBHb1hSZjM5dWs1bWE4TEs5cjcycmZSMEZYVG53cWZvNVE?oc=5",
-        "pubDate": "Fri, 23 Oct 2026 09:19:01 GMT",
-        "source": "TRG Media",
-        "image": null
+        "title": "Gli uomini del Città di Castello in trasferta a Jesi - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVjEwblpaRjV1NFBwX3lDQlFVY2lKS0UzMF9Db1c0Y2pHOGxIUWMzY2Z4TnFIbEJfQ0pCME9KRFlPZGJKZUVSSU1STlB0MjFmT19xQi0tUjR3Uk1NZ1M4dW9TMHA3c0tzNFh6N3BmbnpqUHJvb3NjQ0dqc0JKLVpCeWtLV3MzRzMxUWZDMHFQQnBUYy04ZVE?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 13:00:02 GMT",
+        "source": "Pianeta Volley",
+        "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Citta-di-Castello-Pallavolo-inizio.jpg"
       },
       {
         "title": "Volley Game in Comune. Si respira aria d’altri tempi: \"Vogliamo crescere ancora\" - Il Resto del Carlino",

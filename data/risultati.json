@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T06:03:29.431097+00:00",
+  "generatedAt": "2026-10-26T10:45:14.331035+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8462,20 +8462,20 @@
       "status": "in programma"
     },
     {
-      "id": "131657846",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 1",
-      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657844",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 1",
       "home": "SIR PERUGIA",
       "away": "VIANDER ACTON BASTIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657846",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 1",
+      "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "away": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
       "score": "da disputare",
       "status": "in programma"
     },

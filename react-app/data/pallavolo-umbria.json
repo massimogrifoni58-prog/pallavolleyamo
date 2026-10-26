@@ -1,7 +1,7 @@
 {
-  "aggiornamento": "2026-10-19",
-  "settimana": "19 – 25 ottobre 2026",
-  "commento": "Nel primo weekend stagionale la Fail Group Marsciano ha battuto 3-0 la Pallavolo Città di Castello nel derby di B2, mentre in Serie C femminile hanno vinto in trasferta Bartoccini School Volley, Ellera e Bastia. Dal 24 ottobre parte anche la Serie D femminile.\n\nIl weekend del 17 e 18 ottobre ha aperto la stagione della pallavolo regionale: la prima giornata di Serie C, maschile e femminile, e il debutto in Serie B2 femminile con un derby tutto umbro. Qui trovi i risultati delle umbre e il programma della settimana che comincia.\n\nI risultati delle squadre umbre nei campionati nazionali (Superlega, A2, A3 e Serie B) sono nella sezione dedicata, più sotto.\n\nB2: Marsciano si prende il derby\n\nLa sfida più attesa era tutta umbra. Sabato 17 ottobre la Fail Group Marsciano ha battuto la Pallavolo Città di Castello per 3-0 (25-22, 25-12, 25-21). Solo il primo set è stato equilibrato, poi le padrone di casa hanno preso il controllo.\n\nLe migliori realizzatrici di Marsciano sono state Ndulue e Carboni, con 12 punti a testa, seguite da Fiorucci con 10 e Iacobbi con 7. Per Città di Castello hanno chiuso con 8 punti Falchetti e Sasso.\n\nCittà di Castello torna in campo sabato 24 ottobre in casa contro la Timenet Empoli (girone G). Il derby di ritorno è in programma a Città di Castello il 13 febbraio.\n\nSerie C femminile: la prima giornata\n\nLa Serie C femminile 2026/27 si gioca in un girone unico da 13 squadre. Ha riposato il Fossato Volley, che debutta sabato 24 ottobre contro Bastia.\n\n• Acqua ai Fiori Spello – Bartoccini School Volley 0-3 (13-25, 17-25, 19-25). Parte con un successo netto in trasferta la squadra perugina.\n\n• Trevi Volley – Amerina Pallavolo 3-0 (25-18, 26-24, 25-14). Il secondo set è stato l'unico combattuto.\n\n• Marconi Monini Pallavolo – Ellera Volley 0-3 (21-25, 25-27, 20-25). Il punteggio è più netto di quanto si è visto in campo: le padrone di casa, in campo con una squadra interamente Under 19, hanno condotto a lungo in tutti e tre i set.\n\n• Uisp Volley Umbertide – Viander Acton Bastia 0-3. Successo esterno per Bastia.\n\n• The Galleon Pub Marsciano – Umbra Servizi Deruta 0-3. Vittoria in trasferta per Deruta.\n\n• San Mariano Volley – School Volley Perugia 3-0, giocata domenica 18 ottobre.\n\nSerie C maschile: la prima giornata\n\nNel girone maschile ha riposato la Città di Castello Pallavolo, che esordisce sabato 24 ottobre a Marsciano.\n\n• School Volley Perugia – Rossi Ascensori Foligno 3-1\n\n• Promovideo Strike Team Monteluce – Uisp Volley Umbertide 3-2\n\n• Sir Its Umbria Academy Assisi – Uniko Volley Orte 0-3\n\n• Italchimici – Polisportiva Delfino Saima 3-0\n\n• Volley Borgo Altotevere – Sir Its Umbria Academy Perugia 3-0\n\n• Volley Cascia Spoleto – Energy Pmu Marsciano 1-3, giocata domenica 18 ottobre.\n\nLa settimana che inizia\n\nSabato 24 ottobre parte anche la Serie D femminile, con due gironi: la prima giornata si gioca tra sabato 24 e domenica 25 ottobre. Tra le gare in programma, Narni Sport Academy – Foligno Volley alle 21 di sabato.\n\nDa segnare in calendario\n\n• Sabato 24 ottobre: Pallavolo Città di Castello – Timenet Empoli (Serie B2 femminile, girone G)\n\n• Sabato 24 ottobre, ore 17: Energy Pmu Marsciano – Città di Castello Pallavolo (Serie C maschile)\n\n• Sabato 24 ottobre, ore 20: Bartoccini School Volley – Uisp Volley Umbertide (Serie C femminile)\n\n• Sabato 24 ottobre, ore 21: Narni Sport Academy – Foligno Volley (Serie D femminile)\n\n• Sabato 24 ottobre, ore 21: Fossato Volley – Viander Acton Bastia (Serie C femminile, debutto del Fossato)\n\n• Domenica 25 ottobre: Sir Susa Scai Perugia – Tinet Prata di Pordenone (Superlega)\n\n• Domenica 25 ottobre: Campi Reali Cantù – Ermgroup Altotevere (Serie A3)\n\n• Weekend del 24 e 25 ottobre: Terni Volley Academy – EnergyTime Campobasso (Serie A3)",
+  "aggiornamento": "2026-10-26",
+  "settimana": "26 ottobre – 1 novembre 2026",
+  "commento": "Weekend del 24 e 25 ottobre: la Sirio Perugia vince ancora in B1, Marsciano si impone al quinto set in B2 e parte la Serie D femminile. Qui trovi i risultati delle umbre e il programma della settimana che comincia.\n\nLa Sirio Perugia Volley, unica umbra nel girone C di Serie B1 femminile, ha vinto 3-0 a Scandicci (22-25, 21-25, 24-26) e comanda a punteggio pieno, dopo il 3-1 all'esordio a Pratovecchio Stia. Sangoi e Nielson hanno chiuso con 17 punti a testa. Le prime due gare sono state in trasferta per l'indisponibilità del campo di Magione; la data della prima gara in casa non è ancora nota.",
   "derby": {
     "titolo": "Derby Città di Castello – Marsciano",
     "nota": "Serie B2 femminile, girone G. All'andata ha vinto Marsciano 3-0.",
@@ -18,23 +18,42 @@
   },
   "squadre": [
     {
+      "id": "sirio-perugia",
+      "genere": "F",
+      "nome": "Sirio Perugia Volley",
+      "categoria": "Serie B1 – Girone C",
+      "ultimo": {
+        "quando": "24 ottobre",
+        "casa": "Scandicci",
+        "ospite": "Sirio Perugia Volley",
+        "risultato": "0-3",
+        "parziali": [
+          "22-25",
+          "21-25",
+          "24-26"
+        ]
+      },
+      "prossima": null,
+      "commento": "Due vittorie su due, la seconda a Scandicci. Data della prima gara in casa non ancora nota."
+    },
+    {
       "id": "marsciano",
       "genere": "F",
       "nome": "Fail Group Marsciano",
       "categoria": "Serie B2 – Girone G",
       "ultimo": {
-        "quando": "17 ottobre",
-        "casa": "Fail Group Marsciano",
-        "ospite": "Pallavolo Città di Castello",
-        "risultato": "3-0",
-        "parziali": [
-          "25-22",
-          "25-12",
-          "25-21"
-        ]
+        "quando": "weekend 24-25 ottobre",
+        "casa": "Pontedera",
+        "ospite": "Fail Group Marsciano",
+        "risultato": "2-3"
       },
-      "prossima": null,
-      "commento": "Esordio con il derby vinto 3-0."
+      "prossima": {
+        "quando": "2026-10-31",
+        "ora": "21:00",
+        "casa": "Fail Group Marsciano",
+        "ospite": "Astra Chiusure Lampo"
+      },
+      "commento": "Vittoria al tie-break a Pontedera."
     },
     {
       "id": "citta-di-castello",
@@ -42,35 +61,35 @@
       "nome": "Pallavolo Città di Castello",
       "categoria": "Serie B2 – Girone G",
       "ultimo": {
-        "quando": "17 ottobre",
-        "casa": "Fail Group Marsciano",
-        "ospite": "Pallavolo Città di Castello",
-        "risultato": "3-0",
-        "parziali": [
-          "25-22",
-          "25-12",
-          "25-21"
-        ]
-      },
-      "prossima": {
-        "quando": "2026-10-24",
+        "quando": "24 ottobre",
         "casa": "Pallavolo Città di Castello",
         "ospite": "Timenet Empoli",
-        "giornata": "2"
+        "risultato": "0-3"
       },
-      "commento": "Sconfitta nel derby d'esordio, primo set equilibrato."
+      "prossima": {
+        "quando": "2026-10-31",
+        "ora": "18:30",
+        "casa": "Pallavolo Città di Castello",
+        "ospite": "Pallavolo I'Giglio"
+      },
+      "commento": "Sconfitta in casa con Empoli."
     },
     {
       "id": "sir-perugia",
       "genere": "M",
       "nome": "Sir Susa Scai Perugia",
       "categoria": "Superlega",
-      "ultimo": null,
-      "prossima": {
-        "quando": "2026-10-25",
-        "ora": "18:00",
+      "ultimo": {
+        "quando": "25 ottobre",
         "casa": "Sir Susa Scai Perugia",
-        "ospite": "Tinet Prata di Pordenone"
+        "ospite": "Tinet Prata di Pordenone",
+        "risultato": "3-0"
+      },
+      "prossima": {
+        "quando": "2026-10-28",
+        "ora": "20:30",
+        "casa": "Sir Susa Scai Perugia",
+        "ospite": "Pallavolo Padova"
       },
       "commento": ""
     }
@@ -81,6 +100,10 @@
   },
   "archivio": [
     {
+      "settimana": "19 – 25 ottobre 2026",
+      "commento": "Il derby di B2 femminile Marsciano–Città di Castello è finito 3-0 per Marsciano; in Serie C femminile hanno vinto in trasferta Bartoccini School Volley, Ellera e Bastia, e dal 24 ottobre è partita la Serie D femminile."
+    },
+    {
       "settimana": "12 – 18 ottobre 2026",
       "commento": "Prima settimana di campionato per le umbre: il derby di B2 femminile Marsciano–Città di Castello (3-0 per Marsciano), la prima giornata della Serie C regionale, maschile e femminile, e l'esordio della Sirio Perugia in B1 contro Stia."
     },
@@ -89,76 +112,84 @@
       "commento": "Settimana di avvio per il volley umbro. Tra le donne la Bartoccini ha perso 3-1 a Busto Arsizio e domenica 11 ottobre torna al PalaBarton Energy contro Leonessa Altamura; in B2 si comincia il 17 e 18 ottobre e Città di Castello si è presentata in piazza il 5 ottobre. Tra gli uomini il campionato parte il 18 ottobre, con Sir Susa Scai Perugia a Cuneo e Terni Volley Academy a Sorrento."
     }
   ],
-  "titolo": "Si riparte: Marsciano vince il derby di B2, Bartoccini School Volley parte forte in Serie C",
-  "occhiello": "Nel primo weekend stagionale la Fail Group Marsciano ha battuto 3-0 la Pallavolo Città di Castello nel derby di B2, mentre in Serie C femminile hanno vinto in trasferta Bartoccini School Volley, Ellera e Bastia. Dal 24 ottobre parte anche la Serie D femminile.",
+  "titolo": "Sirio Perugia fa due su due in B1, Marsciano vince al tie-break a Pontedera",
+  "occhiello": "La Sirio Perugia batte 3-0 Scandicci e resta a punteggio pieno in Serie B1. In B2 Marsciano vince 3-2 a Pontedera, mentre Città di Castello cade 0-3 con Empoli. In Superlega Perugia batte Prata 3-0.",
   "sezioni": [
     {
       "titolo": "",
       "testo": [
-        "Il weekend del 17 e 18 ottobre ha aperto la stagione della pallavolo regionale: la prima giornata di Serie C, maschile e femminile, e il debutto in Serie B2 femminile con un derby tutto umbro. Qui trovi i risultati delle umbre e il programma della settimana che comincia.",
-        "I risultati delle squadre umbre nei campionati nazionali (Superlega, A2, A3 e Serie B) sono nella sezione dedicata, più sotto."
+        "Weekend del 24 e 25 ottobre: la Sirio Perugia vince ancora in B1, Marsciano si impone al quinto set in B2 e parte la Serie D femminile. Qui trovi i risultati delle umbre e il programma della settimana che comincia.",
+        "I risultati delle squadre umbre nei campionati nazionali (Superlega, A3 e Serie B) sono nella sezione dedicata, più sotto."
       ]
     },
     {
-      "titolo": "B2: Marsciano si prende il derby",
+      "titolo": "Sirio Perugia, due su due in B1",
       "testo": [
-        "La sfida più attesa era tutta umbra. Sabato 17 ottobre la Fail Group Marsciano ha battuto la Pallavolo Città di Castello per 3-0 (25-22, 25-12, 25-21). Solo il primo set è stato equilibrato, poi le padrone di casa hanno preso il controllo.",
-        "Le migliori realizzatrici di Marsciano sono state Ndulue e Carboni, con 12 punti a testa, seguite da Fiorucci con 10 e Iacobbi con 7. Per Città di Castello hanno chiuso con 8 punti Falchetti e Sasso.",
-        "Città di Castello torna in campo sabato 24 ottobre in casa contro la Timenet Empoli (girone G). Il derby di ritorno è in programma a Città di Castello il 13 febbraio."
+        "La Sirio Perugia Volley, unica umbra nel girone C di Serie B1 femminile, ha vinto 3-0 sabato 24 ottobre a Scandicci (22-25, 21-25, 24-26 i parziali, con il punteggio di Scandicci per primo) in circa un'ora e mezza di gioco. Con il 3-1 dell'esordio a Pratovecchio Stia sono due vittorie su due e primo posto a punteggio pieno.",
+        "A fare la differenza sono state le due bande: Giada Sangoi e Daniela Nielson hanno chiuso con 17 punti a testa, seguite da Zorzetto con 8, Bollettin e Artini con 5 e Guarino con 3. Nel secondo set sei ace delle umbre; il terzo è stato il più combattuto: Scandicci è andata avanti 8-2, ma la Sirio ha rimontato e ha chiuso ai vantaggi. Le padrone di casa hanno avuto la meglio a muro (6 a 1), non abbastanza per fermare Perugia.",
+        "Il campo di casa: le prime due gare sono state in trasferta per l'indisponibilità del campo di Magione, dove la squadra giocherà le partite interne nel corso della stagione. Le fonti consultate non indicano ancora la data della prima gara in casa. A settembre la società aveva chiesto al Comune di tornare a giocare al PalaBarton, definito il suo \"naturale quartier generale da sempre\"; una risposta ufficiale non era ancora arrivata.",
+        "La squadra è allenata da Fabio Bovari con Simone Giannoni; in regia Guarino, in banda Zorzetto e Nielson, al centro Artini e Bollettin, opposta Sangoi, libero Lillacci.",
+        "Fonti: Umbria24, Perugia24, Umbria Journal, iVolley Magazine, Pianeta Volley."
       ]
     },
     {
-      "titolo": "Serie C femminile: la prima giornata",
+      "titolo": "B2: Marsciano vince al tie-break, Città di Castello cade con Empoli",
       "testo": [
-        "La Serie C femminile 2026/27 si gioca in un girone unico da 13 squadre. Ha riposato il Fossato Volley, che debutta sabato 24 ottobre contro Bastia.",
-        "Partenza netta per la Bartoccini School Volley, che ha vinto 3-0 a Spello. Successi pieni anche per Trevi (3-0 sull'Amerina), Bastia a Umbertide e Deruta a Marsciano. Da notare il 3-0 dell'Ellera a Marconi Monini: il punteggio è più netto di quanto si è visto in campo, perché le padrone di casa, in campo con una squadra interamente Under 19, hanno condotto a lungo in tutti e tre i set.",
+        "Dopo il derby, la seconda giornata del girone G ha dato risultati opposti alle due umbre. La Fail Group Marsciano ha vinto 3-2 a Pontedera, un successo al quinto set. La Pallavolo Città di Castello ha invece perso 0-3 in casa contro la Timenet Empoli.",
+        "Sabato 31 ottobre le due squadre tornano in campo: Città di Castello riceve il Pallavolo I'Giglio alle 18:30, Marsciano ospita Astra Chiusure Lampo alle 21. Il derby di ritorno è in programma a Città di Castello il 13 febbraio."
+      ]
+    },
+    {
+      "titolo": "Serie C: la seconda giornata",
+      "testo": [
+        "In Serie C femminile ha vinto 3-0 la Bartoccini School Volley sull'Uisp Volley Umbertide, e hanno vinto 3-0 in trasferta Trevi a Ellera e Viander Acton Bastia a Fossato. Deruta ha battuto 3-1 il San Mariano (gara giocata giovedì 23 ottobre) e The Galleon Pub Marsciano ha vinto 3-1 ad Amerina. Il School Volley Perugia ha perso 3-2 in casa con Spello.",
+        "In Serie C maschile l'Energy Pmu Marsciano ha battuto 3-0 in casa la Città di Castello Pallavolo; successi esterni per Italchimici (3-0 a Umbertide), Volley Cascia Spoleto (3-0 a Orte), Promovideo Strike Team Monteluce (3-1 a Foligno) e Volley Borgo Altotevere (3-1 sulla Delfino Saima). La Sir Its Umbria Academy Perugia ha battuto 3-2 in casa Assisi.",
         "Tutti i risultati sono nella pagina \"Il weekend in Umbria\"."
       ]
     },
     {
-      "titolo": "Serie C maschile: la prima giornata",
+      "titolo": "Serie D femminile: si parte",
       "testo": [
-        "Nel girone maschile ha riposato la Città di Castello Pallavolo, che esordisce sabato 24 ottobre a Marsciano.",
-        "La partita più combattuta è stata Promovideo Strike Team Monteluce – Uisp Volley Umbertide, finita 3-2. Vittorie nette per Borgo Altotevere, Italchimici e Uniko Volley Orte, mentre l'Energy Pmu Marsciano ha vinto 3-1 a Cascia, nella gara giocata domenica 18 ottobre.",
-        "Tutti i risultati sono nella pagina \"Il weekend in Umbria\"."
+        "Ha esordito la Serie D femminile, con due gironi. Nel girone B Narni Sport Academy ha battuto 3-2 il Foligno Volley; hanno vinto anche Orvieto Volley Academy (3-0 a Bosico), Cannara (3-1 sul Tuder), Acquasparta (3-1 su Assisi), Bastia (3-0 a Cascia) e Marconi Monini (3-2 su San Mariano).",
+        "Nel girone A hanno vinto 3-0 Gualdo, Ponte Valleceppi, Ponte Felcino e Sirio Perugia (sulla Delfino Idrosfera); il School Volley Perugia Green1 ha battuto 3-2 lo Strike Team Monteluce, mentre Gubbio ha perso 3-2 con le Blue Panthers."
       ]
     },
     {
       "titolo": "Le umbre nei campionati nazionali",
       "testo": [
-        "Weekend di esordio anche per le squadre umbre nei campionati nazionali. In Superlega la Sir Susa Scai Perugia ha vinto 3-2 al tie-break a Cuneo, dopo una partita molto combattuta.",
-        "In Serie A2 femminile la Bartoccini +energia Perugia ha battuto 3-0 in casa Padova. In Serie A3 maschile l'Altotevere ha vinto 3-1 all'esordio contro Acqui Terme, mentre la Terni Volley Academy ha perso 3-1 a Sorrento (24-26, 25-18, 25-14, 25-15): i ternani hanno vinto il primo set, poi i campani hanno preso in mano la partita.",
-        "In Serie B maschile la Città di Castello Pallavolo ha battuto 3-0 la Sirdeco Pescara, e la Sirio Perugia ha vinto 3-1 a Pratovecchio Stia nel suo debutto."
+        "In Superlega la Sir Susa Scai Perugia ha battuto 3-0 in casa la Tinet Prata di Pordenone. In Serie A3 maschile l'Ermgroup Altotevere ha perso 3-1 a Cantù, mentre la Terni Volley Academy è stata battuta 3-0 in casa da Campobasso. In Serie B maschile la Sir Its Umbria Academy ha vinto 3-0 con Montorio."
       ]
     },
     {
       "titolo": "La settimana che inizia",
       "testo": [
-        "Sabato 24 ottobre parte anche la Serie D femminile, con due gironi: la prima giornata si gioca tra sabato 24 e domenica 25 ottobre. Tra le gare in programma, Narni Sport Academy – Foligno Volley alle 21 di sabato."
+        "Mercoledì 28 ottobre la Sir Susa Scai Perugia torna in campo in casa contro Padova; sabato 31 è a Monza. Weekend di trasferte per le umbre di Serie A3: l'Altotevere va in Sardegna a Sarroch, la Terni Volley Academy a Galatone."
       ]
     },
     {
       "titolo": "Da segnare in calendario",
       "elenco": [
-        "Sabato 24 ottobre: Pallavolo Città di Castello – Timenet Empoli (Serie B2 femminile, girone G)",
-        "Sabato 24 ottobre, ore 17: Energy Pmu Marsciano – Città di Castello Pallavolo (Serie C maschile)",
-        "Sabato 24 ottobre, ore 20: Bartoccini School Volley – Uisp Volley Umbertide (Serie C femminile)",
-        "Sabato 24 ottobre, ore 21: Narni Sport Academy – Foligno Volley (Serie D femminile)",
-        "Sabato 24 ottobre, ore 21: Fossato Volley – Viander Acton Bastia (Serie C femminile, debutto del Fossato)",
-        "Domenica 25 ottobre: Sir Susa Scai Perugia – Tinet Prata di Pordenone (Superlega)",
-        "Domenica 25 ottobre: Campi Reali Cantù – Ermgroup Altotevere (Serie A3)",
-        "Weekend del 24 e 25 ottobre: Terni Volley Academy – EnergyTime Campobasso (Serie A3)"
+        "Mercoledì 28 ottobre, ore 20:30: Sir Susa Scai Perugia – Pallavolo Padova (Superlega, PalaBarton Energy)",
+        "Mercoledì 28 ottobre, ore 21: Emmepi Group Ponte Felcino – Castiglione del Lago (Serie D femminile, girone A)",
+        "Sabato 31 ottobre, ore 17: School Volley Perugia – Città di Castello Pallavolo (Serie C maschile)",
+        "Sabato 31 ottobre, ore 17: The Galleon Pub Marsciano – Bartoccini School Volley (Serie C femminile)",
+        "Sabato 31 ottobre, ore 18: Vero Volley Monza – Sir Susa Scai Perugia (Superlega)",
+        "Sabato 31 ottobre, ore 18: Green Volley Galatone – Terni Volley Academy (Serie A3)",
+        "Sabato 31 ottobre, ore 18:30: Pallavolo Città di Castello – Pallavolo I'Giglio (Serie B2 femminile)",
+        "Sabato 31 ottobre, ore 21: Fail Group Marsciano – Astra Chiusure Lampo (Serie B2 femminile)",
+        "Domenica 1 novembre, ore 16: Sarlux Sarroch – Ermgroup Altotevere (Serie A3)",
+        "Domenica 1 novembre, ore 19: San Mariano Volley – Amerina Pallavolo (Serie C femminile)"
       ]
     }
   ],
   "seo": {
-    "metaTitle": "Pallavolo Umbria 19-25 ottobre 2026: derby di B2 e Serie C | PallaVolleyAmo",
-    "metaDescription": "Marsciano vince il derby di B2 con Città di Castello, la prima giornata di Serie C maschile e femminile e il programma della settimana.",
+    "metaTitle": "Pallavolo Umbria 26 ott-1 nov 2026: Sirio Perugia in B1, B2 e Serie C | PallaVolleyAmo",
+    "metaDescription": "La Sirio Perugia vince 3-0 a Scandicci in Serie B1, Marsciano vince a Pontedera in B2, risultati di Serie C e D e il programma della settimana.",
     "tag": [
+      "Sirio Perugia volley",
+      "Serie B1 femminile Umbria",
       "Serie B2 femminile Umbria",
       "Serie C pallavolo Umbria",
-      "Serie C femminile Umbria",
-      "Serie C maschile Umbria",
       "Serie D femminile Umbria",
       "Marsciano volley",
       "Città di Castello pallavolo"
