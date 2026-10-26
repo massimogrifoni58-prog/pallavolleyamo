@@ -91,11 +91,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.pallavolleyamo.it/atleta-settimana</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.pallavolleyamo.it/allenatori2</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

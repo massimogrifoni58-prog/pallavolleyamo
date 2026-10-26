@@ -15,7 +15,6 @@ import facebookApprovatiData from "../data/facebook_approvati.json";
 import pilloleData from "../data/pillole.json";
 import coachNewsData from "../data/coach_news.json";
 import diretteData from "../data/dirette.json";
-import marcatriciData from "../data/marcatrici.json";
 import glossarioData from "../data/glossario.json";
 import mentalCoachData from "../data/mental_coach.json";
 import pilloleEserciziData from "../data/pillole_esercizi_regole.json";
@@ -148,6 +147,15 @@ function useRoute() {
   }, []);
 
   return route;
+}
+
+// Pagina chiusa o spostata: porta al nuovo indirizzo senza lasciare quello vecchio nella cronologia
+function VaiA({ pagina }) {
+  useEffect(() => {
+    window.history.replaceState({}, "", "/" + pagina);
+    window.dispatchEvent(new PopStateEvent("popstate"));
+  }, [pagina]);
+  return null;
 }
 
 function navigateTo(path) {
@@ -656,7 +664,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Top Umbria"
           subscribed={subscribed}
           items={[
-            { href: "#/atleta-settimana", label: "Atlete della Settimana", sub: "Le migliori dei campionati umbri", locked: true },
             { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire", locked: true },
           ]}
         />
@@ -1896,162 +1903,6 @@ function CondividiBar({ titolo, percorso }) {
   );
 }
 
-function AtletaSettimanaPage() {
-  const dati = React.useMemo(() => {
-    const fine = new Date();
-    const dal = new Date(fine.getTime() - 7 * 86400000);
-    const iso = (d) => d.toISOString().slice(0, 10);
-    const punti = {};
-    ((marcatriciData && marcatriciData.punti) || [])
-      .filter((x) => x.data >= iso(dal) && x.data <= iso(fine) && Number(x.punti) > 0)
-      .forEach((x) => {
-        const k = (x.nome + " " + (x.cognome || "")).toLowerCase() + "|" + (x.squadra || "").toLowerCase();
-        if (!punti[k]) punti[k] = { ...x, punti: 0 };
-        punti[k].punti += Number(x.punti);
-      });
-    const lista = Object.values(punti).sort((a, b) => b.punti - a.punti || String(a.cognome).localeCompare(String(b.cognome)));
-    return { lista, dal: iso(dal), fine: iso(fine) };
-  }, []);
-  const dataBella = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
-  const nomeAtleta = (m) => {
-    const giovane = /under|u1\d|elite/i.test(m.campionato || "");
-    return m.nome + " " + (giovane ? (m.cognome || "").charAt(0).toUpperCase() + "." : m.cognome);
-  };
-  const [prima, ...altre] = dati.lista;
-  return (
-    <main className="page-content">
-      <h1 className="page-title">Atlete della Settimana</h1>
-      <p className="page-subtitle">Le migliori dei campionati umbri, dal {dataBella(dati.dal)} al {dataBella(dati.fine)}</p>
-
-      {prima ? (
-        <section style={{ maxWidth: "720px", marginBottom: "1.5rem" }}>
-          <div className="atl-card">
-            <div className="atl-card__nastro">Atleta della settimana</div>
-            <div className="atl-card__corpo">
-              <div className="atl-card__sigla" aria-hidden="true">
-                {(prima.nome || "").charAt(0).toUpperCase()}{(prima.cognome || "").charAt(0).toUpperCase()}
-              </div>
-              <div className="atl-card__testo">
-                <h2 className="atl-card__nome">{nomeAtleta(prima)}</h2>
-                <p className="atl-card__squadra">{nomeBello(prima.squadra)}</p>
-                <div className="atl-card__chip-riga">
-                  <span className="atl-card__chip">{categoriaBreve(prima.campionato)}</span>
-                  {prima.avversario && <span className="atl-card__chip atl-card__chip--tenue">contro {prima.avversario}</span>}
-                </div>
-              </div>
-              <div className="atl-card__punti">
-                <span className="atl-card__punti-n">{prima.punti}</span>
-                <span className="atl-card__punti-l">punti</span>
-              </div>
-            </div>
-          </div>
-          {altre.length > 0 && (
-            <div style={{ marginTop: "1rem" }}>
-              <h3 style={{ fontSize: "1rem", color: "var(--gold)", margin: "0 0 0.4rem" }}>Altre atlete in evidenza</h3>
-              {altre.slice(0, 9).map((m, i) => (
-                <div key={i} style={{ display: "flex", gap: "0.8rem", alignItems: "baseline", padding: "0.4rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.92rem" }}>
-                  <span style={{ minWidth: "1.5rem", color: "var(--gold)", fontWeight: 700 }}>{i + 2}</span>
-                  <span style={{ flex: 1 }}>{nomeAtleta(m)} <span style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>· {nomeBello(m.squadra)}, {categoriaBreve(m.campionato)}</span></span>
-                  <span style={{ fontWeight: 700 }}>{m.punti} pt</span>
-                </div>
-              ))}
-            </div>
-          )}
-        </section>
-      ) : (
-        <p style={{ maxWidth: "720px", color: "var(--text-dim)", fontSize: "0.95rem", lineHeight: 1.6 }}>
-          Questa settimana non abbiamo ancora ricevuto segnalazioni. L'atleta della settimana nasce dai punti che ci mandano le società: li controlliamo uno per uno prima di pubblicarli.
-        </p>
-      )}
-
-      <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
-        <p style={{ fontSize: "0.9rem", lineHeight: 1.6, margin: "0 0 0.7rem" }}>
-          Sei di una società o hai visto una grande partita? Segnalaci i punti dell'atleta: li controlliamo e, se è tutto a posto, compare qui.
-        </p>
-        <SegnalaPuntiForm />
-      </section>
-    </main>
-  );
-}
-function SegnalaPuntiForm() {
-  const vuoto = { societa: "", campionato: "", avversario: "", data: "", nome: "", punti: "", chi: "", email: "" };
-  const [f, setF] = useState(vuoto);
-  const [consenso, setConsenso] = useState(false);
-  const [status, setStatus] = useState("idle");
-  const [trappola, setTrappola] = useState("");
-  const apertaIl = React.useRef(Date.now());
-  const campo = (k) => ({ value: f[k], onChange: (e) => setF({ ...f, [k]: e.target.value }) });
-  const stile = { width: "100%", padding: "0.5rem 0.6rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "inherit", fontSize: "0.92rem", boxSizing: "border-box" };
-  const lab = { display: "block", fontSize: "0.8rem", color: "var(--text-dim)", margin: "0.6rem 0 0.2rem" };
-
-  function invia(e) {
-    e.preventDefault();
-    if (!consenso) return;
-    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(f.email.trim());
-    const puntiOk = Number(f.punti) > 0 && Number(f.punti) < 70;
-    if (trappola || Date.now() - apertaIl.current < 3000) { setStatus("done"); return; }
-    if (!emailOk || !puntiOk) { setStatus("error"); return; }
-    setStatus("sending");
-    const taglia = (v, n) => String(v || "").trim().slice(0, n);
-    fetch("https://formspree.io/f/xrenqkbd", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({
-        _subject: "Segnalazione punti atleta - PallaVolleyAmo",
-        tipo: "segnalazione punti",
-        societa: taglia(f.societa, 80), campionato: taglia(f.campionato, 80), avversario: taglia(f.avversario, 80),
-        data_partita: taglia(f.data, 12), atleta: taglia(f.nome, 80), punti: taglia(f.punti, 3),
-        nome: taglia(f.chi, 80), email: taglia(f.email, 120),
-      }),
-    })
-      .then((r) => { if (!r.ok) throw new Error("rifiutato"); setStatus("done"); })
-      .catch(() => setStatus("error"));
-  }
-
-  if (status === "done") {
-    return (
-      <div style={{ border: "1px solid var(--gold)", borderRadius: "10px", padding: "1rem" }}>
-        <p style={{ margin: "0 0 0.7rem" }}>Grazie! La segnalazione è arrivata. La controlliamo e, se è tutto a posto, la atleta compare in classifica.</p>
-        <button onClick={() => { setF(vuoto); setConsenso(false); setStatus("idle"); apertaIl.current = Date.now(); }}
-          style={{ padding: "0.4rem 1rem", borderRadius: "999px", border: "1px solid var(--gold)", background: "transparent", color: "inherit", cursor: "pointer" }}>
-          Segnala un'altra atleta
-        </button>
-      </div>
-    );
-  }
-  return (
-    <form onSubmit={invia} style={{ border: "1px dashed var(--gold)", borderRadius: "10px", padding: "1rem" }}>
-      <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", overflow: "hidden" }}>
-        <label>Non compilare<input type="text" name="sito_web" tabIndex={-1} autoComplete="off" value={trappola} onChange={(e) => setTrappola(e.target.value)} /></label>
-      </div>
-      <label style={lab}>La tua società o squadra</label>
-      <input required style={stile} {...campo("societa")} />
-      <label style={lab}>Campionato (per esempio Serie C F, Under 17 F)</label>
-      <input required style={stile} {...campo("campionato")} />
-      <label style={lab}>Contro chi avete giocato</label>
-      <input required style={stile} {...campo("avversario")} />
-      <label style={lab}>Data della partita</label>
-      <input required type="date" style={stile} {...campo("data")} />
-      <label style={lab}>Nome e cognome dell'atleta</label>
-      <input required style={stile} {...campo("nome")} />
-      <label style={lab}>Punti fatti nella partita</label>
-      <input required type="number" min="1" max="69" style={stile} {...campo("punti")} />
-      <label style={lab}>Il tuo nome (chi segnala)</label>
-      <input required style={stile} {...campo("chi")} />
-      <label style={lab}>La tua email (solo per eventuali controlli, non viene pubblicata)</label>
-      <input required type="email" style={stile} {...campo("email")} />
-      <label style={{ display: "flex", gap: "0.5rem", alignItems: "flex-start", fontSize: "0.82rem", margin: "0.9rem 0", lineHeight: 1.4 }}>
-        <input type="checkbox" checked={consenso} onChange={(e) => setConsenso(e.target.checked)} style={{ marginTop: "0.2rem" }} />
-        <span>Confermo che i dati sono quelli del referto e che la società è d'accordo a pubblicare il nome dell'atleta (per le minorenni mostriamo solo l'iniziale del cognome).</span>
-      </label>
-      <button type="submit" disabled={!consenso || status === "sending"}
-        style={{ padding: "0.5rem 1.3rem", borderRadius: "999px", border: "none", background: consenso ? "var(--gold)" : "var(--border)", color: "#000", fontWeight: 700, cursor: consenso ? "pointer" : "default" }}>
-        {status === "sending" ? "Invio..." : "Invia la segnalazione"}
-      </button>
-      {status === "error" && <p style={{ color: "#e66", fontSize: "0.85rem", margin: "0.7rem 0 0" }}>Non è partita. Controlla email e punti e riprova.</p>}
-    </form>
-  );
-}
 function SquadraSettimanaPage() {
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   // livello del campionato: piu' e' alto, piu' pesa nella scelta
@@ -2101,14 +1952,7 @@ function SquadraSettimanaPage() {
     const perCamp = {};
     settimana.forEach((p) => { (perCamp[p.camp] ||= []).push(p); });
     const camps = Object.keys(perCamp).sort((a, b) => livello(b) - livello(a) || a.localeCompare(b));
-    const punti = {};
-    ((marcatriciData && marcatriciData.punti) || []).filter((x) => x.data >= dal && x.data <= fine && Number(x.punti) > 0).forEach((x) => {
-      const k = normSq(x.nome + " " + (x.cognome || "")) + "|" + normSq(x.squadra);
-      if (!punti[k]) punti[k] = { ...x, punti: 0 };
-      punti[k].punti += Number(x.punti);
-    });
-    const marcatrici = Object.values(punti).sort((a, b) => b.punti - a.punti || a.cognome.localeCompare(b.cognome)).slice(0, 12);
-    return { marcatrici, dal, fine, vincitrice: lista[0], altre: lista.slice(1, 6), perCamp, camps, totale: settimana.length, tutte };
+    return { dal, fine, vincitrice: lista[0], altre: lista.slice(1, 6), perCamp, camps, totale: settimana.length, tutte };
   }, []);
 
   const dataBella = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" });
@@ -2194,32 +2038,6 @@ function SquadraSettimanaPage() {
       )}
 
 
-      <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
-        <h2 style={{ fontSize: "1.1rem", color: "var(--gold)", margin: "0 0 0.6rem" }}>Le atlete con più punti</h2>
-        {dati.marcatrici.length > 0 ? (
-          <div>
-            {dati.marcatrici.map((m, i) => {
-              const giovane = /under|u1\d|elite/i.test(m.campionato || "");
-              const cogn = giovane ? (m.cognome || "").charAt(0).toUpperCase() + "." : m.cognome;
-              return (
-                <div key={i} style={{ display: "flex", gap: "0.8rem", alignItems: "baseline", padding: "0.4rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.92rem" }}>
-                  <span style={{ minWidth: "1.5rem", color: "var(--gold)", fontWeight: 700 }}>{i + 1}</span>
-                  <span style={{ flex: 1 }}>{m.nome} {cogn} <span style={{ color: "var(--text-dim)", fontSize: "0.78rem" }}>· {nomeBello(m.squadra)}, {categoriaBreve(m.campionato)}</span></span>
-                  <span style={{ fontWeight: 700 }}>{m.punti} pt</span>
-                </div>
-              );
-            })}
-          </div>
-        ) : (
-          <p style={{ margin: 0, color: "var(--text-dim)", fontSize: "0.92rem", lineHeight: 1.6 }}>
-            Questa classifica nasce dalle segnalazioni delle società: i punti delle singole atlete stanno nei referti, che noi non possiamo vedere. Per ora non ne abbiamo ricevute per questa settimana.
-          </p>
-        )}
-        <p style={{ fontSize: "0.88rem", lineHeight: 1.6, margin: "1rem 0 0.7rem" }}>
-          Sei di una società? Segnalaci i punti delle tue atlete: li controlliamo e le mettiamo in classifica.
-        </p>
-        <SegnalaPuntiForm />
-      </section>
 
     </main>
   );
@@ -2299,7 +2117,7 @@ function RosaPage() {
     <main className="page-content">
       <h1 className="page-title">Rosa Squadre</h1>
       <p style={{ color: "var(--text-dim)", marginBottom: "1.5rem" }}>
-        Inserisci i nominativi delle tue atlete/atleti. I dati servono per presentare le squadre e per le iniziative del portale, come la classifica delle atlete con più punti. Non vengono pubblicati senza il consenso della società.
+        Inserisci i nominativi delle tue atlete/atleti. I dati servono per presentare le squadre e per le iniziative del portale. Non vengono pubblicati senza il consenso della società.
       </p>
 
       {status === "done" ? (
@@ -2388,7 +2206,7 @@ function PerLeSocietaPage() {
     { t: "Le vostre squadre sul sito", d: "Calendario, risultati e classifica di ogni vostra squadra, aggiornati in automatico dai dati FIPAV. Dopo ogni partita giocata compare anche una breve cronaca.", l: "#/squadre-iscritte", ll: "Guarda le squadre iscritte" },
     { t: "Le vostre notizie", d: "Un articolo, un risultato, un evento della società: scrivilo e lo pubblichiamo nella Bacheca. Serve l'iscrizione gratuita al sito.", l: "#/articoli-societa", ll: "Invia il tuo articolo" },
     { t: "La rosa della squadra", d: "Mandaci i nomi delle vostre atlete e atleti: servono per presentare le squadre e per le iniziative del portale.", l: "#/rosa", ll: "Invia la rosa" },
-    { t: "Squadra della Settimana e atlete con più punti", d: "Ogni settimana scegliamo la squadra da applaudire. Per la classifica delle atlete con più punti servono i dati dei vostri referti: li inviate con un modulo e li controlliamo noi.", l: "#/squadra-settimana", ll: "Vai alla pagina" },
+    { t: "Squadra della Settimana", d: "Ogni settimana il sito sceglie, dai risultati FIPAV, la squadra umbra da applaudire, con la grafica pronta da condividere sui social.", l: "#/squadra-settimana", ll: "Vai alla pagina" },
     { t: "La partita sul telefono", d: "Allenatori, atlete e genitori scelgono la loro squadra e si abbonano al calendario: le partite arrivano sul telefono e si aggiornano da sole, anche se cambia un orario.", l: "#/mia-squadra", ll: "Prova La mia squadra" },
     { t: "Sulla mappa", d: "Le società e le palestre dell'Umbria sulla Mappa volley, per farsi trovare da chi cerca una squadra vicino a casa.", l: "#/mappa", ll: "Apri la mappa" },
   ];
@@ -6367,7 +6185,6 @@ function Breadcrumb({ route }) {
     "camp": ["Tecnica", "Camp Estivi"],
     "allenatori": ["Allenatori", "Notizie Allenatori"],
     "mercato": ["Mercato", "Mercato"],
-    "atleta-settimana": ["Top", "Atlete della Settimana"],
     "mappa": ["Mappa", "Mappa Volley Umbro"],
     "chi-siamo": ["Chi Siamo"],
     "iscrizione": ["Iscriviti"],
@@ -8504,7 +8321,6 @@ useEffect(() => {
     "schede": ["Schede tecniche per allenatori di pallavolo | PallaVolleyAmo", "Schede tecniche ed esercizi per allenatori di pallavolo."],
     "velasco": ["Julio Velasco: pensieri e insegnamenti | PallaVolleyAmo", "Le frasi e gli insegnamenti di Julio Velasco per allenatori e giocatori."],
     "pillole": ["Pillole di pallavolo | PallaVolleyAmo", "Ogni giorno una pillola di pallavolo: consigli, tecnica e curiosità."],
-    "atleta-settimana": ["Atlete della Settimana | PallaVolleyAmo", "Le migliori atlete dei campionati umbri della settimana, con i punti segnalati dalle società."],
     "squadre-top": ["Squadre top di pallavolo | PallaVolleyAmo", "Le squadre di vertice della pallavolo italiana e umbra."],
     "preparazione-fisica": ["Preparazione fisica per la pallavolo | PallaVolleyAmo", "Esercizi di preparazione fisica per pallavolisti: core, gambe, spalle e pliometria."],
     "camp": ["Camp di pallavolo | PallaVolleyAmo", "I camp di pallavolo estivi e invernali per giovani atleti."],
@@ -8618,7 +8434,7 @@ useEffect(() => {
           {route === "allenatore-virtuale" && <AllenatoreVirtualePage />}
           {route === "archivio-riservato" && <ArchivioRiservatoPage />}
           {route === "palloni" && <PalloniPage />}
-          {route === "atleta-settimana" && <AtletaSettimanaPage />}
+          {route === "atleta-settimana" && <VaiA pagina="squadra-settimana" />}
           {route === "squadra-settimana" && <SquadraSettimanaPage />}
           {route === "mappa" && <MappaPage />}
           {route === "agenda" && <CalendarioCompletoPage />}
