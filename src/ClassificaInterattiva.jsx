@@ -5,7 +5,7 @@ import React, { useMemo, useState } from "react";
 // nomeSq: funzione che rende leggibile il nome squadra
 // onApriSquadra: (nomeOriginale) => void, apre la pagina della squadra
 
-function leggiSetPartita(score) {
+export function leggiSetPartita(score) {
   const parts = String(score || "").split("-");
   if (parts.length !== 2) return null;
   const c = parseInt(parts[0], 10);
@@ -14,13 +14,13 @@ function leggiSetPartita(score) {
   return [c, o];
 }
 
-function numGiornata(m) {
+export function numGiornata(m) {
   const n = parseInt(String(m.giornata || "").replace(/\D/g, ""), 10);
   return isNaN(n) ? null : n;
 }
 
 // Punti FIPAV: 3-0 / 3-1 = 3 punti, 3-2 = 2 punti alla vincente e 1 alla perdente
-function puntiPartita(vinti, persi) {
+export function puntiPartita(vinti, persi) {
   if (vinti > persi) return persi <= 1 ? 3 : 2;
   return vinti === 2 ? 1 : 0;
 }
@@ -33,7 +33,7 @@ function ordinaPartite(lista) {
   });
 }
 
-function calcola(partite, vista) {
+export function calcola(partite, vista = "totale") {
   const sq = {};
   const nuova = (nome) => ({ nome, g: 0, v: 0, p: 0, sv: 0, sp: 0, pts: 0, partite: [] });
   ordinaPartite(partite).forEach((m) => {
@@ -84,7 +84,7 @@ function fmtData(d) {
   return `${g}/${m}`;
 }
 
-export default function ClassificaInterattiva({ partite, nomeSq = (n) => n, onApriSquadra }) {
+export default function ClassificaInterattiva({ partite, nomeSq = (n) => n, onApriSquadra, evidenzia }) {
   const [vista, setVista] = useState("totale");
   const [ord, setOrd] = useState({ k: "pos", dir: 1 });
   const [aperta, setAperta] = useState(null);
@@ -158,7 +158,8 @@ export default function ClassificaInterattiva({ partite, nomeSq = (n) => n, onAp
           </thead>
           <tbody>
             {ordinate.map((s) => {
-              const evid = q && nomeSq(s.nome).toLowerCase().includes(q);
+              const mia = evidenzia && evidenzia(s.nome);
+              const evid = (q && nomeSq(s.nome).toLowerCase().includes(q)) || mia;
               const spenta = q && !evid;
               const isOpen = aperta === s.nome;
               const delta = variazioni[s.nome];

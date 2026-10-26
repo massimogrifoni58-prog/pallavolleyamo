@@ -29,6 +29,7 @@ import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
 import { PulsanteGrafica, PulsanteGraficaWeekend, PulsanteGraficaSquadra } from "./GraficaRisultato.jsx";
 import VicinoATe from "./VicinoATe.jsx";
 import ClassificaInterattiva from "./ClassificaInterattiva.jsx";
+import MiaSquadraInterattiva from "./MiaSquadraInterattiva.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -7293,8 +7294,6 @@ function MiaSquadraPage() {
   const prossime = mie.filter(ancoraDaGiocare).sort(ordina);
   const giocate = mie.filter((p) => p.ris).sort((a, b) => ordina(b, a));
   const prima = prossime.find((p) => !inCorso(p));
-  const v = giocate.filter((p) => esitoPartita(p, nome) === "V").length;
-  const s = giocate.filter((p) => esitoPartita(p, nome) === "S").length;
 
   return (
     <main>
@@ -7327,11 +7326,6 @@ function MiaSquadraPage() {
           <p className="state" style={{ marginBottom: "1.5rem" }}>Nessuna partita in programma al momento.</p>
         )}
 
-        {giocate.length > 0 && (
-          <p style={{ marginBottom: "1.5rem", fontSize: "0.9rem" }}>
-            Stagione finora: <strong style={{ color: "#5fd37e" }}>{v} vinte</strong> · <strong style={{ color: "#ff8a8a" }}>{s} perse</strong>
-          </p>
-        )}
 
         {mie.length > 0 && !iscritto && (
           <div style={{ marginBottom: "1.5rem" }}>
@@ -7363,25 +7357,19 @@ function MiaSquadraPage() {
           );
         })()}
 
-        {prossime.length > 0 && (
-          <>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem", marginBottom: "0.75rem" }}>
-              <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", margin: 0 }}>Prossime partite ({prossime.length})</h3>
-              <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>Scarica tutto il calendario</button>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem", marginBottom: "1.5rem" }}>
-              {prossime.slice(0, 12).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} />)}
-            </div>
-          </>
-        )}
+        <MiaSquadraInterattiva
+          nome={nome}
+          mie={mie}
+          tutte={partite}
+          squadraMia={squadraMia}
+          inCorso={inCorso}
+          onIcs={scaricaIcs}
+        />
 
-        {giocate.length > 0 && (
-          <>
-            <h3 style={{ fontSize: "0.95rem", color: "var(--gold)", marginBottom: "0.75rem" }}>Ultimi risultati</h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-              {giocate.slice(0, 10).map((p) => <RigaPartitaSquadra key={p.id} p={p} nome={nome} />)}
-            </div>
-          </>
+        {prossime.length > 0 && (
+          <div style={{ marginTop: "1rem" }}>
+            <button className="filter-btn" onClick={() => scaricaIcs(prossime, "calendario-" + normSq(nome).replace(/[^a-z0-9]+/g, "-") + ".ics")}>Scarica tutto il calendario</button>
+          </div>
         )}
       </section>
     </main>

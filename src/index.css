@@ -5251,3 +5251,116 @@ body.light-mode .ci-vista, body.light-mode .ci-cerca { background: #fff; }
 body.light-mode .ci-dettaglio td { background: #f6f4ec !important; }
 body.light-mode .ci-det__lista li { background: #fff; }
 body.light-mode .ci-riga.is-open td { background: rgba(212,175,55,0.18) !important; }
+
+/* ===== La mia squadra interattiva ===== */
+.ms { display: flex; flex-direction: column; gap: 1rem; max-width: 760px; }
+.ms-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.ms-chip { background: var(--bg-card); border: 1px solid var(--border-strong); color: var(--text-dim); border-radius: 999px; padding: 0.4rem 0.85rem; font: inherit; font-size: 0.8rem; font-weight: 600; cursor: pointer; }
+.ms-chip.is-on { background: var(--gold); border-color: var(--gold); color: #111114; }
+.ms-card { background: var(--bg-card); border: 1px solid var(--border-strong); border-radius: 14px; padding: 1rem 1.1rem; }
+.ms-card__titolo { font-family: "Bebas Neue", sans-serif; font-size: 1.35rem; letter-spacing: 0.04em; color: var(--gold); margin-bottom: 0.7rem; }
+.ms-etic { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); }
+.ms-nota { font-size: 0.72rem; color: var(--text-dim); margin: 0.5rem 0 0; }
+.ms-dim { color: var(--text-dim); }
+.ms-grafico__info .is-v, .ms-scheda b.is-v, .ms-ris.is-v { color: #5fd37e; }
+.ms-grafico__info .is-p, .ms-scheda b.is-p, .ms-ris.is-p { color: #ff8a8a; }
+.ms-btn { margin-top: 0.8rem; background: none; border: 1px solid var(--gold); color: var(--gold); border-radius: 999px; padding: 0.45rem 0.95rem; font: inherit; font-size: 0.8rem; font-weight: 600; cursor: pointer; }
+.ms-btn:hover, .ms-btn--pieno { background: var(--gold); color: #111114; }
+
+/* cruscotto */
+.ms-crusc { background: linear-gradient(135deg, rgba(212,175,55,0.14), var(--bg-card) 55%); border-color: rgba(212,175,55,0.45); }
+.ms-crusc__pos { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; }
+.ms-crusc__num { font-family: "Bebas Neue", sans-serif; font-size: 4rem; line-height: 0.9; color: var(--text); }
+.ms-crusc__num.is-podio { color: var(--gold); }
+.ms-crusc__su { font-size: 0.95rem; color: var(--text-dim); }
+.ms-crusc__delta { font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 999px; }
+.ms-crusc__delta.is-su { background: rgba(76,175,80,0.18); color: #5fd37e; }
+.ms-crusc__delta.is-giu { background: rgba(239,83,80,0.18); color: #ff8a8a; }
+.ms-crusc__camp { flex-basis: 100%; font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+.ms-crusc__dati { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.5rem; margin: 1rem 0; }
+.ms-dato { display: flex; flex-direction: column; background: rgba(255,255,255,0.03); border-radius: 10px; padding: 0.55rem 0.6rem; }
+.ms-dato strong { font-family: "Bebas Neue", sans-serif; font-size: 1.7rem; font-weight: 400; line-height: 1; color: var(--text); }
+.ms-dato strong.is-oro { color: var(--gold); }
+.ms-dato span { font-size: 0.64rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 0.2rem; }
+.ms-crusc__riga { display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: flex-end; justify-content: space-between; }
+.ms-forma { display: inline-flex; gap: 4px; margin-top: 0.35rem; }
+.ms-forma--mini { margin: 0 0 0 0.4rem; vertical-align: middle; }
+.ms-pallino { width: 1.5rem; height: 1.5rem; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.68rem; font-weight: 800; color: #fff !important; }
+.ms-forma--mini .ms-pallino { width: 1.1rem; height: 1.1rem; font-size: 0.55rem; }
+.ms-pallino.is-v { background: #2e7d32; }
+.ms-pallino.is-p { background: #c62828; }
+.ms-esiti__barre { display: flex; gap: 6px; height: 74px; align-items: flex-end; margin-top: 0.35rem; }
+.ms-esiti__col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; width: 2rem; height: 100%; }
+.ms-esiti__n { font-size: 0.72rem; font-weight: 700; color: var(--text); min-height: 1em; }
+.ms-esiti__bar { width: 100%; min-height: 3px; border-radius: 4px 4px 0 0; transition: height .5s ease; }
+.ms-esiti__col.is-v .ms-esiti__bar { background: #2e7d32; }
+.ms-esiti__col.is-p .ms-esiti__bar { background: #c62828; }
+.ms-esiti__l { font-size: 0.62rem; color: var(--text-dim); margin-top: 3px; }
+
+/* grafico andamento */
+.ms-grafico { width: 100%; max-width: 560px; height: auto; display: block; }
+.ms-grafico__griglia { stroke: var(--border-strong); stroke-dasharray: 3 4; }
+.ms-grafico__asse { fill: var(--text-dim); font-size: 9px; }
+.ms-grafico__linea { fill: none; stroke: var(--gold); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.ms-grafico__punto { cursor: pointer; }
+.ms-grafico__punto circle:nth-child(2) { fill: var(--gold); stroke: var(--bg-card); stroke-width: 2; transition: r .2s; }
+.ms-grafico__punto circle.is-v { fill: #4caf50; }
+.ms-grafico__punto circle.is-p { fill: #ef5350; }
+.ms-grafico__info { font-size: 0.85rem; margin-top: 0.4rem; }
+
+/* mini classifica */
+.ms-mini { display: flex; flex-direction: column; gap: 3px; }
+.ms-mini__riga { display: grid; grid-template-columns: 1.8rem 1fr auto 2.2rem; gap: 0.5rem; align-items: center; padding: 0.45rem 0.6rem; border-radius: 8px; font-size: 0.85rem; background: rgba(255,255,255,0.025); }
+.ms-mini__riga.is-mia { background: rgba(212,175,55,0.18); font-weight: 700; box-shadow: inset 3px 0 0 var(--gold); }
+.ms-mini__pos { color: var(--text-dim); font-weight: 700; text-align: center; }
+.ms-mini__nome { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ms-mini__g { font-size: 0.72rem; color: var(--text-dim); }
+.ms-mini__pt { text-align: center; font-weight: 800; color: #111114; background: var(--gold); border-radius: 999px; padding: 0.1rem 0; }
+.ms-mini__salto { text-align: center; color: var(--text-dim); font-size: 0.8rem; line-height: 0.8; }
+.ms-card .ci { max-width: none; }
+
+/* calendario */
+.ms-filtri { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.8rem; }
+.ms-cal { display: flex; flex-direction: column; gap: 6px; }
+.ms-partita { border: 1px solid var(--border-strong); border-radius: 10px; overflow: hidden; border-left: 4px solid var(--border-strong); }
+.ms-partita.is-v { border-left-color: #4caf50; }
+.ms-partita.is-p { border-left-color: #ef5350; }
+.ms-partita.is-open { border-color: rgba(212,175,55,0.5); }
+.ms-partita__testa { width: 100%; display: grid; grid-template-columns: 2.8rem 1fr auto; gap: 0.7rem; align-items: center; background: none; border: 0; color: var(--text); font: inherit; text-align: left; padding: 0.55rem 0.7rem; cursor: pointer; }
+.ms-partita__testa:hover { background: rgba(212,175,55,0.05); }
+.ms-partita__data { display: flex; flex-direction: column; align-items: center; line-height: 1; }
+.ms-partita__data b { font-family: "Bebas Neue", sans-serif; font-size: 1.6rem; font-weight: 400; color: var(--gold); }
+.ms-partita__data span { font-size: 0.62rem; text-transform: uppercase; color: var(--text-dim); }
+.ms-partita__centro { display: flex; flex-direction: column; min-width: 0; }
+.ms-partita__avv { font-size: 0.92rem; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ms-partita__dove { display: inline-block; font-size: 0.58rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.1rem 0.35rem; border-radius: 4px; margin-right: 0.4rem; vertical-align: 2px; }
+.ms-partita__dove.is-casa { background: rgba(212,175,55,0.2); color: var(--gold); }
+.ms-partita__dove.is-fuori { background: rgba(255,255,255,0.08); color: var(--text-dim); }
+.ms-partita__sub { font-size: 0.72rem; color: var(--text-dim); margin-top: 0.15rem; }
+.ms-ris { font-weight: 800; font-size: 0.95rem; padding: 0.2rem 0.55rem; border-radius: 999px; }
+.ms-ris.is-v { background: rgba(76,175,80,0.2); }
+.ms-ris.is-p { background: rgba(239,83,80,0.2); }
+.ms-quando { font-size: 0.75rem; font-weight: 700; color: var(--gold); white-space: nowrap; }
+.ms-live { font-size: 0.7rem; font-weight: 800; color: #ff6b66; animation: msPulsa 1.2s ease-in-out infinite; }
+@keyframes msPulsa { 50% { opacity: 0.4; } }
+.ms-scheda { padding: 0.3rem 0.9rem 0.9rem 4.2rem; display: flex; flex-direction: column; gap: 0.45rem; font-size: 0.84rem; animation: ciApri .25s ease; }
+.ms-scheda__riga { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.5rem; align-items: baseline; }
+.ms-scheda a { color: var(--gold); }
+.ms-scheda .ms-btn { align-self: flex-start; margin-top: 0.4rem; }
+
+@media (max-width: 600px) {
+  .ms-card { padding: 0.85rem 0.8rem; }
+  .ms-crusc__dati { grid-template-columns: repeat(3, 1fr); }
+  .ms-crusc__dati .ms-dato:nth-child(n+4) { grid-column: span 1; }
+  .ms-scheda { padding-left: 0.9rem; }
+  .ms-scheda__riga { grid-template-columns: 4.6rem 1fr; }
+  .ms-filtri .ci-vista { width: 100%; justify-content: space-between; }
+  .ms-filtri .ci-vista__btn { flex: 1; font-size: 0.72rem; padding: 0.4rem 0.3rem; white-space: nowrap; }
+  .ms-partita__avv { white-space: normal; }
+  .ms-crusc__num { font-size: 3.4rem; }
+}
+body.light-mode .ms-dato, body.light-mode .ms-mini__riga { background: #f6f4ec; }
+body.light-mode .ms-mini__riga.is-mia { background: rgba(212,175,55,0.25); }
+body.light-mode .ms-partita__dove.is-fuori { background: #ecebe5; }
+body.light-mode .ms-grafico__info .is-v, body.light-mode .ms-scheda b.is-v, body.light-mode .ms-ris.is-v { color: #2e7d32; }
+body.light-mode .ms-grafico__info .is-p, body.light-mode .ms-scheda b.is-p, body.light-mode .ms-ris.is-p { color: #c62828; }
