@@ -5443,3 +5443,16 @@ body.light-mode .ms-grafico__info .is-p, body.light-mode .ms-scheda b.is-p, body
 body.light-mode .rc-g, body.light-mode .rc-freccia { background: #fff; }
 body.light-mode .rc-p__sq.is-perde .rc-p__set { background: #ecebe5; }
 body.light-mode .rc-g.is-sel { background: var(--gold); color: #111114; }
+.rc-squadre { display: flex; flex-wrap: wrap; gap: 6px; }
+.rc-sqchip { display: inline-flex; align-items: center; gap: 0.35rem; background: var(--bg-card); border: 1px solid var(--border-strong); color: var(--text); border-radius: 999px; padding: 0.3rem 0.7rem 0.3rem 0.35rem; font: inherit; font-size: 0.78rem; cursor: pointer; transition: background .2s, border-color .2s; max-width: 100%; }
+.rc-sqchip:hover { border-color: var(--gold); }
+.rc-sqchip__pos { flex: 0 0 auto; min-width: 1.35rem; height: 1.35rem; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.66rem; font-weight: 800; background: rgba(212,175,55,0.15); color: var(--gold); }
+.rc-sqchip__nome { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rc-sqchip.is-on { background: var(--gold); border-color: var(--gold); color: #111114; font-weight: 700; }
+.rc-sqchip.is-on .rc-sqchip__pos { background: #111114; color: var(--gold); }
+.rc-sq__azioni { display: flex; align-items: center; gap: 0.5rem; }
+.rc-chiudi { width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid var(--border-strong); background: none; color: var(--text-dim); cursor: pointer; font-size: 0.9rem; }
+.rc-chiudi:hover { color: var(--gold); border-color: var(--gold); }
+@media (max-width: 600px) { .rc-sqchip { font-size: 0.74rem; padding: 0.28rem 0.6rem 0.28rem 0.3rem; } }
+body.light-mode .rc-sqchip { background: #fff; }
+body.light-mode .rc-sqchip.is-on { background: var(--gold); }

@@ -71,14 +71,14 @@ export default function RisultatiCalendario({ partite, modo = "risultati", grafi
 
   const [vista, setVista] = useState(giornate.length ? "giornate" : "mese");
   const [gSel, setGSel] = useState(giornataIniziale);
-  const [cerca, setCerca] = useState("");
+  const [sqSel, setSqSel] = useState(null);
   const [aperta, setAperta] = useState(null);
 
   // al cambio di campionato si riparte dalla giornata giusta
   useEffect(() => {
     setVista(giornate.length ? "giornate" : "mese");
     setGSel(giornataIniziale());
-    setCerca("");
+    setSqSel(null);
     setAperta(null);
   }, [partite]);
 
@@ -87,9 +87,11 @@ export default function RisultatiCalendario({ partite, modo = "risultati", grafi
 
   if (!lista.length) return <p className="state">Nessuna partita disponibile per questo campionato.</p>;
 
-  const q = norm(cerca);
-  const squadre = [...new Set(lista.flatMap((p) => [p.casa, p.ospite]))].filter(Boolean);
-  const trovate = q ? squadre.filter((s) => norm(s).includes(q) || norm(bello(s)).includes(q)) : [];
+  // squadre del campionato, in ordine di classifica (chi non ha ancora giocato in fondo)
+  const squadre = [...new Set(lista.flatMap((p) => [p.casa, p.ospite]))].filter(Boolean)
+    .sort((a, b) => ((posDi(a) || {}).pos || 999) - ((posDi(b) || {}).pos || 999) || bello(a).localeCompare(bello(b), "it"));
+  const q = sqSel && squadre.includes(sqSel) ? sqSel : null;
+  const scegliSquadra = (n) => { setSqSel(q === n ? null : n); setAperta(null); };
 
   return (
     <div className="rc">
@@ -98,18 +100,29 @@ export default function RisultatiCalendario({ partite, modo = "risultati", grafi
           {giornate.length > 0 && (
             <button type="button" role="tab" aria-selected={vista === "giornate"}
               className={"ci-vista__btn" + (vista === "giornate" && !q ? " is-on" : "")}
-              onClick={() => { setVista("giornate"); setCerca(""); setAperta(null); }}>Giornate</button>
+              onClick={() => { setVista("giornate"); setSqSel(null); setAperta(null); }}>Giornate</button>
           )}
           <button type="button" role="tab" aria-selected={vista === "mese"}
             className={"ci-vista__btn" + (vista === "mese" && !q ? " is-on" : "")}
-            onClick={() => { setVista("mese"); setCerca(""); setAperta(null); }}>Mese</button>
+            onClick={() => { setVista("mese"); setSqSel(null); setAperta(null); }}>Mese</button>
         </div>
-        <input className="ci-cerca" type="search" placeholder="Cerca una squadra"
-          value={cerca} onChange={(e) => { setCerca(e.target.value); setAperta(null); }} aria-label="Cerca una squadra" />
+      </div>
+
+      <div className="rc-squadre" role="group" aria-label="Squadre del campionato">
+        {squadre.map((n) => {
+          const r = posDi(n);
+          return (
+            <button key={n} type="button" className={"rc-sqchip" + (q === n ? " is-on" : "")}
+              aria-pressed={q === n} onClick={() => scegliSquadra(n)} title={"Partite di " + bello(n)}>
+              {r && <span className="rc-sqchip__pos">{r.pos}</span>}
+              <span className="rc-sqchip__nome">{bello(n)}</span>
+            </button>
+          );
+        })}
       </div>
 
       {q ? (
-        <VistaSquadre trovate={trovate} lista={lista} scheda={scheda} />
+        <VistaSquadre key={q} trovate={[q]} lista={lista} scheda={scheda} onChiudi={() => setSqSel(null)} />
       ) : vista === "giornate" ? (
         <VistaGiornate giornate={giornate} gSel={gSel} setGSel={(g) => { setGSel(g); setAperta(null); }} lista={lista} scheda={scheda} />
       ) : (
@@ -259,7 +272,7 @@ function VistaMese({ lista, scheda, gIniziale }) {
 }
 
 // ---------- Ricerca squadra ----------
-function VistaSquadre({ trovate, lista, scheda }) {
+function VistaSquadre({ trovate, lista, scheda, onChiudi }) {
   const [filtro, setFiltro] = useState("tutte");
   if (!trovate.length) return <p className="state">Nessuna squadra trovata in questo campionato.</p>;
   const set = new Set(trovate);
@@ -276,9 +289,14 @@ function VistaSquadre({ trovate, lista, scheda }) {
               <div className="rc-sq__nome">{bello(s)}</div>
               {r && <div className="rc-sq__info">{r.pos}° in classifica · {r.pts} punti · {r.v} vinte, {r.p} perse</div>}
             </div>
-            {scheda.onApriSquadra && (
-              <button type="button" className="ms-btn" style={{ marginTop: 0 }} onClick={() => scheda.onApriSquadra(s)}>La mia squadra →</button>
-            )}
+            <div className="rc-sq__azioni">
+              {scheda.onApriSquadra && (
+                <button type="button" className="ms-btn" style={{ marginTop: 0 }} onClick={() => scheda.onApriSquadra(s)}>La mia squadra →</button>
+              )}
+              {onChiudi && (
+                <button type="button" className="rc-chiudi" onClick={onChiudi} aria-label="Chiudi e torna al campionato">✕</button>
+              )}
+            </div>
           </div>
         );
       })}
