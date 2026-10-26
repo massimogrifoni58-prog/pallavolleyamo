@@ -5167,3 +5167,17 @@ body.light-mode .bm-card__blocco strong { color: #8a6508; }
   .vicino__riga { grid-template-columns: 3rem 1fr; }
   .vicino__vai { grid-column: 2; justify-self: start; }
 }
+
+/* CONTINUA CON ISCRIZIONE + PAGINA ISCRIZIONE */
+.continua-iscr { position: relative; max-width: 66ch; margin: -1.5rem 0 2rem; }
+.continua-iscr__sfuma { height: 4rem; background: linear-gradient(to bottom, transparent, var(--bg)); }
+.continua-iscr__box { border: 1px solid var(--gold); border-radius: 12px; padding: 1.1rem 1.2rem; background: linear-gradient(135deg, rgba(212,175,55,0.12), rgba(212,175,55,0.03)); text-align: center; }
+.continua-iscr__titolo { margin: 0 0 0.35rem; color: var(--gold); font-weight: 700; font-size: 1.02rem; }
+.continua-iscr__testo { margin: 0 0 0.9rem; font-size: 0.88rem; line-height: 1.55; color: var(--text); }
+.continua-iscr__btn { display: inline-block; padding: 0.7rem 1.3rem; border-radius: 999px; background: var(--gold); color: #141413; font-weight: 700; font-size: 0.92rem; text-decoration: none; }
+.continua-iscr__nota { margin: 0.6rem 0 0; font-size: 0.75rem; color: var(--text-dim); }
+.iscr-vantaggi { max-width: 560px; margin: 0 auto 1.25rem; padding-left: 1.2rem; text-align: left; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.9rem; line-height: 1.5; }
+.iscr-vantaggi strong { color: var(--gold); }
+.iscr-fatto { max-width: 560px; margin: 0 auto; }
+.iscr-fatto__azioni { display: flex; flex-direction: column; align-items: flex-start; gap: 0.7rem; margin-top: 0.5rem; }
+.iscr-fatto__link { color: var(--gold); font-weight: 700; text-decoration: none; font-size: 0.92rem; }

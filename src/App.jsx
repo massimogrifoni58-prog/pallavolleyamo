@@ -664,7 +664,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           label="Top Umbria"
           subscribed={subscribed}
           items={[
-            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire", locked: true },
+            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire" },
           ]}
         />
         <NavDropdown
@@ -672,7 +672,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           tre
           subscribed={subscribed}
           items={[
-            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", locked: true, evidenza: true },
+            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", evidenza: true },
             { href: "#/mia-squadra", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
             { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
@@ -5682,6 +5682,7 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [consenso, setConsenso] = useState(false);
+  const [newsletter, setNewsletter] = useState(false);
   const [status, setStatus] = useState("idle"); // idle | sending | done | error
   const [trappola, setTrappola] = useState(""); // campo nascosto: lo riempiono solo i robot
   const apertaIl = React.useRef(Date.now());
@@ -5702,7 +5703,12 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
     fetch("https://formspree.io/f/xrenqkbd", {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ nome: nome.trim().slice(0, 80), email: email.trim().slice(0, 120) }),
+      body: JSON.stringify({
+        _subject: "Nuova iscrizione - PallaVolleyAmo",
+        nome: nome.trim().slice(0, 80),
+        email: email.trim().slice(0, 120),
+        newsletter: newsletter ? "SI - accetta di ricevere email" : "no",
+      }),
     })
       .then((r) => {
         if (!r.ok) throw new Error("rifiutato");
@@ -5718,15 +5724,37 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
         <h2 className="feed-heading">Iscrizione</h2>
 
         {status === "done" ? (
-          <p className="state home-intro__text">
-            Grazie {nome}! La tua iscrizione e' stata registrata. Ora puoi
-            leggere tutte le notizie per intero.
-          </p>
+          <div className="iscr-fatto">
+            <p className="state home-intro__text" style={{ textAlign: "left" }}>
+              Grazie {nome}! La tua iscrizione è registrata. Adesso hai accesso a tutto:
+            </p>
+            {(() => {
+              let ritorno = "";
+              try { ritorno = sessionStorage.getItem("pva_dopo_iscrizione") || ""; sessionStorage.removeItem("pva_dopo_iscrizione"); } catch (e) {}
+              const vai = [
+                ritorno === "pallavolo-umbria" ? null : ["pallavolo-umbria", "Leggi La Settimana Volley"],
+                ["mia-squadra", "Scegli la tua squadra e mettila sul telefono"],
+                ["regionali", "Leggi le notizie"],
+              ].filter(Boolean);
+              return (
+                <div className="iscr-fatto__azioni">
+                  {ritorno && <a className="continua-iscr__btn" href={"#/" + ritorno}>{ritorno === "pallavolo-umbria" ? "Torna a La Settimana Volley" : "Torna alla pagina"}</a>}
+                  {vai.map(([h, t]) => <a key={h} className="iscr-fatto__link" href={"#/" + h}>{t} →</a>)}
+                </div>
+              );
+            })()}
+          </div>
         ) : (
           <>
             <p className="state home-intro__text">
-              L'iscrizione è completamente gratuita! Accedi a tutte le notizie senza limiti, segui i campionati umbri e resta sempre aggiornato sul volley della tua regione.
+              L'iscrizione è gratuita e bastano nome ed email. Ecco cosa ottieni:
             </p>
+            <ul className="iscr-vantaggi">
+              <li><strong>La Settimana Volley completa</strong>: ogni settimana il commento sul volley umbro, i derby e le partite da segnare squadra per squadra.</li>
+              <li><strong>Il calendario della tua squadra sul telefono</strong>, che si aggiorna da solo quando cambiano date e orari.</li>
+              <li><strong>Tutte le notizie per intero</strong>, con il collegamento all'articolo originale.</li>
+              <li><strong>Pubblicare</strong> articoli della tua società e annunci nel Mercato, e giocare a tutti i livelli di Palloni in ordine.</li>
+            </ul>
 
             <form
               name="iscrizione"
@@ -5770,6 +5798,17 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
                 <span>
                   Accetto il trattamento dei miei dati secondo la{" "}
                   <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
+                </span>
+              </label>
+              <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.82rem", margin: "0 0 0.75rem", cursor: "pointer" }}>
+                <input
+                  type="checkbox"
+                  checked={newsletter}
+                  onChange={(e) => setNewsletter(e.target.checked)}
+                  style={{ marginTop: "0.2rem" }}
+                />
+                <span>
+                  Voglio ricevere via email La Settimana Volley e le novità di PallaVolleyAmo (facoltativo, puoi annullare quando vuoi)
                 </span>
               </label>
               <button
@@ -6402,7 +6441,7 @@ function BannerIscrizione({ onClose }) {
           Ti piace PallaVolleyAmo?
         </div>
         <div style={{ fontSize: "0.78rem", color: "var(--text-dim)" }}>
-          Iscriviti gratis per leggere tutte le notizie senza limiti.
+          Iscriviti gratis: La Settimana Volley completa, il calendario della tua squadra sul telefono e tutte le notizie.
         </div>
       </div>
       <div style={{ display: "flex", gap: "0.6rem" }}>
@@ -8095,8 +8134,29 @@ function WeekendUmbriaPage() {
   );
 }
 
+// Riquadro che chiude un contenuto riservato agli iscritti
+function ContinuaConIscrizione({ titolo, testo, ritorno }) {
+  return (
+    <div className="continua-iscr">
+      <div className="continua-iscr__sfuma" aria-hidden="true" />
+      <div className="continua-iscr__box">
+        <p className="continua-iscr__titolo">{titolo}</p>
+        <p className="continua-iscr__testo">{testo}</p>
+        <a className="continua-iscr__btn" href="#/iscrizione"
+          onClick={() => { try { sessionStorage.setItem("pva_dopo_iscrizione", ritorno || ""); } catch (e) {} }}>
+          Iscriviti gratis e continua a leggere
+        </a>
+        <p className="continua-iscr__nota">Bastano nome ed email. Nessun costo.</p>
+      </div>
+    </div>
+  );
+}
+
 function PallavoloUmbriaPage() {
   const dati = pallavoloUmbriaData || {};
+  const { subscribed: iscritto } = useSubscribed();
+  // Chi non e' iscritto legge titolo, occhiello e la prima parte; il resto dopo l'iscrizione gratuita
+  const sezioniVisibili = iscritto ? (dati.sezioni || []) : (dati.sezioni || []).slice(0, 1);
   const squadre = dati.squadre || [];
   const derby = dati.derby || null;
   const serieCD = dati.serieCD || {};
@@ -8157,7 +8217,7 @@ function PallavoloUmbriaPage() {
         <CondividiBar titolo={dati.titolo} percorso="pallavolo-umbria" />
         {dati.sezioni && dati.sezioni.length > 0 ? (
           <div style={{ maxWidth: "66ch", marginBottom: "2rem" }}>
-            {dati.sezioni.map((s, i) => (
+            {sezioniVisibili.map((s, i) => (
               <div key={i} style={{ marginBottom: "1.75rem" }}>
                 {s.titolo && (
                   <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", lineHeight: 1.3, margin: "0 0 0.55rem" }}>{s.titolo}</h3>
@@ -8177,11 +8237,19 @@ function PallavoloUmbriaPage() {
           </div>
         ) : (
           dati.commento && (
-            <p style={{ lineHeight: 1.75, maxWidth: "66ch", marginBottom: "1.75rem", whiteSpace: "pre-line" }}>{dati.commento}</p>
+            <p style={{ lineHeight: 1.75, maxWidth: "66ch", marginBottom: "1.75rem", whiteSpace: "pre-line" }}>{iscritto ? dati.commento : dati.commento.split(/\n\s*\n/)[0]}</p>
           )
         )}
 
-        {derby && (
+        {!iscritto && (
+          <ContinuaConIscrizione
+            titolo="Il resto della settimana è per gli iscritti"
+            testo="Continua a leggere il commento completo, i derby, le partite da segnare squadra per squadra, Serie C e D e l'archivio delle settimane precedenti."
+            ritorno="pallavolo-umbria"
+          />
+        )}
+
+        {iscritto && derby && (
           <div style={{ ...cardStyle, borderColor: "var(--gold)", background: "rgba(212,175,55,0.07)", marginBottom: "1.75rem" }}>
             <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", margin: "0 0 0.3rem" }}>{derby.titolo}</h3>
             {derby.nota && (
@@ -8193,6 +8261,7 @@ function PallavoloUmbriaPage() {
           </div>
         )}
 
+        {iscritto && (<>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.25rem" }}>
           {["Tutte", "Femminile", "Maschile"].map((f) => (
             <button key={f}
@@ -8286,6 +8355,7 @@ function PallavoloUmbriaPage() {
             </div>
           </div>
         )}
+        </>)}
       </section>
     </main>
   );
