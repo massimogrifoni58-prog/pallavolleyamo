@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:48:22.725729+00:00",
+  "generatedAt": "2026-10-26T19:49:04.138219+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6247,7 +6247,7 @@
         "ora": "18:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-b-8",
@@ -7365,7 +7365,7 @@
         "ora": "17:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-a-9",
@@ -7667,7 +7667,7 @@
         "ora": "18:15",
         "casa": "PMU MARSCIANO",
         "ospite": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-9",
@@ -8131,7 +8131,7 @@
         "ora": "18:45",
         "casa": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
         "ospite": "AMERINA PALLAVOLO A S D",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-f-5",
