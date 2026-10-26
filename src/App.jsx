@@ -28,6 +28,7 @@ import calendarioSquadreData from "../data/calendario_squadre.json";
 import { cronaca as cronacaPartita, leggiSet, nomeBello } from "./cronaca.js";
 import { PulsanteGrafica, PulsanteGraficaWeekend, PulsanteGraficaSquadra } from "./GraficaRisultato.jsx";
 import VicinoATe from "./VicinoATe.jsx";
+import ClassificaInterattiva from "./ClassificaInterattiva.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import * as d3 from "d3";
@@ -4754,41 +4755,6 @@ function ClassificaPage() {
     }
   }, [selMacro]);
 
-  function calcClassifica(partite) {
-    const squadre = {};
-    partite.forEach((m) => {
-      const parts = (m.score || "").split("-");
-      if (parts.length !== 2) return;
-      const setCasa = parseInt(parts[0], 10);
-      const setOspite = parseInt(parts[1], 10);
-      if (isNaN(setCasa) || isNaN(setOspite)) return;
-      [m.home, m.away].forEach((sq) => {
-        if (!squadre[sq]) squadre[sq] = { nome: sq, g: 0, v: 0, p: 0, sv: 0, sp: 0, pts: 0 };
-      });
-      const home = squadre[m.home];
-      const away = squadre[m.away];
-      home.g++; away.g++;
-      home.sv += setCasa; home.sp += setOspite;
-      away.sv += setOspite; away.sp += setCasa;
-      if (setCasa > setOspite) {
-        home.v++; away.p++;
-        if (setOspite <= 1) { home.pts += 3; away.pts += 0; }
-        else { home.pts += 2; away.pts += 1; }
-      } else {
-        away.v++; home.p++;
-        if (setCasa <= 1) { away.pts += 3; home.pts += 0; }
-        else { away.pts += 2; home.pts += 1; }
-      }
-    });
-    return Object.values(squadre).sort((a, b) => {
-      if (b.pts !== a.pts) return b.pts - a.pts;
-      if (b.v !== a.v) return b.v - a.v;
-      const ratioA = a.sp ? a.sv / a.sp : 0;
-      const ratioB = b.sp ? b.sv / b.sp : 0;
-      return ratioB - ratioA;
-    });
-  }
-
   const gironiDaMostrare = selMacro && selComp && byMacro[selMacro] && byMacro[selMacro][selComp]
     ? { [selComp]: byMacro[selMacro][selComp] }
     : selMacro && !selComp && byMacro[selMacro]
@@ -4827,46 +4793,18 @@ function ClassificaPage() {
           <p className="state">Nessun risultato disponibile.</p>
         )}
 
-        {gironeNames.map((girone) => {
-          const classifica = calcClassifica(gironiDaMostrare[girone] || []);
-          return (
-            <div key={girone} style={{ marginBottom: "2rem" }}>
-              {gironeNames.length > 1 && (
-                <h3 className="competition-block__title">{girone}</h3>
-              )}
-              <div className="classifica-wrap">
-              <table className="classifica-table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th className="classifica-table__nome">Squadra</th>
-                    <th title="Partite giocate">G</th>
-                    <th title="Vittorie">V</th>
-                    <th title="Sconfitte">P</th>
-                    <th title="Set vinti">SV</th>
-                    <th title="Set persi">SP</th>
-                    <th title="Punti">Pt</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {classifica.map((sq, i) => (
-                    <tr key={sq.nome} className={i === 0 ? "classifica-table__first" : ""}>
-                      <td className="classifica-table__pos"><span className={"classifica-pos" + (i < 3 ? " classifica-pos--" + (i + 1) : "")}>{i + 1}</span></td>
-                      <td className="classifica-table__nome">{nomeSq(sq.nome)}</td>
-                      <td>{sq.g}</td>
-                      <td>{sq.v}</td>
-                      <td>{sq.p}</td>
-                      <td>{sq.sv}</td>
-                      <td>{sq.sp}</td>
-                      <td className="classifica-table__pts">{sq.pts}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-              </div>
-            </div>
-          );
-        })}
+        {gironeNames.map((girone) => (
+          <div key={girone} style={{ marginBottom: "2rem" }}>
+            {gironeNames.length > 1 && (
+              <h3 className="competition-block__title">{girone}</h3>
+            )}
+            <ClassificaInterattiva
+              partite={gironiDaMostrare[girone] || []}
+              nomeSq={nomeSq}
+              onApriSquadra={(nome) => navigateTo("mia-squadra?squadra=" + encodeURIComponent(nome))}
+            />
+          </div>
+        ))}
       </section>
     </main>
   );
