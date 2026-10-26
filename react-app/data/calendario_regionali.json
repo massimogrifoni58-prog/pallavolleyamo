@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:49:04.138219+00:00",
+  "generatedAt": "2026-10-26T23:40:21.056196+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5961,8 +5961,8 @@
         "id": "giov-under-17-femminile-girone-a-9",
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "4",
-        "data": "2026-11-02",
-        "ora": "17:30",
+        "data": "2026-11-05",
+        "ora": "19:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
         "risultato": null
@@ -6838,7 +6838,7 @@
         "campionato": "Under 19 Femminile Girone B",
         "giornata": "3",
         "data": "2026-10-30",
-        "ora": "20:00",
+        "ora": "20:30",
         "casa": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
         "risultato": null
@@ -9304,7 +9304,7 @@
         "campionato": "Under 19 Femminile ELITE",
         "giornata": "10",
         "data": "2027-01-20",
-        "ora": "18:45",
+        "ora": "17:15",
         "casa": "PMU MARSCIANO",
         "ospite": "A.S. FOSSATO VOLLEY",
         "risultato": null

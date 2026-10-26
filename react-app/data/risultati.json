@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:49:44.913579+00:00",
+  "generatedAt": "2026-10-26T23:41:00.778352+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -12179,20 +12179,20 @@
       "status": "in programma"
     },
     {
-      "id": "131639397",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 10",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "PALLAVOLO CITTA' DI CASTELLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639400",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 10",
       "home": "PMU MARSCIANO",
       "away": "A.S. FOSSATO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639397",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 10",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13916,20 +13916,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641430",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 4",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641431",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 4",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "TRESTINA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641430",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -19604,20 +19604,20 @@
       "status": "in programma"
     },
     {
-      "id": "131672936",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 4",
-      "home": "PALLAVOLO CITTA' DI CASTELLO",
-      "away": "SCHOOL VOLLEY PERUGIA VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672934",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 4",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672936",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "PALLAVOLO CITTA' DI CASTELLO",
+      "away": "SCHOOL VOLLEY PERUGIA VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20441,20 +20441,20 @@
       "status": "in programma"
     },
     {
-      "id": "131673029",
-      "competition": "Under 13 Femminile Girone D",
-      "giornata": "Giornata 5",
-      "home": "TREVI VOLLEY",
-      "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131673028",
       "competition": "Under 13 Femminile Girone D",
       "giornata": "Giornata 5",
       "home": "REBELS ASSISI U13",
       "away": "SPELLO VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673029",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 5",
+      "home": "TREVI VOLLEY",
+      "away": "MARCONI MONINI PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
