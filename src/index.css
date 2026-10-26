@@ -5364,3 +5364,82 @@ body.light-mode .ms-mini__riga.is-mia { background: rgba(212,175,55,0.25); }
 body.light-mode .ms-partita__dove.is-fuori { background: #ecebe5; }
 body.light-mode .ms-grafico__info .is-v, body.light-mode .ms-scheda b.is-v, body.light-mode .ms-ris.is-v { color: #2e7d32; }
 body.light-mode .ms-grafico__info .is-p, body.light-mode .ms-scheda b.is-p, body.light-mode .ms-ris.is-p { color: #c62828; }
+
+/* ===== Risultati e calendario interattivi ===== */
+.rc { display: flex; flex-direction: column; gap: 0.9rem; max-width: 760px; margin: 0 auto 1.5rem; }
+.rc-barra { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+.rc-freccia { flex: 0 0 auto; width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid var(--border-strong); background: var(--bg-card); color: var(--gold); font-size: 1.3rem; line-height: 1; cursor: pointer; }
+.rc-freccia:disabled { opacity: 0.3; cursor: default; }
+.rc-giornate { display: flex; align-items: center; gap: 0.5rem; }
+.rc-strip { flex: 1; display: flex; gap: 6px; overflow-x: auto; scroll-behavior: smooth; padding: 4px 2px 6px; scrollbar-width: thin; }
+.rc-g { flex: 0 0 auto; width: 2.6rem; height: 2.9rem; border-radius: 10px; border: 1px solid var(--border-strong); background: var(--bg-card); color: var(--text-dim); cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: inherit; }
+.rc-g__n { font-family: "Bebas Neue", sans-serif; font-size: 1.3rem; line-height: 1; }
+.rc-g__pt { width: 6px; height: 6px; border-radius: 50%; background: var(--border-strong); }
+.rc-g.is-giocata .rc-g__pt, .rc-leg.is-giocata { background: var(--gold); }
+.rc-g.is-parziale .rc-g__pt, .rc-leg.is-parziale { background: #ff8c00; }
+.rc-g.is-futura .rc-g__pt, .rc-leg.is-futura { background: transparent; box-shadow: inset 0 0 0 1.5px var(--text-dim); }
+.rc-g.is-giocata { color: var(--text); }
+.rc-g.is-sel { background: var(--gold); border-color: var(--gold); color: #111114; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(212,175,55,0.3); }
+.rc-g.is-sel .rc-g__pt { background: #111114; box-shadow: none; }
+.rc-leg { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin: 0 2px 0 6px; vertical-align: 1px; }
+.rc-testa__tit { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem; }
+.rc-testa__g { font-family: "Bebas Neue", sans-serif; font-size: 1.6rem; color: var(--gold); letter-spacing: 0.03em; }
+.rc-testa__date { font-size: 0.8rem; color: var(--text-dim); text-transform: capitalize; }
+.rc-testa__dati { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.78rem; color: var(--text-dim); margin: 0.3rem 0 0.9rem; }
+.rc-testa__dati b { color: var(--text); font-size: 0.9rem; }
+.rc-lista { display: flex; flex-direction: column; gap: 6px; }
+
+.rc-p { border: 1px solid var(--border-strong); border-radius: 10px; overflow: hidden; }
+.rc-p.is-open { border-color: rgba(212,175,55,0.55); }
+.rc-p__testa { width: 100%; display: grid; grid-template-columns: 3rem 1fr auto; gap: 0.7rem; align-items: center; background: none; border: 0; color: var(--text); font: inherit; text-align: left; padding: 0.6rem 0.75rem; cursor: pointer; }
+.rc-p__testa:hover { background: rgba(212,175,55,0.05); }
+.rc-p__ora { display: flex; flex-direction: column; align-items: center; line-height: 1.1; font-size: 0.62rem; text-transform: uppercase; color: var(--text-dim); }
+.rc-p__ora b { font-size: 0.82rem; color: var(--text); text-transform: none; }
+.rc-p__ora b:first-child { font-family: "Bebas Neue", sans-serif; font-size: 1.5rem; font-weight: 400; color: var(--gold); }
+.rc-p__squadre { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.rc-p__sq { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; font-size: 0.9rem; }
+.rc-p__nome { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rc-p__set { font-family: "Bebas Neue", sans-serif; font-size: 1.35rem; font-weight: 400; line-height: 1; min-width: 1.4rem; text-align: center; border-radius: 5px; }
+.rc-p__sq.is-vince { font-weight: 700; }
+.rc-p__sq.is-vince .rc-p__set { background: var(--gold); color: #111114; }
+.rc-p__sq.is-perde { color: var(--text-dim); }
+.rc-p__sq.is-perde .rc-p__set { background: rgba(255,255,255,0.06); color: var(--text-dim); }
+.rc-p__sq.is-mia .rc-p__nome { color: var(--gold); }
+.rc-p__g { font-size: 0.66rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; }
+.rc-p__stato { text-align: right; }
+.rc-fine { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); }
+.rc-scheda { padding-left: 4.4rem; }
+.rc-scheda__pos { display: flex; flex-direction: column; gap: 0.25rem; }
+.rc-scheda__azioni { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.rc-scheda__azioni .ms-btn { margin-top: 0.2rem; }
+
+.rc-mese__nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.7rem; }
+.rc-mese__nome { font-family: "Bebas Neue", sans-serif; font-size: 1.5rem; color: var(--gold); text-transform: capitalize; letter-spacing: 0.03em; }
+.rc-griglia { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; max-width: 460px; margin: 0 auto; }
+.rc-griglia--testa span { text-align: center; font-size: 0.68rem; font-weight: 700; color: var(--text-dim); padding-bottom: 2px; }
+.rc-giorno { aspect-ratio: 1; border-radius: 8px; border: 1px solid var(--border); background: transparent; color: var(--text-dim); font: inherit; font-size: 0.8rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; cursor: pointer; position: relative; }
+.rc-giorno:disabled { cursor: default; opacity: 0.55; }
+.rc-giorno small { font-size: 0.58rem; font-weight: 800; line-height: 1; padding: 1px 4px; border-radius: 999px; }
+.rc-giorno.is-giocata { color: var(--text); border-color: rgba(212,175,55,0.5); background: rgba(212,175,55,0.1); }
+.rc-giorno.is-giocata small { background: var(--gold); color: #111114; }
+.rc-giorno.is-parziale small { background: #ff8c00; color: #111114; }
+.rc-giorno.is-futura { color: var(--text); border-color: var(--border-strong); }
+.rc-giorno.is-futura small { box-shadow: inset 0 0 0 1px var(--gold); color: var(--gold); }
+.rc-giorno.is-oggi { box-shadow: 0 0 0 2px var(--gold); }
+.rc-giorno.is-sel { background: var(--gold); color: #111114; border-color: var(--gold); }
+.rc-giorno.is-sel small { background: #111114; color: var(--gold); box-shadow: none; }
+
+.rc-sq { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; padding: 0.3rem 0 0.6rem; border-bottom: 1px solid var(--border); margin-bottom: 0.4rem; }
+.rc-sq__nome { font-family: "Bebas Neue", sans-serif; font-size: 1.4rem; color: var(--gold); letter-spacing: 0.02em; }
+.rc-sq__info { font-size: 0.8rem; color: var(--text-dim); }
+
+@media (max-width: 600px) {
+  .rc-p__testa { grid-template-columns: 2.6rem 1fr auto; gap: 0.5rem; padding: 0.55rem 0.6rem; }
+  .rc-p__sq { font-size: 0.85rem; }
+  .rc-scheda { padding-left: 0.9rem; }
+  .rc-freccia { width: 1.9rem; height: 1.9rem; }
+  .rc-strip { gap: 5px; }
+}
+body.light-mode .rc-g, body.light-mode .rc-freccia { background: #fff; }
+body.light-mode .rc-p__sq.is-perde .rc-p__set { background: #ecebe5; }
+body.light-mode .rc-g.is-sel { background: var(--gold); color: #111114; }
