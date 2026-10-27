@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:11:52.709357+00:00",
+  "generatedAt": "2026-10-27T17:49:39.144979+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -5204,15 +5204,6 @@
       "status": "in programma"
     },
     {
-      "id": "131627189",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 15",
-      "home": "POLISPORTIVA DELFINO - IDROSFERA",
-      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627188",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 15",
@@ -5254,6 +5245,15 @@
       "giornata": "Giornata 15",
       "home": "SIRIO PERUGIA",
       "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627189",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 15",
+      "home": "POLISPORTIVA DELFINO - IDROSFERA",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16373,20 +16373,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659140",
-      "competition": "Under 15 Femminile Girone B",
-      "giornata": "Giornata 5",
-      "home": "PMU MARSCIANO BLU",
-      "away": "FOLIGNO U15 ROSA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659141",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 5",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "away": "SIR PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659140",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 5",
+      "home": "PMU MARSCIANO BLU",
+      "away": "FOLIGNO U15 ROSA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16472,20 +16472,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659152",
-      "competition": "Under 15 Femminile Girone B",
-      "giornata": "Giornata 9",
-      "home": "PMU MARSCIANO BLU",
-      "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659153",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 9",
       "home": "SIRIO PALLAVOLO ROSSA",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659152",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 9",
+      "home": "PMU MARSCIANO BLU",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20351,6 +20351,15 @@
       "status": "in programma"
     },
     {
+      "id": "131672959",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 2",
+      "home": "REVISIONANDO VITT CHIUSI",
+      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131672958",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 2",
@@ -20365,15 +20374,6 @@
       "giornata": "Giornata 2",
       "home": "TIBER VOLLEY BIANCA",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131672959",
-      "competition": "Under 13 Femminile Girone B",
-      "giornata": "Giornata 2",
-      "home": "REVISIONANDO VITT CHIUSI",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -21242,6 +21242,15 @@
       "status": "in programma"
     },
     {
+      "id": "131673079",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 5",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "NARNI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131673077",
       "competition": "Under 13 Femminile Girone E",
       "giornata": "Giornata 5",
@@ -21256,15 +21265,6 @@
       "giornata": "Giornata 5",
       "home": "BOSICO BLU GENESIS SOLUTIONS",
       "away": "POLISPORTIVA CLT",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131673079",
-      "competition": "Under 13 Femminile Girone E",
-      "giornata": "Giornata 5",
-      "home": "NARNI SPORT ACADEMY",
-      "away": "NARNI",
       "score": "da disputare",
       "status": "in programma"
     },
