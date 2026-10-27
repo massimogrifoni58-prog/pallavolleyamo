@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T17:48:59.444588+00:00",
+  "generatedAt": "2026-10-27T22:00:17.535091+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5935,7 +5935,7 @@
         "ora": "19:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-a-7",
@@ -6851,7 +6851,7 @@
         "ora": "20:30",
         "casa": "ELLERA VOLLEY",
         "ospite": "FOLIGNO - SPELLO",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-b-8",
@@ -7123,7 +7123,7 @@
         "ora": "18:00",
         "casa": "TIBER VOLLEY",
         "ospite": "Rebels Marconi  Monini Assisi",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "giov-under-17-femminile-elite-5",
@@ -7133,7 +7133,7 @@
         "ora": "20:00",
         "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
         "ospite": "POLISP DON BOSCO GUBBIO BIANCA",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-elite-6",
@@ -7647,7 +7647,7 @@
         "ora": "19:00",
         "casa": "SIRIO PALLAVOLO ARANCIO",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-d-7",
@@ -8515,7 +8515,7 @@
         "ora": "19:30",
         "casa": "CITTA DI CASTELLO PALLAVOLO",
         "ospite": "STRIKE TEAM MONTELUCE U19",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-maschile-girone-a-3",
