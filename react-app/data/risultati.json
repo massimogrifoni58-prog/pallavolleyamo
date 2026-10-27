@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T06:03:26.551354+00:00",
+  "generatedAt": "2026-10-27T10:11:52.709357+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -19510,6 +19510,546 @@
       "giornata": "Giornata 10",
       "home": "COLLELUNA VOLLEY SAN GEMINI",
       "away": "ORVIETO VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676060",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676061",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676062",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676063",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "SIR GIOVANILE MERICAT PG",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676064",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676065",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 1",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676066",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 2",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676067",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 2",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676068",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 2",
+      "home": "SIR GIOVANILE MERICAT PG",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676069",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 2",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676070",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 3",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676071",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 3",
+      "home": "SIR GIOVANILE MERICAT PG",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676072",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 3",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676073",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 3",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676074",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "SIR GIOVANILE MERICAT PG",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676075",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676076",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676077",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676078",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676079",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 4",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676080",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 5",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676081",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 5",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676082",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 5",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676083",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 5",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676084",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676085",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "away": "VOLLEY BORGO ALTOTEVERE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676086",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "CITTÀ DI CASTELLO PALLAVOLO BIANCA",
+      "away": "SCHOOL VOLLEY PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676087",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "VOLLEY BORGO ALTOTEVERE",
+      "away": "SIR GIOVANILE MERICAT PG",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676088",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "SCHOOL VOLLEY PERUGIA",
+      "away": "CITTÀ DI CASTELLO PALLAVOLO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676089",
+      "competition": "Under 13 Maschile 4x4 Girone A",
+      "giornata": "Giornata 6",
+      "home": "SIR GIOVANILE MERICAT PG",
+      "away": "ASD VOLLEY CASTIGLIONE DEL LAGO 13M",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676090",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676091",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676092",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "INTER VOLLEY FOLIGNO AZZURRA",
+      "away": "INTER VOLLEY FOLIGNO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676093",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "INTER VOLLEY FOLIGNO BIANCA",
+      "away": "MARCONI MONINI-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676094",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "INTER VOLLEY FOLIGNO ROSSA",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676095",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 1",
+      "home": "MARCONI MONINI-TERNI VA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676096",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 2",
+      "home": "INTER VOLLEY FOLIGNO ROSSA",
+      "away": "MARCONI MONINI-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676097",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 2",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676098",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 2",
+      "home": "INTER VOLLEY FOLIGNO BIANCA",
+      "away": "INTER VOLLEY FOLIGNO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676099",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 2",
+      "home": "MARCONI MONINI-TERNI VA",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676100",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 3",
+      "home": "INTER VOLLEY FOLIGNO AZZURRA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676101",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 3",
+      "home": "INTER VOLLEY FOLIGNO BIANCA",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676102",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 3",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676103",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 3",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676104",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO BIANCA",
+      "away": "INTER VOLLEY FOLIGNO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676105",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "MARCONI MONINI-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676106",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO ROSSA",
+      "away": "INTER VOLLEY FOLIGNO AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676107",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676108",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "INTER VOLLEY FOLIGNO AZZURRA",
+      "away": "INTER VOLLEY FOLIGNO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676109",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 4",
+      "home": "MARCONI MONINI-TERNI VA",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676110",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 5",
+      "home": "POLISPORTIVA CLT",
+      "away": "INTER VOLLEY FOLIGNO AZZURRA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676111",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 5",
+      "home": "MARCONI MONINI-TERNI VA",
+      "away": "INTER VOLLEY FOLIGNO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676112",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 5",
+      "home": "INTER VOLLEY FOLIGNO ROSSA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676113",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 5",
+      "home": "INTER VOLLEY FOLIGNO AZZURRA",
+      "away": "MARCONI MONINI-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676114",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "INTER VOLLEY FOLIGNO ROSSA",
+      "away": "POLISPORTIVA CLT",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676115",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "INTER VOLLEY FOLIGNO AZZURRA",
+      "away": "MARCONI MONINI-TERNI VA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676116",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "POLISPORTIVA CLT",
+      "away": "SIR MERICAT PERUGIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676117",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "MARCONI MONINI-TERNI VA",
+      "away": "INTER VOLLEY FOLIGNO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676118",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "SIR MERICAT PERUGIA",
+      "away": "INTER VOLLEY FOLIGNO ROSSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131676119",
+      "competition": "Under 13 Maschile 4x4 Girone B",
+      "giornata": "Giornata 6",
+      "home": "INTER VOLLEY FOLIGNO BIANCA",
+      "away": "INTER VOLLEY FOLIGNO AZZURRA",
       "score": "da disputare",
       "status": "in programma"
     },
