@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T19:24:54.989188+00:00",
+  "generatedAt": "2026-10-28T23:57:01.255294+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -3321,7 +3321,7 @@
         "ora": "21:00",
         "casa": "EMMEPI  GROUP  PONTE FELCINO",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-d-femminile-a-10",
@@ -7355,7 +7355,7 @@
         "ora": "20:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-a-8",
@@ -7929,7 +7929,7 @@
         "ora": "18:30",
         "casa": "FARMACIA ANGELICI ARRONE",
         "ospite": "ASD PALLAVOLO NORCIA",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-17-femminile-girone-e-5",
@@ -7939,7 +7939,7 @@
         "ora": "18:30",
         "casa": "FOLIGNO VOLLEY ROSSA",
         "ospite": "MARCONI MONINI PALLAVOLO BLU",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-e-6",
@@ -8917,7 +8917,7 @@
         "ora": "19:30",
         "casa": "SIRIO PALLAVOLO",
         "ospite": "SAN MARIANO VOLLEY",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "giov-under-19-femminile-elite-1",
@@ -8937,7 +8937,7 @@
         "ora": "18:45",
         "casa": "PALLAVOLO CITTA' DI CASTELLO",
         "ospite": "PMU MARSCIANO",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-19-femminile-elite-3",
