@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:11:23.209689+00:00",
+  "generatedAt": "2026-10-28T06:02:40.251822+00:00",
   "posts": [
     {
       "title": "Serie A3, Terni Volley Academy sconfitta a Sorrento all’esordio in campionato",
@@ -22,7 +22,7 @@
       "title": "VOLLEY FEMMINILE: PERUGIA, TERNI E GUBBIO (INSIEME) ALLA MOMA WINTER CUP. A UN SOFFIO DALLA FINALE.",
       "excerpt": "Si è spezzato sul più bello il sogno delle ragazze della UMBRIA VOLLEY di approdare alla finalissima della MOMA WINTER CUP che si è disputata a Modena  il 27,28 e 29 dicembre. Le ragazze del consorzio",
       "createdTime": "Wed, 01 Jan 2020 20:15:38 GMT",
-      "image": "https://img.terninrete.it/2020/01/80663930_307269116836610_7246268272608280576_n-1.jpg",
+      "image": null,
       "permalink": "https://terninrete.it/notizie-di-terni-volley-femminile-perugia-terni-e-gubbio-insieme-alla-moma-winter-cup-a-un-soffio-dalla-finale/"
     },
     {
@@ -62,7 +62,7 @@
       "title": "VOLLEY, IL CLT STUPISCE A FERRARA",
       "excerpt": "Quando meno te lo aspetti arriva il colpo di coda del CLT Volley che va a vincere a Ferrara in un incontro combattuto ma in cui i ternani riescono a dare il massimo. Nel primo set gli estensi sono pro",
       "createdTime": "Tue, 05 Dec 2017 21:55:00 GMT",
-      "image": "https://img.terninrete.it/2019/03/Volley-serie-B.jpg",
+      "image": null,
       "permalink": "https://terninrete.it/notizie-di-terni-volley-il-clt-stupisce-a-ferrara-434891/"
     },
     {
@@ -82,11 +82,19 @@
       "id": "1"
     },
     {
+      "title": "La Terni Volley cerca la prima vittoria in serie A 3 contro la Gaia Energy Napoli",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 09 Nov 2025 03:22:00 GMT",
+      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2025/11/08/9177140_08210447_.jpg",
+      "permalink": "https://www.ilmessaggero.it/umbria/la_terni_volley_cerca_la_prima_vittoria_serie_3_contro_la_gaia_energy_napoli-9177140.html",
+      "id": "7"
+    },
+    {
       "id": "alpanathlonaffascinanteseratac",
       "title": "AL PANATHLON AFFASCINANTE SERATA CON IL VOLLEY DELLA BOSICO DEGLI ANNI 50/60",
       "excerpt": "Per la conviviale del mese di giugno il presidente del Panathlon di Terni, Massimo Carignani, ha invitato atleti e dirigenti che negli anni 5o/60 hanno militato nella Bosico facendo grande la pallavol",
       "createdTime": "Sat, 17 Jun 2017 14:27:00 GMT",
-      "image": "https://img.terninrete.it/2019/03/172710FullSizeRender.jpg",
+      "image": null,
       "permalink": "https://terninrete.it/notizie-di-terni-al-panathlon-affascinante-serata-con-il-volley-della-bosico-degli-anni-5060-403282/"
     },
     {
