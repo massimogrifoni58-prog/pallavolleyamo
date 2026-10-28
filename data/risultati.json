@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:03:11.664819+00:00",
+  "generatedAt": "2026-10-28T10:58:46.504814+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -8804,20 +8804,20 @@
       "status": "in programma"
     },
     {
-      "id": "131657883",
-      "competition": "2 Divisione Femminile Girone A",
-      "giornata": "Giornata 11",
-      "home": "TIBER VOLLEY",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657885",
       "competition": "2 Divisione Femminile Girone A",
       "giornata": "Giornata 11",
       "home": "UISP VOLLEY UMBERTIDE BIANCA",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657883",
+      "competition": "2 Divisione Femminile Girone A",
+      "giornata": "Giornata 11",
+      "home": "TIBER VOLLEY",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13970,20 +13970,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641438",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 6",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641436",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 6",
       "home": "TRESTINA VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641438",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20324,15 +20324,6 @@
       "status": "in programma"
     },
     {
-      "id": "131672957",
-      "competition": "Under 13 Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
-      "away": "SIRIO PALLAVOLO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672956",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 1",
@@ -20347,6 +20338,15 @@
       "giornata": "Giornata 1",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "away": "REVISIONANDO VITT CHIUSI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672957",
+      "competition": "Under 13 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "SIRIO PALLAVOLO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },

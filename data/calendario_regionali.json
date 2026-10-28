@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:06:53.614981+00:00",
+  "generatedAt": "2026-10-28T11:03:19.870079+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -1925,8 +1925,8 @@
         "id": "serie-c-femminile-26",
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "5",
-        "data": "2026-11-15",
-        "ora": "19:00",
+        "data": "2026-11-25",
+        "ora": "20:40",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "VIANDER ACTON BASTIA",
         "risultato": null
@@ -3868,7 +3868,7 @@
         "campionato": "Serie D Femminile Girone A",
         "giornata": "11",
         "data": "2027-01-16",
-        "ora": "17:00",
+        "ora": "18:00",
         "casa": "POLISPORTIVA DELFINO - IDROSFERA",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI",
         "risultato": null
@@ -6041,8 +6041,8 @@
         "id": "giov-under-17-femminile-girone-a-17",
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "6",
-        "data": "2026-11-16",
-        "ora": "17:30",
+        "data": "2026-11-19",
+        "ora": "19:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
         "risultato": null
