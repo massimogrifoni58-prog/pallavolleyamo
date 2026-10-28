@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:03:19.870079+00:00",
+  "generatedAt": "2026-10-28T19:24:54.989188+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5955,7 +5955,7 @@
         "ora": "18:30",
         "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-a-9",
@@ -6081,8 +6081,8 @@
         "id": "giov-under-17-femminile-girone-a-21",
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "8",
-        "data": "2026-11-30",
-        "ora": "17:30",
+        "data": "2026-12-03",
+        "ora": "19:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null
@@ -6237,7 +6237,7 @@
         "ora": "19:00",
         "casa": "SIRIO PALLAVOLO ROSSA",
         "ospite": "VOLLEY PONTE FELCINO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-b-7",
@@ -8541,7 +8541,7 @@
         "id": "giov-under-19-maschile-girone-a-5",
         "campionato": "Under 19 Maschile Girone A",
         "giornata": "2",
-        "data": "2026-11-02",
+        "data": "2026-11-16",
         "ora": "18:45",
         "casa": "STRIKE TEAM MONTELUCE U19",
         "ospite": "PALLAVOLO GUBBIO",

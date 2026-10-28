@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:58:46.504814+00:00",
+  "generatedAt": "2026-10-28T19:25:42.947929+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -11225,15 +11225,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644059",
-      "competition": "Under 19 Maschile Girone A",
-      "giornata": "Giornata 2",
-      "home": "STRIKE TEAM MONTELUCE U19",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644058",
       "competition": "Under 19 Maschile Girone A",
       "giornata": "Giornata 2",
@@ -11248,6 +11239,15 @@
       "giornata": "Giornata 2",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "SIR MERICAT ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644059",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 2",
+      "home": "STRIKE TEAM MONTELUCE U19",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13282,8 +13282,8 @@
       "giornata": "Giornata 1",
       "home": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
       "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131644338",
@@ -13291,8 +13291,8 @@
       "giornata": "Giornata 1",
       "home": "SIR GIOVANILE MERICAT GREEN",
       "away": "SIR MERICAT PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131644340",
@@ -13894,8 +13894,8 @@
       "giornata": "Giornata 3",
       "home": "POLIS. DON BOSCO  GUBBIO VERDE",
       "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641428",
@@ -14024,20 +14024,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641442",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 8",
-      "home": "PALLAVOLO GUBBIO",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641444",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 8",
       "home": "TRESTINA VOLLEY",
       "away": "POLIS. DON BOSCO  GUBBIO VERDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641442",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "PALLAVOLO GUBBIO",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -14164,8 +14164,8 @@
       "giornata": "Giornata 3",
       "home": "SIRIO PALLAVOLO ROSSA",
       "away": "VOLLEY PONTE FELCINO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641459",
@@ -20243,20 +20243,20 @@
       "status": "in programma"
     },
     {
-      "id": "131672948",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 8",
-      "home": "TRESTINA VOLLEY",
-      "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672947",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 8",
       "home": "PALLAVOLO CITTA' DI CASTELLO",
       "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672948",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 8",
+      "home": "TRESTINA VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },

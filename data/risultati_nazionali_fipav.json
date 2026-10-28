@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:59:50.650851+00:00",
+  "generatedAt": "2026-10-28T19:25:58.271626+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -24,18 +24,6 @@
       "data": "11/10/2026 ore 17:00",
       "dataIso": "2026-10-11",
       "ora": "17:00"
-    },
-    {
-      "id": "lva2-3224",
-      "competition": "Serie A2 Femminile Girone Unico",
-      "giornata": "Giornata",
-      "home": "TENAGLIA ALTINO AVASTESE VOLLEY",
-      "away": "BARTOCCINI +ENERGIA PERUGIA",
-      "data": "14/10/2026 ore 20:30",
-      "dataIso": "2026-10-14",
-      "ora": "20:30",
-      "score": "0-3",
-      "status": "disputata"
     },
     {
       "id": "fp7802",
@@ -67,8 +55,8 @@
       "giornata": "Giornata",
       "home": "BARTOCCINI +ENERGIA PERUGIA",
       "away": "NUVOLI' ALTAFRATTE PADOVA",
-      "score": "3-0",
-      "status": "disputata",
+      "score": "da disputare",
+      "status": "in programma",
       "data": "18/10/2026 ore 17:00",
       "dataIso": "2026-10-18",
       "ora": "17:00"
@@ -161,7 +149,7 @@
       "id": "fp11027",
       "competition": "Serie B2 Girone F",
       "giornata": "Giornata",
-      "home": "STARVOLLEY CITTA' DI CAST.",
+      "home": "FEMAC TRESTINA VOLLEY",
       "away": "CIMAS ASD VOLLEY URBANIA",
       "score": "da disputare",
       "status": "in programma",
