@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-10-28T10:57:45.127655+00:00",
+  "generatedAt": "2026-10-29T06:02:39.088959+00:00",
   "posts": [
+    {
+      "title": "Altotevere: “Una sconfitta non deve inficiare il lavoro che facciamo”, dice Marra",
+      "excerpt": "Il vice di coach Monaldi invita il gruppo a non dare peso alla sconfitta di Cantù e punta sul fattore mentalità, oltre che sulla bontà del percorso compiuto finora Una sconfitta che ci poteva anche st",
+      "createdTime": "Wed, 28 Oct 2026 13:03:22 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/marra-davide-preparatore.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35629",
+      "id": "1"
+    },
     {
       "title": "Simone Marini: «Positiva la reazione per Città di Castello»",
       "excerpt": "Ha trovato la sconfitta nella prima trasferta stagionale di serie B maschile la formazione targata Città di Castello Pallavolo. I biancorossi hanno affrontato una Jesi determinata a fare risultato e n",
       "createdTime": "Wed, 28 Oct 2026 06:00:02 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Marini-Simone.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/simone-marini-positiva-la-reazione-per-citta-di-castello/",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "D Femminile: Buona la prima. Ponte Valleceppi e Bastia volano, subito maratone da tie-break",
@@ -15,7 +23,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:40:51 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35628",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "Serie C Femminile: Bastia, Trevi e Bartoccini fanno la voce grossa. Marsciano di rimonta",
@@ -23,7 +31,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:28:55 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35626",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Serie C Maschile: Italchimici e Marsciano a punteggio pieno, derby Sir al cardiopalma",
@@ -31,7 +39,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:24:44 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35625",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "Pallavolo Padova direzione Perugia: c’è l’anticipo dell’undicesima di andata",
@@ -39,23 +47,7 @@
       "createdTime": "Tue, 27 Oct 2026 17:07:36 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Luca-Loreti__-BENDA-261025_191327_MB5_3054_wqxga.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35623",
-      "id": "5"
-    },
-    {
-      "title": "Serie B2 femminile: Fail Group Marsciano corsara (3-2) a Pontedera",
-      "excerpt": "Le ragazze del tecnico Sperandio piegano in rimonta l’Ambra Cavallini dopo oltre 2 ore e 45 minuti di battaglia, prevalendo alla distanza. Per la Carboni 19 punti, per la Iacobbi 9 muri vincenti Impre",
-      "createdTime": "Tue, 27 Oct 2026 16:08:31 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/carboni-veronica.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35621",
       "id": "6"
-    },
-    {
-      "title": "Bastia Umbra si conferma vincente a Fossato di Vico",
-      "excerpt": "Nella seconda giornata del campionato di serie C femminile la Viander Acton Bastia si impone per tre a zero in trasferta sul campo della Fossato Volley. La compagine biancoazzurra resta a punteggio pi",
-      "createdTime": "Mon, 26 Oct 2026 06:00:24 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Viander-Acton-Bastia-successo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/bastia-umbra-si-conferma-vincente-a-fossato-di-vico/",
-      "id": "7"
     },
     {
       "title": "Serie D maschile: partenza a razzo, i verdetti del primo turno",
@@ -63,7 +55,7 @@
       "createdTime": "Tue, 20 Oct 2026 17:46:35 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35553",
-      "id": "8"
+      "id": "7"
     }
   ]
 }
