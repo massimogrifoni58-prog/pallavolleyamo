@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T06:06:29.634307+00:00",
+  "generatedAt": "2026-10-29T11:23:03.976707+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -135,7 +135,7 @@
         "giornata": "1",
         "data": "2026-10-17",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "ROSSI ASCENSORI FOLIGNO",
         "risultato": "3 - 1"
       },
@@ -225,7 +225,7 @@
         "giornata": "3",
         "data": "2026-10-31",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "CITTA' DI CASTELLO PALLAVOLO",
         "risultato": null
       },
@@ -295,7 +295,7 @@
         "giornata": "4",
         "data": "2026-11-07",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
         "risultato": null
       },
@@ -346,7 +346,7 @@
         "data": "2026-11-14",
         "ora": "17:00",
         "casa": "VOLLEY CASCIA SPOLETO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -445,7 +445,7 @@
         "giornata": "6",
         "data": "2026-11-21",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null
       },
@@ -486,7 +486,7 @@
         "data": "2026-11-28",
         "ora": "21:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -555,7 +555,7 @@
         "giornata": "8",
         "data": "2026-12-05",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
         "risultato": null
       },
@@ -586,7 +586,7 @@
         "data": "2026-12-12",
         "ora": "17:30",
         "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -675,7 +675,7 @@
         "giornata": "10",
         "data": "2026-12-19",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "POLISPORTIVA DELFINO - SAIMA",
         "risultato": null
       },
@@ -736,7 +736,7 @@
         "data": "2027-01-09",
         "ora": "18:00",
         "casa": "ITALCHIMICI",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -785,7 +785,7 @@
         "giornata": "12",
         "data": "2027-01-16",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "ENERGY PMU MARSCIANO",
         "risultato": null
       },
@@ -856,7 +856,7 @@
         "data": "2027-01-24",
         "ora": "18:00",
         "casa": "UNIKO VOLLEY ORTE",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -916,7 +916,7 @@
         "data": "2027-02-13",
         "ora": "17:00",
         "casa": "ROSSI ASCENSORI FOLIGNO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1006,7 +1006,7 @@
         "data": "2027-02-28",
         "ora": "17:00",
         "casa": "CITTA' DI CASTELLO PALLAVOLO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1076,7 +1076,7 @@
         "data": "2027-03-06",
         "ora": "17:00",
         "casa": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1125,7 +1125,7 @@
         "giornata": "18",
         "data": "2027-03-13",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "VOLLEY CASCIA SPOLETO",
         "risultato": null
       },
@@ -1226,7 +1226,7 @@
         "data": "2027-03-20",
         "ora": "21:00",
         "casa": "UISP VOLLEY UMBERTIDE",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1265,7 +1265,7 @@
         "giornata": "20",
         "data": "2027-04-03",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "VOLLEY BORGO ALTOTEVERE",
         "risultato": null
       },
@@ -1336,7 +1336,7 @@
         "data": "2027-04-10",
         "ora": "17:00",
         "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1365,7 +1365,7 @@
         "giornata": "22",
         "data": "2027-04-17",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
         "risultato": null
       },
@@ -1456,7 +1456,7 @@
         "data": "2027-04-25",
         "ora": "17:30",
         "casa": "POLISPORTIVA DELFINO - SAIMA",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1515,7 +1515,7 @@
         "giornata": "24",
         "data": "2027-05-01",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "ITALCHIMICI",
         "risultato": null
       },
@@ -1566,7 +1566,7 @@
         "data": "2027-01-30",
         "ora": "17:00",
         "casa": "ENERGY PMU MARSCIANO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -1635,7 +1635,7 @@
         "giornata": "26",
         "data": "2027-02-06",
         "ora": "17:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "UNIKO VOLLEY ORTE",
         "risultato": null
       },
@@ -3249,7 +3249,7 @@
         "giornata": "1",
         "data": "2026-10-25",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "STRIKE TEAM MONTELUCE",
         "risultato": "3 - 2"
       },
@@ -3300,7 +3300,7 @@
         "data": "2026-11-01",
         "ora": "18:00",
         "casa": "NVBS BLUE PANTHERS",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3349,7 +3349,7 @@
         "giornata": "3",
         "data": "2026-11-07",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "PALLAVOLO GUBBIO",
         "risultato": null
       },
@@ -3409,7 +3409,7 @@
         "giornata": "4",
         "data": "2026-11-15",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "NUOVA PALLAVOLO GUALDO",
         "risultato": null
       },
@@ -3490,7 +3490,7 @@
         "data": "2026-11-21",
         "ora": "18:30",
         "casa": "OMG VOLLEY PONTE VALLECEPPI",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3579,7 +3579,7 @@
         "giornata": "6",
         "data": "2026-11-29",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "TIBER VOLLEY",
         "risultato": null
       },
@@ -3630,7 +3630,7 @@
         "data": "2026-12-05",
         "ora": "18:00",
         "casa": "EMMEPI  GROUP  PONTE FELCINO",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3669,7 +3669,7 @@
         "giornata": "8",
         "data": "2026-12-13",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "SIRIO PERUGIA",
         "risultato": null
       },
@@ -3760,7 +3760,7 @@
         "data": "2026-12-19",
         "ora": "17:00",
         "casa": "POLISPORTIVA DELFINO - IDROSFERA",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3799,7 +3799,7 @@
         "giornata": "10",
         "data": "2027-01-10",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
         "risultato": null
       },
@@ -3850,7 +3850,7 @@
         "data": "2027-01-16",
         "ora": "20:45",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3910,7 +3910,7 @@
         "data": "2027-01-23",
         "ora": "20:00",
         "casa": "STRIKE TEAM MONTELUCE",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -3959,7 +3959,7 @@
         "giornata": "13",
         "data": "2027-02-14",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "NVBS BLUE PANTHERS",
         "risultato": null
       },
@@ -4010,7 +4010,7 @@
         "data": "2027-02-20",
         "ora": "18:00",
         "casa": "PALLAVOLO GUBBIO",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -4070,7 +4070,7 @@
         "data": "2027-02-28",
         "ora": "17:00",
         "casa": "NUOVA PALLAVOLO GUALDO",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -4149,7 +4149,7 @@
         "giornata": "16",
         "data": "2027-03-07",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI",
         "risultato": null
       },
@@ -4240,7 +4240,7 @@
         "data": "2027-03-13",
         "ora": "18:30",
         "casa": "TIBER VOLLEY",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -4289,7 +4289,7 @@
         "giornata": "18",
         "data": "2027-03-21",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "EMMEPI  GROUP  PONTE FELCINO",
         "risultato": null
       },
@@ -4330,7 +4330,7 @@
         "data": "2027-04-04",
         "ora": "17:00",
         "casa": "SIRIO PERUGIA",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -4419,7 +4419,7 @@
         "giornata": "20",
         "data": "2027-04-11",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "POLISPORTIVA DELFINO - IDROSFERA",
         "risultato": null
       },
@@ -4460,7 +4460,7 @@
         "data": "2027-04-18",
         "ora": "18:30",
         "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-        "ospite": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "risultato": null
       },
       {
@@ -4509,7 +4509,7 @@
         "giornata": "22",
         "data": "2027-04-25",
         "ora": "19:00",
-        "casa": "SCHOOL VOLLEY PERUGIA  GREEN1",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
         "risultato": null
       },
@@ -6151,8 +6151,8 @@
         "id": "giov-under-17-femminile-girone-a-28",
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "10",
-        "data": "2026-12-14",
-        "ora": "17:30",
+        "data": "2026-12-17",
+        "ora": "19:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "TRESTINA VOLLEY",
         "risultato": null
@@ -8945,7 +8945,7 @@
         "giornata": "1",
         "data": "2026-10-29",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "A.S. FOSSATO VOLLEY",
         "risultato": null
       },
@@ -8976,7 +8976,7 @@
         "data": "2026-11-04",
         "ora": "18:45",
         "casa": "PMU MARSCIANO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9015,7 +9015,7 @@
         "giornata": "3",
         "data": "2026-11-12",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "TIBER VOLLEY",
         "risultato": null
       },
@@ -9036,7 +9036,7 @@
         "data": "2026-11-19",
         "ora": "20:00",
         "casa": "SAN MARIANO VOLLEY",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9085,7 +9085,7 @@
         "giornata": "5",
         "data": "2026-11-26",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "SIRIO PALLAVOLO",
         "risultato": null
       },
@@ -9136,7 +9136,7 @@
         "data": "2026-12-03",
         "ora": "20:30",
         "casa": "MARCONI MONINI PALLAVOLO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9175,7 +9175,7 @@
         "giornata": "7",
         "data": "2026-12-09",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO",
         "risultato": null
       },
@@ -9226,7 +9226,7 @@
         "data": "2026-12-16",
         "ora": "18:00",
         "casa": "A.S. FOSSATO VOLLEY",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9255,7 +9255,7 @@
         "giornata": "9",
         "data": "2027-01-14",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "PMU MARSCIANO",
         "risultato": null
       },
@@ -9296,7 +9296,7 @@
         "data": "2027-01-19",
         "ora": "19:45",
         "casa": "TIBER VOLLEY",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9315,7 +9315,7 @@
         "giornata": "11",
         "data": "2027-01-27",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "SAN MARIANO VOLLEY",
         "risultato": null
       },
@@ -9366,7 +9366,7 @@
         "data": "2027-02-10",
         "ora": "19:30",
         "casa": "SIRIO PALLAVOLO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -9415,7 +9415,7 @@
         "giornata": "13",
         "data": "2027-02-18",
         "ora": "19:45",
-        "casa": "SCHOOL VOLLEY PERUGIA",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "MARCONI MONINI PALLAVOLO",
         "risultato": null
       },
@@ -9456,7 +9456,7 @@
         "data": "2027-02-24",
         "ora": "18:45",
         "casa": "PALLAVOLO CITTA' DI CASTELLO",
-        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
