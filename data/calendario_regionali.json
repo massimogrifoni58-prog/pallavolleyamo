@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:35:59.009155+00:00",
+  "generatedAt": "2026-10-30T22:04:54.875336+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -6841,7 +6841,7 @@
         "ora": "20:30",
         "casa": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-b-7",
@@ -6861,7 +6861,7 @@
         "ora": "18:30",
         "casa": "REBELS ASSISI U19",
         "ospite": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-girone-b-9",
@@ -7082,7 +7082,7 @@
         "data": "2026-11-09",
         "ora": "18:30",
         "casa": "POLISP DON BOSCO GUBBIO BIANCA",
-        "ospite": "Rebels Marconi  Monini Assisi",
+        "ospite": "REBELS MARCONI MONINI ASSISI",
         "risultato": null
       },
       {
@@ -7101,7 +7101,7 @@
         "giornata": "2",
         "data": "2026-10-20",
         "ora": "19:00",
-        "casa": "Rebels Marconi  Monini Assisi",
+        "casa": "REBELS MARCONI MONINI ASSISI",
         "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": "1 - 3"
       },
@@ -7122,7 +7122,7 @@
         "data": "2026-10-27",
         "ora": "18:00",
         "casa": "TIBER VOLLEY",
-        "ospite": "Rebels Marconi  Monini Assisi",
+        "ospite": "REBELS MARCONI MONINI ASSISI",
         "risultato": "2 - 3"
       },
       {
@@ -7141,7 +7141,7 @@
         "giornata": "4",
         "data": "2026-11-03",
         "ora": "19:00",
-        "casa": "Rebels Marconi  Monini Assisi",
+        "casa": "REBELS MARCONI MONINI ASSISI",
         "ospite": "FOLIGNO VOLLEY ASD",
         "risultato": null
       },
@@ -7181,7 +7181,7 @@
         "giornata": "6",
         "data": "2026-11-17",
         "ora": "19:00",
-        "casa": "Rebels Marconi  Monini Assisi",
+        "casa": "REBELS MARCONI MONINI ASSISI",
         "ospite": "POLISP DON BOSCO GUBBIO BIANCA",
         "risultato": null
       },
@@ -7202,7 +7202,7 @@
         "data": "2026-11-24",
         "ora": "20:00",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
-        "ospite": "Rebels Marconi  Monini Assisi",
+        "ospite": "REBELS MARCONI MONINI ASSISI",
         "risultato": null
       },
       {
@@ -7221,7 +7221,7 @@
         "giornata": "8",
         "data": "2026-12-01",
         "ora": "19:00",
-        "casa": "Rebels Marconi  Monini Assisi",
+        "casa": "REBELS MARCONI MONINI ASSISI",
         "ospite": "TIBER VOLLEY",
         "risultato": null
       },
@@ -7242,7 +7242,7 @@
         "data": "2026-12-09",
         "ora": "18:00",
         "casa": "FOLIGNO VOLLEY ASD",
-        "ospite": "Rebels Marconi  Monini Assisi",
+        "ospite": "REBELS MARCONI MONINI ASSISI",
         "risultato": null
       },
       {
@@ -8333,7 +8333,7 @@
         "ora": "18:15",
         "casa": "ASD PGS BOSICO VOLLEY RED BARTOCCINI GIOIELLERIE",
         "ospite": "POLISPORTIVA CLT",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-g-5",
@@ -8505,7 +8505,7 @@
         "ora": "19:00",
         "casa": "SIR MERICAT ASSISI",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-maschile-girone-a-2",
