@@ -153,19 +153,58 @@ function elencoCampionati() {
   });
 }
 
+// Parole che non distinguono una squadra dall'altra: la forma giuridica, la
+// sigla dell'ente e il nome dello sport, che in un campionato di pallavolo
+// ce l'hanno tutte.
+const PAROLE_SENZA_PESO = new Set([
+  "A", "S", "D", "ASD", "SSD", "ARL", "SRL", "SSDARL", "POL", "PGS", "GS",
+  "AS", "US", "USD", "ACD", "CSI", "SOC", "SOCIETA", "SPORTIVA",
+  "DILETTANTISTICA", "VOLLEY", "PALLAVOLO", "CLUB", "TEAM",
+]);
+
+// I punti vanno tolti qui e non in norm(): "A.S.D." e "A S D" devono
+// diventare la stessa cosa, mentre norm() serve altrove a confronti più
+// stretti e non va allargato.
+function paroleChiave(nome) {
+  return (nome || "")
+    .toUpperCase()
+    .replace(/[^A-Z0-9]+/g, " ")
+    .split(" ")
+    .filter((p) => p && !PAROLE_SENZA_PESO.has(p));
+}
+
+// Due nomi sono la stessa squadra se tutte le parole che contano del più
+// corto compaiono nel più lungo.
+//
+// Il confronto lettera per lettera non basta: la federazione scrive
+// "AMERINA PALLAVOLO A S D" con le lettere staccate, chi cerca scrive
+// "Amerina Pallavolo ASD" attaccato, e nessuna delle due stringhe contiene
+// l'altra. Guardando le parole, tolta la forma giuridica, resta "AMERINA" da
+// entrambe le parti e si riconoscono.
+function somiglia(nomeSquadra, cercato) {
+  const squadra = paroleChiave(nomeSquadra);
+  const cerca = paroleChiave(cercato);
+  if (!cerca.length || !squadra.length) {
+    // Se chi cerca ha scritto soltanto parole generiche ("volley"), meglio
+    // tornare al confronto a pezzi che non trovare niente.
+    return norm(nomeSquadra).includes(norm(cercato));
+  }
+  return cerca.every((p) => squadra.some((q) => q === p || q.startsWith(p)));
+}
+
 // Cerca una squadra per pezzi di nome: "amerina" trova
-// "AMERINA PALLAVOLO A S D" senza doverlo scrivere tutto.
+// "AMERINA PALLAVOLO A S D" senza doverlo scrivere tutto, e lo trova anche
+// chi incolla il nome intero scritto a modo suo.
 function campionatiDellaSquadra(cerca) {
-  const c = norm(cerca);
   const trovati = [];
   (calRegionali.campionati || []).forEach((camp) => {
     const lista = (calRegionali.partite || {})[camp.id] || [];
-    const mie = lista.filter((p) => norm(p.casa).includes(c) || norm(p.ospite).includes(c));
+    const mie = lista.filter((p) => somiglia(p.casa, cerca) || somiglia(p.ospite, cerca));
     if (mie.length) {
       const nomi = new Set();
       mie.forEach((p) => {
-        if (norm(p.casa).includes(c)) nomi.add(p.casa);
-        if (norm(p.ospite).includes(c)) nomi.add(p.ospite);
+        if (somiglia(p.casa, cerca)) nomi.add(p.casa);
+        if (somiglia(p.ospite, cerca)) nomi.add(p.ospite);
       });
       trovati.push({ id: camp.id, nome: camp.nome, partite: mie.length, squadra: [...nomi][0] });
     }
@@ -214,9 +253,8 @@ export default function handler(req, res) {
   };
 
   if (squadra) {
-    const c = norm(squadra);
     risposta.squadraCercata = squadra;
-    risposta.suePartite = partite.filter((p) => norm(p.casa).includes(c) || norm(p.ospite).includes(c));
+    risposta.suePartite = partite.filter((p) => somiglia(p.casa, squadra) || somiglia(p.ospite, squadra));
   }
 
   return res.status(200).json(risposta);
