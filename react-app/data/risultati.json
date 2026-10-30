@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:04:01.540625+00:00",
+  "generatedAt": "2026-10-30T16:36:53.566750+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -14434,8 +14434,8 @@
       "giornata": "Giornata 3",
       "home": "VOLLEY 86 PETRIGNANO",
       "away": "REBELS ASSISI U17",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641499",
@@ -21224,20 +21224,20 @@
       "status": "in programma"
     },
     {
-      "id": "131673074",
-      "competition": "Under 13 Femminile Girone E",
-      "giornata": "Giornata 4",
-      "home": "POLISPORTIVA CLT",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131673075",
       "competition": "Under 13 Femminile Girone E",
       "giornata": "Giornata 4",
       "home": "COLLELUNA VOLLEY SAN GEMINI",
       "away": "BOSICO BLU GENESIS SOLUTIONS",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673074",
+      "competition": "Under 13 Femminile Girone E",
+      "giornata": "Giornata 4",
+      "home": "POLISPORTIVA CLT",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },

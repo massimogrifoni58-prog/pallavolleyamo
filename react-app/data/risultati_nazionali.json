@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:04:07.742247+00:00",
+  "generatedAt": "2026-10-30T16:36:58.067997+00:00",
   "matches": [
     {
       "id": "lv999-5",
@@ -74,9 +74,9 @@
       "away": "SIR SUSA SCAI PERUGIA",
       "score": "da disputare",
       "status": "in programma",
-      "data": "",
-      "dataIso": null,
-      "ora": null,
+      "data": "Domenica 22/11/2026 ore 18:00",
+      "dataIso": "2026-11-22",
+      "ora": "18:00",
       "impianto": "PalaBancaSport - Piacenza (PC)"
     },
     {
@@ -87,9 +87,9 @@
       "away": "VALSA GROUP MODENA",
       "score": "da disputare",
       "status": "in programma",
-      "data": "",
-      "dataIso": null,
-      "ora": null,
+      "data": "Domenica 29/11/2026 ore 19:00",
+      "dataIso": "2026-11-29",
+      "ora": "19:00",
       "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
@@ -100,9 +100,9 @@
       "away": "SIR SUSA SCAI PERUGIA",
       "score": "da disputare",
       "status": "in programma",
-      "data": "",
-      "dataIso": null,
-      "ora": null,
+      "data": "Mercoledí 2/12/2026 ore 20:00",
+      "dataIso": "2026-12-02",
+      "ora": "20:00",
       "impianto": "Allianz Cloud (Palalido) - Milano (MI)"
     },
     {
@@ -113,9 +113,9 @@
       "away": "RANA VERONA",
       "score": "da disputare",
       "status": "in programma",
-      "data": "",
-      "dataIso": null,
-      "ora": null,
+      "data": "Domenica 6/12/2026 ore 17:00",
+      "dataIso": "2026-12-06",
+      "ora": "17:00",
       "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
@@ -126,9 +126,9 @@
       "away": "CUCINE LUBE CIVITANOVA",
       "score": "da disputare",
       "status": "in programma",
-      "data": "",
-      "dataIso": null,
-      "ora": null,
+      "data": "Giovedí 26/11/2026 ore 20:30",
+      "dataIso": "2026-11-26",
+      "ora": "20:30",
       "impianto": "Pala Barton Energy - Perugia (PG)"
     },
     {
