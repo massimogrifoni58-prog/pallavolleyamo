@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T11:19:00.872827+00:00",
+  "generatedAt": "2026-10-30T06:04:01.540625+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10658,15 +10658,6 @@
       "status": "in programma"
     },
     {
-      "id": "131662246",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 7",
-      "home": "BOSICO VOLLEY-TERNI VA",
-      "away": "VOLLEY SPOLETO CASCIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658292",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 7",
@@ -10681,6 +10672,15 @@
       "giornata": "Giornata 7",
       "home": "CASCIANELLI LORENA TUDER VOLLEI",
       "away": "PMU MARSCIANO BLU",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131662246",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "VOLLEY SPOLETO CASCIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11212,8 +11212,8 @@
       "giornata": "Giornata 1",
       "home": "UMBERTIDE-COLOMBELLA VOLLEY",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131644055",
@@ -11869,8 +11869,8 @@
       "giornata": "Giornata 1",
       "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "A.S. FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131639362",
@@ -11878,8 +11878,8 @@
       "giornata": "Giornata 1",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131639368",
@@ -13649,7 +13649,7 @@
       "id": "131641216",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "FOLIGNO VOLLEY ASD",
       "score": "3-0",
       "status": "disputata"
@@ -13668,7 +13668,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 2",
       "home": "Rebels Marconi  Monini Assisi",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "score": "1-3",
       "status": "disputata"
     },
@@ -13694,7 +13694,7 @@
       "id": "131641220",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 3",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "POLISP DON BOSCO GUBBIO BIANCA",
       "score": "1-3",
       "status": "disputata"
@@ -13731,7 +13731,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 5",
       "home": "TIBER VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13749,7 +13749,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 6",
       "home": "FOLIGNO VOLLEY ASD",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13757,7 +13757,7 @@
       "id": "131641227",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 7",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "Rebels Marconi  Monini Assisi",
       "score": "da disputare",
       "status": "in programma"
@@ -13776,7 +13776,7 @@
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 8",
       "home": "POLISP DON BOSCO GUBBIO BIANCA",
-      "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -13820,7 +13820,7 @@
       "id": "131641234",
       "competition": "Under 17 Femminile ELITE",
       "giornata": "Giornata 10",
-      "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "TIBER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -13903,8 +13903,8 @@
       "giornata": "Giornata 3",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641432",
@@ -14173,8 +14173,8 @@
       "giornata": "Giornata 3",
       "home": "STRIKE TEAM MONTELUCE U17",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641462",
@@ -14425,8 +14425,8 @@
       "giornata": "Giornata 3",
       "home": "FOLIGNO VOLLEY GIALLA",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641497",
@@ -14713,8 +14713,8 @@
       "giornata": "Giornata 3",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641531",
@@ -15136,8 +15136,8 @@
       "giornata": "Giornata 3",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "GR IMPIANTI - THAI NARNI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131641578",
@@ -15307,8 +15307,8 @@
       "giornata": "Giornata 3",
       "home": "DIFDIF VOLLEY ACADEMY",
       "away": "NARNI SPORT ACADEMY DENIM",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641595",
@@ -20345,7 +20345,7 @@
       "id": "131672957",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 1",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "away": "SIRIO PALLAVOLO VERDE",
       "score": "da disputare",
       "status": "in programma"
@@ -20355,7 +20355,7 @@
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 2",
       "home": "REVISIONANDO VITT CHIUSI",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20391,7 +20391,7 @@
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 3",
       "home": "SAN MARIANO VOLLEY",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20408,7 +20408,7 @@
       "id": "131672966",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 4",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "score": "da disputare",
       "status": "in programma"
@@ -20436,7 +20436,7 @@
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 5",
       "home": "TIBER VOLLEY BIANCA",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20463,7 +20463,7 @@
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 6",
       "home": "SIRIO PALLAVOLO VERDE",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20489,7 +20489,7 @@
       "id": "131672974",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 7",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "away": "REVISIONANDO VITT CHIUSI",
       "score": "da disputare",
       "status": "in programma"
@@ -20516,7 +20516,7 @@
       "id": "131672977",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 8",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "away": "SAN MARIANO VOLLEY",
       "score": "da disputare",
       "status": "in programma"
@@ -20562,7 +20562,7 @@
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 9",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-      "away": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20570,7 +20570,7 @@
       "id": "131672984",
       "competition": "Under 13 Femminile Girone B",
       "giornata": "Giornata 10",
-      "home": "SCHOOL VOLLEY PERUGIA ROSSO",
+      "home": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
       "away": "TIBER VOLLEY BIANCA",
       "score": "da disputare",
       "status": "in programma"

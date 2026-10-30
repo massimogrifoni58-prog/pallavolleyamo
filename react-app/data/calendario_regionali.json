@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T11:23:03.976707+00:00",
+  "generatedAt": "2026-10-30T06:07:58.217219+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5945,7 +5945,7 @@
         "ora": "17:30",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-a-8",
@@ -6257,7 +6257,7 @@
         "ora": "18:15",
         "casa": "STRIKE TEAM MONTELUCE U17",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-b-9",
@@ -6549,7 +6549,7 @@
         "ora": "18:30",
         "casa": "FOLIGNO VOLLEY GIALLA",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-c-8",
@@ -7091,7 +7091,7 @@
         "giornata": "1",
         "data": "2026-10-13",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "FOLIGNO VOLLEY ASD",
         "risultato": "3 - 0"
       },
@@ -7102,7 +7102,7 @@
         "data": "2026-10-20",
         "ora": "19:00",
         "casa": "Rebels Marconi  Monini Assisi",
-        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": "1 - 3"
       },
       {
@@ -7131,7 +7131,7 @@
         "giornata": "3",
         "data": "2026-10-27",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "POLISP DON BOSCO GUBBIO BIANCA",
         "risultato": "1 - 3"
       },
@@ -7172,7 +7172,7 @@
         "data": "2026-11-12",
         "ora": "19:15",
         "casa": "TIBER VOLLEY",
-        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -7192,7 +7192,7 @@
         "data": "2026-11-18",
         "ora": "18:00",
         "casa": "FOLIGNO VOLLEY ASD",
-        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -7201,7 +7201,7 @@
         "giornata": "7",
         "data": "2026-11-24",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "Rebels Marconi  Monini Assisi",
         "risultato": null
       },
@@ -7232,7 +7232,7 @@
         "data": "2026-12-01",
         "ora": "18:30",
         "casa": "POLISP DON BOSCO GUBBIO BIANCA",
-        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "risultato": null
       },
       {
@@ -7271,7 +7271,7 @@
         "giornata": "10",
         "data": "2026-12-15",
         "ora": "20:00",
-        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "TIBER VOLLEY",
         "risultato": null
       }
@@ -7657,7 +7657,7 @@
         "ora": "19:00",
         "casa": "REVISIONANDO VITT CHIUSI",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-8",
@@ -8141,7 +8141,7 @@
         "ora": "18:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
         "ospite": "GR IMPIANTI - THAI NARNI",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-17-femminile-girone-f-6",
@@ -8343,7 +8343,7 @@
         "ora": "19:00",
         "casa": "DIFDIF VOLLEY ACADEMY",
         "ospite": "NARNI SPORT ACADEMY DENIM",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-g-6",
@@ -8495,7 +8495,7 @@
         "ora": "19:00",
         "casa": "UMBERTIDE-COLOMBELLA VOLLEY",
         "ospite": "VOLLEY BORGO ALTOTEVERE",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-maschile-girone-a-1",
@@ -8927,7 +8927,7 @@
         "ora": "20:00",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "TIBER VOLLEY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-elite-2",
@@ -8947,7 +8947,7 @@
         "ora": "19:45",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "A.S. FOSSATO VOLLEY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-elite-4",
