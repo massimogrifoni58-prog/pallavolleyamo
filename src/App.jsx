@@ -659,7 +659,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           subscribed={subscribed}
           items={[
             { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
-            { href: "#/articoli-societa", label: "Articoli Società", sub: "Le notizie dalle società" },
+            { href: "#/invia-articolo", label: "Invia il tuo articolo", sub: "Per le società: va dritto nelle notizie" },
             { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
           ]}
         />
@@ -2207,7 +2207,7 @@ function RosaPage() {
 function PerLeSocietaPage() {
   const blocchi = [
     { t: "Le vostre squadre sul sito", d: "Calendario, risultati e classifica di ogni vostra squadra, aggiornati in automatico dai dati FIPAV. Dopo ogni partita giocata compare anche una breve cronaca.", l: "#/squadre-iscritte", ll: "Guarda le squadre iscritte" },
-    { t: "Le vostre notizie", d: "Un articolo, un risultato, un evento della società: scrivilo e lo pubblichiamo nella Bacheca. Serve l'iscrizione gratuita al sito.", l: "#/articoli-societa", ll: "Invia il tuo articolo" },
+    { t: "Le vostre notizie", d: "Un articolo, un risultato, un evento della società: scrivilo e lo pubblichiamo nella Bacheca. Serve l'iscrizione gratuita al sito.", l: "#/invia-articolo", ll: "Invia il tuo articolo" },
     { t: "La rosa della squadra", d: "Mandaci i nomi delle vostre atlete e atleti: servono per presentare le squadre e per le iniziative del portale.", l: "#/rosa", ll: "Invia la rosa" },
     { t: "Squadra della Settimana", d: "Ogni settimana il sito sceglie, dai risultati FIPAV, la squadra umbra da applaudire, con la grafica pronta da condividere sui social.", l: "#/squadra-settimana", ll: "Vai alla pagina" },
     { t: "La partita sul telefono", d: "Allenatori, atlete e genitori scelgono la loro squadra e si abbonano al calendario: le partite arrivano sul telefono e si aggiornano da sole, anche se cambia un orario.", l: "#/mia-squadra", ll: "Prova La mia squadra" },
@@ -2388,7 +2388,7 @@ function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
   const [modalArticolo, setModalArticolo] = useState(null);
   const articoliProv = (articoliSocietaData.articoli || [])
-    .filter(a => a.provincia === slug)
+    .filter(a => a.provincia === slug || a.provincia === "entrambe")
     .map(a => ({
       id: `articolo-${a.id}`,
       title: a.titolo,
@@ -3075,251 +3075,130 @@ function ArtArchivio({ articoli, onApri, categorieBadge }) {
 }
 
 
-function ArticoliSocietaPage({ subscribed }) {
-  const [filtroSocieta, setFiltroSocieta] = useState("Tutte");
-  const [filtroMese, setFiltroMese] = useState("Tutti");
-  const [tab, setTab] = useState("archivio");
-  const [form, setForm] = useState({ societa: "", autore: "", titolo: "", testo: "", categoria: "" });
+// Vecchio indirizzo "Articoli Società": porta alle notizie
+function VaiAlleNotizie() {
+  useEffect(() => { navigateTo("regionali"); }, []);
+  return <main><p className="state">Ti porto alle notizie…</p></main>;
+}
+
+// Le societa' scrivono qui: l'articolo arriva alla redazione (pagina riservata Modera) e, con un clic, va nelle notizie di Terni / Perugia
+function InviaArticoloPage({ subscribed }) {
+  const vuoto = { societa: "", autore: "", categoria: "", titolo: "", testo: "" };
+  const [form, setForm] = useState(vuoto);
+  const [foto, setFoto] = useState("");
   const [status, setStatus] = useState("idle");
+  const [errore, setErrore] = useState("");
   const [consensoArt, setConsensoArt] = useState(false);
-  const [aperto, setAperto] = useState(null);
 
-  // Articoli caricati da data/articoli-societa.json
-  const articoli = articoliSocietaData.articoli || [];
-
-  const societa = ["Tutte", ...new Set(articoli.map(a => a.societa))].sort();
-  const mesi = ["Tutti", ...new Set(articoli.map(a => a.mese))];
-
-  const artFiltrati = articoli.filter(a => {
-    if (filtroSocieta !== "Tutte" && a.societa !== filtroSocieta) return false;
-    if (filtroMese !== "Tutti" && a.mese !== filtroMese) return false;
-    return true;
-  });
-
-  const articoloAperto = articoli.find(a => a.id === aperto);
-
-function handleSubmit(e) {
-    e.preventDefault();
-    if (!consensoArt) return;
-    setStatus("sending");
-  fetch("https://formspree.io/f/xqerqbbz", {
-    method: "POST",
-    headers: { 
-      "Content-Type": "application/json",
-      "Accept": "application/json"
-    },
-    body: JSON.stringify({ ...form }),
-  }).then(() => setStatus("done")).catch(() => setStatus("error"));
+  function scegliFoto(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    setErrore("");
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onload = () => {
+      const k = Math.min(1, 1200 / Math.max(img.width, img.height));
+      const c = document.createElement("canvas");
+      c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+      c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+      setFoto(c.toDataURL("image/jpeg", 0.78));
+      URL.revokeObjectURL(url);
+    };
+    img.onerror = () => { setErrore("Non riesco a leggere questa foto. Prova con una JPG."); URL.revokeObjectURL(url); };
+    img.src = url;
   }
 
-  const categorieBadge = {
-    "Comunicato": "#d4af37",
-    "Evento": "#42a5f5",
-    "Risultato": "#66bb6a",
-    "Mercato": "#ef5350",
-    "Altro": "#888",
-  };
+  async function handleSubmit(e) {
+    e.preventDefault();
+    if (!consensoArt) return;
+    setStatus("sending"); setErrore("");
+    try {
+      const r = await fetch("/api/invia-articolo", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...form, foto, sito: "" }) });
+      let j = {};
+      try { j = await r.json(); } catch (x) {}
+      if (!r.ok) throw new Error(j.errore || "Invio non riuscito, riprova");
+      // avviso via email alla redazione (non blocca l'invio)
+      fetch("https://formspree.io/f/xqerqbbz", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify({ ...form, foto: foto ? "con foto" : "senza foto" }) }).catch(() => {});
+      setStatus("done"); setForm(vuoto); setFoto("");
+    } catch (x) {
+      setErrore(x.message); setStatus("error");
+    }
+  }
 
   return (
     <main>
-      {/* Hero */}
       <div className="art-hero">
         <div className="art-hero__content">
-          <p className="art-hero__label">Spazio alle societa</p>
-          <h2 className="art-hero__titolo">Articoli delle Societa</h2>
-          <p className="art-hero__sub">
-            Comunicati, eventi, risultati e notizie direttamente dalle societa umbre
+          <p className="art-hero__label">Spazio alle società</p>
+          <h2 className="art-hero__titolo">Invia il tuo articolo</h2>
+          <p className="art-hero__sub">Comunicati, eventi e risultati: la redazione li pubblica nelle notizie di Terni e Perugia</p>
+        </div>
+      </div>
+      <section className="section">
+        <div className="art-info-box">
+          <h3 className="art-info-box__titolo">Come funziona</h3>
+          <p className="art-info-box__testo">
+            Scrivi il tuo comunicato, evento o notizia e, se vuoi, aggiungi una foto. La redazione lo legge e lo pubblica
+            direttamente nelle notizie di Terni o Perugia. Il contenuto deve riguardare la pallavolo umbra.
           </p>
         </div>
-        <svg className="art-hero__svg" viewBox="0 0 900 200" preserveAspectRatio="xMidYMid slice">
-          <text x="450" y="160" fontFamily="'Bebas Neue',sans-serif" fontSize="180" fontWeight="900"
-            fill="#d4af37" textAnchor="middle" opacity="0.06" letterSpacing="10">NEWS</text>
-          <line x1="30" y1="50" x2="30" y2="170" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
-          <line x1="870" y1="50" x2="870" y2="170" stroke="#d4af37" strokeWidth="2" opacity="0.4"/>
-        </svg>
-      </div>
-
-      <section className="section">
-        {/* Tab */}
-        <div style={{ display: "flex", gap: "0.5rem", marginBottom: "1.5rem" }}>
-          <button className={`lavagna-btn ${tab === "archivio" ? "lavagna-btn--active" : ""}`}
-            style={{ fontSize: "0.8rem", padding: "0.5rem 1rem" }}
-            onClick={() => setTab("archivio")}>
-            Archivio ({articoli.length})
-          </button>
-          <button className={`lavagna-btn ${tab === "invia" ? "lavagna-btn--active" : ""}`}
-            style={{ fontSize: "0.8rem", padding: "0.5rem 1rem" }}
-            onClick={() => setTab("invia")}>
-            + Invia il tuo articolo
-          </button>
-        </div>
-
-        {/* ARCHIVIO */}
-        {tab === "archivio" && !articoloAperto && (
-          <>
-            {/* Filtri */}
-            <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
-              <select className="all2-select" style={{ minWidth: "180px" }}
-                value={filtroSocieta} onChange={e => setFiltroSocieta(e.target.value)}>
-                {societa.map(s => <option key={s} value={s}>{s === "Tutte" ? "Tutte le societa" : s}</option>)}
-              </select>
-              <select className="all2-select" style={{ minWidth: "150px" }}
-                value={filtroMese} onChange={e => setFiltroMese(e.target.value)}>
-                {mesi.map(m => <option key={m} value={m}>{m === "Tutti" ? "Tutti i mesi" : m}</option>)}
-              </select>
-            </div>
-
-            {artFiltrati.length === 0 && <p className="state">Nessun articolo trovato.</p>}
-
-            <div className="art-grid">
-              {artFiltrati.map(a => (
-                <div key={a.id} className="art-card" onClick={() => setAperto(a.id)}>
-                  <div className="art-card__top">
-                    <span className="art-card__badge"
-                      style={{ background: (categorieBadge[a.categoria] || "#888") + "22",
-                               color: categorieBadge[a.categoria] || "#888",
-                               border: `1px solid ${(categorieBadge[a.categoria] || "#888")}55` }}>
-                      {a.categoria}
-                    </span>
-                    <span className="art-card__data">{a.data}</span>
-                  </div>
-                  <div className="art-card__img-wrap">
-                    {a.foto ? (
-                      <img src={a.foto} alt={a.titolo} className="art-card__img" />
-                    ) : a.logo ? (
-                      <img src={a.logo} alt={a.societa} className="art-card__img art-card__img--logo" />
-                    ) : (
-                      <div className="art-card__img-placeholder">🏐</div>
-                    )}
-                  </div>
-                  <h3 className="art-card__titolo">{a.titolo}</h3>
-                  <p className="art-card__societa">{a.societa}</p>
-                  <p className="art-card__preview">{a.testo.slice(0, 120)}...</p>
-                  <span className="art-card__leggi">Leggi tutto →</span>
-                </div>
-              ))}
-            </div>
-          </>
-        )}
-
-        {/* ARTICOLO APERTO */}
-        {tab === "archivio" && articoloAperto && (
-          <div className="art-full">
-            <button className="coach-detail__back" onClick={() => setAperto(null)}>
-              ← Torna all archivio
-            </button>
-            {articoloAperto.foto && (
-              <img src={articoloAperto.foto} alt={articoloAperto.titolo}
-                className="art-full__foto" />
-            )}
-            {!articoloAperto.foto && articoloAperto.logo && (
-              <div className="art-full__logo-wrap">
-                <img src={articoloAperto.logo} alt={articoloAperto.societa}
-                  className="art-full__logo" />
-              </div>
-            )}
-            <div className="art-full__header">
-              <span className="art-card__badge"
-                style={{ background: (categorieBadge[articoloAperto.categoria] || "#888") + "22",
-                         color: categorieBadge[articoloAperto.categoria] || "#888",
-                         border: `1px solid ${(categorieBadge[articoloAperto.categoria] || "#888")}55` }}>
-                {articoloAperto.categoria}
-              </span>
-              <span className="art-card__data">{articoloAperto.data}</span>
-            </div>
-            <h2 className="art-full__titolo">{articoloAperto.titolo}</h2>
-            <p className="art-full__societa">
-              {articoloAperto.societa} — {articoloAperto.autore}
-            </p>
-            <div className="art-full__testo">
-              {articoloAperto.testo.split("\n").map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-            </div>
+        {!subscribed ? (
+          <div className="commenti-locked" style={{ marginTop: "1rem" }}>
+            <p>Per inviare un articolo devi essere iscritto al sito.</p>
+            <a href="#/iscrizione" className="sponsor-cta" style={{ fontSize: "0.85rem", padding: "0.5rem 1rem" }}>Iscriviti ora →</a>
           </div>
-        )}
-
-        {/* FORM INVIO */}
-        {tab === "invia" && (
-          <div>
-            <div className="art-info-box">
-              <h3 className="art-info-box__titolo">Come funziona</h3>
-              <p className="art-info-box__testo">
-                Invia il tuo comunicato, evento o notizia. La redazione lo revisiona e lo pubblica
-                entro 24-48 ore. Il contenuto deve riguardare la pallavolo umbra.
-                Sono accettati: comunicati societari, eventi, convocazioni, risultati commentati,
-                annunci di mercato.
+        ) : status === "done" ? (
+          <p className="state" style={{ color: "var(--gold)", marginTop: "1rem" }}>
+            Articolo inviato! La redazione lo leggerà e lo pubblicherà nelle notizie al più presto.
+          </p>
+        ) : (
+          <form onSubmit={handleSubmit} style={{ marginTop: "1rem" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", maxWidth: "560px" }}>
+              <input className="coach-ai-input" type="text" placeholder="Nome della società sportiva" value={form.societa} maxLength={80}
+                onChange={e => setForm({ ...form, societa: e.target.value })} required />
+              <input className="coach-ai-input" type="text" placeholder="Nome e cognome autore" value={form.autore} maxLength={80}
+                onChange={e => setForm({ ...form, autore: e.target.value })} required />
+              <select className="all2-select" value={form.categoria} onChange={e => setForm({ ...form, categoria: e.target.value })} required>
+                <option value="">-- Tipo di contenuto --</option>
+                <option value="Comunicato">Comunicato</option>
+                <option value="Evento">Evento</option>
+                <option value="Risultato">Risultato commentato</option>
+                <option value="Mercato">Mercato</option>
+                <option value="Altro">Altro</option>
+              </select>
+              <input className="coach-ai-input" type="text" placeholder="Titolo dell'articolo" value={form.titolo} maxLength={200}
+                onChange={e => setForm({ ...form, titolo: e.target.value })} required />
+              <textarea className="redazione-textarea" rows={8} placeholder="Testo dell'articolo (minimo 100 caratteri)..." value={form.testo} minLength={100}
+                onChange={e => setForm({ ...form, testo: e.target.value })} required />
+              <div>
+                <label style={{ display: "block", fontSize: "0.85rem", marginBottom: "0.3rem" }}>Foto (facoltativa, formato JPG o PNG)</label>
+                <input type="file" accept="image/*" onChange={scegliFoto} style={{ fontSize: "0.9rem" }} />
+                {foto && (
+                  <div style={{ marginTop: "0.6rem" }}>
+                    <img src={foto} alt="Anteprima" style={{ maxWidth: "240px", width: "100%", borderRadius: "8px", display: "block" }} />
+                    <button type="button" className="filter-btn" style={{ marginTop: "0.4rem" }} onClick={() => setFoto("")}>Togli la foto</button>
+                  </div>
+                )}
+              </div>
+              <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.78rem", cursor: "pointer" }}>
+                <input type="checkbox" checked={consensoArt} onChange={(e) => setConsensoArt(e.target.checked)} required style={{ marginTop: "0.2rem" }} />
+                <span>Accetto il trattamento dei miei dati secondo la <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a></span>
+              </label>
+              <button type="submit" className="coach-ai-btn" style={{ alignSelf: "flex-start" }} disabled={status === "sending" || !consensoArt}>
+                {status === "sending" ? "Invio..." : "Invia articolo"}
+              </button>
+              {errore && <p className="state" style={{ textAlign: "left", fontWeight: 700 }}>{errore}</p>}
+              <p style={{ fontSize: "0.7rem", color: "var(--text-dim)" }}>
+                La redazione si riserva il diritto di modificare o non pubblicare i contenuti non conformi alle linee editoriali del sito.
               </p>
             </div>
-
-            {!subscribed ? (
-              <div className="commenti-locked" style={{ marginTop: "1rem" }}>
-                <p>Per inviare un articolo devi essere iscritto al sito.</p>
-                <a href="#/iscrizione" className="sponsor-cta" style={{ fontSize: "0.85rem", padding: "0.5rem 1rem" }}>
-                  Iscriviti ora →
-                </a>
-              </div>
-            ) : status === "done" ? (
-              <p className="state" style={{ color: "var(--gold)", marginTop: "1rem" }}>
-                Articolo inviato! La redazione lo pubblichera entro 48 ore.
-              </p>
-            ) : (
-              <form name="articoli-societa" method="POST" data-netlify="true" onSubmit={handleSubmit}
-                style={{ marginTop: "1rem" }}>
-                <input type="hidden" name="form-name" value="articoli-societa" />
-                <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", maxWidth: "560px" }}>
-                  <input className="coach-ai-input" type="text" name="societa"
-                    placeholder="Nome della societa sportiva" value={form.societa}
-                    onChange={e => setForm({...form, societa: e.target.value})} required />
-                  <input className="coach-ai-input" type="text" name="autore"
-                    placeholder="Nome e cognome autore" value={form.autore}
-                    onChange={e => setForm({...form, autore: e.target.value})} required />
-                  <select className="all2-select" name="categoria" value={form.categoria}
-                    onChange={e => setForm({...form, categoria: e.target.value})} required>
-                    <option value="">-- Tipo di contenuto --</option>
-                    <option value="Comunicato">Comunicato</option>
-                    <option value="Evento">Evento</option>
-                    <option value="Risultato">Risultato commentato</option>
-                    <option value="Mercato">Mercato</option>
-                    <option value="Altro">Altro</option>
-                  </select>
-                  <input className="coach-ai-input" type="text" name="titolo"
-                    placeholder="Titolo dell articolo" value={form.titolo}
-                    onChange={e => setForm({...form, titolo: e.target.value})} required />
-                  <textarea className="redazione-textarea" rows={8} name="testo"
-                    placeholder="Testo dell articolo (minimo 100 caratteri)..."
-                    value={form.testo}
-                    onChange={e => setForm({...form, testo: e.target.value})} required />
-                  <label style={{ display: "flex", alignItems: "flex-start", gap: "0.5rem", fontSize: "0.78rem", cursor: "pointer" }}>
-    <input
-      type="checkbox"
-      checked={consensoArt}
-      onChange={(e) => setConsensoArt(e.target.checked)}
-      required
-      style={{ marginTop: "0.2rem" }}
-    />
-    <span>
-      Accetto il trattamento dei miei dati secondo la{" "}
-      <a href="#/privacy" style={{ color: "var(--gold)" }}>Privacy Policy</a>
-    </span>
-  </label>
-  <button type="submit" className="coach-ai-btn" style={{ alignSelf: "flex-start" }}
-    disabled={status === "sending" || !consensoArt}>
-    {status === "sending" ? "Invio..." : "Invia articolo"}
-  </button>
-                  <p style={{ fontSize: "0.7rem", color: "var(--text-dim)" }}>
-                    La redazione si riserva il diritto di modificare o non pubblicare i contenuti
-                    non conformi alle linee editoriali del sito.
-                  </p>
-                </div>
-              </form>
-            )}
-          </div>
+          </form>
         )}
       </section>
     </main>
   );
 }
+
 
 function RedazionePage() {
   const [input, setInput] = useState("");
@@ -6092,7 +5971,7 @@ function Footer() {
     { label: "Chi Siamo", href: "#/chi-siamo" },
     { label: "Iscriviti", href: "#/iscrizione" },
     { label: "Mappa Volley", href: "#/mappa" },
-    { label: "Articoli Società", href: "#/articoli-societa" },
+    { label: "Invia il tuo articolo", href: "#/invia-articolo" },
     { label: "Per le società", href: "#/per-le-societa" },
   ];
   return (
@@ -6136,7 +6015,7 @@ function Breadcrumb({ route }) {
     "regionali": ["Notizie", "News Regionali"],
     "terni": ["Notizie", "News Prov. TR"],
     "perugia": ["Notizie", "News Prov. PG"],
-    "articoli-societa": ["Notizie", "Articoli Società"],
+    "invia-articolo": ["Bacheca", "Invia il tuo articolo"],
     "per-le-societa": ["Bacheca", "Per le società"],
     "squadre-iscritte": ["Campionati", "Squadre Iscritte"],
     "mia-squadra": ["Campionati", "La mia squadra"],
@@ -7336,6 +7215,57 @@ function NuovoArticolo({ chiama }) {
   );
 }
 
+// Scheda di Modera: articoli inviati dalle societa', da pubblicare nelle notizie con un clic
+function ArticoliRicevuti({ chiama }) {
+  const [lista, setLista] = useState(null);
+  const [fatti, setFatti] = useState({});
+  const [errore, setErrore] = useState("");
+  useEffect(() => {
+    chiama({ azione: "ricevuti" }).then((j) => setLista(j.ricevuti || [])).catch((x) => { setErrore(x.message); setLista([]); });
+  }, []);
+  async function agisci(a, azione, provincia) {
+    setFatti((f) => ({ ...f, [a.id]: "..." }));
+    try {
+      await chiama({ azione, id: a.id, provincia });
+      setFatti((f) => ({ ...f, [a.id]: azione === "scarta-ricevuto" ? "Scartato" : "Pubblicato: compare nelle notizie tra qualche minuto" }));
+    } catch (x) {
+      setFatti((f) => ({ ...f, [a.id]: "Errore: " + x.message }));
+    }
+  }
+  const box = { display: "flex", gap: "0.9rem", flexWrap: "wrap", padding: "0.9rem", border: "1px solid var(--border)", borderRadius: "10px" };
+  return (
+    <>
+      <h2 className="feed-heading">Articoli ricevuti</h2>
+      <p className="state" style={{ marginBottom: "1rem", textAlign: "left" }}>Sono gli articoli inviati dalle società. Scegli dove pubblicarli: compaiono subito nelle notizie, con testo e foto già pronti.</p>
+      {errore && <p className="state">{errore}</p>}
+      {lista === null && <p className="state">Carico…</p>}
+      {lista && lista.length === 0 && !errore && <p className="state">Nessun articolo in attesa.</p>}
+      <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
+        {(lista || []).map((a) => (
+          <div key={a.id} style={box}>
+            {a.foto && <img src={a.foto} alt="" loading="lazy" style={{ width: "120px", height: "90px", objectFit: "cover", borderRadius: "8px" }} />}
+            <div style={{ flex: "1 1 260px", minWidth: 0 }}>
+              <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{(a.ricevutoIl || "").slice(0, 10)} · {a.societa} · {a.categoria}</div>
+              <div style={{ fontWeight: 700, margin: "0.25rem 0" }}>{a.titolo}</div>
+              <div style={{ whiteSpace: "pre-line", fontSize: "0.88rem", maxHeight: "9rem", overflow: "auto" }}>{a.testo}</div>
+              {fatti[a.id] ? (
+                <div style={{ marginTop: "0.6rem", fontWeight: 700 }}>{fatti[a.id] === "..." ? "Salvo…" : fatti[a.id]}</div>
+              ) : (
+                <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.6rem" }}>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "terni")}>Pubblica su Terni</button>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "perugia")}>Pubblica su Perugia</button>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "entrambe")}>Entrambe</button>
+                  <button className="filter-btn" onClick={() => agisci(a, "scarta-ricevuto")}>Scarta</button>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
 function ModeraPage({ tabIniziale }) {
   const [tab, setTab] = useState(tabIniziale || "post");
   const [pw, setPw] = useState(() => { try { return sessionStorage.getItem("pva_modera_pw") || ""; } catch (e) { return ""; } });
@@ -7399,9 +7329,12 @@ function ModeraPage({ tabIniziale }) {
             <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.2rem" }}>
               <button className={"filter-btn" + (tab === "post" ? " filter-btn--active" : "")} onClick={() => setTab("post")}>Post da approvare</button>
               <button className={"filter-btn" + (tab === "weekend" ? " filter-btn--active" : "")} onClick={() => setTab("weekend")}>Post del weekend</button>
+              <button className={"filter-btn" + (tab === "ricevuti" ? " filter-btn--active" : "")} onClick={() => setTab("ricevuti")}>Articoli ricevuti</button>
               <button className={"filter-btn" + (tab === "articolo" ? " filter-btn--active" : "")} onClick={() => setTab("articolo")}>Nuovo articolo</button>
             </div>
-            {tab === "articolo" ? (
+            {tab === "ricevuti" ? (
+              <ArticoliRicevuti chiama={chiama} />
+            ) : tab === "articolo" ? (
               <NuovoArticolo chiama={chiama} />
             ) : tab === "weekend" ? (
               <>
@@ -8122,7 +8055,7 @@ useEffect(() => {
     "mappa": ["Mappa delle società di pallavolo in Umbria | PallaVolleyAmo", "La mappa delle società e dei palazzetti di pallavolo in Umbria."],
     "chi-siamo": ["Chi siamo | PallaVolleyAmo", "PallaVolleyAmo, il portale dedicato alla pallavolo umbra."],
     "per-le-societa": ["Per le società di pallavolo | PallaVolleyAmo", "Cosa offre PallaVolleyAmo alle società umbre: visibilità, risultati, cronache, notizie e come partecipare. Gratis."],
-    "articoli-societa": ["Articoli e notizie dalle società | PallaVolleyAmo", "Le notizie e gli articoli delle società di pallavolo umbre."],
+    "invia-articolo": ["Invia il tuo articolo | PallaVolleyAmo", "Le società di pallavolo umbre possono inviare comunicati, risultati ed eventi: compaiono nelle notizie di Terni e Perugia."],
     "allenatori2": ["Allenatori di pallavolo | PallaVolleyAmo", "Gli allenatori della pallavolo umbra e i loro consigli."]
   };
   const info = SEO[route] || SEO["home"];
@@ -8216,7 +8149,7 @@ useEffect(() => {
           {route === "pallavolo-umbria" && <PallavoloUmbriaPage />}
           {route === "weekend-umbria" && <WeekendUmbriaPage />}
           {route === "post-facebook" && <ModeraPage tabIniziale="weekend" />}
-          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","allenatore-virtuale","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
+          {!["home","nazionale","nazionali","regionali","atleta-settimana","squadra-settimana","palestra","per-le-societa","risultati-seriec", "risultati-seried", "risultati-1div", "risultati-2div","giovanili","terni","mappa","perugia","preparazione-fisica","risultati","rosa","calendario","classifica","andamento","headtohead","campi","fondamentali","glossario","allenatore-virtuale","archivio-riservato","palloni","pillole","schede","velasco","allenatori2","sponsor","commenti","chi-siamo","nostri-sponsor","agenda","articoli-societa","invia-articolo","squadre-top","dirette","iscrizione","squadre-iscritte","privacy","calendario-regionale","mental-coach","pallavolo-umbria","weekend-umbria","post-facebook","mia-squadra","allenatori","redazione","cerca","modera"].includes(route) && <NotFoundPage />}
           {route === "nostri-sponsor" && <NostriSponsorPage />}
           {route === "sponsor" && <SponsorPage />}
           {route === "iscrizione" && (
@@ -8240,7 +8173,8 @@ useEffect(() => {
           {route === "fondamentali" && <FondamentaliPage />}
           {route === "mental-coach" && <MentalCoachPage />}
           {route === "preparazione-fisica" && <PreparazioneFisicaPage />}
-          {route === "articoli-societa" && <ArticoliSocietaPage subscribed={subscribed} />}
+          {route === "articoli-societa" && <VaiAlleNotizie />}
+          {route === "invia-articolo" && <InviaArticoloPage subscribed={subscribed} />}
           {route === "allenatori2" && <Allenatori2Page />}
           {route === "campi" && <CampiPage />}
           {route === "andamento" && <AndamentoPage />}

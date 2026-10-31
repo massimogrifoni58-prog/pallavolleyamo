@@ -30,6 +30,7 @@ export default async function handler(req, res) {
   if (!passwordOk(body.password, MODERA_PASSWORD)) return res.status(401).json({ errore: "Password sbagliata" });
   if (body.azione === "verifica") return res.status(200).json({ ok: true });
   if (body.azione === "articolo") return pubblicaArticolo(body, MODERA_GITHUB_TOKEN, res);
+  if (["ricevuti", "pubblica-ricevuto", "scarta-ricevuto"].includes(body.azione)) return gestisciRicevuti(body, MODERA_GITHUB_TOKEN, res);
   const { azione, id, sezione } = body;
   if (!["approva", "scarta"].includes(azione) || !/^\d{5,30}$/.test(String(id))) return res.status(400).json({ errore: "Richiesta non valida" });
   const sez = SEZIONI.includes(sezione) ? sezione : "regionali";
@@ -125,6 +126,75 @@ async function pubblicaArticolo(body, token, res) {
       if (put.status === 409 || put.status === 422) continue;
       if (!put.ok) return res.status(502).json({ errore: "Salvataggio dell'articolo su GitHub non riuscito" });
       return res.status(200).json({ ok: true, id: nuovoId });
+    }
+    return res.status(409).json({ errore: "Riprova tra un attimo" });
+  } catch (e) {
+    return res.status(500).json({ errore: "Errore imprevisto" });
+  }
+}
+
+
+// Articoli inviati dalle societa' (coda in data/articoli_inviati.json): elenco, pubblicazione sulle notizie, scarto
+const FILE_CODA = "data/articoli_inviati.json";
+async function leggiJson(path, token) {
+  const r = await gh(`contents/${path}?ref=main`, token);
+  if (r.status === 404) return { dati: null, sha: null };
+  if (!r.ok) throw new Error("lettura");
+  const f = await r.json();
+  return { dati: JSON.parse(Buffer.from(f.content, "base64").toString("utf8")), sha: f.sha };
+}
+const scriviJson = (path, token, dati, sha, messaggio, rientro) =>
+  gh(`contents/${path}`, token, {
+    method: "PUT",
+    body: JSON.stringify({ message: messaggio, content: Buffer.from(JSON.stringify(dati, null, rientro) + "\n").toString("base64"), ...(sha ? { sha } : {}), branch: "main" }),
+  });
+
+async function gestisciRicevuti(body, token, res) {
+  try {
+    if (body.azione === "ricevuti") {
+      const { dati } = await leggiJson(FILE_CODA, token);
+      return res.status(200).json({ ricevuti: (dati && dati.ricevuti) || [] });
+    }
+    const id = String(body.id || "");
+    if (!/^[a-z0-9]{4,30}$/.test(id)) return res.status(400).json({ errore: "Richiesta non valida" });
+    let articolo = null;
+    for (let t = 0; t < 3; t++) {
+      const coda = await leggiJson(FILE_CODA, token);
+      const lista = (coda.dati && coda.dati.ricevuti) || [];
+      articolo = lista.find((a) => a.id === id);
+      if (!articolo) return res.status(404).json({ errore: "Articolo non trovato (forse già gestito)" });
+      if (body.azione === "pubblica-ricevuto") {
+        const provincia = ["perugia", "terni", "entrambe"].includes(body.provincia) ? body.provincia : null;
+        if (!provincia) return res.status(400).json({ errore: "Scegli dove pubblicare" });
+        // 1) aggiunge l'articolo alle notizie (se non c'e' gia')
+        let aggiunto = false;
+        for (let k = 0; k < 3; k++) {
+          const arc = await leggiJson(FILE_ART, token);
+          const articoli = (arc.dati && arc.dati.articoli) || [];
+          if (!articoli.some((a) => a.ricevutoId === id)) {
+            const ora = new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Rome" }));
+            const nuovoId = String(articoli.reduce((mx, a) => Math.max(mx, parseInt(a.id, 10) || 0), 0) + 1);
+            articoli.push({ id: nuovoId, societa: articolo.societa, autore: articolo.autore, categoria: articolo.categoria, titolo: articolo.titolo, testo: articolo.testo, data: `${ora.getDate()} ${MESI[ora.getMonth()]} ${ora.getFullYear()}`, mese: MESI[ora.getMonth()], provincia, foto: articolo.foto || null, logo: null, soloNotizie: true, ricevutoId: id });
+            const put = await scriviJson(FILE_ART, token, { ...(arc.dati || {}), articoli }, arc.sha, `Notizie: ${articolo.titolo.slice(0, 60)}`, 2);
+            if (put.status === 409 || put.status === 422) continue;
+            if (!put.ok) return res.status(502).json({ errore: "Salvataggio dell'articolo non riuscito" });
+          }
+          aggiunto = true;
+          break;
+        }
+        if (!aggiunto) return res.status(409).json({ errore: "Riprova tra un attimo" });
+      }
+      // 2) toglie l'articolo dalla coda
+      const resto = lista.filter((a) => a.id !== id);
+      const put2 = await scriviJson(FILE_CODA, token, { ...(coda.dati || {}), ricevuti: resto }, coda.sha, `Articolo ricevuto: ${body.azione === "scarta-ricevuto" ? "scartato" : "pubblicato"} ${id}`, 1);
+      if (put2.status === 409 || put2.status === 422) continue;
+      if (!put2.ok) return res.status(502).json({ errore: "Aggiornamento della coda non riuscito" });
+      if (body.azione === "scarta-ricevuto" && articolo.foto && /^\/articoli\/[a-z0-9-]+\.jpg$/.test(articolo.foto)) {
+        // la foto non serve piu': la cancello
+        const fr = await gh(`contents/public${articolo.foto}?ref=main`, token);
+        if (fr.ok) { const ff = await fr.json(); await gh(`contents/public${articolo.foto}`, token, { method: "DELETE", body: JSON.stringify({ message: "Articolo scartato: tolgo la foto", sha: ff.sha, branch: "main" }) }); }
+      }
+      return res.status(200).json({ ok: true });
     }
     return res.status(409).json({ errore: "Riprova tra un attimo" });
   } catch (e) {
