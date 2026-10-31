@@ -1140,6 +1140,7 @@ function FeaturedPost({ post, subscribed, onOpen }) {
       <div className="featured__body">
         <span className="featured__tag">In evidenza</span>
         <span className="card__date">{formatDate(post.createdTime)}</span>
+        {post._isArticolo && post.source && <span style={{ display: "block", fontSize: "0.75rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase", margin: "0.2rem 0" }}>Fonte: {post.source}</span>}
         {post.title && <h3 className="featured__title">{post.title}</h3>}
         {excerpt && <p className="featured__excerpt">{excerpt}</p>}
         {subscribed && post.permalink && (
@@ -1188,6 +1189,7 @@ function ArticoloCard({ articolo, onOpen }) {
       )}
       <div className="card__body">
         <span className="card__date">{articolo.data}</span>
+        <p style={{ margin: "0.2rem 0", fontSize: "0.72rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase" }}>Fonte: {articolo.societa}</p>
         <p className="card__title">{articolo.titolo}</p>
         <p className="card__message">{articolo.testo?.slice(0, 150)}...</p>
         <span className="card__link">Leggi tutto →</span>
@@ -2439,7 +2441,7 @@ function SectionPage({ slug, subscribed }) {
             <button className="modal-close" onClick={() => setModalArticolo(null)}>✕</button>
             {modalArticolo.foto && <img src={modalArticolo.foto} alt={modalArticolo.titolo} className="modal-foto" />}
             <h2 className="modal-titolo">{modalArticolo.titolo}</h2>
-            <p className="modal-societa">{modalArticolo.societa} — {modalArticolo.data}</p>
+            <p className="modal-societa">Fonte: {modalArticolo.societa}{modalArticolo.autore && modalArticolo.autore !== modalArticolo.societa ? ` · a cura di ${modalArticolo.autore}` : ""} — {modalArticolo.data}</p>
             <p className="modal-testo">{modalArticolo.testo}</p>
           </div>
         </div>
