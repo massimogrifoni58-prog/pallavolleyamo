@@ -7254,7 +7254,9 @@ function ArticoliRicevuti({ chiama }) {
                 <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginTop: "0.6rem" }}>
                   <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "terni")}>Pubblica su Terni</button>
                   <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "perugia")}>Pubblica su Perugia</button>
-                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "entrambe")}>Entrambe</button>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "entrambe")}>Terni + Perugia</button>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "regionali")}>Pubblica su Regionali</button>
+                  <button className="filter-btn filter-btn--active" onClick={() => agisci(a, "pubblica-ricevuto", "nazionali")}>Pubblica su Nazionali</button>
                   <button className="filter-btn" onClick={() => agisci(a, "scarta-ricevuto")}>Scarta</button>
                 </div>
               )}

@@ -164,7 +164,7 @@ async function gestisciRicevuti(body, token, res) {
       articolo = lista.find((a) => a.id === id);
       if (!articolo) return res.status(404).json({ errore: "Articolo non trovato (forse già gestito)" });
       if (body.azione === "pubblica-ricevuto") {
-        const provincia = ["perugia", "terni", "entrambe"].includes(body.provincia) ? body.provincia : null;
+        const provincia = ["perugia", "terni", "entrambe", "regionali", "nazionali"].includes(body.provincia) ? body.provincia : null;
         if (!provincia) return res.status(400).json({ errore: "Scegli dove pubblicare" });
         // 1) aggiunge l'articolo alle notizie (se non c'e' gia')
         let aggiunto = false;
