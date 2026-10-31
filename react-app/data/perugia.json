@@ -1,13 +1,61 @@
 {
-  "generatedAt": "2026-10-31T06:02:57.890228+00:00",
+  "generatedAt": "2026-10-31T10:42:47.219208+00:00",
   "posts": [
+    {
+      "title": "San Giustino in viaggio per riscattarsi a Sarroch",
+      "excerpt": "Terza giornata della serie A3 maschile di pallavolo e seconda gara esterna consecutiva per gli uomini della Ermgroup San Giustino. Domenica 1° novembre alle ore 16 gli altotiberini saranno di scena in",
+      "createdTime": "Sat, 31 Oct 2026 08:00:10 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Bellucci-Alessandro.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/san-giustino-in-viaggio-per-riscattarsi-a-sarroch/",
+      "id": "1"
+    },
+    {
+      "title": "Il programma della serie B maschile",
+      "excerpt": "Il campionato nazionale di pallavolo di serie B maschile entra nel vivo con la disputa della terza giornata. Dopo le prime due tornate che sono servite a rompere il ghiaccio e a delineare i primissimi",
+      "createdTime": "Sat, 31 Oct 2026 00:00:02 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Pellicori-Simone.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/il-programma-della-serie-b-maschile-232/",
+      "id": "2"
+    },
+    {
+      "title": "Gli impegni della serie B2 femminile",
+      "excerpt": "Il campionato nazionale di serie B2 femminile si prepara a disputare la terza giornata della stagione regolare. Le tre principali realtà della pallavolo umbra scendono in campo oggi per un turno che p",
+      "createdTime": "Fri, 30 Oct 2026 23:30:57 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Fagioli-Elisa-campo.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/gli-impegni-della-serie-b2-femminile-231/",
+      "id": "3"
+    },
+    {
+      "title": "Tutti gli appuntamenti dei campionati regionali",
+      "excerpt": "Partono i campionati regionali di pallavolo, nel fine settimana la curiosità degli sportivi sarà alta per sapere quali saranno le squadre da battere. Queste le gare della serie C maschile: School Peru",
+      "createdTime": "Fri, 30 Oct 2026 23:00:22 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/01/Pianeta-Volley-Umbria-e1769253087845.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/tutti-gli-appuntamenti-dei-campionati-regionali-289/",
+      "id": "4"
+    },
+    {
+      "title": "Terni ci prova alla corte di Galatone",
+      "excerpt": "C’è attesa per la terza giornata di andata del campionato di serie A3 maschile della Terni Volley Academy. Sabato 31 ottobre, alle ore 18, i riflettori si accenderanno per il delicato match contro la ",
+      "createdTime": "Fri, 30 Oct 2026 18:00:46 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Oberto-Simone.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/terni-ci-prova-alla-corte-di-galatone/",
+      "id": "5"
+    },
     {
       "title": "Altotevere: “In caso di necessità, io e gli altri entrati siamo pronti”, dice Pinali",
       "excerpt": "Lo schiacciatore biancazzurro ridimensiona tuttavia la sua eccellente prestazione di Cantù: “Positiva, ma purtroppo non è servita. Adesso pensiamo a Sarroch e a portare a casa i tre punti”. Intanto, E",
       "createdTime": "Fri, 30 Oct 2026 13:07:42 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/pinali-attacco-cantu-due.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35646",
-      "id": "1"
+      "id": "6"
+    },
+    {
+      "title": "Città di Castello, uomini di scena a San Mauro Pascoli",
+      "excerpt": "Seconda trasferta consecutiva per la Città di Castello Pallavolo che va in viaggio per sfidare una delle squadre favorite e maggiormente attrezzate del proprio girone della serie B maschile, la Rubico",
+      "createdTime": "Fri, 30 Oct 2026 10:00:19 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Cioffi-Gianmarco.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/10/citta-di-castello-uomini-di-scena-a-san-mauro-pascoli/",
+      "id": "7"
     },
     {
       "title": "Sirio Perugia: sfida al vertice contro Torri di Quartesolo",
@@ -15,7 +63,7 @@
       "createdTime": "Fri, 30 Oct 2026 07:12:16 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2020/06/bovari.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35645",
-      "id": "2"
+      "id": "8"
     },
     {
       "title": "Black Angels, il capitano avverte: “Guai a sottovalutare Offanengo”",
@@ -23,7 +71,7 @@
       "createdTime": "Fri, 30 Oct 2026 07:09:47 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Fiesoli.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35643",
-      "id": "3"
+      "id": "9"
     },
     {
       "title": "Black Angels, la fiducia di Mancini: “La strada è quella giusta”",
@@ -31,7 +79,7 @@
       "createdTime": "Thu, 29 Oct 2026 12:29:51 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/mancini-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35640",
-      "id": "4"
+      "id": "10"
     },
     {
       "title": "D Femminile: Buona la prima. Ponte Valleceppi e Bastia volano, subito maratone da tie-break",
@@ -39,7 +87,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:40:51 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35628",
-      "id": "5"
+      "id": "11"
     },
     {
       "title": "Serie C Femminile: Bastia, Trevi e Bartoccini fanno la voce grossa. Marsciano di rimonta",
@@ -47,7 +95,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:28:55 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35626",
-      "id": "6"
+      "id": "12"
     },
     {
       "title": "Serie C Maschile: Italchimici e Marsciano a punteggio pieno, derby Sir al cardiopalma",
@@ -55,7 +103,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:24:44 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35625",
-      "id": "7"
+      "id": "13"
     },
     {
       "title": "Serie D maschile: partenza a razzo, i verdetti del primo turno",
@@ -63,7 +111,7 @@
       "createdTime": "Tue, 20 Oct 2026 17:46:35 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35553",
-      "id": "8"
+      "id": "14"
     }
   ]
 }
