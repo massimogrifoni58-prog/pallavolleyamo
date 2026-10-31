@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T20:32:10.008424+00:00",
+  "generatedAt": "2026-10-31T23:32:35.409316+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -267,7 +267,7 @@
         "ora": "21:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "serie-c-maschile-17",
@@ -3341,7 +3341,7 @@
         "ora": "20:00",
         "casa": "STRIKE TEAM MONTELUCE",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "serie-d-femminile-a-12",
