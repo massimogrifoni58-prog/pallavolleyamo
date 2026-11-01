@@ -5457,12 +5457,12 @@ body.light-mode .rc-g.is-sel { background: var(--gold); color: #111114; }
 body.light-mode .rc-sqchip { background: #fff; }
 body.light-mode .rc-sqchip.is-on { background: var(--gold); }
 
-/* Pagine notizie: elenco dalla piu recente, miniatura a sinistra */
-.grid--elenco { grid-template-columns: 1fr; gap: 0.9rem; }
-.grid--elenco .card { flex-direction: row; align-items: stretch; }
-.grid--elenco .card__image { width: 170px; min-width: 170px; height: auto; max-height: none; object-fit: cover; aspect-ratio: auto; }
-.grid--elenco .card__body { flex: 1; min-width: 0; }
+/* Pagine notizie: elenco dalla piu recente. Telefono: foto larga sopra; computer: foto a sinistra */
+.grid--elenco { grid-template-columns: 1fr; gap: 1rem; }
+.grid--elenco .card__image { width: 100%; height: auto; max-height: none; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
 .grid--elenco .card__date { font-weight: 700; color: var(--gold); }
-@media (max-width: 600px) {
-  .grid--elenco .card__image { width: 104px; min-width: 104px; }
+@media (min-width: 700px) {
+  .grid--elenco .card { flex-direction: row; align-items: stretch; }
+  .grid--elenco .card__image { width: 260px; min-width: 260px; height: auto; aspect-ratio: 4 / 3; align-self: flex-start; }
+  .grid--elenco .card__body { flex: 1; min-width: 0; }
 }
