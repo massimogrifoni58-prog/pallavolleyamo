@@ -5456,3 +5456,13 @@ body.light-mode .rc-g.is-sel { background: var(--gold); color: #111114; }
 @media (max-width: 600px) { .rc-sqchip { font-size: 0.74rem; padding: 0.28rem 0.6rem 0.28rem 0.3rem; } }
 body.light-mode .rc-sqchip { background: #fff; }
 body.light-mode .rc-sqchip.is-on { background: var(--gold); }
+
+/* Pagine notizie: elenco dalla piu recente, miniatura a sinistra */
+.grid--elenco { grid-template-columns: 1fr; gap: 0.9rem; }
+.grid--elenco .card { flex-direction: row; align-items: stretch; }
+.grid--elenco .card__image { width: 170px; min-width: 170px; height: auto; max-height: none; object-fit: cover; aspect-ratio: auto; }
+.grid--elenco .card__body { flex: 1; min-width: 0; }
+.grid--elenco .card__date { font-weight: 700; color: var(--gold); }
+@media (max-width: 600px) {
+  .grid--elenco .card__image { width: 104px; min-width: 104px; }
+}

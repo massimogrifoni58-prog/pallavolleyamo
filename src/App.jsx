@@ -2428,10 +2428,8 @@ function SectionPage({ slug, subscribed }) {
     (a, b) => parseDate(b) - parseDate(a)
   );
 
-  const featuredIndex = allPosts.findIndex((p) => p.image);
-  const featured = allPosts[featuredIndex !== -1 ? featuredIndex : 0];
-  const rest = allPosts.filter((_, i) => i !== (featuredIndex !== -1 ? featuredIndex : 0));
-  const posts = rest.slice(0, MAX_NEWS_PER_SECTION - 1);
+  const featured = null;
+  const posts = allPosts.slice(0, MAX_NEWS_PER_SECTION * 2);
 
   return (
     <main>
@@ -2456,7 +2454,7 @@ function SectionPage({ slug, subscribed }) {
             style={{ flex: "1 1 240px", maxWidth: "460px", padding: "0.65rem 0.9rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "0.95rem" }} />
           <button type="submit" className="filter-btn filter-btn--active">🔍 Cerca</button>
         </form>
-        {!featured && <p className="state">Nessuna notizia disponibile al momento.</p>}
+        {posts.length === 0 && <p className="state">Nessuna notizia disponibile al momento.</p>}
         {featured && (
   <FeaturedPost 
     post={featured} 
@@ -2464,7 +2462,7 @@ function SectionPage({ slug, subscribed }) {
     onOpen={featured._isArticolo ? () => setModalArticolo(featured._articolo) : undefined}
   />
 )}
-       <div className="grid">
+       <div className="grid grid--elenco">
           {posts.map((post) => (
             post._isArticolo 
               ? <ArticoloCard key={post.id} articolo={post._articolo} onOpen={setModalArticolo} />
