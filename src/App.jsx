@@ -7393,7 +7393,7 @@ function ModeraPage({ tabIniziale }) {
   );
 }
 
-function CercaPage() {
+function CercaPage({ subscribed }) {
   const [q, setQ] = useState(() => { try { return new URLSearchParams(window.location.search).get("q") || ""; } catch (e) { return ""; } });
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
   const squadre = React.useMemo(() => {
@@ -7520,7 +7520,7 @@ function CercaPage() {
                 const anteprima = (p.excerpt || "").replace(/<[^>]*>/g, "").trim();
                 const mostra = anteprima && !/^Fonte:/i.test(anteprima);
                 return (
-                  <a key={(p.id || p.permalink || "") + i} href={p.permalink} target={p.interno ? undefined : "_blank"} rel="noreferrer" style={{ ...box, flexWrap: "nowrap", alignItems: "flex-start", justifyContent: "flex-start" }}>
+                  <a key={(p.id || p.permalink || "") + i} href={p.interno ? p.permalink : (subscribed ? p.permalink : "#/iscrizione")} target={!p.interno && subscribed ? "_blank" : undefined} rel="noopener noreferrer" onClick={p.interno ? (e) => { e.preventDefault(); navigateTo(p.permalink.replace(/^\//, "")); window.scrollTo(0, 0); } : undefined} style={{ ...box, flexWrap: "nowrap", alignItems: "flex-start", justifyContent: "flex-start" }}>
                     {p.image ? <img src={p.image} alt="" loading="lazy" style={{ width: "96px", height: "72px", objectFit: "cover", borderRadius: "8px", flex: "0 0 auto" }} /> : <div style={{ width: "96px", height: "72px", borderRadius: "8px", background: "var(--border)", flex: "0 0 auto" }} />}
                     <div style={{ minWidth: 0 }}>
                       <div style={{ fontSize: "0.7rem", color: "var(--gold)", fontWeight: 700, textTransform: "uppercase" }}>{p.source || p.fonte}{dataNews(p) ? " · " + new Date(dataNews(p)).toLocaleDateString("it-IT", { day: "numeric", month: "short", year: "numeric" }) : ""}</div>
@@ -8208,7 +8208,7 @@ useEffect(() => {
           {route === "dirette" && <DiretteLivePage />}
           {route === "squadre-iscritte" && <SquadreIscrittePage />}
           {route === "mia-squadra" && <MiaSquadraPage />}
-          {route === "cerca" && <CercaPage />}
+          {route === "cerca" && <CercaPage subscribed={subscribed} />}
           {route === "modera" && <ModeraPage />}
           {route === "risultati" && <CalendarioCompletoPage />}
           {route === "risultati-seriec" && <RisultatiPage cat="Serie C" />}
