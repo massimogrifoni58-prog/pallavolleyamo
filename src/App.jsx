@@ -661,6 +661,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
             { href: "#/invia-articolo", label: "Invia il tuo articolo", sub: "Per le società: va dritto nelle notizie" },
             { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
+            { href: "/hubvolley-demo/", label: "HubVolley: prova la demo", sub: "Il gestionale per la tua società", evidenza: true },
           ]}
         />
         <NavDropdown
@@ -848,6 +849,28 @@ function BigMatchHome() {
   );
 }
 
+// Invito a provare la demo di HubVolley (pagina esterna al sito, per questo link normale e non "#/")
+function BannerHubVolley({ compatto }) {
+  if (compatto) {
+    return (
+      <div className="sidebar__box hubvolley-box">
+        <p className="hubvolley-box__label">Per le società</p>
+        <p className="hubvolley-box__titolo">HubVolley</p>
+        <p className="hubvolley-box__testo">Atlete, presenze, quote e gare in un'unica app.</p>
+        <a href="/hubvolley-demo/" className="sponsor__cta" style={{ display: "block", textAlign: "center" }}>Prova la demo →</a>
+      </div>
+    );
+  }
+  return (
+    <a href="/hubvolley-demo/" className="hubvolley-banner">
+      <span className="hubvolley-banner__tag">Novità per le società</span>
+      <span className="hubvolley-banner__titolo">HubVolley: tutta la tua società in un'unica app</span>
+      <span className="hubvolley-banner__testo">Atlete, presenze, quote, gare e scout sul telefono di staff, atlete e genitori. Provala subito, senza registrarti.</span>
+      <span className="hubvolley-banner__btn">Prova la demo →</span>
+    </a>
+  );
+}
+
 function HomePage({ latestNews = [] }) {
   const risultati = (risultatiData.matches || []).filter((m) => {
     if (m.status !== "disputata" || !m.score) return false;
@@ -984,6 +1007,7 @@ function HomePage({ latestNews = [] }) {
         </svg>
 
       </div>     
+      <BannerHubVolley />
       <MiaSquadraHome />
       <DirettaOggiHome />
       <BigMatchHome />
@@ -2219,6 +2243,7 @@ function PerLeSocietaPage() {
     <main>
       <section className="section">
         <h2 className="feed-heading">Per le società</h2>
+        <div style={{ maxWidth: "900px", marginBottom: "1.2rem" }}><BannerHubVolley /></div>
         <p style={{ fontSize: "0.95rem", lineHeight: 1.65, maxWidth: "62ch", margin: "0 0 1.5rem" }}>
           PallaVolleyAmo è il portale della pallavolo umbra e per le società è gratuito. Qui sotto trovi cosa puoi avere e cosa ci serve da te per far crescere il sito insieme.
         </p>
@@ -5757,6 +5782,7 @@ function SidebarRight() {
           <span className="pillola-sidebar-link__arrow">→</span>
         </a>
       </div>
+      <BannerHubVolley compatto />
       <div className="sidebar__box sidebar__box--sponsor-pro">
         <a href={current.url} target="_blank" rel="noreferrer">
           <img
@@ -5981,6 +6007,7 @@ function Footer() {
     { label: "Mappa Volley", href: "#/mappa" },
     { label: "Invia il tuo articolo", href: "#/invia-articolo" },
     { label: "Per le società", href: "#/per-le-societa" },
+    { label: "HubVolley (demo)", href: "/hubvolley-demo/" },
   ];
   return (
     <footer className="sito-footer">

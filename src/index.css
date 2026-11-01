@@ -5466,3 +5466,15 @@ body.light-mode .rc-sqchip.is-on { background: var(--gold); }
   .grid--elenco .card__image { width: 260px; min-width: 260px; height: auto; aspect-ratio: 4 / 3; align-self: flex-start; }
   .grid--elenco .card__body { flex: 1; min-width: 0; }
 }
+
+/* Invito a HubVolley */
+.hubvolley-banner{display:flex;flex-direction:column;gap:.35rem;margin:1rem 0;padding:1.1rem 1.3rem;border:1px solid var(--gold);border-radius:14px;background:linear-gradient(135deg,rgba(212,175,55,.16),rgba(212,175,55,.04));text-decoration:none;color:var(--text);transition:transform .2s,box-shadow .2s}
+.hubvolley-banner:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,175,55,.18)}
+.hubvolley-banner__tag{color:var(--gold);font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.hubvolley-banner__titolo{font-size:1.2rem;font-weight:800;line-height:1.25}
+.hubvolley-banner__testo{font-size:.9rem;color:var(--text-dim)}
+.hubvolley-banner__btn{align-self:flex-start;margin-top:.3rem;background:var(--gold);color:#111;font-weight:800;padding:.55rem 1.1rem;border-radius:9px;font-size:.9rem}
+.hubvolley-box{text-align:center;border:1px solid var(--gold)}
+.hubvolley-box__label{margin:0;color:var(--gold);font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.hubvolley-box__titolo{margin:.2rem 0;font-size:1.25rem;font-weight:800}
+.hubvolley-box__testo{margin:0 0 .7rem;font-size:.78rem;color:var(--text-dim);line-height:1.4}
