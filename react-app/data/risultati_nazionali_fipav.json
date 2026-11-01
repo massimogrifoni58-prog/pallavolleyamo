@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:53:35.489673+00:00",
+  "generatedAt": "2026-11-01T23:26:56.104637+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -24,6 +24,18 @@
       "data": "11/10/2026 ore 17:00",
       "dataIso": "2026-10-11",
       "ora": "17:00"
+    },
+    {
+      "id": "lva2-3224",
+      "competition": "Serie A2 Femminile Girone Unico",
+      "giornata": "Giornata",
+      "home": "TENAGLIA ALTINO AVASTESE VOLLEY",
+      "away": "BARTOCCINI +ENERGIA PERUGIA",
+      "data": "14/10/2026 ore 20:30",
+      "dataIso": "2026-10-14",
+      "ora": "20:30",
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "fp7802",
@@ -55,8 +67,8 @@
       "giornata": "Giornata",
       "home": "BARTOCCINI +ENERGIA PERUGIA",
       "away": "NUVOLI' ALTAFRATTE PADOVA",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-0",
+      "status": "disputata",
       "data": "18/10/2026 ore 17:00",
       "dataIso": "2026-10-18",
       "ora": "17:00"
@@ -120,6 +132,18 @@
       "data": "31/10/2026 ore 21:00",
       "dataIso": "2026-10-31",
       "ora": "21:00"
+    },
+    {
+      "id": "lva2-3252",
+      "competition": "Serie A2 Femminile Girone Unico",
+      "giornata": "Giornata",
+      "home": "TRASPORTI BRESSAN OFFANENGO",
+      "away": "BARTOCCINI +ENERGIA PERUGIA",
+      "data": "01/11/2026 ore 17:00",
+      "dataIso": "2026-11-01",
+      "ora": "17:00",
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "fp7826",

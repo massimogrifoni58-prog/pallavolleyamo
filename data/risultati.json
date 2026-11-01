@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T18:48:51.054107+00:00",
+  "generatedAt": "2026-11-01T23:26:41.233874+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1564,8 +1564,8 @@
       "giornata": "Giornata 3",
       "home": "SAN MARIANO VOLLEY",
       "away": "AMERINA PALLAVOLO A S D",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626964",
@@ -2977,8 +2977,8 @@
       "giornata": "Giornata 3",
       "home": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
       "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131628263",
@@ -2986,8 +2986,8 @@
       "giornata": "Giornata 3",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627462",
@@ -4543,8 +4543,8 @@
       "giornata": "Giornata 2",
       "home": "NVBS BLUE PANTHERS",
       "away": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131627110",
@@ -5740,8 +5740,8 @@
       "giornata": "Giornata 2",
       "home": "ORVIETO VOLLEY ACADEMY",
       "away": "E.DI.TEC. CANNARA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131627249",
@@ -14443,8 +14443,8 @@
       "giornata": "Giornata 3",
       "home": "SPELLO VOLLEY",
       "away": "SCHOOL VOLLEY PERUGIA INDACO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641502",
@@ -16256,15 +16256,6 @@
       "status": "in programma"
     },
     {
-      "id": "131659127",
-      "competition": "Under 15 Femminile Girone B",
-      "giornata": "Giornata 1",
-      "home": "SIRIO PALLAVOLO ROSSA",
-      "away": "PMU MARSCIANO BLU",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659128",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 1",
@@ -16279,6 +16270,15 @@
       "giornata": "Giornata 1",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
       "away": "FOLIGNO U15 ROSA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659127",
+      "competition": "Under 15 Femminile Girone B",
+      "giornata": "Giornata 1",
+      "home": "SIRIO PALLAVOLO ROSSA",
+      "away": "PMU MARSCIANO BLU",
       "score": "da disputare",
       "status": "in programma"
     },
