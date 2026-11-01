@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T11:39:57.225978+00:00",
+  "generatedAt": "2026-11-01T17:53:17.001939+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -7049,20 +7049,20 @@
       "status": "in programma"
     },
     {
-      "id": "131629344",
-      "competition": "1 Divisione Femminile Girone A",
-      "giornata": "Giornata 6",
-      "home": "POLISP DON BOSCO GUBBIO BIANCA",
-      "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131629346",
       "competition": "1 Divisione Femminile Girone A",
       "giornata": "Giornata 6",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "VOLLEY PIETRALUNGA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131629344",
+      "competition": "1 Divisione Femminile Girone A",
+      "giornata": "Giornata 6",
+      "home": "POLISP DON BOSCO GUBBIO BIANCA",
+      "away": "TRESTINA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
