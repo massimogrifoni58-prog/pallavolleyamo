@@ -1,13 +1,53 @@
 {
-  "generatedAt": "2026-11-01T06:02:53.637548+00:00",
+  "generatedAt": "2026-11-01T11:39:01.280831+00:00",
   "posts": [
+    {
+      "title": "Bartolini mastica amaro: “Sbagliato l’approccio”",
+      "excerpt": "Marco Bartolini non nasconde il suo dispiacere per la sconfitta di Città di Castello contro Rubicone Volley. Un ko maturato al tie-break. &#8220;Ancora una volta nel primo set l&#8217;approccio è stat",
+      "createdTime": "Sun, 01 Nov 2026 09:15:43 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/09/IMG_0875.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35664",
+      "id": "1"
+    },
+    {
+      "title": "B maschile: Castello cede al tie-break contro Rubicone",
+      "excerpt": "Città di Castello torna dalla tana del Rubicone Volley con un punto ma con l&#8217;amaro in bocca di non essere riuscita a portare a casa un successo: avanti 1-2 e 3-7 nel tie break, i tifernati si so",
+      "createdTime": "Sun, 01 Nov 2026 09:13:24 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Città-di-Castello.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35662",
+      "id": "2"
+    },
+    {
+      "title": "La Sirio Perugia fa suo lo scontro al vertice con Torri di Quartisolo",
+      "excerpt": "Per mezzo di una prestazione autoritaria e di buon livello si aggiudica il big-match valido per la terza giornata di campionato la Sirio Perugia. Le biancorosse continuano a convincere e si sbarazzano",
+      "createdTime": "Sun, 01 Nov 2026 09:08:46 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/sirio-perugia.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35660",
+      "id": "3"
+    },
+    {
+      "title": "Volley, non si ferma la corsa della Sirio Perugia che asfalta Quartisolo",
+      "excerpt": "La Sirio Perugia Volley resta a punteggio pieno. Eredità nel netto 3-0 rifilato tra le mura amiche a Torri di Quartisolo. A guidare le ragazze di Bovari la solita Sangoi che si congeda dal match con 1",
+      "createdTime": "Sun, 01 Nov 2026 06:40:56 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/10/Sirio-Perugia-campo.jpeg?fit=919%2C613&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/volley-non-si-ferma-la-corsa-della-sirio-perugia-che-asfalta-quartisolo/",
+      "id": "4"
+    },
+    {
+      "title": "Volley, Serie B: la Sir ITS Umbria Academy cade 3-1 a Osimo",
+      "excerpt": "Si ferma alla terza giornata di campionato la corsa della Sir ITS Umbria Academy. Dopo due vittorie di fila, i giovani bianconeri cadono 3-1 a Osimo contro il Re Salmone Volley. Non era facile, per la",
+      "createdTime": "Sun, 01 Nov 2026 06:31:37 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/11/c7f825ca-3136-41da-90df-017d9b1ee91e-e1793514659748.jpg?fit=1024%2C496&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/volley-serie-b-la-sir-its-umbria-academy-cade-3-1-a-osimo/",
+      "id": "5"
+    },
     {
       "title": "Città di Castello s’illude ma festeggia San Mauro Pascoli",
       "excerpt": "Torna dalla seconda trasferta consecutiva con un punto e con l’amaro in bocca per non essere riuscita a portare a casa un successo la Città di Castello Pallavolo. Avanti 3-7 nel tie-break, i tifernati",
       "createdTime": "Sun, 01 Nov 2026 00:00:36 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/S.Mauro-Castello-momento.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/citta-di-castello-sillude-ma-festeggia-san-mauro-pascoli/",
-      "id": "1"
+      "id": "6"
     },
     {
       "title": "Terni batte un colpo e sbanca Galatone",
@@ -15,7 +55,7 @@
       "createdTime": "Sat, 31 Oct 2026 20:00:23 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Zornetta-Luciano-muro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/terni-batte-un-colpo-e-sbanca-galatone/",
-      "id": "2"
+      "id": "7"
     },
     {
       "title": "Altotevere a Sarroch per una “ripartenza” come quella dello scorso anno",
@@ -23,7 +63,7 @@
       "createdTime": "Sat, 31 Oct 2026 12:46:28 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/maiocchi-attacco-acqui-terme.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35654",
-      "id": "3"
+      "id": "8"
     },
     {
       "title": "Black Angels pronte al rientro: si ricomincia da Offanengo",
@@ -31,7 +71,7 @@
       "createdTime": "Sat, 31 Oct 2026 12:38:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Black-Angels-3.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35652",
-      "id": "4"
+      "id": "9"
     },
     {
       "title": "San Giustino in viaggio per riscattarsi a Sarroch",
@@ -39,7 +79,7 @@
       "createdTime": "Sat, 31 Oct 2026 08:00:10 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Bellucci-Alessandro.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/san-giustino-in-viaggio-per-riscattarsi-a-sarroch/",
-      "id": "5"
+      "id": "10"
     },
     {
       "title": "Il programma della serie B maschile",
@@ -47,7 +87,7 @@
       "createdTime": "Sat, 31 Oct 2026 00:00:02 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Pellicori-Simone.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/il-programma-della-serie-b-maschile-232/",
-      "id": "6"
+      "id": "11"
     },
     {
       "title": "Gli impegni della serie B2 femminile",
@@ -55,46 +95,6 @@
       "createdTime": "Fri, 30 Oct 2026 23:30:57 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Fagioli-Elisa-campo.jpg",
       "permalink": "https://www.pianetavolley.net/2026/10/gli-impegni-della-serie-b2-femminile-231/",
-      "id": "7"
-    },
-    {
-      "title": "Tutti gli appuntamenti dei campionati regionali",
-      "excerpt": "Partono i campionati regionali di pallavolo, nel fine settimana la curiosità degli sportivi sarà alta per sapere quali saranno le squadre da battere. Queste le gare della serie C maschile: School Peru",
-      "createdTime": "Fri, 30 Oct 2026 23:00:22 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/01/Pianeta-Volley-Umbria-e1769253087845.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/tutti-gli-appuntamenti-dei-campionati-regionali-289/",
-      "id": "8"
-    },
-    {
-      "title": "Terni ci prova alla corte di Galatone",
-      "excerpt": "C’è attesa per la terza giornata di andata del campionato di serie A3 maschile della Terni Volley Academy. Sabato 31 ottobre, alle ore 18, i riflettori si accenderanno per il delicato match contro la ",
-      "createdTime": "Fri, 30 Oct 2026 18:00:46 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/10/Oberto-Simone.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/10/terni-ci-prova-alla-corte-di-galatone/",
-      "id": "9"
-    },
-    {
-      "title": "Altotevere: “In caso di necessità, io e gli altri entrati siamo pronti”, dice Pinali",
-      "excerpt": "Lo schiacciatore biancazzurro ridimensiona tuttavia la sua eccellente prestazione di Cantù: “Positiva, ma purtroppo non è servita. Adesso pensiamo a Sarroch e a portare a casa i tre punti”. Intanto, E",
-      "createdTime": "Fri, 30 Oct 2026 13:07:42 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/pinali-attacco-cantu-due.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35646",
-      "id": "10"
-    },
-    {
-      "title": "Sirio Perugia: sfida al vertice contro Torri di Quartesolo",
-      "excerpt": "Un sabato da brividi, e non solo per la ricorrenza sul calendario. Il palasport di Magione si prepara a ospitare, sabato 31 ottobre alle ore 18, una delle sfide più calde della terza giornata del camp",
-      "createdTime": "Fri, 30 Oct 2026 07:12:16 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2020/06/bovari.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35645",
-      "id": "11"
-    },
-    {
-      "title": "Black Angels, il capitano avverte: “Guai a sottovalutare Offanengo”",
-      "excerpt": "La schiacciatrice della Bartoccini +energia Perugia, Alessia Fiesoli, carica la squadra in vista della trasferta lombarda: “E’ un avversario da prendere con le molle, occhio a Taborelli. Noi stiamo be",
-      "createdTime": "Fri, 30 Oct 2026 07:09:47 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Fiesoli.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35643",
       "id": "12"
     },
     {
