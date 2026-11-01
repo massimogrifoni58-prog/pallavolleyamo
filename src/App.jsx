@@ -7417,8 +7417,15 @@ function CercaPage() {
     ...(regionaliData.posts || []),
     ...(terniData.posts || []),
     ...(perugiaData.posts || []),
+    ...(articoliSocietaData.articoli || []).map((a) => ({ title: a.titolo, excerpt: a.testo, createdTime: a.data, image: a.foto, source: a.societa, permalink: "/" + (a.provincia === "entrambe" ? "terni" : a.provincia), interno: true })),
   ];
-  const trNews = notizie.filter((p) => ok(p.title)).slice(0, 8);
+  const dataNews = (p) => { const d = new Date(p.createdTime); return isNaN(d) ? 0 : d.getTime(); };
+  const visti = new Set();
+  const trNews = notizie
+    .filter((p) => ok(p.title, p.excerpt))
+    .filter((p) => { const k = normSq(p.title || ""); if (visti.has(k)) return false; visti.add(k); return true; })
+    .sort((a, b) => dataNews(b) - dataNews(a))
+    .slice(0, 12);
 
   function seguiSquadra(nome) { salvaMiaSquadra(nome); navigateTo("mia-squadra"); }
   function prossima(nome) {
@@ -7503,12 +7510,20 @@ function CercaPage() {
           <>
             <h3 style={titoloSez}>Notizie</h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              {trNews.map((p, i) => (
-                <a key={(p.id || p.permalink || "") + i} href={p.permalink} target="_blank" rel="noreferrer" style={box}>
-                  <div><div style={{ fontWeight: 600, fontSize: "0.9rem" }} dangerouslySetInnerHTML={{ __html: p.title }} />
-                    <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{p.source || p.fonte}</div></div>
-                </a>
-              ))}
+              {trNews.map((p, i) => {
+                const anteprima = (p.excerpt || "").replace(/<[^>]*>/g, "").trim();
+                const mostra = anteprima && !/^Fonte:/i.test(anteprima);
+                return (
+                  <a key={(p.id || p.permalink || "") + i} href={p.permalink} target={p.interno ? undefined : "_blank"} rel="noreferrer" style={{ ...box, flexWrap: "nowrap", alignItems: "flex-start", justifyContent: "flex-start" }}>
+                    {p.image ? <img src={p.image} alt="" loading="lazy" style={{ width: "96px", height: "72px", objectFit: "cover", borderRadius: "8px", flex: "0 0 auto" }} /> : <div style={{ width: "96px", height: "72px", borderRadius: "8px", background: "var(--border)", flex: "0 0 auto" }} />}
+                    <div style={{ minWidth: 0 }}>
+                      <div style={{ fontSize: "0.7rem", color: "var(--gold)", fontWeight: 700, textTransform: "uppercase" }}>{p.source || p.fonte}{dataNews(p) ? " · " + new Date(dataNews(p)).toLocaleDateString("it-IT", { day: "numeric", month: "short", year: "numeric" }) : ""}</div>
+                      <div style={{ fontWeight: 700, fontSize: "0.92rem", margin: "0.15rem 0" }} dangerouslySetInnerHTML={{ __html: p.title }} />
+                      {mostra && <div style={{ fontSize: "0.8rem", color: "var(--text-dim)", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{anteprima}</div>}
+                    </div>
+                  </a>
+                );
+              })}
             </div>
           </>
         )}
