@@ -5755,6 +5755,7 @@ const SPONSORS = [
   { nome: "Enertoscana", logo: "/sponsor-enertoscana.png", url: "https://enertoscana.it/" },
   { nome: "Narnionline", logo: "/sponsor-narninews.png", url: "https://www.narnionline.com/" },
   { nome: "Pianeta Volley", logo: "/sponsor-PianetaVolley2.png", url: "https://www.pianetavolley.net/" },
+  { nome: "HubVolley: prova la demo", logo: "/sponsor-hubvolley.png", url: "/hubvolley-demo/", interno: true },
 ];
 
 function SidebarRight() {
@@ -5782,9 +5783,8 @@ function SidebarRight() {
           <span className="pillola-sidebar-link__arrow">→</span>
         </a>
       </div>
-      <BannerHubVolley compatto />
       <div className="sidebar__box sidebar__box--sponsor-pro">
-        <a href={current.url} target="_blank" rel="noreferrer">
+        <a href={current.url} target={current.interno ? undefined : "_blank"} rel="noreferrer">
           <img
             src={current.logo}
             alt={current.nome}
@@ -5792,8 +5792,8 @@ function SidebarRight() {
           />
         </a>
         <p className="sponsor__name">{current.nome}</p>
-        <a href={current.url} target="_blank" rel="noreferrer" className="sponsor__cta">
-          Visita il sito →
+        <a href={current.url} target={current.interno ? undefined : "_blank"} rel="noreferrer" className="sponsor__cta">
+          {current.interno ? "Prova la demo →" : "Visita il sito →"}
         </a>
         {SPONSORS.length > 1 && (
           <div className="sponsor__dots">
