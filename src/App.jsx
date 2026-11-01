@@ -611,7 +611,7 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <MeteoWidget />
         <LiveClock />
         <div className="masthead__topbar-links">
-          <a href="#/cerca" className="masthead__topbar-link">Cerca</a>
+          <a href="#/cerca" className="masthead__topbar-link">🔍 Cerca nel sito</a>
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
           <a href="#/privacy" className="masthead__topbar-link">Privacy Policy</a>
           <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
@@ -2448,6 +2448,14 @@ function SectionPage({ slug, subscribed }) {
       )}
       <section className="section">
         <h2 className="feed-heading">{section.title}</h2>
+        <form
+          onSubmit={(e) => { e.preventDefault(); const v = new FormData(e.target).get("q"); navigateTo("cerca?q=" + encodeURIComponent(String(v || "").trim())); }}
+          style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", margin: "0.2rem 0 1.2rem" }}
+        >
+          <input name="q" type="search" placeholder="Cerca nelle notizie: squadra, società, giocatore…" aria-label="Cerca nelle notizie"
+            style={{ flex: "1 1 240px", maxWidth: "460px", padding: "0.65rem 0.9rem", borderRadius: "8px", border: "1px solid var(--border)", background: "transparent", color: "var(--text)", fontSize: "0.95rem" }} />
+          <button type="submit" className="filter-btn filter-btn--active">🔍 Cerca</button>
+        </form>
         {!featured && <p className="state">Nessuna notizia disponibile al momento.</p>}
         {featured && (
   <FeaturedPost 
