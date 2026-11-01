@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:53:17.001939+00:00",
+  "generatedAt": "2026-11-01T18:48:51.054107+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -160,8 +160,8 @@
       "giornata": "Giornata 3",
       "home": "POLISPORTIVA DELFINO - SAIMA",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131626807",
@@ -2968,8 +2968,8 @@
       "giornata": "Giornata 3",
       "home": "MARCHETTI PRO VITT CHIUSI",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627459",
@@ -4552,8 +4552,8 @@
       "giornata": "Giornata 2",
       "home": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
       "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627113",
@@ -5731,8 +5731,8 @@
       "giornata": "Giornata 2",
       "home": "ASD PGS BOSICO VOLLEY GREEN2",
       "away": "FOLIGNO VOLLEY ASD",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627241",

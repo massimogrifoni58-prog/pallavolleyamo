@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:52:17.485330+00:00",
+  "generatedAt": "2026-11-01T18:48:06.416421+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -237,7 +237,7 @@
         "ora": "17:30",
         "casa": "POLISPORTIVA DELFINO - SAIMA",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "serie-c-maschile-14",
@@ -3331,7 +3331,7 @@
         "ora": "18:30",
         "casa": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-d-femminile-a-11",
@@ -4663,7 +4663,7 @@
         "ora": "17:30",
         "casa": "ASD PGS BOSICO VOLLEY GREEN2",
         "ospite": "FOLIGNO VOLLEY ASD",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-d-femminile-b-12",
