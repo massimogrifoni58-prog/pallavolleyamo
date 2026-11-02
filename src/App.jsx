@@ -2521,10 +2521,10 @@ function SectionPage({ slug, subscribed }) {
   />
 )}
        <div className="grid grid--elenco">
-          {posts.map((post) => (
+          {posts.map((post, i) => (
             post._isArticolo 
-              ? <ArticoloCard key={post.id} articolo={post._articolo} onOpen={setModalArticolo} />
-              : <PostCard key={post.id} post={post} subscribed={subscribed} />
+              ? <ArticoloCard key={slug + "-" + i + "-" + post.id} articolo={post._articolo} onOpen={setModalArticolo} />
+              : <PostCard key={slug + "-" + i + "-" + (post.id || post.permalink || "")} post={post} subscribed={subscribed} />
           ))}
         </div>
       </section>
