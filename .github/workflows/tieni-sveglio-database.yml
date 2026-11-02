@@ -1,0 +1,17 @@
+name: Tieni sveglio il database
+on:
+  schedule:
+    - cron: '15 6 * * 1,4'  # lunedi e giovedi mattina: evita che il database gratuito vada in pausa
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chiamata al database
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            -H "apikey: sb_publishable_FFQPDzRC6tJ4NLEP-TbCIA_9CwPsOwf" \
+            -H "Content-Type: application/json" -d '{}' \
+            https://vwhxrfxxnjqkjdnxzqoz.supabase.co/rest/v1/rpc/archivio_stato)
+          echo "Risposta: $code"
+          [ "$code" = "200" ]
