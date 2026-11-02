@@ -1,7 +1,7 @@
 name: Aggiornamento rapido risultati
 on:
   schedule:
-    - cron: '0 7,11,15,19 * * 1-5'  # lunedi-venerdi: 4 volte al giorno (risparmia pubblicazioni)
+    - cron: '0 21 * * 1-5'  # lunedi-venerdi: una volta, a fine serata (circa le 22 ora italiana), dopo le partite infrasettimanali
     - cron: '0 6-20/2 * * 0,6'  # sabato e domenica: ogni 2 ore, dalle 8:00 alle 22:00 ora italiana (estate/inverno +-1h)
     - cron: '30 20-22 * * 0,6'  # sabato e domenica sera: ogni ora fino a mezzanotte circa (ora italiana)
   workflow_dispatch:
