@@ -2416,6 +2416,10 @@ function sezioneDellaNotizia(post, origine) {
   const t = ((post.title || "") + " " + (post.excerpt || "")).toLowerCase();
   if (/superenalotto|grande fratello|\bgf\b|\bmeteo\b/.test(t)) return null;
   if (/terni volley/.test(t)) return "terni";
+  const provTerni = /terni|narni|orvieto|amelia|acquasparta|clt\b|san gemini|sangemini|bosico|marmore|stroncone|montecastrilli|guardea/.test(t);
+  const provPerugia = /perugia|foligno|assisi|gubbio|spoleto|umbertide|marsciano|bastia|spello|trevi|deruta|todi|città di castello|citta di castello|gualdo|cascia|norcia|magione|corciano|altotevere|castiglione del lago/.test(t);
+  if (origine === "terni" && provTerni && !/superlega|serie a[123]?\b|lega volley|vnl/.test(t)) return "terni";
+  if (origine === "perugia" && provPerugia && !/superlega|serie a[123]?\b|lega volley|vnl/.test(t)) return "perugia";
   if (/superlega|serie a\b|serie a[123]|\ba[123][mf]?\b|altotevere|sarroch|san giustino|sirio perugia|offanengo|lega volley|serie b1|serie b2|serie b\b|b maschile|b femminile|vnl|champions league|cev|coppa italia/.test(t)) return "nazionali";
   if (/serie c|serie d|\bunder ?1?[0-9]\b|\bu1[0-9]\b|fipav umbria|regionale|regionali|trofeo delle regioni|prima divisione|coppa umbria|giovanile|giovanili/.test(t)) return "regionali";
   if (/terni|narni|orvieto|amelia|acquasparta|clt\b|san gemini|sangemini|bosico|marmore|stroncone|montecastrilli|guardea/.test(t)) return "terni";
@@ -2483,7 +2487,7 @@ function SectionPage({ slug, subscribed }) {
   );
 
   const featured = null;
-  const posts = allPosts.slice(0, MAX_NEWS_PER_SECTION * 2);
+  const posts = allPosts.slice(0, MAX_NEWS_PER_SECTION * 4);
 
   return (
     <main>
@@ -8221,7 +8225,7 @@ useEffect(() => {
       <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} subscribed={subscribed} />
       <Breadcrumb route={route} />
       <div className="page-layout">
-        <SidebarLeft localNews={[...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />
+        <SidebarLeft localNews={SECTIONS[route] ? [] : [...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />
 
         <div className="page-content">
           {route === "home" && <HomePage latestNews={latestFive} />}
