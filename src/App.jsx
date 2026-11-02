@@ -199,7 +199,7 @@ function PostCard({ post, subscribed, onClick }) {
         )}
                 {post.permalink && (
           <button
-            className="card__action-btn card__action-btn--fb"
+            className="card__action-btn card__action-btn--fb" title="Condividi su Facebook" aria-label="Condividi su Facebook"
             onClick={e => {
               e.stopPropagation();
               e.preventDefault();
@@ -210,7 +210,7 @@ function PostCard({ post, subscribed, onClick }) {
               );
             }}
           >
-            f Condividi
+            ↗
           </button>
         )}
       </div>
