@@ -177,11 +177,7 @@ function CardImmagine({ src, alt }) {
   if (src && !errore) {
     return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
   }
-  return (
-    <div className="card__image card__image--logo" aria-hidden="true">
-      <img src="/PVALOGOpiccolo.png" alt="" loading="lazy" />
-    </div>
-  );
+  return <img className="card__image card__image--segnaposto" src="/news-segnaposto.jpg" alt="" loading="lazy" />;
 }
 
 function PostCard({ post, subscribed, onClick }) {
