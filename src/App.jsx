@@ -2411,6 +2411,18 @@ function PreparazioneFisicaPage() {
   );
 }
        
+// Assegna ogni notizia alla sezione giusta in base al contenuto (le fonti arrivano mescolate)
+function sezioneDellaNotizia(post, origine) {
+  const t = ((post.title || "") + " " + (post.excerpt || "")).toLowerCase();
+  if (/superenalotto|grande fratello|\bgf\b|\bmeteo\b/.test(t)) return null;
+  if (/terni volley/.test(t)) return "terni";
+  if (/superlega|serie a\b|serie a[123]|\ba[123][mf]?\b|altotevere|sarroch|san giustino|sirio perugia|offanengo|lega volley|serie b1|serie b2|serie b\b|b maschile|b femminile|vnl|champions league|cev|coppa italia/.test(t)) return "nazionali";
+  if (/serie c|serie d|\bunder ?1?[0-9]\b|\bu1[0-9]\b|fipav umbria|regionale|regionali|trofeo delle regioni|prima divisione|coppa umbria|giovanile|giovanili/.test(t)) return "regionali";
+  if (/terni|narni|orvieto|amelia|acquasparta|clt\b|san gemini|sangemini|bosico|marmore|stroncone|montecastrilli|guardea/.test(t)) return "terni";
+  if (/perugia|foligno|assisi|gubbio|spoleto|umbertide|marsciano|bastia|spello|trevi|deruta|todi|città di castello|citta di castello|gualdo|cascia|norcia|magione|corciano|altotevere|castiglione del lago/.test(t)) return "perugia";
+  return origine;
+}
+
 function SectionPage({ slug, subscribed }) {
   const section = SECTIONS[slug];
   const [modalArticolo, setModalArticolo] = useState(null);
@@ -2449,7 +2461,24 @@ function SectionPage({ slug, subscribed }) {
       },
     }));
 
-  const allPosts = [...(section.data.posts || []), ...articoliProv, ...fbProv].sort(
+  // Le notizie delle fonti arrivano mescolate: le rimettiamo ciascuna nella sua sezione
+  const pool = slug === "nazionale"
+    ? (nazionaleData.posts || [])
+    : [
+        ...(terniData.posts || []).map((p) => [p, "terni"]),
+        ...(perugiaData.posts || []).map((p) => [p, "perugia"]),
+        ...(regionaliData.posts || []).map((p) => [p, "regionali"]),
+        ...(nazionaliData.posts || []).map((p) => [p, "nazionali"]),
+      ].filter(([p, o]) => sezioneDellaNotizia(p, o) === slug).map(([p]) => p);
+  const visti = new Set();
+  const dellaSezione = pool.filter((p) => {
+    const k = (p.permalink || "") + "|" + (p.title || "").trim().toLowerCase();
+    if (visti.has(k)) return false;
+    visti.add(k);
+    return true;
+  });
+
+  const allPosts = [...dellaSezione, ...articoliProv, ...fbProv].sort(
     (a, b) => parseDate(b) - parseDate(a)
   );
 
