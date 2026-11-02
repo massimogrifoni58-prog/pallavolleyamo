@@ -5497,7 +5497,7 @@ body.light-mode .rc-sqchip.is-on { background: var(--gold); }
   border-bottom: 2px solid var(--gold);
   min-height: 110px;
 }
-.card__image--logo img { width: auto; height: 62%; max-width: 62%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; opacity: 0.95; border: 2px solid var(--gold); }
+.card__image--logo img { width: auto; height: 68%; max-width: 70%; object-fit: contain; background: none; border: 0; border-radius: 0; opacity: 0.95; }
 .grid--elenco .card__image--logo { display: flex; width: 100%; aspect-ratio: 16 / 9; }
 @media (min-width: 700px) {
   .grid--elenco .card__image--logo { width: 260px; min-width: 260px; aspect-ratio: 4 / 3; align-self: flex-start; }

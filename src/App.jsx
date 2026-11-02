@@ -179,7 +179,7 @@ function CardImmagine({ src, alt }) {
   }
   return (
     <div className="card__image card__image--logo" aria-hidden="true">
-      <img src="/logo-pva-512.png" alt="" loading="lazy" />
+      <img src="/PVALOGOpiccolo.png" alt="" loading="lazy" />
     </div>
   );
 }
