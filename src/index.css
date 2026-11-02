@@ -5502,8 +5502,3 @@ body.light-mode .rc-sqchip.is-on { background: var(--gold); }
 @media (min-width: 700px) {
   .grid--elenco .card__image--logo { width: 260px; min-width: 260px; aspect-ratio: 4 / 3; align-self: flex-start; }
 }
-
-/* Segnaposto: immagine 16:9 intera, senza tagli, anche sul computer */
-@media (min-width: 700px) {
-  .grid--elenco .card__image--segnaposto { width: 300px; min-width: 300px; aspect-ratio: 16 / 9; }
-}

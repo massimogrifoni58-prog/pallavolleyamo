@@ -177,7 +177,10 @@ function CardImmagine({ src, alt }) {
   if (src && !errore) {
     return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
   }
-  return <img className="card__image card__image--segnaposto" src="/news-segnaposto.jpg" alt="" loading="lazy" />;
+  return <picture>
+      <source media="(min-width: 700px)" srcSet="/news-segnaposto-43.jpg" />
+      <img className="card__image card__image--segnaposto" src="/news-segnaposto.jpg" alt="" loading="lazy" />
+    </picture>;
 }
 
 function PostCard({ post, subscribed, onClick }) {
