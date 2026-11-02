@@ -171,15 +171,26 @@ function truncate(text, max) {
   return text.length > max ? text.slice(0, max).trim() + "…" : text;
 }
 
+// Foto della notizia; se manca (o non si carica) mostra il logo del sito su sfondo scuro
+function CardImmagine({ src, alt }) {
+  const [errore, setErrore] = useState(false);
+  if (src && !errore) {
+    return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
+  }
+  return (
+    <div className="card__image card__image--logo" aria-hidden="true">
+      <img src="/logo-pva-512.png" alt="" loading="lazy" />
+    </div>
+  );
+}
+
 function PostCard({ post, subscribed, onClick }) {
   const [showPreview, setShowPreview] = useState(false);
   const excerpt = subscribed ? post.excerpt : truncate(post.excerpt, 70);
 
   const content = (
     <>
-      {post.image && (
-        <img className="card__image" src={post.image} alt="" loading="lazy" />
-      )}
+      <CardImmagine src={post.image} alt="" />
 <div className="card__body">
        <span className="card__date">{formatDate(post.createdTime)}</span>
       {post.permalink && (() => { 
@@ -1208,9 +1219,7 @@ function FeaturedPost({ post, subscribed, onOpen }) {
 function ArticoloCard({ articolo, onOpen }) {
   return (
     <div className="card" style={{cursor:"pointer"}} onClick={() => onOpen(articolo)}>
-      {articolo.foto && (
-        <img className="card__image" src={articolo.foto} alt={articolo.titolo} loading="lazy" />
-      )}
+      <CardImmagine src={articolo.foto} alt={articolo.titolo} />
       <div className="card__body">
         <span className="card__date">{articolo.data}</span>
         <p style={{ margin: "0.2rem 0", fontSize: "0.72rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase" }}>Fonte: {articolo.societa}</p>

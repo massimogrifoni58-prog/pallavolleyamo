@@ -5489,3 +5489,16 @@ body.light-mode .rc-sqchip.is-on { background: var(--gold); }
   border: 1px solid var(--gold); background: rgba(0,0,0,0.55); color: var(--gold);
 }
 .card__action-btn:hover { background: var(--gold); color: #000; }
+
+/* Segnaposto per le notizie senza foto: logo del sito su sfondo scuro */
+.card__image--logo {
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(circle at 50% 40%, #2a2410 0%, #14130f 70%);
+  border-bottom: 2px solid var(--gold);
+  min-height: 110px;
+}
+.card__image--logo img { width: auto; height: 62%; max-width: 62%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; opacity: 0.95; border: 2px solid var(--gold); }
+.grid--elenco .card__image--logo { display: flex; width: 100%; aspect-ratio: 16 / 9; }
+@media (min-width: 700px) {
+  .grid--elenco .card__image--logo { width: 260px; min-width: 260px; aspect-ratio: 4 / 3; align-self: flex-start; }
+}
