@@ -1,7 +1,7 @@
 {
-  "aggiornamento": "2026-10-26",
-  "settimana": "26 ottobre – 1 novembre 2026",
-  "commento": "Weekend del 24 e 25 ottobre: la Sirio Perugia vince ancora in B1, Marsciano si impone al quinto set in B2 e parte la Serie D femminile. Qui trovi i risultati delle umbre e il programma della settimana che comincia.\n\nLa Sirio Perugia Volley, unica umbra nel girone C di Serie B1 femminile, ha vinto 3-0 a Scandicci (22-25, 21-25, 24-26) e comanda a punteggio pieno, dopo il 3-1 all'esordio a Pratovecchio Stia. Sangoi e Nielson hanno chiuso con 17 punti a testa. Le prime due gare sono state in trasferta per l'indisponibilità del campo di Magione; la data della prima gara in casa non è ancora nota.",
+  "aggiornamento": "2026-11-02",
+  "settimana": "2 – 8 novembre 2026",
+  "commento": "Il weekend del 31 ottobre e 1 novembre: Marsciano batte 3-1 l'Astra in B2, in Serie C femminile Bartoccini e Deruta vincono 3-0 e Bastia rimonta da 0-2 a Trevi, e la Sir Susa Scai Perugia vince 3-0 a Monza.",
   "derby": {
     "titolo": "Derby Città di Castello – Marsciano",
     "nota": "Serie B2 femminile, girone G. All'andata ha vinto Marsciano 3-0.",
@@ -23,18 +23,13 @@
       "nome": "Sirio Perugia Volley",
       "categoria": "Serie B1 – Girone C",
       "ultimo": {
-        "quando": "24 ottobre",
-        "casa": "Scandicci",
-        "ospite": "Sirio Perugia Volley",
-        "risultato": "0-3",
-        "parziali": [
-          "22-25",
-          "21-25",
-          "24-26"
-        ]
+        "quando": "31 ottobre",
+        "casa": "Sirio Perugia Volley",
+        "ospite": "Torri",
+        "risultato": "3-0"
       },
       "prossima": null,
-      "commento": "Due vittorie su due, la seconda a Scandicci. Data della prima gara in casa non ancora nota."
+      "commento": "Terza vittoria su tre. Data della prossima gara non ancora nota."
     },
     {
       "id": "marsciano",
@@ -42,37 +37,33 @@
       "nome": "Fail Group Marsciano",
       "categoria": "Serie B2 – Girone G",
       "ultimo": {
-        "quando": "weekend 24-25 ottobre",
-        "casa": "Pontedera",
-        "ospite": "Fail Group Marsciano",
-        "risultato": "2-3"
+        "quando": "31 ottobre",
+        "casa": "Fail Group Marsciano",
+        "ospite": "Astra Chiusure Lampo",
+        "risultato": "3-1",
+        "parziali": [
+          "15-25",
+          "25-22",
+          "25-16",
+          "25-20"
+        ]
       },
       "prossima": {
-        "quando": "2026-10-31",
+        "quando": "2026-11-14",
         "ora": "21:00",
         "casa": "Fail Group Marsciano",
-        "ospite": "Astra Chiusure Lampo"
+        "ospite": "Giorgio Peri Grosseto"
       },
-      "commento": "Vittoria al tie-break a Pontedera."
+      "commento": "Vittoria in casa al Pala Pippi-Tiberi, dopo un primo set perso 15-25."
     },
     {
       "id": "citta-di-castello",
       "genere": "F",
       "nome": "Pallavolo Città di Castello",
       "categoria": "Serie B2 – Girone G",
-      "ultimo": {
-        "quando": "24 ottobre",
-        "casa": "Pallavolo Città di Castello",
-        "ospite": "Timenet Empoli",
-        "risultato": "0-3"
-      },
-      "prossima": {
-        "quando": "2026-10-31",
-        "ora": "18:30",
-        "casa": "Pallavolo Città di Castello",
-        "ospite": "Pallavolo I'Giglio"
-      },
-      "commento": "Sconfitta in casa con Empoli."
+      "ultimo": null,
+      "prossima": null,
+      "commento": "Il risultato della gara con I'Giglio del 31 ottobre non è ancora disponibile nelle fonti consultate."
     },
     {
       "id": "sir-perugia",
@@ -80,18 +71,18 @@
       "nome": "Sir Susa Scai Perugia",
       "categoria": "Superlega",
       "ultimo": {
-        "quando": "25 ottobre",
-        "casa": "Sir Susa Scai Perugia",
-        "ospite": "Tinet Prata di Pordenone",
-        "risultato": "3-0"
+        "quando": "31 ottobre",
+        "casa": "Vero Volley Monza",
+        "ospite": "Sir Susa Scai Perugia",
+        "risultato": "0-3"
       },
       "prossima": {
-        "quando": "2026-10-28",
+        "quando": "2026-11-04",
         "ora": "20:30",
         "casa": "Sir Susa Scai Perugia",
-        "ospite": "Pallavolo Padova"
+        "ospite": "Cisterna Volley"
       },
-      "commento": ""
+      "commento": "Mercoledì 28 ottobre aveva battuto Padova 3-0."
     }
   ],
   "serieCD": {
@@ -99,6 +90,10 @@
     "partite": []
   },
   "archivio": [
+    {
+      "settimana": "26 ottobre – 1 novembre 2026",
+      "commento": "La Sirio Perugia ha vinto 3-0 a Scandicci in B1 e Marsciano al tie-break a Pontedera in B2, mentre Città di Castello ha perso 0-3 con Empoli; in Superlega Perugia ha battuto Prata e Padova."
+    },
     {
       "settimana": "19 – 25 ottobre 2026",
       "commento": "Il derby di B2 femminile Marsciano–Città di Castello è finito 3-0 per Marsciano; in Serie C femminile hanno vinto in trasferta Bartoccini School Volley, Ellera e Bastia, e dal 24 ottobre è partita la Serie D femminile."
@@ -112,79 +107,75 @@
       "commento": "Settimana di avvio per il volley umbro. Tra le donne la Bartoccini ha perso 3-1 a Busto Arsizio e domenica 11 ottobre torna al PalaBarton Energy contro Leonessa Altamura; in B2 si comincia il 17 e 18 ottobre e Città di Castello si è presentata in piazza il 5 ottobre. Tra gli uomini il campionato parte il 18 ottobre, con Sir Susa Scai Perugia a Cuneo e Terni Volley Academy a Sorrento."
     }
   ],
-  "titolo": "Sirio Perugia fa due su due in B1, Marsciano vince al tie-break a Pontedera",
-  "occhiello": "La Sirio Perugia batte 3-0 Scandicci e resta a punteggio pieno in Serie B1. In B2 Marsciano vince 3-2 a Pontedera, mentre Città di Castello cade 0-3 con Empoli. In Superlega Perugia batte Prata 3-0.",
+  "titolo": "Marsciano batte l'Astra in B2, Bartoccini e Deruta a punteggio pieno in Serie C",
+  "occhiello": "Weekend del 31 ottobre e 1 novembre: Marsciano vince 3-1 in B2, in Serie C femminile Bartoccini e Deruta vincono 3-0 e Bastia rimonta da 0-2 a Trevi. In Superlega la Sir Susa Scai Perugia vince 3-0 a Monza.",
   "sezioni": [
     {
       "titolo": "",
       "testo": [
-        "Weekend del 24 e 25 ottobre: la Sirio Perugia vince ancora in B1, Marsciano si impone al quinto set in B2 e parte la Serie D femminile. Qui trovi i risultati delle umbre e il programma della settimana che comincia.",
+        "Weekend del 31 ottobre e 1 novembre: Marsciano vince in B2, la Sirio Perugia resta a punteggio pieno in B1 e in Serie C femminile Bartoccini e Deruta vincono 3-0. Qui trovi i risultati delle umbre e il programma della settimana che comincia.",
         "I risultati delle squadre umbre nei campionati nazionali (Superlega, A3 e Serie B) sono nella sezione dedicata, più sotto."
       ]
     },
     {
-      "titolo": "Sirio Perugia, due su due in B1",
+      "titolo": "Sirio Perugia, tre su tre in B1",
       "testo": [
-        "La Sirio Perugia Volley, unica umbra nel girone C di Serie B1 femminile, ha vinto 3-0 sabato 24 ottobre a Scandicci (22-25, 21-25, 24-26 i parziali, con il punteggio di Scandicci per primo) in circa un'ora e mezza di gioco. Con il 3-1 dell'esordio a Pratovecchio Stia sono due vittorie su due e primo posto a punteggio pieno.",
-        "A fare la differenza sono state le due bande: Giada Sangoi e Daniela Nielson hanno chiuso con 17 punti a testa, seguite da Zorzetto con 8, Bollettin e Artini con 5 e Guarino con 3. Nel secondo set sei ace delle umbre; il terzo è stato il più combattuto: Scandicci è andata avanti 8-2, ma la Sirio ha rimontato e ha chiuso ai vantaggi. Le padrone di casa hanno avuto la meglio a muro (6 a 1), non abbastanza per fermare Perugia.",
-        "Il campo di casa: le prime due gare sono state in trasferta per l'indisponibilità del campo di Magione, dove la squadra giocherà le partite interne nel corso della stagione. Le fonti consultate non indicano ancora la data della prima gara in casa. A settembre la società aveva chiesto al Comune di tornare a giocare al PalaBarton, definito il suo \"naturale quartier generale da sempre\"; una risposta ufficiale non era ancora arrivata.",
-        "La squadra è allenata da Fabio Bovari con Simone Giannoni; in regia Guarino, in banda Zorzetto e Nielson, al centro Artini e Bollettin, opposta Sangoi, libero Lillacci.",
-        "Fonti: Umbria24, Perugia24, Umbria Journal, iVolley Magazine, Pianeta Volley."
+        "La Sirio Perugia Volley ha vinto 3-0 anche sabato 31 ottobre contro Torri e resta a punteggio pieno nel girone C di Serie B1 femminile: tre partite, tre vittorie.",
+        "La data della prossima gara non è ancora indicata nelle fonti consultate."
       ]
     },
     {
-      "titolo": "B2: Marsciano vince al tie-break, Città di Castello cade con Empoli",
+      "titolo": "B2: Marsciano vince 3-1 con l'Astra",
       "testo": [
-        "Dopo il derby, la seconda giornata del girone G ha dato risultati opposti alle due umbre. La Fail Group Marsciano ha vinto 3-2 a Pontedera, un successo al quinto set. La Pallavolo Città di Castello ha invece perso 0-3 in casa contro la Timenet Empoli.",
-        "Sabato 31 ottobre le due squadre tornano in campo: Città di Castello riceve il Pallavolo I'Giglio alle 18:30, Marsciano ospita Astra Chiusure Lampo alle 21. Il derby di ritorno è in programma a Città di Castello il 13 febbraio."
+        "Nel girone G di Serie B2 femminile la Fail Group Marsciano ha battuto 3-1 l'Astra Chiusure Lampo Firenze al Pala Pippi-Tiberi (15-25, 25-22, 25-16, 25-20): dopo un primo set perso, tre set di fila alle padrone di casa.",
+        "Per la Pallavolo Città di Castello, in campo sabato 31 ottobre con I'Giglio, il risultato non è ancora disponibile nelle fonti consultate: lo aggiungiamo appena possibile. Il prossimo impegno di Marsciano è in casa con Giorgio Peri Grosseto sabato 14 novembre alle 21. Il derby di ritorno è a Città di Castello il 13 febbraio."
       ]
     },
     {
-      "titolo": "Serie C: la seconda giornata",
+      "titolo": "Serie C: la terza giornata",
       "testo": [
-        "In Serie C femminile ha vinto 3-0 la Bartoccini School Volley sull'Uisp Volley Umbertide, e hanno vinto 3-0 in trasferta Trevi a Ellera e Viander Acton Bastia a Fossato. Deruta ha battuto 3-1 il San Mariano (gara giocata giovedì 23 ottobre) e The Galleon Pub Marsciano ha vinto 3-1 ad Amerina. Il School Volley Perugia ha perso 3-2 in casa con Spello.",
-        "In Serie C maschile l'Energy Pmu Marsciano ha battuto 3-0 in casa la Città di Castello Pallavolo; successi esterni per Italchimici (3-0 a Umbertide), Volley Cascia Spoleto (3-0 a Orte), Promovideo Strike Team Monteluce (3-1 a Foligno) e Volley Borgo Altotevere (3-1 sulla Delfino Saima). La Sir Its Umbria Academy Perugia ha battuto 3-2 in casa Assisi.",
+        "In Serie C femminile la Bartoccini School Volley ha vinto 3-0 a Marsciano (The Galleon Pub) e Deruta ha battuto 3-0 il School Volley Perugia. Bastia ha rimontato da 0-2 a Trevi vincendo 3-2; successi anche per Marconi Monini (3-1 su Fossato), Ellera (3-2 a Spello) e San Mariano (3-0 su Amerina, gara di domenica 1 novembre).",
+        "In Serie C maschile hanno vinto 3-0 il School Volley Perugia sulla Città di Castello Pallavolo, Energy Pmu Marsciano a Monteluce e Italchimici a Orte. Foligno ha vinto 3-1 ad Assisi, Umbertide 3-2 a Borgo Altotevere e la Polisportiva Delfino Saima 3-2 sulla Sir Its Umbria Academy Perugia (domenica 1 novembre).",
         "Tutti i risultati sono nella pagina \"Il weekend in Umbria\"."
       ]
     },
     {
-      "titolo": "Serie D femminile: si parte",
+      "titolo": "Serie D femminile: la seconda giornata",
       "testo": [
-        "Ha esordito la Serie D femminile, con due gironi. Nel girone B Narni Sport Academy ha battuto 3-2 il Foligno Volley; hanno vinto anche Orvieto Volley Academy (3-0 a Bosico), Cannara (3-1 sul Tuder), Acquasparta (3-1 su Assisi), Bastia (3-0 a Cascia) e Marconi Monini (3-2 su San Mariano).",
-        "Nel girone A hanno vinto 3-0 Gualdo, Ponte Valleceppi, Ponte Felcino e Sirio Perugia (sulla Delfino Idrosfera); il School Volley Perugia Green1 ha battuto 3-2 lo Strike Team Monteluce, mentre Gubbio ha perso 3-2 con le Blue Panthers."
+        "Girone A: la Sirio Perugia ha vinto 3-1 a Tiber, il School Volley Perugia Green1 3-1 a Blue Panthers e Gubbio 3-0 a San Sisto. Delfino Idrosfera ha battuto 3-2 Gualdo e Ponte Valleceppi ha vinto 3-2 a Monteluce.",
+        "Girone B: Acquasparta ha vinto 3-1 a Tuder, San Mariano 3-1 con Narni, Rebels Assisi 3-0 con Cascia, Cannara 3-1 a Orvieto; Bastia ha battuto 3-0 Marconi Monini Green1 e Foligno 3-0 Bosico Green2."
       ]
     },
     {
       "titolo": "Le umbre nei campionati nazionali",
       "testo": [
-        "In Superlega la Sir Susa Scai Perugia ha battuto 3-0 in casa la Tinet Prata di Pordenone. In Serie A3 maschile l'Ermgroup Altotevere ha perso 3-1 a Cantù, mentre la Terni Volley Academy è stata battuta 3-0 in casa da Campobasso. In Serie B maschile la Sir Its Umbria Academy ha vinto 3-0 con Montorio."
+        "In Superlega la Sir Susa Scai Perugia ha vinto 3-0 a Monza sabato 31 ottobre, dopo il 3-0 su Padova di mercoledì 28. In Serie A3 maschile l'Ermgroup Altotevere ha vinto 3-1 a Sarroch e la Terni Volley Academy 3-1 a Galatone.",
+        "Per la Serie B maschile (Sir Its Umbria Academy e Città di Castello) i risultati del weekend non sono ancora disponibili nelle fonti consultate."
       ]
     },
     {
       "titolo": "La settimana che inizia",
       "testo": [
-        "Mercoledì 28 ottobre la Sir Susa Scai Perugia torna in campo in casa contro Padova; sabato 31 è a Monza. Weekend di trasferte per le umbre di Serie A3: l'Altotevere va in Sardegna a Sarroch, la Terni Volley Academy a Galatone."
+        "Mercoledì 4 novembre la Sir Susa Scai Perugia ospita Cisterna alle 20:30; domenica 8 novembre è a Trento. Sabato 7 la Terni Volley Academy riceve Vibo Valentia, domenica 8 l'Altotevere ospita Savigliano. In Serie B maschile Sir Its Umbria Academy e Città di Castello giocano sabato 7."
       ]
     },
     {
       "titolo": "Da segnare in calendario",
       "elenco": [
-        "Mercoledì 28 ottobre, ore 20:30: Sir Susa Scai Perugia – Pallavolo Padova (Superlega, PalaBarton Energy)",
-        "Mercoledì 28 ottobre, ore 21: Emmepi Group Ponte Felcino – Castiglione del Lago (Serie D femminile, girone A)",
-        "Sabato 31 ottobre, ore 17: School Volley Perugia – Città di Castello Pallavolo (Serie C maschile)",
-        "Sabato 31 ottobre, ore 17: The Galleon Pub Marsciano – Bartoccini School Volley (Serie C femminile)",
-        "Sabato 31 ottobre, ore 18: Vero Volley Monza – Sir Susa Scai Perugia (Superlega)",
-        "Sabato 31 ottobre, ore 18: Green Volley Galatone – Terni Volley Academy (Serie A3)",
-        "Sabato 31 ottobre, ore 18:30: Pallavolo Città di Castello – Pallavolo I'Giglio (Serie B2 femminile)",
-        "Sabato 31 ottobre, ore 21: Fail Group Marsciano – Astra Chiusure Lampo (Serie B2 femminile)",
-        "Domenica 1 novembre, ore 16: Sarlux Sarroch – Ermgroup Altotevere (Serie A3)",
-        "Domenica 1 novembre, ore 19: San Mariano Volley – Amerina Pallavolo (Serie C femminile)"
+        "Mercoledì 4 novembre, ore 20:30: Sir Susa Scai Perugia – Cisterna Volley (Superlega)",
+        "Sabato 7 novembre, ore 17:30: Sir Its Umbria Academy – Sios Novavetro (Serie B maschile)",
+        "Sabato 7 novembre, ore 18: Terni Volley Academy – Tonno Callipo Vibo Valentia (Serie A3)",
+        "Sabato 7 novembre, ore 18:30: Città di Castello Pallavolo – T-Trade Group (Serie B maschile)",
+        "Sabato 7 novembre, ore 19: Bartoccini School Volley – School Volley Perugia (Serie C femminile)",
+        "Sabato 7 novembre, ore 21: Fossato – Umbertide (Serie C femminile)",
+        "Domenica 8 novembre, ore 18: Itas Trentino – Sir Susa Scai Perugia (Superlega)",
+        "Domenica 8 novembre, ore 18: Ermgroup Altotevere – Monge Gerbaudo Savigliano (Serie A3)"
       ]
     }
   ],
   "seo": {
-    "metaTitle": "Pallavolo Umbria 26 ott-1 nov 2026: Sirio Perugia in B1, B2 e Serie C | PallaVolleyAmo",
-    "metaDescription": "La Sirio Perugia vince 3-0 a Scandicci in Serie B1, Marsciano vince a Pontedera in B2, risultati di Serie C e D e il programma della settimana.",
+    "metaTitle": "Pallavolo Umbria 2-8 nov 2026: B1, B2, Serie C e D, nazionali | PallaVolleyAmo",
+    "metaDescription": "Marsciano batte l'Astra in B2, Bartoccini e Deruta a punteggio pieno in Serie C femminile, Sir Perugia vince a Monza: risultati e programma della settimana.",
     "tag": [
       "Sirio Perugia volley",
       "Serie B1 femminile Umbria",
