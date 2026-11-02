@@ -1486,6 +1486,24 @@ function ArchivioRiservatoPage() {
   const [voci, setVoci] = useState(null);
   const [cat, setCat] = useState("");
   const [cerca, setCerca] = useState("");
+  const pwSalvata = React.useRef("");
+  const [iscritti, setIscritti] = useState(null);
+  const [erroreIscritti, setErroreIscritti] = useState("");
+
+  const caricaIscritti = async () => {
+    setErroreIscritti("");
+    try { setIscritti(await archivioRpc("iscritti_leggi", { pw: pwSalvata.current })); }
+    catch (err) { setErroreIscritti(err.message); }
+  };
+  const scaricaCsv = () => {
+    const esc = (v) => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+    const righe = [["Data", "Nome", "Email", "Newsletter"].map(esc).join(";")]
+      .concat((iscritti || []).map((r) => [new Date(r.creato).toLocaleDateString("it-IT"), r.nome, r.email, r.newsletter ? "si" : "no"].map(esc).join(";")));
+    const blob = new Blob(["\ufeff" + righe.join("\r\n")], { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = "iscritti-pallavolleyamo.csv";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  };
 
   useEffect(() => {
     const m = document.createElement("meta");
@@ -1506,6 +1524,7 @@ function ArchivioRiservatoPage() {
         setImpostata(true);
       }
       setVoci(await archivioRpc("archivio_leggi", { pw }));
+      pwSalvata.current = pw;
       setPw(""); setPw2("");
     } catch (err) {
       setErrore(err.message);
@@ -1542,6 +1561,26 @@ function ArchivioRiservatoPage() {
       ) : (
         <>
           <p className="page-subtitle">{voci.length} risorse raccolte dal web. Pagina privata, non indicizzata.</p>
+          <div className="mc-box" style={{ marginBottom: "1rem" }}>
+            <h3 style={{ margin: "0 0 0.5rem" }}>Iscritti al sito</h3>
+            {iscritti === null ? (
+              <button className="qz-btn" type="button" onClick={caricaIscritti}>Mostra gli iscritti</button>
+            ) : (
+              <>
+                <p className="mc-sub">{iscritti.length} iscritti, i più recenti in alto. <button className="qz-btn" type="button" onClick={scaricaCsv} style={{ marginLeft: "0.5rem" }}>Scarica per Excel</button></p>
+                <div className="mc-lista">
+                  {iscritti.length === 0 && <p className="mc-vuoto">Ancora nessun iscritto salvato qui. Le iscrizioni precedenti sono su Formspree.</p>}
+                  {iscritti.map((r) => (
+                    <div key={r.id} className="mc-voce" style={{ padding: "0.5rem 0.9rem", fontSize: "0.9rem" }}>
+                      <strong>{r.nome || "(senza nome)"}</strong> · {r.email}
+                      <span style={{ display: "block", fontSize: "0.75rem", color: "var(--text-dim)" }}>{new Date(r.creato).toLocaleDateString("it-IT", { day: "numeric", month: "long", year: "numeric" })} · newsletter: {r.newsletter ? "sì" : "no"}</span>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+            {erroreIscritti && <p className="mc-avviso" style={{ color: "#e74c3c" }}>{erroreIscritti}</p>}
+          </div>
           <div className="mc-box">
             <input className="mc-cerca" type="search" placeholder="Cerca nell'archivio" value={cerca} onChange={(e) => setCerca(e.target.value)} />
             <div className="mc-cats">
@@ -5592,6 +5631,8 @@ function IscrizionePage({ subscribed, subscribe, unsubscribe }) {
       return;
     }
     setStatus("sending");
+
+    archivioRpc("iscritti_aggiungi", { p_nome: nome.trim().slice(0, 80), p_email: email.trim().slice(0, 120), p_newsletter: !!newsletter }).catch(() => {});
 
     fetch("https://formspree.io/f/xrenqkbd", {
       method: "POST",
