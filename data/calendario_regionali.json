@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:08:47.465973+00:00",
+  "generatedAt": "2026-11-02T13:07:09.713095+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9023,7 +9023,7 @@
         "id": "giov-under-19-femminile-elite-11",
         "campionato": "Under 19 Femminile ELITE",
         "giornata": "3",
-        "data": "2026-11-11",
+        "data": "2027-02-03",
         "ora": "18:00",
         "casa": "A.S. FOSSATO VOLLEY",
         "ospite": "PMU MARSCIANO",
@@ -10427,8 +10427,8 @@
         "id": "giov-1-divisione-femminile-girone-a-5",
         "campionato": "1 Divisione Femminile Girone A",
         "giornata": "2",
-        "data": "2026-11-21",
-        "ora": "00:00",
+        "data": "2026-11-19",
+        "ora": "20:00",
         "casa": "TRESTINA VOLLEY",
         "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
         "risultato": null

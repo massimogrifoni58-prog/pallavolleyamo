@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T06:03:58.805338+00:00",
+  "generatedAt": "2026-11-02T13:03:14.216802+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10316,20 +10316,20 @@
       "status": "in programma"
     },
     {
-      "id": "131658241",
-      "competition": "2 Divisione Femminile Girone C",
-      "giornata": "Giornata 17",
-      "home": "FOLIGNO VOLLEY ASD",
-      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658240",
       "competition": "2 Divisione Femminile Girone C",
       "giornata": "Giornata 17",
       "home": "UNIPOL ASSICURAZIONI BASTIA",
       "away": "SIR ASSISI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131658241",
+      "competition": "2 Divisione Femminile Girone C",
+      "giornata": "Giornata 17",
+      "home": "FOLIGNO VOLLEY ASD",
+      "away": "POLIS. DON BOSCO  GUBBIO VERDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -10985,8 +10985,8 @@
       "id": "131658320",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 14",
-      "home": "SANGEMINI COLLELUNA VOLLEY",
-      "away": "NARNI SPORT ACADEMY",
+      "home": "NARNI SPORT ACADEMY",
+      "away": "SANGEMINI COLLELUNA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -11918,15 +11918,6 @@
       "status": "in programma"
     },
     {
-      "id": "131639372",
-      "competition": "Under 19 Femminile ELITE",
-      "giornata": "Giornata 3",
-      "home": "A.S. FOSSATO VOLLEY",
-      "away": "PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131639369",
       "competition": "Under 19 Femminile ELITE",
       "giornata": "Giornata 3",
@@ -11950,6 +11941,15 @@
       "giornata": "Giornata 3",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "SIRIO PALLAVOLO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131639372",
+      "competition": "Under 19 Femminile ELITE",
+      "giornata": "Giornata 3",
+      "home": "A.S. FOSSATO VOLLEY",
+      "away": "PMU MARSCIANO",
       "score": "da disputare",
       "status": "in programma"
     },
