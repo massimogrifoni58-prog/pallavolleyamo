@@ -559,7 +559,7 @@ export function PulsanteGraficaWeekend({ dati, stile }) {
   const risultati = dati.modo === "risultati";
   return (
     <>
-      <button onClick={() => setAperto(true)} style={stile}>📸 Crea grafica del post</button>
+      <button onClick={() => setAperto(true)} style={stile}>Crea grafica del post</button>
       {aperto && (
         <ModaleGrafica
           titolo={risultati ? "Grafica: risultati del weekend" : "Grafica: weekend del volley"}
@@ -585,7 +585,7 @@ export function PulsanteGraficaSquadra({ dati }) {
       <span role="button" tabIndex={0} className="grafica-apri" onClick={() => setAperto(true)}
         onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") setAperto(true); }}
         title="Crea l'immagine della Squadra della Settimana da pubblicare sui social">
-        📸 Crea grafica social
+        Crea grafica social
       </span>
       {aperto && (
         <ModaleGrafica
@@ -618,7 +618,7 @@ export function PulsanteGrafica({ partita, piccolo }) {
         onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") apri(e); }}
         title="Crea l'immagine del risultato da pubblicare sui social"
       >
-        📸 {piccolo ? "Grafica" : "Crea grafica social"}
+        {piccolo ? "Grafica" : "Crea grafica social"}
       </span>
       {aperto && <GraficaRisultatoModal partita={partita} onClose={() => setAperto(false)} />}
     </>

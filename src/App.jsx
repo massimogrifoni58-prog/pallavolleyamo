@@ -171,16 +171,23 @@ function truncate(text, max) {
   return text.length > max ? text.slice(0, max).trim() + "…" : text;
 }
 
-// Foto della notizia; se manca (o non si carica) mostra il logo del sito su sfondo scuro
-function CardImmagine({ src, alt }) {
+// Foto della notizia; se manca (o non si carica) mostra un riquadro sobrio con il logo e la fonte
+function CardImmagine({ src, alt, fonte }) {
   const [errore, setErrore] = useState(false);
   if (src && !errore) {
     return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
   }
-  return <picture>
-      <source media="(min-width: 700px)" srcSet="/news-segnaposto-43.jpg" />
-      <img className="card__image card__image--segnaposto" src="/news-segnaposto.jpg" alt="" loading="lazy" />
-    </picture>;
+  return (
+    <div className="card__image card__segnaposto" aria-hidden="true">
+      <img src="/logo-pva.svg" alt="" className="card__segnaposto-logo" />
+      <span className="card__segnaposto-fonte">{fonte || "PallaVolleyAmo"}</span>
+    </div>
+  );
+}
+
+function fonteNotizia(post) {
+  try { if (post.permalink) return new URL(post.permalink).hostname.replace("www.", ""); } catch (e) { /* link interno */ }
+  return post.societa || post.source || "";
 }
 
 function PostCard({ post, subscribed, onClick }) {
@@ -189,7 +196,7 @@ function PostCard({ post, subscribed, onClick }) {
 
   const content = (
     <>
-      <CardImmagine src={post.image} alt="" />
+      <CardImmagine src={post.image} alt="" fonte={fonteNotizia(post)} />
 <div className="card__body">
        <span className="card__date">{formatDate(post.createdTime)}</span>
       {post.permalink && (() => { 
@@ -204,7 +211,7 @@ function PostCard({ post, subscribed, onClick }) {
        {excerpt && !excerpt.startsWith("Fonte:") && <p className="card__message">{excerpt}</p>}
     {!subscribed && (
           <span className="card__link card__link--locked">
-            &#128274; Iscriviti per leggere tutto
+            Per iscritti · Iscriviti per leggere tutto
           </span>
         )}
                 {post.permalink && (
@@ -295,9 +302,9 @@ function Ticker({ posts }) {
         .filter((m) => m.ris && leggiSet(m.ris))
         .sort((x, y) => y.data.localeCompare(x.data))
         .filter((m) => { const k = m.camp; if (viste.has(k)) return false; viste.add(k); return true; })
-        .slice(0, 1)
+        .slice(0, 6)
         .map((m) => ({
-          source: "Volley " + categoriaBreve(m.camp),
+          source: "Risultato " + categoriaBreve(m.camp),
           title: nomeBello(m.casa) + " " + m.ris + " " + nomeBello(m.ospite),
           interno: true,
         }));
@@ -331,7 +338,7 @@ function Ticker({ posts }) {
   return (
     <div className="ticker" onMouseEnter={() => setFermo(true)} onMouseLeave={() => setFermo(false)}
       onTouchStart={() => setFermo(true)} onTouchEnd={() => setTimeout(() => setFermo(false), 8000)}>
-      <span className="ticker__label">UMBRIA OGGI</span>
+      <span className="ticker__label">VOLLEY UMBRIA</span>
       <a
         className="ticker__single"
         href={post.interno ? "#/weekend-umbria" : (post.permalink || "#")}
@@ -621,12 +628,22 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <MeteoWidget />
         <LiveClock />
         <div className="masthead__topbar-links">
-          <a href="#/cerca" className="masthead__topbar-link">🔍 Cerca nel sito</a>
           <a href="#/chi-siamo" className="masthead__topbar-link">Chi Siamo</a>
-          <a href="#/privacy" className="masthead__topbar-link">Privacy Policy</a>
-          <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent"> Iscriviti Gratis</a>
+          <a href="#/iscrizione" className="masthead__topbar-link masthead__topbar-link--accent">Iscriviti Gratis</a>
+          <div className="masthead__riservata">
+            <NavDropdown
+              label="Riservata"
+              conCodice
+              subscribed={subscribed}
+              items={[
+                { href: "#/modera", label: "Post da approvare", sub: "I post delle società da pubblicare sul sito" },
+                { href: "#/post-facebook", label: "Post del weekend", sub: "Testo e grafica pronti per Facebook" },
+                { href: "#/archivio-riservato", label: "Archivio riservato", sub: "L'archivio protetto da password" },
+              ]}
+            />
+          </div>
           <button onClick={toggleDark} className="dark-toggle" title={darkMode ? "Modalita scura" : "Modalita chiara"}>
-            {darkMode ? "☀️" : "🌙"}
+            {darkMode ? "Scuro" : "Chiaro"}
           </button>
         </div>
       </div>
@@ -636,23 +653,20 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         </h1>
       </a>
       <p className="masthead__tagline">Il portale del volley umbro</p>
-      <div className="net-divider">
-        <span></span>
-        <i></i>
-        <span></span>
-      </div>
       <Ticker posts={latestFive} />
 
-      <button 
-        className="hamburger-btn" 
-        onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Menu"
-      >
-        <span className="hamburger-btn__icon">{menuOpen ? "✕" : "☰"}</span>
-        <span>{menuOpen ? "CHIUDI" : "MENU"}</span>
-      </button>
+      <div className="masthead__azioni-mobile">
+        <button
+          className="hamburger-btn"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Menu"
+        >
+          <span>{menuOpen ? "CHIUDI" : "MENU"}</span>
+        </button>
+        <a href="#/cerca" className="cerca-btn cerca-btn--mobile">Cerca</a>
+      </div>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
-     <NavDropdown
+        <NavDropdown
           label="Notizie"
           subscribed={subscribed}
           items={[
@@ -664,23 +678,8 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice" },
           ]}
         />
-<NavDropdown
-          label="Bacheca"
-          subscribed={subscribed}
-          items={[
-            { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
-            { href: "#/invia-articolo", label: "Invia il tuo articolo", sub: "Per le società: va dritto nelle notizie" },
-            { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
-            { href: "/hubvolley-demo/", label: "HubVolley: prova la demo", sub: "Il gestionale per la tua società", evidenza: true },
-          ]}
-        />
-        <NavDropdown
-          label="Top Umbria"
-          subscribed={subscribed}
-          items={[
-            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire" },
-          ]}
-        />
+        <a href="#/risultati" className="nav-btn nav-btn--diretto" onClick={() => setMenuOpen(false)}>Risultati</a>
+        <a href="#/classifica" className="nav-btn nav-btn--diretto" onClick={() => setMenuOpen(false)}>Classifiche</a>
         <NavDropdown
           label="Campionati"
           tre
@@ -688,13 +687,12 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           items={[
             { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", evidenza: true },
             { href: "#/mia-squadra", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
-            { href: "#/weekend-umbria", icon: "\u{1F3D0}", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
-            { href: "#/risultati", icon: "\u{1F4CA}", label: "Risultati", sub: "Superlega, A2, B, Serie C, D e giovanili" },
-            { href: "#/classifica", icon: "\u{1F3C6}", label: "Classifiche", sub: "Tutti i campionati" },
-            { href: "#/dirette", icon: "\u{1F534}", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
-            { href: "#/headtohead", icon: "\u{1F19A}", label: "Head to Head", sub: "Confronta due squadre" },
-            { href: "#/mappa", icon: "\u{1F5FA}", label: "Mappa volley", sub: "Società e palestre" },
-            { href: "#/squadre-iscritte", icon: "\u{1F465}", label: "Squadre iscritte", sub: "Chi partecipa ai campionati" },
+            { href: "#/weekend-umbria", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
+            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire" },
+            { href: "#/dirette", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
+            { href: "#/headtohead", label: "Head to Head", sub: "Confronta due squadre" },
+            { href: "#/mappa", label: "Mappa volley", sub: "Società e palestre" },
+            { href: "#/squadre-iscritte", label: "Squadre iscritte", sub: "Chi partecipa ai campionati" },
           ]}
         />
         <NavDropdown
@@ -707,27 +705,22 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/preparazione-fisica", label: "Fisica", sub: "Preparazione atletica" },
             { href: "#/mental-coach", label: "Mente", sub: "Mental coach e concentrazione" },
             { href: "#/schede", label: "Schede Allenamento", sub: "Esercizi pronti da usare" },
+            { href: "#/allenatori2", label: "Allenatori umbri", sub: "Storie e notizie dei tecnici umbri" },
+            { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro" },
             { href: "#/palloni", label: "Palloni in ordine", sub: "Il gioco: scegli la tua squadra e vinci contro il tempo", evidenza: true },
           ]}
         />
         <NavDropdown
-          label="Allenatori"
+          label="Per le società"
           subscribed={subscribed}
           items={[
-            { href: "#/allenatori2", label: "Cerca Allenatore", sub: "Trova il tecnico giusto" },
-            { href: "#/velasco", label: "Julio Velasco", sub: "Idee e lezioni del maestro", largo: true },
+            { href: "#/per-le-societa", label: "Per le società", sub: "Cosa trovi sul sito e come partecipare", evidenza: true },
+            { href: "#/invia-articolo", label: "Invia il tuo articolo", sub: "Per le società: va dritto nelle notizie" },
+            { href: "#/rosa", label: "Invia Rosa", sub: "Manda la rosa della tua squadra", largo: true },
+            { href: "/hubvolley-demo/", label: "HubVolley: prova la demo", sub: "Il gestionale per la tua società", evidenza: true },
           ]}
         />
-        <NavDropdown
-          label="Area riservata"
-          conCodice
-          subscribed={subscribed}
-          items={[
-            { href: "#/modera", label: "Post da approvare", sub: "I post delle società da pubblicare sul sito" },
-            { href: "#/post-facebook", label: "Post del weekend", sub: "Testo e grafica pronti per Facebook" },
-            { href: "#/archivio-riservato", label: "Archivio riservato", sub: "L'archivio protetto da password" },
-          ]}
-        />
+        <a href="#/cerca" className="cerca-btn cerca-btn--desktop">Cerca</a>
       </nav>
     </header>
   );
@@ -1043,66 +1036,52 @@ function HomePage({ latestNews = [] }) {
         </svg>
 
       </div>     
-      <BannerHubVolley />
       <MiaSquadraHome />
       <DirettaOggiHome />
       <BigMatchHome />
-             {weekendHome.mostra.length > 0 && (
-        <div className="evidenza-box">
-          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", justifyContent: "space-between", gap: "0.5rem" }}>
-            <h2 className="evidenza-titolo">{weekendHome.titolo}</h2>
-            <a href="#/weekend-umbria" style={{ color: "var(--gold)", fontSize: "0.85rem", fontWeight: 700, textDecoration: "none", marginBottom: "1rem" }}>
-              Tutte le {weekendHome.totale} partite →
-            </a>
-          </div>
-          <div className="evidenza-grid">
-            {weekendHome.mostra.map((p) => (
-              <a key={p.id} href="#/weekend-umbria" className="we-card">
-                <div className="we-card__quando">
-                  <span className="we-card__giorno">{weekendHome.breve(p).g}</span>
-                  <span className="we-card__num">{weekendHome.breve(p).n}</span>
-                  <span className="we-card__mese">{weekendHome.breve(p).m}</span>
-                  {p.ora && <span className="we-card__ora">{p.ora}</span>}
-                </div>
-                <div className="we-card__corpo">
-                  <p className="we-card__camp">{(p.campionato || "").replace(/ Girone.*$/, "")}</p>
-                  <p className="we-card__squadra">{weekendHome.tc(p.casa)}</p>
-                  <p className="we-card__vs">contro</p>
-                  <p className="we-card__squadra">{weekendHome.tc(p.ospite)}</p>
-                </div>
-              </a>
-            ))}
-          </div>
+      {(weekendHome.mostra.length > 0 || (!inPausaEstiva && risultatiCard.length > 0)) && (
+        <div className="home-duo">
+          {weekendHome.mostra.length > 0 && (
+            <section className="home-lista">
+              <div className="home-lista__testa">
+                <h2 className="home-lista__titolo">{weekendHome.titolo}</h2>
+                <a href="#/weekend-umbria" className="home-lista__link">Tutte le {weekendHome.totale} partite →</a>
+              </div>
+              {weekendHome.mostra.map((p) => (
+                <a key={p.id} href="#/weekend-umbria" className="home-lista__riga">
+                  <span className="home-lista__meta">
+                    {weekendHome.breve(p).g} {weekendHome.breve(p).n} {weekendHome.breve(p).m}{p.ora ? " · " + p.ora : ""} · {(p.campionato || "").replace(/ Girone.*$/, "")}
+                  </span>
+                  <span className="home-lista__partita">{weekendHome.tc(p.casa)} – {weekendHome.tc(p.ospite)}</span>
+                </a>
+              ))}
+            </section>
+          )}
+          {!inPausaEstiva && risultatiCard.length > 0 && (
+            <section className="home-lista">
+              <div className="home-lista__testa">
+                <h2 className="home-lista__titolo">Ultimi risultati</h2>
+                <a href="#/risultati" className="home-lista__link">Tutti i risultati →</a>
+              </div>
+              {risultatiCard.slice(0, 4).map((m) => {
+                const [sc, so] = (m.score || "0-0").split("-").map((n) => parseInt(n, 10) || 0);
+                return (
+                  <a key={m.id} href="#/risultati" className="home-lista__riga">
+                    <span className="home-lista__meta">{(m.competition || "").replace(/ Girone.*$/, "")}</span>
+                    <span className="home-lista__risultato">
+                      <span className={sc > so ? "home-lista__vince" : ""}>{tcR(m.home)}</span>
+                      <span className="home-lista__score">{sc}–{so}</span>
+                      <span className={so > sc ? "home-lista__vince" : ""}>{tcR(m.away)}</span>
+                    </span>
+                  </a>
+                );
+              })}
+            </section>
+          )}
         </div>
       )}
 
-      {!inPausaEstiva && risultati.length > 0 && risultatiCard.length > 0 && (
-        <div className="risultati-mini">
-          <div className="risultati-mini__testa">
-            <h2 className="risultati-mini__titolo">Ultimi risultati</h2>
-            <a href="#/risultati" className="risultati-mini__link">Tutti i risultati →</a>
-          </div>
-          <div className="risultati-mini__griglia">
-            {risultatiCard.map((m) => {
-              const [sc, so] = (m.score || "0-0").split("-").map((n) => parseInt(n, 10) || 0);
-              return (
-                <a key={m.id} href="#/risultati" className="risultati-mini__riga">
-                  <span className="risultati-mini__cat">
-                    <span>{(m.competition || "").replace(/ Girone.*$/, "")}</span>
-                    {m.giornata && /\d/.test(m.giornata) && <span className="risultati-mini__giornata">{m.giornata.replace("Giornata", "G.")}</span>}
-                  </span>
-                  <span className="risultati-mini__partita">
-                    <span className={"risultati-mini__casa" + (sc > so ? " risultati-mini__vince" : "")}>{tcR(m.home)}</span>
-                    <span className="risultati-mini__score">{sc} – {so}</span>
-                    <span className={"risultati-mini__ospite" + (so > sc ? " risultati-mini__vince" : "")}>{tcR(m.away)}</span>
-                  </span>
-                  <PulsanteGrafica piccolo partita={{ campionato: m.competition, giornata: m.giornata, casa: m.home, ospite: m.away, risultato: m.score }} />
-                </a>
-              );
-            })}
-          </div>
-        </div>
-      )}
+      <BannerHubVolley />
 
       {pallavoloUmbriaData && pallavoloUmbriaData.titolo && (
         <div className="evidenza-box">
@@ -1679,7 +1658,7 @@ const AV_PAGINE = [
   { re: /classific/, label: "Classifiche", sub: "Tutti i campionati", href: "#/classifica", solo: true },
   { re: /quando gioca|prossima partita|calendario|orari|weekend|domenica|sabato/, label: "La mia squadra", sub: "Partite e orari della tua squadra", href: "#/mia-squadra", solo: true },
   { re: /weekend|fine settimana|venerdi|sabato|domenica/, label: "Il weekend in Umbria", sub: "Le partite di venerdì, sabato e domenica", href: "#/weekend-umbria" },
-  { re: /cerco.*allenatore|trovare.*allenatore|allenatore per|tecnico/, label: "Cerca Allenatore", sub: "Trova il tecnico giusto", href: "#/allenatori2" },
+  { re: /cerco.*allenatore|trovare.*allenatore|allenatore per|tecnico/, label: "Allenatori umbri", sub: "Storie e notizie dei tecnici umbri", href: "#/allenatori2" },
   { re: /palestra|dove giocare|campo|palazzetto|societa|dove si gioca/, label: "Mappa volley", sub: "Società e palestre", href: "#/mappa" },
   { re: /battut|batter|servizio|servire|ricezion|ricevere|palleggi|alzat|alzare|schiacc|attacc|mur[oa]|difes|difender|fondament|tecnic|bagher/, label: "Tecnica", sub: "Fondamentali e gesti tecnici", href: "#/fondamentali" },
   { re: /fisic|preparazion|atletic|forza|salto|stretching|riscald|infortun|caviglia|spalla|ginocchio/, label: "Preparazione fisica", sub: "Prevenzione e allenamento atletico", href: "#/preparazione-fisica" },
@@ -3129,35 +3108,43 @@ function Allenatori2Page() {
   })));
 }, [selectedId]);
 
+  const iniziali = (n) => (n || "").trim().split(/\s+/).map((x) => x[0]).slice(0, 2).join("").toUpperCase();
+  function scegli(id) {
+    setSelectedId(id === selectedId ? "" : id);
+    setTimeout(() => { const el = document.getElementById("coach-scelto"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 50);
+  }
+
   return (
     <main>
       <section className="section">
-        <h2 className="feed-heading">Cerca Allenatore</h2>
+        <h2 className="feed-heading">Allenatori umbri</h2>
+        <p className="page-intro" style={{ color: "var(--text-dim)", maxWidth: "640px", marginTop: "-0.8rem" }}>
+          Allenatori umbri o legati all'Umbria, dalla Nazionale alle squadre di casa nostra. Tocca un nome per la sua storia e le ultime notizie.
+        </p>
 
-        <div className="all2-select-wrap">
-          <select
-            className="all2-select"
-            value={selectedId}
-            onChange={(e) => setSelectedId(e.target.value)}
-          >
-            <option value="">-- Scegli un allenatore --</option>
-            {elenco.map((c) => (
-              <option key={c.id} value={c.id}>{c.nome} — {c.squadra}</option>
-            ))}
-          </select>
+        <div className="coach-griglia">
+          {elenco.map((c) => (
+            <button key={c.id} type="button" className={"coach-voce" + (c.id === selectedId ? " is-on" : "")} onClick={() => scegli(c.id)}>
+              {c.foto ? <img className="coach-voce__foto" src={c.foto} alt="" loading="lazy" /> : <span className="coach-voce__foto coach-voce__foto--sigla">{iniziali(c.nome)}</span>}
+              <span className="coach-voce__testo">
+                <span className="coach-voce__nome">{c.nome}</span>
+                <span className="coach-voce__squadra">{c.squadra}</span>
+              </span>
+            </button>
+          ))}
         </div>
 
         {coach && (
-          <div className="coach-detail" style={{ marginTop: "1.5rem" }}>
+          <div id="coach-scelto" className="coach-detail" style={{ marginTop: "1.5rem", scrollMarginTop: "1rem" }}>
             <div className="coach-detail__header">
               {coach.foto ? (
                 <img className="coach-detail__photo" src={coach.foto} alt={coach.nome} />
               ) : (
-                <div className="coach-detail__photo coach-detail__photo--placeholder">🏐</div>
+                <div className="coach-detail__photo coach-detail__photo--placeholder">{iniziali(coach.nome)}</div>
               )}
               <div>
                 <h3 className="coach-detail__name">{coach.nome}</h3>
-                <p className="coach-detail__team">{coach.squadra} · {coach.categoria}</p>
+                <p className="coach-detail__team">{coach.squadra}{coach.categoria ? " · " + coach.categoria : ""}</p>
               </div>
             </div>
 
@@ -5808,7 +5795,7 @@ function SidebarLeft({ localNews = [] }) {
     <aside className="sidebar sidebar--left">
       {localNews.length > 0 && (
         <div className="sidebar__box">
-          <h4 className="sidebar__title">🔴 Ultime locali</h4>
+          <h4 className="sidebar__title">Ultime locali</h4>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             {localNews.map((n, i) => (
               <a key={i} href={n.permalink} target="_blank" rel="noreferrer" 
@@ -6116,6 +6103,7 @@ function Footer() {
     { label: "Invia il tuo articolo", href: "#/invia-articolo" },
     { label: "Per le società", href: "#/per-le-societa" },
     { label: "HubVolley (demo)", href: "/hubvolley-demo/" },
+    { label: "Privacy Policy", href: "#/privacy" },
   ];
   return (
     <footer className="sito-footer">
@@ -6158,8 +6146,8 @@ function Breadcrumb({ route }) {
     "regionali": ["Notizie", "News Regionali"],
     "terni": ["Notizie", "News Prov. TR"],
     "perugia": ["Notizie", "News Prov. PG"],
-    "invia-articolo": ["Bacheca", "Invia il tuo articolo"],
-    "per-le-societa": ["Bacheca", "Per le società"],
+    "invia-articolo": ["Per le società", "Invia il tuo articolo"],
+    "per-le-societa": ["Per le società"],
     "squadre-iscritte": ["Campionati", "Squadre Iscritte"],
     "mia-squadra": ["Campionati", "La mia squadra"],
     "risultati": ["Campionati", "Risultati"],
@@ -6182,7 +6170,8 @@ function Breadcrumb({ route }) {
     "preparazione-fisica": ["Palestra del volley", "Preparazione Fisica"],
     "fondamentali": ["Palestra del volley", "Tecnica"],
     "mental-coach": ["Palestra del volley", "Mente"],
-    "velasco": ["Tecnica", "Julio Velasco"],
+    "velasco": ["Palestra del volley", "Julio Velasco"],
+    "allenatori2": ["Palestra del volley", "Allenatori umbri"],
     "camp": ["Tecnica", "Camp Estivi"],
     "allenatori": ["Allenatori", "Notizie Allenatori"],
     "mercato": ["Mercato", "Mercato"],
@@ -7552,6 +7541,21 @@ function CercaPage({ subscribed }) {
   const trSocieta = (societaData.societa || []).filter((s) => ok(s.nome, s.citta, s.palazzetto)).slice(0, 8);
   const trAllenatori = (allenatoriData.coaches || []).filter((c) => ok(c.name, c.team)).slice(0, 6);
   const trGloss = (glossarioData.glossario || []).filter((g) => ok(g.termine)).slice(0, 5);
+  const qPag = (q || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  const PAGINE_EXTRA = [
+    { re: /classific/, label: "Classifiche", sub: "Tutti i campionati", href: "#/classifica" },
+    { re: /dirett|live/, label: "Dirette live", sub: "Le partite in corso", href: "#/dirette" },
+    { re: /settimana volley|commento/, label: "La Settimana Volley", sub: "Il commento della settimana", href: "#/pallavolo-umbria" },
+    { re: /iscritt|partecip/, label: "Squadre iscritte", sub: "Chi partecipa ai campionati", href: "#/squadre-iscritte" },
+    { re: /head|confront|contro/, label: "Head to Head", sub: "Confronta due squadre", href: "#/headtohead" },
+    { re: /velasco/, label: "Julio Velasco", sub: "Idee e lezioni del maestro", href: "#/velasco" },
+    { re: /sched|eserciz/, label: "Schede Allenamento", sub: "Esercizi pronti da usare", href: "#/schede" },
+    { re: /hubvolley|gestional/, label: "HubVolley", sub: "Il gestionale per la tua società", href: "/hubvolley-demo/" },
+    { re: /sponsor|pubblicit/, label: "Sponsor", sub: "Porta il tuo brand nel volley umbro", href: "#/sponsor" },
+  ];
+  const trPagine = qPag.length >= 3
+    ? [...PAGINE_EXTRA, ...AV_PAGINE].filter((pg, i, arr) => pg.re.test(qPag) && arr.findIndex((x) => x.href === pg.href) === i).slice(0, 4)
+    : [];
   const notizie = [
     ...(facebookNewsData.posts || []).map((p) => ({ ...p, fonte: "PallaVolleyAmo" })),
     ...(newsGeneraliData.posts || []),
@@ -7575,7 +7579,7 @@ function CercaPage({ subscribed }) {
   }
   const titoloSez = { fontSize: "0.8rem", color: "var(--gold)", textTransform: "uppercase", margin: "1.5rem 0 0.5rem" };
   const box = { border: "1px solid var(--border)", borderRadius: "10px", padding: "0.7rem 1rem", display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap", justifyContent: "space-between", textDecoration: "none", color: "inherit" };
-  const tot = trSquadre.length + trSocieta.length + trAllenatori.length + trGloss.length + trNews.length;
+  const tot = trPagine.length + trSquadre.length + trSocieta.length + trAllenatori.length + trGloss.length + trNews.length;
 
   return (
     <main>
@@ -7593,6 +7597,20 @@ function CercaPage({ subscribed }) {
         />
         {t.length < 2 && <p className="state" style={{ marginTop: "1rem" }}>Scrivi almeno due lettere: per esempio “Trestina”, “Perugia”, “Velasco”, “ace”.</p>}
         {t.length >= 2 && tot === 0 && <p className="state" style={{ marginTop: "1rem" }}>Nessun risultato per “{q}”.</p>}
+
+        {trPagine.length > 0 && (
+          <>
+            <h3 style={titoloSez}>Vai alla pagina</h3>
+            <div className="cerca-pagine">
+              {trPagine.map((pg) => (
+                <a key={pg.href} href={pg.href} className="cerca-pagine__item">
+                  <span className="cerca-pagine__titolo">{pg.label}</span>
+                  <span className="cerca-pagine__sub">{pg.sub}</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
 
         {trSquadre.length > 0 && (
           <>
@@ -8297,7 +8315,7 @@ useEffect(() => {
   return (
     <>
     {showPillola && <PillolaToast pillola={pillolaDiOggi} onClose={() => setShowPillola(false)} />}
-      <Masthead latestFive={latestFive} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} subscribed={subscribed} />
+      <Masthead latestFive={[...(regionaliData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} darkMode={darkMode} toggleDark={() => setDarkMode((d) => !d)} subscribed={subscribed} />
       <Breadcrumb route={route} />
       <div className="page-layout">
         <SidebarLeft localNews={SECTIONS[route] ? [] : [...(terniData.posts || []), ...(perugiaData.posts || [])].sort((a, b) => parseDate(b) - parseDate(a)).slice(0, 5)} />

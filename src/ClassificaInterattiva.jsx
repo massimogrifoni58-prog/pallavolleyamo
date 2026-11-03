@@ -65,11 +65,11 @@ export function calcola(partite, vista = "totale") {
 
 const COLONNE = [
   { k: "g", l: "G", t: "Partite giocate" },
-  { k: "v", l: "V", t: "Vittorie" },
-  { k: "p", l: "P", t: "Sconfitte" },
+  { k: "v", l: "V", t: "Vittorie", mob: false },
+  { k: "p", l: "P", t: "Sconfitte", mob: false },
   { k: "sv", l: "SV", t: "Set vinti", mob: false },
   { k: "sp", l: "SP", t: "Set persi", mob: false },
-  { k: "qs", l: "QS", t: "Quoziente set (vinti / persi)" },
+  { k: "qs", l: "QS", t: "Quoziente set (vinti / persi)", mob: false },
   { k: "pts", l: "Pt", t: "Punti" },
 ];
 
@@ -183,14 +183,18 @@ export default function ClassificaInterattiva({ partite, nomeSq = (n) => n, onAp
                     </td>
                     <td className="classifica-table__nome">
                       <span className="ci-nome">{nomeSq(s.nome)}</span>
-                      <span className="ci-barra-pt" style={{ width: (s.pts / maxPts) * 100 + "%" }} aria-hidden="true" />
+                      <span className="ci-forma ci-forma--mob" aria-hidden="true">
+                        {ultime.map((p, i) => (
+                          <span key={i} className={"ci-pallino " + (p.vinti > p.persi ? "is-v" : "is-p")}>{p.vinti > p.persi ? "V" : "P"}</span>
+                        ))}
+                      </span>
                     </td>
                     <td>{s.g}</td>
-                    <td>{s.v}</td>
-                    <td>{s.p}</td>
+                    <td className="ci-nomob">{s.v}</td>
+                    <td className="ci-nomob">{s.p}</td>
                     <td className="ci-nomob">{s.sv}</td>
                     <td className="ci-nomob">{s.sp}</td>
-                    <td className="ci-qs">{fmtQs(s.qs)}</td>
+                    <td className="ci-qs ci-nomob">{fmtQs(s.qs)}</td>
                     <td className="classifica-table__pts">{s.pts}</td>
                     <td className="ci-nomob">
                       <span className="ci-forma">
