@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:07:09.713095+00:00",
+  "generatedAt": "2026-11-03T02:51:40.386834+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5961,8 +5961,8 @@
         "id": "giov-under-17-femminile-girone-a-9",
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "4",
-        "data": "2026-11-05",
-        "ora": "19:00",
+        "data": "2026-11-06",
+        "ora": "19:15",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
         "risultato": null
@@ -5985,7 +5985,7 @@
         "ora": "17:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-17-femminile-girone-a-12",
@@ -6277,7 +6277,7 @@
         "ora": "18:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-b-11",
@@ -6287,7 +6287,7 @@
         "ora": "17:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
         "ospite": "SIRIO PALLAVOLO ROSSA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-b-12",
@@ -6589,7 +6589,7 @@
         "ora": "19:45",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "VOLLEY 86 PETRIGNANO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-c-12",
@@ -6891,7 +6891,7 @@
         "ora": "18:00",
         "casa": "FOLIGNO - SPELLO",
         "ospite": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-femminile-girone-b-12",

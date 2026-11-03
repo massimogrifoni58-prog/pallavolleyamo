@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:03:14.216802+00:00",
+  "generatedAt": "2026-11-03T02:52:45.957489+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -10676,15 +10676,6 @@
       "status": "in programma"
     },
     {
-      "id": "131662246",
-      "competition": "2 Divisione Femminile Girone D",
-      "giornata": "Giornata 7",
-      "home": "BOSICO VOLLEY-TERNI VA",
-      "away": "VOLLEY SPOLETO CASCIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131658291",
       "competition": "2 Divisione Femminile Girone D",
       "giornata": "Giornata 7",
@@ -10699,6 +10690,15 @@
       "giornata": "Giornata 7",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "SANGEMINI COLLELUNA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131662246",
+      "competition": "2 Divisione Femminile Girone D",
+      "giornata": "Giornata 7",
+      "home": "BOSICO VOLLEY-TERNI VA",
+      "away": "VOLLEY SPOLETO CASCIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -12706,8 +12706,8 @@
       "giornata": "Giornata 4",
       "home": "FOLIGNO - SPELLO",
       "away": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131639461",
@@ -12922,8 +12922,8 @@
       "giornata": "Giornata 2",
       "home": "MARCHETTI PRO VITT CHIUSI",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131644290",
@@ -13300,8 +13300,8 @@
       "giornata": "Giornata 2",
       "home": "V. NARNI S.A.",
       "away": "SIR GIOVANILE MERICAT GREEN",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131644341",
@@ -13309,8 +13309,8 @@
       "giornata": "Giornata 2",
       "home": "SIR MERICAT PERUGIA",
       "away": "POLISPORTIVA CLT",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131644339",
@@ -13912,8 +13912,8 @@
       "giornata": "Giornata 4",
       "home": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641431",
@@ -14182,8 +14182,8 @@
       "giornata": "Giornata 4",
       "home": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
       "away": "SIRIO PALLAVOLO ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641461",
@@ -14191,8 +14191,8 @@
       "giornata": "Giornata 4",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641460",
@@ -14452,8 +14452,8 @@
       "giornata": "Giornata 4",
       "home": "VIANDER ACTON BASTIA",
       "away": "VOLLEY 86 PETRIGNANO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641500",
@@ -16322,8 +16322,8 @@
       "id": "131659135",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 3",
-      "home": "SIR PERUGIA",
-      "away": "PMU MARSCIANO BLU",
+      "home": "PMU MARSCIANO BLU",
+      "away": "SIR PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -16466,8 +16466,8 @@
       "id": "131659150",
       "competition": "Under 15 Femminile Girone B",
       "giornata": "Giornata 8",
-      "home": "PMU MARSCIANO BLU",
-      "away": "SIR PERUGIA",
+      "home": "SIR PERUGIA",
+      "away": "PMU MARSCIANO BLU",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17341,8 +17341,8 @@
       "giornata": "Giornata 1",
       "home": "PMU MARSCIANO BIANCA",
       "away": "FREE GAS&LUCE NARNI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131659520",
