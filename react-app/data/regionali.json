@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T06:02:15.072134+00:00",
+  "generatedAt": "2026-11-03T12:34:47.062735+00:00",
   "posts": [
     {
       "id": "news-7",
@@ -42,7 +42,7 @@
       "permalink": "https://www.umbria24.it/attualita/volley-fipav-umbria-ce-un-corso-gratuito-per-diventare-arbitri/"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
@@ -50,7 +50,7 @@
       "permalink": "https://www.ilmessaggero.it/umbria/ecco_europei_di_volley_un_punto_turismo_palabarton_tirato_lucido-7599040.html"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "Convocata la rappresentativa femminile Fipav Umbria per il 5 maggio",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Tue, 29 Apr 2025 23:30:00 GMT",
@@ -82,20 +82,36 @@
       "permalink": "https://sport2u.tv/superlega-volley-2026-perugia-supera-padova-3-0-nellanticipo-e-vola-in-vetta-alla-classifica/"
     },
     {
-      "id": "news-6",
-      "title": "Pallavolo Padova torna in trasferta: il 28 ottobre sfida Perugia, Cuttini chiede crescita",
-      "excerpt": "Fonte: padova24ore.it",
-      "createdTime": "Tue, 27 Oct 2026 01:23:00 GMT",
-      "image": "https://www.padova24ore.it/wp-content/uploads/2026/10/pallavolo-padova-archivio-20261027.jpg",
-      "permalink": "https://www.padova24ore.it/pallavolo-padova-perugia-28-ottobre-2026/"
+      "id": "news-7",
+      "title": "Superlega, Sir Susa Scai Perugia - Pallavolo Padova: le curiosità e dove seguire la sfida in diretta",
+      "excerpt": "Fonte: perugiatoday.it",
+      "createdTime": "Tue, 27 Oct 2026 12:20:00 GMT",
+      "image": null,
+      "permalink": "https://www.perugiatoday.it/sport/volley/superlega-sir-padova-28-10-2026-curiosita-dove-seguire-sfida-diretta.html"
     },
     {
-      "id": "news-1",
-      "title": "Pallavolo – Terni ufficializza due novità: da Lecce arrivano Luciano Zornetta e Andrea Santangelo",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Tue, 02 Jun 2026 17:00:00 GMT",
-      "image": null,
-      "permalink": "https://www.ivolleymagazine.it/2026/06/03/pallavolo-terni-ufficializza-due-novita-da-lecce-arrivano-luciano-zornetta-e-andrea-santangelo/"
+      "id": "aperugiaperlasuperlegaarrivaci",
+      "title": "A Perugia per la superlega arriva Cisterna",
+      "excerpt": "I riflettori della superlega maschile tornano ad accendersi nuovamente sul rettangolo tricolore di Pian di Massiano mercoledì 4 novembre alle ore 20,30. La Sir Susa Scai Perugia ospita la quarta giorn",
+      "createdTime": "Tue, 03 Nov 2026 10:00:39 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Giannelli-Simone.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/a-perugia-per-la-superlega-arriva-cisterna/"
+    },
+    {
+      "id": "tommasotroianicittdicastello",
+      "title": "Tommaso Troiani: «Città di Castello »",
+      "excerpt": "Nella seconda trasferta consecutiva di serie B maschile si è visto qualche sensibile miglioramento alla Città di Castello Pallavolo. Certamente, andare in vantaggio due set ad uno e guidare il tie-bre",
+      "createdTime": "Tue, 03 Nov 2026 08:00:45 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Troiani-Tommaso.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/tommaso-troiani-citta-di-castello/"
+    },
+    {
+      "id": "matteoalpinisangiustinohaespre",
+      "title": "Matteo Alpini: «San Giustino ha espresso il potenziale»",
+      "excerpt": "Il riscatto è arrivato pronto alla terza giornata del campionato di serie A3 maschile e la Ermgroup San Giustino ha ritrovato il sorriso. Gli altotiberini hanno dato prova di solidità espugnando il re",
+      "createdTime": "Tue, 03 Nov 2026 06:00:36 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Alpini-Matteo-profilo.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/matteo-alpini-san-giustino-ha-espresso-il-potenziale/"
     },
     {
       "id": "news-2",
@@ -106,20 +122,12 @@
       "permalink": "https://www.ivolleymagazine.it/2026/10/30/pallavolo-fipav-al-via-lattivita-di-qualificazione-nazionale-giovanile-f-e-m-2026-2027-dal-2027-torna-il-club-italia-maschile-nazionale-per-i-giovanissimi-dai-14-16-anni-giochera-in-serie/"
     },
     {
-      "id": "news-4",
+      "id": "news-6",
       "title": "Pallavolo Padova lotta a Perugia, ma si arrende in tre set: il secondo sfuma ai vantaggi",
       "excerpt": "Fonte: padovaoggi.it",
       "createdTime": "Thu, 29 Oct 2026 02:12:00 GMT",
       "image": null,
       "permalink": "https://www.padovaoggi.it/sport/volley/padova-pallavolo-palabarton-trasferta-29-ottobre-2026.html"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo Padova cede 3-0 a Perugia: secondo set ai vantaggi, D’Amico tocca quota 200",
-      "excerpt": "Fonte: padova24ore.it",
-      "createdTime": "Thu, 29 Oct 2026 00:26:00 GMT",
-      "image": "https://www.padova24ore.it/wp-content/uploads/2026/10/padova-perugia-20261028.jpg",
-      "permalink": "https://www.padova24ore.it/pallavolo-padova-perugia-risultato-3-0-damico-200-2026/"
     },
     {
       "id": "news-1",
@@ -128,6 +136,22 @@
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
       "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/05/28/9559552_pckg_20260528_23931417.jpg",
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
+    },
+    {
+      "id": "news-3",
+      "title": "Terni Volley Academy, grande pallavolo e fucina di futuri campioni",
+      "excerpt": "Fonte: tuttoggi.info",
+      "createdTime": "Thu, 26 Jun 2025 11:47:00 GMT",
+      "image": null,
+      "permalink": "https://tuttoggi.info/terni-volley-academy-grande-pallavolo-e-fucina-di-futuri-campioni/919797/"
+    },
+    {
+      "id": "news-4",
+      "title": "La grande pallavolo torna nella Conca: la Terni Volley Academy si presenta, giocherà in Serie A3",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Thu, 26 Jun 2025 11:17:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-26-at-20.13.44.jpeg",
+      "permalink": "https://www.umbria24.it/sport24/la-grande-pallavolo-torna-nella-conca-la-terni-volley-academy-si-presenta-giochera-in-serie-a3/"
     },
     {
       "id": "news-4",
@@ -154,14 +178,6 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-7",
-      "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
-      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
-    },
-    {
       "id": "news-1",
       "title": "Volley serie b2 femminile. La Trevi-Foligno vince lo scontro in coda",
       "excerpt": "Fonte: sport.quotidiano.net",
@@ -178,31 +194,7 @@
       "permalink": "https://www.telemia.it/serie-a2-femminile-volley-soverato-umbria-seconda-sconfitta-orvieto-vince-quattro-set/"
     },
     {
-      "id": "angelolorenzettiaperugiacontal",
-      "title": "Angelo Lorenzetti: «A Perugia conta la mentalità»",
-      "excerpt": "Conferme per i risultati e passi avanti sul piano del gioco, sono questi i due temi che emergono dopo il poker di vittorie della Sir Susa Scai Perugia. Sbancata Monza i bianconeri guardano avanti e ce",
-      "createdTime": "Sun, 01 Nov 2026 23:00:45 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Lorenzetti-Angelo-sprona.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/angelo-lorenzetti-a-perugia-conta-la-mentalita/"
-    },
-    {
-      "id": "sangiustinomostraimuscoliasarr",
-      "title": "San Giustino mostra i muscoli a Sarroch",
-      "excerpt": "È bastato un avvertimento per ritrovare l’efficacia ed il successo, la Ermgroup San Giustino espugna un ostico fortino nemico sfoderando grande consapevolezza dei propri mezzi. La terza pagina del cap",
-      "createdTime": "Sun, 01 Nov 2026 18:30:33 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Marzolla-Simone-attacco.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/san-giustino-mostra-i-muscoli-a-sarroch/"
-    },
-    {
-      "id": "ledonnediperugiasfreccianoedin",
-      "title": "Le donne di Perugia sfrecciano ed investono Offanengo",
-      "excerpt": "Porta a compimento l’agguato in trasferta e viola un altro fortino del campionato di serie A2 femminile la Bartoccini +Energia Perugia. Quarto successo consecutivo per tre a zero, a testimoniare che l",
-      "createdTime": "Sun, 01 Nov 2026 17:30:45 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Consoli-Michieletto-muro.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/le-donne-di-perugia-sfrecciano-ed-investono-offanengo/"
-    },
-    {
-      "id": "news-1",
+      "id": "news-3",
       "title": "Pallavolo A1F – Concretezza tattica e tenuta mentale: Francesca Michieletto spiega la bella vittoria di Perugia ad Offanengo",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Sun, 01 Nov 2026 16:01:00 GMT",
@@ -210,11 +202,11 @@
       "permalink": "https://www.ivolleymagazine.it/2026/11/02/pallavolo-a1f-concretezza-tattica-e-tenuta-mentale-francesca-michieletto-spiega-la-bella-vittoria-di-perugia-ad-offanengo/"
     },
     {
-      "id": "news-3",
+      "id": "news-1",
       "title": "Superlega di pallavolo maschile: Perugia batte Monza 3 a 0",
       "excerpt": "Fonte: mam-e.it",
       "createdTime": "Sun, 01 Nov 2026 07:23:00 GMT",
-      "image": null,
+      "image": "https://mam-e.it/wp-content/uploads/2026/11/IMG_7361.jpg",
       "permalink": "https://mam-e.it/superlega-di-pallavolo-maschile-perugia-batte-monza-3-a-0/"
     },
     {
@@ -242,7 +234,15 @@
       "permalink": "https://www.ivolleymagazine.it/2026/11/01/pallavolo-a2m-domotek-reggio-calabria-esame-di-maturita-contro-yuasa-battery-grottazzolina/"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
+      "title": "Volley, Perugia espugna Monza e firma il poker in Superlega: Gianneli lancia Reggers e Semeniuk",
+      "excerpt": "Fonte: oasport.it",
+      "createdTime": "Sat, 31 Oct 2026 12:04:00 GMT",
+      "image": "https://www.oasport.it/wp-content/uploads/2026/10/perugia-volley-e1793222855437.jpg",
+      "permalink": "https://www.oasport.it/2026/10/volley-perugia-espugna-monza-e-firma-il-poker-in-superlega-gianneli-lancia-reggers-e-semeniuk/"
+    },
+    {
+      "id": "news-1",
       "title": "Terni Volley Academy-Sir Perugia 0-3, pomeriggio di grande pallavolo al PalaTerni con i campioni d'Europa e del mondo",
       "excerpt": "Fonte: ternitoday.it",
       "createdTime": "Sat, 26 Sep 2026 02:37:00 GMT",
@@ -258,20 +258,28 @@
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
-      "id": "news-2",
-      "title": "Clitunno Volley travolgente a Foligno: 3-0 e 6 piazza",
-      "excerpt": "Fonte: spoletonline.com",
-      "createdTime": "Sat, 20 Feb 2010 16:00:00 GMT",
-      "image": "https://www.spoletonline.com/immagini/1493_volleyBall.jpg",
-      "permalink": "https://www.spoletonline.com/130509/Clitunno-Volley-travolgente-a-Foligno:-3-0-e-6-piazza"
-    },
-    {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Volley serie A3 maschile. Terni Academy, pronto il debutto: \"Società seria, pronti a stupire»",
       "excerpt": "Fonte: sport.quotidiano.net",
       "createdTime": "Sat, 06 Sep 2025 17:00:00 GMT",
       "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZGIwMWY5OGItYmEwMi00/0/lenergia-del-pubblico-in-una-partita-di-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-a3-maschile-terni-6000f6b9"
+    },
+    {
+      "id": "news-6",
+      "title": "Pallavolo A3M – Tonno Callipo, esordio amaro al PalaMaiata: Sorrento passa in tre set",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Mon, 26 Oct 2026 17:00:00 GMT",
+      "image": null,
+      "permalink": "https://www.ivolleymagazine.it/2026/10/27/pallavolo-a3m-tonno-callipo-esordio-amaro-al-palamaiata-sorrento-passa-in-tre-set/"
+    },
+    {
+      "id": "news-7",
+      "title": "Pallavolo, nel 2026 Assisi sede di una finale nazionale giovanile",
+      "excerpt": "Fonte: umbriacronaca.it",
+      "createdTime": "Mon, 24 Nov 2025 11:24:00 GMT",
+      "image": "https://www.umbriacronaca.it/wp-content/uploads/2025/11/Stoppini_Cavallucci-282x300.jpg",
+      "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
       "id": "news-2",
@@ -314,7 +322,7 @@
       "permalink": "https://www.umbriajournal.com/sport/pallavolo-otto-sostituzioni-e-nuove-norme-per-le-gare-umbre-653291/"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Pallavolo, presentate a Deruta le novità regolamentari della prossima stagione",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Mon, 12 Oct 2026 02:42:00 GMT",
@@ -386,7 +394,7 @@
       "permalink": "https://www.pianetavolley.net/2026/11/per-bastia-umbra-rimonta-da-urlo-con-trevi/"
     },
     {
-      "id": "news-5",
+      "id": "news-4",
       "title": "Superlega Volley 2026: Perugia travolge Monza 3-0 e si conferma in vetta alla classifica",
       "excerpt": "Fonte: sport2u.tv",
       "createdTime": "Fri, 30 Oct 2026 17:00:00 GMT",
@@ -400,14 +408,6 @@
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
       "image": "https://sport.quotidiano.net/og/quotidianosportivo.jpg",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
-    },
-    {
-      "id": "news-5",
-      "title": "Volley serie A3 maschile. Terni Academy oggi gioca in trasferta lo scontro in coda contro la Gaia Energy Napoli",
-      "excerpt": "Fonte: sport.quotidiano.net",
-      "createdTime": "Fri, 23 Jan 2026 23:12:00 GMT",
-      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/YzA1Njk5NzEtZmJiMi00/0/calcio.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://sport.quotidiano.net/calcio/volley-serie-a3-maschile-terni-20fdab1c"
     },
     {
       "id": "fipav-18198",
