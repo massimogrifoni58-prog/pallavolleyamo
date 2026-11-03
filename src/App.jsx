@@ -943,9 +943,35 @@ function HomePage({ latestNews = [] }) {
   const nCampionati = new Set((risultatiData.matches || []).map((m) => getMacroCategory(m.competition))).size;
   const nSquadre = new Set((risultatiData.matches || []).flatMap((m) => [m.home, m.away])).size;
 
+  // Le sei card: gli ultimi risultati davvero giocati, di qualunque categoria
+  // (prima i piu' recenti; a parita' di giorno, i campionati di livello piu' alto)
   const risultatiCard = (() => {
-    const prio = (c) => (/^serie [cd]/i.test(c || "") ? 0 : 1);
-    return [...risultati].sort((x, y) => prio(x.competition) - prio(y.competition)).slice(0, 6);
+    const oggi = new Date();
+    const oggiIso = oggi.getFullYear() + "-" + String(oggi.getMonth() + 1).padStart(2, "0") + "-" + String(oggi.getDate()).padStart(2, "0");
+    const livello = (c) => {
+      const t = (c || "").toLowerCase();
+      if (/superlega|serie a|a1|a2|a3/.test(t)) return 6;
+      if (/serie b/.test(t)) return 5;
+      if (/serie c/.test(t)) return 4;
+      if (/serie d/.test(t)) return 3;
+      if (/under|u1[0-9]|giovanil/.test(t)) return 1;
+      return 2;
+    };
+    const visti = new Set();
+    const giocate = tuttePartiteSquadre().filter((p) => p.ris && leggiSet(p.ris) && p.data <= oggiIso);
+    // finestra: gli ultimi 4 giorni con partite giocate; dentro la finestra contano prima i campionati piu' alti
+    const ultimo = giocate.reduce((m, p) => (p.data > m ? p.data : m), "");
+    const dal = ultimo ? new Date(new Date(ultimo + "T12:00:00").getTime() - 3 * 86400000).toISOString().slice(0, 10) : "";
+    return giocate
+      .filter((p) => {
+        const k = p.data + "|" + normSq(p.casa) + "|" + normSq(p.ospite);
+        if (visti.has(k)) return false;
+        visti.add(k);
+        return true;
+      })
+      .sort((a, b) => (b.data >= dal ? 1 : 0) - (a.data >= dal ? 1 : 0) || (b.data >= dal ? livello(b.camp) - livello(a.camp) : 0) || b.data.localeCompare(a.data) || livello(b.camp) - livello(a.camp) || (b.ora || "").localeCompare(a.ora || ""))
+      .slice(0, 6)
+      .map((p) => ({ id: p.id, competition: p.camp, giornata: p.giornata ? (/^\d+$/.test(String(p.giornata)) ? "Giornata " + p.giornata : String(p.giornata)) : "", home: p.casa, away: p.ospite, score: String(p.ris).replace(/\s+/g, "") }));
   })();
   const tcR = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
 
