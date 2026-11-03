@@ -5502,3 +5502,8 @@ body.light-mode .rc-sqchip.is-on { background: var(--gold); }
 @media (min-width: 700px) {
   .grid--elenco .card__image--logo { width: 260px; min-width: 260px; aspect-ratio: 4 / 3; align-self: flex-start; }
 }
+
+/* Filtro squadra: un solo menu a tendina al posto dei tanti pulsanti */
+.rc-barra { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; }
+.rc-sqselect { flex: 1 1 200px; max-width: 320px; background: var(--bg-card); color: var(--text); border: 1px solid var(--border-strong); border-radius: 999px; padding: 0.45rem 0.9rem; font: inherit; font-size: 0.85rem; cursor: pointer; }
+.rc-sqselect:hover, .rc-sqselect:focus { border-color: var(--gold); outline: none; }

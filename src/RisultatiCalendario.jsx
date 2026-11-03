@@ -106,19 +106,14 @@ export default function RisultatiCalendario({ partite, modo = "risultati", grafi
             className={"ci-vista__btn" + (vista === "mese" && !q ? " is-on" : "")}
             onClick={() => { setVista("mese"); setSqSel(null); setAperta(null); }}>Mese</button>
         </div>
-      </div>
-
-      <div className="rc-squadre" role="group" aria-label="Squadre del campionato">
-        {squadre.map((n) => {
-          const r = posDi(n);
-          return (
-            <button key={n} type="button" className={"rc-sqchip" + (q === n ? " is-on" : "")}
-              aria-pressed={q === n} onClick={() => scegliSquadra(n)} title={"Partite di " + bello(n)}>
-              {r && <span className="rc-sqchip__pos">{r.pos}</span>}
-              <span className="rc-sqchip__nome">{bello(n)}</span>
-            </button>
-          );
-        })}
+        <select className="rc-sqselect" aria-label="Filtra per squadra" value={q || ""}
+          onChange={(e) => { const v = e.target.value; setSqSel(v || null); setAperta(null); }}>
+          <option value="">Tutte le squadre</option>
+          {squadre.map((n) => {
+            const r = posDi(n);
+            return <option key={n} value={n}>{r ? r.pos + ". " : ""}{bello(n)}</option>;
+          })}
+        </select>
       </div>
 
       {q ? (
