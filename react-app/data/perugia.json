@@ -1,13 +1,21 @@
 {
-  "generatedAt": "2026-11-04T12:45:09.469926+00:00",
+  "generatedAt": "2026-11-05T06:02:46.627553+00:00",
   "posts": [
+    {
+      "title": "Altotevere, il riscatto anche di Quarta: “D’altronde, stiamo cercando un’identità di gioco”",
+      "excerpt": "Il centrale biancazzurro soddisfatto della compattezza dimostrata dalla squadra a Sarroch: “Il lavoro che stiamo facendo ci sta portando sulla giusta strada” La vittoria piena di Sarroch ha restituito",
+      "createdTime": "Wed, 04 Nov 2026 13:20:01 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/quarta-in-campo-acqui-terme.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35704",
+      "id": "1"
+    },
     {
       "title": "La School Volley Perugia cala il tris con Marsciano",
       "excerpt": "Anche nella terza giornata di campionato in serie C femminile arriva un successo per la formazione della Bartoccini School Volley Perugia che supera in trasferta per tre a zero The Galleon Pub Marscia",
       "createdTime": "Tue, 03 Nov 2026 16:00:06 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Bartoccini-Perugia-vincente.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/la-school-volley-perugia-cala-il-tris-con-marsciano/",
-      "id": "1"
+      "id": "2"
     },
     {
       "title": "D maschile: Spoleto e Sir Academy agganciano la vetta. Gubbio cerca il riscatto",
@@ -15,7 +23,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:26:36 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35701",
-      "id": "2"
+      "id": "3"
     },
     {
       "title": "D femminile: Ponte Valleceppi e Bastia padrone dei gironi. Nel weekend Sirio sfida Castiglione",
@@ -23,7 +31,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:24:46 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35700",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "C maschile: Italchimici e Marsciano a punteggio pieno. Domenica il test della verità per Orte",
@@ -31,7 +39,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:22:29 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35699",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "C femminile: Bastia espugna il PalaTrevi al tie-break. Sabato prossimo il derby Bartoccini-School Volley",
@@ -39,14 +47,6 @@
       "createdTime": "Tue, 03 Nov 2026 12:20:15 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35698",
-      "id": "5"
-    },
-    {
-      "title": "Black Angels, sentite Micoli: “Lavoriamo con serenità per ritrovare il ritmo partita”",
-      "excerpt": "Il coach della Bartoccini + energia Perugia torna sulla vittoria di Offanengo: “La partita dove abbiamo fatto meno muri. La sosta ci ha tolto un po’ di continuità nel gioco. Occhio ad Imola” Le Black ",
-      "createdTime": "Tue, 03 Nov 2026 11:25:16 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Micoli-2.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35697",
       "id": "6"
     },
     {
@@ -58,28 +58,12 @@
       "id": "7"
     },
     {
-      "title": "Rinaldo Conti: «Prova in crescendo del Città di Castello»",
-      "excerpt": "Seconda battuta d’arresto consecutiva in serie B maschile, cade nuovamente in trasferta la Città di Castello Pallavolo. Stavolta però i biancorossi hanno venduto cara la pelle alla favorita San Mauro ",
-      "createdTime": "Mon, 02 Nov 2026 14:00:39 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Conti-Rinaldo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/rinaldo-conti-prova-in-crescendo-del-citta-di-castello/",
-      "id": "8"
-    },
-    {
-      "title": "La School Volley Perugia passa a Sansepolcro",
-      "excerpt": "Nella seconda giornata del campionato di serie D femminile ottiene una vittoria in trasferta la formazione della Menchetti Perugia che continua a marciare spedita e rimane imbattuta. Le scolare vanno ",
-      "createdTime": "Mon, 02 Nov 2026 12:00:00 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Menchetti-Perugia-team.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/la-school-volley-perugia-passa-a-sansepolcro/",
-      "id": "9"
-    },
-    {
       "title": "D Femminile: Buona la prima. Ponte Valleceppi e Bastia volano, subito maratone da tie-break",
       "excerpt": "Sipario alzato sul campionato di Serie D Femminile, scattato ufficialmente nell’ultimo fine settimana. Un esordio scoppiettante diviso nei due gironi tradizionali, che ha subito regalato parziali nett",
       "createdTime": "Tue, 27 Oct 2026 20:40:51 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35628",
-      "id": "10"
+      "id": "8"
     }
   ]
 }
