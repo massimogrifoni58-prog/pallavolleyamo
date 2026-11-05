@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T12:49:14.219096+00:00",
+  "generatedAt": "2026-11-05T01:24:49.322902+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -3568,7 +3568,7 @@
         "campionato": "Serie D Femminile Girone A",
         "giornata": "6",
         "data": "2026-11-29",
-        "ora": "18:00",
+        "ora": "18:30",
         "casa": "NVBS BLUE PANTHERS",
         "ospite": "SIRIO PERUGIA",
         "risultato": null
@@ -6569,7 +6569,7 @@
         "ora": "18:30",
         "casa": "REBELS ASSISI U17",
         "ospite": "SPELLO VOLLEY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-c-10",
@@ -6871,7 +6871,7 @@
         "ora": "18:00",
         "casa": "COLLELUNA VOLLEY SAN GEMINI",
         "ospite": "REBELS ASSISI U19",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-b-10",
@@ -7375,7 +7375,7 @@
         "ora": "19:15",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-a-10",
@@ -7385,7 +7385,7 @@
         "ora": "20:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-girone-a-11",
@@ -7959,7 +7959,7 @@
         "ora": "18:30",
         "casa": "MARCONI MONINI PALLAVOLO BLU",
         "ospite": "FARMACIA ANGELICI ARRONE",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-17-femminile-girone-e-8",
@@ -8535,7 +8535,7 @@
         "ora": "18:00",
         "casa": "SCHOOL VOLLEY PERUGIA",
         "ospite": "CITTA DI CASTELLO PALLAVOLO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-maschile-girone-a-5",
@@ -8957,7 +8957,7 @@
         "ora": "18:15",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "MARCONI MONINI PALLAVOLO",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-elite-5",
@@ -8967,7 +8967,7 @@
         "ora": "20:30",
         "casa": "TIBER VOLLEY",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-19-femminile-elite-6",
@@ -8977,7 +8977,7 @@
         "ora": "18:45",
         "casa": "PMU MARSCIANO",
         "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-19-femminile-elite-7",
@@ -8987,7 +8987,7 @@
         "ora": "18:00",
         "casa": "A.S. FOSSATO VOLLEY",
         "ospite": "SIRIO PALLAVOLO",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-19-femminile-elite-8",
