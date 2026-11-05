@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T06:06:17.734719+00:00",
+  "generatedAt": "2026-11-05T12:57:41.551865+00:00",
   "news": {
     "1": [
       {
@@ -7,12 +7,6 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeVp2NTlJVzNwdUhnbUktYzRYaWg1SjBaaWE3THdhVUNjTWk4RF9nbWNfSHFnTlFTVVplTVRwSi1GMjBFT2lEWTZpSTFJenhINGxFcHhNZFFKQTBMZ0NRS0pkWEFJM2xIZzZONTZzc0tlRXpPSFJ0bm1PQTNrYVZpRTNDWm8yWmUyYjc3TDVTc1EzMGxSekE?oc=5",
         "pubDate": "Wed, 04 Nov 2026 10:13:29 GMT",
         "source": "FIPAV Lazio"
-      },
-      {
-        "title": "Il Club Italia maschile nel 2027-2028 sarà in Serie B (manca dal 2019-2020): la storia - Volley News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVFNwVHBUdDlnQWxtV0sxaHkzbzNYandYTC1idzVYMXlJYlRUT2lsS2t3cWQwUkRGOFlfM2ZpRTN0emNqaUxrejJ4MEJhQXlwVTludklSM0ctNXNwT0l5dVRIWThLRzJMRzRKS0N2bVFCVXlKQWVMckdCWHVLbkIwYXlvaUZXX05SV3VOVi0tUlcxM1F0WlkwTi1LVm5fSjM5cW1DZkhNcDduM0JsWm5n?oc=5",
-        "pubDate": "Tue, 03 Nov 2026 08:28:35 GMT",
-        "source": "Volley News"
       },
       {
         "title": "Al via l’attività di qualificazione nazionale giovanile femminile e maschile 2026-2027 - Federazione Italiana Pallavolo",
@@ -27,6 +21,12 @@
         "source": "Federazione Italiana Pallavolo"
       },
       {
+        "title": "Stagione Nazionali 2026, Mencarelli e Fanizza raccontano lo scouting sul territorio - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRENQb21tNHRwbF9RU09sZWlSSjVMQVRrVDJ4dHRILVdZbVBZaFk2UXlpOE5lWkdTbE1YN29XZFpIQ3Z2eEdFSWxZenNKT0ZieXpSQUlyWDJORFVUWmtvMUlVZjRzQ3VIOVN3VEM4MGdFTzhZY1kyeHJITHlhWERzRDMxMUZIODJDVTZwN3hyUTdESTRkUWdoWHZsWUQ2aHZ6Wm02dGtsaVpmT3R0U3c?oc=5",
+        "pubDate": "Tue, 28 Apr 2026 07:00:00 GMT",
+        "source": "Volley News"
+      },
+      {
         "title": "Il DT delle Nazionali Giovanili Femminili Marco Mencarelli in visita all’Opiquad Arena - Vero Volley",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZycGJyX3N1eTZMZ3lZeXJTSTVKdExrRTNRcWYwUnZnWGtBTldVNzJCc0ljVHRwMDMteGhpcEtGYk1oSHpsdFE0cnUzQ2ROb2R0VVJPT0Q2aHVmNVppMFpwaktMUVZuSEJGYUtnQWVzNTlSLTRUZUo5Rkp4RklqcTIzb2RrSDI0NFQzU1NRbjc5X2kzVGxjWEc0TXo1a3FYX0FxbG1YX2xXVVQtWUJHX21nYw?oc=5",
         "pubDate": "Tue, 14 Apr 2026 07:00:00 GMT",
@@ -35,9 +35,15 @@
     ],
     "2": [
       {
-        "title": "Pallavolo A1F – Daniele Santarelli parla, in conferenza stampa dell’infortunio di Sarah Fahr - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNXRzR3NUYzY2V0E4a01ZdC1qSnB2MHFEZVM0QkZuVUJodXJTVGxRS1R4SUd4QUhiQmstQV9tdGYxVlFQLUExU1RIandFc3l3UmtYRk8yM25rVmdDU2luZXJzOW0wVmx3TDdWbkJGU2QzOTlqcUMwNFYxMDBnSVoyLXd5VEE3MDVOSWdOTEdkc283bzNEeWd1YTQ3VHJsb191bkZrWjdOekU1dzlWSnpJVnBvVnhsdWlaX2FMcVVQQ241NFFUV1NFVEJvRQ?oc=5",
-        "pubDate": "Thu, 29 Oct 2026 08:24:25 GMT",
+        "title": "Conegliano, Santarelli: “Macerata ha buone attaccanti, ma noi vogliamo continuare la striscia di vittorie” - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNVVqeDVYVy11M21Ga2JQR3FqR3JENFd4WkxzN2g0Rng0QlhVWlJQdzRmcElONFpIdVlwWGRxUmNRLUdjT1FuSWptdjVfa0drM3RNTEJWWlZtUGtXX0Y3QVQxQ256QVpPN3BqbFZCT215MFR5dUxXbGlrcDltNWhxdEo3c005SmZaUHlSQ1pjakd2eE8yakVqUThrUmxlQkhKU2FRRm4tWkxKZ2NIWTNsYWl4d2NTZUdIdExxblVMTmtZRDB0YU0w?oc=5",
+        "pubDate": "Thu, 05 Nov 2026 09:28:19 GMT",
+        "source": "Volley News"
+      },
+      {
+        "title": "Pallavolo A1F - De Gennaro e Santarelli: \"L'ennesima dimostrazione che questa gruppo sta crescendo, ed è concreto\" - iVolley Magazine",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQY1lMZzFOYWJLT2p0UG45Q01oVEFsUzdKTWh6R0lQWkJwYTRnUDk2WEttOUgzNzl6Vl82aXQwcS16dlo2T2REdnFJT0FaZk5LNkh6SFpRQ1NpNkM3WDIyblFpRFdMR1ZNa0c3UVFKM05fSlNtb19NcEZQZjBzX2VzQUo0b3ZQaTlpd1p6d0M2ZWYxTVMyNHN0WVlIdURVQWFsTzZXOTluYW1QNHhhWThhLWhmUVFTTXRnSmpHVVZ1dDFmNWZ4ZDRxbVZpX1NMLVBLNUc0YjZjYkNVR3h6OXpJSXdSSUU?oc=5",
+        "pubDate": "Sun, 01 Nov 2026 21:46:57 GMT",
         "source": "iVolley Magazine"
       },
       {
@@ -51,12 +57,6 @@
         "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQX2pGbzR3N3RhNmdBZGdKSEhReWRMR2x3bkVyODVqOFJVLU16RHV5OUhTNWVlTUVPUU4wcVRBVVFWbnpYUlljRDJnb3FXdjhid1JrU0syWGdwT0ZoSDlHR1hHdlBBZmdBeEU0WU5WanRHYklJUlBMZ29UTHdSRExiWjlqME5jdy1xXzFucUVtb01MUUNKVWhyaEVhMHl0aWVEMUxLb3QtRlpxblR6U3JLYUxkNzRkMVRmTHlGcWRlUUdWR05oUVhfTDNOTG5zWXRDSEFGd0lEVWJmaVRLQkhtYUN4aVo3S0p2RnRRS2tNY3kwUUJWaU9XTnh4MEs3Z1NWQVhGV2JObGZRUnNJaFZ0T2t2Z2hYTDZFQU5CNGhuOFRHNWlVd2JqdTFibUNib0U2YTlFUFo5SDJZb01IWUNPbGFYWXJpajg4NE5hQzVIbmVSQdIB1wJBVV95cUxOMHhSNEgyTFBFQThLeUpaMjN3QnMzaWNraXVTNm5rNXQzSnhWTWtBenJiN1Y1anoxYnptTlFwQXcyZk8wVktnQVBscW9CdXh0VUpRX2tmQW5PU0tsUWRoeWdHTlRJTzhlbDdnQ1hZM2xMWUxXUk1EUHFBaDU2cFY2ZktuNExlYkptaXRxc2JEYzNzOXZ0c3Y2VGFoQ0FQWlZRQXVkQW5Kb0RBZkNoUGVURFo3QVU2SGhtSlFVbTgybVVRUDBhRVQ2MDFOYnRaOG9PdzR2cUNBRXFVZnF4VThFcXhCWW9iM2JDWFQxOWptVk9pZUFRX2hmX28wblRLX0FPeEx2czVQWmt2WTR5T2NaUnR1czlQLXFNaDZsR05yRUlZVHVEY2gtVWJsV2pLeVZKSTA5NEwxTGdBR25KTmpJbldsRlFNbHc4Zzh2a3REVjJqVmZsUWdr?oc=5",
         "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
         "source": "Corriere del Veneto"
-      },
-      {
-        "title": "Volley, Santarelli ancora re d’Europa: così il coach di Conegliano ha trascinato la Turchia - il Nord Est",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSTM1WVN6elZGRm5LY2N5VFhzN1FrbVNzY212aW5ZOVRHQmRrejZnUHFaRS1QNy1rTTFSakhsQVcta1p4SXNmUExpNXk1djNIOEdpLXlxOTVHYVJVV1VjdDAwaHlsTmZ1SmdEdkVybm9JMlZvOTJ0RHFVTThLTVBidTgtaEQxczZ5S3hZQVEtcENLX3QwajVYcWNLNlktd3JJb2VUSFZoLXZseVZYRml5dnJmMElaLW9DWlNrdmw4WFRyVHJ0OEdUSjM5UnJFa0pPLTlJSg?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
-        "source": "il Nord Est"
       },
       {
         "title": "Daniele Santarelli: “Allenare la Nazionale italiana sarebbe un sogno. Il vivaio della Turchia non dovrà finire con me” - OA Sport",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T06:03:39.992519+00:00",
+  "generatedAt": "2026-11-05T12:55:26.667896+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1838,6 +1838,15 @@
       "status": "in programma"
     },
     {
+      "id": "131626994",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 9",
+      "home": "SAN MARIANO VOLLEY",
+      "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131626993",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 9",
@@ -1879,15 +1888,6 @@
       "giornata": "Giornata 9",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131626994",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 9",
-      "home": "SAN MARIANO VOLLEY",
-      "away": "UISP VOLLEY UMBERTIDE",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6356,20 +6356,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627310",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 14",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627314",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 14",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "ED.I.TEC. CANNARA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627310",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -21053,20 +21053,20 @@
       "status": "in programma"
     },
     {
-      "id": "131673037",
-      "competition": "Under 13 Femminile Girone D",
-      "giornata": "Giornata 8",
-      "home": "MARCONI MONINI PALLAVOLO",
-      "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131673036",
       "competition": "Under 13 Femminile Girone D",
       "giornata": "Giornata 8",
       "home": "SPELLO VOLLEY",
       "away": "U13 FOLIGNO VOLLEY ASD",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131673037",
+      "competition": "Under 13 Femminile Girone D",
+      "giornata": "Giornata 8",
+      "home": "MARCONI MONINI PALLAVOLO",
+      "away": "VIANDER ACTON BASTIA",
       "score": "da disputare",
       "status": "in programma"
     },

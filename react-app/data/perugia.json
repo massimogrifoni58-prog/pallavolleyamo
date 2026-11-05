@@ -1,13 +1,37 @@
 {
-  "generatedAt": "2026-11-05T06:02:46.627553+00:00",
+  "generatedAt": "2026-11-05T12:54:44.759468+00:00",
   "posts": [
+    {
+      "title": "Gino Sirci accoglie al PalaBarton l’associazione umbra della Famiglie Numerose",
+      "excerpt": "40 famiglie e 150 tifosi speciali per la partita contro Cisterna La Sir Perugia apre le porte al PalaBarton: la festa del volley con le Famiglie Numerose “L’associazione Famiglie numerose Umbria è una",
+      "createdTime": "Thu, 05 Nov 2026 11:43:48 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/PHOTO-2026-11-05-11-58-41.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35715",
+      "id": "1"
+    },
+    {
+      "title": "Black Angels al lavoro per superare l’ostacolo Imola",
+      "excerpt": "La squadra di Micoli punta la trasferta in Emilia per proseguire la striscia di vittorie consecutive. Il vice Marangi avverte: “Occhio alla loro battuta e all’ex Ortolani” La Bartoccini + energia Peru",
+      "createdTime": "Thu, 05 Nov 2026 11:37:15 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/10/Black-Angels-3.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35714",
+      "id": "2"
+    },
+    {
+      "title": "Bastia Umbra torna a giocare nel suo palazzetto",
+      "excerpt": "Dopo le prime tre gare disputate in trasferta nel campionato di serie C femminile, la formazione della Volley Academy Bastia, si prepara finalmente a fare il proprio esordio casalingo al palazzetto de",
+      "createdTime": "Thu, 05 Nov 2026 06:00:19 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Palazzetto-Giontella.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/bastia-umbra-torna-a-giocare-nel-suo-palazzetto/",
+      "id": "3"
+    },
     {
       "title": "Altotevere, il riscatto anche di Quarta: “D’altronde, stiamo cercando un’identità di gioco”",
       "excerpt": "Il centrale biancazzurro soddisfatto della compattezza dimostrata dalla squadra a Sarroch: “Il lavoro che stiamo facendo ci sta portando sulla giusta strada” La vittoria piena di Sarroch ha restituito",
       "createdTime": "Wed, 04 Nov 2026 13:20:01 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/quarta-in-campo-acqui-terme.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35704",
-      "id": "1"
+      "id": "4"
     },
     {
       "title": "La School Volley Perugia cala il tris con Marsciano",
@@ -15,7 +39,7 @@
       "createdTime": "Tue, 03 Nov 2026 16:00:06 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Bartoccini-Perugia-vincente.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/la-school-volley-perugia-cala-il-tris-con-marsciano/",
-      "id": "2"
+      "id": "5"
     },
     {
       "title": "D maschile: Spoleto e Sir Academy agganciano la vetta. Gubbio cerca il riscatto",
@@ -23,7 +47,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:26:36 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35701",
-      "id": "3"
+      "id": "6"
     },
     {
       "title": "D femminile: Ponte Valleceppi e Bastia padrone dei gironi. Nel weekend Sirio sfida Castiglione",
@@ -31,7 +55,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:24:46 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35700",
-      "id": "4"
+      "id": "7"
     },
     {
       "title": "C maschile: Italchimici e Marsciano a punteggio pieno. Domenica il test della verità per Orte",
@@ -39,7 +63,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:22:29 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35699",
-      "id": "5"
+      "id": "8"
     },
     {
       "title": "C femminile: Bastia espugna il PalaTrevi al tie-break. Sabato prossimo il derby Bartoccini-School Volley",
@@ -47,7 +71,7 @@
       "createdTime": "Tue, 03 Nov 2026 12:20:15 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35698",
-      "id": "6"
+      "id": "9"
     },
     {
       "title": "Tommaso Troiani: «Città di Castello »",
@@ -55,7 +79,7 @@
       "createdTime": "Tue, 03 Nov 2026 08:00:45 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/07/Troiani-Tommaso.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/tommaso-troiani-citta-di-castello/",
-      "id": "7"
+      "id": "10"
     },
     {
       "title": "D Femminile: Buona la prima. Ponte Valleceppi e Bastia volano, subito maratone da tie-break",
@@ -63,7 +87,7 @@
       "createdTime": "Tue, 27 Oct 2026 20:40:51 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35628",
-      "id": "8"
+      "id": "11"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T06:07:29.991467+00:00",
+  "generatedAt": "2026-11-05T12:58:27.463112+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -2165,8 +2165,8 @@
         "id": "serie-c-femminile-50",
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "9",
-        "data": "2026-12-13",
-        "ora": "19:00",
+        "data": "2026-12-11",
+        "ora": "20:45",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "UISP VOLLEY UMBERTIDE",
         "risultato": null
@@ -5370,7 +5370,7 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "14",
         "data": "2027-02-20",
-        "ora": "21:00",
+        "ora": "18:00",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "ED.I.TEC. CANNARA VOLLEY",
         "risultato": null
