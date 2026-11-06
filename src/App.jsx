@@ -941,11 +941,13 @@ function CaroselloNotizie() {
         {notizie.map((x, i) => {
           const corpo = (
             <>
-              <img className="carosello__foto" src={x.foto} alt="" loading={i === 0 ? "eager" : "lazy"}
-                onError={(e) => { e.currentTarget.style.display = "none"; }} />
-              <div className="carosello__velo" />
+              <span className="carosello__riquadro">
+                <span className="carosello__sfocata" style={{ backgroundImage: `url("${x.foto}")` }} />
+                <img className="carosello__foto" src={x.foto} alt="" loading={i === 0 ? "eager" : "lazy"}
+                  onError={(e) => { e.currentTarget.style.display = "none"; }} />
+              </span>
               <div className="carosello__testo">
-                <span className="carosello__etichetta">In primo piano · {formatDate(x.createdTime)}</span>
+                <span className="carosello__etichetta">In primo piano<span className="carosello__data"> · {formatDate(x.createdTime)}</span></span>
                 <h2 className="carosello__titolo">{x.titolo}</h2>
                 {x.fonte && <span className="carosello__fonte">{x.fonte}</span>}
                 <span className="carosello__leggi">Leggi la notizia →</span>
