@@ -5733,3 +5733,17 @@ body.light-mode .classifica-wrap .classifica-table__pts { color: #8a6508 !import
 .coach-voce__squadra { font-size: 0.8rem; color: #a9a6b2; }
 .coach-detail__photo--placeholder { display: inline-flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.4rem; color: var(--gold); }
 body.light-mode .coach-voce { background: #fff; color: #1a1a1a; border-color: #ddd; }
+
+/* Menu "Riservata": deve stare sopra titolo, ticker e contenuto della home */
+.masthead__topbar { position: relative; z-index: 300; }
+.masthead__riservata { position: relative; z-index: 400; }
+.masthead__riservata .nav-dropdown__menu { z-index: 500; background: #141414; opacity: 1; box-shadow: 0 12px 32px rgba(0,0,0,0.6); }
+body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; }
+@media (max-width: 700px) {
+  .masthead__riservata { position: static; }
+  .masthead__riservata .nav-dropdown__menu,
+  .masthead__riservata .nav-dropdown__menu--ricco { position: absolute; left: 8px; right: 8px; top: 100%; width: auto; max-width: none; transform: none; animation: none; }
+}
+@media (max-width: 700px) {
+  .masthead__riservata, .masthead__riservata .nav-dropdown { position: static; }
+}
