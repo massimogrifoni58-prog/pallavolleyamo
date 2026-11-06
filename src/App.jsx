@@ -874,6 +874,117 @@ function BannerHubVolley({ compatto }) {
   );
 }
 
+// Carosello in homepage: le 3 notizie umbre piu' recenti con foto, che scorrono da sole
+function CaroselloNotizie() {
+  const [indice, setIndice] = useState(0);
+  const [pausa, setPausa] = useState(false);
+  const [aperto, setAperto] = useState(null);
+  const tocco = useRef(null);
+
+  const notizie = (() => {
+    const proprie = [
+      ...(facebookNewsData.posts || []).map((p) => ({
+        id: "fb-" + p.id, titolo: p.title, testo: (p.testo || p.excerpt || "").replace(new RegExp("^" + (p.title || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\s*"), ""), estratto: p.excerpt || "",
+        foto: p.image, createdTime: p.createdTime, fonte: "PallaVolleyAmo", interna: true,
+      })),
+      ...(articoliSocietaData.articoli || []).map((a) => ({
+        id: "art-" + a.id, titolo: a.titolo, testo: a.testo || "", estratto: (a.testo || "").slice(0, 160),
+        foto: a.foto, createdTime: a.data, fonte: a.societa, interna: true,
+      })),
+    ];
+    const fonti = [...(regionaliData.posts || []), ...(terniData.posts || []), ...(perugiaData.posts || [])].map((p) => ({
+      id: "n-" + (p.id || p.permalink), titolo: p.title, estratto: p.excerpt || "", foto: p.image,
+      createdTime: p.createdTime, link: p.permalink, fonte: (p.excerpt || "").startsWith("Fonte:") ? p.excerpt.replace("Fonte:", "").trim() : "",
+    }));
+    const adesso = Date.now();
+    const visti = new Set();
+    return [...proprie, ...fonti]
+      .filter((n) => n.foto && n.titolo && parseDate(n) && parseDate(n) <= adesso + 86400000)
+      .sort((a, b) => parseDate(b) - parseDate(a))
+      .filter((n) => {
+        const k = n.titolo.trim().toLowerCase().slice(0, 60);
+        if (visti.has(k)) return false;
+        visti.add(k);
+        return true;
+      })
+      .slice(0, 3);
+  })();
+
+  const totale = notizie.length;
+  useEffect(() => {
+    if (pausa || totale < 2) return;
+    const ridotto = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (ridotto) return;
+    const t = setInterval(() => setIndice((i) => (i + 1) % totale), 6000);
+    return () => clearInterval(t);
+  }, [pausa, totale]);
+
+  if (totale === 0) return null;
+  const vai = (i) => setIndice((i + totale) % totale);
+
+  return (
+    <section
+      className="carosello"
+      aria-roledescription="carosello"
+      aria-label="Notizie in primo piano"
+      onMouseEnter={() => setPausa(true)}
+      onMouseLeave={() => setPausa(false)}
+      onTouchStart={(e) => { tocco.current = e.touches[0].clientX; setPausa(true); }}
+      onTouchEnd={(e) => {
+        const dx = e.changedTouches[0].clientX - (tocco.current ?? e.changedTouches[0].clientX);
+        if (Math.abs(dx) > 40) vai(indice + (dx < 0 ? 1 : -1));
+        tocco.current = null;
+        setPausa(false);
+      }}
+    >
+      <div className="carosello__binario" style={{ transform: `translateX(-${indice * 100}%)` }}>
+        {notizie.map((x, i) => {
+          const corpo = (
+            <>
+              <img className="carosello__foto" src={x.foto} alt="" loading={i === 0 ? "eager" : "lazy"}
+                onError={(e) => { e.currentTarget.style.display = "none"; }} />
+              <div className="carosello__velo" />
+              <div className="carosello__testo">
+                <span className="carosello__etichetta">In primo piano · {formatDate(x.createdTime)}</span>
+                <h2 className="carosello__titolo">{x.titolo}</h2>
+                {x.fonte && <span className="carosello__fonte">{x.fonte}</span>}
+                <span className="carosello__leggi">Leggi la notizia →</span>
+              </div>
+            </>
+          );
+          return x.interna ? (
+            <button key={x.id} type="button" className="carosello__slide" tabIndex={i === indice ? 0 : -1} aria-hidden={i !== indice} onClick={() => setAperto(x)}>{corpo}</button>
+          ) : (
+            <a key={x.id} className="carosello__slide" href={x.link} target="_blank" rel="noreferrer" tabIndex={i === indice ? 0 : -1} aria-hidden={i !== indice}>{corpo}</a>
+          );
+        })}
+      </div>
+      {totale > 1 && (
+        <>
+          <button type="button" className="carosello__freccia carosello__freccia--sx" aria-label="Notizia precedente" onClick={() => vai(indice - 1)}>‹</button>
+          <button type="button" className="carosello__freccia carosello__freccia--dx" aria-label="Notizia successiva" onClick={() => vai(indice + 1)}>›</button>
+          <div className="carosello__punti">
+            {notizie.map((x, i) => (
+              <button key={x.id} type="button" className={"carosello__punto" + (i === indice ? " carosello__punto--attivo" : "")} aria-label={"Notizia " + (i + 1)} onClick={() => vai(i)} />
+            ))}
+          </div>
+        </>
+      )}
+      {aperto && (
+        <div className="modal-overlay" onClick={() => setAperto(null)}>
+          <div className="modal-box" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setAperto(null)}>✕</button>
+            {aperto.foto && <img src={aperto.foto} alt={aperto.titolo} className="modal-foto" />}
+            <h2 className="modal-titolo">{aperto.titolo}</h2>
+            <p className="modal-societa">Fonte: {aperto.fonte} — {formatDate(aperto.createdTime)}</p>
+            <p className="modal-testo">{aperto.testo}</p>
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}
+
 function HomePage({ latestNews = [] }) {
   const risultati = (risultatiData.matches || []).filter((m) => {
     if (m.status !== "disputata" || !m.score) return false;
@@ -1036,6 +1147,7 @@ function HomePage({ latestNews = [] }) {
         </svg>
 
       </div>     
+      <CaroselloNotizie />
       <MiaSquadraHome />
       <DirettaOggiHome />
       <BigMatchHome />

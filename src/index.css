@@ -5747,3 +5747,30 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
 @media (max-width: 700px) {
   .masthead__riservata, .masthead__riservata .nav-dropdown { position: static; }
 }
+
+/* Carosello notizie in homepage */
+.carosello { position: relative; overflow: hidden; border-radius: 14px; margin: 1.5rem 0; background: #111114; aspect-ratio: 21 / 9; max-height: 440px; width: 100%; border: 1px solid var(--border); }
+.carosello__binario { display: flex; height: 100%; transition: transform 0.6s ease; }
+.carosello__slide { position: relative; flex: 0 0 100%; height: 100%; display: block; border: 0; padding: 0; margin: 0; background: #111114 url(/sfondo-hero.jpg) center / cover no-repeat; cursor: pointer; text-align: left; color: #fff; text-decoration: none; font: inherit; }
+.carosello__foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.carosello__velo { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.45) 45%, rgba(0,0,0,0.05) 80%); }
+.carosello__testo { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.5rem 4.5rem 2.4rem 4.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.carosello__etichetta { align-self: flex-start; background: #d4af37; color: #111; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; padding: 0.25rem 0.6rem; border-radius: 4px; }
+.carosello__titolo { margin: 0; color: #fff; font-size: clamp(1.15rem, 2.6vw, 1.9rem); line-height: 1.2; font-weight: 800; text-shadow: 0 2px 8px rgba(0,0,0,0.5); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.carosello__fonte { color: #e8c547; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.carosello__leggi { color: #fff; font-size: 0.9rem; font-weight: 600; opacity: 0.9; }
+.carosello__slide:hover .carosello__leggi, .carosello__slide:focus-visible .carosello__leggi { color: #e8c547; }
+.carosello__slide:focus-visible { outline: 3px solid #d4af37; outline-offset: -3px; }
+.carosello__freccia { position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.35); background: rgba(0,0,0,0.45); color: #fff; font-size: 1.6rem; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 0 3px; }
+.carosello__freccia:hover { background: #d4af37; color: #111; border-color: #d4af37; }
+.carosello__freccia--sx { left: 12px; }
+.carosello__freccia--dx { right: 12px; }
+.carosello__punti { position: absolute; bottom: 12px; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; }
+.carosello__punto { width: 10px; height: 10px; border-radius: 999px; border: 0; padding: 0; background: rgba(255,255,255,0.45); cursor: pointer; transition: width 0.3s, background 0.3s; }
+.carosello__punto--attivo { width: 26px; background: #d4af37; }
+@media (max-width: 600px) {
+  .carosello { aspect-ratio: 4 / 3; max-height: none; border-radius: 10px; }
+  .carosello__testo { padding: 1rem 1rem 2.2rem; }
+  .carosello__freccia { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .carosello__binario { transition: none; } }
