@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:58:27.463112+00:00",
+  "generatedAt": "2026-11-06T01:27:12.873022+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -5230,7 +5230,7 @@
         "campionato": "Serie D Femminile Girone B",
         "giornata": "12",
         "data": "2027-01-23",
-        "ora": "21:00",
+        "ora": "18:00",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "NARNI SPORT ACADEMY",
         "risultato": null
@@ -5975,7 +5975,7 @@
         "ora": "17:30",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-a-11",
@@ -6579,7 +6579,7 @@
         "ora": "16:30",
         "casa": "FOLIGNO VOLLEY GIALLA",
         "ospite": "SCHOOL VOLLEY PERUGIA INDACO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-c-11",
@@ -7687,7 +7687,7 @@
         "ora": "19:00",
         "casa": "REVISIONANDO VITT CHIUSI",
         "ospite": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-11",
@@ -7697,7 +7697,7 @@
         "ora": "20:45",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
         "ospite": "SIRIO PALLAVOLO ARANCIO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-d-12",
@@ -8151,7 +8151,7 @@
         "ora": "19:15",
         "casa": "AMERINA PALLAVOLO A S D",
         "ospite": "NARNI SPORT ACADEMY RUBINO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-f-7",
@@ -8161,7 +8161,7 @@
         "ora": "18:00",
         "casa": "GR IMPIANTI - THAI NARNI",
         "ospite": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-17-femminile-girone-f-8",
@@ -8363,7 +8363,7 @@
         "ora": "18:45",
         "casa": "NARNI SPORT ACADEMY DENIM",
         "ospite": "ASD PGS BOSICO VOLLEY RED BARTOCCINI GIOIELLERIE",
-        "risultato": null
+        "risultato": "1 - 3"
       },
       {
         "id": "giov-under-17-femminile-girone-g-8",
@@ -8525,7 +8525,7 @@
         "ora": "20:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
         "ospite": "SIR MERICAT ASSISI",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-19-maschile-girone-a-4",
@@ -9556,7 +9556,7 @@
         "campionato": "1 Divisione Femminile Girone B",
         "giornata": "2",
         "data": "2026-11-22",
-        "ora": "17:00",
+        "ora": "16:00",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "MARCONI MONINI PALLAVOLO",
         "risultato": null
