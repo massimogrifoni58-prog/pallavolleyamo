@@ -898,7 +898,7 @@ function CaroselloNotizie() {
     }));
     const adesso = Date.now();
     const visti = new Set();
-    return [...proprie, ...fonti]
+    const ordinate = [...proprie, ...fonti]
       .filter((n) => n.foto && n.titolo && parseDate(n) && parseDate(n) <= adesso + 86400000)
       .sort((a, b) => parseDate(b) - parseDate(a))
       .filter((n) => {
@@ -906,8 +906,14 @@ function CaroselloNotizie() {
         if (visti.has(k)) return false;
         visti.add(k);
         return true;
-      })
-      .slice(0, 3);
+      });
+    // La prima e' sempre l'ultima notizia inserita dalla pagina riservata (l'ultimo articolo aggiunto agli Articoli Societa')
+    const ultimoArt = (articoliSocietaData.articoli || []).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
+    const mia = ultimoArt && ultimoArt.titolo ? {
+      id: "art-" + ultimoArt.id, titolo: ultimoArt.titolo, testo: ultimoArt.testo || "", estratto: (ultimoArt.testo || "").slice(0, 160),
+      foto: ultimoArt.foto, createdTime: ultimoArt.data, fonte: ultimoArt.societa, interna: true,
+    } : null;
+    return mia ? [mia, ...ordinate.filter((n) => n.id !== mia.id).slice(0, 2)] : ordinate.slice(0, 3);
   })();
 
   const totale = notizie.length;
@@ -942,8 +948,8 @@ function CaroselloNotizie() {
           const corpo = (
             <>
               <span className="carosello__riquadro">
-                <span className="carosello__sfocata" style={{ backgroundImage: `url("${x.foto}")` }} />
-                <img className="carosello__foto" src={x.foto} alt="" loading={i === 0 ? "eager" : "lazy"}
+                {x.foto && <span className="carosello__sfocata" style={{ backgroundImage: `url("${x.foto}")` }} />}
+                <img className="carosello__foto" src={x.foto || "/logo-pva.svg"} alt="" loading={i === 0 ? "eager" : "lazy"}
                   onError={(e) => { e.currentTarget.style.display = "none"; }} />
               </span>
               <div className="carosello__testo">
