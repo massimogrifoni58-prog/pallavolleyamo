@@ -908,10 +908,13 @@ function CaroselloNotizie() {
         return true;
       });
     // La prima e' sempre l'ultima notizia inserita dalla pagina riservata (l'ultimo articolo aggiunto agli Articoli Societa')
-    const ultimoArt = (articoliSocietaData.articoli || []).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
+    // ...ma deve essere dell'Amerina Pallavolo (la societa' di Massimo): l'ultimo suo articolo, qualunque sia (anche senza foto)
+    const articoli = articoliSocietaData.articoli || [];
+    const sua = articoli.filter((a) => /amerina/i.test(a.societa || ""));
+    const ultimoArt = (sua.length ? sua : articoli).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
     const mia = ultimoArt && ultimoArt.titolo ? {
       id: "art-" + ultimoArt.id, titolo: ultimoArt.titolo, testo: ultimoArt.testo || "", estratto: (ultimoArt.testo || "").slice(0, 160),
-      foto: ultimoArt.foto, createdTime: ultimoArt.data, fonte: ultimoArt.societa, interna: true,
+      foto: ultimoArt.foto || "/news-segnaposto.jpg", createdTime: ultimoArt.data, fonte: ultimoArt.societa, interna: true,
     } : null;
     return mia ? [mia, ...ordinate.filter((n) => n.id !== mia.id).slice(0, 2)] : ordinate.slice(0, 3);
   })();
