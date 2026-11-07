@@ -10,7 +10,6 @@ import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import facebookNewsData from "../data/facebook_news.json";
-import impostazioniSito from "../data/impostazioni.json";
 import facebookCandidatiData from "../data/facebook_candidati.json";
 import facebookApprovatiData from "../data/facebook_approvati.json";
 import pilloleData from "../data/pillole.json";
@@ -909,15 +908,26 @@ function CaroselloNotizie() {
         return true;
       });
     // La prima e' sempre l'ultima notizia inserita dalla pagina riservata (l'ultimo articolo aggiunto agli Articoli Societa')
-    // ...ma deve essere della societa' di Massimo (nome in data/impostazioni.json): l'ultimo suo articolo, qualunque sia (anche senza foto)
+    // La prima: l'ultima notizia della squadra scelta dal visitatore (anche senza foto); se non c'e', l'ultimo articolo inserito.
     const articoli = articoliSocietaData.articoli || [];
-    const nomeSocieta = (impostazioniSito.societaPrincipale || "").toLowerCase();
-    const sua = nomeSocieta ? articoli.filter((a) => (a.societa || "").toLowerCase().includes(nomeSocieta)) : [];
-    const ultimoArt = (sua.length ? sua : articoli).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
-    const mia = ultimoArt && ultimoArt.titolo ? {
-      id: "art-" + ultimoArt.id, titolo: ultimoArt.titolo, testo: ultimoArt.testo || "", estratto: (ultimoArt.testo || "").slice(0, 160),
-      foto: ultimoArt.foto || "/news-segnaposto.jpg", createdTime: ultimoArt.data, fonte: ultimoArt.societa, interna: true,
-    } : null;
+    const daArt = (a) => ({
+      id: "art-" + a.id, titolo: a.titolo, testo: a.testo || "", estratto: (a.testo || "").slice(0, 160),
+      foto: a.foto || "/news-segnaposto.jpg", createdTime: a.data, fonte: a.societa, interna: true,
+    });
+    const scelta = (() => { try { return leggiMiaSquadra().replace(/^~/, ""); } catch (e) { return ""; } })();
+    const parole = normSq(scelta).split(" ").filter((w) => w.length > 1 && !/^(volley|pallavolo|asd|a\.s\.d\.|ssd|sport|academy|team|club|srl|femminile|maschile)$/.test(w));
+    const contiene = (testo) => { const t = normSq(testo); return parole.length > 0 && parole.every((w) => t.includes(w)); };
+    const numId = (n) => Number(String(n.id).replace(/\D/g, "")) || 0;
+    const piuRecente = (lista) => lista.sort((x, y) => (parseDate(y) - parseDate(x)) || (numId(y) - numId(x)))[0];
+    const validi = scelta ? [...proprie, ...fonti].filter((n) => n.titolo && parseDate(n) && parseDate(n) <= adesso + 86400000) : [];
+    // prima le notizie della squadra/societa' (titolo o fonte), poi quelle che la citano soltanto
+    const dellaSquadra = scelta
+      ? (piuRecente(validi.filter((n) => contiene(n.titolo + " " + n.fonte))) || piuRecente(validi.filter((n) => contiene([n.estratto, n.testo].join(" ")))))
+      : null;
+    const ultimoArt = articoli.reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
+    const mia = dellaSquadra
+      ? { ...dellaSquadra, foto: dellaSquadra.foto || "/news-segnaposto.jpg" }
+      : (ultimoArt && ultimoArt.titolo ? daArt(ultimoArt) : null);
     return mia ? [mia, ...ordinate.filter((n) => n.id !== mia.id).slice(0, 2)] : ordinate.slice(0, 3);
   })();
 
