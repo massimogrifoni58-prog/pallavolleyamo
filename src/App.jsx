@@ -882,6 +882,68 @@ function BannerHubVolley({ compatto }) {
 }
 
 // Carosello in homepage: le 3 notizie umbre piu' recenti con foto, che scorrono da sole
+// Riquadro "Metti PallaVolleyAmo sul telefono": solo da telefono, chiudibile, mai se il sito e' gia' aperto come app
+function AvvisoApp() {
+  const [visibile, setVisibile] = React.useState(false);
+  const [passi, setPassi] = React.useState(false);
+  const richiesta = React.useRef(null);
+  const ios = typeof navigator !== "undefined" && /iphone|ipad|ipod/i.test(navigator.userAgent);
+  React.useEffect(() => {
+    let timer = null;
+    try {
+      const telefono = window.matchMedia("(max-width: 820px)").matches && window.matchMedia("(pointer: coarse)").matches;
+      const comeApp = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
+      let chiuso = false;
+      try { chiuso = localStorage.getItem("pva_avviso_app") === "1"; } catch (e) {}
+      if (telefono && !comeApp && !chiuso) timer = setTimeout(() => setVisibile(true), 8000); // compare dopo 8 secondi
+    } catch (e) {}
+    const prima = (e) => { e.preventDefault(); richiesta.current = e; };
+    const installata = () => setVisibile(false);
+    window.addEventListener("beforeinstallprompt", prima);
+    window.addEventListener("appinstalled", installata);
+    return () => { clearTimeout(timer); window.removeEventListener("beforeinstallprompt", prima); window.removeEventListener("appinstalled", installata); };
+  }, []);
+  if (!visibile) return null;
+  const chiudi = () => { setVisibile(false); try { localStorage.setItem("pva_avviso_app", "1"); } catch (e) {} };
+  const aggiungi = async () => {
+    if (richiesta.current) {
+      richiesta.current.prompt();
+      try { await richiesta.current.userChoice; } catch (e) {}
+      richiesta.current = null;
+    } else setPassi((v) => !v);
+  };
+  return (
+    <section className="avviso-app" aria-label="Aggiungi PallaVolleyAmo alla schermata Home">
+      <button className="avviso-app__x" onClick={chiudi} aria-label="Chiudi">×</button>
+      <div className="avviso-app__riga">
+        <img className="avviso-app__icona" src="/logo-pva-512.png" alt="" width="52" height="52" />
+        <div className="avviso-app__testo">
+          <strong>Metti PallaVolleyAmo sul telefono</strong>
+          <span>Un'icona nella Home, gratis, senza scaricare niente</span>
+        </div>
+        <button className="avviso-app__btn" onClick={aggiungi}>Aggiungi</button>
+      </div>
+      {passi && (
+        <ol className="avviso-app__passi">
+          {ios ? (
+            <>
+              <li>Apri il sito con <b>Safari</b></li>
+              <li>Tocca il tasto <b>Condividi</b> (il quadrato con la freccia)</li>
+              <li>Scegli <b>"Aggiungi alla schermata Home"</b></li>
+            </>
+          ) : (
+            <>
+              <li>Apri il sito con <b>Chrome</b></li>
+              <li>Tocca i <b>tre puntini</b> in alto a destra</li>
+              <li>Scegli <b>"Installa app"</b> (o "Aggiungi a schermata Home")</li>
+            </>
+          )}
+        </ol>
+      )}
+    </section>
+  );
+}
+
 function CaroselloNotizie() {
   const [indice, setIndice] = useState(0);
   const [pausa, setPausa] = useState(false);
@@ -1179,6 +1241,7 @@ function HomePage({ latestNews = [] }) {
 
       </div>     
       <CaroselloNotizie />
+      <AvvisoApp />
       <MiaSquadraHome />
       <DirettaOggiHome />
       {(weekendHome.mostra.length > 0 || (!inPausaEstiva && risultatiCard.length > 0)) && (
