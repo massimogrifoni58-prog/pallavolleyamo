@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T11:29:23.415831+00:00",
+  "generatedAt": "2026-11-07T18:26:58.027699+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -169,8 +169,8 @@
       "giornata": "Giornata 4",
       "home": "MENCHETTI SCHOOL VOLLEY PERUGIA",
       "away": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131626808",
@@ -178,8 +178,8 @@
       "giornata": "Giornata 4",
       "home": "ENERGY PMU MARSCIANO",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131626809",
@@ -187,8 +187,8 @@
       "giornata": "Giornata 4",
       "home": "ROSSI ASCENSORI FOLIGNO",
       "away": "VOLLEY BORGO ALTOTEVERE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131626811",
@@ -1573,8 +1573,8 @@
       "giornata": "Giornata 4",
       "home": "VIANDER ACTON BASTIA",
       "away": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131626966",
@@ -3004,8 +3004,8 @@
       "giornata": "Giornata 4",
       "home": "CLT TERNI",
       "away": "A.S.D. SIGILLO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627470",
@@ -3013,8 +3013,8 @@
       "giornata": "Giornata 4",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "MARCHETTI PRO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627468",
@@ -4570,8 +4570,8 @@
       "giornata": "Giornata 3",
       "home": "EMMEPI  GROUP  PONTE FELCINO",
       "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627117",
@@ -5749,8 +5749,8 @@
       "giornata": "Giornata 3",
       "home": "ASD PGS BOSICO VOLLEY GREEN2",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627245",

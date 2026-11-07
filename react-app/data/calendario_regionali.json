@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:43:13.540142+00:00",
+  "generatedAt": "2026-11-07T18:25:59.354477+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -407,7 +407,7 @@
         "ora": "17:00",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "serie-c-maschile-20",
@@ -417,7 +417,7 @@
         "ora": "17:00",
         "casa": "ENERGY PMU MARSCIANO",
         "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "serie-c-maschile-21",
@@ -1979,7 +1979,7 @@
         "ora": "18:00",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "ACQUA AI FIORI SPELLO - ANTICO PASTIFICIO UMBRO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-c-femminile-21",
@@ -3501,7 +3501,7 @@
         "ora": "18:00",
         "casa": "EMMEPI  GROUP  PONTE FELCINO",
         "ospite": "STRIKE TEAM MONTELUCE",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-d-femminile-a-17",
@@ -4833,7 +4833,7 @@
         "ora": "17:30",
         "casa": "ASD PGS BOSICO VOLLEY GREEN2",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-d-femminile-b-18",
@@ -6215,7 +6215,7 @@
         "ora": "18:00",
         "casa": "CLT TERNI",
         "ospite": "A.S.D. SIGILLO VOLLEY",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "serie-d-maschile-24",
@@ -6245,7 +6245,7 @@
         "ora": "18:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "MARCHETTI PRO VITT CHIUSI",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-d-maschile-27",
