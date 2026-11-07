@@ -5783,5 +5783,5 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
 @media (prefers-reduced-motion: reduce) { .carosello__binario { transition: none; } }
 
 /* Loghi (immagini quasi quadrate): interi e piccoli, non ritagliati */
-.card__image--quadrata { object-fit: contain; padding: 8%; background: #f4f4f2; box-sizing: border-box; }
-.carosello__foto--logo { inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 8%; box-sizing: border-box; background: #f4f4f2; filter: none; }
+.card__image.card__image--quadrata, .grid--elenco .card__image.card__image--quadrata { object-fit: contain; padding: 12px; background: #f4f4f2; box-sizing: border-box; }
+.carosello__foto--logo { inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 14px; box-sizing: border-box; background: #f4f4f2; filter: none; }
