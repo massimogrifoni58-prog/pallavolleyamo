@@ -889,18 +889,19 @@ function AvvisoApp() {
   const richiesta = React.useRef(null);
   const ios = typeof navigator !== "undefined" && /iphone|ipad|ipod/i.test(navigator.userAgent);
   React.useEffect(() => {
+    let timer = null;
     try {
       const telefono = window.matchMedia("(max-width: 820px)").matches && window.matchMedia("(pointer: coarse)").matches;
       const comeApp = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
       let chiuso = false;
       try { chiuso = localStorage.getItem("pva_avviso_app") === "1"; } catch (e) {}
-      if (telefono && !comeApp && !chiuso) setVisibile(true);
+      if (telefono && !comeApp && !chiuso) timer = setTimeout(() => setVisibile(true), 8000); // compare dopo 8 secondi
     } catch (e) {}
     const prima = (e) => { e.preventDefault(); richiesta.current = e; };
     const installata = () => setVisibile(false);
     window.addEventListener("beforeinstallprompt", prima);
     window.addEventListener("appinstalled", installata);
-    return () => { window.removeEventListener("beforeinstallprompt", prima); window.removeEventListener("appinstalled", installata); };
+    return () => { clearTimeout(timer); window.removeEventListener("beforeinstallprompt", prima); window.removeEventListener("appinstalled", installata); };
   }, []);
   if (!visibile) return null;
   const chiudi = () => { setVisibile(false); try { localStorage.setItem("pva_avviso_app", "1"); } catch (e) {} };
