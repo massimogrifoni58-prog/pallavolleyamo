@@ -10,6 +10,7 @@ import risultatiNazionaliFipav from "../data/risultati_nazionali_fipav.json";
 import allenatoriData from "../data/allenatori.json";
 import articoliSocietaData from "../data/articoli-societa.json";
 import facebookNewsData from "../data/facebook_news.json";
+import impostazioniSito from "../data/impostazioni.json";
 import facebookCandidatiData from "../data/facebook_candidati.json";
 import facebookApprovatiData from "../data/facebook_approvati.json";
 import pilloleData from "../data/pillole.json";
@@ -908,9 +909,10 @@ function CaroselloNotizie() {
         return true;
       });
     // La prima e' sempre l'ultima notizia inserita dalla pagina riservata (l'ultimo articolo aggiunto agli Articoli Societa')
-    // ...ma deve essere dell'Amerina Pallavolo (la societa' di Massimo): l'ultimo suo articolo, qualunque sia (anche senza foto)
+    // ...ma deve essere della societa' di Massimo (nome in data/impostazioni.json): l'ultimo suo articolo, qualunque sia (anche senza foto)
     const articoli = articoliSocietaData.articoli || [];
-    const sua = articoli.filter((a) => /amerina/i.test(a.societa || ""));
+    const nomeSocieta = (impostazioniSito.societaPrincipale || "").toLowerCase();
+    const sua = nomeSocieta ? articoli.filter((a) => (a.societa || "").toLowerCase().includes(nomeSocieta)) : [];
     const ultimoArt = (sua.length ? sua : articoli).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
     const mia = ultimoArt && ultimoArt.titolo ? {
       id: "art-" + ultimoArt.id, titolo: ultimoArt.titolo, testo: ultimoArt.testo || "", estratto: (ultimoArt.testo || "").slice(0, 160),
