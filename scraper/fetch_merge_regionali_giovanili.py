@@ -30,6 +30,9 @@ CATEGORIE_GIOVANILI = [
     "Under 17",
     "Under 19",
     "1 Divisione Femminile",
+    "2 Divisione Femminile",
+    "Under 15",
+    "Under 14",
 ]
 
 # (id nel sito, nome, numero campionato FIPAV)
@@ -49,6 +52,17 @@ GIOVANILI = [
     ("giov-under-19-maschile-girone-b", "Under 19 Maschile Girone B", 93525),
     ("giov-1-divisione-femminile-girone-a", "1 Divisione Femminile Girone A", 93004),
     ("giov-1-divisione-femminile-girone-b", "1 Divisione Femminile Girone B", 93005),
+    ("giov-2-divisione-femminile-girone-a", "2 Divisione Femminile Girone A", 93804),
+    ("giov-2-divisione-femminile-girone-b", "2 Divisione Femminile Girone B", 93805),
+    ("giov-2-divisione-femminile-girone-c", "2 Divisione Femminile Girone C", 93806),
+    ("giov-2-divisione-femminile-girone-d", "2 Divisione Femminile Girone D", 93807),
+    ("giov-under-15-maschile-girone-a", "Under 15 Maschile Girone A", 93878),
+    ("giov-under-15-maschile-girone-b", "Under 15 Maschile Girone B", 93879),
+    ("giov-under-15-femminile-girone-a", "Under 15 Femminile Girone A", 93840),
+    ("giov-under-15-femminile-girone-b", "Under 15 Femminile Girone B", 93841),
+    ("giov-under-15-femminile-girone-c", "Under 15 Femminile Girone C", 93842),
+    ("giov-under-14-femminile-girone-d", "Under 14 Femminile Girone D", 93891),
+    ("giov-under-14-femminile-girone-e", "Under 14 Femminile Girone E", 93892),
 ]
 
 
