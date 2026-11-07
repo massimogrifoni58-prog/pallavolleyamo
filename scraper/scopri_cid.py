@@ -14,13 +14,12 @@ def nome(cid):
     m = re.search(r'<option[^>]*selected[^>]*>([^<]+)</option>', html)
     return ("sel:" + m.group(1).strip()) if m else "?"
 
-lista = [93807, 93845, 93846, 93843, 93844, 93527, 93528, 93524, 93879]
-lista += list(range(93957, 94150)) + list(range(93440, 93500)) + list(range(93557, 93780))
+lista = list(range(93957,93960)) + list(range(94000, 94300))
 for cid in lista:
     p = fetch_campionato({"id": "x", "nome": "x", "url": URL.format(cid=cid)})
     squadre = sorted({s for m in p for s in (m["casa"], m["ospite"])})
     nostre = [s for s in squadre if SOC.search(s)]
-    if cid in (93807, 93845, 93846, 93843, 93844, 93527, 93528, 93524, 93879) or nostre:
+    if nostre or len(p) > 0 and cid % 10 == 0:
         print(f"cid={cid} nome={nome(cid)!r} partite={len(p)} squadre={len(squadre)} nostre={nostre}", flush=True)
     time.sleep(0.25)
 print("FINE")
