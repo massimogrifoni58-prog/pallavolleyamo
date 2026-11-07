@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T12:05:31.492873+00:00",
+  "generatedAt": "2026-11-07T15:36:47.134639+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -100,6 +100,61 @@
       "id": "giov-under-19-maschile-girone-b",
       "nome": "Under 19 Maschile Girone B",
       "url": ""
+    },
+    {
+      "id": "giov-2-divisione-femminile-girone-a",
+      "nome": "2 Divisione Femminile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93804&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-2-divisione-femminile-girone-b",
+      "nome": "2 Divisione Femminile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93805&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-2-divisione-femminile-girone-c",
+      "nome": "2 Divisione Femminile Girone C",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93806&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-2-divisione-femminile-girone-d",
+      "nome": "2 Divisione Femminile Girone D",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93807&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-maschile-girone-a",
+      "nome": "Under 15 Maschile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93878&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-maschile-girone-b",
+      "nome": "Under 15 Maschile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93879&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-a",
+      "nome": "Under 15 Femminile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93840&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-b",
+      "nome": "Under 15 Femminile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93841&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-c",
+      "nome": "Under 15 Femminile Girone C",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93842&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-femminile-girone-d",
+      "nome": "Under 14 Femminile Girone D",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93891&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-femminile-girone-e",
+      "nome": "Under 14 Femminile Girone E",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93892&SId=&PId=7323&btFiltro=CERCA"
     }
   ],
   "partite": {
@@ -13400,6 +13455,5188 @@
         "ora": "19:00",
         "casa": "POLISPORTIVA CLT",
         "ospite": "TERNI VOLLEY ACADEMY",
+        "risultato": null
+      }
+    ],
+    "giov-2-divisione-femminile-girone-a": [
+      {
+        "id": "giov-2-divisione-femminile-girone-a-0",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-1",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "16:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-2",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-3",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-4",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-5",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "18:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-6",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-7",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-8",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-9",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-10",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "00:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-11",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-12",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-13",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-12-18",
+        "ora": "18:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-14",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-15",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-16",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "16:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-17",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-18",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-19",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "16:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-20",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-21",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-22",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-23",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-24",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-25",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-26",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-27",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-28",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-29",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-30",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-31",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-32",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-33",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-34",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-35",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-36",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-37",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-38",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-39",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-40",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "16:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-41",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "16:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-42",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-43",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-44",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-45",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-46",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-47",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-48",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-49",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-50",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "16:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-51",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-52",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-53",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-54",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-55",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-56",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-57",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-58",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "16:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-59",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "16:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-60",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-61",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-62",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-63",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-64",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "18:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-65",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "US ACLI COLOMBELLA VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-66",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "17:30",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-67",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "16:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-68",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "19:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "US ACLI COLOMBELLA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-69",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-04-15",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE BIANCA",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-70",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "18:00",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-a-71",
+        "campionato": "2 Divisione Femminile Girone A",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      }
+    ],
+    "giov-2-divisione-femminile-girone-b": [
+      {
+        "id": "giov-2-divisione-femminile-girone-b-0",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-1",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "19:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-2",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-3",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-4",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-5",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "19:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-6",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-7",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-8",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-30",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-9",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-10",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "20:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-11",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-12",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-13",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "16:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-14",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-15",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-16",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "16:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-17",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-18",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-19",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-20",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-21",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-22",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-23",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-24",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-25",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-26",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-27",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "16:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-28",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-29",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-30",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-31",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-32",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "19:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-33",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-23",
+        "ora": "17:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-34",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-35",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-36",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-37",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-02-13",
+        "ora": "17:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-38",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-39",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "00:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-40",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-41",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-42",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-43",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-44",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-45",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-46",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-47",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-48",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-49",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-50",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-51",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-52",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-53",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-54",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-55",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "16:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-56",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-57",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-58",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-59",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-60",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "REBELS ASSISI 2D TIFFANY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-61",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-04-02",
+        "ora": "18:30",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-62",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-63",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "16:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-64",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "11:00",
+        "casa": "REBELS ASSISI 2D TIFFANY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-65",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "16:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-66",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "20:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-67",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-68",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-69",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "16:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO 2D",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-70",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "17:00",
+        "casa": "UISP VOLLEY UMBERTIDE ROSSA",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-b-71",
+        "campionato": "2 Divisione Femminile Girone B",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      }
+    ],
+    "giov-2-divisione-femminile-girone-c": [
+      {
+        "id": "giov-2-divisione-femminile-girone-c-0",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-1",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-2",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-3",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "18:30",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-4",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "16:15",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-5",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-6",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-7",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-20",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-8",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-9",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-10",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-29",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-11",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-12",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-13",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-12-03",
+        "ora": "18:30",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-14",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-12-04",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-15",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-12-05",
+        "ora": "18:30",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-16",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-17",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-18",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-19",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-20",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "18:30",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-21",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-18",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-22",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-23",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-24",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-25",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-26",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-27",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-28",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-29",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-30",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "18:30",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-31",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-15",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-32",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-02-06",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-33",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-34",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-35",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-23",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-36",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-23",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-37",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-02-11",
+        "ora": "19:45",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-38",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-39",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-40",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-41",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-42",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-43",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "18:30",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-44",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-45",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-46",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-47",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "12",
+        "data": "2027-02-26",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-48",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-49",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-50",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-51",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "00:00",
+        "casa": "SIR ASSISI",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-52",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "14",
+        "data": "2027-03-12",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-53",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-54",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "14",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-55",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "17:00",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-56",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-57",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "17:30",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-58",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-59",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "19:30",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-60",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "PMU MARSCIANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-61",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "16",
+        "data": "2027-04-05",
+        "ora": "19:00",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-62",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "16",
+        "data": "2027-04-02",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-63",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "18:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-64",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO",
+        "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-65",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "17",
+        "data": "2027-03-24",
+        "ora": "20:00",
+        "casa": "UNIPOL ASSICURAZIONI BASTIA",
+        "ospite": "SIR ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-66",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "FOLIGNO VOLLEY ASD",
+        "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-67",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE GIALLA",
+        "ospite": "REBELS ASSISI 2D PEACH",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-68",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "NUOVA PALLAVOLO GUALDO 2DIV.",
+        "ospite": "UNIPOL ASSICURAZIONI BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-69",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "20:30",
+        "casa": "SIR ASSISI",
+        "ospite": "FOLIGNO VOLLEY ASD",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-70",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
+        "ospite": "UISP VOLLEY UMBERTIDE GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-c-71",
+        "campionato": "2 Divisione Femminile Girone C",
+        "giornata": "18",
+        "data": "2027-04-16",
+        "ora": "20:45",
+        "casa": "REBELS ASSISI 2D PEACH",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      }
+    ],
+    "giov-2-divisione-femminile-girone-d": [
+      {
+        "id": "giov-2-divisione-femminile-girone-d-0",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "16:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-1",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-2",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-3",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-4",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-5",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-6",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-7",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-21",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-8",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-22",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-9",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-20",
+        "ora": "20:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-10",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "16:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-11",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-12",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-13",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-14",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-28",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-15",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-16",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-17",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-18",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-12-06",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-19",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-20",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "20:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-21",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-22",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-23",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-12",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-24",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-13",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-25",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "6",
+        "data": "2027-02-07",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-26",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-27",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-19",
+        "ora": "21:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-28",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "18:30",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-29",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-20",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-30",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "17:00",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-31",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-32",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "7",
+        "data": "2027-01-09",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-33",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-34",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "7",
+        "data": "2027-01-10",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-35",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-30",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-36",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-37",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-38",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-39",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-40",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-41",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "00:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-42",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-43",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-44",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "17:00",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-45",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-46",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-47",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-02-14",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-48",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-49",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-02-13",
+        "ora": "17:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-50",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "11",
+        "data": "2027-02-17",
+        "ora": "17:00",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-51",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-52",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "11",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-53",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-54",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "11",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-55",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-56",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-57",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "12",
+        "data": "2027-02-27",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-58",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-59",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "12",
+        "data": "2027-02-28",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-60",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "16:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-61",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-62",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-63",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "13",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-64",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "13",
+        "data": "2027-03-07",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-65",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-66",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "14",
+        "data": "2027-03-13",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-67",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-68",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "14",
+        "data": "2027-03-14",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-69",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "14",
+        "data": "2027-03-13",
+        "ora": "00:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-70",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "20:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-71",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-72",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-73",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "15",
+        "data": "2027-03-20",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-74",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "15",
+        "data": "2027-03-21",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-75",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-76",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-77",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "16",
+        "data": "2027-04-04",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-78",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-79",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "16",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-80",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "16:30",
+        "casa": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "ospite": "BOSICO VOLLEY-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-81",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-82",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "17:00",
+        "casa": "CASCIANELLI LORENA TUDER VOLLEI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-83",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "17",
+        "data": "2027-04-11",
+        "ora": "17:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-84",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "17",
+        "data": "2027-04-10",
+        "ora": "17:00",
+        "casa": "SANGEMINI COLLELUNA VOLLEY",
+        "ospite": "VOLLEY SPOLETO CASCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-85",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "17:30",
+        "casa": "BOSICO VOLLEY-TERNI VA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-86",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "18",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "CASCIANELLI LORENA TUDER VOLLEI",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-87",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-88",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "18:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "SANGEMINI COLLELUNA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-2-divisione-femminile-girone-d-89",
+        "campionato": "2 Divisione Femminile Girone D",
+        "giornata": "18",
+        "data": "2027-04-18",
+        "ora": "18:00",
+        "casa": "VOLLEY SPOLETO CASCIA",
+        "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-maschile-girone-a": [
+      {
+        "id": "giov-under-15-maschile-girone-a-0",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "11:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-1",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-11-06",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U15",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-2",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "10:30",
+        "casa": "SIR GIOVANILE MERICAT PG",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-3",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-16",
+        "ora": "19:45",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-4",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SIR GIOVANILE MERICAT PG",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-5",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "18:30",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-6",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "15:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-7",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U15",
+        "ospite": "SIR GIOVANILE MERICAT PG",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-8",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "18:30",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-9",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "16:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-10",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U15",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-11",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "10:30",
+        "casa": "SIR GIOVANILE MERICAT PG",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-12",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "ospite": "STRIKE TEAM MONTELUCE U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-13",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-14",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-12-22",
+        "ora": "16:00",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "SIR GIOVANILE MERICAT PG",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-15",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-16",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-12-16",
+        "ora": "17:00",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-17",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-12-23",
+        "ora": "16:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR GIOVANILE MERICAT PG",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-18",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U15",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-19",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "10:30",
+        "casa": "SIR GIOVANILE MERICAT PG",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-20",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-21",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "16:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-22",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "10:30",
+        "casa": "SIR GIOVANILE MERICAT PG",
+        "ospite": "STRIKE TEAM MONTELUCE U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-23",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-24",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-01-19",
+        "ora": "18:30",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-25",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "STRIKE TEAM MONTELUCE U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-26",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "ospite": "SIR GIOVANILE MERICAT PG",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-27",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U15",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-28",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "16:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-a-29",
+        "campionato": "Under 15 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "16:30",
+        "casa": "SIR GIOVANILE MERICAT PG",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-maschile-girone-b": [
+      {
+        "id": "giov-under-15-maschile-girone-b-0",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "16:30",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "SIR MERICAT RED",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-1",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-2",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "17:30",
+        "casa": "SIR MERICAT ASSISI",
+        "ospite": "MARCONI MONINI-TERNI VA",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-3",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VA",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-4",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "17:30",
+        "casa": "SIR MERICAT RED",
+        "ospite": "SIR MERICAT ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-5",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-6",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "16:30",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "MARCONI MONINI-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-7",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "17:00",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SIR MERICAT ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-8",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SIR MERICAT RED",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-9",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-10",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SIR MERICAT RED",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-11",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "17:30",
+        "casa": "SIR MERICAT ASSISI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-12",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "16:30",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-13",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "16:45",
+        "casa": "SIR MERICAT RED",
+        "ospite": "MARCONI MONINI-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-14",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-12-01",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SIR MERICAT ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-15",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "16:45",
+        "casa": "SIR MERICAT RED",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-16",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-17",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VA",
+        "ospite": "SIR MERICAT ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-18",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-23",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "MARCONI MONINI-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-19",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "17:30",
+        "casa": "SIR MERICAT ASSISI",
+        "ospite": "SIR MERICAT RED",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-20",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "16:30",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-21",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-22",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "17:30",
+        "casa": "SIR MERICAT ASSISI",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-23",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "8",
+        "data": "2027-01-15",
+        "ora": "16:45",
+        "casa": "SIR MERICAT RED",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-24",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-19",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "MARCONI MONINI-TERNI VA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-25",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-22",
+        "ora": "16:45",
+        "casa": "SIR MERICAT RED",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-26",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "16:30",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "SIR MERICAT ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-27",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-28",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VA",
+        "ospite": "SIR MERICAT RED",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-maschile-girone-b-29",
+        "campionato": "Under 15 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "17:30",
+        "casa": "SIR MERICAT ASSISI",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-a": [
+      {
+        "id": "giov-under-15-femminile-girone-a-0",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "11:00",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-1",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-06",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-2",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "11:30",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-3",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "16:45",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-4",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-5",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-6",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "11:00",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-7",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-12-11",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-8",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "17:15",
+        "casa": "TIBER VOLLEY",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-9",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-23",
+        "ora": "17:30",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-10",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-11",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "19:15",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-12",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:00",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-13",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-14",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-15",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-16",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-17",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-18",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-19",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "19:15",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-20",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:00",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-21",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "11:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-22",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "19:15",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-23",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-24",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-25",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-26",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:00",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "NUOVA PALLAVOLO GUALDO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-27",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-28",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "11:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-a-29",
+        "campionato": "Under 15 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "19:15",
+        "casa": "NUOVA PALLAVOLO GUALDO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-b": [
+      {
+        "id": "giov-under-15-femminile-girone-b-0",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-16",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO ROSSA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-1",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SIR PERUGIA",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-2",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "19:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "FOLIGNO U15 ROSA",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-3",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "18:30",
+        "casa": "FOLIGNO U15 ROSA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-4",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-13",
+        "ora": "17:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-5",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-09",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO ROSSA",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-6",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO ROSSA",
+        "ospite": "FOLIGNO U15 ROSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-7",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-27",
+        "ora": "18:15",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-8",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "17:15",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-9",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "18:30",
+        "casa": "FOLIGNO U15 ROSA",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-10",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-11",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "19:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "SIRIO PALLAVOLO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-12",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO ROSSA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-13",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "17:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "FOLIGNO U15 ROSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-14",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "17:15",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "SIR PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-15",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "17:00",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "SIRIO PALLAVOLO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-16",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "20:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-17",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "18:00",
+        "casa": "FOLIGNO U15 ROSA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-18",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "FOLIGNO U15 ROSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-19",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "19:30",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-20",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "20:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "SIRIO PALLAVOLO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-21",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "18:30",
+        "casa": "FOLIGNO U15 ROSA",
+        "ospite": "SIRIO PALLAVOLO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-22",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "19:45",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-23",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "20:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-24",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "20:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "FOLIGNO U15 ROSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-25",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "19:45",
+        "casa": "PMU MARSCIANO BLU",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-26",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO ROSSA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-27",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "SIRIO PALLAVOLO ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-28",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "18:30",
+        "casa": "FOLIGNO U15 ROSA",
+        "ospite": "PMU MARSCIANO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-b-29",
+        "campionato": "Under 15 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "20:00",
+        "casa": "SIR PERUGIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-c": [
+      {
+        "id": "giov-under-15-femminile-girone-c-0",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "11:15",
+        "casa": "VOLLEY PONTE FELCINO",
+        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-1",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "1",
+        "data": "2027-01-10",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-2",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "16:00",
+        "casa": "UMBRIA VOLLEY ACADEMY 15",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-3",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "11:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-4",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "11:15",
+        "casa": "VOLLEY PONTE FELCINO",
+        "ospite": "UMBRIA VOLLEY ACADEMY 15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-5",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-6",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-7",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "ospite": "UMBRIA VOLLEY ACADEMY 15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-8",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "11:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "VOLLEY PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-9",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "11:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-10",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "ospite": "VOLLEY PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-11",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "17:00",
+        "casa": "UMBRIA VOLLEY ACADEMY 15",
+        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-12",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-13",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:15",
+        "casa": "VOLLEY PONTE FELCINO",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-14",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "UMBRIA VOLLEY ACADEMY 15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-15",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-16",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "VOLLEY PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-16",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-17",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "UMBRIA VOLLEY ACADEMY 15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-18",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-19",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:00",
+        "casa": "UMBRIA VOLLEY ACADEMY 15",
+        "ospite": "VOLLEY PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-20",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-21",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-16",
+        "ora": "16:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-22",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "UMBRIA VOLLEY ACADEMY 15",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-23",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "11:15",
+        "casa": "VOLLEY PONTE FELCINO",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-24",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:30",
+        "casa": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-25",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:15",
+        "casa": "VOLLEY PONTE FELCINO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-26",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "ospite": "UMBRIA VOLLEY ACADEMY 15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-27",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 ROSSA",
+        "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-28",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "11:00",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
+        "ospite": "VOLLEY PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-c-29",
+        "campionato": "Under 15 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "11:00",
+        "casa": "UMBRIA VOLLEY ACADEMY 15",
+        "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-femminile-girone-d": [
+      {
+        "id": "giov-under-14-femminile-girone-d-0",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "18:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ASD PALLAVOLO NORCIA",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-1",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "19:15",
+        "casa": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-2",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "16:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "U14 FOLIGNO VOLLEY",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-3",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "10:15",
+        "casa": "ASD PALLAVOLO NORCIA",
+        "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-4",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "18:30",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "U14 FOLIGNO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-5",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "18:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-6",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-16",
+        "ora": "17:00",
+        "casa": "U14 FOLIGNO VOLLEY",
+        "ospite": "ASD PALLAVOLO NORCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-7",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "19:15",
+        "casa": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-8",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "18:30",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-9",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "10:15",
+        "casa": "ASD PALLAVOLO NORCIA",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-10",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "18:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "U14 FOLIGNO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-11",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "16:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-12",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "18:30",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-13",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-01",
+        "ora": "19:00",
+        "casa": "U14 FOLIGNO VOLLEY",
+        "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-14",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "10:15",
+        "casa": "ASD PALLAVOLO NORCIA",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-15",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:00",
+        "casa": "ASD PALLAVOLO NORCIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-16",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "18:30",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-17",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-07",
+        "ora": "17:00",
+        "casa": "U14 FOLIGNO VOLLEY",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-18",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "19:15",
+        "casa": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "ospite": "ASD PALLAVOLO NORCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-19",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-14",
+        "ora": "17:00",
+        "casa": "U14 FOLIGNO VOLLEY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-20",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-15",
+        "ora": "16:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-21",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "10:15",
+        "casa": "ASD PALLAVOLO NORCIA",
+        "ospite": "U14 FOLIGNO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-22",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "18:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-23",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "16:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-24",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "18:30",
+        "casa": "LYNX ACQUASPARTA VOLLEY",
+        "ospite": "ASD PALLAVOLO NORCIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-25",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-18",
+        "ora": "17:00",
+        "casa": "U14 FOLIGNO VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-26",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "19:15",
+        "casa": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "ospite": "NARNI SPORT ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-27",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "18:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "LYNX ACQUASPARTA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-28",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "19:15",
+        "casa": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
+        "ospite": "U14 FOLIGNO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-d-29",
+        "campionato": "Under 14 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "16:30",
+        "casa": "NARNI SPORT ACADEMY",
+        "ospite": "ASD PALLAVOLO NORCIA",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-femminile-girone-e": [
+      {
+        "id": "giov-under-14-femminile-girone-e-0",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "19:00",
+        "casa": "NARNI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": "2 - 3"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-1",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-2",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "16:30",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-3",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "18:00",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-4",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-5",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-13",
+        "ora": "18:45",
+        "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "ospite": "NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-6",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "19:00",
+        "casa": "NARNI",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-7",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-8",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "18:45",
+        "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-9",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "18:00",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI",
+        "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-10",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-11",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "18:15",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-12",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "19:00",
+        "casa": "NARNI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-13",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-14",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "18:45",
+        "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-15",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-16",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "18:45",
+        "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-17",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "18:00",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-18",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-19",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "16:30",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-20",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "19:00",
+        "casa": "NARNI",
+        "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-21",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "18:00",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI",
+        "ospite": "NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-22",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "18:15",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-23",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-24",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-22",
+        "ora": "18:45",
+        "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-25",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-26",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "19:00",
+        "casa": "NARNI",
+        "ospite": "AMERINA PALLAVOLO A S D",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-27",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-28",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-e-29",
+        "campionato": "Under 14 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "18:15",
+        "casa": "AMERINA PALLAVOLO A S D",
+        "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
         "risultato": null
       }
     ]
