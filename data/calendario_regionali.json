@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T11:32:49.791435+00:00",
+  "generatedAt": "2026-11-07T12:05:31.492873+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -20,6 +20,11 @@
       "id": "serie-d-femminile-b",
       "nome": "Serie D Femminile Girone B",
       "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92700&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "serie-d-maschile",
+      "nome": "Serie D Maschile Girone Unico",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92901&SId=&PId=7323&btFiltro=CERCA"
     },
     {
       "id": "giov-under-17-femminile-girone-a",
@@ -5863,6 +5868,1828 @@
         "ora": "20:00",
         "casa": "MARCONI MONINI PALLAVOLO GREEN1",
         "ospite": "SALUMIFICIO BATTISTI TUDER VOLLEY",
+        "risultato": null
+      }
+    ],
+    "serie-d-maschile": [
+      {
+        "id": "serie-d-maschile-0",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-1",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "serie-d-maschile-2",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-18",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "CLT TERNI",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-3",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "20:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-4",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-5",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-18",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "serie-d-maschile-6",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-10-17",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-7",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-25",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-8",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-12-01",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-9",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": "3 - 2"
+      },
+      {
+        "id": "serie-d-maschile-10",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "serie-d-maschile-11",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-21",
+        "ora": "20:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "serie-d-maschile-12",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-24",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "serie-d-maschile-13",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-10-26",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "serie-d-maschile-14",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-11-01",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-15",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-11-01",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "serie-d-maschile-16",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "CLT TERNI",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-17",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-11-04",
+        "ora": "19:00",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "serie-d-maschile-18",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-19",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-10-31",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "serie-d-maschile-20",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-11-01",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "serie-d-maschile-21",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-22",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-08",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-23",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-24",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "20:30",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-25",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-26",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-07",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-27",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-11-08",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-28",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-29",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "20:30",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-30",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "19:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-31",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "17:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-32",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-33",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-14",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-34",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-11-15",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-35",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-36",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-37",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-38",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-21",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-39",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-40",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-41",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2026-11-22",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-42",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-29",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-43",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-44",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-29",
+        "ora": "19:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-45",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "19:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-46",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-29",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-47",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-48",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2026-11-28",
+        "ora": "20:30",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-49",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-50",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-06",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-51",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-52",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-10-24",
+        "ora": "17:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "serie-d-maschile-53",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-54",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-02",
+        "ora": "20:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-55",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2026-12-05",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-56",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-13",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-57",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-58",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-13",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-59",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-13",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-60",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-61",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-62",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2026-12-12",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-63",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-64",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-65",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-66",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-67",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "20:00",
+        "casa": "CLT TERNI",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-68",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-19",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-69",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2026-12-20",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-70",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-71",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-72",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-10",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-73",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-74",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-75",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-09",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-76",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-01-10",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-77",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "18:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-78",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-79",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-80",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-81",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-82",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-16",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-83",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-01-17",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-84",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-85",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-86",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-24",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-87",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-88",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-24",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-89",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-90",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-01-23",
+        "ora": "17:00",
+        "casa": "CLT TERNI",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-91",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-92",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-14",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-93",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-94",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-14",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-95",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-96",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-13",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-97",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-02-14",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-98",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "19:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-99",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-100",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-101",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-102",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-20",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-103",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-104",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "15",
+        "data": "2027-02-21",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-105",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-106",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-107",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-108",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-28",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-109",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-110",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-27",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-111",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "16",
+        "data": "2027-02-28",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-112",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-07",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-113",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "20:30",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-114",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-07",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-115",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-116",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-117",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "21:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-118",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "17",
+        "data": "2027-03-06",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-119",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-14",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-120",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-121",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-122",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-14",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-123",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-124",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-13",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-125",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "18",
+        "data": "2027-03-14",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-126",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-127",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-21",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-128",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-129",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-130",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-131",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-21",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-132",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "19",
+        "data": "2027-03-20",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-133",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-134",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-135",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-136",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-137",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-03",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-138",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-139",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "20",
+        "data": "2027-04-04",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-140",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-11",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-141",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-142",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-143",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-144",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-145",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-10",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-146",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "21",
+        "data": "2027-04-11",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-147",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-18",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-148",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-149",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-150",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-151",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-18",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-152",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-153",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "22",
+        "data": "2027-04-17",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-154",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-155",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-156",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-157",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-25",
+        "ora": "18:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-158",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-25",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "CLT TERNI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-159",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-160",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "23",
+        "data": "2027-04-24",
+        "ora": "21:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-161",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-162",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-163",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-164",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-165",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-166",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-01",
+        "ora": "21:00",
+        "casa": "CLT TERNI",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-167",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "24",
+        "data": "2027-05-02",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-168",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-169",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "18:00",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "STRIKE TEAM MONTELUCE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-170",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "18:00",
+        "casa": "CLT TERNI",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-171",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "18:00",
+        "casa": "UNILAB  PONTE FELCINO",
+        "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-172",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-31",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "A.S.D. SIGILLO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-173",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "20:00",
+        "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "ospite": "PALLAVOLO GUBBIO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-174",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "25",
+        "data": "2027-01-30",
+        "ora": "21:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-175",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-06",
+        "ora": "18:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO",
+        "ospite": "UNILAB  PONTE FELCINO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-176",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-06",
+        "ora": "21:00",
+        "casa": "PALLAVOLO GUBBIO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-177",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-06",
+        "ora": "17:00",
+        "casa": "SIR ITS UMBRIA ACADEMY PERUGIA",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-178",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-07",
+        "ora": "19:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-179",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-07",
+        "ora": "19:00",
+        "casa": "STRIKE TEAM MONTELUCE",
+        "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-180",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-07",
+        "ora": "17:30",
+        "casa": "A.S.D. SIGILLO VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "serie-d-maschile-181",
+        "campionato": "Serie D Maschile Girone Unico",
+        "giornata": "26",
+        "data": "2027-02-07",
+        "ora": "19:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "CLT TERNI",
         "risultato": null
       }
     ],
