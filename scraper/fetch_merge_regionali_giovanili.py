@@ -67,6 +67,12 @@ GIOVANILI = [
     ("giov-under-15-femminile-girone-g", "Under 15 Femminile Girone G", 93846),
     ("giov-under-17-maschile-girone-b", "Under 17 Maschile Girone B", 93528),
     ("giov-under-14-maschile-girone-unico", "Under 14 Maschile Girone Unico", 94030),
+    ("giov-under-17-maschile-girone-a", "Under 17 Maschile Girone A", 93527),
+    ("giov-under-15-femminile-girone-d", "Under 15 Femminile Girone D", 93843),
+    ("giov-under-15-femminile-girone-e", "Under 15 Femminile Girone E", 93844),
+    ("giov-under-14-femminile-girone-a", "Under 14 Femminile Girone A", 93888),
+    ("giov-under-14-femminile-girone-b", "Under 14 Femminile Girone B", 93889),
+    ("giov-under-14-femminile-girone-c", "Under 14 Femminile Girone C", 93890),
 ]
 
 
