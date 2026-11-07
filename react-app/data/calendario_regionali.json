@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:36:47.134639+00:00",
+  "generatedAt": "2026-11-07T16:16:42.562937+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -155,6 +155,26 @@
       "id": "giov-under-14-femminile-girone-e",
       "nome": "Under 14 Femminile Girone E",
       "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93892&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-f",
+      "nome": "Under 15 Femminile Girone F",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93845&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-g",
+      "nome": "Under 15 Femminile Girone G",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93846&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-17-maschile-girone-b",
+      "nome": "Under 17 Maschile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93528&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-maschile-girone-unico",
+      "nome": "Under 14 Maschile Girone Unico",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=94030&SId=&PId=7323&btFiltro=CERCA"
     }
   ],
   "partite": {
@@ -18637,6 +18657,1354 @@
         "ora": "18:15",
         "casa": "AMERINA PALLAVOLO A S D",
         "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-f": [
+      {
+        "id": "giov-under-15-femminile-girone-f-0",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "19:00",
+        "casa": "REALE MUTUA TUDER VOLLEY",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-1",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "1",
+        "data": "2026-11-02",
+        "ora": "18:15",
+        "casa": "PMU MARSCIANO BIANCA",
+        "ospite": "FREE GAS&LUCE NARNI",
+        "risultato": "2 - 3"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-2",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "2",
+        "data": "2026-11-13",
+        "ora": "19:00",
+        "casa": "FREE GAS&LUCE NARNI",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-3",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "11:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "PMU MARSCIANO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-4",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "19:00",
+        "casa": "REALE MUTUA TUDER VOLLEY",
+        "ospite": "FREE GAS&LUCE NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-5",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "ospite": "PMU MARSCIANO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-6",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-7",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "4",
+        "data": "2026-11-23",
+        "ora": "18:15",
+        "casa": "PMU MARSCIANO BIANCA",
+        "ospite": "REALE MUTUA TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-8",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "19:00",
+        "casa": "REALE MUTUA TUDER VOLLEY",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-9",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "FREE GAS&LUCE NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-10",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "18:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "REALE MUTUA TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-11",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "19:00",
+        "casa": "FREE GAS&LUCE NARNI",
+        "ospite": "PMU MARSCIANO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-12",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "ospite": "FREE GAS&LUCE NARNI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-13",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "7",
+        "data": "2026-12-14",
+        "ora": "18:15",
+        "casa": "PMU MARSCIANO BIANCA",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-14",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "8",
+        "data": "2027-01-15",
+        "ora": "19:00",
+        "casa": "FREE GAS&LUCE NARNI",
+        "ospite": "REALE MUTUA TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-15",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "8",
+        "data": "2027-01-11",
+        "ora": "18:15",
+        "casa": "PMU MARSCIANO BIANCA",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-16",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:00",
+        "casa": "ORVIETO VOLLEY ACADEMY",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-17",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "19:00",
+        "casa": "REALE MUTUA TUDER VOLLEY",
+        "ospite": "PMU MARSCIANO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-18",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
+        "ospite": "REALE MUTUA TUDER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-f-19",
+        "campionato": "Under 15 Femminile Girone F",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "19:00",
+        "casa": "FREE GAS&LUCE NARNI",
+        "ospite": "ORVIETO VOLLEY ACADEMY",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-g": [
+      {
+        "id": "giov-under-15-femminile-girone-g-0",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "1",
+        "data": "2026-11-06",
+        "ora": "18:45",
+        "casa": "BOSICO GIOIELLERIE BARTOCCINI",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-1",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": "3 - 2"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-2",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "1",
+        "data": "2026-11-13",
+        "ora": "18:30",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-3",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-4",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-5",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "17:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-6",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "20:00",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-7",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-8",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "17:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-9",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-10",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "18:45",
+        "casa": "BOSICO GIOIELLERIE BARTOCCINI",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-11",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "4",
+        "data": "2026-11-23",
+        "ora": "18:00",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-12",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "5",
+        "data": "2026-12-01",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-13",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "18:30",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-14",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "17:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-15",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-16",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "6",
+        "data": "2027-01-27",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-17",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "17:30",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-18",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-19",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "7",
+        "data": "2026-12-15",
+        "ora": "19:30",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-20",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "18:45",
+        "casa": "BOSICO GIOIELLERIE BARTOCCINI",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-21",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-22",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "8",
+        "data": "2027-01-15",
+        "ora": "18:45",
+        "casa": "BOSICO GIOIELLERIE BARTOCCINI",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-23",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-24",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "20:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "MARCONI MONINI PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-25",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "9",
+        "data": "2027-01-19",
+        "ora": "19:30",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-26",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "17:00",
+        "casa": "ASD CASCIA PALLAVOLO",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-27",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "18:45",
+        "casa": "BOSICO GIOIELLERIE BARTOCCINI",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-28",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "18:30",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-g-29",
+        "campionato": "Under 15 Femminile Girone G",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI PALLAVOLO",
+        "ospite": "ASD CASCIA PALLAVOLO",
+        "risultato": null
+      }
+    ],
+    "giov-under-17-maschile-girone-b": [
+      {
+        "id": "giov-under-17-maschile-girone-b-0",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-10-28",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": "1 - 3"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-1",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-10-26",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "V. NARNI S.A.",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-2",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "1",
+        "data": "2026-10-28",
+        "ora": "17:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-3",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-05",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-4",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-02",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": "3 - 2"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-5",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "2",
+        "data": "2026-11-02",
+        "ora": "19:15",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-6",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-11",
+        "ora": "17:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-7",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-09",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-8",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "3",
+        "data": "2026-11-09",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-9",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-18",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-10",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-18",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-11",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "4",
+        "data": "2026-11-16",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-12",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-11-23",
+        "ora": "19:15",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-13",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-11-23",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-14",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "5",
+        "data": "2026-11-23",
+        "ora": "19:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-15",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-12-04",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-16",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-12-02",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-17",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "6",
+        "data": "2026-11-30",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-18",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-07",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-19",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-09",
+        "ora": "18:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-20",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "7",
+        "data": "2026-12-07",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-21",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "8",
+        "data": "2026-12-16",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-22",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "8",
+        "data": "2026-12-14",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-23",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "8",
+        "data": "2026-12-14",
+        "ora": "19:15",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-24",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-11",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-25",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-13",
+        "ora": "17:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-26",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "9",
+        "data": "2027-01-11",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-27",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-22",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-28",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-20",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-29",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "10",
+        "data": "2027-01-18",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-30",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "11",
+        "data": "2027-01-25",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-31",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "11",
+        "data": "2027-01-25",
+        "ora": "19:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-32",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "11",
+        "data": "2027-01-27",
+        "ora": "18:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-33",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "12",
+        "data": "2027-02-12",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-34",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "12",
+        "data": "2027-02-10",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-35",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "12",
+        "data": "2027-02-08",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "SIR GIOVANILE MERICAT GREEN",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-36",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "13",
+        "data": "2027-02-15",
+        "ora": "18:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-37",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "13",
+        "data": "2027-02-15",
+        "ora": "19:15",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-38",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "13",
+        "data": "2027-02-15",
+        "ora": "19:00",
+        "casa": "POLISPORTIVA CLT",
+        "ospite": "STRIKE TEAM MONTELUCE UNDER 17",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-39",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "14",
+        "data": "2027-02-24",
+        "ora": "16:30",
+        "casa": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-40",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "14",
+        "data": "2027-02-22",
+        "ora": "17:30",
+        "casa": "STRIKE TEAM MONTELUCE UNDER 17",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-b-41",
+        "campionato": "Under 17 Maschile Girone B",
+        "giornata": "14",
+        "data": "2027-02-24",
+        "ora": "17:00",
+        "casa": "SIR GIOVANILE MERICAT GREEN",
+        "ospite": "POLISPORTIVA CLT",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-maschile-girone-unico": [
+      {
+        "id": "giov-under-14-maschile-girone-unico-0",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-11-22",
+        "ora": "10:30",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-1",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-11-20",
+        "ora": "17:00",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-2",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "1",
+        "data": "2026-11-20",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-3",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-11-27",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-4",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-11-29",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-5",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "2",
+        "data": "2026-11-23",
+        "ora": "17:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-6",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-12-02",
+        "ora": "16:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-7",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-12-02",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-8",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "3",
+        "data": "2026-12-03",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-9",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-12-11",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-10",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-12-13",
+        "ora": "10:30",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-11",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "4",
+        "data": "2026-12-13",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-12",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-12-14",
+        "ora": "18:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-13",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-12-17",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-14",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "5",
+        "data": "2026-12-18",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-15",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2027-01-22",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-16",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2027-01-15",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-17",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "6",
+        "data": "2027-01-15",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-18",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2027-01-24",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-19",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2027-01-24",
+        "ora": "10:30",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-20",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "7",
+        "data": "2027-01-24",
+        "ora": "10:00",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-21",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2027-01-29",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-22",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2027-01-31",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-23",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "8",
+        "data": "2027-01-25",
+        "ora": "17:00",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-24",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2027-02-03",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-25",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2027-02-12",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-26",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "9",
+        "data": "2027-02-14",
+        "ora": "10:00",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-27",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2027-02-19",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-28",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2027-02-19",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-29",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "10",
+        "data": "2027-02-21",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-30",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-02-28",
+        "ora": "10:00",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-31",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-02-26",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-32",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "11",
+        "data": "2027-02-28",
+        "ora": "10:30",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-33",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-03-05",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-34",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-03-05",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-35",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "12",
+        "data": "2027-03-03",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "SIR MERICAT PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-36",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-03-14",
+        "ora": "11:30",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-37",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-03-14",
+        "ora": "10:30",
+        "casa": "VOLLEY BORGO ALTOTEVERE",
+        "ospite": "STRIKE TEAM MONTELUCE U14M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-38",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "13",
+        "data": "2027-03-14",
+        "ora": "10:00",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "V. NARNI S.A.",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-39",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-03-19",
+        "ora": "18:15",
+        "casa": "STRIKE TEAM MONTELUCE U14M",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-40",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-03-17",
+        "ora": "16:30",
+        "casa": "V. NARNI S.A.",
+        "ospite": "VOLLEY BORGO ALTOTEVERE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-maschile-girone-unico-41",
+        "campionato": "Under 14 Maschile Girone Unico",
+        "giornata": "14",
+        "data": "2027-03-19",
+        "ora": "16:45",
+        "casa": "SIR MERICAT PERUGIA",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
         "risultato": null
       }
     ]
