@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:16:42.562937+00:00",
+  "generatedAt": "2026-11-07T16:43:13.540142+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -175,6 +175,36 @@
       "id": "giov-under-14-maschile-girone-unico",
       "nome": "Under 14 Maschile Girone Unico",
       "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=94030&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-17-maschile-girone-a",
+      "nome": "Under 17 Maschile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93527&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-d",
+      "nome": "Under 15 Femminile Girone D",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93843&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-15-femminile-girone-e",
+      "nome": "Under 15 Femminile Girone E",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93844&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-femminile-girone-a",
+      "nome": "Under 14 Femminile Girone A",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93888&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-femminile-girone-b",
+      "nome": "Under 14 Femminile Girone B",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93889&SId=&PId=7323&btFiltro=CERCA"
+    },
+    {
+      "id": "giov-under-14-femminile-girone-c",
+      "nome": "Under 14 Femminile Girone C",
+      "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=93890&SId=&PId=7323&btFiltro=CERCA"
     }
   ],
   "partite": {
@@ -20005,6 +20035,1938 @@
         "ora": "16:45",
         "casa": "SIR MERICAT PERUGIA",
         "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      }
+    ],
+    "giov-under-17-maschile-girone-a": [
+      {
+        "id": "giov-under-17-maschile-girone-a-0",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-10-27",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-1",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-10-27",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-2",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "1",
+        "data": "2026-10-27",
+        "ora": "18:30",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": "3 - 2"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-3",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-02",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-4",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-04",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-5",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "2",
+        "data": "2026-11-03",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-6",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-11",
+        "ora": "20:00",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-7",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-10",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-8",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "3",
+        "data": "2026-11-13",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-9",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-16",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-10",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-17",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-11",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "4",
+        "data": "2026-11-18",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-12",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-11-24",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-13",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-11-27",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-14",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "5",
+        "data": "2026-12-08",
+        "ora": "18:00",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-15",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-11-30",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-16",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-12-01",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-17",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "6",
+        "data": "2026-12-01",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-18",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-09",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-19",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-22",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-20",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "7",
+        "data": "2026-12-11",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-21",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "8",
+        "data": "2026-12-14",
+        "ora": "17:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-22",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "8",
+        "data": "2026-12-16",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-23",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "8",
+        "data": "2026-12-15",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-24",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-02-02",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-25",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-01-13",
+        "ora": "20:00",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-26",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "9",
+        "data": "2027-01-15",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-27",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-18",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-28",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-18",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-29",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "10",
+        "data": "2027-01-20",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-30",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "11",
+        "data": "2027-01-29",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-31",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "11",
+        "data": "2027-01-27",
+        "ora": "20:00",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-32",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "11",
+        "data": "2027-01-26",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-33",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "12",
+        "data": "2027-02-08",
+        "ora": "19:00",
+        "casa": "MARCHETTI PRO VITT CHIUSI",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-34",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "12",
+        "data": "2027-02-09",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-35",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "12",
+        "data": "2027-02-09",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR GIOVANILE MERICAT",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-36",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "13",
+        "data": "2027-02-17",
+        "ora": "17:30",
+        "casa": "CITTA DI CASTELLO PALLAVOLO",
+        "ospite": "MARCHETTI PRO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-37",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "13",
+        "data": "2027-02-16",
+        "ora": "18:30",
+        "casa": "SIR MERICAT OLMO",
+        "ospite": "POLISPORTIVA DELFINO - PELLICANO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-38",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "13",
+        "data": "2027-02-19",
+        "ora": "17:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "ospite": "SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-39",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "14",
+        "data": "2027-02-23",
+        "ora": "18:00",
+        "casa": "POLISPORTIVA DELFINO - PELLICANO",
+        "ospite": "CITTA DI CASTELLO PALLAVOLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-40",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "14",
+        "data": "2027-02-23",
+        "ora": "18:00",
+        "casa": "SCHOOL VOLLEY PERUGIA",
+        "ospite": "SIR MERICAT OLMO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-17-maschile-girone-a-41",
+        "campionato": "Under 17 Maschile Girone A",
+        "giornata": "14",
+        "data": "2027-02-28",
+        "ora": "11:00",
+        "casa": "SIR GIOVANILE MERICAT",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-d": [
+      {
+        "id": "giov-under-15-femminile-girone-d-0",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO VERDE",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-1",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-23",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA NERO",
+        "ospite": "PELLICANO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-2",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": "2 - 3"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-3",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "19:30",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "SCHOOL VOLLEY PERUGIA NERO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-4",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "16:00",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-5",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "10:00",
+        "casa": "PELLICANO VITT CHIUSI",
+        "ospite": "SIRIO PALLAVOLO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-6",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO VERDE",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-7",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA NERO",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-8",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "19:00",
+        "casa": "PELLICANO VITT CHIUSI",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-9",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "PELLICANO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-10",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA NERO",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-11",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "SIRIO PALLAVOLO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-12",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO VERDE",
+        "ospite": "SCHOOL VOLLEY PERUGIA NERO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-13",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-05",
+        "ora": "17:45",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-14",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "10:00",
+        "casa": "PELLICANO VITT CHIUSI",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-15",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-22",
+        "ora": "16:30",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "ospite": "SIRIO PALLAVOLO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-16",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "10:00",
+        "casa": "PELLICANO VITT CHIUSI",
+        "ospite": "SCHOOL VOLLEY PERUGIA NERO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-17",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-18",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA NERO",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-19",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-15",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-20",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO VERDE",
+        "ospite": "PELLICANO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-21",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "17:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "SIRIO PALLAVOLO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-22",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "SCHOOL VOLLEY PERUGIA NERO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-23",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "ospite": "PELLICANO VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-24",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-12",
+        "ora": "19:00",
+        "casa": "PELLICANO VITT CHIUSI",
+        "ospite": "ELLERA VOLLEY BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-25",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:15",
+        "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "ospite": "SCHOOL VOLLEY PERUGIA NERO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-26",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "17:00",
+        "casa": "SIRIO PALLAVOLO VERDE",
+        "ospite": "SAN MARIANO VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-27",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "20:00",
+        "casa": "SCHOOL VOLLEY PERUGIA NERO",
+        "ospite": "SIRIO PALLAVOLO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-28",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "16:00",
+        "casa": "ELLERA VOLLEY BLU",
+        "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-d-29",
+        "campionato": "Under 15 Femminile Girone D",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "20:00",
+        "casa": "SAN MARIANO VOLLEY",
+        "ospite": "PELLICANO VITT CHIUSI",
+        "risultato": null
+      }
+    ],
+    "giov-under-15-femminile-girone-e": [
+      {
+        "id": "giov-under-15-femminile-girone-e-0",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-06",
+        "ora": "19:30",
+        "casa": "U15 FOLIGNO BLU",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": "3 - 2"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-1",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "19:45",
+        "casa": "TREVI VOLLEY",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-2",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "17:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "REBELS ASSISI U15",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-3",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-11",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U15",
+        "ospite": "TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-4",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-09",
+        "ora": "18:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-5",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "10:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "U15 FOLIGNO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-6",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "19:30",
+        "casa": "U15 FOLIGNO BLU",
+        "ospite": "REBELS ASSISI U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-7",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "19:45",
+        "casa": "TREVI VOLLEY",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-8",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "10:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-9",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U15",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-10",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "19:45",
+        "casa": "TREVI VOLLEY",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-11",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "19:30",
+        "casa": "U15 FOLIGNO BLU",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-12",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "19:30",
+        "casa": "U15 FOLIGNO BLU",
+        "ospite": "TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-13",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-21",
+        "ora": "18:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "REBELS ASSISI U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-14",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "10:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-15",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-11-19",
+        "ora": "17:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "U15 FOLIGNO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-16",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "10:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-17",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U15",
+        "ospite": "INTER VOLLEY FOLIGNO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-18",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "18:45",
+        "casa": "TREVI VOLLEY",
+        "ospite": "REBELS ASSISI U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-19",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-15",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-20",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "19:30",
+        "casa": "U15 FOLIGNO BLU",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-21",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-13",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U15",
+        "ospite": "U15 FOLIGNO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-22",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-23",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "8",
+        "data": "2027-01-21",
+        "ora": "17:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-24",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "10:00",
+        "casa": "ASD PGS DON BOSCO CANNARA",
+        "ospite": "REBELS ASSISI U15",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-25",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-18",
+        "ora": "18:00",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "TREVI VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-26",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "U15 FOLIGNO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-27",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "19:45",
+        "casa": "TREVI VOLLEY",
+        "ospite": "U15 FOLIGNO BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-28",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-27",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U15",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-15-femminile-girone-e-29",
+        "campionato": "Under 15 Femminile Girone E",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "19:30",
+        "casa": "INTER VOLLEY FOLIGNO",
+        "ospite": "ASD PGS DON BOSCO CANNARA",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-femminile-girone-a": [
+      {
+        "id": "giov-under-14-femminile-girone-a-0",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "18:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": "3 - 1"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-1",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "17:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-2",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "1",
+        "data": "2026-11-03",
+        "ora": "17:00",
+        "casa": "TIBER VOLLEY",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-3",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-4",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "16:30",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-5",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "2",
+        "data": "2026-11-10",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-6",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "18:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-7",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-8",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "3",
+        "data": "2026-11-17",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-9",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-24",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-10",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-11",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-12",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "16:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-13",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "16:30",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-14",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "5",
+        "data": "2026-12-01",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-15",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "16:30",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-16",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-17",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "6",
+        "data": "2026-12-08",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-18",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-19",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-15",
+        "ora": "17:00",
+        "casa": "TIBER VOLLEY",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-20",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "7",
+        "data": "2026-12-16",
+        "ora": "18:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-21",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-12",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-22",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-10",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-23",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "16:30",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-24",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-19",
+        "ora": "18:45",
+        "casa": "UISP VOLLEY UMBERTIDE",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-25",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "16:30",
+        "casa": "TRESTINA VOLLEY",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-26",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "18:45",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO",
+        "ospite": "TIBER VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-27",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO VERDE",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-28",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
+        "ospite": "TRESTINA VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-a-29",
+        "campionato": "Under 14 Femminile Girone A",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY",
+        "ospite": "UISP VOLLEY UMBERTIDE",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-femminile-girone-b": [
+      {
+        "id": "giov-under-14-femminile-girone-b-0",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-05",
+        "ora": "18:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-1",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-06",
+        "ora": "17:00",
+        "casa": "TIBER VOLLEY FUCSIA",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "risultato": "3 - 0"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-2",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "17:30",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "ospite": "REBELS ASSISI U14 ROSSA",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-3",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 ROSSA",
+        "ospite": "TIBER VOLLEY FUCSIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-4",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-11-15",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-5",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "2",
+        "data": "2026-12-23",
+        "ora": "19:00",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-6",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-16",
+        "ora": "16:30",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "REBELS ASSISI U14 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-7",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "10:30",
+        "casa": "TIBER VOLLEY FUCSIA",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-8",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "3",
+        "data": "2026-11-18",
+        "ora": "19:00",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-9",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 ROSSA",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-10",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "19:15",
+        "casa": "TIBER VOLLEY FUCSIA",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-11",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "4",
+        "data": "2026-11-27",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-12",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "18:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "TIBER VOLLEY FUCSIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-13",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-06",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "ospite": "REBELS ASSISI U14 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-14",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "5",
+        "data": "2026-12-02",
+        "ora": "19:00",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-15",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-13",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-16",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-09",
+        "ora": "19:00",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "ospite": "TIBER VOLLEY FUCSIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-17",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 ROSSA",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-18",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "16:30",
+        "casa": "TIBER VOLLEY FUCSIA",
+        "ospite": "REBELS ASSISI U14 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-19",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-18",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-20",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "18:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-21",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 ROSSA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-22",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-08",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "ospite": "TIBER VOLLEY FUCSIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-23",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-24",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-20",
+        "ora": "19:00",
+        "casa": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "ospite": "REBELS ASSISI U14 ROSSA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-25",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-24",
+        "ora": "11:00",
+        "casa": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "ospite": "TIBER VOLLEY FUCSIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-26",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "18:00",
+        "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "ospite": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-27",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "17:30",
+        "casa": "TIBER VOLLEY FUCSIA",
+        "ospite": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-28",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-28",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 ROSSA",
+        "ospite": "POLISPORTIVA DON BOSCO GUBBIO BIANCA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-b-29",
+        "campionato": "Under 14 Femminile Girone B",
+        "giornata": "10",
+        "data": "2027-01-29",
+        "ora": "18:00",
+        "casa": "NEW VOLLEY BORGO SANSEPOLCRO GIALLA",
+        "ospite": "PALLAVOLO CITTA' DI CASTELLO BIANCA",
+        "risultato": null
+      }
+    ],
+    "giov-under-14-femminile-girone-c": [
+      {
+        "id": "giov-under-14-femminile-girone-c-0",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-04",
+        "ora": "19:00",
+        "casa": "REBELS ASSISI U14 BLU",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": "0 - 3"
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-1",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-08",
+        "ora": "16:30",
+        "casa": "PELLICANO  VITT CHIUSI",
+        "ospite": "STRIKE TEAM MONTELUCE U14 F",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-2",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "1",
+        "data": "2026-11-15",
+        "ora": "10:45",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-3",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "17:15",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "ospite": "PELLICANO  VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-4",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-5",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "2",
+        "data": "2026-11-12",
+        "ora": "17:00",
+        "casa": "STRIKE TEAM MONTELUCE U14 F",
+        "ospite": "REBELS ASSISI U14 BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-6",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-19",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 BLU",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-7",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-22",
+        "ora": "10:30",
+        "casa": "PELLICANO  VITT CHIUSI",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-8",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "3",
+        "data": "2026-11-20",
+        "ora": "00:00",
+        "casa": "STRIKE TEAM MONTELUCE U14 F",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-9",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-26",
+        "ora": "17:15",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "ospite": "STRIKE TEAM MONTELUCE U14 F",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-10",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-25",
+        "ora": "18:30",
+        "casa": "PELLICANO  VITT CHIUSI",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-11",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "4",
+        "data": "2026-11-29",
+        "ora": "10:45",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "REBELS ASSISI U14 BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-12",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-03",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 BLU",
+        "ospite": "PELLICANO  VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-13",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "18:15",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-14",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "5",
+        "data": "2026-12-04",
+        "ora": "16:30",
+        "casa": "STRIKE TEAM MONTELUCE U14 F",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-15",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "18:15",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "REBELS ASSISI U14 BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-16",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-11",
+        "ora": "16:30",
+        "casa": "STRIKE TEAM MONTELUCE U14 F",
+        "ospite": "PELLICANO  VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-17",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "6",
+        "data": "2026-12-10",
+        "ora": "17:15",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-18",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-01",
+        "ora": "19:00",
+        "casa": "PELLICANO  VITT CHIUSI",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-19",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-20",
+        "ora": "10:45",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-20",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "7",
+        "data": "2026-12-17",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 BLU",
+        "ospite": "STRIKE TEAM MONTELUCE U14 F",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-21",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "17:15",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "ospite": "REBELS ASSISI U14 BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-22",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-17",
+        "ora": "10:45",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "PELLICANO  VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-23",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "8",
+        "data": "2027-01-14",
+        "ora": "17:30",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "STRIKE TEAM MONTELUCE U14 F",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-24",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-22",
+        "ora": "16:30",
+        "casa": "STRIKE TEAM MONTELUCE U14 F",
+        "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-25",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "18:00",
+        "casa": "BARTOCCINI SCHOOL VOLLEY",
+        "ospite": "PELLICANO  VITT CHIUSI",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-26",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "9",
+        "data": "2027-01-21",
+        "ora": "17:00",
+        "casa": "REBELS ASSISI U14 BLU",
+        "ospite": "VIANDER ACTON BASTIA",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-27",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "16:30",
+        "casa": "PELLICANO  VITT CHIUSI",
+        "ospite": "REBELS ASSISI U14 BLU",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-28",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-26",
+        "ora": "19:45",
+        "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
+        "ospite": "BARTOCCINI SCHOOL VOLLEY",
+        "risultato": null
+      },
+      {
+        "id": "giov-under-14-femminile-girone-c-29",
+        "campionato": "Under 14 Femminile Girone C",
+        "giornata": "10",
+        "data": "2027-01-31",
+        "ora": "10:45",
+        "casa": "VIANDER ACTON BASTIA",
+        "ospite": "STRIKE TEAM MONTELUCE U14 F",
         "risultato": null
       }
     ]
