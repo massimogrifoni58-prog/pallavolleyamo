@@ -172,10 +172,17 @@ function truncate(text, max) {
 }
 
 // Foto della notizia; se manca (o non si carica) mostra un riquadro sobrio con il logo e la fonte
+// Immagini quasi quadrate (di solito loghi): vanno mostrate intere, non ritagliate e ingrandite
+function segnaSeLogo(e, classe) {
+  const im = e.currentTarget;
+  const r = im.naturalWidth / (im.naturalHeight || 1);
+  if (r > 0.8 && r < 1.25) im.classList.add(classe);
+}
+
 function CardImmagine({ src, alt, fonte }) {
   const [errore, setErrore] = useState(false);
   if (src && !errore) {
-    return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
+    return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onLoad={(e) => segnaSeLogo(e, "card__image--quadrata")} onError={() => setErrore(true)} />;
   }
   return (
     <div className="card__image card__segnaposto" aria-hidden="true">
@@ -965,6 +972,7 @@ function CaroselloNotizie() {
               <span className="carosello__riquadro">
                 {x.foto && <span className="carosello__sfocata" style={{ backgroundImage: `url("${x.foto}")` }} />}
                 <img className="carosello__foto" src={x.foto || "/logo-pva.svg"} alt="" loading={i === 0 ? "eager" : "lazy"}
+                  onLoad={(e) => segnaSeLogo(e, "carosello__foto--logo")}
                   onError={(e) => { e.currentTarget.style.display = "none"; }} />
               </span>
               <div className="carosello__testo">
