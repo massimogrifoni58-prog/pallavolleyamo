@@ -7231,10 +7231,20 @@ function MiaSquadraPage() {
   const { subscribed: iscritto } = useSubscribed();
 
   const partite = React.useMemo(() => tuttePartiteSquadre(), []);
+  // Campionati che hanno solo i risultati (senza date): es. Serie D maschile, Under 13/14/15, 2a Divisione
+  const senzaData = React.useMemo(() => {
+    const conDate = new Set(partite.map((p) => normSq(p.camp)));
+    return (risultatiData.matches || [])
+      .filter((m) => m.competition && !conDate.has(normSq(m.competition)))
+      .map((m) => ({
+        id: "r" + m.id, camp: m.competition, giornata: (m.giornata || "").replace(/^Giornata\s*/i, ""),
+        casa: m.home, ospite: m.away, ris: m.status === "disputata" && m.score && m.score !== "da disputare" ? m.score : null,
+      }));
+  }, [partite]);
   // squadra -> categorie in cui gioca
   const squadre = React.useMemo(() => {
     const m = {};
-    partite.forEach((p) => {
+    [...partite, ...senzaData].forEach((p) => {
       [p.casa, p.ospite].forEach((n) => {
         if (!n) return;
         const k = normSq(n);
@@ -7243,7 +7253,7 @@ function MiaSquadraPage() {
       });
     });
     return Object.values(m).sort((x, y) => x.nome.localeCompare(y.nome, "it"));
-  }, [partite]);
+  }, [partite, senzaData]);
 
   function scegli(n) { setNome(n); salvaMiaSquadra(n); setCerca(""); setCat(""); }
   function cambia() { setNome(""); salvaMiaSquadra(""); setCat(""); }
@@ -7301,9 +7311,12 @@ function MiaSquadraPage() {
 
   const oggiISO = new Date().toISOString().slice(0, 10);
   const mieTutte = partite.filter((p) => squadraMia(p.casa, nome) || squadraMia(p.ospite, nome));
-  const categorie = [...new Set(mieTutte.map((p) => categoriaBreve(p.camp)))].sort((a, b) => a.localeCompare(b, "it"));
+  const mieSenzaDataTutte = senzaData.filter((p) => squadraMia(p.casa, nome) || squadraMia(p.ospite, nome));
+  const categorie = [...new Set([...mieTutte, ...mieSenzaDataTutte].map((p) => categoriaBreve(p.camp)))].sort((a, b) => a.localeCompare(b, "it"));
   const catAttiva = categorie.includes(cat) ? cat : "";
   const mie = catAttiva ? mieTutte.filter((p) => categoriaBreve(p.camp) === catAttiva) : mieTutte;
+  const mieSenzaData = (catAttiva ? mieSenzaDataTutte.filter((p) => categoriaBreve(p.camp) === catAttiva) : mieSenzaDataTutte)
+    .sort((a, b) => a.camp.localeCompare(b.camp, "it") || (Number(a.giornata) || 0) - (Number(b.giornata) || 0));
   const ordina = (a, b) => (a.data + a.ora).localeCompare(b.data + b.ora);
   const prossime = mie.filter(ancoraDaGiocare).sort(ordina);
   const giocate = mie.filter((p) => p.ris).sort((a, b) => ordina(b, a));
@@ -7337,7 +7350,7 @@ function MiaSquadraPage() {
             </div>
           </div>
         ) : (
-          <p className="state" style={{ marginBottom: "1.5rem" }}>Nessuna partita in programma al momento.</p>
+          <p className="state" style={{ marginBottom: "1.5rem" }}>{mieSenzaData.length > 0 ? "Le date delle prossime partite non sono ancora disponibili: qui sotto trovi le giornate e i risultati." : "Nessuna partita in programma al momento."}</p>
         )}
 
 
@@ -7379,6 +7392,26 @@ function MiaSquadraPage() {
           inCorso={inCorso}
           onIcs={scaricaIcs}
         />
+
+        {mieSenzaData.length > 0 && (
+          <div style={{ marginTop: "1.5rem" }}>
+            <h3 style={{ fontSize: "0.85rem", color: "var(--gold)", textTransform: "uppercase", marginBottom: "0.2rem" }}>Risultati per giornata</h3>
+            <p className="state" style={{ margin: "0 0 0.6rem", fontSize: "0.8rem" }}>Per questi campionati abbiamo i risultati ma non ancora le date delle partite.</p>
+            {[...new Set(mieSenzaData.map((p) => p.camp))].map((camp) => (
+              <div key={camp} style={{ marginBottom: "1rem", maxWidth: "560px" }}>
+                <div style={{ fontSize: "0.9rem", fontWeight: 700, marginBottom: "0.3rem" }}>{camp}</div>
+                {mieSenzaData.filter((p) => p.camp === camp).map((p) => (
+                  <div key={p.id} style={{ display: "flex", gap: "0.6rem", padding: "0.35rem 0", borderBottom: "1px solid var(--border)", fontSize: "0.88rem" }}>
+                    <span style={{ color: "var(--text-dim)", minWidth: "2.2rem" }}>G{p.giornata}</span>
+                    <span style={{ flex: 1, fontWeight: squadraMia(p.casa, nome) ? 700 : 400 }}>{p.casa}</span>
+                    <span style={{ color: "var(--gold)", fontWeight: 700, minWidth: "2.6rem", textAlign: "center" }}>{p.ris || "–"}</span>
+                    <span style={{ flex: 1, textAlign: "right", fontWeight: squadraMia(p.ospite, nome) ? 700 : 400 }}>{p.ospite}</span>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
 
         {prossime.length > 0 && (
           <div style={{ marginTop: "1rem" }}>
