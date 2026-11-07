@@ -1158,7 +1158,6 @@ function HomePage({ latestNews = [] }) {
       <CaroselloNotizie />
       <MiaSquadraHome />
       <DirettaOggiHome />
-      <BigMatchHome />
       {(weekendHome.mostra.length > 0 || (!inPausaEstiva && risultatiCard.length > 0)) && (
         <div className="home-duo">
           {weekendHome.mostra.length > 0 && (
