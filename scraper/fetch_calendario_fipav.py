@@ -40,6 +40,11 @@ CAMPIONATI = [
         "nome": "Serie D Femminile Girone B",
         "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92700&SId=&PId=7323&btFiltro=CERCA",
     },
+    {
+        "id": "serie-d-maschile",
+        "nome": "Serie D Maschile Girone Unico",
+        "url": "https://umbria.portalefipav.net/risultati-classifiche.aspx?ComitatoId=30&StId=2410&DataDa=&StatoGara=&CId=92901&SId=&PId=7323&btFiltro=CERCA",
+    },
 ]
 
 
