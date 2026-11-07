@@ -5781,3 +5781,7 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
   .carosello__freccia { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .carosello__binario { transition: none; } }
+
+/* Loghi (immagini quasi quadrate): interi e piccoli, non ritagliati */
+.card__image--quadrata { object-fit: contain; padding: 14%; background: #141414; box-sizing: border-box; }
+.carosello__foto--logo { inset: 14%; width: 72%; height: 72%; object-fit: contain; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5)); }

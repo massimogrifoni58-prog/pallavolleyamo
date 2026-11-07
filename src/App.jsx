@@ -172,10 +172,17 @@ function truncate(text, max) {
 }
 
 // Foto della notizia; se manca (o non si carica) mostra un riquadro sobrio con il logo e la fonte
+// Immagini quasi quadrate (di solito loghi): vanno mostrate intere, non ritagliate e ingrandite
+function segnaSeLogo(e, classe) {
+  const im = e.currentTarget;
+  const r = im.naturalWidth / (im.naturalHeight || 1);
+  if (r > 0.8 && r < 1.25) im.classList.add(classe);
+}
+
 function CardImmagine({ src, alt, fonte }) {
   const [errore, setErrore] = useState(false);
   if (src && !errore) {
-    return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onError={() => setErrore(true)} />;
+    return <img className="card__image" src={src} alt={alt || ""} loading="lazy" onLoad={(e) => segnaSeLogo(e, "card__image--quadrata")} onError={() => setErrore(true)} />;
   }
   return (
     <div className="card__image card__segnaposto" aria-hidden="true">
@@ -908,11 +915,26 @@ function CaroselloNotizie() {
         return true;
       });
     // La prima e' sempre l'ultima notizia inserita dalla pagina riservata (l'ultimo articolo aggiunto agli Articoli Societa')
-    const ultimoArt = (articoliSocietaData.articoli || []).reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
-    const mia = ultimoArt && ultimoArt.titolo ? {
-      id: "art-" + ultimoArt.id, titolo: ultimoArt.titolo, testo: ultimoArt.testo || "", estratto: (ultimoArt.testo || "").slice(0, 160),
-      foto: ultimoArt.foto, createdTime: ultimoArt.data, fonte: ultimoArt.societa, interna: true,
-    } : null;
+    // La prima: l'ultima notizia della squadra scelta dal visitatore (anche senza foto); se non c'e', l'ultimo articolo inserito.
+    const articoli = articoliSocietaData.articoli || [];
+    const daArt = (a) => ({
+      id: "art-" + a.id, titolo: a.titolo, testo: a.testo || "", estratto: (a.testo || "").slice(0, 160),
+      foto: a.foto || "/news-segnaposto.jpg", createdTime: a.data, fonte: a.societa, interna: true,
+    });
+    const scelta = (() => { try { return leggiMiaSquadra().replace(/^~/, ""); } catch (e) { return ""; } })();
+    const parole = normSq(scelta).split(" ").filter((w) => w.length > 1 && !/^(volley|pallavolo|asd|a\.s\.d\.|ssd|sport|academy|team|club|srl|femminile|maschile)$/.test(w));
+    const contiene = (testo) => { const t = normSq(testo); return parole.length > 0 && parole.every((w) => t.includes(w)); };
+    const numId = (n) => Number(String(n.id).replace(/\D/g, "")) || 0;
+    const piuRecente = (lista) => lista.sort((x, y) => (parseDate(y) - parseDate(x)) || (numId(y) - numId(x)))[0];
+    const validi = scelta ? [...proprie, ...fonti].filter((n) => n.titolo && parseDate(n) && parseDate(n) <= adesso + 86400000) : [];
+    // prima le notizie della squadra/societa' (titolo o fonte), poi quelle che la citano soltanto
+    const dellaSquadra = scelta
+      ? (piuRecente(validi.filter((n) => contiene(n.titolo + " " + n.fonte))) || piuRecente(validi.filter((n) => contiene([n.estratto, n.testo].join(" ")))))
+      : null;
+    const ultimoArt = articoli.reduce((m, a) => (!m || Number(a.id) > Number(m.id) ? a : m), null);
+    const mia = dellaSquadra
+      ? { ...dellaSquadra, foto: dellaSquadra.foto || "/news-segnaposto.jpg" }
+      : (ultimoArt && ultimoArt.titolo ? daArt(ultimoArt) : null);
     return mia ? [mia, ...ordinate.filter((n) => n.id !== mia.id).slice(0, 2)] : ordinate.slice(0, 3);
   })();
 
@@ -950,6 +972,7 @@ function CaroselloNotizie() {
               <span className="carosello__riquadro">
                 {x.foto && <span className="carosello__sfocata" style={{ backgroundImage: `url("${x.foto}")` }} />}
                 <img className="carosello__foto" src={x.foto || "/logo-pva.svg"} alt="" loading={i === 0 ? "eager" : "lazy"}
+                  onLoad={(e) => segnaSeLogo(e, "carosello__foto--logo")}
                   onError={(e) => { e.currentTarget.style.display = "none"; }} />
               </span>
               <div className="carosello__testo">
