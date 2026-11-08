@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:03:55.138157+00:00",
+  "generatedAt": "2026-11-08T11:40:51.256455+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -15460,8 +15460,8 @@
       "giornata": "Giornata 1",
       "home": "SIR GIOVANILE MERICAT PG",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131660175",
@@ -15469,8 +15469,8 @@
       "giornata": "Giornata 1",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
       "away": "CITTA DI CASTELLO PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131660180",
@@ -16531,8 +16531,8 @@
       "giornata": "Giornata 1",
       "home": "VOLLEY PONTE FELCINO",
       "away": "SCHOOL VOLLEY PERUGIA AZZURRO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131659432",

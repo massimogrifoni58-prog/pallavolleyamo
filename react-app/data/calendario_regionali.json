@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T06:07:44.102653+00:00",
+  "generatedAt": "2026-11-08T11:44:20.080679+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -16585,7 +16585,7 @@
         "ora": "11:30",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
         "ospite": "CITTA DI CASTELLO PALLAVOLO",
-        "risultato": null
+        "risultato": "3 - 0"
       },
       {
         "id": "giov-under-15-maschile-girone-a-1",
@@ -16605,7 +16605,7 @@
         "ora": "10:30",
         "casa": "SIR GIOVANILE MERICAT PG",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-15-maschile-girone-a-3",
@@ -17793,7 +17793,7 @@
         "ora": "11:15",
         "casa": "VOLLEY PONTE FELCINO",
         "ospite": "SCHOOL VOLLEY PERUGIA AZZURRO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "giov-under-15-femminile-girone-c-1",
