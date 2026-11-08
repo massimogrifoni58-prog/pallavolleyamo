@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T12:35:10.069290+00:00",
+  "generatedAt": "2026-11-08T18:38:19.613723+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -132,18 +132,6 @@
       "data": "31/10/2026 ore 21:00",
       "dataIso": "2026-10-31",
       "ora": "21:00"
-    },
-    {
-      "id": "lva2-3252",
-      "competition": "Serie A2 Femminile Girone Unico",
-      "giornata": "Giornata",
-      "home": "TRASPORTI BRESSAN OFFANENGO",
-      "away": "BARTOCCINI +ENERGIA PERUGIA",
-      "data": "01/11/2026 ore 17:00",
-      "dataIso": "2026-11-01",
-      "ora": "17:00",
-      "score": "0-3",
-      "status": "disputata"
     },
     {
       "id": "fp7826",

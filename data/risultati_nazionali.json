@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-08T11:40:56.428949+00:00",
+  "generatedAt": "2026-11-08T18:38:08.961597+00:00",
   "matches": [
     {
       "id": "lv999-5",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 4",
+      "giornata": "Giornata 5",
       "home": "ACQUA SANT'ANNA CUNEO",
       "away": "SIR SUSA SCAI PERUGIA",
       "score": "2-3",
@@ -17,7 +17,7 @@
     {
       "id": "lv999-7",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 4",
+      "giornata": "Giornata 5",
       "home": "SIR SUSA SCAI PERUGIA",
       "away": "TINET PRATA DI PORDENONE",
       "score": "3-0",
@@ -30,7 +30,7 @@
     {
       "id": "lv999-15",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 4",
+      "giornata": "Giornata 5",
       "home": "VERO VOLLEY MONZA",
       "away": "SIR SUSA SCAI PERUGIA",
       "score": "0-3",
@@ -43,7 +43,7 @@
     {
       "id": "lv999-19",
       "competition": "Superlega Girone Unico",
-      "giornata": "Giornata 4",
+      "giornata": "Giornata 5",
       "home": "SIR SUSA SCAI PERUGIA",
       "away": "CISTERNA VOLLEY",
       "score": "3-0",
@@ -59,8 +59,8 @@
       "giornata": "Giornata 5",
       "home": "ITAS TRENTINO",
       "away": "SIR SUSA SCAI PERUGIA",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "2-1",
+      "status": "disputata",
       "data": "Domenica 8/11/2026 ore 18:00",
       "dataIso": "2026-11-08",
       "ora": "18:00",
@@ -147,7 +147,7 @@
     {
       "id": "lv1001-1001",
       "competition": "Serie A3 Maschile Girone Bianco",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "ERMGROUP ALTOTEVERE",
       "away": "NEGRINI CTE ACQUI TERME",
       "score": "3-1",
@@ -160,7 +160,7 @@
     {
       "id": "lv1001-1007",
       "competition": "Serie A3 Maschile Girone Bianco",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "CAMPI REALI CANTÙ",
       "away": "ERMGROUP ALTOTEVERE",
       "score": "3-1",
@@ -173,7 +173,7 @@
     {
       "id": "lv1001-1013",
       "competition": "Serie A3 Maschile Girone Bianco",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "SARLUX SARROCH",
       "away": "ERMGROUP ALTOTEVERE",
       "score": "1-3",
@@ -189,8 +189,8 @@
       "giornata": "Giornata 4",
       "home": "ERMGROUP ALTOTEVERE",
       "away": "MONGE GERBAUDO SAVIGLIANO",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "1-2",
+      "status": "disputata",
       "data": "Domenica 8/11/2026 ore 18:00",
       "dataIso": "2026-11-08",
       "ora": "18:00",
@@ -290,7 +290,7 @@
     {
       "id": "lv1002-1205",
       "competition": "Serie A3 Maschile Girone Blu",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "ROMEO SORRENTO",
       "away": "TERNI VOLLEY ACADEMY",
       "score": "3-1",
@@ -303,7 +303,7 @@
     {
       "id": "lv1002-1211",
       "competition": "Serie A3 Maschile Girone Blu",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "TERNI VOLLEY ACADEMY",
       "away": "ENERGYTIME CAMPOBASSO",
       "score": "0-3",
@@ -316,7 +316,7 @@
     {
       "id": "lv1002-1215",
       "competition": "Serie A3 Maschile Girone Blu",
-      "giornata": "Giornata 3",
+      "giornata": "Giornata 4",
       "home": "GREEN VOLLEY GALATONE",
       "away": "TERNI VOLLEY ACADEMY",
       "score": "1-3",
