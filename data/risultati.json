@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:38:04.091268+00:00",
+  "generatedAt": "2026-11-08T23:22:40.671598+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -205,8 +205,8 @@
       "giornata": "Giornata 4",
       "home": "UNIKO VOLLEY ORTE",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131626806",
@@ -214,8 +214,8 @@
       "giornata": "Giornata 4",
       "home": "CITTA' DI CASTELLO PALLAVOLO",
       "away": "VOLLEY CASCIA SPOLETO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131626812",
@@ -3049,8 +3049,8 @@
       "giornata": "Giornata 4",
       "home": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131628288",
@@ -3058,8 +3058,8 @@
       "giornata": "Giornata 4",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627474",
@@ -12427,8 +12427,8 @@
       "giornata": "Giornata 3",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131639429",

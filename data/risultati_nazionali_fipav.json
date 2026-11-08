@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:38:19.613723+00:00",
+  "generatedAt": "2026-11-08T23:22:57.228086+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -134,6 +134,18 @@
       "ora": "21:00"
     },
     {
+      "id": "lva2-3252",
+      "competition": "Serie A2 Femminile Girone Unico",
+      "giornata": "Giornata",
+      "home": "TRASPORTI BRESSAN OFFANENGO",
+      "away": "BARTOCCINI +ENERGIA PERUGIA",
+      "data": "01/11/2026 ore 17:00",
+      "dataIso": "2026-11-01",
+      "ora": "17:00",
+      "score": "0-3",
+      "status": "disputata"
+    },
+    {
       "id": "fp7826",
       "competition": "Serie B Girone E",
       "giornata": "Giornata",
@@ -168,6 +180,18 @@
       "data": "07/11/2026 ore 21:00",
       "dataIso": "2026-11-07",
       "ora": "21:00"
+    },
+    {
+      "id": "lva2-3262",
+      "competition": "Serie A2 Femminile Girone Unico",
+      "giornata": "Giornata",
+      "home": "CLAI IMOLA VOLLEY",
+      "away": "BARTOCCINI +ENERGIA PERUGIA",
+      "data": "08/11/2026 ore 17:00",
+      "dataIso": "2026-11-08",
+      "ora": "17:00",
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "fp11234",

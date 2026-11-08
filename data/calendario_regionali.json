@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T18:36:59.735189+00:00",
+  "generatedAt": "2026-11-08T23:21:31.633088+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -397,7 +397,7 @@
         "ora": "20:00",
         "casa": "CITTA' DI CASTELLO PALLAVOLO",
         "ospite": "VOLLEY CASCIA SPOLETO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-c-maschile-19",
@@ -437,7 +437,7 @@
         "ora": "18:00",
         "casa": "UNIKO VOLLEY ORTE",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "serie-c-maschile-23",
@@ -6205,7 +6205,7 @@
         "ora": "19:00",
         "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "risultato": null
+        "risultato": "2 - 3"
       },
       {
         "id": "serie-d-maschile-23",
@@ -6255,7 +6255,7 @@
         "ora": "19:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-        "risultato": null
+        "risultato": "0 - 3"
       },
       {
         "id": "serie-d-maschile-28",
@@ -9277,7 +9277,7 @@
         "ora": "19:00",
         "casa": "REVISIONANDO VITT CHIUSI",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null
+        "risultato": "3 - 2"
       },
       {
         "id": "giov-under-19-femminile-girone-a-7",
