@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:44:20.080679+00:00",
+  "generatedAt": "2026-11-08T12:34:02.755226+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -17189,7 +17189,7 @@
         "ora": "11:00",
         "casa": "TRESTINA VOLLEY",
         "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-15-femminile-girone-a-1",
@@ -17209,7 +17209,7 @@
         "ora": "11:30",
         "casa": "NUOVA PALLAVOLO GUALDO",
         "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
-        "risultato": null
+        "risultato": "3 - 1"
       },
       {
         "id": "giov-under-15-femminile-girone-a-3",
