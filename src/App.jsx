@@ -7102,6 +7102,11 @@ const nomeMostrato = (nome) => nome.startsWith("~") ? nome.slice(1) + " (tutte l
 const categoriaBreve = (c) => (c || "").replace(/\s*Girone.*$/i, "").replace(/\s*Femminile/i, " F").replace(/\s*Maschile/i, " M").trim();
 
 // Tutte le partite note (regionali + nazionali) in un'unica lista
+function ParzialiSet({ parziali, stile }) {
+  if (!Array.isArray(parziali) || parziali.length === 0) return null;
+  return <span style={{ color: "var(--text-dim)", fontSize: "0.78rem", fontWeight: 400, ...stile }}>({parziali.join(", ")})</span>;
+}
+
 function tuttePartiteSquadre() {
   const punteggi = {};
   (risultatiData.matches || []).forEach((m) => {
@@ -7111,7 +7116,7 @@ function tuttePartiteSquadre() {
   Object.values(calendarioRegionaliData.partite || {}).flat().forEach((p) => {
     if (!p.data) return;
     const ris = p.risultato || punteggi[normSq(p.campionato) + "|" + normSq(p.casa) + "|" + normSq(p.ospite)] || null;
-    lista.push({ id: p.id, camp: p.campionato, giornata: p.giornata, data: p.data, ora: (p.ora || "").slice(0, 5), casa: p.casa, ospite: p.ospite, ris });
+    lista.push({ id: p.id, camp: p.campionato, giornata: p.giornata, data: p.data, ora: (p.ora || "").slice(0, 5), casa: p.casa, ospite: p.ospite, ris, parziali: ris ? p.parziali : undefined });
   });
   [...(risultatiNazionali.matches || []), ...(risultatiNazionaliFipav.matches || [])].forEach((m) => {
     if (!m.dataIso) return;
@@ -7214,6 +7219,7 @@ function RigaPartitaSquadra({ p, nome, conCalendario }) {
       {p.ris && (
         <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
           <strong style={{ color: "var(--gold)" }}>{p.ris}</strong>
+          <ParzialiSet parziali={p.parziali} />
           {esito && (
             <span style={{ fontSize: "0.7rem", fontWeight: 800, padding: "0.15rem 0.5rem", borderRadius: "999px", background: esito === "V" ? "rgba(60,180,90,0.25)" : "rgba(220,70,70,0.25)", color: esito === "V" ? "#5fd37e" : "#ff8a8a" }}>
               {esito === "V" ? "Vinta" : "Persa"}
@@ -7407,6 +7413,7 @@ function MiaSquadraPage() {
                     <span style={{ color: "var(--text-dim)", minWidth: "2.2rem" }}>G{p.giornata}</span>
                     <span style={{ flex: 1, fontWeight: squadraMia(p.casa, nome) ? 700 : 400 }}>{p.casa}</span>
                     <span style={{ color: "var(--gold)", fontWeight: 700, minWidth: "2.6rem", textAlign: "center" }}>{p.ris || "–"}</span>
+                    <span style={{ minWidth: "0" }}><ParzialiSet parziali={p.parziali} stile={{ fontSize: "0.7rem" }} /></span>
                     <span style={{ flex: 1, textAlign: "right", fontWeight: squadraMia(p.ospite, nome) ? 700 : 400 }}>{p.ospite}</span>
                   </div>
                 ))}
@@ -7509,7 +7516,7 @@ function MiaSquadraHome() {
         {ultima && (
           <div style={{ marginTop: "0.35rem", fontSize: "0.88rem" }}>
             <span style={{ color: "var(--text-dim)" }}>Ultimo risultato ({dataBreve(ultima.data)}): </span>
-            {ultima.casa} <strong>{ultima.ris}</strong> {ultima.ospite}
+            {ultima.casa} <strong>{ultima.ris}</strong> {ultima.ospite} <ParzialiSet parziali={ultima.parziali} />
             {esitoUltima && <span style={{ marginLeft: "0.4rem", fontWeight: 700, color: esitoUltima === "V" ? "#4caf50" : "#e57373" }}>{esitoUltima === "V" ? "Vinta" : "Persa"}</span>}
           </div>
         )}
@@ -8219,6 +8226,7 @@ function WeekendUmbriaPage() {
                       <div style={{ fontWeight: 600, fontSize: "0.92rem", lineHeight: 1.4 }}>
                         {nome(p.casa)} <span style={{ color: "var(--text-dim)", fontWeight: 400 }}>–</span> {nome(p.ospite)}
                         {p.risultato && <span style={{ color: "var(--gold)", marginLeft: "0.6rem" }}>{typeof p.risultato === "string" ? p.risultato : ""}</span>}
+                        {p.risultato && <ParzialiSet parziali={p.parziali} stile={{ marginLeft: "0.5rem" }} />}
                       </div>
                       <div style={{ color: "var(--text-dim)", fontSize: "0.76rem" }}>
                         {p.campionato}{p.giornata ? " · giornata " + p.giornata : ""}
