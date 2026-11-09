@@ -85,6 +85,7 @@ def fetch_campionato(campionato):
         casa = None
         ospite = None
         risultato = None
+        parziali = []
 
         for i, t in enumerate(testi):
             if re.match(r"\d{2}/\d{2}/\d{2}\s+\d{2}:\d{2}", t):
@@ -97,6 +98,9 @@ def fetch_campionato(campionato):
                     ospite = testi[i + 2]
                 if i + 3 < len(testi):
                     risultato = testi[i + 3]
+                if i + 4 < len(cells):
+                    parziali = [sp.get_text(strip=True) for sp in cells[i + 4].find_all("span", class_="parziali")]
+                    parziali = [x for x in parziali if re.match(r"^\d+-\d+$", x)]
                 break
 
         if not data_ora_testo or not casa or not ospite:
@@ -115,6 +119,7 @@ def fetch_campionato(campionato):
             "casa": casa,
             "ospite": ospite,
             "risultato": risultato if risultato and risultato != "-" else None,
+            "parziali": parziali,
         })
 
     return partite
