@@ -34,6 +34,7 @@ import RisultatiCalendario from "./RisultatiCalendario.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
 import riepilogoWeekendData from "../data/riepilogo_weekend.json";
+import squadraSettimanaData from "../data/squadra_settimana.json";
 import * as d3 from "d3";
 
 // Pulizia notizie esterne: via quelle troppo vecchie, di gossip o semplici pagine di tag
@@ -2208,12 +2209,22 @@ function SquadraSettimanaPage() {
     const tutte = tuttePartiteSquadre();
     const giocate = tutte.filter((p) => p.ris && leggiSet(p.ris)).sort((a, b) => a.data.localeCompare(b.data));
     if (giocate.length === 0) return null;
-    const oggi = iso(new Date());
-    const ultima = giocate[giocate.length - 1].data;
-    const fine = ultima > oggi ? oggi : ultima;
-    const da = new Date(fine + "T12:00:00"); da.setDate(da.getDate() - 6);
-    const dal = iso(da);
-    const settimana = giocate.filter((p) => p.data >= dal && p.data <= fine);
+    // La squadra si sceglie solo tra le partite dell'ultimo weekend (venerdi-domenica).
+    // Da lunedi a giovedi conta il weekend appena finito; da venerdi a domenica quello in corso.
+    const oggiD = new Date();
+    const oggi = iso(oggiD);
+    const dow = oggiD.getDay(); // 0 = domenica
+    const finisce = new Date(oggiD.getFullYear(), oggiD.getMonth(), oggiD.getDate(), 12);
+    if (dow >= 1 && dow <= 4) finisce.setDate(finisce.getDate() - dow); // domenica scorsa
+    let fine = iso(finisce);
+    let settimana = [], dal = fine;
+    for (let tentativo = 0; tentativo < 4 && settimana.length === 0; tentativo++) {
+      const f = new Date(fine + "T12:00:00");
+      const sab = new Date(f); sab.setDate(sab.getDate() - ((f.getDay() + 7 - 5) % 7)); // venerdi di quel weekend
+      dal = iso(sab);
+      settimana = giocate.filter((p) => p.data >= dal && p.data <= fine);
+      if (settimana.length === 0) { const prec = new Date(f); prec.setDate(prec.getDate() - 7); fine = iso(prec); }
+    }
     if (settimana.length === 0) return null;
     // per ogni squadra vincente: partita della settimana + serie di vittorie + record stagione
     const cand = {};
@@ -2308,9 +2319,42 @@ function SquadraSettimanaPage() {
           })(),
         }} />
         <p style={{ margin: "0.7rem 0 0", color: "var(--text-dim)", fontSize: "0.78rem" }}>
-          Come si sceglie: tra le squadre che hanno vinto nella settimana conta prima il livello del campionato, poi le vittorie consecutive, poi il successo senza set persi e quello in trasferta.
+          Come si sceglie: tra le squadre che hanno vinto nell'ultimo weekend conta prima il livello del campionato, poi le vittorie consecutive, poi il successo senza set persi e quello in trasferta.
         </p>
       </div>
+
+      {squadraSettimanaData && squadraSettimanaData.al === dati.fine && normSq(squadraSettimanaData.squadra) === normSq(v.nome) && (
+        <article className="ss-racconto" style={{ maxWidth: "720px", marginBottom: "2rem" }}>
+          <h2 style={{ fontSize: "1.25rem", color: "var(--gold)", margin: "0 0 0.8rem", lineHeight: 1.3 }}>{squadraSettimanaData.titolo}</h2>
+          {(squadraSettimanaData.foto || []).length > 0 && (
+            <div className="ss-foto">
+              {squadraSettimanaData.foto.map((f) => (
+                <figure key={f.file} style={{ margin: 0 }}>
+                  <img src={f.file} alt={f.didascalia || ""} loading="lazy" />
+                  <figcaption>{f.didascalia}{f.credito ? " · Foto: " + f.credito : ""}</figcaption>
+                </figure>
+              ))}
+            </div>
+          )}
+          {(squadraSettimanaData.commento || []).map((t, i) => (
+            <p key={i} style={{ lineHeight: 1.65, margin: "0 0 0.9rem" }}>{t}</p>
+          ))}
+          {squadraSettimanaData.galleria && squadraSettimanaData.galleria.url && (
+            <a href={squadraSettimanaData.galleria.url} target="_blank" rel="noopener noreferrer"
+              style={{ display: "block", border: "1px solid var(--gold)", borderRadius: "10px", padding: "0.8rem 1rem", margin: "0.4rem 0 1rem", textDecoration: "none", color: "inherit" }}>
+              <strong style={{ color: "var(--gold)" }}>{squadraSettimanaData.galleria.titolo} →</strong>
+              {squadraSettimanaData.galleria.nota && <span style={{ display: "block", color: "var(--text-dim)", fontSize: "0.78rem", marginTop: "0.25rem" }}>{squadraSettimanaData.galleria.nota}</span>}
+            </a>
+          )}
+          {(squadraSettimanaData.fonti || []).length > 0 && (
+            <p style={{ color: "var(--text-dim)", fontSize: "0.78rem", margin: "0.4rem 0 0" }}>
+              Fonti: {squadraSettimanaData.fonti.map((x, i) => (
+                <span key={x.url}>{i > 0 ? " · " : ""}<a href={x.url} target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>{x.titolo}</a></span>
+              ))}
+            </p>
+          )}
+        </article>
+      )}
 
       {dati.altre.length > 0 && (
         <section style={{ maxWidth: "720px", marginBottom: "2rem" }}>
