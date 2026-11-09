@@ -2131,6 +2131,7 @@ function RisultatiVetrina() {
                     <span className="vetrina-card__score">{sc ? sc[1] : "-"}<i>:</i>{sc ? sc[2] : "-"}</span>
                     <span className={"vetrina-card__sq" + (b > a ? " vetrina-card__sq--vince" : "")}>{tc(m.ospite)}</span>
                   </div>
+                  <div style={{ textAlign: "center", marginTop: "0.25rem" }}><ParzialiSet parziali={parzialiPerGara(m.comp, m.casa, m.ospite)} stile={{ fontSize: "0.7rem" }} /></div>
                 </div>
               );
             })}
@@ -2809,6 +2810,7 @@ function MatchRow({ match }) {
         </span>
         <span className="match__team">{match.away}</span>
       </div>
+      {disputata && <div style={{ textAlign: "center" }}><ParzialiSet parziali={parzialiPerGara(match.competition, match.home, match.away)} /></div>}
       {open && (
         <div className="match__detail">
           {match.data && <span>Quando: {match.data}</span>}
@@ -5239,7 +5241,7 @@ function HeadToHeadPage() {
                           <td className="classifica-table__nome" style={{ fontWeight: homeVince ? 700 : 400 }}>
                             {m.home}
                           </td>
-                          <td className="classifica-table__pts" style={{ whiteSpace: "nowrap" }}>{m.score}</td>
+                          <td className="classifica-table__pts" style={{ whiteSpace: "nowrap" }}>{m.score}<br /><ParzialiSet parziali={parzialiPerGara(m.competition, m.home, m.away)} stile={{ fontSize: "0.68rem", fontWeight: 400 }} /></td>
                           <td className="classifica-table__nome" style={{ fontWeight: !homeVince ? 700 : 400 }}>
                             {m.away}
                           </td>
@@ -7067,7 +7069,7 @@ function CalendarioRegionaliPage() {
                     {p.casa} <span style={{ color: "var(--text-dim)" }}>vs</span> {p.ospite}
                   </div>
                   {p.risultato && (
-                    <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato}</div>
+                    <div style={{ color: "var(--gold)", fontWeight: 700, marginTop: "0.2rem" }}>{p.risultato} <ParzialiSet parziali={p.parziali} /></div>
                   )}
                 </div>
               ))}
@@ -7105,6 +7107,17 @@ const categoriaBreve = (c) => (c || "").replace(/\s*Girone.*$/i, "").replace(/\s
 function ParzialiSet({ parziali, stile }) {
   if (!Array.isArray(parziali) || parziali.length === 0) return null;
   return <span style={{ color: "var(--text-dim)", fontSize: "0.78rem", fontWeight: 400, ...stile }}>({parziali.join(", ")})</span>;
+}
+
+let _mappaParziali = null;
+function parzialiPerGara(competizione, casa, ospite) {
+  if (!_mappaParziali) {
+    _mappaParziali = new Map();
+    Object.values(calendarioRegionaliData.partite || {}).flat().forEach((p) => {
+      if (Array.isArray(p.parziali) && p.parziali.length) _mappaParziali.set(normSq(p.campionato) + "|" + normSq(p.casa) + "|" + normSq(p.ospite), p.parziali);
+    });
+  }
+  return _mappaParziali.get(normSq(competizione) + "|" + normSq(casa) + "|" + normSq(ospite)) || null;
 }
 
 function tuttePartiteSquadre() {

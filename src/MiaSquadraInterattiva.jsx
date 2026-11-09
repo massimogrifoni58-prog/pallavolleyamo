@@ -338,6 +338,7 @@ function Calendario({ mie, mio, campionati, inCorso, onIcs, nome }) {
                   </span>
                   <span className="ms-partita__sub">
                     {d.toLocaleDateString("it-IT", { weekday: "short" })}{p.ora ? ` ${p.ora}` : ""} · {campBreve(p.camp)}{p.giornata ? ` · G${p.giornata}` : ""}
+                    {set && Array.isArray(p.parziali) && p.parziali.length > 0 && <span className="ms-partita__parziali"> · {p.parziali.join(", ")}</span>}
                   </span>
                 </span>
                 <span className="ms-partita__esito">

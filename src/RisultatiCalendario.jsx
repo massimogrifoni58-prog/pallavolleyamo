@@ -333,6 +333,7 @@ function Partita({ p, aperta, toggle, posDi, lista, grafica, onIcs, onApriSquadr
             {s && <b className="rc-p__set">{s[1]}</b>}
           </span>
           {conGiornata && numGiornata(p) !== null && <span className="rc-p__g">Giornata {numGiornata(p)}</span>}
+          {s && Array.isArray(p.parziali) && p.parziali.length > 0 && <span className="rc-p__parziali">{p.parziali.join(" · ")}</span>}
         </span>
         <span className="rc-p__stato">
           {s ? <span className="rc-fine">{s[0] + s[1] === 5 ? "tie-break" : "finale"}</span>
