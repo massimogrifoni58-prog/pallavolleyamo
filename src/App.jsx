@@ -33,6 +33,7 @@ import MiaSquadraInterattiva from "./MiaSquadraInterattiva.jsx";
 import RisultatiCalendario from "./RisultatiCalendario.jsx";
 import pallavoloUmbriaData from "../data/pallavolo-umbria.json";
 import calendarioRegionaliData from "../data/calendario_regionali.json";
+import riepilogoWeekendData from "../data/riepilogo_weekend.json";
 import * as d3 from "d3";
 
 // Pulizia notizie esterne: via quelle troppo vecchie, di gossip o semplici pagine di tag
@@ -1242,6 +1243,7 @@ function HomePage({ latestNews = [] }) {
       </div>     
       <CaroselloNotizie />
       <AvvisoApp />
+      <RiepilogoWeekendHome />
       <MiaSquadraHome />
       <DirettaOggiHome />
       {(weekendHome.mostra.length > 0 || (!inPausaEstiva && risultatiCard.length > 0)) && (
@@ -7423,6 +7425,25 @@ function MiaSquadraPage() {
   );
 }
 
+// Riquadro con il riepilogo del weekend: visibile solo nel giorno indicato in "data" e il giorno dopo (lunedì e martedì)
+function RiepilogoWeekendHome() {
+  const r = riepilogoWeekendData || {};
+  if (!r.titolo || !r.testo || !r.data) return null;
+  const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+  const inizio = new Date(r.data + "T12:00:00");
+  const fine = new Date(inizio); fine.setDate(inizio.getDate() + 1);
+  const oggi = iso(new Date());
+  if (oggi < iso(inizio) || oggi > iso(fine)) return null;
+  return (
+    <section className="riepilogo-weekend">
+      <p className="riepilogo-weekend__kicker">Il weekend in sintesi</p>
+      <h2 className="riepilogo-weekend__titolo">{r.titolo}</h2>
+      <p className="riepilogo-weekend__testo">{r.testo}</p>
+      <a href="#/weekend-umbria" className="riepilogo-weekend__link">Tutti i risultati del weekend →</a>
+    </section>
+  );
+}
+
 function DirettaOggiHome() {
   const adesso = new Date();
   const oggi = adesso.getFullYear() + "-" + String(adesso.getMonth() + 1).padStart(2, "0") + "-" + String(adesso.getDate()).padStart(2, "0");
@@ -8177,12 +8198,20 @@ function WeekendUmbriaPage() {
             .filter((p) => p.data === g)
             .sort((a, b) => (a.ora || "").localeCompare(b.ora || ""));
           if (dellGiorno.length === 0) return null;
+          if (concluso) {
+            const ordine = { "Serie C": 0, "Serie D": 1, "Giovanili": 2 };
+            dellGiorno.sort((a, b) => (ordine[macro(a.campionato)] - ordine[macro(b.campionato)]) || (a.ora || "").localeCompare(b.ora || ""));
+          }
+          const Contenitore = concluso ? "details" : "div";
+          const Titolo = concluso ? "summary" : "div";
           return (
-            <div key={g} style={{ marginBottom: "2rem", maxWidth: "720px" }}>
-              <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", textTransform: "capitalize", margin: "0 0 0.6rem" }}>
+            <Contenitore key={g} open={concluso ? false : undefined} style={{ marginBottom: "2rem", maxWidth: "720px" }}>
+              <Titolo style={{ cursor: concluso ? "pointer" : "default", listStyle: concluso ? "revert" : "none", margin: "0 0 0.6rem" }}>
+              <h3 style={{ display: "inline", color: "var(--gold)", fontSize: "1.05rem", textTransform: "capitalize", margin: 0 }}>
                 {etichetta(g)} <span style={{ color: "var(--text-dim)", fontSize: "0.8rem" }}>({dellGiorno.length} partite)</span>
               </h3>
-              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+              </Titolo>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "0.6rem" }}>
                 {dellGiorno.map((p) => (
                   <div key={p.id} style={{ display: "flex", gap: "0.9rem", alignItems: "flex-start", border: "1px solid var(--border)", borderRadius: "10px", padding: "0.65rem 0.9rem" }}>
                     <div style={{ minWidth: "3.2rem", fontWeight: 700, fontSize: "0.95rem" }}>{p.ora || "—"}</div>
@@ -8199,7 +8228,7 @@ function WeekendUmbriaPage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </Contenitore>
           );
         })}
       </section>

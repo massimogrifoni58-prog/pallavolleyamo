@@ -5799,3 +5799,11 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
 .avviso-app__passi b { color: #ffb347; }
 .avviso-app { animation: avviso-entra 0.6s ease-out both; }
 @keyframes avviso-entra { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+
+/* Riepilogo del weekend in home (lunedì e martedì) */
+.riepilogo-weekend{margin:1.2rem auto;max-width:1100px;padding:1.1rem 1.3rem;border:1px solid var(--gold);border-left-width:5px;border-radius:12px;background:rgba(212,175,55,0.07)}
+.riepilogo-weekend__kicker{margin:0 0 .25rem;color:var(--gold);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+.riepilogo-weekend__titolo{margin:0 0 .5rem;font-size:1.4rem;line-height:1.25}
+.riepilogo-weekend__testo{margin:0 0 .7rem;font-size:.97rem;line-height:1.6;max-width:75ch}
+.riepilogo-weekend__link{color:var(--gold);font-weight:600;text-decoration:none;font-size:.92rem}
+@media (max-width:700px){.riepilogo-weekend{margin:1rem 16px;padding:.9rem 1rem}.riepilogo-weekend__titolo{font-size:1.2rem}}
