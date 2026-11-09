@@ -66,6 +66,17 @@ function punteggiDiScorta() {
   return mappa;
 }
 
+// Il portale scrive ogni parziale in un riquadro suo, quindi arrivano già
+// separati: qui si controlla solo che siano quanti i set giocati e scritti
+// nella forma "25-19".
+function parzialiCoerenti(parziali, setCasa, setOspite) {
+  if (!Array.isArray(parziali) || setCasa == null || setOspite == null) return null;
+  const quanti = setCasa + setOspite;
+  if (quanti === 0 || parziali.length !== quanti) return null;
+  const puliti = parziali.filter((x) => /^\d{1,2}-\d{1,2}$/.test(String(x || "").trim()));
+  return puliti.length === quanti ? puliti.map((x) => String(x).trim()) : null;
+}
+
 function partiteDi(campId) {
   const scorta = punteggiDiScorta();
   const lista = (calRegionali.partite || {})[campId] || [];
@@ -83,6 +94,11 @@ function partiteDi(campId) {
         ospite: p.ospite,
         setCasa,
         setOspite,
+        // I parziali arrivano dal portale già divisi set per set. Si passano
+        // solo se il loro numero torna con i set vinti: un elenco incompleto,
+        // o rimasto da un risultato poi corretto, farebbe vedere una partita
+        // diversa da quella giocata, ed è peggio di non averli.
+        parziali: parzialiCoerenti(p.parziali, setCasa, setOspite),
       };
     })
     .sort((a, b) => (a.data < b.data ? -1 : a.data > b.data ? 1 : 0));
