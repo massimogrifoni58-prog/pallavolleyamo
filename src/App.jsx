@@ -2339,6 +2339,13 @@ function SquadraSettimanaPage() {
           {(squadraSettimanaData.commento || []).map((t, i) => (
             <p key={i} style={{ lineHeight: 1.65, margin: "0 0 0.9rem" }}>{t}</p>
           ))}
+          {squadraSettimanaData.galleria && squadraSettimanaData.galleria.url && (
+            <a href={squadraSettimanaData.galleria.url} target="_blank" rel="noopener noreferrer"
+              style={{ display: "block", border: "1px solid var(--gold)", borderRadius: "10px", padding: "0.8rem 1rem", margin: "0.4rem 0 1rem", textDecoration: "none", color: "inherit" }}>
+              <strong style={{ color: "var(--gold)" }}>{squadraSettimanaData.galleria.titolo} →</strong>
+              {squadraSettimanaData.galleria.nota && <span style={{ display: "block", color: "var(--text-dim)", fontSize: "0.78rem", marginTop: "0.25rem" }}>{squadraSettimanaData.galleria.nota}</span>}
+            </a>
+          )}
           {(squadraSettimanaData.fonti || []).length > 0 && (
             <p style={{ color: "var(--text-dim)", fontSize: "0.78rem", margin: "0.4rem 0 0" }}>
               Fonti: {squadraSettimanaData.fonti.map((x, i) => (
