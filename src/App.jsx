@@ -8405,7 +8405,8 @@ function PallavoloUmbriaPage() {
                 {sezioniVisibili.filter((s) => s.titolo).map((s, i) => {
                   const anteprima = (s.testo && s.testo[0]) || (s.elenco || []).slice(0, 3).join(" · ");
                   return (
-                    <button key={i} type="button" className="sv-quadro" onClick={() => setArticoloAperto(s)}>
+                    <button key={i} type="button" className={"sv-quadro" + (s.foto ? " sv-quadro--foto" : "")} onClick={() => setArticoloAperto(s)}>
+                      {s.foto && <img className="sv-quadro__foto" src={s.foto} alt="" loading="lazy" />}
                       <span className="sv-quadro__titolo">{s.titolo}</span>
                       <span className="sv-quadro__testo">{anteprima}</span>
                       <span className="sv-quadro__leggi">Leggi →</span>
@@ -8418,6 +8419,7 @@ function PallavoloUmbriaPage() {
               <div className="sv-modal" role="dialog" aria-modal="true" aria-label={articoloAperto.titolo} onClick={() => setArticoloAperto(null)}>
                 <div className="sv-modal__box" onClick={(e) => e.stopPropagation()}>
                   <button type="button" className="sv-modal__chiudi" onClick={() => setArticoloAperto(null)} aria-label="Chiudi">×</button>
+                  {articoloAperto.foto && <img className="sv-modal__foto" src={articoloAperto.foto} alt="" />}
                   <h3 className="sv-modal__titolo">{articoloAperto.titolo}</h3>
                   {(articoloAperto.testo || []).map((p, j) => (
                     <p key={j} style={{ fontSize: "0.95rem", lineHeight: 1.7, margin: "0 0 0.85rem" }}>{p}</p>
