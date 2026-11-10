@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Installa dipendenze
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 pillow
       - name: Scarica calendari e risultati
         run: |
           cd scraper
@@ -54,7 +54,9 @@ jobs:
                       print("CAMBIATO:", p)
           EOF
       - name: Aggiorna squadre in evidenza (ultimo risultato e prossima partita)
-        run: python scraper/aggiorna_squadre_evidenza.py
+        run: |
+          python scraper/aggiorna_squadre_evidenza.py
+          python scraper/assegna_foto_sezioni.py
       - name: Commit e push (senza force)
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
