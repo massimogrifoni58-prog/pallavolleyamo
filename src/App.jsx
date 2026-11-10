@@ -8330,6 +8330,15 @@ function PallavoloUmbriaPage() {
   const partiteCD = serieCD.partite || [];
   const archivio = dati.archivio || [];
   const [filtro, setFiltro] = useState("Tutte");
+  const [articoloAperto, setArticoloAperto] = useState(null);
+  useEffect(() => {
+    if (!articoloAperto) return undefined;
+    const chiudi = (e) => { if (e.key === "Escape") setArticoloAperto(null); };
+    document.addEventListener("keydown", chiudi);
+    const prima = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.removeEventListener("keydown", chiudi); document.body.style.overflow = prima; };
+  }, [articoloAperto]);
 
   const squadreVisibili = squadre.filter((s) =>
     filtro === "Tutte" ? true : filtro === "Femminile" ? s.genere === "F" : s.genere === "M"
@@ -8383,25 +8392,47 @@ function PallavoloUmbriaPage() {
         )}
         <CondividiBar titolo={dati.titolo} percorso="pallavolo-umbria" />
         {dati.sezioni && dati.sezioni.length > 0 ? (
-          <div style={{ maxWidth: "66ch", marginBottom: "2rem" }}>
-            {sezioniVisibili.map((s, i) => (
-              <div key={i} style={{ marginBottom: "1.75rem" }}>
-                {s.titolo && (
-                  <h3 style={{ color: "var(--gold)", fontSize: "1.05rem", lineHeight: 1.3, margin: "0 0 0.55rem" }}>{s.titolo}</h3>
-                )}
+          <>
+            {sezioniVisibili.filter((s) => !s.titolo).map((s, i) => (
+              <div key={"intro" + i} style={{ maxWidth: "66ch", marginBottom: "1.5rem" }}>
                 {(s.testo || []).map((p, j) => (
                   <p key={j} style={{ fontSize: "0.93rem", lineHeight: 1.7, margin: "0 0 0.85rem" }}>{p}</p>
                 ))}
-                {s.elenco && s.elenco.length > 0 && (
-                  <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.55rem" }}>
-                    {s.elenco.map((e, k) => (
-                      <li key={k} style={{ fontSize: "0.93rem", lineHeight: 1.6 }}>{e}</li>
-                    ))}
-                  </ul>
-                )}
               </div>
             ))}
-          </div>
+            {sezioniVisibili.some((s) => s.titolo) && (
+              <div className="sv-griglia">
+                {sezioniVisibili.filter((s) => s.titolo).map((s, i) => {
+                  const anteprima = (s.testo && s.testo[0]) || (s.elenco || []).slice(0, 3).join(" · ");
+                  return (
+                    <button key={i} type="button" className="sv-quadro" onClick={() => setArticoloAperto(s)}>
+                      <span className="sv-quadro__titolo">{s.titolo}</span>
+                      <span className="sv-quadro__testo">{anteprima}</span>
+                      <span className="sv-quadro__leggi">Leggi →</span>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+            {articoloAperto && (
+              <div className="sv-modal" role="dialog" aria-modal="true" aria-label={articoloAperto.titolo} onClick={() => setArticoloAperto(null)}>
+                <div className="sv-modal__box" onClick={(e) => e.stopPropagation()}>
+                  <button type="button" className="sv-modal__chiudi" onClick={() => setArticoloAperto(null)} aria-label="Chiudi">×</button>
+                  <h3 className="sv-modal__titolo">{articoloAperto.titolo}</h3>
+                  {(articoloAperto.testo || []).map((p, j) => (
+                    <p key={j} style={{ fontSize: "0.95rem", lineHeight: 1.7, margin: "0 0 0.85rem" }}>{p}</p>
+                  ))}
+                  {articoloAperto.elenco && articoloAperto.elenco.length > 0 && (
+                    <ul style={{ margin: 0, paddingLeft: "1.2rem", display: "flex", flexDirection: "column", gap: "0.55rem" }}>
+                      {articoloAperto.elenco.map((e, k) => (
+                        <li key={k} style={{ fontSize: "0.95rem", lineHeight: 1.6 }}>{e}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </div>
+            )}
+          </>
         ) : (
           dati.commento && (
             <p style={{ lineHeight: 1.75, maxWidth: "66ch", marginBottom: "1.75rem", whiteSpace: "pre-line" }}>{iscritto ? dati.commento : dati.commento.split(/\n\s*\n/)[0]}</p>
