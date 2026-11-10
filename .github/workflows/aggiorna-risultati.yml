@@ -53,11 +53,13 @@ jobs:
                   else:
                       print("CAMBIATO:", p)
           EOF
+      - name: Aggiorna squadre in evidenza (ultimo risultato e prossima partita)
+        run: python scraper/aggiorna_squadre_evidenza.py
       - name: Commit e push (senza force)
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
           git config --global user.name "PallaVolleyAmo Bot"
-          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json react-app/data/risultati_nazionali.json data/risultati_nazionali.json react-app/data/risultati_nazionali_fipav.json data/risultati_nazionali_fipav.json
+          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json react-app/data/risultati_nazionali.json data/risultati_nazionali.json react-app/data/risultati_nazionali_fipav.json data/risultati_nazionali_fipav.json data/pallavolo-umbria.json react-app/data/pallavolo-umbria.json
           if git diff --staged --quiet; then
             echo "Nessun cambiamento, esco"
             exit 0

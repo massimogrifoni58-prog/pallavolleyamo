@@ -67,7 +67,12 @@
       "nome": "Pallavolo Città di Castello",
       "categoria": "Serie B2 – Girone G",
       "ultimo": null,
-      "prossima": null,
+      "prossima": {
+        "quando": "2026-11-14",
+        "ora": "18:30",
+        "casa": "Pallavolo Città di Castello",
+        "ospite": "Astra Chiusure Lampo"
+      },
       "commento": "Il risultato della gara con I'Giglio del 31 ottobre non è ancora disponibile nelle fonti consultate."
     },
     {
@@ -81,7 +86,12 @@
         "ospite": "Sir Susa Scai Perugia",
         "risultato": "2-3"
       },
-      "prossima": null,
+      "prossima": {
+        "quando": "2026-11-22",
+        "ora": "18:00",
+        "casa": "Gas Sales Bluenergy Piacenza",
+        "ospite": "Sir Susa Scai Perugia"
+      },
       "commento": "Vittoria al tie-break a Trento nel big match, prima sconfitta stagionale per l'Itas."
     }
   ],
