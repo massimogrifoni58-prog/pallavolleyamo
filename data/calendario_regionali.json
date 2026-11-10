@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:38:29.529201+00:00",
+  "generatedAt": "2026-11-10T03:22:08.423324+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9275,7 +9275,7 @@
         "campionato": "Under 17 Femminile Girone A",
         "giornata": "5",
         "data": "2026-11-10",
-        "ora": "17:30",
+        "ora": "20:30",
         "casa": "TRESTINA VOLLEY",
         "ospite": "PALLAVOLO GUBBIO",
         "risultato": null,
@@ -10028,8 +10028,13 @@
         "ora": "19:30",
         "casa": "VOLLEY 86 PETRIGNANO",
         "ospite": "FOLIGNO VOLLEY GIALLA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "15-25",
+          "19-25",
+          "25-18",
+          "7-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-c-13",
@@ -10619,8 +10624,13 @@
         "ora": "18:30",
         "casa": "POLISP DON BOSCO GUBBIO BIANCA",
         "ospite": "REBELS MARCONI MONINI ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "25-27",
+          "25-20",
+          "15-25",
+          "20-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-elite-1",
@@ -11085,8 +11095,12 @@
         "ora": "17:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
         "ospite": "NEW VOLLEY BORGO SANSEPOLCRO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "23-25",
+          "21-25",
+          "17-25"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-a-15",
@@ -11475,8 +11489,14 @@
         "ora": "18:15",
         "casa": "PMU MARSCIANO",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-21",
+          "20-25",
+          "25-20",
+          "19-25",
+          "13-15"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-d-15",
@@ -12052,8 +12072,12 @@
         "ora": "18:45",
         "casa": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
         "ospite": "ORVIETO VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "15-25",
+          "11-25",
+          "21-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-f-10",
@@ -19397,8 +19421,8 @@
         "id": "giov-under-15-maschile-girone-a-11",
         "campionato": "Under 15 Maschile Girone A",
         "giornata": "4",
-        "data": "2026-11-29",
-        "ora": "10:30",
+        "data": "2026-12-13",
+        "ora": "11:00",
         "casa": "SIR GIOVANILE MERICAT PG",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
         "risultato": null,
@@ -20366,8 +20390,12 @@
         "ora": "17:00",
         "casa": "SIRIO PALLAVOLO ROSSA",
         "ospite": "SIR PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "16-25",
+          "13-25",
+          "11-25"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-b-6",
@@ -22357,8 +22385,13 @@
         "ora": "17:30",
         "casa": "STRIKE TEAM MONTELUCE UNDER 17",
         "ospite": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "23-25",
+          "25-14",
+          "25-16",
+          "25-21"
+        ]
       },
       {
         "id": "giov-under-17-maschile-girone-b-8",
@@ -22368,8 +22401,12 @@
         "ora": "19:00",
         "casa": "POLISPORTIVA CLT",
         "ospite": "V. NARNI S.A.",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "15-25",
+          "14-25",
+          "24-26"
+        ]
       },
       {
         "id": "giov-under-17-maschile-girone-b-9",
@@ -24101,8 +24138,12 @@
         "ora": "18:00",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "INTER VOLLEY FOLIGNO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-6",
+          "25-12",
+          "25-2"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-e-5",

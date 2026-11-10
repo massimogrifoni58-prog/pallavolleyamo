@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:35:00.290245+00:00",
+  "generatedAt": "2026-11-10T03:23:04.518095+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -12463,8 +12463,8 @@
       "giornata": "Giornata 5",
       "home": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131639430",
@@ -13327,8 +13327,8 @@
       "giornata": "Giornata 3",
       "home": "STRIKE TEAM MONTELUCE UNDER 17",
       "away": "MARCONI MONINI-TERNI VOLLEY ACCADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131644344",
@@ -13336,8 +13336,8 @@
       "giornata": "Giornata 3",
       "home": "POLISPORTIVA CLT",
       "away": "V. NARNI S.A.",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131644342",
@@ -13660,8 +13660,8 @@
       "giornata": "Giornata 1",
       "home": "POLISP DON BOSCO GUBBIO BIANCA",
       "away": "REBELS MARCONI MONINI ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641217",
@@ -13934,20 +13934,20 @@
       "status": "disputata"
     },
     {
-      "id": "131641434",
-      "competition": "Under 17 Femminile Girone A",
-      "giornata": "Giornata 5",
-      "home": "TRESTINA VOLLEY",
-      "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641433",
       "competition": "Under 17 Femminile Girone A",
       "giornata": "Giornata 5",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641434",
+      "competition": "Under 17 Femminile Girone A",
+      "giornata": "Giornata 5",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO GUBBIO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -14488,8 +14488,8 @@
       "giornata": "Giornata 5",
       "home": "VOLLEY 86 PETRIGNANO",
       "away": "FOLIGNO VOLLEY GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641504",
@@ -14749,8 +14749,8 @@
       "giornata": "Giornata 5",
       "home": "PMU MARSCIANO",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131641533",
@@ -15163,8 +15163,8 @@
       "giornata": "Giornata 5",
       "home": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
       "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641579",
@@ -16288,8 +16288,8 @@
       "giornata": "Giornata 2",
       "home": "SIRIO PALLAVOLO ROSSA",
       "away": "SIR PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131659130",
@@ -17098,8 +17098,8 @@
       "giornata": "Giornata 2",
       "home": "VIANDER ACTON BASTIA",
       "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131659493",
