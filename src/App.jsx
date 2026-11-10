@@ -7550,49 +7550,31 @@ function MiaSquadraHome() {
       </section>
     );
   }
-  // Una riga per categoria: se la società ha più squadre (Serie D, Under 15, ...) si capisce subito di quale si parla
+  // La prossima e l'ultima partita della squadra, qualunque sia la categoria; si scrive di quale categoria sono
   const tutteMie = tuttePartiteSquadre().filter((p) => squadraMia(p.casa, nome) || squadraMia(p.ospite, nome));
-  const perCat = {};
-  tutteMie.forEach((p) => { const c = categoriaBreve(p.camp); (perCat[c] = perCat[c] || []).push(p); });
-  const righe = Object.keys(perCat).map((c) => {
-    const l = perCat[c];
-    const prossima = l.filter((p) => ancoraDaGiocare(p) && !inCorso(p)).sort((x, y) => (x.data + x.ora).localeCompare(y.data + y.ora))[0];
-    const ultima = l.filter((p) => p.ris && esitoPartita(p, nome)).sort((x, y) => (y.data + (y.ora || "")).localeCompare(x.data + (x.ora || "")))[0];
-    return { c, prossima, ultima };
-  }).filter((r) => r.prossima || r.ultima)
-    .sort((x, y) => ((x.prossima ? x.prossima.data : "9") + x.c).localeCompare((y.prossima ? y.prossima.data : "9") + y.c))
-    ;
-  const altre = Math.max(0, righe.length - 1);
-  righe.length = Math.min(righe.length, 1);
+  const prossima = tutteMie.filter((p) => ancoraDaGiocare(p) && !inCorso(p)).sort((x, y) => (x.data + x.ora).localeCompare(y.data + y.ora))[0];
+  const ultima = tutteMie.filter((p) => p.ris && esitoPartita(p, nome)).sort((x, y) => (y.data + (y.ora || "")).localeCompare(x.data + (x.ora || "")))[0];
+  const esitoUltima = ultima ? esitoPartita(ultima, nome) : null;
+  const Cat = ({ p }) => <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase", letterSpacing: "0.03em", marginRight: "0.4rem" }}>{categoriaBreve(p.camp)}</span>;
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
-        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}{righe[0] ? " · " + righe[0].c : ""}</div>
-        {righe.length === 0 && (
+        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}</div>
+        {prossima ? (
+          <div style={{ marginTop: "0.3rem", fontSize: "0.92rem" }}>
+            <Cat p={prossima} />{prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
+          </div>
+        ) : (
           <div style={{ marginTop: "0.3rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>Nessuna partita in programma. Tocca per vedere i risultati.</div>
         )}
-        {righe.map(({ c, prossima, ultima }) => {
-          const esitoUltima = ultima ? esitoPartita(ultima, nome) : null;
-          return (
-            <div key={c} style={{ marginTop: "0.3rem" }}>
-              {prossima ? (
-                <div style={{ fontSize: "0.92rem" }}>
-                  {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
-                </div>
-              ) : (
-                <div style={{ marginTop: "0.15rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>Nessuna partita in programma.</div>
-              )}
-              {ultima && (
-                <div style={{ marginTop: "0.25rem", fontSize: "0.88rem" }}>
-                  <span style={{ color: "var(--text-dim)" }}>Ultimo risultato ({dataBreve(ultima.data)}): </span>
-                  {ultima.casa} <strong>{ultima.ris}</strong> {ultima.ospite} <ParzialiSet parziali={ultima.parziali} />
-                  {esitoUltima && <span style={{ marginLeft: "0.4rem", fontWeight: 700, color: esitoUltima === "V" ? "#4caf50" : "#e57373" }}>{esitoUltima === "V" ? "Vinta" : "Persa"}</span>}
-                </div>
-              )}
-            </div>
-          );
-        })}
-        {altre > 0 && <div style={{ marginTop: "0.4rem", fontSize: "0.78rem", color: "var(--text-dim)" }}>+ altre {altre} {altre === 1 ? "categoria" : "categorie"} · tocca per vederle →</div>}
+        {ultima && (
+          <div style={{ marginTop: "0.35rem", fontSize: "0.88rem" }}>
+            <Cat p={ultima} />
+            <span style={{ color: "var(--text-dim)" }}>Ultimo risultato ({dataBreve(ultima.data)}): </span>
+            {ultima.casa} <strong>{ultima.ris}</strong> {ultima.ospite} <ParzialiSet parziali={ultima.parziali} />
+            {esitoUltima && <span style={{ marginLeft: "0.4rem", fontWeight: 700, color: esitoUltima === "V" ? "#4caf50" : "#e57373" }}>{esitoUltima === "V" ? "Vinta" : "Persa"}</span>}
+          </div>
+        )}
       </a>
       <InvitoIscrizione testo="Segui la tua squadra e leggi tutte le notizie." />
     </section>
