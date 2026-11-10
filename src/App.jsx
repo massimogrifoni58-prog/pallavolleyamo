@@ -7561,22 +7561,22 @@ function MiaSquadraHome() {
     return { c, prossima, ultima };
   }).filter((r) => r.prossima || r.ultima)
     .sort((x, y) => ((x.prossima ? x.prossima.data : "9") + x.c).localeCompare((y.prossima ? y.prossima.data : "9") + y.c))
-    .slice(0, 4);
-  const molte = righe.length > 1;
+    ;
+  const altre = Math.max(0, righe.length - 1);
+  righe.length = Math.min(righe.length, 1);
   return (
     <section className="section">
       <a href="#/mia-squadra" style={{ display: "block", textDecoration: "none", color: "inherit", border: "2px solid var(--gold)", borderRadius: "12px", padding: "0.9rem 1.1rem", background: "rgba(212,175,55,0.07)" }}>
-        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}</div>
+        <div style={{ fontSize: "0.72rem", color: "var(--gold)", textTransform: "uppercase", fontWeight: 700 }}>La mia squadra · {nomeMostrato(nome)}{righe[0] ? " · " + righe[0].c : ""}</div>
         {righe.length === 0 && (
           <div style={{ marginTop: "0.3rem", fontSize: "0.85rem", color: "var(--text-dim)" }}>Nessuna partita in programma. Tocca per vedere i risultati.</div>
         )}
-        {righe.map(({ c, prossima, ultima }, i) => {
+        {righe.map(({ c, prossima, ultima }) => {
           const esitoUltima = ultima ? esitoPartita(ultima, nome) : null;
           return (
-            <div key={c} style={{ marginTop: "0.55rem", paddingTop: molte && i > 0 ? "0.55rem" : 0, borderTop: molte && i > 0 ? "1px solid rgba(212,175,55,0.25)" : "none" }}>
-              <div style={{ fontSize: "0.72rem", fontWeight: 700, color: "var(--gold)", textTransform: "uppercase", letterSpacing: "0.04em" }}>{c}</div>
+            <div key={c} style={{ marginTop: "0.3rem" }}>
               {prossima ? (
-                <div style={{ marginTop: "0.15rem", fontSize: "0.92rem" }}>
+                <div style={{ fontSize: "0.92rem" }}>
                   {prossima.casa} vs {prossima.ospite} — <strong>{dataBreve(prossima.data)}{prossima.ora ? ` ore ${prossima.ora}` : ""}</strong>
                 </div>
               ) : (
@@ -7592,6 +7592,7 @@ function MiaSquadraHome() {
             </div>
           );
         })}
+        {altre > 0 && <div style={{ marginTop: "0.4rem", fontSize: "0.78rem", color: "var(--text-dim)" }}>+ altre {altre} {altre === 1 ? "categoria" : "categorie"} · tocca per vederle →</div>}
       </a>
       <InvitoIscrizione testo="Segui la tua squadra e leggi tutte le notizie." />
     </section>
