@@ -57,11 +57,12 @@ jobs:
         run: |
           python scraper/aggiorna_squadre_evidenza.py
           python scraper/assegna_foto_sezioni.py
+          python scraper/riepilogo_weekend_auto.py
       - name: Commit e push (senza force)
         run: |
           git config --global user.email "massimogrifoni58@gmail.com"
           git config --global user.name "PallaVolleyAmo Bot"
-          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json react-app/data/risultati_nazionali.json data/risultati_nazionali.json react-app/data/risultati_nazionali_fipav.json data/risultati_nazionali_fipav.json data/pallavolo-umbria.json react-app/data/pallavolo-umbria.json
+          git add react-app/data/calendario_regionali.json react-app/data/risultati.json data/calendario_regionali.json data/risultati.json react-app/data/risultati_nazionali.json data/risultati_nazionali.json react-app/data/risultati_nazionali_fipav.json data/risultati_nazionali_fipav.json data/pallavolo-umbria.json react-app/data/pallavolo-umbria.json data/riepilogo_weekend.json react-app/data/riepilogo_weekend.json
           if git diff --staged --quiet; then
             echo "Nessun cambiamento, esco"
             exit 0
