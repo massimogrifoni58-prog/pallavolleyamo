@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T06:02:55.966108+00:00",
+  "generatedAt": "2026-11-11T12:22:40.174955+00:00",
   "posts": [
     {
       "id": "seriecvolleyilcltvinceilderbya",
@@ -13,9 +13,9 @@
       "title": "Orvieto Volley Academy, è subito vittoria nell'esordio di Campionato U15",
       "excerpt": "Fonte: orvietonews.it",
       "createdTime": "Wed, 04 Nov 2026 15:59:00 GMT",
-      "image": "/upload/immagini/2026/11/orvietovolleyacademy9-.jpg",
+      "image": null,
       "permalink": "https://www.orvietonews.it/sport/2026/11/05/orvieto-volley-academy-subito-vittoria-nell-esordio-di-campionato-u15-124669.html",
-      "id": "1"
+      "id": "2"
     },
     {
       "id": "volleyfemminileperugiaterniegu",
@@ -31,7 +31,7 @@
       "createdTime": "Tue, 23 Jun 2026 01:56:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-23-at-10.54.10.jpeg",
       "permalink": "https://www.umbria24.it/sport24/pallavolo-clt-terni-tre-atleti-convocati-al-trofeo-delle-regioni-2026/",
-      "id": "4"
+      "id": "5"
     },
     {
       "title": "L'Amerina Pallavolo in Serie C dopo una stagione condotta sempre in testa",
@@ -39,7 +39,7 @@
       "createdTime": "Tue, 21 Apr 2026 03:35:00 GMT",
       "image": "https://www.sporterni.it/immagini/articoli/27304.jpg",
       "permalink": "https://www.sporterni.it/articolo.php?id=27304",
-      "id": "5"
+      "id": "6"
     },
     {
       "id": "superenalottocentratoarivadelg",
@@ -71,7 +71,7 @@
       "createdTime": "Sun, 01 Nov 2026 23:55:00 GMT",
       "image": "https://www.umbria24.it/wp-content/uploads/2026/11/505120934_4103919666518434_5204898827848320480_n.jpg",
       "permalink": "https://www.umbria24.it/sport24/la-terni-volley-academy-centra-la-prima-vittoria-3-1-contro-galatone/",
-      "id": "2"
+      "id": "3"
     },
     {
       "id": "alpanathlonaffascinanteseratac",
@@ -103,15 +103,15 @@
       "createdTime": "Mon, 29 Jun 2026 08:28:00 GMT",
       "image": null,
       "permalink": "https://www.orvietosport.it/category/volley/pallavolo-az-zambelli/",
-      "id": "3"
+      "id": "4"
     },
     {
       "title": "Orvieto Volley Academy, sconfitta a domicilio aspettando la Pallavolo Arrone",
       "excerpt": "Fonte: orvietonews.it",
       "createdTime": "Mon, 16 Feb 2026 16:00:00 GMT",
-      "image": "/upload/immagini/2026/01/orvietovolleyacademy27-.jpg",
+      "image": null,
       "permalink": "https://www.orvietonews.it/sport/2026/02/17/orvieto-volley-academy-sconfitta-a-domicilio-aspettando-la-pallavolo-arrone-120248.html",
-      "id": "6"
+      "id": "7"
     },
     {
       "id": "bosicovolleyunder13altorneonaz",
@@ -128,6 +128,14 @@
       "createdTime": "Mon, 09 Jul 2018 06:00:00 GMT",
       "image": "https://img.terninrete.it/2019/03/MG_6237.jpg",
       "permalink": "https://terninrete.it/notizie-di-terni-volley-la-bosico-under-14-vince-il-4176-torneo-nazionale-summer-volley-cup-475244/"
+    },
+    {
+      "title": "Terni Volley Academy e Avis tra sport e socialità: ingresso gratuito alle partite per chi dona il sangue",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Fri, 06 Nov 2026 04:18:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/11/505120934_4103919666518434_5204898827848320480_n-1.jpg",
+      "permalink": "https://www.umbria24.it/sport24/terni-volley-academy-e-avis-tra-sport-e-socialita-ingresso-gratuito-alle-partite-per-chi-dona-il-sangue/",
+      "id": "1"
     }
   ]
 }
