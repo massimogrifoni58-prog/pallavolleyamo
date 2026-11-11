@@ -5837,3 +5837,8 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
 .sv-quadro--foto .sv-quadro__titolo,.sv-quadro--foto .sv-quadro__testo,.sv-quadro--foto .sv-quadro__leggi{position:relative;z-index:2}
 .sv-quadro--foto .sv-quadro__testo{color:#e8e6df}
 .sv-quadro--foto .sv-quadro__titolo{text-shadow:0 1px 3px rgba(0,0,0,.8)}
+
+/* Modalita chiara: il titolo del sito era bianco su sfondo bianco (si leggeva solo VOLLEY) */
+body.light-mode .masthead__title { color: #1a1a1a; }
+body.light-mode .masthead__title span { color: #b8860b; }
+body.light-mode .masthead__tagline { color: #555; }
