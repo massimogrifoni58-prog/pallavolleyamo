@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T12:27:22.205213+00:00",
+  "generatedAt": "2026-11-12T02:10:48.292148+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9299,8 +9299,14 @@
         "ora": "19:15",
         "casa": "POLIS. DON BOSCO  GUBBIO VERDE",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "23-25",
+          "29-27",
+          "15-25",
+          "26-24",
+          "16-14"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-a-15",
@@ -9657,8 +9663,12 @@
         "ora": "19:00",
         "casa": "SIRIO PALLAVOLO ROSSA",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "11-25",
+          "13-25",
+          "14-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-b-13",
@@ -10450,8 +10460,12 @@
         "ora": "20:00",
         "casa": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-17",
+          "25-21",
+          "25-19"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-14",
@@ -10764,8 +10778,12 @@
         "ora": "18:00",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "POLISP DON BOSCO GUBBIO BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "18-25",
+          "22-25",
+          "9-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-elite-9",
@@ -11105,8 +11123,13 @@
         "ora": "20:00",
         "casa": "TRESTINA VOLLEY",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-11",
+          "25-16",
+          "21-25",
+          "25-20"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-a-14",
@@ -11488,8 +11511,12 @@
         "ora": "19:30",
         "casa": "SIRIO PALLAVOLO ARANCIO",
         "ospite": "REVISIONANDO VITT CHIUSI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-13",
+          "25-13",
+          "25-23"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-d-13",
@@ -11524,7 +11551,7 @@
         "campionato": "Under 17 Femminile Girone D",
         "giornata": "6",
         "data": "2026-11-17",
-        "ora": "17:00",
+        "ora": "19:30",
         "casa": "SIRIO PALLAVOLO ARANCIO",
         "ospite": "UMBRIA VOLLEY ACADEMY DERUTA 17",
         "risultato": null,
@@ -11838,8 +11865,13 @@
         "ora": "18:30",
         "casa": "FARMACIA ANGELICI ARRONE",
         "ospite": "FOLIGNO VOLLEY ROSSA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-13",
+          "25-13",
+          "20-25",
+          "25-15"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-e-10",
@@ -12352,8 +12384,12 @@
         "ora": "19:30",
         "casa": "LYNX ACQUASPARTA VOLLEY",
         "ospite": "NARNI SPORT ACADEMY DENIM",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-14",
+          "25-11",
+          "25-13"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-g-9",
@@ -12598,8 +12634,12 @@
         "ora": "17:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "10-25",
+          "9-25",
+          "13-25"
+        ]
       },
       {
         "id": "giov-under-19-maschile-girone-a-9",
@@ -19711,8 +19751,13 @@
         "ora": "16:30",
         "casa": "MARCONI MONINI-TERNI VA",
         "ospite": "V. NARNI S.A.",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-18",
+          "27-29",
+          "25-22",
+          "25-23"
+        ]
       },
       {
         "id": "giov-under-15-maschile-girone-b-4",
@@ -19722,8 +19767,12 @@
         "ora": "17:30",
         "casa": "SIR MERICAT RED",
         "ospite": "SIR MERICAT ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-16",
+          "25-9",
+          "25-16"
+        ]
       },
       {
         "id": "giov-under-15-maschile-girone-b-5",
@@ -20775,8 +20824,12 @@
         "ora": "18:00",
         "casa": "SCHOOL VOLLEY PERUGIA AZZURRO",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "29-27",
+          "25-22",
+          "25-19"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-c-6",
@@ -21451,8 +21504,13 @@
         "ora": "18:00",
         "casa": "COLLELUNA VOLLEY SAN GEMINI",
         "ospite": "POLISPORTIVA CLT",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-23",
+          "26-24",
+          "16-25",
+          "25-22"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-e-4",
@@ -22025,8 +22083,13 @@
         "ora": "16:30",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "22-25",
+          "25-16",
+          "25-16",
+          "25-18"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-g-4",
@@ -22051,8 +22114,13 @@
         "ora": "17:00",
         "casa": "ASD CASCIA PALLAVOLO",
         "ospite": "BOSICO GIOIELLERIE BARTOCCINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "24-26",
+          "14-25",
+          "25-19",
+          "16-25"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-g-6",
@@ -22422,8 +22490,14 @@
         "ora": "17:00",
         "casa": "SIR GIOVANILE MERICAT GREEN",
         "ospite": "INTER VOLLEY FOLIGNO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-14",
+          "27-29",
+          "25-20",
+          "22-25",
+          "13-15"
+        ]
       },
       {
         "id": "giov-under-17-maschile-girone-b-7",
@@ -23387,8 +23461,12 @@
         "ora": "20:00",
         "casa": "SIR GIOVANILE MERICAT",
         "ospite": "MARCHETTI PRO VITT CHIUSI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-12",
+          "25-17",
+          "25-16"
+        ]
       },
       {
         "id": "giov-under-17-maschile-girone-a-7",
@@ -23833,8 +23911,12 @@
         "ora": "19:30",
         "casa": "ELLERA VOLLEY BLU",
         "ospite": "SCHOOL VOLLEY PERUGIA NERO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-20",
+          "27-25",
+          "26-24"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-d-4",
@@ -24180,8 +24262,12 @@
         "ora": "19:00",
         "casa": "REBELS ASSISI U15",
         "ospite": "TREVI VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-8",
+          "25-13",
+          "25-21"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-e-4",
