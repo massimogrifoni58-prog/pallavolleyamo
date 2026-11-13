@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:03:21.704855+00:00",
+  "generatedAt": "2026-11-13T12:49:32.147352+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -13385,20 +13385,20 @@
       "status": "in programma"
     },
     {
-      "id": "131644350",
-      "competition": "Under 17 Maschile Girone B",
-      "giornata": "Giornata 5",
-      "home": "SIR GIOVANILE MERICAT GREEN",
-      "away": "STRIKE TEAM MONTELUCE UNDER 17",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644348",
       "competition": "Under 17 Maschile Girone B",
       "giornata": "Giornata 5",
       "home": "SIR MERICAT PERUGIA",
       "away": "INTER VOLLEY FOLIGNO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644350",
+      "competition": "Under 17 Maschile Girone B",
+      "giornata": "Giornata 5",
+      "home": "SIR GIOVANILE MERICAT GREEN",
+      "away": "STRIKE TEAM MONTELUCE UNDER 17",
       "score": "da disputare",
       "status": "in programma"
     },
