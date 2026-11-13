@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:34:21.193455+00:00",
+  "generatedAt": "2026-11-13T01:44:16.248920+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9678,8 +9678,12 @@
         "ora": "19:30",
         "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
         "ospite": "VOLLEY PONTE FELCINO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-20",
+          "25-23",
+          "25-22"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-b-14",
@@ -9689,8 +9693,12 @@
         "ora": "18:15",
         "casa": "STRIKE TEAM MONTELUCE U17",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-9",
+          "25-16",
+          "25-20"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-b-15",
@@ -10793,8 +10801,14 @@
         "ora": "19:15",
         "casa": "TIBER VOLLEY",
         "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-21",
+          "20-25",
+          "25-21",
+          "21-25",
+          "9-15"
+        ]
       },
       {
         "id": "giov-under-17-femminile-elite-10",
@@ -12118,8 +12132,14 @@
         "ora": "18:45",
         "casa": "NARNI SPORT ACADEMY RUBINO",
         "ospite": "GR IMPIANTI - THAI NARNI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "18-25",
+          "16-25",
+          "25-20",
+          "25-20",
+          "15-8"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-f-9",
@@ -13152,8 +13172,12 @@
         "ora": "20:30",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "SIRIO PALLAVOLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-18",
+          "25-16",
+          "25-15"
+        ]
       },
       {
         "id": "giov-under-19-femminile-elite-10",
@@ -13163,8 +13187,12 @@
         "ora": "19:45",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "TIBER VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-11",
+          "25-9",
+          "25-12"
+        ]
       },
       {
         "id": "giov-under-19-femminile-elite-11",
@@ -19417,8 +19445,13 @@
         "ora": "17:30",
         "casa": "CITTA DI CASTELLO PALLAVOLO",
         "ospite": "SIR GIOVANILE MERICAT PG",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-12",
+          "25-20",
+          "20-25",
+          "25-16"
+        ]
       },
       {
         "id": "giov-under-15-maschile-girone-a-5",
@@ -20111,8 +20144,12 @@
         "ora": "16:45",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "8-25",
+          "11-25",
+          "11-25"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-a-4",
@@ -21163,8 +21200,12 @@
         "ora": "18:30",
         "casa": "LYNX ACQUASPARTA VOLLEY",
         "ospite": "U14 FOLIGNO VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "10-25",
+          "13-25",
+          "15-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-d-5",
@@ -21520,8 +21561,14 @@
         "ora": "18:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
         "ospite": "AMERINA PALLAVOLO A S D",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "25-18",
+          "25-15",
+          "19-25",
+          "22-25",
+          "15-12"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-e-5",
@@ -24628,7 +24675,7 @@
         "id": "giov-under-14-femminile-girone-a-4",
         "campionato": "Under 14 Femminile Girone A",
         "giornata": "2",
-        "data": "2026-11-12",
+        "data": "2027-01-07",
         "ora": "16:30",
         "casa": "TRESTINA VOLLEY",
         "ospite": "TIBER VOLLEY",
@@ -24970,8 +25017,14 @@
         "ora": "17:00",
         "casa": "REBELS ASSISI U14 ROSSA",
         "ospite": "TIBER VOLLEY FUCSIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "25-27",
+          "22-25",
+          "25-11",
+          "25-20",
+          "15-11"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-b-4",
@@ -25312,8 +25365,14 @@
         "ora": "17:15",
         "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
         "ospite": "PELLICANO  VITT CHIUSI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-22",
+          "21-25",
+          "18-25",
+          "25-21",
+          "4-15"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-c-4",
@@ -25323,8 +25382,12 @@
         "ora": "18:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-12",
+          "25-6",
+          "25-19"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-c-5",
@@ -25334,8 +25397,13 @@
         "ora": "17:00",
         "casa": "STRIKE TEAM MONTELUCE U14 F",
         "ospite": "REBELS ASSISI U14 BLU",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-19",
+          "25-22",
+          "21-25",
+          "25-20"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-c-6",
