@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:03:44.380147+00:00",
+  "generatedAt": "2026-11-14T11:55:47.266566+00:00",
   "matches": [
     {
       "id": "lv999-5",
@@ -286,6 +286,136 @@
       "dataIso": "2026-12-27",
       "ora": "18:00",
       "impianto": "Palasport San Giustino - San Giustino (PG)"
+    },
+    {
+      "id": "lv1002-1205",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 4",
+      "home": "ROMEO SORRENTO",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "3-1",
+      "status": "disputata",
+      "data": "Domenica 18/10/2026 ore 19:00",
+      "dataIso": "2026-10-18",
+      "ora": "19:00",
+      "impianto": "PalAtigliana - Sorrento (NA)"
+    },
+    {
+      "id": "lv1002-1211",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 4",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "ENERGYTIME CAMPOBASSO",
+      "score": "0-3",
+      "status": "disputata",
+      "data": "Sabato 24/10/2026 ore 18:00",
+      "dataIso": "2026-10-24",
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
+    },
+    {
+      "id": "lv1002-1215",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 4",
+      "home": "GREEN VOLLEY GALATONE",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "1-3",
+      "status": "disputata",
+      "data": "Sabato 31/10/2026 ore 18:00",
+      "dataIso": "2026-10-31",
+      "ora": "18:00",
+      "impianto": "Palasport di Galatone - Galatone (LE)"
+    },
+    {
+      "id": "lv1002-1223",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 4",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "TONNO CALLIPO VIBO VALENTIA",
+      "score": "3-1",
+      "status": "disputata",
+      "data": "Sabato 7/11/2026 ore 18:00",
+      "dataIso": "2026-11-07",
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
+    },
+    {
+      "id": "lv1002-1229",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 5",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "AVIMEC MODICA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Sabato 14/11/2026 ore 16:00",
+      "dataIso": "2026-11-14",
+      "ora": "16:00",
+      "impianto": "PalaTerni - Terni (TR)"
+    },
+    {
+      "id": "lv1002-1231",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 6",
+      "home": "BCC TECBUS CASTELLANA GROTTE",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Domenica 22/11/2026 ore 16:00",
+      "dataIso": "2026-11-22",
+      "ora": "16:00",
+      "impianto": "PalaGrotte - Castellana Grotte (BA)"
+    },
+    {
+      "id": "lv1002-1241",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 7",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "AURISPA DFV CAPO DI LEUCA",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Domenica 29/11/2026 ore 19:00",
+      "dataIso": "2026-11-29",
+      "ora": "19:00",
+      "impianto": "PalaTerni - Terni (TR)"
+    },
+    {
+      "id": "lv1002-1247",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 8",
+      "home": "MARICOR CORIGLIANO",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Domenica 6/12/2026 ore 18:00",
+      "dataIso": "2026-12-06",
+      "ora": "18:00",
+      "impianto": "Pala Brillia - Corigliano Calabro (CS)"
+    },
+    {
+      "id": "lv1002-1253",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 9",
+      "home": "TERNI VOLLEY ACADEMY",
+      "away": "PAG VOLLEY TAVIANO",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Domenica 13/12/2026 ore 18:00",
+      "dataIso": "2026-12-13",
+      "ora": "18:00",
+      "impianto": "PalaTerni - Terni (TR)"
+    },
+    {
+      "id": "lv1002-1263",
+      "competition": "Serie A3 Maschile Girone Blu",
+      "giornata": "Giornata 11",
+      "home": "VIRIDEX AGRO PONTINO",
+      "away": "TERNI VOLLEY ACADEMY",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "Domenica 27/12/2026 ore 18:00",
+      "dataIso": "2026-12-27",
+      "ora": "18:00",
+      "impianto": "Palasport di Cisterna di Latina - Cisterna di Latina (LT)"
     }
   ]
 }

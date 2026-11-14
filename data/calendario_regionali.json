@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T06:07:06.552607+00:00",
+  "generatedAt": "2026-11-14T11:59:05.830881+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -12015,7 +12015,7 @@
         "giornata": "1",
         "data": "2026-10-15",
         "ora": "18:00",
-        "casa": "GR IMPIANTI - THAI NARNI",
+        "casa": "GR IMPIANTI e THAI - NARNI",
         "ospite": "AMERINA PALLAVOLO A S D",
         "risultato": "3 - 0",
         "parziali": [
@@ -12094,7 +12094,7 @@
         "data": "2026-10-29",
         "ora": "18:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
-        "ospite": "GR IMPIANTI - THAI NARNI",
+        "ospite": "GR IMPIANTI e THAI - NARNI",
         "risultato": "3 - 2",
         "parziali": [
           "25-22",
@@ -12125,7 +12125,7 @@
         "giornata": "4",
         "data": "2026-11-05",
         "ora": "18:00",
-        "casa": "GR IMPIANTI - THAI NARNI",
+        "casa": "GR IMPIANTI e THAI - NARNI",
         "ospite": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
         "risultato": "3 - 0",
         "parziali": [
@@ -12141,7 +12141,7 @@
         "data": "2026-11-12",
         "ora": "18:45",
         "casa": "NARNI SPORT ACADEMY RUBINO",
-        "ospite": "GR IMPIANTI - THAI NARNI",
+        "ospite": "GR IMPIANTI e THAI - NARNI",
         "risultato": "3 - 2",
         "parziali": [
           "18-25",
@@ -12173,7 +12173,7 @@
         "data": "2026-11-19",
         "ora": "19:15",
         "casa": "AMERINA PALLAVOLO A S D",
-        "ospite": "GR IMPIANTI - THAI NARNI",
+        "ospite": "GR IMPIANTI e THAI - NARNI",
         "risultato": null,
         "parziali": []
       },
@@ -12227,7 +12227,7 @@
         "giornata": "8",
         "data": "2026-12-03",
         "ora": "18:00",
-        "casa": "GR IMPIANTI - THAI NARNI",
+        "casa": "GR IMPIANTI e THAI - NARNI",
         "ospite": "ORVIETO VOLLEY ACADEMY",
         "risultato": null,
         "parziali": []
@@ -12250,7 +12250,7 @@
         "data": "2026-12-14",
         "ora": "18:45",
         "casa": "ASD PGS BOSICO VOLLEY GREEN BARTOCCINI GIOIELLERIE",
-        "ospite": "GR IMPIANTI - THAI NARNI",
+        "ospite": "GR IMPIANTI e THAI - NARNI",
         "risultato": null,
         "parziali": []
       },
@@ -12260,7 +12260,7 @@
         "giornata": "10",
         "data": "2026-12-17",
         "ora": "18:00",
-        "casa": "GR IMPIANTI - THAI NARNI",
+        "casa": "GR IMPIANTI e THAI - NARNI",
         "ospite": "NARNI SPORT ACADEMY RUBINO",
         "risultato": null,
         "parziali": []
@@ -21521,7 +21521,7 @@
         "giornata": "1",
         "data": "2026-11-04",
         "ora": "19:00",
-        "casa": "NARNI",
+        "casa": "FALASCA C.D.A.",
         "ospite": "ORVIETO VOLLEY ACADEMY",
         "risultato": "2 - 3",
         "parziali": [
@@ -21603,7 +21603,7 @@
         "data": "2026-11-13",
         "ora": "18:45",
         "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
-        "ospite": "NARNI",
+        "ospite": "FALASCA C.D.A.",
         "risultato": "0 - 3",
         "parziali": [
           "13-25",
@@ -21617,7 +21617,7 @@
         "giornata": "3",
         "data": "2026-11-18",
         "ora": "19:00",
-        "casa": "NARNI",
+        "casa": "FALASCA C.D.A.",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
         "risultato": null,
         "parziali": []
@@ -21673,7 +21673,7 @@
         "data": "2026-11-26",
         "ora": "18:15",
         "casa": "AMERINA PALLAVOLO A S D",
-        "ospite": "NARNI",
+        "ospite": "FALASCA C.D.A.",
         "risultato": null,
         "parziali": []
       },
@@ -21683,7 +21683,7 @@
         "giornata": "5",
         "data": "2026-12-02",
         "ora": "19:00",
-        "casa": "NARNI",
+        "casa": "FALASCA C.D.A.",
         "ospite": "POLISPORTIVA CLT",
         "risultato": null,
         "parziali": []
@@ -21717,7 +21717,7 @@
         "data": "2026-12-10",
         "ora": "18:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
-        "ospite": "NARNI",
+        "ospite": "FALASCA C.D.A.",
         "risultato": null,
         "parziali": []
       },
@@ -21771,7 +21771,7 @@
         "giornata": "7",
         "data": "2026-12-16",
         "ora": "19:00",
-        "casa": "NARNI",
+        "casa": "FALASCA C.D.A.",
         "ospite": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
         "risultato": null,
         "parziali": []
@@ -21783,7 +21783,7 @@
         "data": "2027-01-13",
         "ora": "18:00",
         "casa": "COLLELUNA VOLLEY SAN GEMINI",
-        "ospite": "NARNI",
+        "ospite": "FALASCA C.D.A.",
         "risultato": null,
         "parziali": []
       },
@@ -21837,7 +21837,7 @@
         "giornata": "9",
         "data": "2027-01-20",
         "ora": "19:00",
-        "casa": "NARNI",
+        "casa": "FALASCA C.D.A.",
         "ospite": "AMERINA PALLAVOLO A S D",
         "risultato": null,
         "parziali": []
@@ -21849,7 +21849,7 @@
         "data": "2027-01-26",
         "ora": "18:00",
         "casa": "POLISPORTIVA CLT",
-        "ospite": "NARNI",
+        "ospite": "FALASCA C.D.A.",
         "risultato": null,
         "parziali": []
       },
@@ -21899,7 +21899,7 @@
         "data": "2026-11-02",
         "ora": "18:15",
         "casa": "PMU MARSCIANO BIANCA",
-        "ospite": "FREE GAS&LUCE NARNI",
+        "ospite": "FREE GAS & LUCE NARNI",
         "risultato": "2 - 3",
         "parziali": [
           "25-27",
@@ -21915,7 +21915,7 @@
         "giornata": "2",
         "data": "2026-11-13",
         "ora": "19:00",
-        "casa": "FREE GAS&LUCE NARNI",
+        "casa": "FREE GAS & LUCE NARNI",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
         "risultato": "3 - 1",
         "parziali": [
@@ -21943,7 +21943,7 @@
         "data": "2026-11-18",
         "ora": "19:00",
         "casa": "REALE MUTUA TUDER VOLLEY",
-        "ospite": "FREE GAS&LUCE NARNI",
+        "ospite": "FREE GAS & LUCE NARNI",
         "risultato": null,
         "parziali": []
       },
@@ -21998,7 +21998,7 @@
         "data": "2026-12-06",
         "ora": "11:00",
         "casa": "ORVIETO VOLLEY ACADEMY",
-        "ospite": "FREE GAS&LUCE NARNI",
+        "ospite": "FREE GAS & LUCE NARNI",
         "risultato": null,
         "parziali": []
       },
@@ -22019,7 +22019,7 @@
         "giornata": "6",
         "data": "2026-12-11",
         "ora": "19:00",
-        "casa": "FREE GAS&LUCE NARNI",
+        "casa": "FREE GAS & LUCE NARNI",
         "ospite": "PMU MARSCIANO BIANCA",
         "risultato": null,
         "parziali": []
@@ -22031,7 +22031,7 @@
         "data": "2026-12-18",
         "ora": "18:30",
         "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
-        "ospite": "FREE GAS&LUCE NARNI",
+        "ospite": "FREE GAS & LUCE NARNI",
         "risultato": null,
         "parziali": []
       },
@@ -22052,7 +22052,7 @@
         "giornata": "8",
         "data": "2027-01-15",
         "ora": "19:00",
-        "casa": "FREE GAS&LUCE NARNI",
+        "casa": "FREE GAS & LUCE NARNI",
         "ospite": "REALE MUTUA TUDER VOLLEY",
         "risultato": null,
         "parziali": []
@@ -22107,7 +22107,7 @@
         "giornata": "10",
         "data": "2027-01-29",
         "ora": "19:00",
-        "casa": "FREE GAS&LUCE NARNI",
+        "casa": "FREE GAS & LUCE NARNI",
         "ospite": "ORVIETO VOLLEY ACADEMY",
         "risultato": null,
         "parziali": []
