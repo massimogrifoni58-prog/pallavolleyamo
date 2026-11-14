@@ -8192,6 +8192,9 @@ function GeneraPostWeekend() {
 
 function WeekendUmbriaPage() {
   const [filtro, setFiltro] = useState("Tutte");
+  const [cerca, setCerca] = useState("");
+  const [giornoSel, setGiornoSel] = useState("");
+  const [mostraTutte, setMostraTutte] = useState(false);
   const iso = (d) => d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
   const nome = (s) => (s || "").toLowerCase().replace(/(^|[\s\-'])(\S)/g, (m, a, b) => a + b.toUpperCase()).replace(/ (Di|Da|Del|Della)(?= )/g, (m) => m.toLowerCase());
   const macro = (c) => (/^Serie C/.test(c || "") ? "Serie C" : /^Serie D/.test(c || "") ? "Serie D" : "Giovanili");
@@ -8214,7 +8217,20 @@ function WeekendUmbriaPage() {
   };
   const tutte = Object.values(calendarioRegionaliData.partite || {}).flat()
     .filter((p) => p.data && giorni.includes(p.data));
-  const visibili = tutte.filter((p) => filtro === "Tutte" || macro(p.campionato) === filtro);
+  const q = normSq(cerca);
+  const filtriAttivi = q.length >= 2 || filtro !== "Tutte" || giornoSel !== "" || mostraTutte;
+  const visibili = tutte.filter((p) => {
+    if (filtro !== "Tutte" && macro(p.campionato) !== filtro) return false;
+    if (giornoSel && p.data !== giornoSel) return false;
+    if (q.length >= 2) {
+      const testo = normSq([p.casa, p.ospite, p.campionato].join(" "));
+      return q.split(" ").every((w) => testo.includes(w));
+    }
+    return true;
+  });
+  const conteggio = (f) => tutte.filter((p) => f === "Tutte" || macro(p.campionato) === f).length;
+  const nomeGiorno = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "short" });
+  const reset = () => { setCerca(""); setFiltro("Tutte"); setGiornoSel(""); setMostraTutte(false); };
 
   const etichetta = (d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "long" });
   const periodo = new Date(giorni[0] + "T12:00:00").toLocaleDateString("it-IT", { day: "numeric", month: "long" })
@@ -8238,24 +8254,49 @@ function WeekendUmbriaPage() {
           Tutte le gare di Serie C, Serie D e dei campionati giovanili FIPAV Umbria in programma tra venerdì e domenica.
           Il calendario e i risultati si aggiornano automaticamente durante il giorno.
         </p>
-        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+        <div className="wk-cerca">
+          <input
+            type="search"
+            className="wk-cerca__campo"
+            placeholder="Cerca squadra o campionato (es. Amerina)"
+            value={cerca}
+            onChange={(e) => setCerca(e.target.value)}
+            aria-label="Cerca nelle partite del weekend"
+          />
+        </div>
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "0.6rem" }}>
           {["Tutte", "Serie C", "Serie D", "Giovanili"].map((f) => (
-            <button key={f} onClick={() => setFiltro(f)} style={chip(filtro === f)}>{f}</button>
+            <button key={f} onClick={() => { setFiltro(f); setMostraTutte(false); }} style={chip(filtro === f)}>{f} <span style={{ opacity: 0.7 }}>({conteggio(f)})</span></button>
           ))}
         </div>
-        {!concluso && visibili.some((p) => !p.risultato) && (
+        <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+          {giorni.map((g) => (
+            <button key={g} onClick={() => setGiornoSel(giornoSel === g ? "" : g)} style={{ ...chip(giornoSel === g), textTransform: "capitalize" }}>{nomeGiorno(g)}</button>
+          ))}
+          {filtriAttivi && <button onClick={reset} style={{ ...chip(false), borderStyle: "dashed" }}>Azzera</button>}
+        </div>
+        {!filtriAttivi && (
+          <div className="wk-invito">
+            <p style={{ margin: "0 0 0.7rem" }}>
+              Ci sono <strong>{tutte.length} partite</strong> in questo weekend. Scrivi il nome di una squadra, scegli un campionato o un giorno e trovi subito le sue partite.
+            </p>
+            <button onClick={() => setMostraTutte(true)} style={{ ...chip(false), borderColor: "var(--gold)", color: "var(--gold)" }}>Mostra tutte le {tutte.length} partite</button>
+          </div>
+        )}
+        {filtriAttivi && <p style={{ color: "var(--text-dim)", fontSize: "0.85rem", margin: "0 0 1rem" }}>{visibili.length} {visibili.length === 1 ? "partita trovata" : "partite trovate"}</p>}
+        {filtriAttivi && !concluso && visibili.some((p) => !p.risultato) && (
           <VicinoATe
             partite={visibili}
             nome={nome}
             etichettaGiorno={(d) => new Date(d + "T12:00:00").toLocaleDateString("it-IT", { weekday: "long", day: "numeric", month: "short" })}
           />
         )}
-        {visibili.length === 0 && (
+        {filtriAttivi && visibili.length === 0 && (
           <p style={{ color: "var(--text-dim)" }}>
-            Nessuna partita in programma per questo weekend{filtro !== "Tutte" ? " in " + filtro : ""}. Il calendario si aggiorna ogni due ore.
+            Nessuna partita trovata{q ? " per \u201c" + cerca + "\u201d" : ""}{filtro !== "Tutte" ? " in " + filtro : ""}. Il calendario si aggiorna ogni due ore.
           </p>
         )}
-        {giorni.map((g) => {
+        {filtriAttivi && giorni.map((g) => {
           const dellGiorno = visibili
             .filter((p) => p.data === g)
             .sort((a, b) => (a.ora || "").localeCompare(b.ora || ""));
@@ -8267,7 +8308,7 @@ function WeekendUmbriaPage() {
           const Contenitore = concluso ? "details" : "div";
           const Titolo = concluso ? "summary" : "div";
           return (
-            <Contenitore key={g} open={concluso ? false : undefined} style={{ marginBottom: "2rem", maxWidth: "720px" }}>
+            <Contenitore key={g} open={concluso ? (q.length >= 2 || giornoSel ? true : false) : undefined} style={{ marginBottom: "2rem", maxWidth: "720px" }}>
               <Titolo style={{ cursor: concluso ? "pointer" : "default", listStyle: concluso ? "revert" : "none", margin: "0 0 0.6rem" }}>
               <h3 style={{ display: "inline", color: "var(--gold)", fontSize: "1.05rem", textTransform: "capitalize", margin: 0 }}>
                 {etichetta(g)} <span style={{ color: "var(--text-dim)", fontSize: "0.8rem" }}>({dellGiorno.length} partite)</span>
