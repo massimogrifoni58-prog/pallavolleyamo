@@ -690,18 +690,16 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
             { href: "#/squadre-top", label: "News Squadre", sub: "Le squadre umbre di vertice" },
           ]}
         />
-        <a href="#/risultati" className="nav-btn nav-btn--diretto" onClick={() => setMenuOpen(false)}>Risultati</a>
-        <a href="#/classifica" className="nav-btn nav-btn--diretto" onClick={() => setMenuOpen(false)}>Classifiche</a>
         <NavDropdown
           label="Campionati"
           tre
           subscribed={subscribed}
           items={[
-            { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire" },
-            { href: "#/dirette", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
+            { href: "#/risultati", label: "Risultati", sub: "Tutti i campionati umbri" },
+            { href: "#/classifica", label: "Classifiche", sub: "Le classifiche aggiornate" },
             { href: "#/headtohead", label: "Head to Head", sub: "Confronta due squadre" },
             { href: "#/mappa", label: "Mappa volley", sub: "Società e palestre" },
-            { href: "#/squadre-iscritte", label: "Squadre iscritte", sub: "Chi partecipa ai campionati" },
+            { href: "#/dirette", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
           ]}
         />
         <NavDropdown
