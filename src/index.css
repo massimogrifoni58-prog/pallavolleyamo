@@ -5842,3 +5842,9 @@ body.light-mode .masthead__riservata .nav-dropdown__menu { background: #ffffff; 
 body.light-mode .masthead__title { color: #1a1a1a; }
 body.light-mode .masthead__title span { color: #b8860b; }
 body.light-mode .masthead__tagline { color: #555; }
+
+/* Weekend in Umbria: ricerca */
+.wk-cerca{margin:0 0 .8rem;max-width:560px}
+.wk-cerca__campo{width:100%;box-sizing:border-box;padding:.75rem 1rem;font-size:1rem;border-radius:12px;border:1px solid var(--gold);background:rgba(255,255,255,.04);color:inherit;font-family:inherit}
+.wk-cerca__campo:focus{outline:2px solid var(--gold);outline-offset:1px}
+.wk-invito{max-width:560px;border:1px dashed var(--border);border-radius:12px;padding:1rem 1.1rem;font-size:.93rem;line-height:1.55}
