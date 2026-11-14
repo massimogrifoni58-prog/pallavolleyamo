@@ -675,6 +675,9 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
         <a href="#/cerca" className="cerca-btn cerca-btn--mobile">Cerca</a>
       </div>
       <nav className={`nav-bar ${menuOpen ? "nav-bar--open" : ""}`}>
+        <a href="#/mia-squadra" className="nav-btn nav-btn--diretto nav-btn--evidenza" onClick={() => setMenuOpen(false)}>La mia squadra</a>
+        <a href="#/pallavolo-umbria" className="nav-btn nav-btn--diretto nav-btn--evidenza" onClick={() => setMenuOpen(false)}>La settimana</a>
+        <a href="#/weekend-umbria" className="nav-btn nav-btn--diretto nav-btn--evidenza" onClick={() => setMenuOpen(false)}>Il weekend</a>
         <NavDropdown
           label="Notizie"
           subscribed={subscribed}
@@ -694,9 +697,6 @@ function Masthead({ latestFive, darkMode, toggleDark, subscribed }) {
           tre
           subscribed={subscribed}
           items={[
-            { href: "#/pallavolo-umbria", label: "La Settimana Volley", sub: "Il commento della settimana: derby, big match e partite da segnare", evidenza: true },
-            { href: "#/mia-squadra", label: "La mia squadra", sub: "Partite e risultati della tua squadra", evidenza: true },
-            { href: "#/weekend-umbria", label: "Il weekend in Umbria", sub: "Partite e orari di venerdì, sabato e domenica", evidenza: true },
             { href: "#/squadra-settimana", label: "Squadra della Settimana", sub: "La squadra da applaudire" },
             { href: "#/dirette", label: "Dirette live", sub: (diretteData.dirette || []).length > 0 ? "Ci sono partite in corso!" : "Le partite in corso" },
             { href: "#/headtohead", label: "Head to Head", sub: "Confronta due squadre" },
