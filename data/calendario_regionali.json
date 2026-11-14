@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T12:52:41.297031+00:00",
+  "generatedAt": "2026-11-14T01:22:47.183424+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -10457,8 +10457,14 @@
         "ora": "20:30",
         "casa": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-16",
+          "18-25",
+          "22-25",
+          "25-23",
+          "15-17"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-13",
@@ -10483,8 +10489,12 @@
         "ora": "18:30",
         "casa": "REBELS ASSISI U19",
         "ospite": "FOLIGNO - SPELLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "22-25",
+          "23-25",
+          "11-25"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-15",
@@ -12419,8 +12429,12 @@
         "ora": "18:15",
         "casa": "ASD PGS BOSICO VOLLEY RED BARTOCCINI GIOIELLERIE",
         "ospite": "DIFDIF VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-22",
+          "26-24",
+          "25-15"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-g-10",
@@ -12643,8 +12657,12 @@
         "ora": "19:00",
         "casa": "SIR MERICAT ASSISI",
         "ospite": "UMBERTIDE-COLOMBELLA VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-19",
+          "25-6",
+          "25-12"
+        ]
       },
       {
         "id": "giov-under-19-maschile-girone-a-8",
@@ -13721,8 +13739,12 @@
         "ora": "21:00",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "SCAI VOLLEY 86 PETRIGNANO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-10",
+          "25-20",
+          "26-24"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-3",
@@ -19480,7 +19502,7 @@
         "campionato": "Under 15 Maschile Girone A",
         "giornata": "3",
         "data": "2026-11-20",
-        "ora": "18:15",
+        "ora": "18:30",
         "casa": "STRIKE TEAM MONTELUCE U15",
         "ospite": "SIR GIOVANILE MERICAT PG",
         "risultato": null,
@@ -20504,8 +20526,12 @@
         "ora": "17:00",
         "casa": "PMU MARSCIANO BLU",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-17",
+          "25-14",
+          "25-17"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-b-5",
@@ -21578,8 +21604,12 @@
         "ora": "18:45",
         "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
         "ospite": "NARNI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "13-25",
+          "11-25",
+          "7-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-e-6",
@@ -21887,8 +21917,13 @@
         "ora": "19:00",
         "casa": "FREE GAS&LUCE NARNI",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI BLU",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-23",
+          "18-25",
+          "25-11",
+          "25-20"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-f-3",
@@ -22119,8 +22154,12 @@
         "ora": "18:30",
         "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
         "ospite": "ASD CASCIA PALLAVOLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-15",
+          "25-17",
+          "25-22"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-g-3",
@@ -23539,8 +23578,12 @@
         "ora": "17:00",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
         "ospite": "CITTA DI CASTELLO PALLAVOLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-14",
+          "25-11",
+          "25-12"
+        ]
       },
       {
         "id": "giov-under-17-maschile-girone-a-9",
@@ -25432,7 +25475,7 @@
         "campionato": "Under 14 Femminile Girone C",
         "giornata": "3",
         "data": "2026-11-20",
-        "ora": "00:00",
+        "ora": "16:30",
         "casa": "STRIKE TEAM MONTELUCE U14 F",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
         "risultato": null,
