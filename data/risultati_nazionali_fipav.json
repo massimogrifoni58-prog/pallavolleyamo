@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T23:35:03.954744+00:00",
+  "generatedAt": "2026-11-15T00:01:55.580227+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -335,42 +335,6 @@
       "status": "in programma",
       "data": "05/12/2026 ore 21:00",
       "dataIso": "2026-12-05",
-      "ora": "21:00"
-    },
-    {
-      "id": "fp11260",
-      "competition": "Serie B2 Girone G",
-      "giornata": "Giornata",
-      "home": "PALLAV. CITTA' DI CASTELLO",
-      "away": "BELLOVERDE V.B.C. VITERBO",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "12/12/2026 ore 18:30",
-      "dataIso": "2026-12-12",
-      "ora": "18:30"
-    },
-    {
-      "id": "fp11061",
-      "competition": "Serie B2 Girone F",
-      "giornata": "Giornata",
-      "home": "STARVOLLEY CITTA' DI CAST.",
-      "away": "VIVA VOLLEY TORTORETO",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "12/12/2026 ore 21:00",
-      "dataIso": "2026-12-12",
-      "ora": "21:00"
-    },
-    {
-      "id": "fp11258",
-      "competition": "Serie B2 Girone G",
-      "giornata": "Giornata",
-      "home": "FAIL GROUP MARSCIANO",
-      "away": "C.M.E. VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "12/12/2026 ore 21:00",
-      "dataIso": "2026-12-12",
       "ora": "21:00"
     },
     {
