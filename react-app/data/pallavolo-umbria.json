@@ -1,7 +1,7 @@
 {
-  "aggiornamento": "2026-11-09",
-  "settimana": "9 – 15 novembre 2026",
-  "commento": "Il weekend del 7 e 8 novembre: la Sir Susa Scai Perugia vince al tie-break a Trento, la Terni Volley Academy batte 3-1 Vibo Valentia, in Serie C femminile Deruta passa 3-0 ad Amelia e la Sirio Perugia conosce la prima sconfitta in B1.",
+  "aggiornamento": "2026-11-16",
+  "settimana": "16 – 22 novembre 2026",
+  "commento": "Una settimana che parte con il sapore della Supercoppa: Perugia ha battuto Trento in semifinale e Civitanova in finale, al tie-break. Intanto l'Umbria dei campionati regionali e nazionali risponde presente: la Bartoccini +energia arriva a sei vittorie di fila, Altotevere e Terni Volley Academy vincono in A3, Amerina Pallavolo conquista il derby di Serie C al quinto set.",
   "derby": {
     "titolo": "Derby Città di Castello – Marsciano",
     "nota": "Serie B2 femminile, girone G. All'andata ha vinto Marsciano 3-0.",
@@ -23,18 +23,18 @@
       "nome": "Sirio Perugia Volley",
       "categoria": "Serie B1 – Girone C",
       "ultimo": {
-        "quando": "7 novembre",
-        "casa": "San Giorgio Piacentino",
-        "ospite": "Sirio Perugia Volley",
+        "quando": "14 novembre",
+        "casa": "Sirio Massinelli Perugia",
+        "ospite": "Giotti Victoria Greve",
         "risultato": "3-0",
         "parziali": [
-          "25-21",
-          "25-20",
-          "25-13"
+          "25-22",
+          "25-18",
+          "25-19"
         ]
       },
       "prossima": null,
-      "commento": "Prima sconfitta stagionale, dopo tre vittorie. Data della prossima gara non ancora nota."
+      "commento": "Sangoi in evidenza con 19 punti nella risposta alla prima sconfitta stagionale."
     },
     {
       "id": "marsciano",
@@ -81,10 +81,17 @@
       "nome": "Sir Susa Scai Perugia",
       "categoria": "Superlega",
       "ultimo": {
-        "quando": "8 novembre",
-        "casa": "Itas Trentino",
-        "ospite": "Sir Susa Scai Perugia",
-        "risultato": "2-3"
+        "quando": "15 novembre",
+        "casa": "Sir Susa Scai Perugia",
+        "ospite": "Civitanova",
+        "risultato": "3-2",
+        "parziali": [
+          "21-25",
+          "22-25",
+          "25-22",
+          "25-22",
+          "15-13"
+        ]
       },
       "prossima": {
         "quando": "2026-11-22",
@@ -92,7 +99,7 @@
         "casa": "Gas Sales Bluenergy Piacenza",
         "ospite": "Sir Susa Scai Perugia"
       },
-      "commento": "Vittoria al tie-break a Trento nel big match, prima sconfitta stagionale per l'Itas."
+      "commento": "Finale di Supercoppa a Parma: Perugia ha rimontato due set e ha vinto al tie-break il suo quinto titolo consecutivo."
     }
   ],
   "serieCD": {
@@ -100,6 +107,10 @@
     "partite": []
   },
   "archivio": [
+    {
+      "settimana": "9 – 15 novembre 2026",
+      "commento": "Il weekend del 7 e 8 novembre: la Sir Susa Scai Perugia vince al tie-break a Trento, la Terni Volley Academy batte 3-1 Vibo Valentia, in Serie C femminile Deruta passa 3-0 ad Amelia e la Sirio Perugia conosce la prima sconfitta in B1."
+    },
     {
       "settimana": "2 – 8 novembre 2026",
       "commento": "Il weekend del 31 ottobre e 1 novembre: Marsciano batte 3-1 l'Astra in B2, in Serie C femminile Bartoccini e Deruta vincono 3-0 e Bastia rimonta da 0-2 a Trevi, e la Sir Susa Scai Perugia vince 3-0 a Monza."
@@ -121,81 +132,95 @@
       "commento": "Settimana di avvio per il volley umbro. Tra le donne la Bartoccini ha perso 3-1 a Busto Arsizio e domenica 11 ottobre torna al PalaBarton Energy contro Leonessa Altamura; in B2 si comincia il 17 e 18 ottobre e Città di Castello si è presentata in piazza il 5 ottobre. Tra gli uomini il campionato parte il 18 ottobre, con Sir Susa Scai Perugia a Cuneo e Terni Volley Academy a Sorrento."
     }
   ],
-  "titolo": "La Sir espugna Trento al tie-break, Terni vince in casa, Deruta passa ad Amelia",
-  "occhiello": "Weekend del 7 e 8 novembre: Perugia vince 3-2 a Trento, la Terni Volley Academy centra il primo successo casalingo in A3, la Sirio Perugia cade 0-3 a San Giorgio Piacentino in B1 e in Serie C femminile Deruta batte l'Amerina.",
+  "titolo": "Perugia vince la Supercoppa, la Bartoccini +energia vola a sei successi di fila",
+  "occhiello": "La Settimana Volley · Umbria, 16 – 22 novembre 2026",
   "sezioni": [
     {
       "titolo": "",
       "testo": [
-        "Weekend del 7 e 8 novembre: la Sir Susa Scai Perugia vince al tie-break a Trento, la Terni Volley Academy ottiene la prima vittoria in casa in Serie A3, la Sirio Perugia perde per la prima volta in B1 e in Serie C femminile Deruta batte 3-0 l'Amerina. Qui trovi i risultati delle umbre e il programma della settimana che comincia.",
-        "I risultati delle squadre umbre nei campionati nazionali (Superlega, A2, A3 e Serie B) sono nella sezione dedicata, più sotto."
+        "Il weekend del 14 e 15 novembre ha avuto un protagonista chiaro: la Sir Susa Scai Perugia, che a Parma ha vinto la Supercoppa battendo prima Trento e poi Civitanova. Ma anche il resto dell'Umbria ha portato a casa risultati importanti, dall'A2 femminile alla Serie C.",
+        "Questa settimana si gioca presto: mercoledì 18 novembre la Bartoccini +energia è già in campo a Trento, mentre domenica 22 la Sir Susa Scai va a Piacenza per la sesta giornata di Superlega."
       ]
     },
     {
-      "titolo": "Superlega: la Sir espugna Trento al tie-break",
+      "titolo": "Superlega: Perugia conquista la Supercoppa",
       "testo": [
-        "La Sir Susa Scai Perugia ha vinto 3-2 domenica 8 novembre sul campo dell'Itas Trentino, nel big match della quinta giornata, davanti alla BTS Arena piena. Per Trento è la prima sconfitta stagionale. Michieletto ha chiuso con 23 punti; Plotnytskyi è stato nominato miglior giocatore.",
-        "Il risultato della gara di mercoledì 4 novembre con Cisterna non è ancora disponibile nelle fonti consultate."
+        "A Parma, al PalaRaschi, la Sir Susa Scai Perugia ha vinto la Supercoppa per l'ottava volta, la quinta consecutiva. Il cammino è stato tutt'altro che semplice.",
+        "In semifinale, sabato 14 novembre, Perugia ha battuto Trento 3-1 (22-25, 25-20, 25-18, 30-28). Nel quarto set la squadra ha annullato cinque palle match avversarie e ha chiuso alla sesta occasione. Reggers ha chiuso con 20 punti, Semeniuk e Plotnytskyi con 17 ciascuno, Loser con 11 e quattro muri. Per Trento, Lavia ha segnato 16 punti e Michieletto 15. Era la rivincita di domenica 8 novembre, quando Perugia aveva battuto Trento 3-2 in campionato.",
+        "Nell'altra semifinale Civitanova ha superato Verona 3-0. Domenica 15 novembre la finale tra Perugia e Civitanova è stata decisa al quinto set: 3-2 per Perugia (21-25, 22-25, 25-22, 25-22, 15-13), che ha rimontato dopo aver perso i primi due parziali.",
+        "In campionato, prima della Supercoppa, Perugia guidava la Superlega con 16 punti (una partita in più), davanti a Civitanova con 15, Piacenza con 13 e Trento con 12. Domenica 22 novembre alle 18:00 la Sir Susa Scai è a Piacenza, contro la Gas Sales Bluenergy, per la sesta giornata; la partita sarà trasmessa da Rai Sport e VBTV. Il calendario prosegue poi con Perugia-Modena domenica 29 novembre e Milano-Perugia mercoledì 2 dicembre alle 20:30."
       ]
     },
     {
       "titolo": "A2 femminile, A3 e Serie B",
       "testo": [
-        "In A2 femminile la Bartoccini +energia ha battuto 3-0 Imola, quinta vittoria consecutiva senza cedere set.",
-        "In Serie A3 maschile la Terni Volley Academy ha vinto 3-1 con Vibo Valentia: la Tonno Callipo si era imposta nel primo set (20 punti per Starace), poi i rossoverdi hanno ribaltato la gara con la prima vittoria casalinga della stagione. L'Ermgroup Altotevere ha rimontato Savigliano fino al quinto set.",
-        "In Serie B1 femminile la Sirio Perugia ha perso 0-3 (25-21, 25-20, 25-13) a San Giorgio Piacentino, la squadra indicata tra le favorite per la promozione: è la prima sconfitta dopo tre vittorie.",
-        "Per la Pallavolo Città di Castello e per la Serie B maschile (Sir Its Umbria Academy e Città di Castello) i risultati del weekend non sono ancora disponibili nelle fonti consultate. Il prossimo impegno di Marsciano in B2 è in casa con Giorgio Peri Grosseto sabato 14 novembre alle 21. Il derby di ritorno con Città di Castello è il 13 febbraio."
+        "A2 femminile. La Bartoccini +energia Perugia ha battuto Club Italia 3-1 (23-25, 25-22, 25-20, 25-21) davanti a 1200 spettatori al PalaBarton Energy. È la sesta vittoria consecutiva: le prime cinque erano state tutte per 3-0. La migliore in campo è stata Grosse Scharmann, MVP con 27 punti; hanno aiutato Consoli e Ornoch con 12, Michieletto con 10 e Colombo con 7. Per Club Italia, Solovei ha segnato 21 punti e Tosini 17. La classifica dopo l'ottava giornata vede Costa Volpino e Busto Arsizio a 19, Bartoccini +energia Perugia a 18, Padova e Monviso a 17, Trento a 16. Alessia Fiesoli: «Sei vittorie su sei è tanta roba. Adesso pensiamo subito a Trento». La squadra gioca infatti mercoledì 18 novembre alle 20:30 a Trento, contro l'Itas Trentino, nel turno infrasettimanale.",
+        "A3 maschile. Due vittorie umbre. Nel girone Bianco, la ErmGroup Altotevere ha vinto 3-0 a Brugherio (20-25, 17-25, 14-25) in appena 1 ora e 15 minuti, pur senza Marzolla, tenuto fuori per precauzione per un problema al ginocchio. Alpini ha giocato da opposto e ha segnato 16 punti; Maiocchi ne ha messi 13, Cengia 10. Nell'occasione ha esordito in A3 anche Bianchini. Altotevere è ora a 11 punti, seconda in classifica insieme ad Acqui Terme, dietro Mantova a 15. Sabato 21 novembre alle 20:30, al palasport di San Giustino, arriva la CUS Cagliari.",
+        "Nel girone Blu, la Terni Volley Academy ha battuto Avimec Modica 3-1 (23-25, 25-22, 25-21, 26-24) al PalaTerni, nella prima partita in casa dopo il lancio della campagna di raccolta fondi #GoDragonsIoCiSono. Santangelo e Finauri hanno segnato 16 punti ciascuno, Severini e Caporossi 10, Matani 8. Terni è a 9 punti, quinta in classifica; in testa c'è Capo di Leuca con 11. Domenica 22 novembre alle 16:00 trasferta a Castellana Grotte.",
+        "Serie B1 femminile. La Sirio Massinelli Perugia ha battuto Giotti Victoria Greve 3-0 (25-22, 25-18, 25-19) sabato 14 novembre a Magione, rispondendo alla prima sconfitta stagionale della giornata precedente. Sangoi ha segnato 19 punti, con il 54% in attacco, Nielson 13 e Artini 11. In panchina c'è Fabio Bovari. La classifica e la prossima partita non sono ancora disponibili nelle fonti consultate.",
+        "Serie B2 femminile (girone G). Due vittorie umbre. La Fail Group Marsciano ha battuto Giorgio Peri Grosseto 3-1 (23-25, 25-23, 26-24, 25-17) al Pippi-Tiberi, con Carboni a 18 punti, Pierini a 15, Ndulue e Iacobbi a 12; allenatore Gian Paolo Sperandio. Marsciano è a 13 punti, nel gruppo di testa con Castelfiorentino (14) e Porcari (13). La Pallavolo Città di Castello ha ottenuto la prima vittoria stagionale battendo Astra Chiusure Lampo Firenze 3-1 (29-27, 23-25, 25-23, 25-15) al Pala Joan: Falchetti ha segnato 22 punti, Malcangi 16, Mancini 15, Fiorucci 11. Con i 3 punti conquistati la squadra lascia l'ultimo posto. Il risultato di Femac Trestina contro Team 80 Gabicce non è ancora disponibile nelle fonti consultate.",
+        "Serie B maschile (girone E). Per la Città di Castello Pallavolo è arrivata una sconfitta: 0-3 a Montorio (25-20, 25-20, 25-18), con la squadra priva di Bongiorno e del libero Lensi. Sabato 21 novembre al Pala Joan arriva Osimo, descritta come la squadra più in forma del girone; l'orario non è ancora disponibile nelle fonti consultate. Il risultato della Sir Its Umbria Academy Perugia, impegnata sabato 14 novembre a San Marino contro Gemini Med Rovereta, non è ancora disponibile nelle fonti consultate. Nel turno precedente la Sir Its aveva vinto 3-1 a San Severino Marche, salendo al quarto posto, con 30 punti di Dionigi."
       ],
       "foto": "/articoli/campionato-nazionale-serie-b-m-gir-e-mvnk58q3.jpg"
     },
     {
-      "titolo": "Serie C: la quarta giornata",
+      "titolo": "Serie C",
       "testo": [
-        "In Serie C femminile Deruta ha battuto 3-0 l'Amerina; successi per 3-0 anche per Bastia su Spello, Fossato su Umbertide, Trevi su Marconi Monini e San Mariano a Ellera. La Bartoccini School Volley ha vinto 3-1 con il School Volley Perugia.",
-        "In Serie C maschile il School Volley Perugia ha battuto 3-1 Montéluce, Energy Pmu Marsciano 3-1 la Sir Its Umbria Academy Assisi e Foligno 3-2 Borgo Altotevere. Umbertide ha vinto 3-0 con la Polisportiva Delfino Saima. Domenica 8 novembre la Sir Its Umbria Academy Perugia ha vinto 3-2 a Orte e Cascia Spoleto ha battuto 3-0 la Città di Castello Pallavolo.",
+        "Serie C femminile. Il match più atteso del quinto turno è stato il derby tra School Volley Perugia e Amerina Pallavolo, vinto da Amelia 3-2 (15-25, 25-17, 30-28, 23-25, 15-17). Amerina, una delle squadre che seguiamo più da vicino, ha vinto al tie-break dopo che School aveva annullato sei palle match. Tra le padrone di casa hanno brillato Alberetti con 19 punti e Bugiardini con 17; tra le ospiti Zefi con 17, Bighi e Storti con 16. In precedenza, nel quarto turno, Deruta e Bartoccini School Volley (una squadra diversa dalla Bartoccini +energia di A2) erano le uniche a punteggio pieno. Gli altri risultati del quinto turno non sono ancora disponibili nelle fonti consultate, e il programma risulta incoerente tra le fonti (Deruta contro Bartoccini School Volley oppure contro Wealth Planet Perugia).",
+        "Serie C maschile. La Pmu Energy Marsciano ha vinto in trasferta a Sansepolcro (Volley Borgo Altotevere) 3-2 (14-25, 25-22, 25-20, 15-25, 11-15). Sabato 21 novembre Marsciano ospita Foligno in uno scontro diretto. Gli altri risultati del quinto turno non sono ancora disponibili nelle fonti consultate, e anche qui i programmi pubblicati dalle fonti non coincidono.",
         "Tutti i risultati sono nella pagina \"Il weekend in Umbria\"."
       ],
       "foto": "/articoli/serie-c-femminile-spello-foligno-conquis-mvnj0m7f.jpg"
     },
     {
-      "titolo": "Serie D: femminile e maschile",
+      "titolo": "Serie D",
       "testo": [
-        "Serie D femminile, girone A: Delfino Idrosfera 3-2 Tiber, Ponte Felcino 3-0 Strike Team Montéluce, Ponte Valleceppi 3-0 San Sisto Green3, Gubbio 3-2 al School Volley Perugia Green1, Sirio Perugia 3-0 Castiglione del Lago Green1 e Gualdo 3-1 Blue Panthers.",
-        "Girone B: la Narni Sport Academy ha battuto 3-0 la Marconi Monini Green1; Bastia 3-0 Bosico Green2, Rebels Assisi 3-2 Tuder, Acquasparta 3-0 Orvieto Volley Academy, San Mariano 3-0 a Cascia e Cannara 3-0 Foligno.",
-        "Serie D maschile: CLT Terni ha battuto 3-0 Sigillo, Sir Its Umbria Academy Assisi 3-0 Ponte Felcino, Marconi Monini 3-0 l'Orvieto Volley Academy, Chiusi 3-0 Umbertide, Castiglione del Lago 3-0 Borgo Altotevere; Strike Team Montéluce ha vinto 3-2 a Gubbio e la Sir Its Umbria Academy Perugia 3-2 sul campo del School Volley Perugia."
+        "I risultati del weekend di Serie D femminile (gironi A e B) e maschile non sono ancora disponibili nelle fonti consultate. Per il girone B femminile il programma del turno prevedeva Narni Sport Academy-Cascia, dopo il 3-0 di Narni a Monini nel turno precedente; l'esito non è ancora disponibile nelle fonti consultate. Nel girone A, la Sirio Perugia, dopo il 3-0 su Castiglione del Lago, era attesa a Monteluce.",
+        "In Serie D maschile, nel turno precedente la Sir Its Umbria Academy Perugia e Monteluce hanno vinto entrambe 3-2 e sono a 11 punti. Il programma del weekend prevedeva Sir Perugia-Gubbio sabato alle 20:30 e Ponte Felcino-Terni domenica alle 19:00; i risultati non sono ancora disponibili nelle fonti consultate."
       ],
       "foto": "/articoli/prima-partita-in-casa-e-prima-vittoria-p-mvp8wa2t.jpg"
     },
     {
       "titolo": "La settimana che inizia",
       "testo": [
-        "Sabato 14 novembre in Serie C femminile il School Volley Perugia ospita l'Amerina e a Deruta arriva la Bartoccini School Volley, in una sfida tra squadre di vertice. In Serie D femminile la Narni Sport Academy riceve Cascia, e in B2 Marsciano è in casa con Grosseto. Per Superlega, A3 e Serie B i prossimi impegni non sono ancora indicati nelle fonti consultate."
+        "Lunedì 16 novembre alle 20:30 si gioca il recupero di Superlega Padova-Prata. Mercoledì 18 la Bartoccini +energia va a Trento. Venerdì 20 Cuneo-Verona apre la sesta giornata di Superlega; sabato 21 tocca a ErmGroup Altotevere-Cagliari in A3 e a Marsciano-Foligno in C maschile; domenica 22 Piacenza-Perugia (ore 18:00, Rai Sport) e Castellana Grotte-Terni Volley Academy in A3 (ore 16:00).",
+        "Notizie dal territorio. La Terni Volley Academy è impegnata con la campagna di raccolta fondi #GoDragonsIoCiSono, lanciata prima della partita di sabato 14 novembre contro Modica. Tra i divisioni e i giovanili, la Colleluna San Gemini ha perso 2-3 con OMG Volley Ponte Valleceppi in 1ª Divisione F (sabato 14, un punto in classifica) e ha vinto 3-1 con Polisportiva CLT in Under 14 (mercoledì 11). Mercoledì 11 al Colleluna si è giocata anche Bosico Volley-Terni Va Red Bartoccini (Under 19), finita 3-0 per Bosico. Nella settimana la Colleluna gioca mercoledì 18 alle 18:00 con Foligno-Spello (Under 19), alle 19:00 a Falasca (Under 14) e sabato 21 alle 19:00 a Petrignano (1ª Divisione F). Per Arrone non abbiamo trovato notizie nelle fonti consultate."
       ]
     },
     {
       "titolo": "Da segnare in calendario",
       "elenco": [
-        "Sabato 14 novembre, ore 17: School Volley Perugia – Amerina Pallavolo (Serie C femminile)",
-        "Sabato 14 novembre, ore 17: The Galleon Pub Marsciano – Ellera (Serie C femminile)",
-        "Sabato 14 novembre, ore 17: Sir Its Umbria Academy Perugia – Umbertide (Serie C maschile)",
-        "Sabato 14 novembre, ore 20:30: Deruta – Bartoccini School Volley (Serie C femminile)",
-        "Sabato 14 novembre, ore 21: Fail Group Marsciano – Giorgio Peri Grosseto (Serie B2 femminile)",
-        "Sabato 14 novembre, ore 21: Narni Sport Academy – Cascia (Serie D femminile, girone B)",
-        "Domenica 15 novembre, ore 19: Ponte Felcino – CLT Terni (Serie D maschile)"
+        "Domenica 22 novembre, ore 18:00 – Gas Sales Bluenergy Piacenza – Sir Susa Scai Perugia (Superlega, Rai Sport e VBTV): prima trasferta dopo la Supercoppa, contro una delle squadre che inseguono in classifica.",
+        "Mercoledì 18 novembre, ore 20:30 – Itas Trentino – Bartoccini +energia Perugia (A2 femminile): la squadra di Perugia cerca la settima vittoria di fila contro una rivale di alta classifica.",
+        "Sabato 21 novembre, ore 20:30 – ErmGroup Altotevere – CUS Cagliari (A3, girone Bianco, San Giustino): scontro diretto per restare nelle zone alte, con Altotevere seconda a 11 punti e Cagliari a 9.",
+        "Domenica 22 novembre, ore 16:00 – BCC Tecbus Castellana Grotte – Terni Volley Academy (A3, girone Blu): trasferta per consolidare la quinta posizione.",
+        "Sabato 21 novembre – Pmu Energy Marsciano – Foligno (Serie C maschile): scontro diretto in casa, dopo la vittoria di Marsciano a Sansepolcro.",
+        "Lunedì 16 novembre, ore 20:30 – Padova – Prata (Superlega, recupero)",
+        "Mercoledì 18 novembre, ore 18:00 – Colleluna – Foligno-Spello (Under 19)",
+        "Mercoledì 18 novembre, ore 19:00 – Falasca C.d.a. – Colleluna (Under 14)",
+        "Venerdì 20 novembre, ore 20:45 – Cuneo – Verona (Superlega)",
+        "Sabato 21 novembre, ore 19:00 – Scai Volley 86 Petrignano – Colleluna (1ª Divisione F)",
+        "Sabato 21 novembre – Pallavolo Città di Castello – Osimo (Serie B maschile, Pala Joan, orario da confermare)",
+        "Domenica 22 novembre, ore 17:00 – Milano – Trento (Superlega, DAZN)",
+        "Domenica 22 novembre, ore 18:00 – Padova – Monza e Civitanova – Prata (Superlega)",
+        "Domenica 22 novembre, ore 19:00 – Modena – Cisterna (Superlega, DAZN)"
       ]
     }
   ],
   "seo": {
-    "metaTitle": "Pallavolo Umbria 9-15 nov 2026: B1, B2, Serie C e D, nazionali | PallaVolleyAmo",
-    "metaDescription": "Sir Perugia vince a Trento al tie-break, Terni batte Vibo in A3, Deruta batte l'Amerina in Serie C femminile: risultati e programma della settimana.",
+    "metaTitle": "Pallavolo Umbria 16-22 nov 2026: Perugia vince la Supercoppa | PallaVolleyAmo",
+    "metaDescription": "La Settimana Volley in Umbria: Perugia vince la Supercoppa, Bartoccini +energia a sei successi, Altotevere e Terni in A3, derby di Serie C.",
     "tag": [
-      "Sirio Perugia volley",
-      "Serie B1 femminile Umbria",
-      "Serie B2 femminile Umbria",
-      "Serie C pallavolo Umbria",
-      "Serie D femminile Umbria",
-      "Marsciano volley",
-      "Città di Castello pallavolo"
+      "pallavolo umbria",
+      "sir susa scai perugia",
+      "supercoppa",
+      "bartoccini +energia",
+      "serie a3",
+      "altotevere",
+      "terni volley academy",
+      "amerina pallavolo",
+      "serie c",
+      "serie d"
     ]
   }
 }
