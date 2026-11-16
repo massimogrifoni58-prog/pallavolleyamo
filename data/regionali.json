@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-11-16T06:01:58.356046+00:00",
+  "generatedAt": "2026-11-16T13:19:00.796822+00:00",
   "posts": [
     {
-      "id": "news-6",
-      "title": "Bagno di folla a Perugia per l'S3",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Wed, 31 May 2023 14:48:00 GMT",
-      "image": "http://cdn.corrieredellosport.it/images/2023/05/31/195901347-b4766d45-fad6-4b6e-af2e-3fb7f1ad47f9.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/2023/05/31-108443853/bagno_di_folla_a_perugia_per_l_s3"
-    },
-    {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Volley: Monini Granfruttato contro Foligno per il primo turno play-off",
       "excerpt": "Fonte: spoletonline.com",
       "createdTime": "Wed, 18 May 2016 17:00:00 GMT",
@@ -42,7 +34,7 @@
       "permalink": "https://www.umbria24.it/sport24/la-fipav-compie-80-anni-lunedi-30-novembre-evento-di-celebrazione-a-perugia/"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
@@ -107,6 +99,14 @@
     },
     {
       "id": "news-5",
+      "title": "Sirci e la Sir accolgono al PalaBarton l’Associazione nazionale famiglie numerose dell’Umbria",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Thu, 05 Nov 2026 05:41:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-13.26.46.jpeg",
+      "permalink": "https://www.umbria24.it/attualita/sirci-e-la-sir-accolgono-al-palabarton-lassociazione-nazionale-famiglie-numerose-dellumbria/"
+    },
+    {
+      "id": "news-6",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -120,6 +120,14 @@
       "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
       "image": null,
       "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
+    },
+    {
+      "id": "news-3",
+      "title": "C'è ancora la mano di Simone Giannelli dietro la nuova vittori di Perugia",
+      "excerpt": "Fonte: ilfoglio.it",
+      "createdTime": "Sun, 15 Nov 2026 20:39:00 GMT",
+      "image": "https://ilfoglio-produzione.fra1.cdn.digitaloceanspaces.com/ilfoglio/stories/2026/11/16/1200x675/4a4b2cfb-e4e4-41a8-9e3e-1b5e28412aa4.jpeg?v=1794832748",
+      "permalink": "https://www.ilfoglio.it/sport/2026/11/16/news/ce-ancora-la-mano-di-simone-giannelli-dietro-la-nuova-vittori-di-perugia--413781"
     },
     {
       "id": "perugiapadronainsupercoppainga",
@@ -146,6 +154,14 @@
       "permalink": "https://www.pianetavolley.net/2026/11/le-donne-di-perugia-ridimensionano-il-club-italia/"
     },
     {
+      "id": "news-0",
+      "title": "Supercoppa Italiana 2026 - Perugia da record e nella storia! Block Devils in vetta all'albo d'oro con l'8° trionfo, Civitanova rimontata, da 0-2 a 3-2",
+      "excerpt": "Fonte: eurosport.it",
+      "createdTime": "Sun, 15 Nov 2026 15:29:00 GMT",
+      "image": null,
+      "permalink": "https://www.eurosport.it/pallavolo/supercoppa-italiana-2026-perugia-da-record-e-nella-storia-block-devils-in-vetta-allalbo-doro-con-l8-trionfo-civitanova-rimontata-da-0-2-a-3-2_sto23355803/story.shtml"
+    },
+    {
       "id": "trestinasilludemapoicadeagabic",
       "title": "Trestina s’illude ma poi cade a Gabicce Mare",
       "excerpt": "Sfuma al quinto set in serie B2 femminile l’impresa esterna della Femac Trestina, che nella quinta giornata di andata si arrende al tie-break. Le altotiberine sono andate avanti due a set a zero, ma p",
@@ -162,14 +178,6 @@
       "permalink": "https://www.msn.com/it-it/notizie/other/volley-impresa-di-perugia-%C3%A8-sua-la-supercoppa-la-quinta-di-fila-vittoria-in-rimonta-su-macerata-finisce-3-2/ar-AA2hu9ev"
     },
     {
-      "id": "news-4",
-      "title": "Supercoppa volley, Lube Civitanova beffata: Perugia rimonta e vince al tiebreak",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Sun, 15 Nov 2026 14:42:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/15/1794782081303_perugia_volley_supercoppa.jfif",
-      "permalink": "https://www.rainews.it/tgr/marche/articoli/2026/11/supercoppa-volley-lube-civitanova-perugia-finale-rimonta-2026-dced7776-fbcc-4f37-875d-637fb0c7a1c0.html"
-    },
-    {
       "id": "news-0",
       "title": "Pallavolo: Perugia vince la Supercoppa, rimontata Civitanova",
       "excerpt": "Fonte: msn.com",
@@ -178,7 +186,7 @@
       "permalink": "https://www.msn.com/it-it/notizie/other/pallavolo-perugia-vince-la-supercoppa-rimontata-civitanova/ar-AA2huUCX"
     },
     {
-      "id": "news-2",
+      "id": "news-1",
       "title": "Pallavolo SuperCoppaM – Civitanova si ferma sul più bello, la Supercoppa resta per il quinto nella bacheca di Perugia",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Sun, 15 Nov 2026 12:55:00 GMT",
@@ -186,7 +194,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/11/15/pallavolo-supercoppam-civitanova-si-ferma-sul-piu-bello-la-supercoppa-resta-per-il-quinto-nella-bacheca-di-perugia/"
     },
     {
-      "id": "news-3",
+      "id": "news-5",
       "title": "Supercoppa di pallavolo: Perugia rimonta Civitanova e conquista l'ottava Supercoppa",
       "excerpt": "Fonte: infooggi.it",
       "createdTime": "Sun, 15 Nov 2026 12:07:00 GMT",
@@ -194,7 +202,7 @@
       "permalink": "https://www.infooggi.it/articolo/supercoppa-di-pallavolo-perugia-rimonta-civitanova-e-conquista-l-ottava-supercoppa/158378"
     },
     {
-      "id": "news-1",
+      "id": "news-2",
       "title": "Perugia ha battuto Civitanova nella Supercoppa italiana di pallavolo maschile",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 15 Nov 2026 12:02:00 GMT",
@@ -210,44 +218,12 @@
       "permalink": "https://www.pianetavolley.net/2026/11/a-citta-di-castello-le-donne-brindano-con-firenze/"
     },
     {
-      "id": "news-5",
-      "title": "LIVE Perugia-Civitanova 3-2, Supercoppa Italiana 2026 in DIRETTA: umbri infiniti! Rimonta leggendaria e ottavo trionfo",
-      "excerpt": "Fonte: oasport.it",
-      "createdTime": "Sun, 15 Nov 2026 10:00:00 GMT",
-      "image": "https://www.oasport.it/wp-content/uploads/2026/11/Andrea-Giannelli-14.11.2026-scaled.jpg",
-      "permalink": "https://www.oasport.it/2026/11/live-perugia-civitanova-supercoppa-italiana-2026-in-diretta-si-assegna-il-primo-titolo-della-stagione/"
-    },
-    {
-      "id": "marscianononsifermaestendegros",
-      "title": "Marsciano non si ferma e stende Grosseto",
-      "excerpt": "Prestazione di carattere e tre punti pesanti sono arrivati al termine di una battaglia senza tregua per la Fail Group Marsciano. La squadra biancoblu tra le mura amiche del palasport Pippi-Tiberi è sc",
-      "createdTime": "Sun, 15 Nov 2026 08:00:32 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Fail-Group-Marsciano-celebrazione.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/marsciano-non-si-ferma-e-stende-grosseto/"
-    },
-    {
-      "id": "cittdicastellononsirialzauomin",
-      "title": "Città di Castello non si rialza, uomini giù a Montorio al Vomano",
-      "excerpt": "Non riesce ad invertire la tendenza negativa ed accusa una nuova sconfitta in terra d’Abruzzo la Città di Castello Pallavolo. Sono quattro i kappao consecutivi per la matricola biancorossa che ha molt",
-      "createdTime": "Sun, 15 Nov 2026 06:00:10 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Citta-di-Castello-Pallavolo-campo.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/citta-di-castello-non-si-rialza-uomini-giu-a-montorio-al-vomano/"
-    },
-    {
       "id": "news-2",
       "title": "Sir Susa Scai Perugia, finalissima di supercoppa contro Civitanova",
       "excerpt": "Fonte: rainews.it",
       "createdTime": "Sun, 15 Nov 2026 01:53:00 GMT",
       "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/14/1794675384712_Sir.jpeg",
       "permalink": "https://www.rainews.it/tgr/umbria/video/2026/11/-pisinicca-servizio-volley-sir--c3a8245b-ba8d-45f1-9843-bd9e4ea01a4c.html"
-    },
-    {
-      "id": "news-0",
-      "title": "Volley, Perugia batte Trento e vola in finale di Supercoppa",
-      "excerpt": "Fonte: assisisport.it",
-      "createdTime": "Sun, 15 Nov 2026 00:29:00 GMT",
-      "image": null,
-      "permalink": "https://www.assisisport.it/volley/volley-perugia-batte-trento-e-vola-in-finale-di-supercoppa-2/"
     },
     {
       "id": "news-2",
@@ -266,7 +242,15 @@
       "permalink": "https://www.assisisport.it/volley/don-bosco-cannara-volley-vittoria-netta-contro-il-foligno/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
+      "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
+      "excerpt": "Fonte: ansa.it",
+      "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
+      "image": "https://www.ansa.it/webimages/img_1129x635/2026/3/1/efbbdc1b9a471aab0d8f9d1ca1fd7eb3.jpg",
+      "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
+    },
+    {
+      "id": "news-6",
       "title": "Volley B maschile, la Rossi Ascensori Foligno continua a vincere: vittima di turno il Volley Orte",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Sat, 29 Apr 2023 17:30:00 GMT",
@@ -290,38 +274,6 @@
       "permalink": "https://www.umbria24.it/perugia/volley-serie-b-la-sir-its-umbria-academy-doma-la-gemini-med-rsm-al-tie-break/"
     },
     {
-      "id": "sirioperugiacinicaespietatacon",
-      "title": "Sirio Perugia cinica e spietata con Greve in Chianti",
-      "excerpt": "Rialza prontamente la testa in serie B1 femminile la Sirio Massinelli Perugia che conquista una netta e convincente vittoria interna per tre a zero nella quinta giornata di andata della stagione regol",
-      "createdTime": "Sat, 14 Nov 2026 23:00:32 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Zorzetto-Aurora-attacco.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/sirio-perugia-cinica-e-spietata-con-greve-in-chianti/"
-    },
-    {
-      "id": "terniaffamataesigustamodica",
-      "title": "Terni è affamata e si gusta Modica",
-      "excerpt": "Non c’è due senza tre, ancora un’affermazione davanti ai propri tifosi per la Terni Volley Academy che continua a meravigliare in serie A3 maschile. Prova in crescendo dei rossoverdi che, dopo aver ce",
-      "createdTime": "Sat, 14 Nov 2026 17:30:32 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Terni-Modica-azione.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/terni-e-affamata-e-si-gusta-modica/"
-    },
-    {
-      "id": "perugiadominaeconquistalafinal",
-      "title": "Perugia domina e conquista la finale, affonda Trento",
-      "excerpt": "La condizione è buona e la prestazione non manca, arriva di conseguenza la vittoria nella semifinale della supercoppa italiana per la Sir Susa Scai Perugia che s’impone in rimonta per tre a uno. Potev",
-      "createdTime": "Sat, 14 Nov 2026 16:30:25 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Semeniuk-Kamil-attacco.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/perugia-domina-e-conquista-la-finale-affonda-trento/"
-    },
-    {
-      "id": "news-7",
-      "title": "Pallavolo SuperCoppaM – Perugia è la prima finalista, Trento vince il primo e perde il quarto: troppo poco",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sat, 14 Nov 2026 09:42:00 GMT",
-      "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Giannelli-e-Reggers-semifinali-supercoppa-Parma.jpg",
-      "permalink": "https://www.ivolleymagazine.it/2026/11/14/pallavolo-supercoppam-perugia-e-la-prima-finalista-trento-vince-il-primo-e-perde-il-quarto-troppo-poco/"
-    },
-    {
       "id": "news-7",
       "title": "Pallavolo, nel 2026 Assisi sede di una finale nazionale giovanile",
       "excerpt": "Fonte: umbriacronaca.it",
@@ -330,7 +282,7 @@
       "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
-      "id": "news-4",
+      "id": "news-3",
       "title": "Volley, doppio Lomurno alla Fipav: il presidente è stato riconfermato",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Mon, 19 Nov 2012 10:09:00 GMT",
@@ -354,7 +306,7 @@
       "permalink": "https://sport.quotidiano.net/locale/volley/fipav-umbria-convocate-atlete-e-atleti-per-il-trofeo-delle-regioni-di-pallavolo-c850d25d"
     },
     {
-      "id": "news-6",
+      "id": "news-4",
       "title": "Volley, una Sampress convalescente esce sconfitta dal palas di Foligno",
       "excerpt": "Fonte: anconatoday.it",
       "createdTime": "Mon, 18 Mar 2019 04:45:00 GMT",
@@ -368,6 +320,62 @@
       "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
       "image": "https://lagazzettadelmezzogiorno.cdn.m33cloud.com/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
       "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
+    },
+    {
+      "id": "schoolperugiaasegnocontroguald",
+      "title": "School Perugia a segno contro Gualdo Tadino",
+      "excerpt": "Nella quarta giornata del campionato di serie D femminile arriva un successo pieno per la Menchetti School Volley Perugia che, tra le mura amiche, supera col punteggio migliore la Nuova Pallavolo Gual",
+      "createdTime": "Mon, 16 Nov 2026 12:00:52 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Menchetti-School-Volley-Perugia-vittoria-serie-D-femminile.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/school-perugia-a-segno-contro-gualdo-tadino/"
+    },
+    {
+      "id": "simonegiannelliaperugialapalla",
+      "title": "Simone Giannelli: «A Perugia la pallavolo è qualcosa di speciale»",
+      "excerpt": "Ancora un titolo in bacheca, il ventesimo della storia per la società sportiva, la Sir Susa Scai Perugia è un rullo compressore e ha dimostrato che per batterla c’è bisogno di non avere mai un calo. S",
+      "createdTime": "Mon, 16 Nov 2026 10:30:24 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Giannelli-Simone-2.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/simone-giannelli-a-perugia-la-pallavolo-e-qualcosa-di-speciale/"
+    },
+    {
+      "id": "alessiafiesolilesperienzadiper",
+      "title": "Alessia Fiesoli: «L’esperienza di Perugia ha fatto la differenza»",
+      "excerpt": "Dopo otto giornate, giunti ad un quarto del cammino stagionale di serie A2 femminile, la Bartoccini +energia Perugia arriva ad incalzare la vetta. Le magliette nere hanno infilato la sesta vittoria da",
+      "createdTime": "Mon, 16 Nov 2026 09:00:30 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Fiesoli-Alessia.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/alessia-fiesoli-lesperienza-di-perugia-ha-fatto-la-differenza/"
+    },
+    {
+      "id": "laschoolperugiaprendeunpuntoco",
+      "title": "La School Perugia prende un punto con Amelia",
+      "excerpt": "Nella quinta giornata di campionato di serie C femminile è maratona di pallavolo ma dopo cinque set la School Volley Perugia deve cedere. Ad espugnare il palazzetto di San Marco, al termine di una gar",
+      "createdTime": "Mon, 16 Nov 2026 07:30:46 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Bugiardini-Viola.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/la-school-perugia-prende-un-punto-con-amelia/"
+    },
+    {
+      "id": "gliuominidimarscianosonocorsar",
+      "title": "Gli uomini di Marsciano sono corsari a Sansepolcro",
+      "excerpt": "La quinta giornata di serie C maschile ha evidenziato quali possano essere le reali ambizioni della Pmu Energy Marsciano che, in trasferta, si è imposta in cinque set (14-25, 25-22, 25-20, 15-25, 11-1",
+      "createdTime": "Mon, 16 Nov 2026 06:00:56 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Pmu-Energy-Marsciano-vittoria-1.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/gli-uomini-di-marsciano-sono-corsari-a-sansepolcro/"
+    },
+    {
+      "id": "news-6",
+      "title": "Pallavolo A2F – La Bartoccini +Energia supera il Club Italia in quattro set: sesta vittoria consecutiva per le umbre",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Mon, 16 Nov 2026 00:42:00 GMT",
+      "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Perugia.jpg",
+      "permalink": "https://www.ivolleymagazine.it/2026/11/16/pallavolo-a2f-la-bartoccini-energia-supera-il-club-italia-in-quattro-set-sesta-vittoria-consecutiva-per-le-umbre/"
+    },
+    {
+      "id": "news-7",
+      "title": "VOLLEY. Supercoppa a Perugia, Lorenzetti fa 11 La Lube sogna poi si sveglia sul più bello",
+      "excerpt": "Fonte: sport.quotidiano.net",
+      "createdTime": "Mon, 16 Nov 2026 00:15:00 GMT",
+      "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ODgxZDNkZGYtYTdiZC00/0/supercoppa-a-perugia-lorenzetti-fa-11-la-lube-sogna-poi-si-sveglia-sul-piu-bello.webp?f=16%3A9&amp;q=0.75&amp;w=1200",
+      "permalink": "https://sport.quotidiano.net/volley/volley-supercoppa-a-perugia-lorenzetti-e20b3384"
     },
     {
       "id": "news-0",
@@ -392,14 +400,6 @@
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
       "image": "https://sport.quotidiano.net/brand/qs-og.png",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
-    },
-    {
-      "id": "news-6",
-      "title": "Volley maschile, finale Supercoppa Italiana 2026: orario Perugia-Civitanova domenica 15 novembre, dove vederla in tv su Rai 2 HD e streaming",
-      "excerpt": "Fonte: sport2u.tv",
-      "createdTime": "Fri, 13 Nov 2026 16:00:00 GMT",
-      "image": null,
-      "permalink": "https://sport2u.tv/volley-maschile-finale-supercoppa-italiana-2026-orario-perugia-civitanova-domenica-15-novembre-dove-vederla-in-tv-su-rai-2-hd-e-streaming/"
     },
     {
       "id": "fipav-18229",
