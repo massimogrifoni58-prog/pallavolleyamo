@@ -81,17 +81,10 @@
       "nome": "Sir Susa Scai Perugia",
       "categoria": "Superlega",
       "ultimo": {
-        "quando": "15 novembre",
-        "casa": "Sir Susa Scai Perugia",
-        "ospite": "Civitanova",
-        "risultato": "3-2",
-        "parziali": [
-          "21-25",
-          "22-25",
-          "25-22",
-          "25-22",
-          "15-13"
-        ]
+        "quando": "8 novembre",
+        "casa": "Itas Trentino",
+        "ospite": "Sir Susa Scai Perugia",
+        "risultato": "2-3"
       },
       "prossima": {
         "quando": "2026-11-22",
@@ -99,7 +92,7 @@
         "casa": "Gas Sales Bluenergy Piacenza",
         "ospite": "Sir Susa Scai Perugia"
       },
-      "commento": "Finale di Supercoppa a Parma: Perugia ha rimontato due set e ha vinto al tie-break il suo quinto titolo consecutivo."
+      "commento": "Vittoria per 3-2 contro Itas Trentino."
     }
   ],
   "serieCD": {
