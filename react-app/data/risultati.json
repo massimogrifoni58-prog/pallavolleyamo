@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T06:03:18.743640+00:00",
+  "generatedAt": "2026-11-18T13:39:51.683597+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -17645,8 +17645,8 @@
       "id": "131659559",
       "competition": "Under 15 Femminile Girone G",
       "giornata": "Giornata 5",
-      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
-      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17759,20 +17759,20 @@
       "status": "in programma"
     },
     {
+      "id": "131659569",
+      "competition": "Under 15 Femminile Girone G",
+      "giornata": "Giornata 10",
+      "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+      "away": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131660738",
       "competition": "Under 15 Femminile Girone G",
       "giornata": "Giornata 10",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "ASD CASCIA PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131659569",
-      "competition": "Under 15 Femminile Girone G",
-      "giornata": "Giornata 10",
-      "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
-      "away": "VALNERINA CAFFE' ARRONE PALLAVOLO",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20135,15 +20135,6 @@
       "status": "in programma"
     },
     {
-      "id": "131672935",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 4",
-      "home": "TIBER VOLLEY FUCSIA",
-      "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672936",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 4",
@@ -20158,6 +20149,15 @@
       "giornata": "Giornata 4",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "UISP VOLLEY UMBERTIDE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672935",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 4",
+      "home": "TIBER VOLLEY FUCSIA",
+      "away": "TRESTINA VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },

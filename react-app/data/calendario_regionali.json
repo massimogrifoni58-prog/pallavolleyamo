@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T06:06:41.074541+00:00",
+  "generatedAt": "2026-11-18T13:43:06.103571+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -2475,7 +2475,7 @@
         "id": "serie-c-femminile-26",
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "5",
-        "data": "2026-11-25",
+        "data": "2027-01-19",
         "ora": "20:40",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "VIANDER ACTON BASTIA",
@@ -12916,7 +12916,7 @@
         "campionato": "Under 19 Maschile Girone A",
         "giornata": "5",
         "data": "2026-11-25",
-        "ora": "17:00",
+        "ora": "19:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "UMBERTIDE-COLOMBELLA VOLLEY",
         "risultato": null,
@@ -22675,10 +22675,10 @@
         "id": "giov-under-15-femminile-girone-g-13",
         "campionato": "Under 15 Femminile Girone G",
         "giornata": "5",
-        "data": "2026-12-02",
+        "data": "2026-12-03",
         "ora": "18:30",
-        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
-        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
+        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
         "risultato": null,
         "parziali": []
       },
@@ -22840,10 +22840,10 @@
         "id": "giov-under-15-femminile-girone-g-28",
         "campionato": "Under 15 Femminile Girone G",
         "giornata": "10",
-        "data": "2027-01-28",
-        "ora": "18:30",
-        "casa": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
-        "ospite": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "data": "2027-01-26",
+        "ora": "19:30",
+        "casa": "VALNERINA CAFFE' ARRONE PALLAVOLO",
+        "ospite": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
         "risultato": null,
         "parziali": []
       },
