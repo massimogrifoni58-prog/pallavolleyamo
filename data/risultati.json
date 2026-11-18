@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:05:50.201843+00:00",
+  "generatedAt": "2026-11-18T02:50:35.382516+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -11959,8 +11959,8 @@
       "giornata": "Giornata 4",
       "home": "TIBER VOLLEY",
       "away": "PMU MARSCIANO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131639374",
@@ -12985,8 +12985,8 @@
       "giornata": "Giornata 4",
       "home": "POLISPORTIVA DELFINO - PELLICANO",
       "away": "SIR GIOVANILE MERICAT",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131644296",
@@ -13741,8 +13741,8 @@
       "giornata": "Giornata 6",
       "home": "REBELS MARCONI MONINI ASSISI",
       "away": "POLISP DON BOSCO GUBBIO BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641226",
@@ -13975,8 +13975,8 @@
       "giornata": "Giornata 6",
       "home": "TRESTINA VOLLEY",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131641438",
@@ -13984,8 +13984,8 @@
       "giornata": "Giornata 6",
       "home": "PALLAVOLO GUBBIO",
       "away": "PALLAVOLO CITTA' DI CASTELLO U17 ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641440",
@@ -14785,8 +14785,8 @@
       "giornata": "Giornata 6",
       "home": "SIRIO PALLAVOLO ARANCIO",
       "away": "UMBRIA VOLLEY ACADEMY DERUTA 17",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641538",
@@ -15001,8 +15001,8 @@
       "giornata": "Giornata 6",
       "home": "BOSICO  VOLLEY-TERNI VA BLU BARTOCCINI",
       "away": "FOLIGNO VOLLEY ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641561",
@@ -15505,8 +15505,8 @@
       "giornata": "Giornata 3",
       "home": "SIR MERICAT PERUGIA",
       "away": "CITTA DI CASTELLO PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131660182",
@@ -15775,8 +15775,8 @@
       "giornata": "Giornata 3",
       "home": "INTER VOLLEY FOLIGNO",
       "away": "SIR MERICAT RED",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131660212",
@@ -16585,8 +16585,8 @@
       "giornata": "Giornata 3",
       "home": "SCHOOL VOLLEY PERUGIA AZZURRO",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131659437",
@@ -17426,20 +17426,20 @@
       "status": "in programma"
     },
     {
-      "id": "131659535",
-      "competition": "Under 15 Femminile Girone F",
-      "giornata": "Giornata 6",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "REALE MUTUA TUDER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131659537",
       "competition": "Under 15 Femminile Girone F",
       "giornata": "Giornata 6",
       "home": "FREE GAS & LUCE NARNI",
       "away": "PMU MARSCIANO BIANCA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131659535",
+      "competition": "Under 15 Femminile Girone F",
+      "giornata": "Giornata 6",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "REALE MUTUA TUDER VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -17575,8 +17575,8 @@
       "giornata": "Giornata 3",
       "home": "VALNERINA CAFFE' ARRONE PALLAVOLO",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131660637",
@@ -18223,8 +18223,8 @@
       "giornata": "Giornata 3",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131660317",
@@ -19303,8 +19303,8 @@
       "giornata": "Giornata 3",
       "home": "POLISPORTIVA CLT",
       "away": "AMERINA PALLAVOLO A S D",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131661647",
@@ -20356,8 +20356,8 @@
       "giornata": "Giornata 2",
       "home": "REVISIONANDO VITT CHIUSI",
       "away": "MENCHETTI SCHOOL VOLLEY PERUGIA ROSSO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131672958",
@@ -20869,8 +20869,8 @@
       "giornata": "Giornata 1",
       "home": "U13 FOLIGNO VOLLEY ASD",
       "away": "REBELS ASSISI U13",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131673017",
@@ -21157,8 +21157,8 @@
       "giornata": "Giornata 1",
       "home": "COLLELUNA VOLLEY SAN GEMINI",
       "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-2",
+      "status": "disputata"
     },
     {
       "id": "131673069",
