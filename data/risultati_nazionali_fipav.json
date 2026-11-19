@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T13:40:49.335124+00:00",
+  "generatedAt": "2026-11-19T02:28:49.067210+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -230,6 +230,18 @@
       "ora": "17:00"
     },
     {
+      "id": "lva2-3279",
+      "competition": "Serie A2 Femminile Girone Unico",
+      "giornata": "Giornata",
+      "home": "ITAS TRENTINO",
+      "away": "BARTOCCINI +ENERGIA PERUGIA",
+      "data": "18/11/2026 ore 20:30",
+      "dataIso": "2026-11-18",
+      "ora": "20:30",
+      "score": "1-3",
+      "status": "disputata"
+    },
+    {
       "id": "fp7841",
       "competition": "Serie B Girone E",
       "giornata": "Giornata",
@@ -278,10 +290,22 @@
       "ora": "17:00"
     },
     {
+      "id": "fp11248",
+      "competition": "Serie B2 Girone G",
+      "giornata": "Giornata",
+      "home": "PALLAV. CITTA' DI CASTELLO",
+      "away": "STILLISOLUTIONS LIB.E FORTI",
+      "score": "da disputare",
+      "status": "in programma",
+      "data": "28/11/2026 ore 18:30",
+      "dataIso": "2026-11-28",
+      "ora": "18:30"
+    },
+    {
       "id": "fp3299",
       "competition": "Serie A2 Femminile Girone Unico",
       "giornata": "Giornata",
-      "home": "BARTOCCINI-MC RESTAURI PERUGIA",
+      "home": "BARTOCCINI +ENERGIA PERUGIA",
       "away": "NARCONON VOLLEY MELENDUGNO",
       "score": "da disputare",
       "status": "in programma",
@@ -372,18 +396,6 @@
       "data": "12/12/2026 ore 21:00",
       "dataIso": "2026-12-12",
       "ora": "21:00"
-    },
-    {
-      "id": "fp3325",
-      "competition": "Serie A2 Femminile Girone Unico",
-      "giornata": "Giornata",
-      "home": "BARTOCCINI-MC RESTAURI PERUGIA",
-      "away": "AKADEMIA SANT'ANNA MESSINA",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "16/12/2026 ore 20:30",
-      "dataIso": "2026-12-16",
-      "ora": "20:30"
     },
     {
       "id": "fp7869",
