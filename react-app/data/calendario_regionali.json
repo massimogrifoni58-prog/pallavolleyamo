@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:06:59.206565+00:00",
+  "generatedAt": "2026-11-19T14:10:08.319516+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -2809,7 +2809,7 @@
         "campionato": "Serie C Femminile Girone Unico",
         "giornata": "10",
         "data": "2026-12-19",
-        "ora": "18:00",
+        "ora": "21:00",
         "casa": "A.S.D. TREVI VOLLEY",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
         "risultato": null,
@@ -9903,7 +9903,7 @@
         "campionato": "Under 17 Femminile Girone B",
         "giornata": "7",
         "data": "2026-11-23",
-        "ora": "17:00",
+        "ora": "19:00",
         "casa": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
         "risultato": null,
@@ -17292,7 +17292,7 @@
         "campionato": "2 Divisione Femminile Girone B",
         "giornata": "4",
         "data": "2026-12-06",
-        "ora": "16:00",
+        "ora": "19:00",
         "casa": "ELLERA VOLLEY BLU",
         "ospite": "SCHOOL VOLLEY PERUGIA",
         "risultato": null,

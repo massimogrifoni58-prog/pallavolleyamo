@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:03:27.353470+00:00",
+  "generatedAt": "2026-11-19T14:06:43.728562+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -1901,15 +1901,6 @@
       "status": "in programma"
     },
     {
-      "id": "131626999",
-      "competition": "Serie C Femminile Girone Unico",
-      "giornata": "Giornata 10",
-      "home": "A.S.D. TREVI VOLLEY",
-      "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627001",
       "competition": "Serie C Femminile Girone Unico",
       "giornata": "Giornata 10",
@@ -1924,6 +1915,15 @@
       "giornata": "Giornata 10",
       "home": "VIANDER ACTON BASTIA",
       "away": "ELLERA VOLLEY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131626999",
+      "competition": "Serie C Femminile Girone Unico",
+      "giornata": "Giornata 10",
+      "home": "A.S.D. TREVI VOLLEY",
+      "away": "BARTOCCINI SCHOOL VOLLEY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -9218,20 +9218,20 @@
       "status": "in programma"
     },
     {
-      "id": "131657984",
-      "competition": "2 Divisione Femminile Girone B",
-      "giornata": "Giornata 4",
-      "home": "ELLERA VOLLEY BLU",
-      "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131657986",
       "competition": "2 Divisione Femminile Girone B",
       "giornata": "Giornata 4",
       "home": "UISP VOLLEY UMBERTIDE ROSSA",
       "away": "STRIKE TEAM MONTELUCE",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131657984",
+      "competition": "2 Divisione Femminile Girone B",
+      "giornata": "Giornata 4",
+      "home": "ELLERA VOLLEY BLU",
+      "away": "SCHOOL VOLLEY PERUGIA",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -14258,20 +14258,20 @@
       "status": "in programma"
     },
     {
-      "id": "131641470",
-      "competition": "Under 17 Femminile Girone B",
-      "giornata": "Giornata 7",
-      "home": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131641469",
       "competition": "Under 17 Femminile Girone B",
       "giornata": "Giornata 7",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "VOLLEY PONTE FELCINO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131641470",
+      "competition": "Under 17 Femminile Girone B",
+      "giornata": "Giornata 7",
+      "home": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
+      "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "score": "da disputare",
       "status": "in programma"
     },

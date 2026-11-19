@@ -1,14 +1,6 @@
 {
-  "generatedAt": "2026-11-19T06:02:10.436124+00:00",
+  "generatedAt": "2026-11-19T14:05:19.982323+00:00",
   "posts": [
-    {
-      "id": "news-7",
-      "title": "Bagno di folla a Perugia per l'S3",
-      "excerpt": "Fonte: corrieredellosport.it",
-      "createdTime": "Wed, 31 May 2023 14:48:00 GMT",
-      "image": "http://cdn.corrieredellosport.it/images/2023/05/31/195901347-b4766d45-fad6-4b6e-af2e-3fb7f1ad47f9.jpg",
-      "permalink": "https://www.corrieredellosport.it/news/volley/2023/05/31-108443853/bagno_di_folla_a_perugia_per_l_s3"
-    },
     {
       "id": "ledonnediperugiaespugnanotrent",
       "title": "Le donne di Perugia espugnano Trento e sono in vetta",
@@ -18,7 +10,15 @@
       "permalink": "https://www.pianetavolley.net/2026/11/le-donne-di-perugia-espugnano-trento-e-sono-in-vetta/"
     },
     {
-      "id": "news-0",
+      "id": "news-3",
+      "title": "Pallavolo, SuperLega Credem Banca, riparte la corsa allo Scudetto: la 6ª giornata è live su VBTV",
+      "excerpt": "Fonte: napolimagazine.com",
+      "createdTime": "Wed, 18 Nov 2026 17:09:00 GMT",
+      "image": "https://napolimagazine.blob.core.windows.net/locandine/7acaf513-a2b4-43fd-bab0-e56d3e2ad26d.jpg",
+      "permalink": "https://www.napolimagazine.com/altri-sport/articolo/pallavolo-superlega-credem-banca-riparte-la-corsa-allo-scudetto-la-6-giornata-live-su-vbtv-19-11-2026"
+    },
+    {
+      "id": "news-2",
       "title": "Pallavolo A2F – Perugia non si ferma, settima vittoria e primato solitario: Trento in emergenza lotta ma cede 3-1",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Wed, 18 Nov 2026 14:30:00 GMT",
@@ -50,23 +50,15 @@
       "permalink": "https://www.pianetavolley.net/2026/11/alessia-lillacci-la-sirio-perugia-puo-dire-la-sua/"
     },
     {
-      "id": "news-7",
-      "title": "Black Angels Perugia stasera in campo a Trento",
-      "excerpt": "Fonte: umbriatv.com",
-      "createdTime": "Wed, 18 Nov 2026 05:21:00 GMT",
-      "image": "https://www.umbriatv.com/wp-content/uploads/2026/11/225764_Black-Angels-Perugia-stasera-in-campo-a-Trento_1795008059.jpg",
-      "permalink": "https://www.umbriatv.com/notizie/sport/volley/black-angels-perugia-stasera-in-campo-a-trento/"
-    },
-    {
       "id": "news-3",
       "title": "Volley. L'ex azzurro Biribanti: «In quattro anni Terni può tornare in serie A»",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Wed, 14 Aug 2024 13:08:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/69/15/8296915_pckg_20240814_14941798.jpg",
+      "image": null,
       "permalink": "https://www.ilmessaggero.it/umbria/l_ex_azzurro_biribanti_quattro_anni_terni_serie_a-8296915.html"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "ITS Next Gen Volley Cup 3.000 studenti in campo",
       "excerpt": "Fonte: umbriajournal.com",
       "createdTime": "Wed, 07 Oct 2026 08:09:00 GMT",
@@ -74,7 +66,7 @@
       "permalink": "https://www.umbriajournal.com/sport/its-next-gen-volley-cup-3-000-studenti-in-campo-652863/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Volley, Fipav Umbria: c’è un corso gratuito per diventare arbitri",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Wed, 02 Oct 2024 07:49:00 GMT",
@@ -86,7 +78,7 @@
       "title": "Ecco gli Europei di volley, un punto per il turismo e PalaBarton tirato a lucido",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Tue, 29 Aug 2023 09:14:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/90/40/7599040_29161352_110737485.jpg",
+      "image": null,
       "permalink": "https://www.ilmessaggero.it/umbria/ecco_europei_di_volley_un_punto_turismo_palabarton_tirato_lucido-7599040.html"
     },
     {
@@ -122,7 +114,7 @@
       "permalink": "https://www.pianetavolley.net/2026/11/angelo-lorenzetti-perugia-ha-vinto-ma-deve-migliorare/"
     },
     {
-      "id": "news-6",
+      "id": "news-5",
       "title": "ITS Next Gen Volley Cup, studenti in campo con la Sir",
       "excerpt": "Fonte: umbriatv.com",
       "createdTime": "Tue, 06 Oct 2026 04:37:00 GMT",
@@ -130,7 +122,7 @@
       "permalink": "https://www.umbriatv.com/notizie/attualita/its-next-gen-volley-cup-studenti-in-campo-con-la-sir/"
     },
     {
-      "id": "news-3",
+      "id": "news-2",
       "title": "Pallavolo SL – Cisterna Volley all’esame Perugia: la carica di Morato per la sfida del PalaBarton",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Tue, 03 Nov 2026 09:14:00 GMT",
@@ -142,7 +134,7 @@
       "title": "Giocatore, arbitro e dirigente Il volley si inchina a Benito Montesi che taglia il traguardo dei 90 anni",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Thu, 28 May 2026 04:45:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/05/28/9559552_pckg_20260528_23931417.jpg",
+      "image": null,
       "permalink": "https://www.ilmessaggero.it/umbria/leggenda_pallavolo_benito_montesi_novant_anni-9559552.html"
     },
     {
@@ -154,6 +146,54 @@
       "permalink": "https://tuttoggi.info/terni-volley-academy-grande-pallavolo-e-fucina-di-futuri-campioni/919797/"
     },
     {
+      "id": "perugialastoriadiundominioinsu",
+      "title": "Perugia, la storia di un dominio in superlega",
+      "excerpt": "Dalle palestre umbre al vertice della pallavolo internazionale: la storia della Sir Safety Perugia è una delle scalate più significative dello sport italiano degli ultimi anni. Nata a Bastia Umbra nei",
+      "createdTime": "Thu, 19 Nov 2026 10:00:15 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Sir-Susa-Scai-Perugia-festeggiamenti.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/perugia-la-storia-di-un-dominio-in-superlega/"
+    },
+    {
+      "id": "claudiaconsoliunaperugiapulita",
+      "title": "Claudia Consoli: «Una Perugia pulita e lucida»",
+      "excerpt": "Dopo nove giornate è riuscita a trovare il primo posto in classifica la Bartoccini +energia Perugia che ha superato indenne la temibile trasferta di Trento inanellando il settimo sigillo consecutivo. ",
+      "createdTime": "Thu, 19 Nov 2026 08:00:48 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Consoli-Claudia-esulta.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/claudia-consoli-una-perugia-pulita-e-lucida/"
+    },
+    {
+      "id": "perugiaprimeggianellestatistic",
+      "title": "Perugia primeggia nelle statistiche di superlega maschile",
+      "excerpt": "Archiviata la prima competizione dell’annata agonistica si torna a guardare alla superlega maschile, un quarto del torneo è già trascorso. Chi ha disputato più partite è la Sir Susa Scai Perugia che h",
+      "createdTime": "Thu, 19 Nov 2026 06:00:55 GMT",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Reggers-Semeniuk-esultano.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/perugia-primeggia-nelle-statistiche-di-superlega-maschile/"
+    },
+    {
+      "id": "news-0",
+      "title": "Pallavolo SL – Gino Sirci: «Perugia non si accontenta, vogliamo continuare a vincere»",
+      "excerpt": "Fonte: ivolleymagazine.it",
+      "createdTime": "Thu, 19 Nov 2026 04:19:00 GMT",
+      "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Gino-Sirci-e-Angelo-Lorenzetti.jpg",
+      "permalink": "https://www.ivolleymagazine.it/2026/11/19/pallavolo-sl-gino-sirci-perugia-non-si-accontenta-vogliamo-continuare-a-vincere/"
+    },
+    {
+      "id": "news-1",
+      "title": "Travica: «Perugia la più forte, ma noi vogliamo far tornare a casa i tifosi con gli occhi a cuoricino». VIDEO",
+      "excerpt": "Fonte: sportpiacenza.it",
+      "createdTime": "Thu, 19 Nov 2026 02:30:00 GMT",
+      "image": null,
+      "permalink": "https://www.sportpiacenza.it/pallavolo/volley-a1-maschile/dragan-travica-perugia-forte-ma-i-nostri-tifosi-devono-avere-gli-occhi-a-cuoricino-video.html"
+    },
+    {
+      "id": "news-0",
+      "title": "PalaTerni, Umbria Forum fa il bilancio per i tre anni di attività",
+      "excerpt": "Fonte: umbria24.it",
+      "createdTime": "Thu, 19 Nov 2026 02:05:00 GMT",
+      "image": "https://www.umbria24.it/wp-content/uploads/2026/11/ITALIA_SLOVENIA.jpg",
+      "permalink": "https://www.umbria24.it/sport24/palaterni-umbria-forum-fa-il-bilancio-per-i-tre-anni-di-attivita/"
+    },
+    {
       "id": "news-0",
       "title": "Pallavolo A3M – Nunzio Lanci dopo il KO con Terni: “Dobbiamo ritrovare continuità e non farci prendere dall’ansia”",
       "excerpt": "Fonte: ivolleymagazine.it",
@@ -162,7 +202,7 @@
       "permalink": "https://www.ivolleymagazine.it/2026/11/12/pallavolo-a3m-nunzio-lanci-dopo-il-ko-con-terni-dobbiamo-ritrovare-continuita-e-non-farci-prendere-dallansia/"
     },
     {
-      "id": "news-5",
+      "id": "news-2",
       "title": "Terni Volley Academy, appello al Comune: “Servono aiuti concreti. Non possiamo perdere un patrimonio sportivo giovanile ed economico”",
       "excerpt": "Fonte: ternitoday.it",
       "createdTime": "Thu, 12 Nov 2026 00:47:00 GMT",
@@ -170,7 +210,7 @@
       "permalink": "https://www.ternitoday.it/sport/appello-comune-servono-risorse-volley-academy-terni-2026.html"
     },
     {
-      "id": "news-5",
+      "id": "news-6",
       "title": "Sirci e la Sir accolgono al PalaBarton l’Associazione nazionale famiglie numerose dell’Umbria",
       "excerpt": "Fonte: umbria24.it",
       "createdTime": "Thu, 05 Nov 2026 05:41:00 GMT",
@@ -179,6 +219,14 @@
     },
     {
       "id": "news-6",
+      "title": "Volley, i ragazzi dell'Umbria volano al Trofeo delle Regioni",
+      "excerpt": "Fonte: ilmessaggero.it",
+      "createdTime": "Sun, 29 Jun 2014 05:55:00 GMT",
+      "image": null,
+      "permalink": "https://www.ilmessaggero.it/umbria/volley_giovani_kinderiadi-477325.html"
+    },
+    {
+      "id": "news-7",
       "title": "Mercato Pallavolo, Grandi Manovre in Umbria per la Serie B1 e B2",
       "excerpt": "Fonte: lanazione.it",
       "createdTime": "Sun, 27 Aug 2023 20:24:00 GMT",
@@ -186,15 +234,15 @@
       "permalink": "https://www.lanazione.it/umbria/cronaca/mercato-pallavolo-grandi-manovre-in-umbria-per-la-serie-b1-e-b2-d2ff2bb7"
     },
     {
-      "id": "news-7",
-      "title": "Trofeo delle Regioni: Fipav Umbria prepara le atlete per la competizione a Bari",
-      "excerpt": "Fonte: lanazione.it",
-      "createdTime": "Sun, 18 May 2025 23:20:00 GMT",
-      "image": "https://www.lanazione.it/image-service/view/acePublic/alias/contentid/N2U2NWFmMGQtYWZjNy00/0/attacco-e-muro-la-sfida-a-rete-nel-cuore-della-pallavolo.jpg?f=16:9&amp;w=1200&amp;h=675",
-      "permalink": "https://www.lanazione.it/umbria/sport/trofeo-delle-regioni-fipav-umbria-5f6eccc2"
+      "id": "news-3",
+      "title": "Volley femminile, Bastia domina Foligno e stacca il passa per la semifinale",
+      "excerpt": "Fonte: assisisport.it",
+      "createdTime": "Sun, 21 May 2023 11:13:00 GMT",
+      "image": null,
+      "permalink": "https://www.assisisport.it/volley/volley-femminile-bastia-domina-foligno-e-stacca-il-passa-per-la-semifinale/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Pallavolo: Perugia vince la Supercoppa, rimontata Civitanova",
       "excerpt": "Fonte: msn.com",
       "createdTime": "Sun, 15 Nov 2026 12:57:00 GMT",
@@ -202,15 +250,7 @@
       "permalink": "https://www.msn.com/it-it/notizie/other/pallavolo-perugia-vince-la-supercoppa-rimontata-civitanova/ar-AA2huUCX"
     },
     {
-      "id": "news-1",
-      "title": "Pallavolo SuperCoppaM – Civitanova si ferma sul più bello, la Supercoppa resta per il quinto nella bacheca di Perugia",
-      "excerpt": "Fonte: ivolleymagazine.it",
-      "createdTime": "Sun, 15 Nov 2026 12:55:00 GMT",
-      "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Giannelli-e-Loreti-vittoria-SuperCoppa-2026.jpg",
-      "permalink": "https://www.ivolleymagazine.it/2026/11/15/pallavolo-supercoppam-civitanova-si-ferma-sul-piu-bello-la-supercoppa-resta-per-il-quinto-nella-bacheca-di-perugia/"
-    },
-    {
-      "id": "news-3",
+      "id": "news-6",
       "title": "Supercoppa di pallavolo: Perugia rimonta Civitanova e conquista l'ottava Supercoppa",
       "excerpt": "Fonte: infooggi.it",
       "createdTime": "Sun, 15 Nov 2026 12:07:00 GMT",
@@ -218,7 +258,7 @@
       "permalink": "https://www.infooggi.it/articolo/supercoppa-di-pallavolo-perugia-rimonta-civitanova-e-conquista-l-ottava-supercoppa/158378"
     },
     {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Perugia ha battuto Civitanova nella Supercoppa italiana di pallavolo maschile",
       "excerpt": "Fonte: ilpost.it",
       "createdTime": "Sun, 15 Nov 2026 12:02:00 GMT",
@@ -226,20 +266,12 @@
       "permalink": "https://www.ilpost.it/2026/11/15/perugia-vince-supercoppa-pallavolo-maschile/"
     },
     {
-      "id": "news-5",
+      "id": "news-7",
       "title": "Volley maschile, finale Supercoppa Italiana 2026: orario Perugia-Civitanova domenica 15 novembre, dove vederla in tv su Rai 2 HD e streaming",
       "excerpt": "Fonte: sport2u.tv",
       "createdTime": "Sun, 15 Nov 2026 10:00:00 GMT",
       "image": null,
       "permalink": "https://sport2u.tv/volley-maschile-finale-supercoppa-italiana-2026-orario-perugia-civitanova-domenica-15-novembre-dove-vederla-in-tv-su-rai-2-hd-e-streaming/"
-    },
-    {
-      "id": "news-4",
-      "title": "Sir Susa Scai Perugia, finalissima di supercoppa contro Civitanova",
-      "excerpt": "Fonte: rainews.it",
-      "createdTime": "Sun, 15 Nov 2026 01:53:00 GMT",
-      "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/14/1794675384712_Sir.jpeg",
-      "permalink": "https://www.rainews.it/tgr/umbria/video/2026/11/-pisinicca-servizio-volley-sir--c3a8245b-ba8d-45f1-9843-bd9e4ea01a4c.html"
     },
     {
       "id": "news-2",
@@ -258,15 +290,7 @@
       "permalink": "https://www.assisisport.it/volley/don-bosco-cannara-volley-vittoria-netta-contro-il-foligno/"
     },
     {
-      "id": "news-6",
-      "title": "La Pallavolo San Giorgio supera anche Perugia: quarta vittoria di fila e primato solitario",
-      "excerpt": "Fonte: piacenzasera.it",
-      "createdTime": "Sun, 08 Nov 2026 04:13:00 GMT",
-      "image": "https://cdn.piacenzasera.it/photogallery_new/images/2026/11/pallavolo-san-giorgio-297591.jpg",
-      "permalink": "https://www.piacenzasera.it/2026/11/la-pallavolo-san-giorgio-supera-anche-perugia-quarta-vittoria-di-fila-e-primato-solitario/669401/"
-    },
-    {
-      "id": "news-4",
+      "id": "news-5",
       "title": "Proietti, la Sir di pallavolo è l'Umbria che vince ed emoziona",
       "excerpt": "Fonte: ansa.it",
       "createdTime": "Sun, 01 Mar 2026 12:02:00 GMT",
@@ -274,11 +298,11 @@
       "permalink": "https://www.ansa.it/umbria/notizie/2026/03/01/proietti-la-sir-di-pallavolo-e-lumbria-che-vince-ed-emoziona_ecfb8843-8cc8-4aee-8e05-d79b59810abd.html"
     },
     {
-      "id": "news-3",
+      "id": "news-4",
       "title": "Narni, pallavolo maschile serie C. La prima di campionato si gioca a Corciano. Pallavolo Narni vs Faroplast Perugia",
       "excerpt": "Fonte: ilmessaggero.it",
       "createdTime": "Sat, 22 Oct 2022 03:05:00 GMT",
-      "image": "https://statics.cedscdn.it/photos/MED_HIGH/56/72/7005672_22095945_03_paolo_cipiccia.jpg",
+      "image": null,
       "permalink": "https://www.ilmessaggero.it/umbria/narni_la_squadra_di_pallavolo_ci_riprova_la_prima_di_campionato_si_gioca_perugia-7005672.html"
     },
     {
@@ -298,7 +322,7 @@
       "permalink": "https://www.umbriacronaca.it/2025/11/24/pallavolo-nel-2026-assisi-sede-di-una-finale-nazionale-giovanile/"
     },
     {
-      "id": "news-2",
+      "id": "news-3",
       "title": "Volley, doppio Lomurno alla Fipav: il presidente è stato riconfermato",
       "excerpt": "Fonte: perugiatoday.it",
       "createdTime": "Mon, 19 Nov 2012 10:09:00 GMT",
@@ -322,36 +346,12 @@
       "permalink": "https://sport.quotidiano.net/locale/volley/fipav-umbria-convocate-atlete-e-atleti-per-il-trofeo-delle-regioni-di-pallavolo-c850d25d"
     },
     {
-      "id": "news-0",
+      "id": "news-2",
       "title": "Pallavolo: Rpa lascia Umbria volley",
       "excerpt": "Fonte: lagazzettadelmezzogiorno.it",
       "createdTime": "Mon, 18 Apr 2011 08:59:00 GMT",
       "image": "https://lagazzettadelmezzogiorno.cdn.m33cloud.com/resizer/600/315/true/2011-04-1303135220-10328486673c3ac59595595055d392fc.jpg--.jpg",
       "permalink": "https://www.lagazzettadelmezzogiorno.it/news/sport-news-24/270117/pallavolo-rpa-lascia-umbria-volley.html"
-    },
-    {
-      "id": "davidestoppellicittdicastelloh",
-      "title": "Davide Stoppelli: «Città di Castello ha poche certezze»",
-      "excerpt": "Il quarto stop consecutivo complica la situazione nella classifica di serie B maschile per la Città di Castello Pallavolo. La formazione biancorossa non è riuscita a farsi valere sul rettangolo di Mon",
-      "createdTime": "Mon, 16 Nov 2026 20:00:57 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Stoppelli-Davide.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/davide-stoppelli-citta-di-castello-ha-poche-certezze/"
-    },
-    {
-      "id": "ferrereggersunaemozionegrandea",
-      "title": "Ferre Reggers: «Una emozione grande a Perugia»",
-      "excerpt": "Da qualche tempo accade una magia nella pallavolo, chi arriva a vestire la maglia di Perugia vince subito qualcosa, anche se prima non ci era mai riuscito. Una cosa che è capitata a diversi atleti in ",
-      "createdTime": "Mon, 16 Nov 2026 19:00:45 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Reggers-Ferre-coppa.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/ferre-reggers-una-emozione-grande-a-perugia/"
-    },
-    {
-      "id": "kamilsemeniukperugiaunavittori",
-      "title": "Kamil Semeniuk: «Perugia, una vittoria della pazienza»",
-      "excerpt": "Per capire quanto sia stata particolare e difficile la rimonta e la vittoria di Perugia nella finale di supercoppa italiana si può pensare alla reazione del dopo gara. Veder scendere qualche lacrima s",
-      "createdTime": "Mon, 16 Nov 2026 17:00:02 GMT",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Semeniuk-Kamil-coppa.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/kamil-semeniuk-perugia-una-vittoria-della-pazienza/"
     },
     {
       "id": "news-0",
@@ -362,15 +362,7 @@
       "permalink": "https://www.repubblica.it/sport/volley/2026/11/17/news/simone_giannelli_intervista_volley_olio_passioni-425728094/"
     },
     {
-      "id": "news-2",
-      "title": "Terni Volley Academy, il presidente Santini: «Vogliamo costruire un progetto di Terni, per Terni e con Terni»",
-      "excerpt": "Fonte: ternilife.com",
-      "createdTime": "Mon, 16 Nov 2026 16:00:00 GMT",
-      "image": "https://www.ternilife.com/wp-content/uploads/2018/11/volley-620x330.jpg",
-      "permalink": "https://www.ternilife.com/2026/11/17/terni-volley-academy-il-presidente-santini-vogliamo-costruire-un-progetto-di-terni-per-terni-e-con-terni/"
-    },
-    {
-      "id": "news-2",
+      "id": "news-4",
       "title": "Supercoppa Italiana 2026 - Perugia da record e nella storia! Block Devils in vetta all'albo d'oro con l'8° trionfo, Civitanova rimontata, da 0-2 a 3-2",
       "excerpt": "Fonte: eurosport.it",
       "createdTime": "Mon, 16 Nov 2026 05:29:00 GMT",
@@ -400,6 +392,14 @@
       "createdTime": "Fri, 27 Oct 2023 20:38:00 GMT",
       "image": "https://sport.quotidiano.net/brand/qs-og.png",
       "permalink": "https://sport.quotidiano.net/volley/volley-serie-b-ce-foligno-sansepolcro-4fb3de06"
+    },
+    {
+      "id": "news-7",
+      "title": "La Fipav Umbria si è insediata: ecco le nuove nomine",
+      "excerpt": "Fonte: sportperugia.it",
+      "createdTime": "Fri, 24 Feb 2017 02:19:00 GMT",
+      "image": "https://www.sportperugia.it/wp-content/uploads/2017/02/Lomurno-Giuseppe-comitato.jpg",
+      "permalink": "https://www.sportperugia.it/la-fipav-umbria-si-insediata-le-nuove-nomine/"
     },
     {
       "id": "fipav-18235",
