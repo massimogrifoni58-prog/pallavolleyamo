@@ -1,13 +1,29 @@
 {
-  "generatedAt": "2026-11-20T06:03:00.755486+00:00",
+  "generatedAt": "2026-11-20T13:48:49.583327+00:00",
   "posts": [
+    {
+      "title": "La Sirio Perugia cerca continuità contro Seravezza",
+      "excerpt": "Procede senza soste il campionato in serie B1 femminile che sta conoscendo sempre più nel dettaglio il suo livello tecnico con la formazione della Sirio Massinelli Perugia in cerca di spazi importanti",
+      "createdTime": "Fri, 20 Nov 2026 12:19:41 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Zorzetto-Aurora-attacco.jpg",
+      "permalink": "https://www.volleyumbria.it/?p=35890",
+      "id": "1"
+    },
+    {
+      "title": "Caso calendari, l’apertura di Azevedo: «La proposta non è definitiva. Ascolteremo tutti»",
+      "excerpt": "La partita è aperta. Dall’esito tutt’altro che scontato. Ma è aperta. Da una parte della rete – se si vuole tracciare un parallelo con la pallavolo – la Fivb. Dall’altra diversi club di tutto il mondo",
+      "createdTime": "Fri, 20 Nov 2026 11:19:34 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/11/SIR-BENDA-261114-152838-MB6_41534_wqxga.jpg?fit=1024%2C683&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/caso-calendari-lapertura-di-azevedo-la-proposta-non-e-definitiva-ascolteremo-tutti/",
+      "id": "2"
+    },
     {
       "title": "Altotevere, il punto di Monaldi: “Mi sta piacendo la tenuta mentale del gruppo”",
       "excerpt": "E sull’utilizzo dell’intero roster a Brugherio, salvo Marzolla, precisa: “Non sarà più una sorpresa, perché c’è bisogno di tutti, specie in una stagione lunga e abbiamo le pedine per farlo” Mente dell",
       "createdTime": "Thu, 19 Nov 2026 13:05:27 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/monaldi-gara-con-savigliano.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35885",
-      "id": "1"
+      "id": "3"
     },
     {
       "title": "Black Angels, la soddisfazione di Micoli: “A Trento una vittoria importante”",
@@ -15,7 +31,7 @@
       "createdTime": "Thu, 19 Nov 2026 12:33:17 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Black-Angels-esultanza-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35883",
-      "id": "2"
+      "id": "4"
     },
     {
       "title": "Settebello Black Angels: blitz sotto le Dolomiti (1-3) e primato in solitaria",
@@ -23,7 +39,7 @@
       "createdTime": "Wed, 18 Nov 2026 22:11:58 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Black-Angels-a-Trento-6.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35881",
-      "id": "3"
+      "id": "5"
     },
     {
       "title": "Altotevere, la forza delle seconde linee",
@@ -31,15 +47,7 @@
       "createdTime": "Wed, 18 Nov 2026 12:32:54 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/bianchini-luatti-giovagnoli-4.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35872",
-      "id": "4"
-    },
-    {
-      "title": "Sirio Perugia: Alessia Lillacci suona la carica",
-      "excerpt": "Il pronto riscatto in serie B1 femminile ha cancellato il passo falso della settimana precedente e fatto riprendere la marcia alla Sirio Massinelli Perugia che ha dimostrato solidità contro Greve in C",
-      "createdTime": "Wed, 18 Nov 2026 11:08:07 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Lillacci-Alessia-riceve.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35869",
-      "id": "5"
+      "id": "6"
     },
     {
       "title": "D maschile: Sir ITS Academy Perugia resta sola in vetta, cade Monteluce contro la School Volley",
@@ -47,7 +55,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:04:13 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35867",
-      "id": "6"
+      "id": "7"
     },
     {
       "title": "C femminile: Deruta domina lo scontro diretto con la Bartoccini e tenta la prima fuga stagionale",
@@ -55,7 +63,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:02:14 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35866",
-      "id": "7"
+      "id": "8"
     },
     {
       "title": "C maschile: la quinta giornata consolida le gerarchie di vetta",
@@ -63,7 +71,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:00:10 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35865",
-      "id": "8"
+      "id": "9"
     },
     {
       "title": "Marco Bartolini: «Città di Castello può invertire la rotta»",
@@ -71,7 +79,7 @@
       "createdTime": "Wed, 18 Nov 2026 08:29:06 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Bartolini-Marco-rete.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/marco-bartolini-citta-di-castello-puo-invertire-la-rotta/",
-      "id": "9"
+      "id": "10"
     },
     {
       "title": "D maschile: Sir Academy e Monteluce restano in vetta al fotofinish. Chiusi e Spoleto non mollano",
@@ -79,7 +87,7 @@
       "createdTime": "Tue, 10 Nov 2026 21:56:57 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35784",
-      "id": "10"
+      "id": "11"
     },
     {
       "title": "D femminile: Ponte Felcino, Sirio E Bastia non sbagliano un colpo",
@@ -87,7 +95,7 @@
       "createdTime": "Tue, 10 Nov 2026 21:51:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35783",
-      "id": "11"
+      "id": "12"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:07:41.559735+00:00",
+  "generatedAt": "2026-11-20T13:53:44.669374+00:00",
   "soggetti": [
     {
       "id": "sir-perugia",
@@ -35,11 +35,34 @@
   "news": {
     "sir-perugia": [
       {
-        "title": "Cuneo-Verona domani in campo per la 6a giornata - Tuttosport",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ3BzVll2R2h5LUo1VmJoMDJ2anhiQmJsQ0cwZXZLRUpMcUFGelh2ckFVRWU0TnZYemwtZzl6Z3NpYTktV3NLX0EzQVVFTDdnTkJZVTZaYy1iZTR1dHg1d29DYVdSdlFnak5sSGtqeG00dmFjZDQzeTNXb05PWWtXeV9yRE5iV2U3X2Mxek5VMUFwSjljWVFHY0s5YUtFNkJLN3Y2VFQ4R3NHblY4RzY3b3ZhZ2k1emRFdDBzNtIBvwFBVV95cUxQbzJNaENhaFVLZGl0bmpRcFJYRXBuYmY3NDBTZ2xMV0ViLWRSWTJiR2h1dXg3MmJMdFZUUFlCX2ltOVFDTFB0UlRvOGg1TV81SUtzVWVEaThmUklYQ0ZfTGYydFpnbjhKX0tZakRKZmdDVGNYN3k3ZlNzWVNuOUpqRE1lYy1sbFYxOHNLMG9PZ2drYjBDOUdkNjNnQ0ZpMkF3cjNFeTYyUTNuQnl0ck01UmFmU1RYQ3FQRk5RRnJfSQ?oc=5",
-        "pubDate": "Thu, 19 Nov 2026 23:44:26 GMT",
-        "source": "Tuttosport",
-        "image": "https://cdn.tuttosport.com/images/2026/11/19/233444440-0d6ebbc5-6213-4286-bc2c-fff1e69a9ca2.jpg",
+        "title": "Ultimi biglietti disponibili per il big match con Perugia. - Lega Pallavolo Serie A",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOejBza3B3a0ZSREVtN0VqR0ZYNDUtRHdDRHJ2NmZER1N5blRHcndmcDZZbWQyMjJSRDZVaXgzSkFtU2lnQndtTzAtUGQzdU5lQTl0VEVSRDVTM2dmMURya0lqeThJdFFYS0I3aDdpTWNpdU5PYVh4cVBfaFZFemZIbjNUZjE0bUhDS1lUbURhTTIzSzQ?oc=5",
+        "pubDate": "Fri, 20 Nov 2026 09:01:52 GMT",
+        "source": "Lega Pallavolo Serie A",
+        "image": null,
+        "avversaria": "Gas Sales Bluenergy Piacenza"
+      },
+      {
+        "title": "Sale l’attesa per il big match Gas Sales – Perugia, ancora pochi biglietti disponibili",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b269214cc39868a00c002510bb&url=https%3a%2f%2fwww.piacenzasera.it%2f2026%2f11%2fsale-lattesa-per-il-big-match-gas-sales-perugia-ancora-pochi-biglietti-disponibili%2f671285%2f&c=13495420952332946922&mkt=it-it",
+        "pubDate": "Fri, 20 Nov 2026 04:26:00 GMT",
+        "source": "",
+        "image": "https://cdn.piacenzasera.it/photogallery_new/images/2026/11/la-partita-di-trento-della-gas-sales-297588.jpg",
+        "avversaria": "Gas Sales Bluenergy Piacenza"
+      },
+      {
+        "title": "Inarrestabile Sir Perugia, rimonta d'oro sulla Lube: è ottava Supercoppa",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b1a79d4848aea1807ba89f0aae&url=https%3a%2f%2fwww.ilmessaggero.it%2fumbria%2finarrestabile_sir_perugia_rimonta_d_oro_sulla_lube_ottava_supercoppa-9891925.html&c=14513680488413728132&mkt=it-it",
+        "pubDate": "Fri, 20 Nov 2026 02:57:00 GMT",
+        "source": "",
+        "image": "https://statics.cedscdn.it/photos/MED_HIGH/2026/11/16/9891925_16005931_sir_benda_261115_210430_mb6_1025_wqxga.jpg"
+      },
+      {
+        "title": "Gas Sales quasi sold out: ultimi biglietti per Piacenza-Perugia di Superliga",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b269214cc39868a00c002510bb&url=https%3a%2f%2fwww.ilpiacenza.it%2feventi%2fgas-sales-ultimi-biglietti-piacenza-perugia.html&c=14335922055062319984&mkt=it-it",
+        "pubDate": "Fri, 20 Nov 2026 02:03:00 GMT",
+        "source": "",
+        "image": null,
         "avversaria": "Gas Sales Bluenergy Piacenza"
       },
       {
@@ -50,54 +73,31 @@
         "image": "https://www.sirsafetyperugia.it/assets/img/news/_og/SIR-BENDA-261115-182802-MB6_7715_wqxga.jpg"
       },
       {
-        "title": "La Sir. Fine novembre di fuoco: una trasferta e due impegni in casa",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe37d23c14660a98b388914659664&url=https%3a%2f%2flnx.tifogrifo.com%2fla-sir-fine-novembre-di-fuoco-una-trasferta-e-due-impegni-in-casa%2f256864%2f&c=12156560668471071795&mkt=it-it",
-        "pubDate": "Thu, 19 Nov 2026 12:27:00 GMT",
-        "source": "",
-        "image": "https://lnx.tifogrifo.com/wp-content/uploads/2026/11/SIR-BENDA-261115-180856-MB5_1565_wqxga.jpg"
-      },
-      {
         "title": "Block Devils finale intenso tra trasferte e gare casalinghe",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe37d23c14660a98b388914659664&url=https%3a%2f%2fwww.umbriajournal.com%2fsport%2fblock-devils-finale-intenso-tra-trasferte-e-gare-casalinghe-657450%2f&c=456454741558527591&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b1a79d4848aea1807ba89f0aae&url=https%3a%2f%2fwww.umbriajournal.com%2fsport%2fblock-devils-finale-intenso-tra-trasferte-e-gare-casalinghe-657450%2f&c=456454741558527591&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 10:41:00 GMT",
         "source": "",
         "image": null
       },
       {
-        "title": "Pallavolo SL – Gino Sirci: «Perugia non si accontenta, vogliamo continuare a vincere»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe37d23c14660a98b388914659664&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f11%2f19%2fpallavolo-sl-gino-sirci-perugia-non-si-accontenta-vogliamo-continuare-a-vincere%2f&c=6905429004524593503&mkt=it-it",
-        "pubDate": "Thu, 19 Nov 2026 04:19:00 GMT",
-        "source": "",
-        "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Gino-Sirci-e-Angelo-Lorenzetti.jpg"
-      },
-      {
-        "title": "Final Four di Del Monte® Coppa Italia a Roma il 6 e 7 febbraio 2027 - Trentino Volley",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTjZMVXp0X1dxZmNlRkJJRU1PX0V2VzJXYWpNb21VbGZBU1E0ejJVa3k2emZNb2xSVGJzVXpLdUxjNzZJZjJvaHNmVkI5WVFac19uVnlCRWNsUDJieko5VnlmTm5CTHBUS2N0T184LWNhNEQyU0tJUGZDUEg0WHBCVEg4X0JGY1hjVXUtbnVVWURkYW5KcmM2Mk9CQmlrZXIycHRrSWZ4a2JlR2NPVkZFR0ZNakZSdw?oc=5",
-        "pubDate": "Wed, 18 Nov 2026 14:54:57 GMT",
-        "source": "Trentino Volley",
-        "image": "https://www.trentinovolley.it/wp-content/uploads/2026/11/18112026hcoppa.jpg",
-        "avversaria": "Gas Sales Bluenergy Piacenza"
-      },
-      {
-        "title": "La Final four di Coppa Italia torna a Roma: l'ultima a vincerla nella Capitale fu la Gas Sales Bluenergy - SportPiacenza",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2dFZ0t4RlBFcDdJTUpJZlRUc19XYTVhcU1OazR5VTh5WGlMWHdHV1FURzcyWnVVd3N3ckNHSWUzVzQ4VDdEeEVoSkpTS1ZmeGNUbWY5cXBqRFViZE1Iazh3dlh4Z1NpMlEtd190YTdEZXIxcXhLcVpiMVN0UlkyYlctNThWYUMzUWJ1aVFPbTVmUDZ2blk1UldXRDdaeW8?oc=5",
-        "pubDate": "Wed, 18 Nov 2026 14:35:43 GMT",
-        "source": "SportPiacenza",
-        "image": null,
-        "avversaria": "Gas Sales Bluenergy Piacenza"
-      },
-      {
         "title": "Il Prefetto fa visita ai Block Devils",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe37d23c14660a98b388914659664&url=https%3a%2f%2fwww.rainews.it%2ftgr%2fumbria%2farticoli%2f2026%2f11%2fil-prefetto-fa-visita-ai-block-devils-64528ee9-5b93-47d0-8b08-d5281acc8cfd.html&c=5172235393824676590&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b1a79d4848aea1807ba89f0aae&url=https%3a%2f%2fwww.rainews.it%2ftgr%2fumbria%2farticoli%2f2026%2f11%2fil-prefetto-fa-visita-ai-block-devils-64528ee9-5b93-47d0-8b08-d5281acc8cfd.html&c=5172235393824676590&mkt=it-it",
         "pubDate": "Tue, 17 Nov 2026 09:08:00 GMT",
         "source": "",
         "image": "https://www.rainews.it/cropgd/1200x630/dl/img/2026/11/17/1794935240581_prefetto.jpeg"
+      },
+      {
+        "title": "Supercoppa Italiana 2026 - Perugia da record e nella storia! Block Devils in vetta all'albo d'oro con l'8° trionfo, Civitanova rimontata, da 0-2 a 3-2",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050b1a79d4848aea1807ba89f0aae&url=https%3a%2f%2fwww.eurosport.it%2fpallavolo%2fsupercoppa-italiana-2026-perugia-da-record-e-nella-storia-block-devils-in-vetta-allalbo-doro-con-l8-trionfo-civitanova-rimontata-da-0-2-a-3-2_sto23355803%2fstory.shtml&c=13575008991368983851&mkt=it-it",
+        "pubDate": "Mon, 16 Nov 2026 05:29:00 GMT",
+        "source": "",
+        "image": null
       }
     ],
     "bartoccini": [
       {
         "title": "Ancora un tie-break per la Olio Pantaleo Fasano. Contro la Melgari Vbc Cremonese finisce 3-2",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe38829434f46a0791e5e83766b77&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fancora-un-tie-break-per-la-olio-pantaleo-fasano-contro-la-melgari-vbc-cremonese-finisce-3-2%2f&c=4646948969356906445&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bad9024d78b71e257c50d3453f&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fancora-un-tie-break-per-la-olio-pantaleo-fasano-contro-la-melgari-vbc-cremonese-finisce-3-2%2f&c=4646948969356906445&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT",
         "source": "",
         "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/11/olio-pantaleo-post-gara-1536x1023.jpg",
@@ -105,7 +105,7 @@
       },
       {
         "title": "Black Angels, la soddisfazione di Micoli: “A Trento una vittoria importante”",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe388108e4d2aa07928185b68f550&url=https%3a%2f%2flnx.tifogrifo.com%2fblack-angels-la-soddisfazione-di-micoli-a-trento-una-vittoria-importante%2f256870%2f&c=18048271585742614594&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bae8a14ad68f5b9d45079f53cf&url=https%3a%2f%2flnx.tifogrifo.com%2fblack-angels-la-soddisfazione-di-micoli-a-trento-una-vittoria-importante%2f256870%2f&c=18048271585742614594&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 12:29:00 GMT",
         "source": "",
         "image": "https://lnx.tifogrifo.com/wp-content/uploads/2026/11/Black-Angels-esultanza-3.jpg"
@@ -120,14 +120,21 @@
       },
       {
         "title": "Black Angels Perugia, vittoria a Trento (1-3) e primato solitario",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe388108e4d2aa07928185b68f550&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-vittoria-a-trento-1-3-e-primato-solitario%2f&c=13489255509569641284&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bae8a14ad68f5b9d45079f53cf&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-vittoria-a-trento-1-3-e-primato-solitario%2f&c=13489255509569641284&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 03:25:00 GMT",
         "source": "",
         "image": "https://www.umbriatv.com/wp-content/uploads/2026/11/225818_Black-Angels-Perugia-vittoria-a-Trento-1-3-e-primato-solitario_1795087539.jpg"
       },
       {
+        "title": "Volley A2 femminile, la Bartoccini +energia Perugia espugna Trento e si prende la vetta - PerugiaToday",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZHAzRXQ0WFpsTG5BMXFOZ09TczAyOU5ZWjhaTVRNbGVPcGk3TVo1YzRfYUNHLU5MVHZLTmloUkNBd19tMG9uSVJiWi1TN0I5WmkxLURTci1IcEVmWTYzWHNDUXBHX1V5QWtlVjh5SDFJOExTSDY1YVRoZU5idjMwSFpxS3E1ajJYSk9CLWhZelkzeWRGSUp4MQ?oc=5",
+        "pubDate": "Wed, 18 Nov 2026 22:58:35 GMT",
+        "source": "PerugiaToday",
+        "image": null
+      },
+      {
         "title": "Volley A2/F, Pantaleo Fasano torna a vincere: Cremonese ko al tie-break",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe38829434f46a0791e5e83766b77&url=https%3a%2f%2fwww.antennasud.com%2fvolley-a2-f-pantaleo-fasano-torna-a-vincere-cremonese-ko-al-tie-break%2f&c=4772523598049819867&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bad9024d78b71e257c50d3453f&url=https%3a%2f%2fwww.antennasud.com%2fvolley-a2-f-pantaleo-fasano-torna-a-vincere-cremonese-ko-al-tie-break%2f&c=4772523598049819867&mkt=it-it",
         "pubDate": "Wed, 18 Nov 2026 17:28:00 GMT",
         "source": "",
         "image": "https://www.antennasud.com/media/2026/11/IMG_4459.jpeg",
@@ -135,24 +142,17 @@
       },
       {
         "title": "Black Angels Perugia stasera in campo a Trento",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe388108e4d2aa07928185b68f550&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-stasera-in-campo-a-trento%2f&c=14341970882440692889&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bae8a14ad68f5b9d45079f53cf&url=https%3a%2f%2fwww.umbriatv.com%2fnotizie%2fsport%2fvolley%2fblack-angels-perugia-stasera-in-campo-a-trento%2f&c=14341970882440692889&mkt=it-it",
         "pubDate": "Wed, 18 Nov 2026 05:21:00 GMT",
         "source": "",
         "image": "https://www.umbriatv.com/wp-content/uploads/2026/11/225764_Black-Angels-Perugia-stasera-in-campo-a-Trento_1795008059.jpg"
       },
       {
         "title": "Settebello Black Angels: blitz sotto le Dolomiti (1-3) e primato in solitaria",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe388108e4d2aa07928185b68f550&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fsettebello-black-angels-blitz-sotto-le-dolomiti-1-3-e-primato-in-solitaria%2f&c=7739813817745957324&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050bae8a14ad68f5b9d45079f53cf&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fsettebello-black-angels-blitz-sotto-le-dolomiti-1-3-e-primato-in-solitaria%2f&c=7739813817745957324&mkt=it-it",
         "pubDate": "Tue, 17 Nov 2026 16:00:00 GMT",
         "source": "",
         "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/11/Black-Angels-a-Trento-2.jpg"
-      },
-      {
-        "title": "Assalto alla vetta tra le Dolomiti: le Black Angels fanno visita all’Itas",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe388108e4d2aa07928185b68f550&url=https%3a%2f%2fwww.legavolleyfemminile.it%2fassalto-alla-vetta-tra-le-dolomiti-le-black-angels-fanno-visita-allitas%2f&c=11637356345030151581&mkt=it-it",
-        "pubDate": "Mon, 16 Nov 2026 16:00:00 GMT",
-        "source": "",
-        "image": "https://www.legavolleyfemminile.it/wp-content/uploads/2026/11/Black-Angels-1-2-1536x1024.jpg"
       }
     ],
     "tva": [
@@ -161,12 +161,12 @@
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVRrQ0FBT210d2prSXd5cElaenpjUVAzYWxHVTJXNUN1YlF6dTVlNG05dU1Qc2FxcnQ3YjFtUFBrRHZnQzhqV3JFdEQ2WHcwblh0SWRCXzR6ODZaOERtRjNCY1BSNXlwTzY5bXhsVGZMNk8wUFNhamNIc1g2U09TV1RfdW5Ic2RxaFkyNmZvZjYwNmk4XzEtSUh6SV9sZnEyaHY3SGlxSlhOVU1QbnB5LTY0LXZMdw?oc=5",
         "pubDate": "Thu, 19 Nov 2026 16:12:23 GMT",
         "source": "PugliaLive",
-        "image": null,
+        "image": "https://www.puglialive.net/wp-content/uploads/2026/11/nmv_barbone_1-2.jpg",
         "avversaria": "Bcc Tecbus Castellana Grotte"
       },
       {
         "title": "Volley A3/M, New Mater Castellana torna al Pala Grotte: arriva Terni",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39398a34cb89d35a98ee37c28de&url=https%3a%2f%2fwww.antennasud.com%2fvolley-a3-m-new-mater-castellana-torna-al-pala-grotte-arriva-terni%2f&c=10373318435959990767&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c64861476889b40557712aedcc&url=https%3a%2f%2fwww.antennasud.com%2fvolley-a3-m-new-mater-castellana-torna-al-pala-grotte-arriva-terni%2f&c=10373318435959990767&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT",
         "source": "",
         "image": "https://www.antennasud.com/media/2026/11/IMG_4566-scaled.jpeg",
@@ -174,14 +174,14 @@
       },
       {
         "title": "Terni Volley Academy a caccia del “poker” contro BCC Tecbus Castellana Grotte",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe392ea874a6980c39fe45f2f9e73&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley%2fterni-volley-academy-carica-capitano-luciano-zornetta.html&c=4974335580666232509&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c57aab4dfaa619919778e5918c&url=https%3a%2f%2fwww.ternitoday.it%2fsport%2fvolley%2fterni-volley-academy-carica-capitano-luciano-zornetta.html&c=4974335580666232509&mkt=it-it",
         "pubDate": "Thu, 19 Nov 2026 09:34:00 GMT",
         "source": "",
         "image": null
       },
       {
         "title": "Terni Volley Academy contro BCC Tecbus Castellana Grotte per conquistare la quarta vittoria consecutiva",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39398a34cb89d35a98ee37c28de&url=https%3a%2f%2fwww.ternilife.com%2f2026%2f11%2f19%2fterni-volley-academy-contro-bcc-tecbus-castellana-grotte-per-conquistare-la-quarta-vittoria-consecutiva%2f&c=1164053285691229436&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c64861476889b40557712aedcc&url=https%3a%2f%2fwww.ternilife.com%2f2026%2f11%2f19%2fterni-volley-academy-contro-bcc-tecbus-castellana-grotte-per-conquistare-la-quarta-vittoria-consecutiva%2f&c=1164053285691229436&mkt=it-it",
         "pubDate": "Wed, 18 Nov 2026 16:01:00 GMT",
         "source": "",
         "image": "https://www.ternilife.com/wp-content/uploads/2016/06/Volley-620x330.jpg",
@@ -189,28 +189,28 @@
       },
       {
         "title": "Terni Volley Academy, rimonta vincente: Modica battuta 3-1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe392ea874a6980c39fe45f2f9e73&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-modica-3-1-rimonta-121536&c=16586061476252352182&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c57aab4dfaa619919778e5918c&url=https%3a%2f%2fwww.ternananews.it%2fnon-solo-calcio%2fterni-volley-academy-modica-3-1-rimonta-121536&c=16586061476252352182&mkt=it-it",
         "pubDate": "Tue, 17 Nov 2026 04:30:00 GMT",
         "source": "",
         "image": "https://net-storage-auto.tcccdn.com/storage/ternananews.it/img_notizie/thumb3/f5/f59aa757362df869abfa96a55ae8210c-36538-oooz0000.jpeg"
       },
       {
         "title": "Terni Volley Academy, il presidente Santini: «Vogliamo costruire un progetto di Terni, per Terni e con Terni»",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe392ea874a6980c39fe45f2f9e73&url=https%3a%2f%2fwww.ternilife.com%2f2026%2f11%2f17%2fterni-volley-academy-il-presidente-santini-vogliamo-costruire-un-progetto-di-terni-per-terni-e-con-terni%2f&c=3401536874648533679&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c57aab4dfaa619919778e5918c&url=https%3a%2f%2fwww.ternilife.com%2f2026%2f11%2f17%2fterni-volley-academy-il-presidente-santini-vogliamo-costruire-un-progetto-di-terni-per-terni-e-con-terni%2f&c=3401536874648533679&mkt=it-it",
         "pubDate": "Mon, 16 Nov 2026 16:00:00 GMT",
         "source": "",
         "image": "https://www.ternilife.com/wp-content/uploads/2018/11/volley-620x330.jpg"
       },
       {
         "title": "La Terni Volley Academy di rimonta su Modica: 3-1",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe392ea874a6980c39fe45f2f9e73&url=https%3a%2f%2fwww.umbria24.it%2fterni%2fl%2f&c=18173896334739373450&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c57aab4dfaa619919778e5918c&url=https%3a%2f%2fwww.umbria24.it%2fterni%2fl%2f&c=18173896334739373450&mkt=it-it",
         "pubDate": "Mon, 16 Nov 2026 02:58:00 GMT",
         "source": "",
         "image": "https://www.umbria24.it/wp-content/uploads/2026/11/899912048_4615235758720153_7056954771607188891_n.avif-1.jpeg"
       },
       {
         "title": "Volley Serie A3, l’Avimec Modica illusoria a Terni, vince 3-1 l’Academy",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe392ea874a6980c39fe45f2f9e73&url=https%3a%2f%2fsportwebsicilia.it%2f2026%2f11%2f15%2fvolley-serie-a3-terni-volley-academy-avimec-modica-risultato-tabellino%2f&c=664208853007386871&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050c57aab4dfaa619919778e5918c&url=https%3a%2f%2fsportwebsicilia.it%2f2026%2f11%2f15%2fvolley-serie-a3-terni-volley-academy-avimec-modica-risultato-tabellino%2f&c=664208853007386871&mkt=it-it",
         "pubDate": "Sat, 14 Nov 2026 15:36:00 GMT",
         "source": "",
         "image": "https://sportwebsicilia.it/wp-content/uploads/sites/9/2026/11/905454764_2672392909886878_3038120711703574206_n.jpg"
@@ -219,10 +219,18 @@
     "altotevere": [
       {
         "title": "Pallavolo Mercato – Savigliano, due metri in più al centro. E’ arrivato Flavio Procelli",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39c2ae945bba947bb87ea0f1fde&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f11%2f17%2fpallavolo-mercato-savigliano-due-metri-in-piu-al-centro-e-arrivato-flavio-procelli%2f&c=4925884809916482237&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050cd9aa041de9e88210237a8bcfc&url=https%3a%2f%2fwww.ivolleymagazine.it%2f2026%2f11%2f17%2fpallavolo-mercato-savigliano-due-metri-in-piu-al-centro-e-arrivato-flavio-procelli%2f&c=4925884809916482237&mkt=it-it",
         "pubDate": "Tue, 17 Nov 2026 06:12:00 GMT",
         "source": "",
         "image": "https://www.ivolleymagazine.it/wp-content/uploads/2026/11/Procelli_Flavio_Savigliano.jpeg"
+      },
+      {
+        "title": "CUS Cagliari volley, prima vittoria casalinga: San Donà ko 3-0 - Unica Radio",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbjNSUGRzOGVYNVBkUWs2YUJHdGFkeVJ5YmVRME93ZVoyeExMcGpCNTZIV1E5dUhpOHg2dGFvWWZ4WlBRaXBsUzY3YndwQS1waWdpS3YzOUM1azdja3ZwZTc2ZHNvYTNQckVZaG16RU84N0NGOWk5Qk56YlhrR2szQVN1VEhpRloxTGUtOGJ0YVJuWUJXNEMzeG9rdWVIemlpaUZRbzlR0gGmAUFVX3lxTE1uM1JQZHM4ZVg1UGRRazZhQkd0YWR5UnliZVEwT3dlWjJ4TExwakI1NkhXUTl1SGk4eDZ0YW9ZZnhaUFFpcGxTNjdid3BBLXBpZ2lLdjM5QzVrN2NrdnBlNzZkc29hM1ByRVlobXpFTzg3Q0Y5aTlCTnpiWGtHazNBU3VUSGlGWjFMZS04YnRhUm5ZQlc0QzN4b2t1ZUh6aWlpRlFvOVE?oc=5",
+        "pubDate": "Tue, 10 Nov 2026 14:37:46 GMT",
+        "source": "Unica Radio",
+        "image": null,
+        "avversaria": "Cus Cagliari"
       },
       {
         "title": "Cus Cagliari Volley: ecco la prima gemma, Personal Time San Donà di Piave travolta 3 a 0 - Sardegna Ieri-Oggi-Domani",
@@ -234,40 +242,32 @@
       },
       {
         "title": "Pallavolo: vincono Altotevere e Trestina, terzo ko per il Città di Castello maschile",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39c2ae945bba947bb87ea0f1fde&url=https%3a%2f%2fwww.ttv.it%2fsport%2fpallavolo-vincono-altotevere-e-trestina-terzo-ko-per-il-citta-di-castello-maschile%2f&c=13432491046803074873&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050cd9aa041de9e88210237a8bcfc&url=https%3a%2f%2fwww.ttv.it%2fsport%2fpallavolo-vincono-altotevere-e-trestina-terzo-ko-per-il-citta-di-castello-maschile%2f&c=13432491046803074873&mkt=it-it",
         "pubDate": "Mon, 09 Nov 2026 06:36:00 GMT",
         "source": "",
         "image": "https://www.ttv.it/wp-content/uploads/2026/11/altotevere-volley.jpg"
       },
       {
         "title": "Volley, A3/M: il tour de force di Savigliano si apre a San Giustino",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39c2ae945bba947bb87ea0f1fde&url=https%3a%2f%2fwww.cuneodice.it%2fsport%2fsaviglianese%2fvolley-a3m-il-tour-de-force-di-savigliano-si-apre-a-san-giustino_129974.html&c=1102925885443667358&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050cd9aa041de9e88210237a8bcfc&url=https%3a%2f%2fwww.cuneodice.it%2fsport%2fsaviglianese%2fvolley-a3m-il-tour-de-force-di-savigliano-si-apre-a-san-giustino_129974.html&c=1102925885443667358&mkt=it-it",
         "pubDate": "Sun, 08 Nov 2026 04:50:00 GMT",
         "source": "",
         "image": "https://static.cuneodice.it/cuneo/foto/129974/163130.jpg"
       },
       {
         "title": "A3 Credem Banca: Campobasso cala il poker, Cagliari supera San Donà",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe39c7f504b088ff3b115ebd9cdc3&url=https%3a%2f%2fwww.volleyball.it%2f2026%2f11%2f08%2fnotizie%2fargomenti%2fa3-maschile%2farticolo%2fa3-credem-banca-campobasso-cala-il-poker-cagliari-supera-san-dona.html&c=12488630260918756491&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050ce51ae4d04a0b5a99758224e6b&url=https%3a%2f%2fwww.volleyball.it%2f2026%2f11%2f08%2fnotizie%2fargomenti%2fa3-maschile%2farticolo%2fa3-credem-banca-campobasso-cala-il-poker-cagliari-supera-san-dona.html&c=12488630260918756491&mkt=it-it",
         "pubDate": "Sat, 07 Nov 2026 16:42:00 GMT",
         "source": "",
         "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/11/a3-campobasso-vittoria-cisterna-20261107.jpeg",
         "avversaria": "Cus Cagliari"
       },
       {
-        "title": "Il CUS Cagliari sfiora la super rimonta a Brugherio - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHRaMU03eS1BTmRQRERYT0EwemU4dkV3WHVheXlqeF9YSWhUYUtLT1pmWkVFMm54OGxRT3VLUENlaHJCZXYyLWQzTDQ3SDBTX195cEpFdDE5S04ySi11TjVzQk9POW5US2NRWnUxYWlTNlY4UUlwN0JjMUdtNkhLR1ZRNkNaTmZTM1Z3?oc=5",
-        "pubDate": "Mon, 02 Nov 2026 08:00:00 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null,
-        "avversaria": "Cus Cagliari"
-      },
-      {
-        "title": "Pinali (Altotevere): “Pronto ogni qualvolta la squadra ha bisogno” - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUG9wWmxHSzVCTDAxbDFBaE5UNHI2UFpKekFvRHVMVDl6Y3Z0M0NlblE5N0hvd2JzanlULTdJUWVwdms1bDk5dF8wNkc3VFRFTFo3Nk8zTS1ZVTExSWw4WjlDSFVCWjFMX3Z0eW0tc3dZNTVOeXFzSEJtT1o2U0ZmWVMxdnhvRzBoa0pwc0l2VE8xNmMzZ2NDcw?oc=5",
-        "pubDate": "Fri, 30 Oct 2026 07:00:00 GMT",
-        "source": "Lega Pallavolo Serie A",
-        "image": null
+        "title": "Pallavolo: l’Altotevere torna a vincere, primo stop per il Trestina",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050cd9aa041de9e88210237a8bcfc&url=https%3a%2f%2fwww.ttv.it%2fsport%2fpallavolo-laltotevere-torna-a-vincere-primo-stop-per-il-trestina%2f&c=10889314136150883972&mkt=it-it",
+        "pubDate": "Mon, 02 Nov 2026 00:20:00 GMT",
+        "source": "",
+        "image": "https://www.ttv.it/wp-content/uploads/2026/11/Maiocchi.jpg"
       },
       {
         "title": "Volley, A3: Ermgroup Altotevere - Acqui Terme 3-1 - TRG Media",
@@ -280,7 +280,7 @@
     "citta-castello": [
       {
         "title": "Men's Serie B. Osimo leaves the crumbs to Pescara, a 5-0 victory: the league's king.",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe3a304ff44939ec5a9eb633fe51e&url=https%3a%2f%2fsport.quotidiano.net%2fen%2fvolley%2fserie-b-maschile-osimo-lascia-078dd1ae&c=441355457976224877&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d688a74585a5f4b60b6c0aa7cf&url=https%3a%2f%2fsport.quotidiano.net%2fen%2fvolley%2fserie-b-maschile-osimo-lascia-078dd1ae&c=441355457976224877&mkt=it-it",
         "pubDate": "Wed, 18 Nov 2026 23:32:00 GMT",
         "source": "",
         "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/OGMxNWJlMDMtMzlmMC00/0/osimo-lascia-le-briciole-a-pescara-pokerissimo-e-regina-del-campionato.webp?f=16%3A9&q=0.75&w=1200",
@@ -288,25 +288,11 @@
       },
       {
         "title": "Serie b maschile. Osimo lascia le briciole a Pescara, pokerissimo: è regina del campionato",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe3a304ff44939ec5a9eb633fe51e&url=https%3a%2f%2fsport.quotidiano.net%2fvolley%2fserie-b-maschile-osimo-lascia-078dd1ae&c=15344127698855750933&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d688a74585a5f4b60b6c0aa7cf&url=https%3a%2f%2fsport.quotidiano.net%2fvolley%2fserie-b-maschile-osimo-lascia-078dd1ae&c=15344127698855750933&mkt=it-it",
         "pubDate": "Wed, 18 Nov 2026 16:01:00 GMT",
         "source": "",
         "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/OGMxNWJlMDMtMzlmMC00/0/osimo-lascia-le-briciole-a-pescara-pokerissimo-e-regina-del-campionato.webp?f=16%3A9&q=0.75&w=1200",
         "avversaria": "Re Salmone Volley Osimo"
-      },
-      {
-        "title": "Pallavolo: l’Altotevere vince e resta secondo, primo successo per il Città di Castello femminile - TTV.it",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSURaMEpsMUN2QmplYzBBRkZzZG5tTmZRNUNKdnJDb05fY3BHNzVWbVljQVM2aWZ0V25LMm1HdElJMkJSYXppZmV0SlVzMm1EeU9ZaWNSV2JzUmJKVDRXT2k5N2xySV95TjN5OHhCTmthZTN4dmNPSy03eHBlT2RFNE9EbW9oV2xidVJYbEctX2ROQmdqYmI1TXk3RjltS2Y2UXZLdGIzZjRkZFhIMUhoamxEcXZ6SkNWRHlv?oc=5",
-        "pubDate": "Mon, 16 Nov 2026 09:07:37 GMT",
-        "source": "TTV.it",
-        "image": "https://www.ttv.it/wp-content/uploads/2026/11/brugherio-altotevere.jpg"
-      },
-      {
-        "title": "A Città di Castello le donne brindano con Firenze - Pianeta Volley",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWlNITm8xbVQxQnlYSUVrTVF0aWlJQWVpa3BNZUtiaVlrWVBKV0NaMWpjdU94N1hZcC01dndibE96aXp6T096NUk1UHlEcklxQ2xlVS1qQ19Oa2Rud0Uxd0hTcXZYbXN3YzJCa0tHcTF2YmN4c21HTUx4MXZ3Q1Vsb3RaOHFYZXp0MmJHQ1lEMzZKZw?oc=5",
-        "pubDate": "Sun, 15 Nov 2026 12:00:37 GMT",
-        "source": "Pianeta Volley",
-        "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Pallavolo-Citta-di-Castello-festa.jpg"
       },
       {
         "title": "Città di Castello non si rialza, uomini giù a Montorio al Vomano - Pianeta Volley",
@@ -317,14 +303,14 @@
       },
       {
         "title": "A Città di Castello le donne brindano con Firenze",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe3a2cc5944b39a31472db7c81aa9&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f11%2fa-citta-di-castello-le-donne-brindano-con-firenze%2f&c=3654867574681542039&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d600c94576933cdbf9b0dea7ba&url=https%3a%2f%2fwww.pianetavolley.net%2f2026%2f11%2fa-citta-di-castello-le-donne-brindano-con-firenze%2f&c=3654867574681542039&mkt=it-it",
         "pubDate": "Sun, 15 Nov 2026 04:00:00 GMT",
         "source": "",
         "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Pallavolo-Citta-di-Castello-festa.jpg"
       },
       {
         "title": "La Re Salmone Volley Libertas Osimo cala la cinquina",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe3a304ff44939ec5a9eb633fe51e&url=https%3a%2f%2fwww.marchesport.info%2fnews%2fla-re-salmone-volley-libertas-osimo-cala-la-cinquina&c=10870931126591703011&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d688a74585a5f4b60b6c0aa7cf&url=https%3a%2f%2fwww.marchesport.info%2fnews%2fla-re-salmone-volley-libertas-osimo-cala-la-cinquina&c=10870931126591703011&mkt=it-it",
         "pubDate": "Sat, 14 Nov 2026 16:00:00 GMT",
         "source": "",
         "image": null,
@@ -332,10 +318,24 @@
       },
       {
         "title": "Pallavolo: vincono Altotevere e Trestina, terzo ko per il Città di Castello maschile",
-        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affe3a2cc5944b39a31472db7c81aa9&url=https%3a%2f%2fwww.ttv.it%2fsport%2fpallavolo-vincono-altotevere-e-trestina-terzo-ko-per-il-citta-di-castello-maschile%2f&c=13432491046803074873&mkt=it-it",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d600c94576933cdbf9b0dea7ba&url=https%3a%2f%2fwww.ttv.it%2fsport%2fpallavolo-vincono-altotevere-e-trestina-terzo-ko-per-il-citta-di-castello-maschile%2f&c=13432491046803074873&mkt=it-it",
         "pubDate": "Mon, 09 Nov 2026 06:36:00 GMT",
         "source": "",
         "image": "https://www.ttv.it/wp-content/uploads/2026/11/altotevere-volley.jpg"
+      },
+      {
+        "title": "Città di Castello alza bandiera bianca con Falconara - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRkk0WXdzbDhFOURzQ3hKNll0MmtONDVCakxBNFlPWk9LMWROSmRhRVFHSUgzSlFac0JoeXFwbWVDcmRjTFA0SF9UaHU3NjJ4RjI5MGNUSFJOMWRlME1CVlZoOHdJc01ocG9QQUVtTjVGVWhVTTZoMFNPS2dXV1RMMDJvVjBSdGozU1l2VWowcVk4N0lic0E?oc=5",
+        "pubDate": "Sun, 08 Nov 2026 08:00:00 GMT",
+        "source": "Pianeta Volley",
+        "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Bongiorno-Volpi-muro.jpg"
+      },
+      {
+        "title": "Pallavolo maschile, Rubicone In Volley batte Città di Castello 3-2 al tie-break",
+        "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0050d600c94576933cdbf9b0dea7ba&url=https%3a%2f%2fwww.cesenatoday.it%2fsport%2fvolley%2frubicone-volley-citta-castello-3-2-tie-break.html&c=736328642919414034&mkt=it-it",
+        "pubDate": "Mon, 02 Nov 2026 01:22:00 GMT",
+        "source": "",
+        "image": null
       }
     ],
     "marsciano": [
@@ -348,18 +348,19 @@
         "avversaria": "Belloverde V.B.C. Viterbo"
       },
       {
+        "title": "Nazionale: volano Tuscania e Virtus Roma, primo successo per il VBC Viterbo - FIPAV Lazio",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNTM1cUV2RXU5ZTNLLU5OT2JrZG1JMGFlX0d6VTdZc2dnNXJCRVlVU2ZISkUyNWVMbXdxcm9lVk1rV25aXzMwMHJfSUt2M19sVlY4bFJhMGxKOTQ1MGlKOWo2MnJUdFNtU2NIN180aFVPR2lsUU5NQ1NVUGNnRElmYlBJWVRyRmRkUmQyQ2cwRFFtZkRMNjJab1hMcHktSm10RGVwS01ydUE0S3p1OXdfM3ZwOWVrTVU?oc=5",
+        "pubDate": "Mon, 16 Nov 2026 10:25:56 GMT",
+        "source": "FIPAV Lazio",
+        "image": "https://www.fipavlazio.net/images/maurys-rifatta.jpg",
+        "avversaria": "Belloverde V.B.C. Viterbo"
+      },
+      {
         "title": "Serie B2 Femminile: Giorgio Peri, che peccato! Marsciano passa nei finali e lascia Grosseto a mani vuote - Grosseto Sport",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeDVrZ2FWWkxxa1FiM1ctVnRfTVZPRGVZVWFHcEthTkFTbXBXVnNOMVR0NkRza2ZLejBRVXBnWWNGVS1VWjJYWnplNlZyUUktcFI0TVhSWUpNRE1xeFV5WFFsa2FXS3U0UXpDVTVqZkhJalNlNTB5RTBnSmJENE50T0k5c3ZRcmRKRXFPYlNEUnA1YkhjcExPYmNwcG5QUW51WTZPT1VRZ3NBdk1uWW1rSzQ4NW0ycUdOd2JvWWtvcjFXeTItVkx6aXF3?oc=5",
         "pubDate": "Sun, 15 Nov 2026 10:00:00 GMT",
         "source": "Grosseto Sport",
         "image": null
-      },
-      {
-        "title": "Il tecnico. Esame verità a Marsciano. Le ragazze della Peri in cerca di conferme - QS Quotidiano Sportivo",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSDZhVVFhcXJpdFdrdmc2SmpEVG5sU0V1bTRyOGZxeXVkM19GQm1ZalNWUzVzUmRIamxHSk1nZVpKMVM2b2lyY0pxMVdjd0tFMHBvQkRLOWRGOVl2VGRPV2gwRkJmTG1NR1pCUHhpbnhZZzBMSENUM2lXODA3S0lwLWRQaw?oc=5",
-        "pubDate": "Sat, 14 Nov 2026 07:22:13 GMT",
-        "source": "QS Quotidiano Sportivo",
-        "image": "https://sport.quotidiano.net/image-service/view/acePublic/alias/contentid/ZmU3YWQ1ODktNGYyNi00/0/esame-verita-a-marsciano-le-ragazze-della-peri-in-cerca-di-conferme.webp?f=16%3A9&q=0.75&w=1200"
       },
       {
         "title": "Serie B2 Femminile: Quinto turno a Marsciano con la Giorgio Peri Grosseto a caccia di punti pesanti - Grosseto Sport",
@@ -377,12 +378,11 @@
         "avversaria": "Belloverde V.B.C. Viterbo"
       },
       {
-        "title": "Belloverde Vbc Viterbo, netto ko per 3-0 contro l’Ariete Prato - Tusciaweb.eu",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcEFPeU9YWkV6Qm5qcTYwb0dpOHpXcEl3ZnpvQ1B1eFVDM2lZa0NRejlmVEQ4c3RmTlltWFhWQ00zUl9fRmlDUWx2TFBXTHdfRFBuZWhEeTZxVFVuVHBYSGdxSFpDRnA3dFAtSG1zcWpPcjNtMDFIRmdqOS1DZjhvbExKbjNGTlBhLUpz?oc=5",
-        "pubDate": "Wed, 04 Nov 2026 12:48:38 GMT",
-        "source": "Tusciaweb.eu",
-        "image": "https://www.tusciaweb.eu/wp-content/uploads/2026/11/La-Belloverde-Vbc-in-azione.jpg",
-        "avversaria": "Belloverde V.B.C. Viterbo"
+        "title": "VOLLEY ACADEMY BASTIA VINCE A MARSCIANO - terrenostre.info",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAtakJ1djhmQnpqY2lqUDZtaElvdGdJWm5QWUU4cHFZWm55Z0llclBKaEhkdnFfbGUyU0NNV0RVTVc2dmVFUnZhUWxreGxWc082TXdaaVdmWkQydklOVEJrdGZHR2tIMkFrbzYwbjBjeFdXNlc2QXJVVGlCN3N5QQ?oc=5",
+        "pubDate": "Mon, 12 Jan 2026 08:00:00 GMT",
+        "source": "terrenostre.info",
+        "image": "https://terrenostre.info/wp-content/uploads/2026/01/Volley-Academy-Bastia.jpg"
       }
     ]
   }
