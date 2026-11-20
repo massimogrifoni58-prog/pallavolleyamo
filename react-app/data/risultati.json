@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:06:43.728562+00:00",
+  "generatedAt": "2026-11-20T02:12:28.529309+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -4889,20 +4889,20 @@
       "status": "in programma"
     },
     {
-      "id": "131627150",
-      "competition": "Serie D Femminile Girone A",
-      "giornata": "Giornata 9",
-      "home": "EMMEPI  GROUP  PONTE FELCINO",
-      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131627151",
       "competition": "Serie D Femminile Girone A",
       "giornata": "Giornata 9",
       "home": "TIBER VOLLEY",
       "away": "OMG VOLLEY PONTE VALLECEPPI",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131627150",
+      "competition": "Serie D Femminile Girone A",
+      "giornata": "Giornata 9",
+      "home": "EMMEPI  GROUP  PONTE FELCINO",
+      "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -6874,8 +6874,8 @@
       "giornata": "Giornata 2",
       "home": "TRESTINA VOLLEY",
       "away": "NEW VOLLEY BORGO SANSEPOLCRO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131629325",
@@ -11302,8 +11302,8 @@
       "giornata": "Giornata 4",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "PALLAVOLO GUBBIO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131644066",
@@ -11977,8 +11977,8 @@
       "giornata": "Giornata 4",
       "home": "SAN MARIANO VOLLEY",
       "away": "MENCHETTI SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131639376",
@@ -11986,8 +11986,8 @@
       "giornata": "Giornata 4",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "A.S. FOSSATO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131639380",
@@ -14236,8 +14236,8 @@
       "giornata": "Giornata 6",
       "home": "STRIKE TEAM MONTELUCE U17",
       "away": "BARTOCCINI SCHOOL VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641466",
@@ -14245,8 +14245,8 @@
       "giornata": "Giornata 6",
       "home": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
       "away": "SIRIO PALLAVOLO ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641468",
@@ -15181,8 +15181,8 @@
       "giornata": "Giornata 6",
       "home": "NARNI SPORT ACADEMY RUBINO",
       "away": "ORVIETO VOLLEY ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641581",
@@ -15190,8 +15190,8 @@
       "giornata": "Giornata 6",
       "home": "AMERINA PALLAVOLO A S D",
       "away": "GR IMPIANTI e THAI - NARNI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131641584",
@@ -15496,8 +15496,8 @@
       "giornata": "Giornata 2",
       "home": "SIR MERICAT PERUGIA",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131660183",
@@ -15793,8 +15793,8 @@
       "giornata": "Giornata 3",
       "home": "POLISPORTIVA CLT",
       "away": "MARCONI MONINI-TERNI VA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131660214",
@@ -16864,8 +16864,8 @@
       "giornata": "Giornata 3",
       "home": "PELLICANO VITT CHIUSI",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U15 VERDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131659467",
@@ -16873,8 +16873,8 @@
       "giornata": "Giornata 3",
       "home": "SCHOOL VOLLEY PERUGIA NERO",
       "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131659471",
@@ -17125,8 +17125,8 @@
       "giornata": "Giornata 3",
       "home": "TREVI VOLLEY",
       "away": "INTER VOLLEY FOLIGNO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131659498",
@@ -17206,8 +17206,8 @@
       "giornata": "Giornata 6",
       "home": "VIANDER ACTON BASTIA",
       "away": "U15 FOLIGNO BLU",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131659507",
@@ -17593,8 +17593,8 @@
       "giornata": "Giornata 3",
       "home": "COLLELUNA VOLLEY SAN GEMINI GIALLA",
       "away": "BOSICO GIOIELLERIE BARTOCCINI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131660638",
@@ -18763,8 +18763,8 @@
       "giornata": "Giornata 3",
       "home": "REBELS ASSISI U14 BLU",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131661599",
@@ -19042,8 +19042,8 @@
       "giornata": "Giornata 3",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "NARNI SPORT ACADEMY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131661626",
@@ -19051,8 +19051,8 @@
       "giornata": "Giornata 3",
       "home": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131674197",
@@ -20113,8 +20113,8 @@
       "giornata": "Giornata 3",
       "home": "UISP VOLLEY UMBERTIDE",
       "away": "TRESTINA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-2",
+      "status": "disputata"
     },
     {
       "id": "131672932",
