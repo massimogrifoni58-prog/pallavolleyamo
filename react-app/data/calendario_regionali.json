@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T13:17:01.247634+00:00",
+  "generatedAt": "2026-11-21T20:25:06.987221+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -712,8 +712,14 @@
         "ora": "17:00",
         "casa": "ENERGY PMU MARSCIANO",
         "ospite": "ITALCHIMICI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "25-19",
+          "24-26",
+          "18-25",
+          "25-19",
+          "15-13"
+        ]
       },
       {
         "id": "serie-c-maschile-33",
@@ -734,8 +740,12 @@
         "ora": "17:00",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-18",
+          "25-13",
+          "25-14"
+        ]
       },
       {
         "id": "serie-c-maschile-35",
@@ -745,8 +755,12 @@
         "ora": "18:30",
         "casa": "ROSSI ASCENSORI FOLIGNO",
         "ospite": "POLISPORTIVA DELFINO - SAIMA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-19",
+          "25-20",
+          "25-21"
+        ]
       },
       {
         "id": "serie-c-maschile-36",
@@ -2559,8 +2573,12 @@
         "ora": "18:00",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "THE GALLEON PUB MARSCIANO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-13",
+          "25-17",
+          "25-20"
+        ]
       },
       {
         "id": "serie-c-femminile-33",
@@ -4303,8 +4321,13 @@
         "ora": "17:00",
         "casa": "NUOVA PALLAVOLO GUALDO",
         "ospite": "PALLAVOLO GUBBIO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "26-24",
+          "19-25",
+          "25-16",
+          "26-24"
+        ]
       },
       {
         "id": "serie-d-femminile-a-25",
@@ -4314,8 +4337,12 @@
         "ora": "17:00",
         "casa": "POLISPORTIVA DELFINO - IDROSFERA",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO GREEN1",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-11",
+          "25-13",
+          "25-17"
+        ]
       },
       {
         "id": "serie-d-femminile-a-26",
@@ -4325,8 +4352,14 @@
         "ora": "18:30",
         "casa": "OMG VOLLEY PONTE VALLECEPPI",
         "ospite": "MENCHETTI SCHOOL VOLLEY PERUGIA  GREEN1",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "21-25",
+          "25-13",
+          "25-21",
+          "24-26",
+          "15-11"
+        ]
       },
       {
         "id": "serie-d-femminile-a-27",
@@ -4336,8 +4369,13 @@
         "ora": "18:30",
         "casa": "TIBER VOLLEY",
         "ospite": "STRIKE TEAM MONTELUCE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "20-25",
+          "25-22",
+          "26-24",
+          "25-21"
+        ]
       },
       {
         "id": "serie-d-femminile-a-28",
@@ -4358,8 +4396,12 @@
         "ora": "18:00",
         "casa": "EMMEPI  GROUP  PONTE FELCINO",
         "ospite": "NVBS BLUE PANTHERS",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-18",
+          "25-18",
+          "25-13"
+        ]
       },
       {
         "id": "serie-d-femminile-a-30",
@@ -5879,8 +5921,12 @@
         "ora": "18:00",
         "casa": "REBELS ASSISI",
         "ospite": "ORVIETO VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-13",
+          "25-20",
+          "25-13"
+        ]
       },
       {
         "id": "serie-d-femminile-b-26",
@@ -5890,8 +5936,12 @@
         "ora": "17:30",
         "casa": "ASD PGS BOSICO VOLLEY GREEN2",
         "ospite": "NARNI SPORT ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "16-25",
+          "19-25",
+          "20-25"
+        ]
       },
       {
         "id": "serie-d-femminile-b-27",
@@ -5901,8 +5951,12 @@
         "ora": "18:00",
         "casa": "SALUMIFICIO BATTISTI TUDER VOLLEY",
         "ospite": "FOLIGNO VOLLEY ASD",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-10",
+          "25-17",
+          "25-23"
+        ]
       },
       {
         "id": "serie-d-femminile-b-28",
@@ -7616,8 +7670,13 @@
         "ora": "18:00",
         "casa": "CLT TERNI",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "20-25",
+          "21-25",
+          "25-14",
+          "23-25"
+        ]
       },
       {
         "id": "serie-d-maschile-38",
@@ -14079,8 +14138,13 @@
         "ora": "16:00",
         "casa": "OMG VOLLEY PONTE VALLECEPPI",
         "ospite": "REBELS ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "23-25",
+          "25-15",
+          "25-23",
+          "25-15"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-6",
@@ -14090,8 +14154,13 @@
         "ora": "17:30",
         "casa": "ARRONEPALLAVOLO",
         "ospite": "DIFDIF VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-14",
+          "25-20",
+          "23-25",
+          "25-23"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-7",
@@ -14101,8 +14170,14 @@
         "ora": "19:00",
         "casa": "SCAI VOLLEY 86 PETRIGNANO",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "18-25",
+          "23-25",
+          "25-15",
+          "25-17",
+          "15-8"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-8",
@@ -14123,8 +14198,12 @@
         "ora": "17:00",
         "casa": "UMBRIA VOLLEY ACADEMY DERUTA",
         "ospite": "SPELLO VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-10",
+          "29-27",
+          "28-26"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-10",
@@ -16463,8 +16542,13 @@
         "ora": "16:00",
         "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO BLU'",
         "ospite": "UISP VOLLEY UMBERTIDE BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "25-17",
+          "21-25",
+          "21-25",
+          "20-25"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-a-7",
@@ -16474,8 +16558,12 @@
         "ora": "17:00",
         "casa": "PALLAVOLO GUBBIO",
         "ospite": "OMG VOLLEY PONTE VALLECEPPI A.S.D",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-17",
+          "25-19",
+          "25-18"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-a-8",
@@ -17285,8 +17373,12 @@
         "ora": "17:00",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "UISP VOLLEY UMBERTIDE ROSSA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "18-25",
+          "23-25",
+          "12-25"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-b-8",
@@ -18063,8 +18155,12 @@
         "ora": "16:15",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "PMU MARSCIANO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-23",
+          "26-24",
+          "25-19"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-c-5",
@@ -18085,8 +18181,12 @@
         "ora": "18:30",
         "casa": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO VERDE",
         "ospite": "SIR ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-13",
+          "25-6",
+          "25-9"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-c-7",
@@ -18920,8 +19020,12 @@
         "ora": "17:00",
         "casa": "SANGEMINI COLLELUNA VOLLEY",
         "ospite": "ORVIETO VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "18-25",
+          "17-25",
+          "15-25"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-d-8",
