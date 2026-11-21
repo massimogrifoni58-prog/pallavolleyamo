@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T13:53:52.362360+00:00",
+  "generatedAt": "2026-11-21T02:03:56.658097+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -10676,8 +10676,14 @@
         "ora": "20:30",
         "casa": "BOSICO VOLLEY-TERNI VA BLU BARTOCCINI",
         "ospite": "BOSICO  VOLLEY-TERNI VA RED BARTOCCINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "26-24",
+          "25-13",
+          "13-25",
+          "15-25",
+          "15-10"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-16",
@@ -10687,8 +10693,13 @@
         "ora": "18:30",
         "casa": "REBELS ASSISI U19",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "25-22",
+          "22-25",
+          "23-25",
+          "13-25"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-17",
@@ -12116,8 +12127,14 @@
         "ora": "16:30",
         "casa": "ASD PALLAVOLO NORCIA",
         "ospite": "MARCONI MONINI PALLAVOLO BLU",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "22-25",
+          "25-17",
+          "18-25",
+          "25-4",
+          "15-17"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-e-11",
@@ -12668,8 +12685,12 @@
         "ora": "20:00",
         "casa": "POLISPORTIVA CLT",
         "ospite": "NARNI SPORT ACADEMY DENIM",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-7",
+          "25-17",
+          "25-21"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-g-11",
@@ -18075,8 +18096,13 @@
         "ora": "20:45",
         "casa": "REBELS ASSISI 2D PEACH",
         "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-20",
+          "25-12",
+          "23-25",
+          "25-14"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-c-8",
@@ -18916,8 +18942,13 @@
         "ora": "20:30",
         "casa": "NARNI SPORT ACADEMY",
         "ospite": "VOLLEY SPOLETO CASCIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-23",
+          "25-17",
+          "23-25",
+          "25-18"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-d-10",
@@ -19912,8 +19943,12 @@
         "ora": "18:30",
         "casa": "STRIKE TEAM MONTELUCE U15",
         "ospite": "SIR GIOVANILE MERICAT PG",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-19",
+          "25-15",
+          "25-11"
+        ]
       },
       {
         "id": "giov-under-15-maschile-girone-a-8",
@@ -20661,8 +20696,13 @@
         "ora": "17:15",
         "casa": "TIBER VOLLEY",
         "ospite": "POLISPORTIVA DON BOSCO GUBBIO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "14-25",
+          "25-19",
+          "20-25",
+          "20-25"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-a-9",
@@ -22131,8 +22171,12 @@
         "ora": "18:45",
         "casa": "BOSICO VOLLEY RED GIOIELLERIE BARTOCCINI",
         "ospite": "ORVIETO VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "14-25",
+          "15-25",
+          "15-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-e-9",
@@ -22453,8 +22497,14 @@
         "ora": "18:30",
         "casa": "COLLELUNA VOLLEY SAN GEMINI BLU",
         "ospite": "PMU MARSCIANO BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-19",
+          "19-25",
+          "20-25",
+          "25-23",
+          "8-15"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-f-6",
@@ -23524,8 +23574,13 @@
         "ora": "17:00",
         "casa": "V. NARNI S.A.",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "14-25",
+          "25-17",
+          "17-25",
+          "19-25"
+        ]
       },
       {
         "id": "giov-under-14-maschile-girone-unico-2",
@@ -23535,8 +23590,12 @@
         "ora": "16:45",
         "casa": "SIR MERICAT PERUGIA",
         "ospite": "VOLLEY BORGO ALTOTEVERE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-11",
+          "25-18",
+          "25-13"
+        ]
       },
       {
         "id": "giov-under-14-maschile-girone-unico-3",
@@ -26090,8 +26149,12 @@
         "ora": "16:30",
         "casa": "STRIKE TEAM MONTELUCE U14 F",
         "ospite": "BARTOCCINI SCHOOL VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "18-25",
+          "19-25",
+          "19-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-c-9",
