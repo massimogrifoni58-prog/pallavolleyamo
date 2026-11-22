@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:02:44.300745+00:00",
+  "generatedAt": "2026-11-22T20:33:18.626357+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -313,8 +313,8 @@
       "giornata": "Giornata 6",
       "home": "CITTA' DI CASTELLO PALLAVOLO",
       "away": "SIR ITS UMBRIA ACADEMY ASSISI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131626818",
@@ -322,8 +322,8 @@
       "giornata": "Giornata 6",
       "home": "VOLLEY CASCIA SPOLETO",
       "away": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131626824",
@@ -3157,8 +3157,8 @@
       "giornata": "Giornata 6",
       "home": "SIR ITS UMBRIA ACADEMY ASSISI",
       "away": "MARCHETTI PRO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627477",
@@ -3166,8 +3166,8 @@
       "giornata": "Giornata 6",
       "home": "STRIKE TEAM MONTELUCE",
       "away": "SIR ITS UMBRIA ACADEMY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627481",
@@ -3175,8 +3175,8 @@
       "giornata": "Giornata 6",
       "home": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131628290",
@@ -3184,8 +3184,8 @@
       "giornata": "Giornata 6",
       "home": "VOLLEY BORGO ALTOTEVERE",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627484",
@@ -4714,8 +4714,8 @@
       "giornata": "Giornata 5",
       "home": "SIRIO PERUGIA",
       "away": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131627131",
@@ -5893,8 +5893,8 @@
       "giornata": "Giornata 5",
       "home": "LYNX ACQUASPARTA VOLLEY",
       "away": "VIANDER ACTON BASTIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131627261",
@@ -5902,8 +5902,8 @@
       "giornata": "Giornata 5",
       "home": "ED.I.TEC. CANNARA VOLLEY",
       "away": "SAN MARIANO VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131627266",
@@ -6883,8 +6883,8 @@
       "giornata": "Giornata 2",
       "home": "POLISP DON BOSCO GUBBIO BIANCA",
       "away": "UISP VOLLEY UMBERTIDE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-2",
+      "status": "disputata"
     },
     {
       "id": "131629323",
@@ -6892,8 +6892,8 @@
       "giornata": "Giornata 2",
       "home": "A.S. FOSSATO VOLLEY",
       "away": "ELLERA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131629324",
@@ -6901,8 +6901,8 @@
       "giornata": "Giornata 2",
       "home": "ELETTRA  2  PONTE FELCINO",
       "away": "VOLLEY PIETRALUNGA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131629326",
@@ -6910,8 +6910,8 @@
       "giornata": "Giornata 2",
       "home": "SIRIO PALLAVOLO",
       "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-1",
+      "status": "disputata"
     },
     {
       "id": "131629327",
@@ -7720,8 +7720,8 @@
       "giornata": "Giornata 2",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "MARCONI MONINI PALLAVOLO",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131629420",
@@ -8503,8 +8503,8 @@
       "giornata": "Giornata 2",
       "home": "VIANDER ACTON BASTIA",
       "away": "TIBER VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131657848",
@@ -8512,8 +8512,8 @@
       "giornata": "Giornata 2",
       "home": "A.S.D. SIGILLO VOLLEY",
       "away": "SIR PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131657853",
@@ -9151,8 +9151,8 @@
       "giornata": "Giornata 2",
       "home": "BARTOCCINI SCHOOL VOLLEY",
       "away": "STRIKE TEAM MONTELUCE",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131657976",
@@ -9160,8 +9160,8 @@
       "giornata": "Giornata 2",
       "home": "ELLERA VOLLEY BLU",
       "away": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131657981",
@@ -9808,8 +9808,8 @@
       "giornata": "Giornata 2",
       "home": "UISP VOLLEY UMBERTIDE GIALLA",
       "away": "NUOVA PALLAVOLO GUALDO 2DIV.",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131658184",
@@ -10456,8 +10456,8 @@
       "giornata": "Giornata 2",
       "home": "CASCIANELLI LORENA TUDER VOLLEI",
       "away": "UMBRIA VOLLEY ACADEMY SECONDA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "2-3",
+      "status": "disputata"
     },
     {
       "id": "131658272",
@@ -10465,8 +10465,8 @@
       "giornata": "Giornata 2",
       "home": "MARCONI MONINI PALLAVOLO",
       "away": "BOSICO VOLLEY-TERNI VA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131658274",
@@ -10474,8 +10474,8 @@
       "giornata": "Giornata 2",
       "home": "PMU MARSCIANO BLU",
       "away": "POLISPORTIVA CLT",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131658275",
@@ -14254,8 +14254,8 @@
       "giornata": "Giornata 6",
       "home": "VOLLEY PONTE FELCINO",
       "away": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "3-0",
+      "status": "disputata"
     },
     {
       "id": "131641469",
@@ -14794,8 +14794,8 @@
       "giornata": "Giornata 6",
       "home": "ELLERA VOLLEY",
       "away": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "0-3",
+      "status": "disputata"
     },
     {
       "id": "131641541",
@@ -15523,8 +15523,8 @@
       "giornata": "Giornata 3",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
       "away": "SCHOOL VOLLEY PERUGIA",
-      "score": "da disputare",
-      "status": "in programma"
+      "score": "1-3",
+      "status": "disputata"
     },
     {
       "id": "131660184",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:54:16.557780+00:00",
+  "generatedAt": "2026-11-22T20:33:33.804578+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -283,8 +283,8 @@
       "giornata": "Giornata",
       "home": "BARTOCCINI +ENERGIA PERUGIA",
       "away": "OLIO PANTALEO VOLLEY FASANO",
-      "score": "da disputare",
-      "status": "in programma",
+      "score": "3-1",
+      "status": "disputata",
       "data": "22/11/2026 ore 17:00",
       "dataIso": "2026-11-22",
       "ora": "17:00"

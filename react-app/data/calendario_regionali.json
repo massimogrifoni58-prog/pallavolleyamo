@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:06:28.575583+00:00",
+  "generatedAt": "2026-11-22T20:32:21.490800+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -690,8 +690,14 @@
         "ora": "19:00",
         "casa": "VOLLEY CASCIA SPOLETO",
         "ospite": "PROMOVIDEO STRIKE TEAM MONTELUCE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "24-26",
+          "27-25",
+          "25-16",
+          "16-25",
+          "20-22"
+        ]
       },
       {
         "id": "serie-c-maschile-31",
@@ -701,8 +707,13 @@
         "ora": "17:00",
         "casa": "CITTA' DI CASTELLO PALLAVOLO",
         "ospite": "SIR ITS UMBRIA ACADEMY ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "19-25",
+          "25-19",
+          "16-25",
+          "23-25"
+        ]
       },
       {
         "id": "serie-c-maschile-32",
@@ -4408,8 +4419,12 @@
         "ora": "17:00",
         "casa": "SIRIO PERUGIA",
         "ospite": "PERUGIA VOLLEY TEAM PALL. SAN SISTO GREEN3",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-20",
+          "25-7",
+          "25-6"
+        ]
       },
       {
         "id": "serie-d-femminile-a-29",
@@ -5994,8 +6009,14 @@
         "ora": "18:00",
         "casa": "LYNX ACQUASPARTA VOLLEY",
         "ospite": "VIANDER ACTON BASTIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "21-25",
+          "25-23",
+          "28-26",
+          "25-27",
+          "15-11"
+        ]
       },
       {
         "id": "serie-d-femminile-b-29",
@@ -6005,8 +6026,12 @@
         "ora": "18:00",
         "casa": "ED.I.TEC. CANNARA VOLLEY",
         "ospite": "SAN MARIANO VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "21-25",
+          "22-25",
+          "14-25"
+        ]
       },
       {
         "id": "serie-d-femminile-b-30",
@@ -7676,8 +7701,12 @@
         "ora": "19:00",
         "casa": "STRIKE TEAM MONTELUCE",
         "ospite": "SIR ITS UMBRIA ACADEMY PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "20-25",
+          "16-25",
+          "12-25"
+        ]
       },
       {
         "id": "serie-d-maschile-36",
@@ -7733,8 +7762,12 @@
         "ora": "19:00",
         "casa": "TECNO.MEC. SCHOOL VOLLEY PERUGIA",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-6",
+          "25-6",
+          "25-18"
+        ]
       },
       {
         "id": "serie-d-maschile-40",
@@ -7744,8 +7777,12 @@
         "ora": "17:00",
         "casa": "SIR ITS UMBRIA ACADEMY ASSISI",
         "ospite": "MARCHETTI PRO VITT CHIUSI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "19-25",
+          "23-25",
+          "20-25"
+        ]
       },
       {
         "id": "serie-d-maschile-41",
@@ -7755,8 +7792,12 @@
         "ora": "19:00",
         "casa": "VOLLEY BORGO ALTOTEVERE",
         "ospite": "MARCONI MONINI PALLAVOLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "13-25",
+          "17-25",
+          "21-25"
+        ]
       },
       {
         "id": "serie-d-maschile-42",
@@ -9987,8 +10028,12 @@
         "ora": "16:00",
         "casa": "VOLLEY PONTE FELCINO",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO U17 BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-21",
+          "25-7",
+          "25-18"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-b-18",
@@ -11917,8 +11962,12 @@
         "ora": "16:00",
         "casa": "ELLERA VOLLEY",
         "ospite": "ASD VOLLEY CASTIGLIONE DEL LAGO U17 GIALLA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "25-27",
+          "22-25",
+          "18-25"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-d-18",
@@ -14223,8 +14272,12 @@
         "ora": "16:00",
         "casa": "FOLIGNO VOLLEY ASD",
         "ospite": "MARCONI MONINI PALLAVOLO",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "8-25",
+          "16-25",
+          "7-25"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-b-9",
@@ -14410,8 +14463,8 @@
         "id": "giov-1-divisione-femminile-girone-b-25",
         "campionato": "1 Divisione Femminile Girone B",
         "giornata": "6",
-        "data": "2026-12-20",
-        "ora": "18:00",
+        "data": "2026-12-22",
+        "ora": "19:30",
         "casa": "SPELLO VOLLEY",
         "ospite": "REBELS ASSISI",
         "risultato": null,
@@ -15225,8 +15278,14 @@
         "ora": "17:30",
         "casa": "A.S. FOSSATO VOLLEY",
         "ospite": "ELLERA VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "24-26",
+          "28-26",
+          "23-25",
+          "26-24",
+          "13-15"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-a-7",
@@ -15236,8 +15295,14 @@
         "ora": "19:00",
         "casa": "ELETTRA  2  PONTE FELCINO",
         "ospite": "VOLLEY PIETRALUNGA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "22-25",
+          "25-16",
+          "25-22",
+          "20-25",
+          "12-15"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-a-8",
@@ -15247,8 +15312,14 @@
         "ora": "17:00",
         "casa": "POLISP DON BOSCO GUBBIO BIANCA",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "30-28",
+          "23-25",
+          "25-15",
+          "23-25",
+          "15-7"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-a-9",
@@ -15258,8 +15329,13 @@
         "ora": "19:00",
         "casa": "SIRIO PALLAVOLO",
         "ospite": "TIBER VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "13-25",
+          "25-14",
+          "25-17",
+          "25-16"
+        ]
       },
       {
         "id": "giov-1-divisione-femminile-girone-a-10",
@@ -16556,8 +16632,14 @@
         "ora": "17:30",
         "casa": "VIANDER ACTON BASTIA",
         "ospite": "TIBER VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "13-25",
+          "25-18",
+          "20-25",
+          "26-24",
+          "8-15"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-a-5",
@@ -16567,8 +16649,12 @@
         "ora": "18:30",
         "casa": "A.S.D. SIGILLO VOLLEY",
         "ospite": "SIR PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-13",
+          "25-16",
+          "25-14"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-a-6",
@@ -17392,8 +17478,12 @@
         "ora": "19:00",
         "casa": "ELLERA VOLLEY BLU",
         "ospite": "PERUGIA VOLLEY TEAM PALLAVOLO SAN SISTO ROSSA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-23",
+          "25-21",
+          "25-18"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-b-6",
@@ -17403,8 +17493,12 @@
         "ora": "16:00",
         "casa": "BARTOCCINI SCHOOL VOLLEY",
         "ospite": "STRIKE TEAM MONTELUCE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-22",
+          "25-21",
+          "25-23"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-b-7",
@@ -18211,8 +18305,12 @@
         "ora": "18:00",
         "casa": "UISP VOLLEY UMBERTIDE GIALLA",
         "ospite": "NUOVA PALLAVOLO GUALDO 2DIV.",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-14",
+          "25-10",
+          "25-12"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-c-6",
@@ -19039,8 +19137,14 @@
         "ora": "17:00",
         "casa": "CASCIANELLI LORENA TUDER VOLLEI",
         "ospite": "UMBRIA VOLLEY ACADEMY SECONDA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "25-8",
+          "18-25",
+          "17-25",
+          "25-21",
+          "4-15"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-d-6",
@@ -19050,8 +19154,12 @@
         "ora": "17:30",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "BOSICO VOLLEY-TERNI VA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "14-25",
+          "10-25",
+          "17-25"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-d-7",
@@ -19076,8 +19184,12 @@
         "ora": "18:00",
         "casa": "PMU MARSCIANO BLU",
         "ospite": "POLISPORTIVA CLT",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-18",
+          "25-23",
+          "25-17"
+        ]
       },
       {
         "id": "giov-2-divisione-femminile-girone-d-9",
@@ -20077,8 +20189,13 @@
         "ora": "15:00",
         "casa": "ASD VOLLEY CASTIGLIONE DEL LAGO U15M",
         "ospite": "SCHOOL VOLLEY PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "1 - 3",
+        "parziali": [
+          "25-15",
+          "20-25",
+          "21-25",
+          "23-25"
+        ]
       },
       {
         "id": "giov-under-15-maschile-girone-a-7",
