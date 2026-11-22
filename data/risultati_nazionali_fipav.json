@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:03:42.518663+00:00",
+  "generatedAt": "2026-11-22T13:54:16.557780+00:00",
   "matches": [
     {
       "id": "lva2-3202",
@@ -396,30 +396,6 @@
       "data": "12/12/2026 ore 21:00",
       "dataIso": "2026-12-12",
       "ora": "21:00"
-    },
-    {
-      "id": "fp3325",
-      "competition": "Serie A2 Femminile Girone Unico",
-      "giornata": "Giornata",
-      "home": "BARTOCCINI-MC RESTAURI PERUGIA",
-      "away": "AKADEMIA SANT'ANNA MESSINA",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "16/12/2026 ore 20:30",
-      "dataIso": "2026-12-16",
-      "ora": "20:30"
-    },
-    {
-      "id": "fp7869",
-      "competition": "Serie B Girone E",
-      "giornata": "Giornata",
-      "home": "CITTA'DI CASTELLO PALLAVOLO",
-      "away": "NOVAVOLLEY LORETO 2014",
-      "score": "da disputare",
-      "status": "in programma",
-      "data": "19/12/2026 ore 18:30",
-      "dataIso": "2026-12-19",
-      "ora": "18:30"
     },
     {
       "id": "fp3341",
