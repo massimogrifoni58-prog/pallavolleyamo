@@ -1,21 +1,45 @@
 {
-  "generatedAt": "2026-11-21T13:12:44.569526+00:00",
+  "generatedAt": "2026-11-22T06:02:48.214465+00:00",
   "posts": [
+    {
+      "title": "Volley, terza vittoria di fila per la Sir ITS Umbria Academy: domata Forlì 3-1",
+      "excerpt": "Terzo successo consecutivo per la Sir ITS Umbria Academy che si impone 3-1 a Forlì con il Querzoli Volley al termine di una partita molto combattuta e di alto livello come testimoniano i parziali: 30-",
+      "createdTime": "Sun, 22 Nov 2026 05:57:17 +0000",
+      "image": "https://i0.wp.com/www.umbria24.it/wp-content/uploads/2026/11/PHOTO-2026-11-21-23-29-33-e1795326991884.jpg?fit=1024%2C619&amp;ssl=1",
+      "permalink": "https://www.umbria24.it/perugia/volley-terza-vittoria-di-fila-per-la-sir-its-umbria-academy-domata-forli-3-1/",
+      "id": "1"
+    },
+    {
+      "title": "Città di Castello lotta ma Osimo è troppo forte",
+      "excerpt": "Non è bastata una prova di gran cuore e di intensità alla Città di Castello Pallavolo per togliere un set alla prima della classe. Nonostante le difficoltà dovute alle assenze la squadra tifernate ha ",
+      "createdTime": "Sun, 22 Nov 2026 00:00:11 +0000",
+      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Castello-Osimo-azione.jpg",
+      "permalink": "https://www.pianetavolley.net/2026/11/citta-di-castello-lotta-ma-osimo-e-troppo-forte/",
+      "id": "2"
+    },
+    {
+      "title": "Altotevere piega Cagliari (3-1) e cala il poker",
+      "excerpt": "Quarto successo consecutivo per la ErmGroup, che batte i sardi in rimonta e si avvicina per ora alla vetta (-1). La ErmGroup Altotevere centra la quarta vittoria consecutiva ed inizia a guardare da vi",
+      "createdTime": "Sat, 21 Nov 2026 22:25:54 +0000",
+      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/bellucci-palleggio-cagliari.jpeg",
+      "permalink": "https://www.volleyumbria.it/?p=35902",
+      "id": "3"
+    },
     {
       "title": "Black Angels in difesa del primo posto: a Pian di Massiano arriva Fasano",
       "excerpt": "La Bartoccini +energia Perugia torna al PalaBarton Energy per consolidare il primato conquistato in settimana. Occhio alla formazione pugliese: Korhonen e Salinas le attenzionate speciali Archiviato l",
       "createdTime": "Sat, 21 Nov 2026 13:12:18 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/esultanza-gruppo.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35900",
-      "id": "1"
+      "id": "4"
     },
     {
       "title": "Per Terni esame di maturità a Castellana Grotte",
-      "excerpt": "La sesta giornata di serie A3 maschile si disputa domenica 22 novembre (ore 16) ed è carica di aspettative per una rinfrancata Terni Volley Academy che con tre vittorie consecutive ha riazato la testa",
+      "excerpt": "La sesta giornata di serie A3 maschile si disputa domenica 22 novembre (ore 16) ed è carica di aspettative per una rinfrancata Terni Volley Academy che con tre vittorie consecutive ha rialzato la test",
       "createdTime": "Sat, 21 Nov 2026 10:00:43 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Oberto-Simone.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/per-terni-esame-di-maturita-a-castellana-grotte/",
-      "id": "2"
+      "id": "5"
     },
     {
       "title": "Tutti gli appuntamenti dei campionati regionali",
@@ -23,7 +47,7 @@
       "createdTime": "Fri, 20 Nov 2026 23:00:42 +0000",
       "image": "https://www.pianetavolley.net/wp-content/uploads/2026/01/Pianeta-Volley-Umbria-e1769253087845.jpg",
       "permalink": "https://www.pianetavolley.net/2026/11/tutti-gli-appuntamenti-dei-campionati-regionali-292/",
-      "id": "3"
+      "id": "6"
     },
     {
       "title": "Altotevere in casa con il Cus Cagliari per dare continuità alla sua marcia",
@@ -31,7 +55,7 @@
       "createdTime": "Fri, 20 Nov 2026 16:14:07 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/altotevere-fine-gara-savigliano.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35892",
-      "id": "4"
+      "id": "7"
     },
     {
       "title": "La Sirio Perugia cerca continuità contro Seravezza",
@@ -39,23 +63,7 @@
       "createdTime": "Fri, 20 Nov 2026 12:19:41 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/Zorzetto-Aurora-attacco.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35890",
-      "id": "5"
-    },
-    {
-      "title": "Città di Castello: gli uomini ospitano la capolista Osimo",
-      "excerpt": "Impegno difficile quello tra le mura amiche di sabato 21 novembre (ore 18,30) per la formazione della Città di Castello Pallavolo che se la vede con un’avversaria sicuramente stimolante. Al Pala-Ioan ",
-      "createdTime": "Fri, 20 Nov 2026 12:00:44 +0000",
-      "image": "https://www.pianetavolley.net/wp-content/uploads/2026/11/Valenti-Patrik.jpg",
-      "permalink": "https://www.pianetavolley.net/2026/11/citta-di-castello-gli-uomini-ospitano-la-capolista-osimo/",
-      "id": "6"
-    },
-    {
-      "title": "Altotevere, il punto di Monaldi: “Mi sta piacendo la tenuta mentale del gruppo”",
-      "excerpt": "E sull’utilizzo dell’intero roster a Brugherio, salvo Marzolla, precisa: “Non sarà più una sorpresa, perché c’è bisogno di tutti, specie in una stagione lunga e abbiamo le pedine per farlo” Mente dell",
-      "createdTime": "Thu, 19 Nov 2026 13:05:27 +0000",
-      "image": "https://www.volleyumbria.it/wp-content/uploads/2026/11/monaldi-gara-con-savigliano.jpg",
-      "permalink": "https://www.volleyumbria.it/?p=35885",
-      "id": "7"
+      "id": "8"
     },
     {
       "title": "D maschile: Sir ITS Academy Perugia resta sola in vetta, cade Monteluce contro la School Volley",
@@ -63,7 +71,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:04:13 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35867",
-      "id": "8"
+      "id": "9"
     },
     {
       "title": "C femminile: Deruta domina lo scontro diretto con la Bartoccini e tenta la prima fuga stagionale",
@@ -71,7 +79,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:02:14 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CF-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35866",
-      "id": "9"
+      "id": "10"
     },
     {
       "title": "C maschile: la quinta giornata consolida le gerarchie di vetta",
@@ -79,7 +87,7 @@
       "createdTime": "Wed, 18 Nov 2026 11:00:10 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2021/03/Fipav-Umbria-Serie-CM-1.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35865",
-      "id": "10"
+      "id": "11"
     },
     {
       "title": "D maschile: Sir Academy e Monteluce restano in vetta al fotofinish. Chiusi e Spoleto non mollano",
@@ -87,7 +95,7 @@
       "createdTime": "Tue, 10 Nov 2026 21:56:57 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35784",
-      "id": "11"
+      "id": "12"
     },
     {
       "title": "D femminile: Ponte Felcino, Sirio E Bastia non sbagliano un colpo",
@@ -95,7 +103,7 @@
       "createdTime": "Tue, 10 Nov 2026 21:51:43 +0000",
       "image": "https://www.volleyumbria.it/wp-content/uploads/2023/12/campionati-regionali.jpg",
       "permalink": "https://www.volleyumbria.it/?p=35783",
-      "id": "12"
+      "id": "13"
     }
   ]
 }
