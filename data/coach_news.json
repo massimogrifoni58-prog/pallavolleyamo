@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T06:05:35.330854+00:00",
+  "generatedAt": "2026-11-23T15:43:05.519018+00:00",
   "news": {
     "1": [
       {
@@ -7,12 +7,6 @@
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXk1MFk4Y0pObkdOVjVoaVpDRW5WVnhYQ1B3dXlLdFNWeXZ3SmRrLVRjT0JZS3M0elczUXdJcEgySHZLalJWd1pGSlIxczItNUlBYlRNeFprYklNYkMtdm5kRmpSeG45LVhYMWJNWEoweFZxMDF0VTIyQzlaZkZVYWs5amFvY1MyVHIwZzV3?oc=5",
         "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
         "source": "Federazione Italiana Pallavolo"
-      },
-      {
-        "title": "Stagione Nazionali 2026, Mencarelli e Fanizza raccontano lo scouting sul territorio - Volley News",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRENQb21tNHRwbF9RU09sZWlSSjVMQVRrVDJ4dHRILVdZbVBZaFk2UXlpOE5lWkdTbE1YN29XZFpIQ3Z2eEdFSWxZenNKT0ZieXpSQUlyWDJORFVUWmtvMUlVZjRzQ3VIOVN3VEM4MGdFTzhZY1kyeHJITHlhWERzRDMxMUZIODJDVTZwN3hyUTdESTRkUWdoWHZsWUQ2aHZ6Wm02dGtsaVpmT3R0U3c?oc=5",
-        "pubDate": "Tue, 28 Apr 2026 07:00:00 GMT",
-        "source": "Volley News"
       },
       {
         "title": "Il DT delle Nazionali Giovanili Femminili Marco Mencarelli in visita all’Opiquad Arena - Vero Volley",
@@ -25,14 +19,26 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUkI2ZEVTa0pEUnJ0SVJERW5veXRYX005WUQ1VUotbzFxX2JSck9IYXM4TFF4QmtPdGIyQjBCSUlDeklYSjJHM0JXcVlPdUNzeS1WMnhsQ0dmek9YMnlzSGlKVjUweklSREJtWnB4bC1sd09hT2hmT3VmTVlsUmZZV0FTanNxclRWZ2NEYXRLLW5Rdw?oc=5",
         "pubDate": "Fri, 09 Jan 2026 08:00:00 GMT",
         "source": "Federazione Italiana Pallavolo"
+      },
+      {
+        "title": "Mencarelli su… tutto: la Nazionale, il Mondiale U21, il Club Italia e il futuro - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaFMyVmVwcmlMRkJuMVFuTDVTN3ZuOFF4LUJoUFdQc3hMT0ZXbXo1Q3JuTkl4ai1yMTd6SEFtbGVxcU5DQTRFV3Y0ZUxxbHV6Snh0bFhwVGFhNEJSZlI2azRlWEVEQlN5bERNVnRBdG1qQnhzY21OVFFwb3ZGc0gtejNzTU40U2E4WkFCNWhidlNrdFBGM3N3OWZ2cWVjblUwY0w1cg?oc=5",
+        "pubDate": "Fri, 12 Sep 2025 07:00:00 GMT",
+        "source": "Volley News"
       }
     ],
     "2": [
       {
-        "title": "Pallavolo A1F - Santarelli e Wolosz: \"Orgogliosa della squadra, pur non facendo la nostra miglior partita abbiamo trovato il modo di giocare contro una forte Milano\" - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOYm4zdjJ5TTc2Qm5VN0xiU01fU05tbkU4eEFTRi11R0RRMGJLaDhUT2RhUDItelRTUTFfZk94a2Q0Z1Q2eVo1MFhTQk56a3pSeGZzd1BvNDRTTXN4UmtpN2tER2I0NUdjRHJoNndudWxKY2ZtRFM4UnlvdThPc3dBbmRodDN0eG93WnpvdWxGLWFMN3dOREJqZTg4Y2VEUVM5MldEVkt0RmNKNFpPUDlxSXIyWkYwTDFQNnRBemU3M1hQazhvQ193NEdXcUpCcm9kNmYxTktXZEYzdHpkZHV0R2xnNVVNNmRkdnNPdzBlYmpzYl92SENYRHlFUlBFdGdKY0kydlBLdEJZeklMVk1ySnNTQjkwQXZENzFzOVA5dUxNbS1rNV9CNVdB?oc=5",
-        "pubDate": "Sun, 22 Nov 2026 23:25:36 GMT",
-        "source": "iVolley Magazine"
+        "title": "Pallavolo maschile e femminile: il punto sui campionati delle squadre venete - RaiNews",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTWM4M1hKYzR0Ym5KNzFIZ2hWR01Vdkh6RVkwZm5UZXVmN2wwc0xHSWx4cXhTQUlQN05jZkVSUHh1eW5ZZkRRcHhybHVjZzI5Ull3Q2M1bEo0MXpWcVNqUENNdElBcFA4T25UbHdvNHJGY19rSHY0cGpqM1p6OGl0TFNkekRmMU1UQ3RrMjRsUWdqSmZ1ZVJlX3ZpYm4xeXZVY1hZSVBTR0w3eDdzNlBOTkxLcTlfb3JNY2Utd2FfbnpJWmpzSFZGMDNtZkdVbl9La0hWVEV0blgxLVdxdWpxaFY2RWV5cVhzRXBaTElybHFaeG5fSUhFd05MMkNlNFVa0gGGAkFVX3lxTE5WaktxcGRJSkpVbk43SnU5NGpuMWFGN2VHZDZEMXBEa1dJSGZlOTViRWRhN29tajFZZDF2QllpSnNjSTJqMmx4blN1VEZMREszM0lfSmxlMEI3M3V1NlQ0OXBJX0E2RlBHZF9uczlfdjNtNlc2LXBadGYtS21IX2lpbGhjWUN2ZGU2RDNJS2l0a2ZGcC1QUTBLTmdteV9IRm5CVXd4a29QanNXV1lMc29Xb3gyYjRwd3QtQ2hiQ3J4VG82a1I1c1VnaEdneldQUHZpaUEyRmFLa2xwZUZRUUh6enlXek5QbXJod2d0VzdmdHhEY3lYWGo0eGFZM0tUQ19CelRNOEE?oc=5",
+        "pubDate": "Mon, 23 Nov 2026 10:51:00 GMT",
+        "source": "RaiNews"
+      },
+      {
+        "title": "Egonu nella storia, Santarelli: “Il suo record rimarrà imbattuto, difficile trovarne un’altra come lei” - Volley News",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbFVNR1Z4SGliWUdUS2NNQndXaU02SG5Oa3dDQ0ZuUktVZEFjY09GUGxCNlc2N1pZMEpRTUFjbkg1N0pJdVEySXlMei1PeEVZa3JSTXhBV2FpWmx0SmJRak9QcmgwdXBtTkVOVVQ0TXlSemtZY2JrX2paSm0yVFhlM2RzUUFFNllJU1RHMkFBU2JBWG1SWlZGZng0cm1ZNXBuRkF4aWxDOHUtYXdua1RMd2UxNFpTSklyMjAzYmFCbl9nQQ?oc=5",
+        "pubDate": "Mon, 23 Nov 2026 10:34:38 GMT",
+        "source": "Volley News"
       },
       {
         "title": "QUARTO SET DA ANTOLOGIA, LA PROSECCO DOC BATTE MILANO IN UN FORUM DA RECORD (3-1) - Imoco Volley Conegliano",
@@ -45,12 +51,6 @@
         "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOGZaT2NrUFJGZm9maFNvbGdSU3hLS0lybGdQMlpHNlJsNHpGbUtHV0pZWjJuMzQ0dzdwX3lBMV8zR0xDWjJXZGpDcjBNLXZJSmo4bGxDREthQ1ZOUHJReFhQd2JNQWsxcENKSm1ZNFp0QnZJUmxrVDJrbE14THNKRzFHOFhEdldyWGRhSmh0OXFiV3JCbTVIMTJqUFV2enF1aTU2WFZwcG83VU5ReWZtejRxYmRHdHVZVE5YMENVckk0Z09FNWYwVElFZktnYWJjbG1mVjFqRjBxdzVTUW9JWENWVkVuNFZqYTVZMVZFdHBfUmZMTGc?oc=5",
         "pubDate": "Sun, 22 Nov 2026 16:00:52 GMT",
         "source": "iVolley Magazine"
-      },
-      {
-        "title": "L'estate \"d'oro\" di Daniele Santarelli: il coach torna al Conegliano dopo due trionfi - RaiNews",
-        "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQaUpha252UlpLcF9fV1JMTjlpS0dRcVN0Y0EyMjljTW1yakRyRUVLd1ZuVXhBelh6VEVrTS04WUlQcnNoOXJuZUZja2J4Y2o3YkQ2YklWZFI2bkNQVGVFWkpLcDV3cDdKUVA4dHpHajlTVURkbk5UNGlURGdJRkZFV29uVDBTVWpJM3RlSFhueE1BTVljWDZxeHJIa3FZei1hVmVQVy1xaTQxSlVGdFF3YnF5bndwZXIxdUMyRWxmTUtEUU1CMzlTVE15UHdpWHluT3BuZXMyNXlTak8zLTVaQko4elJfcnRoZ1dEM19QYjVTdWQzODVvN1RpZ1BJQdIBgwJBVV95cUxQbi03blI5OFFQS1dOTGFQbzY3NUhiNlJHdXphWkQ3LVBDRjVocGt4OS1fdkFmTk5XdUUyNW9TT3NybDl4a0tyU3kyN0RYUDFCWi02RUllYm85RThOT1hSYzlRcmRIaDhVWHhRekt6ckVOZ3lnYnV2SHBOSTRuYnNXT2dRMGlybWhtRm5BRXRiQXRjT0I5SjAwaXZuUGt6VTVWVDk5akpFREpNMVJsVzR3dU5WY2F4N3BCQ3QzN0tyc2ZMV0otVXpsSlBXV0ZWQkRRQTdyZnpYSVVvRFlLdEVTYUNCdHNwckpvQTJpbG13MTJXb21fV1hoRi1fOW4tcXVrV0VF?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
-        "source": "RaiNews"
       },
       {
         "title": "Daniele Santarelli, il Re Mida del volley che ha sconfitto l'Italia: «Sto bene in Turchia, il mio è un viaggio magico» - Corriere del Veneto",
@@ -120,12 +120,6 @@
     ],
     "6": [
       {
-        "title": "Pallavolo Mercato – La Passione Valdarno a completare il roster: arriva la polacca Kalina Pylinska - iVolley Magazine",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR0lZcGs4djNBSjEwdzA3MWtockRjTDNlYW00LVlkM255aFpYVmJiVWE4VmV0Vm52NW84WHhTQ0hybXJNWTVnZzl2d0gzdG1Oc0RXS1ZKWWY4X090Y1doUXhPS2dyWTd6dzJNSExad0ZVd1lWd0ViZm1BUjRSWnJuU3M0VC1LN2s2TTNoY3lNa25UT2xndHRuZ0NKNU0xVDdESEF4N0thaFRuZjliUzRSNlkwczREdXNvcXlQRmFzNy1FeDh3RzhqZzJhMmhXZlhWN01Xaw?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 07:00:00 GMT",
-        "source": "iVolley Magazine"
-      },
-      {
         "title": "Pallavolo Mercato - Mauro Chiappafreddo confermato alla Passione Valdarno: sarà il timoniere della prima storica A3 - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSmtlSFVLNFJ3V1h6dTJjVTNXRlo0ZS13dDZFZzVaYWZIYlRmUkFGYUl6bHFGeGFiSGJWcU5hX2xYbjZ2RnFhdkpHNU01a0lLN3kwTWxVVkZ5TUNZd0l4ZHFYTHoybFVMX1VHeHlMNG5VTmJ1OUQyZW9FTGZ2MHRYaHpYQXBQcFIwbm9lRk03VEdXR2tUQW1YTEZNVVZTMzI3cEd3Q1JoSTNyWGcwR2p2cTI1NE4wQkRyenNhRHlKNmpZQUxDQlFLSXExazRzNWdYREFDU0k0bko5ZmYzbTMzS1M0WmNfeGJVeVE?oc=5",
         "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
@@ -140,12 +134,6 @@
     ],
     "7": [
       {
-        "title": "Lega Pallavolo Serie A - Lega Pallavolo Serie A",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xMGFFemRlNmxxdDBMWThZN040VEVRcHc4a01LU3pENWt2aUFIN05GRmFYSU5GVl9vd2ppc1Q5T3RNeF9yZG5GTjRxczEydw?oc=5",
-        "pubDate": "Sun, 22 Nov 2026 20:54:13 GMT",
-        "source": "Lega Pallavolo Serie A"
-      },
-      {
         "title": "Pallavolo A3M - Gabbiano Mantova, partenza lanciata: Radici predica prudenza e guarda avanti - iVolley Magazine",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeURfMUVYWk9YSFBtVkQtTFpSMmJCUklRT0xtc2lNMUR2LWJHc3JkTnpuRGpuaFJ4d21mZWNsZDEzbHNlOFdLa21EVllnME9UdW12RXpFeDQtYTJzS3BUejJZWHJBYU9RYTAwdzQxU0JEVGp1anF2OXJZVmV0b0U3MTkyVVJISmFYTXJ1M29hRGNFb3ZGRUVzQ0o0NG1HWXNMWXE1QmRHZjEybjUwNVFpVG9FOVlIT2JuM1Y4dW9qVDl4bEp4SjlHbjFHZw?oc=5",
         "pubDate": "Fri, 13 Nov 2026 15:45:01 GMT",
@@ -156,6 +144,12 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMzFHaks1NWtxYllDQVZ5UF9wVHJRdVM3d0dPVlRkeXE3QkgtX3dFLTNILWtGWVp6M1ZnX0JLYVZ3UWsxUnFCcU5faWVUUDhoVGdxWGc3S3daZGlxQ251S1N4WERwTzBWY3hyRmFSZU55OEx3VkRwODY2TE1wZFY5aDRLbkcyVno4UnRlaA?oc=5",
         "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
         "source": "PerugiaToday"
+      },
+      {
+        "title": "Andrea Radici ha prolungato il rapporto con Mantova - Pianeta Volley",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1BRZjNLMUdoUDhJT3J0ZlBYSzJKN1BtSFJWWkJOMUw2X3VlejUtNHdZQUJtUkN2Y19ock5wLThULUNtQ2Vad2RhWDZNQnY5Y3BCVTl1WmEwbE9zZ1BGOVFfMVJRcEN4QmVsVnhubDFoelNCVkc2ODNmSGJtSkxmc3phcllTbjVnRkJMaXlvY0k1YUpC?oc=5",
+        "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
+        "source": "Pianeta Volley"
       },
       {
         "title": "A Città di Castello torna Andrea Radici - Pianeta Volley",

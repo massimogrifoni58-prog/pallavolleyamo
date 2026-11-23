@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T06:03:15.045622+00:00",
+  "generatedAt": "2026-11-23T15:39:57.934269+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -11333,15 +11333,6 @@
       "status": "in programma"
     },
     {
-      "id": "131644070",
-      "competition": "Under 19 Maschile Girone A",
-      "giornata": "Giornata 6",
-      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
-      "away": "STRIKE TEAM MONTELUCE U19",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644069",
       "competition": "Under 19 Maschile Girone A",
       "giornata": "Giornata 6",
@@ -11356,6 +11347,15 @@
       "giornata": "Giornata 6",
       "home": "SIR MERICAT ASSISI",
       "away": "PALLAVOLO GUBBIO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644070",
+      "competition": "Under 19 Maschile Girone A",
+      "giornata": "Giornata 6",
+      "home": "UMBERTIDE-COLOMBELLA VOLLEY",
+      "away": "STRIKE TEAM MONTELUCE U19",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -12998,15 +12998,6 @@
       "status": "disputata"
     },
     {
-      "id": "131644297",
-      "competition": "Under 17 Maschile Girone A",
-      "giornata": "Giornata 5",
-      "home": "SIR MERICAT OLMO",
-      "away": "MARCHETTI PRO VITT CHIUSI",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131644299",
       "competition": "Under 17 Maschile Girone A",
       "giornata": "Giornata 5",
@@ -13021,6 +13012,15 @@
       "giornata": "Giornata 5",
       "home": "ASD VOLLEY CASTIGLIONE DEL LAGO U17M",
       "away": "POLISPORTIVA DELFINO - PELLICANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131644297",
+      "competition": "Under 17 Maschile Girone A",
+      "giornata": "Giornata 5",
+      "home": "SIR MERICAT OLMO",
+      "away": "MARCHETTI PRO VITT CHIUSI",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20684,20 +20684,20 @@
       "status": "in programma"
     },
     {
-      "id": "131672994",
-      "competition": "Under 13 Femminile Girone C",
-      "giornata": "Giornata 4",
-      "home": "ORVIETO VOLLEY ACADEMY",
-      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672995",
       "competition": "Under 13 Femminile Girone C",
       "giornata": "Giornata 4",
       "home": "UMBRIA VOLLEY ACADEMY 13",
       "away": "PMU MARSCIANO",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672994",
+      "competition": "Under 13 Femminile Girone C",
+      "giornata": "Giornata 4",
+      "home": "ORVIETO VOLLEY ACADEMY",
+      "away": "POLISPORTIVA DELFINO - FAGIOLARI MOTOR",
       "score": "da disputare",
       "status": "in programma"
     },
