@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T06:01:28.099809+00:00",
+  "generatedAt": "2026-11-24T15:28:46.224342+00:00",
   "posts": [
     {
       "id": "worldcupfemminile2027le32nazio",
@@ -42,6 +42,14 @@
       "permalink": "https://www.volleyball.it/2026/11/11/notizie/argomenti/news-fipav/articolo/eurovolley-2026-oltre-78-mila-presenze-166-milioni-in-tv-e-social-da-record.html"
     },
     {
+      "id": "4",
+      "title": "Paola Egonu a 360°: \"Io tra le più forti al mondo, non la più forte. L'addio di Moki De Gennaro dalla Nazionale un'agonia. Ho pensato al ritiro\"",
+      "excerpt": "Fonte: eurosport.it",
+      "createdTime": "Wed, 11 Nov 2026 11:03:00 GMT",
+      "image": null,
+      "permalink": "https://www.eurosport.it/pallavolo/serie-a1-femminile/2026-2027/paola-egonu-a-360-io-tra-le-piu-forti-al-mondo-non-la-piu-forte.-laddio-di-moki-de-gennaro-dalla-nazionale-unagonia.-ho-pensato-al-ritiro_sto23354392/story.shtml"
+    },
+    {
       "id": "succedevaoggi9settembrei55anni",
       "title": "Succedeva oggi, 9 settembre: I 55 anni di Spada, la rivincita europea di Jesolo e il Mondiale al Foro Italico",
       "excerpt": "Il 9 settembre unisce generazioni, progetti e scenari fuori dall’ordinario. Nel 2026 cadono il...",
@@ -50,28 +58,12 @@
       "permalink": "https://www.volleyball.it/2026/09/09/notizie/argomenti/superlega/articolo/succedeva-oggi-9-settembre-i-55-anni-di-spada-la-rivincita-europea-di-jesolo-e-il-mondiale-al-for.html"
     },
     {
-      "id": "8",
-      "title": "Azzurri al Quirinale con il Presidente Mattarella",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Wed, 08 Oct 2025 11:23:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2025/10/08/161524557-2205c3e7-38de-4d02-855f-059cd70204b5.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2025/10/08-143692485/azzurri_al_quirinale_con_il_presidente_mattarella"
-    },
-    {
       "id": "vnllesquadrealvianelledizione2",
       "title": "VNL: Le squadre al via nell'edizione 2027",
       "excerpt": "MODENA - Con l'annuncio odierno della FIVB sono decise le squadre della VNL 2027.Torneo...",
       "createdTime": "Wed, 05 Aug 2026 00:27:00 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/08/Squadre_al_via_in_VNL_2027.png",
       "permalink": "https://www.volleyball.it/2026/08/05/notizie/argomenti/vnl-femminile/articolo/vnl-le-squadre-al-via-nelledizione-2027.html"
-    },
-    {
-      "id": "12",
-      "title": "Anzani si ritira dalla Nazionale di pallavolo da campione del mondo: “Prendete e piangetene tutti”",
-      "excerpt": "Fonte: fanpage.it",
-      "createdTime": "Wed, 01 Oct 2025 05:15:00 GMT",
-      "image": null,
-      "permalink": "https://www.fanpage.it/sport/altri-sport/anzani-si-ritira-dalla-nazionale-di-pallavolo-da-campione-del-mondo-prendete-e-piangetene-tutti/"
     },
     {
       "id": "worldcup2027definitele32nazion",
@@ -104,6 +96,14 @@
       "createdTime": "Tue, 28 Jul 2026 01:20:55 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/07/Allenamento_Italia.jpeg",
       "permalink": "https://www.volleyball.it/2026/07/28/notizie/argomenti/mercato-italia/articolo/mondo-volley-le-altre-news-del-27-luglio-2026-italia-usa-ai-quarti-bussolari-a-brugherio-le-azzu.html"
+    },
+    {
+      "id": "9",
+      "title": "Chi è Pier Paolo Sala, il nuovo allenatore della Pallavolo Follonica Invicta",
+      "excerpt": "Fonte: grossetosport.com",
+      "createdTime": "Tue, 24 Nov 2026 00:09:00 GMT",
+      "image": null,
+      "permalink": "https://www.grossetosport.com/2026/11/24/chi-e-pier-paolo-sala-il-nuovo-allenatore-della-pallavolo-follonica-invicta/"
     },
     {
       "id": "coppadelmondofemminile2027sort",
@@ -210,14 +210,6 @@
       "permalink": "https://www.volleyball.it/2026/07/30/notizie/argomenti/vnl-femminile/articolo/mondo-volley-le-altre-news-del-29-luglio-2026-zaytsev-trova-squadra-in-azerbaigian-la2-torna-a.html"
     },
     {
-      "id": "9",
-      "title": "Fipav e Csi firmano un'intesa per la pallavolo di base",
-      "excerpt": "Fonte: tuttosport.com",
-      "createdTime": "Thu, 28 May 2026 09:57:00 GMT",
-      "image": "https://cdn.tuttosport.com/images/2026/05/28/145141820-f3f9b992-54b1-43b5-981a-62a3089fe038.jpg",
-      "permalink": "https://www.tuttosport.com/news/pallavolo/nazionali/2026/05/28-148917093/fipav_e_csi_firmano_un_intesa_per_la_pallavolo_di_base"
-    },
-    {
       "id": "succedevaoggi17settembreilprim",
       "title": "Succedeva oggi, 17 settembre: Il primo Europeo femminile, Gioli e Nwakalor, il beach azzurro",
       "excerpt": "Dal primo titolo continentale femminile alle nuove generazioni azzurre, il 17 settembre attraversa...",
@@ -314,7 +306,7 @@
       "permalink": "https://www.volleyball.it/2026/07/26/notizie/argomenti/vnl-femminile/articolo/vnl-finals-bella-risposta-azzurra-litalia-chiude-con-il-bronzo-cina-battuta-3-1-nella-finale-p.html"
     },
     {
-      "id": "1",
+      "id": "3",
       "title": "Pallavolo Storie – Doug Beal, dagli Stati Uniti a Milano: l’impronta americana nella pallavolo italiana",
       "excerpt": "Fonte: ivolleymagazine.it",
       "createdTime": "Sun, 22 Nov 2026 04:05:00 GMT",
@@ -554,7 +546,7 @@
       "permalink": "https://www.volleyball.it/2026/08/22/notizie/argomenti/internazionale/articolo/succedeva-oggi-22-agosto-lavvio-del-trionfo-mondiale-gli-ingrosso-campioni-e-la-semifinale-oli.html"
     },
     {
-      "id": "7",
+      "id": "11",
       "title": "La Nazionale di sitting volley trionfa al Trieste Campus: Slovenia battuta 3-0 in finale",
       "excerpt": "Fonte: citysport.news",
       "createdTime": "Sat, 21 Nov 2026 15:59:00 GMT",
@@ -562,7 +554,7 @@
       "permalink": "https://www.citysport.news/it/notizie/pallavolo-a-trieste/la-nazionale-di-sitting-volley-trionfa-al-trieste-campus-slovenia-battuta-3-0-in-finale.html"
     },
     {
-      "id": "4",
+      "id": "6",
       "title": "Novara celebra gli 80 anni della FIPAV: premiate le eccellenze della pallavolo",
       "excerpt": "Fonte: lavocedinovara.com",
       "createdTime": "Sat, 14 Nov 2026 07:30:00 GMT",
@@ -640,6 +632,14 @@
       "createdTime": "Mon, 26 Oct 2026 16:14:37 GMT",
       "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/10/Sorteggio_Mondiale_tabellone.jpg",
       "permalink": "https://www.volleyball.it/2026/10/26/notizie/argomenti/mondiali/articolo/mondiali-femminili-2027-i-sorteggi-le-avversarie-delle-azzurre.html"
+    },
+    {
+      "id": "succedevaoggi26ottobrelitaliav",
+      "title": "Succedeva oggi, 26 ottobre: L’Italia verso il primo Mondiale, il bronzo di Xiamen e il compleanno di Pla",
+      "excerpt": "Il cammino azzurro del 1990, il podio di Lupo-Nicolai in Cina e un compleanno legato al campionato...",
+      "createdTime": "Mon, 26 Oct 2026 11:50:21 GMT",
+      "image": "https://www.volleyball.it/fileadmin/archivio/volleyball/2026/10/2013_—_Lupo-Nicolai.jpg",
+      "permalink": "https://www.volleyball.it/2026/10/26/notizie/argomenti/beach-volley/articolo/succedeva-oggi-26-ottobre-litalia-verso-il-primo-mondiale-il-bronzo-di-xiamen-e-il-compleanno.html"
     }
   ]
 }

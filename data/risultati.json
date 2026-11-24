@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T06:03:32.915606+00:00",
+  "generatedAt": "2026-11-24T15:30:55.508745+00:00",
   "matches": [
     {
       "id": "131626791",
@@ -6347,6 +6347,15 @@
       "status": "in programma"
     },
     {
+      "id": "131627310",
+      "competition": "Serie D Femminile Girone B",
+      "giornata": "Giornata 14",
+      "home": "MARCONI MONINI PALLAVOLO GREEN1",
+      "away": "NARNI SPORT ACADEMY",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
       "id": "131627311",
       "competition": "Serie D Femminile Girone B",
       "giornata": "Giornata 14",
@@ -6361,15 +6370,6 @@
       "giornata": "Giornata 14",
       "home": "FOLIGNO VOLLEY ASD",
       "away": "ED.I.TEC. CANNARA VOLLEY",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
-      "id": "131627310",
-      "competition": "Serie D Femminile Girone B",
-      "giornata": "Giornata 14",
-      "home": "MARCONI MONINI PALLAVOLO GREEN1",
-      "away": "NARNI SPORT ACADEMY",
       "score": "da disputare",
       "status": "in programma"
     },
@@ -20090,20 +20090,20 @@
       "status": "disputata"
     },
     {
-      "id": "131672929",
-      "competition": "Under 13 Femminile Girone A",
-      "giornata": "Giornata 2",
-      "home": "TRESTINA VOLLEY",
-      "away": "PALLAVOLO CITTA' DI CASTELLO",
-      "score": "da disputare",
-      "status": "in programma"
-    },
-    {
       "id": "131672928",
       "competition": "Under 13 Femminile Girone A",
       "giornata": "Giornata 2",
       "home": "NEW VOLLEY BORGO SANSEPOLCRO",
       "away": "TIBER VOLLEY FUCSIA",
+      "score": "da disputare",
+      "status": "in programma"
+    },
+    {
+      "id": "131672929",
+      "competition": "Under 13 Femminile Girone A",
+      "giornata": "Giornata 2",
+      "home": "TRESTINA VOLLEY",
+      "away": "PALLAVOLO CITTA' DI CASTELLO",
       "score": "da disputare",
       "status": "in programma"
     },
