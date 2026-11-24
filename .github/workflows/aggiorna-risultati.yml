@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: '0 21 * * 1-5'  # lunedi-venerdi: una volta, a fine serata (circa le 22 ora italiana), dopo le partite infrasettimanali
     - cron: '0 6-20/2 * * 0,6'  # sabato e domenica: ogni 2 ore, dalle 8:00 alle 22:00 ora italiana (estate/inverno +-1h)
+    - cron: '30 5 * * 1'  # lunedi mattina (circa le 7): scrive La Settimana Volley se nessuno l'ha scritta a mano
     - cron: '30 20-22 * * 0,6'  # sabato e domenica sera: ogni ora fino a mezzanotte circa (ora italiana)
   workflow_dispatch:
 concurrency:
@@ -56,6 +57,7 @@ jobs:
       - name: Aggiorna squadre in evidenza (ultimo risultato e prossima partita)
         run: |
           python scraper/aggiorna_squadre_evidenza.py
+          python scraper/settimana_auto.py
           python scraper/assegna_foto_sezioni.py
           python scraper/riepilogo_weekend_auto.py
       - name: Commit e push (senza force)
