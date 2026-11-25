@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T15:34:28.527159+00:00",
+  "generatedAt": "2026-11-25T04:02:54.889011+00:00",
   "campionati": [
     {
       "id": "serie-c-maschile",
@@ -9666,8 +9666,13 @@
         "ora": "19:00",
         "casa": "UISP VOLLEY UMBERTIDE",
         "ospite": "POLIS. DON BOSCO  GUBBIO VERDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-15",
+          "13-25",
+          "25-13",
+          "25-23"
+        ]
       },
       {
         "id": "giov-under-17-femminile-girone-a-21",
@@ -10888,8 +10893,14 @@
         "ora": "20:30",
         "casa": "ELLERA VOLLEY",
         "ospite": "COLLELUNA VOLLEY SAN GEMINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "25-20",
+          "22-25",
+          "24-26",
+          "25-16",
+          "15-12"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-b-19",
@@ -11215,8 +11226,13 @@
         "ora": "20:00",
         "casa": "MENCHETTI SCHOOL VOLLEY PERUGIA",
         "ospite": "REBELS MARCONI MONINI ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 1",
+        "parziali": [
+          "25-20",
+          "25-18",
+          "22-25",
+          "25-20"
+        ]
       },
       {
         "id": "giov-under-17-femminile-elite-13",
@@ -11596,8 +11612,12 @@
         "ora": "20:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "TRESTINA VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-9",
+          "25-18",
+          "25-17"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-a-20",
@@ -11607,8 +11627,14 @@
         "ora": "19:00",
         "casa": "REVISIONANDO VITT CHIUSI",
         "ospite": "PALLAVOLO CITTA' DI CASTELLO UJ19 BIANCA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "25-19",
+          "25-22",
+          "23-25",
+          "20-25",
+          "15-6"
+        ]
       },
       {
         "id": "giov-under-19-femminile-girone-a-21",
@@ -13190,8 +13216,14 @@
         "ora": "19:30",
         "casa": "CITTA DI CASTELLO PALLAVOLO",
         "ospite": "SIR MERICAT ASSISI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "2 - 3",
+        "parziali": [
+          "26-24",
+          "25-21",
+          "21-25",
+          "17-25",
+          "15-17"
+        ]
       },
       {
         "id": "giov-under-19-maschile-girone-a-15",
@@ -21388,8 +21420,12 @@
         "ora": "18:30",
         "casa": "FOLIGNO U15 ROSA",
         "ospite": "SIR PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "20-25",
+          "14-25",
+          "15-25"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-b-10",
@@ -22140,8 +22176,12 @@
         "ora": "18:30",
         "casa": "MARCONI MONINI PALLAVOLO",
         "ospite": "U14 FOLIGNO VOLLEY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "13-25",
+          "25-27",
+          "24-26"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-d-11",
@@ -22151,8 +22191,14 @@
         "ora": "16:30",
         "casa": "NARNI SPORT ACADEMY",
         "ospite": "BOSICO VOLLEY BLU GIOIELLERIE BARTOCCINI",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 2",
+        "parziali": [
+          "17-25",
+          "13-25",
+          "27-25",
+          "25-16",
+          "17-15"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-d-12",
@@ -22515,8 +22561,12 @@
         "ora": "18:00",
         "casa": "POLISPORTIVA CLT",
         "ospite": "ORVIETO VOLLEY ACADEMY",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "17-25",
+          "28-30",
+          "12-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-e-11",
@@ -23956,8 +24006,12 @@
         "ora": "17:00",
         "casa": "SCHOOL VOLLEY PERUGIA",
         "ospite": "SIR MERICAT PERUGIA",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "12-25",
+          "19-25",
+          "16-25"
+        ]
       },
       {
         "id": "giov-under-14-maschile-girone-unico-5",
@@ -25062,8 +25116,12 @@
         "ora": "20:00",
         "casa": "SAN MARIANO VOLLEY",
         "ospite": "SIRIO PALLAVOLO VERDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "3 - 0",
+        "parziali": [
+          "25-22",
+          "25-17",
+          "25-19"
+        ]
       },
       {
         "id": "giov-under-15-femminile-girone-d-12",
@@ -25786,8 +25844,12 @@
         "ora": "18:00",
         "casa": "NEW VOLLEY BORGO SANSEPOLCRO",
         "ospite": "UISP VOLLEY UMBERTIDE",
-        "risultato": null,
-        "parziali": []
+        "risultato": "0 - 3",
+        "parziali": [
+          "14-25",
+          "10-25",
+          "14-25"
+        ]
       },
       {
         "id": "giov-under-14-femminile-girone-a-10",
